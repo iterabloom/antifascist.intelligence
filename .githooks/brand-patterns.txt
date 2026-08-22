@@ -1,0 +1,35 @@
+# One pattern per line.
+# Blank lines and lines starting with # are ignored.
+
+GPT
+o-series
+o1
+o3
+Claude
+Gemini
+Gemma
+Grok
+Aya
+Titan
+Nova
+Phi
+Granite
+Llama
+Mixtral
+Qwen
+Qianwen
+ERNIE
+GLM
+Hunyuan
+Kimi
+Pangu
+CLOVA
+Falcon
+DBRX
+Arctic
+Jamba
+Doubao
+Seed-Coder
+
+# Optional: raw regex lines (YOU ensure portability across bash/perl/python):
+# re:Bet\s*MGM
