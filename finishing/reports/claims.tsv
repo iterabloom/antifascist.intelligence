@@ -279,3 +279,6 @@ C0277	2.2.1		quotation	"the neurons that shaped civilization"	phrase attributed 
 C0278	2.2.1		named_study	human single-neuron recordings, epilepsy depth electrodes	suggestive but less clean than macaque data	unverified	introduced by transplant T4 (pilot 2)
 C0279	2.2.1		named_study	2009 review, broken-mirror hypothesis of autism	no particular impairment in action understanding or imitation under instruction	unverified	introduced by transplant T4 (pilot 2)
 C0280	2.2.1		named_theory	later narrowing of the mirror-neuron claim	Rizzolatti's later position: mirror neurons as one component of a larger action-understanding system	unverified	introduced by T4 after the name rule was relaxed; needs the specific paper
+C0281	3.1.1		named_system	ACT-R	Adaptive Control of Thought-Rational cognitive architecture, John Anderson	unverified	
+C0282	3.1.1		named_system	Society of Mind	Minsky's Society of Mind architecture	unverified	
+C0283	3.1.1		named_theory	predictive processing / active inference	single-loop account unifying perception, memory, attention, executive function under prediction-error minimization	unverified	introduced by transplant T15

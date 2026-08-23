@@ -13,13 +13,21 @@ frozen 2024 text, pinned by digest.
 
 ## What has actually been done to the prose
 
-**Two sections, out of 156.**
+**Four sections, out of 156. One accepted, three drafted and awaiting review.**
 
 - **§3.1.2.3.1.1 Attention** — revised, transplant T11 landed, author accepted. Now folded into §3.1.2 as a run-in head.
 - **§2.2.1** — transplant T4 (the mirror-neuron box) drafted, not yet author-accepted. T3 will later replace the surrounding prose.
+- **§3.1 Incorporating Human Cognitive Models…** — P3 revise drafted (380 → ~208 words), not yet author-accepted. First section of the P3 pass proper.
+- **§3.1.1 Cognitive Architectures** — P3 revise drafted, transplant T15 landed as a boxed passage adjudicating ACT-R vs. Society of Mind via the predictive-processing frame (484 → ~410 body words + a ~330-word box), not yet author-accepted. Two new claim placeholders for the named systems (C0281 ACT-R, C0282 Society of Mind) plus one for the transplanted frame (C0283).
 
 Everything else has been *structured*, not written: folded, cut, moved,
 renumbered. No other sentence in the book has changed since 2024.
+
+**§3.1.2 is next and is the largest single piece of work in the book**: 12,149
+words, 24 absorbed subsections carrying run-in heads (one already revised —
+the Attention pilot), and five more transplants still to land (T5, T12, T13,
+T14, T16). It will not go in one session; expect it revised run-in-head by
+run-in-head across several.
 
 ## Passes
 
@@ -27,20 +35,17 @@ renumbered. No other sentence in the book has changed since 2024.
 |---|---|
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | **done** — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
-| P2 Cut/dedupe | **open question** — most of it was absorbed into P1's folds and the cluster homes; what remains is section-level work that arguably belongs to P3. See below. |
-| P3 Revise | not started — 154 sections |
-| P4 Source | not started — ~279 claim placeholders |
+| P2 Cut/dedupe | **dropped, D-021** — folded into P3; what remained (RoboCup duplicate, §8.4.1's halves, compression targets) travels with the section it belongs to |
+| P3 Revise | **started, chapter 3** — 3 sections drafted (§3.1, §3.1.1, plus the earlier §2.2.1), 1 accepted (§3.1.2.3.1.1); 152 sections untouched |
+| P4 Source | not started — ~282 claim placeholders (3 added landing T15) |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-## The immediate open question
+## The immediate open item
 
-**Does P2 survive as a separate pass?** The triage resolved most duplication
-into folds and cluster homes, so what is left is: the RoboCup example duplicated
-across §10.3.2 and §10.3.3, §8.4.1's two self-restating halves (now inside
-§7.5), and the compression targets. All of those are edits to a specific
-section, which is what P3 does. My recommendation is to drop P2 and fold its
-items into P3, but that changes the plan, so it needs the author's word.
+**§3.1 and §3.1.1 are drafted and waiting on the author's read** (max 2 rounds
+per D-001). Neither is Accepted yet. §3.1.2 — 12,149 words, 24 run-in heads,
+five transplants — is next and will need several sessions.
 
 ## What P1 deliberately left for P3
 
@@ -55,8 +60,7 @@ Carried on the ledger rows:
 ## Open with the author
 
 - **Q-011** — does chapter 2 keep its title, given that it now argues compassion is the design target and empathy is not. Default is to retitle; applies when P3 reaches chapter 2.
-- **The roadmap promise** — the introduction promises a roadmap §10.2 does not deliver, and §10.2.1 concedes it. Under D-007 building one is out of scope, so either the promise changes or D-007 gets an exception.
-- **P2** — see above.
+- **Q-013** — the roadmap the introduction promises §10.2 does not deliver, and §10.2.1 concedes it. Under D-007 building one is out of scope, so either the promise changes or D-007 gets an exception. Applies when P3 reaches chapter 1.
 
 ## Where everything lives
 
