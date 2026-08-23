@@ -1,8 +1,8 @@
 # State of play
 
 Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
-author accepted chapters 2-5 and 7 in one batch, then chapter 6 was drafted
-(chapter order moves to 9 next, per `PLAN.md`).
+author accepted chapters 2-5 and 7 in one batch, then chapters 6 and 9 were
+drafted (chapter order moves to 10 next, per `PLAN.md`).
 
 ## Where the book is
 
@@ -11,7 +11,7 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-78,647 words as of the last `section_stats.py` run — down from ~113,000 before
+79,370 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
 ~19,240 to 14,266; chapter 5 from 9,021 to 8,090; chapter 7 from ~19,578 to
@@ -20,7 +20,8 @@ the largest proportional cut yet (29%) — it absorbed the entire former
 chapter 8 as §7.5 and had accumulated real redundancy on top of that (§7.2.5.3
 alone was the book's third-largest cross-chapter redundancy hub); chapter 6
 went from 8,617 to 5,369, a 38% cut, the largest proportional cut of any
-chapter so far.
+chapter so far; chapter 9 went from 3,808 to 4,531, the only chapter so far to
+grow rather than shrink — see below.
 
 ## What has actually been done to the prose
 
@@ -36,10 +37,10 @@ this acceptance, and §7.2.2 contains claims (Clearview's accuracy marketing,
 the Carnegie AIGS Index, GPAI's founding) that STATE.md's chapter-7 account
 below says were corrected on high-confidence background knowledge rather than
 live-verified — both are now accepted along with everything else, but neither
-has had that specific gap closed. Chapter 6 is now drafted too (below) but not
-yet author-accepted. Chapters 1, 8 (folded into 7.5), 9, 10 (27 sections, plus
-the §3 opener — 28 total) are untouched since 2024: folded, cut, and moved by
-P1, but not a sentence of their prose has changed.
+has had that specific gap closed. Chapters 6 and 9 are now drafted too (both
+below) but neither is yet author-accepted. Chapters 1, 8 (folded into 7.5),
+10 (16 sections, plus the §3 opener — 17 total) are untouched since 2024:
+folded, cut, and moved by P1, but not a sentence of their prose has changed.
 
 - **Chapter 6** (16 sections, 5,369 words, down from 8,617 — 38%, the
   largest proportional cut of any chapter so far): every section revised,
@@ -101,6 +102,63 @@ P1, but not a sentence of their prose has changed.
   (Canada, Singapore, Taiwan's brand-new December 2025 AI Basic Act) plus
   one real, verified harmonization mechanism (the March 2022 US-Singapore
   APEC Cross-Border Privacy Rules agreement).
+
+- **Chapter 9** (11 sections, 4,531 words, up from 3,808 — the only chapter
+  so far to grow rather than shrink): every section revised, including both
+  empty openers (§9.1, §9.2). The 2023 draft was almost pure filler — a
+  bullet-point research wishlist that mostly restated chapters 2-7 in vaguer,
+  unsourced language, with zero named research and zero citations across all
+  eight body sections. D-007 still governs (revise, not rewrite: chapter 9
+  stays a research-directions chapter), but the substantive work here *was*
+  the cut: identifying which of the eight sections' claims were genuinely
+  open, unsolved problems the earlier chapters raised and set aside, versus
+  which were just the earlier chapters restated. Reframed the chapter's job
+  accordingly — name specific open problems, cite real current research where
+  it exists, say plainly where it doesn't, rather than gesture at "more
+  research needed." §9.1.1 now covers the responsibility gap (Matthias 2004;
+  Santoni de Sio & Mecacci 2021) instead of re-surveying chapter 2's ethical
+  frameworks. §9.1.2 covers whether an ethics-embedding method generalizes
+  past its test distribution (specification gaming, goal misgeneralization)
+  instead of re-deriving chapter 2's translation-to-objective-function
+  material. §9.1.3 grew rather than shrank — its seven original bullets were
+  unsourced gestures with no real content to keep, replaced with three live
+  technical threads (RLHF and its sycophancy failure, scalable oversight via
+  debate and weak-to-strong generalization, preference aggregation as a
+  social-choice problem). §9.1.4 surfaces a real, unresolved neuroscience
+  dispute (whether the temporoparietal junction is a dedicated theory-of-mind
+  module or a domain-general attention hub) and the live 2023 LLM-theory-of-
+  mind controversy (Kosinski vs. Ullman). §9.1.5 and §9.1.6 had the chapter's
+  worst internal duplication — their closing paragraphs were near-identical
+  in the 2023 draft — split into non-overlapping jobs: §9.1.5 on multi-agent
+  systems and documented uncoordinated AI collusion (Calvano et al. 2020),
+  §9.1.6 on learning from disagreement rather than consensus (RLHF's
+  disagreement-aggregation problem vs. jury learning). §9.2.1 surfaces the
+  genuine, citable scientific dispute over whether emotion is legible from a
+  face at all (Barrett et al.'s 2019 APS-commissioned review), grounded in
+  two real consequences (HireVue dropping facial scoring in 2021; the EU AI
+  Act's ban on workplace emotion-inference AI). §9.2.2 narrows "AI
+  self-awareness" to whether a model's self-report about its own internal
+  state is accurate (Anthropic's interpretability work) and "resistance to
+  manipulation" to two distinct, measurable robustness problems (prompt-level
+  jailbreak resistance; weight-level fine-tuning attacks) rather than the
+  anthropomorphized framing the 2023 draft used.
+  One hand-drafted section opener (§9.1) contained a factual error, caught
+  by one of the three parallel agents rather than by me: it attributed the
+  empathy/theory-of-mind neuroscience to chapter 3, when that material
+  actually lives in chapter 2 (§2.2.1-§2.2.2); chapter 3 covers learning
+  from experience and observation instead. Corrected before integration.
+  One cross-chapter overlap was flagged rather than resolved: §9.1.5's old
+  "fostering AI resilience" item is a near-duplicate of chapter 10's
+  still-unrevised §10.3.3 ("Building Resilience and Robustness in AI Systems
+  for Anti-Authoritarian Applications"); §9.1.5 was deliberately kept to a
+  single cross-reference sentence rather than expanded, leaving the fuller
+  treatment for chapter 10's own P3 pass. (§10.3.2 was checked and is not a
+  duplicate — it covers bias/unemployment/healthcare mitigation instead.)
+  All 30 named claims in this chapter were verified via live web search
+  before being kept; none were carried forward unverified, and none needed
+  cutting for failing verification — everything from the 2023 draft that
+  named nothing specific was cut on sight as unverifiable in principle
+  rather than searched and failed.
 
 - **Chapter 7** (23 sections, 13,925 words): every section revised, including
   the empty opener. The §7.4 tree (sentience/accountability/legal
@@ -272,13 +330,13 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapter 6 drafted, not yet author-accepted; chapters 1, 9, 10 not started (27 sections + §3)** |
-| P4 Source | not started — claims ledger now at 479 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
+| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 6 and 9 drafted, not yet author-accepted; chapters 1, 10 not started (16 sections + §3)** |
+| P4 Source | not started — claims ledger now at 509 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **9 →
-10 → 1 last.**
+**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **10 →
+1 last.**
 
 ## The immediate open items
 
@@ -287,22 +345,29 @@ suspected fabrication during P3 itself.
   because it was never revised. Everything else in those chapters is now
   author-accepted; D-001's two-round return path no longer applies to them
   unless the author reopens a specific section.
-- **Chapter 6 is drafted but not author-accepted** — 16 sections waiting on a
-  read, same as the rest of the drafted-not-accepted backlog before it.
+- **Chapters 6 and 9 are drafted but not author-accepted** — 16 and 11
+  sections respectively, waiting on a read, same as the rest of the
+  drafted-not-accepted backlog before them.
 - **`finishing/outline.tsv` and `manuscript/table-of-contents.txt` have
-  accumulated 22 stale titles** against the manuscript's own (authoritative,
-  D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 new from
-  chapter 6 (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`,
-  `06_04_01`). `check_structure.py` treats this as a note, not an error, so
-  it hasn't blocked anything — but it's real drift, not yet fixed by any
-  chapter's revision pass so far, worth a dedicated sync (`headings.py
-  --write-toc`, plus a hand pass on `outline.tsv`) once structure has fully
-  settled rather than chapter by chapter. `finishing/reports/
-  headings_reconcile.md` has the full list.
+  accumulated 30 stale titles** against the manuscript's own (authoritative,
+  D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
+  (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`, `06_04_01`), 8
+  new from chapter 9 (`09_01_01` through `09_01_06`, `09_02_01`, `09_02_02`
+  — every chapter-9 body section was retitled). `check_structure.py` treats
+  this as a note, not an error, so it hasn't blocked anything — but it's real
+  drift, not yet fixed by any chapter's revision pass so far, worth a
+  dedicated sync (`headings.py --write-toc`, plus a hand pass on
+  `outline.tsv`) once structure has fully settled rather than chapter by
+  chapter. `finishing/reports/headings_reconcile.md` has the full list.
 - **An unverified "Madry et al. 2017" OpenAI/Google-Brain attribution** was
   spotted in unrevised §10.3.3 while a chapter-5 agent was resolving a
   redundancy against it — not touched, out of scope at the time. Check it for
   fabrication when P3 reaches chapter 10.
+- **§10.3.3's resilience/robustness material still needs its P3 pass**,
+  flagged again from chapter 9: §9.1.5 deliberately left this material
+  compressed to one cross-reference sentence rather than duplicating it, so
+  the fuller treatment is chapter 10's job when P3 reaches it, not optional
+  scope already covered elsewhere.
 - **The Clearview/AIGS Index/GPAI details in §7.2.2** were corrected on
   high-confidence background knowledge, not live-verified this session (the
   agent's web-search budget ran out mid-task) — worth a spot-check before P4
@@ -312,8 +377,8 @@ suspected fabrication during P3 itself.
 
 ## What P1 deliberately left for P3, still ahead
 
-- **3 empty openers remaining**: chapter 10 and §§9.1, 9.2 (§4.6, §4.7, §5,
-  §6, and §7 are now filled).
+- **1 empty opener remaining**: chapter 10 (§4.6, §4.7, §5, §6, §7, and
+  §§9.1/9.2 are now filled).
 - **§1.3**: restore the subheadings deleted in 2024, hit the 1,400-word target.
 - **Compression targets**: §10.3.2.1 → 150, §10.1.1/.2 → 200, §10.1.3 → 100
   (§4.2.2's own target was overtaken by the revise pass — it's now 418 words
@@ -338,7 +403,7 @@ suspected fabrication during P3 itself.
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 479 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 509 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start** |
 

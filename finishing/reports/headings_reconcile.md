@@ -14,7 +14,7 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 22
+- same number, different title: 30
 
   - `2`
     - manuscript: Foundations of Compassion and Empathy in Friendly AI
@@ -82,12 +82,36 @@ none
   - `7.4.4`
     - manuscript: What Keeps the Apparatus More Than Aspirational
     - outline: Promoting a Culture of Ethical Responsibility in AI Development
+  - `9.1.1`
+    - manuscript: Moral Responsibility Without a Responsible Party
+    - outline: Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism
+  - `9.1.2`
+    - manuscript: When an Ethics-Embedding Method Stops Generalizing
+    - outline: Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems
+  - `9.1.3`
+    - manuscript: Value Learning as Unfinished Technical Research
+    - outline: Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values
+  - `9.1.4`
+    - manuscript: Open Questions in Empathy and Theory-of-Mind Research
+    - outline: Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments
+  - `9.1.5`
+    - manuscript: Can a Multi-Agent AI System Resist Being Captured?
+    - outline: Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities
+  - `9.1.6`
+    - manuscript: Learning From Disagreement Instead of Consensus
+    - outline: Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors
+  - `9.2.1`
+    - manuscript: Is Emotion Legible From a Face at All?
+    - outline: Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior
+  - `9.2.2`
+    - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
+    - outline: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
 
 ## Manuscript vs stale TOC (historical; retired under D-011)
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (22):
+- same number, different title (30):
 
   - `2`
     - manuscript: Foundations of Compassion and Empathy in Friendly AI
@@ -155,8 +179,32 @@ none
   - `7.4.4`
     - manuscript: What Keeps the Apparatus More Than Aspirational
     - TOC: Promoting a Culture of Ethical Responsibility in AI Development
+  - `9.1.1`
+    - manuscript: Moral Responsibility Without a Responsible Party
+    - TOC: Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism
+  - `9.1.2`
+    - manuscript: When an Ethics-Embedding Method Stops Generalizing
+    - TOC: Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems
+  - `9.1.3`
+    - manuscript: Value Learning as Unfinished Technical Research
+    - TOC: Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values
+  - `9.1.4`
+    - manuscript: Open Questions in Empathy and Theory-of-Mind Research
+    - TOC: Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments
+  - `9.1.5`
+    - manuscript: Can a Multi-Agent AI System Resist Being Captured?
+    - TOC: Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities
+  - `9.1.6`
+    - manuscript: Learning From Disagreement Instead of Consensus
+    - TOC: Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors
+  - `9.2.1`
+    - manuscript: Is Emotion Legible From a Face at All?
+    - TOC: Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior
+  - `9.2.2`
+    - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
+    - TOC: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
 
 ## Headings with no body text before the next heading
 
-9.1, 9.2, 10
+10
 
