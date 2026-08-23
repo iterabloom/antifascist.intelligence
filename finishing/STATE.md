@@ -16,12 +16,12 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-74,594 words as of the last `section_stats.py` run — down from ~113,000 before
+74,602 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
 the chapter, which was already accepted); chapter 4 from
-~19,240 to 14,111 (the last 155 off in the P3.5 sweep, below); chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
+~19,240 to 14,119 (155 off in the P3.5 sweep, 8 back in the author's §4.7.1 rewrite, below); chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
 edits: the 17-word stale-pointer fix from chapter 10's integration, and the
 racial-capitalism paragraph added to §5.1 at the author's request — below); chapter 7 from
 ~19,578 to 13,925 (25 words added post-acceptance for the opener continuity
@@ -75,8 +75,24 @@ untouched since 2024.
   author's own hand, is one per 199. **Closing that remaining gap would mean
   cutting load-bearing contrasts, which this pass did not do** — whether an
   argumentative body chapter should match an introduction's density is a
-  judgment for the author, not something to assume. Chapters 2, 3, 5, 6, 7,
-  9, and 10 not yet swept.
+  judgment for the author, not something to assume.
+- **P3.5 calibration audited and confirmed** (2026-08-23): the author asked
+  for five of the *kept* constructions at random, judged one at a time.
+  **All five were keeps** — §4.3.3's partial-view-not-settled-answer,
+  §4.4.5's re-implemented-not-assumed-to-carry-over, §4.2.1's four-contrast
+  guilt/shame sentence, §4.6.2's architecture-generates-pull-not-rule, and
+  §4.7.1's play-not-instruction. The 21% cut rate is therefore the right
+  rate, not a conservative one, and **chapter 1's one-per-199 density is not
+  the target for body chapters**: the sweep keeps its current standard for
+  the remaining chapters. One finding came out of the audit that the sweep
+  itself was not built to catch — §4.7.1's paragraph made the same contrast
+  twice in adjacent sentences (choices-its-own-not-a-script, then
+  play-not-instruction), which is redundancy across sentences rather than a
+  defensive clause inside one. The author rewrote that paragraph by hand
+  (splitting the opening sentence in three, scare-quoting the system's
+  "own" winning and choices, and hedging felt experience); the doubled
+  contrast was kept deliberately. Chapters 2, 3, 5, 6, 7, 9, and 10 not yet
+  swept.
 - **Author hand-revision of chapter 1 + the D-024 antifascist rebrand**
   (2026-08-23, after the chapter 1 P3 draft below): the author revised all
   four chapter 1 sections by hand — the thesis is now "altruistic and
