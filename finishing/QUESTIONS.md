@@ -2,12 +2,14 @@
 
 **Session digest — 2026-08-22**
 
-- Created `finishing/` (README, this file, `DECISIONS.md`, `PLAN.md`, `outline.tsv`, `ledger.tsv`, tools, reports).
-- Split the manuscript into 282 per-section files under `manuscript/sections/`. The join is **byte-identical** to the frozen v3b (`cmp` clean); tags `v3b-import` and `v4-split` mark before and after.
-- Confirmed: manuscript and the v3b spreadsheet agree on all 282 section numbers, with **one** title difference (3.1.2.3.1.11) → Q-006. `table-of-contents.txt` has 293 entries and is stale → Q-005.
-- Measured 115,377 body words (117,859 in file, less headings, epigraphs, tags, notes). 11 headings have no body text.
-- Guardrails live: named-persons guard, commit-message dry-run, round-trip and structure checks, all wired into `finishing/tools/check_all.sh`.
-- **Nothing needs an answer to keep going.** The batch below shapes what gets assessed next; every item has a default that applies on its own if you say nothing.
+- Created `finishing/` and split the manuscript into 282 per-section files under `manuscript/sections/`. The join is **byte-identical** to the frozen v3b (`cmp` clean). Tags `v3b-import`, `v4-split`.
+- Guardrails live and green: round-trip, structure, named-persons, commit-message dry-run — all under `finishing/tools/check_all.sh`.
+- Measured: 115,377 body words; 11 headings with no body text; manuscript and the v3b spreadsheet agree on all 282 numbers with one title conflict (Q-006).
+- **Citation debt: 268 items in 91 sections.** Mostly named bodies, laws and systems. The book contains 3 percent-signs and 9 hedged-evidence phrases in 115k words — it asserts very little that is checkable, which is its own problem.
+- **585 unmarked list items in 102 sections**, chapters 2–10 (not 4–8 as I previously assumed); chapter 3 has the most.
+- **Redundancy: nothing is copy-pasted, but two arguments are each written 6–9 times.** See `reports/redundancy.md` and Q-008 below. §2.4 and §7.4 are one treatment written twice; their informed-consent pair is the single highest-scoring section pair in the book.
+- `ledger.tsv` now carries evidence links for 190 of 282 sections.
+- **Nothing needs an answer to keep going.** The batch below shapes the next assessments; every item has a default that applies on its own if you say nothing.
 
 ---
 
@@ -57,3 +59,14 @@ Three: Run the Jewels lyrics (Chapter 1), Lady Gaga / Bradley Cooper lyrics (§2
 - **(a) Default.** Drop all three. The opening paragraph already carries the same idea in your own words.
 - (b) Keep them and open a licensing task, with a date after which they are dropped.
 - (c) Keep the Westworld dialogue only (the most defensible), drop the lyrics.
+
+### Q-008 — Where do the two repeated arguments live? (new; from the redundancy analysis)
+Nothing in the book is copy-pasted, but two arguments are each made six to nine times in different words, in different chapters:
+
+**Cluster A — "promote democratic values through international cooperation":** §5.4.3, §7.2.5.3, §4.6.3.1.2, §10.1.3, §8.2.1, §8.2.3, §8.3.1, §6.4.1.12, §10.3.2.1. The pair §5.4.3 ↔ §7.2.5.3 scores 0.950, second-highest in the book. Every one of §5.4.3's thirteen high-similarity partners is in another chapter — it has no relatives at home.
+
+**Cluster B — "emotional intelligence and affective computing":** §2.3.1, §2.3.2, §4.2.2, §4.2.2.1, §3.1.2.3.1.10, §9.2.3. Note §2.3.1 is a **47-word stub** that nevertheless has ten cross-chapter twins: the material that belongs there was written three times elsewhere.
+
+- **(a) Default — decide in triage.** Each cluster gets one home during Phase 3, and the other instances are cut or reduced to a cross-reference. I propose the argument, you rule.
+- (b) Tell me the homes now, if you already know where each belongs.
+- (c) Treat the repetition as deliberate reinforcement and leave it.

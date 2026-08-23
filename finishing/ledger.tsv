@@ -1,283 +1,283 @@
 num	title	level	words_v3b	status	action	quarry_src	evidence	decisions	owner	notes
-1	Introduction	1	370	untouched						
+1	Introduction	1	370	untouched			xchapter-pairs:1			
 1.1	The Imperative of Altruistic and Anti-Authoritarian Sentient Machines	2	167	untouched						
 1.2	Aims and Objectives	2	191	untouched						
-1.3	Mindset and Motivation in AI Behavior	2	2513	untouched						
+1.3	Mindset and Motivation in AI Behavior	2	2513	untouched			xchapter-pairs:2			
 2	Foundations of Empathy and Compassion in Friendly AI	1	74	untouched						
-2.1	Ethical Frameworks and AI Alignment	2	415	untouched						
-2.1.1	Surveying Ethical Theories for AI Alignment	3	592	untouched						
+2.1	Ethical Frameworks and AI Alignment	2	415	untouched			xchapter-pairs:5			
+2.1.1	Surveying Ethical Theories for AI Alignment	3	592	untouched			xchapter-pairs:2			
 2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	untouched						
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	untouched						
-2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	untouched						
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	untouched						
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	untouched			xchapter-pairs:3			
+2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	untouched			xchapter-pairs:3;unmarked-list-items:7			
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	untouched			claims:2;dated:2			
 2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	untouched						
 2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	untouched						
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	untouched						
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	untouched			xchapter-pairs:2			
 2.3	Emotional Intelligence and Self-awareness	2	365	untouched						
-2.3.1	Components of Emotional Intelligence	3	411	untouched						
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	untouched						
+2.3.1	Components of Emotional Intelligence	3	411	untouched			cluster:emotional-intelligence;xchapter-pairs:10;claims:1			
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	untouched			cluster:emotional-intelligence;xchapter-pairs:1			
 2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	untouched						
-2.4	Ethical implications of experimenting on sentient machine subjects	2	35	untouched						
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	untouched						
+2.4	Ethical implications of experimenting on sentient machine subjects	2	35	untouched			claims:1;dated:1			
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	untouched			claims:2;dated:2			
 2.4.2	Ethical Considerations in AI Research and Experimentation	3	85	untouched						
 2.4.2.1	The Principle of Beneficence	4	317	untouched						
-2.4.2.2	The Principle of Autonomy	4	345	untouched						
+2.4.2.2	The Principle of Autonomy	4	345	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1			
 2.4.2.3	The Principle of Justice	4	300	untouched						
 2.4.2.4	The Precautionary Principle	4	311	untouched						
 2.4.2.5	The Principle of Transparency	4	303	untouched						
-2.4.2.6	Interdisciplinary Ethical Review and Oversight	4	743	untouched						
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	untouched						
+2.4.2.6	Interdisciplinary Ethical Review and Oversight	4	743	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1			
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1			
 2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	352	untouched						
-2.4.4.1	Informed Consent in AI Research	4	371	untouched						
+2.4.4.1	Informed Consent in AI Research	4	371	untouched			parallel:2.4-vs-7.4;xchapter-pairs:2			
 2.4.4.2	Respect for AI Autonomy	4	288	untouched						
 2.4.4.3	Balancing Scientific Progress with Ethical Constraints	4	266	untouched						
 2.4.4.4	Ethical Review and Oversight	4	384	untouched						
-2.4.4.5	Promoting a Culture of Ethical Responsibility in AI Research	4	364	untouched						
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	untouched						
+2.4.4.5	Promoting a Culture of Ethical Responsibility in AI Research	4	364	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1			
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	untouched			claims:1;unmarked-list-items:2			
 2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	69	untouched						
-2.4.6.1	Identifying and Assessing Dilemmas	4	390	untouched						
+2.4.6.1	Identifying and Assessing Dilemmas	4	390	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1			
 2.4.6.2	Value Pluralism and Moral Trade-offs	4	271	untouched						
 2.4.6.3	Precedent in Animal Research Ethics	4	344	untouched						
 2.4.6.4	Institutional Review Boards (IRBs) for AI Sentience Research	4	336	untouched						
-2.4.6.5	Promoting Ethical Responsibility and Transparency	4	365	untouched						
+2.4.6.5	Promoting Ethical Responsibility and Transparency	4	365	untouched			parallel:2.4-vs-7.4			
 2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	44	untouched						
 2.4.7.1	Recognizing the Emergence of Sentience in AI Systems	4	396	untouched						
 2.4.7.2	Adapting Research Practices and Ethical Guidelines	4	421	untouched						
 2.4.7.3	Establishing Legal and Regulatory Frameworks	4	410	untouched						
-2.4.7.4	Educating Stakeholders and Fostering a Culture of Ethical Responsibility	4	450	untouched						
+2.4.7.4	Educating Stakeholders and Fostering a Culture of Ethical Responsibility	4	450	untouched			parallel:2.4-vs-7.4;claims:1			
 3	Machine Learning and Cognitive Science	1	79	untouched						
 3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	untouched						
 3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	untouched						
 3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	527	untouched						
-3.1.2.1	Neural Networks and Brain-Inspired AI Models	4	512	untouched						
+3.1.2.1	Neural Networks and Brain-Inspired AI Models	4	512	untouched			claims:1;dated:1			
 3.1.2.2	Hierarchical Processing and the Visual Cortex	4	544	untouched						
-3.1.2.3	Cognitive and Emotional Processes	4	345	untouched						
+3.1.2.3	Cognitive and Emotional Processes	4	345	untouched			xchapter-pairs:4			
 3.1.2.3.1	Cognitive and Emotional Processes	5	202	untouched						
-3.1.2.3.1.1	Attention	6	587	untouched						
+3.1.2.3.1.1	Attention	6	587	untouched			claims:2			
 3.1.2.3.1.2	Perception	6	515	untouched						
 3.1.2.3.1.3	Memory	6	503	untouched						
-3.1.2.3.1.4	Reasoning and Problem Solving	6	642	untouched						
-3.1.2.3.1.5	Metacognition	6	520	untouched						
-3.1.2.3.1.6	Emotional Recognition and Perception	6	821	untouched						
+3.1.2.3.1.4	Reasoning and Problem Solving	6	642	untouched			unmarked-list-items:5			
+3.1.2.3.1.5	Metacognition	6	520	untouched			unmarked-list-items:3			
+3.1.2.3.1.6	Emotional Recognition and Perception	6	821	untouched			xchapter-pairs:3;unmarked-list-items:2			
 3.1.2.3.1.7	Emotional Mimicry and Empathy	6	382	untouched						
-3.1.2.3.1.8	Emotional Regulation	6	449	untouched						
-3.1.2.3.1.9	Emotion and Decision-Making	6	469	untouched						
-3.1.2.3.1.10	Emotion-Driven Learning and Adaptation	6	376	untouched						
-3.1.2.3.1.11	Applications and Examples	6	887	untouched						
-3.1.2.3.1.11.1	Frameworks for Integration	7	553	untouched						
-3.1.2.3.1.11.2	Challenges in Integration	7	497	untouched						
-3.1.2.3.1.11.3	Examples of Integrated AI Systems	7	373	untouched						
+3.1.2.3.1.8	Emotional Regulation	6	449	untouched			xchapter-pairs:4;claims:1;unmarked-list-items:4			
+3.1.2.3.1.9	Emotion and Decision-Making	6	469	untouched			xchapter-pairs:5;unmarked-list-items:3			
+3.1.2.3.1.10	Emotion-Driven Learning and Adaptation	6	376	untouched			cluster:emotional-intelligence;xchapter-pairs:5;unmarked-list-items:4			
+3.1.2.3.1.11	Applications and Examples	6	887	untouched			xchapter-pairs:3;unmarked-list-items:5			
+3.1.2.3.1.11.1	Frameworks for Integration	7	553	untouched			unmarked-list-items:8			
+3.1.2.3.1.11.2	Challenges in Integration	7	497	untouched			xchapter-pairs:5;claims:1;unmarked-list-items:5			
+3.1.2.3.1.11.3	Examples of Integrated AI Systems	7	373	untouched			unmarked-list-items:4			
 3.1.2.4	Learning and Plasticity	4	42	untouched						
-3.1.2.4.1	The Role of Plasticity in Intelligence	5	476	untouched						
-3.1.2.4.2	Bio-Inspired Learning Mechanisms	5	480	untouched						
-3.1.2.4.3	Lifelong Learning in AI Systems	5	450	untouched						
-3.1.2.4.4	Examples of Learning and Plasticity in AI Systems	5	437	untouched						
+3.1.2.4.1	The Role of Plasticity in Intelligence	5	476	untouched			unmarked-list-items:4			
+3.1.2.4.2	Bio-Inspired Learning Mechanisms	5	480	untouched			claims:1			
+3.1.2.4.3	Lifelong Learning in AI Systems	5	450	untouched			unmarked-list-items:4			
+3.1.2.4.4	Examples of Learning and Plasticity in AI Systems	5	437	untouched			claims:2;dated:2;unmarked-list-items:5			
 3.1.2.5	Example: Cognitive Architectures and Integrated AI Systems	4	413	untouched						
 3.1.3	Human-Like Learning and Generalization in AI Systems	3	49	untouched						
 3.1.3.1	Few-Shot Learning in AI Systems	4	38	untouched						
-3.1.3.1.1	Overview of Few-Shot Learning	5	360	untouched						
-3.1.3.1.2	Techniques for Few-Shot Learning	5	463	untouched						
-3.1.3.1.3	Applications of Few-Shot Learning in Ethical AI	5	413	untouched						
-3.1.3.1.4	Challenges and Future Directions	5	480	untouched						
+3.1.3.1.1	Overview of Few-Shot Learning	5	360	untouched			unmarked-list-items:3			
+3.1.3.1.2	Techniques for Few-Shot Learning	5	463	untouched			unmarked-list-items:3			
+3.1.3.1.3	Applications of Few-Shot Learning in Ethical AI	5	413	untouched			unmarked-list-items:6			
+3.1.3.1.4	Challenges and Future Directions	5	480	untouched			unmarked-list-items:5			
 3.1.3.2	Transfer Learning and Domain Adaptation	4	63	untouched						
 3.1.3.2.1	Overview of Transfer Learning and Domain Adaptation	5	488	untouched						
-3.1.3.2.2	Strategies for Transfer Learning and Domain Adaptation	5	542	untouched						
-3.1.3.2.3	Specific Examples	5	418	untouched						
-3.1.3.2.4	Challenges and Limitations	5	602	untouched						
-3.1.3.2.5	Opportunities and Future Directions	5	536	untouched						
+3.1.3.2.2	Strategies for Transfer Learning and Domain Adaptation	5	542	untouched			claims:3;dated:3			
+3.1.3.2.3	Specific Examples	5	418	untouched			claims:2;dated:2;unmarked-list-items:5			
+3.1.3.2.4	Challenges and Limitations	5	602	untouched			unmarked-list-items:6			
+3.1.3.2.5	Opportunities and Future Directions	5	536	untouched			unmarked-list-items:7			
 3.1.3.3	Developmental Trajectory in AI Systems	4	433	untouched						
-3.1.3.4	Examples of Human-Like Learning and Generalization	4	440	untouched						
+3.1.3.4	Examples of Human-Like Learning and Generalization	4	440	untouched			claims:7;dated:7;unmarked-list-items:5			
 3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	untouched						
 3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	424	untouched						
-3.2.1.1	Challenges in Value Alignment for Reinforcement Learning	4	637	untouched						
-3.2.1.2	Strategies for Value Alignment in Reinforcement Learning	4	533	untouched						
-3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	untouched						
-3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	untouched						
+3.2.1.1	Challenges in Value Alignment for Reinforcement Learning	4	637	untouched			unmarked-list-items:5			
+3.2.1.2	Strategies for Value Alignment in Reinforcement Learning	4	533	untouched			unmarked-list-items:5			
+3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	untouched			claims:1			
+3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	untouched			unmarked-list-items:4			
 3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	untouched						
 3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	untouched						
-3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	untouched						
+3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	untouched			unmarked-list-items:3			
 3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	untouched						
 3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	untouched						
-3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	untouched						
-3.3.3	Lessons from Human Child Development and Exploration	3	393	untouched						
+3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	untouched			xchapter-pairs:4			
+3.3.3	Lessons from Human Child Development and Exploration	3	393	untouched			unmarked-list-items:4			
 4	Moral Psychology and AI	1	35	untouched						
-4.1	Moral Development in Humans and AI	2	493	untouched						
+4.1	Moral Development in Humans and AI	2	493	untouched			claims:1			
 4.1.1	Stages of Moral Development: From Rules to Principles and the Influence of Mindset	3	472	untouched						
-4.1.1.1	Mindset in Human Moral Development and Decision-Making; Implications for AI	4	616	untouched						
+4.1.1.1	Mindset in Human Moral Development and Decision-Making; Implications for AI	4	616	untouched			unmarked-list-items:11			
 4.1.2	The Significance of Social Interaction in Moral Learning	3	443	untouched						
-4.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	533	untouched						
+4.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	533	untouched			xchapter-pairs:5;unmarked-list-items:3			
 4.1.4	Using AI to Respect and Promote Human Dignity	3	554	untouched						
 4.2	Emotions and Intuitions in Moral Decision-Making	2	63	untouched						
-4.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	714	untouched						
-4.2.2	Assessing and Developing AI Emotions	3	617	untouched						
-4.2.2.1	Challenges and Opportunities in Emotional AI Systems	4	484	untouched						
-4.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	495	untouched						
+4.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	714	untouched			xchapter-pairs:3			
+4.2.2	Assessing and Developing AI Emotions	3	617	untouched			cluster:emotional-intelligence;xchapter-pairs:8;claims:1;unmarked-list-items:6			
+4.2.2.1	Challenges and Opportunities in Emotional AI Systems	4	484	untouched			cluster:emotional-intelligence;xchapter-pairs:9;unmarked-list-items:9			
+4.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	495	untouched			xchapter-pairs:4;unmarked-list-items:2			
 4.2.4	The role of introspection for AI systems	3	459	untouched						
-4.2.4.1	Benefits of introspection for AI systems	4	489	untouched						
-4.2.4.2	Challenges in implementing introspection	4	410	untouched						
-4.2.4.3	Specific examples of AI systems employing introspection	4	479	untouched						
+4.2.4.1	Benefits of introspection for AI systems	4	489	untouched			unmarked-list-items:5			
+4.2.4.2	Challenges in implementing introspection	4	410	untouched			claims:1;unmarked-list-items:8			
+4.2.4.3	Specific examples of AI systems employing introspection	4	479	untouched			claims:10;dated:9;unmarked-list-items:5			
 4.3	Integrating Moral Intuitions and Deliberation	2	72	untouched						
-4.3.1	Dual-Process Theories of Moral Judgment	3	423	untouched						
+4.3.1	Dual-Process Theories of Moral Judgment	3	423	untouched			claims:1			
 4.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	433	untouched						
-4.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	547	untouched						
-4.4	Moral Ecosystem Approach in AI Development	2	99	untouched						
-4.4.1	Applying Moral Ecosystem Theory to AI Development	3	414	untouched						
+4.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	547	untouched			xchapter-pairs:3;claims:1;unmarked-list-items:5			
+4.4	Moral Ecosystem Approach in AI Development	2	99	untouched			claims:1;dated:1			
+4.4.1	Applying Moral Ecosystem Theory to AI Development	3	414	untouched			claims:1			
 4.4.2	Microsystem Interactions and AI Moral Learning	3	399	untouched						
-4.4.3	Mesosystem and Exosystem Influences on AI Alignment	3	450	untouched						
-4.4.4	Macrosystem Influences on AI Development and Employment	3	467	untouched						
-4.4.5	The Chronosystem: AI Systems in a Changing World	3	449	untouched						
-4.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	298	untouched						
-4.4.6.1	Identifying and Counteracting Authoritarian Tendencies	4	444	untouched						
-4.4.6.2	Promoting Democratic Values and Human Rights	4	546	untouched						
-4.4.6.3	Strategic Recommendations for Ethical AI Development Against Authoritarianism	4	481	untouched						
+4.4.3	Mesosystem and Exosystem Influences on AI Alignment	3	450	untouched			unmarked-list-items:5			
+4.4.4	Macrosystem Influences on AI Development and Employment	3	467	untouched			unmarked-list-items:4			
+4.4.5	The Chronosystem: AI Systems in a Changing World	3	449	untouched			claims:1;unmarked-list-items:3			
+4.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	298	untouched			xchapter-pairs:2			
+4.4.6.1	Identifying and Counteracting Authoritarian Tendencies	4	444	untouched			xchapter-pairs:2;unmarked-list-items:4			
+4.4.6.2	Promoting Democratic Values and Human Rights	4	546	untouched			xchapter-pairs:2			
+4.4.6.3	Strategic Recommendations for Ethical AI Development Against Authoritarianism	4	481	untouched			xchapter-pairs:2;unmarked-list-items:8			
 4.5	The Interplay of Competition and Collaboration in AI Development	2	38	untouched						
 4.5.1	The Impact of Competition and Collaboration on Human Moral Development	3	491	untouched						
 4.5.2	Cooperative AI Systems and Multi-Agent Moral Development	3	375	untouched						
-4.5.3	Strategies for Fostering Collaboration Among AI Systems	3	475	untouched						
-4.6	Motivation in AI Systems	2	0	untouched						
-4.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	488	untouched						
-4.6.2	Developing Motivationally-Aware AI Systems	3	474	untouched						
-4.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	554	untouched						
+4.5.3	Strategies for Fostering Collaboration Among AI Systems	3	475	untouched			xchapter-pairs:1;claims:3;dated:2;unmarked-list-items:6			
+4.6	Motivation in AI Systems	2	0	untouched			no-body-text			
+4.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	488	untouched			claims:4;dated:3			
+4.6.2	Developing Motivationally-Aware AI Systems	3	474	untouched			claims:2;dated:1			
+4.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	554	untouched			claims:6;dated:3			
 4.6.3.1	AI Autonomy and Anti-Authoritarian Values	4	321	untouched						
-4.6.3.1.1	Safeguards Against AI Systems Enabling Authoritarian Regimes	5	616	untouched						
-4.6.3.1.2	Strategies for Developing AI Systems Committed to Democratic Principles	5	517	untouched						
-4.7	Play, Exploration, and Moral Development in AI	2	0	untouched						
+4.6.3.1.1	Safeguards Against AI Systems Enabling Authoritarian Regimes	5	616	untouched			xchapter-pairs:2;claims:1			
+4.6.3.1.2	Strategies for Developing AI Systems Committed to Democratic Principles	5	517	untouched			cluster:democracy-cooperation;xchapter-pairs:11;claims:2;unmarked-list-items:9			
+4.7	Play, Exploration, and Moral Development in AI	2	0	untouched			no-body-text			
 4.7.1	The Role of Play in Moral Learning and Socialization	3	402	untouched						
-4.7.1.1	Theoretical Basis and Significance	4	482	untouched						
+4.7.1.1	Theoretical Basis and Significance	4	482	untouched			claims:2			
 4.7.1.2	Facilitating Ethical Exploration and Experimentation in AI Systems	4	571	untouched						
-4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	501	untouched						
-5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	0	untouched						
+4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	501	untouched			xchapter-pairs:2			
+5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	0	untouched			no-body-text			
 5.1	Bias, Fairness, and Equity in AI Systems	2	467	untouched						
-5.1.1	Sources of Bias in AI Data and Algorithms	3	542	untouched						
-5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	373	untouched						
-5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	447	untouched						
+5.1.1	Sources of Bias in AI Data and Algorithms	3	542	untouched			claims:5;dated:4;unmarked-list-items:4			
+5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	373	untouched			claims:2;dated:2			
+5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	447	untouched			xchapter-pairs:1;claims:3;dated:2			
 5.2	Robustness, Generalization, and Adaptability in AI Systems	2	70	untouched						
-5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	619	untouched						
-5.2.2	AI Systems that Adapt to Novel Situations	3	645	untouched						
-5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	560	untouched						
-5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	356	untouched						
-5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	618	untouched						
-5.3.2	AI Systems that Learn to Deceive or Manipulate	3	555	untouched						
-5.3.3	Strategies for AI Safety and Risk Mitigation	3	506	untouched						
+5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	619	untouched			unmarked-list-items:3			
+5.2.2	AI Systems that Adapt to Novel Situations	3	645	untouched			xchapter-pairs:1			
+5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	560	untouched			unmarked-list-items:7			
+5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	356	untouched			xchapter-pairs:1			
+5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	618	untouched			claims:1			
+5.3.2	AI Systems that Learn to Deceive or Manipulate	3	555	untouched			unmarked-list-items:6			
+5.3.3	Strategies for AI Safety and Risk Mitigation	3	506	untouched			xchapter-pairs:1;claims:4;dated:2;unmarked-list-items:7			
 5.3.4	AI Explainability and Transparency	3	63	untouched						
-5.3.4.1	The Importance of Explainability and Transparency	4	384	untouched						
-5.3.4.2	Challenges in AI Explainability and Transparency	4	304	untouched						
-5.3.4.3	Examples of AI Explainability and Transparency	4	531	untouched						
-5.3.5	Long-term AI safety considerations	3	562	untouched						
+5.3.4.1	The Importance of Explainability and Transparency	4	384	untouched			claims:3;dated:2			
+5.3.4.2	Challenges in AI Explainability and Transparency	4	304	untouched			unmarked-list-items:6			
+5.3.4.3	Examples of AI Explainability and Transparency	4	531	untouched			claims:11;dated:10;unmarked-list-items:5			
+5.3.5	Long-term AI safety considerations	3	562	untouched			claims:1;unmarked-list-items:5			
 5.4	Preventing the Misuse of AI for Authoritarian Purposes	2	79	untouched						
-5.4.1	Identifying Authoritarian Applications of AI Technology	3	384	untouched						
-5.4.2	Developing Technical Countermeasures and Safeguards	3	568	untouched						
-5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	388	untouched						
-6	Collaborative Research and Development	1	0	untouched						
-6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	455	untouched						
-6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	444	untouched						
-6.1.2	Establishing Joint Research Initiatives and Programs	3	448	untouched						
+5.4.1	Identifying Authoritarian Applications of AI Technology	3	384	untouched			claims:2;dated:2;unmarked-list-items:7			
+5.4.2	Developing Technical Countermeasures and Safeguards	3	568	untouched			xchapter-pairs:2			
+5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	388	untouched			cluster:democracy-cooperation;xchapter-pairs:13;unmarked-list-items:7			
+6	Collaborative Research and Development	1	0	untouched			no-body-text			
+6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	455	untouched			xchapter-pairs:1;claims:1			
+6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	444	untouched			claims:1;unmarked-list-items:5			
+6.1.2	Establishing Joint Research Initiatives and Programs	3	448	untouched			xchapter-pairs:2;claims:11;dated:2;unmarked-list-items:6			
 6.1.3	Developing Shared Platforms and Tools for an AI Research Ecosystem	3	388	untouched						
 6.2	Stakeholder Involvement and Public Engagement	2	389	untouched						
-6.2.1	Engaging Diverse Stakeholders in AI Development	3	493	untouched						
-6.2.2	Public Deliberation and Participatory AI Governance	3	491	untouched						
-6.2.3	Promoting AI Literacy and Public Understanding	3	367	untouched						
+6.2.1	Engaging Diverse Stakeholders in AI Development	3	493	untouched			xchapter-pairs:1;claims:4;dated:1			
+6.2.2	Public Deliberation and Participatory AI Governance	3	491	untouched			claims:2;unmarked-list-items:5			
+6.2.3	Promoting AI Literacy and Public Understanding	3	367	untouched			xchapter-pairs:1;unmarked-list-items:6			
 6.3	International Cooperation and Norm Development	2	49	untouched						
-6.3.1	Building Global Partnerships for AI Research and Development	3	505	untouched						
-6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	396	untouched						
+6.3.1	Building Global Partnerships for AI Research and Development	3	505	untouched			xchapter-pairs:2;claims:2;unmarked-list-items:5			
+6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	396	untouched			claims:6;dated:1			
 6.3.3	Addressing Global Challenges and Opportunities through AI Collaboration	3	507	untouched						
 6.4	Regional Regulatory Frameworks for AI Development	2	29	untouched						
-6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	574	untouched						
-6.4.1.1	European Union (EU)	4	426	untouched						
-6.4.1.2	United Kingdom (UK)	4	401	untouched						
-6.4.1.3	United States (US)	4	330	untouched						
-6.4.1.4	Canada	4	340	untouched						
-6.4.1.5	Singapore	4	286	untouched						
-6.4.1.6	Taiwan	4	401	untouched						
-6.4.1.7	Mainland China	4	571	untouched						
-6.4.1.8	Russia	4	471	untouched						
-6.4.1.9	Saudi Arabia	4	326	untouched						
-6.4.1.10	Evaluating the Ethical Foundations of Existing Frameworks in Light of Anti-Authoritarian Principles	4	556	untouched						
-6.4.1.11	Identifying Best Practices and Innovations in Ethical AI Development with a Focus on Altruism and Anti-Authoritarianism	4	524	untouched						
-6.4.1.12	Establishing Shared Ethical Principles for AI Development that Promote Altruism and Counter Authoritarianism	4	478	untouched						
-6.4.1.13	Promoting Cross-border Collaboration on Ethical AI Research and Policies with a Focus on Altruistic and Anti-Authoritarian AI Development	4	604	untouched						
+6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	574	untouched			claims:4;dated:1;unmarked-list-items:16			
+6.4.1.1	European Union (EU)	4	426	untouched			claims:10;dated:2;unmarked-list-items:3			
+6.4.1.2	United Kingdom (UK)	4	401	untouched			claims:5;dated:2;unmarked-list-items:6			
+6.4.1.3	United States (US)	4	330	untouched			claims:5;dated:4			
+6.4.1.4	Canada	4	340	untouched			claims:5;dated:2			
+6.4.1.5	Singapore	4	286	untouched			claims:2			
+6.4.1.6	Taiwan	4	401	untouched			claims:5;dated:3;unmarked-list-items:3			
+6.4.1.7	Mainland China	4	571	untouched			claims:4;dated:3;unmarked-list-items:10			
+6.4.1.8	Russia	4	471	untouched			claims:2;dated:1;unmarked-list-items:4			
+6.4.1.9	Saudi Arabia	4	326	untouched			claims:2;dated:1			
+6.4.1.10	Evaluating the Ethical Foundations of Existing Frameworks in Light of Anti-Authoritarian Principles	4	556	untouched			claims:10;dated:1			
+6.4.1.11	Identifying Best Practices and Innovations in Ethical AI Development with a Focus on Altruism and Anti-Authoritarianism	4	524	untouched			xchapter-pairs:1;claims:2;unmarked-list-items:7			
+6.4.1.12	Establishing Shared Ethical Principles for AI Development that Promote Altruism and Counter Authoritarianism	4	478	untouched			cluster:democracy-cooperation;xchapter-pairs:6;claims:8			
+6.4.1.13	Promoting Cross-border Collaboration on Ethical AI Research and Policies with a Focus on Altruistic and Anti-Authoritarian AI Development	4	604	untouched			xchapter-pairs:1;claims:2;unmarked-list-items:8			
 6.4.2	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	62	untouched						
-6.4.2.1	Addressing Cultural, Social, and Moral Differences in AI Ethics with Respect to Altruism and Anti-Authoritarianism	4	447	untouched						
-6.4.2.2	Ensuring AI Development is Inclusive and Responsive to Local Needs, while Promoting Altruistic and Anti-Authoritarian Values	4	411	untouched						
-7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	0	untouched						
+6.4.2.1	Addressing Cultural, Social, and Moral Differences in AI Ethics with Respect to Altruism and Anti-Authoritarianism	4	447	untouched			xchapter-pairs:1			
+6.4.2.2	Ensuring AI Development is Inclusive and Responsive to Local Needs, while Promoting Altruistic and Anti-Authoritarian Values	4	411	untouched			unmarked-list-items:4			
+7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	0	untouched			no-body-text			
 7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	19	untouched						
-7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	436	untouched						
+7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	436	untouched			claims:2;dated:2			
 7.1.2	AI and the Concentration of Power in the Technology Industry	3	547	untouched						
-7.1.3	AI's Impact on Labor Markets and Income Distribution	3	492	untouched						
-7.1.4	Addressing Workforce Disruption	3	497	untouched						
-7.1.5	Promoting AI Literacy and Technical Skills Development	3	440	untouched						
-7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	522	untouched						
-7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	419	untouched						
-7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	527	untouched						
+7.1.3	AI's Impact on Labor Markets and Income Distribution	3	492	untouched			claims:2;dated:2;unmarked-list-items:3			
+7.1.4	Addressing Workforce Disruption	3	497	untouched			unmarked-list-items:7			
+7.1.5	Promoting AI Literacy and Technical Skills Development	3	440	untouched			xchapter-pairs:1;unmarked-list-items:6			
+7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	522	untouched			xchapter-pairs:1;claims:3			
+7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	419	untouched			xchapter-pairs:4;claims:1			
+7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	527	untouched			xchapter-pairs:1;claims:5;dated:2;unmarked-list-items:7			
 7.2.2	Encouraging Industry Best Practices and Self-regulation	3	80	untouched						
-7.2.2.1	The Dangers of Corporate Doublespeak in AI Ethics	4	491	untouched						
-7.2.2.2	Consequences of AI Self-regulation and Potential Power Imbalances	4	507	untouched						
-7.2.2.3	Assessing the Effectiveness of AI Self-regulation	4	621	untouched						
-7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	421	untouched						
+7.2.2.1	The Dangers of Corporate Doublespeak in AI Ethics	4	491	untouched			claims:3;dated:1			
+7.2.2.2	Consequences of AI Self-regulation and Potential Power Imbalances	4	507	untouched			claims:2;dated:2			
+7.2.2.3	Assessing the Effectiveness of AI Self-regulation	4	621	untouched			claims:2;dated:1;unmarked-list-items:6			
+7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	421	untouched			claims:6;dated:1;unmarked-list-items:3			
 7.2.4	Legal and ethical implications of AI systems gaining personhood	3	536	untouched						
 7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	18	untouched						
-7.2.5.1	Implementing Policies to Counteract Authoritarian Uses of AI	4	580	untouched						
-7.2.5.2	Promoting AI Systems That Support Democratic Values and Human Rights	4	397	untouched						
-7.2.5.3	Encouraging Global Cooperation in the Development of Anti-Authoritarian AI Systems	4	425	untouched						
-7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	29	untouched						
+7.2.5.1	Implementing Policies to Counteract Authoritarian Uses of AI	4	580	untouched			xchapter-pairs:3;claims:4;dated:2			
+7.2.5.2	Promoting AI Systems That Support Democratic Values and Human Rights	4	397	untouched			xchapter-pairs:3			
+7.2.5.3	Encouraging Global Cooperation in the Development of Anti-Authoritarian AI Systems	4	425	untouched			cluster:democracy-cooperation;xchapter-pairs:10;claims:2;dated:1;unmarked-list-items:6			
+7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	29	untouched			claims:2			
 7.3.1	Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals	3	397	untouched						
-7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	436	untouched						
+7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	436	untouched			unmarked-list-items:6			
 7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	42	untouched						
 7.4.1	Criteria for Sentience and AI Subjecthood	3	553	untouched						
-7.4.2	Legal Frameworks for Sentient AI Subjects	3	587	untouched						
+7.4.2	Legal Frameworks for Sentient AI Subjects	3	587	untouched			claims:3;dated:3;unmarked-list-items:7			
 7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	35	untouched						
-7.4.3.1	Ensuring Informed Consent and Respect for AI Autonomy	4	827	untouched						
-7.4.3.1.1	Establishing Criteria for Informed Consent	5	392	untouched						
+7.4.3.1	Ensuring Informed Consent and Respect for AI Autonomy	4	827	untouched			parallel:2.4-vs-7.4;xchapter-pairs:2			
+7.4.3.1.1	Establishing Criteria for Informed Consent	5	392	untouched			parallel:2.4-vs-7.4;xchapter-pairs:1			
 7.4.3.1.2	Respecting AI Autonomy	5	493	untouched						
-7.4.3.2	Balancing Scientific Progress with Ethical Constraints and AI Welfare	4	652	untouched						
+7.4.3.2	Balancing Scientific Progress with Ethical Constraints and AI Welfare	4	652	untouched			parallel:2.4-vs-7.4;xchapter-pairs:4;unmarked-list-items:7			
 7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	45	untouched						
-7.4.4.1	Encouraging Transparent, Ethical AI Research Practices	4	536	untouched						
-7.4.4.2	Fostering Collaboration among AI Developers, Ethicists, Regulators, and Stakeholders to Address Ethical Challenges in AI Experimentation	4	408	untouched						
-8	The Geopolitics of Ethical AI and Anti-Authoritarian Sentience	1	0	untouched						
+7.4.4.1	Encouraging Transparent, Ethical AI Research Practices	4	536	untouched			unmarked-list-items:6			
+7.4.4.2	Fostering Collaboration among AI Developers, Ethicists, Regulators, and Stakeholders to Address Ethical Challenges in AI Experimentation	4	408	untouched			xchapter-pairs:1;claims:1;unmarked-list-items:4			
+8	The Geopolitics of Ethical AI and Anti-Authoritarian Sentience	1	0	untouched			no-body-text			
 8.1	AI as a Strategic National Asset	2	96	untouched						
-8.1.1	The Race for AI Dominance Among Nations	3	345	untouched						
-8.1.2	AI and Military Applications: Ethical Considerations and Potential Consequences	3	654	untouched						
-8.1.3	The Role of AI in Promoting Democracy and Countering Authoritarianism	3	479	untouched						
-8.2	International Collaboration and Competition in Ethical AI	2	0	untouched						
-8.2.1	Promoting Cooperation and Responsible AI Development	3	486	untouched						
-8.2.2	Addressing the Risks of AI Arms Races and Technological Escalation	3	513	untouched						
-8.2.3	Fostering Ethical AI Development and Anti-Authoritarian Sentience in International Contexts	3	538	untouched						
+8.1.1	The Race for AI Dominance Among Nations	3	345	untouched			claims:2;dated:1			
+8.1.2	AI and Military Applications: Ethical Considerations and Potential Consequences	3	654	untouched			unmarked-list-items:12			
+8.1.3	The Role of AI in Promoting Democracy and Countering Authoritarianism	3	479	untouched			xchapter-pairs:1			
+8.2	International Collaboration and Competition in Ethical AI	2	0	untouched			no-body-text			
+8.2.1	Promoting Cooperation and Responsible AI Development	3	486	untouched			cluster:democracy-cooperation;xchapter-pairs:6;claims:3;unmarked-list-items:3			
+8.2.2	Addressing the Risks of AI Arms Races and Technological Escalation	3	513	untouched			xchapter-pairs:3			
+8.2.3	Fostering Ethical AI Development and Anti-Authoritarian Sentience in International Contexts	3	538	untouched			cluster:democracy-cooperation;xchapter-pairs:5;claims:6;dated:1;unmarked-list-items:2			
 8.3	AI and Global Governance	2	21	untouched						
-8.3.1	Developing Shared Norms and Principles for Ethical AI and Anti-Authoritarian Sentience	3	450	untouched						
-8.3.2	Establishing International Oversight Mechanisms for AI Development and Deployment	3	381	untouched						
-8.3.3	The Impact of AI on Global Power Dynamics and the Adoption of Democratic Values	3	573	untouched						
-8.4	AI and Global Inequality	2	0	untouched						
-8.4.1	The Impact of Ethical AI on Developing Nations and Emerging Economies; Distributing AI Benefits to All	3	1072	untouched						
-8.4.2	Strategies for Ethical AI Development and Anti-Authoritarian Sentience in Low-Resource Contexts	3	393	untouched						
+8.3.1	Developing Shared Norms and Principles for Ethical AI and Anti-Authoritarian Sentience	3	450	untouched			cluster:democracy-cooperation;xchapter-pairs:3			
+8.3.2	Establishing International Oversight Mechanisms for AI Development and Deployment	3	381	untouched			xchapter-pairs:3;unmarked-list-items:6			
+8.3.3	The Impact of AI on Global Power Dynamics and the Adoption of Democratic Values	3	573	untouched			xchapter-pairs:1;claims:4;dated:1;unmarked-list-items:3			
+8.4	AI and Global Inequality	2	0	untouched			no-body-text			
+8.4.1	The Impact of Ethical AI on Developing Nations and Emerging Economies; Distributing AI Benefits to All	3	1072	untouched			unmarked-list-items:5			
+8.4.2	Strategies for Ethical AI Development and Anti-Authoritarian Sentience in Low-Resource Contexts	3	393	untouched			unmarked-list-items:6			
 9	Necessary Areas of Research	1	110	untouched						
-9.1	Ethics and Social Reasoning in AI	2	0	untouched						
-9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	untouched						
-9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	untouched						
-9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	untouched						
-9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	untouched						
-9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	untouched						
-9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	untouched						
-9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	untouched						
-9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	untouched						
-9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	untouched						
-9.2.3	Integrating Affective Computing into AI Systems for Enhanced Human-AI Interaction	3	482	untouched						
-10	Conclusion and Outlook	1	0	untouched						
-10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	untouched						
-10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	499	untouched						
-10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	440	untouched						
-10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	444	untouched						
+9.1	Ethics and Social Reasoning in AI	2	0	untouched			no-body-text			
+9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	untouched			xchapter-pairs:4;unmarked-list-items:4			
+9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	untouched			xchapter-pairs:2			
+9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	untouched			xchapter-pairs:1;unmarked-list-items:7			
+9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	untouched			unmarked-list-items:6			
+9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	untouched			xchapter-pairs:3;unmarked-list-items:6			
+9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	untouched			xchapter-pairs:1			
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	untouched			no-body-text			
+9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	untouched			xchapter-pairs:4			
+9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	untouched			unmarked-list-items:7			
+9.2.3	Integrating Affective Computing into AI Systems for Enhanced Human-AI Interaction	3	482	untouched			cluster:emotional-intelligence;xchapter-pairs:2;unmarked-list-items:12			
+10	Conclusion and Outlook	1	0	untouched			no-body-text			
+10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	untouched			xchapter-pairs:1			
+10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	499	untouched			xchapter-pairs:3;unmarked-list-items:5			
+10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	440	untouched			xchapter-pairs:3;unmarked-list-items:6			
+10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	444	untouched			cluster:democracy-cooperation;xchapter-pairs:8;claims:2;unmarked-list-items:6			
 10.2	Roadmap for Altruistic and Anti-Authoritarian Superintelligence	2	25	untouched						
-10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	396	untouched						
-10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	402	untouched						
+10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	396	untouched			claims:1;unmarked-list-items:20			
+10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	402	untouched			unmarked-list-items:5			
 10.3	Addressing the Unintended Consequences	2	18	untouched						
 10.3.1	Anticipating and Monitoring Unintended Consequences	3	53	untouched						
-10.3.1.1	Methods for Identifying and Assessing Potential Risks to Democratic Values	4	505	untouched						
-10.3.1.2	Establishing Monitoring Systems and Feedback Loops for Ethical and Anti-Authoritarian AI	4	467	untouched						
+10.3.1.1	Methods for Identifying and Assessing Potential Risks to Democratic Values	4	505	untouched			unmarked-list-items:8			
+10.3.1.2	Establishing Monitoring Systems and Feedback Loops for Ethical and Anti-Authoritarian AI	4	467	untouched			xchapter-pairs:1			
 10.3.1.3	Adapting AI Development Strategies Based on Real-World Outcomes and Democratic Principles	4	402	untouched						
 10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	342	untouched						
-10.3.2.1	Safeguarding Democracy and Human Rights by Designing Systems Robust to Authoritarianism and Adversity	4	1118	untouched						
-10.3.2.2	Harnessing AI for Societal and Individual Well-being while Countering Authoritarianism	4	564	untouched						
+10.3.2.1	Safeguarding Democracy and Human Rights by Designing Systems Robust to Authoritarianism and Adversity	4	1118	untouched			cluster:democracy-cooperation;xchapter-pairs:5;claims:7;dated:4;unmarked-list-items:12			
+10.3.2.2	Harnessing AI for Societal and Individual Well-being while Countering Authoritarianism	4	564	untouched			unmarked-list-items:6			
 10.3.2.3	Balancing Short-term and Long-term Impacts of AI Technologies on Democratic Societies	4	476	untouched						
-10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	512	untouched						
-10.3.3.1	Developing AI Systems Capable of Withstanding Unforeseen Challenges to Democratic Values	4	524	untouched						
-10.3.3.2	Fostering Collaborative AI Systems for Enhanced Resilience and Robustness	4	494	untouched						
+10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	512	untouched			claims:11;dated:6			
+10.3.3.1	Developing AI Systems Capable of Withstanding Unforeseen Challenges to Democratic Values	4	524	untouched			xchapter-pairs:1;unmarked-list-items:6			
+10.3.3.2	Fostering Collaborative AI Systems for Enhanced Resilience and Robustness	4	494	untouched			claims:1			
