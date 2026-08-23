@@ -75,7 +75,7 @@ untouched since 2024.
   length. §1.2 directly resolves D-023 (Q-013): "our intention is to
   establish a roadmap for AI development" is replaced with an explicit
   statement of what the book actually promises — concrete, specific, and
-  where warranted ambitious proposals, named directly (the job guarantee at
+  where warranted ambitious proposals, named directly (the jobs guarantee at
   7.1.4, the EU's dual-use export controls at 5.4.3, ISO 42001 certification
   at 6.3.2) — and does not promise (a sequenced plan with dates). §1 and §1.1
   were voice-fixed and cut of two more redundant sentences (a generic
