@@ -1,0 +1,24 @@
+3.1.2.3.1.1. Attention
+Attention remains a vital cognitive function, instrumental in sieving through a barrage of stimuli to focus selectively on what is critically relevant in a given context. Considering AI systems operate in often vast and complex environments inundated with an overwhelming amount of information, incorporating biologically inspired attention mechanisms is neccessary to prioritize pivotal data, task demands, and objectives while discarding extraneous inputs. These mechanisms deliver more efficiency and straight-forward interpretability to deep learning models.
+
+Human attentional behavior demonstrates two dominant paradigms, top-down and bottom-up attention. In the former, an individual’s cognitive control and executive functions voluntarily guide focus to align with specific objectives and task-related goals—a phenomenon that cognitive neurosciences link to the activation of the fronto-parietal network. Brain regions such as the dorsolateral prefrontal cortex (DLPFC) and the posterior parietal cortex (PPC) converge in this neural network to deliberate and decisively assign attentional resources in accordance to defined purposes.
+
+To translate this dynamic into AI models, researchers can design goal-directed attention mechanisms through informational feedback loops. They can build these mechanisms into AI systems to condition attention weights according to task-specific embeddings or infuse prior knowledge about the task structure. These methods enable the AI systems to direct attention strategically to goal-relevant information akin to the fronto-parietal network’s role in human cognition.
+
+Alternatively, bottom-up attention leans toward an involuntary reactive model, driven by novel or highly salient external events. This reflexive attention system activates the ventral attention network made up of the temporoparietal junction (TPJ) and the ventral frontal cortex (VFC), redirecting attention towards previously unconsidered but significant stimuli.
+
+AI systems can harness these stimulus-driven attention mechanisms by employing learning models to focus on salient and surprising data features. In computer vision systems, for instance, deploying algorithms that highlight image areas with high contrast, unique colors, or distinctive shapes can significantly enhance their performance in various tasks.
+
+Michael Graziano's Attention Schema Theory moves cognitive models of attention a step further by introducing the concept of a mental schema—a simulated internal model depicting potential attention maps and future information focus—to attention cognition. He posits that nuanced self-awareness arises from complex neural networks generating internal models or schemas of attention, effectively predicting future attentional shifts and potential cognitive focus.
+
+Translating this theory to AI could yield more adaptable cognitive modeling in AI systems, allowing them to anticipate and adjust to human users’ expectations, thereby yielding better collaboration in contextual environments and complex interactions.
+
+Current explorations in deep learning leverage attention mechanisms (both goal-driven and stimulus-driven) across popular models such as Transformer in natural language processing (NLP), where self-attention mechanisms highlight the relevance of different lexical items. This attentional approach has improved machine translation and text summarization tasks immensely.
+
+Similarly, computer vision systems utilize attention mechanisms to focus on specific image sections, for example, to enhance object recognition or facilitate safer decisions in self-driving cars by prioritizing pedestrian safety. By modeling human attention phenomena, AI systems can filter out irrelevant stimuli effectively and work towards task-specific goals more accurately.
+
+Potential roadmaps for integrating Attention Schema Theory into AI systems should consider creating an attentional meta-layer within the AI structure to function akin to a brain's internal model of attention. This internal representation, or 'meta-attention,' can facilitate the system's understanding of its attentional processes and adapt itself accordingly to better serve the task at hand.
+
+In essence, exploring the underlying principles of human attention behavior in AI research can be instrumental in creating advanced attention mechanisms in AI systems, thereby enhancing their performance and potential bidirectional cognitive interactions with humans.
+
+
