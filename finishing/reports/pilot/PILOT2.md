@@ -62,7 +62,28 @@ renderer fixes are now done for all sixteen transplants. The recurring extra for
 a name-heavy transplant is the scrubbing judgment — perhaps a third again on top
 of a T11-shaped transplant, not double.
 
-## One judgment the author should confirm
+## Outcome: the rule was relaxed (D-017)
+
+The author's ruling: do not read the named-persons rule strictly. It exists to
+keep the persona device out of the book, not to bar citation. Both scrubbed
+passages were **restored with names**:
+
+- The discovery anecdote is back in the source's form — Rizzolatti and Gallese at Parma, Gallese reaching for the object, the monkey's neurons firing.
+- "The neurons that shaped civilization" is attributed to V. S. Ramachandran, with the citation carrying the provenance.
+- The retraction is attributed too: Rizzolatti later narrowing the claim himself, which is a stronger version of the self-correction point than "later papers from the original group".
+
+So the honest revision to this pilot's central finding: **the name rule cost
+nothing in the end, because the rule did not say what I read it to say.** What
+remains true is that the *guard* had to change with it — it now tests for the
+persona-device shape rather than for the presence of a name, and it still
+hard-fails on "reviewed by X, who rated it highly", verified.
+
+One consequence worth carrying: the origin anecdote is famous and its details
+**vary between tellings** — accounts differ on who reached, and for what. C0276
+is flagged so that the citation has to support the version printed, or the
+sentence changes. That is a verification problem, not a names problem.
+
+## The judgment that produced this ruling
 
 I attributed "the neurons that shaped civilization" to *the popular literature*
 rather than to the person who said it. The strict reading of the named-persons

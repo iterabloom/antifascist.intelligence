@@ -57,16 +57,23 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 
 ## Two rules that bite
 
-**Named persons.** The repo names many real people because language models were
-prompted to write *as if* they were those people. Nothing in `finishing/`, in a
-section file, or in a commit message may characterize, rate, rank, score, or
-attribute views or conduct to a real named person. Reviews are cited by file and
-index or line range — never by name. `names_guard.py` hard-fails on any persona
-name under `finishing/`, and on a name near an attribution verb in the
-manuscript; ordinary scholarly citation in the body is fine and is reported as a
-warning to adjudicate. The name list is built in memory from the spreadsheets
-and is never written to disk. Material that must exist and cannot live here goes
-to `~/ethical.superintelligence-private/`.
+**Named persons (D-017).** The hazard is the **persona device**: this repository
+is full of text a language model produced while pretending to be a named real
+person. None of it may reach the book, a planning file, or a commit message as
+though that person had said or done it. Reviews from the editorial record are
+cited by file and index or line range, never by name.
+
+What the rule does **not** forbid is ordinary scholarly citation. Naming the
+researchers who published a finding, quoting a published claim and citing it,
+and describing a documented event in a laboratory are normal nonfiction and are
+allowed everywhere, including in the book.
+
+`names_guard.py` therefore tests for the persona-device *shape* — a name within
+range of "reviewed by", "rated", "in their review", "writing as", "in the voice
+of", "simulated", and similar — and hard-fails on that anywhere. Other name hits
+are listed as citations for a human to confirm. The name list is built in memory
+from the spreadsheets and is never written to disk. Material that must exist and
+cannot live here goes to `~/ethical.superintelligence-private/`.
 
 **The commit-msg hook.** `git commit -s` is mandatory (DCO). The hook scrubs
 vendor and brand words from the subject, **silently deletes body lines**
