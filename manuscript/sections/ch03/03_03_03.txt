@@ -8,6 +8,6 @@ Applying these lessons to AI design means attending to a few aspects of play, ex
 <<list>>
 1. Zone-of-proximal-development environments: learning scenarios that pitch a challenge just past a system's current ability, so exploration and play happen at the level where growth and adaptation actually occur.
 2. Social learning: imitation and collaboration, drawing on human interaction and the collective behavior of multi-agent systems to build a deeper understanding of ethical and social values.
-3. Intrinsic motivation: a system built to explore new situations and pursue goals for their own sake gains adaptability, creativity, and closer alignment with human values.
+3. Intrinsic motivation: a system built to explore new situations and pursue goals for their own sake gains adaptability, creativity, and closer alignment with humane values.
 4. Autonomy within limits: preserving a system's autonomy inside safe, controllable boundaries so creativity and exploration have room to operate without drifting from human ethics and values, with monitoring, transparent reporting, and public discourse as the checks that keep curiosity-driven development honest.
 <</list>>

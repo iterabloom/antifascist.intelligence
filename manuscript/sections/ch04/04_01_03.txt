@@ -1,7 +1,7 @@
 4.1.3. Moral Apprenticeship: AI Systems Learning from Human Mentors
 Moral apprenticeship applies a simple idea to AI ethics: teach a system the way a mentor teaches an apprentice, through interaction and correction, not specification alone. Chapter 2.1.3 names direct human mentorship as one of six strategies for resolving value conflicts in AI decision-making; this section works out what that mentorship looks like in practice.
 
-The aim is observational learning that builds a genuine grasp of ethical norms, societal values, and the texture of human decision-making — not a wider rule table, but a system that can align with human values across contexts a rule table was never written to cover.
+The aim is observational learning that builds a genuine grasp of ethical norms, societal values, and the texture of human decision-making — not a wider rule table, but a system that can align with humane values across contexts a rule table was never written to cover.
 
 Three methods do this work:
 <<list>>
@@ -9,7 +9,7 @@ Three methods do this work:
 
 2. Interactive appraisal: regular dialogue between an AI system and its mentors refines and deepens its ethical grasp, giving mentors a direct channel for guidance, correction, and feedback that tunes the system's judgment to context.
 
-3. Value-driven alignment: building human values like empathy and fairness directly into an AI system's decision-making puts what its mentors care about at the center of its choices.
+3. Value-driven alignment: building humane values like empathy and fairness directly into an AI system's decision-making puts what its mentors care about at the center of its choices.
 <</list>>
 
 Case- and scenario-based instruction — the same approach chapter 2.1.3 lists among its six strategies for resolving value trade-offs — is what makes this concrete: real ethical problems, not abstract rule tests, are what teach a system to apply a principle rather than just cite it.

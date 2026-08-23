@@ -1,5 +1,5 @@
 3.2.6. Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes
-Balancing exploration and exploitation is a core part of building an AI system: exploration widens its perspective and turns up new ideas, exploitation puts existing knowledge to work to improve performance. Getting that balance right, while staying aligned with human values, matters for producing artificial superintelligence with an ethical, empathetic, and altruistic bent.
+Balancing exploration and exploitation is a core part of building an AI system: exploration widens its perspective and turns up new ideas, exploitation puts existing knowledge to work to improve performance. Getting that balance right, while staying aligned with humane values, matters for producing artificial superintelligence with an ethical, empathetic, and altruistic bent.
 
 An AI system needs an explorative drive to seek out new possibilities and an exploitative one to optimize the solutions it already has. Intrinsic motivation and curiosity-driven learning can supply both, pushing a system to look beyond its current solutions while keeping it anchored to ethical considerations and human-centered goals.
 
