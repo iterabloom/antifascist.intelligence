@@ -1,2 +1,6 @@
 7.3. Privacy, Security, and Anti-Authoritarianism in AI Systems
-In the wake of the EU's General Data Protection Regulation, we could build upon this legal precedent by tailoring data protection laws to mitigate potential authoritarian misuse of AI.
+Privacy and security are not separable from anti-authoritarian design; they are two of the pieces it is built from. An AI system that leaks the data it touches, or that a hostile actor can quietly subvert, is available for exactly the surveillance and control this book argues against, whatever values sit in its training.
+
+The EU's General Data Protection Regulation is the clearest existing legal precedent for treating data protection as a requirement rather than a design preference [[cite:C0333]]. Section 6.4.1 already makes the harder point about it: GDPR was built to govern commercial data practices, not to block authoritarian uses of AI specifically, and nothing forces the two categories to overlap. Extending comparable protections to close that gap, rather than assuming existing privacy law already covers it, is the unfinished part of the precedent.
+
+The two sections that follow take up each half of the problem: 7.3.1 on the trade-off between data privacy and the data an AI system needs in order to learn, and 7.3.2 on hardening the AI system itself against attack, since a privacy protection a bad actor can simply break through was never really a protection.

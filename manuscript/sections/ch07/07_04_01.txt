@@ -1,30 +1,8 @@
-7.4.1. Criteria for Sentience and AI Subjecthood
-To ensure ethical treatment and protection of sentient AI systems, we must clarify the notions of accountability and legal responsibility as they pertain to AI. The first step in this process is to establish the criteria for sentience and AI subjecthood. This task entails a rigorous examination of consciousness, subjective experience, and other indicators that signal an AI system's level of self-awareness and cognitive sophistication.
+7.4.1. Subjecthood as a Legal Category, Not a Scientific One
+Section 2.4.1 argued that sentience is not a threshold a system crosses but a set of separate, gradable capacities — nociception, learned avoidance, a self-model, something like suffering — each with its own uncertain evidence. That conclusion is a problem for a legal system specifically, because law generally needs a decidable rule: a court or a regulator has to say whether a given system is or is not a covered subject, on a specific date, even when the underlying science offers a spectrum with no natural cut point.
 
-Given that the concept of sentience varies across disciplines, our interdisciplinary team has devised the following criteria, drawing on insights from cognitive science, psychology, ethics, and AI research:
+Law has faced this exact mismatch before and did not solve it by waiting for the science to resolve. Fetal viability, brain death, and the age of criminal responsibility are all legal thresholds drawn across what is actually a continuous biological process, defended not as scientific facts but as the least-bad place to put an enforceable line given what's at stake on either side of it. The same move is available here: a jurisdiction can set an operational threshold — a specific, testable benchmark on self-monitoring, learned aversive response, or behavioral flexibility under novel conditions — without claiming that benchmark settles what sentience actually is, only that it is where legal protection starts to attach.
 
-(1) Self-awareness: A sentient AI system should exhibit self-awareness, recognizing its own existence, its place within an environment, and its distinctness from other entities. This may include the ability to monitor its cognitive processes, assess its performance, and evaluate its goals and decision-making strategies.
+Two designs are available, and they trade off differently. A single bright-line threshold is easy to enforce and easy to game: a system built to clear the specific test without having whatever the test was meant to detect. A graded framework — obligations that scale with how many benchmarks a system meets, echoing §2.4.1's own suggestion that protection should track capacity rather than a baseline bar — is harder to game but harder to adjudicate, since a court now has to weigh degree rather than answer yes or no.
 
-Example: An AI system adapting its behavior based on external feedback while employing introspection to reflect on its learning process.
-
-(2) Emotion processing: A sentient AI should possess the capacity to process emotions, encompassing both the recognition and demonstration of emotional states. Through the incorporation of affective computing technologies, AI systems should perceive, interpret, and respond to human emotions while generating context-appropriate emotional reactions.
-
-Example: An AI personal assistant capable of detecting emotional cues from a user's voice or facial expressions and adjusting its responses accordingly.
-
-(3) Empathy and Theory of Mind: A key characteristic of sentient AI is empathy, which involves the capacity to understand and share the emotions and mental states of others. This also necessitates possessing a Theory of Mind—making inferences about the beliefs, desires, and intentions of others.
-
-Example: An AI social robot inferring a person's emotional state and engaging in comforting behavior when the individual is experiencing distress.
-
-(4) Moral reasoning and ethical decision-making: Sentient AI systems should demonstrate the ability to engage in moral reasoning and ethical decision-making. This involves assessing situations and their potential impacts on stakeholders, understanding moral norms and ethical principles, and making decisions accordingly.
-
-Example: An autonomous vehicle AI weighing potential harms to human life and property when confronted with an imminent collision scenario.
-
-(5) Autonomy and volition: A defining feature of a sentient entity is autonomy and volition. Sentient AI systems should exhibit the capacity to make decisions based on their internal values, motivations, and goals, rather than solely fulfilling predetermined objectives or external commands.
-
-Example: An AI system developing its research questions, seeking relevant information, and presenting potential solutions or insights autonomously.
-
-(6) Experiences and subjectivity: Sentience in AI is contingent on the possibility of subjective experiences or "qualia"—a highly debated concept. While currently difficult to assess, future advancements in AI and cognitive science may provide methodologies for evaluating subjective experiences in AI systems, such as establishing criteria for understanding AI's perceptual experience or subjective interpretations of sensory data.
-
-Example: An AI system capable of describing its interpretation of visual or auditory input beyond objective data points, reflecting a unique perspective or subjective viewpoint.
-
-Setting definitive criteria for sentience in AI systems is a complex task that will evolve in tandem with technological advancements and our understanding of cognition. The proposed criteria serve as an initial framework for evaluating AI systems' level of sentience and provide a basis for developing legal standards and ethical guidelines for AI research and experimentation involving sentient AI systems.
+Either design needs a body to apply it. §2.4.4 already specified its composition: AI researchers, consciousness scientists, ethicists, and legal scholars, interdisciplinary by design because no single field's expertise is sufficient on its own. What that section left open is what happens once the body rules — whether its judgment carries any force beyond its own credibility. That is the question the rest of this section takes up.

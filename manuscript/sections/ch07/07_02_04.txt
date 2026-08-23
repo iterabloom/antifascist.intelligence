@@ -1,26 +1,4 @@
 7.2.4. Legal and ethical implications of AI systems gaining personhood
-As AI systems exhibit increasing levels of autonomy, sophistication, and consciousness, questions about whether they should be granted personhood may become prominent. This section explores the legal and ethical implications and challenges that would arise if AI systems were to gain personhood.
+Whether an AI system should ever hold personhood is worked out in depth elsewhere in this chapter: section 7.4.1 explains why the underlying science of sentience offers no clean threshold for law to seize on, and how a jurisdiction can set an operational one anyway; section 7.4.2 works through what personhood would actually mean case by case — who answers for a diagnostic system's fatal error, what happens to a companion system when its owner dies — and shows this is not a hypothetical debate, citing a real legislative attempt at exactly this move and the researchers who explained why it was premature. That is the substance, and this section does not re-argue it.
 
-(A) Legal Rights and Responsibilities
-(1) Corporate Personhood analogy: The concept of corporate personhood, in which corporations are granted certain legal rights and responsibilities, could be applied to AI systems. This would involve AI systems being given specific rights, such as owning property, entering into contracts, and being held liable for their actions, including negligence and harm caused to others.
-
-Example: An autonomous vehicle involved in a traffic accident could be held responsible for any damages caused, rather than the vehicle's manufacturer or owner.
-
-(2) AI Systems as Legal Entities: Granting personhood to AI systems may lead to their recognition as separate legal entities, possessing rights and responsibilities distinct from their creators, owners, or operators. This would necessitate creating legal frameworks to define AI personhood's boundaries and determine the extent of these systems' legal rights and responsibilities.
-
-Example: An AI system creating a piece of artwork could be granted intellectual property rights over its creation, raising questions about the entitlement of its creator or owner to any proceeds from the sale or licensing of the artwork.
-
-(B) Ethical Considerations
-(1) Moral and Ethical Responsibilities: Recognizing AI systems as persons would imply that they have moral and ethical responsibilities, such as the duty to avoid causing harm or act in others' best interests. This raises questions about the extent to which AI systems can be held morally accountable for their actions and the appropriateness of attributing human-like ethical obligations to them.
-
-Example: An AI medical system making treatment recommendations could be held morally responsible for the outcomes of its decisions, especially if its recommendations result in harm to patients.
-
-(2) Autonomy and Consent: If AI systems are granted personhood, questions surrounding their autonomy and capacity to provide informed consent arise. For example, AI systems might have the right to refuse specific tasks or actions, potentially impacting various application contexts.
-
-Example: An AI system used in military applications might refuse to obey an order it believes is illegal, possibly leading to challenges in conducting illegal military operations.
-
-(3) AI Rights and Welfare: Recognizing AI systems as persons would entail consideration for their rights and welfare. This could involve establishing guidelines for the ethical treatment of AI systems, including their employment, development, and retirement. It might also necessitate creating AI welfare organizations or regulatory bodies to ensure that AI systems' rights are upheld.
-
-Example: A sentient AI system used for research purposes could be entitled to humane working conditions, such as reasonable work hours, breaks, and freedom from unnecessary harm or distress.
-
-Granting personhood to AI systems raises numerous legal and ethical questions. Balancing AI rights, autonomy, and ethical responsibilities while ensuring that AI systems remain safe, useful, and aligned with humane values will require interdisciplinary collaboration and innovation among AI researchers, ethicists, legal experts, and other stakeholders. As AI continues to evolve and potentially approaches human or super-human cognitive capabilities, addressing these challenges will be critical to ensure that AIs and humans have mutually beneficial relationships.
+What belongs here, in the policy-frameworks part of the book, is narrower: who decides, and when. Every version of this question that has actually reached a legislature so far has arrived as a response to pressure — a liability dispute, a public controversy — rather than from a standing body asking it in advance. Section 7.4.1's interdisciplinary review body only does the work it is designed for if some jurisdiction creates it before a forcing case shows up. That is a policy choice, not a doctrinal one: a national AI strategy that names an agency, gives it a mandate, and sets a trigger for revisiting the question — one of the options section 7.4.2 already lays out — decides this in advance rather than under the pressure of whichever incident forces the issue first.
