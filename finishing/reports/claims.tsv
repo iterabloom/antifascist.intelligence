@@ -299,8 +299,8 @@ C0307	3.2.3		named_study	MIT Moral Machine (Awad et al.)	crowdsourced moral-dile
 C0308	3.3.2		named_theory	curiosity-driven exploration via self-supervised prediction / intrinsic curiosity module (Pathak et al.)	prediction error as intrinsic reward signal	unverified	
 C0309	3.3.3		named_theory	Vygotsky, zone of proximal development	learning is most effective just ahead of current skill, with support	unverified	
 C0310	3.3.1		named_study	OpenAI Hide and Seek	emergent tool use from multi-agent self-play	unverified	
-C0296	2.2.1		named_study	Tania Singer, pain-empathy fMRI study	shared-pain-network activation when a loved one is hurt	unverified	introduced by transplant T3
-C0297	2.2.1		named_study	Singer and Klimecki, compassion vs. empathy training	opposite affect/network signatures; compassion trainable separately	unverified	introduced by transplant T3
+C0296	2.2.1		named_study	Klimecki, Leiberg, Ricard & Singer 2013, sequential empathy-then-compassion training	empathy stage raises negative affect via shared-distress network vs. memory-training control	unverified	introduced by transplant T3; verified 2026-08-23: one group trained sequentially (empathy then compassion) vs. a separate memory-control group, not two independently-trained parallel groups -- prose corrected to match
+C0297	2.2.1		named_study	Klimecki, Leiberg, Ricard & Singer 2013, compassion-training stage	compassion stage raises positive affect via reward/affiliation network, opposite empathy stage's signature	unverified	introduced by transplant T3; same study as C0296, compassion-stage half of the finding
 C0298	2.2.3		named_theory	Paul Bloom, "Against Empathy" / rational compassion	empathy as spotlight: vivid, near, innumerate; rational compassion as alternative	unverified	introduced by transplant T7 (unframed, D-016)
 C0299	2.3.3		named_study	rubber hand illusion (Botvinick and Cohen)	synchronous stroking induces ownership of a fake hand	unverified	introduced by transplant T9
 C0300	2.3.1		named_study	Paul Ekman, Fore people facial-expression study	cross-cultural matching taken as evidence for universal basic emotions	unverified	introduced by transplant T6
