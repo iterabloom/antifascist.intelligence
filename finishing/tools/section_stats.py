@@ -23,8 +23,12 @@ DATED = re.compile(r"\b(GPT-[234]|BERT|AlphaGo(?: Zero)?|AlphaZero|AlphaFold|Age
                    r"Watson|Rekognition|PredPol|GPT)\b")
 TEMPORAL = re.compile(r"\b(currently|recent(?:ly)?|state-of-the-art|cutting-edge|"
                       r"latest|emerging|is being developed|in progress|proposed)\b", re.I)
-XREF = re.compile(r"\b(?:see|in|per)\s+(?:section|chapter)\s+\d|previous section|"
-                  r"subsequent chapters|earlier chapter", re.I)
+# Matches both "see section 4.2" and a bare "Section 4.2 expounds ..." as the
+# sentence subject. The first version missed the latter, which is the form the
+# author actually writes, so cross-references were being under-counted.
+XREF = re.compile(r"\b(?:see|in|per)\s+(?:section|chapter)\s+\d|"
+                  r"\b(?:section|chapter)\s+\d+(?:\.\d+)*\b|"
+                  r"previous section|subsequent chapters|earlier chapter", re.I)
 
 HEADER = ["num", "title", "level", "chapter", "words", "paras", "list_marked",
           "list_unmarked", "closers", "we", "this_report", "in_this_section",

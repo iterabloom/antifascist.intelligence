@@ -267,3 +267,9 @@ C0265	10.3.3	12	inline_citation	(Devlin et al., 2018)	Pretrained language models
 C0266	10.3.3	12	named_system	BERT	Pretrained language models like BERT (Devlin et al.	unverified	
 C0267	10.3.3	12	year	2018	, 2018) that draw extensively on transfer learning have registered improvements in various natural language processing tasks.	unverified	
 C0268	10.3.3.2	14	named_instrument	OpenAI's Cooperative AI Initiative	OpenAI's Cooperative AI Initiative: OpenAI's initiative focuses on fostering the development of AI systems that actively cooperate with each other and their human counterparts.	unverified	
+C0269	3.1.2.3.1.1		named_study	inattentional blindness / gorilla video	1999 study: ~half of viewers counting passes fail to see a gorilla on screen for nine seconds	unverified	introduced by transplant T11 (pilot)
+C0270	3.1.2.3.1.1		statistic	radiologists 83 percent	radiologists miss a gorilla embedded in a lung scan at 83 percent	unverified	introduced by transplant T11 (pilot)
+C0271	3.1.2.3.1.1		named_study	change blindness / person swap	people fail to notice their interlocutor being replaced during a brief interruption	unverified	introduced by transplant T11 (pilot)
+C0272	3.1.2.3.1.1		named_system	transformer self-attention	self-attention in transformer architectures	unverified	introduced by transplant T11 (pilot)
+C0273	3.1.2.3.1.1		named_theory	attention schema theory	a system modeling its own attention acquires materials for self-awareness	unverified	introduced by transplant T11 (pilot)
+C0274	3.1.2.3.1.1		quotation	"doesn't look like anything to me"	quoted line from Westworld, closing the section; fourth item of third-party quoted material in the book	unverified	PERMISSIONS: add to the D-012 rights list with the three epigraphs; needs exact episode/writer attribution
