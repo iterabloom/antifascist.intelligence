@@ -1,4 +1,7 @@
-# Proposed amendment to AGENTS.md — needs your approval
+# Amendment to AGENTS.md — APPLIED 2026-08-23
+
+**Status: approved by the author and applied.** Kept as the record of what changed
+and why; the live rule is in `AGENTS.md`.
 
 D-017 changes how the named-persons rule is applied. `AGENTS.md` still carries
 the strict wording, and a future agent reading it will re-apply the strict
@@ -43,4 +46,4 @@ The single change is that citing published work by name stops being a violation
 and becomes what it is. `finishing/tools/names_guard.py` already implements the
 new test and still fails on "reviewed by X, who rated it highly" — verified.
 
-Say the word and I will apply exactly this.
+Applied verbatim. `git log -- AGENTS.md` carries the commit.
