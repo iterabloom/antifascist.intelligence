@@ -1,24 +1,17 @@
-**Session digest — 2026-08-22 (later still)**
+**Session digest — 2026-08-22 (evening)**
 
-Your eight answers are recorded as D-006…D-013 and applied. Since then:
+Chapter 9 ruled, style sheet corrected, and the quarry decision recorded.
 
-- **Style sheet written** (`finishing/style.md`) — the operative spec for the revise pass. Behind it: "foster" 278× in 149 sections (once every 415 words); the authorial "we" 258× in 131 sections; 31 sections that end by summarizing themselves.
-- **The build works.** Chapter 3 goes HTML → LibreOffice → PDF, 55 pages, justified text and intact headings. Commands and limits in `finishing/pipeline.md`.
-- **Triage is ready for you** — `finishing/reports/triage/ch01.md` … `ch10.md`, one table per chapter, every section with a proposed fate and its reason.
+- **Chapter 9 done — 12 of 282 rows.** 9.1 and 9.2 get openers (fill, not cut); 9.2.3 merges and is *not* the home of the emotional-intelligence argument; the other nine revise. Rerunning the triage tool preserves your rulings — it only ever writes the `proposed` column.
+- **Style sheet corrected.** The authorial frame is now *removed*, not converted: "We propose an array of strategies" becomes the strategies, not "I propose…". Applied to the whole `we propose / recommend / argue` row (36 instances).
+- **D-014: the quarry is in, ~12k words, as the one exception to revise-only.** A transplant spec is being drafted — source line ranges, target sections, what each one corrects, and the register edit each needs.
 
-**The finding that should change your picture:** the three-level cap you chose in Q-004 is the largest operation in the book. **110 sections holding 50,422 words — 41% of the text — sit deeper than three levels**, so 101 of them lose their heading and their text joins the section above. Chapter 3 alone has 39 such sections, chapter 2 has 20. No words are cut, but every seam needs an edit, and it is much more work than "cut §6.4.1.1–.9 and fold chapter 8" sounded like.
+**One consequence worth flagging.** D-014 changes the arithmetic. From 115,377 words: §6.4.1's cuts remove ~3.5k, chapter 8's fold sheds some, the duplication rulings maybe 5–8k — and the transplants *add* 12k. That lands near 110–115k against the 75–90k of D-002. `PLAN.md` now records D-002 as aspirational rather than pretending the two are compatible. If 75–90k matters to you, it needs deeper cuts than anything decided so far; if it doesn't, say so and I'll retire the target.
 
-Proposed fates across 282 sections: **141 revise · 101 fold · 13 move · 9 cut · 7 merge · 11 fill-or-cut** (headings with no body text at all).
+**No open questions.** Nothing is blocked.
 
-**Your move, when you have 20 minutes:** open one chapter mirror and change any fate you disagree with — chapter 9 is the shortest (12 sections), chapter 3 the most consequential (55). Nothing is blocked meanwhile.
+**Next, whenever you have 20 minutes:** another chapter mirror. Chapter 10 is 20 sections; chapter 3 is the big one at 55 and the one where the transplants land, so it may be worth doing after the transplant spec is in front of you.
 
 ---
 
-### Q-009 — Does the quarry still get used? (new; follows from D-007)
-`cognition/` holds ~55k words of your 2026 prose on human cognition, and the plan had assumed selective transplants into the cognition sections. Revise-only puts that in question, because a transplant is new text in the book even though it is not newly written.
-
-- **(a) Default — a narrow exception.** No general transplant. Allow it only where the manuscript states something the *Atlas* shows to be wrong (the mirror-neuron sentence in §2.2.1, dual-process presented as settled in §4.3.1, the homunculus in §3.1.2.3.1.4). Corrections, not enrichment; a few hundred words each.
-- (b) No exception. The quarry stays out entirely; *Atlas* remains a separate work.
-- (c) Keep the original ~12k-word transplant plan and treat it as the one place new material is allowed.
-
-*Default applies when Phase 3 triage opens.*
+*Answered and archived: Q-001…Q-009 → D-006…D-015 in `DECISIONS.md`.*

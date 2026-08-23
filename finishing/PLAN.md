@@ -18,17 +18,28 @@ and repair the structure. Section fates are drawn from **Keep / Revise / Merge /
 Cut** — never "write from nothing", with one exception: the eleven headings that
 have no body text at all, which need either a paragraph or deletion.
 
-What this rules out, recorded so it is not silently reintroduced: rebuilding the
-cognition sections that are stubs (§2.3.1 is 47 words, §2.3.2 is 86, §2.3.3 is
-69); adding the topics the 2023 reviews asked for and the book never grew
-(evaluation metrics, AI-safety vocabulary, language as a cognitive system);
-arguing the anti-authoritarian thesis somewhere it is currently assumed. Those
-stay as they are unless the author reopens D-007.
+**The one exception (D-014): the quarry.** Roughly 12,000 words from
+`cognition/` may enter the book — the *Atlas of Human Cognition* material, plus
+the predictive-processing diagram and the 2022 transcript if they earn a place.
+This is where the stub cognition sections get their substance, and it is the
+only place new material is allowed. It needs its own spec
+(`finishing/transplants.md`): source range, target section, what the transplant
+corrects or replaces, mode, word budget, and the register edit each one needs,
+because the *Atlas* is second-person trade prose and the book is not.
 
-**Length.** D-010's cuts remove roughly 8–10k words and the duplication cuts
-perhaps as much again, landing near 95–100k rather than the 75–90k of D-002.
-Under a revise-only pass that gap closes only by cutting more, not by writing
-less — flagged here as the one place D-002 and D-007 pull against each other.
+What is still ruled out, recorded so it is not silently reintroduced: adding the
+topics the 2023 reviews asked for and the book never grew (evaluation metrics,
+AI-safety vocabulary, language as a cognitive system) except where a transplant
+happens to supply one; and arguing the anti-authoritarian thesis somewhere it is
+currently assumed. Those stay as they are unless the author reopens D-007.
+
+**Length.** Starting from 115,377 body words: D-010's cuts remove ~3.5k
+(§6.4.1.1–.9) plus whatever chapter 8's fold into chapter 7 sheds, the
+duplication rulings perhaps 5–8k, and D-014 *adds* ~12k. That lands near
+110–115k against D-002's 75–90k. The gap is now large enough that D-002 should
+be treated as aspirational unless the author wants deeper cuts; it is the one
+place the decisions genuinely pull against each other, and it is flagged rather
+than resolved.
 
 **Epigraphs (D-012).** All three are kept at the author's direction. They are
 third-party copyrighted text — two song lyrics and a television script — so a

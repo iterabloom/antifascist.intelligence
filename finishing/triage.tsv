@@ -249,18 +249,18 @@ num	title	level	words	proposed	fate	target	why	evidence
 8.4	AI and Global Inequality	2	0	fill-or-cut			heading with no body text at all	no-body-text
 8.4.1	The Impact of Ethical AI on Developing Nations and Emerging Economies; Distributing AI Benefits to All	3	1072	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	unmarked-list-items:5
 8.4.2	Strategies for Ethical AI Development and Anti-Authoritarian Sentience in Low-Resource Contexts	3	393	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	unmarked-list-items:6
-9	Necessary Areas of Research	1	110	revise			chapter opener	
-9.1	Ethics and Social Reasoning in AI	2	0	fill-or-cut			heading with no body text at all	no-body-text
-9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	revise			voice, tics, closers, citations, dating	xchapter-pairs:4;unmarked-list-items:4
-9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
-9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;unmarked-list-items:7
-9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	revise			voice, tics, closers, citations, dating	unmarked-list-items:6
-9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:6
-9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
-9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	fill-or-cut			heading with no body text at all	no-body-text
-9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	revise			voice, tics, closers, citations, dating	xchapter-pairs:4
-9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	revise			voice, tics, closers, citations, dating	unmarked-list-items:7
-9.2.3	Integrating Affective Computing into AI Systems for Enhanced Human-AI Interaction	3	482	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:2;unmarked-list-items:12
+9	Necessary Areas of Research	1	110	revise	revise		chapter opener	
+9.1	Ethics and Social Reasoning in AI	2	0	fill-or-cut	fill		heading with no body text at all	no-body-text
+9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:4;unmarked-list-items:4
+9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:2
+9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:1;unmarked-list-items:7
+9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	revise	revise		voice, tics, closers, citations, dating	unmarked-list-items:6
+9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:6
+9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:1
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	fill-or-cut	fill		heading with no body text at all	no-body-text
+9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	revise	revise		voice, tics, closers, citations, dating	xchapter-pairs:4
+9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	revise	revise		voice, tics, closers, citations, dating	unmarked-list-items:7
+9.2.3	Integrating Affective Computing into AI Systems for Enhanced Human-AI Interaction	3	482	merge?	merge	cluster-B home (tbd)	one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:2;unmarked-list-items:12
 10	Conclusion and Outlook	1	0	fill-or-cut			heading with no body text at all	no-body-text
 10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
 10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	499	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:5

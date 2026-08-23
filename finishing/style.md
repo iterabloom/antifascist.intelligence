@@ -13,9 +13,13 @@ back in before the pass proper begins.
 |---|---|
 | "This report" (6×) | "This book" |
 | Institutional "we" as author (258× in 131 sections) | "I" where the author speaks |
-| "We propose / recommend / argue" (36×) | "I argue", or drop the frame and make the claim |
+| "We propose / recommend / argue" (36×) | **drop the frame and make the claim** |
 | "Our" as the authors' (130×) | "my", or recast |
 | "In this section, we…" (22×) | delete; say the thing |
+
+On that last row the author is explicit: not "I argue that X" but simply *X*.
+"We propose an array of strategies" becomes the strategies. The hedging frame is
+not replaced with a first-person frame; it is removed.
 
 "We" survives only as reader-inclusive — "we can now ask", "what we call
 attention" — where it means *you and I*, not *the authors*. When in doubt,

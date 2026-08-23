@@ -23,5 +23,7 @@ change) · `default-applied` (unanswered by its deadline; reversible) ·
 | D-011 | 2026-08-22 | Authoritative text (Q-005) | The manuscript's own headings are authoritative. `manuscript/table-of-contents.txt` becomes regenerated output (`headings.py --write-toc`). The `AGENTS.md` "Authoritative text" line is amended to point at `manuscript/sections/` plus the join. **Author gave explicit approval for the AGENTS.md edit.** | confirmed (Q-005 a) |
 | D-012 | 2026-08-22 | Epigraphs (Q-007) | **Keep all three** (Run the Jewels, Lady Gaga / Bradley Cooper, Westworld). A permissions task is opened and tracked in `PLAN.md`; the rights exposure is the author's accepted risk, recorded here rather than re-argued. | confirmed (Q-007 b) |
 | D-013 | 2026-08-22 | The two repeated arguments (Q-008) | Each cluster gets one home, decided during triage; the other instances are cut or reduced to a cross-reference. Under D-007 the surviving instance is the best existing text, edited — not new prose. | confirmed (Q-008 a) |
+| D-014 | 2026-08-22 | The quarry (Q-009) | The original transplant plan stands: roughly 12,000 words from `cognition/` may enter the book. **This is the single exception to D-007** — the one place new material is allowed. Everything else remains a revise. | confirmed (Q-009 c) |
+| D-015 | 2026-08-22 | Chapter 9 triage | 9.1 and 9.2 get openers (fill, not cut); 9.2.3 merges and is not the home of the emotional-intelligence argument; the other nine sections revise. | confirmed |
 
 Open items live in `QUESTIONS.md` and move here when answered.
