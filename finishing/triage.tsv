@@ -1,0 +1,283 @@
+num	title	level	words	proposed	fate	target	why	evidence
+1	Introduction	1	370	revise			chapter opener	xchapter-pairs:1
+1.1	The Imperative of Altruistic and Anti-Authoritarian Sentient Machines	2	167	revise			voice, tics, closers, citations, dating	
+1.2	Aims and Objectives	2	191	revise			voice, tics, closers, citations, dating	
+1.3	Mindset and Motivation in AI Behavior	2	2513	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+2	Foundations of Empathy and Compassion in Friendly AI	1	74	revise			chapter opener	
+2.1	Ethical Frameworks and AI Alignment	2	415	revise			voice, tics, closers, citations, dating	xchapter-pairs:5
+2.1.1	Surveying Ethical Theories for AI Alignment	3	592	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	revise			voice, tics, closers, citations, dating	
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	revise			voice, tics, closers, citations, dating	xchapter-pairs:3
+2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:7
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	revise			voice, tics, closers, citations, dating	claims:2;dated:2
+2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	revise			voice, tics, closers, citations, dating	
+2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	revise			voice, tics, closers, citations, dating	
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+2.3	Emotional Intelligence and Self-awareness	2	365	revise			voice, tics, closers, citations, dating	
+2.3.1	Components of Emotional Intelligence	3	411	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:10;claims:1
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:1
+2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	revise			voice, tics, closers, citations, dating	
+2.4	Ethical implications of experimenting on sentient machine subjects	2	35	revise			voice, tics, closers, citations, dating	claims:1;dated:1
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	revise			voice, tics, closers, citations, dating	claims:2;dated:2
+2.4.2	Ethical Considerations in AI Research and Experimentation	3	85	revise			voice, tics, closers, citations, dating	
+2.4.2.1	The Principle of Beneficence	4	317	fold			D-010 caps the outline at 3 levels; text joins 2.4.2	
+2.4.2.2	The Principle of Autonomy	4	345	fold			D-010 caps the outline at 3 levels; text joins 2.4.2; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1
+2.4.2.3	The Principle of Justice	4	300	fold			D-010 caps the outline at 3 levels; text joins 2.4.2	
+2.4.2.4	The Precautionary Principle	4	311	fold			D-010 caps the outline at 3 levels; text joins 2.4.2	
+2.4.2.5	The Principle of Transparency	4	303	fold			D-010 caps the outline at 3 levels; text joins 2.4.2	
+2.4.2.6	Interdisciplinary Ethical Review and Oversight	4	743	fold			D-010 caps the outline at 3 levels; text joins 2.4.2; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	merge?			part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1
+2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	352	revise			voice, tics, closers, citations, dating	
+2.4.4.1	Informed Consent in AI Research	4	371	fold			D-010 caps the outline at 3 levels; text joins 2.4.4; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:2
+2.4.4.2	Respect for AI Autonomy	4	288	fold			D-010 caps the outline at 3 levels; text joins 2.4.4	
+2.4.4.3	Balancing Scientific Progress with Ethical Constraints	4	266	fold			D-010 caps the outline at 3 levels; text joins 2.4.4	
+2.4.4.4	Ethical Review and Oversight	4	384	fold			D-010 caps the outline at 3 levels; text joins 2.4.4	
+2.4.4.5	Promoting a Culture of Ethical Responsibility in AI Research	4	364	fold			D-010 caps the outline at 3 levels; text joins 2.4.4; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	revise			voice, tics, closers, citations, dating	claims:1;unmarked-list-items:2
+2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	69	revise			voice, tics, closers, citations, dating	
+2.4.6.1	Identifying and Assessing Dilemmas	4	390	fold			D-010 caps the outline at 3 levels; text joins 2.4.6; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1
+2.4.6.2	Value Pluralism and Moral Trade-offs	4	271	fold			D-010 caps the outline at 3 levels; text joins 2.4.6	
+2.4.6.3	Precedent in Animal Research Ethics	4	344	fold			D-010 caps the outline at 3 levels; text joins 2.4.6	
+2.4.6.4	Institutional Review Boards (IRBs) for AI Sentience Research	4	336	fold			D-010 caps the outline at 3 levels; text joins 2.4.6	
+2.4.6.5	Promoting Ethical Responsibility and Transparency	4	365	fold			D-010 caps the outline at 3 levels; text joins 2.4.6; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4
+2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	44	revise			voice, tics, closers, citations, dating	
+2.4.7.1	Recognizing the Emergence of Sentience in AI Systems	4	396	fold			D-010 caps the outline at 3 levels; text joins 2.4.7	
+2.4.7.2	Adapting Research Practices and Ethical Guidelines	4	421	fold			D-010 caps the outline at 3 levels; text joins 2.4.7	
+2.4.7.3	Establishing Legal and Regulatory Frameworks	4	410	fold			D-010 caps the outline at 3 levels; text joins 2.4.7	
+2.4.7.4	Educating Stakeholders and Fostering a Culture of Ethical Responsibility	4	450	fold			D-010 caps the outline at 3 levels; text joins 2.4.7; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;claims:1
+3	Machine Learning and Cognitive Science	1	79	revise			chapter opener	
+3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	revise			voice, tics, closers, citations, dating	
+3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	revise			voice, tics, closers, citations, dating	
+3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	527	revise			voice, tics, closers, citations, dating	
+3.1.2.1	Neural Networks and Brain-Inspired AI Models	4	512	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	claims:1;dated:1
+3.1.2.2	Hierarchical Processing and the Visual Cortex	4	544	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.3	Cognitive and Emotional Processes	4	345	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:4
+3.1.2.3.1	Cognitive and Emotional Processes	5	202	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.3.1.1	Attention	6	587	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	claims:2
+3.1.2.3.1.2	Perception	6	515	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.3.1.3	Memory	6	503	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.3.1.4	Reasoning and Problem Solving	6	642	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:5
+3.1.2.3.1.5	Metacognition	6	520	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:3
+3.1.2.3.1.6	Emotional Recognition and Perception	6	821	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:3;unmarked-list-items:2
+3.1.2.3.1.7	Emotional Mimicry and Empathy	6	382	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.3.1.8	Emotional Regulation	6	449	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:4;claims:1;unmarked-list-items:4
+3.1.2.3.1.9	Emotion and Decision-Making	6	469	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:5;unmarked-list-items:3
+3.1.2.3.1.10	Emotion-Driven Learning and Adaptation	6	376	fold			D-010 caps the outline at 3 levels; text joins 3.1.2; also 1 of 6 making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:5;unmarked-list-items:4
+3.1.2.3.1.11	Applications and Examples	6	887	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:3;unmarked-list-items:5
+3.1.2.3.1.11.1	Frameworks for Integration	7	553	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:8
+3.1.2.3.1.11.2	Challenges in Integration	7	497	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:5;claims:1;unmarked-list-items:5
+3.1.2.3.1.11.3	Examples of Integrated AI Systems	7	373	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:4
+3.1.2.4	Learning and Plasticity	4	42	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.2.4.1	The Role of Plasticity in Intelligence	5	476	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:4
+3.1.2.4.2	Bio-Inspired Learning Mechanisms	5	480	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	claims:1
+3.1.2.4.3	Lifelong Learning in AI Systems	5	450	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:4
+3.1.2.4.4	Examples of Learning and Plasticity in AI Systems	5	437	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	claims:2;dated:2;unmarked-list-items:5
+3.1.2.5	Example: Cognitive Architectures and Integrated AI Systems	4	413	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
+3.1.3	Human-Like Learning and Generalization in AI Systems	3	49	revise			voice, tics, closers, citations, dating	
+3.1.3.1	Few-Shot Learning in AI Systems	4	38	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	
+3.1.3.1.1	Overview of Few-Shot Learning	5	360	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:3
+3.1.3.1.2	Techniques for Few-Shot Learning	5	463	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:3
+3.1.3.1.3	Applications of Few-Shot Learning in Ethical AI	5	413	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:6
+3.1.3.1.4	Challenges and Future Directions	5	480	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:5
+3.1.3.2	Transfer Learning and Domain Adaptation	4	63	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	
+3.1.3.2.1	Overview of Transfer Learning and Domain Adaptation	5	488	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	
+3.1.3.2.2	Strategies for Transfer Learning and Domain Adaptation	5	542	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	claims:3;dated:3
+3.1.3.2.3	Specific Examples	5	418	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	claims:2;dated:2;unmarked-list-items:5
+3.1.3.2.4	Challenges and Limitations	5	602	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:6
+3.1.3.2.5	Opportunities and Future Directions	5	536	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	unmarked-list-items:7
+3.1.3.3	Developmental Trajectory in AI Systems	4	433	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	
+3.1.3.4	Examples of Human-Like Learning and Generalization	4	440	fold			D-010 caps the outline at 3 levels; text joins 3.1.3	claims:7;dated:7;unmarked-list-items:5
+3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	revise			voice, tics, closers, citations, dating	
+3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	424	revise			voice, tics, closers, citations, dating	
+3.2.1.1	Challenges in Value Alignment for Reinforcement Learning	4	637	fold			D-010 caps the outline at 3 levels; text joins 3.2.1	unmarked-list-items:5
+3.2.1.2	Strategies for Value Alignment in Reinforcement Learning	4	533	fold			D-010 caps the outline at 3 levels; text joins 3.2.1	unmarked-list-items:5
+3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	revise			voice, tics, closers, citations, dating	claims:1
+3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	revise			voice, tics, closers, citations, dating	unmarked-list-items:4
+3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	revise			voice, tics, closers, citations, dating	
+3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	revise			voice, tics, closers, citations, dating	
+3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	revise			voice, tics, closers, citations, dating	unmarked-list-items:3
+3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	revise			voice, tics, closers, citations, dating	
+3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	revise			voice, tics, closers, citations, dating	
+3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	revise			voice, tics, closers, citations, dating	xchapter-pairs:4
+3.3.3	Lessons from Human Child Development and Exploration	3	393	revise			voice, tics, closers, citations, dating	unmarked-list-items:4
+4	Moral Psychology and AI	1	35	revise			chapter opener	
+4.1	Moral Development in Humans and AI	2	493	revise			voice, tics, closers, citations, dating	claims:1
+4.1.1	Stages of Moral Development: From Rules to Principles and the Influence of Mindset	3	472	revise			voice, tics, closers, citations, dating	
+4.1.1.1	Mindset in Human Moral Development and Decision-Making; Implications for AI	4	616	fold			D-010 caps the outline at 3 levels; text joins 4.1.1	unmarked-list-items:11
+4.1.2	The Significance of Social Interaction in Moral Learning	3	443	revise			voice, tics, closers, citations, dating	
+4.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	533	revise			voice, tics, closers, citations, dating	xchapter-pairs:5;unmarked-list-items:3
+4.1.4	Using AI to Respect and Promote Human Dignity	3	554	revise			voice, tics, closers, citations, dating	
+4.2	Emotions and Intuitions in Moral Decision-Making	2	63	revise			voice, tics, closers, citations, dating	
+4.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	714	revise			voice, tics, closers, citations, dating	xchapter-pairs:3
+4.2.2	Assessing and Developing AI Emotions	3	617	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:8;claims:1;unmarked-list-items:6
+4.2.2.1	Challenges and Opportunities in Emotional AI Systems	4	484	fold			D-010 caps the outline at 3 levels; text joins 4.2.2; also 1 of 6 making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:9;unmarked-list-items:9
+4.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	495	revise			voice, tics, closers, citations, dating	xchapter-pairs:4;unmarked-list-items:2
+4.2.4	The role of introspection for AI systems	3	459	revise			voice, tics, closers, citations, dating	
+4.2.4.1	Benefits of introspection for AI systems	4	489	fold			D-010 caps the outline at 3 levels; text joins 4.2.4	unmarked-list-items:5
+4.2.4.2	Challenges in implementing introspection	4	410	fold			D-010 caps the outline at 3 levels; text joins 4.2.4	claims:1;unmarked-list-items:8
+4.2.4.3	Specific examples of AI systems employing introspection	4	479	fold			D-010 caps the outline at 3 levels; text joins 4.2.4	claims:10;dated:9;unmarked-list-items:5
+4.3	Integrating Moral Intuitions and Deliberation	2	72	revise			voice, tics, closers, citations, dating	
+4.3.1	Dual-Process Theories of Moral Judgment	3	423	revise			voice, tics, closers, citations, dating	claims:1
+4.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	433	revise			voice, tics, closers, citations, dating	
+4.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	547	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;claims:1;unmarked-list-items:5
+4.4	Moral Ecosystem Approach in AI Development	2	99	revise			voice, tics, closers, citations, dating	claims:1;dated:1
+4.4.1	Applying Moral Ecosystem Theory to AI Development	3	414	revise			voice, tics, closers, citations, dating	claims:1
+4.4.2	Microsystem Interactions and AI Moral Learning	3	399	revise			voice, tics, closers, citations, dating	
+4.4.3	Mesosystem and Exosystem Influences on AI Alignment	3	450	revise			voice, tics, closers, citations, dating	unmarked-list-items:5
+4.4.4	Macrosystem Influences on AI Development and Employment	3	467	revise			voice, tics, closers, citations, dating	unmarked-list-items:4
+4.4.5	The Chronosystem: AI Systems in a Changing World	3	449	revise			voice, tics, closers, citations, dating	claims:1;unmarked-list-items:3
+4.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	298	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+4.4.6.1	Identifying and Counteracting Authoritarian Tendencies	4	444	fold			D-010 caps the outline at 3 levels; text joins 4.4.6	xchapter-pairs:2;unmarked-list-items:4
+4.4.6.2	Promoting Democratic Values and Human Rights	4	546	fold			D-010 caps the outline at 3 levels; text joins 4.4.6	xchapter-pairs:2
+4.4.6.3	Strategic Recommendations for Ethical AI Development Against Authoritarianism	4	481	fold			D-010 caps the outline at 3 levels; text joins 4.4.6	xchapter-pairs:2;unmarked-list-items:8
+4.5	The Interplay of Competition and Collaboration in AI Development	2	38	revise			voice, tics, closers, citations, dating	
+4.5.1	The Impact of Competition and Collaboration on Human Moral Development	3	491	revise			voice, tics, closers, citations, dating	
+4.5.2	Cooperative AI Systems and Multi-Agent Moral Development	3	375	revise			voice, tics, closers, citations, dating	
+4.5.3	Strategies for Fostering Collaboration Among AI Systems	3	475	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:3;dated:2;unmarked-list-items:6
+4.6	Motivation in AI Systems	2	0	fill-or-cut			heading with no body text at all	no-body-text
+4.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	488	revise			voice, tics, closers, citations, dating	claims:4;dated:3
+4.6.2	Developing Motivationally-Aware AI Systems	3	474	revise			voice, tics, closers, citations, dating	claims:2;dated:1
+4.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	554	revise			voice, tics, closers, citations, dating	claims:6;dated:3
+4.6.3.1	AI Autonomy and Anti-Authoritarian Values	4	321	fold			D-010 caps the outline at 3 levels; text joins 4.6.3	
+4.6.3.1.1	Safeguards Against AI Systems Enabling Authoritarian Regimes	5	616	fold			D-010 caps the outline at 3 levels; text joins 4.6.3	xchapter-pairs:2;claims:1
+4.6.3.1.2	Strategies for Developing AI Systems Committed to Democratic Principles	5	517	fold			D-010 caps the outline at 3 levels; text joins 4.6.3; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:11;claims:2;unmarked-list-items:9
+4.7	Play, Exploration, and Moral Development in AI	2	0	fill-or-cut			heading with no body text at all	no-body-text
+4.7.1	The Role of Play in Moral Learning and Socialization	3	402	revise			voice, tics, closers, citations, dating	
+4.7.1.1	Theoretical Basis and Significance	4	482	fold			D-010 caps the outline at 3 levels; text joins 4.7.1	claims:2
+4.7.1.2	Facilitating Ethical Exploration and Experimentation in AI Systems	4	571	fold			D-010 caps the outline at 3 levels; text joins 4.7.1	
+4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	501	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	0	fill-or-cut			heading with no body text at all	no-body-text
+5.1	Bias, Fairness, and Equity in AI Systems	2	467	revise			voice, tics, closers, citations, dating	
+5.1.1	Sources of Bias in AI Data and Algorithms	3	542	revise			voice, tics, closers, citations, dating	claims:5;dated:4;unmarked-list-items:4
+5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	373	revise			voice, tics, closers, citations, dating	claims:2;dated:2
+5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	447	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:3;dated:2
+5.2	Robustness, Generalization, and Adaptability in AI Systems	2	70	revise			voice, tics, closers, citations, dating	
+5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	619	revise			voice, tics, closers, citations, dating	unmarked-list-items:3
+5.2.2	AI Systems that Adapt to Novel Situations	3	645	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
+5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	560	revise			voice, tics, closers, citations, dating	unmarked-list-items:7
+5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	356	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
+5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	618	revise			voice, tics, closers, citations, dating	claims:1
+5.3.2	AI Systems that Learn to Deceive or Manipulate	3	555	revise			voice, tics, closers, citations, dating	unmarked-list-items:6
+5.3.3	Strategies for AI Safety and Risk Mitigation	3	506	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:4;dated:2;unmarked-list-items:7
+5.3.4	AI Explainability and Transparency	3	63	revise			voice, tics, closers, citations, dating	
+5.3.4.1	The Importance of Explainability and Transparency	4	384	fold			D-010 caps the outline at 3 levels; text joins 5.3.4	claims:3;dated:2
+5.3.4.2	Challenges in AI Explainability and Transparency	4	304	fold			D-010 caps the outline at 3 levels; text joins 5.3.4	unmarked-list-items:6
+5.3.4.3	Examples of AI Explainability and Transparency	4	531	fold			D-010 caps the outline at 3 levels; text joins 5.3.4	claims:11;dated:10;unmarked-list-items:5
+5.3.5	Long-term AI safety considerations	3	562	revise			voice, tics, closers, citations, dating	claims:1;unmarked-list-items:5
+5.4	Preventing the Misuse of AI for Authoritarian Purposes	2	79	revise			voice, tics, closers, citations, dating	
+5.4.1	Identifying Authoritarian Applications of AI Technology	3	384	revise			voice, tics, closers, citations, dating	claims:2;dated:2;unmarked-list-items:7
+5.4.2	Developing Technical Countermeasures and Safeguards	3	568	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	388	merge?			one of 9 sections making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:13;unmarked-list-items:7
+6	Collaborative Research and Development	1	0	fill-or-cut			heading with no body text at all	no-body-text
+6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	455	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:1
+6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	444	revise			voice, tics, closers, citations, dating	claims:1;unmarked-list-items:5
+6.1.2	Establishing Joint Research Initiatives and Programs	3	448	revise			voice, tics, closers, citations, dating	xchapter-pairs:2;claims:11;dated:2;unmarked-list-items:6
+6.1.3	Developing Shared Platforms and Tools for an AI Research Ecosystem	3	388	revise			voice, tics, closers, citations, dating	
+6.2	Stakeholder Involvement and Public Engagement	2	389	revise			voice, tics, closers, citations, dating	
+6.2.1	Engaging Diverse Stakeholders in AI Development	3	493	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:4;dated:1
+6.2.2	Public Deliberation and Participatory AI Governance	3	491	revise			voice, tics, closers, citations, dating	claims:2;unmarked-list-items:5
+6.2.3	Promoting AI Literacy and Public Understanding	3	367	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;unmarked-list-items:6
+6.3	International Cooperation and Norm Development	2	49	revise			voice, tics, closers, citations, dating	
+6.3.1	Building Global Partnerships for AI Research and Development	3	505	revise			voice, tics, closers, citations, dating	xchapter-pairs:2;claims:2;unmarked-list-items:5
+6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	396	revise			voice, tics, closers, citations, dating	claims:6;dated:1
+6.3.3	Addressing Global Challenges and Opportunities through AI Collaboration	3	507	revise			voice, tics, closers, citations, dating	
+6.4	Regional Regulatory Frameworks for AI Development	2	29	revise			voice, tics, closers, citations, dating	
+6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	574	revise			voice, tics, closers, citations, dating	claims:4;dated:1;unmarked-list-items:16
+6.4.1.1	European Union (EU)	4	426	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:10;dated:2;unmarked-list-items:3
+6.4.1.2	United Kingdom (UK)	4	401	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:5;dated:2;unmarked-list-items:6
+6.4.1.3	United States (US)	4	330	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:5;dated:4
+6.4.1.4	Canada	4	340	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:5;dated:2
+6.4.1.5	Singapore	4	286	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:2
+6.4.1.6	Taiwan	4	401	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:5;dated:3;unmarked-list-items:3
+6.4.1.7	Mainland China	4	571	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:4;dated:3;unmarked-list-items:10
+6.4.1.8	Russia	4	471	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:2;dated:1;unmarked-list-items:4
+6.4.1.9	Saudi Arabia	4	326	cut			D-010 cuts the per-country survey 6.4.1.1-.9	claims:2;dated:1
+6.4.1.10	Evaluating the Ethical Foundations of Existing Frameworks in Light of Anti-Authoritarian Principles	4	556	fold			D-010 caps the outline at 3 levels; text joins 6.4.1	claims:10;dated:1
+6.4.1.11	Identifying Best Practices and Innovations in Ethical AI Development with a Focus on Altruism and Anti-Authoritarianism	4	524	fold			D-010 caps the outline at 3 levels; text joins 6.4.1	xchapter-pairs:1;claims:2;unmarked-list-items:7
+6.4.1.12	Establishing Shared Ethical Principles for AI Development that Promote Altruism and Counter Authoritarianism	4	478	fold			D-010 caps the outline at 3 levels; text joins 6.4.1; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:6;claims:8
+6.4.1.13	Promoting Cross-border Collaboration on Ethical AI Research and Policies with a Focus on Altruistic and Anti-Authoritarian AI Development	4	604	fold			D-010 caps the outline at 3 levels; text joins 6.4.1	xchapter-pairs:1;claims:2;unmarked-list-items:8
+6.4.2	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	62	revise			voice, tics, closers, citations, dating	
+6.4.2.1	Addressing Cultural, Social, and Moral Differences in AI Ethics with Respect to Altruism and Anti-Authoritarianism	4	447	fold			D-010 caps the outline at 3 levels; text joins 6.4.2	xchapter-pairs:1
+6.4.2.2	Ensuring AI Development is Inclusive and Responsive to Local Needs, while Promoting Altruistic and Anti-Authoritarian Values	4	411	fold			D-010 caps the outline at 3 levels; text joins 6.4.2	unmarked-list-items:4
+7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	0	fill-or-cut			heading with no body text at all	no-body-text
+7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	19	revise			voice, tics, closers, citations, dating	
+7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	436	revise			voice, tics, closers, citations, dating	claims:2;dated:2
+7.1.2	AI and the Concentration of Power in the Technology Industry	3	547	revise			voice, tics, closers, citations, dating	
+7.1.3	AI's Impact on Labor Markets and Income Distribution	3	492	revise			voice, tics, closers, citations, dating	claims:2;dated:2;unmarked-list-items:3
+7.1.4	Addressing Workforce Disruption	3	497	revise			voice, tics, closers, citations, dating	unmarked-list-items:7
+7.1.5	Promoting AI Literacy and Technical Skills Development	3	440	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;unmarked-list-items:6
+7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	522	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:3
+7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	419	revise			voice, tics, closers, citations, dating	xchapter-pairs:4;claims:1
+7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	527	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;claims:5;dated:2;unmarked-list-items:7
+7.2.2	Encouraging Industry Best Practices and Self-regulation	3	80	revise			voice, tics, closers, citations, dating	
+7.2.2.1	The Dangers of Corporate Doublespeak in AI Ethics	4	491	fold			D-010 caps the outline at 3 levels; text joins 7.2.2	claims:3;dated:1
+7.2.2.2	Consequences of AI Self-regulation and Potential Power Imbalances	4	507	fold			D-010 caps the outline at 3 levels; text joins 7.2.2	claims:2;dated:2
+7.2.2.3	Assessing the Effectiveness of AI Self-regulation	4	621	fold			D-010 caps the outline at 3 levels; text joins 7.2.2	claims:2;dated:1;unmarked-list-items:6
+7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	421	revise			voice, tics, closers, citations, dating	claims:6;dated:1;unmarked-list-items:3
+7.2.4	Legal and ethical implications of AI systems gaining personhood	3	536	revise			voice, tics, closers, citations, dating	
+7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	18	revise			voice, tics, closers, citations, dating	
+7.2.5.1	Implementing Policies to Counteract Authoritarian Uses of AI	4	580	fold			D-010 caps the outline at 3 levels; text joins 7.2.5	xchapter-pairs:3;claims:4;dated:2
+7.2.5.2	Promoting AI Systems That Support Democratic Values and Human Rights	4	397	fold			D-010 caps the outline at 3 levels; text joins 7.2.5	xchapter-pairs:3
+7.2.5.3	Encouraging Global Cooperation in the Development of Anti-Authoritarian AI Systems	4	425	fold			D-010 caps the outline at 3 levels; text joins 7.2.5; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:10;claims:2;dated:1;unmarked-list-items:6
+7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	29	revise			voice, tics, closers, citations, dating	claims:2
+7.3.1	Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals	3	397	revise			voice, tics, closers, citations, dating	
+7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	436	revise			voice, tics, closers, citations, dating	unmarked-list-items:6
+7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	42	revise			voice, tics, closers, citations, dating	
+7.4.1	Criteria for Sentience and AI Subjecthood	3	553	revise			voice, tics, closers, citations, dating	
+7.4.2	Legal Frameworks for Sentient AI Subjects	3	587	revise			voice, tics, closers, citations, dating	claims:3;dated:3;unmarked-list-items:7
+7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	35	revise			voice, tics, closers, citations, dating	
+7.4.3.1	Ensuring Informed Consent and Respect for AI Autonomy	4	827	fold			D-010 caps the outline at 3 levels; text joins 7.4.3; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:2
+7.4.3.1.1	Establishing Criteria for Informed Consent	5	392	fold			D-010 caps the outline at 3 levels; text joins 7.4.3; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:1
+7.4.3.1.2	Respecting AI Autonomy	5	493	fold			D-010 caps the outline at 3 levels; text joins 7.4.3	
+7.4.3.2	Balancing Scientific Progress with Ethical Constraints and AI Welfare	4	652	fold			D-010 caps the outline at 3 levels; text joins 7.4.3; also part of the 2.4/7.4 parallel treatment (D-013)	parallel:2.4-vs-7.4;xchapter-pairs:4;unmarked-list-items:7
+7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	45	revise			voice, tics, closers, citations, dating	
+7.4.4.1	Encouraging Transparent, Ethical AI Research Practices	4	536	fold			D-010 caps the outline at 3 levels; text joins 7.4.4	unmarked-list-items:6
+7.4.4.2	Fostering Collaboration among AI Developers, Ethicists, Regulators, and Stakeholders to Address Ethical Challenges in AI Experimentation	4	408	fold			D-010 caps the outline at 3 levels; text joins 7.4.4	xchapter-pairs:1;claims:1;unmarked-list-items:4
+8	The Geopolitics of Ethical AI and Anti-Authoritarian Sentience	1	0	fill-or-cut			heading with no body text at all	no-body-text
+8.1	AI as a Strategic National Asset	2	96	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	
+8.1.1	The Race for AI Dominance Among Nations	3	345	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	claims:2;dated:1
+8.1.2	AI and Military Applications: Ethical Considerations and Potential Consequences	3	654	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	unmarked-list-items:12
+8.1.3	The Role of AI in Promoting Democracy and Countering Authoritarianism	3	479	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	xchapter-pairs:1
+8.2	International Collaboration and Competition in Ethical AI	2	0	fill-or-cut			heading with no body text at all	no-body-text
+8.2.1	Promoting Cooperation and Responsible AI Development	3	486	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:6;claims:3;unmarked-list-items:3
+8.2.2	Addressing the Risks of AI Arms Races and Technological Escalation	3	513	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	xchapter-pairs:3
+8.2.3	Fostering Ethical AI Development and Anti-Authoritarian Sentience in International Contexts	3	538	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:5;claims:6;dated:1;unmarked-list-items:2
+8.3	AI and Global Governance	2	21	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	
+8.3.1	Developing Shared Norms and Principles for Ethical AI and Anti-Authoritarian Sentience	3	450	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:3
+8.3.2	Establishing International Oversight Mechanisms for AI Development and Deployment	3	381	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	xchapter-pairs:3;unmarked-list-items:6
+8.3.3	The Impact of AI on Global Power Dynamics and the Adoption of Democratic Values	3	573	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	xchapter-pairs:1;claims:4;dated:1;unmarked-list-items:3
+8.4	AI and Global Inequality	2	0	fill-or-cut			heading with no body text at all	no-body-text
+8.4.1	The Impact of Ethical AI on Developing Nations and Emerging Economies; Distributing AI Benefits to All	3	1072	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	unmarked-list-items:5
+8.4.2	Strategies for Ethical AI Development and Anti-Authoritarian Sentience in Low-Resource Contexts	3	393	move			D-010 folds chapter 8 into chapter 7 as one geopolitics section	unmarked-list-items:6
+9	Necessary Areas of Research	1	110	revise			chapter opener	
+9.1	Ethics and Social Reasoning in AI	2	0	fill-or-cut			heading with no body text at all	no-body-text
+9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	revise			voice, tics, closers, citations, dating	xchapter-pairs:4;unmarked-list-items:4
+9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
+9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	revise			voice, tics, closers, citations, dating	xchapter-pairs:1;unmarked-list-items:7
+9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	revise			voice, tics, closers, citations, dating	unmarked-list-items:6
+9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:6
+9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	fill-or-cut			heading with no body text at all	no-body-text
+9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	revise			voice, tics, closers, citations, dating	xchapter-pairs:4
+9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	revise			voice, tics, closers, citations, dating	unmarked-list-items:7
+9.2.3	Integrating Affective Computing into AI Systems for Enhanced Human-AI Interaction	3	482	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:2;unmarked-list-items:12
+10	Conclusion and Outlook	1	0	fill-or-cut			heading with no body text at all	no-body-text
+10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	revise			voice, tics, closers, citations, dating	xchapter-pairs:1
+10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	499	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:5
+10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	440	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:6
+10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	444	merge?			one of 9 sections making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:8;claims:2;unmarked-list-items:6
+10.2	Roadmap for Altruistic and Anti-Authoritarian Superintelligence	2	25	revise			voice, tics, closers, citations, dating	
+10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	396	revise			voice, tics, closers, citations, dating	claims:1;unmarked-list-items:20
+10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	402	revise			voice, tics, closers, citations, dating	unmarked-list-items:5
+10.3	Addressing the Unintended Consequences	2	18	revise			voice, tics, closers, citations, dating	
+10.3.1	Anticipating and Monitoring Unintended Consequences	3	53	revise			voice, tics, closers, citations, dating	
+10.3.1.1	Methods for Identifying and Assessing Potential Risks to Democratic Values	4	505	fold			D-010 caps the outline at 3 levels; text joins 10.3.1	unmarked-list-items:8
+10.3.1.2	Establishing Monitoring Systems and Feedback Loops for Ethical and Anti-Authoritarian AI	4	467	fold			D-010 caps the outline at 3 levels; text joins 10.3.1	xchapter-pairs:1
+10.3.1.3	Adapting AI Development Strategies Based on Real-World Outcomes and Democratic Principles	4	402	fold			D-010 caps the outline at 3 levels; text joins 10.3.1	
+10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	342	revise			voice, tics, closers, citations, dating	
+10.3.2.1	Safeguarding Democracy and Human Rights by Designing Systems Robust to Authoritarianism and Adversity	4	1118	fold			D-010 caps the outline at 3 levels; text joins 10.3.2; also 1 of 9 making the democracy-cooperation argument (D-013)	cluster:democracy-cooperation;xchapter-pairs:5;claims:7;dated:4;unmarked-list-items:12
+10.3.2.2	Harnessing AI for Societal and Individual Well-being while Countering Authoritarianism	4	564	fold			D-010 caps the outline at 3 levels; text joins 10.3.2	unmarked-list-items:6
+10.3.2.3	Balancing Short-term and Long-term Impacts of AI Technologies on Democratic Societies	4	476	fold			D-010 caps the outline at 3 levels; text joins 10.3.2	
+10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	512	revise			voice, tics, closers, citations, dating	claims:11;dated:6
+10.3.3.1	Developing AI Systems Capable of Withstanding Unforeseen Challenges to Democratic Values	4	524	fold			D-010 caps the outline at 3 levels; text joins 10.3.3	xchapter-pairs:1;unmarked-list-items:6
+10.3.3.2	Fostering Collaborative AI Systems for Enhanced Resilience and Robustness	4	494	fold			D-010 caps the outline at 3 levels; text joins 10.3.3	claims:1
