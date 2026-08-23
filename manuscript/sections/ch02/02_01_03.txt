@@ -4,7 +4,7 @@ Building an AI system on explicit, deliberately chosen values means working thro
 Three problems recur when values are assigned and prioritized:
 <<list>>
 1. Resolving ethical tensions: different frameworks favor different values, and they collide — a consequentialist lens maximizes well-being, deontological ethics holds to a duty regardless of the outcome. The challenge is a balance where the AI system's judgment is both effective and ethically defensible.
-2. Accommodating cultural difference: moral norms vary across the communities an AI system serves, which makes a single, universally accepted set of principles hard to construct. Closing that gap takes cross-cultural input built directly into the design process, and a system built to weigh context-dependent variables rather than apply one fixed rule everywhere.
+2. Accommodating cultural difference: the UN's 1948 Universal Declaration of Human Rights, adopted by the General Assembly with zero dissenting votes, is the universal floor [[cite:C0703]]. What varies by community is how a right gets translated into local practice — a real design problem, worth cross-cultural input built into the design process and a system that weighs how a right is honored in context rather than assuming one fixed application works everywhere. A jurisdiction refusing to extend the right at all isn't a local variant to accommodate — it's a violation the system doesn't launder as diversity.
 3. Building in ethical adaptability: an AI system needs the flexibility to re-evaluate its values as new information or interaction with humans warrants it, which is what lets its decision-making keep improving and respond to situations no one anticipated.
 <</list>>
 

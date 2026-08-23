@@ -21,11 +21,8 @@ none
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (1):
+- same number, different title (0):
 
-  - `10.2`
-    - manuscript: Signatures of Altruistic and Antifascist Superintelligence
-    - TOC: Roadmap for Altruistic and Antifascist Superintelligence
 
 ## Headings with no body text before the next heading
 

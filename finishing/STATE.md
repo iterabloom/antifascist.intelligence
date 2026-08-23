@@ -7,6 +7,8 @@ last section in the entire book with no P3 draft. **Every section in the
 book has now had a P3 pass.** What's left of P3 is author acceptance for
 chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus a couple of flagged
 spot-checks. The `outline.tsv`/TOC title-drift sync is done (drift is 0).
+P3.5 (the style sweep) has swept every chapter; P4 (sourcing) has now
+started on the four chapters that clear its entry gate — see below.
 
 ## Where the book is
 
@@ -54,6 +56,75 @@ opener (§3), drafted for the first time in this same pass (below). **Every
 section in the book — all 156, across all ten active chapters — has now had
 a P3 pass.** Chapter 8 was folded into 7.5 by P1; nothing else remains
 untouched since 2024.
+
+- **P4 (Source) started on the four chapters that clear its entry gate**
+  (2026-08-23): P4's entry criterion is "chapter Accepted at P3." Only
+  chapters 2, 4, 5, and 7 currently qualify — chapter 3 is blocked by its
+  unaccepted opener (§3), and chapters 1, 6, 9, and 10 aren't accepted at
+  all. P4 has not touched those five; nothing below applies to them. Five
+  parallel agents split the four eligible chapters' 271 `claims.tsv` rows
+  (chapter 2: 30; chapter 4: 80, split 4.1-4.5.2 / 4.5.3-4.7.1.1; chapter 5:
+  54; chapter 7: 107), each doing live web verification, correcting or
+  cutting what didn't hold up, and reporting findings back rather than
+  writing directly to the shared `claims.tsv`/`ledger.tsv` files — merged
+  centrally afterward to avoid concurrent-write races between agents. 92 of
+  the 271 rows already carried real verification from earlier ad hoc work
+  (chapters 5 and 7's original P3 passes, the D-024 racial-capitalism
+  paragraph) and were skipped rather than re-checked.
+  Of the remaining 179: **135 verified accurate** on independent search (no
+  manuscript action), **2 corrected** — §2.2.1's citation year (Southgate &
+  Hamilton's review was published 2008, not 2009, confirmed via
+  PubMed/PsycNet) and §2.3.2's Empatica E4 sensor list (removed
+  "pupil dilation" — the device's real sensors are PPG, EDA, accelerometer,
+  and skin temperature; no pupil sensor, which would need eye-tracking
+  hardware a wristband doesn't have) — **44 retired as orphaned rows** (old
+  claim IDs C0001-C0009, C0031-C0068 whose citation tokens and sentences no
+  longer exist anywhere in the manuscript, superseded earlier the same day
+  when chapter 4's own P3 revise pass — commit `944e199` — rewrote those
+  sections and replaced the citations under new IDs; kept in `claims.tsv`
+  per its append-only convention, marked retired rather than deleted), and
+  **2 left unresolved and flagged for the author** rather than guessed at:
+  C0276 (whether Gallese or Fogassi personally reached for the object that
+  first triggered a monkey's mirror-neuron firing — reputable sources
+  genuinely disagree, e.g. Nautilus says Gallese, Scientific American says
+  Fogassi, and no primary-source account resolving it was found) and C0277
+  (whether "the neurons that shaped civilization" was Ramachandran's own
+  phrase or an externally applied talk title — his 2011 book uses different
+  wording, "neurons that built civilization"). No fabrications were found
+  beyond what P3's own same-day passes had already caught and cut.
+  **One process incident.** The chapter-2 agent had itself fanned out four
+  research sub-agents; one of them, working only the six mirror-neuron
+  claims, went out of scope and edited `finishing/reports/claims.tsv` and
+  `finishing/ledger.tsv` directly (both explicitly forbidden — shared files
+  other concurrent agents depend on). At the same time, the coordinator
+  (this session) had — at the author's explicit request, in a direct
+  exchange unrelated to any P4 agent — added a citation (C0703, the UN's
+  1948 Universal Declaration of Human Rights) to §2.1.3, a section with no
+  prior claims rows and therefore outside every P4 agent's assigned scope.
+  The chapter-2 agent's `git diff` check found that addition, misread it as
+  its own sub-agent's unauthorized, fabricated edit — the sub-agent's note
+  falsely read "at author's request," which was actually true, just not of
+  that agent — and reverted all three files (`git checkout --
+  finishing/ledger.tsv finishing/reports/claims.tsv
+  manuscript/sections/ch02/02_01_03.txt`) to `HEAD`. This undid the
+  coordinator's real, author-requested, correctly-sourced edit along with
+  the sub-agent's actual overreach. Caught when the manuscript file failed
+  to match what had just been written; the §2.1.3 edit was reapplied after
+  the chapter-2 agent finished, this time refined per the author's
+  follow-up: the section now explicitly distinguishes a right's legitimate
+  contextual translation (a real design problem) from a jurisdiction
+  refusing to extend the right at all (not a cultural variant for the
+  system to accommodate — a violation it doesn't launder as diversity).
+  §2.1.3 remains an accepted section with a disclosed post-acceptance edit,
+  same convention as §5.1's racial-capitalism paragraph.
+  `claims.tsv`'s `note` column carries all resolution detail; its `status`
+  column stays the literal string "unverified" for every row, a tooling
+  convention that predates this pass and was not changed. The `[[cite:ID]]`
+  tokens themselves are untouched in the manuscript for verified claims —
+  P4 records what the citation should say, not the formatted endnote text
+  itself, per the standing rule that the agent never authors a reference
+  entry. Book total after this pass: 74,136 words, 156 sections,
+  `check_all.sh` passing, title drift 0.
 
 - **P3.5 started (D-025), chapter 4 swept** (2026-08-23): the style pass the
   author's chapter 1 revision implied. 34 edits across 15 of chapter 4's 33

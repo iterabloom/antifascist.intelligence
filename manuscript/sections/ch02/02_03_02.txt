@@ -5,7 +5,7 @@ Techniques for emotion recognition
 <<list>>
 - Facial expression analysis: computer-vision systems trained to classify emotional expression from facial images. This is a narrower and harder problem than face verification — telling two photos are the same person, which is what widely deployed systems like Facebook's DeepFace actually do — and emotion-classification accuracy claims should be read with that distinction in mind [[cite:C0311]].
 - Voice pattern analysis: decoding emotional signal from pitch, tone, pace, and volume. Cogito's voice-analysis tools, used to give call-center agents real-time coaching, are one deployed example [[cite:C0313]].
-- Physiological signal analysis: bio-sensing hardware — heart rate, skin conductance, pupil dilation — captured by devices like the Empatica E4 wristband, feeding an inference about emotional state from the body rather than the face or voice [[cite:C0312]].
+- Physiological signal analysis: bio-sensing hardware — heart rate, skin conductance — captured by devices like the Empatica E4 wristband, feeding an inference about emotional state from the body rather than the face or voice [[cite:C0312]].
 <</list>>
 
 Deployment
