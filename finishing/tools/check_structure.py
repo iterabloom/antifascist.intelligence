@@ -6,7 +6,7 @@
   2. the heading set equals finishing/outline.tsv (numbers), with title
      differences reported (not fatal; the manuscript text wins)
   3. sorted(glob) order == ORDER.tsv numeric order
-  4. <<quote>>/<<list>> tags are balanced and unnested within each file
+  4. <<quote>>/<<list>>/<<box>> tags are balanced and unnested within each file
   5. ledger.tsv (if present) has exactly one row per section
 """
 import glob
@@ -45,10 +45,10 @@ def main():
         stem = os.path.basename(p)[:-4].replace("_", ".")
         if tuple(int(x) for x in stem.split(".")) != common.numkey(r["num"]):
             errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))
-        depth = {"quote": 0, "list": 0}
+        depth = {"quote": 0, "list": 0, "box": 0}
         for i, line in enumerate(lines, 1):
             s = line.strip()
-            for tag in ("quote", "list"):
+            for tag in ("quote", "list", "box"):
                 if s == "<<%s>>" % tag:
                     if depth[tag]:
                         errs.append("%s:%d nested <<%s>>" % (r["path"], i, tag))

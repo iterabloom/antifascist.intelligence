@@ -37,9 +37,21 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r80 -dFirstPage=2 -dLastPage=2 \
 
 `finishing/tools/render.py` maps the dialect to HTML: heading level from the
 number's depth (`3.1.2.3.1.4` → `h6`, capped), `<<quote>>` → `<blockquote>`,
-`<<list>>` → `<ol>` with the item marker stripped, `#` notes dropped (they are
-notes to self, not book text). Chapters start a new page; 34em measure,
+`<<list>>` → `<ol>` with the item marker stripped, `<<box>>` → a single-cell
+table with its first line as a bold title, `#` notes dropped (they are notes to
+self, not book text). Chapters start a new page; 34em measure,
 Palatino with Georgia fallback.
+
+## Two importer behaviours worth knowing
+
+Found by looking at a rendered page, not by any automated check — both passed
+every test in `check_all.sh`.
+
+1. **A `<div>` border is applied to each child paragraph**, so a bordered block renders as a stack of separate boxes. Emit a single-cell table instead.
+2. **Most stylesheet rules are dropped on import.** The table's CSS border and background vanished; `border`, `cellpadding`, `cellspacing`, `bgcolor` and `<b>` are honored. `render.py` now uses presentational attributes for boxes and CSS only for things that degrade gracefully.
+
+The general rule: **look at the proof.** The build succeeding says nothing about
+whether the page is right.
 
 ## Known limits of this path
 

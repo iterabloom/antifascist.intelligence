@@ -72,7 +72,7 @@ def bodies():
                 quote -= 1
                 continue
             if quote > 0 or s.startswith(("#", "<<", "<</")):
-                continue
+                continue  # box tags are skipped here but their text is kept
             keep.append(line)
         yield r["num"], r["title"], "".join(keep)
 
