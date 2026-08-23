@@ -4,27 +4,27 @@ num	title	level	words_v3b	status	action	quarry_src	evidence	decisions	owner	note
 1.2	Aims and Objectives	2	191	structured	revise			D-010		
 1.3	Mindset and Motivation in AI Behavior	2	1400	structured	revise		xchapter-pairs:2	D-010		
 2	Foundations of Empathy and Compassion in Friendly AI	1	74	structured	revise			D-010		
-2.1	Ethical Frameworks and AI Alignment	2	415	structured	revise		xchapter-pairs:5	D-010		
-2.1.1	Surveying Ethical Theories for AI Alignment	3	592	structured	revise		xchapter-pairs:2	D-010		
-2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	structured	revise			D-010		
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	structured	revise		xchapter-pairs:3	D-010		
-2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	structured	revise		xchapter-pairs:3;unmarked-list-items:7	D-010		
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	structured	revise		claims:2;dated:2	D-010		
-2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	drafted	keep	atlas-ch7		D-009;D-014	agent-drafted	pilot 2; T4 box only, T3 still to replace surrounding prose; 484->951
-2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	structured	revise			D-010		
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	structured	revise		xchapter-pairs:2	D-010		
-2.3	Emotional Intelligence and Self-awareness	2	847	structured	revise		absorbed:1;absorbed:1	D-010		absorbs 9.2.3; absorbs 9.2.3
-2.3.1	Components of Emotional Intelligence	3	411	structured	revise		cluster:emotional-intelligence;xchapter-pairs:10;claims:1	D-010		
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	structured	revise		cluster:emotional-intelligence;xchapter-pairs:1	D-010		
-2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	structured	revise			D-010		
-2.4	Ethical implications of experimenting on sentient machine subjects	2	35	structured	revise		claims:1;dated:1	D-010		
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	structured	revise		claims:2;dated:2	D-010		
-2.4.2	Ethical Considerations in AI Research and Experimentation	3	2404	structured	revise		absorbed:6;absorbed:6	D-010		absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6; absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	structured	revise		parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1	D-010		
-2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	2025	structured	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5; absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	structured	revise		claims:1;unmarked-list-items:2	D-010		
-2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	1775	structured	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5; absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5
-2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	1721	structured	revise		absorbed:4;absorbed:4	D-010		absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4; absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4
+2.1	Ethical Frameworks and AI Alignment	2	415	drafted	revise		xchapter-pairs:5	D-010	agent-drafted	P3 revised: signposting cut, forward pointer to 2.2 (compassion not empathy); 421->355, not yet author-accepted
+2.1.1	Surveying Ethical Theories for AI Alignment	3	592	drafted	revise		xchapter-pairs:2	D-010	agent-drafted	P3 revised: virtue/care-ethics examples decoupled from uncritical empathy framing; 601->478, not yet author-accepted
+2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	drafted	revise			D-010	agent-drafted	P3 revised: duplicate opening merged; 474->352, not yet author-accepted
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	drafted	revise		xchapter-pairs:3	D-010	agent-drafted	P3 revised: closer cut (contradicted 2.2's empathy finding); 611->491, not yet author-accepted
+2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	drafted	revise		xchapter-pairs:3;unmarked-list-items:7	D-010	agent-drafted	P3 revised: 7-item list marked up, empathy-framed item reworded; 669->505, not yet author-accepted
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	drafted	revise		claims:2;dated:2	D-010	agent-drafted	P3 revised: T7 coherence obligation (concession + pointer to 2.2.3), Sophia (C0001/C0002) cut; not yet author-accepted
+2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	drafted	keep	atlas-ch7		D-009;D-014	agent-drafted	P3 revised: T3 landed (Singer/Klimecki dissociation), completing pilot 2; author-accepted status pending re-review since T3 changed the section materially
+2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	drafted	revise			D-010	agent-drafted	P3 revised: cross-ref to 2.2.1/2.2.3 on empathy-vs-compassion; quote block preserved verbatim; 669->~380, not yet author-accepted
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	drafted	revise		xchapter-pairs:2	D-010	agent-drafted	P3 revised: T7 landed unframed (D-016), opportunities/challenges relabeled per obligation; not yet author-accepted
+2.3	Emotional Intelligence and Self-awareness	2	847	drafted	revise		absorbed:1;absorbed:1	D-010	agent-drafted	P3 revised: redundant affective-computing content (duplicate of 2.3.2) cut back to scene-setter; not yet author-accepted
+2.3.1	Components of Emotional Intelligence	3	411	drafted	revise		cluster:emotional-intelligence;xchapter-pairs:10;claims:1	D-010	agent-drafted	P3 revised: T6 landed (basic-emotion vs constructed-emotion debate replaces Goleman-as-fact); not yet author-accepted
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	drafted	revise		cluster:emotional-intelligence;xchapter-pairs:1	D-010	agent-drafted	P3 revised: DeepFace mischaracterization corrected (face verification, not emotion recognition); not yet author-accepted
+2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	drafted	revise			D-010	agent-drafted	P3 revised: T9 landed (self-as-model, rubber hand illusion replaces naive inner-observer framing); not yet author-accepted
+2.4	Ethical implications of experimenting on sentient machine subjects	2	35	drafted	revise		claims:1;dated:1	D-010	agent-drafted	P3 revised: intro tied to 2.4.1's new harm-vs-consciousness framing; not yet author-accepted
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	drafted	revise		claims:2;dated:2	D-010	agent-drafted	P3 revised: T1+T10 landed (nociception-to-suffering ladder, Cassell; hard problem, Chalmers), Sophia/GPT-4-self-awareness overclaims cut; not yet author-accepted
+2.4.2	Ethical Considerations in AI Research and Experimentation	3	2404	drafted	revise		absorbed:6;absorbed:6	D-010	agent-drafted	P3 revised: 6 run-in heads kept, 3 closers cut, cross-refs to 2.4.1 and ch7; 2436->882, not yet author-accepted
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	drafted	revise		parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1	D-010	agent-drafted	P3 revised: 5 fabricated institutional claims cut (OpenAI location, DeepMind, MIT, Stanford, IBM), C0007 source gone; 469->220, not yet author-accepted
+2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	2025	drafted	revise		absorbed:5;absorbed:5	D-010	agent-drafted	P3 revised: 5 subsections to 2 run-in heads, cross-refs to 2.4.1/2.4.3/2.4.5/ch7; 2062->613, not yet author-accepted
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	drafted	revise		claims:1;unmarked-list-items:2	D-010	agent-drafted	P3 revised: list markup added, Whanganui River personhood cited (C0315); 463->338, not yet author-accepted
+2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	1775	drafted	revise		absorbed:5;absorbed:5	D-010	agent-drafted	P3 revised: 5-item dilemma list to 3, Three Rs kept (C0314) as genuinely new content; 1816->641, not yet author-accepted
+2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	1721	drafted	revise		absorbed:4;absorbed:4	D-010	agent-drafted	P3 revised: transition-specific content kept, redundant consent/legal-personhood material cross-referenced to 2.4.4/2.4.5; 1761->600, not yet author-accepted
 3	Machine Learning and Cognitive Science	1	79	structured	revise			D-010		
 3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	accepted	revise			D-010;	agent-drafted	P3 revised, author-accepted 2026-08-23; 380->~208
 3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	accepted	revise			D-010;	agent-drafted	P3 revised, T15 landed as box (ACT-R/SoM adjudicated via predictive processing), author-accepted 2026-08-23; 484->~410 body +box

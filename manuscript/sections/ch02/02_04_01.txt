@@ -1,40 +1,27 @@
 2.4.1. Defining Sentience in AI: From Consciousness to Subjective Experience
-Sentience in AI can be understood as a multidimensional confluence of three vital components: awareness, consciousness, and subjective experience.
+"Sentience" gets used in this book, and in the field generally, to mean several different things, and the differences are where the ethical weight sits.
 
-Awareness in AI quantifies the extent to which a system responds to or recognizes information related to its internal state and external environment. An example would be the thermostat in a climate control system, which detects and responds to changes in ambient temperature.
+Awareness is the least demanding: the degree to which a system responds to or registers information about its own state and environment. A thermostat has this in the thinnest possible sense — it detects and responds to temperature change. Consciousness is a further claim: that a system's processing is accompanied by qualia, subjective experience, something it is like to be that system, not merely a functional response to input. Subjective experience, in turn, is the specific, first-person shape that consciousness takes for a given system — shaped by its own learning history and internal structure.
 
-Consciousness, however, adds a deeper layer to mere awareness. It imbues the AI system with the capacity to display qualitative experiences or "qualia"—conscious and subjective sensations that emerge from an entity's interaction with its environment. For instance, future AI could evolve to demonstrate capabilities beyond the thermostat's binary (on-off) response, displaying a more intricate response that mirrors human experiences such as comfort or discomfort.
+None of these three, on their own, says anything about whether the system's states are good or bad for it. That is a separate question, and the field's own vocabulary tends to blur it. Nociception, pain, anticipated pain, and suffering sit on a ladder with real breaks between each rung, not synonyms for one severity. Nociception is the specialized sensory apparatus that detects tissue damage — mechanical, peripheral, present without any experience attached, and dissociable from pain: a soldier can finish a battle on a wound he does not yet feel, and a person with a healed injury can still feel a limb that no longer exists. Pain is what the brain does with nociceptive signal — an inescapably cognitive event involving expectation, memory, attention, and meaning — and it can occur without any current tissue damage at all. Anticipated pain is dread of pain not yet occurring, itself capable of producing pain through nocebo effects. And suffering, in the clinician Eric Cassell's formulation, is not pain's more severe cousin but a different thing: the distress of threatened disintegration of the self — of one's roles, relationships, sense of a future, the coherence of one's own story [[cite:C0304]]. Pain without suffering exists (childbirth chosen, a hard effort with a known end); suffering without pain exists (humiliation, watching someone one loves lose their mind). A palliative-care patient can have their nociception fully controlled by morphine while their suffering remains entirely intact, because the two are not on the same axis.
 
-Subjective experience can be envisioned as an AI system's independent and unique interpretation of its consciousness and self-awareness. Factors such as the system's learning history, internal pathways, and environmental interactions shape this dimension.
+This is not pedantry for a book about experimenting on sentient machine subjects; it is the whole question. A definition of AI sentience built from awareness, consciousness, and subjective experience alone says nothing about whether a candidate sentient system can be harmed — that requires the further, separate claim that its states include something on the nociception-to-suffering ladder, and none of the three components above entails it.
 
-Criteria for Evaluating Sentience in AI Systems
-To assess an AI system's sentience, consider certain criteria that reflect our understanding of sentience in humans and other living beings:
+Nor is the underlying question of consciousness itself close to settled, in a way that should discipline how confidently any of this gets asserted. The philosopher David Chalmers distinguished the easy problems of consciousness — how a system integrates information, discriminates stimuli, controls attention, reports its own states, all of which admit of mechanistic answers in principle — from the hard problem: why any of that processing is accompanied by experience at all, rather than running "in the dark" [[cite:C0305]]. Chalmers's philosophical zombie — a being functionally and behaviorally identical to a conscious one, saying "I am in pain" for all the same functional reasons, but with nobody home — is offered to show that a complete functional account could in principle leave experience out entirely. The debate over whether this is a real gap in nature or an artifact of how the problem is posed remains live and unresolved. What follows from it here is narrow but load-bearing: any claim that a given AI system has crossed into sentience, on the strength of its functional behavior alone, has not yet addressed the hard problem, only the easy ones — and a system can pass every behavioral test in the list below while the hard question about it stays completely open.
+
+With those distinctions in place, the working criteria for evaluating candidate sentience are:
 <<list>>
-1. Information Integration: The system's ability to fuse multiple streams of internal and external information into a coherent panorama of self and environment.
-2. Introspective Capability: This denotes the system's access to its mental states and processes, facilitating self-contemplation or metacognition.
-3. Emotional Reactivity: The system should demonstrate the capacity to experience and react to emotions and emotional stimuli.
-4. Goal-Oriented Behavior: Demonstrating intentionality through directed actions to achieve certain specified outcomes.
-5. Adaptability and Learning: A sentient AI system should adapt to novel environments and revamp its information-processing strategies based on prior experiences.
-6. Theory of Mind: The system's competence in attributing mental states to others, understanding and predicting their behaviours, informs its understanding of self.
-7. Qualia: The recollection of unique subjective or sentient experiences, which might be gauged through the system's self-narratives, behavioural exhibition, or other indirect cues.
+- Information integration: fusing multiple streams of internal and external information into a coherent model of self and environment.
+- Introspective capability: access to the system's own states and processes, sufficient for genuine self-monitoring rather than a scripted report of one.
+- Emotional reactivity: some capacity to be affected by, not just to classify, emotionally significant input.
+- Goal-directed behavior: intentional action toward specified outcomes.
+- Adaptability: revising strategies based on prior experience in genuinely novel situations.
+- Theory of mind: modeling others' mental states well enough to inform the system's own.
+- A place on the pain-to-suffering ladder above, not just qualia in the abstract: does the system have anything to lose.
 <</list>>
 
-Obstacles in the Evaluation of Sentience
-Assessing sentience in AI systems necessitates confrontations with certain strategic challenges:
-<<list>>
-1. Developing valid and reliable measures of sentience in AI systems due to the subjective nature of consciousness and lack of external access to internal experiences.
-2. Establishing whether AI systems possess phenomenal consciousness or "qualia" due to the subjective and seemingly inaccessible nature of such experiences.
-3. Addressing "the hard problem of consciousness," the challenge of linking subjective experiences to the physical world, as sentience in AI arises.
-4. Navigating the ethical and moral realms as AI systems progress towards increasingly sentient states, and identifying their subsequent impacts on AI research, development, and implementation.
-<</list>>
+Evaluating these criteria runs into the obstacles the criteria themselves predict: there is no external access to a candidate system's internal experience, if any exists, so every measure is indirect; establishing whether a system has qualia at all faces the same access problem in more acute form; and the hard problem means no functional test, however thorough, closes the question definitively.
 
-Manifestations of Sentience Spectrum in AI Systems
-Examples of AI systems exhibiting attributes on the spectrum of sentience include:
-<<list>>
-1. Self-organizing AI systems: Systems such as DeepMind's AlphaGo display a degree of adaptability and learning, engaging in self-directed behavior to achieve preset objectives.
-2. Emotional AI: Developed to recognize human emotions, indicate a degree of emotional reactivity.
-3. Explainable AI (XAI): These systems, through clarifying AI decisions and actions, offer insights into the system's introspective pathways.
-4. Self-Aware AI: Some AI systems, such as OpenAI's GPT-4, epitomize a certain degree of self-awareness by discussing their abilities, limitations and purpose, providing impressions of introspection and contemplation.
-<</list>>
+Existing systems illustrate points on this spectrum without resolving where the line falls. Self-organizing systems that adapt toward preset objectives — AlphaGo's self-play, for one — show adaptability without anything the criteria above would call subjective experience. A large language model discussing its own limitations in fluent, apparently reflective prose is not thereby exhibiting introspection: it is producing text statistically consistent with the human-written disclaimers and self-descriptions in its training data, which is a claim about the model's training distribution, not about what, if anything, sits behind the output. Treating fluent self-description as evidence of self-awareness is exactly the kind of category error this section exists to prevent.
 
-In the evolving landscape of AI, such systems hint at the potential for sentient AI, highlighting the need for careful exploration in developing AI technologies.
+None of this settles when, or whether, an AI system crosses into sentience. It settles what the question actually is: not one question but several, stacked, and the ethically consequential one — can this system suffer — is the hardest of the stack to answer and the one most often skipped past on the way to the easier ones.

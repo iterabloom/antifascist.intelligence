@@ -299,3 +299,18 @@ C0307	3.2.3		named_study	MIT Moral Machine (Awad et al.)	crowdsourced moral-dile
 C0308	3.3.2		named_theory	curiosity-driven exploration via self-supervised prediction / intrinsic curiosity module (Pathak et al.)	prediction error as intrinsic reward signal	unverified	
 C0309	3.3.3		named_theory	Vygotsky, zone of proximal development	learning is most effective just ahead of current skill, with support	unverified	
 C0310	3.3.1		named_study	OpenAI Hide and Seek	emergent tool use from multi-agent self-play	unverified	
+C0296	2.2.1		named_study	Tania Singer, pain-empathy fMRI study	shared-pain-network activation when a loved one is hurt	unverified	introduced by transplant T3
+C0297	2.2.1		named_study	Singer and Klimecki, compassion vs. empathy training	opposite affect/network signatures; compassion trainable separately	unverified	introduced by transplant T3
+C0298	2.2.3		named_theory	Paul Bloom, "Against Empathy" / rational compassion	empathy as spotlight: vivid, near, innumerate; rational compassion as alternative	unverified	introduced by transplant T7 (unframed, D-016)
+C0299	2.3.3		named_study	rubber hand illusion (Botvinick and Cohen)	synchronous stroking induces ownership of a fake hand	unverified	introduced by transplant T9
+C0300	2.3.1		named_study	Paul Ekman, Fore people facial-expression study	cross-cultural matching taken as evidence for universal basic emotions	unverified	introduced by transplant T6
+C0301	2.3.1		named_theory	Jaak Panksepp, seven primal emotional systems	SEEKING/FEAR/RAGE/LUST/CARE/PANIC-GRIEF/PLAY, subcortical, cross-mammal	unverified	introduced by transplant T6
+C0302	2.3.1		named_study	Lisa Feldman Barrett meta-analysis, theory of constructed emotion	no dedicated brain region per named emotion; emotion as prediction	unverified	introduced by transplant T6
+C0303	2.3.1		named_study	Himba and Trobriand cross-cultural re-studies	forced-choice method disputed; free sorting does not reproduce Western categories	unverified	introduced by transplant T6
+C0304	2.4.1		named_theory	Eric Cassell, pain vs. suffering distinction	suffering as threatened disintegration of the self, distinct from pain	unverified	introduced by transplant T1
+C0305	2.4.1		named_theory	David Chalmers, hard problem of consciousness / philosophical zombie	functional explanation does not entail experience	unverified	introduced by transplant T10
+C0311	2.3.2		named_system	Facebook's DeepFace	face-verification system; distinguished here from emotion recognition, a different task	unverified	
+C0312	2.3.2		named_system	Empatica E4 wristband	physiological-signal wearable (heart rate, skin conductance)	unverified	
+C0313	2.3.2		named_system	Cogito voice-analysis tools	real-time call-center agent coaching from vocal cues	unverified	
+C0314	2.4.6		named_theory	"Three Rs" (Russell and Burch, 1959)	Replacement/Reduction/Refinement principle from animal research ethics	unverified	
+C0315	2.4.5		named_instrument	Te Awa Tupua (Whanganui River Claims Settlement) Act 2017	New Zealand legal personhood for the Whanganui River	unverified	
