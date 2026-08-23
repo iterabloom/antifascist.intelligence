@@ -1,2 +1,2 @@
 6.4. Regional Regulatory Frameworks for AI Development
-Regional regulatory frameworks should strive to promote a globally unified approach to the ethical considerations of AI while addressing the specific context, challenges, and opportunities inherent in individual regions.
+No region regulates AI the same way. Section 6.4.1 compares what a handful of them have actually done, and how little of it harmonizes across a border. Section 6.4.2 turns to what adapting an AI system to a specific culture requires, and what it does not license.

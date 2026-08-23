@@ -1,8 +1,8 @@
 # State of play
 
-Read this first. Written 2026-08-23, updated same day: chapter 7 landed, then
-the author accepted chapters 2-5 and 7 in one batch (chapter order moves to 6
-next, per `PLAN.md`).
+Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
+author accepted chapters 2-5 and 7 in one batch, then chapter 6 was drafted
+(chapter order moves to 9 next, per `PLAN.md`).
 
 ## Where the book is
 
@@ -11,13 +11,16 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-81,870 words as of the last `section_stats.py` run — down from ~113,000 before
+78,647 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
 ~19,240 to 14,266; chapter 5 from 9,021 to 8,090; chapter 7 from ~19,578 to
-13,900, the largest proportional cut yet (29%) — it absorbed the entire former
+13,925 (25 words added post-acceptance for the opener continuity fix below),
+the largest proportional cut yet (29%) — it absorbed the entire former
 chapter 8 as §7.5 and had accumulated real redundancy on top of that (§7.2.5.3
-alone was the book's third-largest cross-chapter redundancy hub).
+alone was the book's third-largest cross-chapter redundancy hub); chapter 6
+went from 8,617 to 5,369, a 38% cut, the largest proportional cut of any
+chapter so far.
 
 ## What has actually been done to the prose
 
@@ -33,11 +36,73 @@ this acceptance, and §7.2.2 contains claims (Clearview's accuracy marketing,
 the Carnegie AIGS Index, GPAI's founding) that STATE.md's chapter-7 account
 below says were corrected on high-confidence background knowledge rather than
 live-verified — both are now accepted along with everything else, but neither
-has had that specific gap closed. Chapters 1, 6, 8 (folded into 7.5), 9, 10
-(43 sections, plus the §3 opener — 44 total) are untouched since 2024: folded,
-cut, and moved by P1, but not a sentence of their prose has changed.
+has had that specific gap closed. Chapter 6 is now drafted too (below) but not
+yet author-accepted. Chapters 1, 8 (folded into 7.5), 9, 10 (27 sections, plus
+the §3 opener — 28 total) are untouched since 2024: folded, cut, and moved by
+P1, but not a sentence of their prose has changed.
 
-- **Chapter 7** (23 sections, 13,900 words): every section revised, including
+- **Chapter 6** (16 sections, 5,369 words, down from 8,617 — 38%, the
+  largest proportional cut of any chapter so far): every section revised,
+  including the empty opener. §6.3.2 was supposed to become the earned home
+  for the states-cooperate-on-shared-norms half of the book's heaviest
+  cross-chapter redundancy cluster, per §5.4.3's explicit promise during
+  chapter 5's revision. It turned out that promise had already been kept
+  elsewhere: chapter 7's §7.5 ("The Geopolitics of Ethical AI"), drafted
+  after §5.4.3 but before chapter 6, had independently built a comprehensive
+  account of exactly that machinery — OECD AI Principles, UNESCO's
+  Recommendation, GPAI, the Council of Europe's 2024 AI treaty, the Hiroshima
+  Process, the Bletchley Declaration — with no awareness that §6.3.2 was
+  supposed to be its home. Writing a third telling of the same material
+  would not have strengthened either section, so §6.3.2 (hand-drafted, "not
+  by Governments" now in its title) was rebuilt around a genuinely different
+  and previously uncovered layer instead: technical standards bodies (IEEE's
+  Ethically Aligned Design and 7000-series, ISO/IEC 42001), which bind
+  through market and certification pressure rather than state consent, and
+  which the book hadn't touched anywhere else. §6.3.2 cross-references §7.5
+  explicitly rather than restating it. A related gap surfaced at the same
+  time: chapter 7's opener bridged straight from chapter 5, as though
+  chapter 6 didn't exist — an artifact of the actual P3 drafting order
+  (3→2→4→5→7, then 6), which doesn't match the book's reading order. Fixed
+  with a minimal edit to the already-accepted §7 opener (one clause added at
+  the start, one at the close); flagged as a reopened, author-accepted
+  section rather than silently patched.
+  Four sections were hand-drafted (the chapter opener, §6.3, §6.3.2) and
+  twelve were drafted by four parallel agents, one per subtree, each told to
+  verify every named claim via live search rather than pattern-match. The
+  raw 2023 text in this chapter leaned unusually hard on inventing
+  plausible-sounding placeholder organizations for work real bodies already
+  do — confirmed fabrications cut include "Inter-disciplinary Collaborative
+  Interface," "Global AI and Compute Research Collaboration (GAICRC),"
+  "International AI Ethics Research Consortium (IAIERC)," and "AI Ethics
+  Olympics" (all searched directly; none exist). Two claims were corrected
+  rather than merely cut, and are worth naming because they invert the
+  original draft's framing rather than just adding detail: "DeepMind's
+  Ethics Advisory Panel," described as reviewing all of DeepMind's research
+  while maintaining financial independence, was actually an NHS-scoped
+  panel that Google disbanded in 2019 after members raised concerns about
+  the access and independence they actually had; and IBM's "AI Ethics
+  Global Board" is really named the AI Ethics Board, with "Global" borrowed
+  from a board member's personal title. A recurring conflation pattern
+  surfaced twice independently, in different subtrees drafted by different
+  agents: the real ITU/XPRIZE/Mila "AI Commons" project was twice attributed
+  to a differently-named nonprofit, "the AI for Good Foundation" — once as
+  its own initiative, once as a claimed World Bank partnership the real AI
+  for Good Foundation's own published partner list doesn't include. Also
+  cut: an "OpenAI and DeepMind Partnership" framing built around the real
+  OpenAI Gym (the two organizations are competitors, not partners, and no
+  such partnership is documented), and a UK national-curriculum AI-literacy
+  claim that anachronistically predates the real reform, which isn't
+  scheduled for first teaching until 2028 — the same anachronism pattern
+  chapter 7 caught with Finland's curriculum. §6.4.1, which had absorbed
+  four former subsections during P1 and swelled to 2,747 words of mostly
+  redundant international-committee material, was cut rather than
+  compressed — to 629 words — with the redundant material cross-referenced
+  to §6.3.2 and §7.5 and replaced by three regions §7.5 doesn't cover
+  (Canada, Singapore, Taiwan's brand-new December 2025 AI Basic Act) plus
+  one real, verified harmonization mechanism (the March 2022 US-Singapore
+  APEC Cross-Border Privacy Rules agreement).
+
+- **Chapter 7** (23 sections, 13,925 words): every section revised, including
   the empty opener. The §7.4 tree (sentience/accountability/legal
   responsibility) was hand-written rather than agent-drafted, because chapter
   2's §2.4 tree had already done the definitional and procedural work and
@@ -207,12 +272,12 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 1, 6, 9, 10 not started (43 sections + §3)** |
-| P4 Source | not started — claims ledger now at 447 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
+| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapter 6 drafted, not yet author-accepted; chapters 1, 9, 10 not started (27 sections + §3)** |
+| P4 Source | not started — claims ledger now at 479 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **6 → 9 →
+**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **9 →
 10 → 1 last.**
 
 ## The immediate open items
@@ -222,12 +287,18 @@ suspected fabrication during P3 itself.
   because it was never revised. Everything else in those chapters is now
   author-accepted; D-001's two-round return path no longer applies to them
   unless the author reopens a specific section.
-- **§6.3.2 needs to earn the "governance/cooperation" home** it was just
-  assigned. Chapter 5's §5.4.3 rebuild explicitly deferred the
-  states-should-cooperate-on-shared-norms half of the book's heaviest
-  redundancy cluster to §6.3.2 (still unrevised, raw 2023 text) — when P3
-  reaches chapter 6, that section needs real, citable content, not just an
-  assertion that it's the designated home.
+- **Chapter 6 is drafted but not author-accepted** — 16 sections waiting on a
+  read, same as the rest of the drafted-not-accepted backlog before it.
+- **`finishing/outline.tsv` and `manuscript/table-of-contents.txt` have
+  accumulated 22 stale titles** against the manuscript's own (authoritative,
+  D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 new from
+  chapter 6 (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`,
+  `06_04_01`). `check_structure.py` treats this as a note, not an error, so
+  it hasn't blocked anything — but it's real drift, not yet fixed by any
+  chapter's revision pass so far, worth a dedicated sync (`headings.py
+  --write-toc`, plus a hand pass on `outline.tsv`) once structure has fully
+  settled rather than chapter by chapter. `finishing/reports/
+  headings_reconcile.md` has the full list.
 - **An unverified "Madry et al. 2017" OpenAI/Google-Brain attribution** was
   spotted in unrevised §10.3.3 while a chapter-5 agent was resolving a
   redundancy against it — not touched, out of scope at the time. Check it for
@@ -241,16 +312,19 @@ suspected fabrication during P3 itself.
 
 ## What P1 deliberately left for P3, still ahead
 
-- **4 empty openers remaining**: chapters 6, 10, and §§9.1, 9.2 (§4.6, §4.7,
-  §5, and §7 are now filled).
+- **3 empty openers remaining**: chapter 10 and §§9.1, 9.2 (§4.6, §4.7, §5,
+  §6, and §7 are now filled).
 - **§1.3**: restore the subheadings deleted in 2024, hit the 1,400-word target.
-- **Compression targets**: §6.4.1 → 350, §10.3.2.1 → 150, §10.1.1/.2 → 200,
-  §10.1.3 → 100 (§4.2.2's own target was overtaken by the revise pass — it's
-  now 418 words of substantially different, non-redundant content, not the
-  original 200-word compression target of the same old material; §7.4.3.1
-  and §7.4.3.1.1's targets were overtaken the same way — that whole tree was
+- **Compression targets**: §10.3.2.1 → 150, §10.1.1/.2 → 200, §10.1.3 → 100
+  (§4.2.2's own target was overtaken by the revise pass — it's now 418 words
+  of substantially different, non-redundant content, not the original
+  200-word compression target of the same old material; §7.4.3.1 and
+  §7.4.3.1.1's targets were overtaken the same way — that whole tree was
   rebuilt as §7.4.3, 578 words, rather than compressed in place; §7.5's own
-  6,001→~5,000 target is done, landed at 4,499).
+  6,001→~5,000 target is done, landed at 4,499; §6.4.1's 350-word target was
+  overtaken the same way — it absorbed four former subsections during P1,
+  and the revise pass cut rather than compressed the redundant material,
+  landing at 629 words of genuinely new, non-duplicative content).
 - All 16 transplants are now landed (T8 was the last one, in §4.3.1).
 
 ## Where everything lives
@@ -264,7 +338,7 @@ suspected fabrication during P3 itself.
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 447 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 479 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start** |
 

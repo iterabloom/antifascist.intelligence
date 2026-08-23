@@ -14,17 +14,149 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 0
+- same number, different title: 22
 
+  - `2`
+    - manuscript: Foundations of Compassion and Empathy in Friendly AI
+    - outline: Foundations of Empathy and Compassion in Friendly AI
+  - `4.1.1`
+    - manuscript: Rules, Principles, and the Role of Mindset
+    - outline: Stages of Moral Development: From Rules to Principles and the Influence of Mindset
+  - `4.1.2`
+    - manuscript: Social Interaction and Moral Learning
+    - outline: The Significance of Social Interaction in Moral Learning
+  - `4.1.4`
+    - manuscript: AI in Service of Human Dignity
+    - outline: Using AI to Respect and Promote Human Dignity
+  - `4.2.4`
+    - manuscript: The Role of Introspection for AI Systems
+    - outline: The role of introspection for AI systems
+  - `4.3.1`
+    - manuscript: Two Systems, or One? Dual-Process Theories of Moral Judgment
+    - outline: Dual-Process Theories of Moral Judgment
+  - `4.4.1`
+    - manuscript: Applying the Moral Ecosystem Approach to AI Development
+    - outline: Applying Moral Ecosystem Theory to AI Development
+  - `4.5.3`
+    - manuscript: Strategies for Encouraging Collaboration Among AI Systems
+    - outline: Strategies for Fostering Collaboration Among AI Systems
+  - `6.1.1`
+    - manuscript: Cross-disciplinary Communication and Cooperation
+    - outline: Fostering Cross-disciplinary Communication and Cooperation
+  - `6.2.3`
+    - manuscript: AI Literacy Outside the Classroom
+    - outline: Promoting AI Literacy and Public Understanding
+  - `6.3.1`
+    - manuscript: How Research Institutions Cooperate Across Borders
+    - outline: Building Global Partnerships for AI Research and Development
+  - `6.3.2`
+    - manuscript: Standards Built by the Technical Community, Not by Governments
+    - outline: Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI
+  - `6.3.3`
+    - manuscript: What International AI Collaboration Can and Cannot Fix
+    - outline: Addressing Global Challenges and Opportunities through AI Collaboration
+  - `6.4.1`
+    - manuscript: Comparing and Harmonizing Regional AI Rules
+    - outline: Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions
+  - `7.1`
+    - manuscript: The Political Economy of AI and Power
+    - outline: Political Economy of AI Development and Implications for Distribution of Power and Resources
+  - `7.1.1`
+    - manuscript: Economic Incentives in AI Development
+    - outline: The Influence of Economic Incentives on AI Development and Deployment
+  - `7.1.2`
+    - manuscript: AI and the Concentration of Power in Tech
+    - outline: AI and the Concentration of Power in the Technology Industry
+  - `7.1.5`
+    - manuscript: Building AI Literacy and Technical Skills
+    - outline: Promoting AI Literacy and Technical Skills Development
+  - `7.1.6`
+    - manuscript: Interdisciplinary Ethics Education and Training
+    - outline: Encouraging Interdisciplinary Ethics Education and Training Programs
+  - `7.4.1`
+    - manuscript: Subjecthood as a Legal Category, Not a Scientific One
+    - outline: Criteria for Sentience and AI Subjecthood
+  - `7.4.3`
+    - manuscript: Making Review Binding
+    - outline: Designing Ethical Guidelines for Experimentation on Sentient AI Systems
+  - `7.4.4`
+    - manuscript: What Keeps the Apparatus More Than Aspirational
+    - outline: Promoting a Culture of Ethical Responsibility in AI Development
 
 ## Manuscript vs stale TOC (historical; retired under D-011)
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (0):
+- same number, different title (22):
 
+  - `2`
+    - manuscript: Foundations of Compassion and Empathy in Friendly AI
+    - TOC: Foundations of Empathy and Compassion in Friendly AI
+  - `4.1.1`
+    - manuscript: Rules, Principles, and the Role of Mindset
+    - TOC: Stages of Moral Development: From Rules to Principles and the Influence of Mindset
+  - `4.1.2`
+    - manuscript: Social Interaction and Moral Learning
+    - TOC: The Significance of Social Interaction in Moral Learning
+  - `4.1.4`
+    - manuscript: AI in Service of Human Dignity
+    - TOC: Using AI to Respect and Promote Human Dignity
+  - `4.2.4`
+    - manuscript: The Role of Introspection for AI Systems
+    - TOC: The role of introspection for AI systems
+  - `4.3.1`
+    - manuscript: Two Systems, or One? Dual-Process Theories of Moral Judgment
+    - TOC: Dual-Process Theories of Moral Judgment
+  - `4.4.1`
+    - manuscript: Applying the Moral Ecosystem Approach to AI Development
+    - TOC: Applying Moral Ecosystem Theory to AI Development
+  - `4.5.3`
+    - manuscript: Strategies for Encouraging Collaboration Among AI Systems
+    - TOC: Strategies for Fostering Collaboration Among AI Systems
+  - `6.1.1`
+    - manuscript: Cross-disciplinary Communication and Cooperation
+    - TOC: Fostering Cross-disciplinary Communication and Cooperation
+  - `6.2.3`
+    - manuscript: AI Literacy Outside the Classroom
+    - TOC: Promoting AI Literacy and Public Understanding
+  - `6.3.1`
+    - manuscript: How Research Institutions Cooperate Across Borders
+    - TOC: Building Global Partnerships for AI Research and Development
+  - `6.3.2`
+    - manuscript: Standards Built by the Technical Community, Not by Governments
+    - TOC: Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI
+  - `6.3.3`
+    - manuscript: What International AI Collaboration Can and Cannot Fix
+    - TOC: Addressing Global Challenges and Opportunities through AI Collaboration
+  - `6.4.1`
+    - manuscript: Comparing and Harmonizing Regional AI Rules
+    - TOC: Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions
+  - `7.1`
+    - manuscript: The Political Economy of AI and Power
+    - TOC: Political Economy of AI Development and Implications for Distribution of Power and Resources
+  - `7.1.1`
+    - manuscript: Economic Incentives in AI Development
+    - TOC: The Influence of Economic Incentives on AI Development and Deployment
+  - `7.1.2`
+    - manuscript: AI and the Concentration of Power in Tech
+    - TOC: AI and the Concentration of Power in the Technology Industry
+  - `7.1.5`
+    - manuscript: Building AI Literacy and Technical Skills
+    - TOC: Promoting AI Literacy and Technical Skills Development
+  - `7.1.6`
+    - manuscript: Interdisciplinary Ethics Education and Training
+    - TOC: Encouraging Interdisciplinary Ethics Education and Training Programs
+  - `7.4.1`
+    - manuscript: Subjecthood as a Legal Category, Not a Scientific One
+    - TOC: Criteria for Sentience and AI Subjecthood
+  - `7.4.3`
+    - manuscript: Making Review Binding
+    - TOC: Designing Ethical Guidelines for Experimentation on Sentient AI Systems
+  - `7.4.4`
+    - manuscript: What Keeps the Apparatus More Than Aspirational
+    - TOC: Promoting a Culture of Ethical Responsibility in AI Development
 
 ## Headings with no body text before the next heading
 
-4.6, 4.7, 5, 6, 7, 9.1, 9.2, 10
+9.1, 9.2, 10
 
