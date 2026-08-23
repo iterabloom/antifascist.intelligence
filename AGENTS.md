@@ -1,0 +1,49 @@
+# AGENTS.md
+
+## Security Boundaries
+<!-- KEEP THIS SECTION FIRST -->
+- **Named real persons.** This repository names many real people because language
+  models were prompted to write *as if* they were those people. That device is
+  confined to text **about the book** (drafting sections, reviewing structure).
+  Never generate, commit, restore, or re-derive anything that characterizes,
+  rates, ranks, scores, or attributes personal views or conduct to a real named
+  person — in any file, notebook output, or commit message. If such material
+  turns up or is needed for some reason, it goes to
+  `~/ethical.superintelligence-private/` (outside the repo), never here.
+  The README's named-persons disclaimer is load-bearing; do not weaken it.
+- **Secrets.** `.env` is gitignored and holds tokens for *other* projects. Do not
+  read, log, or transmit them. GitHub access is SSH as `jgstern-agent`.
+- **Network.** Nothing here needs the network except `git` to `origin`.
+
+## Architecture & Context
+- **What this is.** A book, *Ethical Superintelligence*, plus the complete record
+  of how it was made. Not a software project: no build, no tests, no CI.
+- **Authoritative text:** `manuscript/parseable_text_v3b_2024-07-07.txt` and
+  `manuscript/table-of-contents.txt`. Everything else is provenance.
+- **Provenance, read-only:** `genesis/`, `personas/`, `generation/`,
+  `editorial/`, `summaries/`, `manuscript/previous/`. Do not regenerate, edit,
+  or "improve" these; they document what happened. `summaries/summary_triangle_*`
+  in particular is frozen as a unit.
+- **Quarry:** `cognition/` holds source material (including a draft of a
+  separate book, *An Atlas of Human Cognition*) to be cannibalized into the
+  manuscript where useful. It is not a second deliverable.
+- **Folder map:** see `README.md`.
+
+## File Conventions
+- Filenames carry the file's **original** last-modified date as a suffix,
+  `name_YYYY-MM-DD.ext`. The date records when the author last worked on it
+  and must not be updated, removed, or "corrected" when a file is edited or
+  moved. New files may omit it.
+- `original-layout-and-mtimes.txt` is a historical record of the archive as
+  uploaded, not a live index. Do not regenerate it.
+
+## No Weasel Words
+When reporting status or completeness:
+- **BANNED:** "all known issues", "no known problems", "should work",
+  "mostly complete", "generally", "typically", "in most cases".
+- **REQUIRED:** explicit gaps over implied completeness. Say what was checked,
+  what was found, and what was not checked.
+If you don't know, say you don't know. If you haven't checked, say so.
+
+## Modifying This Document
+Changes to `AGENTS.md` and `.githooks/**` need explicit human approval.
