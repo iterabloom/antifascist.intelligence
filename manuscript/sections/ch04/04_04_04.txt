@@ -8,7 +8,7 @@ The same logic generalizes past healthcare. A region that invests heavily in pub
 Building AI systems that resist rather than reinforce authoritarian and inequitable macrosystem pressure takes at least four things:
 
 <<list>>
-- Funded, interdisciplinary study of how cultural, political, and economic context actually shapes AI development and deployment, rather than assuming the shape is neutral.
+- Funded, interdisciplinary study of how cultural, political, and economic context actually shapes AI development and deployment.
 - Regulation and public policy that name antifascist AI development as a goal, not a byproduct of unrelated rules.
 - Comparative analysis across macrosystem contexts, so what works in one setting can be checked against what happens when the same tool is dropped into a different one.
 - Cross-border and cross-cultural exchange, so a democratic macrosystem's practices have some route into a context where the local macrosystem is pulling the other way.

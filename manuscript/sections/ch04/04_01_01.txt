@@ -6,20 +6,20 @@ The psychologists Jean Piaget and Lawrence Kohlberg mapped this territory in hum
 
 An AI system's moral development could plausibly follow the same arc: from grasping and executing established rules, to being guided by the ethical principles those rules were built to approximate.
 
-A self-driving car makes the stages concrete. At its most basic, it follows traffic law strictly, the way a new driver does — a pre-conventional stage. As it develops, it adapts to social norms: driving style shifts with time of day, traffic conditions, and local driving culture — a conventional stage. Fully developed, it confronts genuine ethical dilemmas — the trolley problem's basic shape, choosing among bad outcomes to minimize harm — which is the post-conventional stage in practice, not just in theory.
+A self-driving car makes the stages concrete. At its most basic, it follows traffic law strictly, the way a new driver does — a pre-conventional stage. As it develops, it adapts to social norms: driving style shifts with time of day, traffic conditions, and local driving culture — a conventional stage. Fully developed, it confronts ethical dilemmas — the trolley problem's basic shape, choosing among bad outcomes to minimize harm — which is the post-conventional stage in practice.
 
 <<h>>Growth Mindset<</h>>
 Carol Dweck's distinction between a fixed mindset, which treats ability as static, and a growth mindset, which treats it as built through effort and experience, describes something that matters as much for moral development as for any other kind of learning [[cite:C0323]]. An AI system that treats its own moral errors as data rather than as verdicts has room to keep improving; one built to defend its prior outputs does not.
 
-People with a growth mindset handle moral dilemmas differently from people with a fixed one: they treat an ambiguous situation as something to learn from rather than a test of their character, take a wider range of viewpoints seriously when forming a judgment, and treat their own moral views as revisable in the face of a good argument. An AI system built with the same disposition would have a real shot at more adaptive, less brittle moral decision-making — judgment able to update, not just execute.
+People with a growth mindset handle moral dilemmas differently from people with a fixed one: they treat an ambiguous situation as something to learn from rather than a test of their character, take a wider range of viewpoints seriously when forming a judgment, and treat their own moral views as revisable in the face of a good argument. An AI system built with the same disposition would have a shot at more adaptive, less brittle moral decision-making — judgment able to update, not just execute.
 
 Five design choices carry that disposition into an AI system's architecture:
 <<list>>
 - Structured learning: an AI system built for incremental learning can adapt its moral framework to new experience as it arrives — an AI healthcare assistant, for instance, refining its grasp of medical ethics through professional literature and observation over time.
-- Curiosity and exploration: an AI system prompted to seek out unfamiliar situations rather than stay inside known ones builds a wider base to reason from — an AI chatbot exposed to a range of cultures and communication styles develops more inclusive responses than one trained on a narrow slice of interaction.
+- Curiosity and exploration: an AI system prompted to seek out unfamiliar situations builds a wider base to reason from — an AI chatbot exposed to a range of cultures and communication styles develops more inclusive responses than one trained on a narrow slice of interaction.
 - Human input and mentorship: explicit instruction and the subtler cues of context both refine an AI system's moral judgment — a self-driving car, for instance, adjusting its decisions as passenger feedback accumulates, aligning its driving norms more closely with what people actually want.
-- Self-reflection: an AI system capable of examining its own outputs can catch its own biases and correct for them, rather than needing every correction supplied externally.
-- Varied data and environments: an AI system trained on a wide range of sources and situations develops a better sense of how moral decision-making actually varies by context, rather than one calibrated to a single setting.
+- Self-reflection: an AI system capable of examining its own outputs can catch its own biases and correct for them.
+- Varied data and environments: an AI system trained on a wide range of sources and situations develops a better sense of how moral decision-making actually varies by context.
 <</list>>
 
 Built this way, an AI system is better positioned to catch its own decision-making errors, recognize bias in its reasoning and correct for it, and keep refining its moral judgment as new situations arrive that its training didn't cover.

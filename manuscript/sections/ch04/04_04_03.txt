@@ -12,7 +12,7 @@ Getting either system to pull toward ethical alignment rather than away from it 
 - Public-private partnership: government, civil-society, and academic involvement in design, rather than a single company's internal judgment standing in for all of them.
 - Regulatory frameworks built for the purpose: legislation and institutional policy that name ethical consideration, individual rights, and societal welfare as design requirements, not afterthoughts.
 - Open discourse inside development organizations: a working culture where moral implications get argued about before deployment, not discovered after.
-- Corporate incentives that reward it: an organization whose actual incentive structure tracks responsibility and democratic value, rather than treating ethical review as a cost center.
+- Corporate incentives that reward it: an organization whose actual incentive structure tracks responsibility and democratic value.
 <</list>>
 
 None of these fixes anything by itself. What they share is the same target: making the mesosystem and exosystem around an AI system pull toward ethical alignment and resistance to authoritarian capture, rather than leaving that direction to whichever force happens to be strongest at a given moment.

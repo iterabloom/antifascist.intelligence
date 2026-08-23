@@ -16,12 +16,12 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-74,749 words as of the last `section_stats.py` run — down from ~113,000 before
+74,594 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
 the chapter, which was already accepted); chapter 4 from
-~19,240 to 14,266; chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
+~19,240 to 14,111 (the last 155 off in the P3.5 sweep, below); chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
 edits: the 17-word stale-pointer fix from chapter 10's integration, and the
 racial-capitalism paragraph added to §5.1 at the author's request — below); chapter 7 from
 ~19,578 to 13,925 (25 words added post-acceptance for the opener continuity
@@ -56,6 +56,27 @@ section in the book — all 156, across all ten active chapters — has now had
 a P3 pass.** Chapter 8 was folded into 7.5 by P1; nothing else remains
 untouched since 2024.
 
+- **P3.5 started (D-025), chapter 4 swept** (2026-08-23): the style pass the
+  author's chapter 1 revision implied. 34 edits across 15 of chapter 4's 33
+  sections, all deletions of a known shape: 4 strawman/meta contrastives of
+  the exact kind the author cut ("rather than assuming the shape is neutral",
+  "rather than summarizing it twice"), 1 "an open question, not a solved one"
+  (the author cut that exact tail in §1), 14 defensive intensifiers
+  ("a real shot at", "genuine ethical dilemmas", "genuinely informative",
+  "That comparison is real, and it is not nothing"), and 15 contrasts whose
+  positive claim carried the sentence alone. 155 words. **The projected cut
+  rate was wrong and is worth recording:** I estimated a third to half of
+  chapter 4's 159 constructions from the raw count; inspecting each one
+  against the author's calibration, only 34 (21%) were the defensive shape.
+  The other 125 name a live alternative and do real work — the augment/replace
+  contrast, Kohlberg's post-conventional definition, the guilt/shame
+  distinction, the fast/slow design implication. Chapter 4's density went
+  from one construction per 92 words to one per 102; chapter 1's, after the
+  author's own hand, is one per 199. **Closing that remaining gap would mean
+  cutting load-bearing contrasts, which this pass did not do** — whether an
+  argumentative body chapter should match an introduction's density is a
+  judgment for the author, not something to assume. Chapters 2, 3, 5, 6, 7,
+  9, and 10 not yet swept.
 - **Author hand-revision of chapter 1 + the D-024 antifascist rebrand**
   (2026-08-23, after the chapter 1 P3 draft below): the author revised all
   four chapter 1 sections by hand — the thesis is now "altruistic and
@@ -482,6 +503,7 @@ suspected fabrication during P3 itself.
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
 | P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
+| P3.5 Style | **started, D-025.** Chapter 4 swept (34 edits, 155 words). Chapters 2, 3, 5, 6, 7, 9, 10 not yet swept. Also carries the `outline.tsv` sync (55 stale titles), the post-D-024 register-seam check, and §10.2's "Roadmap" title. |
 | P4 Source | not started — claims ledger now at 534 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |

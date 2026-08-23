@@ -21,7 +21,7 @@ None of this substitutes for a genuine override. A human able to intervene in a 
 Keeping AI systems from being weaponized by authoritarian regimes takes safeguards built in deliberately, not bolted on after a misuse is already discovered:
 
 <<list>>
-- Transparency, accountability, and explainability by design: routine third-party audits and legally required disclosure of AI use in the public sector make abuse recognizable and punishable rather than invisible.
+- Transparency, accountability, and explainability by design: routine third-party audits and legally required disclosure of AI use in the public sector make abuse recognizable and punishable.
 - Ethical guidelines and legislation, developed jointly by governments, industry, and researchers, that name specifically which AI uses count as discriminatory, repressive, or otherwise off-limits, rather than gesturing at "responsible AI" in the abstract.
 - Due diligence on exports: a system built for crowd monitoring or population surveillance carries a different risk in a country with a documented history of human-rights abuse, and a risk assessment that ignores that history is not really a risk assessment.
 - Cross-sector collaboration — the Partnership on AI [[cite:C0348]] is one existing venue for it — that pools the perspective of companies, researchers, and civil-society groups rather than leaving any one of them to set the standard alone.
