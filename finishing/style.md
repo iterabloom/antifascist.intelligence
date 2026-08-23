@@ -101,7 +101,26 @@ A run of five paragraph-length items each beginning "(3)" is prose wearing a
 list's clothes — either make it a real list of short items or write it as
 paragraphs.
 
-## 4a. Boxes
+## 4a. Run-in heads inside long sections
+
+The three-level cap is about the **reader-facing table of contents**, not about
+forbidding internal structure. Where folding leaves a long section — §3.1.2
+absorbs 24 subsections and lands near 14,000 words with its transplants — the
+absorbed material keeps unnumbered run-in heads:
+
+```
+Hierarchical processing and the visual cortex
+```
+
+on its own line, no number, not in the table of contents. A reader still gets
+signposts; the outline still reads three deep.
+
+Rule of thumb: a section over about 1,500 words wants run-in heads. Below that,
+paragraphs are enough. This is the escape valve D-010 always had — it was in the
+decision's original form and was lost when the triage was ruled, which is why
+§3.1.2 briefly looked like an unreadable 12,000-word run.
+
+## 4b. Boxes
 
 `<<box>>` … `<</box>>`, first line taken as the title. For a case study or a
 self-contained episode that would derail the paragraph it sits next to — the
