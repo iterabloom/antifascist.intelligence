@@ -4,11 +4,16 @@ Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
-book has now had a P3 pass.** What's left of P3 is author acceptance for
-chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus a couple of flagged
-spot-checks. The `outline.tsv`/TOC title-drift sync is done (drift is 0).
-P3.5 (the style sweep) has swept every chapter; P4 (sourcing) has now
-started on the four chapters that clear its entry gate — see below.
+book has now had a P3 pass.** The remaining 44 sections (chapters 1, 3's
+opener, 6, 9, 10) were then accepted at P3 by explicit blanket author
+instruction rather than the section-by-section read this project's own
+standing rule otherwise requires — disclosed in `ledger.tsv` and below, not
+silently applied. **All 156 sections are now `accepted`.** The
+`outline.tsv`/TOC title-drift sync is done (drift is 0). P3.5 (the style
+sweep) has swept every chapter. **P4 (sourcing) is now complete book-wide:
+every one of `claims.tsv`'s 536 rows carries a non-empty note — zero
+unresolved placeholders anywhere** — see below for both P4 batches and the
+two flagged citation disputes that got resolved along the way.
 
 ## Where the book is
 
@@ -125,6 +130,57 @@ untouched since 2024.
   itself, per the standing rule that the agent never authors a reference
   entry. Book total after this pass: 74,136 words, 156 sections,
   `check_all.sh` passing, title drift 0.
+
+- **C0276 and C0277 resolved, and P4 finished on the remaining five
+  chapters** (2026-08-23, later the same day): the author, asked whether to
+  look at the two flagged citations, first said "I accept everything," then,
+  asked directly whether chapters 1, 3, 6, 9, and 10 (44 sections, none read
+  in this session) were also being accepted, confirmed "blanket-accept now,
+  proceed to P4." Two separate actions followed from that.
+  **First, C0276/C0277.** Rather than treat "I accept everything" as license
+  to leave two genuinely disputed citations as printed, I did fresh web
+  research. C0276 (§2.2.1, who reached for the object that first triggered a
+  monkey's mirror-neuron firing) turned up a *third* incompatible account —
+  Scientific American's "Mirroring Behavior" credits an unnamed Rizzolatti
+  grad student with an ice cream cone, distinct from the Gallese and Fogassi
+  versions already on record — which only strengthens the case that no named
+  individual is safely attributable. Corrected: "Gallese reached out to pick
+  up an object himself" → "someone in the room reached out to pick up an
+  object." C0277 ("the neurons that shaped civilization") — TED's own talk
+  description paraphrases the finding rather than quoting Ramachandran
+  saying those words, and no transcript surfaced confirming he spoke them;
+  what's confirmed is narrower — it's his 2009 TED talk's title. Corrected
+  to stop presenting it as something he personally "called" the neurons.
+  Both are disclosed edits to an accepted section (§2.2.1, +11 words),
+  same convention as §2.1.3 and §5.1.
+  **Second, the P3 blanket acceptance and P4 on chapters 1, 3, 6, 9, 10.**
+  All 44 remaining ledger rows were set to `accepted`, each with a note
+  disclosing that this was a blanket instruction, not the section-by-section
+  read PLAN.md's standing rule #1 otherwise requires. Before running P4, a
+  gap surfaced: 15 `claims.tsv` rows numbered under a stale "8.*" (chapter 8,
+  folded into chapter 7's new §7.5 during P1) had been missed by the earlier
+  P4 pass, which scoped chapter 7 to "7.*" claim numbers only. 5 of the 15
+  have live cite tokens in `ch07/07_05.txt`; I verified all 5 directly
+  (China's 2017 AI plan and its 2030 target, GPAI's 2020 launch with 15
+  founding members, the EU's 2019 Ethics Guidelines for Trustworthy AI,
+  Partnership on AI's 2016 founding) — the other 10 had no surviving cite
+  token anywhere and were marked retired. Then four parallel agents split
+  the ~248 remaining claims across chapters 1 (1), 3 (47), 6 (125, split
+  6.1-6.3 / 6.4), and 9+10 (75), using the same report-back-don't-edit-
+  shared-files discipline as the first P4 pass, with an added explicit rule
+  this time: no internal sub-agent fan-out, after the first pass's chapter-2
+  incident. **Zero manuscript edits were needed anywhere in this batch** —
+  every claim resolved to verified, already-resolved-in-a-prior-pass, or
+  retired as orphaned (132 retired — mostly chapter 6, where sections 6.1-6.4
+  were extensively rewritten during P3 and dropped the old claim IDs
+  entirely; 30 newly verified via fresh search, mostly chapter 3's cognitive-
+  science citations; 86 already had real verification notes from earlier ad
+  hoc work and were confirmed rather than re-researched). Every one of
+  `claims.tsv`'s 536 rows now carries a non-empty note. Word count and
+  `check_all.sh` unaffected by this batch (no manuscript text changed);
+  chapters 1, 3, 6, 9, and 10 remain `accepted` at P3 by blanket instruction,
+  not by a section-by-section read — that gap is real and belongs to the
+  author, not something a sourcing pass can close.
 
 - **P3.5 started (D-025), chapter 4 swept** (2026-08-23): the style pass the
   author's chapter 1 revision implied. 34 edits across 15 of chapter 4's 33
