@@ -69,7 +69,7 @@ section will pin down.
 
 Ranked by hours saved per unit of regret:
 
-1. **Cut more.** Every section cut is a read saved. The 141 revises are the cost; deciding that some of them are merely *fine* and shipping them unread is the only large lever, and it is the author's to pull.
+1. ~~**Cut more.**~~ Considered and declined (D-019, D-020): the length target was retired rather than the book cut down to meet it. The lever that remains is shipping some *fine* sections with a lighter read, which is the author's to pull and nobody else's.
 2. **Batch the folds.** 101 seam checks reviewed a chapter at a time rather than a section at a time.
 3. **Accept the citation ceiling.** If ~273 placeholders is too many to resolve, the rule from D-009 already covers it: what cannot be sourced is cut. Applying that aggressively converts citation hours into cut hours, which are cheaper.
 4. **Do not add scope.** The transplant budget is 12k words; the pilot suggests the real cost of a transplant is not its words but the join paragraph that has to be written for each one.

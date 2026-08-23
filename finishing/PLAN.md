@@ -33,13 +33,12 @@ AI-safety vocabulary, language as a cognitive system) except where a transplant
 happens to supply one; and arguing the anti-authoritarian thesis somewhere it is
 currently assumed. Those stay as they are unless the author reopens D-007.
 
-**Length.** Starting from 115,377 body words: D-010's cuts remove ~3.5k
-(§6.4.1.1–.9) plus whatever chapter 8's fold into chapter 7 sheds, the
-duplication rulings perhaps 5–8k, and D-014 *adds* ~12k. That lands near
-110–115k against D-002's 75–90k. The gap is now large enough that D-002 should
-be treated as aspirational unless the author wants deeper cuts; it is the one
-place the decisions genuinely pull against each other, and it is flagged rather
-than resolved.
+**Length (D-019).** Settled, and settled against the number I first proposed.
+The triage projects **~117,000 words**: 115,524 now, less ~9,100 in cuts,
+compressions and chapter 8's reduction, plus 10,400 in transplants. The 75–90k
+target is retired — it was a planning recommendation, not a constraint, and this
+is an ordinary length for a book of this scope. Compression during the revise
+pass is welcome where a section earns it; **no section is cut to hit a number.**
 
 **Quoted third-party material (D-012, D-018).** Four items, all kept, and the
 author's determination is that all four are fair use. No permissions are sought
