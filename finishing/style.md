@@ -96,7 +96,14 @@ does not rot with it.
 Endnotes for named studies, statutes, systems, and quotations. Nothing else.
 
 While revising, a factual assertion gets `[[cite:CNNNN]]` keyed to
-`reports/claims.tsv` (268 items in 91 sections). **The agent never writes a
+`reports/claims.tsv` (268 items in 91 sections at the start of the pass).
+
+**Transplanted material brings its own citation debt, and its placeholders are
+allocated at transplant time, not deferred.** The pilot appended five rows to
+`claims.tsv` as it went; doing that retroactively across sixteen transplants
+would mean re-reading all of them. Expect the debt to rise during P3, not fall —
+imported material makes specific empirical claims where the original made
+general ones. **The agent never writes a
 reference entry.** An assertion nobody can source is cut during the revise pass,
 not carried forward with a placeholder — that is the rule that stops the
 citation backlog from becoming the project.
