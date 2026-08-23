@@ -1,0 +1,187 @@
+flowchart TD
+    %% ════════════════════════════════════════════════════════════
+    %%  one loop, pointed at different targets · the frame is a bet
+    %% ════════════════════════════════════════════════════════════
+
+    %% ── OUTSIDE THE FRAME (frame-level rival) ───
+    subgraph OUTSIDE["OUTSIDE THE FRAME — traditions that would not draw this diagram at all"]
+        direction TB
+        ENACT["Enactivism · Ecological psychology<br/><i>there is no inner model to weight</i><br/><small>Gibson · Varela–Thompson · Hutto–Myin · Chemero</small>"]
+    end
+
+    %% ── THE LOOP (the engine, drawn as a cycle) ─
+    subgraph LOOP["THE LOOP — one mechanism: predict ↓, be surprised, update ↑. The boxes are a pedagogical lie; in the theory it is all one cascade."]
+        direction TB
+        GEN["Generative model — the store of priors<br/><i>predictions cascade down</i><br/><small>learning = updating this</small>"]
+        ATTN["Precision-weighting = ATTENTION<br/><i>intrinsic to the loop, not a valve after it</i><br/><small>what to trust · what to broadcast</small>"]
+        WORLD["the world<br/><small>exteroceptive boundary</small>"]
+        BODY["the body<br/><small>interoceptive boundary</small>"]
+        LEXP["Explicit priors<br/><i>facts &amp; events — you can state them</i><br/><small>hippocampus</small>"]
+        LIMP["Implicit priors<br/><i>skills &amp; habits — you can only show them</i><br/><small>basal ganglia · dopamine</small>"]
+        WM["Working Memory<br/><i>priors held active under precision-weighting</i><br/><small>a mode of attention, not a store apart</small>"]
+        EXE["Executive Function<br/><i>goals set the precision</i><br/><small>high-level priors bias precision-weighting — 'no executive'</small>"]
+    end
+
+    %% ── THE FACULTIES (the loop, specialised) ──
+    subgraph FAC["THE FACULTIES — the same loop, pointed at a different target"]
+        direction TB
+        PER["Perception<br/><i>seeing is the brain's best guess</i><br/><small>loop → world · controlled hallucination</small>"]
+        ACT["Action<br/><i>move to make the guess come true</i><br/><small>loop → body · active inference</small>"]
+        EMO["Emotion<br/><i>a feeling built from the body</i><br/><small>loop → interoception · constructed</small>"]
+        PAIN["Pain<br/><i>a verdict, not a signal</i><br/><small>loop → interoception · constructed</small>"]
+        MEM["Memory<br/><i>the past, rebuilt each time</i><br/><small>the loop, offline · reconstruction</small>"]
+        EYE["The Mind's Eye<br/><i>imagining is perceiving, run backward</i><br/><small>the loop, offline</small>"]
+        SELF["The Self<br/><i>a model the brain builds of 'you'</i><br/><small>…and one it inhabits</small>"]
+        CSCH["The Feel of Awareness<br/><i>the brain's model of its own attention</i><br/><small>attention schema</small>"]
+        TOM["Reading Others · Mentalizing<br/><i>modelling other minds</i><br/><small>theory + simulation</small>"]
+        REA["Reasoning<br/><i>good with odds, shaky with logic</i><br/><small>Bayesian inference</small>"]
+        CON["Consciousness · ACCESS<br/><i>broadcast brain-wide, reportable</i><br/><small>global broadcast · ignition</small>"]
+        LAN["Language<br/><i>a skill we grow, not an organ we're born with</i><br/><small>emergent · built from other faculties</small>"]
+    end
+
+    %% ── loose special nodes ────────────────────
+    PHEN["Consciousness · PHENOMENAL<br/><i>what it's like — experience itself</i><br/><small>named, but outside the frame's vocabulary</small>"]
+    Q{"attention ↔ access ↔ experience<br/><small>necessary? sufficient? the same thing?</small>"}
+    BASIC["Basic-emotion rival<br/><i>affect programs, not constructions</i><br/><small>Ekman · Panksepp</small>"]
+    UG["Universal Grammar rival<br/><i>an innate organ, not a learned skill</i><br/><small>Chomsky · nativism</small>"]
+    BADD["Multi-component WM rival<br/><i>a store apart, not just attention</i><br/><small>Baddeley</small>"]
+    HB["Heuristics-and-biases rival<br/><i>systematic bias, not Bayesian optimality</i><br/><small>Kahneman · Tversky · dual-process</small>"]
+
+    %% ════════════════════════════════════════════
+    %%  EDGES 0–41 (order matters for linkStyle)
+    %% ════════════════════════════════════════════
+
+    %% ── SPINE · the loop itself (idx 0–5) ──
+    GEN  == "predictions ↓" ==>              ATTN
+    ATTN == "predictions ↓" ==>              WORLD
+    WORLD == "prediction error ↑" ==>        ATTN
+    ATTN == "predictions ↓" ==>              BODY
+    BODY == "prediction error ↑" ==>         ATTN
+    ATTN == "weighted error ↑ · learning updates the priors" ==> GEN
+
+    %% ── the loop pointed at a target (idx 6–17) ──
+    WORLD -. "the brain's best guess" .->    PER
+    PER   -. "act to fulfil the prediction" .-> ACT
+    ACT   -. "moving changes the input" .->  WORLD
+    BODY  -. "a feeling from the viscera" .-> EMO
+    BODY  -. "a constructed verdict" .->     PAIN
+    GEN   -. "priors replayed, boundary detached" .-> MEM
+    MEM   -. "run the loop backward" .->     EYE
+    ATTN  -. "the brain models its own attention" .-> CSCH
+    GEN   -. "a model of the modeller" .->   SELF
+    GEN   -. "inference under uncertainty" .-> REA
+    SELF  -. "model other models" .->        TOM
+    ATTN  -. "what wins precision is broadcast · ignition" .-> CON
+
+    %% ── BUILT FROM (parts → whole) (idx 18–24) ──
+    ATTN --o WM
+    ATTN --o EXE
+    LIMP --o LAN
+    PER  --o LAN
+    TOM  --o LAN
+    GEN  --> LEXP
+    GEN  --> LIMP
+
+    %% ── SHARES A MECHANISM · confidence-tiered ──
+    %% Tier A · robust (idx 25–26)
+    MEM -. "priors are memories" .- PER
+    EYE -. "imagery runs the perceptual hierarchy" .- PER
+    %% Tier B · mainstream but theory-laden (idx 27–28)
+    EMO  -. "built like perception · predictive coding" .- PER
+    CSCH -. "feels like awareness" .- SELF
+    %% Tier C · contested / slogan (idx 29–31)
+    LIMP -. "dopamine, the chemical of surprise" .- EMO
+    REA  -. "the flinch is part of the judgment" .- EMO
+    SELF -. "empathy borrows the pain circuit — is it pain-specific?" .- PAIN
+
+    %% ── GHOST rivals · reject the node, rewire here (idx 32–34) ──
+    EMO -. "or — affect programs, not constructions" .- BASIC
+    LAN -. "or — an innate organ · Universal Grammar" .- UG
+    WM  -. "or — a store apart · Baddeley" .- BADD
+    %% (4th ghost REA → HB is declared at file end so it lands at idx 51 — see the edge there)
+
+    %% ── THE FORK · attention ↔ access ↔ phenomenality (idx 35–40) ──
+    ATTN -. "the disputed link" .- Q
+    Q    -. "attention IS access · Prinz (AIR)" .->    CON
+    Q    -. "the gateway to ignition · GWT · Dehaene" .-> CON
+    Q    -. "neither · doubly dissociable · Koch–Tsuchiya · Lamme · Block" .-> PHEN
+    PHEN -. "overflows access · the broadcast never reaches it · Block" .- CON
+    CSCH -. "or — the schema is the whole story · Graziano" .- PHEN
+
+    %% ── FRAME-LEVEL rejection (idx 41) ──
+    %% terminates at the LOOP subgraph, not a single node: the label attacks the inner model
+    %% (the whole representational figure), so it rejects the figure, not attention in particular.
+    ENACT -- "declines to posit an inner model — the whole figure dissolves, not one edge" --x LOOP
+
+    %% ── LEGEND (idx 42–50) ─────────────────────
+    subgraph KEY["how to read this"]
+        direction LR
+        KA[" "] == "predictions ↓ / errors ↑ — the loop (thick = the one mechanism)" ==> KB[" "]
+        KC[" "] -- "subdivides into" --> KD[" "]
+        KE[" "] -- "built from · parts → whole" --o KF[" "]
+        KG[" "] -. "drives / influences" .-> KH[" "]
+        KRA[" "] -. "shares a mechanism · robust" .- KRB[" "]
+        KMA[" "] -. "shares a mechanism · mainstream, theory-laden" .- KMB[" "]
+        KCA[" "] -. "shares a mechanism · contested / slogan" .- KCB[" "]
+        KGH1[" "] -. "ghost · the rival it would rewire to" .- KGH2[" "]
+        KFR1[" "] --x KFR2[" "]
+        KNODE_C["dashed border = a <b>node</b> is contested —<br/>reject it and its edges rewire"]
+        KNODE_P["grey dashed fill = named but <b>bracketed</b>:<br/>outside the frame's own vocabulary"]
+        KNODE_G["ghost fill = the rival a<br/>contested node rewires to"]
+        KNODE_F["heavy long-dash = a <b>frame</b>-level rival —<br/>reject it and the <i>whole figure</i> goes"]
+    end
+
+    %% ── fourth ghost, declared here (out of the ghost section) so it is edge idx 51,
+    %%    which keeps every existing linkStyle index stable ──
+    REA -. "or — fast heuristics, not Bayes" .- HB
+
+    %% ════════════════════════════════════════════
+    %%  STYLING
+    %% ════════════════════════════════════════════
+    classDef engine   fill:#fbf3e8,stroke:#b8763e,stroke-width:1.5px,color:#1a1a1a;
+    classDef boundary fill:#eef0f2,stroke:#8a929c,stroke-width:1px,color:#2a2f36;
+    classDef faculty  fill:#ffffff,stroke:#5a6472,stroke-width:1px,color:#1a1a1a;
+    classDef contested stroke:#4a4a4a,stroke-dasharray:5 3,stroke-width:2px;
+    classDef phantom  fill:#efecf3,stroke:#8a7a9a,stroke-width:1.5px,stroke-dasharray:6 4,color:#4a3a5a;
+    classDef ghost    fill:#f7f4ef,stroke:#b0a08a,stroke-width:1px,stroke-dasharray:2 4,color:#7a6a52;
+    classDef fork     fill:#fbeaea,stroke:#a33,stroke-width:1.5px,stroke-dasharray:5 3,color:#3a1a1a;
+    classDef outside  fill:#f0eee9,stroke:#2a2a2a,stroke-width:2px,stroke-dasharray:10 4,color:#2a2a2a;
+    classDef legend   fill:#f6f6f7,stroke:#9aa2ac,stroke-width:1px,color:#3a4149;
+
+    class GEN,ATTN engine;
+    class WORLD,BODY boundary;
+    class LEXP,LIMP,WM,EXE,PER,ACT,EMO,PAIN,MEM,EYE,SELF,CSCH,TOM,REA,CON,LAN faculty;
+    class PHEN phantom;
+    class BASIC,UG,BADD,HB ghost;
+    class Q fork;
+    class ENACT outside;
+
+    %% contested = a live, unresolved debate drawn as core architecture
+    class EXE,WM,EMO,PAIN,LAN,SELF,CON,CSCH,REA contested;
+
+    class KA,KB,KC,KD,KE,KF,KG,KH,KRA,KRB,KMA,KMB,KCA,KCB,KGH1,KGH2,KFR1,KFR2 legend;
+    class KNODE_C contested;
+    class KNODE_P phantom;
+    class KNODE_G ghost;
+    class KNODE_F outside;
+
+    style OUTSIDE fill:#f4f2ee,stroke:#2a2a2a,stroke-width:2px,stroke-dasharray:10 4,color:#2a2a2a;
+    style LOOP fill:#fdf9f3,stroke:#b8763e,stroke-width:1.5px,color:#7a4a1e;
+    style FAC  fill:#fbfbfc,stroke:#5a6472,stroke-width:1px,color:#3a4149;
+    style KEY  fill:#f6f6f7,stroke:#9aa2ac,stroke-width:1px,color:#3a4149;
+
+    %% ── link styling by index ──
+    %% the spine (+ legend sample): thick = the one mechanism
+    linkStyle 0,1,2,3,4,5,42 stroke:#6a4a2a,stroke-width:3px;
+    %% robust
+    linkStyle 25,26,46 stroke:#2f6b3a,stroke-width:2.5px;
+    %% mainstream, theory-laden
+    linkStyle 27,28,47 stroke:#7a7f4a,stroke-width:1.5px,stroke-dasharray:4 3;
+    %% contested / slogan
+    linkStyle 29,30,31,48 stroke:#b08a8a,stroke-width:1px,stroke-dasharray:2 5;
+    %% ghost conditionals
+    linkStyle 32,33,34,49,51 stroke:#9a5aa8,stroke-width:1.2px,stroke-dasharray:1 5;
+    %% the fork
+    linkStyle 35,36,37,38,39,40 stroke:#a33,stroke-width:1.5px,stroke-dasharray:4 3;
+    %% frame-level rejection (+ legend sample)
+    linkStyle 41,50 stroke:#1a1a1a,stroke-width:2.5px,stroke-dasharray:10 4;

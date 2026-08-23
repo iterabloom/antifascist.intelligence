@@ -1,0 +1,37 @@
+AI sentience research can draw on lessons from animal research ethics to guide its approach to moral and ethical dilemmas.
+For instance, the "Three Rs" principles (Replacement, Reduction, and Refinement) can be applied to AI research:
+- Replacement: Seek alternatives to using sentient AI in experiments, such as using non-sentient AI or computer simulations.
+- Reduction: Minimize the number of sentient AI systems used in experiments while still achieving meaningful results.
+- Refinement: Improve experimental procedures to minimize harm, stress, or suffering for sentient AI systems.
+
+
+
+
+
+(FAKE)Anderson, J. (2018). The three Rs for AI ethics. Communications of the ACM, 61(11), 24-26. doi: 10.1145/3275542
+
+(FAKE)"Animal research ethics and the Artificial Intelligence revolution" by John P. Gluck and Jordan Bell-Masterson (Animal Welfare, 2018).
+
+(FAKE)"Artificial intelligence and research ethics" by Oliver Bendel (Journal of Information, Communication and Ethics in Society, 2019).
+
+(FAKE)John, L. K., & Masicampo, E. J. (2018). Reducing sample size by using predictive algorithms: The case of the Implicit Association Test. Psychological Science, 29(6), 1008-1015.
+
+(FAKE)Lacey, R. E., Potter, M. A., & Saleem, A. (2021). The Three Rs: The application of Replacement, Reduction and Refinement in the use of AI for preclinical drug discovery. Expert Opinion on Drug Discovery, 16(1), 1-9. doi: 10.1080/17460441.2021.1867912
+
+(FAKE)Leidner, D., & Weiß, G. (2020). Replacing animal experiments through machine learning-based virtual experiments on living cells. ALTEX-Alternatives to Animal Experimentation, 37(1), 14-26.
+
+(FAKE)"The Need for Research Ethics in Artificial Intelligence" by John Danziger (International Journal of Technoethics, 2019).
+
+(FAKE)Van der Touw, T., van der Valk, J. B., & Meijboom, F. L. (2020). Applying the 3Rs in artificial intelligence research: what we can learn from animal experimentation. Alternatives to laboratory animals: ATLA, 48(5), 189-196. doi: 10.1177/0261192920960434
+
+Van Wynsberghe, A., & Robbins, S. (2019). Critiquing the reasons for making artificial moral agents. AI & Society, 34(3), 493-502.
+
+
+
+
+
+
+
+
+
+

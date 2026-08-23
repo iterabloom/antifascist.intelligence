@@ -4,3 +4,10 @@ Presuming it is feasible to develop and employ systems with human or super-human
 
 
 
+
+---
+
+**Author:** Joshua G. Stern  
+**Copyright © 2026 Joshua G. Stern.** Licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (see `LICENSE`).
+
+*The writing process for this work made extensive use of proprietary frontier large language models.*
