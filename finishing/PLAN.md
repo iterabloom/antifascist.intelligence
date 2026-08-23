@@ -41,11 +41,21 @@ be treated as aspirational unless the author wants deeper cuts; it is the one
 place the decisions genuinely pull against each other, and it is flagged rather
 than resolved.
 
-**Epigraphs (D-012).** All three are kept at the author's direction. They are
-third-party copyrighted text — two song lyrics and a television script — so a
-permissions task is live: identify each rights holder, request print and ebook
-permission, and record the outcome. This must resolve before any public
-distribution, and it is the one open item that an outside party controls.
+**Quoted third-party material (D-012, D-018).** Four items, all kept, and the
+author's determination is that all four are fair use. No permissions are sought
+and there is no open task here.
+
+| Where | What | Extent |
+|---|---|---|
+| Chapter 1 epigraph | Run the Jewels lyric | ~12 lines |
+| §2.2 epigraph | Lady Gaga / Bradley Cooper lyric | 4 lines |
+| §2.4 epigraph | *Westworld* dialogue, with its writing and directing credits | 2 lines |
+| §3.1.2.3.1.1 close | *Westworld*, "doesn't look like anything to me" | one phrase |
+
+Each needs a correct and complete attribution line in the finished book —
+that is a copyediting obligation under D-009, independent of the rights
+question. The §2.4 epigraph already carries full credits; the other three do
+not yet.
 
 Style sheet: `finishing/style.md` (to be written in Phase 2).
 
