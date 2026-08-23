@@ -1,5 +1,5 @@
 3.3.3. Lessons from Human Child Development and Exploration
-Developmental psychology's studies of children's exploratory and playful behavior are a foundation for treating play as a learning mechanism in AI systems too. Children's play involves experimentation, flexibility, and adaptability — the skills a child needs to handle unfamiliar situations. Building playful and exploratory elements into AI training could produce the same result: anti-authoritarian and altruistic behavior that was learned rather than specified.
+Developmental psychology's studies of children's exploratory and playful behavior are a foundation for treating play as a learning mechanism in AI systems too. Children's play involves experimentation, flexibility, and adaptability — the skills a child needs to handle unfamiliar situations. Building playful and exploratory elements into AI training could produce the same result: antifascist and altruistic behavior that was learned rather than specified.
 
 Vygotsky's zone of proximal development (ZPD) is the clearest case [[cite:C0309]]: a child learns most effectively playing and interacting with others whose skills are just ahead of their own. Applied to AI, that means designing exploration and play between a system and other AI agents or humans, so it progressively acquires new skills and an understanding of ethical and social values.
 

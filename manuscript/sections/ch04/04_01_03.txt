@@ -16,7 +16,7 @@ Case- and scenario-based instruction — the same approach chapter 2.1.3 lists a
 
 Carrying this weight requires more than a mentorship pipeline; it requires an architecture where moral reasoning, intuition, and emotional response are integrated rather than bolted together, which is the design problem section 3.1.2 takes up directly.
 
-Keeping apprenticeship itself from becoming another vector for control matters as much as the pedagogy does — an AI system whose moral education amounts to obedience training toward whoever happens to be mentoring it has learned the wrong lesson. Section 2.1.4's anti-authoritarian strategies — transparency, accountability, resistance to concentrated power — apply here directly: whoever mentors an AI system should be as auditable as the system being mentored.
+Keeping apprenticeship itself from becoming another vector for control matters as much as the pedagogy does — an AI system whose moral education amounts to obedience training toward whoever happens to be mentoring it has learned the wrong lesson. Section 2.1.4's antifascist strategies — transparency, accountability, resistance to concentrated power — apply here directly: whoever mentors an AI system should be as auditable as the system being mentored.
 
 A medical AI system for emergency triage shows what this looks like in practice. A human mentor presents varied emergency scenarios, guiding the system through how to prioritize care, allocate scarce resources, and navigate the emotional weight those decisions carry for patients and families. The exchange is what teaches the system the layered complexity of the decision, not just its outcome.
 

@@ -1,4 +1,6 @@
-1.1. The Imperative of Altruistic and Anti-Authoritarian Sentient Machines
-A system capable of outperforming humans at nearly every cognitive task is no longer a distant hypothetical to most of the researchers building toward one. What such a system is built to want is not a detail to work out after the capability arrives — it is the difference between a tool that expands what people can do and one that concentrates power in whoever controls it. An intelligence with no particular allegiance to human welfare, and no particular resistance to being pointed at people rather than for them, is dangerous in proportion to how capable it is.
+1.1. The Imperative of Altruistic and Antifascist Sentient Machines
+A system capable of outperforming humans at nearly every cognitive task is becoming increasingly plausible. Such systems could help address some of humanity's greatest threats, such as climate change, public health crises, disinformation, and racial capitalism [[cite:C0701]].
 
-Building that allegiance in — altruism and a disposition against authoritarian misuse, not as a policy layered on afterward but as part of what the system is — is what the rest of this book is about. It won't happen by default. It has to be designed for.
+However, what an AI wants is not a detail to work out after it exists — it is the difference between a tool that expands what the people can do and one that concentrates power in whoever controls it. An intelligence is dangerous if it has no particular resistance to being pointed at the people rather than for them.
+
+Building systems that are definitionally altruistic and antifascist is what the rest of this book is about.

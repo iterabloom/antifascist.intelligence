@@ -1,5 +1,5 @@
 3.1. Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making
-Building altruistic, anti-authoritarian AI means engaging with human cognition directly. The processes that govern human decision-making — learning, memory, attention, perception, reasoning, problem-solving — are the foundation for training or encoding anything similar in a machine.
+Building altruistic, antifascist AI means engaging with human cognition directly. The processes that govern human decision-making — learning, memory, attention, perception, reasoning, problem-solving — are the foundation for training or encoding anything similar in a machine.
 
 Cognitive architectures are one place to start: structural blueprints for cognition that aim to mimic human cognitive processes in a computational framework. SOAR and ACT-R integrate short-term and long-term memory, problem-solving, and decision-making into a single structure, giving AI system design a template for how those components fit together.
 

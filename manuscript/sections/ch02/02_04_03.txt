@@ -5,4 +5,4 @@ Section 2.4.2 sets out the principles that bear on that tension — interdiscipl
 
 Consent is the clearest place where this shades from ethical principle into legal mechanics — what a valid consent process for a candidate sentient AI subject actually requires, and who is accountable when it is skipped or falsified. Chapter 7 works through the accountability side of that question directly.
 
-The negotiation itself — who sits on it, what it can veto, what it must disclose — is where the anti-authoritarian principle earns its place in AI research practice, not just in the abstract.
+The negotiation itself — who sits on it, what it can veto, what it must disclose — is where the antifascist principle earns its place in AI research practice, not just in the abstract.

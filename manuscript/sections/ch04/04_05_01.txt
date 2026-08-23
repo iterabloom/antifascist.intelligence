@@ -1,5 +1,5 @@
 4.5.1. The Impact of Competition and Collaboration on Human Moral Development
-Collaboration and competition both leave their mark on human moral development — on empathy, fairness, cooperation, and respect for other people's autonomy. Understanding how each one shapes behavior matters for building altruistic, anti-authoritarian tendencies into AI systems: these are not separate psychological curiosities but the actual mechanisms an AI system's training environment will recruit, for better or worse.
+Collaboration and competition both leave their mark on human moral development — on empathy, fairness, cooperation, and respect for other people's autonomy. Understanding how each one shapes behavior matters for building altruistic, antifascist tendencies into AI systems: these are not separate psychological curiosities but the actual mechanisms an AI system's training environment will recruit, for better or worse.
 
 Competition, despite its association with rivalry, can drive growth. Structured around ethical conduct, it pushes people to build trust and establish a moral reputation, reinforcing honesty, fairness, responsibility, and integrity along the way.
 

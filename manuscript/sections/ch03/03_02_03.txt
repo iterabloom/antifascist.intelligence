@@ -1,5 +1,5 @@
-3.2.3. Supervised Learning for Ethical and Anti-Authoritarian Decision-Making
-Supervised learning trains an AI system on a labeled dataset — input-output pairs it learns to generalize from — so that it can classify new cases by example. Applied to ethical and anti-authoritarian decision-making, the same method can train an AI system across domains to identify actions and decisions as ethical or unethical, based on examples it has already studied.
+3.2.3. Supervised Learning for Ethical and Antifascist Decision-Making
+Supervised learning trains an AI system on a labeled dataset — input-output pairs it learns to generalize from — so that it can classify new cases by example. Applied to ethical and antifascist decision-making, the same method can train an AI system across domains to identify actions and decisions as ethical or unethical, based on examples it has already studied.
 
 Supervised learning can teach an AI system to analyze textual data — ethical guidelines, legal documents, case studies — extracting moral principles and standards it can then apply to problems it has not seen before. In medical ethics, an AI system could learn from a dataset of ethical cases, recognizing factors like patient autonomy, nonmaleficence, beneficence, and justice, and classifying medical decisions accordingly. Given a dataset of human rights situations analyzed by experts, an AI system can learn the same way to distinguish ethical from unethical actions.
 

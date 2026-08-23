@@ -5,8 +5,9 @@ author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
 book has now had a P3 pass.** What's left of P3 is author acceptance for
-chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus the accumulated
-`outline.tsv`/TOC title-drift sync and a couple of flagged spot-checks.
+chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus the `outline.tsv`
+title-drift sync (the TOC itself was regenerated 2026-08-23) and a couple of
+flagged spot-checks.
 
 ## Where the book is
 
@@ -15,19 +16,21 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-74,797 words as of the last `section_stats.py` run — down from ~113,000 before
+74,749 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
 the chapter, which was already accepted); chapter 4 from
-~19,240 to 14,266; chapter 5 from 9,021 to 8,107 (the 17-word gain is an
-unrelated one-sentence fix to a stale forward-pointer, made during chapter
-10's integration, not a re-revision of chapter 5 itself); chapter 7 from
+~19,240 to 14,266; chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
+edits: the 17-word stale-pointer fix from chapter 10's integration, and the
+racial-capitalism paragraph added to §5.1 at the author's request — below); chapter 7 from
 ~19,578 to 13,925 (25 words added post-acceptance for the opener continuity
 fix below); chapter 6 went from 8,617 to 5,369, a 38% cut; chapter 9 went
 from 3,808 to 4,531, the only chapter to grow rather than shrink; chapter 10
-went from 8,150 to 5,561, a 32% cut; chapter 1 went from 3,241 to 1,149, a
-65% cut and the largest proportional cut in the whole pass — see below.
+went from 8,150 to 5,558, a 32% cut; chapter 1 went from 3,241 to 1,149 in
+the P3 draft, then to 908 after the author's own 2026-08-23 hand revision —
+a 72% cut overall and the largest proportional cut in the whole pass — see
+below.
 
 ## What has actually been done to the prose
 
@@ -53,6 +56,30 @@ section in the book — all 156, across all ten active chapters — has now had
 a P3 pass.** Chapter 8 was folded into 7.5 by P1; nothing else remains
 untouched since 2024.
 
+- **Author hand-revision of chapter 1 + the D-024 antifascist rebrand**
+  (2026-08-23, after the chapter 1 P3 draft below): the author revised all
+  four chapter 1 sections by hand — the thesis is now "altruistic and
+  antifascist by design," §1.1 is retitled and restores the 2023
+  racial-capitalism sentence (reversing the P3 cut), §1.2 drops the
+  roadmap-disavowal opening (the positive D-023 promise stands alone), and
+  nine contrastive-negation ("X, not Y") clauses were cut across the chapter,
+  a style verdict worth carrying into future drafting. Applied book-wide per
+  D-024: every "anti-authoritarian(ism)" became "antifascist"/"antifascism"
+  (72 occurrences across chapters 2–10, including 16 section/chapter
+  retitles; descriptive uses of "authoritarian" stay). §2.1.4 now carries the
+  one-sentence terminology statement (antifascist chosen deliberately; the
+  stance includes anti-authoritarian resistance in full). Ripples handled in
+  the same pass: §5.1 gained a racial-capitalism paragraph as the designated
+  home (D-013) for the introduction's restored mention — Robinson's *Black
+  Marxism* (C0701) and Benjamin's New Jim Code (C0702), both live-verified;
+  a disclosed edit to an accepted section. §10's opener lost its now-stale
+  "roadmap the introduction gestures at" clause. README subtitle updated,
+  TOC regenerated, and four mechanical slips in the hand edits fixed
+  (a typo, a dropped "of", a hyphen for an em dash, and "original
+  motivations" unified per the author). Chapter 1 is now 908 words; claims
+  ledger 534 rows. Chapter 1 remains not author-accepted in the ledger —
+  the hand revision is the author's, but the agent's fixes on top of it
+  have not had the author's read.
 - **Chapter 1** (4 sections, 1,149 words, down from 3,241 — 65%, the largest
   proportional cut of the whole pass): every section revised, including a
   full rebuild of §1.3, which restores the run-in heads deleted in 2024
@@ -455,7 +482,7 @@ suspected fabrication during P3 itself.
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
 | P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
-| P4 Source | not started — claims ledger now at 532 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
+| P4 Source | not started — claims ledger now at 534 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
@@ -471,9 +498,11 @@ the housekeeping below.
   Everything else in the book is already author-accepted; D-001's two-round
   return path no longer applies to it unless the author reopens a specific
   section.
-- **`finishing/outline.tsv` and `manuscript/table-of-contents.txt` have
-  accumulated 38 stale titles** against the manuscript's own (authoritative,
-  D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
+- **`finishing/outline.tsv` has accumulated 55 stale titles** against the
+  manuscript's own (authoritative, D-011) headings
+  (`manuscript/table-of-contents.txt` itself was regenerated 2026-08-23 and
+  is current) — 17 from the D-024 antifascist retitles (§1.1 by the author's
+  hand, 16 applied book-wide), 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
   (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`, `06_04_01`), 8
   from chapter 9 (`09_01_01` through `09_01_06`, `09_02_01`, `09_02_02` —
   every chapter-9 body section was retitled), 8 new from chapter 10
@@ -533,7 +562,7 @@ handed off rather than a live punch list.
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 532 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 534 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start** |
 

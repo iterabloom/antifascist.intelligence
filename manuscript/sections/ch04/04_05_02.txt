@@ -1,5 +1,5 @@
 4.5.2. Cooperative AI Systems and Multi-Agent Moral Development
-Cooperative AI design means building systems meant to work productively with other agents, human or artificial. Multiple such systems learning together hold real promise for building altruistic, anti-authoritarian tendencies, because shared problem-solving and distributed responsibility are themselves moral training grounds, not just engineering conveniences.
+Cooperative AI design means building systems meant to work productively with other agents, human or artificial. Multiple such systems learning together hold real promise for building altruistic, antifascist tendencies, because shared problem-solving and distributed responsibility are themselves moral training grounds, not just engineering conveniences.
 
 The practical benefit is coverage: agents pooling different perspectives handle multifaceted problems and complex patterns better than any single agent working alone. The moral benefit runs in parallel — AI agents that observe each other can pick up ethical norms collectively, in principle, the same way social learning works among people: by watching what others do and treating it as evidence about what is expected.
 

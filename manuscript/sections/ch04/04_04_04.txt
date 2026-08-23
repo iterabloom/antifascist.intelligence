@@ -9,7 +9,7 @@ Building AI systems that resist rather than reinforce authoritarian and inequita
 
 <<list>>
 - Funded, interdisciplinary study of how cultural, political, and economic context actually shapes AI development and deployment, rather than assuming the shape is neutral.
-- Regulation and public policy that name anti-authoritarian AI development as a goal, not a byproduct of unrelated rules.
+- Regulation and public policy that name antifascist AI development as a goal, not a byproduct of unrelated rules.
 - Comparative analysis across macrosystem contexts, so what works in one setting can be checked against what happens when the same tool is dropped into a different one.
 - Cross-border and cross-cultural exchange, so a democratic macrosystem's practices have some route into a context where the local macrosystem is pulling the other way.
 <</list>>

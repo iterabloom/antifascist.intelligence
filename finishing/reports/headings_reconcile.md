@@ -14,11 +14,35 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 38
+- same number, different title: 55
 
+  - `1.1`
+    - manuscript: The Imperative of Altruistic and Antifascist Sentient Machines
+    - outline: The Imperative of Altruistic and Anti-Authoritarian Sentient Machines
   - `2`
     - manuscript: Foundations of Compassion and Empathy in Friendly AI
     - outline: Foundations of Empathy and Compassion in Friendly AI
+  - `2.1.4`
+    - manuscript: Antifascist Ethics for AI Alignment
+    - outline: Anti-Authoritarian Ethics for AI Alignment
+  - `3.2`
+    - manuscript: Aligning AI Systems with Humane Values and Antifascist Principles
+    - outline: Aligning AI Systems with Humane Values and Anti-Authoritarian Principles
+  - `3.2.1`
+    - manuscript: Reinforcement Learning and Value Alignment for Antifascist AI
+    - outline: Reinforcement Learning and Value Alignment for Anti-Authoritarian AI
+  - `3.2.3`
+    - manuscript: Supervised Learning for Ethical and Antifascist Decision-Making
+    - outline: Supervised Learning for Ethical and Anti-Authoritarian Decision-Making
+  - `3.2.5`
+    - manuscript: Transfer Learning for General AI Capabilities in the Context of Antifascism
+    - outline: Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism
+  - `3.3`
+    - manuscript: The Role of Play and Exploration in Developing Antifascist and Altruistic AI
+    - outline: The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI
+  - `3.3.2`
+    - manuscript: Encouraging Curiosity and Creativity in AI Systems for Antifascist Applications
+    - outline: Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications
   - `4.1.1`
     - manuscript: Rules, Principles, and the Role of Mindset
     - outline: Stages of Moral Development: From Rules to Principles and the Influence of Mindset
@@ -58,6 +82,9 @@ none
   - `6.4.1`
     - manuscript: Comparing and Harmonizing Regional AI Rules
     - outline: Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions
+  - `7`
+    - manuscript: Policy Recommendations for AI Ethics, Safety, and Antifascism
+    - outline: Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism
   - `7.1`
     - manuscript: The Political Economy of AI and Power
     - outline: Political Economy of AI Development and Implications for Distribution of Power and Resources
@@ -73,6 +100,24 @@ none
   - `7.1.6`
     - manuscript: Interdisciplinary Ethics Education and Training
     - outline: Encouraging Interdisciplinary Ethics Education and Training Programs
+  - `7.2`
+    - manuscript: Developing Policy Frameworks for AI Ethics, Safety, and Antifascism
+    - outline: Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism
+  - `7.2.1`
+    - manuscript: National Policy Guidelines for AI Development, Employment, and Antifascism
+    - outline: National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism
+  - `7.2.5`
+    - manuscript: Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
+    - outline: Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems
+  - `7.3`
+    - manuscript: Privacy, Security, and Antifascism in AI Systems
+    - outline: Privacy, Security, and Anti-Authoritarianism in AI Systems
+  - `7.3.1`
+    - manuscript: Balancing Data Privacy, AI Innovation, and Antifascist Goals
+    - outline: Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals
+  - `7.4`
+    - manuscript: Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation
+    - outline: Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation
   - `7.4.1`
     - manuscript: Subjecthood as a Legal Category, Not a Scientific One
     - outline: Criteria for Sentience and AI Subjecthood
@@ -106,6 +151,9 @@ none
   - `9.2.2`
     - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
     - outline: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
+  - `10.1`
+    - manuscript: AI and Human Flourishing in Antifascist Societies
+    - outline: AI and Human Flourishing in Anti-Authoritarian Societies
   - `10.1.1`
     - manuscript: Whether the Dialogue Outlasts the Book
     - outline: The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI
@@ -115,6 +163,9 @@ none
   - `10.1.3`
     - manuscript: Commitment Was Never the Missing Piece
     - outline: Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development
+  - `10.2`
+    - manuscript: Roadmap for Altruistic and Antifascist Superintelligence
+    - outline: Roadmap for Altruistic and Anti-Authoritarian Superintelligence
   - `10.2.1`
     - manuscript: Recognizing Progress Across Five Research Areas
     - outline: Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals
@@ -135,122 +186,59 @@ none
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (38):
+- same number, different title (17):
 
-  - `2`
-    - manuscript: Foundations of Compassion and Empathy in Friendly AI
-    - TOC: Foundations of Empathy and Compassion in Friendly AI
-  - `4.1.1`
-    - manuscript: Rules, Principles, and the Role of Mindset
-    - TOC: Stages of Moral Development: From Rules to Principles and the Influence of Mindset
-  - `4.1.2`
-    - manuscript: Social Interaction and Moral Learning
-    - TOC: The Significance of Social Interaction in Moral Learning
-  - `4.1.4`
-    - manuscript: AI in Service of Human Dignity
-    - TOC: Using AI to Respect and Promote Human Dignity
-  - `4.2.4`
-    - manuscript: The Role of Introspection for AI Systems
-    - TOC: The role of introspection for AI systems
-  - `4.3.1`
-    - manuscript: Two Systems, or One? Dual-Process Theories of Moral Judgment
-    - TOC: Dual-Process Theories of Moral Judgment
-  - `4.4.1`
-    - manuscript: Applying the Moral Ecosystem Approach to AI Development
-    - TOC: Applying Moral Ecosystem Theory to AI Development
-  - `4.5.3`
-    - manuscript: Strategies for Encouraging Collaboration Among AI Systems
-    - TOC: Strategies for Fostering Collaboration Among AI Systems
-  - `6.1.1`
-    - manuscript: Cross-disciplinary Communication and Cooperation
-    - TOC: Fostering Cross-disciplinary Communication and Cooperation
-  - `6.2.3`
-    - manuscript: AI Literacy Outside the Classroom
-    - TOC: Promoting AI Literacy and Public Understanding
-  - `6.3.1`
-    - manuscript: How Research Institutions Cooperate Across Borders
-    - TOC: Building Global Partnerships for AI Research and Development
-  - `6.3.2`
-    - manuscript: Standards Built by the Technical Community, Not by Governments
-    - TOC: Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI
-  - `6.3.3`
-    - manuscript: What International AI Collaboration Can and Cannot Fix
-    - TOC: Addressing Global Challenges and Opportunities through AI Collaboration
-  - `6.4.1`
-    - manuscript: Comparing and Harmonizing Regional AI Rules
-    - TOC: Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions
-  - `7.1`
-    - manuscript: The Political Economy of AI and Power
-    - TOC: Political Economy of AI Development and Implications for Distribution of Power and Resources
-  - `7.1.1`
-    - manuscript: Economic Incentives in AI Development
-    - TOC: The Influence of Economic Incentives on AI Development and Deployment
-  - `7.1.2`
-    - manuscript: AI and the Concentration of Power in Tech
-    - TOC: AI and the Concentration of Power in the Technology Industry
-  - `7.1.5`
-    - manuscript: Building AI Literacy and Technical Skills
-    - TOC: Promoting AI Literacy and Technical Skills Development
-  - `7.1.6`
-    - manuscript: Interdisciplinary Ethics Education and Training
-    - TOC: Encouraging Interdisciplinary Ethics Education and Training Programs
-  - `7.4.1`
-    - manuscript: Subjecthood as a Legal Category, Not a Scientific One
-    - TOC: Criteria for Sentience and AI Subjecthood
-  - `7.4.3`
-    - manuscript: Making Review Binding
-    - TOC: Designing Ethical Guidelines for Experimentation on Sentient AI Systems
-  - `7.4.4`
-    - manuscript: What Keeps the Apparatus More Than Aspirational
-    - TOC: Promoting a Culture of Ethical Responsibility in AI Development
-  - `9.1.1`
-    - manuscript: Moral Responsibility Without a Responsible Party
-    - TOC: Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism
-  - `9.1.2`
-    - manuscript: When an Ethics-Embedding Method Stops Generalizing
-    - TOC: Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems
-  - `9.1.3`
-    - manuscript: Value Learning as Unfinished Technical Research
-    - TOC: Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values
-  - `9.1.4`
-    - manuscript: Open Questions in Empathy and Theory-of-Mind Research
-    - TOC: Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments
-  - `9.1.5`
-    - manuscript: Can a Multi-Agent AI System Resist Being Captured?
-    - TOC: Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities
-  - `9.1.6`
-    - manuscript: Learning From Disagreement Instead of Consensus
-    - TOC: Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors
-  - `9.2.1`
-    - manuscript: Is Emotion Legible From a Face at All?
-    - TOC: Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior
-  - `9.2.2`
-    - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
-    - TOC: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
-  - `10.1.1`
-    - manuscript: Whether the Dialogue Outlasts the Book
-    - TOC: The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI
-  - `10.1.2`
-    - manuscript: Where the Democratic Dividend Actually Comes From
-    - TOC: Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism
-  - `10.1.3`
-    - manuscript: Commitment Was Never the Missing Piece
-    - TOC: Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development
-  - `10.2.1`
-    - manuscript: Recognizing Progress Across Five Research Areas
-    - TOC: Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals
-  - `10.2.2`
-    - manuscript: How to Tell Whether a Milestone Has Been Met
-    - TOC: Evaluating Progress and Adjusting Strategies as Needed
-  - `10.3.1`
-    - manuscript: Anticipating Risk Before It Causes Harm
-    - TOC: Anticipating and Monitoring Unintended Consequences
-  - `10.3.2`
-    - manuscript: Remediating a Harm Once It Is Identified
-    - TOC: Mitigating Negative Impacts and Enhancing Positive Outcomes
-  - `10.3.3`
-    - manuscript: Resilience Against Deliberate State Compromise
-    - TOC: Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications
+  - `1.1`
+    - manuscript: The Imperative of Altruistic and Antifascist Sentient Machines
+    - TOC: The Imperative of Altruistic and Anti-Authoritarian Sentient Machines
+  - `2.1.4`
+    - manuscript: Antifascist Ethics for AI Alignment
+    - TOC: Anti-Authoritarian Ethics for AI Alignment
+  - `3.2`
+    - manuscript: Aligning AI Systems with Humane Values and Antifascist Principles
+    - TOC: Aligning AI Systems with Humane Values and Anti-Authoritarian Principles
+  - `3.2.1`
+    - manuscript: Reinforcement Learning and Value Alignment for Antifascist AI
+    - TOC: Reinforcement Learning and Value Alignment for Anti-Authoritarian AI
+  - `3.2.3`
+    - manuscript: Supervised Learning for Ethical and Antifascist Decision-Making
+    - TOC: Supervised Learning for Ethical and Anti-Authoritarian Decision-Making
+  - `3.2.5`
+    - manuscript: Transfer Learning for General AI Capabilities in the Context of Antifascism
+    - TOC: Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism
+  - `3.3`
+    - manuscript: The Role of Play and Exploration in Developing Antifascist and Altruistic AI
+    - TOC: The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI
+  - `3.3.2`
+    - manuscript: Encouraging Curiosity and Creativity in AI Systems for Antifascist Applications
+    - TOC: Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications
+  - `7`
+    - manuscript: Policy Recommendations for AI Ethics, Safety, and Antifascism
+    - TOC: Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism
+  - `7.2`
+    - manuscript: Developing Policy Frameworks for AI Ethics, Safety, and Antifascism
+    - TOC: Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism
+  - `7.2.1`
+    - manuscript: National Policy Guidelines for AI Development, Employment, and Antifascism
+    - TOC: National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism
+  - `7.2.5`
+    - manuscript: Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
+    - TOC: Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems
+  - `7.3`
+    - manuscript: Privacy, Security, and Antifascism in AI Systems
+    - TOC: Privacy, Security, and Anti-Authoritarianism in AI Systems
+  - `7.3.1`
+    - manuscript: Balancing Data Privacy, AI Innovation, and Antifascist Goals
+    - TOC: Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals
+  - `7.4`
+    - manuscript: Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation
+    - TOC: Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation
+  - `10.1`
+    - manuscript: AI and Human Flourishing in Antifascist Societies
+    - TOC: AI and Human Flourishing in Anti-Authoritarian Societies
+  - `10.2`
+    - manuscript: Roadmap for Altruistic and Antifascist Superintelligence
+    - TOC: Roadmap for Altruistic and Anti-Authoritarian Superintelligence
 
 ## Headings with no body text before the next heading
 

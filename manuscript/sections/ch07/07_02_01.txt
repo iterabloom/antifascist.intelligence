@@ -1,5 +1,5 @@
-7.2.1. National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism
-National policy for altruistic and anti-authoritarian AI development turns on a handful of recurring areas: interdisciplinary collaboration, innovation policy, and the ethical and safety concerns that run through the rest of this chapter.
+7.2.1. National Policy Guidelines for AI Development, Employment, and Antifascism
+National policy for altruistic and antifascist AI development turns on a handful of recurring areas: interdisciplinary collaboration, innovation policy, and the ethical and safety concerns that run through the rest of this chapter.
 
 <<list>>
 1. Value alignment. National policy can fund research on value alignment and on operationalizing ethical principles inside AI systems, rather than leaving that work to whichever lab can afford it. The European Union's High-Level Expert Group on Artificial Intelligence, and the Ethics Guidelines for Trustworthy AI it produced, is one existing template for what a government-convened effort at this looks like [[cite:C0396]].

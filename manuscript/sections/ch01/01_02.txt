@@ -1,9 +1,9 @@
 1.2. Aims and Objectives
-This book does not offer a roadmap, in the sense of a sequenced plan with dates that a reader could follow step by step — nobody can write that for a technology at this stage, and claiming otherwise would be dishonest about what's actually known. What it offers instead is concrete: specific design principles drawn from psychology, neuroscience, and moral development; specific technical methods for building them into a learning system; specific policy levers, named and evaluated rather than gestured at; and, where the case calls for it, specific proposals ambitious enough to match the problem — a federal jobs guarantee to blunt AI-driven labor disruption, export controls on the hardware that makes an authoritarian surveillance state possible, standards with real certification teeth behind them. The chapters that follow are organized around five aims:
+This book offers specific design principles drawn from psychology, neuroscience, and moral development; technical methods for building them into a learning system; policy levers, named and evaluated; and proposals ambitious enough to match the problem — a federal jobs guarantee to blunt AI-driven labor disruption, export controls on the hardware that makes an authoritarian surveillance state possible, standards with real certification teeth behind them. The next chapters organize around five aims:
 <<list>>
-1. Define the ethical frameworks a design can actually draw on, rather than assuming ethics is self-evident once good intentions are in place.
+1. Define the ethical frameworks a design can actually draw on.
 2. Examine what cognitive science and developmental psychology show about empathy, social reasoning, and moral development in humans, and what of that is portable to an artificial system.
 3. Assess what machine learning methods actually exist for building a system that behaves according to ethical norms, not just one trained to avoid the specific failures its designers happened to anticipate.
-4. Confront the risks squarely: bias, brittleness, goals that drift from what they were meant to want, and deliberate authoritarian misuse.
-5. Set out what collaboration this actually requires — across disciplines, with the public, and across borders — since none of the above happens by one team working alone.
+4. Confront the risks: bias, brittleness, goals that drift from their original motivations, and fascism.
+5. Set out what collaboration this actually requires — across disciplines, with the public, and across borders.
 <</list>>

@@ -1,5 +1,5 @@
 4.1. Moral Development in Humans and AI
-Understanding how human moral judgment develops matters for building AI systems with ethical, empathetic, and anti-authoritarian traits, because the stages a human moral sense passes through — from a grasp of basic rules to principles that generalize past them — are a workable model for how an artificial one might develop too, not just a metaphor borrowed for color.
+Understanding how human moral judgment develops matters for building AI systems with ethical, empathetic, and antifascist traits, because the stages a human moral sense passes through — from a grasp of basic rules to principles that generalize past them — are a workable model for how an artificial one might develop too, not just a metaphor borrowed for color.
 
 In humans, moral development is the shift from a simple grasp of social rules to an ethical system grounded in general principles, shaped along the way by environment, social interaction, culture, and a person's own disposition toward learning. I take those same elements — social interaction, mentorship, and the stance an agent brings to its own failures — to matter for how an AI system's moral capacities develop as well.
 

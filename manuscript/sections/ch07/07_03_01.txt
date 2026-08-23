@@ -1,4 +1,4 @@
-7.3.1. Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals
+7.3.1. Balancing Data Privacy, AI Innovation, and Antifascist Goals
 AI systems need data to learn, and the data they need often includes exactly the information people most want to keep private. Differential privacy is one working answer: it adds carefully structured noise to a dataset's outputs, letting a model learn from the data in aggregate without exposing what any individual record contains. Apple's iOS implementation, covered in section 4.6.3, is a deployed example [[cite:C0350]].
 
 Federated learning solves a related problem differently: instead of centralizing raw data at all, it trains a model across many devices, where each device computes an update locally and only that update — not the underlying text or images — gets sent back and aggregated. Google's Gboard keyboard uses this to improve next-word prediction from what people type, without collecting their raw keystrokes on a central server [[cite:C0412]].

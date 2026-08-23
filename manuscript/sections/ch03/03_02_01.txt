@@ -1,5 +1,5 @@
-3.2.1. Reinforcement Learning and Value Alignment for Anti-Authoritarian AI
-Reinforcement learning (RL) is a family of methods by which an AI agent learns behavior through interaction with its environment, adjusting through reward and punishment signals — a rough analogue of how humans learn from the consequences of their own actions. Anti-authoritarian AI depends on aligning an agent's values, ethical principles, behavior patterns, and predicted responses with human ones, and RL is where much of that alignment work happens.
+3.2.1. Reinforcement Learning and Value Alignment for Antifascist AI
+Reinforcement learning (RL) is a family of methods by which an AI agent learns behavior through interaction with its environment, adjusting through reward and punishment signals — a rough analogue of how humans learn from the consequences of their own actions. Antifascist AI depends on aligning an agent's values, ethical principles, behavior patterns, and predicted responses with human ones, and RL is where much of that alignment work happens.
 
 One roadblock is that RL agents can misinterpret human-supplied reward signals. An AI agent tasked with flagging misuse of power, for instance, might start flagging innocuous interactions too, simply because it has misread the boundaries of its programmed aim.
 

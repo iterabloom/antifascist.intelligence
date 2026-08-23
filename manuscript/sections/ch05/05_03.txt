@@ -7,7 +7,7 @@ An AI system that can recognize and correct its own errors closes part of the ga
 
 None of this substitutes for a human who can actually intervene. Section 4.6.3 makes the case for why autonomy has to stay answerable to an outside check; the same override that keeps a system's day-to-day autonomy accountable is what keeps it safe once its goals have drifted from what it was built to want. What safety adds to that argument is the ongoing partnership: a human and an AI system that keep adjusting to each other over time, not a single correction applied once and left alone.
 
-Safety also means guarding against misuse: control measures that deter harmful application of the technology, and design principles — ethically conscious, anti-authoritarian, privacy-preserving — built in from the start rather than audited for afterward.
+Safety also means guarding against misuse: control measures that deter harmful application of the technology, and design principles — ethically conscious, antifascist, privacy-preserving — built in from the start rather than audited for afterward.
 
 Circuit breakers or kill switches — mechanisms that let a human safely interrupt an AI system's operation without triggering resistance or backlash — are one avenue worth pursuing, provided the mechanism is designed carefully enough that it does not become a vulnerability of its own. Section 5.3.5 below takes up the technical version of this problem, interruptibility, in more depth.
 

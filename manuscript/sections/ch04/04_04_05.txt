@@ -5,7 +5,7 @@ Three kinds of change matter most:
 
 <<list>>
 - Shifting social norms: what counts as acceptable AI behavior is not fixed. Public attention to algorithmic bias, once a specialist concern, became a mainstream expectation that equitable treatment is a baseline requirement rather than a bonus feature — a shift the chronosystem records but that no single training run captures once and for all.
-- Ongoing technical change: an AI system's own capabilities keep expanding, and a commitment to ethical and anti-authoritarian principles has to be re-implemented at each new capability level, not assumed to carry over automatically from the level the system was first built to handle.
+- Ongoing technical change: an AI system's own capabilities keep expanding, and a commitment to ethical and antifascist principles has to be re-implemented at each new capability level, not assumed to carry over automatically from the level the system was first built to handle.
 - Regulatory change: the legal environment an AI system operates in is itself a moving target, and staying compliant is not a one-time engineering task but a standing one.
 <</list>>
 
