@@ -1,25 +1,22 @@
-**Session digest — 2026-08-22 (night)**
+**Session digest — 2026-08-22 (night, later)**
 
-The transplant spec is written: `finishing/transplants.md`. **16 transplants, 10,400 words, 1,600 held back** — deliberately, because analytic prose has to *state* what case-first prose *shows*, so several will grow when edited.
+T7 goes in unframed (D-016). I checked what that actually costs, against the real text rather than in principle, and it is **three edits, all inside revise-only**:
 
-**Two numbers I gave you earlier were wrong, now corrected:**
+1. **§2.2 calls empathy and social intelligence "indispensable."** After T7 that claim sits unqualified in a chapter that publishes its refutation. One conceding sentence, pointing forward to §2.2.3.
+2. **§2.2.3's shape changes.** It is now an opportunities list plus implementation challenges. T7 adds a challenge of a different kind — not "this is hard to build" but "this may be the wrong target." The two halves need relabelling so the distinction is visible.
+3. **The chapter title** — see Q-011.
 
-- **§2.4.1 is 570 words, not 188.** It is not a stub. It is a full-length section that is wrong — which changes its treatment from "fill" to "replace".
-- **"pain" appears 5 times in the book, not 3.** The point sharpens rather than weakens: all five are in chapter 2, every one inside a *hypothetical research protocol*, never a definition. "nociception" appears 0 times. "sentience" and its variants appear **235 times**. The book uses the word 235 times and never says what it would hurt.
+It does *not* require rewriting §2.2.1 (T3 already replaces it), touching §2.2.2, or reopening the book's title, which is about altruism and anti-authoritarianism rather than empathy. All three edits are logged against their sections in the triage.
 
-**The contradiction I flagged turned out to be smaller than feared.** The worry was that importing the constructionist account of emotion into chapter 2 would contradict the emotion sections in chapter 3. Those sections contain zero basic-emotion vocabulary — they are localizationist, and the conflict is two sentences ("the amygdala is predominantly responsible…"). T16 fixes exactly those two sentences for 250 words.
-
-**One item dropped:** the 2022 transcript. Despite its filename it contains no inattentional-blindness probe, its interest is a dated capability observation about a superseded system, and a third of it characterizes a living scientist — including two book titles that look like model confabulations about a real person's bibliography. Better as a one-line pointer in the "On method" note. Say the word if you want it kept.
+**A separate defect, found while checking:** **chapter 2's opener does not describe chapter 2.** Its 74 words are about authoritarian regimes and reinforcement learning — the subject of §2.1.4 — and say nothing about empathy, compassion, or foundations. Chapters 3, 4 and 9 have openers that do match; chapters 5, 6, 7, 8 and 10 have none at all. Unrelated to T7, predates it, and is a plain `revise`.
 
 ---
 
-### Q-010 — T7: does the book publish the case against empathy?
-Atlas ch13 has a passage on empathy's failure modes: empathic concern versus personal distress (the carer who feels until they flee), and the spotlight bias — empathy is innumerate and parochial, it attaches to the identified individual and not the statistical many.
+### Q-011 — Does chapter 2 keep its title?
+"Foundations of Empathy and Compassion in Friendly AI". After T3 (compassion is a separate, trainable system with a different profile) and T7 unframed (empathy is innumerate, parochial, and burns out the carer), the chapter argues that **compassion is the design target and empathy is not**. The title currently gives them equal billing.
 
-It is the strongest passage in the transplant set. It also cuts against the book's own title: chapter 2 is "Foundations of Empathy and Compassion in Friendly AI", and §2.2.3's challenges list contains nothing about empathy itself misfiring.
+- **(a) Default — retitle to put compassion first**, e.g. "Foundations of Compassion in Friendly AI", with empathy appearing in the section titles where it is examined and found wanting. Matches what the chapter will actually argue.
+- (b) Keep the title. The chapter covers both, and one of the two coming off worse is a finding, not a false advertisement.
+- (c) Something else — tell me the title.
 
-- **(a) Default — take it, framed constructively.** T3 already imports the other half (compassion is a separate, trainable system with a different profile). So T7 lands as *"this is why the design target is compassion, not empathy"* rather than as demolition. 700 words into §2.2.3.
-- (b) Take it, unframed — let the challenge stand at full strength and let chapter 2's thesis absorb the hit.
-- (c) Decline. Budget drops to 9,700 and the headroom rises to 2,300.
-
-This is a decision about your argument, not about editing, which is why I am not defaulting it quietly. *Default applies when P3 reaches chapter 2 — not before.*
+Retitling is inside revise-only and costs nothing but the decision. *Default applies when the revise pass reaches chapter 2.*

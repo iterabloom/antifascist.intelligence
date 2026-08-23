@@ -34,7 +34,7 @@ unless noted. "Budget" is the text as it appears in the book, after editing.
 | T4 | ch7 L2383–2462 | §2.2.1 | "The mirror neuron system, **which is key in empathy**" — the clearest false sentence found | boxed-case | 450 |
 | T5 | ch11 L4132–4186 | §3.1.2 (via folded .4, 647 w) | A five-item DLPFC list that installs a homunculus | replace-passage | 700 |
 | T6 | ch9 L3389–3442 + L3443–3518 | §2.3.1 (418 w) | Goleman's four components presented as fact; imports both camps **plus the balancing aside** | replace-section | 900 |
-| T7 | ch13 L5123–5184 | §2.2.3 (611 w) | Nothing in the challenges list is that empathy itself misfires | insert-passage | 700 |
+| T7 | ch13 L5123–5184 | §2.2.3 (611 w) | Nothing in the challenges list is that empathy itself misfires. **D-016: taken unframed** | insert-passage | 700 |
 | T8 | ch10 L3650–3709 | §4.3.1 (429 w) | Dual-process presented as settled; no critic appears | insert + retitle | 550 |
 | T9 | ch13 L5298–5362 | §2.3.3 (458 w) | "register its **internal frustration**" — self-awareness as an inner observer | replace-passage | 700 |
 | T10 | ch5 L1580–1629 | §2.4.1 | "hard problem" appears **once in 115k words**; a zombie passes all seven of §2.4.1's criteria | insert-passage | 550 |
@@ -56,6 +56,30 @@ the amygdala and insula are "predominantly responsible" for emotional appraisal
 and subjective experience. **T16 fixes exactly those two sentences for 250
 words.** With T16, chapter 3 concedes the narrow point and cross-references
 chapter 2. Without it, the book contradicts itself quietly.
+
+### T7 unframed (D-016): the coherence obligation
+
+The author's ruling is that the challenge stands at full strength and chapter 2
+absorbs it. That is an argument-level choice, and it creates work the transplant
+itself does not pay for. Checked against the actual text, the obligation is
+**three edits, all inside revise-only**:
+
+1. **§2.2 (parent, 486 w) calls empathy and social intelligence "indispensable"** and says they "lay the groundwork" for AI understanding of human emotion. After T7 that claim is unqualified in a chapter that publishes its refutation. One sentence conceding the dissociation, pointing to §2.2.3.
+2. **§2.2.3's shape changes.** It is currently an opportunities list followed by implementation challenges. T7 adds a challenge of a different kind — not "this is hard to build" but "this may be the wrong target." The section needs its two halves re-labelled so the reader sees the distinction.
+3. **The chapter title.** "Foundations of Empathy and Compassion in Friendly AI" survives T7 only if compassion is doing the load-bearing work, which after T3 it is. See Q-011.
+
+What it does **not** require: rewriting §2.2.1 (T3 already replaces it), touching
+§2.2.2, or reopening the book's own title, which is about altruism and
+anti-authoritarianism rather than empathy.
+
+### A separate defect found while checking this
+
+**Chapter 2's opener does not describe chapter 2.** Its 74 words are about
+authoritarian regimes and reinforcement learning — anti-authoritarian ethics, the
+subject of §2.1.4 — and say nothing about empathy, compassion, or foundations.
+The openers for chapters 3, 4 and 9 do match their chapters; chapters 5, 6, 7, 8
+and 10 have none at all. This is unrelated to T7 and predates it. Logged against
+§2 in the ledger; the fix is a `revise`, not a transplant.
 
 ### Register edit, quantified
 
