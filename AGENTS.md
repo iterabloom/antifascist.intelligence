@@ -18,8 +18,14 @@
 ## Architecture & Context
 - **What this is.** A book, *Ethical Superintelligence*, plus the complete record
   of how it was made. Not a software project: no build, no tests, no CI.
-- **Authoritative text:** `manuscript/parseable_text_v3b_2024-07-07.txt` and
-  `manuscript/table-of-contents.txt`. Everything else is provenance.
+- **Authoritative text:** `manuscript/sections/` — one file per section, the
+  editable source — and `manuscript/parseable_text_v4.txt`, which is its join
+  and must always match it byte for byte (`finishing/tools/check_all.sh`).
+  `manuscript/table-of-contents.txt` is now *generated* from those headings
+  (`finishing/tools/headings.py --write-toc`); do not hand-edit it.
+  `manuscript/parseable_text_v3b_2024-07-07.txt` is frozen: it is the 2024 text
+  as imported, and the split reproduces it exactly. Everything else is
+  provenance. The work of finishing the book lives in `finishing/`.
 - **Provenance, read-only:** `genesis/`, `personas/`, `generation/`,
   `editorial/`, `summaries/`, `manuscript/previous/`. Do not regenerate, edit,
   or "improve" these; they document what happened. `summaries/summary_triangle_*`
