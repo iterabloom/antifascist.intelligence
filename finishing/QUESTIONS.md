@@ -15,13 +15,8 @@ Nothing here blocks work. Each item has a default and the moment it applies.
 
 *Default applies when the revise pass reaches chapter 2.*
 
-### Q-012 — Does P2 survive as a separate pass?
-The triage resolved most duplication into folds and cluster homes. What remains is the RoboCup example duplicated across §10.3.2 and §10.3.3, §8.4.1's two self-restating halves (now inside §7.5), and the compression targets — all edits to one specific section, which is what P3 does.
-
-- **(a) Default — drop P2**, fold its items into P3 as ledger notes on the sections that own them.
-- (b) Keep P2 as a distinct pass over the whole book before any revising starts.
-
-*Default applies when P3 begins.*
+### Q-012 — Does P2 survive as a separate pass? **Resolved, D-021.**
+Dropped. See `DECISIONS.md`.
 
 ### Q-013 — The roadmap the introduction promises
 The introduction promises a roadmap for developing altruistic and anti-authoritarian superintelligence. §10.2 is scaffolding, and §10.2.1 concedes its milestones are "not a rigid roadmap". Under D-007 (revise, not rewrite) building one is out of scope.

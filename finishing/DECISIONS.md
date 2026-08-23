@@ -31,4 +31,6 @@ change) · `default-applied` (unanswered by its deadline; reversible) ·
 | D-016 | 2026-08-22 | T7, the case against empathy (Q-010) | **Taken unframed.** The empathic-concern/personal-distress dissociation and the spotlight bias go in at full strength; chapter 2's thesis absorbs the hit rather than being cushioned by the compassion half. 700 words into §2.2.3. Carries a coherence obligation — see `transplants.md` §T7. | confirmed (Q-010 b) |
 | D-015 | 2026-08-22 | Chapter 9 triage | 9.1 and 9.2 get openers (fill, not cut); 9.2.3 merges and is not the home of the emotional-intelligence argument; the other nine sections revise. | confirmed |
 
+| D-021 | 2026-08-23 | P2 folded into P3 (Q-012) | **P2 dropped as a separate pass.** What remained of it — the RoboCup duplicate across §10.3.2/.3, §8.4.1's self-restating halves, the compression targets — is section-level work and is picked up inside P3 when the revise pass reaches those sections. `PLAN.md`'s pass table is amended to match. | confirmed (Q-012 a) |
+
 Open items live in `QUESTIONS.md` and move here when answered.
