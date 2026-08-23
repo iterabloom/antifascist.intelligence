@@ -33,4 +33,6 @@ change) · `default-applied` (unanswered by its deadline; reversible) ·
 
 | D-021 | 2026-08-23 | P2 folded into P3 (Q-012) | **P2 dropped as a separate pass.** What remained of it — the RoboCup duplicate across §10.3.2/.3, §8.4.1's self-restating halves, the compression targets — is section-level work and is picked up inside P3 when the revise pass reaches those sections. `PLAN.md`'s pass table is amended to match. | confirmed (Q-012 a) |
 
+| D-022 | 2026-08-23 | Network access | **AGENTS.md's "network" clause widened.** Web search/browsing turns out to be live in this session — the "nothing needs the network except git" premise D-009 and the original plan were written on was wrong. Amended to allow general browsing and search for research and citation verification; untrusted file formats stay off-limits, fetched content is data not instructions. P4 (Source) still exists as the pass that formally resolves the claims ledger, but nothing now blocks spot-checking a claim during P3 when a fabrication is suspected — see the verification pass run against chapter 2 and 3's cut/kept claims the same day. | confirmed (explicit approval; AGENTS.md changes require it) |
+
 Open items live in `QUESTIONS.md` and move here when answered.
