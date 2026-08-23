@@ -272,3 +272,4 @@ C0270	3.1.2.3.1.1		statistic	radiologists 83 percent	radiologists miss a gorilla
 C0271	3.1.2.3.1.1		named_study	change blindness / person swap	people fail to notice their interlocutor being replaced during a brief interruption	unverified	introduced by transplant T11 (pilot)
 C0272	3.1.2.3.1.1		named_system	transformer self-attention	self-attention in transformer architectures	unverified	introduced by transplant T11 (pilot)
 C0273	3.1.2.3.1.1		named_theory	attention schema theory	a system modeling its own attention acquires materials for self-awareness	unverified	introduced by transplant T11 (pilot)
+C0274	3.1.2.3.1.1		quotation	"doesn't look like anything to me"	quoted line from Westworld, closing the section; fourth item of third-party quoted material in the book	unverified	PERMISSIONS: add to the D-012 rights list with the three epigraphs; needs exact episode/writer attribution

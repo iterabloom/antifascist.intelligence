@@ -53,7 +53,7 @@ num	title	level	chapter	words	paras	list_marked	list_unmarked	closers	we	this_re
 3.1.2.2	Hierarchical Processing and the Visual Cortex	4	3	544	12	0	0	0	0	0	0	0		0	0	0	0
 3.1.2.3	Cognitive and Emotional Processes	4	3	345	6	0	0	0	2	0	0	0		0	0	0	0
 3.1.2.3.1	Cognitive and Emotional Processes	5	3	202	3	0	0	0	3	0	1	0		0	0	0	0
-3.1.2.3.1.1	Attention	6	3	781	10	0	0	0	1	0	0	1	1999	0	0	0	0
+3.1.2.3.1.1	Attention	6	3	734	10	0	0	0	1	0	0	1	1999	0	0	0	0
 3.1.2.3.1.2	Perception	6	3	515	8	0	0	1	4	0	0	0		0	0	0	0
 3.1.2.3.1.3	Memory	6	3	503	6	0	0	0	0	0	0	0		0	0	0	0
 3.1.2.3.1.4	Reasoning and Problem Solving	6	3	642	13	0	5	0	2	0	0	0		0	0	0	0
@@ -142,7 +142,7 @@ num	title	level	chapter	words	paras	list_marked	list_unmarked	closers	we	this_re
 4.6.3.1.1	Safeguards Against AI Systems Enabling Authoritarian Regimes	5	4	616	12	0	5	0	1	0	0	0		0	0	0	0
 4.6.3.1.2	Strategies for Developing AI Systems Committed to Democratic Principles	5	4	517	12	0	9	0	0	0	0	0		0	0	0	0
 4.7	Play, Exploration, and Moral Development in AI	2	4	0	0	0	0	0	0	0	0	0		0	0	0	0
-4.7.1	The Role of Play in Moral Learning and Socialization	3	4	402	6	0	0	1	4	0	0	0		0	0	0	0
+4.7.1	The Role of Play in Moral Learning and Socialization	3	4	402	6	0	0	1	4	0	0	1		0	0	0	0
 4.7.1.1	Theoretical Basis and Significance	4	4	482	12	0	5	0	0	0	0	0		0	0	0	0
 4.7.1.2	Facilitating Ethical Exploration and Experimentation in AI Systems	4	4	571	10	0	4	0	1	0	0	0		0	0	0	0
 4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	4	501	10	0	0	0	2	0	0	0		0	0	0	0

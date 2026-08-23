@@ -63,7 +63,33 @@ and the placeholders are allocated at transplant time, not deferred to P4.* The
 pilot appended five rows to `claims.tsv` as it went; doing this retroactively
 across sixteen transplants would mean re-reading all of them.
 
-## Not measured
+## Outcome: accepted with edits, one round
 
-Author reading time and rounds-to-accept, which are the two numbers the effort
-estimate actually needs. Those come from the author's review of this section.
+The author accepted the draft and returned six edits. Every one was the same
+move — **cutting the sentence that announces what the next sentence will do** —
+and that rule is now in `style.md` §2 with the six before/after pairs as its
+worked examples. It is the most valuable thing the pilot produced.
+
+Word count: 589 original → 781 agent draft → **734 accepted**. The author's
+edits removed 47 words of the agent's scaffolding, so the real growth for a
+replace-mode transplant is **+25%**, not +33%.
+
+The author also closed the section with a quoted line from *Westworld*, threading
+back to the epigraph already in §2.4. Logged as C0274 and added to the D-012
+permissions list — it is the fourth piece of third-party quoted material in the
+book, and short quotations still belong on that list rather than being waved
+through.
+
+## A measurement bug the edits exposed
+
+The author's rephrasing — "Section 2.3.3 expounds on this point" rather than
+"in section 2.3.3" — was scored as **zero** cross-references by
+`section_stats.py`, whose pattern required a preposition. Fixed. The book-wide
+count goes from 2 to 4, which does not change the conclusion (four
+cross-references in 115k words) but does mean the metric was wrong in the
+direction that flatters the tooling.
+
+## Still not measured
+
+Wall-clock author minutes per section, which is the one number the effort
+estimate is parametric in. See `finishing/estimate.md`.

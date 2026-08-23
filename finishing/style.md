@@ -37,6 +37,26 @@ Delete on sight:
 - **Opening signposts.** "In this section, we will explore…" Start with the content.
 - **The concluding-restatement move** generally: "Ultimately", "In essence" as paragraph openers (7 and 6 respectively).
 
+**Cut the sentence that announces what the next sentence will do.** This is the
+rule the pilot produced, and every one of the author's six edits was an instance
+of it:
+
+| Drafted | Accepted |
+|---|---|
+| "The conclusion is uncomfortable and important. What we experience is not…" | "What we experience is not…" |
+| "Nor is this a defect. The visual system did not evolve…" | "The visual system did not evolve…" |
+| "That reframing matters for machine perception, because it changes what an attention mechanism is for." | "The implication for machine perception?" |
+| "…are the most consequential instance, and they make the point about blind spots concrete." | "…illustrate the point about blind spots." |
+| "That claim is taken up in the discussion of machine self-models in section 2.3.3, where…" | "Section 2.3.3 expounds on this point in discussing machine self-models, where…" |
+| "the design question is not how to allocate attention efficiently. It is whether a system can be built to notice…" | "the design question is how it will notice…" |
+
+Three corollaries:
+
+- **Prefer the positive construction to "not X. It is Y."** The contrastive frame is announcing in another costume: it spends a clause on the wrong answer.
+- **Prefer an active subject to a nominalized one.** "Section 2.3.3 expounds" over "That claim is taken up in the discussion of".
+- **A rhetorical question is permitted** where it replaces a paragraph of throat-clearing. "The implication for machine perception?" does the work of two sentences.
+- **Drop the superlative you cannot defend.** "the most consequential instance" became "illustrate".
+
 Keep and strengthen: the concrete example. Where a section already has one
 ("Consider an AI system created for customer service…"), it is the best thing in
 the section and usually deserves to come first rather than fourth.
