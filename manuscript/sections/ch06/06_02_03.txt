@@ -14,5 +14,3 @@ To foster a comprehensive understanding of AI systems and their ethical implicat
 (6) Launch AI Ambassadors Programs: Develop AI Ambassadors Programs composed of AI specialists and enthusiasts who raise public consciousness and understanding of AI technology, ethics, and uses. Appointed ambassadors can visit educational institutions, community centers, and local events to facilitate interaction, provide informative resources, and answer AI-related questions.
 
 Through these strategies, we seek to cultivate a well-informed society equipped to address the moral, social, and technological challenges and opportunities arising from AI systems.
-
-

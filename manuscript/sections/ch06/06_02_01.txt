@@ -33,4 +33,3 @@ Public deliberation events, such as citizen assemblies and town hall meetings, p
 Example: The UK Government's Centre for Data Ethics and Innovation (CDEI) organized a series of public dialogues on AI and data ethics in 2020, helping shape the CDEI's recommendations on AI policy and regulation.
 
 By utilizing these strategies to engage diverse stakeholders in AI development, we can ensure that AI systems are designed and implemented in ways that are attentive to social, ethical, cultural, and political considerations, promoting altruism and reinforcing anti-authoritarian norms.
-

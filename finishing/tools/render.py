@@ -37,6 +37,7 @@ table.box { border: 0.5pt solid #999; border-collapse: collapse; margin: 1.2em 0
 table.box td { padding: 0.8em 1em; background: #f7f7f5; }
 table.box p { text-align: left; font-size: 10pt; margin: 0 0 0.5em; }
 table.box p.boxtitle { font-weight: bold; margin-bottom: 0.5em; }
+p.runin { font-weight: bold; margin: 1.1em 0 0.35em; page-break-after: avoid; }
 """
 
 
@@ -73,6 +74,9 @@ def render_section(num, title, lines, first):
         if s == "<</quote>>":
             quote = False
             out.append("</blockquote>")
+            continue
+        if s.startswith("<<h>>") and s.endswith("<</h>>"):
+            out.append('<p class="runin"><b>%s</b></p>' % esc(s[5:-6].strip()))
             continue
         if s == "<<box>>":
             box = True

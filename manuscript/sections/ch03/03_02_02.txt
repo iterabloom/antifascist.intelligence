@@ -14,5 +14,3 @@ However, both IRL and CIRL's effectiveness heavily rely on the quality, diversit
 A practical and instructive example of these learning methods comes from a study by Hadfield-Menell and colleagues. They trained a robotic arm using CIRL to assist in a cooperative task—furniture assembly, much akin to a human apprentice learning from an experienced craftsman. With CIRL, the robot not only learned the task but also how to respond to the human’s intentions and preferences, dynamically updating its operations in real-time, truly embodying a cooperative learning approach.
 
 In sum, both IRL and CIRL serve as essential toolkits to create altruistic AI systems capable of understanding and cooperating with humans across an array of tasks and scenarios. Emphasizing empathy, adaptability, and ethical values, these methods lay a formidable groundwork for AI systems capable of aligning with, adapting to, and potentially enhancing human moral norms.
-
-

@@ -1,3 +1,2 @@
 10.2. Roadmap for Altruistic and Anti-Authoritarian Superintelligence
 This work lays a solid foundation for crafting a roadmap towards altruistic and anti-authoritarian AI, but how to implement them will remain a constant journey.
-

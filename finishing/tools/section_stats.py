@@ -58,6 +58,9 @@ def stats_for(path):
         if s == "<</list>>":
             lst -= 1
             continue
+        if s.startswith("<<h>>") and s.endswith("<</h>>"):
+            body.append(s[5:-6].strip() + "\n")
+            continue
         if s in ("<<box>>", "<</box>>"):
             continue  # a box is the author's own prose; its content counts
         if s.startswith("#"):

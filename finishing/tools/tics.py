@@ -71,6 +71,9 @@ def bodies():
             if s == "<</quote>>":
                 quote -= 1
                 continue
+            if s.startswith("<<h>>") and s.endswith("<</h>>"):
+                keep.append(s[5:-6].strip() + "\n")
+                continue
             if quote > 0 or s.startswith(("#", "<<", "<</")):
                 continue  # box tags are skipped here but their text is kept
             keep.append(line)

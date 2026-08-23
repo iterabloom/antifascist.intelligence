@@ -20,7 +20,3 @@ Example: The AI Ethics Guidelines developed by the European Commission's High-Le
 (5) Monitoring and Evaluation: The International AI Ethics Committee should establish a robust monitoring and evaluation mechanism to track the implementation of international standards and guidelines. Regular reporting and assessment of AI systems will ensure they adhere to altruistic AI principles.
 
 Example: The committee could establish an AI Ethics Index, similar to the World Press Freedom Index or Corruption Perceptions Index, ranking countries and organizations based on their adherence to altruistic AI standards and guidelines.
-
-
-
-

@@ -75,7 +75,7 @@ you do not rewrite a section about a 2021 model and then update it.
 | Pass | Unit | Does | Entry | Exit | Decider |
 |---|---|---|---|---|---|
 | P0 Setup | whole | Normalization (whitespace, quote style, list markup convention); ledger rows for the v4 structure | Plan accepted | `check_all.sh` green against the new reference | agent |
-| P1 Structure | heading | Apply the v4 outline (`finishing/toc_v4.tsv`): fold, cut, move, retitle at heading granularity only. No sentence rewriting. Restore §1.3's subheadings, deleted in 2024 without reflowing the text. **Give every folded section over ~1,500 words unnumbered run-in heads** (style.md §4a) — the cap is on the table of contents, not on internal structure | P0 | every v3b section has exactly one recorded fate and location; no section over 1,500 words lacks run-in heads | author decides, agent applies |
+| P1 Structure ✅ done | heading | Apply the v4 outline (`finishing/toc_v4.tsv`): fold, cut, move, retitle at heading granularity only. No sentence rewriting. Restore §1.3's subheadings, deleted in 2024 without reflowing the text. **Give every folded section over ~1,500 words unnumbered run-in heads** (style.md §4a) — the cap is on the table of contents, not on internal structure | P0 | every v3b section has exactly one recorded fate and location; no section over 1,500 words lacks run-in heads | author decides, agent applies |
 | P2 Cut | section / paragraph | Cut sections; apply the single-home merges from the redundancy map (§2.4 vs §7.4 above all); country listings; drafting artifacts; epigraphs; "In conclusion" closers | P1 | word count within the ceiling; no redundancy pair above threshold remains; compliance flags cleared | author |
 | P3 Revise | v4 section | Agent edits the existing text to the style sheet: voice to first person, "report" to "book", closers and signposts out, `[[cite:ID]]` placeholders in, unverifiable claims cut, dated claims generalized or boxed. The argument stays. Author Accepts or returns (max 2 rounds) | P2; style sheet approved; pilot accepted | every section Accepted; tic lint clean; cross-references present | author accepts |
 | P4 Source | claim | Placeholders resolved: verified reference, replacement, or cut. Runs in a networked session; agent formats only from supplied references | chapter Accepted at P3 | zero placeholders in the chapter | author |
@@ -86,6 +86,22 @@ you do not rewrite a section about a 2021 model and then update it.
 Chapter 3 first because it is the heaviest, so the unit cost it teaches is
 conservative; Chapter 1 last because its opener describes the book that by then
 exists.
+
+## P1 as executed (2026-08-23)
+
+156 sections from 282. 102 folded into their survivor, 9 cut, 16 gathered into a
+new §7.5, 92 unnumbered run-in heads added across the 15 sections long enough to
+need them. Word accounting balanced exactly: nothing gained, nothing lost but
+the ruled cuts.
+
+**Deliberately not done here, because P1 is structure and these are writing:**
+
+- the 8 `fill` openers (chapters 5, 6, 7, 10 and §§4.6, 4.7, 9.1, 9.2 still have no opening text)
+- §1.3's subheading restoration and its 1,400-word target
+- every compression target in the triage (§6.4.1 → 350, §7.4.3.1 → 150, §10.3.2.1 → 150, and the rest)
+- trimming §7.5 from 6,001 words to the intended ~5,000
+
+All of those are P3, and the ledger rows carry them.
 
 ## 4. Tracking
 

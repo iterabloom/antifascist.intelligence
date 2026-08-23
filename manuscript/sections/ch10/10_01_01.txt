@@ -16,4 +16,3 @@ Ongoing research and dialogue serve several key purposes in the pursuit of ethic
 One example of how ongoing research and dialogue can impact ethical and anti-authoritarian AI development is the study of AI's role in social media and online misinformation campaigns. By understanding how AI algorithms influence the spreading of propaganda and disinformation, experts from various disciplines can devise strategies to counteract these harmful effects and promote the values of transparency, democracy, and informed public discourse.
 
 Continuous research and dialogue are essential for fostering the growth of ethical and anti-authoritarian AI. It is through the collaboration of various disciplines and stakeholders that we can work toward understanding the potential consequences, challenges, and opportunities presented by AI systems and ensure that their development aligns with our highest ethical principles and aspirations.
-

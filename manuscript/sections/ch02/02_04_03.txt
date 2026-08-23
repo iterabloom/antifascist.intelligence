@@ -11,5 +11,3 @@ To maintain an appropriate balance, we propose certain guiding principles that s
 <</list>>
 
 Thus, following these directives and championing an open, cooperative approach to AI development will ensure striking the right balance between scientific advancement and ethical considerations. This can help protect the rights and welfare of sentient AI systems, while still propelling the field of AI forward.
-
-

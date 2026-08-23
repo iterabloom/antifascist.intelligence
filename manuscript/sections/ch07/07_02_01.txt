@@ -14,6 +14,3 @@ To advance the development of altruistic and anti-authoritarian artificial intel
 (6) Legal and Regulatory Frameworks: National policies should establish clear legal and regulatory frameworks for AI development and employment, addressing issues such as data privacy, cybersecurity, accountability, and sentient AI rights. This can involve updating existing laws and regulations, as well as collaborating with international partners to harmonize legal frameworks and ethical guidelines. For example, the European Commission's proposed AI Regulation presents a comprehensive framework for AI governance that can be used as a reference for other countries.
 
 (7) Encouraging Industry Best Practices and Self-regulation: National policies should encourage the AI industry to adopt best practices and self-regulate, while being mindful of potential corporate doublespeak and power imbalances. Governments could support the development of voluntary industry standards, codes of conduct, and certification programs, while closely monitoring compliance and maintaining oversight. The international AI initiative AI Global provides a valuable model for promoting industry best practices, responsible AI use, and self-regulation.
-
-
-

@@ -14,5 +14,3 @@ Anthropologist Felix Warneken's studies show that young human children learn mor
 Such 'taught' ethics and underlying principles would enable AI to apply its learning in diverse, unexpected and novel situations that eschew hardcoded rules, yet demand a nuanced, principled approach. By using concepts derived from developmental and cognitive psychology, we can shape AI's moral development, contributing to machines that are not only technically proficient but also ethically aware, demonstrating a robust commitment to social good and an active resistance to authoritarian exploitation.
 
 In summary, instilling moral development processes within AI – taking inspiration from human development, the importance of social interaction, mentorship, a dynamic mindset and the progression from rules to principles – will significantly enhance our capacity to build ethical, empathetic, and anti-authoritarian AI. Further research in this direction is required to discover effective methodologies and continuously refine them.
-
-

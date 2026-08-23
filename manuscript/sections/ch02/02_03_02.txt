@@ -26,4 +26,3 @@ Despite its promising functionalities, affective computing presents several ethi
 3. Bias: AI inherits biases present in the training data, imposing a risk of discrimination in affective computing. Vigilance in creating diverse and representative datasets is of utmost importance to avoid perpetuating harmful stereotypes.
 4. Emotional Manipulation: Given their understanding of human emotions, AI systems have the potential for emotional manipulation, a severe ethical concern. Thorough regulation and ethical guidelines must govern the deployment of such systems.
 <</list>>
-

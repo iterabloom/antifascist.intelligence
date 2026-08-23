@@ -14,6 +14,3 @@ More concretely, in a linear regression model, L2 regularization (also known as 
 (4) Model complexity control: Controlling the complexity of the model, such as the number of layers in a neural network or the depth of a decision tree, can help prevent overfitting and underfitting. Simpler models may be less prone to overfitting but may also suffer from underfitting. The challenge is to find the right balance between model complexity and performance. For example, in a convolutional neural network (CNN) for object recognition, the number of layers and filters can be adjusted to control model complexity. A shallow network with few filters may underfit, while a deep network with many filters may overfit. By tuning these parameters, a balance can be found to optimize the model's performance on unseen data.
 
 By using these strategies, AI developers can overcome the challenges of overfitting and underfitting, ensuring their models are robust, generalizable, and capable of adapting to new data. This, in turn, contributes to the development of ethical, empathetic, and responsible AI systems that respect and uphold human values. By incorporating ethical considerations into AI development, we can create technology that serves humanity better, reduces potential harm, and prioritizes fairness, transparency, and inclusivity.
-
-
-

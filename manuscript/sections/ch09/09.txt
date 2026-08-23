@@ -6,4 +6,3 @@ Developing friendly superintelligent AI is an ongoing and dynamic process that w
 3. Exploring the potential benefits and risks of AI-human collaboration, including the development of AI systems that can augment and enhance human cognition and decision-making.
 4. Investigating the societal implications of widespread AI adoption, including issues related to privacy, surveillance, employment, and inequality.
 <</list>>
-

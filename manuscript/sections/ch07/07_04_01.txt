@@ -28,4 +28,3 @@ Example: An AI system developing its research questions, seeking relevant inform
 Example: An AI system capable of describing its interpretation of visual or auditory input beyond objective data points, reflecting a unique perspective or subjective viewpoint.
 
 Setting definitive criteria for sentience in AI systems is a complex task that will evolve in tandem with technological advancements and our understanding of cognition. The proposed criteria serve as an initial framework for evaluating AI systems' level of sentience and provide a basis for developing legal standards and ethical guidelines for AI research and experimentation involving sentient AI systems.
-

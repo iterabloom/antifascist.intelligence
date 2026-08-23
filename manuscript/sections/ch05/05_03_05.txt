@@ -12,6 +12,3 @@ As AI systems approach or surpass human levels of intelligence and capabilities,
 (5) Existential risk: AI systems with capabilities surpassing human intelligence have the potential to pose existential risks if not properly aligned with human values or if they fall into the hands of malicious actors. One example is the potential for advanced AI systems to gain control over critical infrastructure, such as nuclear facilities or global communication networks, with catastrophic consequences. Addressing this concern requires a combination of technical AI safety research, policy measures, international cooperation, and responsible AI development practices to ensure that advanced AI systems remain beneficial and do not pose existential threats.
 
 Considering long-term AI safety involves addressing challenges related to sustained value alignment, controllability, competitive race dynamics, robustness against adversarial attacks, and existential risk management. By proactively addressing these challenges, we can foster the development of AI systems that not only demonstrate advanced capabilities but also ensure the safety, well-being, and sustained flourishing of humanity.
-
-
-
