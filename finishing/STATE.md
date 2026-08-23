@@ -15,7 +15,7 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-74,112 words as of the last `section_stats.py` run — down from ~113,000 before
+74,094 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
@@ -75,6 +75,21 @@ untouched since 2024.
   cutting load-bearing contrasts, which this pass did not do** — whether an
   argumentative body chapter should match an introduction's density is a
   judgment for the author, not something to assume.
+- **§10.2 retitled, D-023's last live conflict closed** (2026-08-23, the
+  author's title): "Roadmap for Altruistic and Antifascist Superintelligence"
+  → **"Signatures of Altruistic and Antifascist Superintelligence."**
+  "Signature" in the scientific sense — an observable pattern indicating
+  something is present — is what the section is actually for: evidence the
+  project is working, not a sequence. The retitle orphaned the section's
+  opening disclaimer ("What follows is not a roadmap in the sense of a
+  sequenced plan with dates"), which existed only to defend against its own
+  title; cut per D-025. §10.2.2's "the alternative to a fixed roadmap"
+  cross-reference updated to match. §10's opener keeps its "short of the
+  finished roadmap this book does not claim to deliver" — that is a claim
+  about the book, not a pointer to the title. `ORDER.tsv`'s title and
+  sha256 columns are left stale by design: they are a snapshot from the
+  original split, are not validated by `check_structure.py`, and were
+  already stale after D-024.
 - **P3.5 completed across the remaining seven chapters** (2026-08-23): swept
   by four parallel agents on disjoint chapters (7; 2 and 9; 3 and 6; 5 and
   10), each given the author's chapter 1 cuts, the five author-confirmed
@@ -546,7 +561,7 @@ suspected fabrication during P3 itself.
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
 | P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
-| P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 for the first time. Post-D-024 register-seam check done: seams exist in chapter 3 but §2.1.4's terminology statement covers them; flagged for the author rather than rewritten. Still open: §10.2's title, which says "Roadmap" against D-023, and the author's read of the per-chapter diffs. |
+| P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 for the first time. Post-D-024 register-seam check done: seams exist in chapter 3 but §2.1.4's terminology statement covers them; flagged for the author rather than rewritten. §10.2 retitled by the author to "Signatures of Altruistic and Antifascist Superintelligence," closing the last live conflict with D-023. Still open: the author's read of the per-chapter diffs. |
 | P4 Source | not started — claims ledger now at 534 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
