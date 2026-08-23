@@ -1,16 +1,22 @@
 #!/usr/bin/env python3
-"""Guard the AGENTS.md named-persons rule.
+"""Guard the named-persons rule.
 
-The repo names many real people because language models were prompted to write
-*as if* they were those people. Nothing we produce may characterize, rate, rank,
-score, or attribute views or conduct to a real named person.
+The hazard this exists for is the **persona device**: this repository is full of
+text a language model produced while pretending to be a named real person, and
+none of that may reach the book, a planning file, or a commit message as though
+the person had said or done it.
 
-Policy enforced here:
-  * finishing/** and commit-message drafts: ANY persona full-name hit is a hard
-    failure. Planning artifacts cite reviews by file + index/line, never by name.
-  * manuscript/**: a full-name hit near an attribution verb is a hard failure
-    (that is the forbidden "X reviewed/rated/argued for us" shape). Other hits
-    are listed as warnings for a human to adjudicate as ordinary citation.
+What the rule is NOT (author's ruling, 2026-08-23, recorded as D-017): a bar on
+ordinary scholarly citation. Naming the researchers who published a finding,
+quoting a published claim and citing it, or describing a documented event in a
+laboratory is normal nonfiction and is allowed everywhere, including in the book.
+
+So the test is not "does a name appear" but "is a name being credited with
+something no source supports". Approximated here as: a persona name within
+range of an attribution verb of the persona-device kind — reviewed, rated,
+ranked, scored, feedback from, in their review, as a co-author, writing as, in
+the voice of, simulated. Those are hard failures anywhere. Other name hits are
+reported for a human to confirm are citations.
 
 The persona name list is built in memory from the spreadsheets and is NEVER
 written to disk.
@@ -28,11 +34,14 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
 import odsread  # noqa: E402
 
+# Verbs of the persona device: someone being credited with participating in
+# THIS project, or with an opinion a model produced on their behalf.
 ATTRIB = re.compile(
     r"\b(we thank|thanks to|acknowledg\w*|rated|ranked|scored|graded|reviewed by|"
     r"critiqu\w+ by|feedback from|as (?:a )?(?:co-)?author|co-author\w*|"
     r"our (?:reviewer|panel|team|triad)|persona|volunteered|assigned to|"
-    r"in their review|suggested that we|told us|advised us)\b", re.I)
+    r"in their review|suggested that we|told us|advised us|"
+    r"writing as|in the voice of|simulated|as though you were|you are)\b", re.I)
 
 PERSONA_SOURCES = [
     ("personas/section-assignments/superintelligence-ethics-outline_v3b_2024-07-07.ods", 1),
@@ -121,12 +130,13 @@ def scan(paths, rx, hard_zone):
 def main():
     argv = sys.argv[1:]
     msg_mode = "--msg" in argv
+    # D-017: the same test applies everywhere. A name near a persona-device verb
+    # fails; a name on its own is a citation to confirm, not a violation.
+    hard_zone = lambda p: False  # noqa: E731
     if msg_mode:
         paths = [argv[argv.index("--msg") + 1]]
-        hard_zone = lambda p: True  # noqa: E731
     elif "--paths" in argv:
         paths = argv[argv.index("--paths") + 1:]
-        hard_zone = lambda p: "/finishing/" in p.replace(os.sep, "/")  # noqa: E731
     else:
         # manuscript/sections is the source of truth; the joined build and the
         # frozen v3b are derived/historical copies of the same text, so scanning
@@ -137,7 +147,6 @@ def main():
                 dn[:] = [d for d in dn if d not in ("reports", "previous", "__pycache__")]
                 paths += [os.path.join(dp, f) for f in fn
                           if f.endswith((".txt", ".md", ".tsv", ".py", ".sh"))]
-        hard_zone = lambda p: "/finishing/" in p.replace(os.sep, "/")  # noqa: E731
 
     names = persona_names()
     rx = build_regex(names)
@@ -147,13 +156,13 @@ def main():
 
     print("names_guard: %d persona names loaded, %d files scanned" % (len(names), len(paths)))
     if warn:
-        print("\nWARN (manuscript, adjudicate citation vs attribution): %d" % len(warn))
+        print("\nNAMES TO CONFIRM AS CITATIONS (not violations): %d" % len(warn))
         for r in warn[:40]:
             print("  %s:%d  %s | %s" % r)
         if len(warn) > 40:
             print("  ... %d more" % (len(warn) - 40))
     if hard:
-        print("\nFAIL: %d disallowed name reference(s)" % len(hard))
+        print("\nFAIL: %d name(s) credited with participating in this project" % len(hard))
         for r in hard[:40]:
             print("  %s:%d  %s | %s" % r)
         sys.exit(1)
