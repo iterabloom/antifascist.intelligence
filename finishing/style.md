@@ -101,6 +101,16 @@ A run of five paragraph-length items each beginning "(3)" is prose wearing a
 list's clothes — either make it a real list of short items or write it as
 paragraphs.
 
+## 4a. Boxes
+
+`<<box>>` … `<</box>>`, first line taken as the title. For a case study or a
+self-contained episode that would derail the paragraph it sits next to — the
+mirror-neuron overshoot in §2.2.1 is the model. A box is the author's own prose
+and counts toward the word count, unlike an epigraph.
+
+Use sparingly. A box is a promise that the material is worth stepping out of the
+argument for.
+
 ## 5. Dates and currency (D-008 dating policy)
 
 Prose is dateless. The book does not say "currently", "recently", "state of the

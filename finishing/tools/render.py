@@ -30,6 +30,13 @@ blockquote p { text-align: left; }
 ol, ul { margin: 0 0 0.8em 1.4em; }
 li { margin-bottom: 0.3em; }
 .num { color: #555; }
+/* Boxes are emitted as a single-cell table, not a div: LibreOffice's HTML
+   importer applies a div's border to every child paragraph, which renders as a
+   stack of separate boxes rather than one. A table cell borders once. */
+table.box { border: 0.5pt solid #999; border-collapse: collapse; margin: 1.2em 0; width: 100%; }
+table.box td { padding: 0.8em 1em; background: #f7f7f5; }
+table.box p { text-align: left; font-size: 10pt; margin: 0 0 0.5em; }
+table.box p.boxtitle { font-weight: bold; margin-bottom: 0.5em; }
 """
 
 
@@ -44,7 +51,8 @@ def render_section(num, title, lines, first):
     label = ("Chapter %s: " % num) if lvl == 1 else ("%s. " % num)
     out = ["<%s%s><span class=\"num\">%s</span>%s</%s>"
            % (tag, cls, esc(label), esc(title), tag)]
-    quote = lst = False
+    quote = lst = box = False
+    box_first = False
     buf = []
 
     def flush_list():
@@ -66,6 +74,19 @@ def render_section(num, title, lines, first):
             quote = False
             out.append("</blockquote>")
             continue
+        if s == "<<box>>":
+            box = True
+            box_first = True
+            # Presentational attributes, not CSS: LibreOffice's HTML importer
+            # honors border/cellpadding/bgcolor and drops most stylesheet rules.
+            out.append('<table class="box" border="1" cellpadding="10" '
+                       'cellspacing="0" width="100%"><tr>'
+                       '<td bgcolor="#F2F2EE">')
+            continue
+        if s == "<</box>>":
+            box = False
+            out.append("</td></tr></table>")
+            continue
         if s == "<<list>>":
             lst = True
             continue
@@ -83,6 +104,11 @@ def render_section(num, title, lines, first):
         m = LIST_ITEM.match(s)
         if lst:
             buf.append(m.group(2) if m else s)
+            continue
+        if box and box_first:
+            # first line inside a box is its title
+            out.append('<p class="boxtitle"><b>%s</b></p>' % esc(s))
+            box_first = False
             continue
         out.append("<p>%s</p>" % esc(s))
     flush_list()

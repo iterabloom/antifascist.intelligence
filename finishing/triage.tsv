@@ -3,16 +3,16 @@ num	title	level	words	proposed	fate	target	why	evidence
 1.1	The Imperative of Altruistic and Anti-Authoritarian Sentient Machines	2	167	revise			voice, tics, closers, citations, dating	
 1.2	Aims and Objectives	2	191	revise			voice, tics, closers, citations, dating	
 1.3	Mindset and Motivation in AI Behavior	2	2513	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
-2	Foundations of Empathy and Compassion in Friendly AI	1	74	revise			chapter opener; NOTE it describes anti-authoritarian ethics, not this chapter -- rewrite to match	
+2	Foundations of Empathy and Compassion in Friendly AI	1	74	revise			chapter opener	
 2.1	Ethical Frameworks and AI Alignment	2	415	revise			voice, tics, closers, citations, dating	xchapter-pairs:5
 2.1.1	Surveying Ethical Theories for AI Alignment	3	592	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
 2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	revise			voice, tics, closers, citations, dating	
 2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	revise			voice, tics, closers, citations, dating	xchapter-pairs:3
 2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	revise			voice, tics, closers, citations, dating	xchapter-pairs:3;unmarked-list-items:7
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	revise			voice, tics, closers, citations, dating; D-016 obligation: concede the empathy dissociation in one sentence	claims:2;dated:2
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	revise			voice, tics, closers, citations, dating	claims:2;dated:2
 2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	revise			voice, tics, closers, citations, dating	
 2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	revise			voice, tics, closers, citations, dating	
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	revise			voice, tics, closers, citations, dating; T7 lands here unframed (D-016); relabel the two halves of the challenges list	xchapter-pairs:2
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	revise			voice, tics, closers, citations, dating	xchapter-pairs:2
 2.3	Emotional Intelligence and Self-awareness	2	365	revise			voice, tics, closers, citations, dating	
 2.3.1	Components of Emotional Intelligence	3	411	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:10;claims:1
 2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	merge?			one of 6 sections making the emotional-intelligence argument (D-013)	cluster:emotional-intelligence;xchapter-pairs:1
@@ -53,7 +53,7 @@ num	title	level	words	proposed	fate	target	why	evidence
 3.1.2.2	Hierarchical Processing and the Visual Cortex	4	544	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
 3.1.2.3	Cognitive and Emotional Processes	4	345	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	xchapter-pairs:4
 3.1.2.3.1	Cognitive and Emotional Processes	5	202	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
-3.1.2.3.1.1	Attention	6	587	fold	done	734	D-010 caps the outline at 3 levels; text joins 3.1.2	claims:2
+3.1.2.3.1.1	Attention	6	734	fold	done	734	D-010 caps the outline at 3 levels; text joins 3.1.2	claims:2
 3.1.2.3.1.2	Perception	6	515	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
 3.1.2.3.1.3	Memory	6	503	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	
 3.1.2.3.1.4	Reasoning and Problem Solving	6	642	fold			D-010 caps the outline at 3 levels; text joins 3.1.2	unmarked-list-items:5
