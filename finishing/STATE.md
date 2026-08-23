@@ -1,7 +1,8 @@
 # State of play
 
-Read this first. Written 2026-08-23, updated same day after chapter 7 of P3
-(chapter order skips to 6 next, per `PLAN.md`).
+Read this first. Written 2026-08-23, updated same day: chapter 7 landed, then
+the author accepted chapters 2-5 and 7 in one batch (chapter order moves to 6
+next, per `PLAN.md`).
 
 ## Where the book is
 
@@ -20,10 +21,21 @@ alone was the book's third-largest cross-chapter redundancy hub).
 
 ## What has actually been done to the prose
 
-**Chapters 2 through 5 and chapter 7 — 113 sections, all drafted, none
-author-accepted except the original pilot.** Chapters 1, 6, 8 (folded into
-7.5), 9, 10 (43 sections) are untouched since 2024: folded, cut, and moved by
-P1, but not a sentence of their prose has changed.
+**Chapters 2 through 5 and chapter 7 — 112 sections author-accepted 2026-08-23,
+one exception.** The author accepted the full drafted batch in one pass. The
+exception is the chapter 3 opener (§3): it was never drafted — still 2023
+prose — so it isn't part of the acceptance and chapter 3 is not fully done.
+(The chapter 2 opener, §2, *was* drafted in `e4d369f` but its ledger row had
+been left at `structured`; corrected to `accepted` alongside this batch.)
+Two accepted rows carry a caveat worth naming rather than passing over
+silently: §2.2.1's note flagged its post-T3 text as pending re-review before
+this acceptance, and §7.2.2 contains claims (Clearview's accuracy marketing,
+the Carnegie AIGS Index, GPAI's founding) that STATE.md's chapter-7 account
+below says were corrected on high-confidence background knowledge rather than
+live-verified — both are now accepted along with everything else, but neither
+has had that specific gap closed. Chapters 1, 6, 8 (folded into 7.5), 9, 10
+(43 sections, plus the §3 opener — 44 total) are untouched since 2024: folded,
+cut, and moved by P1, but not a sentence of their prose has changed.
 
 - **Chapter 7** (23 sections, 13,900 words): every section revised, including
   the empty opener. The §7.4 tree (sentience/accountability/legal
@@ -195,7 +207,7 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 3, 4, 5, and 7 done (113 sections), chapters 1, 6, 9, 10 not started (43 sections)** |
+| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 1, 6, 9, 10 not started (43 sections + §3)** |
 | P4 Source | not started — claims ledger now at 447 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
@@ -205,10 +217,11 @@ suspected fabrication during P3 itself.
 
 ## The immediate open items
 
-- **Nothing in chapters 2 through 5 or chapter 7 is author-accepted** except
-  the original §3.1.2.3.1.1 Attention pilot. 113 sections are drafted and
-  waiting on a read. D-001 allows up to two rounds before the author
-  hand-edits instead.
+- **The chapter 3 opener (§3) still needs its P3 draft** — it's the one
+  section in chapters 2-5 and 7 not swept up in the 2026-08-23 acceptance,
+  because it was never revised. Everything else in those chapters is now
+  author-accepted; D-001's two-round return path no longer applies to them
+  unless the author reopens a specific section.
 - **§6.3.2 needs to earn the "governance/cooperation" home** it was just
   assigned. Chapter 5's §5.4.3 rebuild explicitly deferred the
   states-should-cooperate-on-shared-norms half of the book's heaviest
