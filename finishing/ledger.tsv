@@ -1,157 +1,157 @@
 num	title	level	words_v3b	status	action	quarry_src	evidence	decisions	owner	notes
-1	Introduction	1	370	untouched	revise		xchapter-pairs:1	D-010		
-1.1	The Imperative of Altruistic and Anti-Authoritarian Sentient Machines	2	167	untouched	revise			D-010		
-1.2	Aims and Objectives	2	191	untouched	revise			D-010		
-1.3	Mindset and Motivation in AI Behavior	2	1400	untouched	revise		xchapter-pairs:2	D-010		
-2	Foundations of Empathy and Compassion in Friendly AI	1	74	untouched	revise			D-010		
-2.1	Ethical Frameworks and AI Alignment	2	415	untouched	revise		xchapter-pairs:5	D-010		
-2.1.1	Surveying Ethical Theories for AI Alignment	3	592	untouched	revise		xchapter-pairs:2	D-010		
-2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	untouched	revise			D-010		
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	untouched	revise		xchapter-pairs:3	D-010		
-2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	untouched	revise		xchapter-pairs:3;unmarked-list-items:7	D-010		
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	untouched	revise		claims:2;dated:2	D-010		
+1	Introduction	1	370	structured	revise		xchapter-pairs:1	D-010		
+1.1	The Imperative of Altruistic and Anti-Authoritarian Sentient Machines	2	167	structured	revise			D-010		
+1.2	Aims and Objectives	2	191	structured	revise			D-010		
+1.3	Mindset and Motivation in AI Behavior	2	1400	structured	revise		xchapter-pairs:2	D-010		
+2	Foundations of Empathy and Compassion in Friendly AI	1	74	structured	revise			D-010		
+2.1	Ethical Frameworks and AI Alignment	2	415	structured	revise		xchapter-pairs:5	D-010		
+2.1.1	Surveying Ethical Theories for AI Alignment	3	592	structured	revise		xchapter-pairs:2	D-010		
+2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	464	structured	revise			D-010		
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	599	structured	revise		xchapter-pairs:3	D-010		
+2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	663	structured	revise		xchapter-pairs:3;unmarked-list-items:7	D-010		
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	456	structured	revise		claims:2;dated:2	D-010		
 2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	473	drafted	keep	atlas-ch7		D-009;D-014	agent-drafted	pilot 2; T4 box only, T3 still to replace surrounding prose; 484->951
-2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	untouched	revise			D-010		
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	untouched	revise		xchapter-pairs:2	D-010		
-2.3	Emotional Intelligence and Self-awareness	2	847	untouched	revise		absorbed:1;absorbed:1	D-010		absorbs 9.2.3; absorbs 9.2.3
-2.3.1	Components of Emotional Intelligence	3	411	untouched	revise		cluster:emotional-intelligence;xchapter-pairs:10;claims:1	D-010		
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	untouched	revise		cluster:emotional-intelligence;xchapter-pairs:1	D-010		
-2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	untouched	revise			D-010		
-2.4	Ethical implications of experimenting on sentient machine subjects	2	35	untouched	revise		claims:1;dated:1	D-010		
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	untouched	revise		claims:2;dated:2	D-010		
-2.4.2	Ethical Considerations in AI Research and Experimentation	3	2404	untouched	revise		absorbed:6;absorbed:6	D-010		absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6; absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	untouched	revise		parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1	D-010		
-2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	2025	untouched	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5; absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	untouched	revise		claims:1;unmarked-list-items:2	D-010		
-2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	1775	untouched	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5; absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5
-2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	1721	untouched	revise		absorbed:4;absorbed:4	D-010		absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4; absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4
-3	Machine Learning and Cognitive Science	1	79	untouched	revise			D-010		
-3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	untouched	revise			D-010		
-3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	untouched	revise			D-010		
-3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	12149	untouched	revise		absorbed:24;absorbed:24	D-010		absorbs 3.1.2.1,3.1.2.2,3.1.2.3,3.1.2.3.1,3.1.2.3.1.1,3.1.2.3.1.2,3.1.2.3.1.3,3.1.2.3.1.4,3.1.2.3.1.5,3.1.2.3.1.6,3.1.2.3.1.7,3.1.2.3.1.8,3.1.2.3.1.9,3.1.2.3.1.10,3.1.2.3.1.11,3.1.2.3.1.11.1,3.1.2.3.1.11.2,3.1.2.3.1.11.3,3.1.2.4,3.1.2.4.1,3.1.2.4.2,3.1.2.4.3,3.1.2.4.4,3.1.2.5; absorbs 3.1.2.1,3.1.2.2,3.1.2.3,3.1.2.3.1,3.1.2.3.1.1,3.1.2.3.1.2,3.1.2.3.1.3,3.1.2.3.1.4,3.1.2.3.1.5,3.1.2.3.1.6,3.1.2.3.1.7,3.1.2.3.1.8,3.1.2.3.1.9,3.1.2.3.1.10,3.1.2.3.1.11,3.1.2.3.1.11.1,3.1.2.3.1.11.2,3.1.2.3.1.11.3,3.1.2.4,3.1.2.4.1,3.1.2.4.2,3.1.2.4.3,3.1.2.4.4,3.1.2.5
-3.1.3	Human-Like Learning and Generalization in AI Systems	3	5325	untouched	revise		absorbed:13;absorbed:13	D-010		absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4; absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4
-3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	untouched	revise			D-010		
-3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	1594	untouched	revise		absorbed:2;absorbed:2	D-010		absorbs 3.2.1.1,3.2.1.2; absorbs 3.2.1.1,3.2.1.2
-3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	untouched	revise		claims:1	D-010		
-3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	untouched	revise		unmarked-list-items:4	D-010		
-3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	untouched	revise			D-010		
-3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	untouched	revise			D-010		
-3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	untouched	revise		unmarked-list-items:3	D-010		
-3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	untouched	revise			D-010		
-3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	untouched	revise			D-010		
-3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	untouched	revise		xchapter-pairs:4	D-010		
-3.3.3	Lessons from Human Child Development and Exploration	3	393	untouched	revise		unmarked-list-items:4	D-010		
-4	Moral Psychology and AI	1	35	untouched	revise			D-010		
-4.1	Moral Development in Humans and AI	2	493	untouched	revise		claims:1	D-010		
-4.1.1	Stages of Moral Development: From Rules to Principles and the Influence of Mindset	3	1088	untouched	revise		absorbed:1;absorbed:1	D-010		absorbs 4.1.1.1; absorbs 4.1.1.1
-4.1.2	The Significance of Social Interaction in Moral Learning	3	443	untouched	revise			D-010		
-4.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	533	untouched	revise		xchapter-pairs:5;unmarked-list-items:3	D-010		
-4.1.4	Using AI to Respect and Promote Human Dignity	3	554	untouched	revise			D-010		
-4.2	Emotions and Intuitions in Moral Decision-Making	2	63	untouched	revise			D-010		
-4.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	714	untouched	revise		xchapter-pairs:3	D-010		
-4.2.2	Assessing and Developing AI Emotions	3	200	untouched	revise		cluster:emotional-intelligence;xchapter-pairs:8;claims:1;unmarked-list-items:6;absorbed:1;absorbed:1	D-010		absorbs 4.2.2.1; absorbs 4.2.2.1
-4.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	495	untouched	revise		xchapter-pairs:4;unmarked-list-items:2	D-010		
-4.2.4	The role of introspection for AI systems	3	1837	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 4.2.4.1,4.2.4.2,4.2.4.3; absorbs 4.2.4.1,4.2.4.2,4.2.4.3
-4.3	Integrating Moral Intuitions and Deliberation	2	72	untouched	revise			D-010		
-4.3.1	Dual-Process Theories of Moral Judgment	3	423	untouched	revise		claims:1	D-010		
-4.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	433	untouched	revise			D-010		
-4.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	547	untouched	revise		xchapter-pairs:3;claims:1;unmarked-list-items:5	D-010		
-4.4	Moral Ecosystem Approach in AI Development	2	99	untouched	revise		claims:1;dated:1	D-010		
-4.4.1	Applying Moral Ecosystem Theory to AI Development	3	414	untouched	revise		claims:1	D-010		
-4.4.2	Microsystem Interactions and AI Moral Learning	3	399	untouched	revise			D-010		
-4.4.3	Mesosystem and Exosystem Influences on AI Alignment	3	450	untouched	revise		unmarked-list-items:5	D-010		
-4.4.4	Macrosystem Influences on AI Development and Employment	3	467	untouched	revise		unmarked-list-items:4	D-010		
-4.4.5	The Chronosystem: AI Systems in a Changing World	3	449	untouched	revise		claims:1;unmarked-list-items:3	D-010		
-4.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	1769	untouched	revise		xchapter-pairs:2;absorbed:3;absorbed:3	D-010		absorbs 4.4.6.1,4.4.6.2,4.4.6.3; absorbs 4.4.6.1,4.4.6.2,4.4.6.3
-4.5	The Interplay of Competition and Collaboration in AI Development	2	38	untouched	revise			D-010		
-4.5.1	The Impact of Competition and Collaboration on Human Moral Development	3	491	untouched	revise			D-010		
-4.5.2	Cooperative AI Systems and Multi-Agent Moral Development	3	375	untouched	revise			D-010		
-4.5.3	Strategies for Fostering Collaboration Among AI Systems	3	475	untouched	revise		xchapter-pairs:1;claims:3;dated:2;unmarked-list-items:6	D-010		
-4.6	Motivation in AI Systems	2	0	untouched	fill		no-body-text	D-010		
-4.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	488	untouched	revise		claims:4;dated:3	D-010		
-4.6.2	Developing Motivationally-Aware AI Systems	3	474	untouched	revise		claims:2;dated:1	D-010		
-4.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	2008	untouched	revise		claims:6;dated:3;absorbed:3;absorbed:3	D-010		absorbs 4.6.3.1,4.6.3.1.1,4.6.3.1.2; absorbs 4.6.3.1,4.6.3.1.1,4.6.3.1.2
-4.7	Play, Exploration, and Moral Development in AI	2	0	untouched	fill		no-body-text	D-010		
-4.7.1	The Role of Play in Moral Learning and Socialization	3	1455	untouched	revise		absorbed:2;absorbed:2	D-010		absorbs 4.7.1.1,4.7.1.2; absorbs 4.7.1.1,4.7.1.2
-4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	501	untouched	revise		xchapter-pairs:2	D-010		
-5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	0	untouched	fill		no-body-text	D-010		
-5.1	Bias, Fairness, and Equity in AI Systems	2	467	untouched	revise			D-010		
-5.1.1	Sources of Bias in AI Data and Algorithms	3	542	untouched	revise		claims:5;dated:4;unmarked-list-items:4	D-010		
-5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	373	untouched	revise		claims:2;dated:2	D-010		
-5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	447	untouched	revise		xchapter-pairs:1;claims:3;dated:2	D-010		
-5.2	Robustness, Generalization, and Adaptability in AI Systems	2	70	untouched	revise			D-010		
-5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	619	untouched	revise		unmarked-list-items:3	D-010		
-5.2.2	AI Systems that Adapt to Novel Situations	3	645	untouched	revise		xchapter-pairs:1	D-010		
-5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	560	untouched	revise		unmarked-list-items:7	D-010		
-5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	356	untouched	revise		xchapter-pairs:1	D-010		
-5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	618	untouched	revise		claims:1	D-010		
-5.3.2	AI Systems that Learn to Deceive or Manipulate	3	555	untouched	revise		unmarked-list-items:6	D-010		
-5.3.3	Strategies for AI Safety and Risk Mitigation	3	506	untouched	revise		xchapter-pairs:1;claims:4;dated:2;unmarked-list-items:7	D-010		
-5.3.4	AI Explainability and Transparency	3	1282	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 5.3.4.1,5.3.4.2,5.3.4.3; absorbs 5.3.4.1,5.3.4.2,5.3.4.3
-5.3.5	Long-term AI safety considerations	3	562	untouched	revise		claims:1;unmarked-list-items:5	D-010		
-5.4	Preventing the Misuse of AI for Authoritarian Purposes	2	79	untouched	revise			D-010		
-5.4.1	Identifying Authoritarian Applications of AI Technology	3	384	untouched	revise		claims:2;dated:2;unmarked-list-items:7	D-010		
-5.4.2	Developing Technical Countermeasures and Safeguards	3	568	untouched	revise		xchapter-pairs:2	D-010		
-5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	388	untouched	revise		cluster:democracy-cooperation;xchapter-pairs:13;unmarked-list-items:7	D-010		
-6	Collaborative Research and Development	1	0	untouched	fill		no-body-text	D-010		
-6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	455	untouched	revise		xchapter-pairs:1;claims:1	D-010		
-6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	444	untouched	revise		claims:1;unmarked-list-items:5	D-010		
-6.1.2	Establishing Joint Research Initiatives and Programs	3	448	untouched	revise		xchapter-pairs:2;claims:11;dated:2;unmarked-list-items:6	D-010		
-6.1.3	Developing Shared Platforms and Tools for an AI Research Ecosystem	3	388	untouched	revise			D-010		
-6.2	Stakeholder Involvement and Public Engagement	2	389	untouched	revise			D-010		
-6.2.1	Engaging Diverse Stakeholders in AI Development	3	493	untouched	revise		xchapter-pairs:1;claims:4;dated:1	D-010		
-6.2.2	Public Deliberation and Participatory AI Governance	3	491	untouched	revise		claims:2;unmarked-list-items:5	D-010		
-6.2.3	Promoting AI Literacy and Public Understanding	3	367	untouched	revise		xchapter-pairs:1;unmarked-list-items:6	D-010		
-6.3	International Cooperation and Norm Development	2	49	untouched	revise			D-010		
-6.3.1	Building Global Partnerships for AI Research and Development	3	505	untouched	revise		xchapter-pairs:2;claims:2;unmarked-list-items:5	D-010		
-6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	396	untouched	revise		claims:6;dated:1	D-010		
-6.3.3	Addressing Global Challenges and Opportunities through AI Collaboration	3	507	untouched	revise			D-010		
-6.4	Regional Regulatory Frameworks for AI Development	2	29	untouched	revise			D-010		
-6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	350	untouched	revise		claims:4;dated:1;unmarked-list-items:16;absorbed:4;absorbed:4	D-010		absorbs 6.4.1.10,6.4.1.11,6.4.1.12,6.4.1.13; absorbs 6.4.1.10,6.4.1.11,6.4.1.12,6.4.1.13
-6.4.2	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	920	untouched	keep		absorbed:2;absorbed:2	D-010		absorbs 6.4.2.1,6.4.2.2; absorbs 6.4.2.1,6.4.2.2
-7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	0	untouched	fill		no-body-text	D-010		
-7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	19	untouched	revise			D-010		
-7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	436	untouched	revise		claims:2;dated:2	D-010		
-7.1.2	AI and the Concentration of Power in the Technology Industry	3	547	untouched	revise			D-010		
-7.1.3	AI's Impact on Labor Markets and Income Distribution	3	492	untouched	revise		claims:2;dated:2;unmarked-list-items:3	D-010		
-7.1.4	Addressing Workforce Disruption	3	497	untouched	revise		unmarked-list-items:7	D-010		
-7.1.5	Promoting AI Literacy and Technical Skills Development	3	440	untouched	revise		xchapter-pairs:1;unmarked-list-items:6	D-010		
-7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	522	untouched	revise		xchapter-pairs:1;claims:3	D-010		
-7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	419	untouched	revise		xchapter-pairs:4;claims:1	D-010		
-7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	527	untouched	revise		xchapter-pairs:1;claims:5;dated:2;unmarked-list-items:7	D-010		
-7.2.2	Encouraging Industry Best Practices and Self-regulation	3	1699	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 7.2.2.1,7.2.2.2,7.2.2.3; absorbs 7.2.2.1,7.2.2.2,7.2.2.3
-7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	421	untouched	revise		claims:6;dated:1;unmarked-list-items:3	D-010		
-7.2.4	Legal and ethical implications of AI systems gaining personhood	3	536	untouched	revise			D-010		
-7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	1420	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 7.2.5.1,7.2.5.2,7.2.5.3; absorbs 7.2.5.1,7.2.5.2,7.2.5.3
-7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	29	untouched	revise		claims:2	D-010		
-7.3.1	Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals	3	397	untouched	revise			D-010		
-7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	436	untouched	revise		unmarked-list-items:6	D-010		
-7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	42	untouched	revise			D-010		
-7.4.1	Criteria for Sentience and AI Subjecthood	3	553	untouched	revise			D-010		
-7.4.2	Legal Frameworks for Sentient AI Subjects	3	587	untouched	revise		claims:3;dated:3;unmarked-list-items:7	D-010		
-7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	2399	untouched	revise		absorbed:4;absorbed:4	D-010		absorbs 7.4.3.1,7.4.3.1.1,7.4.3.1.2,7.4.3.2; absorbs 7.4.3.1,7.4.3.1.1,7.4.3.1.2,7.4.3.2
-7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	989	untouched	revise		absorbed:2;absorbed:2	D-010		absorbs 7.4.4.1,7.4.4.2; absorbs 7.4.4.1,7.4.4.2
+2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	554	structured	revise			D-010		
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	601	structured	revise		xchapter-pairs:2	D-010		
+2.3	Emotional Intelligence and Self-awareness	2	847	structured	revise		absorbed:1;absorbed:1	D-010		absorbs 9.2.3; absorbs 9.2.3
+2.3.1	Components of Emotional Intelligence	3	411	structured	revise		cluster:emotional-intelligence;xchapter-pairs:10;claims:1	D-010		
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	542	structured	revise		cluster:emotional-intelligence;xchapter-pairs:1	D-010		
+2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	448	structured	revise			D-010		
+2.4	Ethical implications of experimenting on sentient machine subjects	2	35	structured	revise		claims:1;dated:1	D-010		
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	570	structured	revise		claims:2;dated:2	D-010		
+2.4.2	Ethical Considerations in AI Research and Experimentation	3	2404	structured	revise		absorbed:6;absorbed:6	D-010		absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6; absorbs 2.4.2.1,2.4.2.2,2.4.2.3,2.4.2.4,2.4.2.5,2.4.2.6
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	460	structured	revise		parallel:2.4-vs-7.4;xchapter-pairs:1;claims:1	D-010		
+2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	2025	structured	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5; absorbs 2.4.4.1,2.4.4.2,2.4.4.3,2.4.4.4,2.4.4.5
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	453	structured	revise		claims:1;unmarked-list-items:2	D-010		
+2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	1775	structured	revise		absorbed:5;absorbed:5	D-010		absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5; absorbs 2.4.6.1,2.4.6.2,2.4.6.3,2.4.6.4,2.4.6.5
+2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	1721	structured	revise		absorbed:4;absorbed:4	D-010		absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4; absorbs 2.4.7.1,2.4.7.2,2.4.7.3,2.4.7.4
+3	Machine Learning and Cognitive Science	1	79	structured	revise			D-010		
+3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	structured	revise			D-010		
+3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	structured	revise			D-010		
+3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	12149	structured	revise		absorbed:24;absorbed:24	D-010		absorbs 3.1.2.1,3.1.2.2,3.1.2.3,3.1.2.3.1,3.1.2.3.1.1,3.1.2.3.1.2,3.1.2.3.1.3,3.1.2.3.1.4,3.1.2.3.1.5,3.1.2.3.1.6,3.1.2.3.1.7,3.1.2.3.1.8,3.1.2.3.1.9,3.1.2.3.1.10,3.1.2.3.1.11,3.1.2.3.1.11.1,3.1.2.3.1.11.2,3.1.2.3.1.11.3,3.1.2.4,3.1.2.4.1,3.1.2.4.2,3.1.2.4.3,3.1.2.4.4,3.1.2.5; absorbs 3.1.2.1,3.1.2.2,3.1.2.3,3.1.2.3.1,3.1.2.3.1.1,3.1.2.3.1.2,3.1.2.3.1.3,3.1.2.3.1.4,3.1.2.3.1.5,3.1.2.3.1.6,3.1.2.3.1.7,3.1.2.3.1.8,3.1.2.3.1.9,3.1.2.3.1.10,3.1.2.3.1.11,3.1.2.3.1.11.1,3.1.2.3.1.11.2,3.1.2.3.1.11.3,3.1.2.4,3.1.2.4.1,3.1.2.4.2,3.1.2.4.3,3.1.2.4.4,3.1.2.5
+3.1.3	Human-Like Learning and Generalization in AI Systems	3	5325	structured	revise		absorbed:13;absorbed:13	D-010		absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4; absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4
+3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	structured	revise			D-010		
+3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	1594	structured	revise		absorbed:2;absorbed:2	D-010		absorbs 3.2.1.1,3.2.1.2; absorbs 3.2.1.1,3.2.1.2
+3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	structured	revise		claims:1	D-010		
+3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	structured	revise		unmarked-list-items:4	D-010		
+3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	structured	revise			D-010		
+3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	structured	revise			D-010		
+3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	structured	revise		unmarked-list-items:3	D-010		
+3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	structured	revise			D-010		
+3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	structured	revise			D-010		
+3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	structured	revise		xchapter-pairs:4	D-010		
+3.3.3	Lessons from Human Child Development and Exploration	3	393	structured	revise		unmarked-list-items:4	D-010		
+4	Moral Psychology and AI	1	35	structured	revise			D-010		
+4.1	Moral Development in Humans and AI	2	493	structured	revise		claims:1	D-010		
+4.1.1	Stages of Moral Development: From Rules to Principles and the Influence of Mindset	3	1088	structured	revise		absorbed:1;absorbed:1	D-010		absorbs 4.1.1.1; absorbs 4.1.1.1
+4.1.2	The Significance of Social Interaction in Moral Learning	3	443	structured	revise			D-010		
+4.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	533	structured	revise		xchapter-pairs:5;unmarked-list-items:3	D-010		
+4.1.4	Using AI to Respect and Promote Human Dignity	3	554	structured	revise			D-010		
+4.2	Emotions and Intuitions in Moral Decision-Making	2	63	structured	revise			D-010		
+4.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	714	structured	revise		xchapter-pairs:3	D-010		
+4.2.2	Assessing and Developing AI Emotions	3	200	structured	revise		cluster:emotional-intelligence;xchapter-pairs:8;claims:1;unmarked-list-items:6;absorbed:1;absorbed:1	D-010		absorbs 4.2.2.1; absorbs 4.2.2.1
+4.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	495	structured	revise		xchapter-pairs:4;unmarked-list-items:2	D-010		
+4.2.4	The role of introspection for AI systems	3	1837	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 4.2.4.1,4.2.4.2,4.2.4.3; absorbs 4.2.4.1,4.2.4.2,4.2.4.3
+4.3	Integrating Moral Intuitions and Deliberation	2	72	structured	revise			D-010		
+4.3.1	Dual-Process Theories of Moral Judgment	3	423	structured	revise		claims:1	D-010		
+4.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	433	structured	revise			D-010		
+4.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	547	structured	revise		xchapter-pairs:3;claims:1;unmarked-list-items:5	D-010		
+4.4	Moral Ecosystem Approach in AI Development	2	99	structured	revise		claims:1;dated:1	D-010		
+4.4.1	Applying Moral Ecosystem Theory to AI Development	3	414	structured	revise		claims:1	D-010		
+4.4.2	Microsystem Interactions and AI Moral Learning	3	399	structured	revise			D-010		
+4.4.3	Mesosystem and Exosystem Influences on AI Alignment	3	450	structured	revise		unmarked-list-items:5	D-010		
+4.4.4	Macrosystem Influences on AI Development and Employment	3	467	structured	revise		unmarked-list-items:4	D-010		
+4.4.5	The Chronosystem: AI Systems in a Changing World	3	449	structured	revise		claims:1;unmarked-list-items:3	D-010		
+4.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	1769	structured	revise		xchapter-pairs:2;absorbed:3;absorbed:3	D-010		absorbs 4.4.6.1,4.4.6.2,4.4.6.3; absorbs 4.4.6.1,4.4.6.2,4.4.6.3
+4.5	The Interplay of Competition and Collaboration in AI Development	2	38	structured	revise			D-010		
+4.5.1	The Impact of Competition and Collaboration on Human Moral Development	3	491	structured	revise			D-010		
+4.5.2	Cooperative AI Systems and Multi-Agent Moral Development	3	375	structured	revise			D-010		
+4.5.3	Strategies for Fostering Collaboration Among AI Systems	3	475	structured	revise		xchapter-pairs:1;claims:3;dated:2;unmarked-list-items:6	D-010		
+4.6	Motivation in AI Systems	2	0	structured	fill		no-body-text	D-010		needs opener (P3)
+4.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	488	structured	revise		claims:4;dated:3	D-010		
+4.6.2	Developing Motivationally-Aware AI Systems	3	474	structured	revise		claims:2;dated:1	D-010		
+4.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	2008	structured	revise		claims:6;dated:3;absorbed:3;absorbed:3	D-010		absorbs 4.6.3.1,4.6.3.1.1,4.6.3.1.2; absorbs 4.6.3.1,4.6.3.1.1,4.6.3.1.2
+4.7	Play, Exploration, and Moral Development in AI	2	0	structured	fill		no-body-text	D-010		needs opener (P3)
+4.7.1	The Role of Play in Moral Learning and Socialization	3	1455	structured	revise		absorbed:2;absorbed:2	D-010		absorbs 4.7.1.1,4.7.1.2; absorbs 4.7.1.1,4.7.1.2
+4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	501	structured	revise		xchapter-pairs:2	D-010		
+5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	0	structured	fill		no-body-text	D-010		needs opener (P3)
+5.1	Bias, Fairness, and Equity in AI Systems	2	467	structured	revise			D-010		
+5.1.1	Sources of Bias in AI Data and Algorithms	3	542	structured	revise		claims:5;dated:4;unmarked-list-items:4	D-010		
+5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	373	structured	revise		claims:2;dated:2	D-010		
+5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	447	structured	revise		xchapter-pairs:1;claims:3;dated:2	D-010		
+5.2	Robustness, Generalization, and Adaptability in AI Systems	2	70	structured	revise			D-010		
+5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	619	structured	revise		unmarked-list-items:3	D-010		
+5.2.2	AI Systems that Adapt to Novel Situations	3	645	structured	revise		xchapter-pairs:1	D-010		
+5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	560	structured	revise		unmarked-list-items:7	D-010		
+5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	356	structured	revise		xchapter-pairs:1	D-010		
+5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	618	structured	revise		claims:1	D-010		
+5.3.2	AI Systems that Learn to Deceive or Manipulate	3	555	structured	revise		unmarked-list-items:6	D-010		
+5.3.3	Strategies for AI Safety and Risk Mitigation	3	506	structured	revise		xchapter-pairs:1;claims:4;dated:2;unmarked-list-items:7	D-010		
+5.3.4	AI Explainability and Transparency	3	1282	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 5.3.4.1,5.3.4.2,5.3.4.3; absorbs 5.3.4.1,5.3.4.2,5.3.4.3
+5.3.5	Long-term AI safety considerations	3	562	structured	revise		claims:1;unmarked-list-items:5	D-010		
+5.4	Preventing the Misuse of AI for Authoritarian Purposes	2	79	structured	revise			D-010		
+5.4.1	Identifying Authoritarian Applications of AI Technology	3	384	structured	revise		claims:2;dated:2;unmarked-list-items:7	D-010		
+5.4.2	Developing Technical Countermeasures and Safeguards	3	568	structured	revise		xchapter-pairs:2	D-010		
+5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	388	structured	revise		cluster:democracy-cooperation;xchapter-pairs:13;unmarked-list-items:7	D-010		
+6	Collaborative Research and Development	1	0	structured	fill		no-body-text	D-010		needs opener (P3)
+6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	455	structured	revise		xchapter-pairs:1;claims:1	D-010		
+6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	444	structured	revise		claims:1;unmarked-list-items:5	D-010		
+6.1.2	Establishing Joint Research Initiatives and Programs	3	448	structured	revise		xchapter-pairs:2;claims:11;dated:2;unmarked-list-items:6	D-010		
+6.1.3	Developing Shared Platforms and Tools for an AI Research Ecosystem	3	388	structured	revise			D-010		
+6.2	Stakeholder Involvement and Public Engagement	2	389	structured	revise			D-010		
+6.2.1	Engaging Diverse Stakeholders in AI Development	3	493	structured	revise		xchapter-pairs:1;claims:4;dated:1	D-010		
+6.2.2	Public Deliberation and Participatory AI Governance	3	491	structured	revise		claims:2;unmarked-list-items:5	D-010		
+6.2.3	Promoting AI Literacy and Public Understanding	3	367	structured	revise		xchapter-pairs:1;unmarked-list-items:6	D-010		
+6.3	International Cooperation and Norm Development	2	49	structured	revise			D-010		
+6.3.1	Building Global Partnerships for AI Research and Development	3	505	structured	revise		xchapter-pairs:2;claims:2;unmarked-list-items:5	D-010		
+6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	396	structured	revise		claims:6;dated:1	D-010		
+6.3.3	Addressing Global Challenges and Opportunities through AI Collaboration	3	507	structured	revise			D-010		
+6.4	Regional Regulatory Frameworks for AI Development	2	29	structured	revise			D-010		
+6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	350	structured	revise		claims:4;dated:1;unmarked-list-items:16;absorbed:4;absorbed:4	D-010		absorbs 6.4.1.10,6.4.1.11,6.4.1.12,6.4.1.13; absorbs 6.4.1.10,6.4.1.11,6.4.1.12,6.4.1.13
+6.4.2	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	920	structured	keep		absorbed:2;absorbed:2	D-010		absorbs 6.4.2.1,6.4.2.2; absorbs 6.4.2.1,6.4.2.2
+7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	0	structured	fill		no-body-text	D-010		needs opener (P3)
+7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	19	structured	revise			D-010		
+7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	436	structured	revise		claims:2;dated:2	D-010		
+7.1.2	AI and the Concentration of Power in the Technology Industry	3	547	structured	revise			D-010		
+7.1.3	AI's Impact on Labor Markets and Income Distribution	3	492	structured	revise		claims:2;dated:2;unmarked-list-items:3	D-010		
+7.1.4	Addressing Workforce Disruption	3	497	structured	revise		unmarked-list-items:7	D-010		
+7.1.5	Promoting AI Literacy and Technical Skills Development	3	440	structured	revise		xchapter-pairs:1;unmarked-list-items:6	D-010		
+7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	522	structured	revise		xchapter-pairs:1;claims:3	D-010		
+7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	419	structured	revise		xchapter-pairs:4;claims:1	D-010		
+7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	527	structured	revise		xchapter-pairs:1;claims:5;dated:2;unmarked-list-items:7	D-010		
+7.2.2	Encouraging Industry Best Practices and Self-regulation	3	1699	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 7.2.2.1,7.2.2.2,7.2.2.3; absorbs 7.2.2.1,7.2.2.2,7.2.2.3
+7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	421	structured	revise		claims:6;dated:1;unmarked-list-items:3	D-010		
+7.2.4	Legal and ethical implications of AI systems gaining personhood	3	536	structured	revise			D-010		
+7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	1420	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 7.2.5.1,7.2.5.2,7.2.5.3; absorbs 7.2.5.1,7.2.5.2,7.2.5.3
+7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	29	structured	revise		claims:2	D-010		
+7.3.1	Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals	3	397	structured	revise			D-010		
+7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	436	structured	revise		unmarked-list-items:6	D-010		
+7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	42	structured	revise			D-010		
+7.4.1	Criteria for Sentience and AI Subjecthood	3	553	structured	revise			D-010		
+7.4.2	Legal Frameworks for Sentient AI Subjects	3	587	structured	revise		claims:3;dated:3;unmarked-list-items:7	D-010		
+7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	2399	structured	revise		absorbed:4;absorbed:4	D-010		absorbs 7.4.3.1,7.4.3.1.1,7.4.3.1.2,7.4.3.2; absorbs 7.4.3.1,7.4.3.1.1,7.4.3.1.2,7.4.3.2
+7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	989	structured	revise		absorbed:2;absorbed:2	D-010		absorbs 7.4.4.1,7.4.4.2; absorbs 7.4.4.1,7.4.4.2
 7.5	The Geopolitics of Ethical AI	2	5000	structured			absorbed:16;absorbed:16	D-010		absorbs 8,8.1,8.1.1,8.1.2,8.1.3,8.2,8.2.1,8.2.2,8.2.3,8.3,8.3.1,8.3.2,8.3.3,8.4,8.4.1,8.4.2; absorbs 8,8.1,8.1.1,8.1.2,8.1.3,8.2,8.2.1,8.2.2,8.2.3,8.3,8.3.1,8.3.2,8.3.3,8.4,8.4.1,8.4.2
-9	Necessary Areas of Research	1	110	untouched	revise			D-010		
-9.1	Ethics and Social Reasoning in AI	2	0	untouched	fill		no-body-text	D-010		
-9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	untouched	revise		xchapter-pairs:4;unmarked-list-items:4	D-010		
-9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	untouched	revise		xchapter-pairs:2	D-010		
-9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	untouched	revise		xchapter-pairs:1;unmarked-list-items:7	D-010		
-9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	untouched	revise		unmarked-list-items:6	D-010		
-9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	untouched	revise		xchapter-pairs:3;unmarked-list-items:6	D-010		
-9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	untouched	revise		xchapter-pairs:1	D-010		
-9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	untouched	fill		no-body-text	D-010		
-9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	untouched	revise		xchapter-pairs:4	D-010		
-9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	untouched	revise		unmarked-list-items:7	D-010		
-10	Conclusion and Outlook	1	0	untouched	fill		no-body-text	D-010		
-10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	untouched	revise		xchapter-pairs:1	D-010		
-10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	200	untouched	revise		xchapter-pairs:3;unmarked-list-items:5	D-010		
-10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	200	untouched	revise		xchapter-pairs:3;unmarked-list-items:6	D-010		
-10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	100	untouched	revise		cluster:democracy-cooperation;xchapter-pairs:8;claims:2;unmarked-list-items:6	D-010		
-10.2	Roadmap for Altruistic and Anti-Authoritarian Superintelligence	2	25	untouched	revise			D-010		
-10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	396	untouched	revise		claims:1;unmarked-list-items:20	D-010		
-10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	402	untouched	revise		unmarked-list-items:5	D-010		
-10.3	Addressing the Unintended Consequences	2	18	untouched	revise			D-010		
-10.3.1	Anticipating and Monitoring Unintended Consequences	3	1427	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 10.3.1.1,10.3.1.2,10.3.1.3; absorbs 10.3.1.1,10.3.1.2,10.3.1.3
-10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	2500	untouched	revise		absorbed:3;absorbed:3	D-010		absorbs 10.3.2.1,10.3.2.2,10.3.2.3; absorbs 10.3.2.1,10.3.2.2,10.3.2.3
-10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	1530	untouched	revise		claims:11;dated:6;absorbed:2;absorbed:2	D-010		absorbs 10.3.3.1,10.3.3.2; absorbs 10.3.3.1,10.3.3.2
+9	Necessary Areas of Research	1	110	structured	revise			D-010		
+9.1	Ethics and Social Reasoning in AI	2	0	structured	fill		no-body-text	D-010		needs opener (P3)
+9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	428	structured	revise		xchapter-pairs:4;unmarked-list-items:4	D-010		
+9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	509	structured	revise		xchapter-pairs:2	D-010		
+9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	350	structured	revise		xchapter-pairs:1;unmarked-list-items:7	D-010		
+9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	641	structured	revise		unmarked-list-items:6	D-010		
+9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	498	structured	revise		xchapter-pairs:3;unmarked-list-items:6	D-010		
+9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	470	structured	revise		xchapter-pairs:1	D-010		
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	0	structured	fill		no-body-text	D-010		needs opener (P3)
+9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	427	structured	revise		xchapter-pairs:4	D-010		
+9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	375	structured	revise		unmarked-list-items:7	D-010		
+10	Conclusion and Outlook	1	0	structured	fill		no-body-text	D-010		needs opener (P3)
+10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	415	structured	revise		xchapter-pairs:1	D-010		
+10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	200	structured	revise		xchapter-pairs:3;unmarked-list-items:5	D-010		
+10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	200	structured	revise		xchapter-pairs:3;unmarked-list-items:6	D-010		
+10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	100	structured	revise		cluster:democracy-cooperation;xchapter-pairs:8;claims:2;unmarked-list-items:6	D-010		
+10.2	Roadmap for Altruistic and Anti-Authoritarian Superintelligence	2	25	structured	revise			D-010		
+10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	396	structured	revise		claims:1;unmarked-list-items:20	D-010		
+10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	402	structured	revise		unmarked-list-items:5	D-010		
+10.3	Addressing the Unintended Consequences	2	18	structured	revise			D-010		
+10.3.1	Anticipating and Monitoring Unintended Consequences	3	1427	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 10.3.1.1,10.3.1.2,10.3.1.3; absorbs 10.3.1.1,10.3.1.2,10.3.1.3
+10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	2500	structured	revise		absorbed:3;absorbed:3	D-010		absorbs 10.3.2.1,10.3.2.2,10.3.2.3; absorbs 10.3.2.1,10.3.2.2,10.3.2.3
+10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	1530	structured	revise		claims:11;dated:6;absorbed:2;absorbed:2	D-010		absorbs 10.3.3.1,10.3.3.2; absorbs 10.3.3.1,10.3.3.2
