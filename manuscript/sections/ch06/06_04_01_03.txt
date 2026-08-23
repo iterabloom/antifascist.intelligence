@@ -1,0 +1,14 @@
+6.4.1.3. United States (US)
+In the United States, the approach to AI regulation has been more laissez-faire, primarily focusing on innovation and economic competitiveness. However, this stance is gradually shifting toward addressing issues of AI ethics and safety.
+
+Several initiatives exist at various levels of the US government, including the National Artificial Intelligence Initiative Act of 2020, which seeks to coordinate federal investments in AI research and development, with an emphasis on AI ethics and safety. The National Security Commission on Artificial Intelligence, established in 2018, published its final report in 2021. Among its many recommendations, the commission advocated for the establishment of an AI regulatory body to ensure the ethical development and deployment of AI technologies both in the public and private sectors.
+
+In addition to federal efforts, individual states have also led the charge in regulating specific AI applications. For example, California has implemented policies related to autonomous vehicles.
+
+On a more sector-specific level, guidelines and regulations exist for AI applications in areas such as healthcare, finance, and autonomous vehicles. These guidelines seek to address concerns around data privacy, algorithmic bias, and ethical decision-making within the context of their respective industries.
+
+One key player in the AI regulatory landscape is the National Institute of Standards and Technology (NIST), which is currently developing an AI risk management framework. This framework aims to provide guidance on responsible AI development and use, with a focus on transparency, fairness, and public input in the AI decision-making process.
+
+While the United States has taken significant strides in addressing AI ethics, limitations in the existing regulatory landscape remain. For example, the laissez-faire policy approach may leave room for potential ethical pitfalls and monopolistic practices in the AI industry. Additionally, as AI technologies and their applications continue to evolve rapidly, the US regulatory framework must adapt accordingly to ensure that ethical, altruistic, and anti-authoritarian principles remain at the forefront of AI development and deployment. Addressing these challenges will require continued collaboration among AI developers, ethicists, regulators, and various stakeholders.
+
+

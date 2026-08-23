@@ -1,0 +1,22 @@
+7.3.2. Strengthening Cybersecurity in AI-Enabled Systems
+As AI systems become increasingly integrated into daily life and critical infrastructure, their potential vulnerability to cyber attacks poses significant challenges. Ensuring the security and robustness of these systems is paramount to prevent malicious exploitation and to maintain trust in AI technologies.
+
+One specific concern stems from adversarial attacks, in which bad actors exploit weaknesses in AI algorithms to deceive systems, thereby producing misleading or incorrect results. For example, a well-known case is the "sticker attack," where placing a strategically designed sticker on a stop sign causes an AI-based autonomous vehicle to misclassify it as a speed limit sign, with potentially dangerous consequences.
+
+To counter and mitigate such threats, AI developers must prioritize the following measures in their system design:
+
+(1) Adversarial training: Expose AI systems to adversarial examples during the learning process in order to improve their resilience to attacks. This technique has been successfully employed in the development of various AI models, such as OpenAI's CLIP, which demonstrated an improved ability to recognize manipulated images after undergoing adversarial training.
+
+(2) Robust AI architectures: Design and implement AI models that are inherently more resistant to adversarial perturbations through the incorporation of techniques such as defensive distillation or randomized smoothing. These approaches can help enhance the stability of AI algorithms in the presence of adversarial inputs.
+
+(3) AI-driven cybersecurity: Develop and deploy AI technologies to bolster system defense by leveraging machine learning for threat detection, response, and mitigation in real-time. Darktrace's Enterprise Immune System is a prime example of how AI-powered cybersecurity tools can effectively safeguard AI-enabled systems.
+
+(4) Regular security audits and testing: Conduct routine security assessments of AI systems, including penetration tests and red team exercises, to identify vulnerabilities and rectify them before they can be exploited by adversaries.
+
+(5) Collaboration and knowledge sharing: Encourage cooperation between AI developers, cybersecurity experts, and relevant stakeholders in the identification and mitigation of potential threats in AI-enabled systems. This includes sharing best practices, threat intelligence, and lessons learned to foster a collaborative defense against adversarial attacks.
+
+(6) Policy and governance frameworks: Establish robust policy and governance structures to guide the development and deployment of secure AI systems. This involves the formulation of best practices, industry standards, and regulatory guidelines that focus on enhancing AI system security while promoting ethical, empathetic, and altruistic AI outcomes.
+
+Privacy and security are vital to the development and deployment of ethical, empathetic, and altruistic AI systems. By implementing techniques such as adversarial training, deploying robust AI architectures, and incorporating AI-driven cybersecurity measures, developers and policymakers can work together to protect AI-enabled systems from potential attacks and promote trust in these transformative technologies.
+
+

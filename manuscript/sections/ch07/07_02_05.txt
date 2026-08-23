@@ -1,0 +1,3 @@
+7.2.5. Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems
+It remains paramount that we encourage altruistic, anti-authoritarian, and ethical principles to guide the construction of AI systems.
+

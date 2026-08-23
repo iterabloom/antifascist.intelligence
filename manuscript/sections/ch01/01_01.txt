@@ -1,0 +1,10 @@
+1.1. The Imperative of Altruistic and Anti-Authoritarian Sentient Machines
+Superintelligent AI — systems capable of outperforming humans in nearly every cognitive task — is becoming increasingly plausible. Such systems could help address some of humanity's greatest threats, such as climate change, public health crises, disinformation, and racial capitalism. However, the power and capabilities of superintelligent AI also present risks and potential unintended consequences.
+#https://www.nber.org/system/files/chapters/c14015/c14015.pdf
+#https://www.cs.cmu.edu/~noamb/papers/19-Science-Superhuman.pdf
+#https://towardsdatascience.com/gpt-4-is-coming-soon-heres-what-we-know-about-it-64db058cfd45
+
+If not aligned with humanity's better angels, and carefully developed, superintelligent AI could lead to outcomes that are detrimental to humane interests or even pose existential threats. By prioritizing altruistic behavior, ethics, and empathy, we can influence these systems to act as a force for good, rather than causing harm or exacerbating existing problems.
+
+We should develop AI systems that respect human dignity, promote well-being, and safeguard human rights. This approach will not only help mitigate potential risks but also maximize the benefits that AI can bring to society. The present work draws on our interdisciplinary expertise to provide a framework for addressing and recognizing the complex challenges and opportunities that lie ahead.
+

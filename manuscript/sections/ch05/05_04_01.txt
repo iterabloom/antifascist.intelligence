@@ -1,0 +1,19 @@
+5.4.1. Identifying Authoritarian Applications of AI Technology
+The misuse of AI for authoritarian purposes can occur in various contexts and sectors, such as surveillance, censorship, manipulation of public opinion, and control of critical infrastructure. It is vital to identify the potential applications of AI technologies in authoritarian practices for developing safeguards and countermeasures against them. Some specific examples of authoritarian AI applications are:
+
+(1) Social credit systems: Employing AI-driven analytics to monitor and regulate individual behavior based on personal data, which may lead to discrimination and social exclusion. An example is China's Social Credit System, which rates citizens based on their "trustworthiness" and allocates rewards or penalties accordingly.
+
+(2) Large-scale facial recognition technology: Utilizing AI-powered facial recognition technology for surveillance and suppression of citizens. For instance, authorities in Xinjiang, China, have employed such systems to track and control the Uighur minority population.
+
+(3) Psychographic profiling and micro-targeting: Leveraging AI algorithms to create detailed profiles of individuals to manipulate public opinion, target propaganda, or interfere in elections. The Cambridge Analytica scandal serves as an example where psychographic profiling and micro-targeting strategies were used to potentially sway the 2016 US Presidential Election and the Brexit referendum.
+
+(4) Restriction of freedom of expression: Implementing AI-driven content moderation and censorship on social media platforms to suppress dissent and independent voices. The Great Firewall of China is an example of a comprehensive system that uses AI to monitor and censor internet content.
+
+(5) Disinformation and deepfake technology: Exploiting AI-generated deepfakes to spread misinformation or manipulate public opinion, potentially undermining trust in democratic institutions and processes. An example includes the 2018 deepfake video of Gabon's president, which was used to promote a coup attempt.
+
+(6) Remote weapon systems and autonomous vehicles: Employing AI-enabled military technologies, such as autonomous drones and other unmanned weapon systems, to exert control and maintain power without direct human intervention. The recent use of AI-enhanced drones in conflicts such as the Nagorno-Karabakh war between Armenia and Azerbaijan raises concerns regarding their potential application in authoritarian contexts.
+
+(7) Manipulation of AI systems for social control: Hijacking or repurposing AI systems, such as recommendation algorithms on social media platforms, to amplify divisive content, fomenting unrest, or promoting pro-authoritarian views.
+
+To address the risks posed by these applications, AI developers, ethicists, regulators, and other stakeholders must develop safeguards and countermeasures, promoting transparency, accountability, and ongoing dialogue.
+

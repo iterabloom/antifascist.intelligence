@@ -1,0 +1,17 @@
+7.1.5. Promoting AI Literacy and Technical Skills Development
+To foster a society that understands, benefits from, and contributes to the ethical and anti-authoritarian development of AI, we must invest in promoting AI literacy and technical skills development. This section proposes six strategies to achieve this:
+
+(1) Funding AI education in K-12 curricula: To build a strong foundation for understanding AI, its ethical implications, and its potential impact on society, educators should introduce AI-related concepts and applications to students early on. Finland's National Agency for Education, for example, has developed an AI curriculum for primary and secondary schools, covering diverse topics such as machine learning, robotics, and data science.
+
+(2) Funding interdisciplinary AI programs at universities: Higher education institutions can fund well-rounded AI professionals by providing interdisciplinary programs that combine AI with ethics, psychology, neuroscience, and social sciences. Programs like the AI Ethics and Society program at the University of Amsterdam focus on the interplay between AI, ethics, and society, equipping students with a comprehensive understanding of AI development and its ethical considerations.
+
+(3) Funding specialized training for AI developers: To nurture AI systems that prioritize empathy and ethics, developers should receive specialized training in areas such as machine learning, ethics, social intelligence, and emotional intelligence. For instance, the AI for Good Foundation's Summer School program imparts knowledge and skills in AI ethics and social impact, preparing developers to create responsible technology.
+
+(4) Creating AI literacy courses for the general public: Accessible AI literacy courses can help engage the wider public in the development and deployment of ethical AI systems. These courses should cover essential AI concepts, ethical considerations, and societal impact. One such offering is the Elements of AI, a free online course by the University of Helsinki and Reaktor, which aims to demystify AI for non-experts.
+
+(5) Establishing public-private partnerships for AI education: Governments, educational institutions, and private companies should collaborate to develop and promote AI education initiatives, ensuring that AI literacy and skills development are accessible to diverse populations. A notable example is the partnership between Google and the British Council, which launched the AI for Everyone initiative to provide free AI courses to learners worldwide.
+
+(6) Funding AI education in underrepresented communities: Ensuring equal access to AI education and training opportunities for underrepresented and marginalized communities is crucial for promoting diversity and inclusion in AI development. Programs like AI4ALL work to bridge this gap by providing AI education to underrepresented high school students, fostering a more diverse next generation of AI leaders.
+
+By implementing these strategies, we can create an informed and skilled global community that's equipped to tackle the complex ethical challenges posed by AI and promote the development of altruistic, anti-authoritarian AI systems.
+

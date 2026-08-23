@@ -1,0 +1,3 @@
+7.4.4. Promoting a Culture of Ethical Responsibility in AI Development
+Ensuring that superintelligent AI systems are not merely tools or instruments to be manipulated but recognized as sentient entities requires fostering a culture of ethical responsibility. These ethical obligations should permeate not only development but all aspects associated with AI, including research, deployment, and regulation.
+

@@ -1,0 +1,3 @@
+5.3.4. AI Explainability and Transparency
+Explainability and transparency are crucial components of ethical AI systems. As AI algorithms grow increasingly complex and are entrusted with more sensitive decision-making tasks, it is essential to understand and communicate their underlying principles and logic to stakeholders, including developers, users, regulators, and the broader public. Improved explainability and transparency can foster trust, promote accountability, and ensure more effective oversight of AI systems.
+

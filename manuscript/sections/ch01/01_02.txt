@@ -1,0 +1,13 @@
+1.2. Aims and Objectives
+The primary goal of this report is to guide the development of friendly superintelligent AIs that embody altruism, ethical principles, and empathy. Leveraging our collective expertise in human development, our intention is to establish a roadmap for AI development, which incorporates insights from machine learning, cognitive science, and moral psychology.
+
+In pursuit of this aim, we have established the following objectives:
+<<list>>
+1. Define the core principles and ethical frameworks necessary for developing friendly AI.
+2. Investigate the cognitive and emotional processes underlying empathy, social intelligence, and moral development in humans, with a focus on how these processes can be incorporated into AIs.
+3. Examine research in machine learning and cognitive science to determine effective methods for building AIs that adhere to ethical norms and exhibit responsible behavior.
+4. Address the challenges and risks associated with developing friendly superintelligent AIs, including unintended consequences, biases, and issues related to robustness, generalization, and long-term safety.
+5. Propose a collaborative research and development strategy that funds interdisciplinary cooperation, stakeholder engagement, and international collaboration, increasing the likelihood of successfully creating friendly superintelligent AI.
+<</list>>
+This report lays groundwork for research, collaboration, and policymaking toward friendly superintelligent AI.
+

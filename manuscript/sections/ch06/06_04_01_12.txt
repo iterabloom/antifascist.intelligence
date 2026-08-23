@@ -1,0 +1,19 @@
+6.4.1.12. Establishing Shared Ethical Principles for AI Development that Promote Altruism and Counter Authoritarianism
+Developing shared ethical principles for AI development is vital to promote altruism and counter authoritarianism across borders. It will facilitate the harmonization of AI regulations and encourage cross-border collaboration.
+
+To establish shared ethical principles, it is necessary to initiate a comprehensive, transparent, and inclusive process that involves various stakeholders, including AI developers, ethicists, legal experts, human rights organizations, policy-makers, and impacted communities. Involving diverse perspectives and experiences ensures a holistic approach to developing ethical AI that respects global cultural and moral diversity.
+
+Building on Existing Initiatives and Guidelines: Leveraging existing AI ethics initiatives and guidelines, such as the OECD's AI Principles endorsed by G20 countries, can serve as a starting point to develop internationally recognized ethical AI norms. Another example is the Global Partnership on AI (GPAI), an international initiative aimed at fostering cooperation on AI ethics, policy, and research with members from Europe, North America, and the Asia-Pacific region.
+
+Experts can also examine regional regulatory frameworks and best practices, such as the European Union's ethical guidelines for trustworthy AI, Singapore's Model AI Governance Framework, and California's AI in Education Principles. Analyzing these frameworks will uncover commonalities, identify gaps, and inspire further development of shared ethical principles for altruistic and anti-authoritarian AI.
+
+Focusing on Core Ethical Principles: Shared ethical principles should center on core values, including respect for human autonomy, promotion of human welfare, fairness, transparency, accountability, privacy, and security. Additionally, specific AI-design principles, such as AI systems' interpretability, robustness, alignment with human values, and self-monitoring capabilities, must be emphasized.
+
+Anti-authoritarianism should hold a prominent position among these core ethical principles. AI systems should be designed and deployed in ways that resist or counteract authoritarian tendencies, such as mass surveillance, manipulation, and control of individuals or social groups. In this context, AI systems should prioritize democratic values and human rights, including freedom of expression, assembly, unionization, and privacy.
+
+Providing Concrete Recommendations and Examples: The shared ethical principles should be accompanied by concrete recommendations and examples for their implementation. This enables clearer understanding, smoother adoption, and benchmarking progress. The document can include guidance on specific AI applications related to altruism and anti-authoritarianism, such as AI systems for education, healthcare, disaster relief, and public welfare.
+
+Funding International Collaboration: To ensure effective implementation, promoting international collaboration is essential. Partnering with international organizations, such as the United Nations and the World Economic Forum, can help create inclusive platforms for communication and cooperation to develop shared ethical principles. Policymakers and governments can facilitate harmonization of AI regulations and ethical practices globally while also adapting them to local contexts.
+
+Establishing shared ethical principles that promote altruism and counter authoritarianism is crucial for the ethical development and deployment of AI. By involving diverse stakeholders, focusing on core ethical principles, providing concrete recommendations and examples, and funding international collaboration, the AI community can align AI systems with the vision of a just, democratic, and liberatory world.
+

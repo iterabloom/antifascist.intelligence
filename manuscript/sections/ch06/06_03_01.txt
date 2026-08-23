@@ -1,0 +1,20 @@
+6.3.1. Building Global Partnerships for AI Research and Development
+
+To develop altruistic and anti-authoritarian sentient machines, it is vital to build global partnerships that fund collaboration and knowledge-sharing across countries and disciplines. These partnerships will ensure diverse perspectives, expertise, and experiences are incorporated in the development of AI systems. In this section, we explore examples of existing global partnerships in AI research and discuss potential new initiatives that could enhance cooperation in this domain.
+
+1) OpenAI and DeepMind Partnership: OpenAI, based in the United States, and DeepMind, headquartered in the United Kingdom, describe themselves as leading AI research organizations that have engaged in several collaborative projects. Their joint efforts have not only resulted in publications but also in shared resources like the OpenAI Gym - a toolkit for developing and comparing reinforcement learning algorithms.
+
+2) Partnership on AI (PAI): An active global collaboration, the Partnership on AI consists of academic researchers, industry experts, civil society organizations, and policymakers. This multi-stakeholder organization focuses on formulating best practices for AI technologies by fostering cooperative research on ethics, safety, transparency, fairness, and other topics, ensuring the broad dissemination of AI benefits throughout society.
+
+3) United Nations AI for Good Global Summit: Organized by the United Nations, this annual event brings together AI researchers, practitioners, and policymakers from across the globe to discuss how AI can be employed to tackle pressing global challenges. The summit encourages international collaboration and the exchange of knowledge, promoting the development of AI solutions with positive societal impact.
+
+4) Global AI and Compute Research Collaboration (GAICRC): A proposed joint initiative between governments, research institutions, and private sector organizations, the GAICRC aims to facilitate international collaboration in AI research and development. By providing funding, resources, and infrastructure, GAICRC can support collaborative projects and knowledge-sharing among AI researchers worldwide, fostering the development and deployment of ethical, anti-authoritarian AI systems.
+
+5) International AI Ethics Research Consortium (IAIERC): The IAIERC could serve as a global network of research centers focused on ethically-aligned AI development and deployment. By bringing together ethicists, AI researchers, policymakers, and other stakeholders, the IAIERC can facilitate the creation of shared ethical frameworks, guidelines, and best practices for AI research and development.
+
+Specifically, it is essential to establish platforms for collaboration and dialogue on ethical superintelligence and anti-authoritarian sentient machine development. For example, an international forum could be created, inviting experts from diverse disciplines to discuss emerging developments and explore novel solutions from an ethical, anti-authoritarian perspective. This forum, along with research consortiums and collaborative initiatives, would ensure that the development of AI systems upholds democratic principles and human rights.
+
+Moreover, global partnerships should also prioritize education and capacity-building initiatives that promote AI literacy, enhancing technical skills and ethical understanding among researchers, policymakers, and the wider public.
+
+In summary, building global partnerships focused on AI research and development is crucial for the advancement of ethical, anti-authoritarian sentient machines. By funding international collaboration and knowledge-sharing, we can ensure that broader societal perspectives and experiences inform AI development, leading to systems that are not only technically capable but also morally sound and supportive of democratic values.
+

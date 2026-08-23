@@ -1,0 +1,26 @@
+6.3.2. Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI
+To establish international standards and guidelines for altruistic and anti-authoritarian AI, global collaborations and consensus-based frameworks must be developed. The following key aspects should guide their formation:
+
+(1) Creation of an International AI Ethics Committee: An International AI Ethics Committee should be formed, comprising experts from diverse fields such as AI, ethics, law, and social sciences. This committee would be responsible for drafting guidelines, reviewing progress, and ensuring that evolving AI landscapes align with altruistic AI principles.
+
+Example: The International AI Ethics Committee could resemble the Intergovernmental Panel on Climate Change (IPCC), which convenes experts from multiple fields to assess and provide recommendations on climate change-related issues.
+
+(2) Developing Core Ethical Principles: The International AI Ethics Committee should identify core ethical principles that guide the development and deployment of altruistic AI systems. These principles could include beneficence, non-maleficence, autonomy, fairness, and transparency.
+
+Example: The Asilomar AI Principles, developed during the 2017 Asilomar conference on Beneficial AI, outline 23 principles covering research, ethics, and long-term safety, serving as a foundation for the committee.
+
+(3) Encouraging Cross-border Collaboration: The committee should actively promote cross-border collaboration and knowledge exchange among AI researchers, policymakers, and industry stakeholders. This could involve organizing international conferences, workshops, and collaborative research projects.
+
+Example: The Partnership on AI is a multi-stakeholder organization that includes AI researchers, industry leaders, and civil society representatives, aiming to share best practices and address global challenges related to AI ethics and safety.
+
+(4) Ensuring Cultural Sensitivity: International standards and guidelines should respect cultural diversity and be sensitive to the values and norms of different societies. This requires consultation with local experts and stakeholders to ensure the guidelines are adaptable and relevant to various cultural contexts.
+
+Example: The AI Ethics Guidelines developed by the European Commission's High-Level Expert Group on Artificial Intelligence consider cultural, social, and legal aspects in their guidelines, emphasizing that AI systems should respect human rights and align with ethical values and principles.
+
+(5) Monitoring and Evaluation: The International AI Ethics Committee should establish a robust monitoring and evaluation mechanism to track the implementation of international standards and guidelines. Regular reporting and assessment of AI systems will ensure they adhere to altruistic AI principles.
+
+Example: The committee could establish an AI Ethics Index, similar to the World Press Freedom Index or Corruption Perceptions Index, ranking countries and organizations based on their adherence to altruistic AI standards and guidelines.
+
+
+
+

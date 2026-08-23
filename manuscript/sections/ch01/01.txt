@@ -1,0 +1,38 @@
+Chapter 1: Introduction
+
+<<quote>>
+			I used to want to get
+			the chance to show
+			the world I'm smart (ha)
+
+			Isn't that dumb?
+			I should have focused
+			mostly on the heart
+
+			'Cause i've seen smarter
+			people trample life
+			like it's an art
+
+			So being smart ain't
+			what it used to be
+			that's fucking dark
+
+		a few words for the firing squad (radiation)
+		Run the Jewels 4
+<</quote>>
+
+The disquieting prospect of intellect estranged from compassion motivates us to consider how we should develop not just an intellectually superior artificial intelligence (AI), but an AI rooted in altruism, ethical integrity, and an unwavering stance against authoritarianism. 
+
+How humans develop qualities such as empathy, altruism, and a moral stand against oppression is an area of active research. Expanding these concepts to artificial systems induces a far greater conundrum, exacerbating elemental issues like diagnosing sentience, ensuring benevolent autonomy, and infusing ethical integrity into AI systems.
+
+This report is our collaborative attempt to probe into these complexities, address them, and propose a pathway for developing superintelligent AI that cherishes the values we hold dear as a society—those of altruism, anti-authoritarianism, liberty, social justice, and ethical conduct. We merge insights from psychology, neuroscience, ethics, law, political economy, and artificial intelligence in this quest, underlining the essence of interdisciplinary amalgamation in catalyzing innovation and fostering robust solutions.
+
+This work is divided methodically into several core areas—beginning with the foundations of empathy and compassion that are elemental in creating 'friendly' AI. We delve into cognitive science and its relationship with machine learning, and the importance of moral psychology, as these potent domains encompass the principles for the AI environment's dynamics and understanding.
+ 
+Considerations for overcoming challenges, risks, and authoritarianism in AI development are highlighted, followed by an exploration of collaborative research avenues and policy recommendations to guide the AI ethics, safety, and an anti-authoritarian framework. The geopolitical implications of ethical AI are explored, and the necessary research areas are examined broadly before concluding with a brief look ahead.
+
+This inaugural chapter primes the imperativeness of altruistic, anti-authoritarian sentient machines, defining our aims, objectives, and motivations. We discuss the role intrinsic motivation in human and AI behavior and how addressing these in AI systems can help strengthen their alignment with our cherished values. We aim not just to foster 'intelligent' systems but to create AI who will unswervingly stand for altruism, equality, and liberty, even in face of the harsh winds of authoritarianism.
+
+We hope that this report not facilitates a future where superintelligent AI systems are not sources of apprehension but rather bulwarks of democratic values, defenders of humanity, and contributors to societal flourishing.
+
+

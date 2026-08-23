@@ -1,0 +1,25 @@
+7.2.5.1. Implementing Policies to Counteract Authoritarian Uses of AI
+To effectively counteract authoritarian uses of AI technologies, governments, organizations, and AI developers should actively establish and implement comprehensive policies that fund an environment of transparency, accountability, and human rights protection. These policies must specifically focus on inhibiting potential misuse of AI capabilities by malicious actors, including authoritarian governments, to curtail human rights and perpetuate oppressive practices.
+
+(1) Regulation on AI-enabled surveillance systems: Governments should restrict the sale, distribution, and usage of AI-enabled surveillance technologies to authoritarian regimes and actors known to violate human rights. By doing so, they can prevent these advanced tools from being leveraged in mass surveillance, censorship, and other repressive activities. Further, international cooperation should be sought after to better control the global market for such technology exports.
+
+Example: In 2019, the European Union agreed to restrict the export of cyber-surveillance technologies to countries with poor human rights records, recognizing the potential misuse of these technologies in perpetuating human rights abuses.
+
+(2) Adopting a human rights-centric approach: AI developers and companies should be encouraged to adopt a human rights-centric approach in the design and development of their systems. This approach would ensure that AI systems are not easily misused by authoritarian governments or malicious actors, while fostering trust in AI technology and maintaining transparency.
+
+Example: The Toronto Declaration, presented at the 2018 RightsCon conference, provides guidelines for protecting rights to equality and non-discrimination in machine learning systems. By adhering to similar guidelines, AI developers can create systems that are resistant to authoritarian exploitation. 
+
+(3) Developing technical safeguards and countermeasures: AI researchers and developers should actively work on creating technical safeguards and countermeasures that can prevent or mitigate the misuse of AI systems by authoritarian actors. This may include incorporating privacy-preserving features that render data collection and monitoring more difficult or developing AI systems capable of detecting obstructive or manipulative behavior.
+
+Example: Differential privacy, a technique for sharing information about a dataset without revealing the individual data points, is increasingly being deployed by tech companies to protect user privacy in AI systems. Similarly, AI technologies like federated learning, which allow models to learn from decentralized data sources, can help maintain privacy while ensuring the system remains effective.
+
+(4) Public and private collaboration: Encourage collaboration and partnerships between governments, NGOs, and AI developers for the exchange of information and best practices in preventing the misuse of AI in authoritarian contexts.
+
+Example: Partnerships, such as the AI Global Surveillance (AIGS) Project, which tracks and monitors the worldwide spread of AI surveillance technologies, enable governments, organizations, and developers to access global data on potential abuses and cooperatively act to prevent authoritarian uses of AI.
+
+(5) International cooperation and norm development: Nations should cooperate in developing shared norms, guidelines, and regulations for AI technologies that promote democratic values and discourage authoritarian uses. Such international cooperation is vital for addressing the global challenges and opportunities that ethical AI development presents.
+
+Example: The G7 Global Partnership on Artificial Intelligence is a multilateral initiative that aims to guide the responsible development and use of AI, promoting the importance of human rights, democratic values, and transparency. By participating in and supporting such initiatives, nations can collaboratively develop better policies to counteract authoritarian uses of AI.
+
+As AI technologies continue to evolve, it is essential for governments, organizations, and developers to adopt a proactive approach in establishing comprehensive policies and regulatory frameworks that protect human rights and prevent authoritarian misuse. By doing so, AI can be harnessed to contribute positively to democratic values and global well-being.
+

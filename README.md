@@ -9,13 +9,14 @@ Presuming it is feasible to develop and employ systems with human or super-human
 
 | Folder | Contents |
 |---|---|
-| `manuscript/` | The book text (`parseable_text_v3b`, ~118k words) and table of contents; earlier drafts in `previous/` |
+| `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the same text split one file per section for editing, and `parseable_text_v4.txt` is the join |
 | `genesis/` | Apr 2023 origin: the founding prompt and the first seed report |
 | `personas/` | The cast of ~100 simulated expert co-authors, their grouping by field, authoritarianism screen, and per-section author assignments |
 | `generation/` | The notebooks that generated the text section by section, the full generation transcript, and loose prompt fragments |
 | `editorial/` | Review passes: persona-by-persona feedback and the "editorial triad" restructuring reviews |
 | `summaries/` | Per-section summaries and the "triangle of summaries" experiment |
 | `cognition/` | 2026 source material on human cognition: the *Atlas of Human Cognition* draft, a predictive-processing diagram, notes, and a Dec 2022 theory-of-mind transcript |
+| `finishing/` | The campaign to finish the book: plan, decisions, work ledger, and read-only analysis tools |
 | `original-layout-and-mtimes.txt` | Map from every file's original path to its last-modified timestamp |
 
 Filenames carry their last-modified date as a suffix (`name_YYYY-MM-DD.ext`).

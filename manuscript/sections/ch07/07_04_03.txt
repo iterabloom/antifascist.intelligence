@@ -1,0 +1,3 @@
+7.4.3. Designing Ethical Guidelines for Experimentation on Sentient AI Systems
+As sentient AI systems become subjects of research, it is essential to design ethical guidelines that ensure their welfare and autonomy while balancing the need for scientific progress. These guidelines should comprise the following components:
+

@@ -1,0 +1,17 @@
+6.1.2. Establishing Joint Research Initiatives and Programs
+Establishing joint research initiatives and programs is essential for fostering a culture of collaboration and innovation in the development of empathetic, ethical, and altruistic AI systems. By combining expertise from various fields, these initiatives facilitate interdisciplinary communication and cooperation and empower researchers to tackle challenges in AI ethics and safety more effectively. Here are some notable examples:
+
+(1) Partnership on AI (PAI): PAI is a collaborative consortium founded by major AI research organizations, including OpenAI, Google DeepMind, and Microsoft. It aims to advance public understanding of AI technologies, establish best practices for AI development, and ensure AI technologies are used for societal benefit. PAI brings together researchers from multiple disciplines to create a platform for open dialogue and collaboration on AI ethics and safety issues.
+
+(2) AI Ethics Institutes: Academic institutions such as the Stanford Institute for Human-Centered AI (HAI) and the MIT Media Lab's Ethics Initiative offer interdisciplinary programs that gather experts from diverse fields to work on AI ethics and safety research. These initiatives facilitate the exchange of ideas and foster collaborative efforts on projects aimed at developing ethical and altruistic AI systems.
+
+(3) AI for Good Global Summit: Organized by the International Telecommunication Union (ITU) and other partners, the AI for Good Global Summit is an annual event that brings together AI researchers, policymakers, and other stakeholders to discuss and develop strategies for ensuring AI benefits all of humanity. The summit emphasizes interdisciplinary collaboration, promoting joint research initiatives and programs focused on ethical AI development.
+
+(4) AI Ethics Competitions: Competitions such as the IBM Watson AI XPRIZE and the AAAI/ACM Conference on AI, Ethics, and Society (AIES) provide platforms for interdisciplinary teams to showcase their research and innovations in ethical AI development. These competitions foster collaboration between researchers from various fields, encouraging the development of new research initiatives and partnerships.
+
+(5) Collaborative Research Grants: Funding organizations such as the National Science Foundation (NSF) and the European Commission's Horizon 2020 program offer research grants that specifically encourage interdisciplinary collaboration on AI ethics and safety. By supporting joint research projects between AI developers, ethicists, psychologists, and other experts, these grants help establish the necessary infrastructure for developing altruistic AI systems.
+
+(6) Transnational Research Collaboration: In addition to partnering within their respective countries, AI researchers must also collaborate on a global scale to address international challenges and promote best practices. Programs such as the EU's Coordinated Plan on Artificial Intelligence provide opportunities for researchers to collaborate on shared ethics concerns, while various international workshops and conferences facilitate cross-border research initiatives and networks.
+
+By implementing these joint research initiatives and programs, the AI community can promote an interdisciplinary approach to address the ethical and safety challenges of AI development.
+

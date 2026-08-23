@@ -1,0 +1,36 @@
+6.2.1. Engaging Diverse Stakeholders in AI Development
+
+Involving individuals and groups with different perspectives, backgrounds, and expertise ensures that AI systems are holistically designed to address a wide range of needs and concerns. Here, we outline several approaches for effectively engaging diverse stakeholders in AI development:
+
+(1) Cross-sector Collaborative Research Initiatives
+
+Funding collaboration among organizations from various sectors—such as industry, academia, and civil society—can help address AI ethics, alignment, and other complex ethical issues. By partnering with organizations like the Partnership on AI, AI research companies like OpenAI and DeepMind can benefit from enhanced knowledge exchange and shared resources, leading to AI systems that are more ethically and socially aware.
+
+Example: University of Cambridge's Leverhulme Centre for the Future of Intelligence (CFI) brings together researchers from disciplines such as ethics, philosophy, computer science, and anthropology to investigate the impact of AI and robotics on society.
+
+(2) Inclusive Design Workshops
+
+Inclusive design workshops enable input from diverse stakeholders such as AI developers, ethicists, social scientists, and representatives from affected communities. These workshops foster meaningful dialogue, promote solution-oriented brainstorming, and create opportunities for testing AI prototypes.
+
+Example: Data & Society, a research institute focused on the social implications of data-centric technologies, regularly organizes workshops to bring together community members and perspectives on AI ethics and governance issues.
+
+(3) AI Ethics Advisory Boards
+
+Establishing diverse AI ethics advisory boards can provide organizations with essential guidance on navigating the ethical implications of AI development. These boards, composed of experts from various fields and representatives of civil society organizations, can review AI research and development projects and ensure the integration of ethical considerations into design processes.
+
+Example: IBM established the AI Ethics Global Board with members representing a diverse range of expertise to provide recommendations and guidance on AI ethics and policy.
+
+(4) Community-Driven AI Development
+
+Engaging local communities in AI development ensures that the systems created are responsive to their unique needs and cultural contexts. This approach empowers communities by acknowledging their unique knowledge and insights, resulting in AI systems that are more relevant, effective, and culturally sensitive.
+
+Example: The AI for Good Foundation's AI Commons initiative partners with community stakeholders to design, develop, and deploy AI solutions tailored to address local challenges.
+
+(5) Public Deliberation on AI Policies and Governance
+
+Public deliberation events, such as citizen assemblies and town hall meetings, provide opportunities for broader public engagement in discussions on AI ethics, policies, and governance. These events enable citizens to express their concerns, share experiences, and contribute their perspectives on AI development, informing and shaping policy recommendations and regulatory frameworks.
+
+Example: The UK Government's Centre for Data Ethics and Innovation (CDEI) organized a series of public dialogues on AI and data ethics in 2020, helping shape the CDEI's recommendations on AI policy and regulation.
+
+By utilizing these strategies to engage diverse stakeholders in AI development, we can ensure that AI systems are designed and implemented in ways that are attentive to social, ethical, cultural, and political considerations, promoting altruism and reinforcing anti-authoritarian norms.
+

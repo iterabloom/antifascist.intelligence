@@ -1,0 +1,4 @@
+4.3. Integrating Moral Intuitions and Deliberation
+The creation of ethical AI systems is contingent on successfully fusing both intuitive and deliberative processes within a comprehensive framework of moral decision-making. This amalgamation ensures that AI systems are capable of nuanced moral responses, aligning with human values and expectations, under complex circumstances. We will utilize the dual-process theories of moral judgment as a sounding board to trace parallels in AI system constructions and provide contextual instances of their practical applications.
+
+

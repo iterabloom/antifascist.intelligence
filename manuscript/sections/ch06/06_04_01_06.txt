@@ -1,0 +1,23 @@
+6.4.1.6. Taiwan
+Taiwan has positioned itself at the forefront of ethical AI development, focusing on human rights, democratic values, and transparency. The country's comprehensive AI strategy encompasses education, research, collaboration, and regulation. Establishing a robust AI ethical framework, Taiwan invests in interdisciplinary programs and fosters international collaboration to address social concerns such as inequality and job displacement.
+
+Education and Research
+
+Recognizing the importance of interdisciplinary approaches, Taiwan's government has invested in AI education and research. In 2018, the Taiwan AI Academy was established, fostering AI talent development and promoting ethical AI research. The institution offers a range of interdisciplinary courses and workshops, bridging the gap between technical AI development and ethical considerations.
+
+Collaboration
+
+Taiwan actively engages in international collaboration for AI research and development. The 2017 Taiwan AI Action Plan demonstrates the country's commitment to cross-border cooperation and the sharing of best AI ethics practices. Taiwan has built partnerships with various countries, including the United States and European Union member states, for joint research initiatives and AI ethics forums.
+
+Regulation
+
+To balance innovation and ethical considerations, Taiwan has been working on building a robust regulatory framework for AI development. In 2021, Taiwan's Ministry of Science and Technology released the "Ethical Governance Guidelines for AI" draft. The guidelines emphasize human-centric AI and outline key principles for AI developers, such as fairness, transparency, accountability, and privacy protection.
+
+Specific Examples
+
+(1) Socially Assistive Robots (SARs): Taiwan actively invests in developing SARs that exhibit ethical and empathetic behavior. The development of robot companions for elderly care focuses on incorporating empathy and compassion into AI systems, addressing the needs of the aging population and promoting human well-being.
+
+(2) AI for Mental Health: The "AI for Mental Health" initiative in Taiwan explores AI's potential in supporting mental health care. The initiative aims to develop AI systems capable of identifying early signs of mental health issues and providing personalized interventions. These AI systems prioritize empathy, understanding, and compassion, ensuring effective support for individuals facing mental health challenges.
+
+(3) Digital Governance and Public Participation: Taiwan's digital democracy initiatives, such as the vTaiwan platform, use AI to facilitate public deliberation and consensus-building on various issues, including AI ethics and governance. Empathetic AI systems incorporated into the platform ensure diverse perspectives are considered and ethical concerns are addressed throughout the decision-making process. This example highlights Taiwan's commitment to integrating altruistic and anti-authoritarian values in AI applications to support democratic values and transparent governance.
+
