@@ -1,16 +1,11 @@
 5.1.2. Ensuring Fairness and Equity in AI Decision-Making
-Creating ethical and altruistic AI systems necessitates a focus on fairness and equity in AI decision-making. This includes identifying and addressing biases in data and algorithms, as well as implementing methods to minimize the impact of these biases on AI-generated decisions.
+Fair, equitable AI decision-making starts with identifying bias in data and algorithms, then acting on it — through methods that limit how much that bias shapes what the system decides.
 
-Example 1: AI in Hiring Processes
+<<h>>Hiring<</h>>
+Amazon spent several years building an automated tool to score résumés against a decade of the company's hiring data, and abandoned the project after discovering it had taught itself that male candidates were preferable — penalizing résumés that included the word "women's," as in "women's chess club captain," and downgrading graduates of two all-women's colleges, as Reuters reported in 2018 [[cite:C0361]]. The tool had learned the pattern from a decade of résumés that were themselves mostly male, in a mostly male industry: bias in, bias out, at scale. Guarding against this means treating gender, race, and age as categories a hiring system cannot use even indirectly — through re-sampling and re-weighting the training data, adversarial training against a model that tries to predict the protected attribute, and fairness constraints on what the system is allowed to output.
 
-To illustrate the importance of fairness and equity, consider the use of AI systems in hiring processes for analyzing applicant data and recommending candidates for interviews. For these systems to be considered fair, they must not discriminate against candidates based on factors like gender, race, or age. Developers can employ techniques such as re-sampling, re-weighting, and adversarial training to lessen biases present in the training data. Furthermore, the application of fairness constraints or fairness-aware learning methods ensures equitable recommendations across various demographic groups.
+<<h>>Credit Scoring<</h>>
+A credit-scoring system that discriminates on race or gender needs the same defense — fairness-aware learning targeting equalized odds or equal opportunity across demographic groups — plus one hiring doesn't: a rejected applicant has a right to know why, which is what explainability tools make possible. Section 5.1.3 covers what those tools actually do.
 
-Example 2: AI in Credit Scoring
-
-Similarly, in credit scoring scenarios, AI systems evaluate an individual's creditworthiness for loans or credit cards. To uphold fairness and equity, discrimination based on protected characteristics such as race or gender must be avoided. Fairness-aware learning methods, like those targeting equalized odds or equal opportunity, can help balance AI-generated outcomes across demographic groups. Additionally, model explainability techniques, such as LIME and SHAP, provide insight into the AI system's decision-making process, fostering transparency and accountability.
-
-Example 3: AI in Healthcare
-
-AI systems also play a role in healthcare decision-making by diagnosing diseases and recommending treatments. Ensuring fairness and equity in these applications demands accurate and reliable recommendations for all patients, independent of demographic factors like age, gender, or ethnicity. Addressing this challenge requires developers to use diverse and representative datasets for training, coupled with techniques like transfer learning or domain adaptation to improve generalization across different patient populations. Moreover, multi-objective optimization approaches can balance accuracy and fairness in AI decision-making processes.
-
-In summary, fairness and equity considerations must be at the core of AI decision-making to foster ethical and altruistic AI systems. Accomplishing this involves addressing biases in data and algorithms, applying fairness-aware learning methods, using diverse and representative datasets, and implementing explainability techniques for transparency and accountability. By prioritizing fairness and equity, we can create AI systems that contribute to better and more just outcomes in various domains, from hiring and credit scoring to healthcare and beyond.
+<<h>>Healthcare<</h>>
+A diagnostic or treatment-recommendation system owes the same obligation to every patient regardless of age, gender, or ethnicity, which in practice means training on data diverse enough to generalize across patient populations, using transfer learning or domain adaptation where the data for some populations is thinner than others, and weighing accuracy against fairness explicitly rather than optimizing for one and hoping the other follows.

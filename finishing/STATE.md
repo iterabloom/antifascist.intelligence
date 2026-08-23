@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. Written 2026-08-23, updated same day after chapter 4 of P3.
+Read this first. Written 2026-08-23, updated same day after chapter 5 of P3.
 
 ## Where the book is
 
@@ -9,18 +9,47 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-88,479 words as of the last `section_stats.py` run — down from ~113,000 before
+87,548 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
-~19,240 to 14,266.
+~19,240 to 14,266; chapter 5 from 9,021 to 8,090 — a smaller cut than 3 or 4,
+since chapter 5's problem was mostly missing citations and unmarked lists
+rather than duplicated argument.
 
 ## What has actually been done to the prose
 
-**Chapters 2, 3, and 4 in full — 71 sections, all drafted, none
-author-accepted except the original pilot.** Chapters 1, 5–10 (85 sections)
+**Chapters 2 through 5 in full — 90 sections, all drafted, none
+author-accepted except the original pilot.** Chapters 1, 6–10 (66 sections)
 are untouched since 2024: folded, cut, and moved by P1, but not a sentence of
 their prose has changed.
 
+- **Chapter 5** (19 sections, 8,090 words): every section revised. No
+  transplants target this chapter. The one empty opener (§5) was filled by
+  hand. §5.4.3 sits at the center of the book's heaviest cross-chapter
+  redundancy cluster (13 flagged pairs) — rather than re-deriving a fate for
+  it, the agent doing that batch found the project's own existing triage
+  ruling (`triage.tsv`/`triage-brief.md`) already split the cluster's
+  argument in two: the design claim (build systems/policy resistant to
+  authoritarian capture) belongs at §5.4.3, the governance claim (states
+  cooperating on shared norms) belongs at §6.3.2, not yet revised. It
+  independently spot-verified that ruling against the highest-similarity
+  matches before building §5.4.3 out with real policy levers (the EU's
+  dual-use export control, AI Act Article 5 and the Clearview AI case, the
+  Toronto Declaration) it didn't have before. Five more fabrications found
+  and cut, all verified via live search rather than pattern-matching alone: a
+  claim conflating a real finding (Zhao et al. 2017's gender-labeling bias)
+  with the wrong dataset (ImageNet instead of MS-COCO/imSitu), a
+  GPT-3-specific OpenAI explainability initiative search couldn't
+  substantiate, a nonexistent "International Cooperation for AI Safety"
+  organization (the real analog didn't launch until Nov. 2024, after this
+  2023 draft), an unsupported Gabon "deepfake" coup claim (forensics never
+  confirmed it was a deepfake), and an overstated Nagorno-Karabakh
+  "AI-enhanced drones" claim. Also corrected: the COMPAS mechanism (doesn't
+  take race as a direct input; the real problem is differential error
+  rates), the PredPol methodology (arrest data reflects policing patterns,
+  not drug-use rates), and the popular misconception that China's Social
+  Credit System is one unified national score rather than a fragmented
+  patchwork.
 - **Chapter 4** (33 sections, 14,266 words): every section revised. The
   outstanding transplant (T8) landed in §4.3.1, retitled "Two Systems, or
   One?" — replaces dual-process theory presented as settled fact with
@@ -102,23 +131,33 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 3, and 4 done (71 sections), chapters 1, 5–10 not started (85 sections)** |
-| P4 Source | not started — claims ledger now at 357 rows (many added landing transplants and resolving chapter-4 citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead |
+| P3 Revise | **in progress — chapters 2, 3, 4, and 5 done (90 sections), chapters 1, 6–10 not started (66 sections)** |
+| P4 Source | not started — claims ledger now at 378 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **5 →
-7 (absorbing 8) → 6 → 9 → 10 → 1 last.**
+**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **7
+(absorbing 8) → 6 → 9 → 10 → 1 last.**
 
 ## The immediate open items
 
-- **Nothing in chapters 2, 3, or 4 is author-accepted** except the original
-  §3.1.2.3.1.1 Attention pilot. 71 sections are drafted and waiting on a read.
+- **Nothing in chapters 2 through 5 is author-accepted** except the original
+  §3.1.2.3.1.1 Attention pilot. 90 sections are drafted and waiting on a read.
   D-001 allows up to two rounds before the author hand-edits instead.
+- **§6.3.2 needs to earn the "governance/cooperation" home** it was just
+  assigned. Chapter 5's §5.4.3 rebuild explicitly deferred the
+  states-should-cooperate-on-shared-norms half of the book's heaviest
+  redundancy cluster to §6.3.2 (still unrevised, raw 2023 text) — when P3
+  reaches chapter 6, that section needs real, citable content, not just an
+  assertion that it's the designated home.
 - **An unverified "LongShot Drone Program" DARPA claim** was spotted sitting
   in unrevised chapter 7 (§07_02_01 or §07_05) while a chapter-4 agent was
   checking cross-references — not touched, out of scope at the time. Check it
   for fabrication when P3 reaches chapter 7.
+- **An unverified "Madry et al. 2017" OpenAI/Google-Brain attribution** was
+  spotted in unrevised §10.3.3 while a chapter-5 agent was resolving a
+  redundancy against it — not touched, out of scope at the time. Check it for
+  fabrication when P3 reaches chapter 10.
 - **Chapter 7's §7.4 tree overlaps chapter 2's §2.4 tree** (both cover ethics
   of experimenting on sentient AI subjects — §2.4 the definitional/principles
   side, §7.4 the legal/accountability side). §2.4.2–§2.4.7 already carry
@@ -130,8 +169,8 @@ suspected fabrication during P3 itself.
 
 ## What P1 deliberately left for P3, still ahead
 
-- **6 empty openers remaining**: chapters 5, 6, 7, 10, and §§9.1, 9.2 (§4.6
-  and §4.7 are now filled).
+- **5 empty openers remaining**: chapters 6, 7, 10, and §§9.1, 9.2 (§4.6,
+  §4.7, and §5 are now filled).
 - **§1.3**: restore the subheadings deleted in 2024, hit the 1,400-word target.
 - **Compression targets**: §6.4.1 → 350, §7.4.3.1 → 150, §7.4.3.1.1 → 80,
   §10.3.2.1 → 150, §10.1.1/.2 → 200, §10.1.3 → 100 (§4.2.2's own target was
@@ -152,7 +191,7 @@ suspected fabrication during P3 itself.
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 357 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 378 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start** |
 
