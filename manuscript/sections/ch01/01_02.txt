@@ -1,12 +1,9 @@
 1.2. Aims and Objectives
-The primary goal of this report is to guide the development of friendly superintelligent AIs that embody altruism, ethical principles, and empathy. Leveraging our collective expertise in human development, our intention is to establish a roadmap for AI development, which incorporates insights from machine learning, cognitive science, and moral psychology.
-
-In pursuit of this aim, we have established the following objectives:
+This book does not offer a roadmap, in the sense of a sequenced plan with dates that a reader could follow step by step — nobody can write that for a technology at this stage, and claiming otherwise would be dishonest about what's actually known. What it offers instead is concrete: specific design principles drawn from psychology, neuroscience, and moral development; specific technical methods for building them into a learning system; specific policy levers, named and evaluated rather than gestured at; and, where the case calls for it, specific proposals ambitious enough to match the problem — a federal job guarantee to blunt AI-driven labor disruption, export controls on the hardware that makes an authoritarian surveillance state possible, standards with real certification teeth behind them. The chapters that follow are organized around five aims:
 <<list>>
-1. Define the core principles and ethical frameworks necessary for developing friendly AI.
-2. Investigate the cognitive and emotional processes underlying empathy, social intelligence, and moral development in humans, with a focus on how these processes can be incorporated into AIs.
-3. Examine research in machine learning and cognitive science to determine effective methods for building AIs that adhere to ethical norms and exhibit responsible behavior.
-4. Address the challenges and risks associated with developing friendly superintelligent AIs, including unintended consequences, biases, and issues related to robustness, generalization, and long-term safety.
-5. Propose a collaborative research and development strategy that funds interdisciplinary cooperation, stakeholder engagement, and international collaboration, increasing the likelihood of successfully creating friendly superintelligent AI.
+1. Define the ethical frameworks a design can actually draw on, rather than assuming ethics is self-evident once good intentions are in place.
+2. Examine what cognitive science and developmental psychology show about empathy, social reasoning, and moral development in humans, and what of that is portable to an artificial system.
+3. Assess what machine learning methods actually exist for building a system that behaves according to ethical norms, not just one trained to avoid the specific failures its designers happened to anticipate.
+4. Confront the risks squarely: bias, brittleness, goals that drift from what they were meant to want, and deliberate authoritarian misuse.
+5. Set out what collaboration this actually requires — across disciplines, with the public, and across borders — since none of the above happens by one team working alone.
 <</list>>
-This report lays groundwork for research, collaboration, and policymaking toward friendly superintelligent AI.

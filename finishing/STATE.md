@@ -2,7 +2,11 @@
 
 Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
-were drafted (chapter order moves to 1, last, per `PLAN.md`).
+were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
+last section in the entire book with no P3 draft. **Every section in the
+book has now had a P3 pass.** What's left of P3 is author acceptance for
+chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus the accumulated
+`outline.tsv`/TOC title-drift sync and a couple of flagged spot-checks.
 
 ## Where the book is
 
@@ -11,26 +15,29 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-76,798 words as of the last `section_stats.py` run — down from ~113,000 before
+74,797 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
-voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
-~19,240 to 14,266; chapter 5 from 9,021 to 8,090; chapter 7 from ~19,578 to
-13,925 (25 words added post-acceptance for the opener continuity fix below),
-the largest proportional cut yet (29%) — it absorbed the entire former
-chapter 8 as §7.5 and had accumulated real redundancy on top of that (§7.2.5.3
-alone was the book's third-largest cross-chapter redundancy hub); chapter 6
-went from 8,617 to 5,369, a 38% cut; chapter 9 went from 3,808 to 4,531, the
-only chapter to grow rather than shrink; chapter 10 went from 8,150 to 5,561,
-a 32% cut, second only to chapter 6's — see below. (Chapter 5 also gained 17
-words from an unrelated one-sentence fix to a stale forward-pointer, made
-during chapter 10's integration; not a revision of chapter 5 itself.)
+voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
+are the freshly-drafted opener, §3, below — not a re-revision of the rest of
+the chapter, which was already accepted); chapter 4 from
+~19,240 to 14,266; chapter 5 from 9,021 to 8,107 (the 17-word gain is an
+unrelated one-sentence fix to a stale forward-pointer, made during chapter
+10's integration, not a re-revision of chapter 5 itself); chapter 7 from
+~19,578 to 13,925 (25 words added post-acceptance for the opener continuity
+fix below); chapter 6 went from 8,617 to 5,369, a 38% cut; chapter 9 went
+from 3,808 to 4,531, the only chapter to grow rather than shrink; chapter 10
+went from 8,150 to 5,561, a 32% cut; chapter 1 went from 3,241 to 1,149, a
+65% cut and the largest proportional cut in the whole pass — see below.
 
 ## What has actually been done to the prose
 
 **Chapters 2 through 5 and chapter 7 — 112 sections author-accepted 2026-08-23,
 one exception.** The author accepted the full drafted batch in one pass. The
-exception is the chapter 3 opener (§3): it was never drafted — still 2023
-prose — so it isn't part of the acceptance and chapter 3 is not fully done.
+exception was the chapter 3 opener (§3): at that point it had never been
+drafted — still 2023 prose — so it wasn't part of the acceptance and chapter
+3 wasn't fully done. It has since been drafted too, in this same session
+(below) — not yet accepted, so chapter 3 still isn't fully done, but for a
+different reason now: a fresh draft awaiting a read, not missing prose.
 (The chapter 2 opener, §2, *was* drafted in `e4d369f` but its ledger row had
 been left at `structured`; corrected to `accepted` alongside this batch.)
 Two accepted rows carry a caveat worth naming rather than passing over
@@ -39,11 +46,53 @@ this acceptance, and §7.2.2 contains claims (Clearview's accuracy marketing,
 the Carnegie AIGS Index, GPAI's founding) that STATE.md's chapter-7 account
 below says were corrected on high-confidence background knowledge rather than
 live-verified — both are now accepted along with everything else, but neither
-has had that specific gap closed. Chapters 6, 9, and 10 are now drafted too
-(all below) but none is yet author-accepted. Chapter 1 (4 sections, plus the
-§3 opener — 5 total) and chapter 8 (folded into 7.5) are what's left untouched
-since 2024: folded, cut, and moved by P1, but not a sentence of chapter 1's
-prose has changed.
+has had that specific gap closed. Chapters 1, 6, 9, and 10 are now drafted
+too (all below) but none is yet author-accepted — nor is the chapter 3
+opener (§3), drafted for the first time in this same pass (below). **Every
+section in the book — all 156, across all ten active chapters — has now had
+a P3 pass.** Chapter 8 was folded into 7.5 by P1; nothing else remains
+untouched since 2024.
+
+- **Chapter 1** (4 sections, 1,149 words, down from 3,241 — 65%, the largest
+  proportional cut of the whole pass): every section revised, including a
+  full rebuild of §1.3, which restores the run-in heads deleted in 2024
+  (found in `manuscript/previous/parseable_text_2023-11-21.txt`: the section
+  was originally four numbered subsections — Growth Mindset; Encouraging a
+  Growth Mindset; Intrinsic Motivation and Autonomy; Interdisciplinary
+  Collaboration — folded into headerless prose sometime before the 2024
+  snapshot). §1.3 turned out to be the most extreme case of pre-emptive
+  duplication found in the whole project: essentially its entire 2,526-word
+  original is now superseded, in more developed and better-cited form, by
+  chapters that didn't exist in revised form when P1 set its structure —
+  the growth-mindset material by 4.1/4.1.1 (Dweck), the intrinsic-motivation
+  material by 4.6/4.6.1/4.6.2, the autonomy material by 3.3.3 and 2.4.4.2,
+  and the interdisciplinary-collaboration strategy list by 6.1, which names
+  real institutions (Stanford's One Hundred Year Study, the Partnership on
+  AI) this draft only gestured at generically. Rewrote as a genuine preview
+  of three themes with real cross-references, landing at 359 words — well
+  under the triage-set 1,400-word target, not padded to reach it, consistent
+  with §10.1.3's precedent of an honest short section over manufactured
+  length. §1.2 directly resolves D-023 (Q-013): "our intention is to
+  establish a roadmap for AI development" is replaced with an explicit
+  statement of what the book actually promises — concrete, specific, and
+  where warranted ambitious proposals, named directly (the job guarantee at
+  7.1.4, the EU's dual-use export controls at 5.4.3, ISO 42001 certification
+  at 6.3.2) — and does not promise (a sequenced plan with dates). §1 and §1.1
+  were voice-fixed and cut of two more redundant sentences (a generic
+  "respect human dignity" line duplicating 7.2.5.2, and a stale chapter
+  preview that predated the final 8-chapter structure) rather than argued.
+  No new citations were needed anywhere in the chapter — every claim kept is
+  a cross-reference to where it's already cited, following 9.1's and
+  10.1.3's precedent that a pure synthesis section carries none of its own.
+
+- **The chapter 3 opener (§3)** (79 → 131 words): the one section in the
+  entire book that had never had a P3 draft, finished in the same pass as
+  chapter 1 rather than left open. Rewritten by hand to bridge chapter 2's
+  sentience/empathy/compassion foundations into chapter 3's cognition/
+  alignment/play structure and accurately preview §§3.1-3.3. Chapter 3's own
+  body (3.1-3.3.x) was already author-accepted; this opener is not — it's a
+  fresh draft on a chapter otherwise done, the same status as chapter 2's
+  opener before this session's acceptance batch caught up to it.
 
 - **Chapter 10** (12 sections, 5,561 words, down from 8,150 — 32%): every
   section revised, including the empty chapter opener and all three empty
@@ -405,24 +454,23 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 6, 9, and 10 drafted, not yet author-accepted; chapter 1 not started (4 sections + §3)** |
+| P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
 | P4 Source | not started — claims ledger now at 532 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **1, last —
-the only chapter remaining.**
+**No chapter order remains for P3** — every section in the book has a draft,
+including the chapter 3 opener. What's left is the author's read of
+chapters 1, 6, 9, and 10 plus the chapter 3 opener (44 sections total), and
+the housekeeping below.
 
 ## The immediate open items
 
-- **The chapter 3 opener (§3) still needs its P3 draft** — it's the one
-  section in chapters 2-5 and 7 not swept up in the 2026-08-23 acceptance,
-  because it was never revised. Everything else in those chapters is now
-  author-accepted; D-001's two-round return path no longer applies to them
-  unless the author reopens a specific section.
-- **Chapters 6, 9, and 10 are drafted but not author-accepted** — 16, 11,
-  and 12 sections respectively, waiting on a read, same as the rest of the
-  drafted-not-accepted backlog before them.
+- **Chapters 1, 3's opener, 6, 9, and 10 are drafted but not author-accepted**
+  — 4, 1, 16, 11, and 12 sections respectively (44 total), waiting on a read.
+  Everything else in the book is already author-accepted; D-001's two-round
+  return path no longer applies to it unless the author reopens a specific
+  section.
 - **`finishing/outline.tsv` and `manuscript/table-of-contents.txt` have
   accumulated 38 stale titles** against the manuscript's own (authoritative,
   D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
@@ -433,22 +481,28 @@ the only chapter remaining.**
   `10_03_02`, `10_03_03` — every chapter-10 body section was retitled too).
   `check_structure.py` treats
   this as a note, not an error, so it hasn't blocked anything — but it's real
-  drift, not yet fixed by any chapter's revision pass so far, worth a
-  dedicated sync (`headings.py --write-toc`, plus a hand pass on
-  `outline.tsv`) once structure has fully settled rather than chapter by
-  chapter. `finishing/reports/headings_reconcile.md` has the full list.
+  drift, not yet fixed by any chapter's revision pass. **Structure has now
+  fully settled** — every chapter has a draft — so the dedicated sync
+  (`headings.py --write-toc`, plus a hand pass on `outline.tsv`) this note
+  has deferred "until structure settles" since chapter 6 no longer has
+  anything left to wait on. Worth doing before or during P4 rather than
+  deferred again. `finishing/reports/headings_reconcile.md` has the full list.
 - **The Clearview/AIGS Index/GPAI details in §7.2.2** were corrected on
   high-confidence background knowledge, not live-verified this session (the
   agent's web-search budget ran out mid-task) — worth a spot-check before P4
   treats them as resolved.
-- **Q-013** — the roadmap the introduction promises, which §10.2 doesn't
-  deliver and §10.2.1 concedes. Applies when P3 reaches chapter 1, last.
 
 ## What P1 deliberately left for P3, still ahead
 
+**Nothing.** Every item below is now resolved; kept as a record of what P1
+handed off rather than a live punch list.
+
 - **0 empty openers remaining** (§4.6, §4.7, §5, §6, §7, §§9.1/9.2, and
   chapter 10's own opener and §§10.1/10.2/10.3 are all now filled).
-- **§1.3**: restore the subheadings deleted in 2024, hit the 1,400-word target.
+- **§1.3**: subheadings restored (as run-in heads — see the chapter 1 account
+  above for why not as numbered subsections) and compressed to 359 words,
+  under the 1,400-word target because nearly all its original content turned
+  out to be superseded elsewhere by the time chapter 1's pass arrived.
 - **Compression targets** (§4.2.2's own target was overtaken by the revise
   pass — it's now 418 words of substantially different, non-redundant
   content, not the original 200-word compression target of the same old
