@@ -1,17 +1,16 @@
-**Session digest — 2026-08-22 (later)**
+**Session digest — 2026-08-22 (later still)**
 
-All eight questions answered; recorded as D-006 through D-013 in `DECISIONS.md`.
-Applied immediately:
+Your eight answers are recorded as D-006…D-013 and applied. Since then:
 
-- **Revise, not rewrite (D-007).** `PLAN.md` §1 rewritten to say so, including what that rules out, so it is not silently reintroduced later.
-- **Authoritative text moved (D-011).** `AGENTS.md` amended with your approval; `manuscript/table-of-contents.txt` regenerated from the manuscript's own headings — 293 stale entries replaced by the real 282.
-- **Title conflict closed (D-006).** `outline.tsv` now says "Applications and Examples"; manuscript and outline agree on all 282 numbers *and* titles.
-- **Epigraphs kept (D-012).** A permissions task is now tracked in `PLAN.md` §1 rather than being re-argued.
+- **Style sheet written** (`finishing/style.md`) — the operative spec for the revise pass. Behind it: "foster" 278× in 149 sections (once every 415 words); the authorial "we" 258× in 131 sections; 31 sections that end by summarizing themselves.
+- **The build works.** Chapter 3 goes HTML → LibreOffice → PDF, 55 pages, justified text and intact headings. Commands and limits in `finishing/pipeline.md`.
+- **Triage is ready for you** — `finishing/reports/triage/ch01.md` … `ch10.md`, one table per chapter, every section with a proposed fate and its reason.
 
-Two things worth your eye, neither blocking:
+**The finding that should change your picture:** the three-level cap you chose in Q-004 is the largest operation in the book. **110 sections holding 50,422 words — 41% of the text — sit deeper than three levels**, so 101 of them lose their heading and their text joins the section above. Chapter 3 alone has 39 such sections, chapter 2 has 20. No words are cut, but every seam needs an edit, and it is much more work than "cut §6.4.1.1–.9 and fold chapter 8" sounded like.
 
-1. **Length.** D-002 wants 75–90k. The D-010 cuts remove ~8–10k and the duplication cuts maybe as much again, from 115,377 — landing near 95–100k. Under revise-only that gap closes by cutting more, not by writing less.
-2. **The quarry.** D-006 in the meta-plan assumed ~12k words transplanted from the *Atlas*. That is new prose, which revise-only excludes. See Q-009.
+Proposed fates across 282 sections: **141 revise · 101 fold · 13 move · 9 cut · 7 merge · 11 fill-or-cut** (headings with no body text at all).
+
+**Your move, when you have 20 minutes:** open one chapter mirror and change any fate you disagree with — chapter 9 is the shortest (12 sections), chapter 3 the most consequential (55). Nothing is blocked meanwhile.
 
 ---
 
