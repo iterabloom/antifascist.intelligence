@@ -282,3 +282,15 @@ C0280	2.2.1		named_theory	later narrowing of the mirror-neuron claim	Rizzolatti'
 C0281	3.1.1		named_system	ACT-R	Adaptive Control of Thought-Rational cognitive architecture, John Anderson	unverified	
 C0282	3.1.1		named_system	Society of Mind	Minsky's Society of Mind architecture	unverified	
 C0283	3.1.1		named_theory	predictive processing / active inference	single-loop account unifying perception, memory, attention, executive function under prediction-error minimization	unverified	introduced by transplant T15
+C0284	3.1.2		named_theory	predictive coding, Rao & Ballard 1999 / Friston	visual cortex sends predictions down, prediction error up; Friston's broader cortical theory	unverified	introduced by transplant T12
+C0285	3.1.2		named_theory	Anil Seth, controlled hallucination	perception as hallucination constrained by sensory correction	unverified	introduced by transplant T12
+C0286	3.1.2		named_study	Frederic Bartlett, 1930s folk-tale retelling	memory as reconstruction via schema, not playback	unverified	introduced by transplant T13
+C0287	3.1.2		named_study	Elizabeth Loftus, car-accident wording / false-memory implantation	leading words alter recalled detail; whole false episodes implantable	unverified	introduced by transplant T13
+C0288	3.1.2		named_study	George Miller 1956, "The Magical Number Seven, Plus or Minus Two"	working-memory capacity ~7 items, chunking	unverified	introduced by transplant T14
+C0289	3.1.2		named_study	Nelson Cowan 2001 review	working-memory capacity ~4 items when chunking controlled	unverified	introduced by transplant T14
+C0290	3.1.2		named_theory	Earl Miller and Jonathan Cohen, prefrontal goal-representation / biased-competition model	control without a homunculus: goal representations bias competing processes	unverified	introduced by transplant T5
+C0291	3.1.2		named_system	Woebot	CBT chatbot, text-based emotional-state interpretation	unverified	
+C0292	3.1.2		named_system	AutoTutor	intelligent tutoring system, affective computing	unverified	
+C0293	3.1.2		named_system	Paro	therapeutic robot seal, dementia care	unverified	
+C0294	3.1.2		named_system	Replika	companion chatbot	unverified	
+C0295	3.1.2		named_system	Affectiva	facial-expression emotion analysis platform	unverified	
