@@ -75,6 +75,26 @@ untouched since 2024.
   cutting load-bearing contrasts, which this pass did not do** — whether an
   argumentative body chapter should match an introduction's density is a
   judgment for the author, not something to assume.
+- **`ORDER.tsv` title column was load-bearing after all; corrected**
+  (2026-08-23). Building the proof PDF exposed an error in the previous
+  commit's reasoning. `finishing/tools/render.py` reads `ORDER.tsv` and
+  takes **every rendered heading's title from its `title` column**, not from
+  the section files' own first lines. So the 55 titles left stale through
+  D-024 and the §10.2 retitle were wrong in every proof PDF built since:
+  24 headings still read "Anti-Authoritarian" and §10.2 still read
+  "Roadmap," even though the manuscript source was correct. Nothing in
+  `check_all.sh` catches this — `check_structure.py` compares
+  `parseable_text_v4.txt` against `outline.tsv` and never reads
+  `ORDER.tsv`'s titles, which is why the drift survived a passing check.
+  The 55 titles are now synced from the section headings and the PDF
+  rebuilt clean (0 stale headings). **The `sha256` column is deliberately
+  left alone**, on a different rationale than the one I wrongly applied to
+  titles: all 156 hashes record the original 2024 split and have been stale
+  since P3 began rewriting sections. They are provenance, nothing reads
+  them, and recomputing them would destroy the record. `ORDER.tsv` is
+  therefore mixed by design — live `title`, historical `sha256` — and that
+  asymmetry is now written down so it is not "fixed" later by mistake.
+  Worth adding an `ORDER.tsv`-title check to `check_all.sh` during P6.
 - **§10.2 retitled, D-023's last live conflict closed** (2026-08-23, the
   author's title): "Roadmap for Altruistic and Antifascist Superintelligence"
   → **"Signatures of Altruistic and Antifascist Superintelligence."**
@@ -86,10 +106,8 @@ untouched since 2024.
   title; cut per D-025. §10.2.2's "the alternative to a fixed roadmap"
   cross-reference updated to match. §10's opener keeps its "short of the
   finished roadmap this book does not claim to deliver" — that is a claim
-  about the book, not a pointer to the title. `ORDER.tsv`'s title and
-  sha256 columns are left stale by design: they are a snapshot from the
-  original split, are not validated by `check_structure.py`, and were
-  already stale after D-024.
+  about the book, not a pointer to the title. **`ORDER.tsv`'s stale titles turned out to be a
+  real defect, not a harmless snapshot** — see the correction below.
 - **P3.5 completed across the remaining seven chapters** (2026-08-23): swept
   by four parallel agents on disjoint chapters (7; 2 and 9; 3 and 6; 5 and
   10), each given the author's chapter 1 cuts, the five author-confirmed
