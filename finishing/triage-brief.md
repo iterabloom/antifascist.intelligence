@@ -46,6 +46,19 @@ where transplant T6 lands 900 words. Members: `2.3.1`/`2.3.2` home · `4.2.2` an
 (which emotions matter morally, guilt and shame), cross-referencing §2.3 ·
 `3.1.2.3.1.10` folds by depth · `9.2.3` already ruled `merge` by the author.
 
+## A correction to an earlier claim
+
+An earlier report of mine said the book has no AI-safety vocabulary — no
+alignment problem, no boxing, no takeoff. **That was wrong**, and the chapter 4-5
+ruling caught it. Measured over the manuscript: "value alignment" 48 times
+across eight chapters, "AI safety" 31, "the alignment problem" 4 (and §5.3.1 is
+titled for it), "existential risk" 6, "paperclip" 3, "kill switch" and
+"interruptibility" once each. Only "boxing", "takeoff" and "recursive
+self-improvement" are genuinely absent.
+
+The practical consequence: do not treat the safety vocabulary as a gap to be
+filled, because it is mostly already there. §5.3 is the chapter that carries it.
+
 ## The fates
 
 | Fate | Means |
