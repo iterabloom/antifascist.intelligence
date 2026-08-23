@@ -74,11 +74,26 @@ Ranked by hours saved per unit of regret:
 3. **Accept the citation ceiling.** If ~273 placeholders is too many to resolve, the rule from D-009 already covers it: what cannot be sourced is cut. Applying that aggressively converts citation hours into cut hours, which are cheaper.
 4. **Do not add scope.** The transplant budget is 12k words; the pilot suggests the real cost of a transplant is not its words but the join paragraph that has to be written for each one.
 
+## What the second pilot changed
+
+T4 (mirror neurons → §2.2.1) was run precisely because it was the hard case: six
+personal names to scrub, and a mode — `boxed-case` — the markup could not yet
+express.
+
+- **The name rule costs about a third again**, not double, and the cost is judgment rather than time. Three name instances needed three different decisions; a script can find them but cannot make the call.
+- **Most of the overhead was one-time.** The `<<box>>` construct and two renderer fixes are now done for all sixteen transplants.
+- **Two rendering faults passed every automated check** and were caught only by looking at the page. Budget a visual proof read per chapter, not per section.
+
+So the per-section figures above stand, with a modifier: **the six transplants
+carrying heavy name or second-person load cost roughly 1.3× a plain one**, and
+the sixteen transplants together are perhaps two to three author-hours more than
+the flat estimate implies. That does not move the headline range.
+
 ## Confidence
 
-Low-to-moderate, and honestly so. It rests on one section, chosen because it was
-the easiest transplant in the set, drafted by an agent that had just written the
-style sheet it was drafting against. The transplants with heavy
-person-scrubbing (T4), heavy second-person dependence (T5, T9), or an
-argument-level decision attached (T7) will cost more per word. A second pilot on
-one of those would sharpen this materially; T4 is the natural choice.
+Moderate now, rather than low-to-moderate. Two sections, chosen as the easiest
+and one of the hardest transplants in the set, landed within the same cost band.
+The remaining unknowns are the author's minutes per section read — still the
+dominant term, still unmeasured — and the transplants with heavy second-person
+dependence (T5, T9), where the conversion loses force rather than names and no
+pilot has tested that yet.
