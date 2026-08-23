@@ -1,22 +1,17 @@
 4.4.4. Macrosystem Influences on AI Development and Employment
-Macrosystems, aptly explained as the overarching cultural, societal, and economic contexts, play an integral role in shaping the development and utilization of AI technologies. Acknowledging these influences is pivotal to the creation of AI systems that uphold ideals of altruism and resist authoritarian tendencies.
+The macrosystem is the cultural, social, and economic context an AI system is developed and deployed inside — the broadest ring of the framework, and the hardest for any single team to see past, because from inside it looks like just how things are done.
 
-Engaging with two distinctive healthcare systems, the market-driven, competitive framework of the United States, and the equity-focused, centralized system of Norway, we can uncover how macrosystemic influences directly affect AI development.
+Healthcare illustrates what that means without needing to name any particular country's system. A market-driven healthcare system, where AI vendors answer to insurers and providers competing for paying patients, creates an incentive to build tools for profitable conditions and well-insured populations, and comparatively little incentive to build tools for preventive care or mental health, where the payoff is diffuse and the paying customer is unclear. A universal, publicly funded system creates a different incentive: a tool has to serve the whole population it is built for, because there is no more profitable subset to redirect development toward instead. Neither incentive structure is chosen by the engineers writing the code. It is inherited from the payment system the code has to operate inside.
 
-In the American healthcare setting, underpinned by neoliberal values, profit-driven objectives tend to guide AI development. This results in a disproportionate focus towards generating technologies that cater to wealthier segments of society or high-profit medical conditions, leaving vital yet less profitable sectors like preventative care or mental health under-resourced. Additionally, the fragmented US healthcare system may lead to AI solutions being tailored towards specific provider networks or insurance groups, complicating interoperability and increasing disparities in healthcare access.
+The same logic generalizes past healthcare. A region that invests heavily in public education tends to produce AI applications oriented toward lifelong learning and accessibility, because that is where the funding and the institutional relationships already are. A region with weak labor protections tends to produce AI-driven efficiency gains that arrive faster than any accompanying protection for the workers they displace, because nothing in the macrosystem is pushing back on that gap.
 
-Alternatively, the Norwegian healthcare system, rooted in principles of universal access and equity, promotes AI development aimed at elevating patient outcomes and enhancing system-wide efficacy. These imperatives encourage the production of comprehensive AI solutions addressing a broad spectrum of health issues while benefiting the entire patient population. Moreover, the centralized nature of Norway's healthcare system fosters seamless integration and data sharing across the system, resulting in coherent and synergistic AI applications.
+Building AI systems that resist rather than reinforce authoritarian and inequitable macrosystem pressure takes at least four things:
 
-Extending beyond healthcare, these macrosystem dynamics pervade various sectors and countries. Factors such as public policy, cultural values and economic conditions hold considerable sway over the direction and trajectory of AI research and applications. In regions with a strong focus on public education investment, AI applications are likely to prioritize lifelong learning and accessibility. Conversely, areas marred by insufficient worker rights protections may grapple with the task of aligning efficiency improvements driven by AI with labor rights and job security concerns.
+<<list>>
+- Funded, interdisciplinary study of how cultural, political, and economic context actually shapes AI development and deployment, rather than assuming the shape is neutral.
+- Regulation and public policy that name anti-authoritarian AI development as a goal, not a byproduct of unrelated rules.
+- Comparative analysis across macrosystem contexts, so what works in one setting can be checked against what happens when the same tool is dropped into a different one.
+- Cross-border and cross-cultural exchange, so a democratic macrosystem's practices have some route into a context where the local macrosystem is pulling the other way.
+<</list>>
 
-In fostering altruistic and anti-authoritarian AI systems amidst diverse macrosystem contexts, we propose several strategies:
-
-(1) Promote and fund interdisciplinary research and dialogue to scrutinize the intersection of cultural, socio-political, and economic contexts with AI development and deployment.
-
-(2) Advocate for regulatory measures and public policies that prioritize ethical and anti-authoritarian AI development, address potential risks, and foster collaboration among stakeholders.
-
-(3) Perform comparative analyses of different AI systems in diverse macrosystem contexts to compile best practices and innovations that advance altruism, counter authoritarianism, and promote shared ethical principles.
-
-(4) Support cross-border and cross-cultural knowledge exchange to encourage the creation and dissemination of AI applications that protect democratic values and resist authoritarian inclinations.
-
-The context of adaptive macrosystem environments profoundly shapes the trajectory of AI development. A nuanced understanding of these influences is critical in ensuring the creation of AI systems that espouse ideals of altruism, foster equity, oppose authoritarian tendencies, and ultimately, enhance societal well-being and uphold democratic principles throughout their deployment.
+A macrosystem is not a backdrop an AI system operates in front of. It is one more thing the system is built out of, and a development effort that never asks what its own macrosystem is rewarding is not neutral on the question — it has just let the answer get decided somewhere else.
