@@ -294,3 +294,8 @@ C0292	3.1.2		named_system	AutoTutor	intelligent tutoring system, affective compu
 C0293	3.1.2		named_system	Paro	therapeutic robot seal, dementia care	unverified	
 C0294	3.1.2		named_system	Replika	companion chatbot	unverified	
 C0295	3.1.2		named_system	Affectiva	facial-expression emotion analysis platform	unverified	
+C0306	3.1.3		named_system	Model-Agnostic Meta-Learning (MAML)	tunes model starting parameters so few new examples specialize it	unverified	
+C0307	3.2.3		named_study	MIT Moral Machine (Awad et al.)	crowdsourced moral-dilemma judgments for autonomous-vehicle training data	unverified	
+C0308	3.3.2		named_theory	curiosity-driven exploration via self-supervised prediction / intrinsic curiosity module (Pathak et al.)	prediction error as intrinsic reward signal	unverified	
+C0309	3.3.3		named_theory	Vygotsky, zone of proximal development	learning is most effective just ahead of current skill, with support	unverified	
+C0310	3.3.1		named_study	OpenAI Hide and Seek	emergent tool use from multi-agent self-play	unverified	

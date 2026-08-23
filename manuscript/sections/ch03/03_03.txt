@@ -1,2 +1,2 @@
 3.3. The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI
-First, we discuss how play-inspired mechanisms can contribute to the development of ethical artificial intelligence (AI). Second, we explore how curiosity and creativity in AI systems can be leveraged for anti-authoritarian objectives. Third, we draw out lessons from human child development and exploration that can be accommodated within the design and operational parameters of AI systems.
+Play-inspired mechanisms can shape how an AI system develops ethically. Curiosity and creativity, cultivated deliberately, can be turned toward anti-authoritarian ends. And human child development offers lessons about play and exploration worth carrying into how AI systems are designed and run.

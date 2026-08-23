@@ -29,18 +29,18 @@ num	title	level	words_v3b	status	action	quarry_src	evidence	decisions	owner	note
 3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	380	accepted	revise			D-010;	agent-drafted	P3 revised, author-accepted 2026-08-23; 380->~208
 3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	484	accepted	revise			D-010;	agent-drafted	P3 revised, T15 landed as box (ACT-R/SoM adjudicated via predictive processing), author-accepted 2026-08-23; 484->~410 body +box
 3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	12149	drafted	revise		absorbed:24;absorbed:24	D-010	agent-drafted	P3 revised: T5,T12,T13,T14,T16 landed; mirror-neuron echo of 2.2.1 fixed; Applications/Frameworks/Challenges/Examples-of-Integrated-Systems (4 heads) consolidated to 2 (fabricated systems CarpeDiem/Hebbian-Feature-Learning-model/Neural-Modulation/CASA cut per D-009); 12149->~5157, not yet author-accepted
-3.1.3	Human-Like Learning and Generalization in AI Systems	3	5325	structured	revise		absorbed:13;absorbed:13	D-010		absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4; absorbs 3.1.3.1,3.1.3.1.1,3.1.3.1.2,3.1.3.1.3,3.1.3.1.4,3.1.3.2,3.1.3.2.1,3.1.3.2.2,3.1.3.2.3,3.1.3.2.4,3.1.3.2.5,3.1.3.3,3.1.3.4
-3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	structured	revise			D-010		
-3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	1594	structured	revise		absorbed:2;absorbed:2	D-010		absorbs 3.2.1.1,3.2.1.2; absorbs 3.2.1.1,3.2.1.2
-3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	structured	revise		claims:1	D-010		
-3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	structured	revise		unmarked-list-items:4	D-010		
-3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	structured	revise			D-010		
-3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	structured	revise			D-010		
-3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	structured	revise		unmarked-list-items:3	D-010		
-3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	structured	revise			D-010		
-3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	structured	revise			D-010		
-3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	structured	revise		xchapter-pairs:4	D-010		
-3.3.3	Lessons from Human Child Development and Exploration	3	393	structured	revise		unmarked-list-items:4	D-010		
+3.1.3	Human-Like Learning and Generalization in AI Systems	3	5325	drafted	revise		absorbed:13;absorbed:13	D-010	agent-drafted	P3 revised: 13 folded run-in heads consolidated to 3, fabricated FaceNet/Berkeley/cross-modal claims cut, cross-ref to 10.3.3 added; 5396->1452, not yet author-accepted
+3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	83	drafted	revise			D-010	agent-drafted	P3 revised: signposting cut; 93->64, not yet author-accepted
+3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	1594	drafted	revise		absorbed:2;absorbed:2	D-010	agent-drafted	P3 revised: pseudo-lists to prose, duplicate reward-hacking/CIRL cut, cross-ref to 3.2.2; 1617->779, not yet author-accepted
+3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	496	drafted	revise		claims:1	D-010	agent-drafted	P3 revised: fabricated Hadfield-Menell furniture-assembly demo cut, C0030 attached; 508->~280, not yet author-accepted
+3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	574	drafted	revise		unmarked-list-items:4	D-010	agent-drafted	P3 revised: pseudo-lists to prose/list, C0307 (Moral Machine) added; 582->444, not yet author-accepted
+3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	481	drafted	revise			D-010	agent-drafted	P3 revised: signposting and closer cut; 492->342, not yet author-accepted
+3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	384	drafted	revise			D-010	agent-drafted	P3 revised: typo/spelling fixed, tics cut; 396->317, not yet author-accepted
+3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	440	drafted	revise		unmarked-list-items:3	D-010	agent-drafted	P3 revised: pseudo-list to real list; 453->312, not yet author-accepted
+3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	56	drafted	revise			D-010	agent-drafted	P3 revised: signposting cut; 56->41, not yet author-accepted
+3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	625	drafted	revise			D-010	agent-drafted	P3 revised: vague 'Google DeepMind' claim cut, C0310 (Hide and Seek) added, cross-ref to 3.2.6; 625->391, not yet author-accepted
+3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	473	drafted	revise		xchapter-pairs:4	D-010	agent-drafted	P3 revised: invented CDE-SSP acronym cut (C0308 added), moral/empathy content cross-referenced to 4.7 per D-020; 473->382, not yet author-accepted
+3.3.3	Lessons from Human Child Development and Exploration	3	393	drafted	revise		unmarked-list-items:4	D-010	agent-drafted	P3 revised: pseudo-list to real list, C0309 (Vygotsky ZPD) added; 393->280, not yet author-accepted
 4	Moral Psychology and AI	1	35	structured	revise			D-010		
 4.1	Moral Development in Humans and AI	2	493	structured	revise		claims:1	D-010		
 4.1.1	Stages of Moral Development: From Rules to Principles and the Influence of Mindset	3	1088	structured	revise		absorbed:1;absorbed:1	D-010		absorbs 4.1.1.1; absorbs 4.1.1.1
