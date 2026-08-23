@@ -14,4 +14,3 @@ To foster a society that understands, benefits from, and contributes to the ethi
 (6) Funding AI education in underrepresented communities: Ensuring equal access to AI education and training opportunities for underrepresented and marginalized communities is crucial for promoting diversity and inclusion in AI development. Programs like AI4ALL work to bridge this gap by providing AI education to underrepresented high school students, fostering a more diverse next generation of AI leaders.
 
 By implementing these strategies, we can create an informed and skilled global community that's equipped to tackle the complex ethical challenges posed by AI and promote the development of altruistic, anti-authoritarian AI systems.
-

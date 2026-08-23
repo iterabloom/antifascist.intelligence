@@ -18,4 +18,3 @@ These interdisciplinary teams should be responsible for:
 (5) Reporting case studies: To demonstrate progress and illuminate the potential benefits and pitfalls of altruistic, anti-authoritarian AI, interdisciplinary teams should develop case studies that detail the implementation and outcomes of specific AI systems. This might involve the creation of hypothetical scenarios or the analysis of real-world cases to better understand the implications of various AI technologies.
 
 The ethical development of superintelligent AI systems requires continuous evaluation, interdisciplinary collaboration, and the proactive adjustment of strategies based on real-world outcomes.
-

@@ -48,6 +48,12 @@ def main():
         depth = {"quote": 0, "list": 0, "box": 0}
         for i, line in enumerate(lines, 1):
             s = line.strip()
+            if "<<h>>" in line or "<</h>>" in line:
+                if not (s.startswith("<<h>>") and s.endswith("<</h>>")
+                        and len(s) > 11):
+                    errs.append("%s:%d malformed run-in head: %r"
+                                % (r["path"], i, s[:60]))
+                continue
             for tag in ("quote", "list", "box"):
                 if s == "<<%s>>" % tag:
                     if depth[tag]:

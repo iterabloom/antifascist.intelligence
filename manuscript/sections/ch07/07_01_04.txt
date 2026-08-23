@@ -14,4 +14,3 @@ Superintelligent AI systems will inevitably lead to workforce disruption as task
 (6) Encouraging AI-Human Collaboration: Policymakers and researchers should explore ways to foster AI-human collaboration, leveraging the unique strengths of both humans and AI systems. By creating environments where AI systems augment and support human decision-making and creativity, new job opportunities may emerge that require a combination of human and AI capabilities.
 
 (7) Supporting Small and Medium-sized Enterprises (SMEs): Policymakers should consider providing SMEs access to AI resources and expertise to enable them to compete more effectively with dominant industry players. Encouraging a more diverse AI ecosystem can promote innovation, prevent monopolization, and create additional employment opportunities.
-

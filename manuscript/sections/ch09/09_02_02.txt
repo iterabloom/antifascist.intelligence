@@ -14,4 +14,3 @@ The below research foci would develop AI systems with a higher degree of emotion
 - Build a collaborative and interdisciplinary research community of AI developers, ethicists, neuroscientists, psychologists, and political scientists to investigate the intersection of AI self-awareness, emotional regulation, and resistance to authoritarian manipulation. Encourage discussions, joint research initiatives, and shared platforms for knowledge exchange and idea generation in the pursuit of an ethical and anti-authoritarian superintelligence.
 
 - Explore real-world applications where AI systems require self-awareness, emotional regulation, and resistance to authoritarian forces. Providing examples where the development and deployment of such AI systems could support humanitarian, legal, or political facilitation processes in democratic and undemocratic societies.
-

@@ -1,3 +1,2 @@
 4.2. Emotions and Intuitions in Moral Decision-Making
 Recognizing the profound influence of emotions on human morality, our approach aims to investigate how these emotional dimensions can be effectively harnessed in shaping the ethical behavior of artificial intelligence. From the tugs of empathy that humanize our interactions to the moral compass of guilt that nudges us away from wrongdoing, emotions stir a powerful undercurrent in the sea of our moral decisions.
-

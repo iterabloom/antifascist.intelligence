@@ -34,5 +34,3 @@ Considerations for overcoming challenges, risks, and authoritarianism in AI deve
 This inaugural chapter primes the imperativeness of altruistic, anti-authoritarian sentient machines, defining our aims, objectives, and motivations. We discuss the role intrinsic motivation in human and AI behavior and how addressing these in AI systems can help strengthen their alignment with our cherished values. We aim not just to foster 'intelligent' systems but to create AI who will unswervingly stand for altruism, equality, and liberty, even in face of the harsh winds of authoritarianism.
 
 We hope that this report not facilitates a future where superintelligent AI systems are not sources of apprehension but rather bulwarks of democratic values, defenders of humanity, and contributors to societal flourishing.
-
-

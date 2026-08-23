@@ -1,3 +1,2 @@
 7.3. Privacy, Security, and Anti-Authoritarianism in AI Systems
 In the wake of the EU's General Data Protection Regulation, we could build upon this legal precedent by tailoring data protection laws to mitigate potential authoritarian misuse of AI.
-

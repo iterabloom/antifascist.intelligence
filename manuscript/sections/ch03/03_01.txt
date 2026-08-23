@@ -8,5 +8,3 @@ Replicating human-like learning and reasoning in AI models, however, remains ins
 In another sphere, we might envisage a potential AI application within the judicial legal system. Here, our goal would go beyond mere efficiency to consider principles such as justice and fairness. A human judicial cognitive model integrated into an AI system would enable it to evaluate laws and precedents (memory), analyze the details of a specific case (perception), and reach a decision that adheres to normative ethical standards and maximizes fairness and impartiality (reasoning).
 
 Developing AI systems that reflect aspects of human cognition expands their problem-solving repertoire, enabling them to cope with a broader array of challenges. However, incorporating ethical principles adds an imperative dimension to their decision-making processes. This leads to more context-aware, well-rounded decisions that respect and promote our collective human values, further enabling these systems to commit firmly against authoritarianism and contribute effectively to a fair, empathetic, and democratic society.
-
-

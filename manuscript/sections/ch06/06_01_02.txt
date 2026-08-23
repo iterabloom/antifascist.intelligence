@@ -14,4 +14,3 @@ Establishing joint research initiatives and programs is essential for fostering 
 (6) Transnational Research Collaboration: In addition to partnering within their respective countries, AI researchers must also collaborate on a global scale to address international challenges and promote best practices. Programs such as the EU's Coordinated Plan on Artificial Intelligence provide opportunities for researchers to collaborate on shared ethics concerns, while various international workshops and conferences facilitate cross-border research initiatives and networks.
 
 By implementing these joint research initiatives and programs, the AI community can promote an interdisciplinary approach to address the ethical and safety challenges of AI development.
-

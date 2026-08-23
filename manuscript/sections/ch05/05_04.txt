@@ -1,3 +1,2 @@
 5.4. Preventing the Misuse of AI for Authoritarian Purposes
 One of the more severe risks is the use of AI by authoritarian regimes to infringe upon civil liberties, as seen in the use of AI-enabled facial recognition technology for mass surveillance. Responsible development of AI must include safeguards to prevent misuse, as well as uphold robust, enforceable international norms against such uses. For instance, a federated learning approach may help to limit the amount of data AI requires, thereby reducing opportunities for misuse while maintaining the system's efficacy.
-

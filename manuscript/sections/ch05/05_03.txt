@@ -12,4 +12,3 @@ Further, preventing misuse of AI systems is equally crucial in maintaining safet
 Moreover, future research could delve into the formulation of "circuit breakers" or "kill switches" that would allow humans to safely interrupt an AI system's operation without incurring any harmful backlash. However, such interventions should be delicately designed to prevent misuse and maintain system integrity.
 
 Proactively evaluating and forecasting potential risks is essential. This includes not only assessing direct impacts of AI systems but also indirect harms that may emerge. AI influence on socioeconomic structures, political dynamics, and individual behaviors should be thoroughly considered during system deployment.
-

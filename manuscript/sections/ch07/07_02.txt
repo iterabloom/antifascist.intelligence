@@ -12,4 +12,3 @@ An oversight mechanism plays a central role in these frameworks, encompassing bo
 Specifically, the oversight structure should ensure AI systems align with democratic norms and are equipped to resist potential authoritarian misuse. Here, specific examples could include mandatory checks in place that prevent AI’s deployment in mass surveillance, censorship, disinformation or other means that could undermine democratic institutions.
 
 The future of robust, ethical, and safety-conscious AI lies in the communion of regulatory, legislative, self-regulatory, and oversight-driven mechanisms. This sweeping approach aims not merely to manage the growth trajectory of AI, but to ensure AI’s commitment to democratic principles, altruistic values, transparency, and accountable behavior. Our tools should be biased to serve as bulwarks against authoritarianism and champions of a just, equitable future.
-

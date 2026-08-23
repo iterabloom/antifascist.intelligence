@@ -16,4 +16,3 @@ The misuse of AI for authoritarian purposes can occur in various contexts and se
 (7) Manipulation of AI systems for social control: Hijacking or repurposing AI systems, such as recommendation algorithms on social media platforms, to amplify divisive content, fomenting unrest, or promoting pro-authoritarian views.
 
 To address the risks posed by these applications, AI developers, ethicists, regulators, and other stakeholders must develop safeguards and countermeasures, promoting transparency, accountability, and ongoing dialogue.
-

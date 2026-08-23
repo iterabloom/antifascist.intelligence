@@ -12,4 +12,3 @@ Finally, constant monitoring and evaluation of AI systems aim to identify and re
 The active engagement of a diverse array of stakeholders can further ensure an all-encompassing approach to developing equitable AI systems. By involving those directly impacted by the AI system's output, it can help ensure the alignment of the AI system with broader societal values and prevent the imposition of a singular, potentially biased, perspective.
 
 This section will delve into these aspects of bias in AI systems, taking into account various aspects like racial, gender, economic, and political biases. We'll explore impact assessments to understand how AI systems affect marginalized populations and develop proactive strategies ensuring AI systems do not disproportionately harm, sideline, or disadvantage these communities. We aim not merely to build artificial intelligence but to develop wisdom capable of just and equitable decision-making in diverse, complex contexts.
-

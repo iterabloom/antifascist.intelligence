@@ -14,5 +14,3 @@ Psychology, neuroscience, and artificial intelligence must converge to piece tog
 The Artificial Curiosity for Autonomous Agents (ACAI) framework proposed by Badia et al. (2020) presents a compelling case of this integration. ACAI's unique blend of intrinsic (curiosity-led) motivation with extrinsic, goal-oriented one gives rise to an AI agent that learns from both curiosity and external rewards. It can offer us an early glimpse into a future where AI aligns meticulously with human values and exhibits genuine ethical and altruistic behavior. 
 
 In sum, the conscientious incorporation of intrinsic and extrinsic motivation into AI's learning algorithms forms the bedrock upon which ethical, empathetic, and altruistic AI may flourish. Cross-disciplinary collaboration and the marriage of insights from psychology, neuroscience, and artificial intelligence will be the catalysts propelling us towards genuinely human-aligned intelligent systems.
-
-

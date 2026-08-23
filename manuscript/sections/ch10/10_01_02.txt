@@ -14,4 +14,3 @@ The goal of developing altruistic AI is to promote human flourishing - a key asp
 (6) Enhancing cybersecurity and data privacy: By detecting and protecting against cyber threats and ensuring data privacy, AI can help maintain the integrity of democratic societies and prevent the unauthorized use of personal information for unethical, political purposes.
 
 To maximize the potential of altruistic AI in promoting democratic values and resisting authoritarianism, close collaboration between AI developers, ethicists, policymakers, and civil society is essential. This collective effort is critical when designing, implementing, and regulating AI systems that prioritize human well-being and the preservation of democratic principles, ensuring a more just and equitable future for all.
-

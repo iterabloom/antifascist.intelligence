@@ -12,4 +12,3 @@ Creating AI systems that demonstrate empathy and exhibit compassion necessitates
 5. Contractualism: Contractualism predicates that moral principles should stem from rational agreements or contracts between rational individuals. AI systems guided by contractualism would attempt to uphold these mutually agreed principles. Consider an AI system managing shared resources, like a smart energy grid. This system could be designed to fairly allocate resources based on pre-agreed principles and priorities. Nevertheless, contractualist AI systems may encounter hurdles in accommodating diverse perspectives and reaching a consensus on shared values.
 <</list>>
 As we strive to create ethical AI systems, it becomes imperative that we acknowledge the merits of integrating multiple ethical perspectives. A pluralistic approach ensures a robust understanding of ethical implications and prepares AI systems better for nuanced moral dilemmas.
-

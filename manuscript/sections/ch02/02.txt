@@ -1,3 +1,2 @@
 Chapter 2: Foundations of Empathy and Compassion in Friendly AI
 In addressing Anti-Authoritarian Ethics, it’s important to observe authoritarian regimes' pernicious practices: suppression of individual freedom, unaccountable governance, control of information, and suppression of dissent. A countervailing AI system can be designed to embody principles of personal liberty, transparent governance, information freedom, and the importance of divergent perspectives. Accordingly, reinforcement learning algorithms can be adapted to accommodate principles such as individual autonomy, transparency, and dissent, while robust safeguards ensure their adherence to these guidelines.
-

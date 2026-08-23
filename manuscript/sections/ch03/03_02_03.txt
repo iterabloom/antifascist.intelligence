@@ -24,5 +24,3 @@ However, supervised learning, despite its potential, also comes with an array of
 (4) Moral Flexibility and Learning: Supervised learning could foster systems that are excessively rigid or dogmatic in ethical decision-making. Implementing provisions for moral flexibility and learning from feedback, perhaps through reinforcement learning or human-in-the-loop approaches, could offer a solution.
 
 Future research needs to focus on managing these challenges, distinguishing how to regulate training data biases, accommodate ethical ambiguity and differences, and ensure moral adaptability and learning in AI systems. With continued improvements in supervised learning techniques and the integration of interdisciplinary ethical comprehension, AI systems can achieve enhanced capacity to make ethical and anti-authoritarian decisions across a multitude of disciplines.
-
-

@@ -1,3 +1,2 @@
 Chapter 3: Machine Learning and Cognitive Science
 As paths forward in the endeavor of creating superintelligent AI, machine learning and cognitive science provide crucial insights. They not only contribute methodologies and theories for developing AI systems but also illuminate principles fundamental to inculcating ethical, anti-authoritarian, and altruistic inclinations in machine sentience. This chapter offers an in-depth exploration of these converging fields, showcasing their interconnected roles in equipping AI with human-like cognitive and emotional capabilities, and illustrating their potential for enhancing ethical decision-making in superintelligent AI Systems.
-

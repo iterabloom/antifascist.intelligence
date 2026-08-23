@@ -1,3 +1,2 @@
 3.2. Aligning AI Systems with Humane Values and Anti-Authoritarian Principles
 To develop ethical superintelligence, it is paramount that AI systems can comprehend and integrate humane values and anti-authoritarian principles effectively. This critical undertaking of value alignment, conceived as the process of aligning AI's objectives with human values, forms the core of our investigation in this section. Here, we explore several learning paradigms and propose methodologies to align AI behaviors in the face of authoritarian tendencies, pivoting around reinforcement learning, inverse reinforcement learning, cooperative inverse reinforcement learning, supervised learning, unsupervised learning, and transfer learning.
-
