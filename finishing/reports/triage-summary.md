@@ -50,8 +50,27 @@ triage schema had been conflating them. The row now records both: `done`, with
 
 ## Projected length
 
-Starting from 115,377 body words, with the cuts, the compressions set so far,
-chapter 8 reduced to a single ~5,000-word section, and the 10,400 words of
-transplants added, the book lands near **112,000 words** — against D-002's
-75–90k. The cuts ruled here do not close that gap. Closing it means either
-compressing the 145 revise sections as they are edited, or revisiting D-002.
+I guessed at this before doing the arithmetic and guessed wrong, so here it is
+worked:
+
+| | Words |
+|---|---|
+| Start | 115,524 |
+| Explicit cuts (§6.4.1.1–.9) | −3,552 |
+| Compression targets set on 9 sections | −4,594 |
+| Chapter 8 reduced to one ~5,000-word section | −1,001 |
+| Transplants (D-014) | +10,400 |
+| **Projected** | **116,777** |
+
+**The triage makes the book longer, not shorter.** It removes about 9,100 words
+and adds 10,400. Against D-002's 75–90k that is not a gap, it is a different
+book length.
+
+Three honest options, and this is the author's call:
+
+1. **Compress during the revise pass.** 145 sections at ~58,000 words; taking a fifth out of each as it is edited would remove ~11,600 and land near 105,000. Still not 90,000, and it makes every revise slower.
+2. **Cut whole sections.** Nothing above was ruled `cut` except the forced nine, because the brief said the author does not cut ordinary content. Reversing that instruction for, say, chapters 6 and 10 is the only lever that moves the number materially.
+3. **Revisit D-002.** 116,000 words is a normal length for a serious nonfiction book. The 75–90k figure was my recommendation during planning, not a constraint anyone imposed.
+
+My read is that (3) is right and (1) happens naturally anyway, but the number
+should be a decision rather than a drift.
