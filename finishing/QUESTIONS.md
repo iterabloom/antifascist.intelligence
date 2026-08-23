@@ -18,11 +18,5 @@ Nothing here blocks work. Each item has a default and the moment it applies.
 ### Q-012 — Does P2 survive as a separate pass? **Resolved, D-021.**
 Dropped. See `DECISIONS.md`.
 
-### Q-013 — The roadmap the introduction promises
-The introduction promises a roadmap for developing altruistic and anti-authoritarian superintelligence. §10.2 is scaffolding, and §10.2.1 concedes its milestones are "not a rigid roadmap". Under D-007 (revise, not rewrite) building one is out of scope.
-
-- **(a) Default — soften the promise.** Change the introduction to claim what the book delivers: principles, milestones and research directions, not a sequenced roadmap.
-- (b) Build the roadmap. An explicit exception to D-007, and the largest piece of new writing in the project.
-- (c) Leave both as they are and let the reader notice.
-
-*Default applies when the revise pass reaches chapter 1 — which is last, so there is time.*
+### Q-013 — The roadmap the introduction promises. **Resolved, D-023.**
+Neither original option. See `DECISIONS.md`: "roadmap" is the wrong word (it wrongly insinuates turn-by-turn sequencing), but the fix is not to soften into vague generality — concrete, practical, specific, and where warranted ambitious ideas and proposals are what the introduction should promise. Applies when the revise pass reaches chapter 1.
