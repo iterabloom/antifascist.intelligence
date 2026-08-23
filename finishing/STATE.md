@@ -1,8 +1,8 @@
 # State of play
 
 Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
-author accepted chapters 2-5 and 7 in one batch, then chapters 6 and 9 were
-drafted (chapter order moves to 10 next, per `PLAN.md`).
+author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
+were drafted (chapter order moves to 1, last, per `PLAN.md`).
 
 ## Where the book is
 
@@ -11,7 +11,7 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-79,370 words as of the last `section_stats.py` run — down from ~113,000 before
+76,798 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
 ~19,240 to 14,266; chapter 5 from 9,021 to 8,090; chapter 7 from ~19,578 to
@@ -19,9 +19,11 @@ voice. Chapter 3 alone went from ~24,000 words to 10,920; chapter 4 from
 the largest proportional cut yet (29%) — it absorbed the entire former
 chapter 8 as §7.5 and had accumulated real redundancy on top of that (§7.2.5.3
 alone was the book's third-largest cross-chapter redundancy hub); chapter 6
-went from 8,617 to 5,369, a 38% cut, the largest proportional cut of any
-chapter so far; chapter 9 went from 3,808 to 4,531, the only chapter so far to
-grow rather than shrink — see below.
+went from 8,617 to 5,369, a 38% cut; chapter 9 went from 3,808 to 4,531, the
+only chapter to grow rather than shrink; chapter 10 went from 8,150 to 5,561,
+a 32% cut, second only to chapter 6's — see below. (Chapter 5 also gained 17
+words from an unrelated one-sentence fix to a stale forward-pointer, made
+during chapter 10's integration; not a revision of chapter 5 itself.)
 
 ## What has actually been done to the prose
 
@@ -37,10 +39,81 @@ this acceptance, and §7.2.2 contains claims (Clearview's accuracy marketing,
 the Carnegie AIGS Index, GPAI's founding) that STATE.md's chapter-7 account
 below says were corrected on high-confidence background knowledge rather than
 live-verified — both are now accepted along with everything else, but neither
-has had that specific gap closed. Chapters 6 and 9 are now drafted too (both
-below) but neither is yet author-accepted. Chapters 1, 8 (folded into 7.5),
-10 (16 sections, plus the §3 opener — 17 total) are untouched since 2024:
-folded, cut, and moved by P1, but not a sentence of their prose has changed.
+has had that specific gap closed. Chapters 6, 9, and 10 are now drafted too
+(all below) but none is yet author-accepted. Chapter 1 (4 sections, plus the
+§3 opener — 5 total) and chapter 8 (folded into 7.5) are what's left untouched
+since 2024: folded, cut, and moved by P1, but not a sentence of chapter 1's
+prose has changed.
+
+- **Chapter 10** (12 sections, 5,561 words, down from 8,150 — 32%): every
+  section revised, including the empty chapter opener and all three empty
+  tree-level openers (§10.1 wasn't empty; §10.2 and §10.3 were thin
+  scaffolding, not empty, but the chapter opener §10 was empty). This chapter
+  turned out to hold the single worst redundancy in the book: its own §10.1.3
+  scored 0.84-0.90 similarity against at least eight other already-accepted
+  locations (6.3.1, 7.1.5, 7.2.1, 7.2.5.3, and four former chapter-8 sections
+  now folded into 7.5), and its §10.3 tree restated general ML robustness
+  techniques chapters 3 and 5 already own, real cases chapter 5 already tells
+  with citations (Amazon's hiring tool, COMPAS, PredPol), and international
+  standards chapters 6 and 7 already cover — on top of duplicating itself
+  internally (§10.1.1 against §10.2.2, §10.3.2 and §10.3.3 both claiming
+  RoboCup Rescue). None of that was coincidental: this is the book's
+  conclusion chapter, and the 2023 draft's idea of concluding was summarizing
+  every earlier chapter again in bullet-list form rather than synthesizing
+  them, which is exactly the "closing summary paragraph" move
+  `finishing/style.md` already bans at the sentence level, just enacted at
+  chapter scale.
+  I hand-drafted the chapter opener and all three tree-level openers (§10.1,
+  §10.2, §10.3), deciding the redundancy resolution up front rather than
+  leaving it to the parallel agents to discover independently: §10.1 argues
+  a capability expanded by AI isn't automatic (Sen's capability approach,
+  extended by Nussbaum) and cut its own redundant Taiwan/vTaiwan paragraph
+  in favor of a cross-reference to 4.4.6; §10.2 keeps the milestones/
+  benchmarks framing explicitly short of a sequenced roadmap, per Q-013's
+  default (which formally applies at chapter 1, honored here anyway); §10.3
+  gives its three children non-overlapping jobs — anticipating risk before
+  harm (10.3.1), remediating an identified harm (10.3.2), and resilience
+  against a state actor's *deliberate* compromise specifically (10.3.3) —
+  so the three, drafted by three different parallel agents, wouldn't
+  independently reach for the same generic "AI safety practices" content a
+  fourth time. Five parallel agents drafted the nine body sections, each
+  given the specific redundancy pairs found ahead of time and told to
+  cross-reference rather than restate.
+  Two fabrication-flagged items resolved: the "Madry et al., 2017" adversarial-
+  training attribution flagged in a prior session (STATE.md, chapter-5 pass)
+  turned out to be genuinely wrong — the real 2017 paper is MIT work
+  (Aleksander Madry's group), not an OpenAI/Google Brain collaboration as
+  §10.3.3 claimed — cut rather than corrected, since the whole technique
+  list it lived in was cut wholesale as chapter 3/5.2.3 duplication anyway.
+  "OpenAI's Cooperative AI Initiative," also in §10.3.3, had no real, distinct
+  referent — the real thing is the DeepMind/Oxford Cooperative AI agenda
+  already correctly cited at 9.1.5 — cut rather than restated under the
+  wrong name. §10.3.1's nine invented "Example" vignettes (unsourced,
+  written to read as real case studies) were cross-referenced to chapter 5's
+  real, cited versions of the same stories (Amazon's hiring tool, COMPAS,
+  PredPol) where a close match existed, or replaced with different, real,
+  verified cases where it didn't: Global Witness's 2021 Myanmar
+  Facebook-amplification investigation and the UK's 2020 Ofqual
+  grading-algorithm scandal. §10.3.2 named roughly fifteen real-world
+  systems; one (DataRobot, claimed to predict natural disasters) was
+  confirmed mischaracterized and cut — DataRobot is a general enterprise
+  ML platform with no disaster-prediction product found — and several more
+  (AlphaGo's claimed hardware-fault-tolerance framing, an ImageNet
+  adversarial-training claim, Zebra Medical Vision, now stale after a 2021
+  acquisition) were cut as invented glosses or out of scope, replaced with
+  five verified case studies matched to the section's actual job (patients,
+  students, workers, the information ecosystem, disaster response).
+  One agent accidentally ran `finishing/tools/claims.py` and `tics.py`,
+  which regenerate and overwrite `finishing/reports/claims.tsv`, `dated.tsv`,
+  `tics.tsv`, and `voice.tsv` in place — caught immediately, `git checkout --`
+  restored all four before anything else happened; confirmed clean via `git
+  status`/`git diff --stat` before integrating. A real cross-chapter
+  continuity break surfaced during this chapter's work: already-accepted
+  §5.2.3 promised its robustness techniques "recur... in section 10.3.3,"
+  a promise no longer true once 10.3.3 was rebuilt around a different job.
+  Fixed with a one-sentence edit to the already-accepted §5.2.3 during
+  integration, flagged here rather than silently patched (chapter 5's word
+  count above reflects this single-sentence change).
 
 - **Chapter 6** (16 sections, 5,369 words, down from 8,617 — 38%, the
   largest proportional cut of any chapter so far): every section revised,
@@ -222,7 +295,9 @@ folded, cut, and moved by P1, but not a sentence of their prose has changed.
   rather than live-verified this session. Flagged explicitly by the agent
   rather than presented as checked — worth a spot-check in P4 or sooner.
 
-- **Chapter 5** (19 sections, 8,090 words): every section revised. No
+- **Chapter 5** (19 sections, 8,107 words, +17 from a one-sentence fix during
+  chapter 10's integration, below — not a re-revision): every section
+  revised. No
   transplants target this chapter. The one empty opener (§5) was filled by
   hand. §5.4.3 sits at the center of the book's heaviest cross-chapter
   redundancy cluster (13 flagged pairs) — rather than re-deriving a fate for
@@ -330,13 +405,13 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 6 and 9 drafted, not yet author-accepted; chapters 1, 10 not started (16 sections + §3)** |
-| P4 Source | not started — claims ledger now at 509 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
+| P3 Revise | **in progress — chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3); chapters 6, 9, and 10 drafted, not yet author-accepted; chapter 1 not started (4 sections + §3)** |
+| P4 Source | not started — claims ledger now at 532 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **10 →
-1 last.**
+**Chapter order for the rest of P3** (from `PLAN.md`, unchanged): **1, last —
+the only chapter remaining.**
 
 ## The immediate open items
 
@@ -345,29 +420,23 @@ suspected fabrication during P3 itself.
   because it was never revised. Everything else in those chapters is now
   author-accepted; D-001's two-round return path no longer applies to them
   unless the author reopens a specific section.
-- **Chapters 6 and 9 are drafted but not author-accepted** — 16 and 11
-  sections respectively, waiting on a read, same as the rest of the
+- **Chapters 6, 9, and 10 are drafted but not author-accepted** — 16, 11,
+  and 12 sections respectively, waiting on a read, same as the rest of the
   drafted-not-accepted backlog before them.
 - **`finishing/outline.tsv` and `manuscript/table-of-contents.txt` have
-  accumulated 30 stale titles** against the manuscript's own (authoritative,
+  accumulated 38 stale titles** against the manuscript's own (authoritative,
   D-011) headings — 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
   (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`, `06_04_01`), 8
-  new from chapter 9 (`09_01_01` through `09_01_06`, `09_02_01`, `09_02_02`
-  — every chapter-9 body section was retitled). `check_structure.py` treats
+  from chapter 9 (`09_01_01` through `09_01_06`, `09_02_01`, `09_02_02` —
+  every chapter-9 body section was retitled), 8 new from chapter 10
+  (`10_01_01`, `10_01_02`, `10_01_03`, `10_02_01`, `10_02_02`, `10_03_01`,
+  `10_03_02`, `10_03_03` — every chapter-10 body section was retitled too).
+  `check_structure.py` treats
   this as a note, not an error, so it hasn't blocked anything — but it's real
   drift, not yet fixed by any chapter's revision pass so far, worth a
   dedicated sync (`headings.py --write-toc`, plus a hand pass on
   `outline.tsv`) once structure has fully settled rather than chapter by
   chapter. `finishing/reports/headings_reconcile.md` has the full list.
-- **An unverified "Madry et al. 2017" OpenAI/Google-Brain attribution** was
-  spotted in unrevised §10.3.3 while a chapter-5 agent was resolving a
-  redundancy against it — not touched, out of scope at the time. Check it for
-  fabrication when P3 reaches chapter 10.
-- **§10.3.3's resilience/robustness material still needs its P3 pass**,
-  flagged again from chapter 9: §9.1.5 deliberately left this material
-  compressed to one cross-reference sentence rather than duplicating it, so
-  the fuller treatment is chapter 10's job when P3 reaches it, not optional
-  scope already covered elsewhere.
 - **The Clearview/AIGS Index/GPAI details in §7.2.2** were corrected on
   high-confidence background knowledge, not live-verified this session (the
   agent's web-search budget ran out mid-task) — worth a spot-check before P4
@@ -377,19 +446,26 @@ suspected fabrication during P3 itself.
 
 ## What P1 deliberately left for P3, still ahead
 
-- **1 empty opener remaining**: chapter 10 (§4.6, §4.7, §5, §6, §7, and
-  §§9.1/9.2 are now filled).
+- **0 empty openers remaining** (§4.6, §4.7, §5, §6, §7, §§9.1/9.2, and
+  chapter 10's own opener and §§10.1/10.2/10.3 are all now filled).
 - **§1.3**: restore the subheadings deleted in 2024, hit the 1,400-word target.
-- **Compression targets**: §10.3.2.1 → 150, §10.1.1/.2 → 200, §10.1.3 → 100
-  (§4.2.2's own target was overtaken by the revise pass — it's now 418 words
-  of substantially different, non-redundant content, not the original
-  200-word compression target of the same old material; §7.4.3.1 and
-  §7.4.3.1.1's targets were overtaken the same way — that whole tree was
-  rebuilt as §7.4.3, 578 words, rather than compressed in place; §7.5's own
-  6,001→~5,000 target is done, landed at 4,499; §6.4.1's 350-word target was
-  overtaken the same way — it absorbed four former subsections during P1,
-  and the revise pass cut rather than compressed the redundant material,
-  landing at 629 words of genuinely new, non-duplicative content).
+- **Compression targets** (§4.2.2's own target was overtaken by the revise
+  pass — it's now 418 words of substantially different, non-redundant
+  content, not the original 200-word compression target of the same old
+  material; §7.4.3.1 and §7.4.3.1.1's targets were overtaken the same way —
+  that whole tree was rebuilt as §7.4.3, 578 words, rather than compressed
+  in place; §7.5's own 6,001→~5,000 target is done, landed at 4,499; §6.4.1's
+  350-word target was overtaken the same way — it absorbed four former
+  subsections during P1, and the revise pass cut rather than compressed the
+  redundant material, landing at 629 words; the old §10.3.2.1 → 150, §10.1.1/
+  .2 → 200, and §10.1.3 → 100 targets no longer refer to anything — P1's
+  fold absorbed those numbered subsections into the sections that now carry
+  their numbers, and chapter 10's P3 pass rebuilt all of them from scratch:
+  §10.3.2 landed at 1,078 words, §10.1.1 at 395, §10.1.2 at 350, §10.1.3 at
+  217 — all done, none compressed toward the stale sub-numbered targets).
+  **All numbered compression targets from P1 are now resolved, one way or
+  another** — either hit, or overtaken by a rebuild, as each one's chapter
+  reached its P3 pass.
 - All 16 transplants are now landed (T8 was the last one, in §4.3.1).
 
 ## Where everything lives
@@ -403,7 +479,7 @@ suspected fabrication during P3 itself.
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 509 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 532 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start** |
 

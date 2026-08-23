@@ -14,7 +14,7 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 30
+- same number, different title: 38
 
   - `2`
     - manuscript: Foundations of Compassion and Empathy in Friendly AI
@@ -106,12 +106,36 @@ none
   - `9.2.2`
     - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
     - outline: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
+  - `10.1.1`
+    - manuscript: Whether the Dialogue Outlasts the Book
+    - outline: The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI
+  - `10.1.2`
+    - manuscript: Where the Democratic Dividend Actually Comes From
+    - outline: Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism
+  - `10.1.3`
+    - manuscript: Commitment Was Never the Missing Piece
+    - outline: Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development
+  - `10.2.1`
+    - manuscript: Recognizing Progress Across Five Research Areas
+    - outline: Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals
+  - `10.2.2`
+    - manuscript: How to Tell Whether a Milestone Has Been Met
+    - outline: Evaluating Progress and Adjusting Strategies as Needed
+  - `10.3.1`
+    - manuscript: Anticipating Risk Before It Causes Harm
+    - outline: Anticipating and Monitoring Unintended Consequences
+  - `10.3.2`
+    - manuscript: Remediating a Harm Once It Is Identified
+    - outline: Mitigating Negative Impacts and Enhancing Positive Outcomes
+  - `10.3.3`
+    - manuscript: Resilience Against Deliberate State Compromise
+    - outline: Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications
 
 ## Manuscript vs stale TOC (historical; retired under D-011)
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (30):
+- same number, different title (38):
 
   - `2`
     - manuscript: Foundations of Compassion and Empathy in Friendly AI
@@ -203,8 +227,32 @@ none
   - `9.2.2`
     - manuscript: Interpretability, Self-Reports, and Resistance to Tampering
     - TOC: Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation
+  - `10.1.1`
+    - manuscript: Whether the Dialogue Outlasts the Book
+    - TOC: The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI
+  - `10.1.2`
+    - manuscript: Where the Democratic Dividend Actually Comes From
+    - TOC: Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism
+  - `10.1.3`
+    - manuscript: Commitment Was Never the Missing Piece
+    - TOC: Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development
+  - `10.2.1`
+    - manuscript: Recognizing Progress Across Five Research Areas
+    - TOC: Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals
+  - `10.2.2`
+    - manuscript: How to Tell Whether a Milestone Has Been Met
+    - TOC: Evaluating Progress and Adjusting Strategies as Needed
+  - `10.3.1`
+    - manuscript: Anticipating Risk Before It Causes Harm
+    - TOC: Anticipating and Monitoring Unintended Consequences
+  - `10.3.2`
+    - manuscript: Remediating a Harm Once It Is Identified
+    - TOC: Mitigating Negative Impacts and Enhancing Positive Outcomes
+  - `10.3.3`
+    - manuscript: Resilience Against Deliberate State Compromise
+    - TOC: Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications
 
 ## Headings with no body text before the next heading
 
-10
+none
 

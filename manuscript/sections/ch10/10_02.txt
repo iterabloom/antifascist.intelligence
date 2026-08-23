@@ -1,2 +1,2 @@
 10.2. Roadmap for Altruistic and Anti-Authoritarian Superintelligence
-This work lays a solid foundation for crafting a roadmap towards altruistic and anti-authoritarian AI, but how to implement them will remain a constant journey.
+What follows is not a roadmap in the sense of a sequenced plan with dates. It is a set of milestones for recognizing whether the project this book describes is actually working, and a method for revising them when it turns out they weren't the right milestones. Section 10.2.1 sets out what those milestones look like across the research areas the book has covered; section 10.2.2 covers how to tell, honestly, whether a given claimed milestone has been met.
