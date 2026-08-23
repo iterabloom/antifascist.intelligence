@@ -14,7 +14,7 @@ Robustness and generalizability let an AI system perform reliably outside the ex
 
 6. Regularization: discussed in section 5.2.1 as a defense against overfitting, regularization does double duty here — constraining a model toward simpler solutions makes it both less prone to overfitting on its training set and more likely to generalize to conditions it has not seen.
 
-7. Human-in-the-loop approaches: active learning, covered in section 5.2.2 as a mechanism for adapting to novel situations, serves the same purpose here. Routing a model's lowest-confidence predictions to a human expert catches errors a fully automated system would ship; in cybersecurity, this lets human analysts steer the system toward genuinely novel anomalies rather than leaving it to resolve every ambiguous signal alone.
+7. Human-in-the-loop approaches: active learning, covered in section 5.2.2 as a mechanism for adapting to novel situations, serves the same purpose here. Routing a model's lowest-confidence predictions to a human expert catches errors a fully automated system would ship; in cybersecurity, this lets human analysts steer the system toward novel anomalies rather than leaving it to resolve every ambiguous signal alone.
 <</list>>
 
 None of these techniques solves the robustness problem once and for good — each closes off one particular way a system can fail outside its training conditions, not the general problem of failing outside them.

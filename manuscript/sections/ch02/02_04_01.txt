@@ -12,10 +12,10 @@ Nor is the underlying question of consciousness itself close to settled, in a wa
 With those distinctions in place, the working criteria for evaluating candidate sentience are:
 <<list>>
 - Information integration: fusing multiple streams of internal and external information into a coherent model of self and environment.
-- Introspective capability: access to the system's own states and processes, sufficient for genuine self-monitoring rather than a scripted report of one.
+- Introspective capability: access to the system's own states and processes, sufficient for self-monitoring rather than a scripted report of one.
 - Emotional reactivity: some capacity to be affected by, not just to classify, emotionally significant input.
 - Goal-directed behavior: intentional action toward specified outcomes.
-- Adaptability: revising strategies based on prior experience in genuinely novel situations.
+- Adaptability: revising strategies based on prior experience in novel situations.
 - Theory of mind: modeling others' mental states well enough to inform the system's own.
 - A place on the pain-to-suffering ladder above, not just qualia in the abstract: does the system have anything to lose.
 <</list>>

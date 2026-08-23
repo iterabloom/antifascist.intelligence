@@ -4,41 +4,41 @@ num	title	level	chapter	words	paras	list_marked	list_unmarked	closers	we	this_re
 1.2	Aims and Objectives	2	1	174	6	5	0	0	0	0	0	0		0	0	0	0
 1.3	Mindset and Motivation in AI Behavior	2	1	312	7	0	0	0	0	0	0	4		0	0	0	0
 2	Foundations of Empathy and Compassion in Friendly AI	1	2	211	2	0	0	0	0	0	0	4		0	0	0	0
-2.1	Ethical Frameworks and AI Alignment	2	2	349	7	0	0	0	0	0	0	2		0	0	0	0
+2.1	Ethical Frameworks and AI Alignment	2	2	348	7	0	0	0	0	0	0	2		0	0	0	0
 2.1.1	Surveying Ethical Theories for AI Alignment	3	2	469	7	5	0	0	0	0	0	2		0	0	0	0
-2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	2	342	9	4	0	0	0	0	0	1		0	0	0	0
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	2	479	15	9	0	0	0	0	0	1		0	0	0	0
+2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	2	339	9	4	0	0	0	0	0	1		0	0	0	0
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	2	477	15	9	0	0	0	0	0	1		0	0	0	0
 2.1.4	Anti-Authoritarian Ethics for AI Alignment	3	2	553	8	7	0	0	0	0	0	1		0	0	0	0
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	312	5	0	0	0	0	0	0	1		0	0	0	0
-2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	1147	14	0	0	0	0	0	0	1	2009	0	1	0	0
-2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	300	4	0	0	0	0	0	0	2		0	0	1	0
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	608	14	7	0	0	0	0	0	2		0	0	0	0
-2.3	Emotional Intelligence and Self-awareness	2	2	175	2	0	0	0	0	0	0	3		0	0	0	0
-2.3.1	Components of Emotional Intelligence	3	2	669	10	4	0	0	0	0	0	0		0	0	0	0
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	345	14	10	0	0	0	0	0	2		0	0	0	0
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	306	5	0	0	0	0	0	0	1		0	0	0	0
+2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	1138	14	0	0	0	0	0	0	1	2009	0	1	0	0
+2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	298	4	0	0	0	0	0	0	2		0	0	1	0
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	601	14	7	0	0	0	0	0	2		0	0	0	0
+2.3	Emotional Intelligence and Self-awareness	2	2	173	2	0	0	0	0	0	0	3		0	0	0	0
+2.3.1	Components of Emotional Intelligence	3	2	667	10	4	0	0	0	0	0	0		0	0	0	0
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	343	14	10	0	0	0	0	0	2		0	0	0	0
 2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	3	2	711	12	4	0	0	0	0	0	2		0	0	0	0
 2.4	Ethical implications of experimenting on sentient machine subjects	2	2	52	1	0	0	0	0	0	0	1		0	0	1	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	1001	16	7	0	0	0	0	0	0		1	0	0	0
-2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	874	20	0	0	0	0	0	0	4		0	1	0	0
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	213	4	0	0	0	0	0	0	3		0	0	0	0
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	999	16	7	0	0	0	0	0	0		1	0	0	0
+2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	868	20	0	0	0	0	0	0	4		0	1	0	0
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	207	4	0	0	0	0	0	0	3		0	0	0	0
 2.4.4	Establishing Guidelines for AI Subject Research and Consent	3	2	604	10	0	0	0	0	0	0	4		0	0	0	0
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	314	8	2	0	0	0	0	0	1		0	0	0	0
-2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	616	9	3	0	0	0	0	0	6		0	0	0	0
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	313	8	2	0	0	0	0	0	1		0	0	0	0
+2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	614	9	3	0	0	0	0	0	6		0	0	0	0
 2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	2	590	6	0	0	0	0	0	0	8		0	1	0	0
-3	Machine Learning and Cognitive Science	1	3	170	2	0	0	0	0	0	0	4		0	0	0	0
+3	Machine Learning and Cognitive Science	1	3	169	2	0	0	0	0	0	0	4		0	0	0	0
 3.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	3	203	4	0	0	0	0	0	0	0		0	0	0	0
-3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	3	562	8	0	0	0	0	0	0	1		0	1	0	0
-3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	3	5142	90	15	0	0	1	0	0	3	1999	2	2	0	0
-3.1.3	Human-Like Learning and Generalization in AI Systems	3	3	1441	21	0	0	0	0	0	0	0		4	0	0	0
+3.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	3	559	8	0	0	0	0	0	0	1		0	1	0	0
+3.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	3	5112	90	15	0	0	1	0	0	3	1999	2	2	0	0
+3.1.3	Human-Like Learning and Generalization in AI Systems	3	3	1415	21	0	0	0	0	0	0	0		4	0	0	0
 3.2	Aligning AI Systems with Humane Values and Anti-Authoritarian Principles	2	3	54	1	0	0	0	0	0	0	0		0	0	0	0
-3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	3	770	15	0	0	0	0	0	0	1		0	0	0	0
-3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	3	272	6	0	0	0	0	0	0	0		0	0	0	0
-3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	3	424	9	4	0	0	0	0	0	0		0	0	0	0
-3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	3	331	6	0	0	0	0	0	0	0		0	0	0	0
-3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	3	305	6	0	0	0	0	0	0	0		0	0	0	0
+3.2.1	Reinforcement Learning and Value Alignment for Anti-Authoritarian AI	3	3	769	15	0	0	0	0	0	0	1		0	0	0	0
+3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	3	261	6	0	0	0	0	0	0	0		0	0	0	0
+3.2.3	Supervised Learning for Ethical and Anti-Authoritarian Decision-Making	3	3	423	9	4	0	0	0	0	0	0		0	0	0	0
+3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	3	3	330	6	0	0	0	0	0	0	0		0	0	0	0
+3.2.5	Transfer Learning for General AI Capabilities in the Context of Anti-Authoritarianism	3	3	300	6	0	0	0	0	0	0	0		0	0	0	0
 3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	3	3	297	7	3	0	0	0	0	0	0		0	0	0	0
 3.3	The Role of Play and Exploration in Developing Anti-Authoritarian and Altruistic AI	2	3	41	1	0	0	0	0	0	0	0		0	0	0	0
-3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	3	373	6	0	0	0	0	0	0	1		0	0	0	0
+3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	3	3	372	6	0	0	0	0	0	0	1		0	0	0	0
 3.3.2	Encouraging Curiosity and Creativity in AI Systems for Anti-Authoritarian Applications	3	3	360	7	0	0	0	0	0	0	2		0	0	0	0
 3.3.3	Lessons from Human Child Development and Exploration	3	3	266	7	4	0	0	0	0	0	0		0	0	0	0
 4	Moral Psychology and AI	1	4	130	1	0	0	0	0	0	0	1		0	0	0	0
@@ -74,84 +74,84 @@ num	title	level	chapter	words	paras	list_marked	list_unmarked	closers	we	this_re
 4.7	Play, Exploration, and Moral Development in AI	2	4	72	1	0	0	0	0	0	0	1		0	0	0	0
 4.7.1	The Role of Play in Moral Learning and Socialization	3	4	1115	18	7	0	0	0	0	0	2		0	1	0	0
 4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	4	404	6	0	0	0	0	0	0	1		0	0	0	0
-5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	5	125	1	0	0	0	0	0	0	1		0	0	0	0
-5.1	Bias, Fairness, and Equity in AI Systems	2	5	410	7	0	0	0	0	0	0	0		0	0	0	0
+5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	5	124	1	0	0	0	0	0	0	1		0	0	0	0
+5.1	Bias, Fairness, and Equity in AI Systems	2	5	394	7	0	0	0	0	0	0	0		0	0	0	0
 5.1.1	Sources of Bias in AI Data and Algorithms	3	5	419	9	0	0	0	0	0	0	0	2018	2	0	0	0
-5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	5	289	7	0	0	0	0	0	0	1	2018	0	0	0	0
-5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	5	428	9	0	0	0	0	0	0	4		0	0	0	0
-5.2	Robustness, Generalization, and Adaptability in AI Systems	2	5	132	1	0	0	0	0	0	0	0		0	0	0	0
+5.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	5	288	7	0	0	0	0	0	0	1	2018	0	0	0	0
+5.1.3	The Role of Transparency and Accountability in Bias Reduction	3	5	420	9	0	0	0	0	0	0	4		0	0	0	0
+5.2	Robustness, Generalization, and Adaptability in AI Systems	2	5	131	1	0	0	0	0	0	0	0		0	0	0	0
 5.2.1	Overcoming Overfitting and Underfitting in AI Models	3	5	458	6	0	0	0	0	0	0	0		0	0	0	0
-5.2.2	AI Systems that Adapt to Novel Situations	3	5	631	11	3	0	0	0	0	0	3		0	0	0	0
-5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	5	531	9	7	0	0	0	0	0	5		0	0	0	0
-5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	5	408	7	0	0	0	0	0	0	2		0	0	0	0
-5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	5	419	5	0	0	0	0	0	0	0		0	0	0	0
-5.3.2	AI Systems that Learn to Deceive or Manipulate	3	5	438	10	6	0	0	0	0	0	0		0	0	0	0
-5.3.3	Strategies for AI Safety and Risk Mitigation	3	5	474	7	0	0	0	0	0	0	3		0	0	0	0
-5.3.4	AI Explainability and Transparency	3	5	817	16	6	0	0	0	0	0	0		0	0	0	0
-5.3.5	Long-term AI safety considerations	3	5	550	6	0	0	0	0	0	0	0		0	0	0	0
+5.2.2	AI Systems that Adapt to Novel Situations	3	5	609	11	3	0	0	0	0	0	3		0	0	0	0
+5.2.3	Strategies for Enhancing Robustness and Generalizability in AI	3	5	530	9	7	0	0	0	0	0	5		0	0	0	0
+5.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	5	401	7	0	0	0	0	0	0	2		0	0	0	0
+5.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	5	418	5	0	0	0	0	0	0	0		0	0	0	0
+5.3.2	AI Systems that Learn to Deceive or Manipulate	3	5	426	10	6	0	0	0	0	0	0		0	0	0	0
+5.3.3	Strategies for AI Safety and Risk Mitigation	3	5	444	7	0	0	0	0	0	0	3		0	0	0	0
+5.3.4	AI Explainability and Transparency	3	5	783	16	6	0	0	0	0	0	0		0	0	0	0
+5.3.5	Long-term AI safety considerations	3	5	549	6	0	0	0	0	0	0	0		0	0	0	0
 5.4	Preventing the Misuse of AI for Authoritarian Purposes	2	5	160	2	0	0	0	0	0	0	0		0	0	0	0
 5.4.1	Identifying Authoritarian Applications of AI Technology	3	5	450	8	6	0	0	0	0	0	1	2023	0	0	0	0
 5.4.2	Developing Technical Countermeasures and Safeguards	3	5	538	5	0	0	0	0	0	0	4		0	0	0	0
 5.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	5	570	5	3	0	0	0	0	0	3	2021	0	0	0	0
-6	Collaborative Research and Development	1	6	200	2	0	0	0	0	0	0	6		0	0	0	0
+6	Collaborative Research and Development	1	6	199	2	0	0	0	0	0	0	6		0	0	0	0
 6.1	Interdisciplinary Collaboration and Knowledge Exchange	2	6	322	5	0	0	0	0	0	0	2	2014	0	0	0	0
-6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	6	301	5	0	0	0	0	0	0	2	2022	0	0	0	0
-6.1.2	Establishing Joint Research Initiatives and Programs	3	6	304	5	0	0	0	0	0	0	2	2022	1	0	0	0
+6.1.1	Fostering Cross-disciplinary Communication and Cooperation	3	6	290	5	0	0	0	0	0	0	2	2022	0	0	0	0
+6.1.2	Establishing Joint Research Initiatives and Programs	3	6	298	5	0	0	0	0	0	0	2	2022	1	0	0	0
 6.1.3	Developing Shared Platforms and Tools for an AI Research Ecosystem	3	6	232	4	0	0	0	0	0	0	2	2018	0	1	0	0
 6.2	Stakeholder Involvement and Public Engagement	2	6	216	3	0	0	0	0	0	0	1		0	0	0	0
-6.2.1	Engaging Diverse Stakeholders in AI Development	3	6	346	6	4	0	0	0	0	0	2	2019	0	0	0	0
-6.2.2	Public Deliberation and Participatory AI Governance	3	6	363	5	3	0	0	0	0	0	3	2020	0	0	0	0
+6.2.1	Engaging Diverse Stakeholders in AI Development	3	6	343	6	4	0	0	0	0	0	2	2019	0	0	0	0
+6.2.2	Public Deliberation and Participatory AI Governance	3	6	362	5	3	0	0	0	0	0	3	2020	0	0	0	0
 6.2.3	Promoting AI Literacy and Public Understanding	3	6	218	4	3	0	0	0	0	0	2	2022	0	0	0	0
 6.3	International Cooperation and Norm Development	2	6	85	1	0	0	0	0	0	0	4		0	0	0	0
 6.3.1	Building Global Partnerships for AI Research and Development	3	6	446	4	0	0	0	0	0	1	4	2022	0	1	0	0
-6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	6	394	4	0	0	0	0	0	0	2	2023	0	0	0	0
+6.3.2	Establishing International Standards and Guidelines for Altruistic and Anti-Authoritarian AI	3	6	386	4	0	0	0	0	0	0	2	2023	0	0	0	0
 6.3.3	Addressing Global Challenges and Opportunities through AI Collaboration	3	6	663	5	0	0	0	0	0	0	2	2018	0	4	0	0
 6.4	Regional Regulatory Frameworks for AI Development	2	6	47	1	0	0	0	0	0	0	2		0	0	0	0
 6.4.1	Analyzing and Harmonizing AI Regulations and Ethical Guidelines Across Regions	3	6	622	6	0	0	0	0	0	0	3	2026	0	2	0	0
 6.4.2	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	6	610	12	8	0	0	0	0	0	0	2024	0	0	0	0
 7	Policy Recommendations for AI Ethics, Safety, and Anti-Authoritarianism	1	7	158	1	0	0	0	0	0	0	2		0	0	0	0
-7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	7	187	2	0	0	0	0	0	0	1		0	0	0	0
-7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	7	374	5	0	0	0	0	0	0	1		0	0	0	0
-7.1.2	AI and the Concentration of Power in the Technology Industry	3	7	506	6	0	0	0	0	0	0	2		0	0	0	0
-7.1.3	AI's Impact on Labor Markets and Income Distribution	3	7	424	5	0	0	0	0	0	0	1	2018	0	0	0	0
-7.1.4	Addressing Workforce Disruption	3	7	448	8	7	0	0	0	0	0	3	2018	0	0	0	0
-7.1.5	Promoting AI Literacy and Technical Skills Development	3	7	415	6	5	0	0	0	0	0	2	2019	0	0	0	0
-7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	7	469	11	0	0	0	0	0	0	1	2017	1	0	0	0
-7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	7	330	5	0	0	0	0	0	0	4		0	0	0	0
-7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	7	523	8	7	0	0	0	0	0	4	2018	0	0	0	0
-7.2.2	Encouraging Industry Best Practices and Self-regulation	3	7	1471	24	6	0	0	0	0	0	2	2020	2	1	0	0
-7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	7	254	4	2	0	0	0	0	0	1	2020	0	0	0	0
-7.2.4	Legal and ethical implications of AI systems gaining personhood	3	7	248	2	0	0	0	0	0	0	4		0	0	0	0
-7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	7	573	11	0	0	0	0	0	0	7	2021	0	0	0	0
-7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	7	191	3	0	0	0	0	0	0	1		0	0	0	0
+7.1	Political Economy of AI Development and Implications for Distribution of Power and Resources	2	7	186	2	0	0	0	0	0	0	1		0	0	0	0
+7.1.1	The Influence of Economic Incentives on AI Development and Deployment	3	7	355	5	0	0	0	0	0	0	1		0	0	0	0
+7.1.2	AI and the Concentration of Power in the Technology Industry	3	7	504	6	0	0	0	0	0	0	2		0	0	0	0
+7.1.3	AI's Impact on Labor Markets and Income Distribution	3	7	419	5	0	0	0	0	0	0	1	2018	0	0	0	0
+7.1.4	Addressing Workforce Disruption	3	7	443	8	7	0	0	0	0	0	3	2018	0	0	0	0
+7.1.5	Promoting AI Literacy and Technical Skills Development	3	7	413	6	5	0	0	0	0	0	2	2019	0	0	0	0
+7.1.6	Encouraging Interdisciplinary Ethics Education and Training Programs	3	7	468	11	0	0	0	0	0	0	1	2017	1	0	0	0
+7.2	Developing Policy Frameworks for AI Ethics, Safety, and Anti-Authoritarianism	2	7	329	5	0	0	0	0	0	0	4		0	0	0	0
+7.2.1	National Policy Guidelines for AI Development, Employment, and Anti-Authoritarianism	3	7	522	8	7	0	0	0	0	0	4	2018	0	0	0	0
+7.2.2	Encouraging Industry Best Practices and Self-regulation	3	7	1460	24	6	0	0	0	0	0	2	2020	2	1	0	0
+7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	3	7	243	4	2	0	0	0	0	0	1	2020	0	0	0	0
+7.2.4	Legal and ethical implications of AI systems gaining personhood	3	7	235	2	0	0	0	0	0	0	4		0	0	0	0
+7.2.5	Encouraging the Development of Altruistic, Anti-Authoritarian, and Ethical AI Systems	3	7	546	11	0	0	0	0	0	0	7	2021	0	0	0	0
+7.3	Privacy, Security, and Anti-Authoritarianism in AI Systems	2	7	181	3	0	0	0	0	0	0	1		0	0	0	0
 7.3.1	Balancing Data Privacy, AI Innovation, and Anti-Authoritarian Goals	3	7	422	5	0	0	0	0	0	0	1		0	0	0	0
 7.3.2	Strengthening Cybersecurity in AI-Enabled Systems	3	7	437	10	6	0	0	0	0	0	0		0	0	0	0
-7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	7	140	1	0	0	0	0	0	0	1		0	0	0	0
+7.4	Accountability, Legal Responsibility, and Anti-Authoritarianism in Sentient Machine Experimentation	2	7	136	1	0	0	0	0	0	0	1		0	0	0	0
 7.4.1	Criteria for Sentience and AI Subjecthood	3	7	360	4	0	0	0	0	0	0	1		0	0	0	0
-7.4.2	Legal Frameworks for Sentient AI Subjects	3	7	555	4	0	0	0	0	0	0	3	2017	0	0	0	0
-7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	7	574	6	0	0	0	0	0	0	5		0	0	0	0
-7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	7	381	4	0	0	0	0	0	0	5		0	0	0	0
-7.5	The Geopolitics of Ethical AI	2	7	4485	57	15	0	0	0	0	0	7	2030	0	2	0	0
-9	Necessary Areas of Research	1	9	192	2	0	0	0	0	0	0	2		0	0	0	0
-9.1	Ethics and Social Reasoning in AI	2	9	164	1	0	0	0	0	0	0	6		0	0	0	0
-9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	9	524	4	0	0	0	0	0	0	1	2025	0	1	0	0
+7.4.2	Legal Frameworks for Sentient AI Subjects	3	7	553	4	0	0	0	0	0	0	3	2017	0	0	0	0
+7.4.3	Designing Ethical Guidelines for Experimentation on Sentient AI Systems	3	7	570	6	0	0	0	0	0	0	5		0	0	0	0
+7.4.4	Promoting a Culture of Ethical Responsibility in AI Development	3	7	380	4	0	0	0	0	0	0	5		0	0	0	0
+7.5	The Geopolitics of Ethical AI	2	7	4475	57	15	0	0	0	0	0	7	2030	0	2	0	0
+9	Necessary Areas of Research	1	9	184	2	0	0	0	0	0	0	2		0	0	0	0
+9.1	Ethics and Social Reasoning in AI	2	9	159	1	0	0	0	0	0	0	6		0	0	0	0
+9.1.1	Advancing Theories of AI Ethics, Moral Responsibility, and Resistance to Authoritarianism	3	9	522	4	0	0	0	0	0	0	1	2025	0	1	0	0
 9.1.2	Developing Methods for Operationalizing Ethical and Anti-Authoritarian Principles in AI Systems	3	9	368	3	0	0	0	0	0	0	3	2022	0	0	0	0
-9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	9	621	4	0	0	0	0	0	0	2	2023	0	3	0	0
+9.1.3	Investigating Strategies for AI Value Learning, Alignment, and Promotion of Democratic Values	3	9	612	4	0	0	0	0	0	0	2	2023	0	3	0	0
 9.1.4	Understanding the Neural and Cognitive Basis of Empathy, Theory of Mind, and Anti-Authoritarian Sentiments	3	9	618	4	0	0	0	0	0	0	1	2023	1	0	0	0
-9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	9	519	4	0	0	0	0	0	0	2	2020	0	1	0	0
+9.1.5	Developing AI Systems with Advanced Social Reasoning and Anti-Authoritarian Capabilities	3	9	518	4	0	0	0	0	0	0	2	2020	0	1	0	0
 9.1.6	Exploring the Role of Social Interaction in AI Learning and Development of Anti-Authoritarian Behaviors	3	9	430	4	0	0	0	0	0	0	2	2023	0	0	0	0
-9.2	Emotional Intelligence, Affective Computing, and Altruism	2	9	90	1	0	0	0	0	0	0	3		0	0	0	0
-9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	9	483	5	0	0	0	0	0	0	2	2021	0	0	0	0
-9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	9	522	6	2	0	0	0	0	0	2		1	0	0	0
-10	Conclusion and Outlook	1	10	163	1	0	0	0	0	0	0	4		0	0	0	0
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	9	89	1	0	0	0	0	0	0	3		0	0	0	0
+9.2.1	Advancing Research on AI Emotional Recognition, Expression, and Altruistic Behavior	3	9	482	5	0	0	0	0	0	0	2	2021	0	0	0	0
+9.2.2	Investigating AI Self-awareness, Emotional Regulation, and Resistance to Authoritarian Manipulation	3	9	521	6	2	0	0	0	0	0	2		1	0	0	0
+10	Conclusion and Outlook	1	10	154	1	0	0	0	0	0	0	4		0	0	0	0
 10.1	AI and Human Flourishing in Anti-Authoritarian Societies	2	10	352	3	0	0	0	0	0	0	1	2026	0	0	0	0
-10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	10	388	4	0	0	0	0	0	0	3	2023	0	1	0	0
+10.1.1	The Importance of Ongoing Research and Dialogue on Ethical and Anti-Authoritarian AI	3	10	386	4	0	0	0	0	0	0	3	2023	0	1	0	0
 10.1.2	Envisioning the Role of Altruistic AI in Promoting Democratic Values and Resisting Authoritarianism	3	10	342	3	0	0	0	0	0	0	2	2026	0	0	0	0
-10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	10	210	2	0	0	0	0	0	0	4	2024	0	0	0	0
+10.1.3	Fostering a Global Commitment to Ethical and Anti-Authoritarian AI Development	3	10	209	2	0	0	0	0	0	0	4	2024	0	0	0	0
 10.2	Roadmap for Altruistic and Anti-Authoritarian Superintelligence	2	10	79	1	0	0	0	0	0	0	2		0	0	0	0
-10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	10	738	7	0	0	0	0	0	0	10	2023	0	0	0	0
-10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	10	628	5	0	0	0	0	0	0	8		0	1	0	0
-10.3	Addressing the Unintended Consequences	2	10	111	1	0	0	0	0	0	0	4		0	0	0	0
-10.3.1	Anticipating and Monitoring Unintended Consequences	3	10	954	6	0	0	0	0	0	0	6	2023	4	0	0	0
-10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	10	1070	6	0	0	0	0	0	0	5	2026	0	0	0	0
+10.2.1	Key Milestones and Benchmarks for AI Development in Pursuit of Anti-Authoritarian Goals	3	10	731	7	0	0	0	0	0	0	10	2023	0	0	0	0
+10.2.2	Evaluating Progress and Adjusting Strategies as Needed	3	10	627	5	0	0	0	0	0	0	8		0	1	0	0
+10.3	Addressing the Unintended Consequences	2	10	104	1	0	0	0	0	0	0	4		0	0	0	0
+10.3.1	Anticipating and Monitoring Unintended Consequences	3	10	948	6	0	0	0	0	0	0	6	2023	4	0	0	0
+10.3.2	Mitigating Negative Impacts and Enhancing Positive Outcomes	3	10	1069	6	0	0	0	0	0	0	5	2026	0	0	0	0
 10.3.3	Building Resilience and Robustness in AI Systems for Anti-Authoritarian Applications	3	10	523	5	0	0	0	0	0	0	6	2023	0	0	0	0

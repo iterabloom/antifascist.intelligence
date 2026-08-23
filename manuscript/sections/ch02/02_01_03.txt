@@ -10,7 +10,7 @@ Three problems recur when values are assigned and prioritized:
 
 A superintelligent AI system also needs to resolve moral paradoxes and value trade-offs directly. Six strategies do that work:
 <<list>>
-1. Context sensitivity: an AI system that understands its surroundings applies ethical principles more accurately, incorporating domain-specific knowledge and adapting its response to the situation it is actually in.
+1. Context sensitivity: an AI system that understands its surroundings applies ethical principles more accurately, incorporating domain-specific knowledge and adapting its response to the situation it is in.
 2. Hierarchical value systems: ranking values explicitly — human dignity and autonomy taking precedence over broader societal goals, for instance — gives the system a structure for deciding among conflicting principles instead of weighing them all as equal.
 3. Case-based moral reasoning: an AI system can draw on a record of past moral dilemmas and how they were resolved to make a sound, context-sensitive decision on the trade-off in front of it.
 4. Multi-objective optimization: where principles conflict outright, formal multi-objective optimization can balance the competing objectives mathematically rather than by fiat.
@@ -20,6 +20,6 @@ A superintelligent AI system also needs to resolve moral paradoxes and value tra
 
 An autonomous vehicle facing a choice between a pedestrian collision and passenger safety is context-aware reasoning and a hierarchical value system in practice, used to minimize overall harm.
 
-AI healthcare diagnostics juggle beneficence, non-maleficence, autonomy, and justice in every patient-care decision; case-based reasoning and human input are what let them handle a genuinely contentious case rather than default to the nearest simple rule.
+AI healthcare diagnostics juggle beneficence, non-maleficence, autonomy, and justice in every patient-care decision; case-based reasoning and human input are what let them handle a contentious case rather than default to the nearest simple rule.
 
 Criminal-justice AI systems — bail recommendations, recidivism prediction — carry a comparable burden for fairness, transparency, and accountability. Multi-objective optimization and frequent ethical audits are what keep due-process rights intact under that load.

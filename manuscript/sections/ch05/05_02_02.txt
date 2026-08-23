@@ -10,13 +10,13 @@ Two further mechanisms matter specifically for situations a system's designers d
 Monitoring adaptability matters as much as building it, since a system's alignment with antifascist principles can drift as it adapts:
 
 <<list>>
-- Real-time performance metrics that track how the system behaves in genuinely new contexts, not only the ones it was tested against.
+- Real-time performance metrics that track how the system behaves in new contexts, not only the ones it was tested against.
 - Comprehensive testing by parties independent of whoever built the system, covering novel situations its own developers did not think to test for.
 - Feedback channels open to users, affected stakeholders, and outside experts, so problems with the system's adaptability surface before they compound.
 <</list>>
 
 Adaptability raises ethical risks of its own. A system needs to adapt to a changing environment without letting its core ethical commitments adapt along with it — the two are not the same kind of flexibility, and conflating them is how an antifascist system's principles erode one adaptation at a time. The fix has to be structural: mechanisms that hold ethical boundaries fixed while leaving room for adaptation inside them, not a hope that the system's values happen to survive its own learning.
 
-Adaptability also compounds the ordinary opacity problem. A system that keeps changing its own behavior is harder to audit than a static one, and transparency and accountability mechanisms have to keep pace with that change rather than describe a system that no longer quite exists.
+Adaptability also compounds the ordinary opacity problem. A system that keeps changing its own behavior is harder to audit than a static one, and transparency and accountability mechanisms have to keep pace with that change.
 
-High adaptability is itself an attack surface, too: a system built to change readily in response to its environment is more vulnerable to an adversary who manipulates that environment on purpose, whether to provoke unwanted behavioral drift or to engineer an outright takeover. Guarding against that has to be a constraint on the adaptability mechanism itself, not an afterthought bolted onto a system already built to change.
+High adaptability is itself an attack surface, too: a system built to change readily in response to its environment is more vulnerable to an adversary who manipulates that environment on purpose, whether to provoke unwanted behavioral drift or to engineer an outright takeover. Guarding against that has to be a constraint on the adaptability mechanism itself.

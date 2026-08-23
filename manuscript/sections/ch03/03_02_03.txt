@@ -7,7 +7,7 @@ The same approach extends to image and video: an AI system can learn to recogniz
 
 Supervised learning can also train an AI system to make ethical decisions in collaborative or competitive multi-agent settings — multiplayer games, resource allocation — while weighing the interests of other agents. A resource-distribution system, for instance, can be trained to divide resources fairly and efficiently, accounting for fairness, equity, and overall welfare.
 
-Supervised learning has real limits, though.
+Supervised learning has limits, though.
 
 <<list>>
 - Quality and representativeness of training data: the method's success depends on how representative the training data is, and bias baked into that data can lead an AI system to make ethically bad decisions.

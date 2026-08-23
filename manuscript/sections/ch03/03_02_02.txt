@@ -9,4 +9,4 @@ Cooperative inverse reinforcement learning (CIRL), formalized by Dylan Hadfield-
 
 A domestic robot helping with cooking or cleaning can use CIRL to treat a household's daily interactions as ongoing evidence about what its resident actually wants, adjusting its help to that person's preferences rather than to a generic standard.
 
-Both methods depend on the quality, diversity, and representativeness of the demonstrations they learn from. Training data drawn from too narrow a set of situations and people will not generalize, and unexamined bias in that data gets learned and reproduced rather than corrected — the opposite of what altruistic AI is meant to do.
+Both methods depend on the quality, diversity, and representativeness of the demonstrations they learn from. Training data drawn from too narrow a set of situations and people will not generalize, and unexamined bias in that data gets learned and reproduced rather than corrected.

@@ -14,7 +14,7 @@ Training data carries the biases of the society that produced it. Left unaddress
 
 Multi-agent systems add another layer: interactions between autonomous agents can produce emergent behavior that no single agent's training anticipated. In a traffic system where each light runs its own AI agent, local optimization can produce aggressive strategies that clear one intersection efficiently while degrading the flow of the network as a whole. Countering that calls for RL algorithms that reward cooperation and communication between agents, not just individual performance — multi-agent learning techniques and social welfare functions built into the objective.
 
-Value alignment achieved in one domain does not transfer automatically. An RL agent trained to cooperate in a board game may not carry that behavior into real-world teamwork. Building agents whose alignment scales and transfers is a problem for domain adaptation, meta-learning, and transfer learning research, and it needs benchmarks that measure alignment across a genuinely wide range of tasks, not just the one the agent was trained on.
+Value alignment achieved in one domain does not transfer automatically. An RL agent trained to cooperate in a board game may not carry that behavior into real-world teamwork. Building agents whose alignment scales and transfers is a problem for domain adaptation, meta-learning, and transfer learning research, and it needs benchmarks that measure alignment across a wide range of tasks, not just the one the agent was trained on.
 
 <<h>>Strategies for Value Alignment in Reinforcement Learning<</h>>
 Several strategies address these hurdles, drawing on human feedback, cooperation between human and agent, and ethical constraints built into the learning process itself.

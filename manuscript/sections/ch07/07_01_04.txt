@@ -14,5 +14,5 @@ AI systems capable of automating entire job categories, not just discrete tasks 
 
 6. AI-human collaboration: designing work so that AI systems augment human judgment and creativity rather than substitute for them can generate roles that need both — a combination automation alone does not produce and full replacement forecloses.
 
-7. Support for small and medium-sized enterprises: giving smaller firms access to AI resources and expertise lets them compete with the dominant players section 7.1.2 describes, which keeps the AI ecosystem itself more diverse and creates employment outside the largest firms rather than only inside them.
+7. Support for small and medium-sized enterprises: giving smaller firms access to AI resources and expertise lets them compete with the dominant players section 7.1.2 describes, which keeps the AI ecosystem itself more diverse and creates employment outside the largest firms.
 <</list>>

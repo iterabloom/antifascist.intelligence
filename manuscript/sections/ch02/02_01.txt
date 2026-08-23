@@ -11,4 +11,4 @@ Virtue ethics takes a third approach, emphasizing character over rules or outcom
 
 Implementing any one of these theories alone raises the same kinds of problems: how to represent moral principles computationally, and how to keep an AI system's ethical reasoning flexible enough for evolving understanding and context-dependent scenarios. A hybrid approach — drawing on each framework's strengths while limiting its weaknesses — is one plausible way through those problems.
 
-Translating these principles into concrete machine objectives — through the design of reward systems, learning algorithms, and decision-making protocols — is its own task, one that needs AI developers, ethicists, and other stakeholders working together. Section 2.1.2 works through what that translation actually looks like.
+Translating these principles into concrete machine objectives — through the design of reward systems, learning algorithms, and decision-making protocols — is its own task, one that needs AI developers, ethicists, and other stakeholders working together. Section 2.1.2 works through what that translation looks like.

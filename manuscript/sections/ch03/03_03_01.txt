@@ -3,7 +3,7 @@ Play is how children and animals learn, experiment, and adapt. It lets an indivi
 
 From an early age, children use play to learn about their environment, solve problems, and develop social skills. Primates and dolphins use play the same way: to explore the world, build physical dexterity, and work out the rules of group dynamics. That early practice lets young animals internalize skills they will need once the stakes are real.
 
-In AI research, play-inspired learning offers real advantages: it gives a system the chance to confront novel, challenging situations in a low-risk, controlled setting, and it pushes the system to think adaptively rather than simply execute a predetermined script. A system that learns through play is better equipped to handle real-world problems it was not explicitly trained for.
+In AI research, play-inspired learning offers advantages: it gives a system the chance to confront novel, challenging situations in a low-risk, controlled setting, and it pushes the system to think adaptively rather than simply execute a predetermined script. A system that learns through play is better equipped to handle real-world problems it was not explicitly trained for.
 
 OpenAI's Hide and Seek experiments make the case concretely [[cite:C0310]]: agents placed in a multi-agent hide-and-seek environment developed tactics — hiding, chasing, using objects as tools and barriers — that no one had explicitly programmed, purely through repeated play against each other.
 

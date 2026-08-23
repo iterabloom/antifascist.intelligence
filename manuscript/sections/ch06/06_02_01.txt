@@ -1,6 +1,6 @@
 6.2.1. Engaging Diverse Stakeholders in AI Development
 
-An AI system designed by one kind of person, inside one kind of institution, tends to reproduce that person's blind spots at scale. Bringing in people with different expertise, backgrounds, and stakes in the outcome is what catches a problem before deployment rather than after.
+An AI system designed by one kind of person, inside one kind of institution, tends to reproduce that person's blind spots at scale. Bringing in people with different expertise, backgrounds, and stakes in the outcome is what catches a problem before deployment.
 
 <<list>>
 1. Cross-sector research collaboration. Funding joint work across industry, academia, and civil society surfaces problems no single sector would catch alone. The University of Cambridge's Leverhulme Centre for the Future of Intelligence, launched in 2016 with a £10 million grant from the Leverhulme Trust, brings together philosophers, machine-learning researchers, and scholars from fields including history, engineering, and media studies to study AI's effects on society [[cite:C0471]]. Section 7.5 covers the Partnership on AI, the industry consortium built for cross-sector coordination at a larger scale.

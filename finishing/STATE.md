@@ -5,9 +5,8 @@ author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
 book has now had a P3 pass.** What's left of P3 is author acceptance for
-chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus the `outline.tsv`
-title-drift sync (the TOC itself was regenerated 2026-08-23) and a couple of
-flagged spot-checks.
+chapters 1, 3's opener, 6, 9, and 10 (44 sections), plus a couple of flagged
+spot-checks. The `outline.tsv`/TOC title-drift sync is done (drift is 0).
 
 ## Where the book is
 
@@ -16,7 +15,7 @@ three levels. `manuscript/parseable_text_v4.txt` is the join and must always
 match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
 frozen 2024 text, pinned by digest.
 
-74,602 words as of the last `section_stats.py` run — down from ~113,000 before
+74,112 words as of the last `section_stats.py` run — down from ~113,000 before
 P3 started, because P3 is cutting real duplication (D-021), not just changing
 voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
@@ -76,6 +75,34 @@ untouched since 2024.
   cutting load-bearing contrasts, which this pass did not do** — whether an
   argumentative body chapter should match an introduction's density is a
   judgment for the author, not something to assume.
+- **P3.5 completed across the remaining seven chapters** (2026-08-23): swept
+  by four parallel agents on disjoint chapters (7; 2 and 9; 3 and 6; 5 and
+  10), each given the author's chapter 1 cuts, the five author-confirmed
+  keeps, and chapter 4's worked examples, plus an explicit instruction that
+  21% is the expected rate and forcing a higher one is the worse error.
+  **164 edits across 79 files**, every one a deletion or minimal trim.
+  Per-chapter rates held close to calibration: ch3+ch6 20%, ch2+ch9 23%,
+  ch7 11% on contrastive clauses (49 cuts, but 37 of them defensive
+  intensifiers rather than clauses), ch10 14% — correctly the lowest, since
+  its prose is documented case studies where the contrast carries the
+  finding. **Chapter 5 came in high at 37% and was reviewed:** the agent's
+  stated reason held up — "visible rather than buried in an opaque process"
+  and "before it causes harm rather than after" each recur near-verbatim
+  across sections, and "bolted onto" four times, so those cuts are
+  de-duplication rather than over-cutting. Two chapter 5 cuts were
+  **restored** as over-aggressive: §5.2.2's "not a hope that the system's
+  values happen to survive its own learning" and §5.1.2's "rather than
+  optimizing for one and hoping the other follows," both unique clauses
+  matching confirmed-keep shape (naming the specific wrong assumption).
+  Verified after the sweep: 301 citation placeholders unchanged, all eight
+  markup token counts unchanged, and all 156 section headings byte-identical
+  to their pre-sweep state. One process incident: the chapter 7 agent ran
+  `git stash`/`git stash pop` in the shared worktree while three other
+  agents were mid-write, which could have lost work; it disclosed this
+  itself, and I verified the stash list is empty and sampled surviving
+  edits from every agent plus the `finishing/` changes. Nothing was lost.
+  Final densities, one construction per N words: ch1 199 (the author's own),
+  ch3 158, ch9 158, ch5 165, ch7 134, ch2 136, ch10 127, ch6 113, ch4 102.
 - **P3.5 calibration audited and confirmed** (2026-08-23): the author asked
   for five of the *kept* constructions at random, judged one at a time.
   **All five were keeps** — §4.3.3's partial-view-not-settled-answer,
@@ -519,7 +546,7 @@ suspected fabrication during P3 itself.
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
 | P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
-| P3.5 Style | **started, D-025.** Chapter 4 swept (34 edits, 155 words). Chapters 2, 3, 5, 6, 7, 9, 10 not yet swept. Also carries the `outline.tsv` sync (55 stale titles), the post-D-024 register-seam check, and §10.2's "Roadmap" title. |
+| P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 for the first time. Post-D-024 register-seam check done: seams exist in chapter 3 but §2.1.4's terminology statement covers them; flagged for the author rather than rewritten. Still open: §10.2's title, which says "Roadmap" against D-023, and the author's read of the per-chapter diffs. |
 | P4 Source | not started — claims ledger now at 534 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
@@ -536,24 +563,13 @@ the housekeeping below.
   Everything else in the book is already author-accepted; D-001's two-round
   return path no longer applies to it unless the author reopens a specific
   section.
-- **`finishing/outline.tsv` has accumulated 55 stale titles** against the
-  manuscript's own (authoritative, D-011) headings
-  (`manuscript/table-of-contents.txt` itself was regenerated 2026-08-23 and
-  is current) — 17 from the D-024 antifascist retitles (§1.1 by the author's
-  hand, 16 applied book-wide), 16 from chapters 2, 4, and 7's retitles, 6 from chapter 6
-  (`06_01_01`, `06_02_03`, `06_03_01`, `06_03_02`, `06_03_03`, `06_04_01`), 8
-  from chapter 9 (`09_01_01` through `09_01_06`, `09_02_01`, `09_02_02` —
-  every chapter-9 body section was retitled), 8 new from chapter 10
-  (`10_01_01`, `10_01_02`, `10_01_03`, `10_02_01`, `10_02_02`, `10_03_01`,
-  `10_03_02`, `10_03_03` — every chapter-10 body section was retitled too).
-  `check_structure.py` treats
-  this as a note, not an error, so it hasn't blocked anything — but it's real
-  drift, not yet fixed by any chapter's revision pass. **Structure has now
-  fully settled** — every chapter has a draft — so the dedicated sync
-  (`headings.py --write-toc`, plus a hand pass on `outline.tsv`) this note
-  has deferred "until structure settles" since chapter 6 no longer has
-  anything left to wait on. Worth doing before or during P4 rather than
-  deferred again. `finishing/reports/headings_reconcile.md` has the full list.
+- **`finishing/outline.tsv` title drift: closed, 2026-08-23.** All 55 stale
+  titles were synced from the manuscript's own (authoritative, D-011)
+  headings during P3.5, and `manuscript/table-of-contents.txt` was
+  regenerated from the same source. `headings.py` now reports
+  **ms-vs-outline title diffs=0** — the first time in the project's history.
+  The item had been deferred "until structure settles" since chapter 6.
+  `finishing/reports/headings_reconcile.md` records the clean state.
 - **The Clearview/AIGS Index/GPAI details in §7.2.2** were corrected on
   high-confidence background knowledge, not live-verified this session (the
   agent's web-search budget ran out mid-task) — worth a spot-check before P4

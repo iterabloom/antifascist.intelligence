@@ -1,5 +1,5 @@
 2.3.2. Affective Computing: AI Systems that Comprehend and Respond to Emotions
-Affective computing sits at the intersection of AI, psychology, and human-computer interaction: systems that recognize, interpret, and respond to human emotion. It is the practical, applied half of what section 2.3.1 treats as theoretically unsettled — a system can be useful at reading and responding to emotional signal regardless of which account of what an emotion actually is turns out to be right.
+Affective computing sits at the intersection of AI, psychology, and human-computer interaction: systems that recognize, interpret, and respond to human emotion. It is the practical, applied half of what section 2.3.1 treats as theoretically unsettled — a system can be useful at reading and responding to emotional signal regardless of which account of what an emotion is turns out to be right.
 
 Techniques for emotion recognition
 <<list>>
@@ -10,7 +10,7 @@ Techniques for emotion recognition
 
 Deployment
 <<list>>
-- Mental health: Woebot, a cognitive-behavioral-therapy chatbot, offers one real example of emotion-aware support for stress, anxiety, and depression [[cite:C0291]].
+- Mental health: Woebot, a cognitive-behavioral-therapy chatbot, offers one example of emotion-aware support for stress, anxiety, and depression [[cite:C0291]].
 - Education: Affectiva's Emotion AI assesses student engagement from facial signal to inform teaching-strategy adjustments [[cite:C0295]].
 - Entertainment: games and virtual-reality platforms that adjust content to a player's immediate emotional response.
 <</list>>

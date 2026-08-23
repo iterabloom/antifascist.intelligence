@@ -1,9 +1,9 @@
 2.2.3. Socially-Aware AI: Opportunities and Challenges
-Socially-aware AI systems have real opportunities in front of them, real engineering and governance obstacles in the way, and — the point section 2.2.1 raised — a real question about whether the capacity at the center of the design, felt or simulated empathy, is the right thing to be building at all. The three are different kinds of problem and worth keeping separate.
+Socially-aware AI systems have opportunities in front of them, engineering and governance obstacles in the way, and — the point section 2.2.1 raised — a question about whether the capacity at the center of the design, felt or simulated empathy, is the right thing to be building at all. The three are different kinds of problem and worth keeping separate.
 
 Opportunities:
 <<list>>
-- Human-AI interaction: a system that reads emotional state from voice, expression, or text can offer more relevant, better-calibrated responses — a personal assistant that adjusts its register to a user's stress rather than ignoring it.
+- Human-AI interaction: a system that reads emotional state from voice, expression, or text can offer more relevant, better-calibrated responses — a personal assistant that adjusts its register to a user's stress.
 - Healthcare: a virtual care assistant that tracks a patient's emotional and psychological state alongside their clinical data can customize interaction in ways that improve engagement and reported satisfaction.
 - Workplace collaboration: project-management and team tools that read group dynamics can surface friction and improve communication before it escalates.
 - Education: a tutoring system that detects frustration or disengagement can adjust pacing and method to the individual student rather than a fixed curriculum.

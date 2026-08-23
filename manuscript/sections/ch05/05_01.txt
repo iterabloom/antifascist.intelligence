@@ -9,6 +9,6 @@ These case-level failures compose into something with a name. Racial capitalism 
 
 Algorithmic transparency exposes bias that representation alone can miss: not just an algorithm's mathematical structure, but how it weighs variables and reaches a decision. A predictively powerful healthcare model that ignores the socio-economic factors driving unequal access to care will reproduce that inequality however accurate its predictions otherwise are.
 
-Bias also enters after deployment, as a system adapts to new data. Regular audits of credit-scoring and hiring systems catch and correct bias as it emerges, rather than after it has already caused harm.
+Bias also enters after deployment, as a system adapts to new data. Regular audits of credit-scoring and hiring systems catch and correct bias as it emerges.
 
-Involving the people an AI system's decisions actually affect, not only its developers, keeps the system answerable to the range of values those decisions touch, rather than to one group's unexamined perspective.
+Involving the people an AI system's decisions affect, not only its developers, keeps the system answerable to the range of values those decisions touch.
