@@ -228,3 +228,103 @@ instance, is a section whose stated job is to name three ideas and point at wher
 each is developed, and §7.2.2's pointer draws a distinction the section is about.
 Cutting those would cost the reader information to satisfy a metric, which is the
 failure mode §6.6.4 spends its length on.
+
+---
+
+# C3 reopened: the rebalance, 2026-08-23 (D-032)
+
+C3 named two options — "flag it in the roadmap or rebalance" — and was closed
+above with the cheap one, the §1.2 flag. A second editorial reading accepted the
+flag as "partly right" and asked for the other one. The author's ruling was to
+fix it. This is what that cost and what it changed.
+
+## The diagnosis, measured before acting
+
+| | ch2 | ch3 | ch4 | **ch6** | ch7 | ch8 |
+|---|---|---|---|---|---|---|
+| words | 12,986 | 11,089 | 14,884 | **22,014** | 5,543 | 5,528 |
+| dated refs per 1,000 words | 0.3 | 0.1 | 0.2 | **3.9** | 3.4 | 5.7 |
+
+Chapter 6 was 26 percent of the book and 48 percent larger than the next-biggest
+chapter, at 13 to 39 times the arguing chapters' density of dates. That is a
+measurably different genre occupying a quarter of the book, and the dating is the
+part that ages: D-027 already conceded dated prose for the targeting material,
+which earns it. The chapter-6 inventory was taking the same hit for no return.
+
+## What the review got wrong, recorded so it is not re-litigated
+
+- **"Chapters 6–7 inventory" is stale.** After D-031's merge, chapter 7 is
+  *Necessary Areas of Research* — 5,543 words of open problems, two list items in
+  the whole chapter. The defect was in chapter 6 alone.
+- **The §8.1.3-against-§6.7.6 comparison targets the wrong section.** §8.1.3 is
+  204 words in four paragraphs, correctly. §6.7.6 was 5,876 words across eleven
+  run-in-head blocks, of which one — International Governance and Cooperation,
+  962 words — made the point §8.1.3 makes. The rest is the P7 Tier B argument
+  (vendor accountability, the democratic-dividend decomposition, military
+  autonomy). The honest comparison is 204 against 962, and cutting §6.7.6 as a
+  unit would have destroyed the newest and least catalogue-like material in the
+  chapter. The sharper version of the point does survive and was acted on:
+  §8.1.3 cross-refers to the catalogue and then wins the argument in 204 words,
+  so the catalogue only needs to be as long as the pointer requires.
+- **The Ofqual NDA is not in the manuscript.** Verified absent. It was offered as
+  an instance to keep, so keeping it would mean writing new sourced material —
+  a D-029 question with a D-030 verification cost — rather than cutting. Not
+  done; recorded here as an available addition, not a gap left open.
+- **The DeepMind Health panel is in the manuscript**, at §6.2.2, and the text
+  already drew the lesson the review wanted from it. It was kept and extended.
+- **Bletchley-to-Paris is in the manuscript**, at §6.7.6, and is the best passage
+  in the block it sits in, because it shows a mechanism failing rather than a
+  body existing. Untouched.
+
+## The criterion applied
+
+The reviewer's own test, adopted verbatim as the rule for the pass: **keep the
+instance that shows a mechanism working or failing; cut the instance that only
+establishes that a body exists.** Nineteen sections were edited under it. Where
+a catalogue entry was cut, the argument it had been illustrating was usually
+written out in its place, which is why the word delta is smaller than the volume
+of cut catalogue suggests. D-019 was not overridden: no section was cut to reach
+a number.
+
+## Result
+
+| | before | after |
+|---|---|---|
+| chapter 6, words | 22,014 | 20,023 |
+| chapter 6, dated references | 88 | 35 |
+| chapter 6, dated refs per 1,000 words | 3.9 | 1.7 |
+| "founded/launched/established in YEAR" | 22 | 3 |
+
+Chapter 6 is still the longest chapter in the book. It is now the longest because
+it argues at length, and the remaining dates are on events where the date is the
+argument — the Gebru and Mitchell dismissals, Canada's AIDA dying with its
+Parliament, Taiwan's statute, the Bletchley-to-Paris fraying. Every one of the 35
+was read individually before being kept.
+
+**Twenty-three citations were orphaned** by the cuts and are marked retired in
+`claims.tsv` with the reason, following the precedent set for claims cut in P3.
+No claim row was deleted.
+
+## Two things found while doing it
+
+- **§6.7's opener carried visible revision history** — a sentence describing what
+  earlier drafts of the material had done and why the book kept negotiating a
+  boundary in front of the reader. That is exactly the A3 defect, in a section
+  written during C2 *after* A3 had already run. Deleted.
+- **Every sha256 in `ORDER.tsv` was stale — 0 of 157 matched.** The digests were
+  written once at the v4 split and never regenerated through any of P1 to P7,
+  because nothing checked them; the column had silently stopped being evidence of
+  anything. Same class of gap P6 closed for title drift. `check_structure.py` now
+  fails on a stale digest, `tools/refresh_order_shas.py` clears it, and both
+  directions were sanity-tested by injecting a mismatch and reverting it.
+
+## D-025 regression, swept
+
+Writing this much replacement prose reintroduced the contrastive-negation tic,
+exactly as P7 Tier B recorded. Measured per section against the D-025 calibration
+and swept in my own new material: the worst was §6.2.1 at 1 per 84 words, now 1
+per 245; every rewritten section now runs at 1 per 216 or better. Pre-existing
+instances in paragraphs I did not touch were left alone, following the Tier B
+precedent — chapter 6's untouched sections still run considerably denser than the
+calibration, and §§6.6.3 and 6.6.4 in particular are at 1 per 63 and 1 per 78.
+That is a live item for any future P3.5 sweep and is not claimed as fixed here.

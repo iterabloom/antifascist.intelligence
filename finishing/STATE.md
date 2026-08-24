@@ -886,8 +886,82 @@ lint, HTML → ODT → PDF locally; other formats elsewhere", exit criterion
   whole-book proof PDF and accepted. P6's exit criterion is met; the pass
   is closed.
 
+## P7 C3, the rebalance — done 2026-08-23 (D-032)
+
+C3, the genre shift at the book's midpoint, was closed earlier the same day the
+cheap way its own scope offered ("flag it in the roadmap or rebalance; cheap
+version: the roadmap flags it") — §1.2 gained the flag. A second editorial
+reading accepted that flag as "partly right" and asked for the rebalance
+instead. The author ruled to fix it, and it is now done. Full account, with the
+measurements and with what the review got wrong, in `p7-scope.md` under "C3
+reopened."
+
+- **The defect, measured before acting.** Chapter 6 was 22,014 words — 26
+  percent of the book, 48 percent larger than the next-biggest chapter — at
+  3.9 dated references per 1,000 words against 0.1 to 0.3 in chapters 2 to 4.
+  Not a matter of taste: a measurably different genre holding a quarter of the
+  book, and dating for no return, where D-027's dated targeting material at
+  least earns its dating.
+- **The rule.** The reviewer's own criterion, adopted verbatim: keep the
+  instance that shows a mechanism working or failing, cut the instance that only
+  establishes that a body exists. Applied across 19 sections.
+- **Result.** Chapter 6: 22,014 → 20,023 words; dated references 88 → 35, from
+  3.9 to 1.7 per 1,000, now level with chapters 5 and 9; the "founded in that
+  year" construction from 22 occurrences to 3. Each of the 35 surviving dates
+  was read individually and kept because the date is the argument — the Gebru
+  and Mitchell dismissals, Canada's AIDA dying with its Parliament, Taiwan's
+  statute, Bletchley-to-Paris. Chapter 6 is still the longest chapter; it is now
+  the longest because it argues at length. **The word delta is smaller than the
+  volume of cut catalogue**, because where an entry was cut the argument it had
+  been illustrating was usually written out in its place, which is what the
+  criterion asks for. D-019 held: no section was cut to reach a number.
+- **Untouched, deliberately:** §6.4.2 (Google/Maven, Gebru and Mitchell,
+  Facebook's Oversight Board, Clearview, Rekognition — every instance shows a
+  mechanism failing), §6.5.x (technical, not institutional), §6.6.x (legal
+  argument), and inside §6.7.6 the Tier B blocks, the Bletchley-to-Paris
+  passage, and the diverging-national-rules comparison.
+- **23 citations orphaned** by the cuts, marked retired in `claims.tsv` with the
+  reason. No claim row deleted, following the P3 precedent.
+- **The Ofqual NDA, one of three instances the review named as worth keeping, is
+  not in the manuscript** — verified absent. Adding it would be new sourced
+  prose (D-029) needing live verification (D-030), which is a different job from
+  cutting and was not done. Recorded in `p7-scope.md` as an available addition,
+  not as a gap. The other two the review named are present: the DeepMind Health
+  panel at §6.2.2, kept and extended, and Bletchley-to-Paris at §6.7.6,
+  untouched.
+
+**Two things found along the way.**
+
+- **§6.7's opener carried visible revision history** — a sentence about what
+  earlier drafts had done and why the book kept negotiating a boundary in front
+  of the reader. That is the A3 defect, in a section written during C2 *after*
+  A3 had run. Deleted.
+- **Every sha256 in `ORDER.tsv` was stale: 0 of 157 matched their files.** The
+  digests were written once at the v4 split and never regenerated across P1
+  through P7, because nothing verified them — the column had silently stopped
+  being evidence of anything, which is the same class of gap P6 closed for title
+  drift. `check_structure.py` now fails hard on a stale digest;
+  `tools/refresh_order_shas.py` clears it; both directions sanity-tested by
+  injecting a mismatch, confirming the failure, reverting, and confirming the
+  pass. All 157 refreshed.
+
+**D-025 regressed again and was swept again.** Writing this much replacement
+prose reintroduced the contrastive-negation tic, exactly as Tier B recorded.
+Worst was §6.2.1 at 1 per 84 words, now 1 per 245; every rewritten section now
+runs 1 per 216 or better. Pre-existing instances in untouched paragraphs were
+left alone, per the Tier B precedent — **and chapter 6's untouched sections run
+much denser than D-025's calibration, §6.6.3 at 1 per 63 and §6.6.4 at 1 per 78.
+That is not fixed and is not claimed as fixed.**
+
+
 ## The immediate open items
 
+- **Chapter 6's contrastive-negation density is not fixed.** The C3 rebalance
+  swept only its own new prose. Untouched sections run far denser than D-025's
+  calibration of 1 per 345 words — §6.6.3 at 1 per 63, §6.6.4 at 1 per 78,
+  §6.7.2 at 1 per 79. A future P3.5 sweep over chapter 6 has real work.
+- **The author has not read the C3 rebalance.** 19 sections changed; the
+  rebuilt proof is committed.
 - **The author's own read of the P3.5 per-chapter diffs is still
   unconfirmed** — distinct from the P3 acceptance question above, which the
   author has settled by blanket instruction. P3.5's own exit criterion

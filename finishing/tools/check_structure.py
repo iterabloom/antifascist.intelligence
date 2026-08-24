@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """Structural invariants for manuscript/sections and the ledger.
 
+  0. ORDER.tsv's sha256 column matches each file's actual contents. Nothing
+     checked this before P7 C3, and every one of the 157 digests had gone
+     stale: they were written once at the v4 split and never regenerated
+     through P1-P7's edits, so the column silently stopped being evidence
+     of anything. Refresh with tools/refresh_order_shas.py.
   1. every section file's first line is its own heading, and the filename's
      number matches that heading's number, and its title matches
      ORDER.tsv's title column (render.py renders from ORDER.tsv, not from
@@ -12,6 +17,7 @@
   5. ledger.tsv (if present) has exactly one row per section
 """
 import glob
+import hashlib
 import os
 import sys
 
@@ -51,6 +57,12 @@ def main():
             # D-024/10.2's 55 titles, then 2.3.3/3.3.1/7.2.3 at P6). Fatal.
             errs.append("%s: heading title %r != ORDER.tsv title %r"
                         % (r["path"], h[1], r["title"]))
+        if "sha256" in r:
+            digest = hashlib.sha256(open(p, "rb").read()).hexdigest()
+            if digest != r["sha256"]:
+                errs.append("%s: ORDER.tsv sha256 is stale (%s != %s); "
+                            "run tools/refresh_order_shas.py"
+                            % (r["path"], r["sha256"][:12], digest[:12]))
         stem = os.path.basename(p)[:-4].replace("_", ".")
         if tuple(int(x) for x in stem.split(".")) != common.numkey(r["num"]):
             errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))
