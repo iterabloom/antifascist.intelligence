@@ -128,3 +128,36 @@ into hedges — they are simply absent, and the surrounding argument is written 
 stand without them.
 
 **Twenty seconds replaces three minutes as the number the chapter turns on.**
+
+
+---
+
+# Status, 2026-08-23
+
+**Tier A: complete.** All eleven items applied across eighteen sections. Commit
+`e078f8d`.
+
+**Tier B: complete.** All fourteen items applied. Commit `2c77e85`. B14 (data
+annotators) landed inside A1's rewrite of §5.1.1, since the Data Labeling head was
+where it belonged.
+
+Two things worth recording that were not in the original scope:
+
+- **Emphasis markup.** The new prose initially used `**bold**` and `*italic*`. The
+  manuscript dialect has no emphasis markup and `render.py` does not convert it, so
+  it would have printed as literal asterisks. Caught by reading the proof, and
+  removed — the emphasis is carried by sentence structure instead. Only the
+  pre-existing asterisk inside the Westworld epigraph remains, which is quoted
+  dialogue.
+- **D-025 regression.** Writing this much new prose reintroduced the
+  contrastive-negation tic P3.5 was created to remove. Measured per-section against
+  the D-025 calibration (chapter 1 post-revision, ~1 per 345 words) and swept in my
+  own new material. §9.1.7 went from 1 per 156 to 1 per 313. Pre-existing instances
+  in untouched paragraphs were left alone; this pass swept what it wrote.
+
+**Tier C: not started.** C1 (the chapter-8 renumber), C2 (the chapter 6/7 merge —
+still needs a ruling, since D-029 lifted D-007 and not D-010), C3 (the genre-shift
+flag).
+
+**Book state:** 84,486 words across 159 sections, from 76,949 across 158 at P6
+acceptance. Proof rebuilt at 144 pages, from 132.
