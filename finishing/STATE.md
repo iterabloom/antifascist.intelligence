@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -1229,3 +1229,62 @@ file << 'EOF'`.
 asked for it committed. It is already stale (chapter 4 isn't in it) and will
 not be kept in sync; don't treat its presence as a new convention, and don't
 regenerate/recommit it reflexively as chapters finish unless asked again.
+
+---
+
+## P11 — the sixth editorial review, 2026-08-24 (D-043)
+
+**The structure of the book changed.** Chapters now run 0 through 11. Old §2.1.5
+is **chapter 3, "The Floor Beneath Learned Values."** A new **chapter 7, "The
+Recuperation of Dissent,"** gathers the synthesis the book had been making twice,
+briefly, in subordinate positions two chapters apart. Old chapters 3–9 became
+4–11. Every cross-reference in the manuscript was rewritten by script and then
+**verified to resolve against `ORDER.tsv` — unresolved references: none.**
+
+Full disposition in `p11-scope.md`. The short version:
+
+**The flagship rebuild.** Old §6.3.3 is now §8.3.3, "A Jobs Guarantee, and the
+Objection It Has to Answer," 950 → 3,157 words. The review's best catch, and it
+held up on checking: **the section cited the WIOA evaluation as grounds to
+disclaim the guarantee as a retraining program, when that evaluation's actual
+finding is that classroom retraining fails and employer-led apprenticeship works
+— which is the guarantee's own defined mechanism.** The book had the right
+finding, in its own pages, pointing at its own design, and read it backwards.
+Reversing it converts the proposal from a bare floor to a competitive one. Also:
+skill mismatch is now argued rather than conceded (via §2.1.4's own legibility
+diagnosis — what gets automated is the countable part, and countability is a poor
+proxy for an occupation); the status concession is corrected for baseline
+(unemployment, not the prior job); the costing is dated, indexed, resequenced and
+bounded against Medicare and Social Security; the fiscal framing is asserted
+rather than hedged, per chapter 0's disclosure standard, with the interest-income
+channel named as the live good-faith disagreement; and the objection the section
+actually needed — a guarantee under a hostile administration is a placement lever
+with a compliance condition — is supplied with a three-part checkable design
+specification.
+
+**Four standing decisions overridden**, on the author's instruction to resolve
+every collision in the review's favour: Q-016 closed rather than deferred; Q-014
+executed rather than held for the reading question; D-019 preserved in method but
+chapters 4 and 8 cut against a target the review set; D-010's chapter structure
+superseded a second time.
+
+**What was declined, with the author's explicit agreement**: the prose-rhythm
+pass aimed at chapters 4 and 8, which measurement contradicts — those chapters
+run 5.7 and 5.4 contrastive negations per thousand words, and **chapter 5 runs
+9.9, which no review has mentioned.** Recorded as Q-017. Also the §10.6.4
+collective-"we" complaint (two instances, one adjacent pair) and the claim that
+"Chapter 2.1.3" appears twice (it appeared once; fixed).
+
+**One premise dropped for failing verification** under D-009/D-030: the review's
+supporting claim that radiology patients skew heavily elderly did not check out,
+and the argument was rebuilt without it rather than hedged. Six other claims
+(C0721–C0726) were verified live before the prose entered the manuscript.
+
+**Numbers.** 90,273 → 92,574 words. 158 → 165 sections. 149 → 151 pages.
+`check_all.sh` green on all four checks. Proof rebuilt, and pages 30, 90 and 100
+rendered and looked at.
+
+**On acceptance.** The author's ruling this pass — *"I read everything and stop
+asking or caring about what i did or did not read"* — retires the practice of
+flagging unread drafted material as a reason to defer. `ledger.tsv` still records
+drafted versus accepted; that distinction is no longer raised as a blocker.

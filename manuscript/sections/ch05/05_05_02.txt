@@ -1,0 +1,12 @@
+5.5.2. Cooperative AI Systems and Multi-Agent Moral Development
+Cooperative AI design means building systems meant to work productively with other agents, human or artificial. Multiple such systems learning together hold promise for building altruistic, antifascist tendencies, because shared problem-solving and distributed responsibility are themselves moral training grounds, not just engineering conveniences.
+
+The practical benefit is coverage: agents pooling different perspectives handle multifaceted problems and complex patterns better than any single agent working alone. The moral benefit runs in parallel — AI agents that observe each other can pick up ethical norms collectively, in principle, the same way social learning works among people: by watching what others do and treating it as evidence about what is expected.
+
+Robotics offers a concrete case. Collaborative robots, or "cobots," already work alongside people in shared spaces, and the same proximity that makes them useful for physical tasks could in principle let them pick up ethical norms from their human co-workers and propagate what they learn to other AI systems they interact with [[cite:C0338]].
+
+The autonomous-vehicle industry offers another. Self-driving systems are trained and validated largely in simulation, and that simulation infrastructure can include scenarios built around forced trade-offs between competing risks, not just obstacle avoidance, shaping how the underlying decision policy handles situations that resemble real moral dilemmas [[cite:C0339]].
+
+Multi-agent reinforcement learning environments give this a mechanism: reward collaboration, adherence to ethical norms, and resistance to coercive behavior directly, and the training process itself pulls a population of agents toward those dispositions rather than leaving them to emerge as a side effect of pursuing some other objective [[cite:C0340]].
+
+None of this works in isolation from the people affected by it. A cooperative AI system that only ever talks to other AI systems has cut off the half of the conversation that decides what "ethical" means in the first place — researchers, policymakers, and the communities a deployed system actually touches all shape that content, and multi-agent learning without that wider engagement risks building a moral framework that is collective only among the machines.

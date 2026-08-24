@@ -1,7 +1,20 @@
-6.2.3. AI Literacy Outside the Classroom
+6.2.3. Strategies for Enhancing Robustness and Generalizability in AI
+Robustness and generalizability let an AI system perform reliably outside the exact conditions it was trained under. Several techniques build both properties into a system at once; section 10.3.3 covers a narrower, adversarial case these techniques don't reach — a state actor deliberately trying to compromise a deployed system, rather than an ordinary shift in operating conditions.
 
-Most AI literacy work assumes someone who has already decided to learn: a course to enrol in, a curriculum to sit through, a public MOOC to find (section 6.3.5). That reaches the people who came looking. The harder and more useful problem is everyone else — reaching people where they already are, in a policy debate, a town hall, a local news story, without their having gone out after it.
+<<list>>
+1. Adversarial training: neural networks can be fooled by adversarial examples — inputs perturbed, often imperceptibly to a person, in a direction chosen to flip the model's prediction [[cite:C0364]]. Training a model directly on these examples, rather than only on ordinary data, measurably increases its resistance to the same class of attack [[cite:C0365]]. Applied to computer vision, this produces models markedly more resistant to the subtle image distortions that would otherwise flip a classification with a change invisible to the eye.
 
-The engagement that does most work is the kind attached to a live question. The Ada Lovelace Institute's Citizens' Biometrics Council brought fifty members of the UK public together to deliberate on how biometric technology should be regulated, alongside the first national survey of UK public opinion on the technology [[cite:C0477]]. The specificity is what made it work. Participants were not asked what they thought about AI, a question almost nobody can answer usefully, but about facial recognition — a thing with a location, an operator, and a consequence.
+2. Data augmentation: manipulating existing training examples — rotating, zooming, shifting, shearing, or recoloring an image, for instance — manufactures a wider range of training data without collecting anything new. The added variety helps a model generalize to conditions its original dataset did not happen to cover, and builds in resistance to the ordinary fluctuations of real input.
 
-That is the lesson for public literacy generally, and it cuts against most of what gets funded under the heading. General AI awareness produces general opinions, which are worth little to a regulator and nothing to a court. A public able to govern a technology is a public that has been asked about a particular use of it.
+3. Domain adaptation: a model trained for one problem can often be re-adapted to a related one — a machine translation system trained on news articles fine-tuned to handle legal documents' different grammar and terminology, or a cybersecurity system trained on past attacks redirected to anticipate new ones. In robotics, domain randomization achieves a version of the same result by training entirely in simulation while randomizing the simulation's visual and physical parameters broadly enough that the real world ends up looking like just another variation the system has already handled [[cite:C0366]].
+
+4. Meta-learning: covered at length in section 4.1.2 and section 4.1.3, including the Model-Agnostic Meta-Learning algorithm. The same capacity to generalize quickly from a handful of examples that supports adapting to new tasks is also what lets a system extend to conditions its training distribution did not cover.
+
+5. Ensemble methods: combining several models' predictions, through techniques like bagging, boosting, and stacking, produces a more reliable answer than any one model alone would give. A medical diagnosis reached by an ensemble of models is less likely to reflect one model's particular blind spot than a diagnosis from a single system would be.
+
+6. Regularization: discussed in section 6.2.1 as a defense against overfitting, regularization does double duty here — constraining a model toward simpler solutions makes it both less prone to overfitting on its training set and more likely to generalize to conditions it has not seen.
+
+7. Human-in-the-loop approaches: active learning, covered in section 6.2.2 as a mechanism for adapting to novel situations, serves the same purpose here. Routing a model's lowest-confidence predictions to a human expert catches errors a fully automated system would ship; in cybersecurity, this lets human analysts steer the system toward novel anomalies rather than leaving it to resolve every ambiguous signal alone.
+<</list>>
+
+None of these techniques solves the robustness problem once and for good — each closes off one particular way a system can fail outside its training conditions, not the general problem of failing outside them.

@@ -1,0 +1,23 @@
+5.5.3. Strategies for Encouraging Collaboration Among AI Systems
+Building AI systems that behave ethically, empathetically, and altruistically is not something researchers, developers, or the AI systems themselves can do in isolation. It takes deliberate collaboration, and some approaches work better than others.
+
+Open tooling is one of the more reliable levers. Shared resources like the Hugging Face Transformers library let researchers outside any one lab inspect, replicate, and build on published results instead of taking a developer's claims about a model's behavior on faith [[cite:C0341]]. That kind of openness does more good when it is pointed deliberately at alignment questions rather than left to accumulate as a side effect — venues built specifically to discuss how a model's behavior tracks ethical, empathetic, or altruistic goals, rather than just its benchmark scores, are worth more per participant than a general-purpose open release [[cite:C0342]].
+
+Competitions can pull the same direction if they are structured to reward it. Most AI competitions optimize for a fixed benchmark metric, which says nothing about ethical behavior one way or the other — but a competition judged on a real, self-chosen problem gives entrants a reason to weigh collective benefit alongside raw performance.
+
+<<box>>
+The IBM Watson AI XPRIZE, 2016-2021
+
+A five-year, $5 million competition run by the XPRIZE Foundation with IBM, open to any team willing to apply AI to a "grand challenge" of its own choosing rather than a fixed benchmark. Finalists worked on malaria elimination, mental health treatment, and detecting human trafficking; Zzapp Malaria won the grand prize in 2021 [[cite:C0343]].
+
+What is worth taking from it is the structure, not the winner: judging teams on a real-world problem they chose themselves, rather than a leaderboard metric nobody outside the field cares about, is one way a competition can pull toward collaboration instead of away from it.
+
+<</box>>
+
+Standing consortia do similar work on a longer timescale. The Partnership on AI brings together academic institutions, industry labs, and nonprofits to share findings and co-develop policy guidance rather than compete over them [[cite:C0344]]. The same mechanism exists at international scale, in global partnerships built specifically to fund cross-border, cross-disciplinary research (section 8.7.1).
+
+Public-private partnerships are a related lever, covered in more depth in section 8.2.2 alongside other participatory-governance mechanisms. The short version: a partnership grounded in a specific societal problem, not just a research agenda, tends to keep ethical stakes in view for the people actually accountable for the outcome.
+
+Multi-agent research platforms serve a narrower but more direct purpose. They let researchers study how social norms and value alignment actually develop among interacting AI systems, and where adversarial behavior creeps in, under conditions closer to deployment than a single-agent benchmark allows [[cite:C0345]].
+
+None of this works without people who are not AI researchers at all. Ethical, empathetic, altruistic AI development needs neuroscience, psychology, philosophy, and political science in the room, not consulted after the fact — each field catches failure modes the others are structurally blind to.
