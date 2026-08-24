@@ -1,5 +1,5 @@
 6.3.4. Addressing Workforce Disruption
-AI systems capable of automating entire job categories, not just discrete tasks within them, disrupt work at a scale most labor-market institutions were never built to absorb. Section 6.3.3 traces where that disruption is already showing up, in manufacturing and retail specifically; what follows here is the fuller policy response, in seven parts.
+AI systems capable of automating entire job categories, not just discrete tasks within them, disrupt work at a scale most labor-market institutions were never built to absorb, and section 6.3.3 traces where it is already showing up. The policy response has seven parts.
 
 <<list>>
 1. Retraining and upskilling programs: governments funding retraining through public university systems, rather than leaving it to individual employers, gives workers a path to the skills an AI-driven economy actually demands. Singapore's SkillsFuture initiative, launched in 2015, gives citizens ongoing access to skill-development credits and courses aimed at exactly this kind of competitiveness [[cite:C0385]].

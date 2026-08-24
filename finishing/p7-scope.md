@@ -178,3 +178,53 @@ purpose.
 
 **Book state:** 84,486 words across 159 sections, from 76,949 across 158 at P6
 acceptance. Proof rebuilt at 144 pages, from 132.
+
+
+---
+
+# Closing the last three items, 2026-08-23
+
+The audit of "have we addressed all the feedback" found three gaps. All three are
+now closed.
+
+**C3, the genre shift.** Chapter 1 now flags it, in §1.2. The flag does not
+apologize: it says the early chapters argue, the governance chapters inventory,
+and that the inventory is what makes the argument available there — you cannot
+claim voluntary commitments do not bind anyone without counting the voluntary
+commitments. "The register changes; the book has not stopped arguing."
+
+**§4.4.6's closing head.** The review named this specifically as pure routing and
+Tier B left it standing. It was a catalogue of pointers to five other sections.
+Deleted; what it was actually carrying — that policy is not scaffolding bolted onto
+a technical project — is now stated directly.
+
+**The cross-reference sweep.** Done properly this time, against a stated test: a
+reference earns its place when it is a subordinate clause on a sentence that makes
+a claim, when it discharges a promise the book made, or when it stops a
+duplication. It is scar tissue when a whole sentence exists to say "Section X
+covers Y," where Y restates the target's own title — the artifact of the
+deduplication pass that the review diagnosed.
+
+| Measure | Pre-P7 | After Tier C | Now |
+|---|---|---|---|
+| Bare router sentences in leaf sections | 42 | 42 | **14** |
+| Bare router sentences in openers (legitimate preview) | 19 | 19 | 18 |
+| Total references | 297 | 318 | 309 |
+| References per 1,000 words | 3.86 | 3.76 | **3.59** |
+
+The raw total is still above the pre-P7 number, and that is honest rather than a
+failure: the pass added roughly 9,000 words of new argument, and new argument
+legitimately points at where its premises were established. Density is the fair
+measure and it fell. The structural defect — sections that consist mostly of
+directions to other sections — is what actually got fixed: three sections that
+opened by pointing elsewhere before saying anything of their own (§5.4.2, §6.2.3,
+§7.2.1) now open on their subject, and the "Section X covers A; what belongs here
+is C" formula the review quoted is down to one instance, at §4.2.3, where it is
+doing real work.
+
+**The 14 that remain are deliberate.** Each was read in context and kept because
+the sentence carries a claim, a contrast, or a promise being discharged — §1.3, for
+instance, is a section whose stated job is to name three ideas and point at where
+each is developed, and §7.2.2's pointer draws a distinction the section is about.
+Cutting those would cost the reader information to satisfy a metric, which is the
+failure mode §6.6.4 spends its length on.

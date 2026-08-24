@@ -21,7 +21,7 @@ Several strategies address these hurdles, drawing on human feedback, cooperation
 
 Reward engineering builds the reward structure directly from human feedback — training the agent by having it observe human actions, or by asking people to rank pairs of candidate behaviors. A domestic robot shown a human cleaning a room can infer that aligning objects and wiping surfaces are rewarded, and that breaking things or making a mess is not.
 
-Inverse reinforcement learning infers the reward function behind observed human behavior rather than assuming it is given in advance; its cooperative variant, CIRL, turns that into a two-way process between agent and human. Section 3.2.2 covers both in depth.
+Inverse reinforcement learning infers the reward function behind observed human behavior rather than assuming it is given in advance; its cooperative variant, CIRL, turns that into a two-way process between agent and human (section 3.2.2).
 
 A different approach builds resilience to uncertainty and disagreement directly into the system, so that when human values are ambiguous or in conflict the agent has somewhere to go other than a wrong answer stated with confidence. Where patient autonomy and patient wellbeing conflict in a medical decision, such a system can generate several ethically defensible options and ask a human clinician to resolve the impasse rather than picking one on its own.
 

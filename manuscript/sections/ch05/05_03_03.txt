@@ -3,11 +3,11 @@ An AI system learns what it is supposed to want more reliably by inference than 
 
 Robustness matters alongside alignment. An AI system needs to hold up against adversarial attack, model misspecification, and a changing environment, and uncertainty quantification — Bayesian neural networks, ensemble learning — gives it a way to acknowledge what it does not know and act more cautiously where its confidence is low. An autonomous-vehicle system that can recognize when a road sign looks unlike anything in its training data is in a stronger position than one that classifies every sign with the same unearned confidence.
 
-Learning also has to happen safely, not just correctly. Constrained policy optimization keeps a reinforcement-learning agent inside predetermined safety limits throughout its search for a better policy, rather than checking for violations only after the fact [[cite:C0347]] — the difference between a robotic arm that learns to handle delicate objects without ever damaging one during training, and one that has to break several first. Section 4.6.3 covers the same technique from the standpoint of autonomy generally.
+Learning also has to happen safely, not just correctly. Constrained policy optimization keeps a reinforcement-learning agent inside predetermined safety limits throughout its search for a better policy, rather than checking for violations only after the fact [[cite:C0347]] — the difference between a robotic arm that learns to handle delicate objects without ever damaging one during training, and one that has to break several first.
 
 Human oversight has to stay active once a system is deployed, not only during training, especially in high-stakes domains: dashboard visualization and anomaly detection can flag when a system is behaving unexpectedly, and a human expert reviewing a medical AI system's recommendations needs the standing to override them when something looks wrong.
 
-Explaining a system's own reasoning is safety infrastructure in its own right. Section 5.3.4 covers the specific techniques; what matters here is that a lending AI system able to explain why it approved or denied a loan is one whose safety failures are visible.
+Explaining a system's own reasoning is safety infrastructure in its own right. A lending system that can explain why it approved or denied a loan is a system whose safety failures are visible; section 5.3.4 covers how that explanation gets produced.
 
 None of this is a one-time build. AI development needs regular evaluation, feedback, and adjustment — internal monitoring, user feedback, third-party audits — the way a content-recommendation algorithm gets adjusted on evidence that it is feeding an echo chamber.
 
