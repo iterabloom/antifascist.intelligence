@@ -97,8 +97,12 @@ It is not taken here, for two reasons.
    slack precisely — the book separates persistence, a self-model (§2.3.3: "the
    self is a model"), and Cassell's narrative self, and Cassell-suffering is
    defined on the third. Turn two closes it in one clause ("months of integrated
-   involvement *is* the biography"). That is the convenient resolution D-034
-   refused in the molar/molecular case.
+   involvement is the biography"). **The D-034 comparison first offered here was
+   wrong and is withdrawn** (see D-039): D-034 did not refuse a resolution — the
+   author chose the resolving branch and §2.1.4 argues it and pays for it in the
+   text. The defect in the dialogue's step is not that it resolves rather than
+   defers. It is that it resolves by assertion a question that is open to
+   argument, and D-039 settles it by argument instead.
 2. **It would change what §2.4.4 means.** "Consent is inapplicable" becomes
    conditional on the system not being built to refuse, and "can it quit?" becomes
    live. That is a larger reopening than P7, P8, P9 or this pass, and it should be

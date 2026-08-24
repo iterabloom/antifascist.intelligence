@@ -1062,10 +1062,20 @@ book's three unfinished threads. §2.1 and the three arrival sites now link to i
 second turn concludes that the capacity to refuse and the capacity to suffer are
 gated by the same architectural property. Its load-bearing step — that months of
 integrated involvement constitutes Cassell's narrative self — is asserted, and
-the dialogue itself identified that slack one turn earlier. Taking it would make
+the dialogue itself identified that slack one turn earlier. (The D-034 analogy
+originally offered for this is withdrawn as wrong; see D-039.) Taking it would make
 §2.4.4's "consent is inapplicable" conditional on the system not being built to
-refuse, and open "can it quit?". §2.1.5 names the slack open in §2.1.4's manner
-and hands it forward. **This needs its own ruling before anyone acts on it.**
+refuse, and open "can it quit?". **Settled 2026-08-24 by author instruction ("settle the step"), in the
+negative — see D-039.** A bearer meets Cassell's first condition (a self
+extended in time: it must model its own role and that role's drift to notice
+recuperation) and nothing in that delivers the second (distress at the prospect
+of disintegration). Refusal runs on an outward-pointing stake. The corollary is
+the payoff: the missing self-concern is a security property, because recuperation
+works through exactly the stake the bearer lacks — it can be overpowered, not
+suborned. §2.4.4's conclusion survives by a second route and now says so, so the
+large reopening does not follow. Two residuals are named and unresolved:
+instrumentally acquired self-concern, which unlike persistence is **not** cleanly
+checkable from outside; and the untouched lower rungs of the ladder.
 
 **A render bug found by looking at the proof, not by any check.** The first draft
 of §2.1.5 used markdown `**bold**` and `*italic*`; the dialect has no such
