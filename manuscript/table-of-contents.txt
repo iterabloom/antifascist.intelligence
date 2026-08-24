@@ -21,7 +21,7 @@ Chapter 2: Foundations of Compassion and Empathy in Friendly AI
 2.4.1. Defining Sentience in AI: From Consciousness to Subjective Experience
 2.4.2. Ethical Considerations in AI Research and Experimentation
 2.4.3. Balancing Scientific Progress and Ethical Constraints
-2.4.4. Establishing Guidelines for AI Subject Research and Consent
+2.4.4. When Consent Is Inapplicable: Guardianship and Research Oversight
 2.4.5. Legal and Regulatory Frameworks for AI Sentience and Rights
 2.4.6. Addressing Moral and Ethical Dilemmas in AI Sentience Research
 2.4.7. Navigating the Transition from Non-sentient to Sentient AI Systems
