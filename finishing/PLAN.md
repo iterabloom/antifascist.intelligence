@@ -8,7 +8,8 @@ this file is at `~/.claude/plans/` (planning phase, phases 0–6).
 
 A book for serious general readers (D-002), single-author voice with an "On
 method" note (D-008), endnotes for named studies, statutes, systems and
-quotations (D-009), dateless prose with dates confined to clearly dated boxes,
+quotations (D-009), dateless prose with dates confined to clearly dated boxes
+(one named exception, D-027: the AI-targeting material),
 CC BY-NC-ND, chapters released as accepted. Author availability under 2 h/week
 (D-003) is the binding constraint on every schedule below.
 
@@ -30,8 +31,15 @@ because the *Atlas* is second-person trade prose and the book is not.
 What is still ruled out, recorded so it is not silently reintroduced: adding the
 topics the 2023 reviews asked for and the book never grew (evaluation metrics,
 AI-safety vocabulary, language as a cognitive system) except where a transplant
-happens to supply one; and arguing the anti-authoritarian thesis somewhere it is
-currently assumed. Those stay as they are unless the author reopens D-007.
+happens to supply one. That one stays as it is unless the author reopens D-007.
+
+**Reopened, D-026.** The second exclusion — "arguing the anti-authoritarian
+thesis somewhere it is currently assumed" — is withdrawn. The book may argue
+its own antifascist thesis where it currently only asserts it: define fascism
+structurally, name what a detector would have to detect, name as an open
+problem what the framing does not yet yield, and hold democracies to the
+book's own standard. What stays out is giving the case *against* democracy the
+time of day. Constitutional limits on majority preference are not that.
 
 **Length (D-019).** Settled, and settled against the number I first proposed.
 The triage projects **~117,000 words**: 115,524 now, less ~9,100 in cuts,
@@ -81,6 +89,7 @@ you do not rewrite a section about a 2021 model and then update it.
 | P3.5 Style ▶ every chapter swept | v4 section | **D-025.** Sweep the agent's own contrastive-negation tic ("rather than X", ", not Y") and its defensive intensifiers ("real", "actually", "squarely", repeated "specific"), calibrated against the author's hand revision of chapter 1. Deletion of a known shape only — no re-argument, no restructuring, no new claims; D-007 governs. Folds in the register-seam check after D-024, the `outline.tsv` title sync, and §10.2's "Roadmap" title | P3 drafted | every chapter swept; author has read the per-chapter diff | author accepts per chapter |
 | P4 Source ✅ zero unresolved placeholders, all 9 chapters | claim | Placeholders resolved: verified reference, replacement, or cut. Runs in a networked session; agent formats only from supplied references. In practice: the agent verifies the underlying fact via live search and records citation metadata in `claims.tsv`'s note field — the `[[cite:ID]]` token itself stays in the manuscript text (the formatted endnote entry is a later pass's job, not this one's). Gated per chapter on the P3 "chapter Accepted" entry criterion; all 156 sections cleared that gate 2026-08-23 (see P3 row) | chapter Accepted at P3 | zero unresolved placeholders in the chapter | author |
 | P5 Front/back matter ✅ author-accepted 2026-08-23 | whole | Chapter 1 opener written **last**, because it describes the book that now exists (satisfied by the P3 chapter order below); "On method" note; glossary | all chapters past P4 | author Accepts | author |
+| P7 Editorial review response ▶ opened 2026-08-23 | whole | Response to the 2026-08-23 editorial review, scoped in `p7-scope.md`. Tier A copyedit fixes; Tier B substantive additions unblocked by D-026 (thesis may be argued), D-027 (targeting material takes the dating hit), D-028 (vendor disclosed in ch0) and D-029 (**D-007 lifted for this pass — rewrite authorized**); Tier C structural, incl. the chapter-8 renumber. Every current-events claim verified live per D-030 or dropped | P6 | scope items closed or explicitly dropped with reasons; `check_all.sh` green; clean build; author's read | author |
 | P6 Copyedit and build ✅ author-accepted 2026-08-23 | whole | Terminology consistency, tic lint, HTML → ODT → PDF locally; other formats elsewhere | P5 | clean build; author's final read | author |
 
 **Chapter order for P3:** 3 → 2 → 4 → 5 → 7 (absorbing 8) → 6 → 9 → 10 → **1 last**.
