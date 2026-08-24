@@ -21,6 +21,21 @@ and are recorded below as declined, with what the check found.
 
 ## The items
 
+**Four rulings, six rows.** D-033 scoped the pass to four items; the table
+below has six. The difference is bookkeeping, not scope creep: the §2.1.4
+work splits into the scale collision (P8-1) and the material moved forward
+into it from §7.1.7 (P8-2), which D-034 and D-036 ruled on separately; and
+§7.1.7's own rewrite (P8-3) is the other half of D-036. P8-6, the §2.4.4
+retitle, was ruled on inside D-035 as part of the persistence item rather
+than as a fifth item. Mapping: D-034 → P8-1; D-036 → P8-2 and P8-3;
+D-033's third item → P8-4; D-035 → P8-5 and P8-6.
+
+**What it cost, measured against `fa1a719`:** §2.1.4 +556 words (1,329 →
+1,885), chapter 1's opener +160 (378 → 538), §7.1.6 +107, §7.1.7 +93 net
+(about 250 words of the old false-positive block removed, about 340 of new
+argument in), §5.1.1 +36, §2.4.4 +0 (title only). Book total +952, 83,932 →
+84,884.
+
 | # | Where | What | Done |
 |---|---|---|---|
 | P8-1 | §2.1.4 | **The scale collision, and branch (a).** The review's sharpest finding, and correct: every discriminating feature of fascism-proper (mass mobilization, leader cult, scapegoat, contempt for legality) is a property of a mass political movement, while an AI deployment exists only at the molecular scale. So at the scale the book's systems occupy, the discriminators are unavailable and only the four-feature signature remains — the signature §2.1.4 itself says "will flag every badly run organization on earth." The book had both halves and never collided them. New `<<h>>` block, "The scale problem, and what this book does about it," resolving on D-034's branch (a) and stating what that branch costs: on this reading "antifascist" names the political inheritance of a structural claim and does not mark off a narrow class a classifier separates from ordinary decay. The dilution objection is stated and answered rather than avoided. | yes |
