@@ -1288,3 +1288,29 @@ rendered and looked at.
 asking or caring about what i did or did not read"* — retires the practice of
 flagging unread drafted material as a reason to defer. `ledger.tsv` still records
 drafted versus accepted; that distinction is no longer raised as a blocker.
+
+## P12 — the chapter 5 tic pass, 2026-08-24 (D-044)
+
+Q-017 closed. Chapter 5 ran **9.89 contrastive negations per 1,000 words** against
+D-025's band of 4.63 — a tic no review had found, because the sixth review aimed
+its prose complaint at chapters 4 and 8, which sit near the bottom. All 152
+instances were pulled with context and judged one at a time. Chapter 5 now runs
+**1.23**, and the construction survives where the negated alternative is a real
+position doing argumentative work.
+
+**Two mistakes inside the pass, both recorded in D-044 because they are what
+working to a metric does.** The first rewrite replaced one tic with another —
+", and not" at 1.80 per 1,000 against chapter 2's 0.21, and 26 new instances of
+", where" against a baseline of 6 — which only surfaced when I measured the
+replacements against the rest of the book. Worse, **three rewrites damaged
+arguments**: §5.3.2 lost the point that identical arithmetic is what makes the
+agent-difference easy to miss and separately inverted a sentence into endorsing
+the design it was rejecting; §5.4.6 dropped the "behind it, not instead of it"
+that was the whole claim; §5.7.1 acquired a false claim that no reward signal
+exists. A fourth left a sentence fragment in §5.4.3. **None of these was caught by
+any measurement.** All were caught by reading the edited passages, which is the
+lesson worth keeping.
+
+Chapter 5 is now the lowest body chapter on this measure against a book median
+near 5.4. That gap was not tuned in either direction (D-019) and is left as a
+judgment for the author.

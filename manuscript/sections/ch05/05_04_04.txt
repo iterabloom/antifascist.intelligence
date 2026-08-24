@@ -5,11 +5,11 @@ Healthcare illustrates what that means without needing to name any particular co
 
 The same logic generalizes past healthcare. A region that invests heavily in public education tends to produce AI applications oriented toward lifelong learning and accessibility, because that is where the funding and the institutional relationships already are. A region with weak labor protections tends to produce AI-driven efficiency gains that arrive faster than any accompanying protection for the workers they displace, because nothing in the macrosystem is pushing back on that gap.
 
-Building AI systems that resist rather than reinforce authoritarian and inequitable macrosystem pressure takes at least four things:
+Building AI systems that resist authoritarian and inequitable macrosystem pressure takes at least four things:
 
 <<list>>
 - Funded, interdisciplinary study of how cultural, political, and economic context actually shapes AI development and deployment.
-- Regulation and public policy that name antifascist AI development as a goal, not a byproduct of unrelated rules.
+- Regulation and public policy that name antifascist AI development as a goal in its own right.
 - Comparative analysis across macrosystem contexts, so what works in one setting can be checked against what happens when the same tool is dropped into a different one.
 - Cross-border and cross-cultural exchange, so a democratic macrosystem's practices have some route into a context where the local macrosystem is pulling the other way.
 <</list>>

@@ -49,39 +49,39 @@ manuscript/sections/ch04/04_03.txt	4.3	The Role of Play and Exploration in Devel
 manuscript/sections/ch04/04_03_01.txt	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	a8fee59bd9f29096de13c7bb68e88c976283b9864e1339746b26fa536b72747c
 manuscript/sections/ch04/04_03_02.txt	4.3.2	Encouraging Curiosity and Creativity in AI Systems for Antifascist Applications	b99c08511f27ebb126ff867a2cb4060143d63d1e2e55584780a272e7b7820e2e
 manuscript/sections/ch04/04_03_03.txt	4.3.3	Lessons from Human Child Development and Exploration	4337f6d8a05f44199b14894d96af288ff2e55c22031da9f197d3a0ac775e8238
-manuscript/sections/ch05/05.txt	5	Moral Psychology and AI	b3c6277690a6b56cc80197088d003931912c2d746c17b4e66d8a97e3e33a90d1
-manuscript/sections/ch05/05_01.txt	5.1	Moral Development in Humans and AI	dbfd452bada20bf2f328991dcea950a8c3fbe7fa207cc17ecb3e31099cf31c14
-manuscript/sections/ch05/05_01_01.txt	5.1.1	Rules, Principles, and the Role of Mindset	5da314f130aa841fc2a2115032ef6be570335efed8bfef48d52816f4fe28c699
-manuscript/sections/ch05/05_01_02.txt	5.1.2	Social Interaction and Moral Learning	eadbdcb21523f3d70ec6074156280d52e2b9d647df556c6c3268a6072a2e263b
-manuscript/sections/ch05/05_01_03.txt	5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	d29a86c5ff0f8152be30f3e3d6463a6904b2d17dced34a11646674ef6296736c
-manuscript/sections/ch05/05_01_04.txt	5.1.4	Human Dignity, and One Indicator That Can Be Audited	97870ede1c2f019fd97befa8989017e76ed0de1ac838ce69c83ec83ea66dc4fd
+manuscript/sections/ch05/05.txt	5	Moral Psychology and AI	0c13ddd8640e4fed778734ce36c731bc2ec076b19851e8385d91cd218a533788
+manuscript/sections/ch05/05_01.txt	5.1	Moral Development in Humans and AI	ff2baf354e2413a5df84093e2f5e600786c3696a578e8512df4302dd49f242c5
+manuscript/sections/ch05/05_01_01.txt	5.1.1	Rules, Principles, and the Role of Mindset	5f9058149deec724b0fa9b34586a221367f25b343fb34379d6df4123618db6c1
+manuscript/sections/ch05/05_01_02.txt	5.1.2	Social Interaction and Moral Learning	cf55bd3e23cb0c69b9bb46f86258236740132dbe69929c240d1e2393667ca8a9
+manuscript/sections/ch05/05_01_03.txt	5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	c1d93d3fa44fee35e80ad983337ee3f2eeba64cb76573e6acc27d7da641ccd31
+manuscript/sections/ch05/05_01_04.txt	5.1.4	Human Dignity, and One Indicator That Can Be Audited	0e6206f31e48141ba571c81648ff94c967d49467be24fe4ecba9a859a98d80c2
 manuscript/sections/ch05/05_02.txt	5.2	Emotions and Intuitions in Moral Decision-Making	9d92fe51d9188789a230036067fe267b4106b62b76b73e0f6a53d84ca2ecbe6d
-manuscript/sections/ch05/05_02_01.txt	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	02aa7fa2fdfe5648404a1374ea3f0dce94447eca8243735495b15cee10a09851
-manuscript/sections/ch05/05_02_02.txt	5.2.2	Assessing and Developing AI Emotions	5a0bf760322e5767d4c8e0bb6d115288e81c21a97a82a636f80e9a7bf3e6995c
-manuscript/sections/ch05/05_02_03.txt	5.2.3	AI Systems Recognizing and Responding to Moral Emotions	6f3843a1a912dbf89da686a1a39c2a8b2b3ee0a46545db83ea0e7131fce259f4
-manuscript/sections/ch05/05_02_04.txt	5.2.4	The Role of Introspection for AI Systems	2dea96386a184b26f5c7c35ecc4fd686f04d9aa2cba07f8e97bab212f39349a7
+manuscript/sections/ch05/05_02_01.txt	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	10edae13c41844339c7110a1e1c2717bab1acd84c0811f6f02271acbe7d3f020
+manuscript/sections/ch05/05_02_02.txt	5.2.2	Assessing and Developing AI Emotions	936fce8b1207f3df21affc1fc5fe4f316abf10bb0463c9b6c3e0ca257743c935
+manuscript/sections/ch05/05_02_03.txt	5.2.3	AI Systems Recognizing and Responding to Moral Emotions	6e6d1fa3b0a33715f8099e53819bfb5765dc077c68402f465a1b58eef0ff6586
+manuscript/sections/ch05/05_02_04.txt	5.2.4	The Role of Introspection for AI Systems	c768e32d2cdea2e75f044b26d563e3922b26a1e2ed9cd5bfab2ca7091526ce31
 manuscript/sections/ch05/05_03.txt	5.3	Integrating Moral Intuitions and Deliberation	10f4c1e3b26fbab2e4158e526ece6bace18dba8f8d30ddbfd758c1f5620ce35b
-manuscript/sections/ch05/05_03_01.txt	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	ef5797e2955032983f94622abc43e0b02eb104e34e153d7ed023557a043a7f70
-manuscript/sections/ch05/05_03_02.txt	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	864e70be253dbf905ca3fb5f1eec6473f4bd919aff41f031d75d52b9f4e075d8
-manuscript/sections/ch05/05_03_03.txt	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	9e30820c7fd6911ef7ef4c92b036da4afbadbdade122f0513e24eae8a2fdefbe
+manuscript/sections/ch05/05_03_01.txt	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	aa1a6865218bf8c66d54593163408d4dfec06342c3c2ae7355712555b76cce18
+manuscript/sections/ch05/05_03_02.txt	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	0772cfb3c09fc3f9efc6fbf3ba1e6bdc212841357e8417a9e94678ba8f571dee
+manuscript/sections/ch05/05_03_03.txt	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	574d3a1b0816153d43a16d70358d81ac495862fc83251b66c3ba655d655a5db1
 manuscript/sections/ch05/05_04.txt	5.4	Moral Ecosystem Approach in AI Development	d3b683bc48fcc5556c26e1bf31a58bbfd11b4c74747d2c71d33faf553a919b29
-manuscript/sections/ch05/05_04_01.txt	5.4.1	Applying the Moral Ecosystem Approach to AI Development	0d176b7f3d0c9af1d7f435f3b7efba06202c5ecdf6c82fcf3f3d8a6c923291eb
-manuscript/sections/ch05/05_04_02.txt	5.4.2	Microsystem Interactions and AI Moral Learning	220b7572b37e136efe415adedafd721105bc675875284231d474f2721ba83844
-manuscript/sections/ch05/05_04_03.txt	5.4.3	Mesosystem and Exosystem Influences on AI Alignment	352dd33c639f3fd4b1ff0f5164bc11e14efc2b60ad509a4add99a16d4faafd56
-manuscript/sections/ch05/05_04_04.txt	5.4.4	Macrosystem Influences on AI Development and Employment	b4e7038855877048e5fa136a42164d3d5827255bca227ac0327594f10e569534
-manuscript/sections/ch05/05_04_05.txt	5.4.5	The Chronosystem: AI Systems in a Changing World	089509a3a8437ddb9cdf5e722c63e308710d7b8423baafde9d6e329b510429ce
-manuscript/sections/ch05/05_04_06.txt	5.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	2a13684ec94596cee93ff237326a5c61cd103cead0aa8e413676a939147b0a32
+manuscript/sections/ch05/05_04_01.txt	5.4.1	Applying the Moral Ecosystem Approach to AI Development	f5aae5f1af46a78ecba52ece806f6c257fe4da2774cddbaad85f7465d03bab61
+manuscript/sections/ch05/05_04_02.txt	5.4.2	Microsystem Interactions and AI Moral Learning	78dc2f19a734d5986726ad011f9e49ac16361179c4fe6224de7064891b66f308
+manuscript/sections/ch05/05_04_03.txt	5.4.3	Mesosystem and Exosystem Influences on AI Alignment	559cea871a0c41f2112b84e29381686f3f150f82351b902646ce1c5d1ceeb401
+manuscript/sections/ch05/05_04_04.txt	5.4.4	Macrosystem Influences on AI Development and Employment	92cdd96b28b075340f16731ea1abd9fbc9f643375b9522f60904ff2caa892ac6
+manuscript/sections/ch05/05_04_05.txt	5.4.5	The Chronosystem: AI Systems in a Changing World	b0ffa21c0dc00624de653f1486327c407bd8dca9cc71c5b09d1f5982818f7612
+manuscript/sections/ch05/05_04_06.txt	5.4.6	AI Systems Responding to Authoritarianism and Democratic Backsliding	2ff4ff40837c6d4f6b3e6c03beb2a743a83d72355103b91c3e4bae5b9adca823
 manuscript/sections/ch05/05_05.txt	5.5	The Interplay of Competition and Collaboration in AI Development	9d23fc6424f23f6a4af44b1dc492f37dc5cc2a4ce16a979c8518f218fb6bf78f
-manuscript/sections/ch05/05_05_01.txt	5.5.1	The Impact of Competition and Collaboration on Human Moral Development	196ea676f6b39858640dfae771069ce0caf8444749bdd207421cbf11db9c8eeb
-manuscript/sections/ch05/05_05_02.txt	5.5.2	Cooperative AI Systems and Multi-Agent Moral Development	342caf094ea329440869cb520e1e3e5c12b14a2f926f35124cf23382adceaa79
-manuscript/sections/ch05/05_05_03.txt	5.5.3	Strategies for Encouraging Collaboration Among AI Systems	b547a28f57201e28338fc59638b9238cb44dca04529e169952abae4135cce3a7
-manuscript/sections/ch05/05_06.txt	5.6	Motivation in AI Systems	201dc961d4927b8cdcd786479f9d27a4b9c6b8ba4e908845ef6561707b11a236
-manuscript/sections/ch05/05_06_01.txt	5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	ead96b3cd0c8de3575e7d3f27a9d628a01343673164923b1a2d8d36014d26e94
-manuscript/sections/ch05/05_06_02.txt	5.6.2	Developing Motivationally-Aware AI Systems	16b172631fc4ba79bcc4a704fb3e9a658442b1abc30c3c4c3d9b50f6bfe4e108
-manuscript/sections/ch05/05_06_03.txt	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	70899a4cc8988d7f778af98660241936c5a67649bfde447d9e15fd31651351df
-manuscript/sections/ch05/05_07.txt	5.7	Play, Exploration, and Moral Development in AI	52ed30369204de436f90bc008a14ffed8c4f0f0b62fe38bce1b9f57a22769c9c
-manuscript/sections/ch05/05_07_01.txt	5.7.1	The Role of Play in Moral Learning and Socialization	cee4c141b7f7f02ca4abdf988049b5ff77fc9dc717582508eab44d1dd4105ab5
-manuscript/sections/ch05/05_07_02.txt	5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	93ba261d377ec690fc4052fca621f58ea499e94fbd108668b830424db45d5c78
+manuscript/sections/ch05/05_05_01.txt	5.5.1	The Impact of Competition and Collaboration on Human Moral Development	1e307c8bf252c0215e8f3996b08361888292bd291acbab1ae97ffbeede7b64ea
+manuscript/sections/ch05/05_05_02.txt	5.5.2	Cooperative AI Systems and Multi-Agent Moral Development	e5ae778cada13b1f309370f0dac2e3cde3dc6d6b160cb57a7d3c9f43bc75d955
+manuscript/sections/ch05/05_05_03.txt	5.5.3	Strategies for Encouraging Collaboration Among AI Systems	a2b06c0c6c06267c7fa9d9b382ed05e0248a12e79090c6f9de68ade39a21f666
+manuscript/sections/ch05/05_06.txt	5.6	Motivation in AI Systems	2ad1e2218a4a005857e898e39a43a1573630e44d694b28f3706991bbc82dd2e0
+manuscript/sections/ch05/05_06_01.txt	5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	6dc1d89e3b3402a94f859d267fadba5fd182288815a4648c96c358fda0f33eaa
+manuscript/sections/ch05/05_06_02.txt	5.6.2	Developing Motivationally-Aware AI Systems	1b15764a439daab56a6a4044a24f3d82323aa05b8b96a55d6566b7970fd21bb9
+manuscript/sections/ch05/05_06_03.txt	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	1fe634e7573ff95e8412f30f6f60eb01ad9714a13412cfaba389612f1f1e48c1
+manuscript/sections/ch05/05_07.txt	5.7	Play, Exploration, and Moral Development in AI	10893bbd46c4434a4c38bce9c934b035821c10c2a68bda17004c1598b475bf4e
+manuscript/sections/ch05/05_07_01.txt	5.7.1	The Role of Play in Moral Learning and Socialization	9f9e58517464cc047caaf925660903cee3928b170e8ffc4fbc9d74b0225e4450
+manuscript/sections/ch05/05_07_02.txt	5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	545a47e391b7fde7feb61be2b72e8d601b20667d987d916794f1c35c10a6f298
 manuscript/sections/ch06/06.txt	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	e2b767f13888b493eda5660e3d67dfde425a812509d1b46d2492f51270990257
 manuscript/sections/ch06/06_01.txt	6.1	Bias, Fairness, and Equity in AI Systems	21cbc9ce87ff1136c13c83dd8922f80c7b9881f7be57c1aa20971ed17c75e5ba
 manuscript/sections/ch06/06_01_01.txt	6.1.1	Sources of Bias in AI Data and Algorithms	ce7dfe4ff6db85bbfb48141f0a528e797be2f45af0eaf78764c378dfe788d05a

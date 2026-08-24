@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-24, after P11 and D-043.** For orientation read
+**Current as of 2026-08-24, after P12 and D-044.** For orientation read
 `finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
@@ -27,33 +27,6 @@ was that I chose to run the checks.
 - (b) Add a pre-commit hook running `check_all.sh`.
 
 *Default applies if unanswered; reversible either way.*
-
-### Q-017 — The prose tic is in chapter 5, and nobody has asked for a pass there
-
-**New, and it is a finding rather than a request.** The sixth review asked for a
-rhythm-breaking pass in the chapters that are now 4 and 8. Measured, those are
-near the bottom of the book. Contrastive negation per 1,000 words after P11:
-
-| ch5 | ch11 | ch10 | ch2 | ch6 | ch9 | ch4 | ch8 | ch7 | ch1 | ch3 | ch0 |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| 9.9 | 12.7 | 7.8 | 6.5 | 6.0 | 5.3 | 5.7 | 5.4 | 4.7 | 4.4 | 3.5 | 2.6 |
-
-Chapter 11 is the glossary, where "X rather than Y" is definitional and the
-number is expected. **Chapter 5 (Moral Psychology and AI) is the real outlier at
-roughly one per 101 words, against D-025's band of one per 216.** No review has
-mentioned it. The pass was not run because the review did not ask for it and the
-author's instruction was to implement the review.
-
-Caveat on the measurement: this counts one of the three patterns the review named
-("rather than", ", not", "instead of", "not because"). Tricolon and the two-beat
-close were not measured and I make no claim about them.
-
-- **(a) Default — do a D-025 pass on chapter 5 when it is next opened.**
-- (b) Do it now as its own pass.
-- (c) Leave it; the band is a guideline and chapter 5 is argumentative prose where
-  the construction earns its place.
-
-*Default applies when chapter 5 is next opened for any reason.*
 
 ### Q-018 — Chapter 8's compression was only partly implementable
 
@@ -83,6 +56,20 @@ itself wanted carrying the chapter.
 ---
 
 ## Resolved
+
+### Q-017 — The chapter 5 prose tic. **Resolved by execution, D-044.**
+Chapter 5 ran 9.89 contrastive negations per 1,000 words against D-025's band of
+4.63. All 152 instances were judged individually; the construction was kept where
+the negated alternative is a real position carrying the argument and rewritten
+where it was cadence. Chapter 5 now runs 1.23. Two mistakes inside the pass are
+recorded in D-044: the first rewrite substituted a new tic for the old one, and
+three rewrites damaged arguments before being caught on re-reading.
+
+**One judgment is left with the author.** Chapter 5 is now the lowest body
+chapter on this measure against a book median near 5.4. It was not tuned toward a
+number in either direction (D-019). Whether a chapter four times less contrastive
+than its neighbours reads as a different hand is a question measurement cannot
+settle, and the author may want to read it.
 
 ### Q-014 — Chapter 6's length. **Resolved by execution, D-043.**
 Two reviews asked for this cut. P11 executed the compression that applied under

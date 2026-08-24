@@ -5,14 +5,14 @@ Mesosystem interactions do concrete work. An interdisciplinary team building a d
 
 Exosystem factors work on the same development at one remove. A firm building an autonomous driving system answers to vehicular safety regulation, insurance protocol, consumer expectation, and competitive pressure all at once, and none of those forces is about ethics as such — they shape the system's ethical character as a side effect of shaping its safety case, its liability exposure, and its market position.
 
-Getting either system to pull toward ethical alignment rather than away from it takes deliberate work:
+Getting either system to pull toward ethical alignment takes deliberate work:
 
 <<list>>
 - Cross-training and consultation: reciprocal knowledge-sharing among developers, ethicists, and legal scholars, so none of them is reasoning about the system from only their own discipline's blind spots.
-- Public-private partnership: government, civil-society, and academic involvement in design, rather than a single company's internal judgment standing in for all of them.
-- Regulatory frameworks built for the purpose: legislation and institutional policy that name ethical consideration, individual rights, and societal welfare as design requirements, not afterthoughts.
-- Open discourse inside development organizations: a working culture where moral implications get argued about before deployment, not discovered after.
+- Public-private partnership: government, civil-society, and academic involvement in design, so that a single company's internal judgment stops standing in for all of them.
+- Regulatory frameworks built for the purpose: legislation and institutional policy that name ethical consideration, individual rights, and societal welfare written into the design requirements.
+- Open discourse inside development organizations: a working culture where moral implications get argued about before deployment and not discovered after.
 - Corporate incentives that reward it: an organization whose actual incentive structure tracks responsibility and democratic value.
 <</list>>
 
-None of these fixes anything by itself. What they share is the same target: making the mesosystem and exosystem around an AI system pull toward ethical alignment and resistance to authoritarian capture, rather than leaving that direction to whichever force happens to be strongest at a given moment.
+None of these fixes anything by itself. What they share is the same target: making the mesosystem and exosystem around an AI system pull toward ethical alignment and resistance to authoritarian capture. Left alone, the direction is set by whichever force happens to be strongest at a given moment.

@@ -2,7 +2,7 @@
 In humans, moral development moves from rule-based reasoning to reasoning grounded in general principles. That progression is the model this section adapts for an AI system: a path from a rudimentary grasp of established rules of conduct to sophisticated ethical judgment brought to bear on decisions no rule fully specifies.
 
 <<h>>Rules, Norms, and Principles<</h>>
-The psychologists Jean Piaget and Lawrence Kohlberg mapped this territory in humans, and their stage theories anchor what follows [[cite:C0322]]. Reasoning starts at a pre-conventional level, where consequences do the driving — rules get followed to avoid punishment or gain reward. It moves through a conventional stage, where societal norms and expectations get internalized as one's own. It can reach a post-conventional level, where morality answers to principles like justice, fairness, and individual rights rather than to what a given society happens to expect.
+The psychologists Jean Piaget and Lawrence Kohlberg mapped this territory in humans, and their stage theories anchor what follows [[cite:C0322]]. Reasoning starts at a pre-conventional level, where consequences do the driving — rules get followed to avoid punishment or gain reward. It moves through a conventional stage, where societal norms and expectations get internalized as one's own. It can reach a post-conventional level, where morality answers to principles like justice, fairness, and individual rights, which a given society may or may not happen to expect.
 
 An AI system's moral development could plausibly follow the same arc: from grasping and executing established rules, to being guided by the ethical principles those rules were built to approximate.
 
@@ -25,7 +25,7 @@ Two things follow, and I would rather state them here than let the chapter imply
 <<h>>Growth Mindset<</h>>
 Carol Dweck's distinction between a fixed mindset, which treats ability as static, and a growth mindset, which treats it as built through effort and experience, describes something that matters as much for moral development as for any other kind of learning [[cite:C0323]]. An AI system that treats its own moral errors as data rather than as verdicts has room to keep improving; one built to defend its prior outputs does not.
 
-People with a growth mindset handle moral dilemmas differently from people with a fixed one: they treat an ambiguous situation as something to learn from rather than a test of their character, take a wider range of viewpoints seriously when forming a judgment, and treat their own moral views as revisable in the face of a good argument. An AI system built with the same disposition would have a shot at more adaptive, less brittle moral decision-making — judgment able to update, not just execute.
+People with a growth mindset handle moral dilemmas differently from people with a fixed one: they treat an ambiguous situation as something to learn from instead of a test of their character, take a wider range of viewpoints seriously when forming a judgment, and treat their own moral views as revisable in the face of a good argument. An AI system built with the same disposition would have a shot at more adaptive, less brittle moral decision-making — judgment able to update, not just execute.
 
 Five design choices carry that disposition into an AI system's architecture:
 <<list>>
