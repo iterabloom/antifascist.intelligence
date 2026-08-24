@@ -1,11 +1,7 @@
 6.2.3. AI Literacy Outside the Classroom
 
-Most AI literacy work assumes someone who has already decided to learn: a course to enrol in, a curriculum to sit through, a public MOOC to find (section 6.3.5). That reaches the people who came looking. The harder and more useful problem is reaching everyone else — bringing AI into the places people already are, a museum visit, a policy debate, a town hall, where nobody had to seek it out.
+Most AI literacy work assumes someone who has already decided to learn: a course to enrol in, a curriculum to sit through, a public MOOC to find (section 6.3.5). That reaches the people who came looking. The harder and more useful problem is everyone else — reaching people where they already are, in a policy debate, a town hall, a local news story, without their having gone out after it.
 
-<<list>>
-1. Public engagement on specific policy questions. The Ada Lovelace Institute has run public engagement on facial recognition specifically, including a Citizens' Biometrics Council that brought 50 members of the UK public together to deliberate on how biometric technology should be regulated, and published the first national survey of UK public opinion on the technology [[cite:C0477]].
+The engagement that does most work is the kind attached to a live question. The Ada Lovelace Institute's Citizens' Biometrics Council brought fifty members of the UK public together to deliberate on how biometric technology should be regulated, alongside the first national survey of UK public opinion on the technology [[cite:C0477]]. The specificity is what made it work. Participants were not asked what they thought about AI, a question almost nobody can answer usefully, but about facial recognition — a thing with a location, an operator, and a consequence.
 
-2. Museum and science-center exhibitions. The MIT Museum's permanent "Robots and Beyond" exhibition, opened in 2022, puts 50 years of MIT's AI and robotics research in front of a visitor who will never take a computer science course, tracing the field from early robots like Kismet and Cog through work happening at the Computer Science and Artificial Intelligence Laboratory today [[cite:C0478]].
-
-3. Direct public outreach. Researchers and practitioners visiting schools, community centers, and local events to answer questions and explain what an AI system actually does reaches people neither a curriculum nor a museum exhibit does on its own.
-<</list>>
+That is the lesson for public literacy generally, and it cuts against most of what gets funded under the heading. General AI awareness produces general opinions, which are worth little to a regulator and nothing to a court. A public able to govern a technology is a public that has been asked about a particular use of it.
