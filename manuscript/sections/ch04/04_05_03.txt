@@ -14,7 +14,7 @@ What is worth taking from it is the structure, not the winner: judging teams on 
 
 <</box>>
 
-Standing consortia do similar work on a longer timescale. The Partnership on AI brings together academic institutions, industry labs, and nonprofits to share findings and co-develop policy guidance rather than compete over them [[cite:C0344]]. Section 6.3.1 takes up the international version of the same mechanism — global partnerships built specifically to fund cross-border, cross-disciplinary AI research.
+Standing consortia do similar work on a longer timescale. The Partnership on AI brings together academic institutions, industry labs, and nonprofits to share findings and co-develop policy guidance rather than compete over them [[cite:C0344]]. Section 6.7.1 takes up the international version of the same mechanism — global partnerships built specifically to fund cross-border, cross-disciplinary AI research.
 
 Public-private partnerships are a related lever, covered in more depth in section 6.2.2 alongside other participatory-governance mechanisms. The short version: a partnership grounded in a specific societal problem, not just a research agenda, tends to keep ethical stakes in view for the people actually accountable for the outcome.
 

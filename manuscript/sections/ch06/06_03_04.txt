@@ -1,0 +1,18 @@
+6.3.4. Addressing Workforce Disruption
+AI systems capable of automating entire job categories, not just discrete tasks within them, disrupt work at a scale most labor-market institutions were never built to absorb. Section 6.3.3 traces where that disruption is already showing up, in manufacturing and retail specifically; what follows here is the fuller policy response, in seven parts.
+
+<<list>>
+1. Retraining and upskilling programs: governments funding retraining through public university systems, rather than leaving it to individual employers, gives workers a path to the skills an AI-driven economy actually demands. Singapore's SkillsFuture initiative, launched in 2015, gives citizens ongoing access to skill-development credits and courses aimed at exactly this kind of competitiveness [[cite:C0385]].
+
+2. Jobs guarantee programs: a public-sector job at a living wage, available to anyone displaced by automation, does two things retraining alone does not — it gives workers income while they recalibrate, and it directs the labor toward work society already needs: child care, elder care, education, infrastructure, renewable energy, community projects. Section 6.3.3 makes the case for why this has to be the floor beneath the rest of this list rather than one item among several.
+
+3. Social safety nets: unemployment benefits, healthcare, and affordable housing broadened enough to protect people who cannot or choose not to work through a period of displacement. Finland's 2017–2018 basic income experiment paid 2,000 unemployed people a monthly, unconditional stipend and found modestly higher life satisfaction and lower psychological strain among recipients, without a significant negative effect on employment [[cite:C0386]]. I would still put a jobs guarantee before a basic income on moral grounds: people ought to have the chance to contribute before anyone decides they are unemployable.
+
+4. AI-driven job creation: AI advances in healthcare, for instance, raise demand for the clinicians and technicians who can put diagnostic and personalized-medicine tools to use, rather than only displacing the staff those tools replace.
+
+5. Lifelong learning programs: continuous skill development accessible across career stages and income levels, not concentrated among workers whose employers already invest in them. The European Union's Erasmus+ program, though not AI-specific, is a working example of publicly funded lifelong learning at scale, giving participants cross-border learning experience relevant to a labor market that keeps changing shape [[cite:C0387]].
+
+6. AI-human collaboration: designing work so that AI systems augment human judgment and creativity rather than substitute for them can generate roles that need both — a combination automation alone does not produce and full replacement forecloses.
+
+7. Support for small and medium-sized enterprises: giving smaller firms access to AI resources and expertise lets them compete with the dominant players section 6.3.2 describes, which keeps the AI ecosystem itself more diverse and creates employment outside the largest firms.
+<</list>>

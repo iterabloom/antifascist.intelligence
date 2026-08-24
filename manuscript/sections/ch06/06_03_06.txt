@@ -1,0 +1,17 @@
+6.3.6. Interdisciplinary Ethics Education and Training
+Section 4.4.3 already names cross-training and consultation among developers, ethicists, and legal scholars as one lever for pulling an AI system's immediate environment toward ethical alignment. This section is about the infrastructure that makes that cross-training possible in the first place — where the people who go on to do it learn it, across psychology, neuroscience, ethics, law, political economy, and AI itself.
+
+<<h>>Interdisciplinary AI ethics courses at universities<</h>>
+Folding an AI ethics course into computer science and engineering degree programs, built around philosophy of AI, social science, and the humanities rather than technical content alone, gives future developers the ethical vocabulary a standalone ethics requirement usually fails to. Harvard's course "Intelligent Systems: Design and Ethical Challenges," designed in 2015 by AI researcher Barbara Grosz together with colleagues from Harvard's philosophy department, works through real case studies — predictive policing, public-health interventions, wildlife conservation — rather than abstract dilemmas, and draws students from the humanities and social sciences as well as computer science [[cite:C0392]].
+
+<<h>>AI ethics and alignment summer schools<</h>>
+An intensive, multi-day program that pulls early-career researchers and practitioners out of their home disciplines for a concentrated stretch of training does work a semester-long course cannot: shared problems, cross-disciplinary teams, and the kind of professional network that outlasts the program itself. The Human-Aligned AI Summer School, held annually in Prague and organized jointly by Charles University's Centre for Theoretical Study and a group of independent AI-safety researchers, is a working example, training early-career researchers in AI alignment across an intensive multi-day program [[cite:C0393]].
+
+<<h>>AI ethics hackathons<</h>>
+A hackathon format aimed specifically at AI ethics — developers, designers, ethicists, and representatives of an affected community spending a weekend on one concrete social problem — is inexpensive to run and has an obvious institutional home: a computer-science department, an industry AI-ethics team, or a civil-society organization already positioned to supply both the problem statement and the follow-through a single weekend cannot provide on its own.
+
+<<h>>AI ethics certification programs<</h>>
+A standardized credential in AI ethics gives developers and other stakeholders a benchmark to work toward and gives employers a way to verify it. The IEEE's CertifAIEd program already does this: a professional certification built around accountability, transparency, privacy, and bias, open to developers and non-developers alike — policymakers, underwriters, human-resources staff — anyone whose work touches an AI system [[cite:C0394]]. Other professional bodies with an existing stake in technology ethics, the Association for Computing Machinery among them, could extend the same model.
+
+<<h>>Industry-academia collaboration<</h>>
+Partnerships between industry and academia bridge theoretical ethics research and the practical business of building systems. The MIT-IBM Watson AI Lab, a ten-year, $240 million research partnership launched in 2017, is a working example: among its research pillars is work explicitly aimed at detecting and mitigating bias and building trustworthiness into deployed AI systems [[cite:C0395]].

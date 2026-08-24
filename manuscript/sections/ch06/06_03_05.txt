@@ -1,0 +1,14 @@
+6.3.5. Building AI Literacy and Technical Skills
+Section 4.6.3 names AI literacy among developers, policymakers, and the public as one safeguard against authoritarian misuse of AI — a safeguard nobody understands is a safeguard nobody can invoke. What that literacy takes to build, at each level from schoolchildren to working engineers, is the subject here.
+
+<<list>>
+1. AI in K-12 curricula: introducing AI concepts, and their ethical stakes, before higher education is the only way to reach students who will never take a university AI course at all. AI4K12, a joint initiative of the Association for the Advancement of Artificial Intelligence and the Computer Science Teachers Association launched in 2018, has built national guidelines for K-12 AI education organized around five core ideas: perception, representation and reasoning, learning, natural interaction, and societal impact [[cite:C0388]].
+
+2. Interdisciplinary AI programs at universities: an AI professional trained only in AI is a narrower professional than one trained alongside ethics, social science, and the humanities. MIT's Schwarzman College of Computing runs exactly this kind of program under the name Social and Ethical Responsibilities of Computing, bringing computer scientists together with social scientists and humanists to research and teach the social and ethical implications of computing directly [[cite:C0389]].
+
+3. Specialized training for AI developers: developers building systems meant to act ethically need more than a compliance checklist — training in the ethics, social intelligence, and emotional intelligence that let them recognize a harm their code could cause before a user does.
+
+4. Accessible AI literacy for the general public: courses that reach people well outside the industry are what let a public participate in decisions about AI rather than defer to whoever built the system. Elements of AI, a free course built jointly by the University of Helsinki and the Finnish company Reaktor, is the clearest working example — Finland funded its translation into every EU member-state language during its 2019 EU presidency specifically to extend that reach, which makes it a public-private partnership as much as a course [[cite:C0390]].
+
+5. AI education in underrepresented communities: equal access to AI education for communities historically locked out of the field is not a diversity add-on to the rest of this list; a next generation of AI developers drawn from a narrow slice of the population reproduces exactly the narrow set of assumptions section 5.1.1 identifies as a source of AI bias. AI4ALL, a nonprofit that has run AI education programs for underrepresented high-school students on university campuses since 2015, is one organization doing this work directly [[cite:C0391]].
+<</list>>

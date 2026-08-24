@@ -1,0 +1,22 @@
+6.7.5. Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts
+Adapting AI regulation and ethical practice to local context means responding to the actual needs, preferences, and values of a given community, not accepting the reduction that has a state's own population consenting, culturally, to whatever is done to them — that Chinese people are content with pervasive surveillance because harmony is a Chinese value. A system built to work well has to be sensitive to real cultural, social, and moral differences: an AI system developed in a Western country may treat individual autonomy as the default good, one developed in an East Asian country may treat group harmony as the default instead, and both assumptions have something to recommend them — autonomy supports creativity and innovation, harmony supports cooperation and stability. Recognizing that difference is not license to endorse whatever a government built on top of it does to its own population; it is a design constraint, not a political alibi.
+
+Designing an AI system that holds up across differences like these takes four things.
+
+<<list>>
+1. Diverse perspectives built in from the start. Developers and ethicists working with stakeholders outside their own cultural, social, and moral background catch blind spots the design process would otherwise miss. Indigenous communities helping shape an AI system for wildlife conservation or environmental monitoring are the ones who actually hold the knowledge those systems depend on.
+2. Local value alignment without abandoning the baseline. A system does not need to import every local norm uncritically, but it needs room to adjust: an end-of-life care system has to weigh region- and family-specific religious and cultural beliefs case by case, not apply one default across every patient, if it is going to earn the trust of the people it serves.
+3. Sustained cross-cultural dialogue, not a one-time consultation. Conferences and working sessions that keep running past a launch date surface ethical blind spots that a single round of feedback misses.
+4. A shared, maintained record of what other regions have already tried. Case studies and guidelines from outside one's own country do more good compiled somewhere a developer can actually find them than scattered across whatever venue first produced them.
+<</list>>
+
+Inclusion matters for a related reason: an AI system that ignores a society's economic and cultural diversity risks widening the inequalities it could instead help close. A healthcare AI system built around the access, resources, and assumptions of a well-funded hospital underperforms everywhere else. An education AI system built around one learning style, or one set of accessibility assumptions, serves only the learners who already fit it.
+
+Collaboration with the people who actually live in the context a system is meant to serve is what makes the difference in practice, and one concrete example of that at scale is the AI4D program. It launched in 2020 as AI4D Africa, a partnership between Canada's International Development Research Centre and Sweden's international development agency, and expanded in 2024 into a partnership with the UK's Foreign, Commonwealth and Development Office worth more than 100 million Canadian dollars, extending the same model into South and Southeast Asia and the Pacific [[cite:C0505]]. The premise holds at any scale: local researchers, policymakers, and practitioners building the system, rather than receiving one built elsewhere.
+
+<<list>>
+1. Partner with local organizations and community groups on AI projects that address problems the community has actually identified.
+2. Put local policymakers, researchers, and community members inside the development process itself, not just as reviewers of a finished design.
+3. Route AI education and training toward communities that have been underrepresented in the field, rather than assuming the existing talent pool will diversify on its own.
+4. Build and share open-source AI tools that local developers can adapt to their own context, rather than exporting a finished system that assumes someone else's.
+<</list>>

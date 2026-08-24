@@ -1,6 +1,6 @@
 6.2.3. AI Literacy Outside the Classroom
 
-Section 7.1.5 covers how AI literacy gets built into schools, universities, and dedicated public courses, Finland's Elements of AI among them. What is different here is bringing AI into the places people already are — a museum visit, a policy debate, a town hall — rather than a course somebody has to seek out.
+Section 6.3.5 covers how AI literacy gets built into schools, universities, and dedicated public courses, Finland's Elements of AI among them. What is different here is bringing AI into the places people already are — a museum visit, a policy debate, a town hall — rather than a course somebody has to seek out.
 
 <<list>>
 1. Public engagement on specific policy questions. The Ada Lovelace Institute has run public engagement on facial recognition specifically, including a Citizens' Biometrics Council that brought 50 members of the UK public together to deliberate on how biometric technology should be regulated, and published the first national survey of UK public opinion on the technology [[cite:C0477]]. Section 6.2.2 covers the citizen-assembly format this borrows from.

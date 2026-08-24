@@ -155,9 +155,26 @@ Two things worth recording that were not in the original scope:
   own new material. §9.1.7 went from 1 per 156 to 1 per 313. Pre-existing instances
   in untouched paragraphs were left alone; this pass swept what it wrote.
 
-**Tier C: not started.** C1 (the chapter-8 renumber), C2 (the chapter 6/7 merge —
-still needs a ruling, since D-029 lifted D-007 and not D-010), C3 (the genre-shift
-flag).
+**Tier C: C1 and C2 complete** (D-031). C3 (the genre-shift flag) not started.
+
+C2 first, since merging changed the chapter numbers that C1 had to renumber; both
+were done in one pass. Chapters 6 and 7 became one chapter 6, "Collaboration,
+Policy, and Governance": old 6.1 and 6.2 keep their numbers, old 7.1–7.4 become
+6.3–6.6, and old 6.3, old 6.4 and old 7.5 are gathered under a new 6.7 with old
+7.5 kept whole as 6.7.6. Old chapters 9, 10 and 11 shifted to 7, 8 and 9. Chapters
+now run 0–9 with no gap. Full mapping in `renumber-map_2026-08-23.tsv`.
+
+**A bug I introduced and caught.** The first renumber pass used a lookahead that
+treated a trailing sentence period as part of the number, so any reference ending a
+sentence — `§10.3.3.` — was silently skipped. One such reference was left dangling,
+which is how it surfaced; the dangerous case is a skipped reference whose old number
+happens to still exist under the new scheme, which would have pointed the reader at
+the wrong section with nothing to flag it. Reverted the whole pass, fixed the
+lookahead to `(?!\d)(?!\.\d)`, proved it against both the failing case and
+against non-section decimals ($1.32, 0.8 percent), and re-ran. Verified after:
+**0 dangling references**, and every one of the 53 mapped sections still carries the
+title it had before the move except the merged chapter, which was retitled on
+purpose.
 
 **Book state:** 84,486 words across 159 sections, from 76,949 across 158 at P6
 acceptance. Proof rebuilt at 144 pages, from 132.
