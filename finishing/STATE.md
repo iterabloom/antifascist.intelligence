@@ -14,12 +14,12 @@ sweep) has swept every chapter. **P4 (sourcing) is now complete book-wide:
 every one of `claims.tsv`'s 536 rows carries a non-empty note — zero
 unresolved placeholders anywhere** — see below for both P4 batches and the
 two flagged citation disputes that got resolved along the way. **P5 (front/
-back matter) is drafted, not yet author-accepted**: a new §0 "On Method"
+back matter) is author-accepted, 2026-08-23**: a new §0 "On Method"
 note (510 words, D-008's ~500-word target) and a new §11 "Glossary" (51
 terms, ~2,290 words) — 158 sections total now. Chapter 1's opener, P5's
 third deliverable, needed no separate work: the P3 chapter order already put
 it last (see "Chapter order for P3" in `PLAN.md`), so it already describes
-the book as it now exists. See "P5, drafted" below.
+the book as it now exists. See "P5, accepted" below.
 
 ## Where the book is
 
@@ -721,13 +721,13 @@ suspected fabrication during P3 itself.
   above, not silently applied. |
 | P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 (re-confirmed 2026-08-23 after the register-seam fix below). Post-D-024 register-seam check: chapter 3 had two places where "antifascist" was bolted onto a generic ML-methods description with no argued connection (§3.1.3's "antifascist judgment" next to "empathy, altruism"; §3.2.3's title and opener, "ethical and antifascist decision-making" applied to plain supervised-learning classification) — flagged 2026-08-23, fixed the same day at the author's request: both now read "ethical" alone, matching how the book's other ch3 sections (§3.2.5, §3.3.2) actually argue a mechanism-specific connection to resisting authoritarian power rather than just labeling one. Still open: the author's own read of the per-chapter diffs (distinct from the P3 acceptance question above — nobody has confirmed reading these diffs specifically). |
 | P4 Source | **complete, book-wide.** Every one of `claims.tsv`'s 536 rows carries a non-empty note; zero unresolved placeholders anywhere. The §7.2.2 Clearview/Rekognition cluster and §7.2.5's AIGS Index/GPAI cluster, previously flagged as never actually live-verified despite carrying "web-verified" notes, were independently re-checked 2026-08-23: Clearview and GPAI confirmed accurate as printed; the AIGS Index sentence was corrected (it had overstated "at least 75 of 176 countries" as "a large majority of the world's countries"). |
-| P5 Front/back matter | **drafted, not yet author-accepted.** Two new sections (§0 "On Method", §11 "Glossary"), 158 sections total. See below. |
+| P5 Front/back matter | **author-accepted, 2026-08-23.** Two new sections (§0 "On Method", §11 "Glossary"), 158 sections total. See below. |
 | P6 Copyedit and build | not started |
 
 **No chapter order remains for P3** — every section in the book has a draft
 and is accepted, including the chapter 3 opener.
 
-## P5, drafted
+## P5, accepted
 
 2026-08-23. Two new sections, numbered `0` (before chapter 1) and `11`
 (after chapter 10) so the existing numeric pipeline — `ORDER.tsv`,
@@ -771,9 +771,11 @@ before this was committed.
   that exists rather than the one that was still being written — see
   "Chapter order for P3" in `PLAN.md`. That already happened; P5 did not
   reopen chapter 1.
-- Both new sections are `status: drafted` in `ledger.tsv`, not `accepted` —
-  P5's own exit criterion is "author Accepts," same as P3's, and nothing
-  here claims that has happened.
+- Both new sections were drafted with `status: drafted` in `ledger.tsv`.
+  The author read both as rendered proof PDFs and accepted both the same
+  day; `ledger.tsv` now carries `status: accepted` for both rows, with the
+  acceptance disclosed in each row's notes the same way every other
+  post-draft acceptance in this project is.
 - `finishing/tools/check_all.sh`: **ALL CHECKS PASSED** after both additions
   (158 sections, round-trip OK, structure OK, named-persons guard clean).
   One pre-existing, unrelated staleness surfaced and was fixed in passing:
