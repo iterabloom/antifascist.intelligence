@@ -17,7 +17,7 @@ A Go-playing system that reached superhuman performance through self-play alone,
 Opposing the concentration of power and authority in AI systems and countering the technology's use by authoritarian actors. The book chooses this word over the broader "anti-authoritarian" deliberately, while holding that a system built on these principles is anti-authoritarian in full — antifascism is the narrower, more charged case, not a softer substitute for it (§2.1.4, §1.1).
 
 <<h>>Attention schema theory<</h>>
-An account, developed by Michael Graziano, of subjective awareness as the content of a simplified internal model the brain builds of its own attention — a model good enough to be useful, not a literal readout of what attention is actually doing (§3.1.2, §2.3.3).
+An account, developed by Michael Graziano, of subjective awareness as the content of a simplified internal model the brain builds of its own attention — a model good enough to be useful, not a literal readout of what attention is actually doing (§2.3.3).
 
 <<h>>Authoritarian misuse, six forms<</h>>
 The book's own taxonomy of how AI gets turned toward authoritarian ends: algorithmic social scoring, mass biometric surveillance, psychographic micro-targeting, automated censorship, synthetic disinformation, and the repurposing of dual-use systems built for a legitimate original purpose (§5.4.1).

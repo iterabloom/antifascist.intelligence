@@ -1,5 +1,7 @@
 1.1. The Imperative of Altruistic and Antifascist Sentient Machines
-A system capable of outperforming humans at nearly every cognitive task is becoming increasingly plausible. Such systems could help address some of humanity's greatest threats, such as climate change, public health crises, disinformation, and racial capitalism [[cite:C0701]].
+A system capable of outperforming humans at nearly every cognitive task is becoming increasingly plausible. Such a system could be pointed at problems that have defeated us: modelling a changing climate at usable resolution, moving faster than an epidemic, finding the coordinated part of a disinformation campaign while it is still running.
+
+One item that belongs on a list like that belongs on it differently, and saying so early is worth more than a clean sentence. Racial capitalism — the political theorist Cedric Robinson's name for capitalism's tendency to accumulate by differentiating and devaluing groups of people [[cite:C0701]] — is not a problem AI is poised to help solve. It is a pattern these systems have so far been extraordinarily good at reproducing, faster and with better alibis, which is what chapter 5 spends its length documenting. The most this book claims is narrower and harder: a system audited for disparate impact, by someone with no stake in the finding, works against the pattern instead of laundering it. That is a real difference and it is not a solution.
 
 However, what an AI wants is not a detail to work out after it exists — it is the difference between a tool that expands what the people can do and one that concentrates power in whoever controls it. An intelligence is dangerous if it has no particular resistance to being pointed at the people rather than for them.
 

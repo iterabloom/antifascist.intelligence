@@ -21,17 +21,8 @@ none
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (3):
+- same number, different title (0):
 
-  - `2.3.3`
-    - manuscript: Self-awareness and Self-regulation in AI Systems
-    - TOC: Fostering AI Systems with Self-awareness and Self-regulation
-  - `3.3.1`
-    - manuscript: The Power of Play: Ethical AI Development through Play-Inspired Mechanisms
-    - TOC: The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms
-  - `7.2.3`
-    - manuscript: Public-Private Partnerships for AI Research and Innovation
-    - TOC: Fostering Public-Private Partnerships for AI Research and Innovation
 
 ## Headings with no body text before the next heading
 
