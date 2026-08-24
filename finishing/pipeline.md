@@ -24,7 +24,14 @@ soffice --headless --convert-to pdf --outdir /path/to/scratch \
 ```
 
 `soffice` prints `Warning: failed to launch javaldx` and works anyway.
-Build products go to the scratchpad, never into the repo.
+Build products go to the scratchpad, never into the repo — **with one standing
+exception, added 2026-08-23 on the author's instruction ("render the book and
+commit and push it all").** The rendered whole book is committed under
+`finishing/reports/` as `whole-book_<date>.html`, `.odt`, and
+`whole-book-proof_<date>.pdf`, so the repository carries a readable copy of the
+book at its current state and not only the sources it is built from. Rebuild and
+recommit all three together whenever the manuscript changes materially; a stale
+one is worse than none. Everything else still goes to the scratchpad.
 
 To eyeball a page without a viewer:
 
