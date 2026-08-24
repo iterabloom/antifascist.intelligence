@@ -974,7 +974,15 @@ That is not fixed and is not claimed as fixed.**
 
 - **P8 is drafted and unread.** Six sections changed (1's opener, 2.1.4,
   2.4.4's title, 5.1.1, 7.1.6, 7.1.7); +952 words book-wide. `check_all.sh`
-  green, TOC regenerated, title diffs 0. No proof has been rebuilt for it.
+  green, TOC regenerated, title diffs 0. **The proof was rebuilt 2026-08-24**
+  and is committed as `finishing/reports/whole-book_2026-08-24.{html,odt}`
+  and `whole-book-proof_2026-08-24.pdf`, 140 pages (was 132 at P6). The
+  2026-08-23 trio was removed in the same commit rather than left beside it,
+  per `pipeline.md`: a stale proof is worse than none. Three pages carrying
+  new prose were looked at as images, not merely built — p11 (2.1.4's new
+  block, run-in head and the seven-strategy list intact), p4 (chapter 1's
+  two-standards paragraph), p124 (7.1.7's rewritten block). The rest of the
+  proof was not read.
 - **Section 7.1.6's contrastive-negation density is 1 per 136** and is not
   fixed. All four hits pre-date P8, in paragraphs P8 did not touch; the
   paragraph P8 added has none. Named rather than swept, per the Tier B
