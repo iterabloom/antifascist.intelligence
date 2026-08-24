@@ -142,7 +142,6 @@ Carried from the meta-plan; the live ones for this phase:
 - **Citation debt may exceed the writing effort**, and at under 2 h/week the author cannot verify at volume. Count it before budgeting; cut what cannot be sourced.
 - **Acceptance is the bottleneck**: ~80k words of careful reading, plus rounds. Serial release keeps it visible; the estimate counts reading time explicitly.
 - **Terminology drift** across ~90 separately drafted sections. Glossary loaded into every rewrite session; consistency check at P6.
-- **The commit hook eats body lines** containing brand words. Use `msgcheck.sh`.
 
 ## 7. Definition of done
 

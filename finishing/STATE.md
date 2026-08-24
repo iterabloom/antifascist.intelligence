@@ -960,10 +960,11 @@ named thing is not automatically fake (see the CDE-SSP false positive above)
 — but D-009's rule stands: if it can't be confidently placed as real, cut it
 rather than carry it forward with a placeholder.
 
-**Commit messages:** `git commit -s` always. The hook silently deletes body
-lines containing vendor or brand words within the first or last ten body
-lines, and rewrites vendor-named trailers. Check with
-`finishing/tools/msgcheck.sh` before committing anything with a long body.
+**Commit messages:** `git commit -s` always — the hook enforces DCO and will
+reject a message without a sign-off. It also rewrites vendor-named trailers
+and brand words on its way past. That is the hook doing its job; it is not
+something to work around. `finishing/tools/msgcheck.sh` will dry-run a draft
+if you ever want to see what it will do.
 
 **Shell heredocs and `<<list>>`/`<<box>>`/`<<h>>` markup:** a bash heredoc
 writing a file containing this literal markup silently truncated content once
