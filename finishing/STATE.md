@@ -970,8 +970,68 @@ much denser than D-025's calibration, §6.6.3 at 1 per 63 and §6.6.4 at 1 per 7
 That is not fixed and is not claimed as fixed.**
 
 
+## P9, drafted 2026-08-24 (D-037)
+
+The fourth editorial review, as unnumbered prose. Its thesis — **the manuscript
+is optimized for a reader who dips in, at the cost of one reading linearly** —
+is correct, and it names a structural signature rather than a set of slips: P1
+folded 282 sections into 156 and D-013 gave each repeated argument one home,
+and both correct decisions leave the same residue, a pointer where an argument
+used to be. Expect the same complaint anywhere P1 folded heavily. Full account
+in `finishing/p9-scope.md`.
+
+Nine section files changed; +708 words book-wide (84,884 → 85,592), of which
+chapter 7's opener is +654. `check_all.sh` green; ORDER.tsv digests refreshed
+for the nine, join rebuilt, TOC regenerated, title diffs 0.
+
+- **P9-1, the Ekman repetition: linked, not merged.** The review said §2.3.1
+  and §7.2.1 "both walk through Ekman's Fore study and its collapse … the same
+  argument delivered twice." **That is not what is there,** and the merge it
+  proposed would have been wrong. The sections share the Fore study — one
+  clause each — and nothing else: §2.3.1 asks whether emotion is a natural kind
+  and collapses it with Panksepp, Barrett's imaging meta-analysis, and the
+  Himba/Trobriand free-sorting work (C0300–C0303); §7.2.1 asks whether emotion
+  is readable from a face and collapses it with the in-group advantage, the
+  2019 APS panel, HireVue, and the EU AI Act (C0561–C0565). The real defect was
+  that a linear reader meets Ekman twice, 40,000 words apart, cold both times.
+  The review's own alternative — link them — was done in both directions.
+- **P9-2, the pointer sections: openers rewritten, demotion declined.** The
+  review wanted §§4.2.2/4.2.3/4.6.2/5.2.2 demoted to paragraphs inside their
+  parents. Checked: the first three each carry an argument that exists nowhere
+  else (4.2.2's invariance probe, 4.2.3's performed-versus-genuine moral
+  emotion, 4.6.2's intrinsic/extrinsic mutual check), so the demotion was
+  declined; the defect was confined to each opening paragraph, which
+  inventoried what the section is *not* about before reaching its question. All
+  three now lead with their own question. **§5.2.2 does not fit the complaint on
+  any measure and was declined outright.**
+- **P9-3, the escape hatch: done, and the review undercounted.** It said the
+  "nobody is working on this" admission appears "three or four times." §7.1.5
+  alone had three in 527 words; §7.1.6 had two; §7.1.2 and §7.1.4 one each, in a
+  5,743-word chapter. Chapter 7's opener now states the qualification once —
+  a search is not a survey — and lists the **eight** gaps with the nearest
+  existing work that stops short of each. §7.1.5's three hedges are gone.
+  **The list adds no verification:** every row restates a gap the chapter already
+  claimed, and no live search was run for this pass. A later pass wanting to
+  strengthen it has to actually search.
+- **P9-4, the persistence through-line.** Chapter 1's paragraph (added
+  yesterday by D-035) pointed at "chapter 2" generically; it now cites §2.4.1
+  and §2.4.4 by number. §2.4.4 already pointed back to §2.4.1.
+
+**D-025:** chapter 7's opener is the only substantial new block — 656 new words,
+3 contrastive negations, 1 per 219, inside the band. The smaller additions
+introduced none. The whole-diff aggregate reads 1 per 163 and is **not**
+comparable, because a diff charges the pass for retained text inside paragraphs
+it only partly rewrote.
+
+**A cosmetic tool bug, found and not fixed:** `check_roundtrip.py` labels its
+length "bytes" but computes characters (552,656 against the file's 554,585). The
+equality test is a string comparison and is sound; only the printed number is
+wrong.
+
 ## The immediate open items
 
+- **P9 is drafted and unread**, and P8 before it. The proof committed at
+  `finishing/reports/whole-book*_2026-08-24.*` predates P9 and is now stale.
 - **P8 is drafted and unread.** Six sections changed (1's opener, 2.1.4,
   2.4.4's title, 5.1.1, 7.1.6, 7.1.7); +952 words book-wide. `check_all.sh`
   green, TOC regenerated, title diffs 0. **The proof was rebuilt 2026-08-24**
