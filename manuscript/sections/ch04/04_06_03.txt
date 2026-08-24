@@ -15,7 +15,7 @@ Autonomy that is not grounded in antifascist values is a capability without a go
 
 Building autonomy that stays inside antifascist bounds means designing for fairness, transparency, and accountability from the start rather than auditing for their absence afterward, and testing the design under adversarial pressure: red-teaming a system, deliberately simulating the ways it could be misused, before deployment rather than after a misuse turns up in the wild. It also means keeping people other than a system's own developers in the design process — ethicists, users, and representatives of the communities most exposed to that system's failure modes — since the group that built a system is a poor judge, on its own, of whose freedoms it might end up infringing.
 
-None of this substitutes for a genuine override. A human able to intervene in a high-stakes case, and a system built to accept that intervention rather than resist it, is what keeps autonomy answerable to something outside itself.
+None of this substitutes for a genuine override. A human able to intervene in a high-stakes case, and a system built to accept that intervention rather than resist it, is what keeps autonomy answerable to something outside itself. That is one of three places this book arrives at the same requirement from a different direction; section 2.1.5 collects them and asks what it would take to build the thing they all point at.
 
 <<h>>Safeguards Against AI Systems Enabling Authoritarian Regimes<</h>>
 Keeping AI systems from being weaponized by authoritarian regimes takes safeguards built in deliberately, not bolted on after a misuse is already discovered:

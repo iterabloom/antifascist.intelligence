@@ -1028,9 +1028,60 @@ length "bytes" but computes characters (552,656 against the file's 554,585). The
 equality test is a string comparison and is sound; only the printed number is
 wrong.
 
+## P10, drafted 2026-08-24 (D-038): tiers 1 and 2 of the fifth review
+
+The fifth review came as a structured critique plus two dialogue turns. Nineteen
+of its twenty checkable claims verified verbatim; the one exception is that
+§5.3.5 does not hold the interruptibility material (§5.3's opener does).
+Full account in `finishing/p10-scope.md`.
+
+**Tier 1 — the epistemic-standard gap.** The review's sharpest finding and it
+held: the book boxes mirror neurons and treats Ekman carefully, then anchored
+chapter 4's 14,866 words on Kohlberg with a bare citation, and cited Gilligan
+six sections later for care ethics without saying her account began as a
+critique of Kohlberg. §4.1.1 gains a 568-word epistemic box (cross-cultural
+critique, judgment-action gap, Gilligan — C0718–C0720, all verified by live
+search *before* the prose went in) that also answers why these frameworks
+transfer when mirror neurons did not: the mirror-neuron claim was that a
+mechanism implements a capacity and died with the mechanism; Kohlberg's stages
+are an order, not a mechanism. §4.7.1 now names the critique's origin. §4.1.4's
+targets-per-hour indicator gets a run-in head parallel to §6.6.4's — it was
+buried in paragraph 6 of 9 under the title "AI in Service of Human Dignity."
+
+**Tier 2 — the floor.** New §2.1.5, "The Floor Beneath Learned Values," 1,261
+words. The book arrives at an unconditional constraint three times (§4.6.3,
+§6.7.6, §8.1.3) with none referencing the others, while §2.1.1 had set
+deontology aside on rigidity and chapters 3–4 — 30.3% of the book — build
+learned judgment instead. Author directed the **dialogue's** version over the
+review's: same architecture, plus the fork the review's version conceals — an
+architectural floor costs custody (§8.3.3), a borne floor costs patienthood
+(§2.4.4), an external floor costs enforcement (§8.1.3), and those are the
+book's three unfinished threads. §2.1 and the three arrival sites now link to it.
+
+**Deliberately not taken, and this is the live tier-3 question:** the dialogue's
+second turn concludes that the capacity to refuse and the capacity to suffer are
+gated by the same architectural property. Its load-bearing step — that months of
+integrated involvement constitutes Cassell's narrative self — is asserted, and
+the dialogue itself identified that slack one turn earlier. Taking it would make
+§2.4.4's "consent is inapplicable" conditional on the system not being built to
+refuse, and open "can it quit?". §2.1.5 names the slack open in §2.1.4's manner
+and hands it forward. **This needs its own ruling before anyone acts on it.**
+
+**A render bug found by looking at the proof, not by any check.** The first draft
+of §2.1.5 used markdown `**bold**` and `*italic*`; the dialect has no such
+markup and `render.py` passes it through, so it rendered as literal asterisks.
+Caught on page 13 of the proof and rewritten as plain prose. **§2.4's Westworld
+epigraph has the same defect and still does** — one `*here*` that renders as
+asterisks. Pre-existing, inside a quoted epigraph, and left alone rather than
+edited as a side effect of this pass. `check_all.sh` does not test for this.
+
+158 sections. Book 85,592 → 87,582 words (+1,990). Proof rebuilt, 145 pages (was 142);
+pages 13 and 50 were looked at as images to confirm the box renders as a bordered
+table and the run-in heads hold. The rest was not read.
+
 ## The immediate open items
 
-- **P9 is drafted and unread**, and P8 before it. The proof committed at
+- **P10 is drafted and unread**, and P9 and P8 before it. The proof committed at
   `finishing/reports/whole-book*_2026-08-24.*` predates P9 and is now stale.
 - **P8 is drafted and unread.** Six sections changed (1's opener, 2.1.4,
   2.4.4's title, 5.1.1, 7.1.6, 7.1.7); +952 words book-wide. `check_all.sh`

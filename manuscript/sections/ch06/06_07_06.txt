@@ -32,7 +32,7 @@ What is missing is the machinery that constrains preference instead of aggregati
 
 Sen's argument, which chapter 8 cites and this section has not used, is the bridge. What makes democracy valuable in his account is public reasoning and the capacity to demand accountability, and neither is the ballot. Both survive the majority being wrong; the ballot does not.
 
-This is what finally lets the book say what makes a system antifascist rather than merely responsive. It is not that the system tracks what people want. It is that there are things it will not do to a person no matter who wants it. A system with no such floor is not protected by being deployed in a democracy — it is a system that will faithfully execute whatever the demos decides, which is exactly the capability an authoritarian movement that wins an election requires.
+This is what finally lets the book say what makes a system antifascist rather than merely responsive. It is not that the system tracks what people want. It is that there are things it will not do to a person no matter who wants it. Section 2.1.5 sets out what such a floor requires and what each way of building one costs. A system with no such floor is not protected by being deployed in a democracy — it is a system that will faithfully execute whatever the demos decides, which is exactly the capability an authoritarian movement that wins an election requires.
 
 Strategic competition over AI is not, by itself, the problem — it is the setting the rest of this section's arguments have to work inside, whether the subject is a weapons program, an international standard, or a domestic statute.
 
