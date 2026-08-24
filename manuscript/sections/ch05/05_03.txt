@@ -1,14 +1,2 @@
-5.3. AI Safety, Unintended Consequences, and Risk Mitigation
-An AI system built to help can still cause harm nobody intended: through an outright error, through a learned goal that has drifted from the human principles it was meant to track, or through a downstream effect that a reasonable design decision upstream never anticipated. Complexity and uncertainty in real-world deployment compound the risk — a system that behaves as intended in testing can still behave unpredictably once its environment stops matching the conditions it was built for.
-
-Guarding against this starts with verification and validation: checking whether a system does what it was built to do, within an acceptable margin of error, and testing it in environments realistic and varied enough to expose how it holds up under adversarial pressure.
-
-An AI system that can recognize and correct its own errors closes part of the gap on its own — self-correction and introspection let it detect and rectify a deviation from its intended behavior before that deviation compounds. Interpretability and transparency close another part, by making a system's decision-making process something a human can inspect when diagnosing what went wrong.
-
-None of this substitutes for a human who can intervene. Section 4.6.3 makes the case for why autonomy has to stay answerable to an outside check; the same override that keeps a system's day-to-day autonomy accountable is what keeps it safe once its goals have drifted from what it was built to want. What safety adds to that argument is the ongoing partnership: a human and an AI system that keep adjusting to each other over time, not a single correction applied once and left alone.
-
-Safety also means guarding against misuse: control measures that deter harmful application of the technology, and design principles — ethically conscious, antifascist, privacy-preserving — built in from the start.
-
-Circuit breakers or kill switches — mechanisms that let a human safely interrupt an AI system's operation without triggering resistance or backlash — are one avenue worth pursuing, provided the mechanism is designed carefully enough that it does not become a vulnerability of its own. Section 5.3.5 below takes up the technical version of this problem, interruptibility, in more depth.
-
-Evaluating and forecasting risk also has to look past a system's direct impact on the task it was built for, to the indirect harm that shows up later: what it does to socioeconomic structure, political dynamics, and individual behavior once it is deployed at scale.
+5.3. Integrating Moral Intuitions and Deliberation
+Building an AI system's moral judgment means deciding how much weight a fast, intuitive read of a situation carries against a slower, deliberate one — and, as section 5.3.1 argues, the popular shorthand for that trade-off is less settled than it looks. Section 5.3.2 takes up what a defensible balance between the two looks like in practice. Section 5.3.3 turns to a related problem: what an AI system does when its judgment conflicts with someone else's, human or artificial.

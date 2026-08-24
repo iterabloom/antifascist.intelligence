@@ -14,7 +14,7 @@ A superintelligent AI system also needs to resolve moral paradoxes and value tra
 2. Hierarchical value systems: ranking values explicitly — human dignity and autonomy taking precedence over broader societal goals, for instance — gives the system a structure for deciding among conflicting principles instead of weighing them all as equal.
 3. Case-based moral reasoning: an AI system can draw on a record of past moral dilemmas and how they were resolved to make a sound, context-sensitive decision on the trade-off in front of it.
 4. Multi-objective optimization: where principles conflict outright, formal multi-objective optimization can balance the competing objectives mathematically rather than by fiat.
-5. Human input: building direct human mentorship into the AI system's decision-making keeps a human perspective in the loop — section 4.1.3 takes up what that mentorship looks like in practice.
+5. Human input: building direct human mentorship into the AI system's decision-making keeps a human perspective in the loop — section 5.1.3 takes up what that mentorship looks like in practice.
 6. Ethical auditing: regular audits catch the gap between the ethical principles a system was meant to implement and what it is actually doing, by examining its outputs, its decision structure, and its measured ethical performance directly.
 <</list>>
 

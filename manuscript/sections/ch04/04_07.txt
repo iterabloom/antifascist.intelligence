@@ -1,2 +1,0 @@
-4.7. Play, Exploration, and Moral Development in AI
-Section 3.3 took up exploration and curiosity as a way an AI system might come to know its environment. Play is a related but distinct capacity: forming standards for how to treat other agents, learned mostly through practice, imitation, and the negotiated give of a game rather than through instruction. What follows asks whether an artificial system could acquire anything like that route into moral competence, and where the analogy breaks down.

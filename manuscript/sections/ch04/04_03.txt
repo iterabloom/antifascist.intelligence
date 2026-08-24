@@ -1,2 +1,2 @@
-4.3. Integrating Moral Intuitions and Deliberation
-Building an AI system's moral judgment means deciding how much weight a fast, intuitive read of a situation carries against a slower, deliberate one — and, as section 4.3.1 argues, the popular shorthand for that trade-off is less settled than it looks. Section 4.3.2 takes up what a defensible balance between the two looks like in practice. Section 4.3.3 turns to a related problem: what an AI system does when its judgment conflicts with someone else's, human or artificial.
+4.3. The Role of Play and Exploration in Developing Antifascist and Altruistic AI
+Play-inspired mechanisms can shape how an AI system develops ethically. Curiosity and creativity, cultivated deliberately, can be turned toward antifascist ends. And human child development offers lessons about play and exploration worth carrying into how AI systems are designed and run.

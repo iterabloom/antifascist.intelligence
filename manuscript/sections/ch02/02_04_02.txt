@@ -31,4 +31,4 @@ The ethical questions AI research raises span expertise no single field holds. A
 
 Independent ethical review boards, staffed across these disciplines, are the mechanism for turning the principle into practice: reviewing a proposed study before it begins, inspecting it as it runs, and evaluating it against measurable criteria once results are in — on the model medical institutional review boards already provide for drug trials. Extending that model from clinical medicine to AI research that interacts with or claims to produce sentient behavior is an extension of existing practice.
 
-International coordination on AI-ethics standards remains largely aspirational; chapter 6 develops the legal and regulatory mechanics a framework would need.
+International coordination on AI-ethics standards remains largely aspirational; chapter 8 develops the legal and regulatory mechanics a framework would need.

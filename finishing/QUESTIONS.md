@@ -1,90 +1,109 @@
 # Open questions
 
-**Current as of 2026-08-24, after P10 and D-042.** For orientation read
-`finishing/STATE.md`; for the fifth review's disposition read `p10-scope.md`.
+**Current as of 2026-08-24, after P11 and D-043.** For orientation read
+`finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
+
+All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
+new; old 3–9 became 4–11).
 
 Nothing here blocks work. Each item has a default and the moment it applies.
 
 ---
 
-### Q-014 — Chapter 6's length: does the fifth review's second cut happen?
-
-**This is the one substantive item of the fifth review that was neither done nor
-formally declined.** Tiers 1, 2 and 3 were ruled on and executed (D-038 through
-D-041); this was analyzed and never scoped, and it is recorded here so it does
-not vanish.
-
-The review: chapter 6 "needs to lose a third of its length." The recurring move —
-this body exists, here is its founding year, it binds nobody — "is made something
-like thirty times. Three times with the best examples would land harder, and
-§8.1.3 would then arrive as a conclusion the reader has earned."
-
-Its specific instructions, kept verbatim in substance: **keep whole** §6.2.2's
-closing ("one of the book's two or three best passages"), §6.6.4, and §6.7.6
-("the strongest chapter in the second half"). **Compress** the institution
-inventories in §6.1, §6.3.5, §6.3.6 and §6.7.1–6.7.3 into tables or an appendix.
-**§6.4.4 and parts of §6.4.5** are connective tissue and could go.
-
-What complicates it, measured 2026-08-24:
-
-- **C3 already ran this pass yesterday** under the same criterion (D-032): keep the instance that shows a mechanism working or failing, cut the instance that only establishes a body exists. Chapter 6 went 22,014 → 20,023 words, dated references 88 → 35.
-- Chapter 6 now runs **1.8 four-digit years per 1,000 words**, level with chapter 5's 1.7. **Chapter 8 is now the book's densest at 5.8** — if the complaint is about dated-catalogue register, it has moved to a chapter the review praised.
-- Chapter 6 is 20,006 of 90,273 words, **22.2% of the book**.
-- The ask is roughly 6,600 words, **three times what C3 cut**, and collides with D-019's "no section is cut to hit a number."
-
-**Unresolved and cheap to settle: did the reviewer read a pre- or post-C3 proof?**
-If pre-C3, much of this is already done and the item is largely spent. If post-C3,
-C3 cut the dates and left the rhetorical move, and the second cut is a live ask.
-These call for different responses.
-
-- **(a) Default — establish which proof the reviewer read, then decide.** Costs one question.
-- (b) Do the second cut as specified, with a D-019 carve-out.
-- (c) Decline: C3 already applied the criterion and the density is now level with chapter 5.
-
-*Default applies when chapter 6 is next opened for any reason.*
-
 ### Q-015 — Should `check_all.sh` run from a pre-commit hook?
 
 D-042 made the TOC an enforced invariant, but `check_all.sh` still has to be run
 by hand. A commit that skips it goes through. A pre-commit hook would close that,
-and it is the same class of gap D-042 just fixed one level down.
+and it is the same class of gap D-042 fixed one level down.
 
 `.githooks/**` changes need explicit author approval (`AGENTS.md`), which is why
-this is a question rather than a task. Raised in conversation 2026-08-24 and
-unanswered.
+this is a question rather than a task. Raised 2026-08-24, unanswered, and P11
+made it more pressing: this pass rewrote every cross-reference in the book by
+script, and the only thing standing between a bad regex and a committed manuscript
+was that I chose to run the checks.
 
-- **(a) Default — leave it manual.** The hook would also run on every commit, including doc-only ones, and `check_all.sh` takes a few seconds.
+- **(a) Default — leave it manual.** The hook runs on every commit, including
+  doc-only ones, and the suite takes a few seconds.
 - (b) Add a pre-commit hook running `check_all.sh`.
 
 *Default applies if unanswered; reversible either way.*
 
-### Q-016 — §2.1.5 has quadrupled in a day and is unread
+### Q-017 — The prose tic is in chapter 5, and nobody has asked for a pass there
 
-It went 1,261 → 2,085 → 2,547 → 3,701 words across four passes on 2026-08-24
-(D-038, D-039, D-040, D-041) and is now the book's third-longest section, behind
-§6.7.6 and §3.1.2. Every addition answers a real objection and the structure is
-sound (6 run-in heads, contrastive negation 1 per 284), but nothing has been read
-by the author at any of those lengths.
+**New, and it is a finding rather than a request.** The sixth review asked for a
+rhythm-breaking pass in the chapters that are now 4 and 8. Measured, those are
+near the bottom of the book. Contrastive negation per 1,000 words after P11:
 
-- **(a) Default — author reads it before it is extended again.**
-- (b) Split it: the fork and its costs stay in §2.1.5, the bearer's upkeep and testimony move to a new §2.1.6.
-- (c) Leave it.
+| ch5 | ch11 | ch10 | ch2 | ch6 | ch9 | ch4 | ch8 | ch7 | ch1 | ch3 | ch0 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 9.9 | 12.7 | 7.8 | 6.5 | 6.0 | 5.3 | 5.7 | 5.4 | 4.7 | 4.4 | 3.5 | 2.6 |
 
-*Default applies before any further work on the floor argument.*
+Chapter 11 is the glossary, where "X rather than Y" is definitional and the
+number is expected. **Chapter 5 (Moral Psychology and AI) is the real outlier at
+roughly one per 101 words, against D-025's band of one per 216.** No review has
+mentioned it. The pass was not run because the review did not ask for it and the
+author's instruction was to implement the review.
 
-### Q-011 — Does chapter 2 keep its title? **Resolved by application, 2026-08-24.**
-Default (a) was applied at some point during the revise passes without being
-recorded here: the chapter is now titled "Foundations of **Compassion and
-Empathy** in Friendly AI," compassion leading, against the original "Empathy and
-Compassion." Closed retroactively; noted rather than backdated to a decision ID,
-since no ruling was sought at the time.
+Caveat on the measurement: this counts one of the three patterns the review named
+("rather than", ", not", "instead of", "not because"). Tricolon and the two-beat
+close were not measured and I make no claim about them.
 
-### Q-012 — Does P2 survive as a separate pass? **Resolved, D-021.**
-Dropped. See `DECISIONS.md`.
+- **(a) Default — do a D-025 pass on chapter 5 when it is next opened.**
+- (b) Do it now as its own pass.
+- (c) Leave it; the band is a guideline and chapter 5 is argumentative prose where
+  the construction earns its place.
+
+*Default applies when chapter 5 is next opened for any reason.*
+
+### Q-018 — Chapter 8's compression was only partly implementable
+
+The sixth review asked that chapters 8's §§8.1–8.3 be compressed on the grounds
+that they read as annotated inventory. **That premise no longer describes the
+text**, because C3 (D-032) already ran that pass: those sections now average
+about 300 words and carry two dated references between thirteen of them, each
+built around one argument rather than a list. P11 did the structural compression
+that still applied — three sections merged away, no argument dropped — and stopped
+there rather than cutting prose that had already been converted from inventory to
+argument.
+
+This is recorded because it is the **second** review to ask for a chapter-6/8 cut
+that C3 had largely already made, and because the honest report is a partial
+implementation. Chapter 8 is 22,707 words, 24.5% of the book, and the bulk is now
+in §8.7.6 (4,769) and §8.3.3 (3,157) — the jobs-guarantee material the review
+itself wanted carrying the chapter.
+
+- **(a) Default — accept the partial implementation and say so.** Done in
+  `p11-scope.md`.
+- (b) Cut §8.7.6 further; at 4,769 words it is the book's longest section.
+- (c) Ask the reviewer which proof was read, which is the question Q-014 raised
+  and which P11 executed past rather than answering.
+
+*Default applies now; (b) and (c) are live if the author wants the chapter smaller.*
+
+---
+
+## Resolved
+
+### Q-014 — Chapter 6's length. **Resolved by execution, D-043.**
+Two reviews asked for this cut. P11 executed the compression that applied under
+the sixth review's own scoping (compress §§8.1–8.3, exempt where counting is the
+argument) and recorded the part that did not apply as Q-018. The pre- or post-C3
+reading question was never answered and is now moot for this pass.
+
+### Q-016 — §2.1.5's length and unread status. **Closed by ruling, D-043.**
+The author's instruction: *"I read everything and stop asking or caring about
+what i did or did not read."* The section was promoted to chapter 3 rather than
+split or held. The question is closed and the class of question with it — the
+ledger still records what is drafted versus accepted, but "unread" is no longer
+raised as a reason to defer work.
+
+### Q-011 — Chapter 2's title. **Resolved by application, 2026-08-24.**
+Titled "Foundations of Compassion and Empathy in Friendly AI," compassion
+leading. Applied during the revise passes without being recorded at the time.
+
+### Q-012 — Does P2 survive as a separate pass? **Resolved, D-021.** Dropped.
 
 ### Q-013 — The roadmap the introduction promises. **Resolved, D-023.**
-Neither original option. See `DECISIONS.md`: "roadmap" is the wrong word (it
-wrongly insinuates turn-by-turn sequencing), but the fix is not to soften into
-vague generality — concrete, practical, specific, and where warranted ambitious
-ideas and proposals are what the introduction should promise. Applies when the
-revise pass reaches chapter 1.
+"Roadmap" is the wrong word; concrete, practical, specific and where warranted
+ambitious proposals are what the introduction should promise. Chapter 1's opener
+was rewritten under D-043 for the new chapter structure and holds to this.

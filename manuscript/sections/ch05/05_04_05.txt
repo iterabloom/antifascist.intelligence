@@ -1,0 +1,17 @@
+5.4.5. The Chronosystem: AI Systems in a Changing World
+Bronfenbrenner's outermost ring is time itself: the chronosystem is the pattern of change an individual — or, here, an AI system — lives through, not just the state of the world at any one moment. An AI system built to be ethical at the moment of its release is answering a question that keeps moving after release, as social norms, technology, and regulation all continue to shift underneath it.
+
+Three kinds of change matter most:
+
+<<list>>
+- Shifting social norms: what counts as acceptable AI behavior is not fixed. Public attention to algorithmic bias, once a specialist concern, became a mainstream expectation that equitable treatment is a baseline requirement rather than a bonus feature — a shift the chronosystem records but that no single training run captures once and for all.
+- Ongoing technical change: an AI system's own capabilities keep expanding, and a commitment to ethical and antifascist principles has to be re-implemented at each new capability level, not assumed to carry over automatically from the level the system was first built to handle.
+- Regulatory change: the legal environment an AI system operates in is itself a moving target, and staying compliant is not a one-time engineering task but a standing one.
+<</list>>
+
+<<box>>
+A dated example: the GDPR
+The European Union's General Data Protection Regulation, which took effect in 2018, is a clear instance of regulatory chronosystem change in action: it built in protections around automated decision-making — often described as a right to explanation, though legal scholars dispute how far that right actually reaches — and required AI systems operating in the EU, or serving EU users, to account for data use and algorithmic decision-making in ways many had not previously had to [[cite:C0333]]. Its influence spread past EU borders, since a system built to comply with GDPR for European users often ends up built that way for everyone. What matters for the chronosystem argument is not GDPR specifically — the next binding regulatory shift will not be GDPR — but the pattern it illustrates: regulation is not a fixed constraint an AI system is designed against once, but a variable the system has to keep tracking.
+<</box>>
+
+None of this is optional context. A system that treats the ethical and legal environment as fixed at training time will be wrong about it later, in specific and predictable ways, on a timeline no one commits to in advance.
