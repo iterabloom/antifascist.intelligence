@@ -2,7 +2,9 @@
 """Structural invariants for manuscript/sections and the ledger.
 
   1. every section file's first line is its own heading, and the filename's
-     number matches that heading's number
+     number matches that heading's number, and its title matches
+     ORDER.tsv's title column (render.py renders from ORDER.tsv, not from
+     the file's own heading text, so drift here is a silent build bug)
   2. the heading set equals finishing/outline.tsv (numbers), with title
      differences reported (not fatal; the manuscript text wins)
   3. sorted(glob) order == ORDER.tsv numeric order
@@ -42,6 +44,13 @@ def main():
             continue
         if h[0] != r["num"]:
             errs.append("%s: heading number %s != ORDER.tsv %s" % (r["path"], h[0], r["num"]))
+        if h[1] != r["title"]:
+            # render.py takes the rendered title from ORDER.tsv, not from this
+            # file's own heading -- a mismatch here means the built book shows
+            # a stale title even though check_all.sh is green (found twice:
+            # D-024/10.2's 55 titles, then 2.3.3/3.3.1/7.2.3 at P6). Fatal.
+            errs.append("%s: heading title %r != ORDER.tsv title %r"
+                        % (r["path"], h[1], r["title"]))
         stem = os.path.basename(p)[:-4].replace("_", ".")
         if tuple(int(x) for x in stem.split(".")) != common.numkey(r["num"]):
             errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))

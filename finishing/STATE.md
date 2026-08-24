@@ -19,19 +19,30 @@ note (510 words, D-008's ~500-word target) and a new §11 "Glossary" (51
 terms, ~2,290 words) — 158 sections total now. Chapter 1's opener, P5's
 third deliverable, needed no separate work: the P3 chapter order already put
 it last (see "Chapter order for P3" in `PLAN.md`), so it already describes
-the book as it now exists. See "P5, accepted" below.
+the book as it now exists. See "P5, accepted" below. **P6 (copyedit and
+build) has run its checks and its build**: `tics.py` re-run book-wide (the
+signature "foster" tic, 278 occurrences before P3, is now 0 — three section
+titles and one sentence still carried it and are fixed below), a
+terminology sweep found no residue to fix, `check_structure.py` gained a
+check it was missing (a section's own heading title can drift from
+`ORDER.tsv`'s title column, which is what `render.py` actually renders, with
+nothing catching it — this had already happened twice), and the whole-book
+proof PDF is rebuilt (132 pages, HTML → LibreOffice → ODT → PDF, spot-read).
+**P6's own exit criterion — the author's final read — has not happened
+yet.** See "P6" below.
 
 ## Where the book is
 
 `manuscript/sections/` — **158 sections** (the 156 body sections, chapters
 1-10, plus P5's two new front/back-matter sections, §0 and §11 — see "P5,
-drafted" below), one file each, nothing deeper than three levels.
+accepted" below), one file each, nothing deeper than three levels.
 `manuscript/parseable_text_v4.txt` is the join and must always match byte
 for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the frozen 2024
 text, pinned by digest.
 
-76,950 words total as of the last `section_stats.py` run (74,149 of that in
-the 156 body sections, 2,801 in §0 and §11). The 156-section figure is down
+76,949 words total as of the last `section_stats.py` run (74,148 of that in
+the 156 body sections, 2,801 in §0 and §11 — one word shorter than at P5
+acceptance: a P6 tic-lint edit to §2.2.1, below). The 156-section figure is down
 from ~113,000 before P3 started, because P3 is cutting real duplication
 (D-021), not just changing voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
@@ -722,7 +733,7 @@ suspected fabrication during P3 itself.
 | P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 (re-confirmed 2026-08-23 after the register-seam fix below). Post-D-024 register-seam check: chapter 3 had two places where "antifascist" was bolted onto a generic ML-methods description with no argued connection (§3.1.3's "antifascist judgment" next to "empathy, altruism"; §3.2.3's title and opener, "ethical and antifascist decision-making" applied to plain supervised-learning classification) — flagged 2026-08-23, fixed the same day at the author's request: both now read "ethical" alone, matching how the book's other ch3 sections (§3.2.5, §3.3.2) actually argue a mechanism-specific connection to resisting authoritarian power rather than just labeling one. Still open: the author's own read of the per-chapter diffs (distinct from the P3 acceptance question above — nobody has confirmed reading these diffs specifically). |
 | P4 Source | **complete, book-wide.** Every one of `claims.tsv`'s 536 rows carries a non-empty note; zero unresolved placeholders anywhere. The §7.2.2 Clearview/Rekognition cluster and §7.2.5's AIGS Index/GPAI cluster, previously flagged as never actually live-verified despite carrying "web-verified" notes, were independently re-checked 2026-08-23: Clearview and GPAI confirmed accurate as printed; the AIGS Index sentence was corrected (it had overstated "at least 75 of 176 countries" as "a large majority of the world's countries"). |
 | P5 Front/back matter | **author-accepted, 2026-08-23.** Two new sections (§0 "On Method", §11 "Glossary"), 158 sections total. See below. |
-| P6 Copyedit and build | not started |
+| P6 Copyedit and build | **checks and build done, 2026-08-23; author's final read still open.** See below. |
 
 **No chapter order remains for P3** — every section in the book has a draft
 and is accepted, including the chapter 3 opener.
@@ -787,6 +798,93 @@ before this was committed.
   anything, but it did produce a misleading "title differs" note in
   `check_structure.py`'s output. Corrected to match the current heading;
   no other `ORDER.tsv` title cells were audited.
+
+## P6
+
+2026-08-23. PLAN.md's P6 deliverables are "terminology consistency, tic
+lint, HTML → ODT → PDF locally; other formats elsewhere", exit criterion
+"clean build; author's final read." What's done and what's still open:
+
+- **Tic lint.** `finishing/tools/tics.py` re-run book-wide: every high-count
+  tic from the pre-P3 baseline (`foster` 278→0, `robust` 148→12, `crucial`
+  118→0, `nuanced` 71→0, `navigate` 67→4, `leverage` 59→7, `intricate` 47→0,
+  `harness` 34→1, `pivotal` 33→0, `landscape` 29→5) is down to single digits
+  or zero. Every surviving hit was read in context, not just counted:
+  - `foster` (was 4): three section titles — §2.3.3 "Fostering AI Systems
+    with Self-awareness and Self-regulation", §3.3.1 "The Power of Play:
+    Fostering Ethical AI Development through Play-Inspired Mechanisms",
+    §7.2.3 "Fostering Public-Private Partnerships for AI Research and
+    Innovation" — plus one sentence in §2.2.1 ("helping foster meaningful
+    relationships") had survived P3/P3.5 because neither pass touched
+    section titles. Fixed: retitled to "Self-awareness and Self-regulation
+    in AI Systems", "The Power of Play: Ethical AI Development through
+    Play-Inspired Mechanisms", and "Public-Private Partnerships for AI
+    Research and Innovation"; §2.2.1's sentence now reads "...building
+    meaningful relationships..." No argument or claim changed — see the
+    disclosed notes on `ledger.tsv` rows 2.2.1, 2.3.3, 3.3.1, 7.2.3.
+  - `robust`/`robustness` (12, all in ch05/ch07/ch09/ch10): every instance
+    is the AI-safety technical term (§5.2's title is literally
+    "Robustness, Generalization, and Adaptability in AI Systems") — domain
+    vocabulary, not the vague-intensifier tic style.md warns against. Left
+    alone.
+  - `leverage` (7): every instance is the noun (bargaining power, economic
+    leverage, a government's leverage over a company), not the
+    corporate-buzzword verb ("leverage AI to..."). Left alone.
+  - `landscape` (5): all five are the same recurring phrase,
+    "treaty-and-declaration landscape," used consistently across chapters
+    6, 7, and 10 as a handle for the specific cluster of treaties and
+    declarations §7.5 covers — a term of art this book coined for itself,
+    not a vacuous filler word. Left alone.
+  - `navigate` (4): two section titles (§2.1.3, §2.4.7) and two body uses,
+    all describing an actual dynamic (a transition, an ambiguous case, a
+    Super Mario Bros. level) rather than standing in for nothing. Left
+    alone.
+  - `multifaceted` (1), `holistic` (1), `indispensable` (1): single
+    instances, each making a real claim in context (genuine complexity, a
+    named ethical framework, a genuine capacity claim). Left alone per
+    style.md §3 ("None is forbidden; each is a flag").
+  - Voice markers (`voice.tsv`): 4 "this work/document" hits are all the
+    literal phrase "this work" (labor, not the book); the 2 "we (subject)"
+    hits are inside the Westworld epigraph's quoted dialogue and inside
+    §0's own description of the 2023 draft's institutional "we" — neither
+    is the author speaking as "we." Read individually; zero actual D-008
+    voice violations found.
+- **Terminology consistency.** No open terminology-drift items were found:
+  D-024's "anti-authoritarian"→"antifascist" switch has zero unconverted
+  instances outside the two places D-024 itself says should keep
+  "anti-authoritarian" (§2.1.4, §11's glossary entry, both stating the
+  antifascist stance is anti-authoritarian in full). Acronym/proper-noun
+  casing checked for one canonical spelling each: RLHF, COMPAS, GPAI,
+  GPT-3, GPT-4, AlphaGo Zero, AIGS Index, IRB, MAML — all consistent, no
+  variant casings found. Not checked: every other named term in the book:
+  this was a sample of the terms most likely to drift (frequently-cited
+  systems/acronyms and the glossary's own headwords), not an exhaustive
+  pass over all ~90 separately drafted sections' vocabulary.
+- **A tooling gap this pass exists to catch, closed.** `check_structure.py`
+  compared `outline.tsv`'s titles against `ORDER.tsv`'s titles, and each
+  file's own heading number against `ORDER.tsv`, but never compared a
+  file's own heading *title* against `ORDER.tsv`'s title column — the
+  column `render.py` actually renders from. A title could drift out of
+  `ORDER.tsv` (as the 55 D-024/§10.2 titles did, and as the three
+  `foster` titles above just did) and `check_all.sh` would stay green while
+  the built book showed the stale title. `check_structure.py` now fails
+  hard on that mismatch; sanity-tested by injecting a deliberate mismatch
+  and confirming it fails, then reverting and confirming it passes again.
+- **Build.** Whole book rendered via the documented path
+  (`render.py` → `soffice` HTML→ODT → `soffice` ODT→PDF): 132 pages.
+  Read as images: page 1 (§0, "On Method," no chapter label, matches P5's
+  proof) and page 132 (§11's last three glossary entries, ending cleanly).
+  Confirmed via text extraction that all three retitled headings
+  (§2.3.3, §3.3.1, §7.2.3) render correctly. `finishing/reports/
+  whole-book-proof_2026-08-23.pdf` — a committed exception to
+  `pipeline.md`'s "build products stay in the scratchpad" rule, same as
+  the earlier exceptions to that file — is rebuilt from this run.
+- **"Other formats elsewhere":** not attempted. This machine has no TeX,
+  pandoc, mermaid-cli, or graphviz, and no network path to install them
+  (`pipeline.md`, confirmed again this session) — that clause of P6 is
+  out of reach from here regardless of manuscript state.
+- **Not done: the author's final read.** P6's own exit criterion. Nothing
+  above substitutes for it; the proof PDF is sent for exactly that read.
 
 ## The immediate open items
 

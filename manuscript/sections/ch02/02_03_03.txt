@@ -1,4 +1,4 @@
-2.3.3. Fostering AI Systems with Self-awareness and Self-regulation
+2.3.3. Self-awareness and Self-regulation in AI Systems
 Emotionally intelligent AI systems need self-awareness and self-regulation: the capacity to perceive their own internal states, understand what those states imply for a decision, and control their responses accordingly — the basis for adaptive, self-correcting behavior rather than fixed reaction.
 
 The self is a model

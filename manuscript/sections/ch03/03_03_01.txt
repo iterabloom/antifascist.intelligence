@@ -1,4 +1,4 @@
-3.3.1. The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms
+3.3.1. The Power of Play: Ethical AI Development through Play-Inspired Mechanisms
 Play is how children and animals learn, experiment, and adapt. It lets an individual explore new situations, exercise creativity, and acquire knowledge in a risk-free setting. That suggests a design principle: put play-based mechanisms into AI development itself, so cognitive growth and ethical, altruistic behavior are built into how a system learns from the start.
 
 From an early age, children use play to learn about their environment, solve problems, and develop social skills. Primates and dolphins use play the same way: to explore the world, build physical dexterity, and work out the rules of group dynamics. That early practice lets young animals internalize skills they will need once the stakes are real.

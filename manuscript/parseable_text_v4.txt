@@ -163,7 +163,7 @@ Theory of mind (ToM) — attributing beliefs, intentions, desires, and knowledge
 
 Developing an AI system with these capacities, genuinely rather than as a surface performance, is difficult and ethically consequential. Done honestly — including honesty about which of these capacities is doing the load-bearing work — it is worth pursuing anyway: it builds systems whose interactions with people are more trustworthy, not merely more fluent.
 2.2.1. The Role of Empathy and Compassion in Human Social Behavior
-Empathy and compassion serve as the linchpins of human social behavior, underpinning cooperative interactions, helping foster meaningful relationships, and spurring altruistic actions. Both are multidimensional processes that involve the mental and emotional sharing of other individuals' experiences and feelings, as well as reacting to their needs with understanding and concern.
+Empathy and compassion serve as the linchpins of human social behavior, underpinning cooperative interactions, building meaningful relationships, and spurring altruistic actions. Both are multidimensional processes that involve the mental and emotional sharing of other individuals' experiences and feelings, as well as reacting to their needs with understanding and concern.
 
 "Empathy" is asked to cover three distinct things, and the distinction is not academic. Cognitive empathy is understanding another's emotional state — inferring that someone is grieving or anxious, the same mentalizing work chapter sections on theory of mind describe, pointed at feelings rather than beliefs. Affective empathy is actually sharing the state: feeling a version of another's distress, the wince at someone else's slammed door. And compassion — sometimes called empathic concern — is caring about another's welfare and being moved to help, which is a motivation, not a perception or a shared feeling.
 
@@ -277,7 +277,7 @@ Challenges
 - Bias: an AI system inherits whatever bias sits in its training data, with the same downstream discrimination risk as any other biased classifier applied to people.
 - Manipulation: a system that understands human emotion well enough to respond to it also understands it well enough to exploit it — the same governance question chapter 2 keeps returning to.
 <</list>>
-2.3.3. Fostering AI Systems with Self-awareness and Self-regulation
+2.3.3. Self-awareness and Self-regulation in AI Systems
 Emotionally intelligent AI systems need self-awareness and self-regulation: the capacity to perceive their own internal states, understand what those states imply for a decision, and control their responses accordingly — the basis for adaptive, self-correcting behavior rather than fixed reaction.
 
 The self is a model
@@ -763,7 +763,7 @@ A healthcare AI system built to design personalized treatment plans shows the sa
 <</list>>
 3.3. The Role of Play and Exploration in Developing Antifascist and Altruistic AI
 Play-inspired mechanisms can shape how an AI system develops ethically. Curiosity and creativity, cultivated deliberately, can be turned toward antifascist ends. And human child development offers lessons about play and exploration worth carrying into how AI systems are designed and run.
-3.3.1. The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms
+3.3.1. The Power of Play: Ethical AI Development through Play-Inspired Mechanisms
 Play is how children and animals learn, experiment, and adapt. It lets an individual explore new situations, exercise creativity, and acquire knowledge in a risk-free setting. That suggests a design principle: put play-based mechanisms into AI development itself, so cognitive growth and ethical, altruistic behavior are built into how a system learns from the start.
 
 From an early age, children use play to learn about their environment, solve problems, and develop social skills. Primates and dolphins use play the same way: to explore the world, build physical dexterity, and work out the rules of group dynamics. That early practice lets young animals internalize skills they will need once the stakes are real.
@@ -1797,7 +1797,7 @@ Third-party audits, external advisory boards with real authority, and cross-stak
 <</list>>
 
 A company that clears most of these is doing more than most competitors. A company that clears none of them while describing itself as an ethics leader is the doublespeak this section opened with, restated in a different register.
-7.2.3. Fostering Public-Private Partnerships for AI Research and Innovation
+7.2.3. Public-Private Partnerships for AI Research and Innovation
 Public-private partnerships pool government and private-sector resources, knowledge, and expertise in ways neither side manages alone. Two existing examples show what that looks like applied to AI research specifically — and what adapting either one toward altruistic, antifascist goals would require.
 
 <<list>>

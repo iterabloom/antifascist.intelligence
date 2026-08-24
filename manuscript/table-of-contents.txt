@@ -16,7 +16,7 @@ Chapter 2: Foundations of Compassion and Empathy in Friendly AI
 2.3. Emotional Intelligence and Self-awareness
 2.3.1. Components of Emotional Intelligence
 2.3.2. Affective Computing: AI Systems that Comprehend and Respond to Emotions
-2.3.3. Fostering AI Systems with Self-awareness and Self-regulation
+2.3.3. Self-awareness and Self-regulation in AI Systems
 2.4. Ethical implications of experimenting on sentient machine subjects
 2.4.1. Defining Sentience in AI: From Consciousness to Subjective Experience
 2.4.2. Ethical Considerations in AI Research and Experimentation
@@ -38,7 +38,7 @@ Chapter 3: Machine Learning and Cognitive Science
 3.2.5. Transfer Learning for General AI Capabilities in the Context of Antifascism
 3.2.6. Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes
 3.3. The Role of Play and Exploration in Developing Antifascist and Altruistic AI
-3.3.1. The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms
+3.3.1. The Power of Play: Ethical AI Development through Play-Inspired Mechanisms
 3.3.2. Encouraging Curiosity and Creativity in AI Systems for Antifascist Applications
 3.3.3. Lessons from Human Child Development and Exploration
 Chapter 4: Moral Psychology and AI
@@ -120,7 +120,7 @@ Chapter 7: Policy Recommendations for AI Ethics, Safety, and Antifascism
 7.2. Developing Policy Frameworks for AI Ethics, Safety, and Antifascism
 7.2.1. National Policy Guidelines for AI Development, Employment, and Antifascism
 7.2.2. Encouraging Industry Best Practices and Self-regulation
-7.2.3. Fostering Public-Private Partnerships for AI Research and Innovation
+7.2.3. Public-Private Partnerships for AI Research and Innovation
 7.2.4. Legal and ethical implications of AI systems gaining personhood
 7.2.5. Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
 7.3. Privacy, Security, and Antifascism in AI Systems

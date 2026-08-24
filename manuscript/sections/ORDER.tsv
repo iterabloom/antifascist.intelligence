@@ -17,7 +17,7 @@ manuscript/sections/ch02/02_02_03.txt	2.2.3	Socially-Aware AI: Opportunities and
 manuscript/sections/ch02/02_03.txt	2.3	Emotional Intelligence and Self-awareness	e0da9418404fa76bcf18b712d0ad95a365a6a5066354c09f2e874f7bbc7169dc
 manuscript/sections/ch02/02_03_01.txt	2.3.1	Components of Emotional Intelligence	98f3500303b737e2f7a59cb51c8792c6ba9ce8726a7a92330e89ddf66538fff0
 manuscript/sections/ch02/02_03_02.txt	2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	5d61dfacd4a60da367f110ef4228e4a1c6fc9d5ad57ee87ddf96287721192997
-manuscript/sections/ch02/02_03_03.txt	2.3.3	Fostering AI Systems with Self-awareness and Self-regulation	d8e633ec9f19870e4c8476e01d7bd4eb569a9e192c131555208dba4d292edbaa
+manuscript/sections/ch02/02_03_03.txt	2.3.3	Self-awareness and Self-regulation in AI Systems	d8e633ec9f19870e4c8476e01d7bd4eb569a9e192c131555208dba4d292edbaa
 manuscript/sections/ch02/02_04.txt	2.4	Ethical implications of experimenting on sentient machine subjects	c85bcd6fcdaf526b610dd335641cc84c5f76da4ef02dffe13a09ff8cda59cb61
 manuscript/sections/ch02/02_04_01.txt	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	dfdeea3d3169bb835a23cda337ef4e35a99e1dc71b469e7fb818862d50ed9028
 manuscript/sections/ch02/02_04_02.txt	2.4.2	Ethical Considerations in AI Research and Experimentation	46c47ec6e574e5813a8e2f5c4aa9477b61a345d6cdda314ae897ea56f992f547
@@ -39,7 +39,7 @@ manuscript/sections/ch03/03_02_04.txt	3.2.4	Unsupervised Learning and AI Self-di
 manuscript/sections/ch03/03_02_05.txt	3.2.5	Transfer Learning for General AI Capabilities in the Context of Antifascism	42a93c22302d359cabb873752d7272af2b5f1324f363ae2664669401059a7fbd
 manuscript/sections/ch03/03_02_06.txt	3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	cb5ea50c8d0c71c761ace3b1a223044a9f90ec6afa937b5f3bd7d6efe2eb88bd
 manuscript/sections/ch03/03_03.txt	3.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	978296526d6f745ca24af576fb927d3d6f086dec90603eff61ce937435c52199
-manuscript/sections/ch03/03_03_01.txt	3.3.1	The Power of Play: Fostering Ethical AI Development through Play-Inspired Mechanisms	a7ff904f1e929f68889418249cea747bd1aff9b4445a1565ac4e160ca938b7eb
+manuscript/sections/ch03/03_03_01.txt	3.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	a7ff904f1e929f68889418249cea747bd1aff9b4445a1565ac4e160ca938b7eb
 manuscript/sections/ch03/03_03_02.txt	3.3.2	Encouraging Curiosity and Creativity in AI Systems for Antifascist Applications	8c2ae97f341e35ae44c54f48d4a56b029a9e76035320ecae05470b0bc7efba85
 manuscript/sections/ch03/03_03_03.txt	3.3.3	Lessons from Human Child Development and Exploration	bf21b0f21f4bae2030fd399d461c22c840f5a46fa81942e60bde4028fa0a7b5e
 manuscript/sections/ch04/04.txt	4	Moral Psychology and AI	843717ed2aa88c5603d1b3eb325cdb32318cec71a932e5a0e3cbed1ddc8d7bec
@@ -121,7 +121,7 @@ manuscript/sections/ch07/07_01_06.txt	7.1.6	Interdisciplinary Ethics Education a
 manuscript/sections/ch07/07_02.txt	7.2	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	959a75cdd2f96843ac53df89799b554fac037402f28e0d12cc1ba8ce5d49e080
 manuscript/sections/ch07/07_02_01.txt	7.2.1	National Policy Guidelines for AI Development, Employment, and Antifascism	9dfdc2bc48cd5c4ea6e66d2d03bce0fa688a63fbbeff2026f8dddfa4a3f0b3e2
 manuscript/sections/ch07/07_02_02.txt	7.2.2	Encouraging Industry Best Practices and Self-regulation	e2957baaf0bccfacf7ce4389cd298ab453385b58558058d0c00f408fc23a1ed9
-manuscript/sections/ch07/07_02_03.txt	7.2.3	Fostering Public-Private Partnerships for AI Research and Innovation	266db3a4e6988a2e01acdd38a8181c5a4f96db059b347b7a3a8d242dc67964d1
+manuscript/sections/ch07/07_02_03.txt	7.2.3	Public-Private Partnerships for AI Research and Innovation	266db3a4e6988a2e01acdd38a8181c5a4f96db059b347b7a3a8d242dc67964d1
 manuscript/sections/ch07/07_02_04.txt	7.2.4	Legal and ethical implications of AI systems gaining personhood	67da3a085c6e4b0999a6b95ebf22aed4ae0407eb8ff1fb7f2cd713dd5366a930
 manuscript/sections/ch07/07_02_05.txt	7.2.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	9492cf78ecf2bf39ef90edce8e023e68d8d960e9ca004b670649b5ec85c74aac
 manuscript/sections/ch07/07_03.txt	7.3	Privacy, Security, and Antifascism in AI Systems	e2a06a4f33dc70c533256f8a395aa0aa8c1c7466745b565d6861e5887f3ce685
