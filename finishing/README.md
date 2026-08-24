@@ -75,8 +75,5 @@ are listed as citations for a human to confirm. The name list is built in memory
 from the spreadsheets and is never written to disk. Material that must exist and
 cannot live here goes to `~/ethical.superintelligence-private/`.
 
-**The commit-msg hook.** `git commit -s` is mandatory (DCO) and the hook
-enforces it. The hook also scrubs vendor and brand words and rewrites
-vendor-named trailers, which is what it is for. Don't put anything you need to
-keep into a trailer. `finishing/tools/msgcheck.sh draft.txt` dry-runs a message
-against it.
+**Commit sign-off.** `git commit -s` is mandatory. A commit without a DCO
+sign-off is rejected. Don't put anything you need to keep into a trailer.
