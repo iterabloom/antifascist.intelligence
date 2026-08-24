@@ -21,8 +21,11 @@ none
 
 - only in manuscript (0): none
 - only in TOC (0): none
-- same number, different title (0):
+- same number, different title (1):
 
+  - `2.4.4`
+    - manuscript: When Consent Is Inapplicable: Guardianship and Research Oversight
+    - TOC: Establishing Guidelines for AI Subject Research and Consent
 
 ## Headings with no body text before the next heading
 

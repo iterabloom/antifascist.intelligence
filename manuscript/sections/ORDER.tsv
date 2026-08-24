@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.txt	0	On Method	d1de5e5b2a8ba09e7ee6645d394c04a9fdbb4f6c0771533f18e9e5def91d2cbd
-manuscript/sections/ch01/01.txt	1	Introduction	d33e5b53cab40926ccdccbc36e95ace8406f30cd5fa4ab4b50b80a4d5a8e77a4
+manuscript/sections/ch01/01.txt	1	Introduction	16aaf99552da52c642ab8ff15950f032becfb3209d9cf05fca897cdf71882365
 manuscript/sections/ch01/01_01.txt	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	95ad09c7caaee0e4882435dbb284fb07a64f48ef97015dbb4b4ea5146a837bf0
 manuscript/sections/ch01/01_02.txt	1.2	Aims and Objectives	0ae65245aeb3b71c6f5301bc019c8023111741a0e9acaf14ee78d8a0f0680140
 manuscript/sections/ch01/01_03.txt	1.3	Mindset and Motivation in AI Behavior	2140d1607d03ed22455afa7c346478dc0d178455d100c731e0ebbcea6ede9897
@@ -9,7 +9,7 @@ manuscript/sections/ch02/02_01.txt	2.1	Ethical Frameworks and AI Alignment	e2acf
 manuscript/sections/ch02/02_01_01.txt	2.1.1	Surveying Ethical Theories for AI Alignment	361b062ba6ffb545e0909895dbf9ee096523ad6613ebb414c73d4b5743dc8f41
 manuscript/sections/ch02/02_01_02.txt	2.1.2	Translating Ethical Principles into Machine Learning Objectives	901712bf46ee9a6b24249d157ccf0b80cfd015d81f141f9ff811e2a76ad0c6ad
 manuscript/sections/ch02/02_01_03.txt	2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	e47f891c8b27d61cfb6c9e5863f4171192eda8d2bebb1698ad2b66a0c78d526c
-manuscript/sections/ch02/02_01_04.txt	2.1.4	Antifascist Ethics for AI Alignment	bf607a5eceb1448a819d55850792b7eb91ed8219e3b602b0c2470222c3030bf8
+manuscript/sections/ch02/02_01_04.txt	2.1.4	Antifascist Ethics for AI Alignment	35018312df44bd72def53fb792b1367e0ef2939abd17018e791780cd92ce88ff
 manuscript/sections/ch02/02_02.txt	2.2	Empathy, Social Intelligence, and Theory of Mind	e28d30b0f30da342cf8bdd3f2b1cfd8ebbd2d2967e078c2ec482affe7656297d
 manuscript/sections/ch02/02_02_01.txt	2.2.1	The Role of Empathy and Compassion in Human Social Behavior	b050078d1d5f205d6426a6ce582bb690137e1bfe46996521307992cad2d4c222
 manuscript/sections/ch02/02_02_02.txt	2.2.2	Theory of Mind and Perspective-Taking in AI Systems	76cf736128826611964c50eecdff1bacc061fa7a950ee374a130f6e894ef30e0
@@ -22,7 +22,7 @@ manuscript/sections/ch02/02_04.txt	2.4	Ethical implications of experimenting on 
 manuscript/sections/ch02/02_04_01.txt	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	07da144f99d2476595ff4bd5ecf532006492943c8ce442219f4f89e323a3279e
 manuscript/sections/ch02/02_04_02.txt	2.4.2	Ethical Considerations in AI Research and Experimentation	ea1d3e06c5f4da160ffc3c40a9e8fb6ac0a3ab5055829af93b9f0bfce21ad9fa
 manuscript/sections/ch02/02_04_03.txt	2.4.3	Balancing Scientific Progress and Ethical Constraints	a48cb7448f00d94a9a7d760832074dd016b54e8f5e7c59151c62f1222880cb39
-manuscript/sections/ch02/02_04_04.txt	2.4.4	Establishing Guidelines for AI Subject Research and Consent	936f77bd2038ae02e02ba3e08ba864b4fe9909a80557f83b5b73728d6f024d5b
+manuscript/sections/ch02/02_04_04.txt	2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	74e2c2da7779a52b1078aeb5689e00a61cf6318eee3aded28bea0b6b699beafb
 manuscript/sections/ch02/02_04_05.txt	2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	2eaa2ed119fd5550a3898b236498abd20966050f510809d552eb257cdb64ddef
 manuscript/sections/ch02/02_04_06.txt	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	8997aa2093211613a295d234ab926e7f51adafb110427790e08bb4d38a8509c8
 manuscript/sections/ch02/02_04_07.txt	2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3886759b7dfabb967f45290e7393ddfed95078d7f46d1365187031abbac6c863
@@ -77,7 +77,7 @@ manuscript/sections/ch04/04_07_01.txt	4.7.1	The Role of Play in Moral Learning a
 manuscript/sections/ch04/04_07_02.txt	4.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	610d5bba1abb4693d649891ca572b6443c4cee4141d5de4f2780d42526090c53
 manuscript/sections/ch05/05.txt	5	Overcoming Challenges, Risks, and Authoritarianism in AI Development	8dcf651cca3182cea05773ad7eed8dd4e3ad593dc062b78785ec687b11503dc5
 manuscript/sections/ch05/05_01.txt	5.1	Bias, Fairness, and Equity in AI Systems	47c37cbe80196126bacda59ccac3a1872d8797391f9d64f9aabf7db954541064
-manuscript/sections/ch05/05_01_01.txt	5.1.1	Sources of Bias in AI Data and Algorithms	90ca5f377f20bb9d218e9b21cfd5850c3fd51dd61b15cc4d415ea61f002cdaf5
+manuscript/sections/ch05/05_01_01.txt	5.1.1	Sources of Bias in AI Data and Algorithms	fb49407d985d0fcce889b55647e0aceee8c70f4edd3e0f837504263aa3d04503
 manuscript/sections/ch05/05_01_02.txt	5.1.2	Ensuring Fairness and Equity in AI Decision-Making	04efc14e2f73e25880007acfb40e2a0570a274af053b10f5ff574f9255cf8322
 manuscript/sections/ch05/05_01_03.txt	5.1.3	The Role of Transparency and Accountability in Bias Reduction	e965ddb2e1b90a0f2237464c39ece2516778f0b69cf8029a82e6f25ff5e3fd42
 manuscript/sections/ch05/05_02.txt	5.2	Robustness, Generalization, and Adaptability in AI Systems	319bd063273c94249a86fd7919cf50cf0dc18b2859b95785e022ff5d4812336f
@@ -138,8 +138,8 @@ manuscript/sections/ch07/07_01_02.txt	7.1.2	When an Ethics-Embedding Method Stop
 manuscript/sections/ch07/07_01_03.txt	7.1.3	Value Learning as Unfinished Technical Research	91d560ea88c9091d92a7921087b822177d267a0618aa9d280ce3586b66f045f6
 manuscript/sections/ch07/07_01_04.txt	7.1.4	Open Questions in Empathy and Theory-of-Mind Research	220721fe4bd2b9277352f5bd35b39090a2b60dc4c4e1eb1300acd676708244b0
 manuscript/sections/ch07/07_01_05.txt	7.1.5	Can a Multi-Agent AI System Resist Being Captured?	4e7dfab48502465590b20aee9904f90735ee5362c75d0fb9396260c98871c252
-manuscript/sections/ch07/07_01_06.txt	7.1.6	Learning From Disagreement Instead of Consensus	6dbade08a04a6390fdc6626ecfba9ca397be0ae7c014ec6548612405237f18e7
-manuscript/sections/ch07/07_01_07.txt	7.1.7	What an Antifascist Detector Would Actually Have to Detect	247065389a1f55a8839b267d4e1f59c7d7b34ba072693ca31aefad70b915caf3
+manuscript/sections/ch07/07_01_06.txt	7.1.6	Learning From Disagreement Instead of Consensus	97a3af0bf62e2090bd8107303060b40d1319812dd2ff2bfe0a55baeba2d8dc67
+manuscript/sections/ch07/07_01_07.txt	7.1.7	What an Antifascist Detector Would Actually Have to Detect	db50454a3a042376cbefe561ed7fce971e92f52a9db015775435f5dd51b4d9bb
 manuscript/sections/ch07/07_02.txt	7.2	Emotional Intelligence, Affective Computing, and Altruism	5134b64f833f86e4d275807bef7da8fe03c853ba2cc4cbc50a7d6e018918ad81
 manuscript/sections/ch07/07_02_01.txt	7.2.1	Is Emotion Legible From a Face at All?	198a9ec4875be6e40f94025487165b5be395dc305790b4573b5c38d9b3934310
 manuscript/sections/ch07/07_02_02.txt	7.2.2	Interpretability, Self-Reports, and Resistance to Tampering	e532c3e8391c259833ccd1c09824a5815945c8fe21e677a29b5916b2cb758aeb
