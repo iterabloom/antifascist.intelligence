@@ -218,3 +218,21 @@ use §2.4.1 never made.
 four passes, and is now the book's third-longest section. It has not been read by
 the author at any of those lengths.
 
+## The review's fourth item, neither done nor declined
+
+The fifth review had four parts. Three were ruled on and executed — what's
+working (no action needed), the floor (tier 2), chapter 4's epistemic standard
+(tier 1) — plus the dialogue's escalation (tier 3, D-039 to D-041).
+
+**Its fourth part, "Chapter 6 needs to lose a third of its length," was analyzed
+and never scoped.** It is not done, it is not declined, and it is now carried as
+**Q-014** so it does not disappear. The review's specific keeps, compressions and
+cuts are recorded there verbatim in substance, along with the measurements that
+complicate it: C3 already ran this criterion yesterday (22,014 → 20,023 words,
+dated references 88 → 35), chapter 6 now sits at 1.8 four-digit years per 1,000
+words against chapter 5's 1.7, chapter 8 is now the book's densest at 5.8, and
+the ask is about three times what C3 cut and collides with D-019.
+
+The cheap unresolved question is whether the reviewer read a pre- or post-C3
+proof, since that changes what is owed.
+

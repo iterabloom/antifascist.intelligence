@@ -1111,6 +1111,15 @@ table and the run-in heads hold. The rest was not read.
 
 ## The immediate open items
 
+**`finishing/QUESTIONS.md` was refreshed 2026-08-24 and is current as of P10.**
+It carries the three live items that are not visible anywhere else: **Q-014**,
+the fifth review's chapter-6 length item, which was analyzed and never scoped and
+is neither done nor declined; **Q-015**, whether `check_all.sh` should run from a
+pre-commit hook, which needs author approval under `AGENTS.md`; and **Q-016**,
+that §2.1.5 quadrupled in one day and is unread. Q-011 is closed retroactively —
+its default had been applied without being recorded.
+
+
 - **P10 is drafted and unread**, and P9 and P8 before it. The proof committed at
   `finishing/reports/whole-book*_2026-08-24.*` predates P9 and is now stale.
 - **P8 is drafted and unread.** Six sections changed (1's opener, 2.1.4,
