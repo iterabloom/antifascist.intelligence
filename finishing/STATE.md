@@ -20,16 +20,15 @@ terms, ~2,290 words) — 158 sections total now. Chapter 1's opener, P5's
 third deliverable, needed no separate work: the P3 chapter order already put
 it last (see "Chapter order for P3" in `PLAN.md`), so it already describes
 the book as it now exists. See "P5, accepted" below. **P6 (copyedit and
-build) has run its checks and its build**: `tics.py` re-run book-wide (the
+build) is author-accepted, 2026-08-23**: `tics.py` re-run book-wide (the
 signature "foster" tic, 278 occurrences before P3, is now 0 — three section
 titles and one sentence still carried it and are fixed below), a
 terminology sweep found no residue to fix, `check_structure.py` gained a
 check it was missing (a section's own heading title can drift from
 `ORDER.tsv`'s title column, which is what `render.py` actually renders, with
 nothing catching it — this had already happened twice), and the whole-book
-proof PDF is rebuilt (132 pages, HTML → LibreOffice → ODT → PDF, spot-read).
-**P6's own exit criterion — the author's final read — has not happened
-yet.** See "P6" below.
+proof PDF was rebuilt (132 pages, HTML → LibreOffice → ODT → PDF, spot-read)
+and sent to the author, who read it and accepted. See "P6" below.
 
 ## Where the book is
 
@@ -733,7 +732,7 @@ suspected fabrication during P3 itself.
 | P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 (re-confirmed 2026-08-23 after the register-seam fix below). Post-D-024 register-seam check: chapter 3 had two places where "antifascist" was bolted onto a generic ML-methods description with no argued connection (§3.1.3's "antifascist judgment" next to "empathy, altruism"; §3.2.3's title and opener, "ethical and antifascist decision-making" applied to plain supervised-learning classification) — flagged 2026-08-23, fixed the same day at the author's request: both now read "ethical" alone, matching how the book's other ch3 sections (§3.2.5, §3.3.2) actually argue a mechanism-specific connection to resisting authoritarian power rather than just labeling one. Still open: the author's own read of the per-chapter diffs (distinct from the P3 acceptance question above — nobody has confirmed reading these diffs specifically). |
 | P4 Source | **complete, book-wide.** Every one of `claims.tsv`'s 536 rows carries a non-empty note; zero unresolved placeholders anywhere. The §7.2.2 Clearview/Rekognition cluster and §7.2.5's AIGS Index/GPAI cluster, previously flagged as never actually live-verified despite carrying "web-verified" notes, were independently re-checked 2026-08-23: Clearview and GPAI confirmed accurate as printed; the AIGS Index sentence was corrected (it had overstated "at least 75 of 176 countries" as "a large majority of the world's countries"). |
 | P5 Front/back matter | **author-accepted, 2026-08-23.** Two new sections (§0 "On Method", §11 "Glossary"), 158 sections total. See below. |
-| P6 Copyedit and build | **checks and build done, 2026-08-23; author's final read still open.** See below. |
+| P6 Copyedit and build | **author-accepted, 2026-08-23.** See below. |
 
 **No chapter order remains for P3** — every section in the book has a draft
 and is accepted, including the chapter 3 opener.
@@ -883,8 +882,9 @@ lint, HTML → ODT → PDF locally; other formats elsewhere", exit criterion
   pandoc, mermaid-cli, or graphviz, and no network path to install them
   (`pipeline.md`, confirmed again this session) — that clause of P6 is
   out of reach from here regardless of manuscript state.
-- **Not done: the author's final read.** P6's own exit criterion. Nothing
-  above substitutes for it; the proof PDF is sent for exactly that read.
+- **Author's final read: done, 2026-08-23.** The author read the rebuilt
+  whole-book proof PDF and accepted. P6's exit criterion is met; the pass
+  is closed.
 
 ## The immediate open items
 
