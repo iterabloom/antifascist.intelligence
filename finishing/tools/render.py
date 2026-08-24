@@ -49,7 +49,12 @@ def render_section(num, title, lines, first):
     lvl = min(common.level(num), 6)
     tag = "h%d" % lvl
     cls = ' class="first"' if (first and lvl == 1) else ""
-    label = ("Chapter %s: " % num) if lvl == 1 else ("%s. " % num)
+    # Front/back matter (num 0, 11) are numbered internally for the pipeline's
+    # sort/identity scheme but are not "chapters" in the reader-facing book.
+    if num in ("0", "11"):
+        label = ""
+    else:
+        label = ("Chapter %s: " % num) if lvl == 1 else ("%s. " % num)
     out = ["<%s%s><span class=\"num\">%s</span>%s</%s>"
            % (tag, cls, esc(label), esc(title), tag)]
     quote = lst = box = False

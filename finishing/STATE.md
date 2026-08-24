@@ -13,18 +13,27 @@ silently applied. **All 156 sections are now `accepted`.** The
 sweep) has swept every chapter. **P4 (sourcing) is now complete book-wide:
 every one of `claims.tsv`'s 536 rows carries a non-empty note — zero
 unresolved placeholders anywhere** — see below for both P4 batches and the
-two flagged citation disputes that got resolved along the way.
+two flagged citation disputes that got resolved along the way. **P5 (front/
+back matter) is drafted, not yet author-accepted**: a new §0 "On Method"
+note (510 words, D-008's ~500-word target) and a new §11 "Glossary" (51
+terms, ~2,290 words) — 158 sections total now. Chapter 1's opener, P5's
+third deliverable, needed no separate work: the P3 chapter order already put
+it last (see "Chapter order for P3" in `PLAN.md`), so it already describes
+the book as it now exists. See "P5, drafted" below.
 
 ## Where the book is
 
-`manuscript/sections/` — **156 sections**, one file each, nothing deeper than
-three levels. `manuscript/parseable_text_v4.txt` is the join and must always
-match byte for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the
-frozen 2024 text, pinned by digest.
+`manuscript/sections/` — **158 sections** (the 156 body sections, chapters
+1-10, plus P5's two new front/back-matter sections, §0 and §11 — see "P5,
+drafted" below), one file each, nothing deeper than three levels.
+`manuscript/parseable_text_v4.txt` is the join and must always match byte
+for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the frozen 2024
+text, pinned by digest.
 
-74,094 words as of the last `section_stats.py` run — down from ~113,000 before
-P3 started, because P3 is cutting real duplication (D-021), not just changing
-voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
+76,950 words total as of the last `section_stats.py` run (74,149 of that in
+the 156 body sections, 2,801 in §0 and §11). The 156-section figure is down
+from ~113,000 before P3 started, because P3 is cutting real duplication
+(D-021), not just changing voice. Chapter 3 alone went from ~24,000 words to 11,011 (91 of those words
 are the freshly-drafted opener, §3, below — not a re-revision of the rest of
 the chapter, which was already accepted); chapter 4 from
 ~19,240 to 14,119 (155 off in the P3.5 sweep, 8 back in the author's §4.7.1 rewrite, below); chapter 5 from 9,021 to 8,247 (net of two disclosed post-acceptance
@@ -712,11 +721,70 @@ suspected fabrication during P3 itself.
   above, not silently applied. |
 | P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 (re-confirmed 2026-08-23 after the register-seam fix below). Post-D-024 register-seam check: chapter 3 had two places where "antifascist" was bolted onto a generic ML-methods description with no argued connection (§3.1.3's "antifascist judgment" next to "empathy, altruism"; §3.2.3's title and opener, "ethical and antifascist decision-making" applied to plain supervised-learning classification) — flagged 2026-08-23, fixed the same day at the author's request: both now read "ethical" alone, matching how the book's other ch3 sections (§3.2.5, §3.3.2) actually argue a mechanism-specific connection to resisting authoritarian power rather than just labeling one. Still open: the author's own read of the per-chapter diffs (distinct from the P3 acceptance question above — nobody has confirmed reading these diffs specifically). |
 | P4 Source | **complete, book-wide.** Every one of `claims.tsv`'s 536 rows carries a non-empty note; zero unresolved placeholders anywhere. The §7.2.2 Clearview/Rekognition cluster and §7.2.5's AIGS Index/GPAI cluster, previously flagged as never actually live-verified despite carrying "web-verified" notes, were independently re-checked 2026-08-23: Clearview and GPAI confirmed accurate as printed; the AIGS Index sentence was corrected (it had overstated "at least 75 of 176 countries" as "a large majority of the world's countries"). |
-| P5 Front/back matter | not started |
+| P5 Front/back matter | **drafted, not yet author-accepted.** Two new sections (§0 "On Method", §11 "Glossary"), 158 sections total. See below. |
 | P6 Copyedit and build | not started |
 
 **No chapter order remains for P3** — every section in the book has a draft
 and is accepted, including the chapter 3 opener.
+
+## P5, drafted
+
+2026-08-23. Two new sections, numbered `0` (before chapter 1) and `11`
+(after chapter 10) so the existing numeric pipeline — `ORDER.tsv`,
+`outline.tsv`, `ledger.tsv`, `common.numkey`/`level`, the chapter-heading
+regex in `check_structure.py` — needed no format changes. `finishing/tools/
+render.py` got one small addition: numbers `0` and `11` render without the
+"Chapter N:" label other level-1 headings get, since neither is a chapter in
+the reader-facing sense; both were spot-checked as single-chapter PDF proofs
+(`render.py --chapter 0` / `--chapter 11` → LibreOffice → `gs` page render)
+before this was committed.
+
+- **§0, "On Method"** (510 words against D-008's ~500-word target). Names
+  the persona-generation device — the April 2023 founding prompt, roughly a
+  hundred simulated expert co-authors assigned by field, the editorial
+  passes that reviewed each other's sections — and the 2026 single-author
+  finishing pass, in the author's own first-person voice. Names no real
+  person. States plainly that the repository is the full record and
+  reinforces, rather than softens, the README's named-persons disclaimer
+  (D-008, D-017).
+- **§11, "Glossary"** (51 terms, ~2,290 words, `<<h>>` run-in heads per
+  style.md §4a — precedented by §3.1.2's absorbed-subsection heads, not a
+  new markup convention). Terms came from a full read of
+  `parseable_text_v4.txt` (a background agent surveyed all 156 body
+  sections for recurring or book-stipulated terms; 56 candidates came back,
+  merged down to 51 — a few near-duplicates folded together, e.g. IRL and
+  cooperative IRL into one entry). Every entry paraphrases the book's own
+  usage in new words rather than quoting it, to avoid a misquote standing
+  as the definition of record. No new `[[cite:ID]]` placeholders: where a
+  term is tied to a named study or system already cited in the body (GPT-3,
+  BERT, AlphaGo Zero, the AIGS Index, Bostrom's paperclip maximizer, and so
+  on), the entry points to the section carrying that citation instead of
+  duplicating it — the same cross-reference-over-repetition rule style.md
+  §7 already applies to repeated arguments. `names_guard.py` flagged the
+  glossary's citations of real scholars (Graziano, Nussbaum, Dweck,
+  Bronfenbrenner, Benjamin, Robinson) as ordinary scholarly citation to
+  confirm, not violations — each already appears cited the same way
+  elsewhere in the accepted body text.
+- **Chapter 1's opener** needed no separate work. PLAN.md's P3 chapter order
+  (3 → 2 → 4 → 5 → 7 → 6 → 9 → 10 → 1 last) already put chapter 1's revision
+  after every other chapter's, specifically so it would describe the book
+  that exists rather than the one that was still being written — see
+  "Chapter order for P3" in `PLAN.md`. That already happened; P5 did not
+  reopen chapter 1.
+- Both new sections are `status: drafted` in `ledger.tsv`, not `accepted` —
+  P5's own exit criterion is "author Accepts," same as P3's, and nothing
+  here claims that has happened.
+- `finishing/tools/check_all.sh`: **ALL CHECKS PASSED** after both additions
+  (158 sections, round-trip OK, structure OK, named-persons guard clean).
+  One pre-existing, unrelated staleness surfaced and was fixed in passing:
+  `manuscript/sections/ORDER.tsv`'s title column for §3.2.3 still had the
+  pre-register-seam-fix title ("...for Ethical and Antifascist
+  Decision-Making") from before that fix landed earlier this session —
+  `ORDER.tsv`'s title column isn't validated by any check script against
+  the live manuscript (only `num`/`path` are), so this didn't fail
+  anything, but it did produce a misleading "title differs" note in
+  `check_structure.py`'s output. Corrected to match the current heading;
+  no other `ORDER.tsv` title cells were audited.
 
 ## The immediate open items
 

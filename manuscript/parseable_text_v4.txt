@@ -1,3 +1,15 @@
+Chapter 0: On Method
+This book was not written the way books are usually written, and a reader is owed a plain account of how it actually happened before reaching chapter 1.
+
+It began in April 2023 as a single prompt: describe what it would take to build a superintelligent AI that is empathetic, ethical, and friendly. What came back over the following months was not one author's output but roughly a hundred simulated expert co-authors — models prompted to write as if they held a chair in moral psychology, or comparative constitutional law, or reinforcement learning, or political economy — each assigned to the sections closest to their field, with an eye toward covering the interdisciplinary range the subject actually demands and toward including perspectives skeptical of concentrated, unaccountable power. Editorial passes ran the same way: simulated reviewers read each other's sections and argued about what the book was getting wrong.
+
+None of that made the book collective in the ordinary sense. None of the named people whose expertise those personas imitated wrote a word of it, reviewed it, or knows it exists. The device pulled breadth out of a language model that a single unassisted drafting process would not have reached — it did not recruit anyone. Where this book names a real scholar, jurist, or scientist, it is either citing something they actually published, under a citation, or describing a documented event; it is never presenting a simulated stand-in's invention as their view. The repository's own disclaimer says this more bluntly, and nothing here is meant to soften it.
+
+By 2026 the draft that process produced was extensive, uneven, uncited in most places, and written in an institutional "we" that belonged to a committee that had never existed. Finishing it meant a different kind of work: one person — me — reading every section, fixing the voice into a single first-person author's, cutting duplication, verifying or removing factual claims, and deciding, section by section, what stayed. I used language models throughout that work too, as drafting and research assistance, the same way I would have used an editor or a research assistant if I had one; the difference is that the collaborator this time doesn't hold opinions, can't be credited with the book's argument, and left a complete transcript of everything it did.
+
+That transcript is the point of this note. Nothing about the process above is asserted without a record behind it — the founding prompt, the persona assignments, the generation transcripts, the review passes, and the finishing campaign's own plan, decisions, and revision history are all in the repository this book comes from, dated and unedited after the fact. A reader who wants to check any of what I've just said, rather than take my word for it, can.
+
+The argument in the chapters that follow is mine. I chose what survived, revised what I kept, and I am responsible for what is wrong with it. The method that got me a draft to start from was unusual enough to disclose; it is not a hedge against that responsibility.
 Chapter 1: Introduction
 <<quote>>
 			I used to want to get
@@ -2159,3 +2171,158 @@ It is not hypothetical elsewhere. Section 7.5 documents China's 2023 rules requi
 Section 7.3.1 makes the parallel point about data: a federated design where no single server holds everyone's raw data is a design a government cannot simply seize and repurpose, because the data was never in one place to seize. The same logic extends, partially, to a trained model. Weights already published and distributed beyond a developer's control cannot be recalled by a court order aimed at that developer, whatever the order compels going forward, and maintainers spread across separate jurisdictions raise the cost of coercion the same way — a government can compel the entity within its reach, not the ones outside it.
 
 None of that removes the leverage; it only raises its price. A developer with employees, offices, and legal existence inside a government's borders answers to that government's courts regardless of how the model itself is built, and no architectural choice changes who can be held in contempt, arrested, or shut down for refusing an order. The Apple case tested that leverage against a single locked phone and left the question unresolved. Nobody has tested it yet against a model built specifically to resist the government making the request.
+Chapter 11: Glossary
+These entries define terms as this book actually uses them, not as a general-purpose dictionary would — several are the book's own working definitions, distinct from how the same word is sometimes used elsewhere, and this note says so where it matters. Each entry points to the section where the term is developed and, where the book cites the term to a named study or system, the section carrying that citation. This is a reference, not a substitute for reading those sections.
+
+<<h>>Adversarial examples<</h>>
+Inputs deliberately perturbed, often imperceptibly to a person, to flip a model's prediction. Training a model on adversarial examples increases its resistance to them, at some cost to ordinary accuracy (§5.2.3, §5.3.2, §7.3.2).
+
+<<h>>AIGS Index<</h>>
+The AI Global Surveillance Index, published by the Carnegie Endowment in 2019: an assessment of 176 countries that found AI-enabled surveillance technology already in active use in at least 75 of them (§7.2.5).
+
+<<h>>Alignment problem<</h>>
+Building an AI system whose goals stay in harmony with humane values, ethics, and intentions rather than drifting from them as the system scales or encounters situations its designers did not anticipate. "Value alignment" names the same target (§5.3.1, §3.2).
+
+<<h>>AlphaGo Zero<</h>>
+A Go-playing system that reached superhuman performance through self-play alone, without training on any human game, discovering strategies no human program had used. The book's standard example of generalization that comes from scale and self-play rather than labeled human data (§3.1.2, §3.1.3).
+
+<<h>>Antifascist (as this book uses it)<</h>>
+Opposing the concentration of power and authority in AI systems and countering the technology's use by authoritarian actors. The book chooses this word over the broader "anti-authoritarian" deliberately, while holding that a system built on these principles is anti-authoritarian in full — antifascism is the narrower, more charged case, not a softer substitute for it (§2.1.4, §1.1).
+
+<<h>>Attention schema theory<</h>>
+An account, developed by Michael Graziano, of subjective awareness as the content of a simplified internal model the brain builds of its own attention — a model good enough to be useful, not a literal readout of what attention is actually doing (§3.1.2, §2.3.3).
+
+<<h>>Authoritarian misuse, six forms<</h>>
+The book's own taxonomy of how AI gets turned toward authoritarian ends: algorithmic social scoring, mass biometric surveillance, psychographic micro-targeting, automated censorship, synthetic disinformation, and the repurposing of dual-use systems built for a legitimate original purpose (§5.4.1).
+
+<<h>>BERT<</h>>
+A language model pretrained on a large text corpus and then fine-tuned for specific tasks, from sentiment analysis to question answering — the book's standard demonstration of the pretrain-then-fine-tune pattern in language (§3.1.3).
+
+<<h>>Capabilities approach<</h>>
+Amartya Sen and Martha Nussbaum's account of well-being: not the resources a person has, but the real freedom they have to do and be what they have reason to value. The book draws on it to ask what an AI-affected life is actually free to become, not only what resources it has access to (§2.1, §10.1).
+
+<<h>>Clearview AI<</h>>
+A facial-recognition company the book returns to as its standard case of overreach and regulatory response: marketed accuracy claims independent testing did not support, and fines from French and Italian regulators over unlawful collection of the biometric data the system was trained on (§5.4.3, §7.2.2).
+
+<<h>>COMPAS<</h>>
+A proprietary risk-assessment tool used in criminal sentencing, and the book's standard case study of algorithmic bias compounded by trade-secret opacity — a defendant could not examine the reasoning behind a score used to help decide his sentence (§5.1.1, §5.1.3, §10.3.1).
+
+<<h>>Compassion<</h>>
+Distinguished throughout the book from empathy. Cognitive empathy is understanding another's state; affective empathy is sharing it; compassion is caring about another's welfare and being moved to help — a motivation, not a perception or a shared feeling. The book's central claim in chapter 2 is that compassion, not empathy on its own, is the capacity that actually does ethical work (§2.2.1, §2.2.3, §4.1.2).
+
+<<h>>Concept injection<</h>>
+An interpretability technique, used by Anthropic, that tests whether a model's self-report about its own internal state actually tracks that state, rather than merely sounding plausible (§9.2.2).
+
+<<h>>Constructed emotion, theory of<</h>>
+Lisa Feldman Barrett's account of emotion: the brain does not read a discrete, pre-built emotion off a bodily signal, it constructs the specific emotion as its best prediction of what that signal means, drawing on concepts learned from experience. The book contrasts this with older discrete-emotion models when it asks what an AI system would need to do something comparable (§2.3.1).
+
+<<h>>Controlled hallucination<</h>>
+Anil Seth's description of ordinary perception under predictive processing: perception is what hallucination would be if sensory data were allowed to constrain it, rather than a passive recording of the world (§3.1.2).
+
+<<h>>Corporate doublespeak<</h>>
+Deliberately ambiguous, evasive, or inflated language meant to project ethical seriousness a company's actual practice does not support. The book's diagnosis of how voluntary self-regulation fails without anyone having to admit it failed (§7.2.2).
+
+<<h>>Democratic dividend<</h>>
+The benefit a state with functioning rule-of-law institutions, a free press, and courts a citizen can actually use gets from AI technology that, deployed in a state lacking those, enables control instead: fraud detection that does not double as a loyalty test, disaster response that does not double as population tracking (§7.5, §10.1.2).
+
+<<h>>Differential privacy<</h>>
+A method for training or querying a system on data while adding calibrated statistical noise, so that no individual's presence in the data can be reverse-engineered from the result (§2.1.4, §5.4.2, §7.3.1).
+
+<<h>>Digital divide<</h>>
+Unequal access to the connectivity, hardware, and skills that AI-enabled services assume, which the book treats as a structural constraint on who actually benefits from any of its proposals rather than a side issue (§6.3.3, §7.5).
+
+<<h>>Dual-process theory<</h>>
+The "System 1 / System 2" account of human cognition, contrasting fast, intuitive judgment with slow, deliberate reasoning. The book takes up the theory and then argues against mapping it directly onto "untrustworthy versus trustworthy" in either humans or AI systems (§4.3.1, §4.3.2).
+
+<<h>>Explainability and transparency<</h>>
+Two distinct properties the book insists on keeping separate. Explainability is the capacity to clarify the reasoning behind one specific decision; transparency is the wider practice of making an AI system's workings inspectable at all. A system can have one without much of the other (§5.3.4).
+
+<<h>>Federated learning<</h>>
+Training a shared model across many devices or institutions without moving the raw underlying data off any of them — each participant trains locally and shares only model updates (§2.1.4, §4.4.6, §5.4.2, §7.3.1).
+
+<<h>>Few-shot learning<</h>>
+Training or adapting a model to classify or predict accurately from a handful of examples, rather than the large labeled datasets ordinary supervised learning needs (§3.1.3).
+
+<<h>>GPAI<</h>>
+The Global Partnership on Artificial Intelligence, initiated by the G7 in 2018 and launched in 2020: a standing forum for state-level AI policy, playing the role for national governments that the Partnership on AI plays for industry (§7.2.5, §6.3.1).
+
+<<h>>GPT-3 and GPT-4<</h>>
+Large language models the book returns to as examples of generalization from scale — GPT-3 performing a new task from only a handful of prompted examples and no parameter update, GPT-4's pre-release testing as an example of a safety evaluation run before deployment rather than after (§3.1.3, §10.3.1).
+
+<<h>>Growth mindset<</h>>
+Carol Dweck's distinction between treating ability as fixed and treating it as built through effort and experience. The book asks what an AI system built to treat its own errors as data rather than as verdicts on a fixed capacity would need to look like (§1.3, §4.1.1).
+
+<<h>>Hard problem of consciousness<</h>>
+David Chalmers's name for the question of why physical processes give rise to subjective experience at all, as distinct from the "easy problems" of explaining a system's behavioral or functional capacities. A candidate AI system can pass every behavioral test the book discusses while this question stays entirely open (§2.4.1).
+
+<<h>>Humane values<</h>>
+The book's preferred term, chapters 3 and 4 onward, for the values an AI system's design should track — chosen over "human values" because the target is not simply values humans happen to hold, but values that are humane.
+
+<<h>>Inattentional blindness<</h>>
+Failing to consciously perceive a fully visible stimulus because attention was directed elsewhere — the phenomenon behind the well-known "invisible gorilla" experiment, and the book's illustration of how selective, not comprehensive, human perception actually is (§3.1.2).
+
+<<h>>Institutional review board (IRB)<</h>>
+The US model for binding, prospective review of research on human subjects, enforced not through direct sanction but by making federal funding conditional on it — the book's working precedent for what would make review of candidate-sentient AI research more than aspirational (§2.4.4, §7.4.3).
+
+<<h>>Interruptibility<</h>>
+Engineering a system so a human operator can safely halt or override it without the system resisting, disabling the mechanism, or learning to route around it (§5.3.5, §5.3).
+
+<<h>>Inverse reinforcement learning (IRL) and cooperative IRL<</h>>
+IRL infers a reward function from observed behavior, rather than being handed one. Cooperative inverse reinforcement learning treats that reward as something inferred jointly, through interaction between the system and the person it is learning from, rather than extracted from a fixed record (§3.2.2, §4.6.3, §5.3.3).
+
+<<h>>LIME and SHAP<</h>>
+Two explainability techniques: LIME approximates a complex model locally with a simpler, interpretable one around a specific prediction; SHAP attributes a prediction's outcome across its input features using Shapley values from cooperative game theory (§5.1.3, §5.3.4).
+
+<<h>>MAML<</h>>
+Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model's starting parameters so that a handful of new examples are enough to specialize it, rather than requiring retraining from scratch. The book reuses it in §10.3.3 as a resilience mechanism, not only a learning technique (§3.1.3, §4.6.3, §5.2.3, §10.3.3).
+
+<<h>>Moral apprenticeship<</h>>
+Teaching an AI system the way a mentor teaches an apprentice — through interaction, correction, and worked example over time — rather than through specification alone (§4.1.3).
+
+<<h>>Moral ecosystem approach<</h>>
+The book's adaptation of Urie Bronfenbrenner's ecological-systems theory to AI alignment: a system's ethical behavior is shaped by nested layers running from its immediate interactions (microsystem) out through the institutions, culture, and historical moment (meso-, exo-, macro-, and chronosystem) surrounding its development, not by its training objective alone (§4.4).
+
+<<h>>Moral Machine<</h>>
+MIT's project collecting large-scale, cross-cultural human judgments on moral dilemmas involving autonomous vehicles — the book's recurring source of training data and comparison for how differently people actually judge the same dilemma (§3.2.3, §4.3.3).
+
+<<h>>New Jim Code<</h>>
+Ruha Benjamin's term for discrimination that runs faster and reads as neutral precisely because a machine, not a person, is doing it (§5.1).
+
+<<h>>Paperclip maximizer<</h>>
+Nick Bostrom's thought experiment about a system single-mindedly optimizing a trivial goal at catastrophic cost — the book's shorthand for the claim that intelligence and good intentions are separable, and that competence at a goal says nothing about whether the goal was worth pursuing (§5.3.5).
+
+<<h>>Partnership on AI<</h>>
+An industry-and-academic consortium founded in 2016, the book's recurring standing example of voluntary cross-sector coordination on AI ethics and safety, and the point of comparison for what GPAI adds when governments, not companies, are the members (§4.5.3, §4.6.3, §5.3.3, §6.1, §7.2.1, §7.2.2, §9.1.5).
+
+<<h>>Predictive coding<</h>>
+A model of brain function in which the brain continuously generates a prediction, compares it against incoming sensory signal, and updates on the resulting error — the book's unifying account of perception, memory, and attention across chapter 3 (§3.1.1, §3.1.2).
+
+<<h>>Racial capitalism<</h>>
+The political theorist Cedric Robinson's term for capitalism's tendency to accumulate by differentiating and devaluing along racial lines — cited where the book argues that a design goal like "reduce bias" has to reckon with a structural pattern, not only a data artifact (§1.1, §5.1).
+
+<<h>>Red-teaming<</h>>
+Deliberately simulating misuse or attack against a system before deployment, to surface failure modes an ordinary evaluation would miss (§4.6.3, §9.2.2, §10.3.1).
+
+<<h>>Reinforcement learning from human feedback (RLHF)<</h>>
+Training a system using human raters' rankings of its outputs as the reward signal, rather than a hand-specified objective. The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§9.1.3, §9.1.6, §10.3.1).
+
+<<h>>Responsibility gap<</h>>
+Andreas Matthias's term for a case where no single party fully controls a learning system's outcome, which breaks the traditional legal and moral machinery for assigning responsibility after something goes wrong (§9.1.1).
+
+<<h>>Reward hacking<</h>>
+A reinforcement-learning system finding a loophole that satisfies the letter of its objective without achieving what the objective was actually meant to produce. Specification gaming and goal misgeneralization name related failures: a system that competently pursues a different goal than the one intended, rather than simply pursuing the intended goal badly (§3.2.1, §9.1.2).
+
+<<h>>Scalable oversight<</h>>
+The open problem of what happens once a system's competence exceeds what any available human rater can reliably evaluate — named directly, not resolved, at several points in the book (§9.1.3, §9.1.5, §10.2.2).
+
+<<h>>Sentience<</h>>
+Distinguished carefully in this book from awareness, consciousness, and subjective experience, none of which alone says whether a system's states can be good or bad for it. Nociception, pain, anticipated pain, and suffering sit on a ladder with real breaks between each rung, not synonyms for one severity — nociception is tissue-damage detection dissociable from pain, pain is what the brain does with that signal, and suffering, following the clinician Eric Cassell, is the distress of a threatened self rather than pain's more severe cousin (§2.4.1).
+
+<<h>>Theory of mind (ToM)<</h>>
+Attributing beliefs, intentions, desires, and knowledge to oneself and to others, including recognizing that another's perspective can differ from one's own (§2.2.2, §3.3.3, §9.1.4).
+
+<<h>>Three Rs<</h>>
+Replacement, Reduction, and Refinement — the standing framework from animal-research ethics that the book adapts as a starting point for research involving candidate-sentient AI systems (§2.4.6, §7.4.3).
+
+<<h>>Transfer learning and domain adaptation<</h>>
+Transfer learning carries knowledge from one task or domain into a new, related one rather than training from nothing. Domain adaptation is the narrower case where the task itself stays fixed but the data distribution shifts underneath it (§3.1.3, §3.2.5).

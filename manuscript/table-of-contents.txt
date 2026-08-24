@@ -1,3 +1,4 @@
+Chapter 0: On Method
 Chapter 1: Introduction
 1.1. The Imperative of Altruistic and Antifascist Sentient Machines
 1.2. Aims and Objectives
@@ -154,3 +155,4 @@ Chapter 10: Conclusion and Outlook
 10.3.1. Anticipating Risk Before It Causes Harm
 10.3.2. Remediating a Harm Once It Is Identified
 10.3.3. Resilience Against Deliberate State Compromise
+Chapter 11: Glossary

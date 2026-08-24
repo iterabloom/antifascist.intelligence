@@ -1,4 +1,5 @@
 path	num	title	sha256
+manuscript/sections/ch00/00.txt	0	On Method	8ac6cc59f002752c22c162580f353e965f1d00fdf0573b47f6da49de0058986c
 manuscript/sections/ch01/01.txt	1	Introduction	3b49023c835bc2ff94ecc329bda8478ed0183e64301c18068ad67a9858272515
 manuscript/sections/ch01/01_01.txt	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	dbf4e163ce1a4c6a53e9746ca5bc78b5288ae187e566181cebe6aa696c2ecf62
 manuscript/sections/ch01/01_02.txt	1.2	Aims and Objectives	3dceba38741c63c12bc5468548bfc3d315602763a462b70d5f0043969b0a85a6
@@ -33,7 +34,7 @@ manuscript/sections/ch03/03_01_03.txt	3.1.3	Human-Like Learning and Generalizati
 manuscript/sections/ch03/03_02.txt	3.2	Aligning AI Systems with Humane Values and Antifascist Principles	a50754cc48aae0ac6580032be282aeb77eb5a66578e902d7259911d88b7aacee
 manuscript/sections/ch03/03_02_01.txt	3.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	9ac8021d7219796606269c7b510c7108f61a8ccb1b7e89d9ba1a366716e4f289
 manuscript/sections/ch03/03_02_02.txt	3.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	8ae9c228dcc49712bed8cb4d19981561489b1e54736c8c36359f2377b78f8880
-manuscript/sections/ch03/03_02_03.txt	3.2.3	Supervised Learning for Ethical and Antifascist Decision-Making	652a4755e8672d8a57f774a8d6fb3fbf1cb71091a05cf94d68f76175256a988d
+manuscript/sections/ch03/03_02_03.txt	3.2.3	Supervised Learning for Ethical Decision-Making	652a4755e8672d8a57f774a8d6fb3fbf1cb71091a05cf94d68f76175256a988d
 manuscript/sections/ch03/03_02_04.txt	3.2.4	Unsupervised Learning and AI Self-discovery for Ethical and Democratic Values	faf9fb8d8aa49612f07c2bd5ea8c67fcbc29f4380c0869ce9584fd8e4eea892f
 manuscript/sections/ch03/03_02_05.txt	3.2.5	Transfer Learning for General AI Capabilities in the Context of Antifascism	42a93c22302d359cabb873752d7272af2b5f1324f363ae2664669401059a7fbd
 manuscript/sections/ch03/03_02_06.txt	3.2.6	Balancing Exploration and Exploitation in AI Systems for Ethical and Altruistic Outcomes	cb5ea50c8d0c71c761ace3b1a223044a9f90ec6afa937b5f3bd7d6efe2eb88bd
@@ -155,3 +156,4 @@ manuscript/sections/ch10/10_03.txt	10.3	Addressing the Unintended Consequences	3
 manuscript/sections/ch10/10_03_01.txt	10.3.1	Anticipating Risk Before It Causes Harm	f338a257b6238ad49cb619874bdcdbb3848f823cd42457db985c2a8bce658a28
 manuscript/sections/ch10/10_03_02.txt	10.3.2	Remediating a Harm Once It Is Identified	e78f4c48e53c7aa8364cbad072aa86a02a64100d898b254235e63a815a786d0f
 manuscript/sections/ch10/10_03_03.txt	10.3.3	Resilience Against Deliberate State Compromise	bb47a74ba11a3e3df09cf55d4e3fc8defb0be22d19bccdecee3270e95dff59b6
+manuscript/sections/ch11/11.txt	11	Glossary	aa831deb8007516a286bfcaec5258e9e7fbe09b4e8f4072fba460f9305bdb9c8
