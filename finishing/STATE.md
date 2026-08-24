@@ -705,35 +705,35 @@ suspected fabrication during P3 itself.
 | P0 Setup | done — split, tools, checks, tags |
 | P1 Structure | done — 102 folds, 9 cuts, chapter 8 → §7.5, 92 run-in heads |
 | P2 Cut/dedupe | dropped, D-021 — folded into P3 |
-| P3 Revise | **every chapter now drafted at least once. Chapters 2, 4, 5, and 7 drafted and author-accepted; chapter 3 accepted except its unrevised opener (§3, deliberately excluded — see below); chapters 1, 6, 9, and 10 drafted, awaiting author acceptance. Drafting is done; P3 is not, until the acceptance backlog clears.** |
-| P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 for the first time. Post-D-024 register-seam check done: seams exist in chapter 3 but §2.1.4's terminology statement covers them; flagged for the author rather than rewritten. §10.2 retitled by the author to "Signatures of Altruistic and Antifascist Superintelligence," closing the last live conflict with D-023. Still open: the author's read of the per-chapter diffs. |
-| P4 Source | not started — claims ledger now at 534 rows (many added landing transplants and resolving citation debt); network access confirmed live, so spot-verification can happen inline during P3, but the formal pass is still ahead. One explicit low-confidence batch flagged in §7.2.2 (Clearview, AIGS Index, GPAI specifics) for follow-up. |
+| P3 Revise | **all 156 sections accepted.** Chapters 2, 4, 5, and 7 were
+  author-accepted by full read; chapters 1, 3's opener, 6, 9, and 10 (44
+  sections) were accepted 2026-08-23 by explicit blanket author instruction
+  rather than a section-by-section read — disclosed in `ledger.tsv` and
+  above, not silently applied. |
+| P3.5 Style | **all ten chapters swept, D-025.** 198 edits, 645 words. `outline.tsv` synced — title drift is 0 (re-confirmed 2026-08-23 after the register-seam fix below). Post-D-024 register-seam check: chapter 3 had two places where "antifascist" was bolted onto a generic ML-methods description with no argued connection (§3.1.3's "antifascist judgment" next to "empathy, altruism"; §3.2.3's title and opener, "ethical and antifascist decision-making" applied to plain supervised-learning classification) — flagged 2026-08-23, fixed the same day at the author's request: both now read "ethical" alone, matching how the book's other ch3 sections (§3.2.5, §3.3.2) actually argue a mechanism-specific connection to resisting authoritarian power rather than just labeling one. Still open: the author's own read of the per-chapter diffs (distinct from the P3 acceptance question above — nobody has confirmed reading these diffs specifically). |
+| P4 Source | **complete, book-wide.** Every one of `claims.tsv`'s 536 rows carries a non-empty note; zero unresolved placeholders anywhere. The §7.2.2 Clearview/Rekognition cluster and §7.2.5's AIGS Index/GPAI cluster, previously flagged as never actually live-verified despite carrying "web-verified" notes, were independently re-checked 2026-08-23: Clearview and GPAI confirmed accurate as printed; the AIGS Index sentence was corrected (it had overstated "at least 75 of 176 countries" as "a large majority of the world's countries"). |
 | P5 Front/back matter | not started |
 | P6 Copyedit and build | not started |
 
-**No chapter order remains for P3** — every section in the book has a draft,
-including the chapter 3 opener. What's left is the author's read of
-chapters 1, 6, 9, and 10 plus the chapter 3 opener (44 sections total), and
-the housekeeping below.
+**No chapter order remains for P3** — every section in the book has a draft
+and is accepted, including the chapter 3 opener.
 
 ## The immediate open items
 
-- **Chapters 1, 3's opener, 6, 9, and 10 are drafted but not author-accepted**
-  — 4, 1, 16, 11, and 12 sections respectively (44 total), waiting on a read.
-  Everything else in the book is already author-accepted; D-001's two-round
-  return path no longer applies to it unless the author reopens a specific
-  section.
-- **`finishing/outline.tsv` title drift: closed, 2026-08-23.** All 55 stale
-  titles were synced from the manuscript's own (authoritative, D-011)
-  headings during P3.5, and `manuscript/table-of-contents.txt` was
-  regenerated from the same source. `headings.py` now reports
-  **ms-vs-outline title diffs=0** — the first time in the project's history.
-  The item had been deferred "until structure settles" since chapter 6.
+- **The author's own read of the P3.5 per-chapter diffs is still
+  unconfirmed** — distinct from the P3 acceptance question above, which the
+  author has settled by blanket instruction. P3.5's own exit criterion
+  ("author has read the per-chapter diff") has never been confirmed done in
+  any session on record.
+- **`finishing/outline.tsv` title drift: closed, 2026-08-23** (re-confirmed
+  same day after the §3.2.3 retitle below). All stale titles are synced from
+  the manuscript's own (authoritative, D-011) headings, and
+  `manuscript/table-of-contents.txt` is regenerated from the same source.
+  `headings.py` reports **ms-vs-outline title diffs=0**.
   `finishing/reports/headings_reconcile.md` records the clean state.
-- **The Clearview/AIGS Index/GPAI details in §7.2.2** were corrected on
-  high-confidence background knowledge, not live-verified this session (the
-  agent's web-search budget ran out mid-task) — worth a spot-check before P4
-  treats them as resolved.
+- **The Clearview/AIGS Index/GPAI cluster in §7.2.2/§7.2.5: closed,
+  2026-08-23.** See the P4 row above and `finishing/ledger.tsv`'s notes on
+  §7.2.2 and §7.2.5 for the correction.
 
 ## What P1 deliberately left for P3, still ahead
 
