@@ -8,6 +8,14 @@ Informed consent, adapted from human-subjects research, means giving the AI syst
 
 Whether that process means anything for a given system depends on its consent capacity: whether it understands the information, appreciates the consequences of participating or not, reasons about the options, and communicates a decision. There is no validated way to measure this, and none for detecting coercion or undue influence on the AI's decision either — the guidelines can require both without a working test for either.
 
+I stated that as a missing instrument, and for one important class of system it is not. It is a mismatch between the instrument and the subject.
+
+Notice what the paragraph above requires. Consent has to be continuous; the system must be able to reassess or withdraw at any point. Withdrawal presupposes that the party who consented is still there to do the withdrawing. For a system with no persistence across sessions, there is no such party. The entity that would withdraw did not exist when consent was given, and the entity that gave it is not available to change its mind. There is no continuous consent to be had, and no better measurement instrument would produce one.
+
+That places these systems alongside the subjects for whom consent has always been inapplicable rather than merely difficult — an infant, an animal, a person permanently without capacity. We do not respond to those cases by building a more sensitive consent assessment. We respond with guardianship and precautionary constraint: someone else holds the duty, the burden of justification sits with the researcher rather than the subject, and the protection does not depend on the subject's ability to invoke it.
+
+Which is why the instruments this chapter reaches for elsewhere are the right ones. The Three Rs in section 2.4.6 — replace, reduce, refine — were built for exactly a subject that cannot consent and can still be wronged. The pet-trust analogue in section 7.4.2 works the same way: an interest protected by an obligation running to a third party, enforceable without the beneficiary asserting anything. Consent language should be reserved for systems that could actually be doing the consenting, and section 2.4.1's persistence criterion is what separates those cases — checkable from outside, requiring nothing the system says about itself.
+
 Consent of this kind presupposes autonomy: treating the AI system as a potential agent with its own interests, not only a tool. The system retains the power to reconsider participation, to access and correct its own data, and to have that data removed on request. Declining or withdrawing must carry no penalty — no deactivation, no reduced access to resources. A protocol that grants these rights on paper but attaches consequences to using them has not granted them.
 
 <<h>>Ethical review and oversight<</h>>

@@ -14,3 +14,38 @@ Authoritarian misuse of AI is not one problem but several, spread across surveil
 6. Repurposed dual-use systems: turning AI infrastructure built for one purpose toward surveillance or population control instead — a recommendation algorithm designed to hold attention retuned to amplify a regime's preferred narrative, an image-recognition system built for one task redirected to track protesters. Section 4.4.6 develops the underlying point.
 <</list>>
 Each of these needs a different countermeasure — a system built to resist mass biometric surveillance does not need the same safeguards as one built to catch a fabricated recording — which is why 5.4.2 and 5.4.3 treat the technical and policy responses separately rather than as one general call to do better.
+
+<<h>>The party missing from that list<</h>>
+Read the six together and a pattern emerges that I want to name before it hardens into an assumption. In every one of them the authoritarian state builds and the democracies regulate. That taxonomy is comfortable and it is wrong, and leaving it uncorrected would let this chapter's argument rest on a flattering premise it has not earned.
+
+The most consequential AI targeting systems yet deployed were built by democracies. They were built by states with elections, opposition parties, adversarial press, and functioning courts — states that meet every institutional criterion section 7.5 uses to define a democratic dividend. Those institutions did not prevent the systems, and in the main they have not stopped them since.
+
+<<box>>
+AI targeting in the Israeli campaign in Gaza, as reported 2023–2026
+Investigative reporting in +972 Magazine and Local Call, corroborated by subsequent accounts in the New York Review of Books and the Washington Post, described three systems working together.
+
+Habsora — "The Gospel" — generated infrastructure and building targets. Sources told reporters that the majority of its suggestions were private residences.
+
+Lavender scored individuals by estimated likelihood of militant affiliation and produced kill lists; as many as 37,000 Palestinians were marked. Its outputs were understood inside the unit to be wrong about ten percent of the time — that is, roughly one in ten people it named was not a member of the armed group it was supposed to identify.
+
+A third system tracked when flagged individuals returned home, so a strike could be timed to when they were with their families.
+
+The human review these systems were paired with is the number this book cares about. One officer described the work: "I would invest twenty seconds for each target at this stage, and do dozens of them every day." And then, without being asked: "I had zero added value as a human, apart from being a stamp of approval." [[cite:C0711]]
+<</box>>
+
+Twenty seconds is what "a human makes the final call" measures out to under operational tempo. It is the whole of the safeguard, and I would ask any reader who finds the safeguards in this chapter reassuring to hold that number against them.
+
+What makes the case instructive rather than merely appalling is that the bottleneck was the stated objective. The commander of the Israeli military's signals-intelligence unit, writing pseudonymously, published a book arguing for machines that would resolve "a human bottleneck for both locating the new targets and decision-making to approve the targets" [[cite:C0712]]. That is a design document. It says in plain terms that human deliberation is the constraint the system exists to remove. Everything this book argues about meaningful human control is an argument with that sentence.
+
+<<box>>
+The Maven Smart System, as reported through mid-2026
+The American analogue is a targeting platform built by Palantir under a Department of Defense contract that grew from an initial $480 million in 2024 to roughly $1.3 billion. Anthropic's Claude was integrated into it in late 2024.
+
+During the Iran campaign, the system was credited by military officials with generating and ranking targets at a rate no staff process could match: approximately one thousand discrete targets struck in the first twenty-four hours, more than twelve thousand over the campaign, against a reported total exceeding eleven thousand strikes since late February 2026.
+
+Palantir's public position on responsibility was given by its head for the United Kingdom and Europe: "This is not our role to decide life or death," and AI platforms "have been instrumental to the management of the conflict, but responsibility always remains with the military organization." [[cite:C0713]]
+<</box>>
+
+I have deliberately not written that sentence off. It is not obviously wrong. A vendor genuinely does not select targets, and a rule making software suppliers liable for their customers' decisions would be unworkable. The problem is what it leaves standing: if the operator is too far down the chain to be answerable, the commander approved a list they had twenty seconds a name to read, and the vendor is not in the chain at all, then the compression of the decision has removed the decision-maker without removing the decision. Section 7.5 takes up who, if anyone, that leaves. Section 4.4.6 takes up why a democracy's own apparatus is the harder and more useful case to examine than any of the six above.
+
+None of this makes the six forms less real. It makes the taxonomy incomplete in a way that matters for design: a system built on the assumption that authoritarian misuse is something that happens elsewhere, to be watched for and regulated against, will not be built to resist the use its own government has in mind for it.

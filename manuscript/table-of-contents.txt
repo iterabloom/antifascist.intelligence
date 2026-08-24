@@ -140,6 +140,7 @@ Chapter 9: Necessary Areas of Research
 9.1.4. Open Questions in Empathy and Theory-of-Mind Research
 9.1.5. Can a Multi-Agent AI System Resist Being Captured?
 9.1.6. Learning From Disagreement Instead of Consensus
+9.1.7. What an Antifascist Detector Would Actually Have to Detect
 9.2. Emotional Intelligence, Affective Computing, and Altruism
 9.2.1. Is Emotion Legible From a Face at All?
 9.2.2. Interpretability, Self-Reports, and Resistance to Tampering
