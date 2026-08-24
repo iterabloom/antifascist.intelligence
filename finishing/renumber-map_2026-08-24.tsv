@@ -1,0 +1,25 @@
+# Chapter renumber, 2026-08-24 (D-043, P11).
+# Old numbers are those in force from D-031 (2026-08-23) until this date.
+# Chapters 0, 1 and 2 are unchanged. Two chapters were inserted, at 3 and 7.
+# READ THIS BEFORE READING OLD NOTES: ledger.tsv notes, DECISIONS.md rows and
+# scope files written before 2026-08-24 deliberately keep the OLD numbers,
+# because they record what was done when it was done. Same convention as D-031.
+# Rows with old = '-' are sections that did not previously exist.
+old	new	note
+2.1.5	3	promoted whole to a chapter; its six run-in heads became sections 3.1-3.6
+-	3	NEW chapter: The Floor Beneath Learned Values (from 2.1.5)
+3	4	chapter and all descendants
+4	5	chapter and all descendants
+5	6	chapter and all descendants
+6	8	chapter and all descendants
+7	9	chapter and all descendants
+8	10	chapter and all descendants
+9	11	chapter and all descendants
+-	7	NEW chapter: The Recuperation of Dissent
+7.1.6	7.2	moved out of the research chapter into the new chapter 7
+7.1.7	9.1.6	renumbered up after 7.1.6 was moved out
+6.1.2	8.1.1	merged into 8.1.1
+6.1.3	8.1.1	merged into 8.1.1
+6.3.6	8.3.5	merged into 8.3.5
+6.7.6	8.7.6	kept; the democratic-dividend argument split out to 8.7.7
+-	8.7.7	NEW section: What the Democratic Dividend Leaves Out (split from 6.7.6)

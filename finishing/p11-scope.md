@@ -183,6 +183,11 @@ instrument turned on the book's own proposal.
 
 ## 5. Renumbering
 
+**Machine-readable map: `finishing/renumber-map_2026-08-24.tsv`**, including the
+special cases and the merged and new sections. Same convention as D-031: notes
+written before this date keep the old numbers, because they record what was done
+when it was done.
+
 Old 3→4, 4→5, 5→6, 6→8, 7→9, 8→10, 9→11, with new chapters at 3 and 7.
 Directories, filenames, heading lines, `ORDER.tsv`, `outline.tsv` and the
 ledger's `num` column were rewritten by script. Special cases: old §7.1.6 → §7.2

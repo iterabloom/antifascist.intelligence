@@ -1238,7 +1238,8 @@ regenerate/recommit it reflexively as chapters finish unless asked again.
 is **chapter 3, "The Floor Beneath Learned Values."** A new **chapter 7, "The
 Recuperation of Dissent,"** gathers the synthesis the book had been making twice,
 briefly, in subordinate positions two chapters apart. Old chapters 3–9 became
-4–11. Every cross-reference in the manuscript was rewritten by script and then
+4–11. **The map is `finishing/renumber-map_2026-08-24.tsv`; ledger notes, decision
+rows and scope files written before 2026-08-24 keep the old numbers on purpose.** Every cross-reference in the manuscript was rewritten by script and then
 **verified to resolve against `ORDER.tsv` — unresolved references: none.**
 
 Full disposition in `p11-scope.md`. The short version:

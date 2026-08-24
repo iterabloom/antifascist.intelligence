@@ -13,6 +13,7 @@ New files here omit the date suffix, as the file convention allows.
 | `PLAN.md` | The finishing plan: ordered passes, each with entry/exit criteria, unit of work, and decider |
 | `DECISIONS.md` | Append-only decision log, `D-NNN`. A reversal is a new dated line, never an edit |
 | `QUESTIONS.md` | The open batch for the author. Each item has a recommended default and the event at which the default applies |
+| `renumber-map_<date>.tsv` | Old-to-new section numbers for each renumbering (D-031, D-043). Notes written before a renumber keep the old numbers; these files are the translation |
 | `outline.tsv` | The live outline: number, title, level, parent. Seeded once from column A of the v3b assignment spreadsheet, hand-maintained after that |
 | `ledger.tsv` | One row per section: status, action, evidence, decisions. The work tracker |
 | `tools/` | Read-only analysis and invariant checks (see below) |
