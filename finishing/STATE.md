@@ -1203,7 +1203,7 @@ handed off rather than a live punch list.
 | `finishing/ledger.tsv` | per-section work state |
 | `finishing/reports/claims.tsv` | the claims ledger, 534 rows |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
-| `finishing/tools/check_all.sh` | **run at session start** |
+| `finishing/tools/check_all.sh` | **run at session start**; also runs from `.githooks/pre-commit` (D-045) |
 
 ## Rules that bite
 
@@ -1315,3 +1315,17 @@ lesson worth keeping.
 Chapter 5 is now the lowest body chapter on this measure against a book median
 near 5.4. That gap was not tuned in either direction (D-019) and is left as a
 judgment for the author.
+
+## The invariants are enforced now, 2026-08-24 (D-045)
+
+Q-015 is closed by the author's ruling. `.githooks/pre-commit` runs
+`check_all.sh` and refuses the commit on any failure, so the four invariants —
+round-trip, structure, generated TOC, named-persons — are no longer honour-system.
+Runtime 0.6s. Both paths were exercised: a clean tree passes, and a deliberately
+broken round-trip is refused with exit 1.
+
+**What it does not cover.** The suite reads the working tree, not the index. A
+partial commit is validated against the tree on disk, which is not necessarily
+what is being committed. `git commit --no-verify` bypasses the hook for a tree
+that is knowingly mid-repair. `.githooks/test_hooks.sh` exercises `commit-msg`
+only; it was not extended to the new hook.

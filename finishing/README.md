@@ -46,7 +46,7 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 
 | Tool | Does |
 |---|---|
-| `check_all.sh` | Every invariant below. Run at session start and before each commit |
+| `check_all.sh` | Every invariant below. Run at session start; **run automatically by `.githooks/pre-commit`**, which refuses the commit on failure (D-045). It reads the working tree, not the index, so a partial commit is checked against the tree on disk; `git commit --no-verify` bypasses |
 | `check_roundtrip.py` | `join(sections)` is byte-identical to the reference |
 | `check_structure.py` | Heading/filename agreement, glob order, tag balance, ledger row parity |
 | `names_guard.py` | Enforces the named-persons rule (see below) |

@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Run the invariant suite before every commit (D-045, Q-015).
+#
+# Scope caveat, stated rather than papered over: check_all.sh reads the
+# WORKING TREE, not the index. A partial commit (some changes staged, others
+# not) is therefore validated against the tree as it stands on disk, which is
+# not necessarily what is being committed. This still closes the gap it was
+# added for -- a bad scripted edit reaching a commit unchecked -- because such
+# an edit lands in the tree. It does not make a partial commit safe.
+#
+# Bypass with `git commit --no-verify` when the tree is knowingly mid-repair.
+set -uo pipefail
+
+repo="$(git rev-parse --show-toplevel)" || exit 1
+suite="$repo/finishing/tools/check_all.sh"
+
+if [[ ! -x "$suite" ]]; then
+  echo "pre-commit: $suite is missing or not executable" >&2
+  exit 1
+fi
+
+if ! out="$(bash "$suite" 2>&1)"; then
+  printf '%s\n' "$out" >&2
+  cat >&2 <<'MSG'
+
+pre-commit: the invariant suite failed; the commit was refused.
+
+Fix the failure, or -- if the tree is knowingly mid-repair -- rerun with
+`git commit --no-verify`.
+MSG
+  exit 1
+fi
+
+echo "pre-commit: invariants pass (round-trip, structure, TOC, named-persons)"

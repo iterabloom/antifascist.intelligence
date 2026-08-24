@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-24, after P12 and D-044.** For orientation read
+**Current as of 2026-08-24, after P12 and D-045.** For orientation read
 `finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
@@ -9,24 +9,6 @@ new; old 3–9 became 4–11).
 Nothing here blocks work. Each item has a default and the moment it applies.
 
 ---
-
-### Q-015 — Should `check_all.sh` run from a pre-commit hook?
-
-D-042 made the TOC an enforced invariant, but `check_all.sh` still has to be run
-by hand. A commit that skips it goes through. A pre-commit hook would close that,
-and it is the same class of gap D-042 fixed one level down.
-
-`.githooks/**` changes need explicit author approval (`AGENTS.md`), which is why
-this is a question rather than a task. Raised 2026-08-24, unanswered, and P11
-made it more pressing: this pass rewrote every cross-reference in the book by
-script, and the only thing standing between a bad regex and a committed manuscript
-was that I chose to run the checks.
-
-- **(a) Default — leave it manual.** The hook runs on every commit, including
-  doc-only ones, and the suite takes a few seconds.
-- (b) Add a pre-commit hook running `check_all.sh`.
-
-*Default applies if unanswered; reversible either way.*
 
 ### Q-018 — Chapter 8's compression was only partly implementable
 
@@ -56,6 +38,15 @@ itself wanted carrying the chapter.
 ---
 
 ## Resolved
+
+### Q-015 — Should `check_all.sh` run from a pre-commit hook? **Resolved by ruling, D-045.**
+The author's instruction: *"yes, add the pre-commit hook."* `.githooks/pre-commit`
+now runs the suite and refuses the commit on failure. Runtime is 0.6s, so option
+(a)'s objection about doc-only commits does not bite, and the hook runs
+unconditionally rather than filtering on staged paths. Limitation recorded in
+D-045 and in the hook's header: the suite reads the working tree, not the index,
+so a partial commit is checked against the tree on disk. `--no-verify` is the
+bypass. `test_hooks.sh` covers `commit-msg` only and was not extended.
 
 ### Q-017 — The chapter 5 prose tic. **Resolved by execution, D-044.**
 Chapter 5 ran 9.89 contrastive negations per 1,000 words against D-025's band of
