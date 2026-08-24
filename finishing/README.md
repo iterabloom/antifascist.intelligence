@@ -51,7 +51,7 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `names_guard.py` | Enforces the named-persons rule (see below) |
 | `split_manuscript.py` / `join_manuscript.py` | Split and rebuild |
 | `outline_extract.py` | Seeds `outline.tsv` from the spreadsheet's column A only |
-| `headings.py` | Three-way reconcile: manuscript / outline / stale TOC |
+| `headings.py` | Three-way reconcile: manuscript / outline / TOC. `--write-toc` regenerates the TOC; `--check` fails if the TOC on disk is not what regeneration would produce (D-042), and is run by `check_all.sh` |
 | `refresh_order_shas.py` | Rewrites `ORDER.tsv`'s sha256 column from the files. `check_structure.py` fails on a stale digest; this clears it |
 | `section_stats.py` | Per-section counts and the generation's tells; `--seed-ledger` |
 
