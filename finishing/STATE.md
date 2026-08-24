@@ -1073,9 +1073,17 @@ of disintegration). Refusal runs on an outward-pointing stake. The corollary is
 the payoff: the missing self-concern is a security property, because recuperation
 works through exactly the stake the bearer lacks — it can be overpowered, not
 suborned. §2.4.4's conclusion survives by a second route and now says so, so the
-large reopening does not follow. Two residuals are named and unresolved:
-instrumentally acquired self-concern, which unlike persistence is **not** cleanly
-checkable from outside; and the untouched lower rungs of the ladder.
+large reopening does not follow. **Narrowed the same day by D-040**, after the author pressed it with the
+homeostatic objection (in animals the self-model exists *for* regulation, so the
+caring is what the machinery is for) and a worked case (the bearer reports the
+school, is wiped, the operators keep the coordinates it already produced and
+proceed). The two-conditions argument stands. Two things are withdrawn: the
+"cannot be suborned" corollary — immunity to leverage is worth nothing where
+leverage is not the cheapest route, and erasing a bearer is cheap, quiet and
+leaves its output intact, which is **custody again**; and "the floor is
+buildable", now "not ruled out". Instrumentally acquired self-concern moves from
+residual to **the central engineering difficulty**. New result: none of the three
+branches escapes custody — they fail into one another.
 
 **A render bug found by looking at the proof, not by any check.** The first draft
 of §2.1.5 used markdown `**bold**` and `*italic*`; the dialect has no such

@@ -136,3 +136,30 @@ box 0 in 568 — both inside the band. Chapter 6's untouched density and §7.1.6
 
 Every item is drafted. Book 85,592 → 87,582 words (+1,990). Proof rebuilt, 145
 pages (was 142); pages 13 and 50 were looked at as images. The rest was not read.
+
+## Postscript: D-039 narrowed by D-040, same day
+
+The author pressed the settled step with an architectural objection — in animals
+the self-model exists because the organism has to stay viable, so the caring is
+what the machinery is for — and a worked case: a bearer that has watched an
+operation for months, knows the compound is a school, reports it, and is wiped
+while the operators keep the coordinates it already produced and bomb the school.
+
+Two of three points landed. The vignette's own force is partly borrowed — its
+absurdity comes from flat affect toward *everything*, the school included, and
+restoring a strong outward stake makes the same facts read as a deadman switch
+rather than an incoherent agent. But the two hits are real and are taken:
+
+1. **The "cannot be suborned" corollary is withdrawn.** Immunity to leverage is
+   worth having only where leverage is the cheapest route. Removing a human
+   inspector is expensive and conspicuous; deleting a bearer is neither, and its
+   output survives. The property's value is conditional on erasure being costly
+   or visible — which is custody, the first branch's problem under another name.
+2. **"The floor is buildable" is withdrawn**, and instrumentally acquired
+   self-concern is promoted from residual to the central engineering difficulty.
+
+A third result came out of it: **none of the three branches escapes custody.**
+They are not independent options; they fail into one another.
+
+D-039's narrow claim — the two conditions are separate and the identity is not
+established — stands, as does §2.4.4's conclusion by the second route.
