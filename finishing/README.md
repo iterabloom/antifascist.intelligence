@@ -49,7 +49,6 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `check_roundtrip.py` | `join(sections)` is byte-identical to the reference |
 | `check_structure.py` | Heading/filename agreement, glob order, tag balance, ledger row parity |
 | `names_guard.py` | Enforces the named-persons rule (see below) |
-| `msgcheck.sh` | Dry-runs the commit-msg hook against a draft message |
 | `split_manuscript.py` / `join_manuscript.py` | Split and rebuild |
 | `outline_extract.py` | Seeds `outline.tsv` from the spreadsheet's column A only |
 | `headings.py` | Three-way reconcile: manuscript / outline / stale TOC |
