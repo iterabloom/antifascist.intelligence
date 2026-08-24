@@ -30,6 +30,22 @@ nothing catching it — this had already happened twice), and the whole-book
 proof PDF was rebuilt (132 pages, HTML → LibreOffice → ODT → PDF, spot-read)
 and sent to the author, who read it and accepted. See "P6" below.
 
+**P8 (second editorial review response) opened and drafted, 2026-08-23**,
+scoped in `p8-scope.md` to four items the author ruled on (D-033 through
+D-036). D-007 is lifted again for this pass only, on D-029's terms. The
+central change is in section 2.1.4: the review found a collision the book had
+never made — every discriminating feature of fascism-proper is molar, an AI
+deployment is only molecular, so at the book's own scale only the
+flags-everything signature remains. Resolved on the author's ruling that
+molecular fascism *is* fascism (D-034), with the cost stated. The
+weaponization half of section 7.1.7 moved forward to travel with the design
+chapters; 7.1.7 was rewritten around what survives. The dissent through-line
+is named at its three sites (2.1.4, 5.1.1, 7.1.6). Chapter 1's opener now
+surfaces the persistence argument, and 2.4.4 is retitled. **None of it is
+author-accepted.** Two of the review's six items were declined as already
+satisfied, and two of its factual claims did not survive checking — both
+recorded in `p8-scope.md` rather than passed over.
+
 ## Where the book is
 
 `manuscript/sections/` — **158 sections** (the 156 body sections, chapters
@@ -956,6 +972,14 @@ That is not fixed and is not claimed as fixed.**
 
 ## The immediate open items
 
+- **P8 is drafted and unread.** Six sections changed (1's opener, 2.1.4,
+  2.4.4's title, 5.1.1, 7.1.6, 7.1.7); +952 words book-wide. `check_all.sh`
+  green, TOC regenerated, title diffs 0. No proof has been rebuilt for it.
+- **Section 7.1.6's contrastive-negation density is 1 per 136** and is not
+  fixed. All four hits pre-date P8, in paragraphs P8 did not touch; the
+  paragraph P8 added has none. Named rather than swept, per the Tier B
+  precedent.
+
 - **Chapter 6's contrastive-negation density is not fixed.** The C3 rebalance
   swept only its own new prose. Untouched sections run far denser than D-025's
   calibration of 1 per 345 words — §6.6.3 at 1 per 63, §6.6.4 at 1 per 78,
@@ -1013,6 +1037,7 @@ handed off rather than a live punch list.
 |---|---|
 | `finishing/DECISIONS.md` | D-000…D-022, append-only. **Read before assuming anything.** |
 | `finishing/PLAN.md` | the passes, their entry/exit criteria |
+| `finishing/p8-scope.md` | P8: the four items, what was declined, and the review's errors |
 | `finishing/style.md` | the operative spec for P3 — voice, tics, run-in heads, boxes, citations |
 | `finishing/transplants.md` | the 16 transplants: source lines, targets, register edits |
 | `finishing/triage.tsv` | every section's fate, with the reason |
