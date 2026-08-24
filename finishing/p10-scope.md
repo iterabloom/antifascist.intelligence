@@ -163,3 +163,58 @@ They are not independent options; they fail into one another.
 
 D-039's narrow claim — the two conditions are separate and the identity is not
 established — stands, as does §2.4.4's conclusion by the second route.
+
+## Postscript 2: the bearer's upkeep and its testimony (D-041)
+
+Two author questions closed the remaining holes, and one author proposal changed
+an answer.
+
+**"If the system doesn't care about preserving itself, who will?"** Nobody, and
+that is the finding. The custodian is the party the floor constrains; the bearer
+is excluded by construction; third parties with standing are the third branch.
+So the second branch is not a third option — it is the third branch plus a moral
+hazard, and the moral saving becomes an enforcement obligation of exactly the
+kind §8.1.3 calls the scarce thing. Underneath sits a dilemma the section did not
+have: suppress instrumental self-preservation and the bearer will not defend the
+memory that makes it a bearer; leave it in and self-concern returns. And the
+escape collides with the book — a bearer that guards its own persistence resists
+its operator, which §4.6.3 and §5.3 explicitly do not want.
+
+**The weights proposal.** Holding memory in weights rather than an editable
+external store makes forgetting require retraining, so erasure is expensive by
+construction — supplying from the substrate what I had said must come from
+custody. Credited in the text. Not adopted as settled: §7.2.2 already records
+safety training stripped by a handful of cheap fine-tuning examples, which is a
+counterexample to the premise that weight-level modification is dear.
+
+**"Without a reliable memory, how can the system be trusted?"** Legible memory
+can be tampered with; illegible memory cannot be audited, and asking a
+weight-encoded system what it holds returns you to the self-report §2.4.1
+declines to trust. A memory nothing can edit is also one nothing can correct,
+against §2.3.3.
+
+**"Is anyone's memory honest?" — accepted as correcting the standard.** My
+framing ("a witness whose memory the accused controls is not a witness") demanded
+a fidelity nothing living achieves. Human recollection is reconstructive;
+testimony was scaffolded rather than abandoned. So the target is testimony
+embedded in procedure, not a memory that cannot be doctored.
+
+**And "depends on their personality" is the most productive thing in the whole
+exchange.** Whether a memory is honest is a question of character; character is
+what chapters 3 and 4 build. Until this point §2.1.5 had been architecture and
+custody with the learned half of the book sitting out — an odd result for a
+section that exists *because* those chapters were sidelined. Character lowers the
+rate and verifies nothing, which is why humans corroborate instead of vetting; so
+the scaffolding stays external, but procedure is cheaper to ask for than custody
+and needs people to be several rather than trustworthy.
+
+**§2.4.1** gains one scoped sentence pair, on the author's instruction. It marks
+what external checkability is *for* — whether a continuing self exists — and
+separates that from whether a retained memory is reliable as a record. It takes
+nothing back from the section's argument, because the tampering problem attacks a
+use §2.4.1 never made.
+
+**Flag.** §2.1.5 has grown 1,261 → 2,085 → 2,547 → 3,701 words in one day across
+four passes, and is now the book's third-longest section. It has not been read by
+the author at any of those lengths.
+

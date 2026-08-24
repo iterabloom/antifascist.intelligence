@@ -1083,7 +1083,19 @@ leverage is not the cheapest route, and erasing a bearer is cheap, quiet and
 leaves its output intact, which is **custody again**; and "the floor is
 buildable", now "not ruled out". Instrumentally acquired self-concern moves from
 residual to **the central engineering difficulty**. New result: none of the three
-branches escapes custody — they fail into one another.
+branches escapes custody — they fail into one another. **Extended again the same
+day by D-041**, on two author questions and one author proposal: the second
+branch collapses into the third (nobody is left to preserve a bearer that will
+not preserve itself); a new unresolved dilemma (suppressing self-preservation
+leaves the bearer unable to defend the memory that makes it a bearer); a
+collision named with §4.6.3 and §5.3's override commitments; the weights-not-
+vector-store proposal credited and checked against §7.2.2's counterexample; and
+the testimony standard corrected — no witness has an honest memory, so the target
+is scaffolded testimony, and the honesty of what a system retains is a **character**
+question, which is the first contribution chapters 3–4 make to this argument.
+§2.4.1 gained one scoped sentence pair on the author's instruction. **§2.1.5 is
+now 3,701 words, the book's third-longest section, grown from 1,261 in one day
+across four passes and unread by the author at any length.**
 
 **A render bug found by looking at the proof, not by any check.** The first draft
 of §2.1.5 used markdown `**bold**` and `*italic*`; the dialect has no such
