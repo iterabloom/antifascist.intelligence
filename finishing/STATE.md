@@ -1555,3 +1555,41 @@ shown. "Result" would be accurate. The author's word stands.
 
 **Not checked:** whether the same unguarded-opener problem exists in sections 3.3
 and 3.4. Only 3.1, 3.2, 3.5 and 3.6 were read against each other for it.
+
+## The rest of the stranded-pointer class, 2026-08-24 (D-057)
+
+D-052 fixed two pointers P11's split of old §8.7.6 had stranded and said the rest
+of the class was not checked. It is now. All 24 references to §8.7.6/§8.7.7 were
+read against their targets: **four stranded, twenty sound.**
+
+The four, all repointed to §8.7.7: `08_02_02.txt` for "why that half matters most
+exactly where a democracy is behaving most democratically"; `05_04_06.txt` for "a
+body with the standing to stop what it described," which is §8.7.7:8 nearly
+verbatim; the glossary's *floor* entry, which still listed the arrivals as
+"§5.6.3, §8.7.6 and §10.1.3" after D-052 had repointed chapter 3's opener; and
+`03_01.txt` for what the book admires about international humanitarian law. Only
+section numbers changed; no prose was rewritten.
+
+**The fourth carried a judgment the other three did not.** §8.7.6 names IHL twice,
+as the standard autonomous weapons may fail, so that reference resolved to a
+section discussing the right body of law for the wrong reason. The author was told
+so before deciding and included it in the four.
+
+**Found while checking a different critique.** The critique held that the
+aggregation-doesn't-constrain thesis lands five times without accumulating. Two of
+its five are miscounted — §10.1.3 never mentions aggregation, it is the enforcement
+arrival, and chapter 3's opener cites §8.7.7 rather than restating it — and it
+omits §5.6.3, which the book names as one of the three arrivals. What it got right
+is tighter than it claimed: §8.2.2 and §8.7.7 close on the same four items in the
+same order, near-verbatim, and "it took me most of this book to see it" runs in
+both §8.2.2 and chapter 1. **Neither was touched**; both are writing changes to
+author-accepted text and were left with the author.
+
+**Q-021's trigger fired and was not acted on.** Its recorded default applies "at
+the next pass that touches chapter 3," and `03_01.txt` is chapter 3. The author
+scoped this pass to the four repoints, so §3.6 keeps its title. The proposal on the
+table, drawn from the section's own last paragraph, is "What the Bearer Argument
+Buys."
+
+**Not checked.** Whether P11's other splits and merges stranded pointers elsewhere.
+This sweep covered §8.7.6/§8.7.7 only, because that is the pair D-052 opened.
