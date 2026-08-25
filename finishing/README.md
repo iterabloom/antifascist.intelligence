@@ -51,6 +51,7 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `check_roundtrip.py` | `join(sections)` is byte-identical to the reference |
 | `check_structure.py` | Heading/filename agreement, glob order, tag balance, ledger row parity |
 | `check_xrefs.py` | Cross-references resolve, and every one is prefixed with `section`/`chapter`/`§` so a renumber script can see it (D-046). Does **not** check that a resolving reference is the right one |
+| `xref_content.py` | The semantic half `check_xrefs.py` disclaims (D-050): flags references whose citing sentence names a proper noun, acronym or year the target section does not contain. Writes `reports/xref_content.tsv`. **Candidates for a hand read, not defects** — the P14 run was 9 real out of 121 — and deliberately not in `check_all.sh`. Blind to any wrong pointer in a sentence naming none of those, which is most sentences |
 | `names_guard.py` | Enforces the named-persons rule (see below) |
 | `split_manuscript.py` / `join_manuscript.py` | Split and rebuild |
 | `outline_extract.py` | Seeds `outline.tsv` from the spreadsheet's column A only |

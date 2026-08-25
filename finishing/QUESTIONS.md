@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-24, after P12 and D-045.** For orientation read
+**Current as of 2026-08-24, after P14 and D-050.** For orientation read
 `finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
@@ -34,6 +34,56 @@ itself wanted carrying the chapter.
   and which P11 executed past rather than answering.
 
 *Default applies now; (b) and (c) are live if the author wants the chapter smaller.*
+
+---
+
+### Q-019 — The glossary defines a term the book never uses
+
+`GPAI` (the Global Partnership on Artificial Intelligence) has a glossary entry.
+The term appears **nowhere in the body** — checked against every commit back to
+the original split, so this is not P11 fallout, it has always been so. Its two
+locators, §8.4.5 and §8.7.1, both named sections that do not contain it, and P14
+removed them. The entry now says in its own text that the book does not take the
+term up.
+
+It is not simply stray: the Partnership on AI entry uses GPAI as its point of
+comparison ("what GPAI adds when governments, not companies, are the members"),
+so the two entries are written as a pair.
+
+- **(a) Default — leave it, as P14 did.** A glossary may define an adjacent term
+  it uses to draw a contrast. The entry now discloses its own status.
+- (b) Cut the GPAI entry and the dependent clause in the Partnership on AI entry.
+  A glossary indexes the book's vocabulary, and this is not in it.
+- (c) Give the body a sentence on GPAI — most naturally in §8.7.1, on
+  cross-border cooperation — so the entry earns its locator.
+
+*Default applies now. Deleting author-accepted P5 content was not a call to make
+without asking; (c) is the only option that adds anything.*
+
+---
+
+### Q-020 — §8.7.4 opens on a forward pointer
+
+The author flagged §8.7.4's reference to §8.7.6 as backward-pointing at content
+that follows. **The reference itself is sound** — §8.7.6 does compare the EU, US,
+UK and China as §8.7.4 describes, and does cover the human-rights treaty — so
+nothing was repaired. What is real: §8.7.4's *first sentence* summarizes four
+regulatory regimes the reader will not meet for two more sections, then argues on
+top of that summary ("Those four already diverge sharply"). A reader going
+straight through meets the premise before the evidence.
+
+This is the fourth review's complaint — the book optimized for dipping in at the
+cost of reading linearly (D-037) — in a place that pass did not reach.
+
+- **(a) Default — leave it.** The sentence is accurate and the section is
+  self-contained enough to follow.
+- (b) Rewrite §8.7.4's opener to state the divergence in its own right and demote
+  the §8.7.6 pointer to a parenthetical. Cheapest fix; one sentence.
+- (c) Reorder §8.7.4 after §8.7.6. Cleanest for a linear reader; renumbers two
+  sections and every reference to them, which is the operation D-046 exists
+  because of.
+
+*Default applies now; (b) is the low-cost option if the author wants it fixed.*
 
 ---
 
