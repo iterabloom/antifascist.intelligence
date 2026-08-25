@@ -1,39 +1,16 @@
 # Open questions
 
-**Current as of 2026-08-24, after D-060.** For orientation read
-`finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
+**Current as of 2026-08-25, after D-067. No question is open.** The author ruled
+on Q-018, Q-020, Q-023 and Q-024 on 2026-08-25; all four are under "Resolved"
+below with the others. For orientation read `finishing/STATE.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
-new; old 3–9 became 4–11).
+new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
+8.7.6 as the geopolitics section and to 8.7.7 as the democratic-dividend section;
+D-067 split 8.7.6 into 8.7.6–8.7.9 and renumbered 8.7.7 to 8.7.10.
 
-Nothing here blocks work. Each item has a default and the moment it applies.
-
----
-
-### Q-018 — Chapter 8's compression was only partly implementable
-
-The sixth review asked that chapters 8's §§8.1–8.3 be compressed on the grounds
-that they read as annotated inventory. **That premise no longer describes the
-text**, because C3 (D-032) already ran that pass: those sections now average
-about 300 words and carry two dated references between thirteen of them, each
-built around one argument rather than a list. P11 did the structural compression
-that still applied — three sections merged away, no argument dropped — and stopped
-there rather than cutting prose that had already been converted from inventory to
-argument.
-
-This is recorded because it is the **second** review to ask for a chapter-6/8 cut
-that C3 had largely already made, and because the honest report is a partial
-implementation. Chapter 8 is 22,707 words, 24.5% of the book, and the bulk is now
-in §8.7.6 (4,769) and §8.3.3 (3,157) — the jobs-guarantee material the review
-itself wanted carrying the chapter.
-
-- **(a) Default — accept the partial implementation and say so.** Done in
-  `p11-scope.md`.
-- (b) Cut §8.7.6 further; at 4,769 words it is the book's longest section.
-- (c) Ask the reviewer which proof was read, which is the question Q-014 raised
-  and which P11 executed past rather than answering.
-
-*Default applies now; (b) and (c) are live if the author wants the chapter smaller.*
+A new question goes above the "Resolved" line with a default and the moment it
+applies. Nothing here blocks work.
 
 ---
 
@@ -59,31 +36,6 @@ so the two entries are written as a pair.
 
 *Default applies now. Deleting author-accepted P5 content was not a call to make
 without asking; (c) is the only option that adds anything.*
-
----
-
-### Q-020 — §8.7.4 opens on a forward pointer
-
-The author flagged §8.7.4's reference to §8.7.6 as backward-pointing at content
-that follows. **The reference itself is sound** — §8.7.6 does compare the EU, US,
-UK and China as §8.7.4 describes, and does cover the human-rights treaty — so
-nothing was repaired. What is real: §8.7.4's *first sentence* summarizes four
-regulatory regimes the reader will not meet for two more sections, then argues on
-top of that summary ("Those four already diverge sharply"). A reader going
-straight through meets the premise before the evidence.
-
-This is the fourth review's complaint — the book optimized for dipping in at the
-cost of reading linearly (D-037) — in a place that pass did not reach.
-
-- **(a) Default — leave it.** The sentence is accurate and the section is
-  self-contained enough to follow.
-- (b) Rewrite §8.7.4's opener to state the divergence in its own right and demote
-  the §8.7.6 pointer to a parenthetical. Cheapest fix; one sentence.
-- (c) Reorder §8.7.4 after §8.7.6. Cleanest for a linear reader; renumbers two
-  sections and every reference to them, which is the operation D-046 exists
-  because of.
-
-*Default applies now; (b) is the low-cost option if the author wants it fixed.*
 
 ---
 
@@ -159,53 +111,32 @@ as written.*
 
 ---
 
-### Q-023 — Where the substrate material should live
-
-P19 (D-060) put the data-centre power, water and siting material in section 6.1,
-as a paragraph and a dated box attached to the racial-capitalism argument, plus a
-127-word paragraph in section 8.7.6 on permitting as a form of state leverage.
-That placement is an argument: the substrate is the same distributional pattern
-chapter 6 already names, in a form no audit of a model's outputs can detect.
-
-Two things make it worth putting to the author rather than leaving settled. The
-addition to section 8.7.6 pushes the book's longest section from 4,769 to 4,896
-words, against Q-018's standing question about cutting it. And the material is the
-book's only treatment of a physical dependency, which may be more weight than one
-box in a bias section can carry.
-
-- **(a) Default — leave it where P19 put it.** The argument for the placement is
-  the one above, and a separate section would restate chapter 6's frame to say the
-  same thing.
-- (b) Give it its own section in chapter 6, after 6.1.3, and cut the box back to a
-  cross-reference from 6.1.
-- (c) Move the whole treatment to chapter 8 as a governance question, and leave
-  chapter 6 a cross-reference. This trades the racial-capitalism argument for the
-  regulatory one.
-
-*Default applies now. Any of the three is compatible with the text as drafted;
-(b) and (c) are moves, not rewrites.*
-
----
-
-### Q-024 — Whether corpus provenance belongs in chapter 7 as well
-
-P19 put the corpus-provenance material in section 6.1.1 and declined chapter 7 on
-the argument that recuperation requires a channel that collects disagreement and
-nullifies it, and a training corpus has no channel at all, so the case sits one
-stage before chapter 7's subject. That argument was made from chapter 7's thesis
-and was not tested against chapter 7's text.
-
-- **(a) Default — leave it in 6.1.1 with the cross-reference to section 7.3 it
-  now carries.**
-- (b) Give chapter 7 a short third site, before the label and the reward, naming
-  the absence of a channel as the limiting case of the same structure.
-
-*Default applies now; (b) is a writing task of perhaps 300 words and would need
-the D-007 lift D-060 already establishes for this material.*
-
----
-
 ## Resolved
+
+### Q-018 — Chapter 8's compression was only partly implementable. **Closed by ruling, D-067: (a), and a split.**
+The partial implementation stands and chapter 8 stays at a quarter of the book.
+The author also took the option the walkthrough added: section 8.7.6, the book's
+longest section at 4,882 words under seven run-in heads, is split along those
+heads into 8.7.6–8.7.9, cutting nothing; old 8.7.7 is 8.7.10. Every inbound
+reference to the pair was read and placed by hand. The wording as originally
+recorded — 22,707 words, §8.7.6 at 4,769 — is the state on 2026-08-24; P19 and
+P20 added to both before the ruling.
+
+### Q-020 — §8.7.4 opens on a forward pointer. **Closed by ruling, D-067: (b).**
+The opening sentence now states the four regimes' divergence in its own right,
+with the pointer to the four-country comparison — 8.7.8 after the split — demoted
+to a parenthetical. One sentence changed; nothing reordered.
+
+### Q-023 — Where the substrate material should live. **Closed by ruling, D-067: (a).**
+It stays where P19 put it: the siting paragraph and dated box in section 6.1, the
+permitting paragraph in section 8.7.6 (which, after the split, is the strategic-
+asset section, so the paragraph still sits where the chip and export-control
+material is).
+
+### Q-024 — Whether corpus provenance belongs in chapter 7 as well. **Closed by ruling, D-067: (a).**
+It stays in section 6.1.1 with its pointer to chapter 7. The "partly overtaken"
+note below records why section 7.4's arrival changed the question's shape; the
+author's ruling closes it as it stood.
 
 ### Q-015 — Should `check_all.sh` run from a pre-commit hook? **Resolved by ruling, D-045.**
 The author's instruction: *"yes, add the pre-commit hook."* `.githooks/pre-commit`

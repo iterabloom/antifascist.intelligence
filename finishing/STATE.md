@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. One thing left for the author: `AGENTS.md` still describes v4 as a byte-for-byte join of the sections, which stopped being true with this change — that file needs explicit approval to edit.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-25 after D-067 (P23): the author ruled on all four open questions — no question is open — and section 8.7.6, the book's longest, is split four ways along its run-in heads into 8.7.6–8.7.9, with old 8.7.7 now 8.7.10. 162 sections. Nothing cut; three transition sentences edited; all 24 inbound references to the pair read and placed by hand. Section 8.7.4's opener rewritten (Q-020 b). The P23 note at the end of this file has the detail, including one tool gap found on the way: `xref_content.py` was never ported to `.tex` and scans nothing.** **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof. The committed proof, `finishing/reports/whole-book-proof_2026-08-25.pdf`, is the LaTeX build from that commit: 193 pages, LuaTeX. It supersedes the 153-page LibreOffice-path proof of the same date that the P20 note at the end of this file describes; the two page counts differ because the typesetting changed, not the text.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. `AGENTS.md` and the pre-commit hook's pass message, both of which still described the byte-for-byte join, were corrected in `d2f57d8` with the author's explicit approval, as that file requires.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -48,14 +48,25 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-`manuscript/sections/` — **158 sections** (the 156 body sections, chapters
-1-10, plus P5's two new front/back-matter sections, §0 and §11 — see "P5,
-accepted" below), one file each, nothing deeper than three levels.
-`manuscript/parseable_text_v4.txt` is the join and must always match byte
-for byte. `manuscript/parseable_text_v3b_2024-07-07.txt` is the frozen 2024
-text, pinned by digest.
+**Current as of 2026-08-25, after D-067.** `manuscript/sections/chNN/*.tex` —
+**162 sections**, chapters 0 through 11, one `.tex` file each, nothing deeper
+than three levels; `book.tex` is the master, `sections.tex` the generated
+`\input` list. **92,692 words** by `section_stats.py`, regenerated 2026-08-25
+(`finishing/reports/section_stats.tsv`). The committed proof is the 193-page
+LaTeX build described in the header, rebuilt after D-067. `manuscript/parseable_text_v4.txt` and
+`manuscript/parseable_text_v3b_2024-07-07.txt` are both frozen, guarded by
+`check_frozen.py`; neither is a build artifact any longer. Ledger: 146 sections
+`accepted`, 16 `drafted` — chapter 3 entire (§3 and §§3.1–3.7), §7, §7.1, §7.3,
+§7.4, §8.7, §8.7.10, §9.1.6, §9.1.7 — none of which the author has read since
+P11, P19 or P20 rewrote it. The three sections D-067 split out of 8.7.6
+(§§8.7.7–8.7.9) carry 8.7.6's `accepted` because their text is 8.7.6's text.
 
-76,949 words total as of the last `section_stats.py` run (74,148 of that in
+**The paragraphs below this line are the 2026-08-23 record of the P3 pass and
+are kept as history; their section and word counts are not current.**
+
+The book then had 158 sections (the 156 body sections, chapters 1-10, plus
+P5's two front/back-matter sections, §0 and §11 — see "P5, accepted" below).
+76,949 words total as of that day's `section_stats.py` run (74,148 of that in
 the 156 body sections, 2,801 in §0 and §11 — one word shorter than at P5
 acceptance: a P6 tic-lint edit to §2.2.1, below). The 156-section figure is down
 from ~113,000 before P3 started, because P3 is cutting real duplication
@@ -1111,13 +1122,18 @@ table and the run-in heads hold. The rest was not read.
 
 ## The immediate open items
 
-**`finishing/QUESTIONS.md` was refreshed 2026-08-24 and is current as of P10.**
-It carries the three live items that are not visible anywhere else: **Q-014**,
-the fifth review's chapter-6 length item, which was analyzed and never scoped and
-is neither done nor declined; **Q-015**, whether `check_all.sh` should run from a
-pre-commit hook, which needs author approval under `AGENTS.md`; and **Q-016**,
-that §2.1.5 quadrupled in one day and is unread. Q-011 is closed retroactively —
-its default had been applied without being recorded.
+**`finishing/QUESTIONS.md` is current as of D-060 and carries the live items:**
+Q-018 (chapter 8's compression, only partly implementable), Q-020 (§8.7.4 opens
+on a forward pointer), Q-023 (where the substrate material lives) and Q-024
+(whether corpus provenance belongs in chapter 7 too). Each has a default that
+has already applied. Q-014, Q-015, Q-016, Q-019, Q-021 and Q-022 are resolved
+and listed there under "Resolved". The other standing open item is the 16
+`drafted` ledger rows named under "Where the book is" above, which the author
+has not read.
+
+**The bullets below are the 2026-08-24 snapshot, kept as history.** P8, P9 and
+P10 have since been overtaken by P11 through P20; the proof they call stale has
+been rebuilt twice since (P20, then the LaTeX build at D-066).
 
 
 - **P10 is drafted and unread**, and P9 and P8 before it. The proof committed at
@@ -1193,15 +1209,19 @@ handed off rather than a live punch list.
 
 | File | What |
 |---|---|
-| `finishing/DECISIONS.md` | D-000…D-022, append-only. **Read before assuming anything.** |
+| `finishing/DECISIONS.md` | D-000…D-066, append-only. **Read before assuming anything.** |
 | `finishing/PLAN.md` | the passes, their entry/exit criteria |
-| `finishing/p8-scope.md` | P8: the four items, what was declined, and the review's errors |
+| `finishing/QUESTIONS.md` | the open items for the author, each with a default and when it applies |
+| `finishing/pipeline.md` | the LaTeX build: what is installed, the command, the source layout |
+| `finishing/p7-scope.md` … `p20-scope.md` | one per review-response pass: the items, what was declined, and the review's errors |
+| `finishing/reviews/` | the source text of the editorial reviews that survive, read-only |
+| `finishing/refs.bib` | the bibliography, 282 entries, reached by `\autocite{key}` |
 | `finishing/style.md` | the operative spec for P3 — voice, tics, run-in heads, boxes, citations |
 | `finishing/transplants.md` | the 16 transplants: source lines, targets, register edits |
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 534 rows |
+| `finishing/reports/claims.tsv` | the claims ledger, 574 rows, mapped to `refs.bib` by the `bib_key` column |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start**; also runs from `.githooks/pre-commit` (D-045) |
 
@@ -1788,3 +1808,61 @@ the glossary were inspected, and the other 149 pages were not.
 **Where the plan itself lives.** `finishing/reviews/revision-plan-for-p20_2026-08-25.md`.
 It arrived as a temporary file, and the D-048 precedent is that the input to a
 pass belongs in the repository beside the record of what was done with it.
+
+## P23 — the four open questions ruled; section 8.7.6 split, 2026-08-25 (D-067)
+
+The author asked for the live items in `QUESTIONS.md` in plain language and
+ruled on all four: Q-018 (a) "and the split," Q-020 (b), Q-023 (a), Q-024 (a).
+No question is open.
+
+**The split.** Section 8.7.6, "The Geopolitics of Ethical AI," was 4,882 words
+under seven run-in heads — the longest section in the book and the one place
+where the table of contents hid a chapter's worth of structure. It is now four
+sections along those heads: 8.7.6 "AI as a Strategic National Asset" (910
+words), 8.7.7 "Military Applications and the Limits of Autonomy" (1,603, with
+the vendor run-in inside it), 8.7.8 "International Governance and Diverging
+National Rules" (1,590), and 8.7.9 "Equity and the Digital Divide" (783, with
+the closing run-in). Old 8.7.7, "What the Democratic Dividend Leaves Out," is
+8.7.10. Four rather than the two or three the walkthrough offered, because any
+coarser grouping left one section over 2,300 words with three run-in heads,
+which is what the split was for. Nothing was cut. Three sentences changed, each
+because it had pointed within the section and now pointed across a boundary;
+D-067 lists them. The concatenation of the four new files was diffed against the
+old file and the difference is those three lines, the headings, the labels, and
+one renumbered pointer.
+
+**The references.** A split manufactures D-050's failure class — a reference
+that resolves to a section no longer saying what the citing sentence claims —
+at every inbound pointer, so all 24 references to the old pair were read
+against their sentences and placed: 10 to 8.7.8, 3 to 8.7.7, 3 to 8.7.9, 6
+kept at 8.7.6, the 8.7 tree opener rewritten to name all five, and the 11
+references to old 8.7.7 carried to 8.7.10 by label rename. D-066 made this
+safe: the printed numbers are LaTeX's, and `check_xrefs.py` reports 773
+references resolving against 162 labels.
+
+**Q-020.** Section 8.7.4's opening sentence now states the four regimes'
+divergence in its own words and carries the pointer to the comparison, 8.7.8,
+as a parenthetical. One sentence.
+
+**Q-023 and Q-024.** Defaults confirmed; no text changed.
+
+**Checked.** `check_all.sh` green on all six checks. The proof was rebuilt:
+193 pages, the same count as before, no undefined references, and committed
+over `finishing/reports/whole-book-proof_2026-08-25.pdf`. Seven pages were
+looked at as images — the 8.7 opener, 8.7.2's repointed sentence, and each of
+the five headings from 8.7.6 to 8.7.10 — and the other 186 were not.
+
+**Found on the way, not fixed.** `finishing/tools/xref_content.py` still globs
+`.txt` section files and reports zero references scanned; D-065 retired the
+dialect tools but left this one in `tools/` unported. The content audit above
+was therefore done by hand, and the tool needs porting before it can be used
+again. Separately, the ledger row for section 2.4.1 changed on disk without
+changing in content: it carried a stray unescaped quote from an earlier
+append, and the CSV round-trip that added the new rows normalized it. Verified
+equal with quote characters removed.
+
+**Not accepted.** Standing rule 1 is unaffected. The three new sections carry
+8.7.6's `accepted` status because their text is the text the author accepted
+on 2026-08-23, with D-060's permitting paragraph in 8.7.6 still unread; the
+rewritten sentence in 8.7.4 and the three transition sentences have not had
+the author's read either.

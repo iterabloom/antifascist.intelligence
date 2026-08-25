@@ -45,7 +45,7 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
 | `manuscript/book.tex` | master. Hand-edited. |
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
-| `manuscript/sections/chNN/*.tex` | one file per section, 159 of them. The prose. |
+| `manuscript/sections/chNN/*.tex` | one file per section, 162 of them. The prose. |
 | `finishing/refs.bib` | 282 entries, reached from the manuscript by `\autocite{key}`. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
