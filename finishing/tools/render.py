@@ -148,7 +148,7 @@ def main():
     if out_path:
         with open(out_path, "w", encoding="utf-8") as f:
             f.write(doc)
-        print("wrote %s (%d sections, %d bytes)" % (out_path, len(order), len(doc)))
+        print("wrote %s (%d sections, %d bytes)" % (out_path, len(order), len(doc.encode("utf-8"))))
     else:
         sys.stdout.write(doc)
 

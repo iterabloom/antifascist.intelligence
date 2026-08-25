@@ -1362,3 +1362,18 @@ hand read in `p13-scope.md` §5, and it has to be redone after any renumbering.
 bytes smaller than the file on disk. Confirmed pre-existing — the same gap is
 present at the previous commit — so it is not something this pass introduced.
 I did not determine what it normalizes away.
+
+## The 1,919-byte discrepancy, resolved 2026-08-24 (D-047)
+
+Not a real discrepancy. `check_roundtrip.py` printed a **character** count under
+the label "bytes" — `len()` on a `str` decoded from UTF-8. The difference is
+exactly the book's multi-byte characters, dominated by 891 em dashes at two
+extra bytes each; every one of the 1,919 is accounted for, with no remainder.
+
+**The round-trip invariant was never weakened.** The comparison hashes the
+UTF-8-encoded form on both sides, so it was always byte-exact; only the printed
+number was wrong. `render.py` carried the same mislabel on its HTML size.
+`join_manuscript.py` was already correct — the disagreement between its number
+and the checker's is what made the bug visible at all.
+
+All four counts now measure encoded bytes and agree with `ls`.

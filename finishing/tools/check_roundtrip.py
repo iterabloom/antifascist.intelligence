@@ -47,8 +47,10 @@ def main():
     if hw != hg:
         wl, gl = want.splitlines(), got.splitlines()
         print("MISMATCH ref=%s" % os.path.relpath(ref, common.REPO))
-        print("  ref  %d bytes %d lines  %s" % (len(want), len(wl), hw))
-        print("  join %d bytes %d lines  %s" % (len(got), len(gl), hg))
+        print("  ref  %d bytes %d lines  %s"
+              % (len(want.encode("utf-8")), len(wl), hw))
+        print("  join %d bytes %d lines  %s"
+              % (len(got.encode("utf-8")), len(gl), hg))
         for i in range(min(len(wl), len(gl))):
             if wl[i] != gl[i]:
                 print("  first differing line %d:\n    ref:  %r\n    join: %r" % (i + 1, wl[i], gl[i]))
@@ -57,7 +59,7 @@ def main():
     if not ok:
         sys.exit(1)
     print("round-trip OK: join(sections) == %s (%d bytes, sha256 %s); v3b still frozen"
-          % (os.path.relpath(ref, common.REPO), len(want), hg[:16]))
+          % (os.path.relpath(ref, common.REPO), len(want.encode("utf-8")), hg[:16]))
 
 
 if __name__ == "__main__":
