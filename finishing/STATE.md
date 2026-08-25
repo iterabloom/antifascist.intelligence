@@ -1475,3 +1475,56 @@ chapters 2 and 6 also above the 4.63 band — the same shape as Q-017, in chapte
 no tic pass has swept. The figure comes from an ad-hoc regex, not the project's
 D-025 measure (it reads chapter 5 at 1.61 against D-044's 1.23), so the ranking
 is the finding and the absolute number is not. Left for a D-025 pass.
+
+## Two stranded pointers, and the seam that is still open, 2026-08-24 (D-052)
+
+A critique put to the author: **chapter 3 is the book's argument and chapters 4-6
+do not know it exists.** Checked against the text. Substantially right; two of its
+specifics wrong.
+
+**What holds.** Chapter 1 bills chapters 4 and 5 as "the learned half that sits
+above that floor" and says the design chapters "lean on all three" arrivals. The
+word *floor* appears **0 times in chapter 5, 0 in chapter 6**, and once in chapter
+4 in an unrelated sense (the memory-span figure); chapter 3 uses it 20 times and
+chapter 8 26. The two references chapters 4-5 do carry both point *out* of the
+design chapters rather than leaning on the floor.
+
+**What does not.** Chapters 4-5 carry two references to chapter 3, not one —
+§4.1.2 → §3.4 as well as §5.6.3. My own first sweep missed it by grepping
+case-sensitively for a capital-S "Section"; worth remembering, since the book
+uses both cases. And chapter 6 is **one hop** from the floor, not unconnected:
+`06_03.txt` links to §5.6.3 four lines above its own kill-switch paragraph, and
+§5.6.3 links on to chapter 3.
+
+**Fixed here, and only this.** The author's scope ruling was Tier 1 — the pointers
+that are defects, nothing that takes a judgment. The same P11 split that produced
+D-051 stranded two of them. Chapter 3's opener cited §8.7.6 for a conclusion that
+travelled to §8.7.7; chapter 1 cited §8.7.6 for the democracy argument, which is
+§8.7.7's. Both repointed. §8.2.2's pointer in the same chapter-1 sentence was
+checked and is sound.
+
+**I claimed §8.7.6 had lost a P10 cross-link. It had not.** The link travelled
+into §8.7.7 with the sentence carrying it, correctly renumbered. All three
+arrivals still link back to chapter 3; the third arrival is now §8.7.7. The
+defect is in the sections *citing* them, not in the arrivals.
+
+**This is D-050's failure class, created by P11 and missed by P14** — and the miss
+was structural, not careless. P11 verified that every reference *resolved*, which
+these did. `xref_content.py` flags on proper nouns, acronyms and years, and the
+citing sentence has none: "vendor" and "targeting pipeline" are common nouns. That
+is exactly the mesh size D-050 documents, and it let a wrong pointer sit in the
+opener of the book's pivot chapter. **A section split can strand a pointer the way
+a section cut can strand evidence** (P14's §10.1.1 finding). Neither check sees it.
+
+**Left open, deliberately.** Q-021: §3.6 is titled "What Follows for the Rest of
+the Book" and closes the bearer/sufferer argument instead — an artefact of P11
+promoting old §2.1.5 whole, **text unchanged**, so a run-in head's title became a
+section's. The author's preferred repair is (a), retitle; recorded as the default,
+not applied, because it falls outside Tier 1. Q-022: the seam itself. **Not
+previously argued** — P10 diagnosed the same collision (`p10-scope.md:59-69`) but
+fixed it with the floor chapter plus arrival cross-links; making the design
+chapters lean on the floor was never scoped, declined, or deferred.
+
+**Not checked.** Whether the same split-stranding class exists elsewhere. Only the
+pointers into §8.7.6/§8.7.7 and §8.2.2 were read against their targets; P11 split
+and merged other sections, and those citations were not audited.

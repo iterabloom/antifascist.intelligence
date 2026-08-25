@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-24, after P14 and D-050.** For orientation read
+**Current as of 2026-08-24, after D-052.** For orientation read
 `finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
@@ -84,6 +84,78 @@ cost of reading linearly (D-037) — in a place that pass did not reach.
   because of.
 
 *Default applies now; (b) is the low-cost option if the author wants it fixed.*
+
+---
+
+### Q-021 — §3.6's title promises what its body does not do
+
+Chapter 3 was promoted whole from old §2.1.5 with **text unchanged** (P11,
+`p11-scope.md:159`), and split at its own run-in heads. §3.6, "What Follows for
+the Rest of the Book," was one of those heads. Inside §2.1.5 the title was
+accurate: what followed §2.1.5 was the rest of the book. At chapter rank it now
+reads as chapter 3's forward-facing close, and the body is not that — all three
+paragraphs look backward, closing the bearer/sufferer argument against §2.4.4's
+consent finding and §2.4.1's caveat.
+
+The forward work does get done, in the **chapter opener** (`ch03/03.txt`), which
+names the three arrivals and states the collision: "The design chapters build the
+thing chapter 8 and chapter 10 say is insufficient, having already dismissed the
+thing they say is necessary." So nothing is missing from the chapter. What is
+wrong is that one section's title points a reader at a section that does not
+contain what the title promises.
+
+- **(a) Default — retitle §3.6 to name the bearer argument it closes.** Changes
+  no prose, removes the false promise, costs one heading line. The chapter keeps
+  its forward-facing work where it already lives, in the opener. Note the retitle
+  regenerates the TOC (`headings.py --write-toc`) and touches `outline.tsv`.
+- (b) Add a §3.7 that faces forward, keeping §3.6 as it is. Gives the chapter a
+  genuine close; adds new material to a chapter the author has not yet read at
+  chapter rank.
+- (c) Fold the bearer close into §3.5 and rewrite §3.6 to do what its title says.
+  Most coherent editorially, most invasive — it rewrites text P11 moved unchanged.
+
+*Author's answer 2026-08-24: (a) is the preferred repair, recorded as the default
+rather than applied, because the scope call was Tier 1 only. Applies at the next
+pass that touches chapter 3.*
+
+---
+
+### Q-022 — The design chapters do not lean on the floor the introduction says they do
+
+Chapter 1 bills chapters 4 and 5 as "the learned half that sits above that floor"
+and says "a reader should carry all three through the design chapters, **because
+the design chapters lean on all three**." Measured against the text:
+
+- The word *floor* appears **0 times in chapter 5, 0 in chapter 6**, and once in
+  chapter 4 in an unrelated sense (the seven-plus-or-minus-two memory figure).
+  Chapter 3 uses it 20 times, chapter 8 26 times.
+- Chapters 4–6 carry **two** references to chapter 3 in total: §4.1.2 → §3.4 (on
+  machine testimony) and §5.6.3 → chapter 3. Both are of the "this became
+  load-bearing elsewhere" type — pointers *out*, not chapters leaning *on*.
+- Chapter 6 names neither chapter 3 nor the floor. It is one hop away: `06_03.txt`
+  links to §5.6.3 four lines above its own kill-switch paragraph, and §5.6.3 links
+  on to chapter 3. Routed, not isolated.
+
+The sharper form of the complaint is that §5.6.3 is an *arrival at* the floor, not
+an *application of* it — so adding pointers would satisfy the letter of chapter 1's
+promise without its substance.
+
+**Not previously argued.** P10 diagnosed this collision in the same terms
+(`p10-scope.md:59-69`, "chapters 3 and 4 — 30.3% of the book, measured — build
+learned judgment instead") but its fix was the floor chapter itself plus
+cross-links among the three arrivals. Making the design chapters lean on the floor
+was never scoped, declined, or deferred.
+
+- **(a) Default — leave it and soften chapter 1.** Change "lean on all three" to a
+  claim the body supports. One sentence; no design-chapter work.
+- (b) Forward-pointers at §4.1, §5.1 and §6.3. Satisfies the letter. Note §6.3
+  already links to §5.6.3, so that one is a redirect, not a new pointer.
+- (c) Open a P15 pass that makes the design chapters actually use the floor. This
+  is writing, and the largest option by a wide margin; D-007 governs how far it
+  can go.
+
+*Default applies now. (c) is the only option that makes chapter 1's sentence true
+as written.*
 
 ---
 
