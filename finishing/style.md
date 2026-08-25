@@ -215,6 +215,13 @@ Four corollaries, three of them section 2's own:
   spends a clause on the wrong answer in a report exactly as it does in the book.
 - **Do not open with a scorecard.** "Right that X, wrong that Y, and Z unpriced"
   makes the reader parse a verdict before reaching anything checkable.
+- **Do not cite the work already done as context for the work outstanding.**
+  "Chapter 4 was cut 29.9% in P11 and these sections survived it" offers the
+  reader a credit they did not ask for and cannot act on. A reader does not care
+  what they were saved from. They care what they were not saved from. Prior
+  passes belong in a finding only where they are the cause of the defect --
+  P11's split stranded a pointer, P11's cut stranded five citations -- and there
+  the pass is named as the mechanism and not as a mitigation.
 
 A rule from section 1 that belongs here too, because it applies to the book and
 to reports alike (D-055): **specify what a demonstrative refers to.** In
