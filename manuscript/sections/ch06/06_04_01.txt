@@ -13,7 +13,7 @@ Authoritarian misuse of AI is not one problem but several, spread across surveil
 
 6. Repurposed dual-use systems: turning AI infrastructure built for one purpose toward surveillance or population control instead — a recommendation algorithm designed to hold attention retuned to amplify a regime's preferred narrative, an image-recognition system built for one task redirected to track protesters. Section 5.4.6 develops the underlying point.
 <</list>>
-Each of these needs a different countermeasure — a system built to resist mass biometric surveillance does not need the same safeguards as one built to catch a fabricated recording — which is why 5.4.2 and 5.4.3 treat the technical and policy responses separately rather than as one general call to do better.
+Each of these needs a different countermeasure — a system built to resist mass biometric surveillance does not need the same safeguards as one built to catch a fabricated recording — which is why sections 6.4.2 and 6.4.3 treat the technical and policy responses separately rather than as one general call to do better.
 
 <<h>>The party missing from that list<</h>>
 Read the six together and a pattern emerges that I want to name before it hardens into an assumption. In every one of them the authoritarian state builds and the democracies regulate. That taxonomy is comfortable and it is wrong, and leaving it uncorrected would let this chapter's argument rest on a flattering premise it has not earned.

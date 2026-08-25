@@ -49,6 +49,7 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `check_all.sh` | Every invariant below. Run at session start; **run automatically by `.githooks/pre-commit`**, which refuses the commit on failure (D-045). It reads the working tree, not the index, so a partial commit is checked against the tree on disk; `git commit --no-verify` bypasses |
 | `check_roundtrip.py` | `join(sections)` is byte-identical to the reference |
 | `check_structure.py` | Heading/filename agreement, glob order, tag balance, ledger row parity |
+| `check_xrefs.py` | Cross-references resolve, and every one is prefixed with `section`/`chapter`/`§` so a renumber script can see it (D-046). Does **not** check that a resolving reference is the right one |
 | `names_guard.py` | Enforces the named-persons rule (see below) |
 | `split_manuscript.py` / `join_manuscript.py` | Split and rebuild |
 | `outline_extract.py` | Seeds `outline.tsv` from the spreadsheet's column A only |

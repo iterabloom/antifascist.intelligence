@@ -1329,3 +1329,36 @@ partial commit is validated against the tree on disk, which is not necessarily
 what is being committed. `git commit --no-verify` bypasses the hook for a tree
 that is knowingly mid-repair. `.githooks/test_hooks.sh` exercises `commit-msg`
 only; it was not extended to the new hook.
+
+## P13 — the cross-reference audit, 2026-08-24 (D-046)
+
+The author supplied ten suspected broken cross-references and asked if the list
+was accurate. It was accurate in all ten, and the cause is mine: **D-043's
+renumber script matched only on `section`/`chapter`/`§` before a number**, so
+bare numbers were invisible to it, and **the verification I ran afterwards only
+checked that each reference resolved** — which a stale number naming a real
+section does. I reported that pass as verified. It was not, and the claim is
+withdrawn.
+
+Eleven defects fixed, plus one precision fix (§9.1.6's "section 8.6" → §8.6.4,
+matching the eight other citations of the slope argument). All 499
+cross-references were then read against their targets; nothing further was wrong.
+Sixteen correct-but-bare references were prefixed, so the whole book is now
+legible to a renumber script.
+
+**One flagged defect was not a defect.** I reported §6.4.3's "Partnership on AI
+(section 5.6.3)" as broken, changed it, then found §5.6.3's safeguards list does
+name the Partnership on AI — "one existing venue," which the citing sentence
+echoes with "another such venue." Reverted. A repair made on a false premise is
+the same error class as the defect it was meant to fix, which is why it is here
+and in D-046 rather than quietly dropped.
+
+**New invariant:** `check_xrefs.py` runs in `check_all.sh` and fails on a
+dangling or a bare reference. Both modes were exercised by injection. It cannot
+tell whether a resolving reference points at the *right* section; that is the
+hand read in `p13-scope.md` §5, and it has to be redone after any renumbering.
+
+**Noticed and not chased:** `check_roundtrip.py` reports the manuscript 1,919
+bytes smaller than the file on disk. Confirmed pre-existing — the same gap is
+present at the previous commit — so it is not something this pass introduced.
+I did not determine what it normalizes away.

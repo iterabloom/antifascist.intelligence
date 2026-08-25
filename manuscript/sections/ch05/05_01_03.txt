@@ -12,7 +12,7 @@ Three methods do this work:
 3. Value-driven alignment: building humane values like empathy and fairness directly into an AI system's decision-making puts what its mentors care about at the center of its choices.
 <</list>>
 
-Case- and scenario-based instruction — the same approach chapter 2.1.3 lists among its six strategies for resolving value trade-offs — is what makes this concrete: real ethical problems are what teach a system to apply a principle. Abstract rule tests teach it to cite one.
+Case- and scenario-based instruction — the same approach section 2.1.3 lists among its six strategies for resolving value trade-offs — is what makes this concrete: real ethical problems are what teach a system to apply a principle. Abstract rule tests teach it to cite one.
 
 Carrying this weight requires more than a mentorship pipeline; it requires an architecture where moral reasoning, intuition, and emotional response are integrated and not bolted together, which is the design problem section 4.1.2 takes up directly.
 
