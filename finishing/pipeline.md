@@ -49,7 +49,12 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
 | `finishing/refs.bib` | 282 entries, reached from the manuscript by `\autocite{key}`. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
-`refresh_order_shas.py`; `check_all.sh` fails if either is stale.
+`refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
+have to chase the cross-references: since D-066 they are `\ref{sec:N}`, so LaTeX
+regenerates every printed number. Write new ones the same way —
+`section~\ref{sec:8.7.7}`, with the tie, so the reference cannot break across a
+line — and `check_xrefs.py` will tell you if a number gets typed into the prose
+by hand.
 
 ## Things worth knowing
 

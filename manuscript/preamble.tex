@@ -32,3 +32,10 @@
                \setlength{\parindent}{0pt}},
 }
 \newcommand{\boxtitle}[1]{{\bfseries #1}\par\smallskip}
+
+% Front and back matter are \chapter*, which does not set \@currentlabel, so a
+% plain \label after one captures whatever number was last set -- silently
+% wrong. This pins the printed value, so \ref{sec:0} really yields 0.
+\makeatletter
+\newcommand{\unnumberedlabel}[2]{\begingroup\def\@currentlabel{#2}\label{#1}\endgroup}
+\makeatother

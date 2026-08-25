@@ -1,6 +1,6 @@
 \subsection{Balancing Data Privacy, AI Innovation, and Antifascist Goals}
 \label{sec:8.5.1}
-AI systems need data to learn, and the data they need often includes exactly the information people most want to keep private. Differential privacy is one working answer, and section 6.4.2 sets out how it and federated learning work; Apple's iOS implementation, covered in section 5.6.3, is a deployed example \autocite{apple2017privacy}.
+AI systems need data to learn, and the data they need often includes exactly the information people most want to keep private. Differential privacy is one working answer, and section~\ref{sec:6.4.2} sets out how it and federated learning work; Apple's iOS implementation, covered in section~\ref{sec:5.6.3}, is a deployed example \autocite{apple2017privacy}.
 
 Federated learning solves a related problem differently: instead of centralizing raw data at all, it trains a model across many devices, where each device computes an update locally and only that update — not the underlying text or images — gets sent back and aggregated. Google's Gboard keyboard uses this to improve next-word prediction from what people type, without collecting their raw keystrokes on a central server \autocite{hard2018federated}.
 

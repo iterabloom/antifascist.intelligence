@@ -20,7 +20,9 @@ SECTION_RE = re.compile(r"^(\d+(?:\.\d+)+)\.\s+(.+)$")
 # opens with its heading command and then its label; the number lives in the
 # label, because LaTeX generates the printed number itself.
 TEX_HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?\{(.*)\}\s*$")
-TEX_LABEL_RE = re.compile(r"^\\label\{sec:([\d.]+)\}\s*$")
+# \label for numbered sections; \unnumberedlabel for the starred front and
+# back matter, which pins the printed value (see preamble.tex).
+TEX_LABEL_RE = re.compile(r"^\\(?:label|unnumberedlabel)\{sec:([\d.]+)\}")
 
 
 def parse_heading(line):
