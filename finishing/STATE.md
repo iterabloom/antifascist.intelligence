@@ -1593,3 +1593,46 @@ Buys."
 
 **Not checked.** Whether P11's other splits and merges stranded pointers elsewhere.
 This sweep covered §8.7.6/§8.7.7 only, because that is the pair D-052 opened.
+
+## P18 — three defect-class repairs in chapters 4-6, 2026-08-24 (D-059)
+
+A critique held that chapters 4 and 6 carry sections that cannot state a design
+consequence, measured against section 4.1.2's own standard. The core holds. Three
+things in it do not.
+
+**Sections 5.5.1-5.5.3 were named and do not fit.** Ten citations between them, a
+dated box, and three claims that were falsified and cut during P3. What is fair
+about them is that they state no design consequence, which is Q-022's subject and
+a writing task.
+
+**The page figure is off by a factor of four.** The named sections total 2,574
+words; at the proof's 613 words per page that is 4.2 pages, against 15-20 claimed.
+A book-wide sweep might reach that figure and was not run.
+
+**Section 6.2.1's stated reason fails.** "Any reader of this book already has it"
+collides with D-002's audience. The case for cutting it is that the book never
+uses it.
+
+**What was repaired.** Section 4.2.4's self-audit sentence, which said unsupervised
+techniques give a system "an introspective capacity that is a step toward a system
+able to regulate itself" — section 4.1.2 says bias cannot be caught by asking the
+system, section 2.4.1 says self-report is not evidence, section 3.4 says the
+scaffolding has to come from outside. Deleted, not replaced. Forward pointers from
+sections 4.2.5 and 5.4.6 to section 9.1.6, which opens by naming the assumption
+"chapters 4, 5 and 6 then assume, in several places" and had no inbound reference
+from any of those three chapters. Section 6.3.2's six-item closing list, deleted.
+
+**D-052's class inverted.** That was a pointer stranded by a split. This is a
+pointer never written, where the receiving section asks for it in its own first
+paragraph. Neither `check_xrefs.py` nor `xref_content.py` can see the second kind:
+both start from references that exist.
+
+**Left with the author.** Section 4.2.4's remaining premise — ethical distinctions
+derived from structure in aggregate moral judgment, which chapter 3's opener,
+section 8.2.2 and section 8.7.7 say cannot yield a floor. The section hedges it
+once and the repair is not a sentence edit. Section 4.2.5's missing evidence and
+section 6.2.1 are also open.
+
+**Not checked.** Which other sections in chapters 4-6 are the "several places"
+section 9.1.6 means. Two were repaired because they are the clearest; the set was
+not enumerated.
