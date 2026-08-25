@@ -1779,5 +1779,12 @@ and edits in eleven other sections.
 interlocutors — Winner, Arendt, O'Neil, Whittaker — is not implemented. The
 glossary is unnumbered in the built book and still numbered in the source and the
 TOC, because the dialect's parser requires a chapter number and D-042 enforces
-the TOC against regeneration. The build artifacts were not regenerated. The
-tic-density band was checked for chapter 3 only.
+the TOC against regeneration. The tic-density band was checked for
+chapter 3 only. The whole-book proof **was** rebuilt at 2026-08-25 (159
+sections, 153 pages) and the 2026-08-24 trio removed; the pages carrying the
+inversion, the corrected Maven box, section 7.4, section 2.3.2's dated box and
+the glossary were inspected, and the other 149 pages were not.
+
+**Where the plan itself lives.** `finishing/reviews/revision-plan-for-p20_2026-08-25.md`.
+It arrived as a temporary file, and the D-048 precedent is that the input to a
+pass belongs in the repository beside the record of what was done with it.
