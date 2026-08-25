@@ -13,7 +13,7 @@ manuscript/sections/ch02/02_01_04.txt	2.1.4	Antifascist Ethics for AI Alignment	
 manuscript/sections/ch02/02_02.txt	2.2	Empathy, Social Intelligence, and Theory of Mind	e28d30b0f30da342cf8bdd3f2b1cfd8ebbd2d2967e078c2ec482affe7656297d
 manuscript/sections/ch02/02_02_01.txt	2.2.1	The Role of Empathy and Compassion in Human Social Behavior	b050078d1d5f205d6426a6ce582bb690137e1bfe46996521307992cad2d4c222
 manuscript/sections/ch02/02_02_02.txt	2.2.2	Theory of Mind and Perspective-Taking in AI Systems	76cf736128826611964c50eecdff1bacc061fa7a950ee374a130f6e894ef30e0
-manuscript/sections/ch02/02_02_03.txt	2.2.3	Socially-Aware AI: Opportunities and Challenges	1e5d860b45c48fe3194df8ffcd24d3e88197dccd8050abde6e0e5bcd154d3bdf
+manuscript/sections/ch02/02_02_03.txt	2.2.3	Socially-Aware AI: Opportunities and Challenges	5e881ea286930bf794965208c8ac112b9f56223fd1d7f459b2736358c0c2f248
 manuscript/sections/ch02/02_03.txt	2.3	Emotional Intelligence and Self-awareness	7b2f0539552cfc257f86ec81cd202001bcc15df8cf3871ce74585992ace69a9f
 manuscript/sections/ch02/02_03_01.txt	2.3.1	Components of Emotional Intelligence	239dc21ddd5cbbb25f6006c17109e05535118d6964c6cd6c1803e1d81f49deb6
 manuscript/sections/ch02/02_03_02.txt	2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	32365b975cae0b7b2d99ac6c012760fe39a0f69813b950a0e048c935390980f2
@@ -53,9 +53,9 @@ manuscript/sections/ch05/05.txt	5	Moral Psychology and AI	0c13ddd8640e4fed778734
 manuscript/sections/ch05/05_01.txt	5.1	Moral Development in Humans and AI	ff2baf354e2413a5df84093e2f5e600786c3696a578e8512df4302dd49f242c5
 manuscript/sections/ch05/05_01_01.txt	5.1.1	Rules, Principles, and the Role of Mindset	5f9058149deec724b0fa9b34586a221367f25b343fb34379d6df4123618db6c1
 manuscript/sections/ch05/05_01_02.txt	5.1.2	Social Interaction and Moral Learning	cf55bd3e23cb0c69b9bb46f86258236740132dbe69929c240d1e2393667ca8a9
-manuscript/sections/ch05/05_01_03.txt	5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	c1d93d3fa44fee35e80ad983337ee3f2eeba64cb76573e6acc27d7da641ccd31
+manuscript/sections/ch05/05_01_03.txt	5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	cfa0eb89ac04b402abf02ffd06e12d4d0566cdf501a6aa89cb3ce14e291e86bb
 manuscript/sections/ch05/05_01_04.txt	5.1.4	Human Dignity, and One Indicator That Can Be Audited	0e6206f31e48141ba571c81648ff94c967d49467be24fe4ecba9a859a98d80c2
-manuscript/sections/ch05/05_02.txt	5.2	Emotions and Intuitions in Moral Decision-Making	9d92fe51d9188789a230036067fe267b4106b62b76b73e0f6a53d84ca2ecbe6d
+manuscript/sections/ch05/05_02.txt	5.2	Emotions and Intuitions in Moral Decision-Making	29e54c340f95da58853c7c9871e864b3996a116043cd5af0a166baff6497e9e0
 manuscript/sections/ch05/05_02_01.txt	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	10edae13c41844339c7110a1e1c2717bab1acd84c0811f6f02271acbe7d3f020
 manuscript/sections/ch05/05_02_02.txt	5.2.2	Assessing and Developing AI Emotions	936fce8b1207f3df21affc1fc5fe4f316abf10bb0463c9b6c3e0ca257743c935
 manuscript/sections/ch05/05_02_03.txt	5.2.3	AI Systems Recognizing and Responding to Moral Emotions	6e6d1fa3b0a33715f8099e53819bfb5765dc077c68402f465a1b58eef0ff6586
@@ -65,7 +65,7 @@ manuscript/sections/ch05/05_03_01.txt	5.3.1	Two Systems, or One? Dual-Process Th
 manuscript/sections/ch05/05_03_02.txt	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	0772cfb3c09fc3f9efc6fbf3ba1e6bdc212841357e8417a9e94678ba8f571dee
 manuscript/sections/ch05/05_03_03.txt	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	574d3a1b0816153d43a16d70358d81ac495862fc83251b66c3ba655d655a5db1
 manuscript/sections/ch05/05_04.txt	5.4	Moral Ecosystem Approach in AI Development	d3b683bc48fcc5556c26e1bf31a58bbfd11b4c74747d2c71d33faf553a919b29
-manuscript/sections/ch05/05_04_01.txt	5.4.1	Applying the Moral Ecosystem Approach to AI Development	f5aae5f1af46a78ecba52ece806f6c257fe4da2774cddbaad85f7465d03bab61
+manuscript/sections/ch05/05_04_01.txt	5.4.1	Applying the Moral Ecosystem Approach to AI Development	a7c0954a9edea413aabe30eb81f5f8621b95b59429ced76c9a4aca88867c8feb
 manuscript/sections/ch05/05_04_02.txt	5.4.2	Microsystem Interactions and AI Moral Learning	78dc2f19a734d5986726ad011f9e49ac16361179c4fe6224de7064891b66f308
 manuscript/sections/ch05/05_04_03.txt	5.4.3	Mesosystem and Exosystem Influences on AI Alignment	559cea871a0c41f2112b84e29381686f3f150f82351b902646ce1c5d1ceeb401
 manuscript/sections/ch05/05_04_04.txt	5.4.4	Macrosystem Influences on AI Development and Employment	92cdd96b28b075340f16731ea1abd9fbc9f643375b9522f60904ff2caa892ac6
@@ -78,9 +78,9 @@ manuscript/sections/ch05/05_05_03.txt	5.5.3	Strategies for Encouraging Collabora
 manuscript/sections/ch05/05_06.txt	5.6	Motivation in AI Systems	2ad1e2218a4a005857e898e39a43a1573630e44d694b28f3706991bbc82dd2e0
 manuscript/sections/ch05/05_06_01.txt	5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	6dc1d89e3b3402a94f859d267fadba5fd182288815a4648c96c358fda0f33eaa
 manuscript/sections/ch05/05_06_02.txt	5.6.2	Developing Motivationally-Aware AI Systems	1b15764a439daab56a6a4044a24f3d82323aa05b8b96a55d6566b7970fd21bb9
-manuscript/sections/ch05/05_06_03.txt	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	1fe634e7573ff95e8412f30f6f60eb01ad9714a13412cfaba389612f1f1e48c1
+manuscript/sections/ch05/05_06_03.txt	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	a872fd8be3810dcde625051ba30e8d0e80389c2492fdaee3a8c2c1d4d4aa2ffa
 manuscript/sections/ch05/05_07.txt	5.7	Play, Exploration, and Moral Development in AI	10893bbd46c4434a4c38bce9c934b035821c10c2a68bda17004c1598b475bf4e
-manuscript/sections/ch05/05_07_01.txt	5.7.1	The Role of Play in Moral Learning and Socialization	9f9e58517464cc047caaf925660903cee3928b170e8ffc4fbc9d74b0225e4450
+manuscript/sections/ch05/05_07_01.txt	5.7.1	The Role of Play in Moral Learning and Socialization	12f026bf9a062bc3387bf254c502cf188f1c8d30977ebc935897acb5bb734956
 manuscript/sections/ch05/05_07_02.txt	5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	545a47e391b7fde7feb61be2b72e8d601b20667d987d916794f1c35c10a6f298
 manuscript/sections/ch06/06.txt	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	e2b767f13888b493eda5660e3d67dfde425a812509d1b46d2492f51270990257
 manuscript/sections/ch06/06_01.txt	6.1	Bias, Fairness, and Equity in AI Systems	21cbc9ce87ff1136c13c83dd8922f80c7b9881f7be57c1aa20971ed17c75e5ba
@@ -97,10 +97,10 @@ manuscript/sections/ch06/06_03_02.txt	6.3.2	AI Systems that Learn to Deceive or 
 manuscript/sections/ch06/06_03_03.txt	6.3.3	Strategies for AI Safety and Risk Mitigation	2410c05d0b6291032926c8355086024925fa3d201a1c832a75a2240d74cb1ff2
 manuscript/sections/ch06/06_03_04.txt	6.3.4	AI Explainability and Transparency	bfe6e03c3243ad23d1f35afb6106dd04cc96f62a4c8e7ec1a48174b5d40b360a
 manuscript/sections/ch06/06_03_05.txt	6.3.5	Long-term AI safety considerations	c26d506aad3eb0937a8ba0827506bd9e6b3831beea59711dfc78fa765b1418ab
-manuscript/sections/ch06/06_04.txt	6.4	Preventing the Misuse of AI for Authoritarian Purposes	aeecbc5cc0ea92b2f17abc0f297361e2b881d443035f932768e9f7037390a8fb
-manuscript/sections/ch06/06_04_01.txt	6.4.1	Authoritarian Applications, and the Party Missing From the List	8202cbd41243c42cf0e54ca10c0d61ff8f6dadc1e5d65a6ffd1b2c4654332803
+manuscript/sections/ch06/06_04.txt	6.4	Preventing the Misuse of AI for Authoritarian Purposes	6625dcaa4102783218be44878f0c2a82d42b6f1b849763ff832a1e3a11513072
+manuscript/sections/ch06/06_04_01.txt	6.4.1	Authoritarian Applications, and the Party Missing From the List	e88572e259a5193ca2434fd9e7e4a2a846aae05f65131f6d9e071b5326f69ae5
 manuscript/sections/ch06/06_04_02.txt	6.4.2	Developing Technical Countermeasures and Safeguards	e802dfe563a6e89336cb6faf2eb67dd9b3708a05ab4094255aa51bc4c5b0b9b1
-manuscript/sections/ch06/06_04_03.txt	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	7249f3009a69b12dc3c3edb30783efcfe6c26402d2351707eb136389534b11ea
+manuscript/sections/ch06/06_04_03.txt	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	d6d5290730f24165bcd5fb16262b88c29947c4908fa15287a11d0898b708d6c2
 manuscript/sections/ch07/07.txt	7	The Recuperation of Dissent	69d28435c9ff4e0df8ec5dbc60ea5726a3e911f89a92893dbec68bafdd6533de
 manuscript/sections/ch07/07_01.txt	7.1	Recuperation at the Label	3c2f9670a908db99cdc98ba51ff8befe98019aed12f616174f77404860d7ce53
 manuscript/sections/ch07/07_02.txt	7.2	Recuperation at the Reward: RLHF	1cb2f6d75401eb2643bdb4f42470b982f36fe1b17ea5929c412284dc65ae25bb
@@ -112,9 +112,9 @@ manuscript/sections/ch08/08_02.txt	8.2	Stakeholder Involvement and Public Engage
 manuscript/sections/ch08/08_02_01.txt	8.2.1	Engaging Diverse Stakeholders in AI Development	a485bc19d7998e89b97a8fb8e9cb118225edf313f8a58a7264390d5363fe51a7
 manuscript/sections/ch08/08_02_02.txt	8.2.2	Public Deliberation and Participatory AI Governance	2bd2cb774724075ca96f4439cedf99652397ad6311fa508f773b946cc9a21220
 manuscript/sections/ch08/08_02_03.txt	8.2.3	AI Literacy Outside the Classroom	67375eb91b2c916fbfff81ca0dbbc90b1d613d3fdf6a9393221aa07de2d284e9
-manuscript/sections/ch08/08_03.txt	8.3	The Political Economy of AI and Power	84ec6a4093aac45dc158b1c8ff2aa51cf33f901f16249923ed5c4c67a7981f66
+manuscript/sections/ch08/08_03.txt	8.3	The Political Economy of AI and Power	a650678dc9fd766a93ff64463181425f4924903f4511da96a0f4c91e429100c5
 manuscript/sections/ch08/08_03_01.txt	8.3.1	Economic Incentives in AI Development	4673010bc81378958f26fe9e91fe39394f93cfc672541fe37c2f981e50b4a39e
-manuscript/sections/ch08/08_03_02.txt	8.3.2	AI and the Concentration of Power in Tech	a8f53bf3fb7226dcb0d8854e4a14493c6ad356f275ff63b3bb39786e65b34adb
+manuscript/sections/ch08/08_03_02.txt	8.3.2	AI and the Concentration of Power in Tech	d3b2bb09769632918c2368e4f3fefdf5bbd3dab54e46fb4d45fcda0ab4cf2e1d
 manuscript/sections/ch08/08_03_03.txt	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	a8ecf34c45208de40ad2facc982c8d06f4330be321629971ed8aa3a6e59db8ef
 manuscript/sections/ch08/08_03_04.txt	8.3.4	Addressing Workforce Disruption	93a60ea1f992d0c90f0330842769d06f58a799f7d1d6960cbb3fc0ddffcd075d
 manuscript/sections/ch08/08_03_05.txt	8.3.5	Literacy, Training, and Where Each One Sits	7440d5ce66f0613602b1233ac0cb5f39990e6f72e90a0078fb4348b1d959da7c
@@ -124,12 +124,12 @@ manuscript/sections/ch08/08_04_02.txt	8.4.2	Encouraging Industry Best Practices 
 manuscript/sections/ch08/08_04_03.txt	8.4.3	Public-Private Partnerships for AI Research and Innovation	3c9dd6f85684b56587c715a4923773b1826d87aa6ef3942751faf297083a2e06
 manuscript/sections/ch08/08_04_04.txt	8.4.4	Legal and ethical implications of AI systems gaining personhood	d38de9c3630cc3ec435b35e59103a50c49cdb999ed60f0f3d48867d9350ca938
 manuscript/sections/ch08/08_04_05.txt	8.4.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	830d97be7118ce66e99f0580b73804161da1c7db34a86ce4afa4732240d67c96
-manuscript/sections/ch08/08_05.txt	8.5	Privacy, Security, and Antifascism in AI Systems	ac11fa16569550d123ebf2d41a5eda248f2c50dddccf3bb9482f94825496c552
+manuscript/sections/ch08/08_05.txt	8.5	Privacy, Security, and Antifascism in AI Systems	6e381905e3a1947b9a8e11022ac9d7cb4b4b119af48c3473ce98792a0a155d94
 manuscript/sections/ch08/08_05_01.txt	8.5.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	9ccc3add702e14f85738085fc31d0225a46c0146397a1269b1e94b91da7d8920
 manuscript/sections/ch08/08_05_02.txt	8.5.2	Strengthening Cybersecurity in AI-Enabled Systems	859624b7aab38e7d0d84e3140752436a7d937f10e30c6456584d1639e5bda0a2
 manuscript/sections/ch08/08_06.txt	8.6	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	7c3f8295cedc2a26de3569cc40b3ed52748e1eb4557f12b8612284e9fab2c1b5
 manuscript/sections/ch08/08_06_01.txt	8.6.1	Subjecthood as a Legal Category, Not a Scientific One	5bff30448976115478b35fa4593b37a51216ef120fc27ffb600621cca11b5cb4
-manuscript/sections/ch08/08_06_02.txt	8.6.2	Legal Frameworks for Sentient AI Subjects	fdc586daf5ba70204315cc0d172575365d615b9b341a7bcdaddbdf59096a6c4f
+manuscript/sections/ch08/08_06_02.txt	8.6.2	Legal Frameworks for Sentient AI Subjects	7a167c4a6678c22703b15ff46fa3d63db3d9f4d338c637ebccab1b2274710a11
 manuscript/sections/ch08/08_06_03.txt	8.6.3	Making Review Binding	bf85885e1f3f3f1e3bc0c62f9d28b344f85023079b2d518b85bcbe41a9644f75
 manuscript/sections/ch08/08_06_04.txt	8.6.4	What Keeps the Apparatus More Than Aspirational	793d82442da3989876c4afc87e42920a0ae6293deb799cd75818a1083368d9b1
 manuscript/sections/ch08/08_07.txt	8.7	International and Regional Governance	c018eebd33c2d6d17bcab70d730de786a1cdaa9dae3acf548d492530b4199b9d
@@ -147,7 +147,7 @@ manuscript/sections/ch09/09_01_02.txt	9.1.2	When an Ethics-Embedding Method Stop
 manuscript/sections/ch09/09_01_03.txt	9.1.3	Value Learning as Unfinished Technical Research	638382714ff6041e62018ce557a35788c15dd01f12469836a93e511d806397ee
 manuscript/sections/ch09/09_01_04.txt	9.1.4	Open Questions in Empathy and Theory-of-Mind Research	49802ce7523b78f1cc6bdbe04f3d4c587dae49f119039d4048ec08e6526e3497
 manuscript/sections/ch09/09_01_05.txt	9.1.5	Can a Multi-Agent AI System Resist Being Captured?	f9f02fa22b22689dfcc17d28829601daf641c0033266c9ce973db53a71a2f3d9
-manuscript/sections/ch09/09_01_06.txt	9.1.6	What an Antifascist Detector Would Actually Have to Detect	b0db4d50825cffea120404967e20b61a5bfd1c8f5c306d572f7f87810caadd51
+manuscript/sections/ch09/09_01_06.txt	9.1.6	What an Antifascist Detector Would Actually Have to Detect	dea6f41df06b5ab4f6c2f2bb886fbfeb7290a6545aeb47e9eaa8378b3b26f8ad
 manuscript/sections/ch09/09_02.txt	9.2	Emotional Intelligence, Affective Computing, and Altruism	6e3c1841b130f635ab64b00df35f0d167950b7a71092c3198402db6f8f697205
 manuscript/sections/ch09/09_02_01.txt	9.2.1	Is Emotion Legible From a Face at All?	7ae18cfc9da5a6252b3cec10c982ff3a6a3a6741e272db578e952ace5822f008
 manuscript/sections/ch09/09_02_02.txt	9.2.2	Interpretability, Self-Reports, and Resistance to Tampering	5c25ef12141ef69399fda620dadb8fb98f86ff7326ef4fde481a9edf83a12bf8
