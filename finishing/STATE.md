@@ -1377,3 +1377,25 @@ number was wrong. `render.py` carried the same mislabel on its HTML size.
 and the checker's is what made the bug visible at all.
 
 All four counts now measure encoded bytes and agree with `ls`.
+
+## The review texts, preserved 2026-08-24 (D-048)
+
+`finishing/reviews/` now holds the source text of the outside reviews, closing
+the gap flagged at the last compaction. Read-only, like `editorial/`; the
+section numbers inside them are pre-renumber and must not be updated.
+
+**Two of six survive.** The 2026-08-23 review (answered by P7) and the sixth
+review (answered by P11). **The second, third, fourth and fifth are gone** —
+they existed only in temporary files, and what remains of them is the quotation
+and disposition inside `p8`–`p10-scope.md`, which is not the source text.
+
+**Two things left with the author.** The P7 review arrived with an appendix
+excerpted from a different software project — kept, because it is where
+§2.1.4's structural signature and §8.6.4's slope instrument came from, but split
+into its own file so it can be removed in one step. Its closing section carries
+that project's operational detail (a CVE, a PR number, a work-item ID), which is
+a disclosure question if this repository is or becomes public. I could not check
+visibility from here (`gh` unauthenticated) and did not assume.
+
+**The review numbering has a gap.** P8 answers "the second", P9 "the fourth",
+and no pass answers a third. Not determinable from the record; written down.
