@@ -35,15 +35,24 @@
 ## Architecture & Context
 - **What this is.** A book, *Ethical Superintelligence*, together with the
   complete record of how it was made. It is not a software project: there is no
-  build, no test suite, and no CI.
-- **Authoritative text.** `manuscript/sections/` holds one file per section and
-  is the editable source. `manuscript/parseable_text_v4.txt` is the join of those
-  files and must match them byte for byte; `finishing/tools/check_all.sh` checks
-  this. `manuscript/table-of-contents.txt` is generated from the section headings
-  by `finishing/tools/headings.py --write-toc`, so do not edit it by hand.
-  `manuscript/parseable_text_v3b_2024-07-07.txt` is frozen — it is the 2024 text
-  as imported, and the split reproduces it exactly. The work of finishing the
-  book lives in `finishing/`. Everything else in the repository is provenance.
+  test suite and no CI. There is a build — the book is LaTeX — but it produces
+  a PDF to read, not software to ship.
+- **Authoritative text.** The book is LaTeX (D-065). `manuscript/sections/`
+  holds one `.tex` file per section and is the editable source;
+  `manuscript/book.tex` is the master and `manuscript/preamble.tex` holds the
+  typesetting. Two files are generated and must not be edited by hand:
+  `manuscript/sections.tex`, the `\input` list, by
+  `finishing/tools/gen_book.py`, and `manuscript/table-of-contents.txt`, from
+  the section headings, by `finishing/tools/headings.py --write-toc`.
+  `finishing/tools/check_all.sh` checks that both are current, along with the
+  rest of the invariant suite. Build with `finishing/tools/build_tex.sh`.
+  **Two dialect files are frozen and must never change:**
+  `manuscript/parseable_text_v3b_2024-07-07.txt`, the 2024 text as imported,
+  and `manuscript/parseable_text_v4.txt`, the last state of the manuscript
+  before the LaTeX migration. `finishing/tools/check_frozen.py` guards both;
+  together they bracket the dialect era, which is over. The work of finishing
+  the book lives in `finishing/`. Everything else in the repository is
+  provenance.
 - **Provenance, read-only.** `genesis/`, `personas/`, `generation/`,
   `editorial/`, `summaries/`, and `manuscript/previous/` are the record of what
   happened during the book's creation. Editing or regenerating them destroys that
