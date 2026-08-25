@@ -33,4 +33,4 @@ MSG
   exit 1
 fi
 
-echo "pre-commit: invariants pass (round-trip, structure, TOC, named-persons)"
+echo "pre-commit: invariants pass (round-trip, structure, TOC, cross-refs, named-persons)"
