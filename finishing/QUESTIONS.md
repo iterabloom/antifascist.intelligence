@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-24, after D-052.** For orientation read
+**Current as of 2026-08-24, after D-060.** For orientation read
 `finishing/STATE.md`; for the sixth review's disposition read `p11-scope.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
@@ -156,6 +156,52 @@ was never scoped, declined, or deferred.
 
 *Default applies now. (c) is the only option that makes chapter 1's sentence true
 as written.*
+
+---
+
+### Q-023 — Where the substrate material should live
+
+P19 (D-060) put the data-centre power, water and siting material in section 6.1,
+as a paragraph and a dated box attached to the racial-capitalism argument, plus a
+127-word paragraph in section 8.7.6 on permitting as a form of state leverage.
+That placement is an argument: the substrate is the same distributional pattern
+chapter 6 already names, in a form no audit of a model's outputs can detect.
+
+Two things make it worth putting to the author rather than leaving settled. The
+addition to section 8.7.6 pushes the book's longest section from 4,769 to 4,896
+words, against Q-018's standing question about cutting it. And the material is the
+book's only treatment of a physical dependency, which may be more weight than one
+box in a bias section can carry.
+
+- **(a) Default — leave it where P19 put it.** The argument for the placement is
+  the one above, and a separate section would restate chapter 6's frame to say the
+  same thing.
+- (b) Give it its own section in chapter 6, after 6.1.3, and cut the box back to a
+  cross-reference from 6.1.
+- (c) Move the whole treatment to chapter 8 as a governance question, and leave
+  chapter 6 a cross-reference. This trades the racial-capitalism argument for the
+  regulatory one.
+
+*Default applies now. Any of the three is compatible with the text as drafted;
+(b) and (c) are moves, not rewrites.*
+
+---
+
+### Q-024 — Whether corpus provenance belongs in chapter 7 as well
+
+P19 put the corpus-provenance material in section 6.1.1 and declined chapter 7 on
+the argument that recuperation requires a channel that collects disagreement and
+nullifies it, and a training corpus has no channel at all, so the case sits one
+stage before chapter 7's subject. That argument was made from chapter 7's thesis
+and was not tested against chapter 7's text.
+
+- **(a) Default — leave it in 6.1.1 with the cross-reference to section 7.3 it
+  now carries.**
+- (b) Give chapter 7 a short third site, before the label and the reward, naming
+  the absence of a channel as the limiting case of the same structure.
+
+*Default applies now; (b) is a writing task of perhaps 300 words and would need
+the D-007 lift D-060 already establishes for this material.*
 
 ---
 

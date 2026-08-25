@@ -1636,3 +1636,68 @@ section 6.2.1 are also open.
 **Not checked.** Which other sections in chapters 4-6 are the "several places"
 section 9.1.6 means. Two were repaired because they are the clearest; the set was
 not enumerated.
+
+## P19 — substrate, corpus provenance, disability, 2026-08-24 (D-060)
+
+A critique held that the book covers annotation labor and compute concentration
+and says nothing about energy, water and datacenter siting, nothing about
+training-corpus provenance, and almost nothing about disability despite running
+the capabilities approach. It was substantially right, and the author instructed
+that it be implemented, which lifts D-007 for two of the three additions.
+
+**What checking found.** Across all 165 sections, `datacenter`, `emissions`,
+`electricity`, `copyright`, `scrape` and `crawl` returned zero. "Training data"
+appears 46 times and every instance is about representation or skew, none about
+how the corpus was obtained. `water` returned two hits, both inside the name of
+the Climate, Land, Energy and Water Systems framework in section 8.7.3. Disability
+had six passing mentions, of which the most extended is section 10.3.1's GPT-4
+fabricating a vision impairment to get a CAPTCHA solved.
+
+**One part of the critique failed checking and was not adopted.** Section 8.7.6
+does not treat compute as an abstract quantity: it runs TSMC's share of advanced
+fabrication, ASML's monopoly on EUV lithography, and the export-control regime,
+and concludes that AI capability rests on physical infrastructure a few actors
+control. The gap was the operational substrate — power, water, land — and the
+addition there is 127 words extending an argument already on the page.
+
+**The disability half needed no lift.** The relational-personhood passage has been
+sitting on `transplants.md`'s reserve list since P3, held back to avoid a fourth
+pain passage in one fold and marked "revisit after D-013"; its recorded rival was
+old section 7.4.1's criteria, which are now section 2.4.1's. That is D-014 quarry
+material. It landed after the sentience criteria with Kitwood's definition of
+personhood as a standing bestowed in relationship and Nussbaum's three frontiers,
+and the criteria are now stated as diagnostic and not dispositive. Chapter 3 did
+not exist when the reserve note was written, and section 3.3 turned out to need
+exactly this: what keeps a bearer in existence is standing held from outside.
+
+**Two additions required the lift.** Section 6.1.1 extends its own stated standard
+— it "would be evading something if it discussed labeling bias without saying who
+does the labeling" — one stage upstream to the material the labels are applied to,
+ending on the structural point that a corpus has no channel to nullify because
+none is solicited. Section 6.1 gets a siting paragraph and a dated box, argued as
+the racial-capitalism paragraph's physical form and as the failure mode no audit
+of a model's outputs can see.
+
+**Seven claims verified live, two dropped.** C0732–C0738. The Bartz v. Anthropic
+distinction is in the text because it turns on acquisition alone; the Books3
+subclass's denial of certification is recorded in the claim row and kept out of
+the text as needing its own verification. Neighbourhood asthma and paediatric-ER
+figures circulating with the Memphis story trace to a low-quality secondary source
+and did not survive checking, so the box carries only what the complaint alleges
+and attributes it that way.
+
+**Collides with Q-018.** Section 8.7.6 was already the book's longest section at
+4,769 words and Q-018 flags it as a candidate for further cutting. It is now 4,896.
+The paragraph was put there because that is where the argument it extends lives;
+if Q-018 is resolved toward cutting, this is 127 words of the cut.
+
+**Nothing is accepted.** Standing rule 1 is unaffected and the author has not read
+any of the new text. +1,188 words; the book is at 92,089 body words.
+
+**Not checked.** Whether the same absence runs to other physical dependencies the
+book gestures at — hardware lifecycle, e-waste, mineral extraction — none of which
+were searched. Whether disability belongs anywhere else the capabilities approach
+is used: sections 2.1 and 2.1.1 introduce it and were left alone. Whether the
+corpus-provenance point should also reach chapter 7, which was declined on the
+argument that recuperation needs a channel to nullify and a corpus has none, but
+that argument was not tested against chapter 7's text.
