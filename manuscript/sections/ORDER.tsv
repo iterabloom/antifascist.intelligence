@@ -1,6 +1,6 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.txt	0	On Method	4b3cbf7d30f085ec2778c6b36cc4f95171c74fc316b8a2121abe9eb154527c6b
-manuscript/sections/ch01/01.txt	1	Introduction	ebd3c1fffb13db714836aa21980494e638639704f5505e3efdd0df7a872c9555
+manuscript/sections/ch00/00.txt	0	On Method	c7502b8878b93c97f33eabf3fd60cb6cc0ea002ba91d20a61405f0e2187b5c34
+manuscript/sections/ch01/01.txt	1	Introduction	7a4b968a8b44358c26ff070b0a95ef6df0cf89e1b2591b60f9b7aeb2f10d6c51
 manuscript/sections/ch01/01_01.txt	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	dcb7c54fcc31213b19e76e3cc0dfb2501b547ab7c2197ece161aa5822b0d6475
 manuscript/sections/ch01/01_02.txt	1.2	Aims and Objectives	e211129fe97433e5556744c7fa705b4a599610d4150ce31802ff578eab5fb159
 manuscript/sections/ch01/01_03.txt	1.3	Mindset and Motivation in AI Behavior	d04c3156604e56fa8dc2fb48068d20ad2e0f3e2d84aff36c9c8e1417fbb19e80
@@ -22,7 +22,7 @@ manuscript/sections/ch02/02_04.txt	2.4	Ethical implications of experimenting on 
 manuscript/sections/ch02/02_04_01.txt	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	339153227844d8d4c0105197eff7e0d2e6416634816363a1263bce292a3c5831
 manuscript/sections/ch02/02_04_02.txt	2.4.2	Ethical Considerations in AI Research and Experimentation	f4de1d23701a15cfbdd708c487e511a65016c933fe71a6cf63b0da244f73f8d2
 manuscript/sections/ch02/02_04_03.txt	2.4.3	Balancing Scientific Progress and Ethical Constraints	4ba8bb7b888688c1b4283965b8aff37f8b7be9d42853115ddcc4e9dd2f027a44
-manuscript/sections/ch02/02_04_04.txt	2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	764010ebfef0254c7f98d9c16d1193de565d46134b1efaf7cedaee73fc3ca280
+manuscript/sections/ch02/02_04_04.txt	2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	70226a701024328ff1d44b1841bfd5718d5b97edb175956156d742d2f586fe17
 manuscript/sections/ch02/02_04_05.txt	2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	2eaa2ed119fd5550a3898b236498abd20966050f510809d552eb257cdb64ddef
 manuscript/sections/ch02/02_04_06.txt	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	ccfc9c324220c89e7627f753bdbea800282defb0f92380b57fac6e255f22cf05
 manuscript/sections/ch02/02_04_07.txt	2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	5d9141ddc11f58cd87fbe2448c07424fa33275481972dd22ab0d4d786be7cd9f
@@ -37,7 +37,7 @@ manuscript/sections/ch03/03_07.txt	3.7	What Follows for the Rest of the Book	03e
 manuscript/sections/ch04/04.txt	4	Machine Learning and Cognitive Science	a34ec51c527a9cca17d86924a2ff1e59ae379db22522ddde01dddb94ee75ea49
 manuscript/sections/ch04/04_01.txt	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	27c30dabcc1b65a3f7cab3b95881d3319b5b1fe1d1a117ae2d1a76f1885df444
 manuscript/sections/ch04/04_01_01.txt	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3da3cf9ffe3bee0ccf7a74c0109a70bf4492da19f6cca1780ba44aecb0fa3636
-manuscript/sections/ch04/04_01_02.txt	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	2cadc3b9618c46ca9c1f082cdf4e7b39b8f12e43294e880a3a05b260bea787ea
+manuscript/sections/ch04/04_01_02.txt	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	c088c4efe7a1c9592ff67995c0962603f2346cbe416babde68e6c2ff9a297d33
 manuscript/sections/ch04/04_01_03.txt	4.1.3	Human-Like Learning and Generalization in AI Systems	555966ba51a88f35c06740c14ef573332743575995b5244dba82177cb1178026
 manuscript/sections/ch04/04_02.txt	4.2	Aligning AI Systems with Humane Values and Antifascist Principles	56ba75ee2c895adc14424b63ce8e3e0fcb501d484c585380346aaa59fb83d942
 manuscript/sections/ch04/04_02_01.txt	4.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	5fe8c2d27e3f25f5cb5094b685cdfecf36363a2836d91f0e3dab1383a54ae006
@@ -78,7 +78,7 @@ manuscript/sections/ch05/05_07_01.txt	5.7.1	The Role of Play in Moral Learning a
 manuscript/sections/ch05/05_07_02.txt	5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	545a47e391b7fde7feb61be2b72e8d601b20667d987d916794f1c35c10a6f298
 manuscript/sections/ch06/06.txt	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	e2b767f13888b493eda5660e3d67dfde425a812509d1b46d2492f51270990257
 manuscript/sections/ch06/06_01.txt	6.1	Bias, Fairness, and Equity in AI Systems	f6083bdc9b3b6cd021e486d3274e87fb3cf0ed934fc9283b2ba37677bc36692c
-manuscript/sections/ch06/06_01_01.txt	6.1.1	Sources of Bias in AI Data and Algorithms	95834caff9cd80b09ee2149a51ba6e34fd77f207b6fb5b8e43e113a8311eeaa4
+manuscript/sections/ch06/06_01_01.txt	6.1.1	Sources of Bias in AI Data and Algorithms	8b61c8e269f461548e37e8e7fda94bc398447aa1bb452d2e36c91d9cc80d18e9
 manuscript/sections/ch06/06_01_02.txt	6.1.2	Ensuring Fairness and Equity in AI Decision-Making	e56d82cd37d53457c8143111b5d563c2230cbdb78fb265f82cc9925828a68268
 manuscript/sections/ch06/06_01_03.txt	6.1.3	The Role of Transparency and Accountability in Bias Reduction	8db0776810c86077f287267a6d7843a41ec00a7ac3ab5dbbb649a081f15dc00c
 manuscript/sections/ch06/06_02.txt	6.2	Robustness, Generalization, and Adaptability in AI Systems	3aa8b3090bc2a3b99a398f7bdfb655f6b39747dacd6726a12c2674d8153ce209
@@ -91,7 +91,7 @@ manuscript/sections/ch06/06_03_03.txt	6.3.3	Strategies for AI Safety and Risk Mi
 manuscript/sections/ch06/06_03_04.txt	6.3.4	AI Explainability and Transparency	bfe6e03c3243ad23d1f35afb6106dd04cc96f62a4c8e7ec1a48174b5d40b360a
 manuscript/sections/ch06/06_03_05.txt	6.3.5	Long-term AI safety considerations	7ade17c2c2139f22b4b7b7b75cb3437ffe5c182cb8ebc3b8bdbd294ca7f21b70
 manuscript/sections/ch06/06_04.txt	6.4	Preventing the Misuse of AI for Authoritarian Purposes	6625dcaa4102783218be44878f0c2a82d42b6f1b849763ff832a1e3a11513072
-manuscript/sections/ch06/06_04_01.txt	6.4.1	Authoritarian Applications, and the Party Missing From the List	26332e16ee6555e1b1a373accecda70fc30656949e255a6f738d9061a45285f8
+manuscript/sections/ch06/06_04_01.txt	6.4.1	Authoritarian Applications, and the Party Missing From the List	cff2567ad18e8aa91d56b94c4cd7ff660e1ad6a79cc2847923e8b448cc0fa86f
 manuscript/sections/ch06/06_04_02.txt	6.4.2	Developing Technical Countermeasures and Safeguards	f0e819c8bbb092e2872c9cb43b6c2eef8ea9e583d4856195a8ed6c0cfc8e5ab2
 manuscript/sections/ch06/06_04_03.txt	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	d6d5290730f24165bcd5fb16262b88c29947c4908fa15287a11d0898b708d6c2
 manuscript/sections/ch07/07.txt	7	The Recuperation of Dissent	4186248eddcde4f832b8860b73195d64a80bf5c14f941800d6324e5eae744c99
@@ -109,7 +109,7 @@ manuscript/sections/ch08/08_02_03.txt	8.2.3	AI Literacy Outside the Classroom	67
 manuscript/sections/ch08/08_03.txt	8.3	The Political Economy of AI and Power	a650678dc9fd766a93ff64463181425f4924903f4511da96a0f4c91e429100c5
 manuscript/sections/ch08/08_03_01.txt	8.3.1	Economic Incentives in AI Development	4673010bc81378958f26fe9e91fe39394f93cfc672541fe37c2f981e50b4a39e
 manuscript/sections/ch08/08_03_02.txt	8.3.2	AI and the Concentration of Power in Tech	1f1589f5956126d1bcb8b221f9898afb7f0fac91d3ffdb76e372b9eb6e3af614
-manuscript/sections/ch08/08_03_03.txt	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	457b01ef9b82442ac10046f4a7faf52ff134959cc7ba128c3d0a1d36ee832cd7
+manuscript/sections/ch08/08_03_03.txt	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	1cba69a84567558b40115f328b53cd2de16f8d1c043d96ec70987c1dfbec5458
 manuscript/sections/ch08/08_03_04.txt	8.3.4	Addressing Workforce Disruption	93a60ea1f992d0c90f0330842769d06f58a799f7d1d6960cbb3fc0ddffcd075d
 manuscript/sections/ch08/08_03_05.txt	8.3.5	Literacy, Training, and Where Each One Sits	7440d5ce66f0613602b1233ac0cb5f39990e6f72e90a0078fb4348b1d959da7c
 manuscript/sections/ch08/08_04.txt	8.4	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	80f9730ef499e58a089d5cafded18b479ca0b6ee12b3e20823682dced04caec6
@@ -157,4 +157,4 @@ manuscript/sections/ch10/10_03.txt	10.3	Addressing the Unintended Consequences	4
 manuscript/sections/ch10/10_03_01.txt	10.3.1	Anticipating Risk Before It Causes Harm	215c62445a57f67d99a4f0256985e644429d41940564f6b60b9fc7482f3e3759
 manuscript/sections/ch10/10_03_02.txt	10.3.2	Remediating a Harm Once It Is Identified	bc338dd0f927db97ae8eb04fc6d4f01ef7c9d147380197e668f112c9d770de70
 manuscript/sections/ch10/10_03_03.txt	10.3.3	Resilience Against Deliberate State Compromise	bbaa2597b122aa2f2474dc9cbd32264f4f4a1116757817acc5cdffe1517c39a6
-manuscript/sections/ch11/11.txt	11	Glossary	3bafa3a02e74e7bdeef043fbef1102513123da8bdac95866b6d0ee343770f35f
+manuscript/sections/ch11/11.txt	11	Glossary	ae89b1d86499655c36e17a315c6244812bfb20066ce4c24021eba11abf198ce5
