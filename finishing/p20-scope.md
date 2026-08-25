@@ -34,24 +34,55 @@ translation is `renumber-map_2026-08-24b.tsv`. Section 3.3 is retitled.
 
 ## Phase 2 — the structural cut
 
-Targets as the plan lists them, plus the dedup pass on CIRL, Partnership on AI,
-federated learning and differential privacy.
+Every enumerated target implemented, plus the dedup pass. Sections deleted:
+6.2.1, 4.2.4, 4.2.6, 4.3.2, 5.5.1, 10.1.1, 5.4.3, 5.4.4, 5.4.5. Sections
+compressed: 2.3.2, 4.2 opener, 4.3.1, 4.3.3, 5.1.2, 5.1.3, 5.2.4, 5.4.1,
+5.5.2, 5.5.3, 6.2.2, 6.2.3, 6.3, 6.3.1, 6.3.2, 6.3.3, 6.3.5, 8.5.2. Dedup:
+CIRL at 4.2.2, the Partnership on AI at 8.4.2, federated learning and
+differential privacy at 6.4.2. The institutional inventory moved from 10.1.1
+into 8.1.1.
+
+**The percentage was not reached and the reason is recorded here rather than
+buried.** The cut is 6.0 percent against the plan's 25-30. The material the
+plan describes -- voice-fixed survey prose, list-and-example rhythm -- was
+mostly removed in P1 and again in P7 through P19. What is left in chapters 2,
+5, 8, 9 and 10 is argued and cited, and section 4.1.2 states in its own second
+paragraph that it is already selective. Reaching 25 percent would mean cutting
+what the plan's closing section says stands.
 
 ## Phase 3 — claims propagation
 
-3.1 the detector; 3.2 the persistence criterion; 3.3 the molar/molecular move;
-3.4 section 8.3.3's cost bound; 3.5 section 5.1.1's stage sequence;
-3.6 the missing interlocutors, including alignment discourse as a legitimating
-apparatus.
+All six done. 3.1: sections 4.2.5, 5.1.4 and 5.4.6 softened at the point of
+claim; section 6.4 checked and found not to make the claim. 3.2: section 2.4.1
+and chapter 1 narrowed. 3.3: the molar/molecular move argued, twice -- the
+molar case has no mechanism of its own, and each discriminating feature has a
+molecular restatement ordinary decay does not exhibit. 3.4: the 2x multiplier
+labelled illustrative, with what deriving it would require. 3.5: section
+5.1.1's stage sequence rewritten as three capacities. 3.6: Bender and Gebru at
+8.4.2 and 6.1.1, Eubanks at 5.1.4, Benjamin's four dimensions at 6.1, and new
+section 7.4 for the alignment discourse itself. **Not done:** the plan's
+"consider" list -- Winner, Arendt, O'Neil, Whittaker -- which it marked as
+optional and which is not implemented.
 
 ## Phase 4 — verification
 
-4.1's ten claim clusters, checked live. 4.2 names the vendor in section 6.1.1.
-4.3 struck.
+Done. Seven of the ten clusters held as written; the NAACP/xAI suit and the
+IEA and Google figures were verified in P19 the previous day and not re-run;
+two failed and were corrected -- the Maven box's Claude-integration claim and
+strike totals, and section 8.3.3's Medicare and Social Security shares of GDP.
+4.2 names Bartz v. Anthropic in section 6.1.1. 4.3 struck by the author.
 
 ## Phase 5 — mechanics
 
-Glossary cross-reference audit; the Floor and Recuperation entries rewritten;
-the glossary moved out of the chapter sequence into back matter; residual "we";
-dated affective-computing examples; one sentence in chapter 0 on the late
-change of position. The bibliography and the *Westworld* cut are struck.
+Done, except as noted. Eight glossary entries repointed; the GPAI entry
+deleted; the Floor and Recuperation entries rewritten; section 2.4.4's
+institutional "we" recast; the affective-computing examples put in a dated box
+in section 2.3.2 and confirmed absent elsewhere; chapter 0 now records the
+late change of position.
+
+**The glossary's back-matter status is already how the book builds.**
+`render.py` has treated numbers 0 and 11 as unnumbered front and back matter
+since P6. The source heading and the generated table of contents keep "Chapter
+11" because the dialect's parser requires a chapter number and D-042 enforces
+the TOC against regeneration; chapter 1 no longer names it by chapter number.
+The bibliography and the *Westworld* cut are struck by the author.
