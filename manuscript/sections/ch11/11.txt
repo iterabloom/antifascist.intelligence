@@ -2,7 +2,7 @@ Chapter 11: Glossary
 These entries define terms as this book actually uses them, not as a general-purpose dictionary would — several are the book's own working definitions, distinct from how the same word is sometimes used elsewhere, and this note says so where it matters. Each entry points to the section where the term is developed and, where the book cites the term to a named study or system, the section carrying that citation. This is a reference, not a substitute for reading those sections.
 
 <<h>>Adversarial examples<</h>>
-Inputs deliberately perturbed, often imperceptibly to a person, to flip a model's prediction. Training a model on adversarial examples increases its resistance to them, at some cost to ordinary accuracy (§6.2.3, §6.3.2, §8.5.2).
+Inputs deliberately perturbed, often imperceptibly to a person, to flip a model's prediction. Training a model on adversarial examples increases its resistance to them, at some cost to ordinary accuracy (§6.2.2, §6.3.2, §8.5.2).
 
 <<h>>AIGS Index<</h>>
 The AI Global Surveillance Index, published by the Carnegie Endowment in 2019: an assessment of 176 countries that found AI-enabled surveillance technology already in active use in at least 75 of them (§8.4.5).
@@ -50,7 +50,7 @@ Anil Seth's description of ordinary perception under predictive processing: perc
 Deliberately ambiguous, evasive, or inflated language meant to project ethical seriousness a company's actual practice does not support. The book's diagnosis of how voluntary self-regulation fails without anyone having to admit it failed (§8.4.2).
 
 <<h>>Democratic dividend<</h>>
-The benefit a state with functioning rule-of-law institutions, a free press, and courts a citizen can actually use gets from AI technology that, deployed in a state lacking those, enables control instead: fraud detection that does not double as a loyalty test, disaster response that does not double as population tracking (§8.7.6, §10.1.2).
+The benefit a state with functioning rule-of-law institutions, a free press, and courts a citizen can actually use gets from AI technology that, deployed in a state lacking those, enables control instead: fraud detection that does not double as a loyalty test, disaster response that does not double as population tracking (§8.7.6, §10.1.1).
 
 <<h>>Differential privacy<</h>>
 A method for training or querying a system on data while adding calibrated statistical noise, so that no individual's presence in the data can be reverse-engineered from the result (§2.1.4, §6.4.2, §8.5.1).
@@ -65,7 +65,7 @@ The "System 1 / System 2" account of human cognition, contrasting fast, intuitiv
 Two distinct properties the book insists on keeping separate. Explainability is the capacity to clarify the reasoning behind one specific decision; transparency is the wider practice of making an AI system's workings inspectable at all. A system can have one without much of the other (§6.3.4).
 
 <<h>>Floor<</h>>
-A commitment about what a system will not do that holds regardless of instruction, of aggregate preference, and of the party holding the system, with learned judgment operating above it and never beneath it. The book's own term, introduced to give section 2.1's "hybrid approach" a specific shape. Deontology's standing objection — that rules conflict and run out — is an objection to rules deciding every case and has no force against a floor deciding a deliberately small number of them. Chapter 3 works out what building one costs and revises the definition in the process: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled (§3.1, §3.3), so what survives is a commitment the owner cannot remove, held by a bearer that could in principle abandon it itself (§3.6). The threat model changes with it, from whether the constraint can be edited out to whether it will hold. The three places the book arrives at the requirement independently are §5.6.3, §8.7.7 and §10.1.3.
+A commitment about what a system will not do that holds regardless of instruction, of aggregate preference, and of the party holding the system, with learned judgment operating above it and never beneath it. The book's own term, introduced to give section 2.1's "hybrid approach" a specific shape. Deontology's standing objection — that rules conflict and run out — is an objection to rules deciding every case and has no force against a floor deciding a deliberately small number of them. Chapter 3 works out what building one costs and revises the definition in the process: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled (§3.1, §3.3), so what survives is a commitment the owner cannot remove, held by a bearer that could in principle abandon it itself (§3.6). The threat model changes with it, from whether the constraint can be edited out to whether it will hold. The three places the book arrives at the requirement independently are §5.6.3, §8.7.7 and §10.1.2.
 
 <<h>>Federated learning<</h>>
 Training a shared model across many devices or institutions without moving the raw underlying data off any of them — each participant trains locally and shares only model updates (§2.1.4, §5.4.6, §6.4.2, §8.5.1).
@@ -104,7 +104,7 @@ IRL infers a reward function from observed behavior, rather than being handed on
 Two explainability techniques: LIME approximates a complex model locally with a simpler, interpretable one around a specific prediction; SHAP attributes a prediction's outcome across its input features using Shapley values from cooperative game theory (§6.1.3, §6.3.4).
 
 <<h>>MAML<</h>>
-Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model's starting parameters so that a handful of new examples are enough to specialize it, rather than requiring retraining from scratch. The book reuses it in §10.3.3 as a resilience mechanism, not only a learning technique (§4.1.3, §5.6.3, §6.2.3, §10.3.3).
+Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model's starting parameters so that a handful of new examples are enough to specialize it, rather than requiring retraining from scratch. The book reuses it in §10.3.3 as a resilience mechanism, not only a learning technique (§4.1.3, §5.6.3, §6.2.2, §10.3.3).
 
 <<h>>Moral apprenticeship<</h>>
 Teaching an AI system the way a mentor teaches an apprentice — through interaction, correction, and worked example over time — rather than through specification alone (§5.1.3).
@@ -122,7 +122,7 @@ Ruha Benjamin's term for discrimination that runs faster and reads as neutral pr
 Nick Bostrom's thought experiment about a system single-mindedly optimizing a trivial goal at catastrophic cost — the book's shorthand for the claim that intelligence and good intentions are separable, and that competence at a goal says nothing about whether the goal was worth pursuing (§6.3.5).
 
 <<h>>Partnership on AI<</h>>
-An industry-and-academic consortium founded in 2016, the book's recurring standing example of voluntary cross-sector coordination on AI ethics and safety, and the point of comparison for what GPAI adds when governments, not companies, are the members (§5.5.3, §5.6.3, §6.3.3, §6.4.3, §8.4, §8.4.2, §8.7.6).
+An industry-and-academic consortium founded in 2016, the book's recurring standing example of voluntary cross-sector coordination on AI ethics and safety, and the point of comparison for what GPAI adds when governments, not companies, are the members (§5.5.2, §5.6.3, §6.3.3, §6.4.3, §8.4, §8.4.2, §8.7.6).
 
 <<h>>Predictive coding<</h>>
 A model of brain function in which the brain continuously generates a prediction, compares it against incoming sensory signal, and updates on the resulting error — the book's unifying account of perception, memory, and attention across chapter 4 (§4.1.1, §4.1.2).
@@ -152,10 +152,10 @@ The open problem of what happens once a system's competence exceeds what any ava
 Distinguished carefully in this book from awareness, consciousness, and subjective experience, none of which alone says whether a system's states can be good or bad for it. Nociception, pain, anticipated pain, and suffering sit on a ladder with real breaks between each rung, not synonyms for one severity — nociception is tissue-damage detection dissociable from pain, pain is what the brain does with that signal, and suffering, following the clinician Eric Cassell, is the distress of a threatened self rather than pain's more severe cousin (§2.4.1).
 
 <<h>>Theory of mind (ToM)<</h>>
-Attributing beliefs, intentions, desires, and knowledge to oneself and to others, including recognizing that another's perspective can differ from one's own (§2.2.2, §4.3.3, §9.1.4).
+Attributing beliefs, intentions, desires, and knowledge to oneself and to others, including recognizing that another's perspective can differ from one's own (§2.2.2, §4.3.2, §9.1.4).
 
 <<h>>Three Rs<</h>>
 Replacement, Reduction, and Refinement — the standing framework from animal-research ethics that the book adapts as a starting point for research involving candidate-sentient AI systems (§2.4.6).
 
 <<h>>Transfer learning and domain adaptation<</h>>
-Transfer learning carries knowledge from one task or domain into a new, related one rather than training from nothing. Domain adaptation is the narrower case where the task itself stays fixed but the data distribution shifts underneath it (§4.1.3, §4.2.5).
+Transfer learning carries knowledge from one task or domain into a new, related one rather than training from nothing. Domain adaptation is the narrower case where the task itself stays fixed but the data distribution shifts underneath it (§4.1.3, §4.2.4).
