@@ -180,3 +180,45 @@ book lacks. Not arguing the anti-authoritarian thesis where it is currently
 assumed. If a section is wrong rather than badly written, the fate is Cut or
 Merge, not a rewrite — and if that turns out to be true of many sections, that
 is evidence to bring back to D-007, not a licence to start writing.
+
+## 10. The same rules, applied to reports to the author
+
+Sections 1-9 govern the book. This one governs the prose the agent writes *about*
+the book: findings put to the author, status reports, commit bodies, and the
+entries in `DECISIONS.md`, `STATE.md`, `QUESTIONS.md` and the `pN-scope.md` files.
+
+The failure is the one section 2 already names, pointed the other way. This
+repository's own record is written in a terse, verdict-first register where the
+correction lands one beat after the claim — "One was, one was not"; "The defect is
+real and the description of it is not"; "The serious finding is not a pointer."
+An agent reading a great deal of that will reproduce it, the more so because
+agent harnesses generally instruct it to match the style around it. The result is
+a report that
+withholds: the reader gets the verdict, then the complication, then the
+qualification, and reads three beats to learn what one would have carried.
+
+**Give the finding and its limits in the same breath.**
+
+| Drafted | Accepted |
+|---|---|
+| "Diagnosis accurate, premise overstated, and the remedy would cost something the critique doesn't price" | "The quotations check out. Section 3.2's opening sentence is the one unguarded spot; everything else the critique asks for is already in sections 3.1 and 3.5." |
+| "The serious finding is not a pointer." | "The serious finding is a sourcing hole at section 10.1.1." |
+| "Substantially fair, with two factual corrections and one thing it missed that's worse" | "Fair. Two of its specifics are wrong, and section 3.6's title is a separate defect it did not name." |
+
+Four corollaries, three of them section 2's own:
+
+- **No reveals.** A finding is not improved by staging it. State it, then state
+  what limits it, with no beat between them built to be overturned.
+- **A heading names a subject, not a conclusion.** "Why the proposed remedy is
+  worse" is a headline. "The remedy's cost" is a heading.
+- **The contrastive frame is D-025 wherever it appears.** "X is not Y, it is Z"
+  spends a clause on the wrong answer in a report exactly as it does in the book.
+- **Do not open with a scorecard.** "Right that X, wrong that Y, and Z unpriced"
+  makes the reader parse a verdict before reaching anything checkable.
+
+**This is not a licence to hedge.** `AGENTS.md`'s no-weasel-words rule is
+unaffected and outranks this section: say what was checked, what was found, and
+what was not checked, and say "I don't know" where that is the answer. Plainness
+is not vagueness, and a flat sentence that reports an uncertainty precisely is
+what this section is asking for. What it forbids is the *shape* — the withheld
+qualification, the staged correction — not the qualification itself.
