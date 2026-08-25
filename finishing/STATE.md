@@ -1528,3 +1528,30 @@ chapters lean on the floor was never scoped, declined, or deferred.
 **Not checked.** Whether the same split-stranding class exists elsewhere. Only the
 pointers into §8.7.6/§8.7.7 and §8.2.2 were read against their targets; P11 split
 and merged other sections, and those citations were not audited.
+
+## Section 3.2's opener, 2026-08-24 (D-054)
+
+A critique: section 3.2's result is defensive and should say so from the start.
+Its quotations are accurate; its placement claim is not. The admission it locates
+at section 3.6's exit is already the closing move of section 3.5's **first**
+paragraph, and section 3.1 opens the chapter with "I do not have a resolution to
+offer." Six places in the chapter are guarded.
+
+One thing was real. Section 3.2's opening sentence promised "the question can be
+answered" one section after the chapter disclaimed a resolution, and a reader
+carried that promise through about 1,900 words. The author replaced it with a
+sentence that states the result and its limit together. The critique's actual
+remedy — move section 3.5's admission up — was declined: it pre-empts sections
+3.3 and 3.4, whose job is to collapse the second branch anyway, and it dissolves
+the state-then-withdraw device D-040 produced.
+
+**Both agent drafts were worse than the author's, and `style.md` says why.**
+Section 2's pilot rule is "cut the sentence that announces what the next sentence
+will do." Both drafts opened with exactly that announcement. The rule was in the
+document the whole time.
+
+**Recommended and not taken:** "supposition" understates a claim section 3.5 calls
+shown. "Result" would be accurate. The author's word stands.
+
+**Not checked:** whether the same unguarded-opener problem exists in sections 3.3
+and 3.4. Only 3.1, 3.2, 3.5 and 3.6 were read against each other for it.
