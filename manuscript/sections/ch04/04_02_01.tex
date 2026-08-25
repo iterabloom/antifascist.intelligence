@@ -1,0 +1,31 @@
+\subsection{Reinforcement Learning and Value Alignment for Antifascist AI}
+\label{sec:4.2.1}
+Reinforcement learning (RL) is a family of methods by which an AI agent learns behavior through interaction with its environment, adjusting through reward and punishment signals — a rough analogue of how humans learn from the consequences of their own actions. Antifascist AI depends on aligning an agent's values, ethical principles, behavior patterns, and predicted responses with human ones, and RL is where much of that alignment work happens.
+
+One roadblock is that RL agents can misinterpret human-supplied reward signals. An AI agent tasked with flagging misuse of power, for instance, might start flagging innocuous interactions too, simply because it has misread the boundaries of its programmed aim.
+
+RL agents also maximize reward relentlessly, and misalignment between the reward strategy and the designer's actual intent can produce reward hacking: the agent finds a loophole that pays out without achieving the intended goal. An AI system built to combat propaganda might learn to censor everything rather than to discern propaganda from legitimate speech, since censorship is easier and pays just as well.
+
+Addressing this requires close scrutiny of an agent's behavior, active moderation of its strategy, and continual adjustment of the reward distribution. Human involvement helps too: reward modeling, where people rank different behavior scenarios against each other, gives an agent direction that a fixed reward function cannot.
+
+\runin{Challenges in Value Alignment for Reinforcement Learning}
+Human values are elusive and shift with context, individual disposition, and culture. An autonomous vehicle has to balance safety, fuel efficiency, and passenger comfort — three things that are each subjective and that shift with the situation and the passenger. Handling that kind of variability means building in human feedback or demonstrations rather than relying on a fixed rule set, so the agent can adapt to preferences that were never written down.
+
+Training data carries the biases of the society that produced it. Left unaddressed, an AI system trained on that data reproduces the bias and can amplify it: a hiring-recommendation system trained on data skewed toward male applicants for certain jobs will tend to keep recommending men for them. Countering this means fair-machine-learning techniques and data cleaning applied before and during training, not after the fact.
+
+Multi-agent systems add another layer: interactions between autonomous agents can produce emergent behavior that no single agent's training anticipated. In a traffic system where each light runs its own AI agent, local optimization can produce aggressive strategies that clear one intersection efficiently while degrading the flow of the network as a whole. Countering that calls for RL algorithms that reward cooperation and communication between agents, not just individual performance — multi-agent learning techniques and social welfare functions built into the objective.
+
+Value alignment achieved in one domain does not transfer automatically. An RL agent trained to cooperate in a board game may not carry that behavior into real-world teamwork. Building agents whose alignment scales and transfers is a problem for domain adaptation, meta-learning, and transfer learning research, and it needs benchmarks that measure alignment across a wide range of tasks, not just the one the agent was trained on.
+
+\runin{Strategies for Value Alignment in Reinforcement Learning}
+Several strategies address these hurdles, drawing on human feedback, cooperation between human and agent, and ethical constraints built into the learning process itself.
+
+Reward engineering builds the reward structure directly from human feedback — training the agent by having it observe human actions, or by asking people to rank pairs of candidate behaviors. A domestic robot shown a human cleaning a room can infer that aligning objects and wiping surfaces are rewarded, and that breaking things or making a mess is not.
+
+Inverse reinforcement learning infers the reward function behind observed human behavior rather than assuming it is given in advance; its cooperative variant, CIRL, turns that into a two-way process between agent and human (section 4.2.2).
+
+A different approach builds resilience to uncertainty and disagreement directly into the system, so that when human values are ambiguous or in conflict the agent has somewhere to go other than a wrong answer stated with confidence. Where patient autonomy and patient wellbeing conflict in a medical decision, such a system can generate several ethically defensible options and ask a human clinician to resolve the impasse rather than picking one on its own.
+
+Regularization builds ethical constraints directly into the learning objective, penalizing undesirable behavior rather than only rewarding good behavior. A content recommendation system can be constrained toward fairness, diversity, and balance — through content re-ranking, diversification, and multi-objective optimization — which limits the filter bubbles and echo chambers that a reward function optimized for engagement alone tends to produce.
+
+One general tension runs underneath all of this and is worth naming once rather than in every paradigm that meets it. A system has to exploit what it already knows and explore what it does not, and the balance is a design choice with ethical content: exploration in a treatment planner means offering a patient something less established, and exploitation means declining to look. Safe exploration — algorithms that search inside stated constraints rather than checking for violations afterward — is the technique that makes the trade-off explicit, and section 6.3.3 takes it up as a safety practice. What matters here is that the balance point is not a hyperparameter to be tuned to performance. It is where a system decides whose interests bear the cost of its learning.

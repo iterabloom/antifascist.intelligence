@@ -30,6 +30,8 @@ PROT = re.compile(
     r'(?:,|and|through|to|or|–|-)\s*$')
 # a number that is a quantity, not a reference
 QTY = re.compile(r'(million|billion|trillion|percent|per cent|%|GPT|GDP|\$)', re.I)
+# LaTeX commands whose arguments carry numbers that are not references.
+LATEX = re.compile(r'\\(?:label|ref|autocite|cite|input|addcontentsline)\*?\{[^}]*\}')
 
 
 def load_numbers():
@@ -47,12 +49,16 @@ def main():
     if not nums:
         print('check_xrefs: no section numbers in ORDER.tsv'); return 1
     dangling, bare = [], []
-    for f in sorted(glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.txt'))):
+    for f in sorted(glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.tex'))):
         rel = os.path.relpath(f, ROOT)
         lines = open(f).read().split('\n')
         for i, ln in enumerate(lines):
             if i == 0:
                 continue          # the heading is a number, not a reference
+            # Section numbers also appear inside the LaTeX machinery a section
+            # file now carries -- \label{sec:10.3.2} most of all. Those are the
+            # anchors these references point AT, not references themselves.
+            ln = LATEX.sub(' ', ln)
             for m in REF.finditer(ln):
                 n = m.group(1)
                 before, after = ln[:m.start()], ln[m.end():m.end() + 14]
@@ -70,7 +76,7 @@ def main():
     if total:
         print(f'check_xrefs: FAILED — {len(dangling)} dangling, {len(bare)} bare')
         return 1
-    refs = sum(1 for f in glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.txt'))
+    refs = sum(1 for f in glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.tex'))
                for i, ln in enumerate(open(f).read().split('\n')) if i
                for m in REF.finditer(ln)
                if m.group(1) in nums and not QTY.search(ln[m.end():m.end() + 14]))

@@ -1,0 +1,22 @@
+% book.tex -- the master file for Ethical Superintelligence.
+% Hand-edited. Build with: finishing/tools/build_tex.sh
+%
+% Section files live one-per-section under sections/chNN/ and are pulled in by
+% sections.tex, which is generated from sections/ORDER.tsv by
+% finishing/tools/gen_book.py. Edit the prose in the section files; edit the
+% typesetting in preamble.tex; do not edit sections.tex.
+\input{preamble}
+
+\title{Ethical Superintelligence}
+\date{}
+
+\begin{document}
+\frontmatter
+\tableofcontents
+
+\mainmatter
+\input{sections}
+
+\backmatter
+\printbibliography[heading=bibintoc,title={References}]
+\end{document}

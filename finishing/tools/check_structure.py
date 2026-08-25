@@ -1,28 +1,33 @@
 #!/usr/bin/env python3
-"""Structural invariants for manuscript/sections and the ledger.
+r"""Structural invariants for manuscript/sections and the ledger.
 
   0. ORDER.tsv's sha256 column matches each file's actual contents. Nothing
      checked this before P7 C3, and every one of the 157 digests had gone
      stale: they were written once at the v4 split and never regenerated
      through P1-P7's edits, so the column silently stopped being evidence
      of anything. Refresh with tools/refresh_order_shas.py.
-  1. every section file's first line is its own heading, and the filename's
-     number matches that heading's number, and its title matches
-     ORDER.tsv's title column (render.py renders from ORDER.tsv, not from
-     the file's own heading text, so drift here is a silent build bug)
+  1. every section file opens with its own heading command and \label, the
+     filename's number matches the label's number, and the heading's title
+     matches ORDER.tsv's title column. Since D-065 the .tex heading is what
+     is typeset, so ORDER.tsv is now the copy that can go stale rather than
+     the other way round; it is still checked, because gen_book.py and the
+     TOC are generated from it.
   2. the heading set equals finishing/outline.tsv (numbers), with title
      differences reported (not fatal; the manuscript text wins)
   3. sorted(glob) order == ORDER.tsv numeric order
-  4. <<quote>>/<<list>>/<<box>> tags are balanced and unnested within each file
+  4. LaTeX environments are balanced and correctly nested within each file
   5. ledger.tsv (if present) has exactly one row per section
 """
 import glob
 import hashlib
+import re
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
+
+ENV = re.compile(r"\\\\(begin|end)\{([A-Za-z*]+)\}")
 
 
 def main():
@@ -33,7 +38,7 @@ def main():
     _, rows = common.read_tsv(order_path)
     rows.sort(key=lambda r: common.numkey(r["num"]))
 
-    files = sorted(glob.glob(os.path.join(common.SECTIONS, "ch*", "*.txt")))
+    files = sorted(glob.glob(os.path.join(common.SECTIONS, "ch*", "*.tex")))
     if files != [os.path.join(common.REPO, r["path"]) for r in rows]:
         errs.append("sorted(glob) order != ORDER.tsv numeric order")
 
@@ -44,17 +49,20 @@ def main():
         if not lines:
             errs.append("%s is empty" % r["path"])
             continue
-        h = common.parse_heading(lines[0])
+        h = common.tex_heading(lines)
         if not h:
-            errs.append("%s: first line is not a heading: %r" % (r["path"], lines[0][:60]))
+            errs.append("%s: does not open with a heading command and \\label: %r"
+                        % (r["path"], lines[0][:60]))
             continue
         if h[0] != r["num"]:
             errs.append("%s: heading number %s != ORDER.tsv %s" % (r["path"], h[0], r["num"]))
         if h[1] != r["title"]:
-            # render.py takes the rendered title from ORDER.tsv, not from this
-            # file's own heading -- a mismatch here means the built book shows
-            # a stale title even though check_all.sh is green (found twice:
-            # D-024/10.2's 55 titles, then 2.3.3/3.3.1/7.2.3 at P6). Fatal.
+            # Before D-065 the built book took its titles from ORDER.tsv, so a
+            # mismatch shipped a stale title with check_all.sh green (found
+            # twice: D-024/10.2's 55 titles, then 2.3.3/3.3.1/7.2.3 at P6).
+            # LaTeX now typesets the file's own heading, so the failure mode
+            # inverts -- ORDER.tsv goes stale, and gen_book.py and the TOC are
+            # built from it. Still fatal.
             errs.append("%s: heading title %r != ORDER.tsv title %r"
                         % (r["path"], h[1], r["title"]))
         if "sha256" in r:
@@ -63,30 +71,26 @@ def main():
                 errs.append("%s: ORDER.tsv sha256 is stale (%s != %s); "
                             "run tools/refresh_order_shas.py"
                             % (r["path"], r["sha256"][:12], digest[:12]))
-        stem = os.path.basename(p)[:-4].replace("_", ".")
+        stem = os.path.basename(p)[:-4].replace("_", ".")   # .tex is 4 chars too
         if tuple(int(x) for x in stem.split(".")) != common.numkey(r["num"]):
             errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))
-        depth = {"quote": 0, "list": 0, "box": 0}
+        stack = []
         for i, line in enumerate(lines, 1):
-            s = line.strip()
-            if "<<h>>" in line or "<</h>>" in line:
-                if not (s.startswith("<<h>>") and s.endswith("<</h>>")
-                        and len(s) > 11):
-                    errs.append("%s:%d malformed run-in head: %r"
-                                % (r["path"], i, s[:60]))
-                continue
-            for tag in ("quote", "list", "box"):
-                if s == "<<%s>>" % tag:
-                    if depth[tag]:
-                        errs.append("%s:%d nested <<%s>>" % (r["path"], i, tag))
-                    depth[tag] += 1
-                elif s == "<</%s>>" % tag:
-                    depth[tag] -= 1
-                    if depth[tag] < 0:
-                        errs.append("%s:%d unopened <</%s>>" % (r["path"], i, tag))
-        for tag, d in depth.items():
-            if d:
-                errs.append("%s: unclosed <<%s>>" % (r["path"], tag))
+            for m in ENV.finditer(line):
+                kind, name = m.group(1), m.group(2)
+                if kind == "begin":
+                    stack.append((name, i))
+                elif not stack:
+                    errs.append("%s:%d \\end{%s} with nothing open"
+                                % (r["path"], i, name))
+                elif stack[-1][0] != name:
+                    errs.append("%s:%d \\end{%s} closes \\begin{%s} from line %d"
+                                % (r["path"], i, name, stack[-1][0], stack[-1][1]))
+                    stack.pop()
+                else:
+                    stack.pop()
+        for name, i in stack:
+            errs.append("%s:%d unclosed \\begin{%s}" % (r["path"], i, name))
 
     _, ol = common.read_tsv(common.OUTLINE_TSV)
     ol_map = {r["num"]: r["title"] for r in ol}

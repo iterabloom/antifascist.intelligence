@@ -1,0 +1,34 @@
+% preamble.tex -- typesetting for Ethical Superintelligence.
+% Hand-edited. This is the design surface: change type, measure, and styling
+% here. Nothing regenerates this file.
+\documentclass[11pt,oneside]{book}
+
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
+\usepackage{microtype}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{tcolorbox}
+\tcbuselibrary{breakable}   % the only library the box style needs
+\usepackage[english]{babel}
+\usepackage{textcomp}
+% refs.bib uses \euro, which is not a base LaTeX macro. Everything else it
+% uses (\url \S \i \emph \c \v \textsection \L) is standard.
+\providecommand{\euro}{\texteuro}
+\usepackage[hidelinks]{hyperref}   % before biblatex, per its own guidance
+\usepackage[backend=biber,style=authoryear,sorting=nyt,maxcitenames=2]{biblatex}
+\addbibresource{../finishing/refs.bib}
+
+\setcounter{secnumdepth}{2}             % deepest heading in the book is x.y.z
+\setcounter{tocdepth}{2}
+
+% Run-in head: a bold lead-in line above a paragraph, used 169 times.
+\newcommand{\runin}[1]{\par\medskip\noindent\textbf{#1}\par\nopagebreak\smallskip}
+
+\newtcolorbox{esbox}{
+  colback=black!3, colframe=black!35, boxrule=0.4pt, arc=1pt,
+  left=8pt, right=8pt, top=8pt, bottom=8pt, breakable,
+  fontupper=\small,
+  before upper={\setlength{\parskip}{0.5\baselineskip}%
+               \setlength{\parindent}{0pt}},
+}
+\newcommand{\boxtitle}[1]{{\bfseries #1}\par\smallskip}

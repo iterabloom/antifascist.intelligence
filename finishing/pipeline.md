@@ -1,74 +1,72 @@
 # Build pipeline
 
-Verified end to end on this machine, 2026-08-22, on chapter 3 (55 sections):
-**55-page PDF, justified serif text, numbered headings, lists and epigraphs
-intact.**
+The book is LaTeX. Verified end to end on this machine, 2026-08-25: **193-page
+PDF from `manuscript/book.tex`, lualatex + biber, no undefined references.**
 
 ## What is available here
 
-`libreoffice` / `soffice` 24.2.7 headless, `gs`, python 3.12, node 20.
-**No TeX, no pandoc, no mermaid-cli, no graphviz**, and no network to install
-them. So the local path is HTML → LibreOffice → ODT → PDF.
+TeX Live 2026 installed under `$HOME/texlive/2026` — user-space, because there
+is no root on this machine and `apt` was therefore not an option. `lualatex`,
+`biber` 2.22, `scheme-medium` plus `collection-latexextra`. Also `libreoffice`
+24.2.7 headless, `gs`, `pdfinfo`/`pdftotext`, python 3.12, node 20.
 
-## The commands
+`~/texlive/2026/bin/x86_64-linux` is **not** on the default PATH. `build_tex.sh`
+adds it; set `TEXLIVE_BIN` to override.
+
+## The command
 
 ```sh
-# whole book, or one chapter with --chapter N
-python3 finishing/tools/render.py -o /path/to/scratch/book.html
-
-soffice --headless --convert-to odt --infilter="HTML (StarWriter)" \
-        --outdir /path/to/scratch /path/to/scratch/book.html
-
-soffice --headless --convert-to pdf --outdir /path/to/scratch \
-        /path/to/scratch/book.odt
+finishing/tools/build_tex.sh [OUTDIR]      # default $TMPDIR/es-build
 ```
 
-`soffice` prints `Warning: failed to launch javaldx` and works anyway.
-Build products go to the scratchpad, never into the repo — **with one standing
-exception, added 2026-08-23 on the author's instruction ("render the book and
-commit and push it all").** The rendered whole book is committed under
-`finishing/reports/` as `whole-book_<date>.html`, `.odt`, and
-`whole-book-proof_<date>.pdf`, so the repository carries a readable copy of the
-book at its current state and not only the sources it is built from. Rebuild and
-recommit all three together whenever the manuscript changes materially; a stale
-one is worse than none. Everything else still goes to the scratchpad.
+It runs lualatex → biber → lualatex twice, from `manuscript/book.tex`, with
+`-output-directory` so no aux files land in the source tree. Two runs after
+biber: the first resolves citations, the second the TOC and any page references
+that moved because of them.
+
+Build products go to the scratchpad, never into the repository — **with one
+standing exception, added 2026-08-23 on the author's instruction ("render the
+book and commit and push it all").** The whole-book proof is committed as
+`finishing/reports/whole-book-proof_<date>.pdf`, so the repository carries a
+readable copy of the book and not only the sources. Rebuild and recommit it
+whenever the manuscript changes materially; a stale one is worse than none.
 
 To eyeball a page without a viewer:
 
 ```sh
-gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r80 -dFirstPage=2 -dLastPage=2 \
+gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
    -sOutputFile=page.png book.pdf
 ```
 
-## What the renderer does
+## The source layout
 
-`finishing/tools/render.py` maps the dialect to HTML: heading level from the
-number's depth (`3.1.2.3.1.4` → `h6`, capped), `<<quote>>` → `<blockquote>`,
-`<<list>>` → `<ol>` with the item marker stripped, `<<box>>` → a single-cell
-table with its first line as a bold title, `#` notes dropped (they are notes to
-self, not book text). Chapters start a new page; 34em measure,
-Palatino with Georgia fallback.
+| file | what it is |
+| --- | --- |
+| `manuscript/book.tex` | master. Hand-edited. |
+| `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
+| `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
+| `manuscript/sections/chNN/*.tex` | one file per section, 159 of them. The prose. |
+| `finishing/refs.bib` | 282 entries, reached from the manuscript by `\autocite{key}`. |
 
-## Two importer behaviours worth knowing
+Add, remove, or renumber a section and you must re-run `gen_book.py` and
+`refresh_order_shas.py`; `check_all.sh` fails if either is stale.
 
-Found by looking at a rendered page, not by any automated check — both passed
-every test in `check_all.sh`.
+## Things worth knowing
 
-1. **A `<div>` border is applied to each child paragraph**, so a bordered block renders as a stack of separate boxes. Emit a single-cell table instead.
-2. **Most stylesheet rules are dropped on import.** The table's CSS border and background vanished; `border`, `cellpadding`, `cellspacing`, `bgcolor` and `<b>` are honored. `render.py` now uses presentational attributes for boxes and CSS only for things that degrade gracefully.
+**`refs.bib` is compiled, so LaTeX validates it.** The first full build failed
+on four URLs containing bare `%` inside `note` fields — a comment character in
+the `.bbl`, which swallowed the rest of the line — and on `$15/hour`, which
+opened math mode. Nothing in `check_all.sh` would ever have caught either. When
+editing `refs.bib`, escape `% _ # & $ ^` in prose fields. Do **not** escape them
+in `url`, `doi`, or `eprint`: biber emits those inside `\verb` blocks, where an
+escape ends up literally in the link.
 
-The general rule: **look at the proof.** The build succeeding says nothing about
-whether the page is right.
+**`\euro` is the one non-base macro `refs.bib` uses**; `preamble.tex` provides a
+fallback. Everything else it uses (`\url \S \i \emph \c \v \textsection \L`) is
+standard.
 
-## Known limits of this path
-
-- **No automatic table of contents.** LibreOffice's TOC is a field, and headless conversion does not reliably refresh it. Generate the TOC as literal content from `outline.tsv` when the structure settles.
-- **No endnotes yet.** D-009 endnotes are not implemented; `[[cite:ID]]` placeholders currently pass through as literal text, which is the correct behaviour for now — they should be visible while they are unresolved.
-- **Unmarked lists render as paragraphs.** The 585 items outside `<<list>>` markup look like prose here, because they are prose that wants to be a list. The style sheet handles this; the renderer should not guess.
-- **Styling is a proof, not a design.** Real typesetting is a later decision and probably belongs on a machine with TeX. Nothing about the source format forecloses that.
-
-## Fallbacks not needed yet
-
-`render.py --md` (Markdown out, for a pandoc build elsewhere) and a flat-ODT
-writer with real named styles are both straightforward if the LibreOffice path
-proves inadequate. Neither is worth building until the text settles.
+**Look at the proof.** The build succeeding says nothing about whether the page
+is right. Two defects in the first successful build were visible only in a
+rasterized page and passed every automated check: epigraph stanza breaks were
+being dropped, and paragraphs inside a box ran together because `tcolorbox`
+zeroes `\parindent`.

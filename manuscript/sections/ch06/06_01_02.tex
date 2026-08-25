@@ -1,0 +1,12 @@
+\subsection{Ensuring Fairness and Equity in AI Decision-Making}
+\label{sec:6.1.2}
+Fair, equitable AI decision-making starts with identifying bias in data and algorithms, then acting on it — through methods that limit how much that bias shapes what the system decides.
+
+\runin{Hiring}
+Amazon spent several years building an automated tool to score résumés against a decade of the company's hiring data, and abandoned the project after discovering it had taught itself that male candidates were preferable — penalizing résumés that included the word "women's," as in "women's chess club captain," and downgrading graduates of two all-women's colleges, as Reuters reported in 2018 \autocite{dastin2018amazon}. The tool had learned the pattern from a decade of résumés that were themselves mostly male, in a mostly male industry: bias in, bias out, at scale. Guarding against this means treating gender, race, and age as categories a hiring system cannot use even indirectly — through re-sampling and re-weighting the training data, adversarial training against a model that tries to predict the protected attribute, and fairness constraints on what the system is allowed to output.
+
+\runin{Credit Scoring}
+A credit-scoring system that discriminates on race or gender needs the same defense — fairness-aware learning targeting equalized odds or equal opportunity across demographic groups — plus one hiring doesn't: a rejected applicant has a right to know why, which is what the explainability tools of section 6.1.3 make possible.
+
+\runin{Healthcare}
+A diagnostic or treatment-recommendation system owes the same obligation to every patient regardless of age, gender, or ethnicity, which in practice means training on data diverse enough to generalize across patient populations, using transfer learning or domain adaptation where the data for some populations is thinner than others, and weighing accuracy against fairness explicitly rather than optimizing for one and hoping the other follows.

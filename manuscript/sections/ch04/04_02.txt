@@ -1,2 +1,0 @@
-4.2. Aligning AI Systems with Humane Values and Antifascist Principles
-Ethical superintelligence depends on AI systems that comprehend and integrate humane values and antifascist principles. Value alignment is the process of aligning an AI system's objectives with humane values, and the paradigms below are the ones the rest of the book leans on: reinforcement learning, inverse reinforcement learning and its cooperative form, supervised learning, and transfer learning.

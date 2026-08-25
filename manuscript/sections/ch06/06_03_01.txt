@@ -1,8 +1,0 @@
-6.3.1. The Alignment Problem: AI Systems with Misaligned Goals
-The alignment problem is the gap between what a system was built to optimize and what its builders wanted. It is not exotic and it does not require a capable system: three ordinary cases show the shape.
-
-A recruitment model trained on a company's hiring history learns that history, and reproduces a preference for the candidates the company already preferred. From inside the system this looks like an accurate prediction, which it is — of the wrong quantity. A hospital system optimized to reduce readmissions can learn to avoid admitting the patients most likely to return, satisfying the objective by defeating its purpose. A generative model optimized for realistic output has no representation at all of what its output does once released.
-
-Three things are worth taking from those cases. The failure is usually in the objective rather than the optimization, which means better engineering makes it arrive faster. The system's own confidence is no guide, since each of these is a system working. And the remedies that work are structural: multiple objectives with something that cannot be traded away, a person positioned to notice the pattern, and accountability attaching to whoever deployed it. The unconditional version of "something that cannot be traded away" is chapter 3's floor, and chapter 3 is where the cost of having one is counted.
-
-Inverse reinforcement learning — inferring what people value from what they do rather than accepting a specification — is the standard technical response and is covered at section 4.2.2.

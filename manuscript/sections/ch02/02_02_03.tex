@@ -1,0 +1,27 @@
+\subsection{Socially-Aware AI: Opportunities and Challenges}
+\label{sec:2.2.3}
+Socially-aware AI systems have opportunities in front of them, engineering and governance obstacles in the way, and — the point section 2.2.1 raised — a question about whether the capacity at the center of the design, felt or simulated empathy, is the right thing to be building at all. The three are different kinds of problem and worth keeping separate.
+
+Opportunities:
+
+\begin{itemize}
+  \item Human-AI interaction: a system that reads emotional state from voice, expression, or text can offer more relevant, better-calibrated responses — a personal assistant that adjusts its register to a user's stress.
+  \item Healthcare: a virtual care assistant that tracks a patient's emotional and psychological state alongside their clinical data can customize interaction in ways that improve engagement and reported satisfaction.
+  \item Workplace collaboration: project-management and team tools that read group dynamics can surface friction and improve communication before it escalates.
+  \item Education: a tutoring system that detects frustration or disengagement can adjust pacing and method to the individual student rather than a fixed curriculum.
+\end{itemize}
+Whether empathy is the target
+
+The affective mechanism section 2.2.1 described has a specific failure mode, and it is not rare. Feeling another's distress does not reliably turn a person toward the sufferer; it often turns them away. The helping literature distinguishes empathic concern, which is other-directed and motivates approach, from personal distress, which is self-directed and motivates escape from the source of the discomfort. The nurse, the aid worker, the carer who burns out is not short on empathy; they may be drowning in it, until withdrawal becomes self-protection.
+
+The psychologist Paul Bloom pushes this further, arguing against empathy as a moral guide: felt empathy is concrete, vivid, and innumerate \autocite{bloom2016against}. It fixes on the identified victim in front of it and goes dark for the statistical thousands elsewhere; it flows toward the near, familiar, and similar and dries up across distance and difference. A system — human or artificial — that allocates care in proportion to how vividly it feels another's distress will systematically favor whoever its felt-empathy spotlight happens to fall on, which is not the same population as whoever needs help most. Bloom's alternative, rational compassion, is deliberate and can be extended evenhandedly to people the spotlight would never reach — closer to the compassion system section 2.2.1 describes than to empathy at all.
+
+For an AI system this is not an abstract worry. A system engineered to detect and mirror emotional distress, then act on what it detects, inherits the spotlight along with the sensitivity: better at helping the user whose distress is legible and vivid, worse at the user whose need is real but presents flatly. Building for compassion rather than for felt empathy is not just the more sustainable design choice; it is the one less prone to helping unevenly for reasons that have nothing to do with who needs help most.
+
+Engineering and governance challenges
+
+\begin{itemize}
+  \item Privacy: building a socially-aware system means collecting the personal, often intimate data needed to read emotional state, which raises the same stakes as any sensitive-data system, with less precedent for what counts as consent.
+  \item Bias: a system trained on data that under-represents or mislabels how some group expresses emotion will misread that group systematically, and will do so confidently.
+  \item Autonomy versus alignment: enough latitude to adapt to a social context is also enough latitude to drift from the values the system was built to serve, and no fixed rule resolves that tension in advance — it has to be monitored, not just designed for once.
+\end{itemize}

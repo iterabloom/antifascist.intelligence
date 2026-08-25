@@ -146,7 +146,7 @@ def main():
             for dp, dn, fn in os.walk(os.path.join(common.REPO, root)):
                 dn[:] = [d for d in dn if d not in ("reports", "previous", "__pycache__")]
                 paths += [os.path.join(dp, f) for f in fn
-                          if f.endswith((".txt", ".md", ".tsv", ".py", ".sh"))]
+                          if f.endswith((".txt", ".tex", ".md", ".tsv", ".py", ".sh"))]
 
     names = persona_names()
     rx = build_regex(names)
