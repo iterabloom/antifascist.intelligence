@@ -24,12 +24,13 @@ It runs lualatex → biber → lualatex twice, from `manuscript/book.tex`, with
 biber: the first resolves citations, the second the TOC and any page references
 that moved because of them.
 
-Build products go to the scratchpad, never into the repository — **with one
-standing exception, added 2026-08-23 on the author's instruction ("render the
-book and commit and push it all").** The whole-book proof is committed as
-`finishing/reports/whole-book-proof_<date>.pdf`, so the repository carries a
-readable copy of the book and not only the sources. Rebuild and recommit it
-whenever the manuscript changes materially; a stale one is worse than none.
+Build products go to the scratchpad, never into the repository. From
+2026-08-23 to 2026-08-25 there was one exception, on the author's instruction:
+the whole-book proof was committed as
+`finishing/reports/whole-book-proof_<date>.pdf`. **The author withdrew that on
+2026-08-25 (D-068) and both committed PDFs were deleted**, because a binary
+proof in every manuscript commit distorts diff-based review tooling. The
+repository now carries only the sources; to read the book, build it.
 
 To eyeball a page without a viewer:
 
