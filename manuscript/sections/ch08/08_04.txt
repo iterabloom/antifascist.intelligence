@@ -3,7 +3,7 @@ Good design inside a single lab does not by itself keep an AI system ethical or 
 
 Legislation sets the floor that does not depend on a company volunteering for it: obligations on developers and users that can require the same kind of ethics review or independent audit biomedical research already answers to, applied instead to AI development.
 
-Self-regulation covers what legislation is slow to reach. The Partnership on AI, whose corporate members include Amazon, Apple, and Google, commits its members to "tenets" of safety, transparency, and broad benefit — voluntarily, and with no legal force behind the commitment [[cite:C0348]]. What a commitment of that kind is worth is the question section 8.4.2 takes up, and its answer bears on everything else in this section.
+Self-regulation covers what legislation is slow to reach, and what a voluntary commitment is worth is the question section 8.4.2 takes up through the industry coalition that is this book's standing example of one. Its answer bears on everything else in this section.
 
 Joint funding addresses a narrower problem: research on AI safety and ethics funded solely by the companies whose products it evaluates concentrates the funding and the findings in the same hands. Splitting that funding between government and industry keeps the incentive to find a problem from depending on who is paying to look for one.
 

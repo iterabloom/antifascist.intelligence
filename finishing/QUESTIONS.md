@@ -253,3 +253,35 @@ leading. Applied during the revise passes without being recorded at the time.
 "Roadmap" is the wrong word; concrete, practical, specific and where warranted
 ambitious proposals are what the introduction should promise. Chapter 1's opener
 was rewritten under D-043 for the new chapter structure and holds to this.
+
+---
+
+### Q-019 — The glossary defines a term the book never uses. **Closed by execution, D-061.**
+The GPAI entry is deleted, which is what the revision plan's Phase 5 asked for
+and what this question's own default proposed. The Partnership on AI entry,
+which had defined itself partly by contrast with GPAI, no longer does.
+
+### Q-021 — §3.6's title promises what its body does not do. **Closed by execution, D-061.**
+Resolved by option (c) rather than the recorded default (a), because P20
+rewrote chapter 3 anyway. The section is now §3.7, its title still reads "What
+Follows for the Rest of the Book," and its body now does that: it states what
+the inversion changes in sections 2.4.4, 2.4.6 and 8.6.2, what obligation
+chapters 4 and 5 acquire, what chapter 7 becomes, and what is left for section
+9.1. The backward-facing close it used to carry is now §3.6.
+
+### Q-022 — The design chapters do not lean on the floor. **Closed by execution, D-061.**
+The revision plan's item 1.6 supplies the answer this question was looking for.
+Once the floor is a commitment a bearer holds rather than a constraint
+installed in an artifact, the question stops being whether it can be edited out
+and becomes whether it will hold — and that second question is what chapters 4
+and 5 are about. Section 3.6 states it and section 3.7 instructs the reader to
+read those chapters as the floor's engineering rather than as the material
+above it.
+
+### Q-024 — Whether corpus provenance belongs in chapter 7 as well. **Partly overtaken, D-061.**
+P19 declined this on the argument that recuperation needs a channel to nullify
+and a corpus has none, and recorded that the argument had not been tested
+against chapter 7's text. P20 added section 7.4, a third instance of the
+chapter's structure located in the alignment discourse. That does not settle
+Q-024 — 7.4 is about the discourse, not the corpus — but it changes the
+chapter's shape, and anyone reopening the question should read 7.4 first.

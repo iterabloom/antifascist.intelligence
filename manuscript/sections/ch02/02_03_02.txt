@@ -1,24 +1,11 @@
 2.3.2. Affective Computing: AI Systems that Comprehend and Respond to Emotions
-Affective computing sits at the intersection of AI, psychology, and human-computer interaction: systems that recognize, interpret, and respond to human emotion. It is the practical, applied half of what section 2.3.1 treats as theoretically unsettled — a system can be useful at reading and responding to emotional signal regardless of which account of what an emotion is turns out to be right.
+Affective computing is the applied half of what section 2.3.1 leaves theoretically unsettled: systems that read and respond to emotional signal, useful or not regardless of which account of what an emotion is turns out to be right. The signal is taken from three places — the face, the voice, and the body. Facial expression analysis is a harder problem than the face verification deployed at scale, which only decides whether two images are the same person, and accuracy claims that borrow the reputation of the second for the first should be read with that in mind [[cite:C0311]]. Voice analysis works from pitch, tone, pace and volume. Physiological sensing infers from heart rate and skin conductance, which is the only one of the three the subject cannot pose for.
 
-Techniques for emotion recognition
-<<list>>
-- Facial expression analysis: computer-vision systems trained to classify emotional expression from facial images. This is a narrower and harder problem than face verification — telling two photos are the same person, which is what widely deployed systems like Facebook's DeepFace actually do — and emotion-classification accuracy claims should be read with that distinction in mind [[cite:C0311]].
-- Voice pattern analysis: decoding emotional signal from pitch, tone, pace, and volume. Cogito's voice-analysis tools, used to give call-center agents real-time coaching, are one deployed example [[cite:C0313]].
-- Physiological signal analysis: bio-sensing hardware — heart rate, skin conductance — captured by devices like the Empatica E4 wristband, feeding an inference about emotional state from the body rather than the face or voice [[cite:C0312]].
-<</list>>
+<<box>>
+A snapshot, early 2020s
 
-Deployment
-<<list>>
-- Mental health: Woebot, a cognitive-behavioral-therapy chatbot, offers one example of emotion-aware support for stress, anxiety, and depression [[cite:C0291]].
-- Education: Affectiva's Emotion AI assesses student engagement from facial signal to inform teaching-strategy adjustments [[cite:C0295]].
-- Entertainment: games and virtual-reality platforms that adjust content to a player's immediate emotional response.
-<</list>>
+The deployed examples that shaped this literature were commercial products of a particular moment: real-time coaching for call-center agents from voice analysis [[cite:C0313]], wrist-worn bio-sensing for research and clinical use [[cite:C0312]], engagement scoring from facial signal in classrooms [[cite:C0295]], and cognitive-behavioral chatbots for anxiety and low mood [[cite:C0291]]. They are named here as the record of what was built and tried, not as a description of a current market.
 
-Challenges
-<<list>>
-- Privacy: collecting and analyzing emotional data requires meaningful consent, not a buried terms-of-service clause, given how sensitive the data is.
-- Accuracy: emotional expression varies culturally and individually, and a system trained on one population's expressive norms will misread another's — confidently.
-- Bias: an AI system inherits whatever bias sits in its training data, with the same downstream discrimination risk as any other biased classifier applied to people.
-- Manipulation: a system that understands human emotion well enough to respond to it also understands it well enough to exploit it — the same governance question chapter 2 keeps returning to.
-<</list>>
+<</box>>
+
+Four difficulties travel with the whole field, and section 9.2.1 argues that the first of them is worse than a difficulty. Emotional expression varies by culture and by person, so a system trained on one population misreads another confidently. Whatever bias is in the training data is in the classifier, with the ordinary downstream consequences for whoever is being scored. Consent to emotional inference is not obtained by a term of service. And a system that models emotion well enough to respond to it models it well enough to exploit it, which is the case where the capability and the misuse are one capability.

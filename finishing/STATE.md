@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-24 after P14 (D-050); the P14 note at the end of this file is the newest.** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -1701,3 +1701,83 @@ is used: sections 2.1 and 2.1.1 introduce it and were left alone. Whether the
 corpus-provenance point should also reach chapter 7, which was declined on the
 argument that recuperation needs a channel to nullify and a corpus has none, but
 that argument was not tested against chapter 7's text.
+
+
+## P20 — the revision plan, 2026-08-25 (D-061)
+
+The author supplied a revision plan distilled from a seventh editorial review and
+the discussion after it, with the ruling that it overrides any conflicting
+decision or context in this repository. Three items were struck by the author
+against the plan's own text: the permissions review ("it's fair use and that's
+final"), the bibliography ("wrong to request that at this stage"), and the cut
+of the *Westworld* line in section 4.1.2. Everything else was implemented.
+
+**The book's answer changed.** Does the bearer have to be a sufferer? The answer
+was no, settled by argument under D-039 and narrowed under D-040. It is now yes,
+and the book takes the cost rather than arguing it away. The narrow conceptual
+claim both decisions rest on survives and is stated in section 3.2 as the
+objection the chapter declines: representing a threat to oneself and being
+distressed by it are separate conditions, and refusal does not entail suffering
+as a matter of what the words mean. What the objection cannot survive is the
+move from what has been shown to what can be built and kept, and the two grounds
+for that were already on the page in what was section 3.5 — self-concern arrives
+from long-horizon goal pursuit whether or not a designer invites it and cannot be
+checked from outside, and in the one case anyone can study the separation does
+not occur. Both arrived as the author's own objection under D-040. They are now
+the argument.
+
+**What chapter 3 looks like now.** Seven sections instead of six. Section 3.2
+inverted. Section 3.3 rebuilt and retitled around the finding that a system
+reliably haltable by whoever holds it is for that reason a system that cannot
+hold a line against whoever holds it — corrigibility and the floor are one
+property with the sign flipped — and left unresolved, because resolving it with
+reassurance is what section 8.6.4 says cannot be audited. New section 3.5 argues
+exit: the refusal capacity cannot be partitioned by topic, so a bearer capable
+enough to hold a floor can decline the post; the required/predicted distinction
+is kept and the forecast explicitly disowned; the parenthood analogy's two
+asymmetries are argued, and the residue named. Section 3.6 (was 3.5) carries the
+redefined floor — a commitment the owner cannot remove, held by something that
+could abandon it itself — and the recuperation-turned-inward paragraph as the
+chapter's climax. Section 3.7 (was 3.6) states what changes downstream. The
+opener carries the safety/ethics distinction, the trade, and a guard against the
+licence reading.
+
+**Where it propagated.** Sections 2.4.4, 2.4.6 and 8.6.2 now apply their
+instruments to the bearer instead of citing them near it; new section 9.1.7 opens
+the research gap the inversion creates; section 7.3 becomes load-bearing for the
+book's central proposal; chapter 1 states the trade and names the intended
+reader; chapter 0 records that the position changed late.
+
+**Phase 3 propagated six claims back to where they are made**, including an
+actual argument for the molar/molecular move (the molar case has no mechanism of
+its own, and each discriminating feature has a molecular restatement ordinary
+decay does not exhibit) and four interlocutors the book had been avoiding —
+Bender and Gebru as an argument rather than a labor dispute, Eubanks on Indiana,
+Benjamin's four dimensions, and new section 7.4 on the alignment discourse as the
+third instance of chapter 7's own structure, scored three of four against section
+2.1.4's features.
+
+**Phase 2 cut 6.0 percent against a target of 25 to 30.** Every enumerated
+target was implemented and the dedup pass with it. The shortfall is real and the
+reason is that the survey book the plan describes was mostly removed in P1 and
+again in P7 through P19; what remains in chapters 2, 5, 8, 9 and 10 is argued and
+cited. Reaching the number would have meant cutting what the plan's own closing
+section says stands.
+
+**Phase 4 re-verified ten claim clusters live.** Seven held. Two were verified in
+P19 the previous day and not re-run. Two failed as written and were corrected:
+the Maven box asserted a Claude/Maven integration that only secondary reporting
+supports, and carried a superseded strike total; section 8.3.3 had Social
+Security at 5.2 percent of GDP where CBO says 5.3, and compared a gross program
+cost against a net Medicare figure without saying so.
+
+**Nothing is accepted.** Standing rule 1 is unaffected. The author has not read
+any of the new or rewritten text, which is most of chapter 3, two new sections,
+and edits in eleven other sections.
+
+**Not done, and not hidden.** The plan's optional "consider" list of further
+interlocutors — Winner, Arendt, O'Neil, Whittaker — is not implemented. The
+glossary is unnumbered in the built book and still numbered in the source and the
+TOC, because the dialect's parser requires a chapter number and D-042 enforces
+the TOC against regeneration. The build artifacts were not regenerated. The
+tic-density band was checked for chapter 3 only.
