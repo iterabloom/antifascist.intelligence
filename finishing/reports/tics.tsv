@@ -1,12 +1,11 @@
 tic	count	sections	per_10k
-robust	10	8	1.2
-leverage	9	5	1.1
-landscape	4	3	0.5
-navigate	4	4	0.5
+leverage	11	7	1.2
+robust	10	8	1.1
+landscape	5	4	0.5
+navigate	4	4	0.4
 multifaceted	1	1	0.1
 harness	1	1	0.1
 holistic	1	1	0.1
-indispensable	1	1	0.1
 foster	0	0	0.0
 crucial	0	0	0.0
 pivotal	0	0	0.0
@@ -20,6 +19,7 @@ tapestry	0	0	0.0
 myriad	0	0	0.0
 encapsulate	0	0	0.0
 amalgamation	0	0	0.0
+indispensable	0	0	0.0
 imperative (adj)	0	0	0.0
 cornerstone	0	0	0.0
 in essence	0	0	0.0

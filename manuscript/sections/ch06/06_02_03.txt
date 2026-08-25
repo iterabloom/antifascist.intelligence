@@ -8,7 +8,7 @@ Robustness and generalizability let an AI system perform reliably outside the ex
 
 3. Domain adaptation: a model trained for one problem can often be re-adapted to a related one — a machine translation system trained on news articles fine-tuned to handle legal documents' different grammar and terminology, or a cybersecurity system trained on past attacks redirected to anticipate new ones. In robotics, domain randomization achieves a version of the same result by training entirely in simulation while randomizing the simulation's visual and physical parameters broadly enough that the real world ends up looking like just another variation the system has already handled [[cite:C0366]].
 
-4. Meta-learning: covered at length in section 4.1.2 and section 4.1.3, including the Model-Agnostic Meta-Learning algorithm. The same capacity to generalize quickly from a handful of examples that supports adapting to new tasks is also what lets a system extend to conditions its training distribution did not cover.
+4. Meta-learning: introduced at section 4.1.3 as the family of techniques that extract a strategy for adapting across many tasks rather than one task's solution. The same capacity to generalize quickly from a handful of examples that supports adapting to new tasks is also what lets a system extend to conditions its training distribution did not cover.
 
 5. Ensemble methods: combining several models' predictions, through techniques like bagging, boosting, and stacking, produces a more reliable answer than any one model alone would give. A medical diagnosis reached by an ensemble of models is less likely to reflect one model's particular blind spot than a diagnosis from a single system would be.
 

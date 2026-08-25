@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-24 after P14 (D-050); the P14 note at the end of this file is the newest.** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -1412,3 +1412,66 @@ Verified live: the link resolves and carries both the four-feature structural
 signature and the slope argument. **A URL is weaker than a copy**; what the
 appendix contributed to §2.1.4 and §8.6.4 is recorded independently in
 `reviews/README.md` and in D-048/D-049, so the claim survives a dead link.
+
+## P14 — the cross-reference *content* audit, 2026-08-24 (D-050)
+
+The author supplied two suspected orphaned references and asked whether the
+description was accurate. **One was, one was not.** §10.1.1's roster is genuinely
+orphaned. §8.7.4 → §8.7.6 is sound: §8.7.6 does carry the four-way comparison of
+EU, US, UK and Chinese regulation, and does cover the human-rights treaty, so
+nothing there needed repair. What is real at §8.7.4 is that it *opens* on a
+forward pointer and argues on top of it — an ordering question, recorded as Q-020
+rather than fixed.
+
+**This is a different failure class from D-046's, and `check_all.sh` cannot see
+it.** D-046's defects were references that did not resolve. Every reference in
+the book resolved before this pass and resolves after it; the suite was green
+throughout. These are references that resolve to a section that no longer says
+what the citing sentence claims. `finishing/tools/xref_content.py` is new here
+and is deliberately **not** wired into the suite: it flags candidates that need
+a hand read, not pass/fail. 121 candidates over 610 reference-instances,
+**9 defects and 112 false positives**; all nine fixed, listed in `p14-scope.md`.
+
+**The mesh size, because it matters more than the count.** The tool sees only
+references whose citing sentence names a proper noun, acronym or year absent from
+the target. A wrong pointer in a sentence naming none of those is invisible to
+it, and that is most sentences. Nine found is not nine existing. P13's full hand
+read of every reference against its target was **not** redone.
+
+**The serious finding is not a pointer.** §10.1.1 cited §8.1.1 for five
+institutions — AI Ethics Lab, AI Alignment Forum, Stanford HAI, the MIT–Harvard
+initiative, AAAI/ACM AIES — and P11 (`30451e5`) cut all five from §8.1.1 in one
+diff. None of them carried a `[[cite:ID]]` or a `claims.tsv` row: **the
+cross-reference was their sourcing.** So P11 quietly converted five dated factual
+claims into claims resting on nothing, and P4's "zero unresolved placeholders"
+was true of them only because they never had a placeholder to resolve. That is a
+hole in the P4 completion claim, not just in §10.1.1 — a cut section can strand
+another section's evidence without either the sourcing check or the reference
+check noticing.
+
+All five were verified live under D-030 and are now C0727–C0731. **Two failed.**
+The Center for Human-Compatible AI is grant-funded — a $5,555,550 Open
+Philanthropy award recommended over five years, renewed since — and the book
+called it an endowed university centre "not a grant with an expiration clause,"
+which is the reverse of the facts. The MIT–Harvard Ethics and Governance of AI
+Initiative is, in the Berkman Klein Center's own words, "a hybrid research effort
+and philanthropic fund"; it is **cut**, since with the endowment framing gone it
+carried nothing the other examples do not, and its page has not been updated
+since February 2024, so "still running" is not assertable either.
+
+**§10.1.1's argument is unchanged.** It never rested on endowment; its conclusion
+is that the dialogue closest to a deployed product is the least protected kind,
+which the Microsoft and Twitter evidence in its third paragraph carries. The
+endowment sentence was a false premise standing in front of a sound argument.
+
+**Two questions left with the author.** Q-019: the glossary defines GPAI, a term
+the body never uses — checked back to the original split, so this is not P11
+fallout. Its two locators were wrong and are removed; whether the entry stays is
+a P5 content call and was not made unilaterally. Q-020: §8.7.4's opener.
+
+**Noticed and not chased.** Chapter 10 runs the D-025 contrastive-negation
+construction at roughly 8.6 per 1,000 words, the highest body chapter, with
+chapters 2 and 6 also above the 4.63 band — the same shape as Q-017, in chapters
+no tic pass has swept. The figure comes from an ad-hoc regex, not the project's
+D-025 measure (it reads chapter 5 at 1.61 against D-044's 1.23), so the ranking
+is the finding and the absolute number is not. Left for a D-025 pass.
