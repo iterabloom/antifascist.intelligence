@@ -29,10 +29,11 @@ num	title	level	parent
 3	The Floor Beneath Learned Values	1	
 3.1	Three Ways to Build One, and What Each Costs	2	3
 3.2	Does the Bearer Have to Be a Sufferer?	2	3
-3.3	Who Keeps a System That Will Not Keep Itself	2	3
+3.3	What Can Be Switched Off Cannot Hold a Line	2	3
 3.4	Whether the Bearer Can Be Believed	2	3
-3.5	What This Leaves Standing	2	3
-3.6	What Follows for the Rest of the Book	2	3
+3.5	A Bearer That Can Leave	2	3
+3.6	What This Leaves Standing	2	3
+3.7	What Follows for the Rest of the Book	2	3
 4	Machine Learning and Cognitive Science	1	
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4
 4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4.1
@@ -148,6 +149,7 @@ num	title	level	parent
 9.1.4	Open Questions in Empathy and Theory-of-Mind Research	3	9.1
 9.1.5	Can a Multi-Agent AI System Resist Being Captured?	3	9.1
 9.1.6	What an Antifascist Detector Would Actually Have to Detect	3	9.1
+9.1.7	What Is Owed to a Bearer, and Who Could Check	3	9.1
 9.2	Emotional Intelligence, Affective Computing, and Altruism	2	9
 9.2.1	Is Emotion Legible From a Face at All?	3	9.2
 9.2.2	Interpretability, Self-Reports, and Resistance to Tampering	3	9.2
