@@ -1,5 +1,5 @@
 1.3. Mindset and Motivation in AI Behavior
-Three ideas borrowed from how humans develop recur across this book's design chapters: the stance a system takes toward its own failures, what drives it to act absent an external reward, and what it takes to build any of this with people from diverse disciplines. This section names them and points to where each is actually developed.
+Three ideas borrowed from how humans develop recur across this book's design chapters: the stance a system takes toward its own failures, what drives it to act absent an external reward, and what it takes to build any of this with people from diverse disciplines.
 
 <<h>>Growth Mindset<</h>>
 Psychologist Carol Dweck's distinction between a fixed mindset, which treats ability as static, and a growth mindset, which treats it as built through effort and experience, matters for an AI system's moral judgment as much as for a person's: a system that treats its own errors as data has room to keep improving; one built to defend its prior outputs does not. Section 5.1.1 works out what that disposition would need to look like architecturally, and what it would cost to get wrong.
