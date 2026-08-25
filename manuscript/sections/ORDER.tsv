@@ -1,9 +1,9 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.txt	0	On Method	c7502b8878b93c97f33eabf3fd60cb6cc0ea002ba91d20a61405f0e2187b5c34
-manuscript/sections/ch01/01.txt	1	Introduction	7a4b968a8b44358c26ff070b0a95ef6df0cf89e1b2591b60f9b7aeb2f10d6c51
-manuscript/sections/ch01/01_01.txt	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	dcb7c54fcc31213b19e76e3cc0dfb2501b547ab7c2197ece161aa5822b0d6475
-manuscript/sections/ch01/01_02.txt	1.2	Aims and Objectives	e211129fe97433e5556744c7fa705b4a599610d4150ce31802ff578eab5fb159
-manuscript/sections/ch01/01_03.txt	1.3	Mindset and Motivation in AI Behavior	d04c3156604e56fa8dc2fb48068d20ad2e0f3e2d84aff36c9c8e1417fbb19e80
+manuscript/sections/ch00/00.txt	0	On Method	ecb63a38df605ded7f48117c948ea337cc7c91691199168ef68a5171db6d12fe
+manuscript/sections/ch01/01.txt	1	Introduction	af8a9d619d065141a20b624e009e96d1fbeca5a5b4fdd1074c4518fc648a63ff
+manuscript/sections/ch01/01_01.txt	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	4b164ed266db78c8293235ca7f2788fb166ea72ca01758b6daa4427c8798e97e
+manuscript/sections/ch01/01_02.txt	1.2	Aims and Objectives	d081bd3c4dde63645f867f24e669bc0eb4da75e99c37a181e204902460247c45
+manuscript/sections/ch01/01_03.txt	1.3	Mindset and Motivation in AI Behavior	9fe3aa0d2bc2157b41423035b903ffce03a7a86e7a3dc4236fb1eeb7a58feb5d
 manuscript/sections/ch02/02.txt	2	Foundations of Compassion and Empathy in Friendly AI	83da7933c81a71a3d2b871b1bdb5b8d9dc73ad1e9218525bf2d1209cbe9df2ac
 manuscript/sections/ch02/02_01.txt	2.1	Ethical Frameworks and AI Alignment	b6e0a6d27cf698e71e644e88bb2771493a52883603fb991c1e194df954391fae
 manuscript/sections/ch02/02_01_01.txt	2.1.1	Surveying Ethical Theories for AI Alignment	267f8d2503e4601ac9f164728bcc016319d4b72ae7f30454a557c2958a92b44c
