@@ -1399,3 +1399,16 @@ visibility from here (`gh` unauthenticated) and did not assume.
 
 **The review numbering has a gap.** P8 answers "the second", P9 "the fourth",
 and no pass answers a third. Not determinable from the record; written down.
+
+## The P7 appendix reduced to a pointer, 2026-08-24 (D-049)
+
+The author's ruling settles the disclosure question D-048 left open:
+`review-for-p7-appendix-first-rule_2026-08-23.md` now holds only the upstream
+URL. The source is public and versioned where it lives, so the provenance chain
+survives without duplicating another project's documentation — or its
+operational detail — into this repository.
+
+Verified live: the link resolves and carries both the four-feature structural
+signature and the slope argument. **A URL is weaker than a copy**; what the
+appendix contributed to §2.1.4 and §8.6.4 is recorded independently in
+`reviews/README.md` and in D-048/D-049, so the claim survives a dead link.

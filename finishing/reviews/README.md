@@ -18,35 +18,36 @@ these files are the input, not the verdict.
 | File | Review | Answered by |
 |---|---|---|
 | `review-for-p7_2026-08-23.md` | The first editorial review, read 2026-08-23 | P7 — `p7-scope.md` |
-| `review-for-p7-appendix-first-rule_2026-08-23.md` | The appendix attached to it — see the caveat below | P7 — `p7-scope.md` |
+| `review-for-p7-appendix-first-rule_2026-08-23.md` | Pointer to the appendix attached to it, held upstream — see below | P7 — `p7-scope.md` |
 | `review-for-p11_2026-08-24.md` | The sixth editorial review, 2026-08-24 | P11 — `p11-scope.md`, D-043 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
 last-modified dates, per the `AGENTS.md` filename convention.
 
-## The appendix, and why it is a separate file
+## The appendix, and why it is a pointer
 
 `review-for-p7_2026-08-23.md` arrived with an appendix attached: an excerpt from
 the documentation of **a different software project**, cited in the review as
-`docs/fascism/the-first-rule-of-fascism.md`. It is split out rather than kept
-inline because it is not about this book.
+`docs/fascism/the-first-rule-of-fascism.md`.
 
-It is kept, rather than dropped, because it is load-bearing provenance: it is
-the source of the four-feature structural signature of fascism — recuperation
-of dissent, aestheticization of the metric, exception coded as betrayal,
-decoupling of the model from the world — and of the *slope, not the level*
-instrument. Those became §2.1.4 and §8.6.4, which are among the most-cited
-passages in the book. Dropping the appendix would erase where the book's
-central definition came from.
+That appendix is load-bearing provenance. It is the source of the four-feature
+structural signature of fascism — recuperation of dissent, aestheticization of
+the metric, exception coded as betrayal, decoupling of the model from the world
+it claims to track — and of the *slope, not the level* instrument. Those became
+§2.1.4 and §8.6.4, which are among the most-cited passages in the book.
 
-**Two things for the author to decide.** The appendix's closing section contains
-operational detail of that other project — a CVE identifier, an upstream PR
-number, an internal work-item ID. If this repository is or becomes public, that
-is a disclosure choice, and it is yours, not mine. Deleting that one file
-removes all of it and costs nothing else. I could not check the repository's
-visibility from this environment (`gh` is not authenticated here), so I have not
-assumed either way.
+**By the author's instruction (D-049), the file holds the upstream URL rather
+than a copy of the text.** The source is public and versioned at its origin, so
+a pointer preserves the provenance without duplicating another project's
+documentation into this repository — and without carrying that project's
+operational detail, which the copy did. The link was verified live on
+2026-08-24: it resolves, and it carries both the four features and the slope
+argument, in the words above.
+
+A URL is a weaker guarantee than a copy — it can move or go private. The claim
+it supports is recorded independently here and in D-048, so what the appendix
+contributed to the book survives in this repository even if the link does not.
 
 ## What is NOT here
 
