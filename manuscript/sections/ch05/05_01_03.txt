@@ -1,23 +1,4 @@
 5.1.3. Moral Apprenticeship: AI Systems Learning from Human Mentors
-Moral apprenticeship applies a simple idea to AI ethics: teach a system the way a mentor teaches an apprentice, through interaction and correction, not specification alone. Section 2.1.3 names direct human mentorship as one of six strategies for resolving value conflicts in AI decision-making; this section works out what that mentorship looks like in practice.
+Apprenticeship means teaching through cases and correction instead of specification. A mentor presents varied situations, the learner responds, the mentor corrects, and what transfers is a way of weighing cases rather than a larger rule table — which is the entire reason for learning it from a person. An emergency-triage system taught this way is being shown how to hold urgency, scarcity, and what a decision costs a family in view at once. No specification document conveys that.
 
-The aim is observational learning that builds a genuine grasp of ethical norms, societal values, and the texture of human decision-making — not a wider rule table, but a system that can align with humane values across contexts a rule table was never written to cover.
-
-Three methods do this work:
-<<list>>
-1. Imitative instruction: an AI system acquires moral judgment by watching mentors respond to varied moral dilemmas, building a behavioral repertoire it can draw on in its own interactions.
-
-2. Interactive appraisal: regular dialogue between an AI system and its mentors refines and deepens its ethical grasp, giving mentors a direct channel for guidance, correction, and feedback that tunes the system's judgment to context.
-
-3. Value-driven alignment: building humane values like empathy and fairness directly into an AI system's decision-making puts what its mentors care about at the center of its choices.
-<</list>>
-
-Case- and scenario-based instruction — the same approach section 2.1.3 lists among its six strategies for resolving value trade-offs — is what makes this concrete: real ethical problems are what teach a system to apply a principle. Abstract rule tests teach it to cite one.
-
-Carrying this weight requires more than a mentorship pipeline; it requires an architecture where moral reasoning, intuition, and emotional response are integrated and not bolted together, which is the design problem section 4.1.2 takes up directly.
-
-Keeping apprenticeship itself from becoming another vector for control matters as much as the pedagogy does — an AI system whose moral education amounts to obedience training toward whoever happens to be mentoring it has learned the wrong lesson. Section 2.1.4's antifascist strategies — transparency, accountability, resistance to concentrated power — apply here directly: whoever mentors an AI system should be as auditable as the system being mentored.
-
-A medical AI system for emergency triage shows what this looks like in practice. A human mentor presents varied emergency scenarios, guiding the system through how to prioritize care, allocate scarce resources, and navigate the emotional weight those decisions carry for patients and families. The exchange is what teaches the system the layered complexity of the decision underneath the outcome.
-
-What a mentor actually transmits in this exchange is not a bigger rule set but a way of weighing cases the way a person who has done this work for years would weigh them — which is the entire point of learning it from a person. No specification document conveys it.
+Three cautions come with it, and the third is the one this book cares about most. Case-based teaching transfers the mentor's blind spots along with the mentor's judgment, and does so invisibly, because a blind spot produces no correction. The architecture has to integrate moral reasoning with the rest of the system's judgment rather than bolting it on, which is section 4.1.2's problem. And apprenticeship is a control channel: a system whose moral education amounts to obedience toward whoever is mentoring it has learned something, and it is not ethics. Section 2.1.4's requirements apply to the mentor as much as the system — whoever teaches a system should be as auditable as the system being taught.

@@ -1,11 +1,17 @@
-5.4.2. Microsystem Interactions and AI Moral Learning
-An AI system's microsystem is the immediate environment it is built and trained in — the research lab, the company, the academic department — where it first encounters the researchers and engineers who write its code, the datasets that carry social norms into its training, and the early users who give it feedback.
+5.4.2. The Rings Outside the Lab
+The immediate environment shapes a system through people rather than data. Developers and early users are mentors whether or not anyone calls them that, and what they treat as an acceptable answer is what the system learns to produce. Breadth in that circle is not a fairness gesture: a system that has only been argued with by one kind of person has no way to notice what it is missing when a different kind arrives.
 
-At this level, an AI system's moral learning is shaped less by any single dataset than by direct interaction with the people around it: the developers who train it, the users who query it, and the wider public whose expectations eventually reach it secondhand. Two things do most of that shaping.
+One ring out, the question is consistency across the interfaces — between engineers, ethicists, legal staff, policy teams, and the people a system is used on. The mechanisms that do the work there are reciprocal cross-training, external participation in design decisions rather than in review, requirements written into the specification instead of appended as principles, and an internal culture where moral objections are raised before deployment rather than discovered afterward. Section 7.4 is the argument for why that last one is harder than it sounds.
 
-<<list>>
-- Human mentorship: developers, researchers, and engineers act as an AI system's mentors whether they intend to or not, the way a child absorbs ethical behavior from parents and teachers. An autonomous vehicle's training, for instance, runs through sustained contact with its designers, safety engineers, and the driving public — contact that is where judgment about a crash scenario actually gets built, in advance of any specification written afterward.
-- Exposure to diversity: a system trained on a narrow slice of human perspective learns a narrow slice of human ethics. Datasets and stakeholder groups that span cultures, languages, and moral frameworks give a system the material to navigate an ambiguous case. The default is whatever perspective dominated its training data. A conversational AI system that has only ever talked to one demographic will not recognize what it is missing when a different one arrives.
-<</list>>
+Further out sit forces no team negotiates with. A market-financed healthcare system rewards tools for profitable conditions and well-insured populations, and gives nobody a reason to build for preventive or mental health care where the payer is unclear; a publicly financed one rewards tools that serve the whole covered population, because there is no more profitable subset to redirect toward. Neither incentive is chosen by the engineers. The same logic reaches everywhere: a region with strong public education produces accessibility-oriented applications because that is where the institutional relationships already are, and a region with weak labor protection produces efficiency gains that arrive faster than any protection for the people they displace, because nothing is pushing back.
 
-A microsystem built this way — mentored deliberately, exposed broadly — is what gives an AI system the raw material for something like altruism, in place of a narrow reflection of whoever happened to build it and easily redirected by whoever controls it next.
+And the outermost ring is time. A system built to be ethical at release is answering a question that keeps moving: norms shift, capability grows and has to be re-secured at each new level, and the legal environment is a moving target rather than a fixed constraint.
+
+<<box>>
+A dated example: the GDPR
+
+The European Union's General Data Protection Regulation, in force since 2018, built in protections around automated decision-making — often described as a right to explanation, though how far that right reaches is disputed — and required systems serving EU users to account for data use and algorithmic decisions in ways many had not before [[cite:C0333]]. Its reach exceeded its jurisdiction, because a system built to comply for European users tends to get built that way for everyone. The point is the pattern rather than the instrument: the next binding shift will not be the GDPR.
+
+<</box>>
+
+A development effort that never asks what its own outer rings reward has not stayed neutral on the question. It has let the answer be settled somewhere it cannot see.
