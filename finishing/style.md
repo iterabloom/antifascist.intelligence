@@ -216,6 +216,15 @@ Four corollaries, three of them section 2's own:
 - **Do not open with a scorecard.** "Right that X, wrong that Y, and Z unpriced"
   makes the reader parse a verdict before reaching anything checkable.
 
+A rule from section 1 that belongs here too, because it applies to the book and
+to reports alike (D-055): **specify what a demonstrative refers to.** In
+persuasive argumentation "that," "this" and "it" should name their referent --
+not for the reader's sake alone but because naming it forces the writer to be
+precise about what is being claimed. The bare demonstrative is a casual-register
+expedient, and it hides exactly the imprecision an argument cannot afford. When
+the noun is hard to choose, that difficulty is the finding: section 3.2's opener
+needed three candidates checked against the chapter before one was available.
+
 **This is not a licence to hedge.** `AGENTS.md`'s no-weasel-words rule is
 unaffected and outranks this section: say what was checked, what was found, and
 what was not checked, and say "I don't know" where that is the answer. Plainness
