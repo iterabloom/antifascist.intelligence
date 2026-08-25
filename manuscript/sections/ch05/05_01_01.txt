@@ -4,9 +4,11 @@ In humans, moral development moves from rule-based reasoning to reasoning ground
 <<h>>Rules, Norms, and Principles<</h>>
 The psychologists Jean Piaget and Lawrence Kohlberg mapped this territory in humans, and their stage theories anchor what follows [[cite:C0322]]. Reasoning starts at a pre-conventional level, where consequences do the driving — rules get followed to avoid punishment or gain reward. It moves through a conventional stage, where societal norms and expectations get internalized as one's own. It can reach a post-conventional level, where morality answers to principles like justice, fairness, and individual rights, which a given society may or may not happen to expect.
 
-An AI system's moral development could plausibly follow the same arc: from grasping and executing established rules, to being guided by the ethical principles those rules were built to approximate.
+What a system built this way needs from that account is the distinction between the three kinds of reasoning, and nothing about the order in which they arrive. The box below sets out why the sequence will not carry the weight; the distinction will.
 
-A self-driving car makes the stages concrete. At its most basic, it follows traffic law strictly, the way a new driver does — a pre-conventional stage. As it develops, it adapts to social norms: driving style shifts with time of day, traffic conditions, and local driving culture — a conventional stage. Fully developed, it confronts ethical dilemmas — the trolley problem's basic shape, choosing among bad outcomes to minimize harm — which is the post-conventional stage in practice.
+A self-driving car makes the three kinds concrete. One system follows traffic law as written and has no resources beyond it: at a blocked lane with a solid line, it stops indefinitely, because crossing the line is prohibited. A second reads the local convention that everyone crosses the line here when the lane is blocked, and does what the road expects. A third can say why the line is painted there, which is what lets it recognize the case where the convention is wrong — the blind curve where local practice is a habit people have survived rather than a rule that protects them — and depart from both the law as written and what the road expects.
+
+These are three capacities and not three ages. A system can have the third without the second, which is the ordinary failure of a machine that reasons impeccably about principle and drives in a way that terrifies everyone around it. Nothing in the design requires passing through them in order, and there is no maturity at the end of the list.
 
 <<box>>
 What the stage theories will and will not carry

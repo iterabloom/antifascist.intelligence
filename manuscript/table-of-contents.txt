@@ -105,6 +105,7 @@ Chapter 7: The Recuperation of Dissent
 7.1. Recuperation at the Label
 7.2. Recuperation at the Reward: RLHF
 7.3. What Would Have to Change
+7.4. Recuperation at the Discourse
 Chapter 8: Collaboration, Policy, and Governance
 8.1. Interdisciplinary Collaboration and Knowledge Exchange
 8.1.1. What Makes Collaboration Expensive to Walk Away From
