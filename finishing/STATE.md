@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-25 after D-067 (P23): the author ruled on all four open questions — no question is open — and section 8.7.6, the book's longest, is split four ways along its run-in heads into 8.7.6–8.7.9, with old 8.7.7 now 8.7.10. 162 sections. Nothing cut; three transition sentences edited; all 24 inbound references to the pair read and placed by hand. Section 8.7.4's opener rewritten (Q-020 b). The P23 note at the end of this file has the detail, including one tool gap found on the way: `xref_content.py` was never ported to `.tex` and scans nothing.** **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof. The committed proof, `finishing/reports/whole-book-proof_2026-08-25.pdf`, is the LaTeX build from that commit: 193 pages, LuaTeX. It supersedes the 153-page LibreOffice-path proof of the same date that the P20 note at the end of this file describes; the two page counts differ because the typesetting changed, not the text.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. `AGENTS.md` and the pre-commit hook's pass message, both of which still described the byte-for-byte join, were corrected in `d2f57d8` with the author's explicit approval, as that file requires.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-25 after D-067 (P23): the author ruled on all four open questions — no question is open — and section 8.7.6, the book's longest, is split four ways along its run-in heads into 8.7.6–8.7.9, with old 8.7.7 now 8.7.10. 162 sections. Nothing cut; three transition sentences edited; all 24 inbound references to the pair read and placed by hand. Section 8.7.4's opener rewritten (Q-020 b). The P23 note at the end of this file has the detail, including one tool gap found on the way: `xref_content.py` was never ported to `.tex` and scans nothing.** **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof. The proof built at that commit was 193 pages from LuaTeX, against the 153-page LibreOffice-path proof of the same date that the P20 note at the end of this file describes; the two page counts differ because the typesetting changed, not the text. No proof is committed any more: D-068 deleted both tracked PDFs and withdrew the exception that had kept one here, so build one with `finishing/tools/build_tex.sh` and it goes to the scratchpad.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. `AGENTS.md` and the pre-commit hook's pass message, both of which still described the byte-for-byte join, were corrected in `d2f57d8` with the author's explicit approval, as that file requires.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -51,9 +51,11 @@ recorded in `p8-scope.md` rather than passed over.
 **Current as of 2026-08-25, after D-067.** `manuscript/sections/chNN/*.tex` —
 **162 sections**, chapters 0 through 11, one `.tex` file each, nothing deeper
 than three levels; `book.tex` is the master, `sections.tex` the generated
-`\input` list. **92,692 words** by `section_stats.py`, regenerated 2026-08-25
-(`finishing/reports/section_stats.tsv`). The committed proof is the 193-page
-LaTeX build described in the header, rebuilt after D-067. `manuscript/parseable_text_v4.txt` and
+`\input` list. **About 92,160 words of prose.** `section_stats.py` reports 92,692
+in `finishing/reports/section_stats.tsv`, which is 0.6 percent high because that
+tool was never ported to LaTeX and counts macros as words; its structural columns
+are worse than that and should not be read at all (D-069). No proof PDF is
+committed (D-068); build one to the scratchpad. `manuscript/parseable_text_v4.txt` and
 `manuscript/parseable_text_v3b_2024-07-07.txt` are both frozen, guarded by
 `check_frozen.py`; neither is a build artifact any longer. Ledger: 146 sections
 `accepted`, 16 `drafted` — chapter 3 entire (§3 and §§3.1–3.7), §7, §7.1, §7.3,
@@ -1209,7 +1211,7 @@ handed off rather than a live punch list.
 
 | File | What |
 |---|---|
-| `finishing/DECISIONS.md` | D-000…D-066, append-only. **Read before assuming anything.** |
+| `finishing/DECISIONS.md` | D-000…D-069, append-only. **Read before assuming anything.** |
 | `finishing/PLAN.md` | the passes, their entry/exit criteria |
 | `finishing/QUESTIONS.md` | the open items for the author, each with a default and when it applies |
 | `finishing/pipeline.md` | the LaTeX build: what is installed, the command, the source layout |
@@ -1866,3 +1868,47 @@ equal with quote characters removed.
 on 2026-08-23, with D-060's permitting paragraph in 8.7.6 still unread; the
 rewritten sentence in 8.7.4 and the three transition sentences have not had
 the author's read either.
+
+## Five defects from the D-062-base cloud review, 2026-08-25 (D-069)
+
+A cloud review over the D-062..D-067 range returned five findings. Each was
+checked against the tree before anything was applied. Four held as stated; one
+held in substance with its central number wrong.
+
+**`check_structure.py`'s environment check had never run.** Its regex required
+two literal backslashes where LaTeX writes one, so it matched nothing in any
+real section file and invariant 4 -- the one the pre-commit hook advertises as
+"structure" -- had been passing vacuously since D-065. Fixed, and the corrected
+check was run across all 162 files before being installed: 0 defects, so the
+broken check had not been concealing anything.
+
+**Three bibliography entries were defined and never cited.**
+`kohlberg1969stage`, `cnn2020alibabauyghur` and `harvardcs108schedule` were the
+only 3 of 282 entries absent from every `\autocite`, so they would not have
+printed. D-063 added each to close a gap its anchor does not cover, and the
+anchors' own notes claimed a joint citation the manuscript did not deliver. All
+three sentences now carry both keys; verified in the built book, in the text and
+in the References. No reference entry was authored -- the entries already
+existed -- so standing rule 2 is untouched.
+
+**`refs_to_latex.py`** had a dead `for ... pass` loop; deleted.
+
+**Two document defects, both mine:** the file map said `DECISIONS.md` ran to
+D-066, and two sentences asserted in the present tense that the 193-page proof
+is committed, which D-068 made false an hour after they were written.
+
+**The finding whose number was wrong.** The review reported
+`section_stats.py`'s word count inflated by roughly 15,700 words of macro
+pollution. Stripping macros properly gives 92,160 words of prose against the
+tool's 92,692 -- an overcount of 532, 0.6 percent -- and the rest of the jump
+from the 76,949 of 2026-08-23 is the book growing through P11-P20. The tool is
+genuinely unported, and its structural columns are the real damage: `xrefs`
+sums to 0 across all 162 rows against 773 real `\ref{sec:}` occurrences, and
+`list_marked`, `list_unmarked`, `closers`, `quotes` and `hash_notes` collapse
+the same way.
+
+**Left open.** `section_stats.py` and `xref_content.py` both need porting to
+`.tex`; D-067 named only the second. And `harvardcs108schedule` prints as
+"Harvard University (2026)" because the entry is undated and biblatex falls back
+to the access date -- a one-field edit to a reference entry, which standing rule
+2 reserves for the author.

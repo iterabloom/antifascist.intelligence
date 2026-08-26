@@ -27,7 +27,7 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
 
-ENV = re.compile(r"\\\\(begin|end)\{([A-Za-z*]+)\}")
+ENV = re.compile(r"\\(begin|end)\{([A-Za-z*]+)\}")
 
 
 def main():

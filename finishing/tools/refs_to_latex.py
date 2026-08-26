@@ -47,8 +47,6 @@ def mask(line):
 def convert_line(line, nums):
     masked = mask(line)
     out, last, n = [], 0, 0
-    for m in list(REF.finditer(masked)) + list(CHAP.finditer(masked)):
-        pass
     # Longer (dotted) matches first so 8.7.7 is not seen as chapter 8.
     spans = []
     for m in REF.finditer(masked):
