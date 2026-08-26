@@ -24,13 +24,22 @@ It runs lualatex → biber → lualatex twice, from `manuscript/book.tex`, with
 biber: the first resolves citations, the second the TOC and any page references
 that moved because of them.
 
-Build products go to the scratchpad, never into the repository. From
-2026-08-23 to 2026-08-25 there was one exception, on the author's instruction:
-the whole-book proof was committed as
-`finishing/reports/whole-book-proof_<date>.pdf`. **The author withdrew that on
-2026-08-25 (D-068) and both committed PDFs were deleted**, because a binary
-proof in every manuscript commit distorts diff-based review tooling. The
-repository now carries only the sources; to read the book, build it.
+Build products go to the scratchpad, with one standing exception: the
+whole-book proof is committed as
+`finishing/reports/whole-book-proof_<date>.pdf`, so the repository carries a
+readable copy of the book and not only its sources. Rebuild and recommit it
+whenever the manuscript changes materially; a stale proof is worse than none.
+
+That exception has been withdrawn and restored once each. It was withdrawn on
+2026-08-25 (D-068), and both PDFs deleted, because a binary rewritten in most
+manuscript commits inflates every diff-based review of the branch; it was
+restored the same day (D-072) on the author's instruction. **The cost D-068
+named has not gone away** — if a review tool refuses the branch on size again,
+that is this file, and the fix is to pass a base after the proof's last change
+rather than to delete it a second time without a ruling.
+
+The one-off `ch2-3-proof_2026-08-23.pdf` was deleted by D-068 and is not
+restored: it was stale from the day it was committed.
 
 To eyeball a page without a viewer:
 

@@ -1973,3 +1973,21 @@ the one repaired, which is the check that the edit did what it was for. The
 remaining Anthropic flag, from chapter 0 against chapter 8, is a false positive
 of the kind the tool's docstring describes: the sentence attributes the model to
 chapter 6's clause and says only that chapter 8 uses the arrangement.
+
+## The proof is committed again, 2026-08-25 (D-072)
+
+`finishing/reports/whole-book-proof_2026-08-25.pdf` is rebuilt from the current
+tree and committed: 193 pages, LuaTeX, no undefined references. This reverses
+D-068, which deleted both PDFs eight hours earlier and withdrew the standing
+exception.
+
+**The reason D-068 gave still holds and is not addressed by this.** It withdrew
+the exception because a binary rewritten in most manuscript commits inflates
+every diff-based review of the branch, after a review tool had refused the
+branch on size that day. The restored exception carries that same cost.
+`pipeline.md` now records the withdrawal and the restoration together, and says
+what to do when it next bites: pass a review base after the proof's last change
+rather than delete the proof again without a ruling.
+
+`ch2-3-proof_2026-08-23.pdf` is not restored; it was stale the day it was
+committed.
