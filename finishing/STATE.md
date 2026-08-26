@@ -1948,3 +1948,28 @@ surveillance." This predates the D-067 split -- it entered at P20 pointing at
 old 8.7.6, which did not name the vendor either. Either 8.7.7 names the vendor,
 which D-028 authorizes, or 6.4.1 stops promising a named account. That is a
 prose choice.
+
+## Section 6.4.1's promise of a named account, dropped, 2026-08-25 (D-071)
+
+The defect D-070 found is closed on the author's ruling. The Maven box in
+section 6.4.1 had said "Anthropic's own account of what it will not permit is
+in section 8.7.7," and section 8.7.7 argues that point about "a vendor with a
+published acceptable-use policy" without naming one. The pointer now describes
+what 8.7.7 actually argues -- what a published limit is worth when nobody logs
+how the model is used downstream -- and the bare "the two" is replaced by its
+referents, per D-055.
+
+The box still names Anthropic, Palantir and Amazon Web Services in the
+documented partnership: ordinary citation under D-017, and the disclosure D-028
+requires. The alternative repair, having 8.7.7 name the vendor, was not taken.
+
+**Checked and not a defect.** Section 8.7.7 points back at 6.4.1 for the
+vendor's own account, which looked like a mutual orphan. Section 6.4.1 does
+carry that quote -- "responsibility always remains with the military
+organization" -- and the first search for it missed the word "always".
+
+`xref_content.py`'s candidate list went 114 to 113 and the cleared candidate is
+the one repaired, which is the check that the edit did what it was for. The
+remaining Anthropic flag, from chapter 0 against chapter 8, is a false positive
+of the kind the tool's docstring describes: the sentence attributes the model to
+chapter 6's clause and says only that chapter 8 uses the arrangement.
