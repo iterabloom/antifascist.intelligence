@@ -1,14 +1,14 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	On Method	f9e3bd1b085aeb70e38b250b46a81ae6a360ae5a0e751ecf539a925d9850b0e2
-manuscript/sections/ch01/01.tex	1	Introduction	05da64b6c01574dea9bb4d40d3beee07f797e296d2611c6d75ee1401bbc62edf
+manuscript/sections/ch01/01.tex	1	Introduction	1d33f11f73edbcc541fda7a585c205f30f579efb6c1864ffe15285dfb6bd62da
 manuscript/sections/ch01/01_01.tex	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	082fc214372eb4df9465eb90c5d915b6fbcdbda133ad9de90786989c8e335f03
 manuscript/sections/ch01/01_02.tex	1.2	Aims and Objectives	40f8f0d4f1a2ea96cdffe8d259b7df2f2c60cf508f5802a8ee23f804e9eae9e1
 manuscript/sections/ch01/01_03.tex	1.3	Mindset and Motivation in AI Behavior	cb1d53f80615ab2f7e852c5c35bf39c42653b01822fd3b14ab0061d23eb5f43f
 manuscript/sections/ch02/02.tex	2	Foundations of Compassion and Empathy in Friendly AI	8f35440d345008f49b38b3413a5e599e21ad24aaaa6937d8d0f5e202a9b26246
-manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	ccb7c40c605cfe07823a479275f064222d2b6fd73451c18cd7afd3b711b2ccdd
+manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	685bb86b9b48f0a1aea813313dededd416779af5d0b40f4630b7a77c4891d971
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Surveying Ethical Theories for AI Alignment	2f85f525487ba81fc5b4c5784827ee0a44f045fd3d720632f9ab384c05b8983e
 manuscript/sections/ch02/02_01_02.tex	2.1.2	Translating Ethical Principles into Machine Learning Objectives	1651d422ea0845992a7b3a795c3fb2a31b88391adf4b63f2131d623b7aad2351
-manuscript/sections/ch02/02_01_03.tex	2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	c637490f22085f31e91a03f934c5916c756b58543f8a1bd7606843c63e355fef
+manuscript/sections/ch02/02_01_03.tex	2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	5cdf05d048312a4a0a13beb104854ae09eb32db2d20f9cf8dfafbced189e99d1
 manuscript/sections/ch02/02_01_04.tex	2.1.4	Antifascist Ethics for AI Alignment	ff9b87f002e46c13ce69294af2580ae22607c3cc38f5d4c619d1f54d82956280
 manuscript/sections/ch02/02_02.tex	2.2	Empathy, Social Intelligence, and Theory of Mind	c76e28617a94a2b3ea375617be931bff3d8ba4599b4942dbb95ea362502b0707
 manuscript/sections/ch02/02_02_01.tex	2.2.1	The Role of Empathy and Compassion in Human Social Behavior	2eff4af1f413dcfb1f522e6a397a25f649fa8161ef13ab8910dc6da31054ab57
@@ -43,7 +43,7 @@ manuscript/sections/ch04/04_02.tex	4.2	Aligning AI Systems with Humane Values an
 manuscript/sections/ch04/04_02_01.tex	4.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	fe9fa4cb8ae516b33854bb3989ffca773353086a8736085a57ed180da9ff44c5
 manuscript/sections/ch04/04_02_02.tex	4.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	0cb0e53a26eafebba00c6ac8281654352425927d615c97b08c8f3adc533a1d82
 manuscript/sections/ch04/04_02_03.tex	4.2.3	Supervised Learning for Ethical Decision-Making	1b91b3fcbe12cff4d88be5be8ab667ee2dc97c20572e0e7548374bf1d6c0deb4
-manuscript/sections/ch04/04_02_04.tex	4.2.4	Transfer Learning for General AI Capabilities in the Context of Antifascism	7881c49a21210f3801ae4dd3f9854219970d7a50cf768a4e10f23ffdf895f5b7
+manuscript/sections/ch04/04_02_04.tex	4.2.4	Transfer Learning for General AI Capabilities in the Context of Antifascism	1cc2abdb831c325fd957b4630ef325a5ae9761330e65e4aca1e3027790ac905d
 manuscript/sections/ch04/04_03.tex	4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	ab3bd34102ece31f8bb60aabd928b6657cd84ef3cf26ba247f556c1f1023fadc
 manuscript/sections/ch04/04_03_01.tex	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	06b1ba522dc0d106e8b7057ba4e8f86d117b339cd6b9b7320e487fc001948c95
 manuscript/sections/ch04/04_03_02.tex	4.3.2	Lessons from Human Child Development and Exploration	f1f1048d1ec1b8d565e37d74a0e81daf4ef61ea90555c2810b62246749aac71e
@@ -100,7 +100,7 @@ manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	d00e9158
 manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	5b056ab384df0c5040c5e2e45ef050458a98dc63a2d585723e2f3f627f585700
 manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	6b2b2b6a210496b74f85ee4cbad447dab9deff59858e551f2e6fcc3b34e2d18d
 manuscript/sections/ch08/08.tex	8	Collaboration, Policy, and Governance	77161962f245debfc2bfd32fc718cbfd15f5331b37429a85a6fb3269f97730ba
-manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	0494b1881889711be9406c31be7b3e3ee0804eb067a90ec5b2919968829d3565
+manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	b8765f92dfd33520ed736cb744a71eb988a035f0a9aee19f84a5c44d329df2af
 manuscript/sections/ch08/08_01_01.tex	8.1.1	What Makes Collaboration Expensive to Walk Away From	ea737430447af840eb7aafc25acbd9f94e11e37b9c0d54fda95deeb767c711dc
 manuscript/sections/ch08/08_02.tex	8.2	Stakeholder Involvement and Public Engagement	a2f919624213266dea38e46838a5d9cc3139f2c2446607e735e60f1265877679
 manuscript/sections/ch08/08_02_01.tex	8.2.1	Engaging Diverse Stakeholders in AI Development	4ba36c8f676a86648f2e0b900ff31b19e3dab0aa757b10f618d6c3f8823d5f39
