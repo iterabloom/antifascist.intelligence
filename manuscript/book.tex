@@ -7,18 +7,22 @@
 % typesetting in preamble.tex; do not edit sections.tex.
 \input{preamble}
 
-\title{Antifascist Intelligence: Building Machines That Can Refuse}
-\author{Joshua G. Stern}
+% The title page (preamble.tex) and the PDF metadata below both read these,
+% so the title is written once.
+\newcommand{\booktitlemain}{Antifascist Intelligence}
+\newcommand{\booksubtitle}{Building Machines That Can Refuse}
+\newcommand{\bookauthor}{Joshua G. Stern}
+\title{\booktitlemain: \booksubtitle}
+\author{\bookauthor}
 \date{}
 % Carries the title and author into the PDF metadata, which was empty before.
 % Set explicitly rather than with hyperref's pdfusetitle, which is a load-time
-% option and is ignored in a later \hypersetup. The book still has no title
-% page; see D-073.
-\hypersetup{pdftitle={Antifascist Intelligence: Building Machines That Can Refuse},
-            pdfauthor={Joshua G. Stern}}
+% option and is ignored in a later \hypersetup (D-073).
+\hypersetup{pdftitle={\booktitlemain: \booksubtitle}, pdfauthor={\bookauthor}}
 
 \begin{document}
 \frontmatter
+\booktitlepage
 \tableofcontents
 
 \mainmatter

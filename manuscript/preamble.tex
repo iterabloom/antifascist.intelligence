@@ -39,3 +39,24 @@
 \makeatletter
 \newcommand{\unnumberedlabel}[2]{\begingroup\def\@currentlabel{#2}\label{#1}\endgroup}
 \makeatother
+
+% The title page. book.tex supplies \booktitlemain, \booksubtitle and
+% \bookauthor, and calls \booktitlepage as the first thing after \frontmatter.
+% The book had no title page at all until 2026-08-25 (D-073); it opened on the
+% table of contents, so its own title appeared nowhere in the PDF.
+\newcommand{\booktitlepage}{%
+  \begin{titlepage}
+    \centering
+    \vspace*{0.28\textheight}
+    {\fontsize{30}{36}\selectfont \booktitlemain\par}
+    \vspace{1.2\baselineskip}
+    {\Large\itshape \booksubtitle\par}
+    \vspace{3\baselineskip}
+    {\large \bookauthor\par}
+    \vfill
+    {\footnotesize
+     Copyright \textcopyright{} 2026 \bookauthor.\\
+     Licensed under CC BY-NC-ND 4.0.\par}
+    \vspace{0.06\textheight}
+  \end{titlepage}%
+}
