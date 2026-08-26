@@ -20,12 +20,24 @@ acronym or year is invisible to it -- and that is most sentences. It is a
 net with a known mesh size, not a proof of correctness. It is deliberately
 NOT wired into check_all.sh: its output needs judgment, not a pass/fail gate.
 
+PORTED TO LATEX AT D-070. It read .txt sections and matched section numbers
+typed into the prose. D-065 made the sections .tex and D-066 turned every
+reference into \\ref{sec:N}, after which this tool matched nothing and said
+so only in a line on stderr -- "0 references scanned" -- which is why the
+D-067 split had to be checked by hand. Both the citing sentence and the
+target are rendered to prose through common.tex_sections_of first, so a
+proper noun that appears only inside a citation key cannot count as either a
+salient token or a match.
+
 Usage:  python3 finishing/tools/xref_content.py > finishing/reports/xref_content.tsv
 """
-import re, sys, glob, os, csv
+import re, sys, os, csv
 
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-ORDER = os.path.join(ROOT, 'manuscript/sections/ORDER.tsv')
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
+# After rendering, "section~\ref{sec:8.7.6}" reads "section 8.7.6", so the
+# reference is matched in the prose exactly as a reader meets it.
 REF = re.compile(r'(?:[Ss]ections?|[Cc]hapters?|§)\s*(\d{1,2}(?:\.\d{1,2}){0,2})')
 
 STOP = set("""The A An In It Its This That These Those There Here What When Where Which Who Why How
@@ -39,20 +51,23 @@ Now Today Later Earlier Above Below Same Other Another Such Only Even Still Just
 Chapters' First Second Third Fourth Fifth Sixth Last Next New Old Real
 """.split())
 
-def load_order():
-    rows = []
-    with open(ORDER) as fh:
-        for line in fh:
-            p = line.rstrip('\n').split('\t')
-            if len(p) > 1 and re.fullmatch(r'\d+(\.\d+)*', p[1]):
-                rows.append((p[1], p[0], p[2] if len(p) > 2 else ''))
-    return rows
 
-def text_of(path):
-    return open(os.path.join(ROOT, path)).read()
+def load_order():
+    _, rows = common.read_tsv(os.path.join(common.SECTIONS, 'ORDER.tsv'))
+    rows.sort(key=lambda r: common.numkey(r['num']))
+    return [(r['num'], r['path'], r['title']) for r in rows]
+
+
+def prose_of(path, unknown=None):
+    """The section's paragraphs, rendered to the prose a reader sees."""
+    with open(os.path.join(common.REPO, path), encoding='utf-8') as fh:
+        paras, _ = common.tex_sections_of(fh.readlines(), unknown)
+    return paras
+
 
 def sentences(line):
     return re.split(r'(?<=[.!?])\s+(?=[A-Z"—])', line)
+
 
 def salient(sent):
     """Proper-noun phrases, acronyms, 4-digit years."""
@@ -79,30 +94,31 @@ def salient(sent):
             out.add(m.group(1))
     return out
 
+
 def main():
     order = load_order()
     num2path = {n: p for n, p, _ in order}
     num2title = {n: t for n, _, t in order}
+    unknown = set()
+
+    prose = {n: prose_of(p, unknown) for n, p, _ in order}
+
     # a chapter reference covers all its descendants
     def target_text(num):
-        parts = [text_of(p) for n, p, _ in order
-                 if n == num or n.startswith(num + '.')]
-        return '\n'.join(parts)
+        return '\n'.join('\n'.join(prose[n]) for n in prose
+                         if n == num or n.startswith(num + '.'))
 
     w = csv.writer(sys.stdout, delimiter='\t')
     w.writerow(['src', 'ref', 'target_title', 'missing', 'sentence'])
-    n_refs = 0
-    for _, path, _ in order:
-        src = path
-        for i, line in enumerate(text_of(path).split('\n')):
-            if i == 0:
-                continue
-            for sent in sentences(line):
+    n_refs = n_hits = 0
+    for num, path, _ in order:
+        for para in prose[num]:
+            for sent in sentences(para):
                 refs = REF.findall(sent)
                 if not refs:
                     continue
                 toks = salient(sent)
-                for r in set(refs):
+                for r in sorted(set(refs)):
                     n_refs += 1
                     if r not in num2path:
                         continue
@@ -112,7 +128,22 @@ def main():
                     # ignore tokens that are themselves section-ref noise
                     miss = [m for m in miss if not re.fullmatch(r'\d{1,2}(\.\d{1,2}){0,2}', m)]
                     if miss:
-                        w.writerow([src, r, num2title.get(r, ''), ' | '.join(miss), sent.strip()[:300]])
-    print(f'# {n_refs} references scanned', file=sys.stderr)
+                        n_hits += 1
+                        w.writerow([path, r, num2title.get(r, ''),
+                                    ' | '.join(miss), sent.strip()[:300]])
+    print('# %d reference-instances scanned, %d candidates' % (n_refs, n_hits),
+          file=sys.stderr)
+    if not n_refs:
+        # The failure this tool actually had: it scanned nothing and reported
+        # it in a line easily read as a clean result.
+        print('# xref_content: NO REFERENCES FOUND -- the tool is not reading '
+              'the manuscript. Do not read this as a clean run.', file=sys.stderr)
+        return 1
+    if unknown:
+        print('# WARNING: unknown LaTeX commands dropped from the prose: %s'
+              % ', '.join(sorted(unknown)), file=sys.stderr)
+    return 0
 
-main()
+
+if __name__ == '__main__':
+    sys.exit(main())

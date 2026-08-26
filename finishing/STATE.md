@@ -51,10 +51,10 @@ recorded in `p8-scope.md` rather than passed over.
 **Current as of 2026-08-25, after D-067.** `manuscript/sections/chNN/*.tex` —
 **162 sections**, chapters 0 through 11, one `.tex` file each, nothing deeper
 than three levels; `book.tex` is the master, `sections.tex` the generated
-`\input` list. **About 92,160 words of prose.** `section_stats.py` reports 92,692
-in `finishing/reports/section_stats.tsv`, which is 0.6 percent high because that
-tool was never ported to LaTeX and counts macros as words; its structural columns
-are worse than that and should not be read at all (D-069). No proof PDF is
+`\input` list. **92,695 words of prose**, by `section_stats.py`, ported to LaTeX
+at D-070 and rerun (`finishing/reports/section_stats.tsv`). That figure excludes
+the four epigraphs as third-party text and counts a reference as the one number
+it prints; the conventions are in `common.tex_sections_of`. No proof PDF is
 committed (D-068); build one to the scratchpad. `manuscript/parseable_text_v4.txt` and
 `manuscript/parseable_text_v3b_2024-07-07.txt` are both frozen, guarded by
 `check_frozen.py`; neither is a build artifact any longer. Ledger: 146 sections
@@ -1912,3 +1912,39 @@ the same way.
 "Harvard University (2026)" because the entry is undated and biblatex falls back
 to the access date -- a one-field edit to a reference entry, which standing rule
 2 reserves for the author.
+
+## The two unported tools, ported, 2026-08-25 (D-070)
+
+`section_stats.py` and `xref_content.py` were both still reading the dialect
+D-065 removed. They now share one prose extraction, `common.tex_sections_of`,
+because the thing that went wrong is that each tool carried its own copy of the
+parsing and each rotted on its own. The conventions it applies -- what counts as
+a word, what an epigraph is, what a reference is worth -- are documented beside
+the code.
+
+**Both tools now fail loudly rather than quietly.** An unknown LaTeX command
+prints a warning naming it and saying not to trust the numbers;
+`xref_content.py` exits non-zero if it scans no references, which is what it
+should have done instead of printing "0 references scanned" and reading as a
+clean run.
+
+**Verified against the source rather than asserted:** 773 references, 309
+citations, 127 list items, 165 run-in heads, 10 boxes, 4 epigraphs, each
+matching a direct grep. Every one of those columns had been 0.
+
+**A correction to what this file said yesterday.** The word count here read
+92,160, from an ad-hoc measurement that dropped run-in heads and box titles.
+The figure is **92,695**. The old tool's total was therefore wrong by 3 words,
+not by the 532 reported under D-069 nor the 15,700 the review claimed --
+epigraphs it wrongly counted almost exactly cancelled a word lost at each of
+773 references. Per section it was wrong in 142 of 162 rows, by 751 words
+absolute, and the per-section figure is the one anything would actually read.
+
+**One defect the ported tool found on its first run, left for the author.**
+Section 6.4.1 says "Anthropic's own account of what it will not permit is in
+section 8.7.7." Section 8.7.7 does not name Anthropic; it says "A vendor that
+refuses to permit fully autonomous weapons targeting or mass domestic
+surveillance." This predates the D-067 split -- it entered at P20 pointing at
+old 8.7.6, which did not name the vendor either. Either 8.7.7 names the vendor,
+which D-028 authorizes, or 6.4.1 stops promising a named account. That is a
+prose choice.

@@ -1,10 +1,22 @@
 #!/usr/bin/env python3
 """Per-section statistics, and (with --seed-ledger) the initial work ledger.
 
-Counts words, paragraphs, marked/unmarked list lines, and the generation's
-signature tells: 'this report', 'In this section, we', 'In conclusion/summary'
-closers, first-person plural density, cross-references, latest year mentioned,
-dated system names.
+Counts words, paragraphs, list items, and the generation's signature tells:
+'this report', 'In this section, we', 'In conclusion/summary' closers,
+first-person plural density, cross-references, latest year mentioned, dated
+system names.
+
+Ported to LaTeX at D-070. It had gone on counting dialect envelopes after
+D-065 removed them, which made every structural column meaningless -- the
+xrefs column read 0 across all 162 sections against 773 real references --
+and left the word count wrong in 142 of 162 sections. The prose extraction
+now lives in common.tex_sections_of, shared with xref_content.py, and its
+conventions are documented there.
+
+The word count is the words a reader reads: epigraphs are excluded as
+third-party text, citations are apparatus and do not count, a reference
+counts as the one number it prints, and run-in heads and box titles count
+because they are read.
 """
 import glob
 import os
@@ -16,6 +28,9 @@ import common  # noqa: E402
 
 OUT = os.path.join(common.REPORTS, "section_stats.tsv")
 
+# Enumeration typed into a paragraph rather than set as a list -- style.md
+# section 4's "prose wearing a list's clothes". Real \item lines are counted
+# separately, by common.tex_sections_of.
 LIST_ITEM = re.compile(r"^\s*(\(\d+\)|\d+[.)]|[-•*]|[a-z][.)])\s+\S")
 CLOSER = re.compile(r"^\s*(In conclusion|In summary|In essence|Ultimately)\b", re.I)
 YEAR = re.compile(r"\b(19[89]\d|20[0-4]\d)\b")
@@ -23,84 +38,52 @@ DATED = re.compile(r"\b(GPT-[234]|BERT|AlphaGo(?: Zero)?|AlphaZero|AlphaFold|Age
                    r"Watson|Rekognition|PredPol|GPT)\b")
 TEMPORAL = re.compile(r"\b(currently|recent(?:ly)?|state-of-the-art|cutting-edge|"
                       r"latest|emerging|is being developed|in progress|proposed)\b", re.I)
-# Matches both "see section 4.2" and a bare "Section 4.2 expounds ..." as the
-# sentence subject. The first version missed the latter, which is the form the
-# author actually writes, so cross-references were being under-counted.
-XREF = re.compile(r"\b(?:see|in|per)\s+(?:section|chapter)\s+\d|"
-                  r"\b(?:section|chapter)\s+\d+(?:\.\d+)*\b|"
-                  r"previous section|subsequent chapters|earlier chapter", re.I)
+# Cross-references are \ref now and are counted from the markup, not matched
+# in the prose (common.tex_sections_of). What is left for a regex is the
+# vaguer prose gesture, which \ref cannot express and check_xrefs.py does not
+# see either.
+XREF_VAGUE = re.compile(r"previous section|subsequent chapters|earlier chapter",
+                        re.I)
 
-HEADER = ["num", "title", "level", "chapter", "words", "paras", "list_marked",
+HEADER = ["num", "title", "level", "chapter", "words", "paras", "list_items",
           "list_unmarked", "closers", "we", "this_report", "in_this_section",
-          "xrefs", "max_year", "dated_names", "temporal", "quotes", "hash_notes"]
+          "xrefs", "vague_xrefs", "cites", "max_year", "dated_names",
+          "temporal", "epigraphs", "boxes", "runins"]
 
 LEDGER_HEADER = ["num", "title", "level", "words_v3b", "status", "action",
                  "quarry_src", "evidence", "decisions", "owner", "notes"]
 
 
-def stats_for(path):
+def stats_for(path, unknown=None):
     with open(path, encoding="utf-8", newline="") as f:
         lines = f.readlines()
-    body, quote, lst = [], 0, 0
-    marked = unmarked = quotes = notes = 0
-    for line in lines[1:]:
-        s = line.strip()
-        if s == "<<quote>>":
-            quote += 1
-            quotes += 1
-            continue
-        if s == "<</quote>>":
-            quote -= 1
-            continue
-        if s == "<<list>>":
-            lst += 1
-            continue
-        if s == "<</list>>":
-            lst -= 1
-            continue
-        if s.startswith("<<h>>") and s.endswith("<</h>>"):
-            body.append(s[5:-6].strip() + "\n")
-            continue
-        if s in ("<<box>>", "<</box>>"):
-            continue  # a box is the author's own prose; its content counts
-        if s.startswith("#"):
-            notes += 1
-            continue
-        if quote > 0:
-            continue  # epigraphs are third-party text, not the author's word count
-        if lst > 0:
-            # inside <<list>>: still prose for word-count purposes
-            if LIST_ITEM.match(line):
-                marked += 1
-            body.append(line)
-            continue
-        body.append(line)
-        if LIST_ITEM.match(line):
-            unmarked += 1
-    text = "".join(body)
-    paras = [p for p in text.split("\n") if p.strip()]
+    paras, st = common.tex_sections_of(lines, unknown)
+    text = "\n".join(paras)
     years = [int(y) for y in YEAR.findall(text)]
     return {
-        "words": len(text.split()), "paras": len(paras),
-        "list_marked": marked, "list_unmarked": unmarked,
+        "words": sum(len(p.split()) for p in paras), "paras": len(paras),
+        "list_items": st["list_items"],
+        "list_unmarked": sum(1 for p in paras if LIST_ITEM.match(p)),
         "closers": sum(1 for p in paras if CLOSER.match(p)),
         "we": len(re.findall(r"\bwe\b", text, re.I)),
         "this_report": len(re.findall(r"\bthis report\b", text, re.I)),
         "in_this_section": len(re.findall(r"\bin this section\b", text, re.I)),
-        "xrefs": len(XREF.findall(text)),
+        "xrefs": st["refs"], "vague_xrefs": len(XREF_VAGUE.findall(text)),
+        "cites": st["cites"],
         "max_year": max(years) if years else "",
         "dated_names": len(DATED.findall(text)),
         "temporal": len(TEMPORAL.findall(text)),
-        "quotes": quotes, "hash_notes": notes,
+        "epigraphs": st["epigraphs"], "boxes": st["boxes"],
+        "runins": st["runins"],
     }
 
 
 def main():
     _, order = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
     order.sort(key=lambda r: common.numkey(r["num"]))
-    rows = []
+    rows, unknown = [], set()
     for r in order:
-        st = stats_for(os.path.join(common.REPO, r["path"]))
+        st = stats_for(os.path.join(common.REPO, r["path"]), unknown)
         st.update({"num": r["num"], "title": r["title"],
                    "level": common.level(r["num"]), "chapter": r["num"].split(".")[0]})
         rows.append(st)
@@ -115,6 +98,13 @@ def main():
         by_ch[r["chapter"]][1] += 1
     for ch in sorted(by_ch, key=int):
         print("  ch%-2s %6d words  %3d sections" % (ch, by_ch[ch][0], by_ch[ch][1]))
+    if unknown:
+        # A macro this tool has never been taught is dropped, which silently
+        # skews every count in the file that uses it. D-065 is what happens
+        # when that goes unnoticed, so it is loud.
+        print("  WARNING: unknown LaTeX commands, dropped from the prose: %s"
+              % ", ".join(sorted(unknown)))
+        print("  Teach them to common.tex_prose_line before trusting these numbers.")
 
     if "--seed-ledger" in sys.argv:
         if os.path.exists(common.LEDGER_TSV):

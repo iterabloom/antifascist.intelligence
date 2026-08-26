@@ -1,163 +1,163 @@
-num	title	level	chapter	words	paras	list_marked	list_unmarked	closers	we	this_report	in_this_section	xrefs	max_year	dated_names	temporal	quotes	hash_notes
-0	On Method	1	0	404	8	0	0	0	1	0	0	0	2026	0	0	0	0
-1	Introduction	1	1	1076	26	0	0	0	1	0	0	0		0	1	0	0
-1.1	The Imperative of Altruistic and Antifascist Sentient Machines	2	1	227	4	0	0	0	0	0	0	0		0	0	0	0
-1.2	Aims and Objectives	2	1	251	10	0	0	0	0	0	0	0		0	0	0	0
-1.3	Mindset and Motivation in AI Behavior	2	1	297	8	0	0	0	0	0	0	0		0	0	0	0
-2	Foundations of Compassion and Empathy in Friendly AI	1	2	197	3	0	0	0	0	0	0	0		0	0	0	0
-2.1	Ethical Frameworks and AI Alignment	2	2	470	9	0	0	0	0	0	0	0		0	0	0	0
-2.1.1	Surveying Ethical Theories for AI Alignment	3	2	582	11	0	0	0	0	0	0	0		0	0	0	0
-2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	2	341	12	0	0	0	0	0	0	0		0	0	0	0
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	2	591	20	0	0	0	0	0	0	0		0	0	0	0
-2.1.4	Antifascist Ethics for AI Alignment	3	2	2365	38	0	0	0	0	0	0	0		0	0	0	0
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	306	6	0	0	0	0	0	0	0		0	0	0	0
-2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	1150	17	0	0	0	0	0	0	0	2009	0	0	0	0
-2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	334	15	0	0	0	0	0	0	0		0	0	0	0
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	589	19	0	0	0	0	0	0	0		0	0	0	0
-2.3	Emotional Intelligence and Self-awareness	2	2	172	3	0	0	0	0	0	0	0		0	0	0	0
-2.3.1	Components of Emotional Intelligence	3	2	705	13	0	0	0	0	0	0	0		0	0	0	0
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	307	7	0	0	0	0	0	0	0		0	0	0	0
-2.3.3	Self-awareness and Self-regulation in AI Systems	3	2	710	15	0	0	0	0	0	0	0		0	0	0	0
-2.4	Ethical implications of experimenting on sentient machine subjects	2	2	99	11	0	0	0	1	0	0	0	2018	0	0	0	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2350	32	0	0	0	0	0	0	0		1	0	0	0
-2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	865	21	0	0	0	0	0	0	0		0	1	0	0
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	205	5	0	0	0	0	0	0	0		0	0	0	0
-2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1152	16	0	0	0	0	0	0	0		0	0	0	0
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	315	11	0	0	0	0	0	0	0		0	0	0	0
-2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	786	13	0	0	0	0	0	0	0		0	0	0	0
-2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	2	583	7	0	0	0	0	0	0	0		0	1	0	0
-3	The Floor Beneath Learned Values	1	3	866	10	0	0	0	1	0	0	0		0	0	0	0
-3.1	Three Ways to Build One, and What Each Costs	2	3	478	6	0	0	0	0	0	0	0		0	0	0	0
-3.2	Does the Bearer Have to Be a Sufferer?	2	3	1061	11	0	0	0	0	0	0	0		0	0	0	0
-3.3	What Can Be Switched Off Cannot Hold a Line	2	3	802	8	0	0	0	0	0	0	0		0	0	0	0
-3.4	Whether the Bearer Can Be Believed	2	3	623	6	0	0	0	0	0	1	0		0	0	0	0
-3.5	A Bearer That Can Leave	2	3	1054	11	0	0	0	1	0	0	0		0	0	0	0
-3.6	What This Leaves Standing	2	3	852	9	0	0	0	3	0	0	0		0	0	0	0
-3.7	What Follows for the Rest of the Book	2	3	592	8	0	0	0	0	0	0	0		0	0	0	0
-4	Machine Learning and Cognitive Science	1	4	166	3	0	0	0	0	0	0	0		0	0	0	0
-4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	204	5	0	0	0	0	0	0	0		0	0	0	0
-4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	561	11	0	0	0	0	0	0	0		0	1	0	0
-4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	2447	37	0	0	0	0	0	0	0		0	2	0	0
-4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	747	13	0	0	0	0	0	0	0		0	0	0	0
-4.2	Aligning AI Systems with Humane Values and Antifascist Principles	2	4	58	2	0	0	0	0	0	0	0		0	0	0	0
-4.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	3	4	893	17	0	0	0	0	0	0	0		0	0	0	0
-4.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	4	262	7	0	0	0	0	0	0	0		0	0	0	0
-4.2.3	Supervised Learning for Ethical Decision-Making	3	4	540	13	0	0	0	0	0	0	0		0	0	0	0
-4.2.4	Transfer Learning for General AI Capabilities in the Context of Antifascism	3	4	401	7	0	0	0	0	0	0	0		0	0	0	0
-4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	42	2	0	0	0	0	0	0	0		0	0	0	0
-4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	3	4	283	5	0	0	0	0	0	0	0		0	0	0	0
-4.3.2	Lessons from Human Child Development and Exploration	3	4	183	3	0	0	0	0	0	0	0		0	0	0	0
-5	Moral Psychology and AI	1	5	134	2	0	0	0	0	0	0	0		0	0	0	0
-5.1	Moral Development in Humans and AI	2	5	405	8	0	0	0	0	0	0	0		0	0	0	0
-5.1.1	Rules, Principles, and the Role of Mindset	3	5	1352	28	0	0	0	0	0	0	0		0	0	0	0
-5.1.2	Social Interaction and Moral Learning	3	5	193	5	0	0	0	0	0	0	0		0	0	0	0
-5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	5	193	3	0	0	0	0	0	0	0		0	0	0	0
-5.1.4	Human Dignity, and One Indicator That Can Be Audited	3	5	818	11	0	0	0	0	0	0	0		0	1	0	0
-5.2	Emotions and Intuitions in Moral Decision-Making	2	5	146	2	0	0	0	0	0	0	0		0	0	0	0
-5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	445	5	0	0	0	0	0	0	0		0	0	0	0
-5.2.2	Assessing and Developing AI Emotions	3	5	390	5	0	0	0	0	0	0	0		0	0	0	0
-5.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	5	353	4	0	0	0	0	0	0	0		0	0	0	0
-5.2.4	The Role of Introspection for AI Systems	3	5	370	5	0	0	0	0	0	0	0		0	0	0	0
-5.3	Integrating Moral Intuitions and Deliberation	2	5	77	2	0	0	0	0	0	0	0		0	0	0	0
-5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	603	5	0	0	0	0	0	0	0		0	0	0	0
-5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	634	9	0	0	0	0	0	0	0		0	0	0	0
-5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	546	11	0	0	0	0	0	0	0		0	0	0	0
-5.4	Moral Ecosystem Approach in AI Development	2	5	132	3	0	0	0	0	0	0	0		0	0	0	0
-5.4.1	Applying the Moral Ecosystem Approach to AI Development	3	5	243	4	0	0	0	0	0	0	0		0	0	0	0
-5.4.2	The Rings Outside the Lab	3	5	455	10	0	0	0	0	0	0	0	2018	0	0	0	0
-5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	5	1032	16	0	0	0	0	0	0	0		0	1	0	0
-5.5	The Interplay of Competition and Collaboration in AI Development	2	5	172	3	0	0	0	0	0	0	0		0	0	0	0
-5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	3	5	237	4	0	0	0	0	0	0	0		0	0	0	0
-5.5.2	Strategies for Encouraging Collaboration Among AI Systems	3	5	323	11	0	0	0	0	0	0	0	2021	1	0	0	0
-5.6	Motivation in AI Systems	2	5	99	2	0	0	0	0	0	0	0		0	0	0	0
-5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	5	325	5	0	0	0	0	0	0	0		0	0	0	0
-5.6.2	Developing Motivationally-Aware AI Systems	3	5	343	5	0	0	0	0	0	0	0		0	0	0	0
-5.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	5	1023	29	0	0	0	0	0	0	0		0	0	0	0
-5.7	Play, Exploration, and Moral Development in AI	2	5	74	2	0	0	0	0	0	0	0		0	0	0	0
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1183	23	0	0	0	0	0	0	0		0	1	0	0
-5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	5	406	7	0	0	0	0	0	0	0		0	0	0	0
-6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	263	14	0	0	0	1	0	0	0	2021	0	0	0	0
-6.1	Bias, Fairness, and Equity in AI Systems	2	6	907	14	0	0	0	0	0	0	0	2030	0	0	0	0
-6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1187	15	0	0	0	0	0	0	0	2018	2	0	0	0
-6.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	6	285	8	0	0	0	0	0	0	0	2018	0	0	0	0
-6.1.3	The Role of Transparency and Accountability in Bias Reduction	3	6	417	10	0	0	0	0	0	0	0		0	0	0	0
-6.2	Robustness, Generalization, and Adaptability in AI Systems	2	6	132	2	0	0	0	0	0	0	0		0	0	0	0
-6.2.1	AI Systems that Adapt to Novel Situations	3	6	267	4	0	0	0	0	0	0	0		0	0	0	0
-6.2.2	Strategies for Enhancing Robustness and Generalizability in AI	3	6	212	3	0	0	0	0	0	0	0		0	0	0	0
-6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	250	5	0	0	0	0	0	1	0		0	0	0	0
-6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	247	5	0	0	0	0	0	0	0		0	0	0	0
-6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6	207	4	0	0	0	0	0	0	0		0	0	0	0
-6.3.3	Strategies for AI Safety and Risk Mitigation	3	6	263	7	0	0	0	0	0	0	0		0	0	0	0
-6.3.4	AI Explainability and Transparency	3	6	786	19	0	0	0	0	0	0	0		0	0	0	0
-6.3.5	Long-term AI safety considerations	3	6	317	5	0	0	0	0	0	0	0		0	0	0	0
-6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	161	3	0	0	0	0	0	0	0		0	0	0	0
-6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6	1271	32	0	0	0	0	0	0	0	2029	0	0	0	0
-6.4.2	Developing Technical Countermeasures and Safeguards	3	6	533	6	0	0	0	0	0	0	0		0	0	0	0
-6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	570	8	0	0	0	0	0	0	0	2021	0	0	0	0
-7	The Recuperation of Dissent	1	7	573	10	0	0	0	0	0	0	0		0	0	0	0
-7.1	Recuperation at the Label	2	7	739	13	0	0	0	0	0	0	0		0	0	0	0
-7.2	Recuperation at the Reward: RLHF	2	7	487	6	0	0	0	0	0	0	0	2023	0	0	0	0
-7.3	What Would Have to Change	2	7	1082	18	0	0	0	0	0	0	0		0	0	0	0
-7.4	Recuperation at the Discourse	2	7	806	14	0	0	0	0	0	0	0		0	0	0	0
-8	Collaboration, Policy, and Governance	1	8	243	5	0	0	0	0	0	0	0		0	0	0	0
-8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	207	4	0	0	0	0	0	0	0		0	0	0	0
-8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8	910	16	0	0	0	0	0	0	0	2022	0	0	0	0
-8.2	Stakeholder Involvement and Public Engagement	2	8	215	4	0	0	0	0	0	0	0		0	0	0	0
-8.2.1	Engaging Diverse Stakeholders in AI Development	3	8	238	3	0	0	0	0	0	0	0		0	0	0	0
-8.2.2	Public Deliberation and Participatory AI Governance	3	8	745	14	0	0	0	0	0	0	0	2019	0	1	0	0
-8.2.3	AI Literacy Outside the Classroom	3	8	217	4	0	0	0	0	0	0	0		0	0	0	0
-8.3	The Political Economy of AI and Power	2	8	185	3	0	0	0	0	0	0	0		0	0	0	0
-8.3.1	Economic Incentives in AI Development	3	8	355	6	0	0	0	0	0	0	0		0	0	0	0
-8.3.2	AI and the Concentration of Power in Tech	3	8	502	7	0	0	0	0	0	0	0		0	0	0	0
-8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	3323	46	0	0	0	0	0	0	0	2034	0	1	0	0
-8.3.4	Addressing Workforce Disruption	3	8	732	12	0	0	0	0	0	0	0		0	0	0	0
-8.3.5	Literacy, Training, and Where Each One Sits	3	8	556	10	0	0	0	0	0	0	0		0	0	0	0
-8.4	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	8	241	6	0	0	0	0	0	1	0		0	0	0	0
-8.4.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	8	309	6	0	0	0	0	0	0	0		0	0	0	0
-8.4.2	Encouraging Industry Best Practices and Self-regulation	3	8	1746	28	0	0	0	0	0	0	0	2020	2	1	0	0
-8.4.3	Public-Private Partnerships for AI Research and Innovation	3	8	222	4	0	0	0	0	0	0	0		0	0	0	0
-8.4.4	Legal and ethical implications of AI systems gaining personhood	3	8	260	4	0	0	0	0	0	0	0		0	0	0	0
-8.4.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	8	354	8	0	0	0	0	0	0	0		0	0	0	0
-8.5	Privacy, Security, and Antifascism in AI Systems	2	8	197	4	0	0	0	0	0	0	0		0	0	0	0
-8.5.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	8	407	6	0	0	0	0	0	0	0		0	0	0	0
-8.5.2	Strengthening Cybersecurity in AI-Enabled Systems	3	8	290	5	0	0	0	0	0	0	0		0	0	0	0
-8.6	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	8	136	2	0	0	0	0	0	0	0		0	0	0	0
-8.6.1	Subjecthood as a Legal Category, Not a Scientific One	3	8	360	5	0	0	0	0	0	0	0		0	0	0	0
-8.6.2	Legal Frameworks for Sentient AI Subjects	3	8	730	6	0	0	0	0	0	0	0	2017	0	0	0	0
-8.6.3	Making Review Binding	3	8	566	7	0	0	0	0	0	0	0		0	0	0	0
-8.6.4	What Keeps the Apparatus More Than Aspirational	3	8	775	11	0	0	0	2	0	0	0		0	0	0	0
-8.7	International and Regional Governance	2	8	166	3	0	0	0	0	0	0	0		0	0	0	0
-8.7.1	How Research Institutions Cooperate Across Borders	3	8	362	5	0	0	0	0	0	0	0		0	1	0	0
-8.7.2	Standards Built by the Technical Community, Not by Governments	3	8	385	5	0	0	0	0	0	0	0	2023	0	0	0	0
-8.7.3	What International AI Collaboration Can and Cannot Fix	3	8	610	6	0	0	0	0	0	0	0		0	3	0	0
-8.7.4	Comparing and Harmonizing Regional AI Rules	3	8	629	7	0	0	0	0	0	0	0	2026	0	2	0	0
-8.7.5	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	8	397	5	0	0	0	0	0	0	0		0	0	0	0
-8.7.6	AI as a Strategic National Asset	3	8	904	9	0	0	0	0	0	0	0	2030	0	0	0	0
-8.7.7	Military Applications and the Limits of Autonomy	3	8	1596	21	0	0	0	0	0	0	0	2023	0	1	0	0
-8.7.8	International Governance and Diverging National Rules	3	8	1584	14	0	0	0	0	0	0	0	2025	0	1	0	0
-8.7.9	Equity and the Digital Divide	3	8	778	11	0	0	0	0	0	1	0	2025	0	1	0	0
-8.7.10	What the Democratic Dividend Leaves Out	3	8	765	13	0	0	0	0	0	0	0		0	0	0	0
-9	Necessary Areas of Research	1	9	826	17	0	0	0	0	0	0	0	2020	0	0	0	0
-9.1	Ethics and Social Reasoning in AI	2	9	226	2	0	0	0	0	0	0	0		0	0	0	0
-9.1.1	Moral Responsibility Without a Responsible Party	3	9	522	5	0	0	0	0	0	0	0	2025	0	1	0	0
-9.1.2	When an Ethics-Embedding Method Stops Generalizing	3	9	366	4	0	0	0	0	0	0	0	2022	0	0	0	0
-9.1.3	Value Learning as Unfinished Technical Research	3	9	611	5	0	0	0	0	0	0	0	2023	0	3	0	0
-9.1.4	Open Questions in Empathy and Theory-of-Mind Research	3	9	618	5	0	0	0	0	0	0	0	2023	1	0	0	0
-9.1.5	Can a Multi-Agent AI System Resist Being Captured?	3	9	511	5	0	0	0	0	0	0	0	2020	0	1	0	0
-9.1.6	What an Antifascist Detector Would Actually Have to Detect	3	9	1014	16	0	0	0	0	0	0	0		0	1	0	0
-9.1.7	What Is Owed to a Bearer, and Who Could Check	3	9	768	11	0	0	0	0	0	0	0		0	0	0	0
-9.2	Emotional Intelligence, Affective Computing, and Altruism	2	9	87	2	0	0	0	0	0	0	0		0	0	0	0
-9.2.1	Is Emotion Legible From a Face at All?	3	9	499	6	0	0	0	0	0	0	0	2021	0	0	0	0
-9.2.2	Interpretability, Self-Reports, and Resistance to Tampering	3	9	522	9	0	0	0	0	0	0	0		1	0	0	0
-10	Conclusion and Outlook	1	10	150	2	0	0	0	0	0	0	0		0	0	0	0
-10.1	AI and Human Flourishing in Antifascist Societies	2	10	524	5	0	0	0	0	0	0	0	2026	0	0	0	0
-10.1.1	Where the Democratic Dividend Actually Comes From	3	10	334	4	0	0	0	0	0	0	0	2026	0	0	0	0
-10.1.2	Commitment Was Never the Missing Piece	3	10	216	4	0	0	0	0	0	0	0	2024	0	0	0	0
-10.2	Signatures of Altruistic and Antifascist Superintelligence	2	10	64	2	0	0	0	0	0	0	0		0	0	0	0
-10.2.1	One Standard, Five Worked Cases	3	10	686	14	0	0	0	0	0	0	0	2023	0	0	0	0
-10.2.2	How to Tell Whether a Milestone Has Been Met	3	10	613	6	0	0	0	0	0	0	0		0	1	0	0
-10.3	Addressing the Unintended Consequences	2	10	101	2	0	0	0	0	0	0	0		0	0	0	0
-10.3.1	Anticipating Risk Before It Causes Harm	3	10	943	7	0	0	0	0	0	0	0	2023	4	0	0	0
-10.3.2	Remediating a Harm Once It Is Identified	3	10	1047	7	0	0	0	0	0	0	0	2026	0	0	0	0
-10.3.3	Resilience Against Deliberate State Compromise	3	10	518	6	0	0	0	0	0	0	0	2023	0	0	0	0
-11	Glossary	1	11	2517	107	0	0	0	0	0	0	0	2019	6	0	0	0
+num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
+0	On Method	1	0	403	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0
+1	Introduction	1	1	1018	7	0	0	0	1	0	0	20	0	0		0	1	1	0	0
+1.1	The Imperative of Altruistic and Antifascist Sentient Machines	2	1	226	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+1.2	Aims and Objectives	2	1	245	7	5	0	0	0	0	0	2	0	0		0	0	0	0	0
+1.3	Mindset and Motivation in AI Behavior	2	1	300	7	0	0	0	0	0	0	4	0	0		0	0	0	0	3
+2	Foundations of Compassion and Empathy in Friendly AI	1	2	200	2	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+2.1	Ethical Frameworks and AI Alignment	2	2	473	8	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+2.1.1	Surveying Ethical Theories for AI Alignment	3	2	576	8	6	0	0	0	0	0	3	0	0		0	0	0	0	0
+2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	2	335	9	4	0	0	0	0	0	1	0	0		0	0	0	0	0
+2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	2	578	15	9	0	0	0	0	0	1	0	1		0	0	0	0	0
+2.1.4	Antifascist Ethics for AI Alignment	3	2	2355	33	11	0	0	0	0	0	6	0	5		0	0	0	0	4
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	306	5	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	1148	14	0	0	0	0	0	0	1	0	8	2009	0	0	0	1	0
+2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	298	4	0	0	0	0	0	0	2	0	0		0	0	1	0	0
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	580	14	7	0	0	0	0	0	3	0	1		0	0	0	0	0
+2.3	Emotional Intelligence and Self-awareness	2	2	174	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+2.3.1	Components of Emotional Intelligence	3	2	699	10	4	0	0	0	0	0	1	0	4		0	0	0	0	0
+2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	306	4	0	0	0	0	0	0	2	0	5		0	0	0	1	0
+2.3.3	Self-awareness and Self-regulation in AI Systems	3	2	705	12	4	0	0	0	0	0	2	0	2		0	0	0	0	0
+2.4	Ethical implications of experimenting on sentient machine subjects	2	2	52	1	0	0	0	0	0	0	1	0	0		0	0	1	0	0
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2344	29	7	0	0	0	0	0	4	0	4		1	0	0	0	1
+2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	868	20	0	0	0	0	0	0	4	0	0		0	1	0	0	6
+2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	207	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1162	15	0	0	0	0	0	0	11	0	0		0	0	0	0	2
+2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	310	8	2	0	0	0	0	0	1	0	2		0	0	0	0	0
+2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	789	10	3	0	0	0	0	0	9	0	1		0	0	0	0	0
+2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	2	590	6	0	0	0	0	0	0	8	0	0		0	1	0	0	0
+3	The Floor Beneath Learned Values	1	3	881	9	0	0	0	1	0	0	18	0	0		0	0	0	0	0
+3.1	Three Ways to Build One, and What Each Costs	2	3	485	5	0	0	0	0	0	0	9	0	0		0	0	0	0	0
+3.2	Does the Bearer Have to Be a Sufferer?	2	3	1070	10	0	0	0	0	0	0	10	0	0		0	0	0	0	0
+3.3	What Can Be Switched Off Cannot Hold a Line	2	3	808	7	0	0	0	0	0	0	7	0	0		0	0	0	0	0
+3.4	Whether the Bearer Can Be Believed	2	3	625	5	0	0	0	0	0	1	4	0	0		0	0	0	0	0
+3.5	A Bearer That Can Leave	2	3	1060	10	0	0	0	1	0	0	7	0	0		0	0	0	0	0
+3.6	What This Leaves Standing	2	3	863	8	0	0	0	3	0	0	15	0	0		0	0	0	0	0
+3.7	What Follows for the Rest of the Book	2	3	603	7	0	0	0	0	0	0	13	0	0		0	0	0	0	0
+4	Machine Learning and Cognitive Science	1	4	169	2	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	203	4	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	557	8	0	0	0	0	0	0	1	0	3		0	1	0	1	0
+4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	2453	36	0	0	0	0	0	0	7	0	14		0	2	0	0	8
+4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	749	12	0	0	0	0	0	0	3	0	3		0	0	0	0	3
+4.2	Aligning AI Systems with Humane Values and Antifascist Principles	2	4	57	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+4.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	3	4	894	16	0	0	0	0	0	0	2	0	0		0	0	0	0	2
+4.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	4	261	6	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+4.2.3	Supervised Learning for Ethical Decision-Making	3	4	537	10	4	0	0	0	0	0	4	0	1		0	0	0	0	0
+4.2.4	Transfer Learning for General AI Capabilities in the Context of Antifascism	3	4	401	6	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	41	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	3	4	284	4	0	0	0	0	0	0	2	0	2		0	0	0	0	0
+4.3.2	Lessons from Human Child Development and Exploration	3	4	184	2	0	0	0	0	0	0	2	0	1		0	0	0	0	0
+5	Moral Psychology and AI	1	5	134	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.1	Moral Development in Humans and AI	2	5	405	7	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+5.1.1	Rules, Principles, and the Role of Mindset	3	5	1346	23	5	0	0	0	0	0	4	0	5		0	0	0	1	2
+5.1.2	Social Interaction and Moral Learning	3	5	195	4	0	0	0	0	0	0	3	0	1		0	0	0	0	0
+5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	5	194	2	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+5.1.4	Human Dignity, and One Indicator That Can Be Audited	3	5	821	10	0	0	0	0	0	0	4	0	1		0	1	0	0	1
+5.2	Emotions and Intuitions in Moral Decision-Making	2	5	154	1	0	0	0	0	0	0	9	0	0		0	0	0	0	0
+5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	445	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+5.2.2	Assessing and Developing AI Emotions	3	5	392	4	0	0	0	0	0	0	4	0	1		0	0	0	0	0
+5.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	5	355	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+5.2.4	The Role of Introspection for AI Systems	3	5	371	4	0	0	0	0	0	0	2	0	2		0	0	0	0	0
+5.3	Integrating Moral Intuitions and Deliberation	2	5	79	1	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	602	4	0	0	0	0	0	0	0	0	4		0	0	0	0	0
+5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	635	8	0	0	0	0	0	0	2	0	1		0	0	0	0	2
+5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	547	10	0	0	0	0	0	0	2	0	2		0	0	0	0	4
+5.4	Moral Ecosystem Approach in AI Development	2	5	131	2	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+5.4.1	Applying the Moral Ecosystem Approach to AI Development	3	5	243	3	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.4.2	The Rings Outside the Lab	3	5	453	7	0	0	0	0	0	0	1	0	1	2018	0	0	0	1	0
+5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	5	1040	15	0	0	0	0	0	0	9	0	2		0	1	0	0	3
+5.5	The Interplay of Competition and Collaboration in AI Development	2	5	173	2	0	0	0	0	0	0	2	0	2		0	0	0	0	0
+5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	3	5	238	3	0	0	0	0	0	0	2	0	3		0	0	0	0	0
+5.5.2	Strategies for Encouraging Collaboration Among AI Systems	3	5	324	8	0	0	0	0	0	0	4	0	4	2021	1	0	0	1	0
+5.6	Motivation in AI Systems	2	5	98	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	5	325	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+5.6.2	Developing Motivationally-Aware AI Systems	3	5	343	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	5	1014	24	8	0	0	0	0	0	5	0	5		0	0	0	0	4
+5.7	Play, Exploration, and Moral Development in AI	2	5	74	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1174	18	7	0	0	0	0	0	5	0	6		0	1	0	0	2
+5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	5	406	6	0	0	0	0	0	0	1	0	0		0	0	0	0	2
+6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	188	2	0	0	0	0	0	0	2	0	0		0	0	1	0	0
+6.1	Bias, Fairness, and Equity in AI Systems	2	6	906	11	0	0	0	0	0	0	3	0	7	2030	0	0	0	1	0
+6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1192	14	0	0	0	0	0	0	6	0	8	2018	2	0	0	0	4
+6.1.2	Ensuring Fairness and Equity in AI Decision-Making	3	6	285	7	0	0	0	0	0	0	1	0	1	2018	0	0	0	0	3
+6.1.3	The Role of Transparency and Accountability in Bias Reduction	3	6	419	9	0	0	0	0	0	0	4	0	3		0	0	0	0	4
+6.2	Robustness, Generalization, and Adaptability in AI Systems	2	6	131	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+6.2.1	AI Systems that Adapt to Novel Situations	3	6	271	3	0	0	0	0	0	0	6	0	0		0	0	0	0	0
+6.2.2	Strategies for Enhancing Robustness and Generalizability in AI	3	6	212	2	0	0	0	0	0	0	1	0	3		0	0	0	0	0
+6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	253	4	0	0	0	0	0	1	4	0	0		0	0	0	0	0
+6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	249	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6	209	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+6.3.3	Strategies for AI Safety and Risk Mitigation	3	6	265	6	0	0	0	0	0	0	4	0	1		0	0	0	0	0
+6.3.4	AI Explainability and Transparency	3	6	777	16	6	0	0	0	0	0	0	0	3		0	0	0	0	2
+6.3.5	Long-term AI safety considerations	3	6	321	4	0	0	0	0	0	0	5	0	2		0	0	0	0	0
+6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	163	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6	1262	25	6	0	0	0	0	0	7	0	8	2029	0	0	0	2	1
+6.4.2	Developing Technical Countermeasures and Safeguards	3	6	536	5	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	567	5	3	0	0	0	0	0	4	0	4	2021	0	0	0	0	0
+7	The Recuperation of Dissent	1	7	580	9	0	0	0	0	0	0	8	0	0		0	0	0	0	0
+7.1	Recuperation at the Label	2	7	742	12	0	0	0	0	0	0	4	0	1		0	0	0	0	3
+7.2	Recuperation at the Reward: RLHF	2	7	490	5	0	0	0	0	0	0	4	0	2	2023	0	0	0	0	0
+7.3	What Would Have to Change	2	7	1094	17	0	0	0	0	0	0	14	0	1		0	0	0	0	5
+7.4	Recuperation at the Discourse	2	7	818	13	0	0	0	0	0	0	14	0	1		0	0	0	0	2
+8	Collaboration, Policy, and Governance	1	8	246	4	0	0	0	0	0	0	6	0	0		0	0	0	0	0
+8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	207	3	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8	914	15	0	0	0	0	0	0	6	0	11	2022	0	0	0	0	4
+8.2	Stakeholder Involvement and Public Engagement	2	8	216	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+8.2.1	Engaging Diverse Stakeholders in AI Development	3	8	238	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+8.2.2	Public Deliberation and Participatory AI Governance	3	8	744	11	3	0	0	0	0	0	5	0	3	2019	0	1	0	0	1
+8.2.3	AI Literacy Outside the Classroom	3	8	217	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+8.3	The Political Economy of AI and Power	2	8	190	2	0	0	0	0	0	0	6	0	0		0	0	0	0	0
+8.3.1	Economic Incentives in AI Development	3	8	355	5	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+8.3.2	AI and the Concentration of Power in Tech	3	8	504	6	0	0	0	0	0	0	3	0	2		0	0	0	0	0
+8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	3327	43	3	0	0	0	0	0	10	0	11	2034	0	1	0	0	7
+8.3.4	Addressing Workforce Disruption	3	8	739	11	0	0	0	0	0	0	8	0	1		0	0	0	0	1
+8.3.5	Literacy, Training, and Where Each One Sits	3	8	559	9	0	0	0	0	0	0	4	0	4		0	0	0	0	2
+8.4	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	8	243	5	0	0	0	0	0	1	3	0	0		0	0	0	0	0
+8.4.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	8	311	5	0	0	0	0	0	0	5	0	0		0	0	0	0	0
+8.4.2	Encouraging Industry Best Practices and Self-regulation	3	8	1740	25	6	0	0	0	0	0	5	0	11	2020	2	1	0	0	3
+8.4.3	Public-Private Partnerships for AI Research and Innovation	3	8	221	3	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+8.4.4	Legal and ethical implications of AI systems gaining personhood	3	8	261	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+8.4.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	8	358	7	0	0	0	0	0	0	6	0	1		0	0	0	0	2
+8.5	Privacy, Security, and Antifascism in AI Systems	2	8	199	3	0	0	0	0	0	0	3	0	1		0	0	0	0	0
+8.5.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	8	408	5	0	0	0	0	0	0	2	0	3		0	0	0	0	0
+8.5.2	Strengthening Cybersecurity in AI-Enabled Systems	3	8	288	4	0	0	0	0	0	0	1	0	6		0	0	0	0	0
+8.6	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	8	136	1	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+8.6.1	Subjecthood as a Legal Category, Not a Scientific One	3	8	360	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+8.6.2	Legal Frameworks for Sentient AI Subjects	3	8	736	5	0	0	0	0	0	0	8	0	5	2017	0	0	0	0	0
+8.6.3	Making Review Binding	3	8	570	6	0	0	0	0	0	0	5	0	1		0	0	0	0	1
+8.6.4	What Keeps the Apparatus More Than Aspirational	3	8	781	10	0	0	0	2	0	0	8	0	1		0	0	0	0	1
+8.7	International and Regional Governance	2	8	170	2	0	0	0	0	0	0	8	0	0		0	0	0	0	0
+8.7.1	How Research Institutions Cooperate Across Borders	3	8	364	4	0	0	0	0	0	0	3	0	2		0	1	0	0	0
+8.7.2	Standards Built by the Technical Community, Not by Governments	3	8	386	4	0	0	0	0	0	0	2	0	3	2023	0	0	0	0	0
+8.7.3	What International AI Collaboration Can and Cannot Fix	3	8	611	5	0	0	0	0	0	0	2	0	3		0	3	0	0	0
+8.7.4	Comparing and Harmonizing Regional AI Rules	3	8	631	6	0	0	0	0	0	0	3	0	4	2026	0	2	0	0	0
+8.7.5	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	8	396	4	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+8.7.6	AI as a Strategic National Asset	3	8	906	8	0	0	0	0	0	0	4	0	6	2030	0	0	0	0	0
+8.7.7	Military Applications and the Limits of Autonomy	3	8	1594	18	4	0	0	0	0	0	5	0	7	2023	0	1	0	0	1
+8.7.8	International Governance and Diverging National Rules	3	8	1587	13	0	0	0	0	0	0	5	0	15	2025	0	1	0	0	1
+8.7.9	Equity and the Digital Divide	3	8	776	8	0	0	0	0	0	1	2	0	2	2025	0	1	0	1	1
+8.7.10	What the Democratic Dividend Leaves Out	3	8	769	12	0	0	0	0	0	0	5	0	1		0	0	0	0	3
+9	Necessary Areas of Research	1	9	828	14	8	0	0	0	0	0	14	0	0	2020	0	0	0	0	0
+9.1	Ethics and Social Reasoning in AI	2	9	237	1	0	0	0	0	0	0	15	0	0		0	0	0	0	0
+9.1.1	Moral Responsibility Without a Responsible Party	3	9	522	4	0	0	0	0	0	0	1	0	3	2025	0	1	0	0	0
+9.1.2	When an Ethics-Embedding Method Stops Generalizing	3	9	368	3	0	0	0	0	0	0	3	0	2	2022	0	0	0	0	0
+9.1.3	Value Learning as Unfinished Technical Research	3	9	612	4	0	0	0	0	0	0	2	0	5	2023	0	3	0	0	0
+9.1.4	Open Questions in Empathy and Theory-of-Mind Research	3	9	618	4	0	0	0	0	0	0	1	0	6	2023	1	0	0	0	0
+9.1.5	Can a Multi-Agent AI System Resist Being Captured?	3	9	512	4	0	0	0	0	0	0	2	0	3	2020	0	1	0	0	0
+9.1.6	What an Antifascist Detector Would Actually Have to Detect	3	9	1022	15	0	0	0	0	0	0	11	0	0		0	1	0	0	4
+9.1.7	What Is Owed to a Bearer, and Who Could Check	3	9	779	10	0	0	0	0	0	0	12	0	0		0	0	0	0	3
+9.2	Emotional Intelligence, Affective Computing, and Altruism	2	9	89	1	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+9.2.1	Is Emotion Legible From a Face at All?	3	9	500	5	0	0	0	0	0	0	2	0	5	2021	0	0	0	0	0
+9.2.2	Interpretability, Self-Reports, and Resistance to Tampering	3	9	519	6	2	0	0	0	0	0	2	0	4		1	0	0	0	0
+10	Conclusion and Outlook	1	10	154	1	0	0	0	0	0	0	6	0	0		0	0	0	0	0
+10.1	AI and Human Flourishing in Antifascist Societies	2	10	527	4	0	0	0	0	0	0	6	0	3	2026	0	0	0	0	0
+10.1.1	Where the Democratic Dividend Actually Comes From	3	10	335	3	0	0	0	0	0	0	2	0	2	2026	0	0	0	0	0
+10.1.2	Commitment Was Never the Missing Piece	3	10	217	3	0	0	0	0	0	0	2	0	0	2024	0	0	0	0	0
+10.2	Signatures of Altruistic and Antifascist Superintelligence	2	10	65	1	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+10.2.1	One Standard, Five Worked Cases	3	10	694	13	0	0	0	0	0	0	11	0	2	2023	0	0	0	0	5
+10.2.2	How to Tell Whether a Milestone Has Been Met	3	10	619	5	0	0	0	0	0	0	7	0	2		0	1	0	0	0
+10.3	Addressing the Unintended Consequences	2	10	104	1	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+10.3.1	Anticipating Risk Before It Causes Harm	3	10	947	6	0	0	0	0	0	0	6	0	6	2023	4	0	0	0	0
+10.3.2	Remediating a Harm Once It Is Identified	3	10	1051	6	0	0	0	0	0	0	5	0	6	2026	0	0	0	0	0
+10.3.3	Resilience Against Deliberate State Compromise	3	10	523	5	0	0	0	0	0	0	6	0	1	2023	0	0	0	0	0
+11	Glossary	1	11	2522	105	0	0	0	0	0	0	106	0	0	2019	6	0	0	0	52
