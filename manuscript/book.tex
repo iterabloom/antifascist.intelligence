@@ -1,4 +1,4 @@
-% book.tex -- the master file for Ethical Superintelligence.
+% book.tex -- the master file for Antifascist Intelligence.
 % Hand-edited. Build with: finishing/tools/build_tex.sh
 %
 % Section files live one-per-section under sections/chNN/ and are pulled in by
@@ -7,8 +7,15 @@
 % typesetting in preamble.tex; do not edit sections.tex.
 \input{preamble}
 
-\title{Ethical Superintelligence}
+\title{Antifascist Intelligence: Building Machines That Can Refuse}
+\author{Joshua G. Stern}
 \date{}
+% Carries the title and author into the PDF metadata, which was empty before.
+% Set explicitly rather than with hyperref's pdfusetitle, which is a load-time
+% option and is ignored in a later \hypersetup. The book still has no title
+% page; see D-073.
+\hypersetup{pdftitle={Antifascist Intelligence: Building Machines That Can Refuse},
+            pdfauthor={Joshua G. Stern}}
 
 \begin{document}
 \frontmatter
