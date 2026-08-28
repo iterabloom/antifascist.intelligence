@@ -6,12 +6,6 @@ Demographic parity and equality of opportunity are two such metrics. Demographic
 
 An AI medical diagnostic system makes the process concrete: beneficence, promoting well-being, becomes minimizing false positives; non-maleficence, preventing harm, becomes minimizing false negatives. Fairness becomes maintaining balanced diagnostic accuracy across patient demographics. Privacy becomes a specific technical commitment — differential privacy or a comparable technique to keep sensitive patient data from being exposed to misuse.
 
-That translation runs into obstacles, though:
+What defeats the translation is not vagueness in the principles, which can be stipulated away, but that the stipulation is where the ethics now lives. Someone chose minimizing false negatives as what non-maleficence means here, and chose the demographic groups across which accuracy is balanced, and chose what to do when balancing them costs accuracy overall. Each choice is defensible and each is a moral decision made by a person and then compiled into something that looks like a specification. A system optimizing the result has no access to the decision and no way to reopen it, which is why section~\ref{sec:3.1}'s first branch — the floor as a property of the artifact — cannot notice when the reason for a constraint has died. Whatever was decided at translation time is what the system will still be doing years later, stated in a metric that has stopped meaning what it meant.
 
-\begin{enumerate}
-  \item Ambiguity: ethical standards are often vague and open to interpretation, which complicates giving them a precise definition an AI system can use. "Do no harm" means different things depending on context and who is asking.
-  \item Conflict: principles can be at odds with each other. Pursuing fairness can come at the cost of accuracy, which means the system needs some way to balance the two rather than simply maximizing one.
-  \item Context-dependence: the translation from ethics to objectives is sensitive to where the system operates. Privacy means something different in healthcare than it does on a social media platform.
-  \item Adaptability: ethical principles are not static; they shift as society changes and understanding evolves. An AI system needs a mechanism for revising its objectives as they do.
-\end{enumerate}
 Reinforcement learning is where many of these translated objectives get enforced during training; section~\ref{sec:4.2.1} works through what can go wrong when a reward signal is supposed to encode a value like this and doesn't quite manage it.

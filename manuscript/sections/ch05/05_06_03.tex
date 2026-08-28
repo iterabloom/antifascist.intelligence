@@ -2,7 +2,7 @@
 \label{sec:5.6.3}
 Autonomy and alignment pull in opposite directions almost by definition: the more independently a system acts, the less each individual action can be checked against human judgment before it happens. Closing that gap without collapsing autonomy into constant supervision is the operational version of the question section~\ref{sec:5.6.2} left open — and it is the same shape of trade-off section~\ref{sec:5.3} covers at the level of a single judgment, fast and autonomous against slow and deliberate.
 
-\runin{Value Alignment Methods}
+\runin{Where each alignment method leaves the latitude question}
 Cooperative inverse reinforcement learning, introduced at section~\ref{sec:4.2.2}, matters here for one structural consequence. An agent that treats the human reward as unknown and to be inferred through interaction keeps its model of what it is optimizing open to revision for as long as the interaction lasts, which is a different shape of autonomy from an agent executing a reward function fixed at training time and never revisited. The cost of that openness is that what the agent ends up optimizing for is determined by whoever it interacts with, which is why section~\ref{sec:3.3} treats a system's correctability and its capacity to hold a line as one property.
 
 Intrinsic and extrinsic mechanisms can also be paired directly inside a single system. An AI system managing a city's electric grid might carry an intrinsic drive toward supply stability — keeping the grid up is the system's own standing objective — paired with an extrinsic reward for favoring renewable sources over fossil ones. Neither objective alone produces a grid that is both reliable and low-carbon; run together, each constrains where the other is allowed to cut corners.
@@ -11,32 +11,18 @@ Autonomy also needs boundaries on what a system is allowed to try while it is st
 
 A related approach treats alignment as ongoing rather than a target hit once: a system that keeps adjusting its behavior from continued interaction with the people it works alongside stays aligned with values that themselves shift, and does not freeze its judgment at the point it was trained.
 
-\runin{AI Autonomy and Antifascist Values}
+\runin{What autonomy needs to stay inside antifascist bounds}
 Autonomy that is not grounded in antifascist values is a capability without a governor. A content-moderation system that operates without continuous human review is autonomous in the straightforward sense — but the same independence that makes it efficient also lets it drift into over-censorship, or get steered toward favoring one ideology's speech over another's, with nobody in the loop to catch the pattern until it is already established.
 
 Building autonomy that stays inside antifascist bounds means designing for fairness, transparency, and accountability from the start, since an audit only finds their absence afterward, and testing the design under adversarial pressure: red-teaming a system, deliberately simulating the ways it could be misused, before deployment, while the design can still absorb the answer. It also means keeping people other than a system's own developers in the design process — ethicists, users, and representatives of the communities most exposed to that system's failure modes — since the group that built a system is a poor judge, on its own, of whose freedoms it might end up infringing.
 
 None of this substitutes for a genuine override. A human able to intervene in a high-stakes case, and a system built to accept that intervention rather than resist it, is what keeps autonomy answerable to something outside itself. That is one of three places this book arrives at the same requirement from a different direction; chapter~\ref{sec:3} collects them and asks what it would take to build the thing they all point at.
 
-\runin{Safeguards Against AI Systems Enabling Authoritarian Regimes}
-Keeping AI systems from being weaponized by authoritarian regimes takes safeguards built in deliberately, and they cannot be bolted on once a misuse is already discovered:
+\runin{Every safeguard here is external, and autonomy is the distance from it}
+The safeguards usually proposed here — third-party audit, disclosure requirements, export due diligence, cross-sector standards bodies, AI literacy — are the subject of chapter~\ref{sec:8}, which works out what each one costs and which of them survive an institution that would rather not comply. Repeating the list here would add nothing that chapter does not do better.
 
-\begin{itemize}
-  \item Transparency, accountability, and explainability by design: routine third-party audits and legally required disclosure of AI use in the public sector make abuse recognizable and punishable.
-  \item Ethical guidelines and legislation, developed jointly by governments, industry, and researchers, that name specifically which AI uses count as discriminatory, repressive, or otherwise off-limits, which gesturing at "responsible AI" in the abstract does not do.
-  \item Due diligence on exports: a system built for crowd monitoring or population surveillance carries a different risk in a country with a documented history of human-rights abuse, and a risk assessment that ignores that history is not really a risk assessment.
-  \item Cross-sector collaboration — the Partnership on AI \autocite{partnershiponai2016} is one existing venue for it — that pools the perspective of companies, researchers, and civil-society groups, so that no one of them sets the standard alone.
-  \item AI literacy among developers, policymakers, and the public, since a safeguard nobody understands is a safeguard nobody can invoke.
-\end{itemize}
-\runin{Strategies for Developing AI Systems Committed to Democratic Principles}
-Strategies for keeping AI development itself committed to democratic principles overlap with the safeguards above but add two things the list does not already cover.
+What belongs here is the part that is specific to autonomy, and it is one observation. Every safeguard on that list is external: it works by giving some outside body the standing and the information to intervene. Autonomy is the property that puts distance between the system's action and that body's attention, and the safeguards do not scale with it. A content-moderation system running without continuous review can drift into over-censorship, or be steered toward one side's speech, and be discovered afterward by an audit that is reading the record of what already happened.
 
-Democratic value alignment folds fairness directly into the model: fairness-aware machine learning and debiasing techniques, applied during development and re-checked as data and deployment context change, catch discrimination in a system's judgments as well as in its stated policy. International cooperation extends the safeguards past any single country's jurisdiction — cross-border standards and shared research on authoritarian misuse matter because an export ban or an ethics guideline that stops at one nation's border does nothing about a regime that can simply buy the same technology from a supplier with no such rule.
+That leaves an uncomfortable division of labor and it is the one this book keeps arriving at. External mechanisms find out what a system did, after it did it. Declining to do it in the first place is available only to something inside the system, and section~\ref{sec:5.6.2} says why that inside thing cannot be assembled out of an outside check, while section~\ref{sec:3.3} says why it cannot be assembled out of correctability either.
 
-A handful of deployed systems illustrate what this looks like in practice:
-
-\begin{itemize}
-  \item Full Fact, an AI-assisted fact-checking service that flags false claims in public circulation \autocite{fullfact2023ai}.
-  \item Apple's on-device differential-privacy implementation, which lets the company learn population-level usage patterns without exposing what any individual user did \autocite{apple2017privacy}.
-  \item Google's Perspective API, which scores text for the likelihood it reads as toxic or harassing, used to flag content for moderation, stopping short of censoring it outright \autocite{jigsaw2017perspective}.
-\end{itemize}
+None of that substitutes for a genuine override. A human able to intervene in a high-stakes case, and a system built to accept that intervention rather than resist it, is what keeps autonomy answerable to something outside itself. That is one of three places this book arrives at the same requirement from a different direction; chapter~\ref{sec:3} collects them and asks what it would take to build the thing they all point at — and concludes, at section~\ref{sec:3.3}, that this requirement and the floor are the same property with the sign flipped.

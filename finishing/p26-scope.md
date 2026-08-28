@@ -41,7 +41,7 @@ for a later pass and is recorded here rather than actioned.
 
 ---
 
-## Item 1 (D-077) — background earns its place only by serving a claim
+## Item 1 (D-077) — background earns its place only by serving a claim — done
 
 The rule is `style.md` section 2a, written in this pass. What follows is its
 application, scoped to chapters 4 and 5 and the section 2.1 cluster. **The rest
@@ -100,7 +100,7 @@ throughout.
 
 ---
 
-## Item 2 (D-078) — chapters 4 and 5 carry chapter 3's obligation
+## Item 2 (D-078) — chapters 4 and 5 carry chapter 3's obligation — done
 
 ### What "carry it" means
 
@@ -272,3 +272,88 @@ not by the tool, and no claim is made here about what the tool would have found.
   partly cover it — a bearer with a stake in its own continuation guards its
   persistence, and "the operators who wipe the bearer that called the compound a
   school now have to get past the bearer to do it." No item follows from it.
+
+---
+
+## Items 1 and 2 as executed, 2026-08-28
+
+**The cut estimate was wrong in a way worth recording.** Item 1 projected
+2,000–2,400 words out of chapter 4 and 1,400–1,800 out of chapter 5. What
+happened instead was substitution: the survey passages went, and in most of the
+sections a real claim was available to write in their place, so the chapters are
+argued rather than shorter. Chapter 4 went 6,788 to 6,667, chapter 5 12,711 to
+12,640, the section 2.1 cluster 1,961 to 1,739. The book went 92,710 to 92,632,
+and 192 pages from 195.
+
+That is the honest result and it is not the one the estimate implied. A reader
+comparing word counts would conclude almost nothing happened in chapter 4. What
+happened is that section 4.2, four sections and 2,148 words of definitions and
+speculative applications, is now four sections and roughly the same length in
+which every one of the four methods is taken twice — for what it does, and for
+whether it could produce a commitment that survives its own teacher.
+
+**The obligation, measured the way D-078 measured the problem.** Chapters 4 and
+5 made 5 references into chapter 3 out of 100 outbound. They now make **33 out of
+162**. The count is not the point and is reported because it is the number the
+ruling was made on; what matters is that the twelve places where those chapters
+were already making chapter 3's argument now say so, including the eight that
+did not.
+
+**What was written rather than cut, section by section.** Chapter 4's opener and
+section 4.1's now state the obligation instead of describing a survey. Section
+4.2's opener says what the four methods have in common and why none of them
+builds a floor. Section 4.2.2 argues that CIRL is the most corrigible design in
+the chapter and therefore, on section 3.3's identity, the least able to hold a
+line — the sharpest new claim in the pass. Section 4.2.3 argues that supervised
+learning learns an aggregate and chapter 3 has already said what an aggregate
+cannot deliver, using the Moral Machine cross-cultural finding as the concrete
+case. Section 4.1.1 ends on what the predictive-loop picture implies for a
+commitment: no component to excise, and none to inspect either. Section 4.1.2's
+"control without a controller" now says that a goal representation with standing
+to bias competing processes is the mechanism the floor would have to be.
+Section 4.3.1 says why a disposition acquired by exploring is the one thing in
+these chapters that answers section 3.1's first branch, and marks that it is not
+proof against retraining.
+
+In chapter 5: the opener and section 5.1's, rewritten for the obligation.
+Section 5.1.1's growth-mindset half now carries **the author's own question** —
+whether a floor has to hold always, or whether what is wanted is a bearer that
+can recognize a failure as one. The answer written there is the second: a floor
+holds, in the sense chapter 3 can deliver, when the bearer can be shown to have
+violated it in terms it accepts, so that the violation registers and changes
+what happens next. Section 5.1.3 says the mentor is section 3.1's custody
+problem arriving at the point of formation. Section 5.6's opener says the
+watched-only morality problem is chapter 3's problem in a domestic register.
+Section 5.6.2 says the intrinsic/extrinsic pairing stops being a balance and
+becomes section 3.3's contradiction. Section 5.6.3's two catalogue lists are
+replaced by the one observation specific to autonomy: every safeguard on the
+list is external, external mechanisms find out what a system did after it did
+it, and declining is available only to something inside.
+
+In chapter 2: sections 2.1 and 2.1.1 no longer run the same six theories twice.
+Section 2.1 is a short opener that flags deontology as the awkward case;
+section 2.1.1 keeps the six and ends on the pluralism the book is actually
+recommending, which is not the blend-and-hope version. Section 2.1.2 drops its
+obstacle list for the point that the translation is where the ethics now lives.
+Section 2.1.3 keeps the UDHR argument and drops both lists.
+
+**No section was deleted and nothing was renumbered.** The triage had proposed
+folding section 4.2.2 into 4.2.1 and merging 2.1 into 2.1.1. Both would have
+cascaded — 4.2.2 has six inbound references — and in both cases a real argument
+was available that made the section earn its place instead. That is a change
+from the plan and it is a better outcome than the plan.
+
+**Two defects this pass caused and repaired.** Cutting section 5.6.3's
+deployed-systems list orphaned the Full Fact citation, whose claims row C0349 is
+retired with the reason. It also falsified section 8.6.4, which said the
+Partnership on AI was "cited already in section 5.6.3"; it now points at section
+8.4.2, which takes the body apart properly. Both are the D-050 class and both
+were caused by this pass, which is why they are named here rather than in a
+findings list.
+
+**Prose sweep.** Chapters 4 and 5 checked against `style.md` section 7's three
+tics. Four aphorisms in my own new prose were removed after being written,
+including one in a run-in head. Chapter 5's title-case run-in heads — "Growth
+Mindset", "Medical Diagnosis", "The Hard Case" — are sentence-shaped and carry a
+claim now, on section 4.1.2's model. "Foster" appears zero times in either
+chapter.
