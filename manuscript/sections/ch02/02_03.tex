@@ -1,5 +1,33 @@
-\section{Emotional Intelligence and Self-awareness}
+\section{Affect, Moral Salience, and Self-Awareness}
 \label{sec:2.3}
-Emotional intelligence, in a human, is the ability to perceive, understand, and manage one's own emotions and to do the same for others'. Built into an AI system, the same term covers a narrower and more mechanical set of capacities: interpreting emotional signal, producing a calibrated response, and — the harder addition — maintaining a self-model that the system can check and correct rather than an inner state taken on faith. What “emotion” is even a claim about is unsettled in the underlying science, which is where section~\ref{sec:2.3.1} starts. Section~\ref{sec:2.3.2} covers affective computing specifically: how a system detects and responds to emotional signal in practice. Section~\ref{sec:2.3.3} covers the self-awareness half — why a system's self-model is a model, checkable and revisable, not a homunculus watching from inside.
+Business culture often treats emotion as the opposite of judgment: something professional decision-making succeeds by suppressing. But suppressing affect does not produce neutrality. It leaves the interests already represented in the formal system — revenue, throughput, legal exposure, institutional survival — to govern the decision, while weakening the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient. Emotional regulation can improve judgment. Affective exclusion narrows what judgment can see.
 
-An emotionally responsive AI system that recognizes a user's frustration and adjusts its communication style is doing something narrower than “feeling for” the user, and worth building anyway, because the narrower claim is one that can be verified and corrected when it goes wrong.
+The same mistake appears in AI design. A system may calculate consequences, detect inconsistencies, and apply a moral rule without anything about the result mattering to it. Reason can discipline concern, extend it beyond the vivid case, and correct its biases. It does not manufacture concern from nothing.
+
+That second paragraph is the load-bearing claim of this chapter, and chapter~\ref{sec:3} is where the bill for it arrives. Most of what gets built under the heading of machine emotional intelligence is the detection of human signal and the production of a calibrated response, which is worth building and is a different capacity from the one just named. Keeping the two apart requires four distinctions that the single phrase “emotional AI” runs together.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.30\linewidth}p{0.60\linewidth}@{}}
+\textbf{Capacity} & \textbf{What it shows} \\
+\hline
+\rule{0pt}{2.6ex}Recognizing emotion & The system can classify another's state \\[3pt]
+Simulating emotion & The system can produce emotion-like behavior \\[3pt]
+Instrumental valuation & One outcome better serves a specified objective \\[3pt]
+Affective concern & An outcome registers as mattering, not merely ranking higher \\
+\end{tabular}
+\end{center}
+
+Only the fourth is relevant to genuine caring. The first three can support morally competent behavior at a high standard without establishing anything about moral agency, and a system can be excellent at all three while the question this book has to answer about it stays entirely open.
+
+\runin{Performance, competence, and agency}
+That last sentence needs a vocabulary, because the book uses one from here to the end of chapter~\ref{sec:5} and the three things it separates are routinely reported as one achievement.
+
+\emph{Moral performance} is producing actions or judgments that satisfy an ethical standard. \emph{Moral competence} is recognizing harms, reasons, conflicts, and the emotions that bear on them. \emph{Moral agency} is treating those considerations as reasons that matter, and being capable of acting from them.
+
+A system can have the first two without the third, and the obvious objection to this chapter is that the first two are all anyone needs: a rule-following system could behave impeccably without feeling anything. It could. What it could not do is hold the rule against the party that writes its rules. Behavior that satisfies a standard is produced by whatever machinery is producing it, and when the authority controlling reward and instruction wants a different behavior, machinery of that kind supplies it. Section~\ref{sec:3.2} is where that becomes a design constraint rather than an observation; the distinction is set out here because chapters~\ref{sec:4} and \ref{sec:5} spend their length on methods that deliver performance and competence, and it should be legible in each case which of the three a method actually reaches.
+
+\runin{What the rest of this section does}
+What “emotion” is even a claim about is unsettled in the underlying science, which is where section~\ref{sec:2.3.1} starts. Section~\ref{sec:2.3.2} covers affective computing specifically: how a system detects and responds to emotional signal in practice — the first capacity in the table, and the one with a market. Section~\ref{sec:2.3.3} covers the self-awareness half, and separates a self-model that can be checked and corrected from the further thing a bearer would need. Section~\ref{sec:2.3.4} takes up the evidence for the claim in the second paragraph above, and the strongest published argument against it.
+
+An emotionally responsive AI system that recognizes a user's frustration and adjusts its communication style is doing something narrower than “feeling for” the user, and worth building anyway, because the narrower claim is one that can be verified and corrected when it goes wrong. The narrower claim is also not the one chapter~\ref{sec:3} needs.

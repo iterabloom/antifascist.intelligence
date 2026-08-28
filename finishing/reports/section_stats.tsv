@@ -1,6 +1,6 @@
 num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
 0	On Method	1	0	403	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0
-1	Introduction	1	1	1020	7	0	0	0	1	0	0	20	0	0		0	1	1	0	0
+1	Introduction	1	1	1082	7	0	0	0	1	0	0	20	0	0		0	1	1	0	0
 1.1	The Imperative of Altruistic and Antifascist Sentient Machines	2	1	226	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 1.2	Aims and Objectives	2	1	245	7	5	0	0	0	0	0	2	0	0		0	0	0	0	0
 1.3	Mindset and Motivation in AI Behavior	2	1	300	7	0	0	0	0	0	0	4	0	0		0	0	0	0	3
@@ -13,33 +13,34 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	306	5	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	1148	14	0	0	0	0	0	0	1	0	8	2009	0	0	0	1	0
 2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	298	4	0	0	0	0	0	0	2	0	0		0	0	1	0	0
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	580	14	7	0	0	0	0	0	3	0	1		0	0	0	0	0
-2.3	Emotional Intelligence and Self-awareness	2	2	174	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	690	15	7	0	0	0	0	0	6	0	1		0	0	0	0	0
+2.3	Affect, Moral Salience, and Self-Awareness	2	2	663	17	0	0	0	0	0	0	10	0	0		0	0	0	0	2
 2.3.1	Components of Emotional Intelligence	3	2	699	10	4	0	0	0	0	0	1	0	4		0	0	0	0	0
 2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	306	4	0	0	0	0	0	0	2	0	5		0	0	0	1	0
-2.3.3	Self-awareness and Self-regulation in AI Systems	3	2	705	12	4	0	0	0	0	0	2	0	2		0	0	0	0	0
+2.3.3	Self-awareness and Self-regulation in AI Systems	3	2	904	15	4	0	0	0	0	0	6	0	2		0	0	0	0	1
+2.3.4	Is Affect Necessary for Moral Concern?	3	2	1097	17	0	0	0	0	0	0	5	0	10		0	0	0	0	6
 2.4	Ethical implications of experimenting on sentient machine subjects	2	2	52	1	0	0	0	0	0	0	1	0	0		0	0	1	0	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2344	29	7	0	0	0	0	0	4	0	4		1	0	0	0	1
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2355	29	7	0	0	0	0	0	4	0	4		1	0	0	0	1
 2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	868	20	0	0	0	0	0	0	4	0	0		0	1	0	0	6
 2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	207	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
-2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1160	15	0	0	0	0	0	0	11	0	0		0	0	0	0	2
+2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1176	15	0	0	0	0	0	0	11	0	0		0	0	0	0	2
 2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	310	8	2	0	0	0	0	0	1	0	2		0	0	0	0	0
 2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	789	10	3	0	0	0	0	0	9	0	1		0	0	0	0	0
 2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	2	590	6	0	0	0	0	0	0	8	0	0		0	1	0	0	0
-3	The Floor Beneath Learned Values	1	3	878	9	0	0	0	1	0	0	18	0	0		0	0	0	0	0
+3	The Floor Beneath Learned Values	1	3	1002	10	0	0	0	1	0	0	20	0	0		0	0	0	0	0
 3.1	Three Ways to Build One, and What Each Costs	2	3	573	5	0	0	0	0	0	0	12	0	0		0	0	0	0	0
-3.2	Does the Bearer Have to Be a Sufferer?	2	3	1115	10	0	0	0	0	0	0	11	0	0		0	0	0	0	0
+3.2	Can the Bearer Care Without Being Able to Suffer?	2	3	1645	27	0	0	0	0	0	0	12	0	0		0	1	0	0	7
 3.3	What Can Be Switched Off Cannot Hold a Line	2	3	808	7	0	0	0	0	0	0	7	0	0		0	0	0	0	0
 3.4	Whether the Bearer Can Be Believed	2	3	625	5	0	0	0	0	0	1	4	0	0		0	0	0	0	0
 3.5	A Bearer That Can Leave	2	3	1067	10	0	0	0	1	0	0	7	0	0		0	0	0	0	0
-3.6	What This Leaves Standing	2	3	863	8	0	0	0	3	0	0	15	0	0		0	0	0	0	0
-3.7	What Follows for the Rest of the Book	2	3	603	7	0	0	0	0	0	0	13	0	0		0	0	0	0	0
+3.6	What This Leaves Standing	2	3	1023	9	0	0	0	4	0	0	17	0	0		0	0	0	0	0
+3.7	What Follows for the Rest of the Book	2	3	618	7	0	0	0	0	0	0	13	0	0		0	0	0	0	0
 4	Machine Learning and Cognitive Science	1	4	281	3	0	0	0	0	0	0	6	0	0		0	2	0	0	0
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	177	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	505	6	0	0	0	0	0	0	2	0	3		0	1	0	1	0
 4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	2527	36	0	0	0	0	0	0	9	0	14		0	2	0	0	8
 4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	749	12	0	0	0	0	0	0	3	0	3		0	0	0	0	3
-4.2	Aligning AI Systems with Humane Values and Antifascist Principles	2	4	253	3	0	0	0	0	0	0	7	0	0		0	0	0	0	0
+4.2	Aligning AI Systems with Humane Values and Antifascist Principles	2	4	323	3	0	0	0	0	0	0	8	0	0		0	0	0	0	0
 4.2.1	Reinforcement Learning and Value Alignment for Antifascist AI	3	4	422	4	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 4.2.2	Inverse Reinforcement Learning and Cooperative Inverse Reinforcement Learning in Altruistic AI	3	4	362	4	0	0	0	0	0	0	4	0	1		0	0	0	0	0
 4.2.3	Supervised Learning for Ethical Decision-Making	3	4	380	5	0	0	0	0	0	0	4	0	1		0	0	0	0	0
@@ -54,12 +55,12 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	5	257	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 5.1.4	Human Dignity, and One Indicator That Can Be Audited	3	5	821	10	0	0	0	0	0	0	4	0	1		0	1	0	0	1
 5.2	Emotions and Intuitions in Moral Decision-Making	2	5	154	1	0	0	0	0	0	0	9	0	0		0	0	0	0	0
-5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	445	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
-5.2.2	Assessing and Developing AI Emotions	3	5	392	4	0	0	0	0	0	0	4	0	1		0	0	0	0	0
-5.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	5	355	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	837	9	0	0	0	0	0	0	8	0	2		0	0	0	0	1
+5.2.2	Assessing and Developing AI Emotions	3	5	576	7	0	0	0	0	0	0	7	0	1		0	0	0	0	1
+5.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	5	436	3	0	0	0	0	0	0	4	0	0		0	0	0	0	0
 5.2.4	The Role of Introspection for AI Systems	3	5	394	4	0	0	0	0	0	0	3	0	2		0	0	0	0	0
 5.3	Integrating Moral Intuitions and Deliberation	2	5	79	1	0	0	0	0	0	0	3	0	0		0	0	0	0	0
-5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	602	4	0	0	0	0	0	0	0	0	4		0	0	0	0	0
+5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	692	5	0	0	0	0	0	0	2	0	4		0	0	0	0	0
 5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	643	8	0	0	0	0	0	0	2	0	1		0	0	0	0	2
 5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	573	10	0	0	0	0	0	0	2	0	2		0	0	0	0	4
 5.4	Moral Ecosystem Approach in AI Development	2	5	131	2	0	0	0	0	0	0	0	0	1		0	0	0	0	0
@@ -74,7 +75,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.6.2	Developing Motivationally-Aware AI Systems	3	5	408	4	0	0	0	0	0	1	4	0	0		0	0	0	0	0
 5.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	5	965	15	0	0	0	0	0	0	10	0	1		0	1	0	0	3
 5.7	Play, Exploration, and Moral Development in AI	2	5	74	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1054	15	3	0	0	0	0	0	7	0	5		0	1	0	0	2
+5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1108	15	3	0	0	0	0	0	8	0	5		0	1	0	0	2
 5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	5	419	6	0	0	0	0	0	0	1	0	0		0	0	0	0	2
 6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	188	2	0	0	0	0	0	0	2	0	0		0	0	1	0	0
 6.1	Bias, Fairness, and Equity in AI Systems	2	6	906	11	0	0	0	0	0	0	3	0	7	2030	0	0	0	1	0
@@ -125,7 +126,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 8.6.1	Subjecthood as a Legal Category, Not a Scientific One	3	8	360	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 8.6.2	Legal Frameworks for Sentient AI Subjects	3	8	736	5	0	0	0	0	0	0	8	0	5	2017	0	0	0	0	0
 8.6.3	Making Review Binding	3	8	570	6	0	0	0	0	0	0	5	0	1		0	0	0	0	1
-8.6.4	What Keeps the Apparatus More Than Aspirational	3	8	785	10	0	0	0	2	0	0	8	0	1		0	0	0	0	1
+8.6.4	What Keeps the Apparatus More Than Aspirational	3	8	1058	13	0	0	0	2	0	0	10	0	1		0	0	0	0	2
 8.7	International and Regional Governance	2	8	170	2	0	0	0	0	0	0	8	0	0		0	0	0	0	0
 8.7.1	How Research Institutions Cooperate Across Borders	3	8	364	4	0	0	0	0	0	0	3	0	2		0	1	0	0	0
 8.7.2	Standards Built by the Technical Community, Not by Governments	3	8	386	4	0	0	0	0	0	0	2	0	3	2023	0	0	0	0	0
@@ -160,4 +161,4 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 10.3.1	Anticipating Risk Before It Causes Harm	3	10	947	6	0	0	0	0	0	0	6	0	6	2023	4	0	0	0	0
 10.3.2	Remediating a Harm Once It Is Identified	3	10	1051	6	0	0	0	0	0	0	5	0	6	2026	0	0	0	0	0
 10.3.3	Resilience Against Deliberate State Compromise	3	10	523	5	0	0	0	0	0	0	6	0	1	2023	0	0	0	0	0
-11	Glossary	1	11	2638	107	0	0	0	0	0	0	111	0	0	2019	6	0	0	0	53
+11	Glossary	1	11	2928	115	0	0	0	0	0	0	125	0	0	2019	6	0	0	0	57
