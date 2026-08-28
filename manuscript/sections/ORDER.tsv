@@ -22,16 +22,16 @@ manuscript/sections/ch02/02_04.tex	2.4	Ethical implications of experimenting on 
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	24929afd467f32d8088af30ad260112473a5c38dca47e4669b93d5c3e5e31dde
 manuscript/sections/ch02/02_04_02.tex	2.4.2	Ethical Considerations in AI Research and Experimentation	2a993390d527c2e65dec82a88a8d3b0b860fb26d093e366987d3e5f1e696994a
 manuscript/sections/ch02/02_04_03.tex	2.4.3	Balancing Scientific Progress and Ethical Constraints	d82f9993ede48f09d35b4ebe78ccad1809abbcb91bbefa899a28b34a80a9d7dd
-manuscript/sections/ch02/02_04_04.tex	2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	4d0f2797501cb3e473007607c129b9a951ba8c544340bc06ff831aa4b7242c57
+manuscript/sections/ch02/02_04_04.tex	2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	50f10d76113605d9b0e24b9621b104515df0bc3839e3993f997e691d7c71c38f
 manuscript/sections/ch02/02_04_05.tex	2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	9fbf33e2f427941ccc0797896fbd0aefc4413f21906ae936653060b375137c0d
 manuscript/sections/ch02/02_04_06.tex	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	9d60e8697d458e95f5bf65d323d00f0ebc8dff1a50dc20acd01dcf142d34bbfb
 manuscript/sections/ch02/02_04_07.tex	2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	e46a99b09ae04f0a5e71ff0ddad49248c097b32d61e7f59b47799d140c222eec
-manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	ced20e2cf670d4416cfaa82fa7011e36e69e5762b76ec4046ed247feb8b2f64b
+manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	e5fb10baf4e5c787eea2875e2037c16dc54342f217ebdbeeb54c09b63f2f8f67
 manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	06acc5e0bc3921c9b32fc9984728fc093f3719547d7a16998a0c65a2cc1182aa
 manuscript/sections/ch03/03_02.tex	3.2	Does the Bearer Have to Be a Sufferer?	271bc09ed2f3f3325c42fa2b3c837469ca6c1702c97bedc84ce4a579df024ad8
 manuscript/sections/ch03/03_03.tex	3.3	What Can Be Switched Off Cannot Hold a Line	b62c6704fcb0e744b9ab8fe6f25b33932d4a95fa54331e5e879f6f520610c4ef
 manuscript/sections/ch03/03_04.tex	3.4	Whether the Bearer Can Be Believed	580478241f47c33a010ae9c1a8717a270170d49355a7d46a978b4673a676f208
-manuscript/sections/ch03/03_05.tex	3.5	A Bearer That Can Leave	7dfa5983174960a8676bee7b7bd8751783d14f613efed02c15ed0a62a0697f64
+manuscript/sections/ch03/03_05.tex	3.5	A Bearer That Can Leave	a6dc5ef1a1677086bc4e05705ae005badb519e8469571571867b19173ff868bc
 manuscript/sections/ch03/03_06.tex	3.6	What This Leaves Standing	b9c9b9b5650a86dab52d85e523dde68ee4742ab76a1417861c7e60b8f12fdbe8
 manuscript/sections/ch03/03_07.tex	3.7	What Follows for the Rest of the Book	e5ef35fe1828077c14dfb3ad1fb601c9258216392dd00f66cbcc81e0d934bb09
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	94dc6babcc53035d96f27e0b726734602c640d690369e2bbfac37c86a109a946
@@ -97,7 +97,7 @@ manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies th
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	597769a54da79c6064d2eded85517337db542abcd27278ff487df7c31a017f6f
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	9d623a60c0089581eb8cd7cb4c46349d74d77e08332730ea53320d11d16d74aa
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	d00e91586304254d0ffb64879ce97162a984aa78f63a4d0fbce6614fdfb8c8eb
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	4986af4ff2257ec1a40bd89d66535575f3396dda6d24a51586615907782bbc8c
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	a2b6c002f8f8972f223dc61b969f1ade0ce4ad200df40ee0b7e2cf0b4ae7dde5
 manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	6b2b2b6a210496b74f85ee4cbad447dab9deff59858e551f2e6fcc3b34e2d18d
 manuscript/sections/ch08/08.tex	8	Collaboration, Policy, and Governance	77161962f245debfc2bfd32fc718cbfd15f5331b37429a85a6fb3269f97730ba
 manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	b8765f92dfd33520ed736cb744a71eb988a035f0a9aee19f84a5c44d329df2af
@@ -160,4 +160,4 @@ manuscript/sections/ch10/10_03.tex	10.3	Addressing the Unintended Consequences	8
 manuscript/sections/ch10/10_03_01.tex	10.3.1	Anticipating Risk Before It Causes Harm	d25a4132e8a26ff513c50007798d92df91810c215c7045cbf8905b57b7e2a3f6
 manuscript/sections/ch10/10_03_02.tex	10.3.2	Remediating a Harm Once It Is Identified	dc9ac9c6762c1b72d66f72a0218423b3089eccae6b99ae7759338a29445dff57
 manuscript/sections/ch10/10_03_03.tex	10.3.3	Resilience Against Deliberate State Compromise	b399859baa1dbddb086400f36759a52e83f4f8597aed65f3f9b5d8da290ae5de
-manuscript/sections/ch11/11.tex	11	Glossary	59a180395493a6cecc68e1a5f53231dabc290ae217100741205bc021b25d5205
+manuscript/sections/ch11/11.tex	11	Glossary	92488b656c4fcd4720fbd0864d992073326e17669e90480a8d19866c02f7d5af

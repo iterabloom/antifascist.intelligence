@@ -240,6 +240,13 @@ reader has to decode rather than read.
   as an aphorism, "prices the risk in advance." An aphorism asks to be admired
   before it is checked. Write the declarative sentence instead, even where it is
   duller.
+- **The mixed idiom.** You hold a *line*; you set a *floor*, or put one under
+  something. "Hold a floor" welds the two and puts a horizontal surface in
+  somebody's hands, which is what the author saw when he read it. Six instances,
+  all repaired. The repair is not to retire the term: a floor holding is what
+  floors do, "a floor that holds" is the right image and is kept in all nine of
+  its uses, and what changed is who is doing the holding. A system does not hold
+  a floor — it refuses, and the floor holds because it does.
 - **The name-dropped argument.** "Which is section 10.3.3's whole argument."
   Naming a section's argument is not making it. If the claim matters here, state
   it here in a clause.
