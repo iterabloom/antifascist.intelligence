@@ -177,7 +177,7 @@ unsettled question.
 
 ---
 
-## Item 4 (D-080) — fascism, and one paragraph not yet written
+## Item 4 (D-080) — fascism, and one paragraph — done in this pass
 
 Section 2.1.4 already holds the ruled position and needs no correction. It takes
 fascism as a structure rather than a costume, gives four features "visible from
@@ -193,9 +193,13 @@ detector is asked stops being *is this fascism* and becomes *how far here, and
 is it rising* — which is section 8.6.4's slope, and connects two arguments the
 book currently makes in separate places.
 
-**One paragraph in section 2.1.4, proposed and not written.** It touches the
-book's central definitional section and an author-accepted one, so it goes to
-the author as prose before it goes in. Draft for approval:
+**One paragraph in section 2.1.4, approved by the author and written.** It sits
+immediately before "One consequence travels with the reader through everything
+that follows," so that the existing paragraph's dual-use hazard — a tool whose
+output is an accusation, handed to whoever holds it — now follows from a stated
+expectation instead of arriving as an awkwardness. It adds the section's first
+reference to 8.6.4. Nothing else in the section changed, and the section is
+author-accepted, so `ledger.tsv` discloses it per-row. As written:
 
 > That a detector of these four features would find something nearly everywhere
 > is the expected result and not a defect of the instrument. The tendency is

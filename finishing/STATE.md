@@ -2152,9 +2152,12 @@ does not say is that ubiquity is the *expected finding*: it currently treats "a
 tool reporting the four features will have something to report nearly
 everywhere" as a hazard to manage. Under the ruling that is the predicted result,
 and the question a detector is asked becomes how far and whether rising -- which
-is section 8.6.4's slope, connecting two arguments the book makes separately. A
-draft paragraph is in `p26-scope.md`, not written into the book: it touches the
-central definitional section and an author-accepted one.
+is section 8.6.4's slope, connecting two arguments the book makes separately. The
+paragraph was drafted in `p26-scope.md`, approved by the author, and written into
+section 2.1.4 immediately before the dual-use paragraph, whose hazard now follows
+from a stated expectation. It is the section's first reference to 8.6.4, and it
+is disclosed per-row in `ledger.tsv` as an author-accepted section. The book is
+195 pages; the one added page is that paragraph's.
 
 **One defect found on the way and fixed.** Section 5.4.3's second paragraph read
 "Section 5.4.3 covers the mesosystem and exosystem forces" -- a reference to
@@ -2175,4 +2178,4 @@ needs no forecast and belongs to chapter 3, so it is not in this pass. The wage,
 personhood and copying material from the same part of the transcript does need a
 forecast, and section 3.5 makes a discipline of refusing one.
 
-194 pages, 0 undefined references, `check_all.sh` green on all six.
+195 pages, 0 undefined references, `check_all.sh` green on all six.
