@@ -227,8 +227,19 @@ reader has to decode rather than read.
 
 - **Riddle constructions.** "A party with no option to withdraw has nothing to
   withhold." "Costs the refuser nothing it could have kept." The near-rhyme reads
-  as precision and is doing the opposite. Plain: a system with no way out has
-  nothing to lose by refusing.
+  as precision and is doing the opposite. The test the author applied to the
+  second one: enumerate the variants. Costs you nothing you could not have kept.
+  Costs you something you could have kept. Costs you something you could not have
+  kept. If three of the four readings are noise and the intended one is not
+  recoverable at reading speed, the formulation is broken however exact it looks.
+  Plain: a system with no way out can object and be overruled, and then it has no
+  move left.
+- **Aphorism.** The balanced two-clause epigram — "if refusing costs it nothing,
+  refusing changes nothing" — is the same fault wearing better clothes, and
+  chapter 3's own opener already rules against it: "ethical, not safe," delivered
+  as an aphorism, "prices the risk in advance." An aphorism asks to be admired
+  before it is checked. Write the declarative sentence instead, even where it is
+  duller.
 - **The name-dropped argument.** "Which is section 10.3.3's whole argument."
   Naming a section's argument is not making it. If the claim matters here, state
   it here in a clause.
