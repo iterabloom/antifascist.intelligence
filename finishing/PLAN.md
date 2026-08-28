@@ -22,8 +22,7 @@ The book itself was not touched by any of this. It stands at 163 sections and
 199 pages, with 112 sections accepted and 51 drafted and unread — a count that
 the deleted standing rule is the reason for. The one pass executed this session,
 P28, cut 79 cross-references by class and is committed on
-`pass/28-xref-density`, unmerged and unread. The meta-plan that produced this
-file is at `~/.claude/plans/` (planning phase, phases 0–6).
+`pass/28-xref-density`, unmerged and unread.
 
 ## 1. Passes
 
