@@ -90,11 +90,14 @@ num	title	level	parent
 6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6.3
 6.3.3	Strategies for AI Safety and Risk Mitigation	3	6.3
 6.3.4	AI Explainability and Transparency	3	6.3
-6.3.5	Long-term AI safety considerations	3	6.3
+6.3.5	Anticipating Risk Before It Causes Harm	3	6.3
+6.3.6	Remediating a Harm Once It Is Identified	3	6.3
+6.3.7	Long-term AI safety considerations	3	6.3
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6
 6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6.4
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6.4
 6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6.4
+6.4.4	Resilience Against Deliberate State Compromise	3	6.4
 7	The Recuperation of Dissent	1	
 7.1	Recuperation at the Label	2	7
 7.2	Recuperation at the Reward: RLHF	2	7
@@ -157,8 +160,5 @@ num	title	level	parent
 10.2	Signatures of Altruistic and Antifascist AI	2	10
 10.2.1	One Standard, Five Worked Cases	3	10.2
 10.2.2	How to Tell Whether a Milestone Has Been Met	3	10.2
-10.3	Addressing the Unintended Consequences	2	10
-10.3.1	Anticipating Risk Before It Causes Harm	3	10.3
-10.3.2	Remediating a Harm Once It Is Identified	3	10.3
-10.3.3	Resilience Against Deliberate State Compromise	3	10.3
+10.3	The Risk That Does Not Design Out	2	10
 11	Glossary	1	
