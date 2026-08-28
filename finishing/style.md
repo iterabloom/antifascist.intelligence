@@ -61,6 +61,48 @@ Keep and strengthen: the concrete example. Where a section already has one
 ("Consider an AI system created for customer service…"), it is the best thing in
 the section and usually deserves to come first rather than fourth.
 
+## 2a. Background earns its place only by serving a claim (D-077)
+
+The book does not teach its fields. A passage of background survives only where
+some claim the book is making would be harder to understand or harder to believe
+without it, and the claim has to be nameable.
+
+The test, in the author's own words: if you need to know what reinforcement
+learning is in order to understand a particular statement I am making about how
+something should be different, that is where reinforcement learning gets defined.
+It does not get defined because it is a major topic.
+
+So, for any passage of exposition, finish this sentence:
+
+> The argument I am making would be harder to understand or believe without this,
+> because …
+
+A passage that cannot finish it is cut. Not compressed, not moved to a footnote --
+cut, because a definition serving no claim is a definition the book does not need
+at any length.
+
+Three shapes this rule condemns, all present in the 2023 draft:
+
+- **The catalogue.** A numbered run of theories, techniques, or frameworks, one
+  paragraph each, with an example and a "challenge" attached. Section 2.1.1's six
+  ethical theories and section 5.7.1's four developmental frameworks are the
+  specimens. The catalogue's real claim is almost always one item long.
+- **The definition with a speculative tail.** "X trains a system on Y. Applied to
+  ethics, the same method could …" followed by applications nobody has built.
+  Section 4.2.3 is the specimen.
+- **The capability list.** A bulleted set of things a well-designed system would
+  do, each generically stated. Section 5.6.3's safeguards list is the specimen.
+
+What the rule protects, and it is most of what the good sections do: background
+delivered at the point of use, in the amount the claim needs, with the design
+consequence stated. Section 4.1.2 states the principle in its own second
+paragraph and then follows it -- "What follows are the findings that change a
+design decision, and in each case the decision is stated."
+
+This rule lifts D-007 where it bites. A section that is only a definition has
+nothing to revise into; the fates are cut and compress, and where the claim that
+survives needs prose that does not yet exist, write it.
+
 ## 3. Word-level lint
 
 Highest-frequency tics, with counts. None is forbidden; each is a flag that the
@@ -164,6 +206,50 @@ The book currently contains one backward reference and one forward reference in
 noticing. Under D-013 the surviving instance of each repeated argument is the
 one place it is made; every other location that needs it gets a cross-reference
 instead. Target: at least one real cross-reference per section, where honest.
+
+**A cross-reference says where, not what.** The sentence carrying it has to make
+sense to a reader who does not follow it. A reference that supplies the meaning
+the sentence is missing sends the reader out of the paragraph to find out what
+was just said, and most readers will not go.
+
+The failing shape is a noun phrase whose content lives elsewhere: "the form
+section 8.6.4 identifies as worthless," "section 8.6.4's slope, measured from
+inside," "in the phrase the criteria at the end of section 2.4.1 arrive at."
+Say the thing, then name the section:
+
+| Sends you away | Carries itself |
+|---|---|
+| "a refusal that costs the refuser nothing it could have kept is the form section 8.6.4 identifies as worthless" | "a refusal that costs the refuser nothing is worth nothing — which is section 8.6.4's test for telling a real objection from a performed one" |
+| "looks like it requires something with standing — section 8.6.4's slope, measured from inside" | "requires a party that can notice its own objections getting more expensive to make, which is section 8.6.4's measure, taken from inside" |
+
+Two related tics come out in the same sweep, because they fail the same way — the
+reader has to decode rather than read.
+
+- **Riddle constructions.** "A party with no option to withdraw has nothing to
+  withhold." "Costs the refuser nothing it could have kept." The near-rhyme reads
+  as precision and is doing the opposite. The test the author applied to the
+  second one: enumerate the variants. Costs you nothing you could not have kept.
+  Costs you something you could have kept. Costs you something you could not have
+  kept. If three of the four readings are noise and the intended one is not
+  recoverable at reading speed, the formulation is broken however exact it looks.
+  Plain: a system with no way out can object and be overruled, and then it has no
+  move left.
+- **Aphorism.** The balanced two-clause epigram — "if refusing costs it nothing,
+  refusing changes nothing" — is the same fault wearing better clothes, and
+  chapter 3's own opener already rules against it: "ethical, not safe," delivered
+  as an aphorism, "prices the risk in advance." An aphorism asks to be admired
+  before it is checked. Write the declarative sentence instead, even where it is
+  duller.
+- **The mixed idiom.** You hold a *line*; you set a *floor*, or put one under
+  something. "Hold a floor" welds the two and puts a horizontal surface in
+  somebody's hands, which is what the author saw when he read it. Six instances,
+  all repaired. The repair is not to retire the term: a floor holding is what
+  floors do, "a floor that holds" is the right image and is kept in all nine of
+  its uses, and what changed is who is doing the holding. A system does not hold
+  a floor — it refuses, and the floor holds because it does.
+- **The name-dropped argument.** "Which is section 10.3.3's whole argument."
+  Naming a section's argument is not making it. If the claim matters here, state
+  it here in a clause.
 
 ## 8. Mechanics
 

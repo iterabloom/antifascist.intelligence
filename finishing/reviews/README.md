@@ -21,6 +21,7 @@ these files are the input, not the verdict.
 | `review-for-p7-appendix-first-rule_2026-08-23.md` | Pointer to the appendix attached to it, held upstream — see below | P7 — `p7-scope.md` |
 | `review-for-p11_2026-08-24.md` | The sixth editorial review, 2026-08-24 | P11 — `p11-scope.md`, D-043 |
 | `revision-plan-for-p20_2026-08-25.md` | The revision plan distilled from the seventh review and the discussion after it, supplied by the author 2026-08-25 | P20 — `p20-scope.md` |
+| `author-discussion_2026-08-28.txt` | A recorded discussion between the author and a language model shown the 194-page PDF, 2026-08-28. Not a review — see below | P26 — `p26-scope.md`, D-077 to D-080 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -63,4 +64,14 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**One file here is not a review.** `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
+**Two files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+transcript of the author thinking aloud with a language model that had been given
+the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
+are the author's; the completions are the model's. It is kept for the same reason
+the revision plan is: the four rulings in D-077 to D-080 came out of it, and
+`p26-scope.md` records what was checked against the manuscript and what did not
+survive checking. Two of the model's claims about chapter 6 correspond to nothing
+in the text and are identified there; nothing in the file is a finding until it
+has been checked.
+
+`revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
