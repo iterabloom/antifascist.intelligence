@@ -48,21 +48,27 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-25, after D-067.** `manuscript/sections/chNN/*.tex` —
-**162 sections**, chapters 0 through 11, one `.tex` file each, nothing deeper
-than three levels; `book.tex` is the master, `sections.tex` the generated
-`\input` list. **92,695 words of prose**, by `section_stats.py`, ported to LaTeX
-at D-070 and rerun (`finishing/reports/section_stats.tsv`). That figure excludes
-the four epigraphs as third-party text and counts a reference as the one number
-it prints; the conventions are in `common.tex_sections_of`. No proof PDF is
-committed (D-068); build one to the scratchpad. `manuscript/parseable_text_v4.txt` and
-`manuscript/parseable_text_v3b_2024-07-07.txt` were frozen and guarded by
-`check_frozen.py`; **both were removed from the repository at D-088**, and
-`check_frozen.py` now registers no file. Ledger: 146 sections
-`accepted`, 16 `drafted` — chapter 3 entire (§3 and §§3.1–3.7), §7, §7.1, §7.3,
-§7.4, §8.7, §8.7.10, §9.1.6, §9.1.7 — none of which the author has read since
-P11, P19 or P20 rewrote it. The three sections D-067 split out of 8.7.6
-(§§8.7.7–8.7.9) carry 8.7.6's `accepted` because their text is 8.7.6's text.
+**Current as of 2026-08-28, after D-091.** `manuscript/sections/chNN/*.tex` —
+**163 sections**, chapters 0 through 11, one `.tex` file each, nothing deeper than
+three levels; `book.tex` is the master, `sections.tex` the generated `\input`
+list. **91,394 words of prose**, by `section_stats.py`
+(`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
+as third-party text and counts a reference as the one number it prints; the
+conventions are in `common.tex_sections_of`. The whole-book proof is committed as
+a pair, `finishing/reports/whole-book-proof_2026-08-28.{pdf,html}`, **188 pages**,
+built from this tree and linked from the README. `check_frozen.py` registers no
+file, since D-088 removed the two dialect texts it had guarded.
+
+**Ledger: 79 sections `accepted`, 84 `drafted` and unread.** The drafted ones are
+concentrated where the recent passes worked: chapter 2 (22 of 23) and chapters 4
+and 5 (11 of 13, 26 of 29), all cut at P29; chapter 3 entire (8 of 8), rewritten
+at P27; chapter 7 (4 of 5); the glossary; and scattered rows in chapters 1, 6, 8,
+9 and 10. Three of chapter 6's arrivals from chapter 10 keep their `accepted`
+status, because P30 moved their text without rewriting it. `ledger.tsv` carries
+the per-section reason.
+
+**Five questions are open**, all raised by P28 through P30 and none blocking:
+`QUESTIONS.md` has them with a recommended default each.
 
 **The paragraphs below this line are the 2026-08-23 record of the P3 pass and
 are kept as history; their section and word counts are not current.**
@@ -2607,11 +2613,14 @@ resolved references eight days after P28 rebuilt the reference regime, and needs
 a renumber map on the D-031/D-043 model. Not taken, on the ground that the
 instruction asked for a cut and not a restructure. Available on request.
 
-**What this did to P28's number.** 40 references came out with the prose around
-them, 837 to 797, and none was removed for being a reference. Density is one per
-114 words against P28's one per 132, because the prose came out faster than the
-references in it: the survey this pass cut was the least reference-dense material
-in the four chapters. P28's finding stands and this pass did not advance it.
+**What this did to P28's number.** 40 references came out with the prose around them, 837 to 797, and none was
+removed for being a reference. Measured one consistent way — every `\ref` in the
+section files against `section_stats.py`'s word count — density went from one per
+116 words to one per 114, which is unchanged: the prose came out at about the rate
+the references in it did. P28's own headline figure, one per 132, is a different
+measure, counting prose references only and setting the glossary's 125 locators
+aside, so it cannot be compared with the number above. P28's finding stands and
+this pass did not advance it.
 
 **Ledger.** 53 rows carry a per-row note. 29 sections went from `accepted` to
 `drafted`, leaving 83 accepted and 80 drafted, because the author has not read

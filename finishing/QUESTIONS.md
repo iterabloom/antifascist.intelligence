@@ -1,8 +1,16 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-082. No question is open.** The author
-ruled Q-025 on 2026-08-28 the day it was raised, and it is under "Resolved"
-below with the others. For orientation read `finishing/STATE.md`.
+**Current as of 2026-08-28, after D-091. Five questions are open**, raised by
+P28, P29 and P30, none of them blocking and each with a default that has already
+applied: how much further to cut the cross-references, how much further to cut
+chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
+fold the subsections P29 left thin, and whether to prune `refs.bib`. For
+orientation read `finishing/STATE.md`.
+
+The other standing item is not a question. **84 of the book's 163 sections are
+`drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
+cut, and chapter 3, which P27 rewrote. `ledger.tsv` carries the per-section
+reason.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
 new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
@@ -15,6 +23,8 @@ applies. Nothing here blocks work.
 ---
 
 ### Q-019 — The glossary defines a term the book never uses
+
+**Closed by execution, D-061. The record is under "Resolved" below; this entry is the question as it stood.**
 
 `GPAI` (the Global Partnership on Artificial Intelligence) has a glossary entry.
 The term appears **nowhere in the body** — checked against every commit back to
@@ -40,6 +50,8 @@ without asking; (c) is the only option that adds anything.*
 ---
 
 ### Q-021 — §3.6's title promises what its body does not do
+
+**Closed by execution, D-061. The record is under "Resolved" below; this entry is the question as it stood.**
 
 Chapter 3 was promoted whole from old §2.1.5 with **text unchanged** (P11,
 `p11-scope.md:159`), and split at its own run-in heads. §3.6, "What Follows for
@@ -73,6 +85,8 @@ pass that touches chapter 3.*
 ---
 
 ### Q-022 — The design chapters do not lean on the floor the introduction says they do
+
+**Closed by execution, D-061, and again by declaration at D-078. Chapter 1's roadmap went on contradicting the closure until P29 corrected it. The record is under "Resolved" below.**
 
 Chapter 1 bills chapters 4 and 5 as "the learned half that sits above that floor"
 and says "a reader should carry all three through the design chapters, **because
@@ -108,6 +122,112 @@ was never scoped, declined, or deferred.
 
 *Default applies now. (c) is the only option that makes chapter 1's sentence true
 as written.*
+
+---
+
+### Q-026 — The cross-reference cut reached a fifth of what was asked
+
+D-089's instruction was that the book's explicit chapter and section references
+make the prose read as a navigated repository, and that cutting half would improve
+continuity. P28 cut 79 of 791, **10 percent against the 50 percent named**, and
+recorded the shortfall with its cause: judging removability from isolated
+sentences overestimated it roughly threefold. P29 then removed 40 more as a side
+effect of cutting prose without improving the density: measured one consistent way,
+every `\ref` in the section files against `section_stats.py`'s word count, it went
+from one per 116 to one per 114. The prose came out at about the rate the
+references in it did.
+
+What is left is 467 leaf-inline references concentrated in chapter 3, chapter 7,
+section 9.1.7 and section 10.2.1 — the spine P27 rewrote — where a reference is
+usually importing a result rather than filing a topic.
+
+- **(a) Default — stop here.** Every class that could go without touching an
+  argument is gone. Cutting further means a sentence that borrowed a result has to
+  restate it in a clause, which trades reference density for length.
+- (b) Cut into the leaf-inline references in those four places, accepting the
+  restatements. This reverses part of D-013, which built the regime to replace an
+  argument that had been made nine times, and part of D-078.
+- (c) Set a target density rather than a count — one per 200 words, say — and cut
+  wherever it takes to reach it, which concentrates the loss in chapter 3.
+
+*Default applies now. `p28-scope.md` has the class-by-class record.*
+
+---
+
+### Q-027 — Chapters 4 and 5 stopped at 13.5 percent
+
+D-090 asked for chapters 4 and 5 to be cut or refocused around what the floor
+requires. They came to **13.5 percent**, against 20.2 percent for chapter 2. The
+reason is recorded rather than smoothed over: those chapters were cut 29.9 percent
+at P11 and rewritten at P26 to carry chapter 3's obligation, so the survey in them
+was thinner to begin with, and what came out is what the survey amounted to.
+
+- **(a) Default — leave it.** What remains is argument aimed at the floor plus the
+  evidence that makes it believable.
+- (b) Cut the evidence as well — the inattentional-blindness studies, the
+  predictive-coding account, the Kohlberg box, the trolley literature section 2.3.4
+  points at. That reaches roughly 20 percent and converts several claims into
+  assertions a reader has to take on trust. Section 2.3.4 depends on the trolley
+  material being somewhere, so it would have to move rather than go.
+- (c) Cut by removing whole sections instead of compressing, which is Q-029.
+
+*Default applies now.*
+
+---
+
+### Q-028 — Whether chapter 3 should move earlier in the book
+
+P29 made chapter 3 the book's centre by what leads into it: chapter 1's roadmap
+corrected, chapter 2's opener rewritten around the four results chapter 3 uses,
+four chapter-5 openers stating what the floor takes from them. Its share of the
+book went from 7.62 to 8.13 percent without a word changing in it. Position was
+left alone.
+
+- **(a) Default — leave it third.** Moving it reverses D-043's promotion, and the
+  dependency runs the wrong way: chapter 3 argues from section 2.3.4's affect
+  evidence and section 2.4.1's ladder, both of which precede it.
+- (b) Promote it to chapter 2, folding the four load-bearing results of the
+  present chapter 2 into it and demoting the rest. This is the version that makes
+  the centre structural rather than rhetorical, and it is a chapter-scale rewrite
+  plus a renumber of everything after it.
+
+*Default applies now.*
+
+---
+
+### Q-029 — The subsections P29 left thin, and whether to fold them
+
+Twelve leaf subsections are now under 230 words, and eight of them are P29's
+work: 2.4.3 at 142, 5.5.2 at 162, 4.3.2 at 184, 2.2.2 at 186, 5.1.2 at 195, 5.4.1
+at 201, 2.3.2 at 212, 2.4.5 at 220. The other four — 6.2.2, 6.3.2, 8.2.3, 8.4.3 —
+were that short before this session and are not new. The book already carries much
+shorter section openers; what makes these look odd is that they are leaves.
+
+- **(a) Default — leave them.** Folding renumbers a chapter against 801 resolved
+  references and needs a renumber map, and P28 rebuilt the reference regime days
+  ago.
+- (b) Fold them into their neighbours, with a renumber map on the
+  D-031 / D-043 / D-091 model. P30 shows the cost: four sections moved, 16
+  references repointed, five files of bookkeeping.
+
+*Default applies now.*
+
+---
+
+### Q-030 — `refs.bib` has 20 entries nothing cites
+
+P29 orphaned twelve `\autocite` keys by cutting the prose around them, and eight
+were already uncited before that: 20 of the file's 289 entries are now reachable
+from nothing in the manuscript. Nothing prints them, because biblatex only sets
+what is cited, so this costs a reader nothing and costs the file its correspondence
+with the book.
+
+- **(a) Default — leave them.** An entry costs nothing where it sits, and one of
+  them may be wanted again by whatever pass next touches the material it supported.
+- (b) Prune the 20, recording them in the commit body so they can be restored from
+  git.
+
+*Default applies now.*
 
 ---
 

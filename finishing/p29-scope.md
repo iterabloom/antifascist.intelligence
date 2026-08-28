@@ -120,10 +120,13 @@ than asserted. Left with the author.
 ## What this did to P28's number
 
 40 cross-references came out with the prose around them, 837 to 797, and none was
-removed for being a reference. Density is one per 114 words against P28's one per
-132, because the prose came out faster than the references in it: the survey this
-pass cut was the least reference-dense material in the four chapters. P28's
-finding stands and this pass did not advance it.
+removed for being a reference. Measured one consistent way — every `\ref` in the
+section files against `section_stats.py`'s word count — density went from one per
+116 words to one per 114, which is unchanged: the prose came out at about the rate
+the references in it did. P28's own headline figure, one per 132, is a different
+measure, counting prose references only and setting the glossary's 125 locators
+aside, so it cannot be compared with the number above. P28's finding stands and
+this pass did not advance it.
 
 ## Considered and declined: removing sections
 
