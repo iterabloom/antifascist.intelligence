@@ -77,6 +77,36 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
    -sOutputFile=page.png book.pdf
 ```
 
+## "Make the proofs"
+
+An author's phrase — "make the proofs," "do the proofs," or any near variant —
+that names a fixed sequence, not just a build. It means all of this, in order:
+
+1. **Commit whatever is in the tree, to `main`, and push.** Directly to `main`;
+   this gesture does not open a branch. Say what is being committed before
+   committing it if it is more than the work just discussed — "everything" is
+   the instruction, and a surprise in the diff is the author's to catch, not
+   mine to swallow.
+2. **Run `finishing/tools/build_proof.sh`.** Both formats, one date.
+3. **Remove the previous dated pair** if the date has rolled over. The script
+   prints the `git rm` lines; the proof is one pair replaced, not a series.
+4. **Point the README's links at the new files.** Both of them, in the "Read the
+   book" line under the subtitle. A link to a proof that is no longer there is
+   worse than no link.
+5. **Commit the proofs and the README, and push again.** Two commits, not one:
+   the work is legible in the first, and the second is generated output.
+
+Step 5 is why it is two commits. A megabyte of rebuilt proof in the same commit
+as the prose that changed makes the prose unreadable in the diff, which is the
+cost D-068 named and `.gitattributes` only partly pays down.
+
+**A limit worth knowing before relying on the README's HTML link.** GitHub does
+not render a committed `.html`; following that link gets the source or a
+download, not a page. The PDF link renders in GitHub's own viewer and works.
+Serving the HTML as a page needs a decision the repository has not taken —
+GitHub Pages, or a third-party renderer — and it is recorded in D-083 rather
+than chosen here.
+
 ## The source layout
 
 | file | what it is |
