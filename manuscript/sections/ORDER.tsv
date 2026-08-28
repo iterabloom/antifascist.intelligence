@@ -27,8 +27,8 @@ manuscript/sections/ch02/02_04_05.tex	2.4.5	Legal and Regulatory Frameworks for 
 manuscript/sections/ch02/02_04_06.tex	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	9d60e8697d458e95f5bf65d323d00f0ebc8dff1a50dc20acd01dcf142d34bbfb
 manuscript/sections/ch02/02_04_07.tex	2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	e46a99b09ae04f0a5e71ff0ddad49248c097b32d61e7f59b47799d140c222eec
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	ced20e2cf670d4416cfaa82fa7011e36e69e5762b76ec4046ed247feb8b2f64b
-manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	265e21d54f7f87e3a2449f813097b9fb8e99aa9c16df521235c4f67c9a9dd4a0
-manuscript/sections/ch03/03_02.tex	3.2	Does the Bearer Have to Be a Sufferer?	25dd36626558dc98affec144fdd8f0049668042240dafe4283bb6b598c01d352
+manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	30908d932188d3c204043700fb67be63ea68ea0be1782ab8e0836083bd44670c
+manuscript/sections/ch03/03_02.tex	3.2	Does the Bearer Have to Be a Sufferer?	5d80b74f2ed2c1b3b30ea6462e3fbdd80af5b946cb83f7301d56a9a78ef477b2
 manuscript/sections/ch03/03_03.tex	3.3	What Can Be Switched Off Cannot Hold a Line	b62c6704fcb0e744b9ab8fe6f25b33932d4a95fa54331e5e879f6f520610c4ef
 manuscript/sections/ch03/03_04.tex	3.4	Whether the Bearer Can Be Believed	580478241f47c33a010ae9c1a8717a270170d49355a7d46a978b4673a676f208
 manuscript/sections/ch03/03_05.tex	3.5	A Bearer That Can Leave	6f7fd913ac97527e78d725ebcafdd31c4f075dde8df9b77301fd74bdd1d96724
@@ -65,7 +65,7 @@ manuscript/sections/ch05/05_03_03.tex	5.3.3	AI Systems Learning from Moral Disag
 manuscript/sections/ch05/05_04.tex	5.4	Moral Ecosystem Approach in AI Development	b4fd5d00b5d354e93c7ed4e54087af3e2b9ba8f8f9dd47bfbaef001d06b825e7
 manuscript/sections/ch05/05_04_01.tex	5.4.1	Applying the Moral Ecosystem Approach to AI Development	11c1f6109fd25c6b44bacd57d3a06b825af7d1e72357ce7d6fbfcfb4509a3771
 manuscript/sections/ch05/05_04_02.tex	5.4.2	The Rings Outside the Lab	618179a5accfa44a19b1957b60f1297454f1f1f7b7af571c1164b9dc7e158e0a
-manuscript/sections/ch05/05_04_03.tex	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	2ddc450cb04a4f4d1eb4e19949084e403b09ae7c4c444b234dad470eb737f592
+manuscript/sections/ch05/05_04_03.tex	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	469c2a5b8a90777881ad3e67aca6d0d2366c627f94524f093bf2f5128a48f4d5
 manuscript/sections/ch05/05_05.tex	5.5	The Interplay of Competition and Collaboration in AI Development	e6a3c606b414d091135142e0ede3f53a4813c76073608d09b0a4ca289b9ddaa1
 manuscript/sections/ch05/05_05_01.tex	5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	aaa4ad9b98c21f0a94793a8cfbb7fc67e1f361cff9fc9c61f58f821b474a4240
 manuscript/sections/ch05/05_05_02.tex	5.5.2	Strategies for Encouraging Collaboration Among AI Systems	d7bbf13563c0115833fe61d0042763c085b788d27bad55bb06c87d40fb35e726
@@ -160,4 +160,4 @@ manuscript/sections/ch10/10_03.tex	10.3	Addressing the Unintended Consequences	8
 manuscript/sections/ch10/10_03_01.tex	10.3.1	Anticipating Risk Before It Causes Harm	d25a4132e8a26ff513c50007798d92df91810c215c7045cbf8905b57b7e2a3f6
 manuscript/sections/ch10/10_03_02.tex	10.3.2	Remediating a Harm Once It Is Identified	dc9ac9c6762c1b72d66f72a0218423b3089eccae6b99ae7759338a29445dff57
 manuscript/sections/ch10/10_03_03.tex	10.3.3	Resilience Against Deliberate State Compromise	b399859baa1dbddb086400f36759a52e83f4f8597aed65f3f9b5d8da290ae5de
-manuscript/sections/ch11/11.tex	11	Glossary	5a77e4a7a918f9944a1bd3a4e55994ecde0cd6de31ec2ab3380a003fa4ea186f
+manuscript/sections/ch11/11.tex	11	Glossary	59a180395493a6cecc68e1a5f53231dabc290ae217100741205bc021b25d5205

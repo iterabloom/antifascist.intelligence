@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-25 after D-075: "superintelligence" is swept from the manuscript wherever it named the book's own subject — five prose instances beyond D-073's two — and kept in the three places where it records the 2023 founding prompt, describes AlphaGo Zero, or cites Bostrom's title. **Updated 2026-08-25 after D-076: `AGENTS.md` names the book by its current title, on the author's explicit approval; no rule in it changed.** **Updated 2026-08-25 after D-074: the book has a title page (194 pages), and the README's abstract is rewritten in the book's own voice; both were items D-073 recorded as left for the author.** **Updated 2026-08-25 after D-073: the book is titled *Antifascist Intelligence: Building Machines That Can Refuse*. The old title, *Ethical Superintelligence*, is gone from `book.tex`, the README and section 10.2's heading; the note at the end of this file says what moved and what was deliberately left, including that the book still has no title page, so the title prints nowhere in the proof and lives only in the PDF metadata.** **Updated 2026-08-25 after D-067 (P23): the author ruled on all four open questions — no question is open — and section 8.7.6, the book's longest, is split four ways along its run-in heads into 8.7.6–8.7.9, with old 8.7.7 now 8.7.10. 162 sections. Nothing cut; three transition sentences edited; all 24 inbound references to the pair read and placed by hand. Section 8.7.4's opener rewritten (Q-020 b). The P23 note at the end of this file has the detail, including one tool gap found on the way: `xref_content.py` was never ported to `.tex` and scans nothing.** **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof. The proof built at that commit was 193 pages from LuaTeX, against the 153-page LibreOffice-path proof of the same date that the P20 note at the end of this file describes; the two page counts differ because the typesetting changed, not the text. No proof is committed any more: D-068 deleted both tracked PDFs and withdrew the exception that had kept one here, so build one with `finishing/tools/build_tex.sh` and it goes to the scratchpad.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. `AGENTS.md` and the pre-commit hook's pass message, both of which still described the byte-for-byte join, were corrected in `d2f57d8` with the author's explicit approval, as that file requires.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
+Read this first. **Updated 2026-08-28 after P26 opened (D-077 to D-080): four author rulings out of the 2026-08-28 discussion, scoped in `p26-scope.md`. Background now has to earn its place by serving a nameable claim (`style.md` section 2a); chapters 4 and 5 are to be rewritten to carry the obligation section 3.7 places on them, with D-007 lifted for them; "bearer" is defined, entered in the glossary and its change of content marked -- done in this pass; and the fascism reading section 2.1.4 already holds is confirmed, with one paragraph left with the author as prose. The P26 note at the end of this file is the newest.** **Updated 2026-08-25 after D-075: "superintelligence" is swept from the manuscript wherever it named the book's own subject — five prose instances beyond D-073's two — and kept in the three places where it records the 2023 founding prompt, describes AlphaGo Zero, or cites Bostrom's title. **Updated 2026-08-25 after D-076: `AGENTS.md` names the book by its current title, on the author's explicit approval; no rule in it changed.** **Updated 2026-08-25 after D-074: the book has a title page (194 pages), and the README's abstract is rewritten in the book's own voice; both were items D-073 recorded as left for the author.** **Updated 2026-08-25 after D-073: the book is titled *Antifascist Intelligence: Building Machines That Can Refuse*. The old title, *Ethical Superintelligence*, is gone from `book.tex`, the README and section 10.2's heading; the note at the end of this file says what moved and what was deliberately left, including that the book still has no title page, so the title prints nowhere in the proof and lives only in the PDF metadata.** **Updated 2026-08-25 after D-067 (P23): the author ruled on all four open questions — no question is open — and section 8.7.6, the book's longest, is split four ways along its run-in heads into 8.7.6–8.7.9, with old 8.7.7 now 8.7.10. 162 sections. Nothing cut; three transition sentences edited; all 24 inbound references to the pair read and placed by hand. Section 8.7.4's opener rewritten (Q-020 b). The P23 note at the end of this file has the detail, including one tool gap found on the way: `xref_content.py` was never ported to `.tex` and scans nothing.** **Updated 2026-08-25 after D-066: the book's 769 cross-references are `\ref{sec:N}` now, not typed numbers, so a renumber can no longer leave a stale one behind — verified by rendering and confirming all 217 distinct references print identical numbers to the pre-conversion proof. The proof built at that commit was 193 pages from LuaTeX, against the 153-page LibreOffice-path proof of the same date that the P20 note at the end of this file describes; the two page counts differ because the typesetting changed, not the text. No proof is committed any more: D-068 deleted both tracked PDFs and withdrew the exception that had kept one here, so build one with `finishing/tools/build_tex.sh` and it goes to the scratchpad.** **Updated 2026-08-25 after D-065: the manuscript is LaTeX. Sections are `manuscript/sections/chNN/*.tex`, the master is `manuscript/book.tex`, typesetting lives in `manuscript/preamble.tex`, and the build is `finishing/tools/build_tex.sh` (lualatex + biber, TeX Live under `$HOME`). Citations run through biblatex against `finishing/refs.bib`. The dialect — `<<quote>>`, `<<list>>`, `<<box>>`, `<<h>>`, `[[cite:ID]]` — is gone, and its tools are retired to `finishing/tools/dialect-era/`. The conversion was mechanical and verified lossless on 1342 prose lines; no prose was reread or rewritten. `parseable_text_v4.txt` is frozen provenance now, not a build artifact, and `check_frozen.py` guards it with v3b. `check_all.sh` runs six checks and passes. `AGENTS.md` and the pre-commit hook's pass message, both of which still described the byte-for-byte join, were corrected in `d2f57d8` with the author's explicit approval, as that file requires.** **Updated 2026-08-25 after D-062 and its D-063 follow-up: `finishing/refs.bib` now exists, a 280-entry BibTeX bibliography for the 291 citations still live in the manuscript, mapped from `claims.tsv` by a new `bib_key` column. Of the 54 entries D-062 first flagged as only partially confirmed, D-063 resolved 35 outright and left 16 open with documented effort after real attempts to close them. Three are confirmed errors in the manuscript's own text, left uncorrected for the author to weigh: section 8.3.3's box states Social Security at 5.3 percent of GDP and Medicare (net) at 3.1 percent for FY2026, where CBO's own primary tables (read directly via archive.org after cbo.gov 403'd every automated fetch) give 5.2 percent and 3.3 percent — the 5.3 figure traces to D-061 Phase 4.1's own "correction," which appears to have read CBO's FY2027 column by mistake; a citation attributes a 2022 Frontiers in Education study to confirming Proctorio's face-detection failure rate, but the study, read directly, tested a different product, Respondus Monitor; and the list of universities that dropped Proctorio over bias in 2021 wrongly includes Baylor, which dropped it in 2020 for cost reasons. (C0413 looked like a fourth manuscript error but wasn't: the book's prose names no authors for the Estonian tax-fraud pilot at all — the wrong attribution was only ever in the internal QA note.)** **Updated 2026-08-25 after P20 (D-061); the P20 note at the end of this file is the newest, and it reverses the book's answer on the central question of chapter 3.** **Updated 2026-08-24 after P14 (D-050).** **Updated 2026-08-24 after P11 (D-043): the book's chapter structure changed — chapters now run 0 to 11, old section 2.1.5 is chapter 3, and there is a new chapter 7. Section numbers written before that date use the old numbering. The P11 note at the end of this file is the current summary.** Written 2026-08-23, updated same day: chapter 7 landed, the
 author accepted chapters 2-5 and 7 in one batch, then chapters 6, 9, and 10
 were drafted, then chapter 1, then finally the chapter 3 opener (§3) — the
 last section in the entire book with no P3 draft. **Every section in the
@@ -2086,3 +2086,93 @@ name, not the title.
 
 Three occurrences remain in the built 194-page PDF and they are the three kept
 above. 0 undefined references; `check_all.sh` green on all six.
+
+
+## P26 opened: the delta rule, and chapter 3's obligation, 2026-08-28 (D-077 to D-080)
+
+Four rulings, from a recorded discussion between the author and a language model
+that had been given the finished PDF and nothing else. The transcript is
+preserved at `reviews/author-discussion_2026-08-28.txt` for the reason the P20
+revision plan is: the rulings came out of it. `p26-scope.md` is the pass.
+
+**Two of the model's claims about the book did not survive checking**, and
+neither is carried into any item. It described chapter 6 as opening on a "four
+horsemen" frame and named a "democratizing harm" section in it. Chapter 6 opens
+on bias and fairness, the taxonomy at 6.4.1 has six forms, and `democratiz*`
+returns zero hits across the chapter. Chapter 6 is therefore not in this pass.
+What the model got right was checked too and is listed in `p26-scope.md`: the
+targets-per-hour indicator, the twenty-second review, section 5.5.2's own
+"weakest of the three," and chapter 7's structure are all as it described them.
+
+**D-077, background earns its place.** A passage of exposition survives only
+where a nameable claim would be harder to understand or believe without it.
+Written as `style.md` section 2a with the three shapes it condemns and the
+specimens for each. Scoped to chapters 4 and 5 and the section 2.1 cluster --
+that is where it was checked, and the rest of the book being unswept is a limit
+of the pass rather than a finding that the rest is clean. The section 2.1
+finding worth recording here: **sections 2.1 and 2.1.1 are near-duplicates of
+each other**, running the same six ethical theories one paragraph each, 1,049
+words between them, with one claim and one argued passage across the pair.
+
+**D-078, chapters 4 and 5 carry chapter 3's obligation.** Section 3.7 tells the
+reader to read them as the floor's engineering, and Q-022 was closed by writing
+that instruction rather than by revising the chapters that receive it. The
+instruction does not hold: 42 sections and 19,499 words make **5 references into
+chapter 3 out of 100 outbound**, two of them bare chapter pointers, against
+chapter 2's 10 from a chapter not asked to carry it. The cause is datable --
+chapter 3 was section 2.1.5 until P11 promoted it, and neither chapter has been
+revised against it since. D-007 lifted for both chapters.
+
+The triage is less alarming than the count. Eight of chapter 4's thirteen
+sections already carry their weight, including section 4.1.2, which states
+D-077's rule in its own second paragraph and then follows it. The untouched 2023
+survey is concentrated in **section 4.2** -- the four value-alignment sections,
+which is the part that should most obviously carry chapter 3 and is the part
+that carries it least. Chapter 5's exposure is four passages in a chapter that
+is otherwise argued throughout. And the chapters make the obligation's own
+argument in twelve places while saying so in five, so most of the work is naming
+connections that already exist. One of the twelve is where the author's own
+question from the transcript belongs -- whether the floor has to hold always, or
+whether what is wanted is a bearer that can recognize a failure as one --
+and it is section 5.1.1's growth-mindset material, currently unconnected to
+chapter 3.
+
+**D-079, "bearer" -- done in this pass.** The word appears 41 times in chapter 3,
+first as an unannounced noun inside section 3.1's three-branch taxonomy, and the
+glossary had 52 entries including **Floor** and not this one. Section 3.1 now
+defines it and says the definition is provisional; section 3.2 marks the point
+where the word starts naming a party that can be wronged; the glossary has a
+`Bearer` entry, 53 now. The theological overtone the author raised is left
+alone -- he raised it and did not settle it.
+
+**D-080, fascism -- confirmed, and one paragraph proposed.** The ruling is that
+the tendency is permanent and the four-feature signature says where it has taken
+hold. Section 2.1.4 already holds that position and needs no correction. What it
+does not say is that ubiquity is the *expected finding*: it currently treats "a
+tool reporting the four features will have something to report nearly
+everywhere" as a hazard to manage. Under the ruling that is the predicted result,
+and the question a detector is asked becomes how far and whether rising -- which
+is section 8.6.4's slope, connecting two arguments the book makes separately. A
+draft paragraph is in `p26-scope.md`, not written into the book: it touches the
+central definitional section and an author-accepted one.
+
+**One defect found on the way and fixed.** Section 5.4.3's second paragraph read
+"Section 5.4.3 covers the mesosystem and exosystem forces" -- a reference to
+itself. Section 5.4.2 is what covers them. D-050's class: it resolves, so
+`check_xrefs.py` passes it, and a self-reference shares every proper noun with
+its target, so `xref_content.py` could not flag it either. Found by reading.
+Disclosed per-row in `ledger.tsv`, as an author-accepted section.
+
+**Left with the author and not scheduled.** Section 3.5 argues that a bearer
+that cannot leave cannot hold a floor, defines exit as withholding the
+capability, and never asks what the bearer subsists on afterward. Section 8.3.3
+already runs the human version of that argument on section 8.6.4's instrument --
+refusal is "dissent when the dissenter prices it and tribute when the gatekeeper
+does" -- and section 6.1 already treats compute as a metered physical cost. A
+bearer whose operation is paid for by the party it is refusing has a refusal
+priced by the gatekeeper, which is the book's own definition of tribute. That
+needs no forecast and belongs to chapter 3, so it is not in this pass. The wage,
+personhood and copying material from the same part of the transcript does need a
+forecast, and section 3.5 makes a discipline of refusing one.
+
+194 pages, 0 undefined references, `check_all.sh` green on all six.

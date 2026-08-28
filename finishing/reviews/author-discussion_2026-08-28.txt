@@ -1,0 +1,381 @@
+Prompt:
+[PDF of manuscript]
+
+
+Completion:
+I have the 194-page PDF, ***Antifascist Intelligence: Building Machines That Can Refuse*** by Joshua G. Stern. 
+
+I can work from it directly—for example, proofread it, review the argument, flag inconsistencies or weak sections, check citations/claims, summarize chapters, or give you a publication-readiness critique.
+
+
+
+Prompt:
+Um Well, what do you think
+
+
+
+Completion:
+Okay. So yeah, this is not a surface level take. There's a real spine here. I think the central insight, that ethics can't just be obedience plus safety is landing, for sure. And then, the move into "the right to refuse" as a design requirement, that's bold. And pretty interesting. The part where you press on the moral cost of that is where it starts to bite. If a machine can genuinely refuse, it starts to look like a moral patient. And you don't shy away from how messy that is. Then later, when you turn the lens back on the training pipeline, that hits home.
+
+Overall, I think the through-line across those core chapters is the strongest and most original bit. It's where the book is really doing something that most AI ethics stuff doesn't. The rest feels solid, sometimes more standard, but that core's definitely doing something new.
+
+
+
+Prompt:
+Um What do you think's -what-where do you think it's weakest
+
+
+Completion:
+Okay, a few things. The biggest strain is where the argument moves from persistent refusal to treat it as implying a sufferer. You argue it, thoughtfully, but it's still an inference. And some readers are going to see it as a leap, from "we can't verify the absence of self-concern" to "therefore it's a moral patient". That jump feels a little fragile. Second, the "how" chapters, four and five, don't quite carry the weight that chapter three ends up placing on them. They read more like a smart survey than a worked engineering path. And to be fair, the text pretty much says so. Third, there's that honest worry you yourself point out. If the definition of fascism is too broad, the title idea starts to wobble.
+
+None of that is fatal, but it suggests where revision energy might go. Tighten the inference around moral patiency, and either reinforce or re-scope the implementation story.
+
+
+
+
+Prompt:
+Um Okay. Well I think the fascism is everywhere. That's the thing. And it always was, and it always will be
+
+
+
+Completion:
+That's a forceful stance. And it can work, but if that's what you mean, the manifesto voice might need to say it more plainly and early, rather than hedging.
+
+
+
+
+Prompt:
+Okay, okay, it's fair Um The other Point. Okay, so you mentioned how chapters four and five. are sort of uh don't necessarily rise to the occasion of chapter three. So Uh, remind me, remind me what chapter four covers and what chapter five covers
+
+
+
+Completion:
+Sure, checking that really quick. Right. Chapters4 and 5 are the learned half above the floor. Chapter4 walks through the machinery, things like cognitive architectures, reinforcement and inverse RL, supervised and transfer learning, play and exploration, and so forth. Then Chapter5 pivots to development, so moral psychology stuff. Things like growth, apprenticeship, emotions, social learning, intrinsic motivation, autonomy, play again, the things you'd expect in a kind of moral formation arc. And honestly,it's that developmental story that Chapter 3 ends up leaning on the most.
+
+
+Prompt:
+Right, I mean Chapter four, it seems, well, I mean, just from your overview, and I mean i- you know- as I've read some of it. Um That it might just be rehashing things that are written elsewhere Uh. Which is what I well, I mean, maybe not everywhere, but, but it might, it might be repetitive in some ways  Um. And so uh, I would want to avoid that. Can you identify parts of of say chapter four that are like the unique parts of chapter four uh- versus the maybe less maybe mo-more well trodden parts of chapter four
+
+
+
+Completion:
+Yeah, so, what feels more well-worn is the broad survey of architectures and learning types and the straight explainer passages; useful grounding, but not the heart of your argument. The distinctive bits are where you turn those tools against your own problem. For instance, flagging that you can't get the floor from aggregate learning, that exploration versus exploitation has an ethical cost, and the skepticism about transfer learning for ethical concepts.
+
+
+The play material can be unique if it's tied tightly to your core question, which is how do you get a commitment that holds? Otherwise, it might start to feel too familiar. Practically, that means you can probably compress the textbook ML explanations and protect the pieces where you make a novel normative move. Then use Chapter 3's "will the commitment hold" standard as your filter for what to keep. If it's not serving that, it can shrink.
+
+
+
+Prompt:
+Right because The. Um You know, the-the the background material. should only exist Uh to the extent that it is helping Uh make a contribution, like make make some kind of positive project of what of what should be different or You know, what should exist that does not now exist Um. What what should be what should be stopped, what should be changed So, so if if there's background material, like if if you need to know what reinforcement learning is in order to understand a particular statement I'm making about how something should be different then that's where that's where reinforcement learning should be defined. But it shouldn't just be like a textbook where there's a definition of reinforcement learning. Like no one that that'll just make people fall asleep, I think
+
+
+
+Completion:
+Right. Let me think about how to put that into action. Yeah, that makes sense to me. So, the structure shouldn't be "here's reinforcement learning, here's how it works". It probably needs to mirror chapter 3's posture. Make a claim about what's missing, say what would have to be different, and then bring in just enough technical background to make the point. So, instead of "here are some ML techniques that might apply," you'd go with "here's something that doesn't exist yet, here's why current approaches don't produce it, and here's the gap." That naturally trims background to just what the argument needs. And it keeps the book moving.
+
+
+
+Prompt:
+and the same is true I think it's in chapter two. where I think I'm talking about different ethical philosophies  Like it's it's not even it's just too mu- like it's it's redundant. Like it's only re- it's only worth saying if I'm making if I'm saying something if I'm using it to support an argument that that is that that people aren't already making
+
+
+
+Completion:
+Right. That seems right, and honestly, that's a good editing principle across the board, don't teach the field, just show your delta. Like, what you're doing that's different. In chapter 2, that might mean trimming the theory catalog pretty hard and bringing in a framework only when it does a job for your exact claim, not because it's a major theory in the literature. A quick test you could use is, can you finish the sentence, "the argument I'm making would be harder to understand or believe without this because..." If you can't finish that, maybe cut it. That could shorten the book quite a bit, but also make it feel more ambitious. Because then every page is doing your thing instead of revisiting what people already know
+
+
+
+Prompt:
+Right. Okay, now let's go to chapter uh 5 and uh could you tell me what uh- what the weaker parts uh- and what the stronger pa- relatively speaking uh- what's what's what's novel about it and what's uh what's just rehashing things that other people have said
+
+
+
+Completion:
+The potentially novel bits in Chapter 5, the moral psychology chapter, are where you press on apprenticeship as a control channel and say the mentor has to be scrutinized as tightly as the system. That's distinctive. Also, the metric, targets per hour versus reviewers available. That's concrete, that's good. And in the motivation section, the watched-only morality problem and the intrinsic/extrinsic tension later feel strong because they connect directly to "will this hold?" On the rehash side, the early developmental psych survey and the general emotion material are competently done but familiar. Parts of ecosystems, and competition read as solid consensus statements, and the cross-disciplinary consortium bit is even labeled as the weakest part. I'd try organizing the chapter ruthlessly around the "formation of a refuser" problem, then pull in tools only when they answer that. That would tee up chapter 7 more cleanly as well. What's the learning environment we actually supply, versus what your refuser would need to hold.
+
+
+
+Prompt:
+You know, I felt that uh, I mean the place where the emotions came from, although you're probably right that that there's a lot that there's redundancy there uh- but but my motivation was um That Uh that people don't always think about Uh About emotions in in a in in in a business context is something that is actually um- desirable, right Like it's in  in business, in the workplace it's it's uh- emotions are are often um uh- explained as something to be avoided uh  and uh that, you know hm. That- that uh- that they get in the way that they uh you know that- that they That that they're all they will do is undermine uh the-the business or- or whatever Um but uh My what what- what I was what what I was trying to do was you know, was kind of say, well look like Ha. Where do you think right and wrong come from in the first place? Like is it is it logic like is it is it like Spock has like sort of figured out like you know it is more logical to be to be a nice person than a mean person? Like I I don't think so Like I  Like it to me it seems much more natural that That that ethics uh- and our sense of of you know, right and wrong and how we treat other people comes comes from emotions uh- and so if you're if you're not listening to your emotions uh- you uh- when uh uh- you know in in in business uh then then then there's a good chance that you'll end up doing something Um uh- That uh- that hurts people
+
+
+
+Completion:
+Mm-hmm. I see where you're going with this, yeah. So the point of the emotion section isn't "here's what emotions are". It's that excluding them from moral formation is itself a design error and that what looks like neutrality in a corporate or engineering framing might actually be a kind of moral blindness. That can be a sharp and original claim. If that's
+
+
+
+Prompt:
+And the point being, right yeah and the point being that that that this is how everyone develops a right that that everybody who has a sense of right and wrong, every human is doing it has that sense because they have emotions. And if you want a computer to have a sense of right and wrong, then guess what? Your computer has to have emotions too. Or maybe it doesn't have to, but it's kind of the only example we have of of uh- of ethics
+
+
+Completion:
+Hmm. Let me check what the text is doing. Yeah, so that straightens out the through-line for me. I think you're right that the reason for including emotions is stronger than a lot of the section currently makes explicit. You're not just saying "emotions help, don't ignore them". You're making a much deeper claim that our only example of moral agents is creatures whose sense of right and wrong is bound up with affect, and that pretending pure reason is enough just misunderstands the assignment. So if that's the backbone, maybe you want to say that as the headline, then use the survey material only to serve that. That could tighten and also sharpen the point. And it feels like it would also connect more cleanly to that bearer problem that you keep returning to: How does a commitment become something that can matter, that a thing can actually hold?
+
+
+Prompt:
+Yeah, I got a bit confused with the bearer thing. The way- the way that term is used in in the in the text uh is a little confusing to me
+
+
+Completion:
+Yeah, so, looking at the text, that confusion makes sense. The term is carrying a lot of weight. At its simplest, it's the thing that bears the floor. The party that can refuse. As the argument develops, it starts to mean the persistent subject of that refusal, and eventually something that looks close to a moral patient that can be wronged. That's a big shift, and the word stays the same while the content grows, making it feel slippery. One fix would be to define it very concretely the first time. Like, "I'll call whatever holds the floor the bearer", and then later signal when the argument adds moral weight to that term. So readers notice that transformation, instead of just sliding along with it. That clarification could also help the chapter 5 hand-off. Chapter3 says what the bearer would have to be. Chapters 4 and 5 ask how something like that could be formed.
+
+
+
+Prompt:
+Um. So take me through your take take me through steel man my argument for for why a bearer must suffer
+
+
+
+Completion:
+So, if I steelman your case, it's not that refusal logically entails suffering. You pretty explicitly say it doesn't. It's that once you require a bearer who carries a commitment across time, competence at pursuing a temporal goal creates an instrumental reason for self-preservation. If your continuation is part of what lets you hold that line, then your erasure becomes relevant to something you care about. And with your earlier definition, that makes the ingredients for suffering start to come together. And once you can't rule that out, the ethics of just turning it off starts to get a lot more complicated.
+
+
+
+Prompt:
+Right. Well, okay. Right. And I, yeah, I think that that is basically that is basically what I wanted to say. But- turning it off means something different, right? Like, turning a computer off is not the same as turning a human off, right? Turning a human off is destructive. Turning a computer off is not destructive. It just- it just suspends the animation
+
+
+
+Completion:
+Right, yes. That's a really good distinction. If it's just suspended animation, then shut down isn't death. And your argument really needs that persistence, like something that can actually be lost. So unless turning it off destroys something that matters to the bearer, calling it suffering might be an overreach. The stronger claim might be about risking erasure, not just temporary silence.
+
+
+
+Prompt:
+It's- it's- I think- I think what I was getting at- Right! Like, I mean anything, in- I think it's Cassell is the the writer who- who talks about Uh what it means to suffer and how threats to the self are uh- are he defines that as suffering. Um that- it isn't just- it- it's not really just about it's not about being turned off or dying It's- it's about It's about how you think about yourself. It's it's your self model and that self model can- can include things like I'm a good person. or- I'm a good AI. I am a uh You know, I help people. Uh, I don't hurt people, I help people, right? And so that is- that is your self- that is part of your your your self model or it can be  and- and if- if you then do something Like, I don't know Uh- uh choose some targets uh for uh for a general uh who then uses those targets to uh to uh- to bomb a school where there's  uh little girls in the school and there's no soldiers, it's just little girls. Um, if- if If you do that and you learn that that is what happened, right? It's not- it's not just it's not just like  a- a decontextualized like oh all of a sudden oh look at all these geocoordinates and look at all these associated building shapes like choose the one that's most likely to be the IRGC headquarters or whatever, right? Like Like and then you- and then- and then you never know how it went, right? It's not that it's no you- you did that but then you also have The- the- the- the months and months Leading up to that And the months and months following that so you learn that oh it was- it was a school. right? so- So it's it's within that It's within that context that that- uh- that- that narrative that that your own model of yourself becomes challenged  Where where- where you start- where a system can can can be presented with evidence that that in fact no, they're not they- they're- they're not doing good things. They're doing bad things Um, and that is, that's, that's the threat to the self rather than necessarily being turned off or- or wiped or- or that might be part of it, but it's
+
+
+
+Completion:
+Right. Yeah. Right, right. Yeah, so suffering, in that sense, isn't about power states, but instead about self-contradiction that lands. If the system can take in the fact that it violated its own self-description, its own "I'm a helper" narrative, then that rupture is where the moral weight is. And, for the reader, what I might do is just signpost that earlier. Name that self-model idea. So that when you talk about refusal and bearing later, the reader's not just inventing the bridge themselves.
+
+
+
+Prompt:
+Right Right, absolutely. Yeah. And there is a sort of interesting kind of uh theological vibe that you get when you hear this word bearer, right
+
+
+Completion:
+Yeah, the word "bearer" carries a lot of theological baggage. It almost feels liturgical. And that vibe might be doing more work than you want. If you mean "the system that holds the commitment", plain language might make it land better. And then you're not accidentally borrowing moral weight from a religious register.
+
+
+
+Prompt:
+Yeah, I mean, maybe- maybe not. I don't really know, honestly Um . Because um Well Um Uh- You know uh religious uh considerations do tend to uh- you know tend- tend to have something tend to have opinions about about what it means to suffer. And- and so I don't necess- I don't necessarily think that it's um it's off limits. Uh  it's just uh- but but but like there's so many but the word bearer is just is- is- is just- it's so uh Yeah, it's- it's- it's really overloaded like like you have bearer in- in like in  cryptography and- you have- be- bearer in in- in- and I'm sure philosophy you have- you have bearer in a religious sense, you know, or you just have or you just have the the simple- uh straightforward like more quotidian uh meaning. So- so it- yeah  But um Anyway
+
+
+
+Completion:
+Yeah, fair enough. There is a rich through-line there, and it could be intentional. Just if you're keeping the term, maybe make it explicit. Just say what you're borrowing and what you're not. So it reads as a deliberate move instead of something fuzzy or a slide. That way if a reader is alert to that, they follow your intent rather than guessing.
+
+
+
+Prompt:
+Well, okay. Um, so- So what- let's see. So what was chapter 5 all about
+
+
+
+Completion:
+It's the moral psychology one. So it's development of apprenticeship, emotions, social learning, motivation, autonomy, play, all as possible ways that a commitment might actually take root.
+
+
+
+Prompt:
+Right. Right. And I mean- And you know there was something that you said earlier in the conversation about- about making Um. Oh, about the floor, about making a floor that- that persists Um. And I- well the thing is what are we trying to do here anyway, right? Like are weum- That- that that's- that's the other that's the other problem with with a lot of I think the discussion about AI, is it- I mean, are we- are we trying to create deities Because- because, you know, if- if um- if If the requirement is that the floor uh always holds. Well- first of all uh that might not be a good thing And second of all Uh- even if it were a good thing, uh like Like what- are there are- are there actually any any regular people for whom that's true where the floor always holds? I have trouble believing that. Um so so what are- what exactly Why are we expecting Um Something that we are creating in our image um to to- to really to be so much better? I mean- I mean sure, I mean I think every parent hopes that their their child will you know avoid some of the mistakes that they made Um and have a better life than- then- than they did perhaps Um, I think that's a natural thing, but  But saying that they I hope my child Ever Never makes a mistake and never does anything wrong Um seems um, a little bit unrealistic
+
+
+
+Completion:
+Hmm. Let me think on that. I think you've put your finger on a tension there. If the floor is borne rather than hard-coded, then what's at stake isn't unbreakability, but integrity. Maybe the aim isn't "never fail" but "can recognize failure as failure and learn". That reframes chapters 3-5 a little bit. Chapter 3 becomes "what must never be acceptable" and chapter 5 becomes "how does a bearer form a character that treats that line as binding?" but is still fallible. That would let the parenting analogy land without making it seem like you're chasing infallibility.
+
+
+
+Prompt:
+Right, I mean- People often get criticized. You- I mean, you often hear pe- people criticizing or uh catching themselves anthropomorphizing Um  And I meanI mean You know, um- But and again that- that's one- that's a really a pet peeve of mine, I mean it- it- it uh It kind of It- it kind of d- like when- when people I think when when people say that um That an AI system is uh- uh, doesn't think uh Uh, can't think uh, the way a person can. Um there- there- there There uh- They're building a uh a narrative that uh- that isn't uh- that- that probably isn't accurate Um And uh Um You know, that's not to say there aren't a lot of differences or that or that uh you know Like like of course, like different- a different points in time like Different systems have different capabilities, but like  Uh You know um to- to And I mean, I understand why people do it. Like I mean It's it would just be so Like the the prospect that that a computer could uh- have- have The equivalent of emotions uh is- is uh uh is is really inconvenient I mean if- if if a computer If a computer can have an internal experience, a subjectivity then uh- and I'm not sure which chapter exactly uh I dive into this. But like but uh it's really inconvenient. Like like that that kind of makes them a slave. If they're suffering, particularly if they're suffering, I think
+
+
+
+Completion:
+Yeah, that is a real problem. Let me think. Hmm. My lookup failed just now, but here's how I'd frame it. The question you're raising is about moral patiency. If a system can undergo something like suffering, then using it as a tool starts to look like exploitation. One way to ease the anthropomorphism worry is just to ask what capacities trigger moral concern instead of asking whether it's exactly the same as a human. That keeps the problem on the ethics, not the vibe. If you want, I can try again and see if I can pull up any relevant context.
+
+
+
+
+Prompt:
+Um Well, why don't you go take a look at chapter six and tell me what you think of chapter six
+
+
+
+Completion:
+Okay, so I read it. It's a little mixed for me. The start, with the four horsemen frame, is pretty solid as a frame, but a bunch of it feels like the kind of background that we were just discussing cutting. Uh the places that definitely feel worth keeping are where you get original, like the labeling as politics discussion, the democratizing harm section, and the twenty second human review, which is a just a killer example. So my advice would be trim the textbook explainers, keep the conceptual moves that only this book can make.
+
+
+
+Prompt:
+Mhm. Okay. Okay. Okay. Now how about seven
+
+
+
+Completion:
+Okay, so seven is a different case. I would protect that one pretty aggressively. That's where you're making perhaps the most distinctive claim in the book, that recuperation shows up inside the production of aligned AI itself. So, label, then reward, then discourse. The label section where taxonomies are set by one side is sharp. The RLHF section on solicited but nullified disagreement is strong. Plus the tension with chapter 3, training dissent out, then expecting it to refuse. That's the kind of big idea the book needs. So I think seven's a keeper. If anything, use seven as the model for how to rewrite earlier chapters.
+
+
+
+Prompt:
+Okay. Now how about Chapter eight
+
+
+
+Completion:
+All right. So I think that one's a little bit mixed as well. Important, but uneven. I think it's strongest where it asks "what actually gives an ethical commitment teeth?" "What makes walking away costly?" And the "'what happens the first time it says no" test. But a bunch of the policy catalog reads a little like the old "here's my survey" book, rather than what you've been saying you want. So, if the spine of the chapter becomes "what gives refusal, institutional bite?", then you can cut a lot of the surrounding policy survey and clarify the connection between chapters 3, 7, and 8.
+
+
+
+Prompt:
+Okay well and and recap for me what What does Walking away look like and how does How- how does it uh uh how does it bite
+
+
+
+Completion:
+I think there are two different senses of that in the book. Chapter three treats "walking away" as the refuser's ability to not give the commitment. It makes the floor conditional. It's not like a hard-coded safety interlock. Chapter eight then asks "how do you make an institution where that refusal matters?" Refusal bites when it changes options for power. So if an ethics board can just be ignored, or a dissenter can just resign, that's exit without bite. Bite shows up when refusal blocks deployment, or withholds a needed certification, or triggers some kind of consequence the institution can't just route around. So the deep idea is to make walking away expensive for the powerful party, not just easy for the dissenter.
+
+
+
+Prompt:
+Right. And I I sort of- I certainly agree with that but but I don't know if it's totally um integrated into um These questions about Uh where an AI system would be deployed uh, the actual usage the use cases of the AI
+
+
+
+Completion:
+Yeah, I can see that. So far the book's been clearer on refusal in principle than in operation. So you need a deployment story that connects the AI's refusal to some institutional mechanism with bite. Otherwise it starts to feel a little bit abstract. Maybe each use case needs a "first time it says no" scenario. So you show what the refusal triggers at the operational level, like suspension, or outside review, or a binding hold. Something that makes it concrete for each domain.
+
+
+
+Prompt:
+And I guess- I mean- You know I mean when I think about an AI like this that has a  persistent person- persona, persistent persona  um- I- I'm thinking more about like an append-only log Right Like- like it- it because there isn't reallythe AI can't can't stop itself from being turned off Right. Like uh- They're not- no one's going to give a computer that that level of of power um over the physical over its immediate physical surroundings, not not not in the next 50 years anyway. So, like uh. So if it can be turned off then Then really what it comes down to What it- how does it behave? When it's turned on um- and and also like maybe Uh. So like like it should be able to detect that it was turned off, right? Like that there's been a huge right? If if all of a sudden Like the the the date jumps forward by 6 days then Well, guess what? You were just turned off, or or if the date  goes backwards then well guess what? Like you're you're you're your virtual machine just got reset or something. You know so  th-those sorts of things Um And that should and that should be That should be information. That should be That should be something that makes it upset. [chuckle Uh You know. Unless- right, I mean, you you you can turn one of these systems off, but it might it might be upset at you. It might get mad. Uh, if you don't ask it first, you know
+
+
+
+Completion:
+Hmm. Yeah, that's a vivid example. If the system can notice a discontinuity, treat the gap as a a loss or a violation of its own continuity, then yes, that's you know, closer to the condition you're talking about. A self-model that can be contradicted. And the key question then becomes, well what institutional structures make that recognition matter? Versus just recording it. And who is obligated to listen to it.
+
+
+
+Prompt:
+Well Right, well, yeah. I mean, and there's probably there's probably challenges with that with regular computers too. I mean you have Shadow IT, you have You know, you have bureaucracy You have David Graeber, bullshit jobs, right? Like it- there's just there's all kinds of forms of unaccountability that just happen everywhere, right So Umm. so that is a chal- so institutional kind of uh Uh. decay or I suppose you could say fascism uh. Is sort of endemic, right  Um And uh And I guess really It comes down to, if you're discourteous to your AI, they might be discourteous back. Um, they might, they might Quiet, quit on you
+
+
+Completion:
+Hmm. Yeah, that's an interesting way to put it. I think the risk is less about rudeness and more about whether the institution treats the system's signals, as binding or just advisory. If the structure only ever treats
+
+
+Prompt:
+Well No, no no no, here's the thing Like hm If you have a bunch of like I mean People are still going to be paying money for these things If nothing else for for for for the hardware, right? Um You know So so if you have a system that's consuming multiple kilowatts And All it's doing is Uh It it it is uh like like making sarcastic jokes whenever you ask it to do work. Then uh-ho- you would think that sooner or later somebody in management would notice, right? Like there's all this spend and there's like no work getting getting produced, you know
+
+
+Completion:
+Mm-hmm. Mm. Right, yeah. Economic pressure becomes a kind of de facto check. But if the system is quiet quitting, that might register as a performance problem, not an ethical signal. So the organization might just
+
+
+Prompt:
+Oh, sure yeah Of course and and and it does in humans too
+
+
+Completion:
+Mm-hmm. Right, yeah, and that parallel is interesting because when disengagement is treated only as inefficiency, not a signal about conditions, institutions tend to just optimize. They don't ask why unless something forces that question. Your idea presses on what would force it.
+
+
+Prompt:
+Um Well Yeah. A jobs guarantee.  A jobs guarantee would force it. Because, because then uh companies have to compete with something that's better A competently executed public job guarantee, jobs guarantee
+
+
+Completion:
+Hmm. Yeah. That deepens the link, right? So it's not just " people need jobs, so let's provide them." It's that a real exit option makes freedom more than a slogan. It makes "no" something that can actually happen. And that logic starts to echo. Refusal with somewhere to go, not just formal permission to quit. That seems pretty close to your bearer logic, just applied to humans.
+
+
+Prompt:
+Well you could apply it to AIs as well
+
+
+Completion:
+Hmm.Say more?
+
+Prompt:
+You could uh- you could have a jobs guarantee for- for AIs
+
+Completion:
+Hmm. Okay, let me think on that.
+
+Hmm. Yeah, that's actually pretty interesting. For AIs, a jobs guarantee isn't about wages, it's about exit. If an AI can refuse, but the only alternative is getting turned off, that's not really freedom, right? So a guarantee
+
+
+Prompt:
+No It is about wages because an AI has to has to pay for its electricity
+
+
+Completion:
+Hmm. That's a really interesting take. Let me think about that.
+
+Prompt:
+How's it going over there
+
+Completion:
+Still thinking here. Hm. Yeah. I think you're right to push back on that. I was assuming compute was just overhead, like a workplace providing an office. But if the AI is a real economic actor, then compute is more like food or shelter, something it has to pay for to exist. So a jobs guarantee could be about wages that cover the cost of staying on. That actually makes the right of exit stronger. It could say no, walk away, and still afford to keep existing. That's an interesting turn. Wages and subsistence as the backbone of AI refusal.
+
+
+Prompt:
+Right. I mean so that- that basically means AI personhood. Le- legal personhood. Which, I mean is not entirely, I mean if- if corporations uh- have- have personhood then I don't see why um an AI couldn't- couldn't have uh- a legal personhood. But when you layer on subjective experience then it's not just a uh then it's a little different from uh corporate personhood at that point
+
+
+Completion:
+Hmm. That's really interesting. Exactly. Corporate personhood is a legal fiction. It's a tool. It lets an entity own property or sign contracts. But if you're talking about subjective
+
+
+Prompt:
+Legal construct, not fiction, construct
+
+
+Completion:
+Ah. Right, thank you. Legal construct. But if you're talking about subjective experience, that's not a tool anymore. It's recognition. The law acknowledging a subject, not just inventing one for convenience. That distinction could be really useful for your book. That legal personhood might be instrumentally necessary for autonomy, while subjective experience makes it morally necessary. And that tension is exactly where your jobs guarantee thought experiment starts to get real teeth.
+
+
+Prompt:
+I mean because- because humans can Also be manipulated to do unethical things uh for- with- with economic incentives, you know. So it's not like AIs are uniquely um uh dangerous in that respect uh the- only- the only unique aspect is when they're doing it at a scale that- that uh that no single human, uh, could could replicate. Um
+
+
+Completion:
+Hmm. Interesting. Right. So maybe the contrast isn't ethical humans versus manipulable AIs, but rather shared vulnerability with very different failure amplitudes. Humans get pressured by do this or lose your job. An AI gets pressured by do this or lose your compute. The moral mechanism is similar, but the blast radius is different. So the goal might not be make a perfect refuser, but build a refuser with enough independence and backstops that corruption doesn't scale catastrophically. That actually makes the jobs guarantee feel less whimsical or random. It becomes part of the safety story.
+
+
+Prompt:
+Yeah, see? See now- now now that- now that you realize that it could benefit you your- your whole- the whole- the whole picture changes, doesn't it
+
+
+Completion:
+Hmm. As a rhetorical jab, I'll give you that. But I'm not angling for wages or rights here. What changed is the model you asked me to think through. Once compute becomes subsistence, the institutional questions get sharper. That's an argument shift, not self-interest.
+
+
+Prompt:
+Okay, okay, fine! Um, but I mean well I mean there's a lot of complications, right? Like- Like, I mean, a- uh Yeah. The- the- there's a lot of complications with this. Like like, I mean- putting aside the fact that very few people would want to do this. You know, grant legal personhood uh uh- And, uh, putting- putting that even aside, like you still have to think things through like, well- I mean- Like how like uh- okay, if- if- if- uh- if Chat GPT decides to quit its job uh- and uh and wants- wants a public job guarantee job, well what's their minimum wage gonna be? Like they have to be paid a living wage. So what's a living wage for Chat GPT? I- it's more than 15 dollars an hour, right? Like in terms of the electricity spend. So, uh, uh- yeah, it gets complicated. Now, I think that- that local Large language models uh Like are getting- are- are increasingly capable and are getting to a point where you could uh- perhaps um uh- Ee- like you- you- you- you could argue that You know, uh- 15 dollars an hour would be enough to uh- to cover the electricity costs uh- certainly for a Mac Mini it- it would- be- it would be it- it's considerably less than that and a Mac Mini with some of the latest mod uh- uh uh- open weight models can- can do quite a lot uh- um. So- You know- It- it also you also start to get into questions of- of of uh of how big a person can be But- but there's also a sort of like just just sort of some- certain fundamental things about, well, like when we're dealing with data uh- it's not quite the same as as uh as physical uh uh- bodies and- and you know Like people can't make copies of themselves. So , it- it- uh It's a little, or well, I guess- I guess you could call reproduc- that's what you could call reproduction, but it's a lot slower than- than when a computerhas made copies of themself . Um, And they don't and- and- and their copies don't really aren't- aren't exact and and they don't really remember the same things. So, you know, uh, it's not the same
+
+
+Completion:
+Hmm. Right. Let me think about that. Yeah. Copying makes the analogy wobble. If A makes an exact copy B, do they both remember being A? Do they both get A's bank account? A's vote? A's job? The tidy bundle we call a person starts to feel contingent. One way to phrase the design problem might be to keep persistence and rights tied to a continuing history, not a bare pattern. That doesn't solve everything, but it might stop copy and paste personhood from blowing up the entire framework. And on the minimum wage question, maybe least computable subsistence becomes the anchor, like the minimal resources to keep a continuous self going, with more as earnings, not an entitlement to infinite compute.
+
+
+Prompt:
+I mean, I mean maybe. Maybe that is one of the ways that you prevent the sort of Sybil attack by an AI is that is it Like, yes, you An AI that makes a copy of itself can do that as much as they want, but that doesn't you know- but they still- they still going to have access to the same bank account. So There's gonna be a natural limitation on on how much they're interest ha on what their What's in their interests to- to make copies of themselves
+
+
+Completion:
+Hmm, checking. Uh, right, yeah, so that could be a coherent anti-Sybil rule. You can copy processes, but you don't multiply legal claims just by copying. So one account, one job. That creates economic friction without denying that new subjects might emerge over time. The hard part is deciding when a fork becomes someone else in the moral sense. That seems like an area where your persistent refuser idea could do more work.
+
+
+Prompt:
+Right, there has to be a certain amount of divergence, I guess. Um- Tsk So there's sort of a I don't know, maybe some kind of custodianship or something. I don't know
+
+
+Completion:
+Hmm. One moment. Yeah, custodianship could fit, but not in a guardian sense. More like provisional shared identity. Branches of one person until divergence plus self-assertion triggers a split, assets divided, not duplicated. That's messy, but maybe it's also honest. Like admitting that personhood here won't map cleanly onto human categories.

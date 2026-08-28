@@ -61,6 +61,48 @@ Keep and strengthen: the concrete example. Where a section already has one
 ("Consider an AI system created for customer service…"), it is the best thing in
 the section and usually deserves to come first rather than fourth.
 
+## 2a. Background earns its place only by serving a claim (D-077)
+
+The book does not teach its fields. A passage of background survives only where
+some claim the book is making would be harder to understand or harder to believe
+without it, and the claim has to be nameable.
+
+The test, in the author's own words: if you need to know what reinforcement
+learning is in order to understand a particular statement I am making about how
+something should be different, that is where reinforcement learning gets defined.
+It does not get defined because it is a major topic.
+
+So, for any passage of exposition, finish this sentence:
+
+> The argument I am making would be harder to understand or believe without this,
+> because …
+
+A passage that cannot finish it is cut. Not compressed, not moved to a footnote --
+cut, because a definition serving no claim is a definition the book does not need
+at any length.
+
+Three shapes this rule condemns, all present in the 2023 draft:
+
+- **The catalogue.** A numbered run of theories, techniques, or frameworks, one
+  paragraph each, with an example and a "challenge" attached. Section 2.1.1's six
+  ethical theories and section 5.7.1's four developmental frameworks are the
+  specimens. The catalogue's real claim is almost always one item long.
+- **The definition with a speculative tail.** "X trains a system on Y. Applied to
+  ethics, the same method could …" followed by applications nobody has built.
+  Section 4.2.3 is the specimen.
+- **The capability list.** A bulleted set of things a well-designed system would
+  do, each generically stated. Section 5.6.3's safeguards list is the specimen.
+
+What the rule protects, and it is most of what the good sections do: background
+delivered at the point of use, in the amount the claim needs, with the design
+consequence stated. Section 4.1.2 states the principle in its own second
+paragraph and then follows it -- "What follows are the findings that change a
+design decision, and in each case the decision is stated."
+
+This rule lifts D-007 where it bites. A section that is only a definition has
+nothing to revise into; the fates are cut and compress, and where the claim that
+survives needs prose that does not yet exist, write it.
+
 ## 3. Word-level lint
 
 Highest-frequency tics, with counts. None is forbidden; each is a flag that the
