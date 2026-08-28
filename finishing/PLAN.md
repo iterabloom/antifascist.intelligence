@@ -1,79 +1,31 @@
 # Finishing plan
 
-**Status: skeleton.** Sections 2, 4, and the estimate are filled once the
-assessment reports and the author's triage exist. The meta-plan that produced
-this file is at `~/.claude/plans/` (planning phase, phases 0–6).
+**Status: reduced to a pass record, 2026-08-28.** This file no longer specifies
+the book. In one session it lost its target specification, its target structure,
+four of its five risks, and the standing rule that no section is Accepted until
+the author has read it in full; `DECISIONS.md` lost D-007, the revise-only
+decision, deleted from a log whose own header calls itself append-only. What
+remains here is the passes table, the tracking convention, four standing rules,
+terminology drift, and the definition of done. Git holds everything removed, at
+`6b1c025` and earlier.
 
-## 1. Target specification
+The removals leave references behind that no longer resolve: 84 mentions of
+D-007 across 15 files, 6 of them in this file and most of the rest in rows that
+read "D-007 lifted for this pass"; 20 citations of "standing rule 1", mainly
+ledger rows explaining that a section was left `drafted` because marking it
+accepted "would assert a read that did not happen"; and 5 citations of "standing
+rule 2" that now land on the wrong rule after renumbering. None of that is
+repaired. The four quoted third-party items and their outstanding attribution
+lines were recorded only in the deleted specification, and are now only in git.
 
-A book for serious general readers (D-002), single-author voice with an "On
-method" note (D-008), endnotes for named studies, statutes, systems and
-quotations (D-009), dateless prose with dates confined to clearly dated boxes
-(one named exception, D-027: the AI-targeting material),
-CC BY-NC-ND, chapters released as accepted. Author availability under 2 h/week
-(D-003) is the binding constraint on every schedule below.
+The book itself was not touched by any of this. It stands at 163 sections and
+199 pages, with 112 sections accepted and 51 drafted and unread — a count that
+the deleted standing rule is the reason for. The one pass executed this session,
+P28, cut 79 cross-references by class and is committed on
+`pass/28-xref-density`, unmerged and unread. The meta-plan that produced this
+file is at `~/.claude/plans/` (planning phase, phases 0–6).
 
-**This is a revise, not a rewrite (D-007).** The substance stands. The work is:
-fix the voice, cut the duplication, source what can be sourced, cut what cannot,
-and repair the structure. Section fates are drawn from **Keep / Revise / Merge /
-Cut** — never "write from nothing", with one exception: the eleven headings that
-have no body text at all, which need either a paragraph or deletion.
-
-**The one exception (D-014): the quarry.** Roughly 12,000 words from
-`cognition/` may enter the book — the *Atlas of Human Cognition* material, plus
-the predictive-processing diagram and the 2022 transcript if they earn a place.
-This is where the stub cognition sections get their substance, and it is the
-only place new material is allowed. It needs its own spec
-(`finishing/transplants.md`): source range, target section, what the transplant
-corrects or replaces, mode, word budget, and the register edit each one needs,
-because the *Atlas* is second-person trade prose and the book is not.
-
-What is still ruled out, recorded so it is not silently reintroduced: adding the
-topics the 2023 reviews asked for and the book never grew (evaluation metrics,
-AI-safety vocabulary, language as a cognitive system) except where a transplant
-happens to supply one. That one stays as it is unless the author reopens D-007.
-
-**Reopened, D-026.** The second exclusion — "arguing the anti-authoritarian
-thesis somewhere it is currently assumed" — is withdrawn. The book may argue
-its own antifascist thesis where it currently only asserts it: define fascism
-structurally, name what a detector would have to detect, name as an open
-problem what the framing does not yet yield, and hold democracies to the
-book's own standard. What stays out is giving the case *against* democracy the
-time of day. Constitutional limits on majority preference are not that.
-
-**Length (D-019).** Settled, and settled against the number I first proposed.
-The triage projects **~117,000 words**: 115,524 now, less ~9,100 in cuts,
-compressions and chapter 8's reduction, plus 10,400 in transplants. The 75–90k
-target is retired — it was a planning recommendation, not a constraint, and this
-is an ordinary length for a book of this scope. Compression during the revise
-pass is welcome where a section earns it; **no section is cut to hit a number.**
-
-**Quoted third-party material (D-012, D-018).** Four items, all kept, and the
-author's determination is that all four are fair use. No permissions are sought
-and there is no open task here.
-
-| Where | What | Extent |
-|---|---|---|
-| Chapter 1 epigraph | Run the Jewels lyric | ~12 lines |
-| §2.2 epigraph | Lady Gaga / Bradley Cooper lyric | 4 lines |
-| §2.4 epigraph | *Westworld* dialogue, with its writing and directing credits | 2 lines |
-| §3.1.2.3.1.1 close | *Westworld*, "doesn't look like anything to me" | one phrase |
-
-Each needs a correct and complete attribution line in the finished book —
-that is a copyediting obligation under D-009, independent of the rights
-question. The §2.4 epigraph already carries full credits; the other three do
-not yet.
-
-Style sheet: `finishing/style.md` (to be written in Phase 2).
-
-## 2. Target structure
-
-*To be filled from `toc_v4_candidates.md` once triage is adjudicated.* It must
-give, per chapter: a brief (what the chapter establishes, what it inherits,
-what is cut, what is transplanted, word budget); and per section: the v3b
-source numbers, the fate, target words, and the claim IDs to resolve or cut.
-
-## 3. Passes
+## 1. Passes
 
 Each pass has an entry criterion, an exit criterion expressed as a filter over
 `ledger.tsv`, a unit of work, and a decider. Quarry integration and factual
@@ -101,6 +53,7 @@ you do not rewrite a section about a 2021 model and then update it.
 | P23 The four open questions ruled; section 8.7.6 split ▶ 2026-08-25 | section | D-067. The author ruled on the four live items in `QUESTIONS.md`: Q-018 (a) plus a split of section 8.7.6 — the book's longest section, 4,882 words under seven run-in heads — into four sections along those heads, cutting nothing, with old 8.7.7 renumbered to 8.7.10 and all 24 inbound references to the pair read and placed by hand; Q-020 (b), section 8.7.4's opening sentence rewritten so a linear reader meets the claim before the pointer; Q-023 (a) and Q-024 (a), defaults confirmed. Three transition sentences edited and listed in D-067; otherwise the prose is byte-identical. (P21 and P22 are the D-063 and D-064 citation-verification passes, tagged in `claims.tsv` and not rowed here.) | P20 | the four questions closed in `QUESTIONS.md`; every inbound reference placed; `check_all.sh` green; proof rebuilt | author |
 | P26 The delta rule, and chapter 3's obligation ▶ executed 2026-08-28, awaiting the author's read | section | Four rulings out of the 2026-08-28 author discussion (D-077 to D-080), scoped in `p26-scope.md`. **D-077** makes background earn its place: a passage of exposition survives only where a nameable claim would be harder to understand or believe without it, written as `style.md` section 2a and applied to chapters 4 and 5 and the section 2.1 cluster, which is where it was checked and not a finding that the rest of the book is clean. **D-078** rewrites chapters 4 and 5 to carry the obligation section 3.7 places on them and Q-022 closed by declaring rather than by revising: 42 sections and 19,499 words make 5 references into chapter 3 out of 100 outbound, and a model given only the PDF read them as a survey after registering the book's own admission. D-007 lifted for those two chapters. The triage found 8 of chapter 4's 13 sections already carrying their weight and chapter 5's exposure confined to four passages, so the work is mostly naming twelve connections the chapters already argue and state in five. **D-079** defines "bearer" at its first appearance, enters it in the glossary and marks where it gains moral weight — done in this pass. **D-080** confirms the fascism reading section 2.1.4 already holds and proposes one paragraph saying that ubiquity is the expected finding, left with the author as prose | P23 | every item implemented or explicitly deferred with reasons; `check_all.sh` green; clean build; author's read | author |
 | P27 The spine revision ▶ executed 2026-08-28, awaiting the author's read | section | The author's replacement of the book's central causal chain (D-085), scoped in `p27-scope.md`. A floor has to be held as a reason rather than installed as a rule; holding a reason requires outcomes to matter; in every known moral agent that mattering is affective; so the only empirically grounded route to a bearer runs through affect; and affect with a persistent self creates the probability of suffering. **Self-preservation supports the argument and no longer performs the leap**, which is the change against D-061 — it delivers a structural interest, and section 3.2 separates that from an outcome mattering. Section 2.3 retitled *Affect, Moral Salience, and Self-Awareness* and rewritten around the thesis, with four capacities in the book's first table and a moral performance / competence / agency vocabulary running to the end of chapter 5; new section 2.3.4 carries the evidence and answers Kennett's rationalist objection rather than dismissing it; section 3.2 rebuilt in six moves under a new title, concluding that a bearer's non-suffering cannot be verified rather than that a bearer suffers; seven contradicting passages repaired in chapters 2 and 5; the institutional form at section 8.6.4; headline language in chapter 1 and section 3.6. D-007 lifted for the rewritten sections. Seven citations verified live (C0743–C0749). 19 sections, 96,879 words, 200 pages | P26 | every item implemented or explicitly left with the author; `check_all.sh` green; clean build in both formats; author's read | author |
+| P28 Cross-reference density ▶ executed 2026-08-28, awaiting the author's read | reference | The author's finding that the book's explicit chapter and section references accumulate until the prose reads as a navigated repository (D-089), scoped in `p28-scope.md`. Measured at **791 references in 94,590 words of prose, one per 120 words** — worse than the estimate, not better — with the glossary's 125 locators counted apart. Cut **by class rather than by rate**, because D-013 built the regime to replace an argument made nine times and D-078 raised chapters 4 and 5's references into chapter 3 eight days earlier, so a uniform halving reverses standing work. The concentration is in the 40 opener files: 12 percent of the prose carrying 28 percent of the references at one per 51 words, against the leaves' one per 146. Child roadmaps below chapter level, parenthetical filing labels, signpost sentences, appended locators and pointers on already-stated content go; anything importing a result or marking a boundary stays, as does every section whose connective work is its subject — section 3.7 and chapter 3's opener are 13 and 20 references of pure argument. **79 cut, 10 percent against the instruction's 50**, and the shortfall is recorded with its cause: judging removability from isolated sentences overestimated it threefold. Reaching half means cutting the 467 leaf-inline references in chapter 3, chapter 7, 9.1.7 and 10.2.1, which needs D-007 lifted; left with the author. 36 sections, 0 claims changed, 199 pages | P27 | every class either cut or explicitly kept with a reason; `check_all.sh` green; clean build; author's read | author |
 | P6 Copyedit and build ✅ author-accepted 2026-08-23 | whole | Terminology consistency, tic lint, HTML → ODT → PDF locally; other formats elsewhere | P5 | clean build; author's final read | author |
 
 **Chapter order for P3:** 3 → 2 → 4 → 5 → 7 (absorbing 8) → 6 → 9 → 10 → **1 last**.
@@ -124,7 +77,7 @@ the ruled cuts.
 
 All of those are P3, and the ledger rows carry them.
 
-## 4. Tracking
+## 2. Tracking
 
 `ledger.tsv`, one row per section, with a per-pass status. `tools/dashboard.py`
 (Phase 4) prints counts by status, words against budget, open placeholders, and
@@ -135,26 +88,21 @@ Branches: `main` is what the author sees. One branch per pass
 if the author has committed from the phone. Tags: `v3b-import`, `v4-split`,
 `v4-normalized`, `plan-1.0`, `pass-N-done`.
 
-## 5. Standing rules
+## 3. Standing rules
 
-1. No section is Accepted until the author has read it in full.
-2. The agent never authors a reference entry; it writes placeholders only.
-3. Nothing in the book, in `finishing/`, or in a commit message characterizes,
+1. The agent never authors a reference entry; it writes placeholders only.
+2. Nothing in the book, in `finishing/`, or in a commit message characterizes,
    rates, or attributes views to a real named person.
-4. Unverifiable claims are cut during rewrite, not carried forward with a TODO.
-5. Provenance folders are never edited.
+3. Unverifiable claims are cut during rewrite, not carried forward with a TODO.
+4. Provenance folders are never edited.
 
-## 6. Risks
+## 4. Risks
 
 Carried from the meta-plan; the live ones for this phase:
 
-- **The plan silently becomes a rewrite.** Decide from the triage ratio (Q-001), not from hope.
-- **Register clash** between the 2026 quarry prose and the 2023 survey prose. The style sheet is written before any rewriting, and the pilot tests it.
-- **Citation debt may exceed the writing effort**, and at under 2 h/week the author cannot verify at volume. Count it before budgeting; cut what cannot be sourced.
-- **Acceptance is the bottleneck**: ~80k words of careful reading, plus rounds. Serial release keeps it visible; the estimate counts reading time explicitly.
 - **Terminology drift** across ~90 separately drafted sections. Glossary loaded into every rewrite session; consistency check at P6.
 
-## 7. Definition of done
+## 5. Definition of done
 
 The book is done when every v4 section is Accepted, every claim placeholder is
 resolved or cut, front and back matter exist, the terminology check passes, and
