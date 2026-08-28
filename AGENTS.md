@@ -45,7 +45,9 @@
   `finishing/tools/gen_book.py`, and `manuscript/table-of-contents.txt`, from
   the section headings, by `finishing/tools/headings.py --write-toc`.
   `finishing/tools/check_all.sh` checks that both are current, along with the
-  rest of the invariant suite. Build with `finishing/tools/build_tex.sh`.
+  rest of the invariant suite. Build the PDF with
+  `finishing/tools/build_tex.sh`, the HTML page with `build_html.sh`, or both
+  into `finishing/reports/` with `build_proof.sh`.
   **Two dialect files are frozen and must never change:**
   `manuscript/parseable_text_v3b_2024-07-07.txt`, the 2024 text as imported,
   and `manuscript/parseable_text_v4.txt`, the last state of the manuscript
@@ -72,6 +74,15 @@
 - `original-layout-and-mtimes.txt` records the archive as it was originally
   uploaded. It is a historical record and not an index of the repository's
   current contents. Do not regenerate it.
+
+## Author's Shorthand
+- **"Make the proofs."** This phrase — or "do the proofs," or a near variant —
+  names a fixed sequence and not just a build. In order: commit whatever is in
+  the tree, to `main`, and push; run `finishing/tools/build_proof.sh`; remove
+  the previous dated pair if the date has rolled over; point the README's two
+  links at the new files; commit and push again. **Two commits**, so the work is
+  legible in the first diff and the second carries only generated output.
+  `finishing/pipeline.md` has the steps in full and the reason for each.
 
 ## No Weasel Words
 When reporting status or completeness:

@@ -1,9 +1,14 @@
-# Amendment to AGENTS.md — "make the proofs", and the build line
+# Amendment to AGENTS.md — "make the proofs", and the build line — APPLIED 2026-08-28
 
-**Status: proposed, not applied.** `AGENTS.md` requires the author's explicit
-approval, and "I think this should be explained in AGENTS.md, what do you think?"
-is a proposal put to me, not the yes the file asks for. This is the exact text,
-ready to apply on a word.
+**Status: approved by the author and applied.** Kept as the record of what
+changed and why; the live rule is in `AGENTS.md`. The author's approval was the
+word "go," given after the proposal below was put to him in full.
+
+Applied verbatim, both changes, and nothing else: the diff is an eight-line
+section and one rewritten sentence. `git log -- AGENTS.md` carries the commit.
+
+The three open items at the foot of this file were **not** decided by that
+approval and are still open.
 
 ## Why AGENTS.md and not somewhere else
 
@@ -54,7 +59,7 @@ Nothing about any boundary. No rule is added, removed, or loosened: the
 named-persons prohibitions, the secrets and network boundaries, the frozen
 files, the read-only provenance list, the filename conventions, the weasel-word
 lists, and the approval requirement for this file are all untouched. The diff is
-a new seven-line section and one sentence.
+an eight-line section and one sentence.
 
 ## Three things the phrase leaves open, which the wording above does not decide
 
