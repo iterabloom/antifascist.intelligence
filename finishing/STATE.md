@@ -2231,3 +2231,8 @@ Chapter 5's title-case run-in heads are sentence-shaped and carry a claim now, o
 section 4.1.2's model. The one surviving "hold a floor" in chapter 4 is gone.
 
 192 pages, 0 undefined references, `check_all.sh` green on all six.
+
+The proof is rebuilt at this commit: `finishing/reports/whole-book-proof_2026-08-28.pdf`,
+192 pages, LuaTeX, 0 undefined references. The 2026-08-25 proof it replaces is
+deleted, per `pipeline.md`: a stale proof is worse than none. Page 45, chapter
+4's opener, was read as rendered rather than assumed.
