@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	On Method	526d0019e7652d01a4dcf6b27862e2851923fb8c2c80811e3429ddf230ab182f
-manuscript/sections/ch01/01.tex	1	Introduction	d4b54ba7ae421d38169c1e958a299c2b5343d5d1c80e0db27c6264690f701009
+manuscript/sections/ch01/01.tex	1	Introduction	58bf40618188224354686d9a03582532e52fba395bcf329954714be3c8ecc631
 manuscript/sections/ch01/01_01.tex	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	082fc214372eb4df9465eb90c5d915b6fbcdbda133ad9de90786989c8e335f03
 manuscript/sections/ch01/01_02.tex	1.2	Aims and Objectives	40f8f0d4f1a2ea96cdffe8d259b7df2f2c60cf508f5802a8ee23f804e9eae9e1
 manuscript/sections/ch01/01_03.tex	1.3	Mindset and Motivation in AI Behavior	cb1d53f80615ab2f7e852c5c35bf39c42653b01822fd3b14ab0061d23eb5f43f
@@ -12,7 +12,7 @@ manuscript/sections/ch02/02_01_03.tex	2.1.3	Navigating AI Values, Priorities, an
 manuscript/sections/ch02/02_01_04.tex	2.1.4	Antifascist Ethics for AI Alignment	0eb4e78e19ca3a4ad220aae68446016bd2cfa3c7f6a8aaba23d9224c59f664d2
 manuscript/sections/ch02/02_02.tex	2.2	Empathy, Social Intelligence, and Theory of Mind	692a5584cb258d032d97de283562f0399077d29aebc60ce412c6e3a6d54c55ed
 manuscript/sections/ch02/02_02_01.tex	2.2.1	The Role of Empathy and Compassion in Human Social Behavior	09ba5412c477190412883aee08f639349e52fa5f91f5d59668aa809f4508b8ab
-manuscript/sections/ch02/02_02_02.tex	2.2.2	Theory of Mind and Perspective-Taking in AI Systems	4ee1529cf05fad196bb89a096a8e245cff55f78c7d1451717769882d9b3c0eae
+manuscript/sections/ch02/02_02_02.tex	2.2.2	Theory of Mind and Perspective-Taking in AI Systems	7d2e1e40c1e884e82a276952f71373defc1c6b22f4e27b8c5613614800b974f6
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Socially-Aware AI: Opportunities and Challenges	335d27c58e438ae54d586cbef136ddd4ce9ed850e95133d60d3b00fab2921d6e
 manuscript/sections/ch02/02_03.tex	2.3	Affect, Moral Salience, and Self-Awareness	28c93da45871ca1a2c73d678f90b3655248a58e009a9268be68b198364d5365d
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Components of Emotional Intelligence	0ba93081010b312ca7e90eb581e5f0428514af271fa81673df73a9da5848fe6a
