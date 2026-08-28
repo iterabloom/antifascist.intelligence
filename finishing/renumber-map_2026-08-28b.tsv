@@ -1,0 +1,12 @@
+old	new	title	note
+9.2.2	9.1	Interpretability, Self-Reports, and Resistance to Tampering	promoted to first; the book's own ranking (§9.2 calls interpretability the most load-bearing unsolved problem in it)
+9.1.7	9.2	What Is Owed to a Bearer, and Who Could Check	second; chapter 3's direct debt
+9.1.6	9.3	What an Antifascist Detector Would Actually Have to Detect	third; the capability chapters 4-6 assume
+9.1.2	9.4	When an Ethics-Embedding Method Stops Generalizing	fourth
+9.1.3	9.5	Value Learning as Unfinished Technical Research	fifth
+9.1.5	9.6	Can a Multi-Agent AI System Resist Being Captured?	sixth
+9.1.4	9.7	Open Questions in Empathy and Theory-of-Mind Research	seventh
+9.2.1	9.8	Is Emotion Legible From a Face at All?	eighth
+9.1.1	9.9	The Responsibility Gap, Which No Experiment Closes	last, and retitled; not a research problem but the condition the rest run on. Was Moral Responsibility Without a Responsible Party
+9.1	—	Ethics and Social Reasoning in AI	deleted; a preview of a topic order that no longer exists
+9.2	—	Emotional Intelligence, Affective Computing, and Altruism	deleted; same

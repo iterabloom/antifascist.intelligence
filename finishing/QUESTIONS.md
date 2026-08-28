@@ -1,16 +1,17 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-091. Five questions are open**, raised by
-P28, P29 and P30, none of them blocking and each with a default that has already
+**Current as of 2026-08-28, after D-092. Six questions are open**, raised by
+P28 through P31, none of them blocking and each with a default that has already
 applied: how much further to cut the cross-references, how much further to cut
 chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
-fold the subsections P29 left thin, and whether to prune `refs.bib`. For
-orientation read `finishing/STATE.md`.
+fold the subsections P29 left thin, whether to prune `refs.bib`, and whether
+chapter 9's gap list should get its nearest-work notes back. For orientation read
+`finishing/STATE.md`.
 
-The other standing item is not a question. **84 of the book's 163 sections are
+The other standing item is not a question. **92 of the book's 161 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
-cut, and chapter 3, which P27 rewrote. `ledger.tsv` carries the per-section
-reason.
+cut, chapter 3, which P27 rewrote, and chapter 9 entire, which P31 reordered.
+`ledger.tsv` carries the per-section reason.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
 new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
@@ -228,6 +229,33 @@ with the book.
   git.
 
 *Default applies now.*
+
+---
+
+### Q-031 — Chapter 9's gap list lost its nearest-work notes to the word cap
+
+D-092 required the conversion to cost nothing in words, so something had to give.
+The chapter opener's list of gaps used to carry, for each entry, a description of
+the problem and a note naming the nearest existing work and where it stops — about
+300 words. The list now carries the ranking and a clause, and the descriptions and
+nearest-work notes live in the section that owns each gap, where they were already
+stated.
+
+What is lost is the one page a reader could stand on to see all eight gaps and
+their nearest work at once, which was a real convenience and the thing the old
+opener did best. What is gained is that the opener stops restating its own chapter,
+which is a large part of what made it read as a catalogue.
+
+- **(a) Default — leave it.** Nothing is gone from the book; it is one place
+  instead of two, and the place is the section that owns the material.
+- (b) Restore the notes to the opener, at roughly 300 words, and let the chapter
+  go over its previous count. The instruction's constraint was met once and
+  arguably does not bind a later decision by the author.
+- (c) Restore them and take the 300 words out of the sections, which means cutting
+  argument rather than duplication, since the duplication is what already went.
+
+*Default applies now. `p31-scope.md` has the full accounting of what paid for the
+program.*
 
 ---
 

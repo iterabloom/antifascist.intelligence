@@ -141,17 +141,15 @@ Chapter 8: Collaboration, Policy, and Governance
 8.7.9. Equity and the Digital Divide
 8.7.10. What the Democratic Dividend Leaves Out
 Chapter 9: Necessary Areas of Research
-9.1. Ethics and Social Reasoning in AI
-9.1.1. Moral Responsibility Without a Responsible Party
-9.1.2. When an Ethics-Embedding Method Stops Generalizing
-9.1.3. Value Learning as Unfinished Technical Research
-9.1.4. Open Questions in Empathy and Theory-of-Mind Research
-9.1.5. Can a Multi-Agent AI System Resist Being Captured?
-9.1.6. What an Antifascist Detector Would Actually Have to Detect
-9.1.7. What Is Owed to a Bearer, and Who Could Check
-9.2. Emotional Intelligence, Affective Computing, and Altruism
-9.2.1. Is Emotion Legible From a Face at All?
-9.2.2. Interpretability, Self-Reports, and Resistance to Tampering
+9.1. Interpretability, Self-Reports, and Resistance to Tampering
+9.2. What Is Owed to a Bearer, and Who Could Check
+9.3. What an Antifascist Detector Would Actually Have to Detect
+9.4. When an Ethics-Embedding Method Stops Generalizing
+9.5. Value Learning as Unfinished Technical Research
+9.6. Can a Multi-Agent AI System Resist Being Captured?
+9.7. Open Questions in Empathy and Theory-of-Mind Research
+9.8. Is Emotion Legible From a Face at All?
+9.9. The Responsibility Gap, Which No Experiment Closes
 Chapter 10: Conclusion and Outlook
 10.1. AI and Human Flourishing in Antifascist Societies
 10.1.1. Where the Democratic Dividend Actually Comes From
