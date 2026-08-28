@@ -1,23 +1,21 @@
 #!/usr/bin/env python3
-"""Assert the frozen dialect references have not been touched.
+"""Assert that every file registered as frozen is byte-for-byte unchanged.
 
-Until D-065 this file was check_roundtrip.py, and it asserted that
-join(sections) was byte-identical to manuscript/parseable_text_v4.txt. That
-invariant ended with the move to LaTeX: the .tex section files are the source,
-book.tex pulls them in directly, and there is no joined build artifact left to
-compare against.
+Nothing is registered. FROZEN is empty, so this check passes without reading
+anything, and it is kept as the place a frozen file would be registered.
 
-What remains is provenance. Two dialect files are frozen and must never move:
+History, because the empty map is otherwise unreadable. Until D-065 this file
+was check_roundtrip.py and asserted that join(sections) was byte-identical to
+manuscript/parseable_text_v4.txt; the move to LaTeX ended that invariant, since
+the .tex section files are the source and there is no joined artifact left to
+compare against. From D-065 to D-088 it guarded the two dialect reference
+files -- parseable_text_v3b_2024-07-07.txt, the 2024 text as imported, and
+parseable_text_v4.txt, the last state of the manuscript before the migration.
+Both were removed from the repository at D-088 on the author's instruction.
+Git holds them: they are reachable at any commit before that one.
 
-  parseable_text_v3b_2024-07-07.txt  the 2024 text exactly as imported.
-  parseable_text_v4.txt              the last state of the dialect manuscript,
-                                     immediately before the LaTeX migration.
-
-v4 was a generated artifact and is now a historical one. It is the other end of
-the chain from v3b: together they bracket everything the dialect era did. The
-migration itself was verified by check_tex_roundtrip.py, which inverted the
-conversion and diffed 1342 prose lines against these sources; that check is a
-one-shot and cannot be re-run now that the .txt sections are gone.
+To freeze a file again, add its repository-relative path and the sha256 of its
+current contents to FROZEN.
 """
 import hashlib
 import os
@@ -26,15 +24,13 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
 
-FROZEN = {
-    "manuscript/parseable_text_v3b_2024-07-07.txt":
-        "84b375f9848be91bcfa310049d3f58a8bdaeeca430f5f3e1fff6625f56b75a98",
-    "manuscript/parseable_text_v4.txt":
-        "86df4e2c70849773267f12a6e19c04d123569543e91cfa77608fd5c417aa0c03",
-}
+FROZEN = {}
 
 
 def main():
+    if not FROZEN:
+        print("frozen OK: no file is registered as frozen")
+        return 0
     bad = 0
     for rel, want in sorted(FROZEN.items()):
         path = os.path.join(common.REPO, rel)
@@ -50,7 +46,7 @@ def main():
             bad += 1
     if bad:
         return 1
-    print("frozen OK: %d dialect reference files unchanged" % len(FROZEN))
+    print("frozen OK: %d registered file(s) unchanged" % len(FROZEN))
     return 0
 
 

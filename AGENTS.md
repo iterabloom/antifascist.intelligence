@@ -47,14 +47,8 @@
   `finishing/tools/check_all.sh` checks that both are current, along with the
   rest of the invariant suite. Build the PDF with
   `finishing/tools/build_tex.sh`, the HTML page with `build_html.sh`, or both
-  into `finishing/reports/` with `build_proof.sh`.
-  **Two dialect files are frozen and must never change:**
-  `manuscript/parseable_text_v3b_2024-07-07.txt`, the 2024 text as imported,
-  and `manuscript/parseable_text_v4.txt`, the last state of the manuscript
-  before the LaTeX migration. `finishing/tools/check_frozen.py` guards both;
-  together they bracket the dialect era, which is over. The work of finishing
-  the book lives in `finishing/`. Everything else in the repository is
-  provenance.
+  into `finishing/reports/` with `build_proof.sh`. The work of finishing the
+  book lives in `finishing/`. Everything else in the repository is provenance.
 - **Provenance, read-only.** `genesis/`, `personas/`, `generation/`,
   `editorial/`, `summaries/`, and `manuscript/previous/` are the record of what
   happened during the book's creation. Editing or regenerating them destroys that

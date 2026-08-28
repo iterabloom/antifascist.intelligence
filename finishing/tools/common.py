@@ -3,7 +3,6 @@ import os
 import re
 
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-V3B = os.path.join(REPO, "manuscript", "parseable_text_v3b_2024-07-07.txt")
 OUTLINE_ODS = os.path.join(
     REPO, "personas", "section-assignments",
     "superintelligence-ethics-outline_v3b_2024-07-07.ods")
@@ -97,9 +96,8 @@ def heading_line(num, title):
 def headings_in(path):
     """[(lineno_1based, num, title, raw_line)] for a manuscript-dialect file.
 
-    Retained for the frozen dialect references (v3b, parseable_text_v4.txt),
-    which are provenance and still in the dialect. Section files are .tex now;
-    use section_headings() for those.
+    Retained for dialect-era/split_manuscript.py, its only caller left.
+    Section files are .tex now; use section_headings() for those.
     """
     out = []
     quote = list_ = False

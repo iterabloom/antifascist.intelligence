@@ -16,7 +16,7 @@ Written for the researchers and engineers inside these systems, the policy and l
 
 | Folder | Contents |
 |---|---|
-| `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the book one file per section, in LaTeX; `book.tex` is the master file and `preamble.tex` the typesetting. `parseable_text_v4.txt` is frozen provenance — the last state of the pre-LaTeX dialect manuscript |
+| `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the book one file per section, in LaTeX; `book.tex` is the master file and `preamble.tex` the typesetting |
 | `genesis/` | Apr 2023 origin: the founding prompt and the first seed report |
 | `personas/` | The cast of ~100 simulated expert co-authors, their grouping by field, authoritarianism screen, and per-section author assignments |
 | `generation/` | The notebooks that generated the text section by section, the full generation transcript, and loose prompt fragments |

@@ -4,7 +4,7 @@ set -uo pipefail
 repo="$(git rev-parse --show-toplevel)"; cd "$repo"
 fail=0
 run() { echo; echo "== $1"; shift; "$@" || { echo "  ^^ FAILED"; fail=1; }; }
-run "frozen dialect references unchanged" python3 finishing/tools/check_frozen.py
+run "frozen files unchanged (none registered)" python3 finishing/tools/check_frozen.py
 run "structure: headings, order, environments, ledger parity" python3 finishing/tools/check_structure.py
 run "sections.tex is generated output, and current" python3 finishing/tools/gen_book.py --check
 run "TOC is generated output, and current" python3 finishing/tools/headings.py --check

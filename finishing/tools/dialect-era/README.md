@@ -7,9 +7,9 @@ Nothing here runs against the current tree, and none of it is wired into
 `check_all.sh`.
 
 They are kept, rather than deleted, because they are how the dialect era's
-artifacts were produced, and those artifacts are still in the repository:
-`parseable_text_v3b_2024-07-07.txt` and `parseable_text_v4.txt` are frozen
-provenance, and `finishing/tools/check_frozen.py` guards both.
+artifacts were produced. Those artifacts are no longer in the working tree:
+`parseable_text_v3b_2024-07-07.txt` and `parseable_text_v4.txt` were removed at
+D-088, and git holds them at every commit before that one.
 
 - `render.py` — dialect → HTML, the front end of the HTML → LibreOffice → ODT
   → PDF path. Replaced by LaTeX. Three fidelity gaps found in it during the

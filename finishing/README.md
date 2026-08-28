@@ -22,23 +22,22 @@ New files here omit the date suffix, as the file convention allows.
 
 ## The manuscript's working form
 
-`manuscript/parseable_text_v3b_2024-07-07.txt` is frozen and stays where it is.
-The editable form is one file per section:
+The book is LaTeX (D-065). The editable form is one file per section:
 
 ```
-manuscript/sections/chNN/NN_NN_NN.txt   heading line + body, raw slice, dialect unchanged
+manuscript/sections/chNN/NN_NN_NN.tex   heading command, label, body
 manuscript/sections/ORDER.tsv           path, num, title, sha256
-manuscript/parseable_text_v4.txt        join of the above; the build output
+manuscript/book.tex                     the master; \input's the sections
+manuscript/sections.tex                 that \input list, generated
 ```
 
 Filenames are zero-padded and `_`-separated so byte-order sorting reproduces
-book order (with `.` as the separator a child sorts before its parent). The
-`<<quote>>` / `<<list>>` / `#`-note dialect is preserved so the joined file
-stays parseable by the 2023–24 generation notebooks.
+book order (with `.` as the separator a child sorts before its parent).
 
-At tag `v4-split` the join is byte-identical to v3b — the split moved not one
-character. After a normalization pass lands, the round-trip reference becomes
-`parseable_text_v4.txt` itself (`check_roundtrip.py --ref`).
+The dialect era — `<<quote>>`, `<<list>>`, `[[cite:ID]]`, and the joined
+`parseable_text_v4.txt` — ended at D-065. Its two reference texts, v3b and v4,
+were removed from the repository at D-088; git holds them at every commit
+before that one, and the tools that read them are in `tools/dialect-era/`.
 
 ## Tools
 
@@ -48,7 +47,6 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | Tool | Does |
 |---|---|
 | `check_all.sh` | Every invariant below. Run at session start; **run automatically by `.githooks/pre-commit`**, which refuses the commit on failure (D-045). It reads the working tree, not the index, so a partial commit is checked against the tree on disk; `git commit --no-verify` bypasses |
-| `check_roundtrip.py` | `join(sections)` is byte-identical to the reference |
 | `check_structure.py` | Heading/filename agreement, glob order, tag balance, ledger row parity |
 | `check_xrefs.py` | Cross-references resolve, and every one is prefixed with `section`/`chapter`/`§` so a renumber script can see it (D-046). Does **not** check that a resolving reference is the right one |
 | `xref_content.py` | The semantic half `check_xrefs.py` disclaims (D-050): flags references whose citing sentence names a proper noun, acronym or year the target section does not contain. Writes `reports/xref_content.tsv`. **Candidates for a hand read, not defects** — the P14 run was 9 real out of 121 — and deliberately not in `check_all.sh`. Blind to any wrong pointer in a sentence naming none of those, which is most sentences |
