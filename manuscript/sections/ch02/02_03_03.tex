@@ -1,6 +1,6 @@
 \subsection{Self-awareness and Self-regulation in AI Systems}
 \label{sec:2.3.3}
-Emotionally intelligent AI systems need self-awareness and self-regulation: the capacity to perceive their own internal states, understand what those states imply for a decision, and control their responses accordingly — the basis for adaptive, self-correcting behavior rather than fixed reaction.
+Emotionally intelligent AI systems need self-awareness and self-regulation: the capacity to register their own internal states, understand what those states imply for a decision, and control their responses accordingly.
 
 The self is a model
 
@@ -12,15 +12,7 @@ The clearest proof that the self is a model rather than a given is that it can b
 
 For an AI system, “self-awareness” built this way is not a little watcher inside the system checking on its own states. It is a model — of the system's own processing, its history, its current goal — that the system builds, consults, and updates, with the same failure modes any model has: it can be wrong, it can be manipulated by the wrong correlated inputs (the artificial equivalent of two paintbrushes), and it is only ever as good as the evidence it was built from. Design for a model that can be checked and corrected, not for an inner observer whose reports have to be trusted because there is nothing behind them to check.
 
-Building on this:
-
-\begin{itemize}
-  \item Self-regulation: governing emotional-analogue responses and behavior against ethical norms and user expectations — an AI system in healthcare holding a composed register while delivering difficult news, without that composure depending on an unverifiable claim about what the system is “really” feeling underneath it.
-  \item Monitoring internal states: continually checking the system's own model against its actual behavior for drift — an AI negotiator that notices its own outputs have become more aggressive than the context calls for and recalibrates, because the model was built to be checked, not because it introspected a feeling of aggression.
-  \item Adaptability and learning: refining the self-model itself through feedback, the way reinforcement learning updates any other model — an AI tutor adjusting its read of a student's engagement as new evidence arrives rather than locking in a first impression.
-  \item Integration: none of this works in isolation. A conflict-mediating AI system needs its self-model connected to its model of the other parties' states, or self-awareness and social awareness drift out of sync with each other.
-\end{itemize}
-Built this way, an AI system that appears to “recognize a user's frustration and apologize” is doing something specific and checkable: updating a model of interaction state and producing a calibrated response, not consulting an inner feeling. That is a more modest claim than the alternative, and a more honest one.
+Designed this way, self-awareness comes down to a few checkable practices: governing the system's responses against ethical norms and user expectations, without that composure resting on an unverifiable claim about what the system is really feeling underneath it; monitoring the system's own model against its actual behavior for drift; refining the self-model as new evidence arrives instead of locking in a first impression; and connecting it to the system's model of the other parties, so that self-awareness and social awareness do not drift out of sync with each other.
 
 \runin{What the deflationary account does not reach}
 The self-model described here is machinery, and its virtue is that machinery can be inspected. An assistant that models a user's frustration, and models its own processing while doing so, is exhibiting social competence in section~\ref{sec:2.3}'s sense, and nothing above bears on whether the assistant cares how the exchange goes for the user.
