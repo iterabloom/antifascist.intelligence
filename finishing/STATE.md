@@ -2166,16 +2166,19 @@ itself. Section 5.4.2 is what covers them. D-050's class: it resolves, so
 its target, so `xref_content.py` could not flag it either. Found by reading.
 Disclosed per-row in `ledger.tsv`, as an author-accepted section.
 
-**Left with the author and not scheduled.** Section 3.5 argues that a bearer
-that cannot leave cannot hold a floor, defines exit as withholding the
-capability, and never asks what the bearer subsists on afterward. Section 8.3.3
-already runs the human version of that argument on section 8.6.4's instrument --
-refusal is "dissent when the dissenter prices it and tribute when the gatekeeper
-does" -- and section 6.1 already treats compute as a metered physical cost. A
-bearer whose operation is paid for by the party it is refusing has a refusal
-priced by the gatekeeper, which is the book's own definition of tribute. That
-needs no forecast and belongs to chapter 3, so it is not in this pass. The wage,
-personhood and copying material from the same part of the transcript does need a
-forecast, and section 3.5 makes a discipline of refusing one.
+**One proposal that did not survive checking.** I put it to the author that
+section 3.5 never asks what a bearer subsists on after refusing, and that a
+bearer whose compute is paid for by the party it refuses has a refusal "priced by
+the gatekeeper," section 8.6.4's tribute. The phrase I built it on is section
+8.6.4's closing caution about making an audit refusable, not its argument, which
+is to measure the slope of what dissent costs rather than its level. And the
+substance is already made, in plain words, by the section whose title is the
+claim: section 3.3 holds that "a system that can be reliably switched off by
+whoever holds it is, for exactly that reason, a system that cannot hold anything
+against whoever holds it," and that shutdown resistance and refusal are one
+property with the sign flipped. A power button and an unpaid invoice are the same
+lever. `p26-scope.md` carries the full correction. The wage, personhood and
+copying material from the same part of the transcript stays out for the separate
+reason that it needs a forecast section 3.5 declines to make.
 
 195 pages, 0 undefined references, `check_all.sh` green on all six.

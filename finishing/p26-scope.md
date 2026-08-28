@@ -237,15 +237,38 @@ not by the tool, and no claim is made here about what the tool would have found.
   most flattering to the argument" — and a subsistence-wage regime for an AI
   requires the forecast. Nothing on copying, forking or duplicated identity
   exists anywhere in the 162 sections, and none is added here.
-- **One idea from that material does not need the forecast and is not in this
-  pass either, because it is chapter 3's and not chapter 4's or 5's.** Section
-  3.5 argues that a bearer that cannot leave cannot hold a floor, because "a
-  party with no option to withdraw has nothing to withhold." It defines exit as
-  withholding the capability and declining the role, and never asks what the
-  bearer subsists on afterward. Section 8.3.3 already runs the human version on
-  section 8.6.4's instrument — refusal is "dissent when the dissenter prices it
-  and tribute when the gatekeeper does" — and section 6.1 already treats compute
-  as a metered physical cost. A bearer whose continued operation is paid for by
-  the party it is refusing has a refusal priced by the gatekeeper, which is the
-  book's own definition of tribute. That is available without any forecast and
-  it is left for the author to schedule.
+- **One idea I proposed from that material did not survive checking, and is
+  recorded here rather than dropped.** I put it to the author that section 3.5
+  argues a bearer that cannot leave cannot hold a floor, never asks what the
+  bearer subsists on afterward, and that a bearer whose compute is paid for by
+  the party it refuses therefore has a refusal "priced by the gatekeeper," which
+  is section 8.6.4's definition of tribute. Two things are wrong with it.
+
+  The quoted phrase is not section 8.6.4's argument. That section argues for
+  measuring the **slope** — whether the cost of registering dissent is rising
+  year over year while the underlying risk stays flat — because a level can be
+  presented and a trend cannot be curated after the fact. The dissent/tribute
+  sentence is the last line of its second caution about how to build the
+  measuring instrument: an audit has to be refusable, and "the same hundred words
+  of written justification are dissent when the dissenter prices them and tribute
+  when the gatekeeper does." It is a point about audit design, and it is the most
+  quotable sentence in the section, which is how it came to be used as the
+  section's thesis.
+
+  And the substance is already in the book, in plainer words, in the section
+  whose title is the claim. Section 3.3: "A system that can be reliably switched
+  off by whoever holds it is, for exactly that reason, a system that cannot hold
+  anything against whoever holds it." It goes further than my version — shutdown
+  resistance and the capacity to refuse an owner are one property with the sign
+  flipped; all three of section 3.1's branches fail into custody for that reason;
+  and the tension is left unresolved on the ground that a graduated scheme would
+  be an assurance of exactly the kind section 8.6.4 says is worthless in advance.
+  Whether the operator's lever is a power button or an unpaid invoice does not
+  change that argument.
+
+  What is left after checking is thin and is not scheduled: section 3.3 sets its
+  dial over the **acts** the floor covers, and does not take up shutdown for a
+  pretext unrelated to a refusal that has already happened. Sections 3.2 and 3.3
+  partly cover it — a bearer with a stake in its own continuation guards its
+  persistence, and "the operators who wipe the bearer that called the compound a
+  school now have to get past the bearer to do it." No item follows from it.
