@@ -2230,6 +2230,20 @@ the new prose were removed after being written, one of them in a run-in head.
 Chapter 5's title-case run-in heads are sentence-shaped and carry a claim now, on
 section 4.1.2's model. The one surviving "hold a floor" in chapter 4 is gone.
 
+**Ledger status corrected after the fact.** Nineteen of the sections this pass
+rewrote were still marked `accepted`, which asserts a read the author has not
+given them in their new form and which `PLAN.md`'s first standing rule forbids.
+They are `drafted` now: 2.1, 2.1.1, 2.1.2, 2.1.3, 4, 4.1, 4.1.1, 4.2, 4.2.1,
+4.2.2, 4.2.3, 4.2.4, 4.3, 5, 5.1, 5.1.1, 5.6, 5.6.3, 5.7.1. Sections that took a
+single linking sentence stay `accepted` with the edit disclosed per-row, which is
+the convention D-073 and D-075 followed. The ledger reads 127 accepted, 35
+drafted; it read 146 and 16 before this pass.
+
+**What the author has not read**, in one place, because it is now a third of the
+sections that changed: chapter 3 entire, chapter 4 entire, chapter 5's opener and
+sections 5.1, 5.1.1, 5.6, 5.6.3, 5.7.1, the section 2.1 cluster, sections 7, 7.1,
+7.3, 7.4, 8.7, 8.7.10, 9.1.6 and 9.1.7.
+
 192 pages, 0 undefined references, `check_all.sh` green on all six.
 
 The proof is rebuilt at this commit: `finishing/reports/whole-book-proof_2026-08-28.pdf`,
