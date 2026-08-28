@@ -207,6 +207,32 @@ noticing. Under D-013 the surviving instance of each repeated argument is the
 one place it is made; every other location that needs it gets a cross-reference
 instead. Target: at least one real cross-reference per section, where honest.
 
+**A cross-reference says where, not what.** The sentence carrying it has to make
+sense to a reader who does not follow it. A reference that supplies the meaning
+the sentence is missing sends the reader out of the paragraph to find out what
+was just said, and most readers will not go.
+
+The failing shape is a noun phrase whose content lives elsewhere: "the form
+section 8.6.4 identifies as worthless," "section 8.6.4's slope, measured from
+inside," "in the phrase the criteria at the end of section 2.4.1 arrive at."
+Say the thing, then name the section:
+
+| Sends you away | Carries itself |
+|---|---|
+| "a refusal that costs the refuser nothing it could have kept is the form section 8.6.4 identifies as worthless" | "a refusal that costs the refuser nothing is worth nothing — which is section 8.6.4's test for telling a real objection from a performed one" |
+| "looks like it requires something with standing — section 8.6.4's slope, measured from inside" | "requires a party that can notice its own objections getting more expensive to make, which is section 8.6.4's measure, taken from inside" |
+
+Two related tics come out in the same sweep, because they fail the same way — the
+reader has to decode rather than read.
+
+- **Riddle constructions.** "A party with no option to withdraw has nothing to
+  withhold." "Costs the refuser nothing it could have kept." The near-rhyme reads
+  as precision and is doing the opposite. Plain: a system with no way out has
+  nothing to lose by refusing.
+- **The name-dropped argument.** "Which is section 10.3.3's whole argument."
+  Naming a section's argument is not making it. If the claim matters here, state
+  it here in a clause.
+
 ## 8. Mechanics
 
 - Apostrophes and quotation marks: straight, consistently. Currently 734 straight to 38 curly, 178 straight double to 6 curly. Normalize in P0, not by hand.
