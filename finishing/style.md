@@ -247,7 +247,7 @@ reader has to decode rather than read.
   floors do, "a floor that holds" is the right image and is kept in all nine of
   its uses, and what changed is who is doing the holding. A system does not hold
   a floor — it refuses, and the floor holds because it does.
-- **The name-dropped argument.** "Which is section 10.3.3's whole argument."
+- **The name-dropped argument.** "Which is section 6.4.4's whole argument."
   Naming a section's argument is not making it. If the claim matters here, state
   it here in a clause.
 
