@@ -1,79 +1,31 @@
 # Finishing plan
 
-**Status: skeleton.** Sections 2, 4, and the estimate are filled once the
-assessment reports and the author's triage exist. The meta-plan that produced
-this file is at `~/.claude/plans/` (planning phase, phases 0–6).
+**Status: reduced to a pass record, 2026-08-28.** This file no longer specifies
+the book. In one session it lost its target specification, its target structure,
+four of its five risks, and the standing rule that no section is Accepted until
+the author has read it in full; `DECISIONS.md` lost D-007, the revise-only
+decision, deleted from a log whose own header calls itself append-only. What
+remains here is the passes table, the tracking convention, four standing rules,
+terminology drift, and the definition of done. Git holds everything removed, at
+`6b1c025` and earlier.
 
-## 1. Target specification
+The removals leave references behind that no longer resolve: 84 mentions of
+D-007 across 15 files, 6 of them in this file and most of the rest in rows that
+read "D-007 lifted for this pass"; 20 citations of "standing rule 1", mainly
+ledger rows explaining that a section was left `drafted` because marking it
+accepted "would assert a read that did not happen"; and 5 citations of "standing
+rule 2" that now land on the wrong rule after renumbering. None of that is
+repaired. The four quoted third-party items and their outstanding attribution
+lines were recorded only in the deleted specification, and are now only in git.
 
-A book for serious general readers (D-002), single-author voice with an "On
-method" note (D-008), endnotes for named studies, statutes, systems and
-quotations (D-009), dateless prose with dates confined to clearly dated boxes
-(one named exception, D-027: the AI-targeting material),
-CC BY-NC-ND, chapters released as accepted. Author availability under 2 h/week
-(D-003) is the binding constraint on every schedule below.
+The book itself was not touched by any of this. It stands at 163 sections and
+199 pages, with 112 sections accepted and 51 drafted and unread — a count that
+the deleted standing rule is the reason for. The one pass executed this session,
+P28, cut 79 cross-references by class and is committed on
+`pass/28-xref-density`, unmerged and unread. The meta-plan that produced this
+file is at `~/.claude/plans/` (planning phase, phases 0–6).
 
-**This is a revise, not a rewrite (D-007).** The substance stands. The work is:
-fix the voice, cut the duplication, source what can be sourced, cut what cannot,
-and repair the structure. Section fates are drawn from **Keep / Revise / Merge /
-Cut** — never "write from nothing", with one exception: the eleven headings that
-have no body text at all, which need either a paragraph or deletion.
-
-**The one exception (D-014): the quarry.** Roughly 12,000 words from
-`cognition/` may enter the book — the *Atlas of Human Cognition* material, plus
-the predictive-processing diagram and the 2022 transcript if they earn a place.
-This is where the stub cognition sections get their substance, and it is the
-only place new material is allowed. It needs its own spec
-(`finishing/transplants.md`): source range, target section, what the transplant
-corrects or replaces, mode, word budget, and the register edit each one needs,
-because the *Atlas* is second-person trade prose and the book is not.
-
-What is still ruled out, recorded so it is not silently reintroduced: adding the
-topics the 2023 reviews asked for and the book never grew (evaluation metrics,
-AI-safety vocabulary, language as a cognitive system) except where a transplant
-happens to supply one. That one stays as it is unless the author reopens D-007.
-
-**Reopened, D-026.** The second exclusion — "arguing the anti-authoritarian
-thesis somewhere it is currently assumed" — is withdrawn. The book may argue
-its own antifascist thesis where it currently only asserts it: define fascism
-structurally, name what a detector would have to detect, name as an open
-problem what the framing does not yet yield, and hold democracies to the
-book's own standard. What stays out is giving the case *against* democracy the
-time of day. Constitutional limits on majority preference are not that.
-
-**Length (D-019).** Settled, and settled against the number I first proposed.
-The triage projects **~117,000 words**: 115,524 now, less ~9,100 in cuts,
-compressions and chapter 8's reduction, plus 10,400 in transplants. The 75–90k
-target is retired — it was a planning recommendation, not a constraint, and this
-is an ordinary length for a book of this scope. Compression during the revise
-pass is welcome where a section earns it; **no section is cut to hit a number.**
-
-**Quoted third-party material (D-012, D-018).** Four items, all kept, and the
-author's determination is that all four are fair use. No permissions are sought
-and there is no open task here.
-
-| Where | What | Extent |
-|---|---|---|
-| Chapter 1 epigraph | Run the Jewels lyric | ~12 lines |
-| §2.2 epigraph | Lady Gaga / Bradley Cooper lyric | 4 lines |
-| §2.4 epigraph | *Westworld* dialogue, with its writing and directing credits | 2 lines |
-| §3.1.2.3.1.1 close | *Westworld*, "doesn't look like anything to me" | one phrase |
-
-Each needs a correct and complete attribution line in the finished book —
-that is a copyediting obligation under D-009, independent of the rights
-question. The §2.4 epigraph already carries full credits; the other three do
-not yet.
-
-Style sheet: `finishing/style.md` (to be written in Phase 2).
-
-## 2. Target structure
-
-*To be filled from `toc_v4_candidates.md` once triage is adjudicated.* It must
-give, per chapter: a brief (what the chapter establishes, what it inherits,
-what is cut, what is transplanted, word budget); and per section: the v3b
-source numbers, the fate, target words, and the claim IDs to resolve or cut.
-
-## 3. Passes
+## 1. Passes
 
 Each pass has an entry criterion, an exit criterion expressed as a filter over
 `ledger.tsv`, a unit of work, and a decider. Quarry integration and factual
@@ -125,7 +77,7 @@ the ruled cuts.
 
 All of those are P3, and the ledger rows carry them.
 
-## 4. Tracking
+## 2. Tracking
 
 `ledger.tsv`, one row per section, with a per-pass status. `tools/dashboard.py`
 (Phase 4) prints counts by status, words against budget, open placeholders, and
@@ -136,26 +88,21 @@ Branches: `main` is what the author sees. One branch per pass
 if the author has committed from the phone. Tags: `v3b-import`, `v4-split`,
 `v4-normalized`, `plan-1.0`, `pass-N-done`.
 
-## 5. Standing rules
+## 3. Standing rules
 
-1. No section is Accepted until the author has read it in full.
-2. The agent never authors a reference entry; it writes placeholders only.
-3. Nothing in the book, in `finishing/`, or in a commit message characterizes,
+1. The agent never authors a reference entry; it writes placeholders only.
+2. Nothing in the book, in `finishing/`, or in a commit message characterizes,
    rates, or attributes views to a real named person.
-4. Unverifiable claims are cut during rewrite, not carried forward with a TODO.
-5. Provenance folders are never edited.
+3. Unverifiable claims are cut during rewrite, not carried forward with a TODO.
+4. Provenance folders are never edited.
 
-## 6. Risks
+## 4. Risks
 
 Carried from the meta-plan; the live ones for this phase:
 
-- **The plan silently becomes a rewrite.** Decide from the triage ratio (Q-001), not from hope.
-- **Register clash** between the 2026 quarry prose and the 2023 survey prose. The style sheet is written before any rewriting, and the pilot tests it.
-- **Citation debt may exceed the writing effort**, and at under 2 h/week the author cannot verify at volume. Count it before budgeting; cut what cannot be sourced.
-- **Acceptance is the bottleneck**: ~80k words of careful reading, plus rounds. Serial release keeps it visible; the estimate counts reading time explicitly.
 - **Terminology drift** across ~90 separately drafted sections. Glossary loaded into every rewrite session; consistency check at P6.
 
-## 7. Definition of done
+## 5. Definition of done
 
 The book is done when every v4 section is Accepted, every claim placeholder is
 resolved or cut, front and back matter exist, the terminology check passes, and
