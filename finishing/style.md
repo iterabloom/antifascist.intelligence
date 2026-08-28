@@ -253,8 +253,25 @@ reader has to decode rather than read.
 
 ## 8. Mechanics
 
-- Apostrophes and quotation marks: straight, consistently. Currently 734 straight to 38 curly, 178 straight double to 6 curly. Normalize in P0, not by hand.
-- Em dashes: keep; the text uses 70 and they mostly work.
+- **Quotation marks are the characters themselves, `“` and `”`** (D-082, Q-025).
+  A straight `"` is not a neutral character in a typeset book: LuaLaTeX sets it
+  as a *closing* mark wherever it stands, so a manuscript written with straight
+  quotes opens every quotation with the mark that should close it. The book did
+  that 230 times across 44 sections until it was swept. **This replaces the rule
+  that stood here** — "Apostrophes and quotation marks: straight, consistently.
+  Currently 734 straight to 38 curly, 178 straight double to 6 curly. Normalize
+  in P0, not by hand." — which was right while the manuscript was plain text and
+  wrong from the LaTeX migration (D-065) onward, and was not revisited then.
+- **Apostrophes stay straight.** `'` is the one place the ASCII character is
+  correct: LaTeX sets it as `’`, which is the right glyph. All 894 print
+  properly. Converting them would buy nothing and would put `'Cause` and `'90s`
+  at risk, where the mark is an elision and not a possessive.
+- **Dashes are the characters themselves**, `—` and `–`, not `---` and `--`.
+  785 em dashes and 1 en; mixing the two notations sets the same dash at two
+  widths on one page.
+- `finishing/tools/check_typography.py` enforces the quote and dash rules, and
+  runs in `check_all.sh`. Neither is catchable any other way: both notations
+  compile without a warning and produce a page that is merely wrong.
 - "AI" as a mass noun ("an AI system", not "an AI") except where the book means an individual system, which it sometimes does deliberately — that distinction is load-bearing in chapters 2 and 7 and should be made consistently.
 - Spelling: US.
 - Section titles: sentence-shaped, under about ten words. The current set includes titles of 20+ words.

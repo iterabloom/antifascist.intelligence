@@ -9,6 +9,7 @@ run "structure: headings, order, environments, ledger parity" python3 finishing/
 run "sections.tex is generated output, and current" python3 finishing/tools/gen_book.py --check
 run "TOC is generated output, and current" python3 finishing/tools/headings.py --check
 run "cross-references: resolve, and prefixed" python3 finishing/tools/check_xrefs.py
+run "typography: quotes and dashes are the characters" python3 finishing/tools/check_typography.py
 run "named-persons guard" python3 finishing/tools/names_guard.py
 echo
 [ "$fail" = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
