@@ -343,13 +343,25 @@ cascaded — 4.2.2 has six inbound references — and in both cases a real argum
 was available that made the section earn its place instead. That is a change
 from the plan and it is a better outcome than the plan.
 
-**Two defects this pass caused and repaired.** Cutting section 5.6.3's
-deployed-systems list orphaned the Full Fact citation, whose claims row C0349 is
-retired with the reason. It also falsified section 8.6.4, which said the
-Partnership on AI was "cited already in section 5.6.3"; it now points at section
-8.4.2, which takes the body apart properly. Both are the D-050 class and both
-were caused by this pass, which is why they are named here rather than in a
-findings list.
+**Three defects this pass caused.** Cutting section 5.6.3's deployed-systems
+list orphaned the Full Fact citation, whose claims row C0349 is retired with the
+reason. It also falsified section 8.6.4, which said the Partnership on AI was
+"cited already in section 5.6.3"; it now points at section 8.4.2, which takes
+the body apart properly. Both are the D-050 class and both were caused by this
+pass, which is why they are named here rather than in a findings list.
+
+**The third was missed when this was written and is recorded on 2026-08-28**, on
+a count run for D-081. Rewriting section 5.1's opener also cut the sentence
+citing `warneken2006altruistic` — "young children display helping, fairness, and
+reciprocity through interaction and observation well before they can put any of
+it into words." The rewritten section 5.1 is signposting only, and section
+5.1.2, which took over the interaction argument, makes an observational-learning
+claim citing Bandura instead. So `refs.bib` now defines two entries the book
+does not cite, `fullfact2023ai` and `warneken2006altruistic`, and biblatex
+prints neither. **No citation was moved to a sentence that does not support it,
+which is the failure worth avoiding here**; the finding is that this pass
+reported one orphan when it had made two, and the second is a claim the book no
+longer makes rather than a claim left uncited.
 
 **Prose sweep.** Chapters 4 and 5 checked against `style.md` section 7's three
 tics. Four aphorisms in my own new prose were removed after being written,

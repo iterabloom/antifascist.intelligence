@@ -1,0 +1,17 @@
+-- make4ht build sequence for the HTML proof. Passed with -e by build_html.sh.
+--
+-- make4ht's default sequence does not run biber, so biblatex emits an empty
+-- bibliography and all 302 \autocite calls come out undefined. biber has to be
+-- told where the .bcf and .aux files are: make4ht runs LaTeX from manuscript/
+-- with -output-directory pointing at the build directory, so biber's own
+-- default of "look in the current directory" finds nothing. build_html.sh
+-- passes that directory in ES_BUILD_DIR.
+local build = os.getenv("ES_BUILD_DIR") or "."
+Make:add("biber", "biber --input-directory=" .. build .. " --output-directory=" .. build .. " ${input}")
+
+-- Same shape as build_tex.sh: one pass, biber, then two more. The first of the
+-- last two resolves citations, the second the table of contents.
+Make:htlatex {}
+Make:biber {}
+Make:htlatex {}
+Make:htlatex {}

@@ -1,0 +1,11 @@
+# The proofs in finishing/reports/ are generated whole from manuscript/ on every
+# rebuild. The PDF git already treats as binary; the HTML it would not, and a
+# megabyte of regenerated markup diffed line by line buries the source changes
+# in the same commit and inflates every diff-based review of the branch -- the
+# cost D-068 named for the PDF, which D-072 restored knowing it. Marking them
+# undiffable is the part of that cost this repository can actually pay down.
+#
+# -merge as well as -diff: a generated file has no sensible three-way merge. On
+# a conflict, rebuild with finishing/tools/build_proof.sh rather than resolve.
+finishing/reports/whole-book-proof_*.pdf   -diff -merge linguist-generated
+finishing/reports/whole-book-proof_*.html  -diff -merge linguist-generated

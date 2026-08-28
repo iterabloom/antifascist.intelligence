@@ -1,8 +1,8 @@
 # Open questions
 
-**Current as of 2026-08-25, after D-067. No question is open.** The author ruled
-on Q-018, Q-020, Q-023 and Q-024 on 2026-08-25; all four are under "Resolved"
-below with the others. For orientation read `finishing/STATE.md`.
+**Current as of 2026-08-28, after D-081. One question is open: Q-025.** The
+author ruled on Q-018, Q-020, Q-023 and Q-024 on 2026-08-25; all four are under
+"Resolved" below with the others. For orientation read `finishing/STATE.md`.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
 new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
@@ -11,6 +11,48 @@ D-067 split 8.7.6 into 8.7.6–8.7.9 and renumbered 8.7.7 to 8.7.10.
 
 A new question goes above the "Resolved" line with a default and the moment it
 applies. Nothing here blocks work.
+
+---
+
+### Q-025 — Every quotation mark in the book's prose prints as a closing quote
+
+The manuscript writes double quotes as the straight character `"`, 230 of them
+across 44 section files. LuaLaTeX sets `"` as `”` wherever it stands, so the book
+opens 115 quotations with the mark that is supposed to close them. Section 2.3
+prints *narrower than ”feeling for” the user*; section 8.7.7 prints *whether
+”keep the pilot farther from danger” quietly*. The 192-page PDF contains 115 `“`
+against 493 `”`, and all 115 of the openings are biblatex's, around article
+titles in the References. **The prose contributes none.** This is visible on a
+great many pages and has been true since the LaTeX migration.
+
+Apostrophes are not affected: LaTeX sets a straight `'` as `’` correctly, and the
+manuscript's 894 of them are right as they stand.
+
+The rule that produced it is `style.md` section 10: "Apostrophes and quotation
+marks: straight, consistently. Currently 734 straight to 38 curly, 178 straight
+double to 6 curly. Normalize in P0, not by hand." That was written for the
+dialect era, when the manuscript was plain text and a straight quote was the
+neutral character. Since D-065 the book is typeset, and it is not.
+
+**A sweep would be mechanical and safe.** The marks are balanced everywhere:
+every one of the 44 files has an even count, and so does every paragraph in
+them, so alternating open and close within a paragraph gets all 230 right
+without a judgment call. The cost is that it touches 44 author-accepted section
+files with a change the author has not seen.
+
+- **(a) Default — sweep to the literal characters `“` and `”`.** They read as
+  what they are in the source, they survive a copy-paste out of the `.tex` file,
+  and they do not depend on TeX's ligature program, which is what mangled the
+  bibliography titles D-081 repaired. The manuscript already holds two pairs
+  written this way.
+- (b) Sweep to LaTeX's ```` `` ```` and `''`. The conventional form, and the one
+  a LaTeX editor expects; it is also two characters where the text means one,
+  and three in a row ligature into the wrong glyph, which is the trap that
+  produced `‘the Slovak Case”’` in the References.
+- (c) Leave it. No.
+
+*No default applied. This is a book-wide edit to accepted sections and it needs
+a yes; it is one scripted pass and a rebuild once it has one.*
 
 ---
 

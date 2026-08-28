@@ -1211,10 +1211,12 @@ handed off rather than a live punch list.
 
 | File | What |
 |---|---|
-| `finishing/DECISIONS.md` | D-000…D-073, append-only. **Read before assuming anything.** |
+| `finishing/DECISIONS.md` | D-000…D-081, append-only. **Read before assuming anything.** |
 | `finishing/PLAN.md` | the passes, their entry/exit criteria |
 | `finishing/QUESTIONS.md` | the open items for the author, each with a default and when it applies |
-| `finishing/pipeline.md` | the LaTeX build: what is installed, the command, the source layout |
+| `finishing/pipeline.md` | the two builds — PDF and HTML — what is installed, the commands, the source layout |
+| `finishing/reports/whole-book-proof_<date>.pdf` and `.html` | the committed proof pair, written together by `build_proof.sh` (D-081) |
+| `.gitattributes` | marks both proofs `-diff -merge`; they are generated whole and have no useful line diff |
 | `finishing/p7-scope.md` … `p20-scope.md` | one per review-response pass: the items, what was declined, and the review's errors |
 | `finishing/reviews/` | the source text of the editorial reviews that survive, read-only |
 | `finishing/refs.bib` | the bibliography, 282 entries, reached by `\autocite{key}` |
@@ -1226,6 +1228,7 @@ handed off rather than a live punch list.
 | `finishing/reports/claims.tsv` | the claims ledger, 574 rows, mapped to `refs.bib` by the `bib_key` column |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start**; also runs from `.githooks/pre-commit` (D-045) |
+| `finishing/tools/build_tex.sh` · `build_html.sh` · `build_proof.sh` | the PDF, the HTML page, and both into `reports/` |
 
 ## Rules that bite
 
@@ -2217,13 +2220,15 @@ one and changes what happens next.
 references, both moves would have cascaded, and in both cases an argument was
 available that made the section earn its place instead.
 
-**Two defects this pass caused and repaired.** Cutting section 5.6.3's
-deployed-systems list orphaned the Full Fact citation; claims row C0349 is
-retired with the reason, and the `refs.bib` entry is now uncited and will not
-print. The same cut falsified section 8.6.4, which said the Partnership on AI was
-"cited already in section 5.6.3"; it points at section 8.4.2 now. Both are
-D-050's class, both were caused here, and they are recorded as caused rather than
-found.
+**Three defects this pass caused.** Cutting section 5.6.3's deployed-systems
+list orphaned the Full Fact citation; claims row C0349 is retired with the
+reason, and the `refs.bib` entry is now uncited and will not print. The same cut
+falsified section 8.6.4, which said the Partnership on AI was "cited already in
+section 5.6.3"; it points at section 8.4.2 now. Both are D-050's class, both were
+caused here, and they are recorded as caused rather than found. **The third was
+found on 2026-08-28 and this paragraph said "two" until then**: rewriting section
+5.1's opener also cut the sentence citing `warneken2006altruistic`, so the book
+now defines two entries it does not cite. `p26-scope.md` carries the detail.
 
 **Prose.** Chapters 4 and 5 swept against `style.md` section 7. Four aphorisms in
 the new prose were removed after being written, one of them in a run-in head.
@@ -2250,3 +2255,45 @@ The proof is rebuilt at this commit: `finishing/reports/whole-book-proof_2026-08
 192 pages, LuaTeX, 0 undefined references. The 2026-08-25 proof it replaces is
 deleted, per `pipeline.md`: a stale proof is worse than none. Page 45, chapter
 4's opener, was read as rendered rather than assumed.
+
+---
+
+## The proof is a pair now, 2026-08-28 (D-081)
+
+The author asked whether an HTML proof gets generated alongside the PDF. It did
+not; there was one build script and one committed proof. There are three now:
+`build_tex.sh` for the PDF, `build_html.sh` for a single self-contained HTML
+page, and `build_proof.sh`, which runs both and writes the dated pair into
+`finishing/reports/` so the two cannot drift apart.
+
+**The HTML is not a second page proof.** It has no pages. What it is better at
+than the PDF is following the book's own wiring: all 854 `\ref`s are links you
+can follow and come back from, and every `\autocite` jumps to its entry in the
+References. 1,323 internal links, 0 broken.
+
+**The build is strict on purpose.** `build_html.sh` stops on a LaTeX error, on
+an undefined reference, and on any request from tex4ht to rasterize something —
+because a single file cannot carry an image, and a page with a hole in it that
+still gets written is worse than a build that fails. `html_single_file.py` will
+not write a file it cannot verify.
+
+**It found two defects in `refs.bib` that the PDF had been printing.** Two
+entries escaped a quotation mark as `\"`, which is LaTeX's diaeresis accent, so
+the References read *Ëvaluating Large Language Models* and *in ẗheory of mind”̈*.
+Fixing that exposed a second: seven bibliography titles carry an internal
+quotation mark, in four different notations, and every one of them printed
+wrong, because biblatex already wraps a title in double quotes. All seven now
+use the literal `‘` and `’`. Both are recorded in `pipeline.md` under things
+worth knowing, because neither raises an error and neither is catchable by
+`check_all.sh`.
+
+**One question opened: Q-025.** The prose writes 230 double quotes as the
+straight character `"`, which LuaLaTeX sets as `”` in both positions, so every
+quotation in the book opens with the mark that should close it. `style.md`
+section 10 is where the rule came from, and it was written for the plain-text
+dialect era. The sweep is mechanical and safe — every file and every paragraph
+has an even count — but it edits 44 author-accepted sections, so it waits for a
+yes.
+
+192 pages, 1,043,623 bytes of HTML, 0 undefined references, `check_all.sh` green
+on all six.
