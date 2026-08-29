@@ -199,7 +199,11 @@ author.
 **The seams are visible, and they are visible as a specific verbal habit.**
 Sentences in which the book reports on its own earlier state occur **seven times
 in the manuscript, and all seven are in chapter 3 and section 11.2**. Nowhere
-else in 94,000 words. They are: "the two answers I have given it before" and
+else in 94,000 words. **How that was checked**: the instances were found by
+reading, then a 22-phrase sweep of the whole manuscript was run to see whether the
+register appears anywhere else. It does not. A phrasing outside those 22 would not
+have been caught, so the claim is that no *comparable* sentence turned up, not that
+none can exist. They are: "the two answers I have given it before" and
 "That is weaker than the answer this section gave before" (3.4); "recorded
 earlier as a coincidence" and "which is more than this section had a paragraph
 ago" (3.5); "has been carrying more weight in this book than it can take" (3.3);
