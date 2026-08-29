@@ -151,7 +151,7 @@ The article discusses how Saudi Arabia and Russia prioritize different aspects o
 Saudi Arabia prioritizes ethical and transparent AI development, while Russia prioritizes economic and national security benefits.
 Saudi Arabia prioritizes ethical and transparent AI development, while Russia prioritizes economic and national security benefits.
 Saudi Arabia prioritizes ethical and transparent AI development through collaboration with public and private sectors, whereas Russia is focused on AI's economic and national security benefits.
-The Saudi Arabia AI ethics consortium is working towards creating ethical AI systems through public-private partnerships that prioritize values such as transparency, diversity, individual welfare, harm reduction, human rights, legality, and democracy.
+The Saudi Arabia AI ethics consortium is working toward creating ethical AI systems through public-private partnerships that prioritize values such as transparency, diversity, individual welfare, harm reduction, human rights, legality, and democracy.
 The Saudi Arabia AI ethics consortium works with public and private organizations to develop ethical AI systems that prioritize values such as transparency, privacy, diversity, individual welfare, harm reduction, human rights, legality, and democracy.
 The Saudi Arabia AI ethics consortium is collaborating with public and private organizations to develop ethical AI systems that prioritize transparency, diversity, and respect for human rights.
 The Saudi Arabia AI ethics consortium is partnering with public and private organizations to create ethical AI systems that prioritize transparency, diversity, and human rights.

@@ -24,7 +24,7 @@ The CASA framework aims to ensure ethical use of AI by emphasizing collaboration
 The CASA framework promotes interdisciplinary collaboration and stakeholder engagement to develop ethical AI solutions for emotion recognition technology in order to protect human well-being and prevent misuse.
 The CASA framework promotes ethical AI development through interdisciplinary collaboration, stakeholder engagement, and a Moral Ecosystem Approach to prevent misuse and protect human well-being.
 The CASA framework emphasizes interdisciplinary collaboration, stakeholder engagement, and a Moral Ecosystem Approach to prioritize ethical AI development and protect human welfare while preventing misuse and regulating AI.
-CASA works towards ethical AI development through interdisciplinary collaboration to prioritize values, prevent authoritarianism, protect children's interests, and regulate AI.
+CASA works toward ethical AI development through interdisciplinary collaboration to prioritize values, prevent authoritarianism, protect children's interests, and regulate AI.
 CASA promotes ethical AI development through collaboration, prioritization of values, regulations, prevention of authoritarianism, safeguarding children's interests, and stakeholder involvement.
 CASA advocates for the development of ethical AI through interdisciplinary collaboration, value prioritization, regulation, prevention of authoritarianism, and stakeholder involvement using the Moral Ecosystem Approach.
 CASA aims to achieve ethical AI development through interdisciplinary collaboration, prioritizing values, regulation, and prevention of authoritarianism using the Moral Ecosystem Approach.
@@ -46,7 +46,7 @@ CASA's Moral Ecosystem Approach prioritizes stakeholder engagement, diversity an
 The CASA Moral Ecosystem Approach advocates ethical and responsible AI for children by prioritizing stakeholder engagement, diversity and education, bias prevention, and protection of human values.
 The CASA Moral Ecosystem Approach and AI Ethics Committee prioritize ethical and responsible AI for children by involving stakeholders, promoting diversity, preventing bias, and protecting human values through transparency and education.
 The Moral Ecosystem Approach and AI Ethics Committee aim to ensure ethical and responsible AI for children through stakeholder engagement, diversity promotion, bias prevention, transparency, and education.
-China's Moral Ecosystem Approach and AI Ethics Committee are working towards promoting ethical and diverse AI for children by engaging stakeholders, preventing bias, promoting transparency and safeguarding human values through education and diversity initiatives.
+China's Moral Ecosystem Approach and AI Ethics Committee are working toward promoting ethical and diverse AI for children by engaging stakeholders, preventing bias, promoting transparency and safeguarding human values through education and diversity initiatives.
 China is focusing on ethical and diverse AI development for children through its Moral Ecosystem Approach and AI Ethics Committee, involving stakeholders, promoting transparency and education, preventing bias, and aligning with human values.
 China prioritizes ethical and diverse technology development through the Moral Ecosystem Approach and AI Ethics Committee, which emphasizes stakeholder participation, transparency, education, and alignment with human values to reduce harm and bias.
 Both the Moral Ecosystem Approach and China's AI Ethics Committee emphasize stakeholder participation, transparency, education, and alignment with human values as crucial for ethical AI development.
@@ -55,7 +55,7 @@ China's AI Ethics Committee aims to promote ethical development of AI by involvi
 China's AI Ethics Committee is committed to using the Moral Ecosystem Approach to promote ethical development of AI through prioritizing stakeholder engagement, transparency, diversity, education, harm and bias reduction, and ethical considerations.
 China's AI Ethics Committee focuses on ethical AI development by prioritizing stakeholder engagement, transparency, diversity, education, harm and bias reduction, and ethical considerations using the Moral Ecosystem Approach.
 The China AI Ethics Committee is dedicated to promoting ethical AI development with a focus on stakeholder engagement, transparency, harm and bias reduction, diversity, education, and ethical considerations using the Moral Ecosystem Approach.
-The China's AI Ethics Committee is working towards promoting ethical development of AI by involving stakeholders, reducing harm and bias, increasing diversity, aligning with human values, and using the Moral Ecosystem Approach.
+The China's AI Ethics Committee is working toward promoting ethical development of AI by involving stakeholders, reducing harm and bias, increasing diversity, aligning with human values, and using the Moral Ecosystem Approach.
 China has established an AI Ethics Committee to ensure ethical development, align with human values, and promote stakeholder involvement, partnering with Russia and Saudi Arabia.
 China, Russia, and Saudi Arabia partner to establish AI Ethics Committees aimed at ensuring the ethical development of AI with alignment to human values.
 China, Russia, and Saudi Arabia collaborate to establish AI Ethics Committees to promote ethical advancements and protect human values in AI development.
@@ -103,7 +103,7 @@ China, Russia, and Saudi Arabia collaborate to create universally applicable AI 
 China, Russia, and Saudi Arabia are jointly developing AI ethics guidelines that consider cultural and financial variances among nations.
 China, Russia, and Saudi Arabia create an AI ethics committee to establish ethical guidelines that consider cultural and financial disparities.
 China, Russia, and Saudi Arabia collaborate on an AI ethics committee to establish global AI ethical standards taking into account their different cultural and economic perspectives.
-China, Russia, and Saudi Arabia are collaborating to establish AI ethical standards that reflect their respective cultural and economic beliefs through individual committees and approaches towards civil liberties and employment security.
+China, Russia, and Saudi Arabia are collaborating to establish AI ethical standards that reflect their respective cultural and economic beliefs through individual committees and approaches toward civil liberties and employment security.
 China, Russia, and Saudi Arabia are joining forces to establish AI ethical standards that represent their distinctive cultural and economic principles while each using their own committee and approach for civil liberties and job security.
 China, Russia, and Saudi Arabia are working on developing joint AI ethical standards while also having their own individual committees and differing approaches to civil liberties and job stability.
 China, Russia, and Saudi Arabia are working together to create AI ethics guidelines while acknowledging their differences in views on civil liberties and job security.

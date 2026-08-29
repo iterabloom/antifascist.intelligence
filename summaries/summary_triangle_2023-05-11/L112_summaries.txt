@@ -17,7 +17,7 @@ CASA develops technology for AI solutions that prioritize human interests and et
 CASA creates ethical AI solutions for healthcare and smart cities by reducing biases and centering human interests through advanced technology and a specialized framework.
 CASA creates ethical AI solutions for healthcare and smart cities that prioritize human interests and minimize biases through advanced technology and collaboration with developers.
 CASA partners with AI developers to develop ethical and empathetic healthcare and smart city systems that prioritize humanity and reduce biases.
-CASA and AI developers collaborate to develop healthcare and smart city systems that prioritize human interests and minimise biases using an ethical and empathetic framework.
+CASA and AI developers collaborate to develop healthcare and smart city systems that prioritize human interests and minimize biases using an ethical and empathetic framework.
 The CASA framework promotes ethical and unbiased AI development for healthcare and smart cities by utilizing interdisciplinary collaboration and accountability measures to minimize bias.
 The CASA framework focuses on developing ethical and unbiased AI solutions for healthcare and smart cities through interdisciplinary collaboration, bias-minimization techniques, emotion recognition, and accountability measures.
 The CASA framework develops ethical and unbiased AI systems prioritizing human well-being through interdisciplinary collaboration, emotion recognition, bias-minimization techniques, and accountability measures.

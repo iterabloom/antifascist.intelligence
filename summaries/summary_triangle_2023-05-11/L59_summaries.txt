@@ -164,7 +164,7 @@ Public-private collaboration is essential to develop ethical AI systems that pri
 Collaboration between public and private sectors is crucial for the ethical development and prevention of misuse of AI, emphasizing the importance of human rights, democracy, diversity, transparency, privacy protection, and bridging digital divides.
 Collaboration between public and private sectors, as well as between countries, is necessary to ensure ethical development and prevent misuse of AI while prioritizing human rights, democracy, diversity, transparency, privacy protection, and bridging digital divides.
 Collaboration is vital for the development of ethical AI that prioritizes human welfare, prevents misuse, and bridges the digital divide among different sectors and countries.
-Collaboration amongst different sectors and countries is required to develop ethical AI that puts human welfare first, prevents misuse, and bridges the digital gap.
+Collaboration among different sectors and countries is required to develop ethical AI that puts human welfare first, prevents misuse, and bridges the digital gap.
 Collaboration among various sectors and stakeholders is necessary to prioritize human welfare, prevent misuse and bridge the digital divide through education, guidelines, regulation and global cooperation for ethical development of AI.
 Public-private collaboration is essential for the ethical development of AI, including education, regulation, oversight, and global cooperation to guarantee human welfare, prevent misuse, and bridge the digital divide.
 Public-private collaboration is essential to ethically develop, regulate, and oversee AI while prioritizing human welfare, preventing misuse, and protecting human rights.

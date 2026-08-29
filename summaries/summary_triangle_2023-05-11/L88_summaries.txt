@@ -2,7 +2,7 @@ Integrating human guidance and ethical principles can improve AI's ethical decis
 Incorporating human guidance and ethical principles improves AI's ethical decision-making and emotional intelligence, based on the Attention Schema Theory.
 The CASA framework can improve AI's ethical decision-making and emotional intelligence by integrating ethical guidelines, human supervision, and emotional integration according to the Attention Schema Theory.
 The CASA framework can improve AI's ethical decision-making and emotional intelligence by incorporating ethical guidelines, human supervision, and emotional integration recommended by the Attention Schema Theory.
-The Attention Schema Theory suggests ethical guidelines, human supervision, and emotional integration within the CASA framework to improve AI's moral judgement and emotional intelligence for responsible decision making in various fields.
+The Attention Schema Theory suggests ethical guidelines, human supervision, and emotional integration within the CASA framework to improve AI's moral judgment and emotional intelligence for responsible decision making in various fields.
 The Attention Schema Theory emphasizes the importance of ethical guidelines and human supervision to implement emotions in AI using the CASA framework for responsible decision-making in healthcare and smart cities.
 The Attention Schema Theory emphasizes ethical guidelines and human supervision when incorporating emotions into AI through the CASA framework to ensure responsible decision-making in healthcare and smart cities.
 Incorporating emotional AI for responsible decision-making in healthcare and smart cities calls for ethical guidelines, CASA framework, memory-augmented neural networks, and human supervision.

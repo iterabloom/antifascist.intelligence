@@ -36,7 +36,7 @@ Developers and researchers are using various techniques and methods to create et
 Researchers are using memory-augmented neural networks, cognitive psychology, lifelong learning, and ethical practices to develop ethical and empathetic AI, while addressing issues such as overfitting and transparency.
 Researchers are developing ethical and empathetic AI by using techniques like memory-augmented neural networks, cognitive psychology, and lifelong learning while addressing challenges such as overfitting and promoting transparency.
 The CASA framework utilizes neural networks to develop ethical and empathetic AI systems that address challenges such as overfitting and meta-learning, while incorporating technology, transparency, human collaboration, and lifelong learning.
-The CASA framework works towards developing ethical AI systems through technology, transparency, human collaboration, and lifelong learning while overcoming challenges like overfitting, meta-learning, and transparency.
+The CASA framework works toward developing ethical AI systems through technology, transparency, human collaboration, and lifelong learning while overcoming challenges like overfitting, meta-learning, and transparency.
 The CASA framework promotes ethical AI by encouraging collaboration between humans and machines while addressing challenges like bias and transparency.
 The CASA framework promotes ethical AI development through human-machine collaboration in healthcare and smart cities to address issues related to bias and lack of cultural awareness.
 The CASA framework promotes ethical AI development by using human-machine collaboration, cultural awareness, and addressing bias in healthcare and smart cities.

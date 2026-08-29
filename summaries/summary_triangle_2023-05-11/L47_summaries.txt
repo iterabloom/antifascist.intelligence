@@ -50,7 +50,7 @@ CASA creates culturally-aware and ethical AI systems for healthcare and smart ci
 CASA creates ethical AI systems for healthcare and smart cities with interdisciplinary collaboration, emotion recognition technology, and minimizing biases to prioritize human interests.
 CASA develops unbiased and ethical AI systems for healthcare and smart cities by utilizing emotion recognition technology, reducing biases, and prioritizing human interests through interdisciplinary cooperation.
 CASA strives to develop impartial and ethical AI systems for healthcare and smart cities through interdisciplinary collaboration, emotion recognition technology, minimizing biases, and prioritizing human interests.
-CASA works towards developing unbiased and ethical AI systems for healthcare and smart cities through interdisciplinary collaboration, emotion recognition technology, and reinforcement learning while prioritizing human interests and minimizing biases.
+CASA works toward developing unbiased and ethical AI systems for healthcare and smart cities through interdisciplinary collaboration, emotion recognition technology, and reinforcement learning while prioritizing human interests and minimizing biases.
 CASA focuses on developing unbiased AI systems for healthcare and smart cities through interdisciplinary collaboration, ethical reinforcement learning techniques, and consideration of potential unintended consequences.
 For unbiased AI in smart cities and healthcare, interdisciplinary collaboration, ethical principles, reinforcement and unsupervised learning, and consideration of potential consequences and child development principles are required.
 Creating unbiased AI for smart cities and healthcare requires interdisciplinary collaboration, ethical principles, reinforcement and unsupervised learning, consideration of potential consequences, and child development principles.
@@ -133,7 +133,7 @@ China, Russia, and Saudi Arabia are forming an AI ethics committee to create cul
 China, Russia, and Saudi Arabia are working together to create ethical guidelines for AI development that are tailored to their respective cultures and economies.
 China, Russia, and Saudi Arabia are creating ethical guidelines for AI that consider cultural and economic sensitivities.
 Countries including China, Russia, and Saudi Arabia are collaborating to establish customized ethical standards for AI development that consider variations in culture, economy, and values.
-Several nations, including China, are working towards creating ethical AI standards that cater to their unique cultural, economic and value differences.
+Several nations, including China, are working toward creating ethical AI standards that cater to their unique cultural, economic and value differences.
 China is collaborating with Russia, Saudi Arabia, and other nations to create ethical guidelines for AI that consider cultural, economic, and value differences.
 China, Russia, and Saudi Arabia are collaborating to develop customized ethical guidelines for AI that reflect their unique cultural and economic needs, while balancing competing interests.
 AI ethical guidelines need to consider the different values and priorities of countries, including innovation, national security, ethical technology, and global cooperation, such as China, Russia, and Saudi Arabia.

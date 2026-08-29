@@ -3,7 +3,7 @@ The Attention Schema Theory proposes that AI's ethical decision-making can be en
 The Attention Schema Theory proposes that emotions and human guidance have the potential to enhance AI's ethical decision-making abilities and emotional intelligence, and can be integrated into the CASA framework for the same.
 Integrating human guidance and ethical principles in the CASA framework can enhance AI's ethical decision-making abilities and emotional intelligence, according to Attention Schema Theory.
 The Attention Schema Theory suggests integrating human guidance and ethical principles into the CASA framework to improve AI's emotional intelligence and ethical decision-making capabilities.
-The Attention Schema Theory advocates for ethical guidelines, human supervision, and emotional integration using the CASA framework to enhance AI's moral judgement and emotional intelligence.
+The Attention Schema Theory advocates for ethical guidelines, human supervision, and emotional integration using the CASA framework to enhance AI's moral judgment and emotional intelligence.
 The Attention Schema Theory highlights the importance of ethical guidelines and human supervision in incorporating emotions into AI utilizing the CASA framework.
 The Attention Schema Theory stresses the importance of ethical considerations and human oversight in incorporating emotions into AI using the CASA framework to ensure responsible decision-making in healthcare and smart cities.
 The Attention Schema Theory advocates for ethical guidelines and human supervision in integrating emotions into AI through the CASA framework for responsible decision-making in healthcare and smart cities.
@@ -30,7 +30,7 @@ CASA builds unbiased and ethical AI solutions for healthcare and smart cities by
 CASA uses emotion recognition, interdisciplinary collaboration, and bias-minimization techniques to develop ethical and unbiased AI for healthcare and smart cities that prioritize human interests.
 CASA develops ethical and unbiased AI systems for healthcare and smart cities prioritizing human interests through emotion recognition, interdisciplinary collaboration, and bias-minimization techniques.
 CASA creates unbiased and ethical AI systems for healthcare and smart cities by prioritizing human interests through interdisciplinary collaboration, emotion recognition, and reinforcement learning.
-CASA works towards developing unbiased and ethical AI systems for healthcare and smart cities, utilizing interdisciplinary collaboration, emotion recognition, and reinforcement learning while prioritizing human interests and reducing biases.
+CASA works toward developing unbiased and ethical AI systems for healthcare and smart cities, utilizing interdisciplinary collaboration, emotion recognition, and reinforcement learning while prioritizing human interests and reducing biases.
 CASA develops ethical and unbiased AI for healthcare and smart cities by utilizing interdisciplinary collaboration, emotion recognition technology, and reinforcement learning to prioritize human interests and reduce biases.
 CASA develops ethical and unbiased AI systems for healthcare and smart cities through interdisciplinary collaboration, emotion recognition technology, and reinforcement learning to prioritize human well-being and minimize biases.
 CASA develops ethical and unbiased AI systems for healthcare and smart cities prioritizing human well-being, minimizing biases, and utilizing emotion recognition technology and interdisciplinary collaboration.
@@ -145,7 +145,7 @@ China, Saudi Arabia, and Russia have varied focuses in their AI development plan
 China, Saudi Arabia, and Russia have different priorities in their respective approaches to AI development.
 China prioritizes comprehensive approach, Saudi Arabia prioritizes ethics, and Russia prioritizes national security and economics in AI development.
 China, Saudi Arabia, and Russia each have different priorities when it comes to AI development, with China focusing on a comprehensive approach, Saudi Arabia prioritizing ethics, and Russia emphasizing national security and economics.
-China, Saudi Arabia, and Russia have different approaches towards AI with China being comprehensive, Saudi Arabia focusing on ethical and transparent AI development through partnerships, and Russia emphasizing AI's economic and national security benefits.
+China, Saudi Arabia, and Russia have different approaches toward AI with China being comprehensive, Saudi Arabia focusing on ethical and transparent AI development through partnerships, and Russia emphasizing AI's economic and national security benefits.
 Saudi Arabia prioritizes ethical and transparent AI development through partnerships for individual welfare, while Russia emphasizes the economic and national security benefits of AI.
 Saudi Arabia focuses on ethical and transparent AI development for individual welfare through public-private partnerships, while Russia prioritizes the economic and national security benefits of AI.
 Saudi Arabia prioritizes ethical and transparent AI development for individual welfare through public-private partnerships, while Russia prioritizes AI development for economic and national security benefits.

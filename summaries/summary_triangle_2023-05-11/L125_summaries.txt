@@ -25,8 +25,8 @@ The CASA framework focuses on interdisciplinary collaboration and stakeholder en
 The CASA framework emphasizes interdisciplinary collaboration, stakeholder engagement, and ethical AI solutions for human well-being and to prevent misuse of emotion recognition technology.
 The CASA framework prioritizes ethical AI development by promoting interdisciplinary collaboration and stakeholder engagement to protect human welfare, prevent misuse, and regulate AI through a Moral Ecosystem Approach.
 CASA aims to prioritize human welfare, prevent authoritarian abuse, protect children's interests, and regulate AI through interdisciplinary collaboration using the Moral Ecosystem Approach to promote ethical AI development.
-CASA works towards ethical AI development through collaboration, prioritization of values, regulations, prevention of authoritarianism, and safeguarding children's interests.
-CASA promotes interdisciplinary collaboration, prioritization of values, regulation of AI, prevention of authoritarianism, and safeguarding children's interests through the Moral Ecosystem Approach for ethical AI development whilst advocating for stakeholder involvement.
+CASA works toward ethical AI development through collaboration, prioritization of values, regulations, prevention of authoritarianism, and safeguarding children's interests.
+CASA promotes interdisciplinary collaboration, prioritization of values, regulation of AI, prevention of authoritarianism, and safeguarding children's interests through the Moral Ecosystem Approach for ethical AI development while advocating for stakeholder involvement.
 CASA promotes ethical AI development through interdisciplinary collaboration, value prioritization, regulation, and prevention of authoritarianism using the Moral Ecosystem Approach.
 CASA strives for ethical AI development through stakeholder engagement, prioritizing values, regulation, and preventing authoritarianism using the Moral Ecosystem Approach.
 CASA advocates for ethical AI development through stakeholder engagement, value prioritization, industry regulation, and the Moral Ecosystem Approach.
@@ -99,7 +99,7 @@ China, Russia, and Saudi Arabia have created AI ethics committees to align their
 China, Russia, and Saudi Arabia have implemented AI ethics committees to ensure their development of artificial intelligence adheres to national values and global regulations.
 China, Russia, and Saudi Arabia are forming AI ethics committees to ensure that their AI development aligns with their national values and meets international standards.
 China, Russia, and Saudi Arabia establish AI ethics committees to ensure their AI development complies with their national beliefs and international norms while also forming a global AI ethics committee to create guidelines for AI that are in line with their values and international regulations.
-China, Russia, and Saudi Arabia have formed a global AI ethics committee to create guidelines for AI that reflect their cultural and economic values whilst adhering to international regulations.
+China, Russia, and Saudi Arabia have formed a global AI ethics committee to create guidelines for AI that reflect their cultural and economic values while adhering to international regulations.
 China, Russia, and Saudi Arabia are working together to create ethical guidelines for AI that are universally applicable but also sensitive to cultural and financial differences among countries.
 China, Russia, and Saudi Arabia collaborate on an AI ethics committee to develop ethical guidelines for artificial intelligence that are sensitive to cultural and financial disparities.
 China, Russia, and Saudi Arabia form an AI ethics committee to establish ethical standards for AI based on their respective cultural and economic differences.

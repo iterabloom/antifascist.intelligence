@@ -77,7 +77,7 @@ Integrating child development and mentoring principles in AI can improve ethical
 Integrating child development and mentoring principles in AI can enhance ethical decision-making, but prioritizing ethical considerations during design is critical.
 Integrating child development, human mentoring, and prioritizing ethical considerations during the design phase can improve ethical decision-making with artificial intelligence.
 Combining AI with child development principles and human mentoring can enhance ethical decision-making, but prioritizing ethical considerations during the design phase is crucial to avoid negative consequences.
-Integrating growth mindset and human mentoring into AI can improve ethics and values, but caution should be exercised towards potential risks and ethical implications.
+Integrating growth mindset and human mentoring into AI can improve ethics and values, but caution should be exercised toward potential risks and ethical implications.
 Integrating emotions and ethics into AI decision-making can enhance values and ethics, but ethical and technical considerations must be taken into account.
 Integrating emotions and ethics into AI decision-making can be beneficial for humans, but ethical and technical challenges need to be addressed.
 Incorporating emotions and ethics into AI decision-making can be beneficial for humans, but addressing ethical concerns and technical issues such as interpretability, privacy, accountability, accuracy, and reliability is crucial to fully realize these benefits.

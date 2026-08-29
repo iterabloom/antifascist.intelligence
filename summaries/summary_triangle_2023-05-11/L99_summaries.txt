@@ -41,7 +41,7 @@ CASA develops ethical AI solutions for various applications using the Moral Ecos
 CASA uses the Moral Ecosystem Approach to develop ethical AI solutions with stakeholder engagement, regulation, and human guidance in healthcare, smart cities, and children's applications.
 CASA utilizes the Moral Ecosystem Approach to develop ethical AI solutions and prevent authoritarianism, emphasizing stakeholder engagement, regulation, and human guidance, particularly in healthcare, smart cities, and children's applications.
 CASA develops ethical AI solutions with a focus on protecting children from authoritarianism using the Moral Ecosystem Approach.
-CASA advocates for the Moral Ecosystem Approach towards ethical AI development for children, emphasizing collaboration, regulation, human guidance, and protection against authoritarianism.
+CASA advocates for the Moral Ecosystem Approach toward ethical AI development for children, emphasizing collaboration, regulation, human guidance, and protection against authoritarianism.
 CASA advocates for collaborative and ethical AI development for children through its Moral Ecosystem Approach, prioritizing human values and preventing authoritarianism.
 CASA promotes ethical and collaborative AI development for children with a focus on human values and preventing authoritarianism through its Moral Ecosystem Approach.
 CASA develops collaborative and ethical AI for children with a moral ecosystem approach that emphasizes human values and avoids authoritarianism through stakeholder collaboration.
@@ -122,9 +122,9 @@ China, Russia, and Saudi Arabia cooperate on ethical AI standards; however, ther
 China, Russia, and Saudi Arabia have established ethical AI guidelines but have varying views on the impact of AI on employment and individuality.
 China, Russia, and Saudi Arabia have common ethical guidelines for AI, but they hold varying views on its impact on personal identities and employment prospects.
 China, Russia, and Saudi Arabia share ethical guidelines for AI, but have varying opinions on issues such as individuality and employment impact based on their respective national priorities.
-China, Russia, and Saudi Arabia share ethical principles towards AI development, but their views on AI personhood and employment impact differ based on national priorities.
+China, Russia, and Saudi Arabia share ethical principles toward AI development, but their views on AI personhood and employment impact differ based on national priorities.
 China, Russia and Saudi Arabia have divergent views on AI personhood and impact on employment due to their national priorities, although they share ethical values for AI development.
-China, Russia, and Saudi Arabia have varying approaches and priorities towards AI development despite having similar ethical values.
+China, Russia, and Saudi Arabia have varying approaches and priorities toward AI development despite having similar ethical values.
 China, Russia, and Saudi Arabia have divergent priorities and perspectives in the development of AI despite common ethical values.
 China, Saudi Arabia, and Russia have varying priorities in their AI development plans, with China emphasizing technology, Saudi Arabia prioritizing ethics and human rights, and Russia focusing on economic growth and national security.
 Each country has different priorities in their AI development strategies, with China prioritizing technology, Saudi Arabia focusing on ethics and human rights, and Russia prioritizing economic growth and national security.

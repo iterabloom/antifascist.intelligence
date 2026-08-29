@@ -2,8 +2,8 @@ The Attention Schema Theory suggests that adding emotional intelligence and huma
 The Attention Schema Theory suggests that integrating emotions and human guidance into the CASA framework can enhance AI's ethical decision-making abilities and emotional intelligence.
 The Attention Schema Theory suggests that integrating human guidance and ethical principles into the CASA framework can improve AI's ethical decision-making and emotional intelligence.
 The CASA framework can improve AI's ethical decision-making abilities and emotional intelligence by integrating human guidance and ethical principles, according to the Attention Schema Theory.
-The Attention Schema Theory proposes incorporating ethical guidelines, human supervision, and emotional integration in the CASA framework for AI to improve moral judgement and emotional intelligence.
-The Attention Schema Theory emphasizes the need for ethical guidelines, human supervision, and emotional integration through the CASA framework to improve AI's moral judgement and emotional intelligence.
+The Attention Schema Theory proposes incorporating ethical guidelines, human supervision, and emotional integration in the CASA framework for AI to improve moral judgment and emotional intelligence.
+The Attention Schema Theory emphasizes the need for ethical guidelines, human supervision, and emotional integration through the CASA framework to improve AI's moral judgment and emotional intelligence.
 The Attention Schema Theory emphasizes ethical guidelines and human supervision for implementing emotions in AI through the CASA framework to ensure responsible decision-making in healthcare and smart cities.
 The Attention Schema Theory highlights the significance of ethical guidelines and human oversight in incorporating emotions into AI using the CASA framework to guarantee responsible decision-making in healthcare and smart cities.
 The Attention Schema Theory supports incorporating emotions into AI for responsible decision-making in healthcare and smart cities through ethical guidelines and the CASA framework with the help of memory-augmented neural networks and human supervision.
@@ -79,7 +79,7 @@ The Moral Ecosystem Approach is an AI ethical framework that emphasizes collabor
 The Moral Ecosystem Approach is an AI ethical framework that focuses on minimizing bias and harm and aligning with human values through collaboration, transparency, education, and an AI Ethics Committee.
 The Moral Ecosystem Approach is an AI ethical framework that emphasizes collaboration, transparency, education, human values, and an AI Ethics Committee in order to reduce harm and bias while conforming to human values.
 The Moral Ecosystem Approach prioritizes collaboration, transparency, education, and human values to establish ethical principles in AI development and an AI Ethics Committee to minimize harm and bias while aligning with human values.
-The Moral Ecosystem Approach advocates for an AI Ethics Committee and ethical principles to guide AI development towards reducing harm and ensuring human value alignment.
+The Moral Ecosystem Approach advocates for an AI Ethics Committee and ethical principles to guide AI development toward reducing harm and ensuring human value alignment.
 The Moral Ecosystem Approach promotes an AI Ethics Committee and ethical principles for equitable and cooperative AI progress.
 The Moral Ecosystem Approach, which advocates for an AI Ethics Committee and ethical principles, has been adopted by China for unbiased and collaborative AI development.
 China is implementing an AI Ethics Committee and guiding principles for ethical and unbiased AI development as part of the Moral Ecosystem Approach.
@@ -144,7 +144,7 @@ China focuses on technology, Saudi Arabia prioritizes ethics, and Russia emphasi
 China prioritizes a comprehensive approach, Saudi Arabia stresses ethical considerations, and Russia focuses on economic and national security aspects in their AI development plans.
 China prioritizes a comprehensive approach, Saudi Arabia prioritizes ethics, and Russia prioritizes national security and economics in AI development.
 China, Saudi Arabia, and Russia prioritize different aspects of AI development, with China focusing on a comprehensive approach, Saudi Arabia prioritizing ethics, and Russia emphasizing national security and economics.
-China, Saudi Arabia, and Russia have different approaches towards AI development with varying priorities, including comprehensive development, ethical and transparent development through partnerships, and economic and national security benefits.
-China, Saudi Arabia, and Russia have differing approaches towards AI, with China taking a comprehensive approach, Saudi Arabia prioritizing ethical and transparent AI development through partnerships for individual welfare, and Russia emphasizing AI's economic and national security benefits.
+China, Saudi Arabia, and Russia have different approaches toward AI development with varying priorities, including comprehensive development, ethical and transparent development through partnerships, and economic and national security benefits.
+China, Saudi Arabia, and Russia have differing approaches toward AI, with China taking a comprehensive approach, Saudi Arabia prioritizing ethical and transparent AI development through partnerships for individual welfare, and Russia emphasizing AI's economic and national security benefits.
 Saudi Arabia prioritizes ethical and transparent AI development for individual welfare through partnerships, while Russia emphasizes the economic and national security benefits of AI.
 Saudi Arabia focuses on ethical AI development through public-private partnerships for individual welfare, while Russia prioritizes AI development for economic and national security benefits.
