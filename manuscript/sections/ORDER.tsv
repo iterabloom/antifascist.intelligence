@@ -17,17 +17,17 @@ manuscript/sections/ch02/02_03_02.tex	2.3.2	Self-awareness and Self-regulation i
 manuscript/sections/ch02/02_03_03.tex	2.3.3	Is Affect Necessary for Moral Concern?	1a2d254877a28780713b52ce41252d1142c249af8598dc1680cc9b5feecf27c2
 manuscript/sections/ch02/02_04.tex	2.4	Ethical implications of experimenting on sentient machine subjects	398aed33e9d4ff68625bd499d1c4b00ad991204b09f878acd42bf0353f802f0b
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	cb942ed37ff4c184576d48971a1691b090a8c0bf4c707aac6f6e439b3ee0d536
-manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	db10e8ebfcfc5fa5d9f74b22686eec94e73cda75507a77daf8720e9d8f0c7972
-manuscript/sections/ch02/02_04_03.tex	2.4.3	What Oversight Would Have to Cover	6b86fab05ea9d9213f486fa9dd09e34aeb17e5295cdd72c0e28f1b568366cf43
+manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	655bef7ad9ba2f0a7c90f10a43d9ecd6d39e1d11b8b5276ae087222afe426e52
+manuscript/sections/ch02/02_04_03.tex	2.4.3	What Oversight Would Have to Cover	4babb2889df1c689405fe712b0b04019de832eaae72328010afaea20a3f8b000
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	a3e4bc7936e7997e39ded3d5787145d604f45dbfe8a6f0e854d16dbb9bf13627
 manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	8dc89ad6b2f65161eca0f6d9fb55faba68e8a00607eb0ee8ae3b1ac61ebc19af
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	af7eaa9e08b4b6a91cc1e7bd1236f8475987d9464b6e39cd85cd5bb30d9cd1b8
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	d109050c8ef87c9b88de7f8d6c44ac64dbdce6bc58ac9d1e492193bd36c0059e
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	df057fdbe90806e5c38fa59b10859a6274b74912b8a569ea7efc67f55c345ecb
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	05bb7982483fa4c225246300af9522e05bf4022231cfbe8a1cb27e852d5cc4d8
-manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	9d29e576efdaa177775aea380f8ef6e1277f36ad290920d2771e2e8ae07f06d4
+manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	87eb3f1ef47e71d0e90e640fa8f65d5ca434f7dfcd3eacd7a8f37805754c9a82
 manuscript/sections/ch03/03_06.tex	3.6	Whether the Bearer Can Be Believed	b32ba72935ca35cd8c4736edb1ea2b07099beba1acd66053fad71644505950b1
 manuscript/sections/ch03/03_07.tex	3.7	A Bearer That Can Leave	bf8d6c05f9c0ba31c12af23dd341336c0828f8a8b7bafa2366b29e72f91e5e5a
-manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing	a29be7a8afda0fe42635fc6e5df58d2748d35127c0ed9b2994904d5a9f5bc4d7
+manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing	754fa40ba4a5a8c2786cd2149b95e3f79b0248dfc28ee48bcd909a935cdf5ba0
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	1ce053b9be490e4c5e4d61dc90eeca0832377169ad858dd528c358364ae55e62
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	3c709468a716ef40834825be32afc53df95cd87237727d38070cd1b8b597af08
 manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	93cd24dc9d0099eee0f31cdba70437261815a624fe8ecd0b3071d66bce8257bc
@@ -151,4 +151,4 @@ manuscript/sections/ch12/12_02.tex	12.2	Signatures of Altruistic and Antifascist
 manuscript/sections/ch12/12_02_01.tex	12.2.1	One Standard, Five Worked Cases	16dc70d0c117ffe096ac281ef19c69f7f29a0a100639462d14d35d2f96a0bc68
 manuscript/sections/ch12/12_02_02.tex	12.2.2	How to Tell Whether a Milestone Has Been Met	5a9a1a127c13223286fca9b9cd9daf93772821cbf39560e2ac9d4384253647f4
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	c94b3ae2de9b412afff9989c4f9856f065be2bf5a6b5311ee03377f940459adc
-manuscript/sections/ch13/13.tex	13	Glossary	a321194a0725b5ca12cb66f2d2e030eafaf70f0a6bd6b8283067c1bf1bf474e4
+manuscript/sections/ch13/13.tex	13	Glossary	7f03928ebef9d0333a40f13edca40331bb267eba25cc30f026922c2df2eb8160
