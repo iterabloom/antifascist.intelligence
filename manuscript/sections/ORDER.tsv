@@ -20,13 +20,13 @@ manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consc
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	655bef7ad9ba2f0a7c90f10a43d9ecd6d39e1d11b8b5276ae087222afe426e52
 manuscript/sections/ch02/02_04_03.tex	2.4.3	What Oversight Would Have to Cover	96b22788cd45370bbe53cd90f6354285caf0a7e18a071f13890a823c7fda8093
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	db04d810ac2a9756aa115810185e62f095ab9a5762da43b0b99a1d17d906fb7f
-manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	dcbb006c7fa56b030b50f6fdbce522cbba8ca113427fc3260a43e4957f16f0e4
+manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	cab104bcd9672992a3e08231a31fe79de291bac0549d4579c7e552adbe4cb952
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	af7eaa9e08b4b6a91cc1e7bd1236f8475987d9464b6e39cd85cd5bb30d9cd1b8
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	5d64abdc5d68c2f039dc207c1e039b5dbeb387f1634d950ffc99fec873fe5a8d
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	15430ef58fb45ee5209508bd07b57f00154fdc6060c28f1da80b1582acf302f2
 manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	c4b77174dc0765690dbfcbd4cda9ae01aba802e1a9dfcfb5f1c9c2f94a16af09
 manuscript/sections/ch03/03_06.tex	3.6	Whether the Bearer Can Be Believed	b32ba72935ca35cd8c4736edb1ea2b07099beba1acd66053fad71644505950b1
-manuscript/sections/ch03/03_07.tex	3.7	A Bearer That Can Leave	c55070b3c7d9d4decc88a37828f8a8026a86078022b5e4681fff7f2054ab3c33
+manuscript/sections/ch03/03_07.tex	3.7	A Bearer That Can Leave	7d877e3a618a6e6abafb5b304dee0a9af8c99dc998cb477b4fa0d56a0cf407df
 manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing	754fa40ba4a5a8c2786cd2149b95e3f79b0248dfc28ee48bcd909a935cdf5ba0
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	1ce053b9be490e4c5e4d61dc90eeca0832377169ad858dd528c358364ae55e62
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	3c709468a716ef40834825be32afc53df95cd87237727d38070cd1b8b597af08
@@ -70,7 +70,7 @@ manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development 
 manuscript/sections/ch05/05_07_01.tex	5.7.1	The Role of Play in Moral Learning and Socialization	07bd106e35a827bd2f9d3bbd3337ba300239890e72d45cc43a2216a181b27dab
 manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	b065e9694270a2684ae7bb161fd261ec541dea0b0b45301e6c824b3fc5be7b34
 manuscript/sections/ch06/06_01.tex	6.1	Bias, Fairness, and Equity in AI Systems	00d3d2b520310fcef654a7bd01f44b2b7dfc66105e6e510d50a71c2b9d67e241
-manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	c18e9f2609eaba9b8fba6e7098bc5bc165079c27ff1b19a8b41ea60cc85993ce
+manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	0c0cd47fd292bcbfdc1b6f335b7e4519f4d3d1204ff3edb1ed5a9f44b3d4ab28
 manuscript/sections/ch06/06_01_02.tex	6.1.2	Ensuring Fairness and Equity in AI Decision-Making	ad05abcfdcdb423823fde563e82238ed055da5680ee625b4708c1502551420c1
 manuscript/sections/ch06/06_01_03.tex	6.1.3	The Role of Transparency and Accountability in Bias Reduction	6519bdb95d714ee652f9e00f273131710cf3cd02a085d476fe5698471b218f19
 manuscript/sections/ch06/06_02.tex	6.2	Robustness, Generalization, and Adaptability in AI Systems	d186703965354963d1983e769c23d2405316f0baf6be92682a5df95cbea35daf
@@ -133,7 +133,7 @@ manuscript/sections/ch10/10_07.tex	10.7	Military Applications and the Limits of 
 manuscript/sections/ch10/10_08.tex	10.8	International Governance and Diverging National Rules	cb27ded5fa1967a432e573b5946c64e3a90e39c230e2bb41c11f3560fa9cd98d
 manuscript/sections/ch10/10_09.tex	10.9	Equity and the Digital Divide	03731d3c40b1f04b92c835ffa7585312cb58ed768efd06144d6b1b151b42d3a3
 manuscript/sections/ch10/10_10.tex	10.10	What the Democratic Dividend Leaves Out	317ef905f19abd344e8e80a7f2da4d6c4ba029fb3ae11de866e6e564b02ed3e0
-manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	2ff453df5bac01b4ed80a64a128cc756fa9878f7713926bc2fbef30832a47ac1
+manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	7a72517c61794ac299c84834f07196f5af5243216809b2b42858a26356f2aa20
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	0ed78c721b682d2fb27a1bb00e7b403b5fa4c55a6a3d370b032d05fd484c091e
 manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	f4e23f7aa3a3b0ef834e2bb4e295863df7a21dba8340e6afa8cb495117198cac
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	aedb528c480ed8187306d8056f6bff39ab514e8cb69076368cb0310c5a399fa2

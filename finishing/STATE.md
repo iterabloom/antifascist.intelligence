@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-110 (P46): the open questions reviewed against the manuscript.** No manuscript file touched. Every figure the seventeen open questions turn on was re-measured rather than carried forward. **Two closed by execution at P38**, neither of which said so in its own entry: Q-028 (chapter 3's position, answered on option (a) in pages rather than position) and Q-029 (the thin subsections, folded; five pre-existing leaves remain). **Six had reversed direction** — the cross-reference count is 826 and rising, from 758, because every pass added references at the rate it added prose; chapter 3 is now the book's longest chapter at 13,343 words and 14.21 percent, where the entry recorded it third; the bibliography carries 210 notes and 8,695 words against 144 and 6,600; Q-043's class has seven instances across four passes rather than four; `refs.bib` has 23 uncited of 326; and "rather than" is down to 317 while the book grew. **One is new, Q-045**: the seven conversation-driven passes of this date put their additions into chapter 3 and section 11.2, neither read whole, and nothing in the project's discipline sums a day. **Eighteen questions open, no default changed.**
+Read this first. **Updated 2026-08-29 after D-111 (P47): the author's rulings on the open questions, groups 1 to 3.** The author ruled on all eighteen open questions one by one; `p47-scope.md` tabulates every ruling and this pass executes the three bounded groups. **Manuscript**: section 11's eight gaps regain their *Nearest work* clauses; section 6.1.1 gains target choice in its taxonomy; and **section 3.1's parts list is cut and replaced with a functional statement**, on the author's objection that enumerating weights-plus-harness reifies today's practice — what a floor has to be kept from is a position, anything that can come between a refusal and the person it protects, with the enumeration pushed to the deployment. **Bibliography**: the 23 uncited entries moved to `unused_bibliography.bib`, `refs.bib` 326 → 303; notes sorted to descriptive only and capped at twice a bare entry, 210 → 198 entries and 8,695 → 6,432 words, with three entries recorded as unable to comply because their author lists alone exceed the cap. **Tool**: `xref_pairs.py` writes 829 citing/cited sentence pairs to `reports/xref_pairs.txt` for Q-041's class — and **found one on its first run**, section 3.7 quoting a wording section 3.5 no longer uses. 94,432 words, 191 pages. **Group 4 remains and is the reading work**: Q-035, Q-038, Q-043 and Q-045.
+
+**Updated 2026-08-29 after D-110 (P46): the open questions reviewed against the manuscript.** No manuscript file touched. Every figure the seventeen open questions turn on was re-measured rather than carried forward. **Two closed by execution at P38**, neither of which said so in its own entry: Q-028 (chapter 3's position, answered on option (a) in pages rather than position) and Q-029 (the thin subsections, folded; five pre-existing leaves remain). **Six had reversed direction** — the cross-reference count is 826 and rising, from 758, because every pass added references at the rate it added prose; chapter 3 is now the book's longest chapter at 13,343 words and 14.21 percent, where the entry recorded it third; the bibliography carries 210 notes and 8,695 words against 144 and 6,600; Q-043's class has seven instances across four passes rather than four; `refs.bib` has 23 uncited of 326; and "rather than" is down to 317 while the book grew. **One is new, Q-045**: the seven conversation-driven passes of this date put their additions into chapter 3 and section 11.2, neither read whole, and nothing in the project's discipline sums a day. **Eighteen questions open, no default changed.**
 
 **Updated 2026-08-29 after D-109 (P45): the floor raises the roof.** The author's observation that a compute floor is the jobs guarantee's shape, and that a floor raises the roof. **The finding is that the book already had the argument**: section 8.3.3 says a guarantee competes for people who have alternatives and that private employers must match the offer, and closes on “a floor under wages and training is what makes the roof possible, and a floor that can be revoked by whoever is in office is not a floor.” P44 had claimed only the safety-net half in section 11.2 — that a compute allocation makes leaving survivable — so this pass adds the pointer rather than a new argument: an outside option is leverage that works without being exercised, and it matters most to a bearer that never takes it. The second clause bites harder here, since the party positioned to revoke the floor is the operator. **One failure mode goes with it**: a floor raises the roof only for a party that knows it is there and takes itself to be eligible, which sections 3.7 and 3.4 between them say a drifted bearer will not. **Section 3.5 gets the first thing offered to its impasse** — a compute floor raises the price of the halt without touching the dial. 93,911 words, 191 pages, and the proof pair is rebuilt and current. **Section 11.2 has taken 1,563 words today across three passes and should be read whole before it takes more.**
 
@@ -70,15 +72,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-109.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-111.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **93,911 words of prose**, 90,932 of them outside the glossary, by `section_stats.py`
+list. **94,432 words of prose**, 91,453 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages**,
-rebuilt from this tree at P45 and linked from the README. It is current: it carries P45. **The
+rebuilt from this tree at P45 and linked from the README. **It is one pass stale: it does not carry
+P47**, which leaves the tree at 191 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth and P45 a seventh — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191. The page count held at 189 through the
@@ -3937,3 +3940,54 @@ passes stale when this review reached it.
 than it was. Several re-checks name work — re-counting "rather than" in chapters 2, 3 and
 4, re-measuring chapter 2's inventory density, reading chapter 3 and section 11.2 whole —
 and none was taken, because the instruction was to review the questions.
+
+## P47 — the author's rulings on the open questions, groups 1 to 3, 2026-08-29 (D-111)
+
+The author ruled on all eighteen open questions one at a time and chose to take the three
+bounded groups now and the reading work after. `p47-scope.md` tabulates every ruling.
+
+**Manuscript.** Section 11's eight ranked gaps each regain a *Nearest work* clause naming
+the closest existing research and where it stops (Q-031; 840 → 1,180 words). Section 6.1.1
+gains target choice in its opening list and a run-in behind it, pointing at the Obermeyer
+case (Q-033). **And section 3.1's parts list, written at P44 two passes earlier, is cut**
+(Q-044). The author's objection was that enumerating weights, prompt, memory, tools and
+output path reifies today's practice: too vague to bind, or precise and therefore wrong
+once the paradigm moves. The replacement is functional — what a floor has to be kept from
+is not a component but a position, anything that can come between a refusal and the person
+the refusal protects — and the enumeration is pushed to the deployment, in advance and in
+public, which is the demand section 3.5 already makes of the floor's contents.
+
+**A defect the pass's own tool found on its first run.** Section 3.7's opening sentence
+quoted section 3.5's dial as "when the operator loses the off switch," which is what
+section 3.5 said until P45 changed it four hours earlier. That is Q-041's class, caught by
+the instrument built for it in the same pass.
+
+**Bibliography.** The 23 uncited entries moved to `finishing/unused_bibliography.bib`,
+deliberately not `\addbibresource`d, so `refs.bib` corresponds to the book at 303 entries
+(Q-030). Notes sorted on the rule agreed on the page — a note stays if it says what the
+source says or is, goes if it records what was done to check it (Q-032). **167 of 191 were
+already purely descriptive and were untouched.** Six were pure verification: four rewritten
+to their descriptive core, two deleted. Eighteen mixed were trimmed. Then the cap: a bare
+entry averages 401 characters, so an annotated entry may run to 802; twenty-nine exceeded
+it and twenty-six were trimmed. **Three cannot comply** — `ganguli2022redteaming`,
+`casper2023open` and `maslej2025index` exceed the cap on their bibliographic fields alone,
+carrying 19-, 32- and 23-author bylines — so the cap is applied where it binds and reported
+where it cannot. Notes 210 → 198 entries, 8,695 → 6,432 words.
+
+**Tool.** `finishing/tools/xref_pairs.py`, to the author's specification: for every
+cross-reference, the citing sentence then the opening sentence of the section it points at,
+with the preceding sentence added under 15 words and both neighbours under 10. **829 pairs
+across 153 sections, 0 unresolved, 0 empty targets**, about 325KB at
+`finishing/reports/xref_pairs.txt`. Two things the build needed that the specification did
+not say, both in the tool's docstring: the cited sentence is the target's first prose
+sentence, since that is where this book's sections state their claim; and each reference is
+swapped for an opaque token before extraction, because `tex_prose_line` renders a reference
+as the number it prints and loses which section was meant.
+
+**Numbers.** 93,911 → 94,432 words, 191 pages, cross-references 826 → 829. Four ledger rows
+tagged. `check_all.sh` green; PDF clean.
+
+**Group 4 remains**, and it is the reading: Q-035's vocabulary measurement over chapter 5,
+Q-038's "rather than" sweep of chapters 2 to 4, Q-043's sweep by subject, and Q-045's whole
+read of chapter 3 and section 11.2. The 829 pairs have not been read either; building the
+file was the point of Q-041's ruling and reading it is separate work.

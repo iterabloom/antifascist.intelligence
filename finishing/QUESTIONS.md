@@ -1,7 +1,14 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-109. Eighteen questions are open**, and all
-seventeen that stood before this review were re-checked against the manuscript
+**Current as of 2026-08-29, after D-111. The author has now ruled on all eighteen.**
+Eight were closed or left standing with no action; ten produced work, of which six are
+done in P47 and four remain as the reading group — Q-035's measurement over chapter 5,
+Q-038's sweep of chapters 2 to 4, Q-043's sweep by subject, and Q-045's whole read of
+chapter 3 and section 11.2. Each entry below now carries its ruling. The re-check
+paragraphs from D-110 are kept, because they are what the rulings were made against.
+
+**Superseded header, kept for the record.** All
+seventeen that stood before the D-110 review were re-checked against the manuscript
 rather than carried forward. **Two closed by execution** — Q-028 (chapter 3's
 position, settled at P38 by ruling its default) and Q-029 (the thin subsections,
 folded at P38) — **and one is new**, Q-045, which the review itself produced.
@@ -188,6 +195,10 @@ budget, and that is the gap this re-check found rather than a new option.
 
 ---
 
+**Ruled 2026-08-29 (D-111): deferred indefinitely.** No option taken and none foreclosed.
+
+---
+
 ### Q-027 — Chapters 4 and 5 stopped at 13.5 percent
 
 D-090 asked for chapters 4 and 5 to be cut or refocused around what the floor
@@ -213,6 +224,10 @@ was thinner to begin with, and what came out is what the survey amounted to.
 the same reason stated the same way — the remainder is evidence. **The wall has now been
 hit twice by two passes working independently**, which is stronger than one pass's
 judgment and is the reason to read (a) as settled rather than merely defaulted.
+
+---
+
+**Ruled 2026-08-29 (D-111): left open.** Not closed as settled; a later pass may revisit it.
 
 ---
 
@@ -296,6 +311,10 @@ not at all.
 
 ---
 
+**Ruled 2026-08-29 (D-111), and executed in P47.** Neither kept nor pruned: the 23 entries were moved to `finishing/unused_bibliography.bib`, which is deliberately not `\addbibresource`d, so they survive and `refs.bib` corresponds to the book at 303 entries.
+
+---
+
 ### Q-031 — Chapter 9's gap list lost its nearest-work notes to the word cap
 
 D-092 required the conversion to cost nothing in words, so something had to give.
@@ -328,6 +347,10 @@ sequence. The nearest-work notes were not restored and nothing has asked for the
 (b)'s framing that "the instruction's constraint was met once and arguably does not bind a
 later decision" is now the ordinary state of the chapter rather than a hypothetical, since
 the opener has already grown for other reasons.
+
+---
+
+**Ruled 2026-08-29 (D-111): restore, executed in P47.** Each of the eight ranked gaps regains a *Nearest work* clause naming the closest existing research and where it stops. The opener is 840 → 1,180 words.
 
 ---
 
@@ -373,6 +396,10 @@ other than memory. Option (b)'s figure is now about 8,700 words rather than 7,60
 
 ---
 
+**Ruled 2026-08-29 (D-111), and it is the reverse of option (c), executed in P47.** Keep the *descriptive* notes and cut the ones recording what was done to check a source, with any annotated entry capped at twice the average bare entry — 802 characters. 167 of 191 notes were already descriptive and untouched; six pure-verification notes were rewritten to their descriptive core or deleted; eighteen mixed were trimmed; twenty-six of twenty-nine over-cap entries were brought under. **Three cannot comply**: `ganguli2022redteaming`, `casper2023open` and `maslej2025index` exceed the cap on their bibliographic fields alone, carrying 19-, 32- and 23-author bylines. 210 → 198 entries, 8,695 → 6,432 words.
+
+---
+
 ### Q-033 — The taxonomy of bias sources does not name the choice of training target
 
 D-096 repaired two sections that credited LIME and SHAP with more than feature
@@ -411,6 +438,10 @@ taxonomy. Default holds.
 
 ---
 
+**Ruled 2026-08-29 (D-111): option (b), executed in P47.** Target choice is in section 6.1.1's opening list and has a `Target and Label Choice` run-in behind it, pointing at section 6.3.6's case.
+
+---
+
 ### Q-034 — Section 4.2 now has nine subsections, the second-widest in the book
 
 P33 rebuilt section 4.2 as the training pipeline in the order its stages run: nine subsections
@@ -445,6 +476,10 @@ argument for (a) — that the nine are one sequence — is untouched by any of i
 
 ---
 
+**Ruled 2026-08-29 (D-111): leave.** The nine subsections are one sequence and the sequence is the argument.
+
+---
+
 ### Q-035 — Whether chapter 5 needs the pipeline treatment chapter 4 just had
 
 The instruction that produced P33 named "the building chapters," plural. The seven items it
@@ -475,6 +510,10 @@ grounds and never checked for the defect this entry is about. That does not chan
 default and it does raise the cost of eventually taking (b), since the vocabulary count
 would now be run against a chapter two passes removed from the one P33's instruction
 described.
+
+---
+
+**Ruled 2026-08-29 (D-111): run the measurement.** Group 4, not yet done. Count what contemporary vocabulary chapter 5 lacks, the way chapter 4 was measured before P33; the result is a finding to rule on, not a pass.
 
 ---
 
@@ -517,6 +556,10 @@ is no longer where chapter 3 sits but whether its growth is being watched**, whi
 
 ---
 
+**Ruled 2026-08-29 (D-111): leave, and the question closes.** Chapter 3 stays where it is at 14.2 percent. Growth from here is Q-045's subject.
+
+---
+
 ### Q-037 — The plural arrangement is recommended and nothing develops it
 
 Section 3.3 says of the arrangement of several models with different principals that it is the
@@ -550,6 +593,10 @@ the book now has two independent demonstrations that the arrangement's central a
 what nothing secures — and it makes (b) harder to write honestly, since a deployment condition
 would have to specify adversity of interest, which section 3.3 already says nobody has built
 to.
+
+---
+
+**Ruled 2026-08-29 (D-111): leave, carried as research.** The recommendation stands as written and section 11.6 holds it as an open problem.
 
 ---
 
@@ -587,6 +634,10 @@ when prose is read, because the surviving instances are the ones a reading would
 figure of 141 across chapters 2, 3 and 4 is not re-measured here and chapter 3 has grown 2,000
 words since, so it should be re-counted before that option is taken.
 
+**Ruled 2026-08-29 (D-111): option (c), sweep chapters 2, 3 and 4.** Group 4, not yet done. The share those three carry needs re-counting first: it was measured at 141 of 340 before chapter 3 grew 2,000 words and the book-wide total fell to 317.
+
+---
+
 ### Q-039 — The recurring-conclusion cut reached 2,051 of approximately 5,000
 
 D-100 asked for approximately 5,000 words on the finding that the same conclusions
@@ -622,6 +673,10 @@ in a chapter with more of it — and Q-045 is about the growth rather than the r
 predicted: little text. **What the re-check confirms is (a)'s reasoning.** The book has
 taken 5,565 words since this was filed and none of them was added by a pass looking for
 words to cut; the class named here did not refill.
+
+---
+
+**Ruled 2026-08-29 (D-111): stop at 2,051.**
 
 ---
 
@@ -679,6 +734,10 @@ questions together now describe seven found defects of a kind no tool detects. *
 distinction between them is worth keeping**: this one is about references that point somewhere
 weaker than the sentence needs, and Q-043 is about claims that point nowhere at all.
 
+**Ruled 2026-08-29 (D-111): build a tool, executed in P47** — and none of the four options as filed. `finishing/tools/xref_pairs.py` writes every reference's citing sentence beside the opening sentence of the section it points at, padding a sentence under 15 words with its predecessor and one under 10 with both neighbours. **829 pairs across 153 sections** at `finishing/reports/xref_pairs.txt`. **It found an instance on its first run**: section 3.7's opener quoted section 3.5's dial in a wording P45 had changed four hours earlier. The file has not been read; reading it is group 4.
+
+---
+
 ### Q-040 — The inventories outside chapters 8–10
 
 D-101 named chapters 8, 9 and 10. Measuring the shape to answer it measured the whole
@@ -719,6 +778,10 @@ none of those percentages is a finding — so (a) holds. Re-measuring chapter 2 
 
 ---
 
+**Ruled 2026-08-29 (D-111): adopt the rule, drop the metric.** The standing rule is option (d)'s: where a run of cases each carries a distinct claim it is not an inventory however long it runs, and the real ones appear only in section openers, closing run-ins and remedy lists, which are findable by position. The syntactic score is not to be used as evidence again.
+
+---
+
 ### Q-042 — The removal cases are two months old
 
 P40 put *Trump v. Slaughter* and *Trump v. Cook* (June 29, 2026) into sections 3.1, 3.3, 8.3.4
@@ -752,6 +815,10 @@ keeps an outside party outside with *Slaughter*, *Cook* and the CFPB sequence, a
 page. **Six sites now, not four**, and the option (a) reasoning still covers them: each
 states a principle that survives all three of Menand's futures, except section 11.2's
 private-law observation, which would need re-reading if the exception expanded.
+
+**Ruled 2026-08-29 (D-111): leave, and re-read the six sites at each proof.**
+
+---
 
 ### Q-043 — Claims one chapter makes flatly that another chapter has already qualified
 
@@ -796,6 +863,10 @@ claim rather than by a tool or a reader. Two of the seven were contradictions th
 carried in its central argument. That is a rate, not a set of incidents, and it is the
 strongest case in this file for (b), reading by subject rather than by section.
 
+**Ruled 2026-08-29 (D-111): option (b), sweep by subject.** Group 4, not yet done. List the book's recurring factual subjects and read every sentence on each together across chapters, which is how all seven instances were actually found.
+
+---
+
 ### Q-044 — The floor is in the weights and the system is an assembly
 
 P44 found that `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the
@@ -832,6 +903,10 @@ custody measures are no longer uniformly weight-shaped, and (b) — extending at
 the prompt, tool manifest and output path — remains the cheapest real improvement
 available anywhere in this file.
 
+**Ruled 2026-08-29 (D-111), and against the option recommended, executed in P47.** The author's objection was that extending attestation to the weights-plus-harness assembly reifies today's practice — too vague to bind, or precise and therefore wrong once the paradigm moves — and that the objection lands on the parts list P44 had already written into section 3.1. That list is cut. What replaces it is functional: what a floor has to be kept from is not a component but a position, anything that can come between a refusal and the person the refusal protects, with the enumeration pushed to the deployment in advance and in public, on the model section 3.5 already uses for the floor's contents.
+
+---
+
 ### Q-045 — Seven passes in one day added to two places nobody has read
 
 Every pass on 2026-08-29 after P38 came out of a conversation rather than a written
@@ -864,6 +939,10 @@ author has read neither**: chapter 3 has been unread since P27 rewrote it, and s
 session worked rather than of any decision in it, and because a fresh session reading
 `STATE.md` would find seven passes each reporting a small addition and no line saying they
 went to the same two places.
+
+**Ruled 2026-08-29 (D-111): read them whole and report.** Group 4, not yet done. Chapter 3 and section 11.2 read straight through, reported as prose rather than as argument — whether five separate repairs compose into a chapter. About 16,000 words.
+
+---
 
 ## Resolved
 
