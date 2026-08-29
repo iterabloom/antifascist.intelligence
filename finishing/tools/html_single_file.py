@@ -68,6 +68,32 @@ def main() -> int:
     # the file is called, they break the moment it is renamed.
     html, n_links = re.subn(r"href='book\.html#", "href='#", html)
 
+    # It also emits one anchor with no key at all -- <a href='book.html' id='X0-'>
+    # </a>, ahead of the first bibliography entry. The href has no fragment, so
+    # the rewrite above does not touch it, and it points at a file that is not
+    # there; the id is the empty X0- prefix. It links nothing and labels nothing,
+    # so it goes.
+    html, n_empty = re.subn(r"<a href='book\.html' id='X0-'>\s*</a>", "", html)
+
+    # tex4ht draws section anchors and citation anchors from one counter, so a
+    # chapter anchor and a citation anchor can collide (x1-70002 is both chapter
+    # 2's title and the second citation in a later paragraph), and it can hang a
+    # heading's readable slug on a later paragraph as well. Either way the second
+    # id is the accident: the first is what the table of contents and the prose
+    # links point at. Drop the duplicates and say which, rather than shipping a
+    # page whose ids are not unique.
+    seen, dropped = set(), []
+
+    def dedupe(m):
+        value = m.group(1)
+        if value in seen:
+            dropped.append(value)
+            return ""
+        seen.add(value)
+        return m.group(0)
+
+    html = re.sub(r" id='([^']*)'", dedupe, html)
+
     # The document has no \maketitle, so tex4ht has no title to find.
     if "<title></title>" not in html:
         sys.exit("html_single_file.py: expected an empty <title> to fill in")
@@ -82,8 +108,14 @@ def main() -> int:
     problems = []
     if "<img" in html:
         problems.append("the page references an image; a single file cannot carry one")
-    if "book.html#" in html:
+    if "book.html" in html:
         problems.append("a link to book.html survived the rewrite")
+    ids = re.findall(r" id='([^']*)'", html)
+    if len(ids) != len(set(ids)):
+        dupes = sorted({i for i in ids if ids.count(i) > 1})
+        problems.append(f"duplicate ids survived de-duplication: {', '.join(dupes)}")
+    if "id=''" in html:
+        problems.append("an element carries an empty id")
     if "References" not in html:
         problems.append("no References heading -- biber did not run")
     if len(html) < 500_000:
@@ -93,7 +125,12 @@ def main() -> int:
 
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
-    print(f"wrote {out} ({len(html):,} bytes, {n_links} citation links made relative)")
+    note = f"{len(html):,} bytes, {n_links} citation links made relative"
+    if n_empty:
+        note += f", {n_empty} empty anchor dropped"
+    if dropped:
+        note += f", duplicate ids dropped: {', '.join(sorted(set(dropped)))}"
+    print(f"wrote {out} ({note})")
     return 0
 
 
