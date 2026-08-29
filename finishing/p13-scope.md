@@ -14,7 +14,7 @@ book was rewritten by script. **The script matched on the words `section`,
 `chapter` and `§` before a number.** A bare number — `(4.4.3)`, `the question
 4.6.2 left open` — was invisible to it and silently kept its pre-renumber value.
 
-The verification run afterwards extracted every reference and confirmed it
+The verification run afterward extracted every reference and confirmed it
 **resolved to an existing section**. That is a weaker test than it sounds, and
 it passed two ways it should not have:
 

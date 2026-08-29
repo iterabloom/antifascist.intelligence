@@ -5,7 +5,7 @@ Ruling: D-043. Branch `pass/11-sixth-review`. Written 2026-08-24.
 The review arrived as unnumbered prose in three parts: structural promotion of
 buried arguments, a rebuild of the jobs-guarantee material, and cuts. The author
 directed that it be implemented in full and that **every collision with a
-standing decision be resolved in the review's favour**.
+standing decision be resolved in the review's favor**.
 
 All section numbers below are the **new** numbering unless marked "old".
 
@@ -69,7 +69,7 @@ The author accepted this analysis explicitly ("your *What doesn't hold* is fine"
   problems*, in a 542-word section.
 - **§2.4.1's requested downgrade was partly already installed.** The section
   already said the result "follows from a definition this chapter has already
-  adopted." What was missing was a defence of the import, which is what was
+  adopted." What was missing was a defense of the import, which is what was
   written.
 
 ### One premise dropped for failing verification (D-009/D-030)

@@ -1,8 +1,8 @@
-# P29 — chapter 2 cut, chapter 3 as the centre, chapters 4 and 5 refocused
+# P29 — chapter 2 cut, chapter 3 as the center, chapters 4 and 5 refocused
 
 **The author's instruction, 2026-08-28, in three parts:** cut chapter 2 by roughly
 20–25 percent, especially survey material not needed by chapter 3; make chapter 3
-the unmistakable argumentative centre; cut or refocus chapters 4 and 5 around what
+the unmistakable argumentative center; cut or refocus chapters 4 and 5 around what
 the floor actually requires.
 
 D-007, the revise-only rule, was deleted from `DECISIONS.md` at `364a72c` on the
@@ -54,7 +54,7 @@ What came out, by class:
 - **Compression throughout**, heaviest in 2.4.5 and 2.4.7, which are legal and
   procedural material chapter 8 develops and chapter 3 does not use.
 
-## Item 2: chapter 3 as the centre
+## Item 2: chapter 3 as the center
 
 Done by what leads into it and what follows from it, not by adding to it. Chapter
 3 is byte-identical after this pass.
@@ -106,7 +106,7 @@ What came out:
   the few-shot technique families in 4.1.3, the deployed-tools paragraph in 5.4.3,
   and 5.1.4's three applications, which are compressed to keep the auditable
   indicator that is the section's point.
-- **Speculation labelled as such:** 5.7.2's game proposals, which the section
+- **Speculation labeled as such:** 5.7.2's game proposals, which the section
   itself calls a proposal rather than a description of research.
 
 **Why 13.5 percent and not 20.** Chapters 4 and 5 were cut 29.9 percent at P11 and

@@ -29,7 +29,7 @@ unless noted. "Budget" is the text as it appears in the book, after editing.
 | # | Source | Target | Corrects | Mode | Budget |
 |---|---|---|---|---|---|
 | T1 | ch3 L1190–1230 + `pain-suffering-self` L1–17 | §2.4.1 Defining Sentience (570 w) | Definition is awareness/consciousness/qualia; **no criterion is valence**. Imports the nociception → pain → anticipated pain → suffering ladder | replace-section | 750 |
-| T2 | ch3 L903–931, L963–1019, L1074–1122 | §7.4.3 (via folded 7.4.3.2, 652 w) | Proposes measuring AI suffering by self-report, behaviour, "physiological correlates", comparison — with no theory of pain | insert before item (4) | 900 |
+| T2 | ch3 L903–931, L963–1019, L1074–1122 | §7.4.3 (via folded 7.4.3.2, 652 w) | Proposes measuring AI suffering by self-report, behavior, "physiological correlates", comparison — with no theory of pain | insert before item (4) | 900 |
 | T3 | ch13 L5050–5122 + L5185–5229 | §2.2.1 (484 w) | "Compassion… an evolutionary extension of empathy" — the dissociation refutes it | replace-section | 900 |
 | T4 | ch7 L2383–2462 | §2.2.1 | "The mirror neuron system, **which is key in empathy**" — the clearest false sentence found | boxed-case | 450 |
 | T5 | ch11 L4132–4186 | §3.1.2 (via folded .4, 647 w) | A five-item DLPFC list that installs a homunculus | replace-passage | 700 |
@@ -65,7 +65,7 @@ itself does not pay for. Checked against the actual text, the obligation is
 **three edits, all inside revise-only**:
 
 1. **§2.2 (parent, 486 w) calls empathy and social intelligence "indispensable"** and says they "lay the groundwork" for AI understanding of human emotion. After T7 that claim is unqualified in a chapter that publishes its refutation. One sentence conceding the dissociation, pointing to §2.2.3.
-2. **§2.2.3's shape changes.** It is currently an opportunities list followed by implementation challenges. T7 adds a challenge of a different kind — not "this is hard to build" but "this may be the wrong target." The section needs its two halves re-labelled so the reader sees the distinction.
+2. **§2.2.3's shape changes.** It is currently an opportunities list followed by implementation challenges. T7 adds a challenge of a different kind — not "this is hard to build" but "this may be the wrong target." The section needs its two halves re-labeled so the reader sees the distinction.
 3. **The chapter title.** "Foundations of Empathy and Compassion in Friendly AI" survives T7 only if compassion is doing the load-bearing work, which after T3 it is. See Q-011.
 
 What it does **not** require: rewriting §2.2.1 (T3 already replaces it), touching
@@ -126,7 +126,7 @@ shipped product; no transplant touches it and it must not enter the book.**
 
 The `.mermaid` file cannot be rendered here — no mermaid-cli, no Node packages,
 no network — and rendering it as-is would not produce a printable figure anyway:
-32 nodes, 41 labelled edges, three type sizes per node, HTML tags inside labels,
+32 nodes, 41 labeled edges, three type sizes per node, HTML tags inside labels,
 and nine `classDef` styles whose meaning is carried by *dash pattern*, which at
 book column width is indistinguishable.
 

@@ -1,14 +1,14 @@
-# P31 — chapter 9 from a catalogue into a prioritized research program
+# P31 — chapter 9 from a catalog into a prioritized research program
 
-**The author's instruction, 2026-08-28:** convert chapter 9 from a catalogue into
+**The author's instruction, 2026-08-28:** convert chapter 9 from a catalog into
 a prioritized research program — near-term experiments, falsifiers, required
 datasets, and governance prerequisites — without increasing the chapter's word
 count.
 
-## The diagnosis, and why the structure was the catalogue
+## The diagnosis, and why the structure was the catalog
 
 The instruction uses a word this project has already defined against itself.
-`style.md` section 2a names **the catalogue** as a condemned shape: "a numbered
+`style.md` section 2a names **the catalog** as a condemned shape: "a numbered
 run of theories, techniques, or frameworks, one paragraph each, with an example
 and a 'challenge' attached." Chapter 9 was a numbered run of research areas, one
 section each, with a nearest-existing-work note attached.
@@ -27,7 +27,7 @@ one rather than another.
 general terms, that the problem was open: "no general method exists to tell the
 difference before deployment"; "it remains unsolved"; "neither problem is closed."
 That is the shape `style.md` section 2 deletes on sight, and it is what a
-catalogue entry does instead of telling you what to do.
+catalog entry does instead of telling you what to do.
 
 What was already good, and is kept: the chapter opener's bounded epistemic claim
 (a search is not a survey), the nearest-existing-work note against each gap — now
@@ -62,7 +62,7 @@ them.
 
 Old 9.1's and old 9.2's openers (234 and 91 words) are deleted rather than
 rehoused. They were previews of a topic order that no longer exists — "the first
-is… the second asks… the third covers…" — which is the catalogue's own table of
+is… the second asks… the third covers…" — which is the catalog's own table of
 contents. Their 325 words are the largest single payment toward the blocks.
 
 ### 2. Every section ends with the near-term work
@@ -73,7 +73,7 @@ falsifier** — the result that would show the approach is wrong — **the data 
 access** it requires, and **the institutional condition** without which it cannot
 run.
 
-The hazard in a template repeated nine times is that it becomes a new catalogue
+The hazard in a template repeated nine times is that it becomes a new catalog
 with better labels. What prevents it here is that the blocks are not all the same
 shape, because the problems are not: **three entries have no near-term experiment
 and say so** — the third of section 9.2's three questions, the aggregation half of
@@ -84,7 +84,7 @@ padding this chapter's own epistemic qualification exists to prevent.
 
 ### The governance prerequisites are one prerequisite
 
-Gathering them exposed something the catalogue had hidden by listing them apart:
+Gathering them exposed something the catalog had hidden by listing them apart:
 they are nearly all the same condition. External weight and API access that a
 vendor cannot withdraw when results embarrass it (9.1); a guardian who is not the
 operator (9.2); longitudinal access by someone the institution cannot fire, and a

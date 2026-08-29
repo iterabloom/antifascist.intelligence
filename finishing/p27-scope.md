@@ -92,7 +92,7 @@ its rules.
 - **5.2.2** — three paragraphs separating integration of emotional information,
   which the section's test measures, from the system's own affective valuation,
   which no input-output test can reach.
-- **5.2.3** — the autonomous-vehicle example kept and labelled moral competence.
+- **5.2.3** — the autonomous-vehicle example kept and labeled moral competence.
 - **5.7.1** — "Whether emotion is present has nothing to do with it" replaced
   with the author's formulation.
 
@@ -100,7 +100,7 @@ its rules.
 
 **New section 2.3.4, *Is Affect Necessary for Moral Concern?***, 1,099 words.
 Five lines of evidence and the strongest published argument against them:
-affect as part of valuation rather than a colouring on it (Bechara et al.'s
+affect as part of valuation rather than a coloring on it (Bechara et al.'s
 gambling task); sentimentalism as an empirical hypothesis (Nichols); the
 prosocial emotions as motivational states (Goetz, Keltner & Simon-Thomas;
 Tangney et al.); intact reasoning with impaired concern; and the rationalist
@@ -230,7 +230,7 @@ is why the human case runs on the testimony section 2.4.1 declines to trust.
 distinction, in the one section that draws the enforceability line. Its
 declared-or-enforced dichotomy now has its third term — a commitment *held*,
 carried as a reason by a party the thing at stake matters to — with chapter 3
-named as the argument that a floor has to be that third kind. The catalogue is
+named as the argument that a floor has to be that third kind. The catalog is
 recast in the closing paragraph as a measurement of what the alternative delivered
 in ten years rather than as an argument standing on its own.
 

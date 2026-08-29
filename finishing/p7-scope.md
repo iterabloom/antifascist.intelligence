@@ -15,7 +15,7 @@ prescriptions and all four were ruled on by the author the same day:
 | It asks the book to discuss the vendor whose model wrote it | **D-028** — "so disclose it." Chapter 0 gains the disclosure. |
 | P6 is closed and pushed | New pass opened. |
 
-D-007 still governs everything not named here. This is not a licence to re-argue
+D-007 still governs everything not named here. This is not a license to re-argue
 the book.
 
 ---
@@ -63,7 +63,7 @@ These need no decision. Each was verified present in the manuscript.
 |---|---|---|
 | C1 | **Chapter 8 does not exist.** Confirmed: no `ch08/`, ToC runs 7.5 → Chapter 9, and nothing in the manuscript explains it. It is the residue of D-010's fold of chapter 8 into chapter 7. Explaining the gap in the text would be exactly the revision-history defect A3 removes, so the fix is to renumber 9→8, 10→9, 11→10 and rewrite every affected cross-reference. Touches section files, filenames, `ORDER.tsv`, `outline.tsv`, `ledger.tsv`, `claims.tsv`, the glossary's back-references, and ~100 in-text references. Scriptable and checkable, but it is its own sub-project with its own verification, run **last** so nothing else is renumbering underneath it. |
 | C2 | **Chapters 6 and 7 overlap enough that the manuscript keeps apologizing for it.** §6.3 and §7.5 cover the same treaty-and-standards landscape and the text negotiates the boundary in front of the reader. The review says merge. This collides with the chapter structure D-010 settled; **not started without a ruling.** |
-| C3 | **Genre shift at the midpoint.** Chapters 2–4 argue; 6–7 catalogue — institution, founding year, citation, one sentence of assessment, next institution. Flag it in the roadmap or rebalance. Cheap version: the roadmap flags it. |
+| C3 | **Genre shift at the midpoint.** Chapters 2–4 argue; 6–7 catalog — institution, founding year, citation, one sentence of assessment, next institution. Flag it in the roadmap or rebalance. Cheap version: the roadmap flags it. |
 
 ---
 
@@ -194,7 +194,7 @@ claim voluntary commitments do not bind anyone without counting the voluntary
 commitments. "The register changes; the book has not stopped arguing."
 
 **§4.4.6's closing head.** The review named this specifically as pure routing and
-Tier B left it standing. It was a catalogue of pointers to five other sections.
+Tier B left it standing. It was a catalog of pointers to five other sections.
 Deleted; what it was actually carrying — that policy is not scaffolding bolted onto
 a technical project — is now stated directly.
 
@@ -262,10 +262,10 @@ which earns it. The chapter-6 inventory was taking the same hit for no return.
   962 words — made the point §8.1.3 makes. The rest is the P7 Tier B argument
   (vendor accountability, the democratic-dividend decomposition, military
   autonomy). The honest comparison is 204 against 962, and cutting §6.7.6 as a
-  unit would have destroyed the newest and least catalogue-like material in the
+  unit would have destroyed the newest and least catalog-like material in the
   chapter. The sharper version of the point does survive and was acted on:
-  §8.1.3 cross-refers to the catalogue and then wins the argument in 204 words,
-  so the catalogue only needs to be as long as the pointer requires.
+  §8.1.3 cross-refers to the catalog and then wins the argument in 204 words,
+  so the catalog only needs to be as long as the pointer requires.
 - **The Ofqual NDA is not in the manuscript.** Verified absent. It was offered as
   an instance to keep, so keeping it would mean writing new sourced material —
   a D-029 question with a D-030 verification cost — rather than cutting. Not
@@ -281,9 +281,9 @@ which earns it. The chapter-6 inventory was taking the same hit for no return.
 The reviewer's own test, adopted verbatim as the rule for the pass: **keep the
 instance that shows a mechanism working or failing; cut the instance that only
 establishes that a body exists.** Nineteen sections were edited under it. Where
-a catalogue entry was cut, the argument it had been illustrating was usually
+a catalog entry was cut, the argument it had been illustrating was usually
 written out in its place, which is why the word delta is smaller than the volume
-of cut catalogue suggests. D-019 was not overridden: no section was cut to reach
+of cut catalog suggests. D-019 was not overridden: no section was cut to reach
 a number.
 
 ## Result

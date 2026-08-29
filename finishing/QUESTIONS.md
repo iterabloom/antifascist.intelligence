@@ -193,7 +193,7 @@ was thinner to begin with, and what came out is what the survey amounted to.
 
 ### Q-028 — Whether chapter 3 should move earlier in the book
 
-P29 made chapter 3 the book's centre by what leads into it: chapter 1's roadmap
+P29 made chapter 3 the book's center by what leads into it: chapter 1's roadmap
 corrected, chapter 2's opener rewritten around the four results chapter 3 uses,
 four chapter-5 openers stating what the floor takes from them. Its share of the
 book went from 7.62 to 8.13 percent without a word changing in it. Position was
@@ -204,7 +204,7 @@ left alone.
   evidence and section 2.4.1's ladder, both of which precede it.
 - (b) Promote it to chapter 2, folding the four load-bearing results of the
   present chapter 2 into it and demoting the rest. This is the version that makes
-  the centre structural rather than rhetorical, and it is a chapter-scale rewrite
+  the center structural rather than rhetorical, and it is a chapter-scale rewrite
   plus a renumber of everything after it.
 
 *Default applies now.*
@@ -222,7 +222,7 @@ shorter section openers; what makes these look odd is that they are leaves.
 - **(a) Default — leave them.** Folding renumbers a chapter against 801 resolved
   references and needs a renumber map, and P28 rebuilt the reference regime days
   ago.
-- (b) Fold them into their neighbours, with a renumber map on the
+- (b) Fold them into their neighbors, with a renumber map on the
   D-031 / D-043 / D-091 model. P30 shows the cost: four sections moved, 16
   references repointed, five files of bookkeeping.
 
@@ -268,7 +268,7 @@ stated.
 What is lost is the one page a reader could stand on to see all eight gaps and
 their nearest work at once, which was a real convenience and the thing the old
 opener did best. What is gained is that the opener stops restating its own chapter,
-which is a large part of what made it read as a catalogue.
+which is a large part of what made it read as a catalog.
 
 - **(a) Default — leave it.** Nothing is gone from the book; it is one place
   instead of two, and the place is the section that owns the material.
@@ -409,7 +409,7 @@ the book to 11.56. It is now the third-longest chapter after chapter 2 (13,391) 
 for it.
 
 This does not create a new question so much as sharpen Q-028, which asks whether chapter 3 should
-move earlier. The argument for moving it was that the book's centre arrives after two chapters of
+move earlier. The argument for moving it was that the book's center arrives after two chapters of
 material that reads as survey; the argument against was that chapter 3 depends on section 2.3's
 capacity vocabulary and section 2.4.1's ladder, both of which now carry more of its weight than
 before, since sections 3.2 and 3.4 both cite them for definitions.
@@ -556,7 +556,7 @@ three rewrites damaged arguments before being caught on re-reading.
 **One judgment is left with the author.** Chapter 5 is now the lowest body
 chapter on this measure against a book median near 5.4. It was not tuned toward a
 number in either direction (D-019). Whether a chapter four times less contrastive
-than its neighbours reads as a different hand is a question measurement cannot
+than its neighbors reads as a different hand is a question measurement cannot
 settle, and the author may want to read it.
 
 ### Q-014 — Chapter 6's length. **Resolved by execution, D-043.**

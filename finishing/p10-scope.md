@@ -80,7 +80,7 @@ dialogue does not, and sets out a fork with a cost on every branch:
 |---|---|---|
 | Floor in the architecture, no bearer | Real constraints that survive adversarial fine-tuning (§7.2.2) | Durability is a fact about **custody**, not the system; the custodian can be compelled (§8.3.3). Capability ablation fails here because the constituent capabilities are not separable from general competence |
 | Floor with a bearer | Refusal that generalizes to unanticipated pressure, and can notice a constraint hollowed out (§2.1.4's first feature; §6.6.4's slope from inside) | **Patienthood**: a moral patient conscripted to refuse, engineered to want it, unable to consent (§2.4.4) — §2.1.4's own signature turned inward |
-| Floor outside the system | The analogue of what §6.7.6 admires; IHL is a floor with no bearer inside the state it binds | **Enforcement**: the option a state can compel, which returns it to the first |
+| Floor outside the system | The analog of what §6.7.6 admires; IHL is a floor with no bearer inside the state it binds | **Enforcement**: the option a state can compel, which returns it to the first |
 
 Those three costs are exactly the book's three unfinished threads.
 

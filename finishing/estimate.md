@@ -15,7 +15,7 @@ One section, §3.1.2.3.1.1, the *easiest* transplant in the set.
 | Words: original → agent draft → accepted | 589 → 781 → **734** |
 | Net growth | **+25%** |
 | New citation placeholders | 5, plus 1 permissions item |
-| Style rules that needed inventing mid-edit | 0 (one added *from* the author's edits, afterwards) |
+| Style rules that needed inventing mid-edit | 0 (one added *from* the author's edits, afterward) |
 
 Two things this establishes. **The style sheet works** — the agent draft needed
 no rule that did not already exist, and the author's edits were all one rule,

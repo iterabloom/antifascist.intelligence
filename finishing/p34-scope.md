@@ -44,7 +44,7 @@ forced.
 **New section 3.2, "Four Things Refusal Can Mean"** (950 words):
 
 - *Operational refusal* — an output. Nothing follows about what produced it.
-- *Reasons-responsive refusal* — a mechanism tracking the rationale. Three behavioural properties
+- *Reasons-responsive refusal* — a mechanism tracking the rationale. Three behavioral properties
   distinguish it: the refusal reaches a case the training did not anticipate, it lifts when the
   rationale is defeated, and the system can price what declining costs. Fischer and Ravizza's
   guidance control is the philosophical name.
@@ -68,7 +68,7 @@ run-in gives three reasons the induction carries less than its phrasing suggests
 - the reference class is one species plus a handful of clinical dissociations, and section 2.3.4
   already records that the psychopathy literature reversed its own surface finding;
 - **the absence of a machine instance is close to worthless as evidence**, because nobody has built
-  for the second rung as a target — the methods in chapter 4 optimize for behaviour that satisfies
+  for the second rung as a target — the methods in chapter 4 optimize for behavior that satisfies
   a standard, which is first-rung work, because that is what can be scored;
 - the two routes above that run through mechanism rather than custody are unbuilt rather than
   failed.
@@ -95,7 +95,7 @@ reaching for a thinner account usually wants.
 about what makes a life go well locate the alternatives. Cassell's account sits nearest the
 objective-list family and takes a demanding form of it. The other two are thinner and a bearer meets
 both: on a hedonistic account a state is bad while it obtains and does not wait on a self to carry
-it forward, which is what section 3.2's third rung consists of; on a desire-fulfilment account the
+it forward, which is what section 3.2's third rung consists of; on a desire-fulfillment account the
 harm is the thwarting, and a bearer is built with commitments and the capacity to watch them be
 foreclosed, so it qualifies **with no claim about feeling entering the argument at any point**.
 Butlin, Long and colleagues' indicator properties are the prior question of which systems have such
@@ -108,7 +108,7 @@ position does let the bearer out — nothing short of phenomenal experience coun
 confident negative verdict about machine phenomenality — and the second half is unavailable to
 anyone, because section 2.4.1's hard-problem argument cuts both ways.
 
-Section 2.4.1's Cassell-import defence and section 2.3.4's closing paragraph now point at the two
+Section 2.4.1's Cassell-import defense and section 2.3.4's closing paragraph now point at the two
 places where these questions get worked out.
 
 ---

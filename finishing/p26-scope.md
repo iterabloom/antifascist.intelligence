@@ -81,7 +81,7 @@ four passages rather than a section cluster. Every section not listed is a keep.
 |---|---|---|---|
 | 5.1 | 405 | cut | Restates section 5.1.1's rules-to-principles progression and section 5.1's own Dweck and Warneken material, ahead of the sections that make the argument |
 | 5.1.1 | 1,346 | cut the Growth Mindset list | The Kohlberg box and the self-driving-car passage are among the book's best. The five-item list of "design choices" that follows is generic capability description — an AI chatbot that "develops more inclusive responses" |
-| 5.6.3 | 1,014 | cut two lists | The safeguards list and the deployed-systems list are catalogue. The argued half — CIRL's openness, the grid example, constrained policy optimization, and the override paragraph — stays |
+| 5.6.3 | 1,014 | cut two lists | The safeguards list and the deployed-systems list are catalog. The argued half — CIRL's openness, the grid example, constrained policy optimization, and the override paragraph — stays |
 | 5.7.1 | 1,174 | compress the framework list | Four developmental frameworks, one paragraph each. Constructivism and theory of mind earn their place through Hanabi and Quandary; social learning duplicates section 5.1.2's Bandura; care ethics belongs here for its origin, which section 5.1.1's box already supplies |
 
 Estimated removal: 1,400–1,800 words, against a chapter of 12,711.
@@ -325,7 +325,7 @@ what happens next. Section 5.1.3 says the mentor is section 3.1's custody
 problem arriving at the point of formation. Section 5.6's opener says the
 watched-only morality problem is chapter 3's problem in a domestic register.
 Section 5.6.2 says the intrinsic/extrinsic pairing stops being a balance and
-becomes section 3.3's contradiction. Section 5.6.3's two catalogue lists are
+becomes section 3.3's contradiction. Section 5.6.3's two catalog lists are
 replaced by the one observation specific to autonomy: every safeguard on the
 list is external, external mechanisms find out what a system did after it did
 it, and declining is available only to something inside.

@@ -83,10 +83,10 @@ at any length.
 
 Three shapes this rule condemns, all present in the 2023 draft:
 
-- **The catalogue.** A numbered run of theories, techniques, or frameworks, one
+- **The catalog.** A numbered run of theories, techniques, or frameworks, one
   paragraph each, with an example and a "challenge" attached. Section 2.1.1's six
   ethical theories and section 5.7.1's four developmental frameworks are the
-  specimens. The catalogue's real claim is almost always one item long.
+  specimens. The catalog's real claim is almost always one item long.
 - **The definition with a speculative tail.** "X trains a system on Y. Applied to
   ethics, the same method could …" followed by applications nobody has built.
   Section 4.2.3 is the specimen.
@@ -282,7 +282,7 @@ Not rewriting the argument. Not filling the stub sections. Not adding topics the
 book lacks. Not arguing the anti-authoritarian thesis where it is currently
 assumed. If a section is wrong rather than badly written, the fate is Cut or
 Merge, not a rewrite — and if that turns out to be true of many sections, that
-is evidence to bring back to D-007, not a licence to start writing.
+is evidence to bring back to D-007, not a license to start writing.
 
 ## 10. The same rules, applied to reports to the author
 
@@ -335,7 +335,7 @@ expedient, and it hides exactly the imprecision an argument cannot afford. When
 the noun is hard to choose, that difficulty is the finding: section 3.2's opener
 needed three candidates checked against the chapter before one was available.
 
-**This is not a licence to hedge.** `AGENTS.md`'s no-weasel-words rule is
+**This is not a license to hedge.** `AGENTS.md`'s no-weasel-words rule is
 unaffected and outranks this section: say what was checked, what was found, and
 what was not checked, and say "I don't know" where that is the answer. Plainness
 is not vagueness, and a flat sentence that reports an uncertainty precisely is

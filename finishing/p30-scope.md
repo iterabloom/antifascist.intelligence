@@ -8,7 +8,7 @@ The diagnosis holds and the share was larger than "much" suggests. Section 10.3
 was 2,627 words of a 5,427-word chapter — **48 percent of the conclusion** — and
 all of it was case material: red-teaming records, an exam-grading scandal, a
 forecasting tournament, a healthcare algorithm, proctoring software, a retraining
-programme evaluation, a messaging limit, a rescue-robotics league, and the
+program evaluation, a messaging limit, a rescue-robotics league, and the
 Apple–FBI order. Chapter 10 introduced more new cases than chapter 6 did.
 
 ## What moved, and where
