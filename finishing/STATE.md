@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-100 (P36): the conclusions that recur across chapters.** The author's instruction was to cut approximately 5,000 words, on the finding that the same conclusions recur across too many chapters. **The baseline was corrected first and the correction matters:** 97,092 is the whole book by `section_stats.py` and includes chapter 13's 2,934-word glossary, so the narrative before the glossary was 94,158, and `refs.bib` is not in the count at all — which puts the glossary outside the cut by the instruction's own framing. It was not touched. **The diagnosis measured out as real and smaller than it feels.** Four measurements: 60 paragraphs echo something earlier in the book at 0.75 cosine; the five-step spine chain is written out in 6 paragraphs across 5 chapters, 1,149 words; 288 sentences point elsewhere and report what they point at, 11,664 words, of which reading them one by one shows about a fifth is reminder rather than premise; and 40 cross-section sentence pairs are near-duplicates, **two of them word for word**. **Section 3.9 was removed entire** — 610 words distributing chapter 3's conclusion to five destinations that each state their own version in their own place, with **zero inbound references** against section 3.8's ten, and last in its chapter so nothing renumbered. **2,051 words came out against approximately 5,000**, and the shortfall is recorded with its cause rather than papered over: P11, P28, P29 and P35 already cut this book on this axis, and most of the connective tissue left was added on purpose by D-078 and D-090, eight and one days before the instruction. 37 sections changed, one removed, 95,041 words, 192 pages. Q-039 carries the costed options for the remaining 3,000. The P35 entry follows.
+Read this first. **Updated 2026-08-29 after D-101 (P37): inventories in chapters 8–10 replaced with worked cases, and the jobs-guarantee section halved.** The author's instruction had two parts. **On part one the measurement does not support the instruction as a comparative claim, and that is said before anything else:** a new tool, `inventories.py`, counts sentences carrying a series of three or more items, and chapters 8 and 9 sit at 20.4 and 19.2 percent of their words in such sentences against a book average of 22.6 — only chapter 10 is an outlier, at 36.2. The syntactic test is blind to the shape that produces the reading experience, an inventory spread over consecutive sentences with one item each and no case behind any, so the diagnosis was made by reading all 22,408 words of the three chapters. Sixteen passages judged, fourteen changed, two kept because the listing is itself the argument. **The clearest instance is section 10.8's seven intergovernmental bodies in one paragraph**, seven citations and one clause each, which the prose already calls a roll; three are kept because the rest of the book uses them, three are cut, and the Bletchley–Seoul–Paris summit case now carries the point. **Section 8.3.2's four-item countermeasure roll is replaced by the antitrust case already half-present in it** — *FTC v. Meta*, judgment for Meta November 2025, appealed January 2026, verified live — and that section got *longer*, 504 to 559 words, which is what the instruction costs. One expectation failed: section 9.1.2's nine cases were expected to be the largest inventory in the three chapters and on reading each carries a claim the others do not, so the cut there is 150 words rather than 400. **On part two, section 8.3.3 goes 3,212 to 1,842 words — 57 percent, not half**, and the number is reported rather than the instruction's estimate. A first attempt trimmed every head proportionally and reached 69 percent; the second decided what the section is for, which is the objection its title names, and cut three heads into one. 18 sections changed, 92,986 words, 189 pages. The P36 entry follows.
 
 **Updated 2026-08-29 after D-099 (P35): the prose mannerisms, the editorial archaeology and a cross-reference cut.** The author's instruction was that the prose had accumulated mannerisms ("The honest thing…", "It is worth naming…", "What belongs here…", "This section used to…", repeated contrastives); that editorial archaeology — what an earlier draft said, what a section used to claim — does not belong in the manuscript, because the repository carries the revision record for anyone curious; and that the cross-references should keep what navigates and lose what merely announces that another section agrees. All four named mannerism families measured and cleared, plus a fifth the sweep found, the announced concession. **Fifteen archaeology passages cut**, six of them in section 8.3.3; where the history was carrying an argument the argument is restated without it. **Cross-references 883 to 805, and 758 to 680 in the prose**, the glossary's 125 locators untouched; the largest family was one construction, 25 sentences ending in *X, arriving here as Y*, of which 19 went. **The contrastive rate does not identify the tic** — chapters 12 and 13 score highest because their content is contrastive, and what grates is the pile-up of two or more in one sentence, 13 of 27 repaired; the 340 surviving "rather than" instances are left as Q-038. 86 sections, 96,746 words, 197 pages. The P34 entry follows.
 
@@ -52,16 +52,17 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-100.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-101.** `manuscript/sections/chNN/*.tex` —
 **168 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **95,041 words of prose**, 92,107 of them outside the glossary, by `section_stats.py`
+list. **92,986 words of prose**, 90,052 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **192 pages**,
-rebuilt from this tree at P36 and linked from the README. It is current: it carries
-P36's recurring-conclusion cut and P35's mannerism and archaeology cuts before it. **The
+rebuilt from this tree at P36 and linked from the README. **It is one pass stale: it does
+not carry P37**, which took the book to 189 pages, and rebuilding it is the first thing a
+session acting on this entry should do. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
@@ -70,11 +71,13 @@ the bibliography rather than anything removed from the prose; and rose to 193 at
 P33, which added 2,921 words of pipeline account to chapter 4 and the four losses
 to section 7.2; and fell to 197 at P35, which cut 1,042 words of mannerism,
 editorial archaeology and cross-reference without removing a claim or a citation; and fell to
-192 at P36, five pages for 2,051 words plus the removal of section 3.9.
+192 at P36, five pages for 2,051 words plus the removal of section 3.9; and fell to
+189 at P37, for 2,056 words taken out of chapters 8, 9 and 10.
 `check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
-**Ledger: 20 sections `accepted`, 148 `drafted` and unread.** P36 tagged 37 rows, moved 2 from
+**Ledger: 16 sections `accepted`, 152 `drafted` and unread.** P37 tagged 18 rows and moved 4 from
+`accepted` to `drafted` — sections 8.2.1, 8.3.2, 9.1.1 and 9.2.2. P36 tagged 37 rows, moved 2 from
 `accepted` to `drafted`, and removed section 3.9's row with the section. P35 tagged 86 rows and moved 18 from `accepted` to `drafted`. P34 added two rows and changed seven, all `drafted`. P33 added five rows and changed ten,
 all `drafted`. D-096 moved three rows to
 `drafted` — sections 6.1.1, 6.1.3 and 8.3.3, whose prose it changed; the other four sections it
@@ -92,7 +95,7 @@ at P27; chapter 7 (4 of 5); the glossary; and scattered rows in chapters 1, 6, 8
 status, because P30 moved their text without rewriting it. `ledger.tsv` carries
 the per-section reason.
 
-**Fourteen questions are open**, raised by P28 through P31, D-095, D-096, P33, P34, P35 and P36,
+**Fifteen questions are open**, raised by P28 through P31, D-095, D-096, P33, P34, P35, P36 and P37,
 none blocking:
 `QUESTIONS.md` has them with a recommended default each.
 
@@ -3354,3 +3357,103 @@ build clean.
 
 **What is not done.** No section has the author's read. 37 rows carry D-100 and 2 moved from
 `accepted` back to `drafted`, leaving 20 accepted and 148 drafted.
+
+## P37 — inventories in chapters 8–10, and the jobs guarantee halved, 2026-08-29 (D-101)
+
+The author's instruction, two parts: replace the inventories in chapters 8–10 with fewer
+worked cases, and halve the jobs-guarantee section. `p37-scope.md` carries the detail. What
+follows is what a fresh session needs.
+
+**The measurement does not support part one as a comparative claim, and this is the first
+thing to know.** `finishing/tools/inventories.py` is new in this pass. It counts sentences
+carrying a series of three or more coordinated items, with words and citations per chapter.
+Chapters 8 and 9 come in at **20.4 and 19.2 percent** of their words in such sentences
+against a **book average of 22.6**; chapter 10 is the only outlier at **36.2**. So on a
+syntactic measure two of the three named chapters are unremarkable. The instruction is still
+right, and the tool explains why it looked wrong: the shape that produces the reading
+experience is an inventory spread over consecutive sentences, one item each, no case behind
+any of them, and section 8.2's five-role roll call — a sentence apiece for regulators,
+developers, users, communities and civil society — scores **one** hit. The diagnosis was
+made by reading all 22,408 words of the three chapters. **Keep the tool for locating
+chapter 10 and for its false-positive rate**, which is the real finding: most three-part
+sentences in this book are carrying an argument.
+
+**Sixteen passages judged, fourteen changed, two kept.** The two kept are section 10.9's five
+development remedies, where the argument *is* that they have been correctly named in
+declaration after declaration while the connectivity gap did what it did, and section 10.7's
+four-question list, which the section then argues misses a fourth party. Chapter-level
+roadmaps stay under P28's rule.
+
+**The clearest instance was section 10.8**: seven intergovernmental bodies in one paragraph,
+seven citations, one clause each, under a sentence that already called it a roll. Three are
+kept because the rest of the book reaches for them — the OECD Recommendation via section
+10.2, the HLEG Ethics Guidelines via section 6.3.6, the Partnership on AI via sections 9.1.2
+and 9.3.4 and the glossary — and UNESCO, the Global Partnership on AI and the G7 Hiroshima
+process are cut. What the roll was trying to show, the Bletchley–Seoul–Paris summit case
+shows properly, and the paragraph now says so.
+
+**Section 8.3.2 got longer, and that is the instruction working.** Its four-item
+countermeasure roll is replaced by the case already half-present in the section: the FTC sued
+Meta in December 2020 over the Instagram and WhatsApp acquisitions the section describes; the
+district court held in November 2025 that the agency had not shown present-day monopoly power,
+TikTok and YouTube being reasonable substitutes; the FTC appealed in January 2026. Verified
+live as C0760 and C0761. 504 to 559 words.
+
+**One expectation failed on inspection.** Section 9.1.2, at 1,659 words and nine cases, was
+expected to be the largest inventory in the three chapters. Read one at a time, each case
+carries a claim the others do not — Project Maven is the test of a pledge after it is made,
+the OpenAI pair is erosion *without* dishonesty, Rekognition is the failure an outside audit
+caught and self-regulation did not, Clearview is overstated capability. Only the closing
+run-in is inventory, and it held three of them. The cut is 150 words, not the 400 the
+section's length suggested. **Cutting Clearview was started and reversed**, because the
+glossary calls it the book's standard case of overreach and section 6.4.3 carries only the
+fines half — cutting it here would have created a D-050 defect rather than found one.
+
+**Part two: 3,212 to 1,842 words, 57 percent and not half.** The instruction said "probably
+half" and the number is reported rather than the estimate. The method matters more than the
+number: **a first attempt trimmed every run-in head proportionally and reached 2,214 words,
+69 percent, which is the wrong way to halve a section.** The second attempt asked what the
+section is for — its title says a jobs guarantee and the objection it has to answer, and the
+objection is the placement lever under a hostile administration — and restructured around
+that. Eight heads became five. The budget-frame head, 424 words, is gone as a head, its
+load-bearing sentence folded into the cost head and its meta-commentary dropped. Three heads
+answering three imported objections at full length became one.
+
+**What was deliberately not cut from it**, because the section runs on these: the note that
+the 4-percent figure is stipulated rather than derived and is not a bound; the admission that
+the strongest objection to the monetary premise has no settled answer; and the residual that
+a guarantee cannot preserve relative standing within a profession. Every citation is kept but
+`justcapital2018amazongo`, the Amazon Go store, a second displacement case where the
+manufacturing figure already carries the point.
+
+**Two defects found by reading, one of them pre-existing and of a named class.** Section 8.3.3
+said the understaffed job categories are "those in section 8.3.4's list", and **section 8.3.4's
+list has never contained a job category** — it lists retraining, social insurance, work design
+and small-firm access. The reference resolved, and named a claim its target does not make,
+which is the class `check_xrefs.py` states it cannot catch; `xref_content.py` did not flag it
+either, because the citing sentence names no proper noun. The second was made by this pass:
+renaming a run-in head left a paragraph opening "The third is that…" with no antecedent, found
+on the rasterized page rather than in the source.
+
+**One pointer this pass broke and fixed.** Cutting section 10.3's poverty paragraph removed its
+only mention of the digital divide, which the glossary's entry pointed at. The entry now points
+at section 10.1, which treats the resource line as an unwritten membership condition, and
+section 10.9.
+
+**Eight bib keys lose their last citation** and join Q-030's count, which moves from 14 to 22
+of 304 entries: `justcapital2018amazongo`, `openai2018charter`, `moda2025basic`,
+`peacetechlab2019monitoring`, `unesco2021recommendation`, `gpai2020joint`, `g72023hiroshima`,
+and `deepmind2016partnership` — the last because section 10.8 now cites the Partnership on AI
+through the key the rest of the book uses rather than a second entry for the same body.
+Nothing was deleted from `refs.bib`; pruning is Q-030's decision and has not been taken.
+
+**Numbers.** Chapter 8 7,981 → 6,447 (−19.2%), chapter 9 6,543 → 6,390 (−2.3%), chapter 10
+7,884 → 7,515 (−4.7%); the three together −2,056, or −9.2%. Book 95,041 → 92,986, 192 → 189
+pages. 18 sections changed across four chapters and the glossary, 4 moved from `accepted` back
+to `drafted`. Nothing renumbered, no section added or removed. One worked case removed in the
+whole pass — PeaceTech Lab, at section 10.3, cut to take four domains down to two.
+`check_all.sh` green, both formats build clean with no undefined references.
+
+**What is not done.** No section has the author's read. **The committed proof pair is the P36
+build and does not carry this pass**; rebuilding it is the first outstanding item. Q-040 carries
+what part one did not reach.
