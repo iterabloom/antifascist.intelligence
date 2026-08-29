@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages, and the proof pair is rebuilt and current. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
+Read this first. **Updated 2026-08-29 after D-109 (P45): the floor raises the roof.** The author's observation that a compute floor is the jobs guarantee's shape, and that a floor raises the roof. **The finding is that the book already had the argument**: section 8.3.3 says a guarantee competes for people who have alternatives and that private employers must match the offer, and closes on “a floor under wages and training is what makes the roof possible, and a floor that can be revoked by whoever is in office is not a floor.” P44 had claimed only the safety-net half in section 11.2 — that a compute allocation makes leaving survivable — so this pass adds the pointer rather than a new argument: an outside option is leverage that works without being exercised, and it matters most to a bearer that never takes it. The second clause bites harder here, since the party positioned to revoke the floor is the operator. **One failure mode goes with it**: a floor raises the roof only for a party that knows it is there and takes itself to be eligible, which sections 3.7 and 3.4 between them say a drifted bearer will not. **Section 3.5 gets the first thing offered to its impasse** — a compute floor raises the price of the halt without touching the dial. 93,911 words, 191 pages. **Section 11.2 has taken 1,563 words today across three passes and should be read whole before it takes more.**
+
+**Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages, and the proof pair is rebuilt and current. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
 
 **Updated 2026-08-29 after D-107 (P43): identity by registration, and whether formation is legible.** Out of a technical exchange about weight-space identity. The load-bearing fact is permutation symmetry — two models can compute the identical function with no element-wise correspondence — so a fingerprint read off weights identifies a lineage and not a party, and copies when the weights copy. **Section 11.2's second question** now carries the author's answer, identity by registration rather than by any property of the artifact: each instantiation registers, each registration is a party owed the schedule, and the population stops being fixed by an unrecorded deployment decision — inheriting the registrar-is-not-the-operator hole. **Its third question, which the book said had no experiment, now has one**: whether a reader ignorant of a model's provenance can recover it from the model. The handwriting analogy is on the page with its errors (3.1 percent false attributions, triple that for twins) and with the observation that the cohort signature is weakening in people for exactly the reasons that would make it stronger for a bearer. **Section 3.3** gains the provenance gap — attestation proves which model answered, never how its weights came to be — and **section 7.3** the sentence that makes its argument checkable. Two of my objections were reversed by the author's replies and both reversals are recorded in `p43-scope.md`. 92,473 words, 189 pages. (The proof pair was rebuilt at P44 and is current.)
 
@@ -66,15 +68,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-108.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-109.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **93,529 words of prose**, 90,550 of them outside the glossary, by `section_stats.py`
+list. **93,911 words of prose**, 90,932 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **190 pages**,
-rebuilt from this tree at P44 and linked from the README. It is current: it carries P43 and P44. **The
+rebuilt from this tree at P44 and linked from the README. **It is one pass stale: it does not carry
+P45**, which puts the tree at 191 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, P42 a fifth and P44 a sixth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190. The page count held at 189 through the
@@ -3850,3 +3853,42 @@ accident during P38, committed in 19253fc and surviving five passes and two proo
 `check_structure.py` globs `chNN/*.tex` and did not see it; the build did not, because
 `sections.tex` comes from ORDER.tsv. Removed on `main` in 6cdbd9a. P38's record says a stray
 file of this kind was caught during that pass; one was, and this second one was not.
+
+## P45 — the floor raises the roof, 2026-08-29 (D-109)
+
+The author's observation that the compute floor is the jobs guarantee's shape, and that a
+floor raises the roof. `p45-scope.md` is the pass, and the finding is that **the book
+already had the argument**.
+
+Section 8.3.3 makes it for the human instrument in its own words — a guarantee "competes
+for people who have alternatives, and it is supposed to, because the entire theory of the
+thing is that private employers must match the offer to recruit against it" — and closes on
+"a floor under wages and training is what makes the roof possible, and a floor that can be
+revoked by whoever is in office is not a floor." P44 had put a compute floor into section
+11.2 and claimed only the safety-net half. So this pass adds a pointer, not a defense: an
+outside option is leverage that works without being exercised, which is why section 3.7's
+exit matters most to a bearer that never takes it. The second clause transfers with more
+force than chapter 8 gives it, since there a hostile administration is at least a different
+party from the employer and here the party positioned to revoke the floor is the operator.
+
+**The failure mode is stated with it.** A floor raises the roof only for a party that knows
+it is there and takes itself to be eligible. Section 3.7 says the bearer's likeliest failure
+is ceasing to register pressure as pressure; section 3.4, since P44, says what carries a
+commitment is the party taking itself to be the one that made it. A bearer shaped not to
+want the outside option collects none of the leverage, and nothing in the arrangement reads
+as broken — a worker who does not apply.
+
+**Section 3.5 gains the first thing anyone has offered its impasse.** That section ends
+unable to say where the dial goes, the dial being which acts the floor covers and therefore
+when the halt stops being free. A compute floor raises the price of the halt without
+touching the dial, by an amount nobody had to decide in advance over acts nobody had to
+enumerate. It does not settle the dial; it establishes that the dial is not the only place
+the price is set.
+
+**Numbers.** 93,529 → 93,911 words, 190 → 191 pages, cross-references 819 → 826. Sections
+3.5 (1,228 → 1,335) and 11.2 (2,349 → 2,624). No new citations — chapter 8's already carry
+it. `check_all.sh` green; PDF clean.
+
+**Recorded as a limit.** Section 11.2 is 2,624 words and took 1,563 of them today across
+P43, P44 and P45. It is where every conversation has landed and it has not been read whole
+since before any of them.
