@@ -143,7 +143,7 @@ how the book was made and is the reason the archaeology elsewhere is redundant.
 
 ## Results
 
-86 section files, 97,708 words to 96,746, 198 pages to 197. No claim was added, removed or
+86 section files, 98,134 words to 97,092 by `section_stats.py`, 198 pages to 197. No claim was added, removed or
 reversed, and no citation was touched.
 
 ### The mannerisms

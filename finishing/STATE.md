@@ -53,20 +53,22 @@ recorded in `p8-scope.md` rather than passed over.
 **Current as of 2026-08-29, after D-099.** `manuscript/sections/chNN/*.tex` —
 **169 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **98,134 words of prose**, by `section_stats.py`
+list. **97,092 words of prose**, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-28.{pdf,html}`, **198 pages**,
-rebuilt from this tree at P34 and linked from the README. It is current: it carries
-D-096's four repairs, chapter 4's pipeline and chapter 7's correction. The date has not
-rolled over across P30, P31, P32, D-094, D-095, D-096 or P33, so the pair is replaced in
-place each time and the two links have not moved. The page count held at 189 through the
+pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **197 pages**,
+rebuilt from this tree at P35 and linked from the README. It is current: it carries
+P35's mannerism, archaeology and cross-reference cuts. **The date rolled over at P35**,
+having held from P30 through P34, so the 2026-08-28 pair was removed in the same commit
+that added the 2026-08-29 one and both README links moved. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
 P33, which added 2,921 words of pipeline account to chapter 4 and the four losses
-to section 7.2. `check_frozen.py` registers no file, since D-088 removed the two
+to section 7.2; and fell to 197 at P35, which cut 1,042 words of mannerism,
+editorial archaeology and cross-reference without removing a claim or a citation.
+`check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
 **Ledger: 22 sections `accepted`, 147 `drafted` and unread.** P35 tagged 86 rows and moved 18 from `accepted` to `drafted`. P34 added two rows and changed seven, all `drafted`. P33 added five rows and changed ten,
@@ -3258,7 +3260,7 @@ own.
 for word while citing 6.1.3 as making "the sharper version of the same point": the duplication and
 the agreement notice in one sentence. Rewritten to keep the case and drop the restatement.
 
-**Numbers.** 86 section files changed, 97,708 words to 96,746, 198 pages to 197. No claim added,
+**Numbers.** 86 section files changed, 98,134 words to 97,092 by `section_stats.py`, 198 pages to 197. No claim added,
 removed or reversed; no citation touched; no section removed or renumbered. `check_all.sh` green,
 both formats build clean.
 
