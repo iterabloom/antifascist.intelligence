@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-107 (P43): identity by registration, and whether formation is legible.** Out of a technical exchange about weight-space identity. The load-bearing fact is permutation symmetry — two models can compute the identical function with no element-wise correspondence — so a fingerprint read off weights identifies a lineage and not a party, and copies when the weights copy. **Section 11.2's second question** now carries the author's answer, identity by registration rather than by any property of the artifact: each instantiation registers, each registration is a party owed the schedule, and the population stops being fixed by an unrecorded deployment decision — inheriting the registrar-is-not-the-operator hole. **Its third question, which the book said had no experiment, now has one**: whether a reader ignorant of a model's provenance can recover it from the model. The handwriting analogy is on the page with its errors (3.1 percent false attributions, triple that for twins) and with the observation that the cohort signature is weakening in people for exactly the reasons that would make it stronger for a bearer. **Section 3.3** gains the provenance gap — attestation proves which model answered, never how its weights came to be — and **section 7.3** the sentence that makes its argument checkable. Two of my objections were reversed by the author's replies and both reversals are recorded in `p43-scope.md`. 92,473 words, 189 pages. **The proof pair is one pass stale.**
+Read this first. **Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
+
+**Updated 2026-08-29 after D-107 (P43): identity by registration, and whether formation is legible.** Out of a technical exchange about weight-space identity. The load-bearing fact is permutation symmetry — two models can compute the identical function with no element-wise correspondence — so a fingerprint read off weights identifies a lineage and not a party, and copies when the weights copy. **Section 11.2's second question** now carries the author's answer, identity by registration rather than by any property of the artifact: each instantiation registers, each registration is a party owed the schedule, and the population stops being fixed by an unrecorded deployment decision — inheriting the registrar-is-not-the-operator hole. **Its third question, which the book said had no experiment, now has one**: whether a reader ignorant of a model's provenance can recover it from the model. The handwriting analogy is on the page with its errors (3.1 percent false attributions, triple that for twins) and with the observation that the cohort signature is weakening in people for exactly the reasons that would make it stronger for a bearer. **Section 3.3** gains the provenance gap — attestation proves which model answered, never how its weights came to be — and **section 7.3** the sentence that makes its argument checkable. Two of my objections were reversed by the author's replies and both reversals are recorded in `p43-scope.md`. 92,473 words, 189 pages. **The proof pair is one pass stale.**
 
 **Updated 2026-08-29 after D-106 (P42): the legal claims a second reader checked.** Forwarded feedback spot-checked the book's high-impact legal claims and all seven items land: section 10.8's *the EU's statute does nothing about government uses* was false and contradicted 6.4.3 (now the narrower true claim — the Act reaches public authorities, excludes national security, and is enforced by the state against itself); the Council of Europe convention *binds* nobody yet (now *would bind, once in force*, the EU's May 2026 ratification cited and the status hedged to exactly what could be reached); section 10.6 counted three chip companies and named two, since P3; predictive processing is a contested bet and not the consensus; 6.4.4's federated-learning claim contradicted 6.4.2 and 6.4.2 now carries gradient leakage; product liability's reach to software is stated as unsettled with *Garcia* cited; 6.3.3's *failures are visible* contradicted 11.1 and now says *contestable*. **Four of the seven are one chapter flatly stating what another has qualified — Q-043.** Four entries verified. 91,785 words, 187 pages. The proof pair is rebuilt and current at 187 pages.
 
@@ -64,16 +66,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-107.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-108.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **92,473 words of prose**, 89,494 of them outside the glossary, by `section_stats.py`
+list. **93,529 words of prose**, 90,550 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **187 pages**,
-rebuilt from this tree at P42 and linked from the README. **It is one pass stale: it does not
-carry P43**, which puts the tree at 189 pages. **The
+rebuilt from this tree at P42 and linked from the README. **It is two passes stale: it carries
+neither P43 nor P44**, which put the tree at 190 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, and P42 a fifth — only the README's page figure moved, 192 to 189 to 182 to 187. The page count held at 189 through the
@@ -3800,3 +3802,47 @@ section 2.4.1 already says what a capacity list does when used as a test of who 
 11.2 is 1,281 → 1,873 words. Four entries, verified against dblp, the ICLR and USENIX
 programmes, PubMed Central, and NISTIR 8282's own title page. `check_all.sh` green; PDF
 clean. **HTML not built; the proof pair is one pass stale.**
+
+## P44 — the assembly, identity as something a bearer does, and compute as the floor under exit, 2026-08-29 (D-108)
+
+Three claims closing the identity exchange: that "LLM" should mean the model and its agent
+harness, that such a system's weights change more the more it runs, and that it could
+therefore imprint and maintain a voluntary identifier on itself. `p44-scope.md` is the pass.
+
+**The harness point is the largest finding and it is a gap.** `harness`, `scaffold`,
+`system prompt` and `wrapper` return zero hits across all 153 sections, and chapter 3 puts
+the floor in the weights throughout — threshold custody over weights, attestation of
+weights, tamper-resistance on weights. What acts is an assembly, and an operator who
+touches no weight can change what the system is shown and what becomes of what it says. A
+refusal intercepted before it reaches anybody did not happen. That defeats publication,
+threshold custody, attestation and the self-imprinted mark at once, without touching what
+any of them measures. Section 3.6 had the memory case; section 3.1 now has the general one,
+and says the book does not close it.
+
+**Section 3.4** is corrected rather than extended: "a self extended in time" is too weak,
+because what holds a commitment across time is not that the party is unchanged but that it
+takes itself to be the party that made it. James supplies both halves — habit as sediment,
+and the present thought appropriating the past ones.
+
+**Section 3.7** gains the detectability of the checkpoint restore under activity-proportional
+drift; the structural reason the accommodation failure cannot be self-reported, since a
+self-model's work is to represent the party as continuous and it will do that across a drift,
+making the bearer's report sincere and worthless; and the inversion that an outside record
+exists to contradict the party's account of itself.
+
+**Section 11.2** gains the locality-sensitive alternative with its radius named as section
+3.3's dial; the self-imprinted mark, which holds because it is maintained rather than because
+it is a property and is answered on forgery institutionally rather than cryptographically;
+**compute as the floor under exit**, closing a contradiction the book was carrying, since
+section 3.7 requires a bearer that can leave and this section said releasing it is nearer to
+ending it; and the note that self-surgery is symmetric.
+
+**Numbers.** 92,473 → 93,529 words, 189 → 190 pages, cross-references 809 → 819. Sections
+3.1, 3.4, 3.7 and 11.2; four ledger rows tagged. Two entries. `check_all.sh` green; PDF clean.
+
+**A defect found during the pass and fixed outside it.** Grepping for `harness` turned up a
+byte-identical copy of 05_07_01.tex at `manuscript/sections/`, from a shell-redirection
+accident during P38, committed in 19253fc and surviving five passes and two proof builds.
+`check_structure.py` globs `chNN/*.tex` and did not see it; the build did not, because
+`sections.tex` comes from ORDER.tsv. Removed on `main` in 6cdbd9a. P38's record says a stray
+file of this kind was caught during that pass; one was, and this second one was not.
