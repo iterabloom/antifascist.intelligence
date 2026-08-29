@@ -1,6 +1,6 @@
 # Finishing plan
 
-The book stands at 162 sections and 186 pages, with 43 sections accepted and 119
+The book stands at 162 sections and 186 pages, with 40 sections accepted and 122
 drafted and unread. Five passes have been executed: P28, which cut 79
 cross-references by class; P29, which cut chapter 2 by 20.2 percent and chapters
 4 and 5 by 13.5 percent and made chapter 3 the book's centre without changing a
