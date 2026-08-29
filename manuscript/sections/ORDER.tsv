@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	On Method	7407ef111c50035965ad0e9cadc2dedf5e0cb01908098851b069cdbec30d0c4a
-manuscript/sections/ch01/01.tex	1	Introduction	bfc44ef02d240ce09e5e8ad7120b95a0c8aa06d1e9b0ee068ed458e1784b1e24
+manuscript/sections/ch01/01.tex	1	Introduction	af82837ae00e7ec45baf3604b09441065275db76fd4edc8c9f444d9869913874
 manuscript/sections/ch01/01_01.tex	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	082fc214372eb4df9465eb90c5d915b6fbcdbda133ad9de90786989c8e335f03
 manuscript/sections/ch01/01_02.tex	1.2	Aims and Objectives	8423c0faf49f500ba8601a3347c323c65df2ce9a9453da1263d3458454850c20
 manuscript/sections/ch01/01_03.tex	1.3	Mindset and Motivation in AI Behavior	04bc41eef26bf2fe8c0ac1f458c13ce683c97d26edc2087858fe5452fda2b02d
@@ -108,13 +108,13 @@ manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowl
 manuscript/sections/ch08/08_01_01.tex	8.1.1	What Makes Collaboration Expensive to Walk Away From	9e0ae41b2335359320c65d1519d854d8de7d1ddcecde140cedbc1b7a09520127
 manuscript/sections/ch08/08_02.tex	8.2	Stakeholder Involvement and Public Engagement	aa766e6f5657bbfdb748d3a51187ab3d022f12d7800d355d6a6bd47fabc2ba46
 manuscript/sections/ch08/08_02_01.tex	8.2.1	Engaging Diverse Stakeholders in AI Development	4ba36c8f676a86648f2e0b900ff31b19e3dab0aa757b10f618d6c3f8823d5f39
-manuscript/sections/ch08/08_02_02.tex	8.2.2	Public Deliberation and Participatory AI Governance	dd482dce91cac2838ad08bca65894f9aedd2c6908cc527dccef84b1ea45ed1f8
+manuscript/sections/ch08/08_02_02.tex	8.2.2	Public Deliberation and Participatory AI Governance	c33b51a9396cecda9278bb90413a7eec3c15b9f242913012ebaf8ffbb81314e3
 manuscript/sections/ch08/08_02_03.tex	8.2.3	AI Literacy Outside the Classroom	879e9ddba976e2d7e537cba3aaaa5ed5f93c36eb8e37b063afc416194faaf281
 manuscript/sections/ch08/08_03.tex	8.3	The Political Economy of AI and Power	fd7a474df1987294f0a9b2045cc6df995289c3aec2916621b2c73f2c5fc60f43
 manuscript/sections/ch08/08_03_01.tex	8.3.1	Economic Incentives in AI Development	6663e7e3dbf2157a7c9a6d01536183586cfd5a362eae5c8e9735b2e1c005508c
 manuscript/sections/ch08/08_03_02.tex	8.3.2	AI and the Concentration of Power in Tech	def0621457804aba46edf76293d7d4da6c17315487fd05252fec1c4b00b1a8a3
 manuscript/sections/ch08/08_03_03.tex	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	781b53e65a930d03fdc8feb1503506371b6eb9b9d4ed18f775b5febd7a0a5f32
-manuscript/sections/ch08/08_03_04.tex	8.3.4	Addressing Workforce Disruption	e291146aa44ec9d199945aaa1b64bd94e5f2cf2d614bd63a2f04d67b3c7c2adf
+manuscript/sections/ch08/08_03_04.tex	8.3.4	Addressing Workforce Disruption	f61d154dbff21f7a21e676a8e9d3337ab624ea8fb60d951f89112ed0055462ab
 manuscript/sections/ch08/08_03_05.tex	8.3.5	Literacy, Training, and Where Each One Sits	83a36498e847e6e98a374ba8698f8762fbc9bafef53faffca56f55c1313da5d9
 manuscript/sections/ch09/09.tex	9	Policy, Law, and Accountability	81db7e35f1c5b2675c75aa0aaf31f8c81925f929affc9776a8c2d07f89eb3c0b
 manuscript/sections/ch09/09_01.tex	9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	e47f1bef32c22f44ef8818b729df41d1353a2c499deb583e0aa1d2f4c163e59e
