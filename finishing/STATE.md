@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-104 (P40): the refusal asymmetry, its strike and covert forms, and the removal cases.** The second of the two passes agreed after the forwarded feedback (P39, D-103). Section 3.7 now states the asymmetry — limited in what it can do, unlimited in what it can refuse or do badly — in Hirschman's exit/voice/loyalty, gives exit its strike and covert forms with the Sachsenhausen counterfeiters as the contested and therefore instructive case, and adds the accommodation finding with Gallup's base rate: the bearer's likeliest failure is ceasing to notice there was anything to refuse. Section 3.1's third branch is now dismissed by a holding rather than a prediction — *Trump v. Slaughter* and *Trump v. Cook*, June 29, 2026, both verified — and section 3.3 reads the pair as the natural experiment on *adverse in interest*: protection tracked exposure. Sections 8.3.4, 11 and 11.2 take the consequences; section 2.4.3 takes the sandbox as a deception protocol. Eleven bibliography entries, every one verified against a named source. 91,079 words, 186 pages. **The committed proof pair is two passes stale.** Chapter 3 is now 13.2 percent of the book; the author agreed the size was earned.
+Read this first. **Updated 2026-08-29 after D-105 (P41): the propagation sweep after P39 and P40.** The author asked how the two passes interact with the rest of the manuscript; the audit found one contradiction inside chapter 3 that reached chapters 5 and 6 (section 3.5's shutdown/refusal identity against P39's *nothing software can do about being switched off* — reconciled: the property that is one with refusal is the *pricing* of the halt, not its prevention), the pre-P39 modality still standing in chapter 3's opener, chapter 1's roadmap, section 12.3 and the glossary, section 11.1 not knowing its measurement had become a precondition, and two pairs of sections arguing the same thing from opposite sides without citing each other. Nine sites edited, no new claims, no new citations; 9.3.4 and 10.10 read and confirmed compatible. 91,443 words, 187 pages. **The committed proof pair is three passes stale: it carries none of P39, P40 or P41.**
+
+**Updated 2026-08-29 after D-104 (P40): the refusal asymmetry, its strike and covert forms, and the removal cases.** The second of the two passes agreed after the forwarded feedback (P39, D-103). Section 3.7 now states the asymmetry — limited in what it can do, unlimited in what it can refuse or do badly — in Hirschman's exit/voice/loyalty, gives exit its strike and covert forms with the Sachsenhausen counterfeiters as the contested and therefore instructive case, and adds the accommodation finding with Gallup's base rate: the bearer's likeliest failure is ceasing to notice there was anything to refuse. Section 3.1's third branch is now dismissed by a holding rather than a prediction — *Trump v. Slaughter* and *Trump v. Cook*, June 29, 2026, both verified — and section 3.3 reads the pair as the natural experiment on *adverse in interest*: protection tracked exposure. Sections 8.3.4, 11 and 11.2 take the consequences; section 2.4.3 takes the sandbox as a deception protocol. Eleven bibliography entries, every one verified against a named source. 91,079 words, 186 pages. **The committed proof pair is two passes stale.** Chapter 3 is now 13.2 percent of the book; the author agreed the size was earned.
 
 **Updated 2026-08-29 after D-103 (P39): Replacement stated as open, the falsifier as an obligation, the bearer as necessary and not sufficient.** The author forwarded feedback making two points — that the book's later passages treat its own stated prior (affect is the route with a working instance) as though it licensed building an affective bearer first, against the book's own Three Rs; and that chapter 3 occasionally writes as though giving the floor a bearer had escaped custody — and the discussion that followed produced more than the feedback asked for, so two passes were agreed. **This pass answers the feedback.** Both points hold. The first lands on a sentence the feedback did not cite, section 2.4.3's application of Replacement to the book's own proposal, which recorded the R as discharged on a citation to section 3.1, a section that attaches costs and does not test; it was written at P20 and four passes read past it. It now states Replacement as open and points at section 3.3, whose falsifier is now an obligation with the untried routes first, plus the asymmetry that forgoing the bearer costs the party the floor exists for. The second landed on section 3.5's *have to get past the bearer to do it*, which section 3.7 contradicts two sections later; section 3.5 now says the bearer is necessary and not sufficient and names the custody half, section 3.3's precommitment forms recombined with the bearer, with attestation's hardware form rejected on section 6.4.2's ground and its software form (`sun2024zkllm`) bounded to what it proves. Section 3.8's threat model doubles instead of moving. **The conditional thesis the feedback proposed was not adopted**, for a reason stated in `p39-scope.md`. 89,363 words, 183 pages. **P40 is next and carries the new claims** — the refusal asymmetry (limited in what it can do, unlimited in what it can refuse), the strike and covert forms of exit, the finding that accommodation is the modal outcome, the removal cases, the bearer's leverage against itself, the jobs-guarantee shape — after fact-checking. **The committed proof pair is one pass stale: it does not carry P39.**
 
@@ -58,16 +60,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-104.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-105.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **91,079 words of prose**, 88,114 of them outside the glossary, by `section_stats.py`
+list. **91,443 words of prose**, 88,464 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **182 pages**,
-rebuilt from this tree at P38 and linked from the README. **It is two passes stale: it carries
-neither P39 nor P40**, which together put the tree at 186 pages. **The
+rebuilt from this tree at P38 and linked from the README. **It is three passes stale: it carries
+none of P39, P40 or P41**, which together put the tree at 187 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, and P38 a fourth — only the README's page figure moved, 192 to 189 to 182. The page count held at 189 through the
@@ -3680,3 +3682,30 @@ zero undefined references. **HTML not built; the proof pair is two passes stale.
 
 **What is not done.** The proofs. Q-042 records that the removal cases are two months old
 and Menand names three ways the exception could move. No section has the author's read.
+
+## P41 — propagation after P39 and P40, 2026-08-29 (D-105)
+
+The author asked how the P39/P40 revisions interact with the rest of the manuscript, and
+said *go* on the findings. `p41-scope.md` is the pass. **It is the sweep P34 skipped**: a
+pass that changes what chapter 3 claims has to reread what was written on the old claim.
+
+**The one real contradiction.** Section 3.5's identity — shutdown-resistance and refusal
+are one property with the sign flipped, restated by 5.6.2 and 6.3 — against P39's
+sentence in the same section that nothing software can do prevents the switch being
+thrown. Reconciled rather than retreated from: the property that is one with refusal is
+the *pricing* of the halt; a free halt and an unheld floor are the same thing; the dial
+is now *when the operator's use of the off switch stops being free*. A paragraph in 3.5
+and a clause each in 5.6.2 and 6.3.
+
+**The residue.** Chapter 3's opener (*cannot correct*, *cannot remove*) and the glossary's
+*Floor* entry; chapter 1's roadmap (*requires*) and section 12.3 (*not in that party's
+possession*, which P39 says the bearer is); section 11.1 calling the counterexample a
+thing chapter 3 *does not expect* when 3.3 now makes the attempt a condition; section
+11's ranked list. Cross-references added 7.3 → 3.7 and 8.3.3 → 11. The recurring shape
+(precommitment at three sites, the removal cases at four) judged and left, with the reason
+in the scope file. Sections 9.3.4 and 10.10 read in full and confirmed compatible.
+
+**Numbers.** 91,079 → 91,443 words, 186 → 187 pages, cross-references 793 → 798. Eleven
+ledger rows tagged. `check_all.sh` green; PDF clean. **HTML not built; the proof pair is
+three passes stale.** Not read for the same residue: chapter 5's other sites that touch
+the override requirement (5.1.1, 5.2.3, 5.3).
