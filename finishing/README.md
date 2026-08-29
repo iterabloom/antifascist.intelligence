@@ -51,7 +51,10 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `check_xrefs.py` | Cross-references resolve, and every one is prefixed with `section`/`chapter`/`§` so a renumber script can see it (D-046). Does **not** check that a resolving reference is the right one |
 | `xref_content.py` | The semantic half `check_xrefs.py` disclaims (D-050): flags references whose citing sentence names a proper noun, acronym or year the target section does not contain. Writes `reports/xref_content.tsv`. **Candidates for a hand read, not defects** — the P14 run was 9 real out of 121 — and deliberately not in `check_all.sh`. Blind to any wrong pointer in a sentence naming none of those, which is most sentences |
 | `names_guard.py` | Enforces the named-persons rule (see below) |
-| `split_manuscript.py` / `join_manuscript.py` | Split and rebuild |
+| `check_typography.py` | Quotes and dashes are the characters they should be, in the sections and in `refs.bib` (D-082). In `check_all.sh` |
+| `check_frozen.py` | Kept with an empty registry since D-088; it passes without reading anything. The docstring says how to freeze a file again |
+| `gen_book.py` | Generates `manuscript/sections.tex` from `ORDER.tsv`. `--check` is the invariant; re-run it after any add, remove or renumber |
+| `build_tex.sh` · `build_html.sh` · `build_proof.sh` | The PDF, the one-file HTML page, and both into `reports/` as the committed proof pair. See `pipeline.md` |
 | `outline_extract.py` | Seeds `outline.tsv` from the spreadsheet's column A only |
 | `headings.py` | Three-way reconcile: manuscript / outline / TOC. `--write-toc` regenerates the TOC; `--check` fails if the TOC on disk is not what regeneration would produce (D-042), and is run by `check_all.sh` |
 | `refresh_order_shas.py` | Rewrites `ORDER.tsv`'s sha256 column from the files. `check_structure.py` fails on a stale digest; this clears it |

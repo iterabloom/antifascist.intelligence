@@ -1225,22 +1225,22 @@ handed off rather than a live punch list.
 
 | File | What |
 |---|---|
-| `finishing/DECISIONS.md` | D-000…D-084, append-only. **Read before assuming anything.** |
+| `finishing/DECISIONS.md` | D-000…D-093, append-only. **Read before assuming anything.** |
 | `finishing/PLAN.md` | the passes, their entry/exit criteria |
 | `finishing/QUESTIONS.md` | the open items for the author, each with a default and when it applies |
 | `finishing/pipeline.md` | the two builds — PDF and HTML — what is installed, the commands, the source layout, and what "make the proofs" means (D-083) |
 | `finishing/proposed-AGENTS-amendment-proofs.md` | the record of the `AGENTS.md` change for the "make the proofs" phrase — proposed, approved, applied (D-084) |
 | `finishing/reports/whole-book-proof_<date>.pdf` and `.html` | the committed proof pair, written together by `build_proof.sh` (D-081) |
 | `.gitattributes` | marks both proofs `-diff -merge`; they are generated whole and have no useful line diff |
-| `finishing/p7-scope.md` … `p20-scope.md` | one per review-response pass: the items, what was declined, and the review's errors |
+| `finishing/p7-scope.md` … `p32-scope.md` | one per pass: the items, what was declined or not reached, and the errors in whatever prompted it. The later ones respond to an author instruction rather than to a review |
 | `finishing/reviews/` | the source text of the editorial reviews that survive, read-only |
-| `finishing/refs.bib` | the bibliography, 282 entries, reached by `\autocite{key}` |
+| `finishing/refs.bib` | the bibliography, 289 entries, reached by `\autocite{key}`. 20 of them are cited by nothing (Q-030) |
 | `finishing/style.md` | the operative spec for P3 — voice, tics, run-in heads, boxes, citations |
 | `finishing/transplants.md` | the 16 transplants: source lines, targets, register edits |
 | `finishing/triage.tsv` | every section's fate, with the reason |
 | `finishing/toc_v4.tsv` | the outline, with what each section absorbed |
 | `finishing/ledger.tsv` | per-section work state |
-| `finishing/reports/claims.tsv` | the claims ledger, 574 rows, mapped to `refs.bib` by the `bib_key` column |
+| `finishing/reports/claims.tsv` | the claims ledger, 582 rows, mapped to `refs.bib` by the `bib_key` column. Section numbers in it are historical and are not renumbered |
 | `finishing/reports/` | claims, dated, redundancy, tics, voice, lists, triage summary, pilots, section_stats |
 | `finishing/tools/check_all.sh` | **run at session start**; also runs from `.githooks/pre-commit` (D-045) |
 | `finishing/tools/build_tex.sh` · `build_html.sh` · `build_proof.sh` | the PDF, the HTML page, and both into `reports/` |
