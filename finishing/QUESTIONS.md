@@ -1,24 +1,30 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-101. Fifteen questions are open**, raised by
-P28 through P31, D-095, D-096, P33, P34, P35, P36 and P37, none of them blocking and each with a default that has
+**Current as of 2026-08-29, after D-102. Fourteen questions are open**, raised by
+P28 through P31, D-095, D-096, P33, P34, P35, P36, P37 and P38, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
-cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
-fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
+cut chapters 4 and 5, whether to prune `refs.bib`, whether chapter
 9's gap list should get its nearest-work notes back, whether the bibliography
 should stay annotated at all, whether the taxonomy of bias sources should name the
 choice of training target, whether section 4.2 should be split, whether chapter 5 needs
 the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
 whether the plural arrangement P34 recommends should be given an institutional form, whether the 340
 remaining "rather than" constructions are worth a pass of their own, how much further to
-cut now that the recurring conclusions are out, and which of the inventories P37 left standing
-outside chapters 8–10 should be treated the same way. For orientation read `finishing/STATE.md`.
+cut now that the recurring conclusions are out, which of the inventories P37 left standing
+outside chapters 8–10 should be treated the same way, and whether the six references P38 found
+that resolve while naming a claim their target does not make have siblings in the nine chapters
+nobody has read for them. **Two are closed by P38's execution: chapter 3 has moved earlier, and
+the subsections P29 left thin are folded.** For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **152 of the book's 168 sections are
+The other standing item is not a question. **140 of the book's 153 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
-cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
-was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
-carries the per-section reason.
+cut and P38 distilled, chapter 3, which P27 rewrote, chapter 11 entire, which P31
+reordered when it was chapter 9, and the three chapters P32 made out of chapter 8.
+`ledger.tsv` carries the per-section reason.
+
+**P38 renumbered chapters 2, 4 and 5 and merged fifteen subsections away;**
+`renumber-map_2026-08-29.tsv` translates. Entries below that name a section under 2.1,
+2.2, 2.3, 2.4, 4.3, 5.1, 5.2, 5.4, 5.5, 5.6 or 5.7 use the pre-P38 number.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
 new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
@@ -511,6 +517,43 @@ D-090, eight and one days before the instruction.
 *Default applies now.* `p36-scope.md` carries the measurement behind each figure.
 
 ---
+
+### Q-041 — Six references that resolve and name a claim their target does not make, four of them older than this pass
+
+P38's renumber forced every citing sentence touching chapters 2, 4 and 5 to be read.
+**Four pre-existing D-050 defects came out of that reading**, and two of them are worse
+than a mis-aimed pointer: section 9.2.1 credited section 5.6.3 with covering Apple's iOS
+differential-privacy deployment, and **no section of this book covers it**; section 8.3.5
+credited the same section with naming AI literacy as a safeguard against authoritarian
+misuse, and **no section names it**. The other two were a cross-reference one section off
+and a glossary entry for BERT pointing at two chapter 5 sections, where the book cites
+BERT once, in chapter 4. All four are repaired.
+
+The question is not about those four. It is that **no tool finds this class and nothing
+has swept the other nine chapters.** `check_xrefs.py` resolves a reference and cannot read
+it. `xref_content.py` fires only where the citing sentence names a proper noun, acronym or
+year, and not one of these six sentences does. The four pre-existing defects were found
+because a renumber made someone read 30 citing sentences by hand; there is no reason to
+think chapters 2, 4 and 5 were where they lived.
+
+- **(a) Default — leave it.** The rate observed here is four defects across the reading of
+  roughly 60 citing sentences, which extrapolates to something like forty across the book's
+  758 references, and that is an estimate from one sample and not a measurement. The passes
+  that renumber will keep turning them up as a side effect, as P37 and P38 both did.
+- (b) Read all 758. At P37 and P38's rate that is real work with a real yield, and it is the
+  only method known to work on this class. It is also the single largest unautomated read
+  left in the finishing campaign.
+- (c) Extend `xref_content.py` past proper nouns — match the citing sentence's claim against
+  the target section's text by embedding similarity, and report the bottom decile for
+  reading. That converts an unbounded read into a ranked one. It would not have caught the
+  Apple case, where the target simply lacks the material, but it would have caught the
+  glossary's BERT entry and probably the AI-literacy one.
+- (d) Read the glossary's 125 locators alone. Two of the six defects were there, which is
+  the highest density found, and it is 125 sentences rather than 758.
+
+**Default (a) applies now.** Recorded because the two "no section of this book covers it"
+cases are a different and more serious failure than a stale number, and because the count
+is what it is: four found, in the only part of the book anyone has checked.
 
 ### Q-040 — The inventories outside chapters 8–10
 

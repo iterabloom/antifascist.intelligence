@@ -4,29 +4,21 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 1.1	The Imperative of Altruistic and Antifascist Sentient Machines	2	1	226	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 1.2	Aims and Objectives	2	1	245	7	5	0	0	0	0	0	2	0	0		0	0	0	0	0
 1.3	Mindset and Motivation in AI Behavior	2	1	286	7	0	0	0	0	0	0	4	0	0		0	0	0	0	3
-2	Foundations of Compassion and Empathy in Friendly AI	1	2	169	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-2.1	Ethical Frameworks and AI Alignment	2	2	109	1	0	0	0	0	0	1	1	0	0		0	0	0	0	0
-2.1.1	Surveying Ethical Theories for AI Alignment	3	2	548	9	6	0	0	0	0	0	4	0	0		0	0	0	0	0
-2.1.2	Translating Ethical Principles into Machine Learning Objectives	3	2	242	3	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-2.1.3	Navigating AI Values, Priorities, and Moral Dilemmas	3	2	329	4	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-2.1.4	Antifascist Ethics for AI Alignment	3	2	2141	27	4	0	0	0	0	0	8	0	5		0	0	0	0	4
-2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	151	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	714	7	0	0	0	0	0	0	0	0	7		0	0	0	0	0
-2.2.2	Theory of Mind and Perspective-Taking in AI Systems	3	2	168	3	0	0	0	0	0	0	1	0	0		0	0	1	0	0
-2.2.3	Socially-Aware AI: Opportunities and Challenges	3	2	574	7	0	0	0	0	0	0	5	0	1		0	0	0	0	0
-2.3	Affect, Moral Salience, and Self-Awareness	2	2	559	15	0	0	0	0	0	0	4	0	0		0	0	0	0	1
-2.3.1	Components of Emotional Intelligence	3	2	549	6	0	0	0	0	0	0	1	0	4		0	0	0	0	0
-2.3.2	Affective Computing: AI Systems that Comprehend and Respond to Emotions	3	2	212	2	0	0	0	0	0	0	2	0	1		0	0	0	0	0
-2.3.3	Self-awareness and Self-regulation in AI Systems	3	2	750	10	0	0	0	0	0	0	5	0	2		0	0	0	0	1
-2.3.4	Is Affect Necessary for Moral Concern?	3	2	1099	17	0	0	0	0	0	0	5	0	10		0	0	0	0	6
+2	Foundations of Compassion and Empathy in Friendly AI	1	2	162	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+2.1	Ethical Frameworks and AI Alignment	2	2	104	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3	2	860	14	6	0	0	0	0	0	5	0	1		0	0	0	0	2
+2.1.2	Antifascist Ethics for AI Alignment	3	2	1852	26	4	0	0	0	0	0	8	0	5		0	0	0	0	4
+2.2	Empathy, Social Intelligence, and Theory of Mind	2	2	106	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+2.2.1	The Role of Empathy and Compassion in Human Social Behavior	3	2	674	6	0	0	0	0	0	0	0	0	7		0	0	0	0	0
+2.2.2	Theory of Mind, and Whether Empathy Is the Target	3	2	573	7	0	0	0	0	0	0	3	0	1		0	0	1	0	1
+2.3	Affect, Moral Salience, and Self-Awareness	2	2	466	13	0	0	0	0	0	0	4	0	0		0	0	0	0	1
+2.3.1	What Emotion Is, and What a System Reads	3	2	647	7	0	0	0	0	0	0	2	0	5		0	0	0	0	1
+2.3.2	Self-awareness and Self-regulation in AI Systems	3	2	610	7	0	0	0	0	0	0	5	0	2		0	0	0	0	1
+2.3.3	Is Affect Necessary for Moral Concern?	3	2	1099	17	0	0	0	0	0	0	5	0	10		0	0	0	0	6
 2.4	Ethical implications of experimenting on sentient machine subjects	2	2	52	1	0	0	0	0	0	0	1	0	0		0	0	1	0	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2146	20	0	0	0	0	0	0	4	0	4		0	0	0	0	1
-2.4.2	Ethical Considerations in AI Research and Experimentation	3	2	374	8	0	0	0	0	0	0	3	0	0		0	1	0	0	3
-2.4.3	Balancing Scientific Progress and Ethical Constraints	3	2	142	2	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-2.4.4	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	917	10	0	0	0	0	0	0	8	0	0		0	0	0	0	2
-2.4.5	Legal and Regulatory Frameworks for AI Sentience and Rights	3	2	220	2	0	0	0	0	0	0	1	0	2		0	0	0	0	0
-2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	3	2	597	5	0	0	0	0	0	0	3	0	1		0	0	0	0	0
-2.4.7	Navigating the Transition from Non-sentient to Sentient AI Systems	3	2	359	3	0	0	0	0	0	0	2	0	0		0	1	0	0	0
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	1758	14	0	0	0	0	0	0	4	0	4		0	0	0	0	1
+2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	786	10	0	0	0	0	0	0	8	0	0		0	0	0	0	2
+2.4.3	What Oversight Would Have to Cover	3	2	926	8	0	0	0	0	0	0	6	0	3		0	0	0	0	2
 3	The Floor Beneath Learned Values	1	3	1093	10	0	0	0	1	0	0	23	0	0		0	0	0	0	0
 3.1	Three Ways to Build One, and What Each Costs	2	3	602	6	0	0	0	0	0	0	13	0	0		0	0	0	0	0
 3.2	Four Things Refusal Can Mean	2	3	950	14	0	0	0	0	0	1	10	0	1		0	0	0	0	2
@@ -36,14 +28,14 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 3.6	Whether the Bearer Can Be Believed	2	3	625	5	0	0	0	0	0	1	4	0	0		0	0	0	0	0
 3.7	A Bearer That Can Leave	2	3	1047	10	0	0	0	1	0	0	4	0	0		0	0	0	0	0
 3.8	What This Leaves Standing	2	3	1218	10	0	0	0	4	0	0	19	0	0		0	0	0	0	0
-4	Machine Learning and Cognitive Science	1	4	262	3	0	0	0	0	0	0	2	0	0		0	1	0	0	0
+4	Machine Learning and Cognitive Science	1	4	216	3	0	0	0	0	0	0	2	0	0		0	1	0	0	0
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	104	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	475	6	0	0	0	0	0	0	2	0	3		0	1	0	1	0
-4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	2049	32	0	0	0	0	0	0	9	0	8		0	2	0	0	8
-4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	461	7	0	0	0	0	0	0	3	0	1		0	0	0	0	2
-4.2	How a Deployed System Acquires Its Values	2	4	406	5	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-4.2.1	Pretraining and Instruction Tuning	3	4	548	7	0	0	0	0	0	0	4	0	2	2022	0	0	0	0	1
-4.2.2	Preference Optimization, and Who Holds the Pen	3	4	614	10	0	0	0	0	0	0	3	0	3	2023	0	0	0	0	4
+4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	433	6	0	0	0	0	0	0	2	0	3		0	1	0	1	0
+4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	1592	21	0	0	0	0	0	0	6	0	8		0	2	0	0	6
+4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	411	4	0	0	0	0	0	0	3	0	1		0	0	0	0	0
+4.2	How a Deployed System Acquires Its Values	2	4	250	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+4.2.1	Pretraining and Instruction Tuning	3	4	534	7	0	0	0	0	0	0	3	0	2	2022	0	0	0	0	1
+4.2.2	Preference Optimization, and Who Holds the Pen	3	4	600	9	0	0	0	0	0	0	3	0	3	2023	0	0	0	0	3
 4.2.3	Inferring the Objective: IRL and CIRL	3	4	326	4	0	0	0	0	0	0	3	0	1		0	0	0	0	0
 4.2.4	Model-Generated Feedback and Constitutional Approaches	3	4	434	6	0	0	0	0	0	0	7	0	1	2022	0	0	0	0	1
 4.2.5	Process and Outcome Supervision	3	4	431	4	0	0	0	0	0	0	4	0	3	2023	0	0	0	0	0
@@ -52,37 +44,30 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 4.2.8	System Instructions and Tool Use at Deployment	3	4	335	3	0	0	0	0	0	0	2	0	1		0	0	0	0	0
 4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	3	4	376	4	0	0	0	0	0	0	3	0	1		0	0	0	0	0
 4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	53	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	3	4	382	4	0	0	0	0	0	0	5	0	2		0	0	0	0	0
-4.3.2	Lessons from Human Child Development and Exploration	3	4	178	2	0	0	0	0	0	0	2	0	1		0	0	0	0	0
-5	Moral Psychology and AI	1	5	201	3	0	0	0	0	0	0	5	0	0		0	1	0	0	0
-5.1	Moral Development in Humans and AI	2	5	120	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.1.1	Rules, Principles, and the Role of Mindset	3	5	1210	18	0	0	0	0	0	0	6	0	5		0	0	0	1	2
-5.1.2	Social Interaction and Moral Learning	3	5	190	4	0	0	0	0	0	0	2	0	1		0	0	0	0	0
-5.1.3	Moral Apprenticeship: AI Systems Learning from Human Mentors	3	5	251	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.1.4	Human Dignity, and One Indicator That Can Be Audited	3	5	654	7	0	0	0	0	0	0	3	0	1		0	1	0	0	1
-5.2	Emotions and Intuitions in Moral Decision-Making	2	5	100	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	756	8	0	0	0	0	0	0	7	0	2		0	0	0	0	1
-5.2.2	Assessing and Developing AI Emotions	3	5	515	6	0	0	0	0	0	0	6	0	1		0	0	0	0	1
-5.2.3	AI Systems Recognizing and Responding to Moral Emotions	3	5	359	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-5.2.4	The Role of Introspection for AI Systems	3	5	350	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	3	4	549	5	0	0	0	0	0	0	7	0	3		0	0	0	0	1
+5	Moral Psychology and AI	1	5	201	2	0	0	0	0	0	0	5	0	0		0	1	0	0	0
+5.1	Moral Development in Humans and AI	2	5	74	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.1.1	Rules, Principles, and the Role of Mindset	3	5	1088	14	0	0	0	0	0	0	6	0	5		0	0	0	1	2
+5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	3	5	429	4	0	0	0	0	0	0	3	0	1		0	0	0	0	0
+5.1.3	Human Dignity, and One Indicator That Can Be Audited	3	5	598	7	0	0	0	0	0	0	3	0	1		0	1	0	0	1
+5.2	Emotions and Intuitions in Moral Decision-Making	2	5	96	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	667	8	0	0	0	0	0	0	6	0	2		0	0	0	0	1
+5.2.2	Assessing Whether Emotional Information Changes the Decision	3	5	704	9	0	0	0	0	0	0	6	0	1		0	0	0	0	2
+5.2.3	The Role of Introspection for AI Systems	3	5	337	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 5.3	Integrating Moral Intuitions and Deliberation	2	5	85	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	617	5	0	0	0	0	0	0	2	0	4		0	0	0	0	0
-5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	527	6	0	0	0	0	0	0	2	0	1		0	0	0	0	1
-5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	432	8	0	0	0	0	0	0	2	0	1		0	0	0	0	3
-5.4	Moral Ecosystem Approach in AI Development	2	5	172	2	0	0	0	0	0	0	1	0	1		0	0	0	0	0
-5.4.1	Applying the Moral Ecosystem Approach to AI Development	3	5	201	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-5.4.2	The Rings Outside the Lab	3	5	364	5	0	0	0	0	0	0	1	0	1		0	0	0	0	0
-5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	5	807	12	0	0	0	0	0	0	4	0	2		0	1	0	0	2
-5.5	The Interplay of Competition and Collaboration in AI Development	2	5	137	2	0	0	0	0	0	0	0	0	2		0	0	0	0	0
-5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	3	5	226	3	0	0	0	0	0	0	1	0	3		0	0	0	0	0
-5.5.2	Strategies for Encouraging Collaboration Among AI Systems	3	5	151	2	0	0	0	0	0	0	1	0	2		0	0	0	0	0
-5.6	Motivation in AI Systems	2	5	135	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	3	5	268	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-5.6.2	Developing Motivationally-Aware AI Systems	3	5	364	3	0	0	0	0	0	1	3	0	0		0	0	0	0	0
-5.6.3	Balancing AI Autonomy and Alignment with Humane Values	3	5	668	10	0	0	0	0	0	0	9	0	1		0	1	0	0	3
-5.7	Play, Exploration, and Moral Development in AI	2	5	107	1	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5	912	11	0	0	0	0	0	0	6	0	5		0	1	0	0	2
-5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	3	5	319	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	586	5	0	0	0	0	0	0	2	0	4		0	0	0	0	0
+5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	506	4	0	0	0	0	0	0	2	0	1		0	0	0	0	0
+5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	379	3	0	0	0	0	0	0	2	0	1		0	0	0	0	0
+5.4	Moral Ecosystem Approach in AI Development	2	5	155	1	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+5.4.1	The Rings, and What Each One Pushes With	3	5	497	6	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+5.4.2	AI Systems Responding to Authoritarianism and Democratic Backsliding	3	5	686	10	0	0	0	0	0	0	3	0	1		0	1	0	0	2
+5.5	The Interplay of Competition and Collaboration in AI Development	2	5	111	2	0	0	0	0	0	0	0	0	2		0	0	0	0	0
+5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	3	5	370	5	0	0	0	0	0	0	1	0	5		0	0	0	0	1
+5.6	Motivation in AI Systems	2	5	100	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	3	5	527	5	0	0	0	0	0	1	3	0	1		0	0	0	0	1
+5.6.2	Balancing AI Autonomy and Alignment with Humane Values	3	5	604	8	0	0	0	0	0	0	9	0	1		0	0	0	0	2
+5.7	Play, Exploration, and Moral Development in AI	2	5	89	1	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+5.7.1	The Role of Play in Moral Learning and Socialization	3	5	901	11	0	0	0	0	0	0	6	0	5		0	1	0	0	2
 6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	188	2	0	0	0	0	0	0	2	0	0		0	0	1	0	0
 6.1	Bias, Fairness, and Equity in AI Systems	2	6	906	11	0	0	0	0	0	0	3	0	7	2030	0	0	0	1	0
 6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1182	14	0	0	0	0	0	0	5	0	8	2018	2	0	0	0	4
@@ -121,7 +106,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 8.3.2	AI and the Concentration of Power in Tech	3	8	557	6	0	0	0	0	0	0	3	0	3	2025	0	1	0	0	0
 8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	1842	22	3	0	0	0	0	0	7	0	10	2034	0	0	0	0	4
 8.3.4	Addressing Workforce Disruption	3	8	674	11	0	0	0	0	0	0	7	0	1		0	0	0	0	1
-8.3.5	Literacy, Training, and Where Each One Sits	3	8	523	8	0	0	0	0	0	0	3	0	4		0	0	0	0	2
+8.3.5	Literacy, Training, and Where Each One Sits	3	8	534	8	0	0	0	0	0	0	2	0	4		0	0	0	0	2
 9	Policy, Law, and Accountability	1	9	174	2	0	0	0	0	0	0	5	0	0		0	0	0	0	0
 9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9	171	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	272	5	0	0	0	0	0	0	4	0	0		0	0	0	0	0
@@ -130,7 +115,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 9.1.4	Legal and ethical implications of AI systems gaining personhood	3	9	253	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 9.1.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9	341	7	0	0	0	0	0	1	4	0	1		0	0	0	0	2
 9.2	Privacy, Security, and Antifascism in AI Systems	2	9	183	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
-9.2.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	9	360	4	0	0	0	0	0	0	2	0	3		0	0	0	0	0
+9.2.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	9	356	4	0	0	0	0	0	0	1	0	3		0	0	0	0	0
 9.2.2	Strengthening Cybersecurity in AI-Enabled Systems	3	9	312	4	0	0	0	0	0	0	1	0	6		0	0	0	0	0
 9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9	46	1	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	349	4	0	0	0	0	0	0	3	0	0		0	0	0	0	0
@@ -166,4 +151,4 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.1	One Standard, Five Worked Cases	3	12	671	13	0	0	0	0	0	0	11	0	2	2023	0	0	0	0	5
 12.2.2	How to Tell Whether a Milestone Has Been Met	3	12	523	5	0	0	0	0	0	0	6	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	335	4	0	0	0	0	0	0	5	0	0		0	0	0	0	0
-13	Glossary	1	13	2934	115	0	0	0	0	0	0	125	0	0	2019	6	0	0	0	57
+13	Glossary	1	13	2931	115	0	0	0	0	0	0	122	0	0	2019	6	0	0	0	57
