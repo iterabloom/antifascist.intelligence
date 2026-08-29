@@ -1,7 +1,7 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-098. Twelve questions are open**, raised by
-P28 through P31, D-095, D-096, P33 and P34, none of them blocking and each with a default that has
+**Current as of 2026-08-29, after D-099. Thirteen questions are open**, raised by
+P28 through P31, D-095, D-096, P33, P34 and P35, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
@@ -9,9 +9,10 @@ fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
 should stay annotated at all, whether the taxonomy of bias sources should name the
 choice of training target, whether section 4.2 should be split, whether chapter 5 needs
 the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
-whether the plural arrangement P34 recommends should be given an institutional form. For orientation read `finishing/STATE.md`.
+whether the plural arrangement P34 recommends should be given an institutional form, and whether the 340
+remaining "rather than" constructions are worth a pass of their own. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **129 of the book's 169 sections are
+The other standing item is not a question. **147 of the book's 169 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -453,6 +454,32 @@ discharge.
 *Default applies now.*
 
 ---
+
+### Q-038 — The 340 remaining "rather than" constructions
+
+P35 cleared the four mannerism families the author named by shape, and repaired the 13 worst
+contrastive pile-ups — sentences carrying two or more constructions. It did **not** sweep the 340
+surviving instances of "rather than" one at a time.
+
+The reason is what the measurement showed. Book-wide the contrastive constructions run at 5.15 per
+1,000 words against the calibration set's 2.90, which looks like a book-wide tic; read one by one
+they are mostly not. Chapter 6's 25 instances yielded one repair out of 25. The two chapters
+scoring highest on the rate are the conclusion and the glossary, and both score high because their
+content is genuinely contrastive — a glossary distinguishes terms, and section 12.2.1 states one
+standard five times as "met when X, not when Y," which is its structure rather than a habit.
+
+So the rate is not the instrument, and the only instrument that works is reading each one against
+its paragraph. P12 did exactly that for chapter 5: 152 instances, judged individually, two mistakes
+made inside the pass and recorded. Twelve chapters at that cost is a pass of its own.
+
+- **(a) Leave it.** The named shapes are gone and the pile-ups are repaired; what remains is a
+  construction the book uses because the book's arguments are mostly of the form *this and not
+  that*. **Applied by default at the close of P35.**
+- (b) Run the P12 treatment over the remaining eleven chapters, one instance at a time, expecting
+  a repair rate near chapter 6's 1 in 25 and a nontrivial risk of damaging an argument in the
+  process, which P12 recorded three times.
+- (c) Run it over chapters 2, 3 and 4 only, which carry 141 of the 340 between them and are the
+  chapters most likely to be read linearly.
 
 ## Resolved
 
