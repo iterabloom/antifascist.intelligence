@@ -82,11 +82,10 @@ list. **94,415 words of prose**, 91,481 of them outside the glossary, by `sectio
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages**,
-rebuilt from this tree at P45 and linked from the README. **It is two passes stale: it carries
-neither P47 nor P48**, which leave the tree at 191 pages. **The
+**rebuilt from this tree at P48 and current**, linked from the README. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
-P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth and P45 a seventh — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191. The page count held at 189 through the
+P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh and P48 an eighth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and P48 did not move it, the six repairs costing and returning nothing in pages. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
