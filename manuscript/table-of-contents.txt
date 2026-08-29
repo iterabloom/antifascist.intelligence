@@ -28,12 +28,14 @@ Chapter 2: Foundations of Compassion and Empathy in Friendly AI
 2.4.7. Navigating the Transition from Non-sentient to Sentient AI Systems
 Chapter 3: The Floor Beneath Learned Values
 3.1. Three Ways to Build One, and What Each Costs
-3.2. Can the Bearer Care Without Being Able to Suffer?
-3.3. What Can Be Switched Off Cannot Hold a Line
-3.4. Whether the Bearer Can Be Believed
-3.5. A Bearer That Can Leave
-3.6. What This Leaves Standing
-3.7. What Follows for the Rest of the Book
+3.2. Four Things Refusal Can Mean
+3.3. Could Anything but Affect Hold a Reason?
+3.4. Can the Bearer Care Without Being Able to Suffer?
+3.5. What Can Be Switched Off Cannot Hold a Line
+3.6. Whether the Bearer Can Be Believed
+3.7. A Bearer That Can Leave
+3.8. What This Leaves Standing
+3.9. What Follows for the Rest of the Book
 Chapter 4: Machine Learning and Cognitive Science
 4.1. Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making
 4.1.1. Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning
