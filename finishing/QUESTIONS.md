@@ -555,6 +555,15 @@ think chapters 2, 4 and 5 were where they lived.
 cases are a different and more serious failure than a stale number, and because the count
 is what it is: four found, in the only part of the book anyone has checked.
 
+**P39 found a seventh, and by a different route.** Section 2.4.3's application of
+Replacement to the book's own proposal cited section 3.1 as answering the R — *"its answer
+is no without cost"* — where section 3.1 attaches a cost to each branch and section 3.3
+finds two of the routes untried. Written at P20, read past by four passes and a merge,
+and found by an outside reader working from the argument rather than from a renumber.
+**That is the class in modal form**: the target makes the cited claim more weakly than the
+citing sentence needs. Neither (b) nor (c) above would flag it — the pointer resolves, the
+nouns match, and an embedding would score the two passages close. Repaired in P39 (D-103).
+
 ### Q-040 — The inventories outside chapters 8–10
 
 D-101 named chapters 8, 9 and 10. Measuring the shape to answer it measured the whole

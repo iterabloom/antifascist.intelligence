@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-102 (P38): chapters 2, 4 and 5 distilled so the floor argument arrives earlier.** The author's instruction was to move the central floor argument earlier in chapters 2–5, distil chapter 2 to the premises chapter 3 actually needs, and merge or sharply compress the survey in chapters 4 and 5. **That instruction is the three items P29 (D-090) closed by leaving with the author** — moving chapter 3 earlier, folding the subsections it had left thin, and going past its own 13.5 percent — and this pass does all three. **Chapter 3 is not relocated,** on two grounds stated rather than assumed: its own opening stages the floor as a gap chapter 2 left, and the instruction's second clause presupposes chapter 2 running first, because a chapter supplies premises to the argument that follows it. Earlier is delivered in pages instead — **chapter 3 begins on page 23 of 182, from page 27 of 189**, 12.6 percent into the book against 14.3, with every chapter after it seven pages earlier. **What chapter 3 needs from chapter 2 was established by reading all 31 of its references into that chapter before anything was cut**, and the half of the result that does not flatter the instruction is recorded too: section 2.2, on empathy and compassion, is referenced by chapter 3 zero times and survives because eight other sections and the glossary depend on it. **Chapter 2 goes 13,121 → 10,675 words and 23 → 15 sections**, the largest single change being five research-ethics subsections merged into one 926-word section, none of them a premise chapter 3 needs; section 2.3.4, now 2.3.3, is untouched, because section 3.4 calls it “the evidence.” **Section 4.2 was deliberately not compressed** — P33 built it eight days ago as the production pipeline, it argues directly at chapter 3, and at 3,943 words it is 54 percent of chapter 4, so more than half that chapter lay outside what the instruction names. **Chapters 4 and 5 come to −11.4 percent together and not the −20 the six merges might suggest, and the gap is evidence** — inattentional blindness, predictive coding, the Kohlberg box, the trolley literature, Ekman against Barrett. P29 named that limit and it still holds. **Six references that resolve while naming a claim their target does not make: two caused here and repaired, four pre-existing**, two of those crediting sections with material no section of this book contains. No tool finds that class, nothing has swept the other nine chapters, and Q-041 is where that sits. 153 sections, 88,346 words, 182 pages. The P37 entry follows.
+Read this first. **Updated 2026-08-29 after D-103 (P39): Replacement stated as open, the falsifier as an obligation, the bearer as necessary and not sufficient.** The author forwarded feedback making two points — that the book's later passages treat its own stated prior (affect is the route with a working instance) as though it licensed building an affective bearer first, against the book's own Three Rs; and that chapter 3 occasionally writes as though giving the floor a bearer had escaped custody — and the discussion that followed produced more than the feedback asked for, so two passes were agreed. **This pass answers the feedback.** Both points hold. The first lands on a sentence the feedback did not cite, section 2.4.3's application of Replacement to the book's own proposal, which recorded the R as discharged on a citation to section 3.1, a section that attaches costs and does not test; it was written at P20 and four passes read past it. It now states Replacement as open and points at section 3.3, whose falsifier is now an obligation with the untried routes first, plus the asymmetry that forgoing the bearer costs the party the floor exists for. The second landed on section 3.5's *have to get past the bearer to do it*, which section 3.7 contradicts two sections later; section 3.5 now says the bearer is necessary and not sufficient and names the custody half, section 3.3's precommitment forms recombined with the bearer, with attestation's hardware form rejected on section 6.4.2's ground and its software form (`sun2024zkllm`) bounded to what it proves. Section 3.8's threat model doubles instead of moving. **The conditional thesis the feedback proposed was not adopted**, for a reason stated in `p39-scope.md`. 89,363 words, 183 pages. **P40 is next and carries the new claims** — the refusal asymmetry (limited in what it can do, unlimited in what it can refuse), the strike and covert forms of exit, the finding that accommodation is the modal outcome, the removal cases, the bearer's leverage against itself, the jobs-guarantee shape — after fact-checking. **The committed proof pair is one pass stale: it does not carry P39.**
+
+**Updated 2026-08-29 after D-102 (P38): chapters 2, 4 and 5 distilled so the floor argument arrives earlier.** The author's instruction was to move the central floor argument earlier in chapters 2–5, distil chapter 2 to the premises chapter 3 actually needs, and merge or sharply compress the survey in chapters 4 and 5. **That instruction is the three items P29 (D-090) closed by leaving with the author** — moving chapter 3 earlier, folding the subsections it had left thin, and going past its own 13.5 percent — and this pass does all three. **Chapter 3 is not relocated,** on two grounds stated rather than assumed: its own opening stages the floor as a gap chapter 2 left, and the instruction's second clause presupposes chapter 2 running first, because a chapter supplies premises to the argument that follows it. Earlier is delivered in pages instead — **chapter 3 begins on page 23 of 182, from page 27 of 189**, 12.6 percent into the book against 14.3, with every chapter after it seven pages earlier. **What chapter 3 needs from chapter 2 was established by reading all 31 of its references into that chapter before anything was cut**, and the half of the result that does not flatter the instruction is recorded too: section 2.2, on empathy and compassion, is referenced by chapter 3 zero times and survives because eight other sections and the glossary depend on it. **Chapter 2 goes 13,121 → 10,675 words and 23 → 15 sections**, the largest single change being five research-ethics subsections merged into one 926-word section, none of them a premise chapter 3 needs; section 2.3.4, now 2.3.3, is untouched, because section 3.4 calls it “the evidence.” **Section 4.2 was deliberately not compressed** — P33 built it eight days ago as the production pipeline, it argues directly at chapter 3, and at 3,943 words it is 54 percent of chapter 4, so more than half that chapter lay outside what the instruction names. **Chapters 4 and 5 come to −11.4 percent together and not the −20 the six merges might suggest, and the gap is evidence** — inattentional blindness, predictive coding, the Kohlberg box, the trolley literature, Ekman against Barrett. P29 named that limit and it still holds. **Six references that resolve while naming a claim their target does not make: two caused here and repaired, four pre-existing**, two of those crediting sections with material no section of this book contains. No tool finds that class, nothing has swept the other nine chapters, and Q-041 is where that sits. 153 sections, 88,346 words, 182 pages. The P37 entry follows.
 
 **Updated 2026-08-29 after D-101 (P37): inventories in chapters 8–10 replaced with worked cases, and the jobs-guarantee section halved.** The author's instruction had two parts. **On part one the measurement does not support the instruction as a comparative claim, and that is said before anything else:** a new tool, `inventories.py`, counts sentences carrying a series of three or more items, and chapters 8 and 9 sit at 20.4 and 19.2 percent of their words in such sentences against a book average of 22.6 — only chapter 10 is an outlier, at 36.2. The syntactic test is blind to the shape that produces the reading experience, an inventory spread over consecutive sentences with one item each and no case behind any, so the diagnosis was made by reading all 22,408 words of the three chapters. Sixteen passages judged, fourteen changed, two kept because the listing is itself the argument. **The clearest instance is section 10.8's seven intergovernmental bodies in one paragraph**, seven citations and one clause each, which the prose already calls a roll; three are kept because the rest of the book uses them, three are cut, and the Bletchley–Seoul–Paris summit case now carries the point. **Section 8.3.2's four-item countermeasure roll is replaced by the antitrust case already half-present in it** — *FTC v. Meta*, judgment for Meta November 2025, appealed January 2026, verified live — and that section got *longer*, 504 to 559 words, which is what the instruction costs. One expectation failed: section 9.1.2's nine cases were expected to be the largest inventory in the three chapters and on reading each carries a claim the others do not, so the cut there is 150 words rather than 400. **On part two, section 8.3.3 goes 3,212 to 1,842 words — 57 percent, not half**, and the number is reported rather than the instruction's estimate. A first attempt trimmed every head proportionally and reached 69 percent; the second decided what the section is for, which is the objection its title names, and cut three heads into one. 18 sections changed, 92,986 words, 189 pages. The P36 entry follows.
 
@@ -54,16 +56,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-102.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-103.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **88,346 words of prose**, 85,415 of them outside the glossary, by `section_stats.py`
+list. **89,363 words of prose**, 86,398 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **182 pages**,
-rebuilt from this tree at P38 and linked from the README. It is current: it carries P38's
-distillation of chapters 2, 4 and 5. **The
+rebuilt from this tree at P38 and linked from the README. **It is one pass stale: it does not
+carry P39's additions to sections 2.4.3, 3.3, 3.5 and 3.8**, which put the tree at 183 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, and P38 a fourth — only the README's page figure moved, 192 to 189 to 182. The page count held at 189 through the
@@ -3565,3 +3567,60 @@ nine chapters have not been read for the same shape — Q-041 carries it.
 182 pages.** The date had not rolled over, so it was rebuilt in place under the same two
 filenames and the README's links did not move; only its page figure did, 189 to 182. That is
 the fourth rebuild on this date — P35 set it, and P36, P37 and P38 have each rebuilt in place.
+
+## P39 — Replacement stated as open, the falsifier as an obligation, the bearer as necessary and not sufficient, 2026-08-29 (D-103)
+
+The author forwarded feedback on the manuscript with the direction to work it in. It is
+quoted in full in `p39-scope.md`, which is the pass. Two passes were agreed: this one
+answers the feedback's two points, and P40 carries what the discussion added.
+
+**The feedback read the current chapter 3.** It was written between P34 and P38 — its four
+quoted concessions are P34's closing run-in in section 3.3, and its section numbers are the
+pre-P38 ones — and chapter 3 is byte-identical across P38 apart from twelve `\ref` values.
+So it reacted to the text that is on the page.
+
+**Point one: the prior gets promoted.** The place is section 2.4.3, which the feedback did
+not cite: *"Replacement asks whether the floor's work can be done by an architectural
+constraint or by third-party standing, which is section 3.1's fork and its answer is no
+without cost."* Section 3.1 attaches a cost to each branch; section 3.3 finds two routes
+untried; a cost is what Replacement exists to weigh. The sentence dates from P20, and P34 —
+the pass that conceded the prior's limits — did not go back through the sections already
+written on the strength of the unconceded claim. **That is Q-041's class in modal form**,
+and it was found by a reader, not by a tool or a renumber. Repaired: section 2.4.3 states
+the R as open and points at section 3.3; section 2.4.2's "requires a bearer" is now "held,
+on the route chapter 3 recommends building first"; section 3.3's falsifier is an
+obligation, with the untried routes first and an account owed by any deployment that skips
+them; and section 3.3 states the asymmetry nobody had — forgoing the bearer costs the party
+the floor exists for, so the Rs fix the order of attempts and not the rate of exchange.
+The conditional thesis the feedback proposed was not adopted: unfalsified-because-untried
+never discharges, and the hedge would propagate.
+
+**Point two: custody.** Section 3.5 said the operators who wipe the bearer *"now have to
+get past the bearer to do it,"* and section 3.7 says two sections later that becoming
+something else is a fine-tuning run — a route that never meets the bearer. Section 3.5 now
+carries the author's own sentence from the discussion: there is nothing a piece of
+software can do about being switched off, and what it can do is make the switching-off
+cost an explanation and leave a record. A new paragraph there says the bearer is necessary
+and not sufficient and names the other half, which was already on the page as section
+3.3's precommitment branch — contents published, weights threshold-held, running model
+attested, quorum adverse in interest — recombined with the bearer into the hybrid section
+3.1 named and the chapter never built. Attestation gains its two forms: hardware rejected
+on section 6.4.2's ground, since the signing key sits with a party a state can reach and
+the machine is in the adversary's hands by hypothesis; software (`sun2024zkllm`, verified
+against the arXiv abstract) proves which model answered, not what it holds, and nothing
+against a prover who owns the weights. Section 3.8's threat model *doubles* rather than
+moves, and the borne floor *is no exception* rather than *pays for its escape*. Glossary
+entries for *Floor* and *Bearer* follow.
+
+**Numbers.** 88,346 → 89,363 words by `section_stats.py`, 182 → 183 pages, 153 sections,
+cross-references 765 → 776. Sections 2.4.2, 2.4.3, 3.3, 3.5, 3.8 and the glossary; six
+ledger rows tagged, all already `drafted`. One bibliography entry added. `check_all.sh`
+green; the PDF builds clean with zero undefined references. **The HTML was not built, and
+the committed proof pair is one pass stale.**
+
+**What is not done.** P40: the refusal asymmetry and its strike and covert forms in section
+3.7, the accommodation finding, the removal cases in sections 3.1 and 3.3 (*Trump v. Cook*
+and *Trump v. Slaughter*, June 29 2026, both verified in the discussion), the bearer's
+leverage against itself and the jobs-guarantee shape in section 11.2, the deception-protocol
+reading of sandbox detection, and section 11's collapse paragraph. Operation Bernhard, the
+CFPB sequence and *Trump v. Wilcox* still need checking before any of it is written.
