@@ -59,12 +59,12 @@ list. **92,986 words of prose**, 90,052 of them outside the glossary, by `sectio
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **192 pages**,
-rebuilt from this tree at P36 and linked from the README. **It is one pass stale: it does
-not carry P37**, which took the book to 189 pages, and rebuilding it is the first thing a
-session acting on this entry should do. **The
+pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **189 pages**,
+rebuilt from this tree at P37 and linked from the README. It is current: it carries P37's
+inventory replacements and the halved jobs-guarantee section. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
-the pair was rebuilt in place under the same two filenames and the README links did not move. The page count held at 189 through the
+the pair was rebuilt in place under the same two filenames and the README links did not move, and
+P37 did the same a third time on that date — only the README's page figure moved, 192 to 189. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
@@ -3454,6 +3454,5 @@ to `drafted`. Nothing renumbered, no section added or removed. One worked case r
 whole pass — PeaceTech Lab, at section 10.3, cut to take four domains down to two.
 `check_all.sh` green, both formats build clean with no undefined references.
 
-**What is not done.** No section has the author's read. **The committed proof pair is the P36
-build and does not carry this pass**; rebuilding it is the first outstanding item. Q-040 carries
-what part one did not reach.
+**What is not done.** No section has the author's read. The proof pair was rebuilt at P37 and is
+current at 189 pages. Q-040 carries what part one did not reach.
