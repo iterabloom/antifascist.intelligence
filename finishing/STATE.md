@@ -87,7 +87,7 @@ pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages**,
 **rebuilt from this tree at P49 and current**, linked from the README. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
-P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh, P48 an eighth and P49 a ninth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and P48 did not move it, the six repairs costing and returning nothing in pages. The page count held at 189 through the
+P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh, P48 an eighth and P49 a ninth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and neither P48 nor P49 moved it — P48's six repairs cost and returned nothing in pages, and P49's six added 73 words without reaching a page. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
