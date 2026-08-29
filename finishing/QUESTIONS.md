@@ -1,7 +1,7 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-100. Fourteen questions are open**, raised by
-P28 through P31, D-095, D-096, P33, P34, P35 and P36, none of them blocking and each with a default that has
+**Current as of 2026-08-29, after D-101. Fifteen questions are open**, raised by
+P28 through P31, D-095, D-096, P33, P34, P35, P36 and P37, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
@@ -10,10 +10,11 @@ should stay annotated at all, whether the taxonomy of bias sources should name t
 choice of training target, whether section 4.2 should be split, whether chapter 5 needs
 the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
 whether the plural arrangement P34 recommends should be given an institutional form, whether the 340
-remaining "rather than" constructions are worth a pass of their own, and how much further to
-cut now that the recurring conclusions are out. For orientation read `finishing/STATE.md`.
+remaining "rather than" constructions are worth a pass of their own, how much further to
+cut now that the recurring conclusions are out, and which of the inventories P37 left standing
+outside chapters 8–10 should be treated the same way. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **148 of the book's 168 sections are
+The other standing item is not a question. **152 of the book's 168 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -508,6 +509,39 @@ D-090, eight and one days before the instruction.
   and renumbers chapters against 785 resolved references.
 
 *Default applies now.* `p36-scope.md` carries the measurement behind each figure.
+
+---
+
+### Q-040 — The inventories outside chapters 8–10
+
+D-101 named chapters 8, 9 and 10. Measuring the shape to answer it measured the whole
+book, and the instruction's target is **not where the density is**. Chapters 8 and 9 carry
+20.4 and 19.2 percent of their words in series-of-three sentences against a book average of
+22.6; chapter 2 carries **25.2 percent** over 13,121 words, chapter 6 21.3 over 10,664, and
+the glossary 26.6. Chapter 10, at 36.2, was the one named chapter the measure agreed about.
+
+The syntactic figure is a weak instrument — most three-part sentences in this book carry an
+argument, and `inventories.py`'s own docstring says so — so none of those numbers is a
+finding about chapter 2 or chapter 6. What it establishes is only that the named chapters
+were not distinctive, which raises the question of scope rather than settling it.
+
+- **(a) Default — stop at chapters 8–10.** The instruction named three chapters, and the
+  passages found there were real and are fixed. Chapter 2 was cut 20.2 percent at P29 and
+  chapter 6 has not been read for this shape at all, so extending the pass on a syntactic
+  score would be acting on the weakest evidence in this file.
+- (b) Read chapter 2 and chapter 6 for the shape the way chapters 8–10 were read. About
+  23,800 words of reading, no predicted yield: the P37 experience was that the measure
+  locates roughly one real inventory for every four candidates, and that the real ones were
+  found by reading rather than by the tool.
+- (c) Sweep the glossary, which scores highest of anything outside chapter 10. It is a
+  reference list, so a series of three is what a definition often is; the P36 record already
+  declined to cut it on a different instruction, for the same reason.
+- (d) Treat section 9.1.2's finding as the general rule and stop measuring: where a run of
+  cases each carries a distinct claim it is not an inventory however long it runs, and the
+  shape only ever appears in section openers, closing run-ins and remedy lists. Those are
+  findable by position rather than by score.
+
+*Default applies now.* `p37-scope.md` carries the per-passage record and the table.
 
 ---
 
