@@ -3972,7 +3972,7 @@ entry averages 401 characters, so an annotated entry may run to 802; twenty-nine
 it and twenty-six were trimmed. **Three cannot comply** — `ganguli2022redteaming`,
 `casper2023open` and `maslej2025index` exceed the cap on their bibliographic fields alone,
 carrying 19-, 32- and 23-author bylines — so the cap is applied where it binds and reported
-where it cannot. Notes 210 → 198 entries, 8,695 → 6,432 words.
+where it cannot. Notes 210 → 198 entries, 8,695 → 6,433 words. **Amended on the author's ruling that the three non-compliant entries stand if their notes describe the cited work rather than this manuscript's revision process.** A re-sweep with a brace-balanced extractor found the first sweep's regex had missed notes ending in a trailing comma: two still carried process language and are cut, and one over-trimmed entry is restored. No note in the file now records what was done to check a source.
 
 **Tool.** `finishing/tools/xref_pairs.py`, to the author's specification: for every
 cross-reference, the citing sentence then the opening sentence of the section it points at,
