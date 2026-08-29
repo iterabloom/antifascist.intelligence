@@ -228,8 +228,10 @@ shorter section openers; what makes these look odd is that they are leaves.
 ### Q-030 — `refs.bib` has 14 entries nothing cites
 
 **The count is corrected here from 20, which was wrong when this was filed.** Measured
-across every commit from P29 to now, the manuscript's 298 `\autocite` calls reach 275
-of the file's 289 entries, leaving **14**. The breakdown was wrong the same way: two
+across every commit from P29 to now, and re-measured after P33 added nine entries and
+merged a duplicate: the manuscript's 311 `\autocite` calls reach 283 of the file's 297
+entries, leaving **14** — the same fourteen keys, since every entry P33 added is cited and
+the one it removed was too. The breakdown was wrong the same way: two
 entries were uncited before P29, not eight, and P29 orphaned twelve by cutting the
 prose around them — 2 plus 12 is the 14, and 20 corresponds to nothing measured. The
 14 are `affectiva2015emotionservice`, `alignmentforum2018`, `cowan2001magical`,

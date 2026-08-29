@@ -1,9 +1,10 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, 2026-08-28: **192-page PDF, lualatex +
-biber, no undefined references; and a one-file HTML page, make4ht + biber, 1,323
-internal links and none of them broken.**
+Verified end to end on this machine, 2026-08-28, against the committed proof
+pair rather than a build directory: **193-page PDF, lualatex + biber, no
+undefined references; and a one-file HTML page, make4ht + biber, 1,310 internal
+links over 1,556 ids, none broken and none duplicated.**
 
 ## What is available here
 
@@ -119,8 +120,8 @@ than chosen here.
 | `manuscript/book.tex` | master. Hand-edited. |
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
-| `manuscript/sections/chNN/*.tex` | one file per section, 162 of them. The prose. |
-| `finishing/refs.bib` | 289 entries, reached from the manuscript by `\autocite{key}`. |
+| `manuscript/sections/chNN/*.tex` | one file per section, 167 of them. The prose. |
+| `finishing/refs.bib` | 297 entries, reached from the manuscript by `\autocite{key}`. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**

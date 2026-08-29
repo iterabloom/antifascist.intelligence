@@ -114,7 +114,7 @@ way.
 
 ## Measured
 
-Book 91,116 to 94,001 words; chapter 4 from 5,882 to 8,320, chapter 7 from 3,718 to 4,117.
+Book 91,116 to 94,037 words; chapter 4 from 5,882 to 8,356, chapter 7 from 3,718 to 4,117.
 167 sections from 162. 193 pages from 186. `check_all.sh` green on all seven; both formats build
 with no undefined reference.
 
