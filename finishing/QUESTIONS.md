@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-102. Sixteen questions are open**, raised by
+**Current as of 2026-08-29, after D-102. Seventeen questions are open**, raised by
 P28 through P31, D-095, D-096, P33, P34, P35, P36, P37 and P38, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether to prune `refs.bib`, whether chapter
@@ -651,6 +651,33 @@ against itself.
 **Default (a) applies now.** Recorded because the four are a different failure from a
 wrong fact: each was a sentence the book itself could have corrected, and (b) is the only
 method that reads the book the way the reader who found them did.
+
+### Q-044 — The floor is in the weights and the system is an assembly
+
+P44 found that `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the
+book. Chapter 3's custody measures all operate on weights: publication of the floor's
+contents, threshold-held weights, attestation against a published hash, tamper-resistant
+training, and the mark a bearer maintains on itself. What acts is an assembly — weights,
+the prompt in front of them, the memory they read, the tools they reach, and the layer
+deciding what reaches a person — and an operator who touches no weight can change every
+term but the first. A refusal intercepted before it reaches anybody did not happen.
+
+Section 3.1 now states the gap. It does not close it, and closing it is not a paragraph.
+
+- **(a) Default — the gap is named and left.** It is stated where the branches are set out,
+  so no reader can take the chapter's custody measures for more than they are. What would
+  close it is a custody account for the whole assembly, which is a section the book does
+  not have and which nobody has written elsewhere either.
+- (b) Extend the attestation to the assembly. Section 3.3's published hash covers weights;
+  the same treatment for the prompt, the tool manifest and the output path is buildable
+  today and is the cheapest real improvement available. It would want a subsection.
+- (c) Reframe chapter 3 around the assembly throughout. Honest and expensive: it touches
+  3.1, 3.3, 3.5, 3.6 and 11.1, and it would put the chapter past 14 percent of the book,
+  which Q-036 already flags.
+
+**Default (a) applies now.** Recorded because (b) is a real proposal that this pass did not
+have the room to make, and because the gap defeats every custody measure in the book at
+once, which no other open question does.
 
 ## Resolved
 
