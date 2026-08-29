@@ -1,14 +1,15 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-095. Seven questions are open**, raised by
-P28 through P31 and D-095, none of them blocking and each with a default that has
+**Current as of 2026-08-28, after D-096. Eight questions are open**, raised by
+P28 through P31, D-095 and D-096, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
-9's gap list should get its nearest-work notes back, and whether the bibliography
-should stay annotated at all. For orientation read `finishing/STATE.md`.
+9's gap list should get its nearest-work notes back, whether the bibliography
+should stay annotated at all, and whether the taxonomy of bias sources should name the
+choice of training target. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **119 of the book's 162 sections are
+The other standing item is not a question. **122 of the book's 162 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -304,6 +305,39 @@ verification passes that wrote them.
 *Default applies now. (b) and (c) are both defensible and neither is reversible
 without re-deriving text from `claims.tsv`, so this is the author's call rather
 than a tidy-up to be done unasked.*
+
+---
+
+### Q-033 — The taxonomy of bias sources does not name the choice of training target
+
+D-096 repaired two sections that credited LIME and SHAP with more than feature
+attribution delivers. The case that forced the repair is Obermeyer's: the
+algorithm's bias was in the target it was trained on — healthcare cost standing in
+for medical need — which is a class of bias attribution cannot see, because it
+takes the target as given.
+
+Section 6.1.1 opens by naming where bias enters: "data collection, data labeling,
+algorithm design, and implementation." Target choice is not on that list. Its
+`Algorithm Design` run-in covers structural encoding (the COMPAS disparity) and
+amplification (the 2017 activity-recognition study), both of which are about how a
+model treats its inputs. The book now names target choice twice in chapter 6 —
+section 6.1.3's new sentences and section 6.3.6's Obermeyer paragraph — so the
+concept is present where it is used and absent from the taxonomy that is supposed
+to organize it.
+
+- **(a) Default — leave it.** The concept is stated where a reader meets the case,
+  and a four-item list in an opening sentence is not a claim to have enumerated
+  everything. Adding a fifth run-in to a section that already carries five is a
+  cost against P29's cutting of chapter 2 and P32's word discipline.
+- (b) Add a short `Target and Label Choice` run-in to section 6.1.1, pointing at
+  section 6.3.6 for the case rather than restating it. Roughly 80 words, and it
+  makes the taxonomy match what the chapter argues.
+- (c) Amend only the opening sentence to name target choice as a fifth entry,
+  without a run-in behind it. Cheapest, and it leaves a list item the section does
+  not then explain.
+
+*Default applies now. This is a gap D-096 found on its way through, not something
+the author's finding asked for, so it is filed rather than taken.*
 
 ---
 
