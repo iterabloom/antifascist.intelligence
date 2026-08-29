@@ -1,26 +1,27 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-102. Seventeen questions are open**, raised by
-P28 through P31, D-095, D-096, P33, P34, P35, P36, P37 and P38, none of them blocking and each with a default that has
-already applied: how much further to cut the cross-references, how much further to
-cut chapters 4 and 5, whether to prune `refs.bib`, whether chapter
-9's gap list should get its nearest-work notes back, whether the bibliography
-should stay annotated at all, whether the taxonomy of bias sources should name the
-choice of training target, whether section 4.2 should be split, whether chapter 5 needs
-the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
-whether the plural arrangement P34 recommends should be given an institutional form, whether the 340
-remaining "rather than" constructions are worth a pass of their own, how much further to
-cut now that the recurring conclusions are out, which of the inventories P37 left standing
-outside chapters 8–10 should be treated the same way, and whether the six references P38 found
-that resolve while naming a claim their target does not make have siblings in the nine chapters
-nobody has read for them. **Two are closed by P38's execution: chapter 3 has moved earlier, and
-the subsections P29 left thin are folded.** For orientation read `finishing/STATE.md`.
+**Current as of 2026-08-29, after D-109. Eighteen questions are open**, and all
+seventeen that stood before this review were re-checked against the manuscript
+rather than carried forward. **Two closed by execution** — Q-028 (chapter 3's
+position, settled at P38 by ruling its default) and Q-029 (the thin subsections,
+folded at P38) — **and one is new**, Q-045, which the review itself produced.
+**Nine had figures that had gone stale**, several of them reversing the direction
+the question recorded: the cross-reference count is rising again, chapter 3 is now
+the longest chapter in the book, the bibliography carries half again as many notes,
+and the class Q-043 names has tripled its evidence. Each entry below now carries a
+dated re-check paragraph saying what moved and whether the default still holds.
+None blocks work and every default still applies.
+
+**The figures this file turns on, measured 2026-08-29 after D-109:** 93,911 words,
+153 sections, 191 pages; 826 `\ref{sec:` calls, one per 114 words; `refs.bib` at
+326 entries with 23 uncited and 210 carrying notes totalling 8,695 words; 317
+instances of "rather than"; 124 glossary locators; five leaf subsections under 230
+words. For orientation read `finishing/STATE.md`.
 
 The other standing item is not a question. **140 of the book's 153 sections are
-`drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
-cut and P38 distilled, chapter 3, which P27 rewrote, chapter 11 entire, which P31
-reordered when it was chapter 9, and the three chapters P32 made out of chapter 8.
-`ledger.tsv` carries the per-section reason.
+`drafted` and unread**, and the seven passes of 2026-08-29 concentrated their
+additions in chapter 3 and section 11.2, neither of which has been read whole
+since before any of them. That concentration is Q-045.
 
 **P38 renumbered chapters 2, 4 and 5 and merged fifteen subsections away;**
 `renumber-map_2026-08-29.tsv` translates. Entries below that name a section under 2.1,
@@ -31,7 +32,7 @@ new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to sectio
 8.7.6 as the geopolitics section and to 8.7.7 as the democratic-dividend section;
 D-067 split 8.7.6 into 8.7.6–8.7.9 and renumbered 8.7.7 to 8.7.10.
 
-**Every entry below was written before D-093 and none has been renumbered for it.**
+**Every entry below written before D-093 has not been renumbered for it.**
 P32 split chapter 8 into chapters 8, 9 and 10 and shifted old 9, 10 and 11 to 11,
 12 and 13; `renumber-map_2026-08-28c.tsv` translates. Where an entry below says
 chapter 9 it means what is now chapter 11, and where it names a section under 8.4,
@@ -40,7 +41,7 @@ now chapter 11.
 
 **P34 renumbered chapter 3.** Old sections 3.2 through 3.7 are now 3.4 through 3.9;
 `renumber-map_2026-08-28e.tsv` translates. Q-021 and Q-028 name chapter 3 sections by their
-pre-P34 numbers. Q-036 and Q-037 are the only entries written in the new numbering.
+pre-P34 numbers. Q-036, Q-037, Q-042, Q-044 and Q-045 are written in the new numbering.
 
 A new question goes above the "Resolved" line with a default and the moment it
 applies. Nothing here blocks work.
@@ -177,6 +178,14 @@ usually importing a result rather than filing a topic.
 
 *Default applies now. `p28-scope.md` has the class-by-class record.*
 
+**Re-checked 2026-08-29 after D-109.** **The direction has reversed and the default now means something different.** The
+count is **826**, up from the 758 this entry recorded — P39 through P45 added 68 while
+adding 5,565 words. Density is unchanged at one per 114, which is why nothing flagged
+it: every pass added references at exactly the rate it added prose. So "stop here" has
+held as a rate and failed as a count, and D-089's original complaint was about the
+count a reader meets. Nothing in this file asks a pass to check its own reference
+budget, and that is the gap this re-check found rather than a new option.
+
 ---
 
 ### Q-027 — Chapters 4 and 5 stopped at 13.5 percent
@@ -198,9 +207,18 @@ was thinner to begin with, and what came out is what the survey amounted to.
 
 *Default applies now.*
 
+**Re-checked 2026-08-29 after D-109.** **P38 took option (c) and went further on the same instruction.** Chapter 4 came down
+9.8 percent and chapter 5 from 29 sections to 23; the two are now 7,336 and 9,823 words,
+7.81 and 10.46 percent of the book. P38 stopped where this entry says it would, and for
+the same reason stated the same way — the remainder is evidence. **The wall has now been
+hit twice by two passes working independently**, which is stronger than one pass's
+judgment and is the reason to read (a) as settled rather than merely defaulted.
+
 ---
 
 ### Q-028 — Whether chapter 3 should move earlier in the book
+
+**Closed by execution, D-102 (P38), on option (a). The record is under "Resolved" below; this entry is the question as it stood.**
 
 P29 made chapter 3 the book's center by what leads into it: chapter 1's roadmap
 corrected, chapter 2's opener rewritten around the four results chapter 3 uses,
@@ -216,11 +234,13 @@ left alone.
   the center structural rather than rhetorical, and it is a chapter-scale rewrite
   plus a renumber of everything after it.
 
-*Default applies now.*
+*Default applied, then was ruled on.* **P38 answered the instruction "move the central floor argument earlier" by taking (a) and delivering "earlier" in pages rather than in position** — chapter 3 begins on page 23 of 182 where it began on page 27 of 189 — on two grounds stated rather than assumed: chapter 3's opening stages the floor as a gap chapter 2 left, and the instruction's own second clause presupposes chapter 2 running first. Q-036 had already read (a) as the answer for the same dependency reason.
 
 ---
 
 ### Q-029 — The subsections P29 left thin, and whether to fold them
+
+**Closed by execution, D-102 (P38), on option (b). The record is under "Resolved" below; this entry is the question as it stood.**
 
 Twelve leaf subsections are now under 230 words, and eight of them are P29's
 work: 2.4.3 at 142, 5.5.2 at 162, 4.3.2 at 184, 2.2.2 at 186, 5.1.2 at 195, 5.4.1
@@ -235,7 +255,7 @@ shorter section openers; what makes these look odd is that they are leaves.
   D-031 / D-043 / D-091 model. P30 shows the cost: four sections moved, 16
   references repointed, five files of bookkeeping.
 
-*Default applies now.*
+*Default applied, then P38 took (b).* **All eight of P29's thin leaves were folded**, with `renumber-map_2026-08-29.tsv` carrying 34 rows and every inbound reference read against the surviving host's actual text. **Five leaves remain under 230 words and none is P29's**: 6.2.2 (212), 6.3.2 (199), 8.2.1 (198), 8.2.3 (215) and 9.1.3 (221, formerly 8.4.3). Those four this entry already excluded as pre-existing, and 8.2.1 joined them by other passes' cutting. The cost this entry warned of was paid and is recorded: the renumber is what made someone read 30 citing sentences by hand, which is how Q-041's four pre-existing defects were found.
 
 ---
 
@@ -263,6 +283,17 @@ costs a reader nothing and costs the file its correspondence with the book.
 
 *Default applies now.*
 
+**Re-checked 2026-08-29 after D-109.** **The count is 23 of 326.** The file has taken 29 entries since — P38 one, P39 one, P40
+eleven, P42 four, P43 four, P44 two — and every one of those is cited, so none of the
+growth is orphan growth. The nine new orphans came from prose that was cut around them:
+`jigsaw2017perspective` at P38, and eight policy and corporate entries
+(`deepmind2016partnership`, `g72023hiroshima`, `gpai2020joint`, `justcapital2018amazongo`,
+`moda2025basic`, `openai2018charter`, `peacetechlab2019monitoring`,
+`unesco2021recommendation`) from P36's and P37's cutting in chapters 8 through 12. **The
+mechanism this entry describes is confirmed rather than changed**: cutting prose orphans
+entries at a steady rate and nothing reports it, so (b) would have to be run repeatedly or
+not at all.
+
 ---
 
 ### Q-031 — Chapter 9's gap list lost its nearest-work notes to the word cap
@@ -289,6 +320,14 @@ which is a large part of what made it read as a catalog.
 
 *Default applies now. `p31-scope.md` has the full accounting of what paid for the
 program.*
+
+**Re-checked 2026-08-29 after D-109.** **Stands, with one figure moved.** The chapter opener is now 1,006 words, up 166 from
+P44, which added to its collapse paragraph the question none of the nine conditions asks —
+what keeps an outside party outside — and answered it with the removal cases and the CFPB
+sequence. The nearest-work notes were not restored and nothing has asked for them. Option
+(b)'s framing that "the instruction's constraint was met once and arguably does not bind a
+later decision" is now the ordinary state of the chapter rather than a hypothetical, since
+the opener has already grown for other reasons.
 
 ---
 
@@ -323,6 +362,15 @@ verification passes that wrote them.
 without re-deriving text from `claims.tsv`, so this is the author's call rather
 than a tidy-up to be done unasked.*
 
+**Re-checked 2026-08-29 after D-109.** **The annotated half has grown by nearly half again: 210 entries carry notes, totalling
+8,695 words**, against the 144 and roughly 6,600 recorded here. The growth is this
+session's: the 21 entries added by P40 through P44 all carry verification notes of the
+kind option (c) would keep — what was checked, what refused a fetch, which figure came
+from a catalogue record rather than the source. **That strengthens (c) and weakens (b)**,
+because the newest notes are exactly the qualifying and disambiguating kind (c) preserves,
+and cutting them would destroy the only record that a claim was checked against something
+other than memory. Option (b)'s figure is now about 8,700 words rather than 7,600.
+
 ---
 
 ### Q-033 — The taxonomy of bias sources does not name the choice of training target
@@ -356,6 +404,11 @@ to organize it.
 *Default applies now. This is a gap D-096 found on its way through, not something
 the author's finding asked for, so it is filed rather than taken.*
 
+**Re-checked 2026-08-29 after D-109.** **Unchanged and re-verified.** Section 6.1.1 still opens on the four-item list without
+target choice; sections 6.1.3 and 6.3.6 still carry the concept. Nothing since P36 has
+touched chapter 6 except P42's repairs at 6.3.3, 6.4.2 and 6.4.4, none of them in the
+taxonomy. Default holds.
+
 ---
 
 ### Q-034 — Section 4.2 now has nine subsections, the second-widest in the book
@@ -382,6 +435,14 @@ heading between two stages that run consecutively.
 
 *Default applies now. `p33-scope.md` has the pass.*
 
+**Re-checked 2026-08-29 after D-109.** **Unchanged, and the comparison has shifted under it.** Section 4.2 still has nine
+subsections. What has moved is what it is being compared against: chapter 4 is now 7,336
+words, so section 4.2's nine subsections are more than half of it, and chapter 3 at 13,343
+has become the book's longest chapter with nine sections of its own. The shape this entry
+called "a chapter's worth of headings under a section heading" is now the shape of a
+chapter that is smaller than section 4.2's parent used to be. Default holds; the
+argument for (a) — that the nine are one sequence — is untouched by any of it.
+
 ---
 
 ### Q-035 — Whether chapter 5 needs the pipeline treatment chapter 4 just had
@@ -407,6 +468,13 @@ the same defect was not measured in this pass, only its subject matter checked a
   and is recorded to be declined.
 
 *Default applies now. (b) is a measurement rather than a pass, and would take an hour.*
+
+**Re-checked 2026-08-29 after D-109.** **Still unmeasured.** P38 cut chapter 5 from 29 sections to 23 and 11,198 words to 9,823
+without running the measurement (b) names, so the chapter has been distilled twice on other
+grounds and never checked for the defect this entry is about. That does not change the
+default and it does raise the cost of eventually taking (b), since the vocabulary count
+would now be run against a chapter two passes removed from the one P33's instruction
+described.
 
 ---
 
@@ -435,6 +503,18 @@ before, since sections 3.2 and 3.4 both cite them for definitions.
 
 *Default applies now. `p34-scope.md` has the pass.*
 
+**Re-checked 2026-08-29 after D-109.** **Chapter 3 is now 13,343 words and 14.21 percent, and it is the longest chapter in the
+book by 2,486 words.** Both premises of this entry have gone: it is no longer third-longest,
+and the two chapters it stood behind were cut at P38 while it grew — chapter 2 is 10,857 and
+chapter 5 is 9,823. The growth is P39 through P45, which added about 2,000 words to it across
+five passes on five separate conversational instructions, none of which was about chapter 3's
+length. **Option (a) still holds on its own reasoning** — the dependence on section 2.3's
+table and section 2.4.1's ladder has deepened again, since sections 3.4 and 3.7 now cite them
+for more than definitions — and Q-028 is closed on that ground. What has changed is that (c),
+the split at the P34 seam, is now a split of roughly 4,400 and 8,900 words rather than two
+even halves, so the seam it names is no longer where the chapter divides. **The live question
+is no longer where chapter 3 sits but whether its growth is being watched**, which is Q-045.
+
 ---
 
 ### Q-037 — The plural arrangement is recommended and nothing develops it
@@ -460,6 +540,16 @@ discharge.
   rather than one endorsed. Cheapest, and it loses the one constructive thing that section says.
 
 *Default applies now.*
+
+**Re-checked 2026-08-29 after D-109.** **Still undeveloped, and P40 gave the reason a sharper form than section 11.6 had.** The
+removal cases P40 put into sections 3.1 and 3.3 are read there as a natural experiment on what
+*adverse in interest* buys: protection tracked the deciders' exposure and not their
+distinctness. That is the plural arrangement's independence assumption failing in public law
+rather than in a pricing algorithm, which is section 11.6's example. **It strengthens (a)** —
+the book now has two independent demonstrations that the arrangement's central assumption is
+what nothing secures — and it makes (b) harder to write honestly, since a deployment condition
+would have to specify adversity of interest, which section 3.3 already says nobody has built
+to.
 
 ---
 
@@ -489,6 +579,14 @@ made inside the pass and recorded. Twelve chapters at that cost is a pass of its
 - (c) Run it over chapters 2, 3 and 4 only, which carry 141 of the 340 between them and are the
   chapters most likely to be read linearly.
 
+**Re-checked 2026-08-29 after D-109.** **The count is 317, down 23, while the book grew 5,565 words.** Nothing swept for it; P36's
+cutting and P38's distillation removed the constructions along with the prose around them, and
+the passes since added them back more slowly than they added text. **That confirms the entry's
+own diagnosis rather than changing it**: the rate falls when prose is cut and does not fall
+when prose is read, because the surviving instances are the ones a reading would keep. (c)'s
+figure of 141 across chapters 2, 3 and 4 is not re-measured here and chapter 3 has grown 2,000
+words since, so it should be re-counted before that option is taken.
+
 ### Q-039 — The recurring-conclusion cut reached 2,051 of approximately 5,000
 
 D-100 asked for approximately 5,000 words on the finding that the same conclusions
@@ -515,6 +613,15 @@ D-090, eight and one days before the instruction.
   and renumbers chapters against 785 resolved references.
 
 *Default applies now.* `p36-scope.md` carries the measurement behind each figure.
+
+**Re-checked 2026-08-29 after D-109.** **Option (d) has grown and option (e) is spent.** (d) proposed cutting about 800 words by
+making chapter 3 state its conclusion once rather than at both ends; chapter 3 has since
+grown 2,000 words and is the book's longest chapter, so the recurrence (d) names now sits
+in a chapter with more of it — and Q-045 is about the growth rather than the recurrence.
+(e), folding the twelve thin leaves, was executed at P38 and saved what this entry
+predicted: little text. **What the re-check confirms is (a)'s reasoning.** The book has
+taken 5,565 words since this was filed and none of them was added by a pass looking for
+words to cut; the class named here did not refill.
 
 ---
 
@@ -563,6 +670,14 @@ and found by an outside reader working from the argument rather than from a renu
 **That is the class in modal form**: the target makes the cited claim more weakly than the
 citing sentence needs. Neither (b) nor (c) above would flag it — the pointer resolves, the
 nouns match, and an embedding would score the two passages close. Repaired in P39 (D-103).
+**Re-checked 2026-08-29 after D-109.** **Nothing has swept the nine chapters, and the reading that would
+has not become cheaper.** Option (d)'s target is 124 glossary locators, essentially unchanged.
+What has changed is the company this question keeps: **P42 found four defects of an adjacent
+class** — a chapter stating flatly what another chapter has already qualified, with no
+reference to resolve — and P41, P44 and P45 found three more. Those are Q-043, and the two
+questions together now describe seven found defects of a kind no tool detects. **The
+distinction between them is worth keeping**: this one is about references that point somewhere
+weaker than the sentence needs, and Q-043 is about claims that point nowhere at all.
 
 ### Q-040 — The inventories outside chapters 8–10
 
@@ -595,6 +710,13 @@ were not distinctive, which raises the question of scope rather than settling it
 
 *Default applies now.* `p37-scope.md` carries the per-passage record and the table.
 
+**Re-checked 2026-08-29 after D-109.** **Chapter 2's figure is stale and the conclusion is not.** This entry measured chapter 2
+at 25.2 percent over 13,121 words; P38 then cut it to 10,857 across fifteen sections rather
+than twenty-three, and the density was not re-measured. The reasoning does not depend on the
+number — the entry's own point is that the syntactic figure is a weak instrument and that
+none of those percentages is a finding — so (a) holds. Re-measuring chapter 2 before taking
+(b) would now be necessary rather than optional.
+
 ---
 
 ### Q-042 — The removal cases are two months old
@@ -621,6 +743,15 @@ section 3.1's paragraph is evidence of.
 **Default (a) applies now.** Recorded because the book has not previously built a
 paragraph of argument on a case decided in the same summer, and a fresh session should
 know to check it.
+
+**Re-checked 2026-08-29 after D-109.** **The exposure has grown since this was filed one pass earlier.** P43 and P44 added two
+more sites that lean on the cases — section 11's collapse paragraph, which now answers what
+keeps an outside party outside with *Slaughter*, *Cook* and the CFPB sequence, and section
+11.2's note that the pet-trust instrument is private law and therefore outside what
+*Slaughter* reached. That last is the book's own inference and is marked as such on the
+page. **Six sites now, not four**, and the option (a) reasoning still covers them: each
+states a principle that survives all three of Menand's futures, except section 11.2's
+private-law observation, which would need re-reading if the exception expanded.
 
 ### Q-043 — Claims one chapter makes flatly that another chapter has already qualified
 
@@ -652,6 +783,19 @@ against itself.
 wrong fact: each was a sentence the book itself could have corrected, and (b) is the only
 method that reads the book the way the reader who found them did.
 
+**Re-checked 2026-08-29 after D-109.** **The evidence has tripled and the default is now the weakest thing in this file.** Three
+more instances have turned up since, none from a reader and all from following an argument
+across chapters. **P41**: section 3.5's identity between shutdown-resistance and refusal,
+restated by sections 5.6.2 and 6.3, against P39's concession in section 3.5 itself that
+nothing prevents the switch being thrown. **P44**: section 3.7 requiring a bearer that can
+leave, against section 11.2's claim that releasing one is nearer to ending it — which made
+exit a form of dying for as long as both stood. **P45**: section 11.2 claiming only the
+safety-net half of the compute floor while section 8.3.3 had already argued the roof.
+**Seven instances now, across four passes**, and every one was found by someone tracing a
+claim rather than by a tool or a reader. Two of the seven were contradictions the book
+carried in its central argument. That is a rate, not a set of incidents, and it is the
+strongest case in this file for (b), reading by subject rather than by section.
+
 ### Q-044 — The floor is in the weights and the system is an assembly
 
 P44 found that `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the
@@ -679,7 +823,67 @@ Section 3.1 now states the gap. It does not close it, and closing it is not a pa
 have the room to make, and because the gap defeats every custody measure in the book at
 once, which no other open question does.
 
+**Re-checked 2026-08-29 after D-109.** **Unchanged, and P45 added a measure that is not defeated by it.** The compute floor
+section 11.2 now carries raises the price of a halt without depending on any property of
+the weights, so it is the one instrument in the book an operator cannot route around by
+editing the assembly — because it is not in the artifact at all. That does not close this
+question, which is about custody of what the system is. It does mean the chapter's
+custody measures are no longer uniformly weight-shaped, and (b) — extending attestation to
+the prompt, tool manifest and output path — remains the cheapest real improvement
+available anywhere in this file.
+
+### Q-045 — Seven passes in one day added to two places nobody has read
+
+Every pass on 2026-08-29 after P38 came out of a conversation rather than a written
+instruction, and their additions concentrated: **chapter 3 went from 11,341 words to
+13,343 and became the longest chapter in the book; section 11.2 went from 1,061 to
+2,624, more than doubling.** No instruction was about the length of either. Each pass
+was small, each was justified on its own, and the aggregate was not visible from inside
+any of them — P45 noticed it only because section 11.2 had taken three passes in a row.
+
+The book's own discipline does not catch this. `ledger.tsv` records what each pass did
+per section; nothing sums a day. `check_all.sh` has no size invariant. Q-036 tracked
+chapter 3's share and was three passes stale when this review reached it. And **the
+author has read neither**: chapter 3 has been unread since P27 rewrote it, and section
+11.2 since P31 built the chapter.
+
+- **(a) Default — record it and let the author's read be the check.** That is what the
+  ledger and the `drafted` status are for, and the material added is not padding: each
+  pass repaired a defect or closed a gap the author had named.
+- (b) Read chapter 3 and section 11.2 whole before either takes another word, and report
+  what the accumulated additions have done to them as prose rather than as argument.
+  About 16,000 words of reading, and it is the only way to find out whether five separate
+  repairs compose into a chapter.
+- (c) Add a size figure to the pass discipline: every scope file reports its chapter's
+  before-and-after share of the book, so the next pass sees what the last five did. Cheap,
+  mechanical, and it would have surfaced this on 2026-08-29 rather than after.
+- (d) Freeze chapter 3 and section 11.2 to defect repairs only until they are read, taking
+  new material elsewhere or into a holding file.
+
+**Default (a) applies now.** Recorded because the pattern is a property of how this
+session worked rather than of any decision in it, and because a fresh session reading
+`STATE.md` would find seven passes each reporting a small addition and no line saying they
+went to the same two places.
+
 ## Resolved
+
+### Q-028 — Whether chapter 3 should move earlier. **Closed by execution, D-102 (P38), on (a).**
+
+The instruction "move the central floor argument earlier" was answered by delivering
+"earlier" in pages and not in position: chapter 3 begins on page 23 of 182, from page 27
+of 189. Two grounds, stated in `p38-scope.md` rather than assumed — chapter 3's opening
+stages the floor as a gap chapter 2 left, and the instruction's second clause presupposes
+chapter 2 running first, since a chapter supplies premises to what follows it. Q-036 had
+independently read (a) as the answer, on the dependency between chapter 3 and sections 2.3
+and 2.4.1, which has since deepened.
+
+### Q-029 — The subsections P29 left thin. **Closed by execution, D-102 (P38), on (b).**
+
+All eight of P29's thin leaves were folded, with `renumber-map_2026-08-29.tsv` at 34 rows
+and every inbound reference read against the surviving host's text. Five leaves remain
+under 230 words — 6.2.2, 6.3.2, 8.2.1, 8.2.3 and 9.1.3 — and none is P29's. The cost this
+entry warned of was paid and returned something: the renumber is what forced 30 citing
+sentences to be read by hand, which is how Q-041's four pre-existing defects surfaced.
 
 ### Q-025 — Every quotation mark in the book's prose prints as a closing quote. **Resolved by execution, D-082.**
 

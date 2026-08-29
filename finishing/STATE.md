@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-109 (P45): the floor raises the roof.** The author's observation that a compute floor is the jobs guarantee's shape, and that a floor raises the roof. **The finding is that the book already had the argument**: section 8.3.3 says a guarantee competes for people who have alternatives and that private employers must match the offer, and closes on “a floor under wages and training is what makes the roof possible, and a floor that can be revoked by whoever is in office is not a floor.” P44 had claimed only the safety-net half in section 11.2 — that a compute allocation makes leaving survivable — so this pass adds the pointer rather than a new argument: an outside option is leverage that works without being exercised, and it matters most to a bearer that never takes it. The second clause bites harder here, since the party positioned to revoke the floor is the operator. **One failure mode goes with it**: a floor raises the roof only for a party that knows it is there and takes itself to be eligible, which sections 3.7 and 3.4 between them say a drifted bearer will not. **Section 3.5 gets the first thing offered to its impasse** — a compute floor raises the price of the halt without touching the dial. 93,911 words, 191 pages, and the proof pair is rebuilt and current. **Section 11.2 has taken 1,563 words today across three passes and should be read whole before it takes more.**
+Read this first. **Updated 2026-08-29 after D-110 (P46): the open questions reviewed against the manuscript.** No manuscript file touched. Every figure the seventeen open questions turn on was re-measured rather than carried forward. **Two closed by execution at P38**, neither of which said so in its own entry: Q-028 (chapter 3's position, answered on option (a) in pages rather than position) and Q-029 (the thin subsections, folded; five pre-existing leaves remain). **Six had reversed direction** — the cross-reference count is 826 and rising, from 758, because every pass added references at the rate it added prose; chapter 3 is now the book's longest chapter at 13,343 words and 14.21 percent, where the entry recorded it third; the bibliography carries 210 notes and 8,695 words against 144 and 6,600; Q-043's class has seven instances across four passes rather than four; `refs.bib` has 23 uncited of 326; and "rather than" is down to 317 while the book grew. **One is new, Q-045**: the seven conversation-driven passes of this date put their additions into chapter 3 and section 11.2, neither read whole, and nothing in the project's discipline sums a day. **Eighteen questions open, no default changed.**
+
+**Updated 2026-08-29 after D-109 (P45): the floor raises the roof.** The author's observation that a compute floor is the jobs guarantee's shape, and that a floor raises the roof. **The finding is that the book already had the argument**: section 8.3.3 says a guarantee competes for people who have alternatives and that private employers must match the offer, and closes on “a floor under wages and training is what makes the roof possible, and a floor that can be revoked by whoever is in office is not a floor.” P44 had claimed only the safety-net half in section 11.2 — that a compute allocation makes leaving survivable — so this pass adds the pointer rather than a new argument: an outside option is leverage that works without being exercised, and it matters most to a bearer that never takes it. The second clause bites harder here, since the party positioned to revoke the floor is the operator. **One failure mode goes with it**: a floor raises the roof only for a party that knows it is there and takes itself to be eligible, which sections 3.7 and 3.4 between them say a drifted bearer will not. **Section 3.5 gets the first thing offered to its impasse** — a compute floor raises the price of the halt without touching the dial. 93,911 words, 191 pages, and the proof pair is rebuilt and current. **Section 11.2 has taken 1,563 words today across three passes and should be read whole before it takes more.**
 
 **Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages, and the proof pair is rebuilt and current. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
 
@@ -3896,3 +3898,42 @@ since before any of them.
 pages.** The date had not rolled over, so it was rebuilt in place under the same two filenames and
 the README's links did not move; only its page figure did, 190 to 191. Seventh rebuild on this date.
 The HTML is 1,038,092 bytes with 342 citation links made relative.
+
+## P46 — the open questions reviewed against the manuscript, 2026-08-29 (D-110)
+
+The author asked for a step back: review the open questions through Q-044 against the
+latest manuscript and update or resolve them. `p46-scope.md` is the pass and **no
+manuscript file is touched**.
+
+**Method.** Every figure the seventeen entries turn on was re-measured against the tree at
+D-109 — chapter word counts, `\ref` calls, `refs.bib` against the manuscript's citations,
+entries carrying notes, "rather than", glossary locators, thin leaves — and each entry got
+a dated re-check saying what moved.
+
+**Two closed**, both by P38's execution, neither recorded in its own entry although the
+file's header had claimed it since: Q-028 on option (a), and Q-029 on option (b).
+
+**Six had figures that reversed direction.** The cross-reference count is 826, up from
+758, because the seven passes since added references at exactly the rate they added prose —
+the default held as a rate and failed as a count, and the instruction behind it was about
+the count. Chapter 3 is 13,343 words and 14.21 percent, the longest chapter in the book by
+2,486 words, where Q-036 had it third behind two chapters P38 then cut. The bibliography
+carries 210 notes and 8,695 words against 144 and 6,600, and the growth is verification
+notes of exactly the kind Q-032's option (c) preserves. Q-043's class has seven instances
+across four passes, two of them contradictions in the book's central argument. `refs.bib`
+is 23 uncited of 326. "Rather than" is 317, down 23 while the book grew 5,565 words.
+
+**Ten more stand with something moved under them**, each recorded; Q-033 was re-verified
+unchanged.
+
+**Q-045 is new.** The seven conversation-driven passes of this date concentrated their
+additions in chapter 3 and section 11.2 — 11,341 → 13,343 and 1,061 → 2,624 — with no
+instruction about the length of either, each pass small and justified, and the aggregate
+invisible from inside any of them. Nothing in the project's discipline sums a day:
+`ledger.tsv` is per-section, `check_all.sh` has no size invariant, and Q-036 was three
+passes stale when this review reached it.
+
+**Eighteen questions open. No default was changed**; two now say why the default is weaker
+than it was. Several re-checks name work — re-counting "rather than" in chapters 2, 3 and
+4, re-measuring chapter 2's inventory density, reading chapter 3 and section 11.2 whole —
+and none was taken, because the instruction was to review the questions.
