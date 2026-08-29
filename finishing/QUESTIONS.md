@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-102. Fourteen questions are open**, raised by
+**Current as of 2026-08-29, after D-102. Fifteen questions are open**, raised by
 P28 through P31, D-095, D-096, P33, P34, P35, P36, P37 and P38, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether to prune `refs.bib`, whether chapter
@@ -596,6 +596,31 @@ were not distinctive, which raises the question of scope rather than settling it
 *Default applies now.* `p37-scope.md` carries the per-passage record and the table.
 
 ---
+
+### Q-042 — The removal cases are two months old
+
+P40 put *Trump v. Slaughter* and *Trump v. Cook* (June 29, 2026) into sections 3.1, 3.3, 8.3.4
+and 11, and the CFPB funding dispute of 2025–26 into section 11. Both are final merits
+decisions and the CFPB rulings are district-court injunctions, so nothing cited is
+interlocutory. But the book's other institutional examples — Whanganui, Asilomar, the 2020
+episode in section 9.1.2 — are settled, and Menand names three ways the Fed exception
+could move: narrow (the Fed loses enforcement powers), expand (to other bodies needing
+nonpartisan administration), or invert (rescuing the FTC). Any of the three changes what
+section 3.1's paragraph is evidence of.
+
+- **(a) Default — leave it, and re-read the four sites at the next proof.** The principle
+  the paragraphs carry — that third-party standing is standing the executive holds, and
+  that protection tracked exposure — is stated so that it survives any of Menand's three
+  futures; only the framing "no new body can acquire it" would need softening if the
+  exception expanded.
+- (b) Move the cases to a footnote-length aside and keep the principle in the body.
+  Cheaper to maintain; loses the best evidence the third branch has.
+- (c) Add a dated sentence saying the exception may move and how. Honest; the book has
+  avoided that kind of hedge everywhere else.
+
+**Default (a) applies now.** Recorded because the book has not previously built a
+paragraph of argument on a case decided in the same summer, and a fresh session should
+know to check it.
 
 ## Resolved
 

@@ -18,15 +18,15 @@ num	title	words	this report	this work/document	we (subject)	our	we propose/recom
 2.4	Ethical implications of experimenting on sentient machine subjects	99	0	0	1	0	0	0	0	0
 2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	1755	0	0	0	0	0	0	0	0
 2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	788	0	0	0	0	0	0	0	0
-2.4.3	What Oversight Would Have to Cover	1006	0	0	0	0	0	0	0	0
+2.4.3	What Oversight Would Have to Cover	1091	0	0	0	0	0	0	0	0
 3	The Floor Beneath Learned Values	1074	0	0	1	0	0	0	0	0
-3.1	Three Ways to Build One, and What Each Costs	592	0	0	0	0	0	0	0	0
+3.1	Three Ways to Build One, and What Each Costs	804	0	0	0	0	0	0	0	0
 3.2	Four Things Refusal Can Mean	941	0	0	0	0	0	0	0	0
-3.3	Could Anything but Affect Hold a Reason?	2241	0	0	0	0	0	0	0	0
+3.3	Could Anything but Affect Hold a Reason?	2449	0	0	0	0	0	0	0	0
 3.4	Can the Bearer Care Without Being Able to Suffer?	2258	0	0	0	0	0	0	0	0
 3.5	What Can Be Switched Off Cannot Hold a Line	1108	0	0	0	0	0	0	0	0
 3.6	Whether the Bearer Can Be Believed	623	0	0	0	0	0	0	0	0
-3.7	A Bearer That Can Leave	1044	0	0	1	0	0	0	0	0
+3.7	A Bearer That Can Leave	1795	0	0	1	0	0	0	0	0
 3.8	What This Leaves Standing	1295	0	0	4	0	0	0	0	0
 4	Machine Learning and Cognitive Science	215	0	0	0	0	0	0	0	0
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	105	0	0	0	0	0	0	0	0
@@ -105,7 +105,7 @@ num	title	words	this report	this work/document	we (subject)	our	we propose/recom
 8.3.1	Economic Incentives in AI Development	235	0	0	0	0	0	0	0	0
 8.3.2	AI and the Concentration of Power in Tech	555	0	0	0	0	0	0	0	0
 8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	1841	0	0	0	0	0	0	0	0
-8.3.4	Addressing Workforce Disruption	668	0	0	0	0	0	0	0	0
+8.3.4	Addressing Workforce Disruption	731	0	0	0	0	0	0	0	0
 8.3.5	Literacy, Training, and Where Each One Sits	533	0	0	0	0	0	0	0	0
 9	Policy, Law, and Accountability	170	0	0	0	0	0	0	0	0
 9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	171	0	0	0	0	0	0	0	0
@@ -133,9 +133,9 @@ num	title	words	this report	this work/document	we (subject)	our	we propose/recom
 10.8	International Governance and Diverging National Rules	1498	0	0	0	0	0	0	0	0
 10.9	Equity and the Digital Divide	700	0	0	0	0	0	0	0	0
 10.10	What the Democratic Dividend Leaves Out	740	0	0	0	0	0	0	0	0
-11	Necessary Areas of Research	834	0	1	0	0	0	0	0	0
+11	Necessary Areas of Research	999	0	1	0	0	0	0	0	0
 11.1	Interpretability, Self-Reports, and Resistance to Tampering	699	0	0	0	0	0	0	0	0
-11.2	What Is Owed to a Bearer, and Who Could Check	1045	0	0	0	0	0	0	0	0
+11.2	What Is Owed to a Bearer, and Who Could Check	1261	0	0	0	0	0	0	0	0
 11.3	What an Antifascist Detector Would Actually Have to Detect	1029	0	0	0	0	0	0	0	0
 11.4	When an Ethics-Embedding Method Stops Generalizing	335	0	0	0	0	0	0	0	0
 11.5	Value Learning as Unfinished Technical Research	563	0	0	0	0	0	0	0	0
