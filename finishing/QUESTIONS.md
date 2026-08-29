@@ -1,16 +1,17 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-097. Ten questions are open**, raised by
-P28 through P31, D-095, D-096 and P33, none of them blocking and each with a default that has
+**Current as of 2026-08-28, after D-098. Twelve questions are open**, raised by
+P28 through P31, D-095, D-096, P33 and P34, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
 9's gap list should get its nearest-work notes back, whether the bibliography
 should stay annotated at all, whether the taxonomy of bias sources should name the
-choice of training target, whether section 4.2 should be split, and whether chapter 5 needs
-the pipeline treatment chapter 4 just had. For orientation read `finishing/STATE.md`.
+choice of training target, whether section 4.2 should be split, whether chapter 5 needs
+the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
+whether the plural arrangement P34 recommends should be given an institutional form. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **127 of the book's 167 sections are
+The other standing item is not a question. **129 of the book's 169 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -27,6 +28,10 @@ P32 split chapter 8 into chapters 8, 9 and 10 and shifted old 9, 10 and 11 to 11
 chapter 9 it means what is now chapter 11, and where it names a section under 8.4,
 8.5, 8.6 or 8.7 those are now 9.1, 9.2, 9.3 and chapter 10. Q-031 is about what is
 now chapter 11.
+
+**P34 renumbered chapter 3.** Old sections 3.2 through 3.7 are now 3.4 through 3.9;
+`renumber-map_2026-08-28e.tsv` translates. Q-021 and Q-028 name chapter 3 sections by their
+pre-P34 numbers. Q-036 and Q-037 are the only entries written in the new numbering.
 
 A new question goes above the "Resolved" line with a default and the moment it
 applies. Nothing here blocks work.
@@ -393,6 +398,59 @@ the same defect was not measured in this pass, only its subject matter checked a
   and is recorded to be declined.
 
 *Default applies now. (b) is a measurement rather than a pass, and would take an hour.*
+
+---
+
+### Q-036 — Chapter 3 is now nine sections and 11.56 percent of the book
+
+P34 added two sections to the chapter and took it from 7,488 words to 11,341, from 8.13 percent of
+the book to 11.56. It is now the third-longest chapter after chapter 2 (13,391) and chapter 5
+(11,478), and it sits third in the book, before the two design chapters that P29 cut to make room
+for it.
+
+This does not create a new question so much as sharpen Q-028, which asks whether chapter 3 should
+move earlier. The argument for moving it was that the book's centre arrives after two chapters of
+material that reads as survey; the argument against was that chapter 3 depends on section 2.3's
+capacity vocabulary and section 2.4.1's ladder, both of which now carry more of its weight than
+before, since sections 3.2 and 3.4 both cite them for definitions.
+
+- **(a) Default — leave it, and read Q-028 as answered in the negative.** The new sections deepen
+  chapter 3's dependence on chapter 2 rather than loosening it. A chapter that opens by naming the
+  fourth capacity in section 2.3's table cannot precede section 2.3.
+- (b) Move the two definitional passages chapter 3 needs — section 2.3's table and section 2.4.1's
+  ladder — forward into chapter 1 or the front matter, which would free chapter 3 to move. This is
+  a large restructure and would leave chapter 2 without its own apparatus.
+- (c) Split chapter 3 at the seam P34 created: sections 3.1–3.3 are the space of options, 3.4–3.9
+  are what follows from choosing one. Two chapters of about 5,700 words each. Recorded because the
+  seam is real, and not recommended, because the chapter's force is that the options narrow to one.
+
+*Default applies now. `p34-scope.md` has the pass.*
+
+---
+
+### Q-037 — The plural arrangement is recommended and nothing develops it
+
+Section 3.3 says of the arrangement of several models with different principals that it is the
+cheapest real improvement in the section and that the book should be read as recommending it
+whatever else it recommends. Nothing in chapters 8 through 10 develops it as a governance proposal.
+Section 11.6 asks whether a multi-agent system can resist capture and concludes it is an open
+research problem; section 9.3.3 makes review binding on people rather than on models. The
+recommendation is currently a sentence with no institutional form attached.
+
+That is a real gap and it is the one place in P34 where the pass created an obligation it did not
+discharge.
+
+- **(a) Default — leave the recommendation as stated and let section 11.6 carry it as research.**
+  Honest, since the arrangement's central weakness is exactly the one section 11.6 documents, and
+  the book does not have a design to offer.
+- (b) Give it a home in chapter 9 or 10 as a deployment condition alongside the other institutional
+  asks: several models, adverse principals, mutual visibility, any one able to make an objection
+  expensive to ignore. Perhaps 600 words. The risk is proposing an arrangement whose independence
+  assumption section 11.6 has already undercut.
+- (c) Cut the recommendation from section 3.3 and let the construction stand as an option assessed
+  rather than one endorsed. Cheapest, and it loses the one constructive thing that section says.
+
+*Default applies now.*
 
 ---
 
