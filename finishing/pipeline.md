@@ -121,7 +121,7 @@ than chosen here.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, 169 of them. The prose. |
-| `finishing/refs.bib` | 297 entries, reached from the manuscript by `\autocite{key}`. |
+| `finishing/refs.bib` | 304 entries, reached from the manuscript by `\autocite{key}`. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
