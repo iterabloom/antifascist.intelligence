@@ -1,16 +1,19 @@
 # Finishing plan
 
 The book stands at 167 sections and 193 pages, with 40 sections accepted and 127
-drafted and unread. Five passes have been executed: P28, which cut 79
+drafted and unread. Six passes have been executed: P28, which cut 79
 cross-references by class; P29, which cut chapter 2 by 20.2 percent and chapters
 4 and 5 by 13.5 percent and made chapter 3 the book's centre without changing a
 word in it; P30, which moved section 10.3's three case subsections into chapter 6
 and rewrote the conclusion's third section as a synthesis; P31, which
 flattened chapter 9 into nine priority-ordered sections and gave each one a
 near-term experiment, a falsifier, a data requirement and an institutional
-condition, inside the chapter's existing word count; and P32, which split chapter
-8 into three chapters under a 23,000-word cap. **Chapter numbers above P32 have
-moved: old 9, 10 and 11 are now 11, 12 and 13.**
+condition, inside the chapter's existing word count; P32, which split chapter
+8 into three chapters under a 23,000-word cap; and P33, which rebuilt section 4.2
+as the training pipeline in the order its stages run and restated chapter 7's
+recuperation claim as distribution collapse and agenda control. **Chapter numbers
+above P32 have moved: old 9, 10 and 11 are now 11, 12 and 13. Section numbers
+under 4.2 moved at P33; `renumber-map_2026-08-28d.tsv` is the map.**
 
 ## 1. Passes
 
