@@ -1,0 +1,5 @@
+old	new	note
+4.2.1	4.2.2	Reinforcement Learning and Value Alignment -> Preference Optimization, and Who Holds the Pen; reward hacking, non-transfer, regularization and the exploration paragraph carried
+4.2.2	4.2.3	IRL and CIRL, renumbered and retitled; prose unchanged but the opening pointer
+4.2.3	4.2.1	Supervised Learning for Ethical Decision-Making -> Pretraining and Instruction Tuning; the aggregate argument, Moral Machine and the unsupervised paragraph carried
+4.2.4	4.2.9	Transfer Learning -> Transfer, and the Floor That Cannot Tell It Has Stopped Applying; prose unchanged but the opening sentence
