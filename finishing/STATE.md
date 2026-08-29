@@ -48,24 +48,28 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-28, after D-093.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-28, after D-095.** `manuscript/sections/chNN/*.tex` —
 **162 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **90,899 words of prose**, by `section_stats.py`
+list. **90,906 words of prose**, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-28.{pdf,html}`, **189 pages**,
-rebuilt from this tree after P32 and linked from the README. The date has not
-rolled over across P30, P31 or P32, so the pair is replaced in place each time and
-the two links have not moved. The page count held at 189 through the chapter-8
-split: P32's eleven promoted headings cost what its cuts returned. `check_frozen.py` registers no file, since D-088 removed the two
+pair, `finishing/reports/whole-book-proof_2026-08-28.{pdf,html}`, **186 pages**,
+rebuilt from this tree at D-095 and linked from the README. The date has not
+rolled over across P30, P31, P32, D-094 or D-095, so the pair is replaced in place
+each time and the two links have not moved. The page count held at 189 through the
+chapter-8 split, P32's eleven promoted headings costing what its cuts returned,
+and fell to 186 at D-095, the three pages being the research diaries cut out of
+the bibliography rather than anything removed from the prose. `check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
-**Ledger: 46 sections `accepted`, 116 `drafted` and unread.** P32 moved 23 more
-rows to `drafted` — every section whose prose it changed, including twelve outside
-the three new chapters whose reference sentences were rewritten. P31 had moved all
-ten of chapter 9's rows before that. The paragraph below describes the position
+**Ledger: 43 sections `accepted`, 119 `drafted` and unread.** D-094 and D-095 moved
+three more rows to `drafted`: sections 8.2.2 and 8.3.4, whose aggregation concession
+stopped saying *legitimate*, and section 6.4.1, whose Palantir quotation is now
+attributed to the reporting that carries it. P32 had moved 23 before them — every
+section whose prose it changed, including twelve outside the three new chapters
+whose reference sentences were rewritten — and P31 all ten of chapter 9's. The paragraph below describes the position
 before both and uses the pre-P32 chapter numbers. The drafted ones are
 concentrated where the recent passes worked: chapter 2 (22 of 23) and chapters 4
 and 5 (11 of 13, 26 of 29), all cut at P29; chapter 3 entire (8 of 8), rewritten
@@ -74,7 +78,7 @@ at P27; chapter 7 (4 of 5); the glossary; and scattered rows in chapters 1, 6, 8
 status, because P30 moved their text without rewriting it. `ledger.tsv` carries
 the per-section reason.
 
-**Six questions are open**, raised by P28 through P31 and none blocking:
+**Seven questions are open**, raised by P28 through P31 and D-095, none blocking:
 `QUESTIONS.md` has them with a recommended default each.
 
 **The paragraphs below this line are the 2026-08-23 record of the P3 pass and

@@ -1,14 +1,14 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-093. Six questions are open**, raised by
-P28 through P31, none of them blocking and each with a default that has already
-applied: how much further to cut the cross-references, how much further to cut
-chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
-fold the subsections P29 left thin, whether to prune `refs.bib`, and whether
-chapter 9's gap list should get its nearest-work notes back. For orientation read
-`finishing/STATE.md`.
+**Current as of 2026-08-28, after D-095. Seven questions are open**, raised by
+P28 through P31 and D-095, none of them blocking and each with a default that has
+already applied: how much further to cut the cross-references, how much further to
+cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
+fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
+9's gap list should get its nearest-work notes back, and whether the bibliography
+should stay annotated at all. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **116 of the book's 162 sections are
+The other standing item is not a question. **119 of the book's 162 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -223,17 +223,24 @@ shorter section openers; what makes these look odd is that they are leaves.
 
 ---
 
-### Q-030 — `refs.bib` has 20 entries nothing cites
+### Q-030 — `refs.bib` has 14 entries nothing cites
 
-P29 orphaned twelve `\autocite` keys by cutting the prose around them, and eight
-were already uncited before that: 20 of the file's 289 entries are now reachable
-from nothing in the manuscript. Nothing prints them, because biblatex only sets
-what is cited, so this costs a reader nothing and costs the file its correspondence
-with the book.
+**The count is corrected here from 20, which was wrong when this was filed.** Measured
+across every commit from P29 to now, the manuscript's 298 `\autocite` calls reach 275
+of the file's 289 entries, leaving **14**. The breakdown was wrong the same way: two
+entries were uncited before P29, not eight, and P29 orphaned twelve by cutting the
+prose around them — 2 plus 12 is the 14, and 20 corresponds to nothing measured. The
+14 are `affectiva2015emotionservice`, `alignmentforum2018`, `cowan2001magical`,
+`dmello2007toward`, `empatica2015e4`, `finn2017modelagnostic`,
+`fitzpatrick2017delivering`, `fullfact2023ai`, `matheson2016watchyourtone`,
+`miller1956magical`, `rizzolatti2010functional`, `shibata2004overview`,
+`warneken2006altruistic` and `xprize2021watson`, each confirmed to appear nowhere in
+`manuscript/`. Nothing prints them, because biblatex only sets what is cited, so this
+costs a reader nothing and costs the file its correspondence with the book.
 
 - **(a) Default — leave them.** An entry costs nothing where it sits, and one of
   them may be wanted again by whatever pass next touches the material it supported.
-- (b) Prune the 20, recording them in the commit body so they can be restored from
+- (b) Prune the 14, recording them in the commit body so they can be restored from
   git.
 
 *Default applies now.*
@@ -264,6 +271,39 @@ which is a large part of what made it read as a catalogue.
 
 *Default applies now. `p31-scope.md` has the full accounting of what paid for the
 program.*
+
+---
+
+### Q-032 — Whether the bibliography should be annotated at all
+
+D-095 cut the research diaries out of `refs.bib`: 32 notes rewritten to their
+bibliographic core, every process marker gone, the bibliography from about 18,800
+words to 14,237. What it did not decide is whether the bibliography should carry
+notes at all. **144 entries still have one, about 6,600 words**, and they are
+legitimate — “Presented at ICLR 2020,” “Adopted by all 193 UNESCO member states,”
+“Widely available in English in Arendt's edited collection *Illuminations*.” None
+of them narrates the search. But they make this an annotated bibliography, which
+is a genre choice the book has never actually made; it inherited them from the
+verification passes that wrote them.
+
+- **(a) Default — leave it annotated.** The notes state facts about the source,
+  and a few do work no other part of the book does: where a reprint can be found,
+  which of two similar papers by the same authors this is, that a page number is
+  taken from a review rather than the book itself, and that a frequently made
+  miscitation is a miscitation.
+- (b) Cut every note, leaving plain bibliographic metadata. About 7,600 words, a
+  little under half what stands. The record is not lost: `reports/claims.tsv`
+  holds the verification notes, and the entries keep author, title, venue, date
+  and URL, which is what a reader needs to find the source.
+- (c) Keep only the notes that qualify or disambiguate the citation — the
+  secondhand pinpoint, the miscitation warning, the evidentiary caveat on the
+  Palantir quotation — and cut the ones that merely describe what a source says,
+  on the ground that the prose already says it. The resulting size was not
+  measured; it needs a read of all 144.
+
+*Default applies now. (b) and (c) are both defensible and neither is reversible
+without re-deriving text from `claims.tsv`, so this is the author's call rather
+than a tidy-up to be done unasked.*
 
 ---
 
