@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-092. Six questions are open**, raised by
+**Current as of 2026-08-28, after D-093. Six questions are open**, raised by
 P28 through P31, none of them blocking and each with a default that has already
 applied: how much further to cut the cross-references, how much further to cut
 chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
@@ -8,15 +8,23 @@ fold the subsections P29 left thin, whether to prune `refs.bib`, and whether
 chapter 9's gap list should get its nearest-work notes back. For orientation read
 `finishing/STATE.md`.
 
-The other standing item is not a question. **92 of the book's 161 sections are
+The other standing item is not a question. **116 of the book's 162 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
-cut, chapter 3, which P27 rewrote, and chapter 9 entire, which P31 reordered.
-`ledger.tsv` carries the per-section reason.
+cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
+was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
+carries the per-section reason.
 
 All section numbers here use the **post-D-043 numbering** (chapters 3 and 7 are
 new; old 3–9 became 4–11). Entries written before 2026-08-25 refer to section
 8.7.6 as the geopolitics section and to 8.7.7 as the democratic-dividend section;
 D-067 split 8.7.6 into 8.7.6–8.7.9 and renumbered 8.7.7 to 8.7.10.
+
+**Every entry below was written before D-093 and none has been renumbered for it.**
+P32 split chapter 8 into chapters 8, 9 and 10 and shifted old 9, 10 and 11 to 11,
+12 and 13; `renumber-map_2026-08-28c.tsv` translates. Where an entry below says
+chapter 9 it means what is now chapter 11, and where it names a section under 8.4,
+8.5, 8.6 or 8.7 those are now 9.1, 9.2, 9.3 and chapter 10. Q-031 is about what is
+now chapter 11.
 
 A new question goes above the "Resolved" line with a default and the moment it
 applies. Nothing here blocks work.
@@ -310,7 +318,13 @@ files with a change the author has not seen.
 
 ---
 
-### Q-018 — Chapter 8's compression was only partly implementable. **Closed by ruling, D-067: (a), and a split.**
+### Q-018 — Chapter 8's compression was only partly implementable. **Closed by ruling, D-067: (a), and a split. Reversed by D-093, 2026-08-28.**
+The ruling below stood for three days. P32 split chapter 8 into three chapters on
+the author's instruction, so it no longer stays at a quarter of the book: the three
+come to 22,958 words against the 23,470 the one chapter held. The prior ruling was
+put to the author before that work began. The rest of this entry is the record as
+it stood.
+
 The partial implementation stands and chapter 8 stays at a quarter of the book.
 The author also took the option the walkthrough added: section 8.7.6, the book's
 longest section at 4,882 words under seven run-in heads, is split along those

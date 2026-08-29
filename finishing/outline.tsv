@@ -103,7 +103,7 @@ num	title	level	parent
 7.2	Recuperation at the Reward: RLHF	2	7
 7.3	What Would Have to Change	2	7
 7.4	Recuperation at the Discourse	2	7
-8	Collaboration, Policy, and Governance	1	
+8	Coordination, the Public, and the Political Economy	1	
 8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8
 8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8.1
 8.2	Stakeholder Involvement and Public Engagement	2	8
@@ -116,47 +116,48 @@ num	title	level	parent
 8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8.3
 8.3.4	Addressing Workforce Disruption	3	8.3
 8.3.5	Literacy, Training, and Where Each One Sits	3	8.3
-8.4	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	8
-8.4.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	8.4
-8.4.2	Encouraging Industry Best Practices and Self-regulation	3	8.4
-8.4.3	Public-Private Partnerships for AI Research and Innovation	3	8.4
-8.4.4	Legal and ethical implications of AI systems gaining personhood	3	8.4
-8.4.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	8.4
-8.5	Privacy, Security, and Antifascism in AI Systems	2	8
-8.5.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	8.5
-8.5.2	Strengthening Cybersecurity in AI-Enabled Systems	3	8.5
-8.6	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	8
-8.6.1	Subjecthood as a Legal Category, Not a Scientific One	3	8.6
-8.6.2	Legal Frameworks for Sentient AI Subjects	3	8.6
-8.6.3	Making Review Binding	3	8.6
-8.6.4	What Keeps the Apparatus More Than Aspirational	3	8.6
-8.7	International and Regional Governance	2	8
-8.7.1	How Research Institutions Cooperate Across Borders	3	8.7
-8.7.2	Standards Built by the Technical Community, Not by Governments	3	8.7
-8.7.3	What International AI Collaboration Can and Cannot Fix	3	8.7
-8.7.4	Comparing and Harmonizing Regional AI Rules	3	8.7
-8.7.5	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	3	8.7
-8.7.6	AI as a Strategic National Asset	3	8.7
-8.7.7	Military Applications and the Limits of Autonomy	3	8.7
-8.7.8	International Governance and Diverging National Rules	3	8.7
-8.7.9	Equity and the Digital Divide	3	8.7
-8.7.10	What the Democratic Dividend Leaves Out	3	8.7
-9	Necessary Areas of Research	1	
-9.1	Interpretability, Self-Reports, and Resistance to Tampering	2	9
-9.2	What Is Owed to a Bearer, and Who Could Check	2	9
-9.3	What an Antifascist Detector Would Actually Have to Detect	2	9
-9.4	When an Ethics-Embedding Method Stops Generalizing	2	9
-9.5	Value Learning as Unfinished Technical Research	2	9
-9.6	Can a Multi-Agent AI System Resist Being Captured?	2	9
-9.7	Open Questions in Empathy and Theory-of-Mind Research	2	9
-9.8	Is Emotion Legible From a Face at All?	2	9
-9.9	The Responsibility Gap, Which No Experiment Closes	2	9
-10	Conclusion and Outlook	1	
-10.1	AI and Human Flourishing in Antifascist Societies	2	10
-10.1.1	Where the Democratic Dividend Actually Comes From	3	10.1
-10.1.2	Commitment Was Never the Missing Piece	3	10.1
-10.2	Signatures of Altruistic and Antifascist AI	2	10
-10.2.1	One Standard, Five Worked Cases	3	10.2
-10.2.2	How to Tell Whether a Milestone Has Been Met	3	10.2
-10.3	The Risk That Does Not Design Out	2	10
-11	Glossary	1	
+9	Policy, Law, and Accountability	1	
+9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9
+9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9.1
+9.1.2	Encouraging Industry Best Practices and Self-regulation	3	9.1
+9.1.3	Public-Private Partnerships for AI Research and Innovation	3	9.1
+9.1.4	Legal and ethical implications of AI systems gaining personhood	3	9.1
+9.1.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9.1
+9.2	Privacy, Security, and Antifascism in AI Systems	2	9
+9.2.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	3	9.2
+9.2.2	Strengthening Cybersecurity in AI-Enabled Systems	3	9.2
+9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9
+9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9.3
+9.3.2	Legal Frameworks for Sentient AI Subjects	3	9.3
+9.3.3	Making Review Binding	3	9.3
+9.3.4	What Keeps the Apparatus More Than Aspirational	3	9.3
+10	Governance Across Borders	1	
+10.1	How Research Institutions Cooperate Across Borders	2	10
+10.2	Standards Built by the Technical Community, Not by Governments	2	10
+10.3	What International AI Collaboration Can and Cannot Fix	2	10
+10.4	Comparing and Harmonizing Regional AI Rules	2	10
+10.5	Adapting Regulatory Frameworks and Ethical Considerations to Local Contexts	2	10
+10.6	AI as a Strategic National Asset	2	10
+10.7	Military Applications and the Limits of Autonomy	2	10
+10.8	International Governance and Diverging National Rules	2	10
+10.9	Equity and the Digital Divide	2	10
+10.10	What the Democratic Dividend Leaves Out	2	10
+11	Necessary Areas of Research	1	
+11.1	Interpretability, Self-Reports, and Resistance to Tampering	2	11
+11.2	What Is Owed to a Bearer, and Who Could Check	2	11
+11.3	What an Antifascist Detector Would Actually Have to Detect	2	11
+11.4	When an Ethics-Embedding Method Stops Generalizing	2	11
+11.5	Value Learning as Unfinished Technical Research	2	11
+11.6	Can a Multi-Agent AI System Resist Being Captured?	2	11
+11.7	Open Questions in Empathy and Theory-of-Mind Research	2	11
+11.8	Is Emotion Legible From a Face at All?	2	11
+11.9	The Responsibility Gap, Which No Experiment Closes	2	11
+12	Conclusion and Outlook	1	
+12.1	AI and Human Flourishing in Antifascist Societies	2	12
+12.1.1	Where the Democratic Dividend Actually Comes From	3	12.1
+12.1.2	Commitment Was Never the Missing Piece	3	12.1
+12.2	Signatures of Altruistic and Antifascist AI	2	12
+12.2.1	One Standard, Five Worked Cases	3	12.2
+12.2.2	How to Tell Whether a Milestone Has Been Met	3	12.2
+12.3	The Risk That Does Not Design Out	2	12
+13	Glossary	1	
