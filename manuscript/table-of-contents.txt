@@ -5,27 +5,19 @@ Chapter 1: Introduction
 1.3. Mindset and Motivation in AI Behavior
 Chapter 2: Foundations of Compassion and Empathy in Friendly AI
 2.1. Ethical Frameworks and AI Alignment
-2.1.1. Surveying Ethical Theories for AI Alignment
-2.1.2. Translating Ethical Principles into Machine Learning Objectives
-2.1.3. Navigating AI Values, Priorities, and Moral Dilemmas
-2.1.4. Antifascist Ethics for AI Alignment
+2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
+2.1.2. Antifascist Ethics for AI Alignment
 2.2. Empathy, Social Intelligence, and Theory of Mind
 2.2.1. The Role of Empathy and Compassion in Human Social Behavior
-2.2.2. Theory of Mind and Perspective-Taking in AI Systems
-2.2.3. Socially-Aware AI: Opportunities and Challenges
+2.2.2. Theory of Mind, and Whether Empathy Is the Target
 2.3. Affect, Moral Salience, and Self-Awareness
-2.3.1. Components of Emotional Intelligence
-2.3.2. Affective Computing: AI Systems that Comprehend and Respond to Emotions
-2.3.3. Self-awareness and Self-regulation in AI Systems
-2.3.4. Is Affect Necessary for Moral Concern?
+2.3.1. What Emotion Is, and What a System Reads
+2.3.2. Self-awareness and Self-regulation in AI Systems
+2.3.3. Is Affect Necessary for Moral Concern?
 2.4. Ethical implications of experimenting on sentient machine subjects
 2.4.1. Defining Sentience in AI: From Consciousness to Subjective Experience
-2.4.2. Ethical Considerations in AI Research and Experimentation
-2.4.3. Balancing Scientific Progress and Ethical Constraints
-2.4.4. When Consent Is Inapplicable: Guardianship and Research Oversight
-2.4.5. Legal and Regulatory Frameworks for AI Sentience and Rights
-2.4.6. Addressing Moral and Ethical Dilemmas in AI Sentience Research
-2.4.7. Navigating the Transition from Non-sentient to Sentient AI Systems
+2.4.2. When Consent Is Inapplicable: Guardianship and Research Oversight
+2.4.3. What Oversight Would Have to Cover
 Chapter 3: The Floor Beneath Learned Values
 3.1. Three Ways to Build One, and What Each Costs
 3.2. Four Things Refusal Can Mean
@@ -51,37 +43,30 @@ Chapter 4: Machine Learning and Cognitive Science
 4.2.8. System Instructions and Tool Use at Deployment
 4.2.9. Transfer, and the Floor That Cannot Tell It Has Stopped Applying
 4.3. The Role of Play and Exploration in Developing Antifascist and Altruistic AI
-4.3.1. The Power of Play: Ethical AI Development through Play-Inspired Mechanisms
-4.3.2. Lessons from Human Child Development and Exploration
+4.3.1. Play, Curiosity, and a Disposition Nobody Wrote Down
 Chapter 5: Moral Psychology and AI
 5.1. Moral Development in Humans and AI
 5.1.1. Rules, Principles, and the Role of Mindset
-5.1.2. Social Interaction and Moral Learning
-5.1.3. Moral Apprenticeship: AI Systems Learning from Human Mentors
-5.1.4. Human Dignity, and One Indicator That Can Be Audited
+5.1.2. Social Interaction, and What Apprenticeship Makes of the Teacher
+5.1.3. Human Dignity, and One Indicator That Can Be Audited
 5.2. Emotions and Intuitions in Moral Decision-Making
 5.2.1. Moral Emotions: Empathy, Guilt, and Shame
-5.2.2. Assessing and Developing AI Emotions
-5.2.3. AI Systems Recognizing and Responding to Moral Emotions
-5.2.4. The Role of Introspection for AI Systems
+5.2.2. Assessing Whether Emotional Information Changes the Decision
+5.2.3. The Role of Introspection for AI Systems
 5.3. Integrating Moral Intuitions and Deliberation
 5.3.1. Two Systems, or One? Dual-Process Theories of Moral Judgment
 5.3.2. Balancing Intuition and Deliberation in AI Decision-Making
 5.3.3. AI Systems Learning from Moral Disagreements and Conflicts
 5.4. Moral Ecosystem Approach in AI Development
-5.4.1. Applying the Moral Ecosystem Approach to AI Development
-5.4.2. The Rings Outside the Lab
-5.4.3. AI Systems Responding to Authoritarianism and Democratic Backsliding
+5.4.1. The Rings, and What Each One Pushes With
+5.4.2. AI Systems Responding to Authoritarianism and Democratic Backsliding
 5.5. The Interplay of Competition and Collaboration in AI Development
 5.5.1. Cooperative AI Systems and Multi-Agent Moral Development
-5.5.2. Strategies for Encouraging Collaboration Among AI Systems
 5.6. Motivation in AI Systems
-5.6.1. Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making
-5.6.2. Developing Motivationally-Aware AI Systems
-5.6.3. Balancing AI Autonomy and Alignment with Humane Values
+5.6.1. Intrinsic and Extrinsic Motivation, and What Each One Leaves Open
+5.6.2. Balancing AI Autonomy and Alignment with Humane Values
 5.7. Play, Exploration, and Moral Development in AI
 5.7.1. The Role of Play in Moral Learning and Socialization
-5.7.2. Encouraging AI Systems to Deliberate Morally Through Playful Interactions
 Chapter 6: Overcoming Challenges, Risks, and Authoritarianism in AI Development
 6.1. Bias, Fairness, and Equity in AI Systems
 6.1.1. Sources of Bias in AI Data and Algorithms

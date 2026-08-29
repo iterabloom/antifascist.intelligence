@@ -1,10 +1,6 @@
-\subsection{Theory of Mind and Perspective-Taking in AI Systems}
+\subsection{Theory of Mind, and Whether Empathy Is the Target}
 \label{sec:2.2.2}
-Theory of mind is the capacity to attribute mental states — beliefs, intentions, desires, emotions, knowledge — to oneself and others, and to recognize that another's states can differ from one's own. For an AI system to approximate it, the system has to model another agent's likely beliefs and goals well enough to predict how they will act on them, instead of reacting to surface behavior, which is done by building a model of other agents through repeated interaction or by integrating human social norms into the system's decision-making directly.
-
-The consequential and contentious application is a synthetic companion for elderly users, which would need a working model of a person's needs sustained over months or years rather than across a single interaction — and which raises the question section~\ref{sec:2.2.3} takes up.
-
-None of this substitutes for the underlying social and material conditions a lonely or under-supported elderly population needs — public infrastructure, adequate caregiving capacity, family and community support. An AI companion is not a policy.
+Theory of mind is the capacity to attribute mental states — beliefs, intentions, desires, emotions, knowledge — to oneself and others, and to recognize that another's states can differ from one's own. For an AI system to approximate it, the system has to model another agent's likely beliefs and goals well enough to predict how they will act on them, instead of reacting to surface behavior, which is done by building a model of other agents through repeated interaction or by integrating human social norms into the system's decision-making directly. The consequential application is a synthetic companion for elderly users, which would need a working model of a person's needs sustained over months rather than across a single interaction — and which substitutes for none of the social and material conditions a lonely or under-supported elderly population needs. An AI companion is not a policy.
 
 \begin{verse}
 Ain't it hard keepin' it so hardcore?
@@ -13,3 +9,14 @@ Ain't it hard keepin' it so hardcore?
 Shallow \\
 Lady Gaga \& Bradley Cooper
 \end{flushright}
+
+\runin{Whether empathy is the target}
+The affective mechanism section~\ref{sec:2.2.1} described has a specific failure mode, and it is not rare. Feeling another's distress does not reliably turn a person toward the sufferer; it often turns them away. The helping literature distinguishes empathic concern, which is other-directed and motivates approach, from personal distress, which is self-directed and motivates escape from the source of the discomfort. The nurse, the aid worker, the carer who burns out is not short on empathy; they may be drowning in it, until withdrawal becomes self-protection.
+
+The psychologist Paul Bloom pushes this further, arguing against empathy as a moral guide: felt empathy is concrete, vivid, and innumerate \autocite{bloom2016against}. It fixes on the identified victim in front of it and goes dark for the statistical thousands elsewhere, flowing toward the near and similar and drying up across distance. A system that allocates care in proportion to how vividly it feels another's distress favors whoever its spotlight falls on, which is not the same population as whoever needs help most. Bloom's alternative, rational compassion, is deliberate and can be extended evenhandedly to people the spotlight would never reach.
+
+The name misleads in one direction. Rational compassion is compassion: an affective, motivational orientation toward another's welfare, carrying the moving force that implies. What the adjective names is the contribution deliberation makes — correcting the parochialism, extending the scope past the vivid case, overruling the spotlight when it settles on the wrong person. Its target is emotional contagion, the automatic mirroring of distress that section~\ref{sec:2.2.1} shows to be a separate system. Reading it as concern without affect would make it a recommendation for the one architecture section~\ref{sec:2.3.3} can find no working instance of.
+
+A system engineered to detect and mirror emotional distress inherits the spotlight along with the sensitivity: better at helping the user whose distress is legible and vivid, worse at the user whose need is real and presents flatly. Building for compassion is the more sustainable design choice and the one less prone to helping unevenly for reasons that have nothing to do with who needs help most.
+
+Three obstacles travel with all of it. Reading an emotional state means collecting the intimate data that reading requires, with less precedent than any other sensitive-data system for what counts as consent. A system trained on data that under-represents or mislabels how some group expresses emotion will misread that group systematically, and confidently. And latitude enough to adapt to a social context is latitude enough to drift from the values the system was built to serve.
