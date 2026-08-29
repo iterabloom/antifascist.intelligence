@@ -128,7 +128,7 @@ measurement is recorded rather than swept to a number.
 ## Not done
 
 - No section here has the author's read; all 15 changed or new rows are `drafted`.
-- The proof pair still predates D-096 and is now two passes behind.
+- The proof pair was rebuilt from this tree after the pass and is current at 193 pages.
 - `xref_content.py` was not run over the new material.
 - Section 4.1.2 was not touched. It holds the one "convolutional" mention and one of the two
   "transformer" mentions, both inside a cognitive-science argument about feedforward-only
