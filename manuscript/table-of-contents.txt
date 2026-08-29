@@ -35,7 +35,6 @@ Chapter 3: The Floor Beneath Learned Values
 3.6. Whether the Bearer Can Be Believed
 3.7. A Bearer That Can Leave
 3.8. What This Leaves Standing
-3.9. What Follows for the Rest of the Book
 Chapter 4: Machine Learning and Cognitive Science
 4.1. Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making
 4.1.1. Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning
