@@ -515,7 +515,23 @@ described.
 
 ---
 
-**Ruled 2026-08-29 (D-111): run the measurement.** Group 4, not yet done. Count what contemporary vocabulary chapter 5 lacks, the way chapter 4 was measured before P33; the result is a finding to rule on, not a pass.
+**Ruled 2026-08-29 (D-111): run the measurement.** Count what contemporary vocabulary chapter 5 lacks, the way chapter 4 was measured before P33; the result is a finding to rule on, not a pass.
+
+**Measured 2026-08-29 (D-113, P49). The default is no longer supportable on the ground it was taken on.** It was taken because "chapter 5's subject is human moral psychology rather than machine training, so the pipeline is not what it is missing." The first half is right and the second does not follow: five of chapter 5's subsections are about systems.
+
+**Chapter 5's 36 citations have a median year of 2009. Its newest is 2021. It has none from 2022 or later** — the only substantive chapter in the book of which that is true. (Chapter 2 also has none, and chapter 2 is exempt on the merits: Cassell 1982, James 1890 and Ekman are not stale for being old.) Chapter 4's median after P33 is 2018, with 41.9 percent from 2020 or later. The rest of the book runs 2016 to 2023.
+
+Each of these occurs **zero times in chapter 5**, in the subsection whose subject it is: *annotator disagreement, jury learning, pluralistic alignment, value pluralism* in section 5.3.3, *AI Systems Learning from Moral Disagreements and Conflicts*, which is 386 words; *intrinsic reward, empowerment, open-endedness* in section 5.6.1; *self-play, open-ended learning, generative agents* in section 5.7.1; *social dilemma, emergent cooperation, opponent shaping* in section 5.5.1, which is the best covered of the four and still stops at Leibo 2021.
+
+**Section 5.2.3 is the cheapest instance and the one that decides how to read this.** Its argument is that a fluent reconstruction after the fact is indistinguishable from the real thing at the point of use, and its two instances are a 2011 tutoring system and DARPA's 2019 XAI program. The book's own finding on exactly that claim is section 11.1's concept-injection result, cited by sections 3.4, 3.6, 9.3.4 and 12.2.2. **Section 5.2.3 does not cite it.** So the gap is not principally a literature chapter 5 would have to go and find; it is the literature the book already contains.
+
+Chapter 5 also points forward in **16.9 percent** of its 65 references, against 37.5 percent for chapter 4 and 38.6 percent for chapter 6 — a trough between its neighbours, with 33 of its references going back into chapters 2 and 3 and eleven going to chapters 6 through 12.
+
+- **(a) Leave it.** Defensible on a narrower ground than the original one: chapter 5's human psychology is sound, and a chapter can be old-anchored without being wrong.
+- (b) **Wire it in rather than rewrite it.** Give the five machine-facing subsections the references the book already has — section 11.1 into 5.2.3 above all — and let the vocabulary follow. Perhaps 400 words, no new research, and it fixes the forward-reference trough at the same time.
+- (c) Rebuild the machine-facing subsections against the contemporary literature, which is P33's treatment applied to chapter 5. The largest option and the one that would need reading outside the book.
+
+*No default is applied. The measurement is the deliverable D-111 asked for; the ruling is the author's.*
 
 ---
 
@@ -636,7 +652,19 @@ when prose is read, because the surviving instances are the ones a reading would
 figure of 141 across chapters 2, 3 and 4 is not re-measured here and chapter 3 has grown 2,000
 words since, so it should be re-counted before that option is taken.
 
-**Ruled 2026-08-29 (D-111): option (c), sweep chapters 2, 3 and 4.** Group 4, not yet done. The share those three carry needs re-counting first: it was measured at 141 of 340 before chapter 3 grew 2,000 words and the book-wide total fell to 317.
+**Ruled 2026-08-29 (D-111): option (c), sweep chapters 2, 3 and 4.** The share those three carry needs re-counting first: it was measured at 141 of 340 before chapter 3 grew 2,000 words and the book-wide total fell to 317.
+
+**Swept 2026-08-29 (D-113, P49). Done, and the entry's own prediction held.** The re-count first: **112 of 317**, not 141 of 340 — 43, 39 and 30 across the three chapters, so their share has fallen from 41.5 to 35.3 percent.
+
+**A negative result worth keeping.** No paragraph in the three chapters carries three or more instances. P35 repaired the pile-ups at sentence level; at paragraph level they are gone too, and thirteen passes have not rebuilt them.
+
+110 sentences read one at a time in their paragraphs. **Three repairs, 1 in 37**, below chapter 6's 1 in 25, which is what the entry predicted would happen as the survivors become the instances a reading keeps. The instrument that found them was the reading combined with the per-section rate: the tic is audible where two instances sit inside about 120 words, and seven paragraphs do that.
+
+The substantive repair is **section 2.4.2**, and it is a Q-043-class defect found by a Q-038 instrument. The section is titled *When Consent Is Inapplicable* and spends five paragraphs establishing that consent is unavailable to these systems rather than merely hard to obtain; its last paragraph then said a system that gains new capacities "should trigger re-review rather than ride on its original consent." It now runs on the board's approval lapsing, which is the vocabulary the section itself established. The other two are cosmetic and lossless: section 3.3's run-in head echoed the sentence beneath it, and section 4.2.5 followed the book's own formula with a throwaway antithesis.
+
+**Chapter 3's closing paragraph is the closest call and is left intact.** Its two instances are three sentences apart and the second is the chapter's final clause; swapping "and not" in there is the cosmetic substitution P35 declined to make.
+
+**205 instances remain outside chapters 2, 3 and 4**, and option (b) was declined at D-111. Highest per-1,000 rates in the swept chapters, for whoever takes the rest: section 4.2.3 at 9.09, section 2.4.3 at 8.20, section 4.1.3 at 7.21, section 4.2.5 at 6.92, section 4.2.2 at 6.61, section 3.6 at 6.35, section 2.4.2 at 6.28, against a calibration set at 2.90 for all contrastive constructions. **Closed.**
 
 ---
 
@@ -878,7 +906,17 @@ claim rather than by a tool or a reader. Two of the seven were contradictions th
 carried in its central argument. That is a rate, not a set of incidents, and it is the
 strongest case in this file for (b), reading by subject rather than by section.
 
-**Ruled 2026-08-29 (D-111): option (b), sweep by subject.** Group 4, not yet done. List the book's recurring factual subjects and read every sentence on each together across chapters, which is how all seven instances were actually found.
+**Ruled 2026-08-29 (D-111): option (b), sweep by subject.** List the book's recurring factual subjects and read every sentence on each together across chapters, which is how all seven instances were actually found.
+
+**Swept 2026-08-29 (D-113, P49). Two more instances; nine now, across five passes.** The subject list was built mechanically rather than from memory — every multi-word proper noun and acronym occurring in three or more chapters, plus the six this entry names — and every sentence on each subject was printed together across all thirteen chapters and read as a set. **Twenty subjects**: the EU AI Act, the Council of Europe convention, federated learning, self-report, the removal cases, the Three Rs, export controls and the chip supply chain, tamper-resistance, guardianship and the pet-trust form, COMPAS, the AIGS Index, RLHF and sycophancy, Cassell, the GDPR, the IEEE instruments, the compute floor, the twenty-cent figure, continual learning, Lavender, the Partnership on AI.
+
+**Eighteen held**, and the strong cases are worth naming so they are not re-swept. Self-report: thirteen sentences across eight chapters, every one saying a system's account of itself is not evidence about itself. Cassell: seventeen sentences in three chapters agreeing on the counterintuitive direction, that the thinner accounts of suffering admit the bearer *sooner*. Federated learning holds because section 6.4.4 already reconciles sections 6.4.2 and 9.2.1 explicitly. P45's compute-floor repair and P48's Partnership on AI repair both hold.
+
+**1. *Trump v. Cook* is cited by three sections and two of them say it does not generalize.** Section 3.1: "on grounds that cannot be extended by construction." Chapter 11's opening: "for one body on grounds no new body can have." Section 8.3.4 then used it as general authority — "That standard now has a court behind it." The three are compatible, because 8.3.4 takes the procedural half and the other two the institutional half, and **no sentence anywhere said so**. Section 8.3.4 now names its half and points at section 3.1 for the other.
+
+**2. The glossary credited the sycophancy finding to three sections and one has it.** The RLHF entry gave `(§11.5, §7.2, §6.3.5)`. Section 11.5 has it; section 7.2 documents a *different* RLHF failure, persistent rater disagreement entering the fit as variance around a mean; section 6.3.5 is red-teaming and has neither. The entry now names both failures with the right section against each, and the 6.3.5 pointer is dropped.
+
+**The rate is what the entry said it was.** Nine instances, five passes, every one found by following a claim across chapters. **The class stays open**: the method that finds them does not scale to every subject the book names once or twice, and twenty subjects is not the whole list.
 
 ---
 
@@ -955,7 +993,19 @@ session worked rather than of any decision in it, and because a fresh session re
 `STATE.md` would find seven passes each reporting a small addition and no line saying they
 went to the same two places.
 
-**Ruled 2026-08-29 (D-111): read them whole and report.** Group 4, not yet done. Chapter 3 and section 11.2 read straight through, reported as prose rather than as argument — whether five separate repairs compose into a chapter. About 16,000 words.
+**Ruled 2026-08-29 (D-111): read them whole and report.** Chapter 3 and section 11.2 read straight through, reported as prose rather than as argument — whether five separate repairs compose into a chapter. About 16,000 words.
+
+**Read 2026-08-29 (D-113, P49). Chapter 3 composes; section 11.2 does not, and the seams are a measurable verbal habit.**
+
+**The habit.** Sentences in which the book reports on its own earlier state occur **seven times in the manuscript, and all seven are in chapter 3 and section 11.2**. Nowhere else in 94,000 words: "the two answers I have given it before" and "That is weaker than the answer this section gave before" (3.4); "recorded earlier as a coincidence" and "which is more than this section had a paragraph ago" (3.5); "has been carrying more weight in this book than it can take" (3.3); "a further consequence I did not see for a long time" (3.7); "The third question has one experiment after all" (11.2). Some earn their place — 3.4's is a correction a reader should see. The aggregate is a register no other chapter has, and it is exactly the residue this entry predicted.
+
+**Chapter 3's opening map omits two of its eight sections.** The opener says the argument "runs in five steps" and names 3.1, 3.2, 3.3, 3.8, then 3.4 and 3.7. **Sections 3.5 and 3.6 appear nowhere in it.** Section 3.5 takes eight inbound references from inside the chapter, more than any other, and carries the claim the last three sections lean on — that resistance to shutdown and the capacity to refuse an owner are one property with the sign flipped. The map is internally coherent, because 3.5 and 3.6 run out consequences rather than advancing steps. It is still a reader arriving at the chapter's pivot unannounced. **Left for the author**, since closing it means adding words to chapter 3.
+
+**Section 11.2 is 2,599 words in a 9,000-word chapter of ten sections** — twice the chapter opener, two and a half times the next-longest section. Book-wide, 25 paragraphs exceed 250 words; section 11.2 holds three of them (439, 424, 257) in 2.75 percent of the book, and chapter 3 holds five more. The two together are 17 percent of the book's words and 32 percent of its longest paragraphs. Its three questions are announced and the second absorbs a 439-word excursion on identity and registration that answers a different one; its last head carries the compute floor, the roof argument, a failure mode and an experiment in two paragraphs.
+
+**One reversal was repaired** (under Q-043's authority, not this one): the *Near-term work* head opened "The third question has no experiment, and that is the finding" and closed 400 words later with "The third question has one experiment after all." Since the closing sentence already says the experiment is not a welfare experiment, the opening now says "no welfare experiment." **One seam is left**: the five-feature list has two consecutive sentences beginning "And," where a later pass added the fifth and did not reflow the fourth.
+
+**What this does not settle.** Whether to restructure section 11.2 is a pass and the author's to call. (c) — a size figure in every scope file — was not adopted and would still have caught this earlier. **The report is delivered; the entry stays open on what to do about section 11.2.**
 
 ---
 
