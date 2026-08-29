@@ -681,7 +681,7 @@
   CITED          : This chapter exists because the book kept making the same discovery in two places and never put them side by side.
 
 --- 3.3 -> 3.6
-  CITING: A floor held by several systems rather than one Section §3.6 argues that the reply to an unreliable witness is corroboration rather than a better witness, and that procedure is a cheaper thing to ask of the world than custody because it does not require anyone to be trustworthy, only to be several.
+  CITING: A floor held by several systems, not one Section §3.6 argues that the reply to an unreliable witness is corroboration rather than a better witness, and that procedure is a cheaper thing to ask of the world than custody because it does not require anyone to be trustworthy, only to be several.
   CITED          : A bearer's use is to report what it has seen, which raises a question distinct from whether its memory survives: whether what it retains can be relied on.
 
 --- 3.3 -> 3.1
@@ -2372,6 +2372,10 @@
   CITING: It is also, for the same reason, the more demanding proposal to build: everything in the comparison rests on the appeal being real, and section §8.3.3 says what makes it real.
   CITED          : As AI systems automate tasks once performed by people, demand for advanced technical skills grows alongside a shrinking need for the job types most exposed to automation.
 
+--- 8.3.4 -> 3.1
+  CITING: Section §3.1 reads the same decision for what does not travel: the Fed's protection rests on a pedigree no body chartered later can acquire.
+  CITED          : The second question is where this gets difficult, and I do not have a resolution to offer.
+
 ==============================================================================
 == FROM 8.3.5
 ==============================================================================
@@ -3029,7 +3033,7 @@
   CITED          : Three of the six principles governing this research do work here that they do nowhere else in this book.
 
 --- 11.2 -> 11.1
-  CITING: The near-term work The third question has no experiment, and that is the finding rather than a gap in my search: section §11.1 is what would supply one and cannot yet.
+  CITING: The near-term work The third question has no welfare experiment, and that is the finding rather than a gap in my search: section §11.1 is what would supply one and cannot yet.
   CITED          : “AI self-awareness” names at least two different questions, and collapsing them is where the term goes wrong.
 
 --- 11.2 -> 8.3.4
@@ -3825,16 +3829,12 @@
   CITED          : Before OpenAI released GPT-4 in March 2023, the Alignment Research Center (ARC, later renamed METR) tested whether the model could autonomously acquire resources and evade being shut down — a capability nobody had built into the system on purpose and that nobody could rule out without trying.
 
 --- 13 -> 11.5
-  CITING: The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§11.5, §7.2, §6.3.5).
+  CITING: The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§11.5); section §7.2 takes up a second, the averaging that turns persistent rater disagreement into noise around a mean.
   CITED          : Inverse reinforcement learning and its cooperative variant, CIRL, infer a person's values from what they do rather than from an explicit specification.
 
 --- 13 -> 7.2
-  CITING: The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§11.5, §7.2, §6.3.5).
+  CITING: The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§11.5); section §7.2 takes up a second, the averaging that turns persistent rater disagreement into noise around a mean.
   CITED          : Section §7.1 found the pattern in how a training corpus is labeled.
-
---- 13 -> 6.3.5
-  CITING: The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§11.5, §7.2, §6.3.5).
-  CITED          : Before OpenAI released GPT-4 in March 2023, the Alignment Research Center (ARC, later renamed METR) tested whether the model could autonomously acquire resources and evade being shut down — a capability nobody had built into the system on purpose and that nobody could rule out without trying.
 
 --- 13 -> 11.9
   CITING: Responsibility gap Andreas Matthias's term for a case where no single party fully controls a learning system's outcome, which breaks the traditional legal and moral machinery for assigning responsibility after something goes wrong (§11.9).

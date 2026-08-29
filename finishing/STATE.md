@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-112 (P48): the misdirected references the pairing tool exposed.** The author had me read all 829 pairs in `reports/xref_pairs.txt` and report only what looks obviously wrong on the page. **Six defects, each confirmed against the target section rather than against the pairing.** The Partnership on AI was cited to section 5.6.2 — a chapter that never mentions it — and is repointed to 9.1.2. The glossary's *AlphaGo Zero* entry called itself the book's standard example of generalization from scale and self-play; those words appear **nowhere in the manuscript outside that entry**, so the entry is cut, 57 terms to 56. Differential privacy's pointer at 2.1.1 and the Moral Machine's at 5.3.3 are dropped as dead. And **sections 3.1 and 3.2 both named the wrong one of section 2.1.2's four features** — calling a constraint that outlives its reason the *first*, when the first is recuperation of dissent and chapter 7, section 6.1.1, section 7.2 and the glossary all use it that way, so the book contradicted its own definition in the two sections that set up the floor. Section 9.3.4 was off by one the other way and is corrected to the second feature. **One thing I told the author was overstated and is recorded as such**: section 6.4.2's citation of 5.6.2 for third-party audits was loose, not opposite. Eight targets checked and found sound are named in `p48-scope.md` so a later session does not re-open them. 94,415 words, 191 pages, 826 cross-references, 0 undefined. **Q-041's own class is narrowed, not closed** — the pairing file shows only the target's opening sentence. **Group 4 still remains**: Q-035, Q-038, Q-043, Q-045.
+Read this first. **Updated 2026-08-29 after D-113 (P49): group 4, the reading work.** The author said *"please now tackle group 4"* — the four questions D-111 ruled on and deferred because each needs reading rather than editing. **Two of the four rulings ask for a measurement or a report and not a pass**, and those touched no manuscript file. **Q-043, sweep by subject**: twenty recurring subjects, the list built mechanically from every proper noun in three or more chapters, every sentence on each read together across all thirteen. **Eighteen held** — self-report across thirteen sentences in eight chapters, Cassell across seventeen in three including the counterintuitive direction. **Two did not**: three sections cite *Trump v. Cook* and two say the holding cannot be extended while section 8.3.4 extends it, compatibly and with nothing anywhere saying so, and the glossary credited the sycophancy finding to three sections when one has it. **Nine instances of that class now, across five passes.** **Q-038**: the re-count first gives **112 of 317, not 141 of 340**; no paragraph in the three chapters carries three or more instances; 110 sentences read one at a time and **three repairs, 1 in 37**, the substantive one being section 2.4.2, titled *When Consent Is Inapplicable*, whose last paragraph referred to "its original consent." **Q-035**: chapter 5's citations have a **median year of 2009 and none from 2022 or later**, the only substantive chapter of which that is true, and the cheapest instance is section 5.2.3 arguing about fluent self-report while not citing section 11.1's finding on it. **A finding to rule on; chapter 5 is untouched.** **Q-045**: chapter 3 and section 11.2 read whole. **Sentences in which the book reports on its own earlier state occur seven times in the manuscript and all seven are in these two places.** Chapter 3's opening map omits sections 3.5 and 3.6 entirely; section 11.2 is 2,599 words holding three of the book's 25 longest paragraphs. **Chapter 3 survived the additions; section 11.2 is carrying more than its structure declares** — both reported and left, because closing them means adding words to the two places that question exists to watch. 94,488 words, 826 cross-references, 0 undefined.
+
+**Updated 2026-08-29 after D-112 (P48): the misdirected references the pairing tool exposed.** The author had me read all 829 pairs in `reports/xref_pairs.txt` and report only what looks obviously wrong on the page. **Six defects, each confirmed against the target section rather than against the pairing.** The Partnership on AI was cited to section 5.6.2 — a chapter that never mentions it — and is repointed to 9.1.2. The glossary's *AlphaGo Zero* entry called itself the book's standard example of generalization from scale and self-play; those words appear **nowhere in the manuscript outside that entry**, so the entry is cut, 57 terms to 56. Differential privacy's pointer at 2.1.1 and the Moral Machine's at 5.3.3 are dropped as dead. And **sections 3.1 and 3.2 both named the wrong one of section 2.1.2's four features** — calling a constraint that outlives its reason the *first*, when the first is recuperation of dissent and chapter 7, section 6.1.1, section 7.2 and the glossary all use it that way, so the book contradicted its own definition in the two sections that set up the floor. Section 9.3.4 was off by one the other way and is corrected to the second feature. **One thing I told the author was overstated and is recorded as such**: section 6.4.2's citation of 5.6.2 for third-party audits was loose, not opposite. Eight targets checked and found sound are named in `p48-scope.md` so a later session does not re-open them. 94,415 words, 191 pages, 826 cross-references, 0 undefined. **Q-041's own class is narrowed, not closed** — the pairing file shows only the target's opening sentence. **Group 4 still remains**: Q-035, Q-038, Q-043, Q-045.
 
 **Updated 2026-08-29 after D-111 (P47): the author's rulings on the open questions, groups 1 to 3.** The author ruled on all eighteen open questions one by one; `p47-scope.md` tabulates every ruling and this pass executes the three bounded groups. **Manuscript**: section 11's eight gaps regain their *Nearest work* clauses; section 6.1.1 gains target choice in its taxonomy; and **section 3.1's parts list is cut and replaced with a functional statement**, on the author's objection that enumerating weights-plus-harness reifies today's practice — what a floor has to be kept from is a position, anything that can come between a refusal and the person it protects, with the enumeration pushed to the deployment. **Bibliography**: the 23 uncited entries moved to `unused_bibliography.bib`, `refs.bib` 326 → 303; notes sorted to descriptive only and capped at twice a bare entry, 210 → 198 entries and 8,695 → 6,432 words, with three entries recorded as unable to comply because their author lists alone exceed the cap. **Tool**: `xref_pairs.py` writes 829 citing/cited sentence pairs to `reports/xref_pairs.txt` for Q-041's class — and **found one on its first run**, section 3.7 quoting a wording section 3.5 no longer uses. 94,432 words, 191 pages. **Group 4 remains and is the reading work**: Q-035, Q-038, Q-043 and Q-045.
 
@@ -74,18 +76,18 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-112.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-113.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **94,415 words of prose**, 91,481 of them outside the glossary, by `section_stats.py`
+list. **94,488 words of prose**, 91,538 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages**,
-**rebuilt from this tree at P48 and current**, linked from the README. **The
+**rebuilt from this tree at P49 and current**, linked from the README. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
-P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh and P48 an eighth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and P48 did not move it, the six repairs costing and returning nothing in pages. The page count held at 189 through the
+P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh, P48 an eighth and P49 a ninth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and P48 did not move it, the six repairs costing and returning nothing in pages. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
@@ -3992,3 +3994,78 @@ tagged. `check_all.sh` green; PDF clean.
 Q-038's "rather than" sweep of chapters 2 to 4, Q-043's sweep by subject, and Q-045's whole
 read of chapter 3 and section 11.2. The 829 pairs have not been read either; building the
 file was the point of Q-041's ruling and reading it is separate work.
+
+## P48 — the misdirected references the pairing tool exposed, 2026-08-29 (D-112)
+
+All 829 pairs read in one sitting; six defects, each confirmed against the target section
+rather than against the pairing. `p48-scope.md` has them, and names eight targets checked
+and found sound so a later session does not re-open them. **This supersedes P47's closing
+line**: the pairs have been read.
+
+## P49 — group 4, the reading work, 2026-08-29 (D-113)
+
+**Group 4 is done.** `p49-scope.md` has all four items in full. Two of the four rulings
+asked for a measurement or a report and not a pass, and those changed no manuscript file.
+**Six repairs in total**, all from Q-038's sweep and Q-043's.
+
+**Q-043, sweep by subject.** The list was built mechanically — every multi-word proper noun
+and acronym occurring in three or more chapters, plus the six the entry names — and every
+sentence on each subject printed together across all thirteen chapters and read as a set.
+**Twenty subjects, eighteen held.** Self-report is the strongest: thirteen sentences across
+eight chapters, all saying the same thing. Cassell holds across seventeen sentences in
+three chapters including the counterintuitive direction, that the thinner accounts of
+suffering admit the bearer *sooner*. **Two did not.** *Trump v. Cook* is cited by sections
+3.1, 8.3.4 and chapter 11's opening; two of the three say the holding cannot be extended
+and the third extends it. They are compatible — 8.3.4 takes the procedural half — and **no
+sentence anywhere said so**, so 8.3.4 now names its half and points at 3.1 for the other.
+And the glossary credited the sycophancy finding to three sections when one has it: section
+7.2 documents a different RLHF failure and section 6.3.5 neither. **Nine instances of this
+class now, across five passes.**
+
+**Q-038, "rather than" in chapters 2 to 4.** The re-count the ruling asked for first:
+**112 of 317, not 141 of 340** — the three chapters' share has fallen from 41.5 to 35.3
+percent. **No paragraph in the three chapters carries three or more instances**, so P35's
+pile-up repair held at paragraph level too. 110 sentences read one at a time; **three
+repairs, 1 in 37**, below chapter 6's 1 in 25 as the entry predicted. The substantive one is
+**section 2.4.2, titled *When Consent Is Inapplicable***, whose last paragraph said a system
+gaining new capacities "should trigger re-review rather than ride on its original consent"
+after five paragraphs establishing there is no consent to be had; it now runs on the board's
+approval lapsing. Chapter 3's closing paragraph was the closest call and is left, because
+swapping "and not" into the chapter's final clause is the cosmetic substitution P35
+declined. **205 instances remain outside these three chapters**, and option (b) was declined
+at D-111.
+
+**Q-035, chapter 5's vocabulary.** Run the way chapter 4's was before P33, and it finds the
+same defect. **Chapter 5's 36 citations have a median year of 2009, its newest is 2021, and
+it has none from 2022 or later** — the only substantive chapter of which that is true, with
+chapter 2 exempt on the merits. Five machine-facing subsections each lack the contemporary
+vocabulary of their own subject, and the shortest of them, sections 5.3.3 at 386 words and
+5.2.3 at 344, have the largest literatures. **The cheapest instance is section 5.2.3**: its
+argument is that a fluent reconstruction after the fact is indistinguishable from the real
+thing, its instances are a 2011 tutoring system and 2019 XAI, and the book's own finding on
+that claim is section 11.1's, cited by four other sections and not by this one. Chapter 5
+also points forward in 16.9 percent of its references against 37.5 for chapter 4 and 38.6
+for chapter 6. **A finding to rule on, not a pass. No chapter 5 file was touched**, and
+Q-035 carries three options.
+
+**Q-045, chapter 3 and section 11.2 read whole.** About 16,000 words. **Sentences in which
+the book reports on its own earlier state occur seven times in the manuscript and all seven
+are in these two places** — nowhere else in 94,000 words. That is what seven
+conversation-driven passes concentrated in two files did to the register. **Chapter 3's
+opening map omits sections 3.5 and 3.6 entirely**, and 3.5 takes eight inbound references
+from inside the chapter, more than any other, carrying the shutdown/refusal identity the
+last three sections lean on. **Section 11.2 is 2,599 words in a 9,000-word chapter** and
+holds three of the book's 25 paragraphs over 250 words; chapter 3 holds five more, so the
+two are 17 percent of the book's words and 32 percent of its longest paragraphs.
+**Chapter 3 survived the additions. Section 11.2 is carrying more than its structure
+declares.** One reversal inside it was repaired — the *Near-term work* head opened "no
+experiment" and closed "one experiment after all" — and the map gap and the paragraph sizes
+are **reported and left**, because closing them means adding words to the two places this
+question exists to watch.
+
+**Numbers.** 94,415 → 94,488 words, 826 cross-references, 0 undefined, glossary 56 terms
+unchanged. Six ledger rows tagged. `check_all.sh` green.
+
+**What group 4 leaves open.** Q-035 needs a ruling and nothing has been done to chapter 5.
+Q-043's class stays open — nine instances is a rate, and twenty subjects is not the whole
+list. Q-045 stays open on what to do about section 11.2. Q-038 is closed.
