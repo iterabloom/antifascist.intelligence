@@ -61,14 +61,12 @@ list. **88,346 words of prose**, 85,415 of them outside the glossary, by `sectio
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **189 pages**,
-rebuilt at P37 and linked from the README. **It is one pass stale: it does not carry P38, and
-it prints the old chapter 2, 4 and 5.** The current tree builds at **182 pages** — measured from
-a scratch build, not from the committed pair — and rebuilding the committed pair is the first
-outstanding item. The README's figure still says 189, which matches what is committed. **The
+pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **182 pages**,
+rebuilt from this tree at P38 and linked from the README. It is current: it carries P38's
+distillation of chapters 2, 4 and 5. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
-P37 did the same a third time on that date — only the README's page figure moved, 192 to 189. The page count held at 189 through the
+P37 did the same a third time on that date, and P38 a fourth — only the README's page figure moved, 192 to 189 to 182. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
@@ -3559,10 +3557,11 @@ their subsections — each one's title and old number carried into the surviving
 and 3 moved from `accepted` to `drafted`: **13 accepted, 140 drafted.** `check_all.sh` green,
 both formats build clean with no undefined references.
 
-**What is not done.** No section has the author's read. **The committed proof pair was not
-rebuilt** — the author asked for the distillation and not for the proofs — so
-`whole-book-proof_2026-08-29.{pdf,html}` still prints the pre-P38 text at 189 pages, and the
-README's page figure matches what is committed rather than what is in the tree. The 182-page
-figure throughout this note is from a scratch build of this tree. And the four pre-existing
-defects above came out of chapters 2, 4 and 5 because that is where a renumber made someone
-look; the other nine chapters have not been read for the same shape.
+**What is not done.** No section has the author's read. The four pre-existing defects above
+came out of chapters 2, 4 and 5 because that is where a renumber made someone look; the other
+nine chapters have not been read for the same shape — Q-041 carries it.
+
+**The proof pair was rebuilt after this pass, on the author's instruction, and is current at
+182 pages.** The date had not rolled over, so it was rebuilt in place under the same two
+filenames and the README's links did not move; only its page figure did, 189 to 182. That is
+the fourth rebuild on this date — P35 set it, and P36, P37 and P38 have each rebuilt in place.
