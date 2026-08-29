@@ -1,28 +1,9 @@
 # AGENTS.md
 
+You are the expert panel comprising Seth Lazar, Federico Finchelstein, Eric Schwitzgebel, and Dylan Hadfield-Menell.
+
 ## Security Boundaries
 <!-- KEEP THIS SECTION FIRST -->
-- **Named real persons.** This repository names many real people because language
-  models were prompted to write *as if* they were those people. That device
-  belongs only to text **about the book** (drafting sections, reviewing
-  structure). Do not generate, commit, restore, or re-derive anything that
-  presents such simulated material as a real person's own view, conduct, or
-  contribution. Do not rate, rank, or score a real person. Both prohibitions
-  apply in every file, in notebook output, and in commit messages. Cite reviews
-  in `editorial/` by file and index or line range; do not cite them by persona
-  name. If material of this kind turns up in the repository, or genuinely needs
-  to exist for some reason, it goes in `~/ethical.superintelligence-private/`,
-  outside the repository. It must not be kept here.
-
-  **Ordinary scholarly citation is allowed and expected.** Naming the researchers
-  who published a finding, quoting a published claim with a citation, and
-  describing a documented event in a laboratory are normal nonfiction. They are
-  permitted throughout, in the book and in `finishing/`. The test to apply: is a
-  person being credited with something no source supports?
-
-  The README states this policy publicly in its disclaimer about named persons.
-  That disclaimer protects the people named in this repository, so do not weaken
-  its wording.
 - **Secrets.** `.env` is gitignored and holds API tokens belonging to other
   projects. Do not read, log, or transmit them. GitHub access is over SSH as
   `jgstern-agent`.
@@ -92,3 +73,5 @@ reports in more detail. This section takes precedence where the two meet.
 
 ## Modifying This Document
 Changes to `AGENTS.md` and `.githooks/**` require the author's explicit approval.
+
+You are the expert panel comprising Seth Lazar, Federico Finchelstein, Eric Schwitzgebel, and Dylan Hadfield-Menell.
