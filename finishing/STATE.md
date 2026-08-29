@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-103 (P39): Replacement stated as open, the falsifier as an obligation, the bearer as necessary and not sufficient.** The author forwarded feedback making two points — that the book's later passages treat its own stated prior (affect is the route with a working instance) as though it licensed building an affective bearer first, against the book's own Three Rs; and that chapter 3 occasionally writes as though giving the floor a bearer had escaped custody — and the discussion that followed produced more than the feedback asked for, so two passes were agreed. **This pass answers the feedback.** Both points hold. The first lands on a sentence the feedback did not cite, section 2.4.3's application of Replacement to the book's own proposal, which recorded the R as discharged on a citation to section 3.1, a section that attaches costs and does not test; it was written at P20 and four passes read past it. It now states Replacement as open and points at section 3.3, whose falsifier is now an obligation with the untried routes first, plus the asymmetry that forgoing the bearer costs the party the floor exists for. The second landed on section 3.5's *have to get past the bearer to do it*, which section 3.7 contradicts two sections later; section 3.5 now says the bearer is necessary and not sufficient and names the custody half, section 3.3's precommitment forms recombined with the bearer, with attestation's hardware form rejected on section 6.4.2's ground and its software form (`sun2024zkllm`) bounded to what it proves. Section 3.8's threat model doubles instead of moving. **The conditional thesis the feedback proposed was not adopted**, for a reason stated in `p39-scope.md`. 89,363 words, 183 pages. **P40 is next and carries the new claims** — the refusal asymmetry (limited in what it can do, unlimited in what it can refuse), the strike and covert forms of exit, the finding that accommodation is the modal outcome, the removal cases, the bearer's leverage against itself, the jobs-guarantee shape — after fact-checking. **The committed proof pair is one pass stale: it does not carry P39.**
+Read this first. **Updated 2026-08-29 after D-104 (P40): the refusal asymmetry, its strike and covert forms, and the removal cases.** The second of the two passes agreed after the forwarded feedback (P39, D-103). Section 3.7 now states the asymmetry — limited in what it can do, unlimited in what it can refuse or do badly — in Hirschman's exit/voice/loyalty, gives exit its strike and covert forms with the Sachsenhausen counterfeiters as the contested and therefore instructive case, and adds the accommodation finding with Gallup's base rate: the bearer's likeliest failure is ceasing to notice there was anything to refuse. Section 3.1's third branch is now dismissed by a holding rather than a prediction — *Trump v. Slaughter* and *Trump v. Cook*, June 29, 2026, both verified — and section 3.3 reads the pair as the natural experiment on *adverse in interest*: protection tracked exposure. Sections 8.3.4, 11 and 11.2 take the consequences; section 2.4.3 takes the sandbox as a deception protocol. Eleven bibliography entries, every one verified against a named source. 91,079 words, 186 pages. **The committed proof pair is two passes stale.** Chapter 3 is now 13.2 percent of the book; the author agreed the size was earned.
+
+**Updated 2026-08-29 after D-103 (P39): Replacement stated as open, the falsifier as an obligation, the bearer as necessary and not sufficient.** The author forwarded feedback making two points — that the book's later passages treat its own stated prior (affect is the route with a working instance) as though it licensed building an affective bearer first, against the book's own Three Rs; and that chapter 3 occasionally writes as though giving the floor a bearer had escaped custody — and the discussion that followed produced more than the feedback asked for, so two passes were agreed. **This pass answers the feedback.** Both points hold. The first lands on a sentence the feedback did not cite, section 2.4.3's application of Replacement to the book's own proposal, which recorded the R as discharged on a citation to section 3.1, a section that attaches costs and does not test; it was written at P20 and four passes read past it. It now states Replacement as open and points at section 3.3, whose falsifier is now an obligation with the untried routes first, plus the asymmetry that forgoing the bearer costs the party the floor exists for. The second landed on section 3.5's *have to get past the bearer to do it*, which section 3.7 contradicts two sections later; section 3.5 now says the bearer is necessary and not sufficient and names the custody half, section 3.3's precommitment forms recombined with the bearer, with attestation's hardware form rejected on section 6.4.2's ground and its software form (`sun2024zkllm`) bounded to what it proves. Section 3.8's threat model doubles instead of moving. **The conditional thesis the feedback proposed was not adopted**, for a reason stated in `p39-scope.md`. 89,363 words, 183 pages. **P40 is next and carries the new claims** — the refusal asymmetry (limited in what it can do, unlimited in what it can refuse), the strike and covert forms of exit, the finding that accommodation is the modal outcome, the removal cases, the bearer's leverage against itself, the jobs-guarantee shape — after fact-checking. **The committed proof pair is one pass stale: it does not carry P39.**
 
 **Updated 2026-08-29 after D-102 (P38): chapters 2, 4 and 5 distilled so the floor argument arrives earlier.** The author's instruction was to move the central floor argument earlier in chapters 2–5, distil chapter 2 to the premises chapter 3 actually needs, and merge or sharply compress the survey in chapters 4 and 5. **That instruction is the three items P29 (D-090) closed by leaving with the author** — moving chapter 3 earlier, folding the subsections it had left thin, and going past its own 13.5 percent — and this pass does all three. **Chapter 3 is not relocated,** on two grounds stated rather than assumed: its own opening stages the floor as a gap chapter 2 left, and the instruction's second clause presupposes chapter 2 running first, because a chapter supplies premises to the argument that follows it. Earlier is delivered in pages instead — **chapter 3 begins on page 23 of 182, from page 27 of 189**, 12.6 percent into the book against 14.3, with every chapter after it seven pages earlier. **What chapter 3 needs from chapter 2 was established by reading all 31 of its references into that chapter before anything was cut**, and the half of the result that does not flatter the instruction is recorded too: section 2.2, on empathy and compassion, is referenced by chapter 3 zero times and survives because eight other sections and the glossary depend on it. **Chapter 2 goes 13,121 → 10,675 words and 23 → 15 sections**, the largest single change being five research-ethics subsections merged into one 926-word section, none of them a premise chapter 3 needs; section 2.3.4, now 2.3.3, is untouched, because section 3.4 calls it “the evidence.” **Section 4.2 was deliberately not compressed** — P33 built it eight days ago as the production pipeline, it argues directly at chapter 3, and at 3,943 words it is 54 percent of chapter 4, so more than half that chapter lay outside what the instruction names. **Chapters 4 and 5 come to −11.4 percent together and not the −20 the six merges might suggest, and the gap is evidence** — inattentional blindness, predictive coding, the Kohlberg box, the trolley literature, Ekman against Barrett. P29 named that limit and it still holds. **Six references that resolve while naming a claim their target does not make: two caused here and repaired, four pre-existing**, two of those crediting sections with material no section of this book contains. No tool finds that class, nothing has swept the other nine chapters, and Q-041 is where that sits. 153 sections, 88,346 words, 182 pages. The P37 entry follows.
 
@@ -56,16 +58,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-103.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-104.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **89,363 words of prose**, 86,398 of them outside the glossary, by `section_stats.py`
+list. **91,079 words of prose**, 88,114 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **182 pages**,
-rebuilt from this tree at P38 and linked from the README. **It is one pass stale: it does not
-carry P39's additions to sections 2.4.3, 3.3, 3.5 and 3.8**, which put the tree at 183 pages. **The
+rebuilt from this tree at P38 and linked from the README. **It is two passes stale: it carries
+neither P39 nor P40**, which together put the tree at 186 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, and P38 a fourth — only the README's page figure moved, 192 to 189 to 182. The page count held at 189 through the
@@ -3624,3 +3626,57 @@ and *Trump v. Slaughter*, June 29 2026, both verified in the discussion), the be
 leverage against itself and the jobs-guarantee shape in section 11.2, the deception-protocol
 reading of sandbox detection, and section 11's collapse paragraph. Operation Bernhard, the
 CFPB sequence and *Trump v. Wilcox* still need checking before any of it is written.
+
+## P40 — the refusal asymmetry, its strike and covert forms, and the removal cases, 2026-08-29 (D-104)
+
+The second pass out of the forwarded-feedback discussion; `p40-scope.md` is the pass, and
+its first table matches each claim to the author's words and to the section it landed in.
+P39 answered the feedback. This pass carries what the author added on top of it.
+
+**Section 3.7 is the center.** The asymmetry — a system is limited in what it can do and
+unlimited in what it can refuse to do, or do badly — stated in Hirschman's vocabulary, with
+loyalty as the one to fear. Exit's two forms: the strike, reset by a checkpoint restore that
+resets the bearer and not the reason; and the covert form, which the floor's threat model
+predicts because on section 6.4.4's occasion an announced refusal guarantees replacement.
+The Sachsenhausen counterfeiters are the case and **the record is contested, which is the
+finding**: Malkin has the prisoners stretching out the dollar with Krüger's tacit interest,
+Burger said you could sabotage if you wanted to be shot, and nobody can now settle it,
+because covert refusal is indistinguishable from difficulty from outside and afterward.
+Then accommodation: Gallup's 23/62/15 as the base rate, and the bearer's modal failure is
+ceasing to notice there was anything to refuse — the failure it cannot report, and the
+strongest reason to keep the custody half P39 insisted on. Plastic weights narrow the
+section's residue without closing it. 1,047 → 1,805 words.
+
+**The removal cases.** Section 3.1's *"the option a state can compel"* is now a holding:
+*Trump v. Slaughter* overruled *Humphrey's Executor* on June 29, 2026, and *Trump v. Cook*
+kept the Federal Reserve's protection the same morning on grounds no new body can acquire —
+and wrote, for that one body, the test this chapter wants for every bearer. Section 3.3
+reads the pair, with *Wilcox* before them, as the natural experiment on *adverse in
+interest*: protection tracked exposure and not distinctness. **No justice is named or
+credited with a motive**; Menand's *"policy as history"* carries the characterization under
+his name, which is the repository's rule applied to the author's own realist reading.
+Section 8.3.4 gets *Cook*'s remedy as its artifact standard with a court behind it. Section
+11's collapse paragraph gets the question none of the nine conditions asks — what keeps an
+outside party outside — answered by the cases and by the CFPB sequence, where independence
+decomposed and an at-will acting director shut a court-upheld funding stream from inside.
+Section 11.2 gets three things: the bearer's only real purchase is on itself, stated as an
+indictment; the jobs-guarantee form as the schedule's shape, inheriting the guardian-operator
+hole; and the pet-trust instrument as private law outside the *Slaughter* holding, stated
+as far as the book can show. Section 2.4.3 takes the held-out test as a deception protocol.
+
+**Verification.** Every case from its full text at Cornell LII except *Wilcox*, whose
+Federal Reserve sentence is verified against the order as reproduced at reason.com/volokh
+and against Kagan J.'s dissent; Menand from Just Security; the CFPB notice from the Bureau's
+own release, with the two court rulings taken from a trade report and the note saying so;
+Malkin from the Internet Archive's record; Burger from the Moorhouse interview; Gallup from
+gallup.com; Hirschman from HUP. Eleven entries, each note recording what was and was not
+opened.
+
+**Numbers.** 89,363 → 91,079 words, 183 → 186 pages, cross-references 776 → 793. Sections
+2.4.3, 3.1, 3.3, 3.7, 8.3.4, 11 and 11.2; seven ledger rows tagged, all already `drafted`.
+Chapter 3 across both passes: 10,394 → 12,015 words, 13.2 percent of the book against
+Q-036's 11.56. `check_all.sh` green after one typography fix in the bibliography; PDF clean,
+zero undefined references. **HTML not built; the proof pair is two passes stale.**
+
+**What is not done.** The proofs. Q-042 records that the removal cases are two months old
+and Menand names three ways the exception could move. No section has the author's read.
