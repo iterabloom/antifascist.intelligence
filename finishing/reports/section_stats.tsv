@@ -22,7 +22,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 3	The Floor Beneath Learned Values	1	3	1111	10	0	0	0	1	0	0	23	0	0		0	0	0	0	0
 3.1	Three Ways to Build One, and What Each Costs	2	3	815	6	0	0	0	0	0	0	14	0	2	2026	0	0	0	0	0
 3.2	Four Things Refusal Can Mean	2	3	950	14	0	0	0	0	0	1	10	0	1		0	0	0	0	2
-3.3	Could Anything but Affect Hold a Reason?	2	3	2474	28	0	0	0	0	0	2	27	0	6	2026	0	0	0	0	5
+3.3	Could Anything but Affect Hold a Reason?	2	3	2546	28	0	0	0	0	0	2	28	0	6	2026	0	0	0	0	5
 3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2271	32	0	0	0	0	0	0	15	0	3		0	1	0	0	8
 3.5	What Can Be Switched Off Cannot Hold a Line	2	3	1228	9	0	0	0	0	0	0	9	0	0		0	0	0	0	0
 3.6	Whether the Bearer Can Be Believed	2	3	625	5	0	0	0	0	0	1	4	0	0		0	0	0	0	0
@@ -92,7 +92,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7	The Recuperation of Dissent	1	7	561	9	0	0	0	0	0	0	6	0	0		0	0	0	0	0
 7.1	Recuperation at the Label	2	7	725	12	0	0	0	0	0	0	4	0	1		0	0	0	0	3
 7.2	Recuperation at the Reward: RLHF	2	7	826	8	0	0	0	0	0	0	4	0	2	2023	0	0	0	0	0
-7.3	What Would Have to Change	2	7	1100	17	0	0	0	0	0	0	11	0	1		0	0	0	0	5
+7.3	What Would Have to Change	2	7	1132	17	0	0	0	0	0	0	12	0	1		0	0	0	0	5
 7.4	Recuperation at the Discourse	2	7	821	13	0	0	0	0	0	0	13	0	1		0	0	0	0	2
 8	Coordination, the Public, and the Political Economy	1	8	241	3	0	0	0	0	0	0	7	0	0		0	0	0	0	0
 8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	166	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
@@ -135,7 +135,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 10.10	What the Democratic Dividend Leaves Out	2	10	744	12	0	0	0	0	0	0	5	0	1		0	0	0	0	3
 11	Necessary Areas of Research	1	11	1014	15	8	0	0	0	0	0	19	0	1	2025	0	0	0	0	0
 11.1	Interpretability, Self-Reports, and Resistance to Tampering	2	11	731	9	2	0	0	0	0	0	5	0	4		2	0	0	0	1
-11.2	What Is Owed to a Bearer, and Who Could Check	2	11	1281	14	0	0	0	0	0	0	21	0	0		0	0	0	0	4
+11.2	What Is Owed to a Bearer, and Who Could Check	2	11	1865	17	0	0	0	0	0	0	25	0	4		0	2	0	0	4
 11.3	What an Antifascist Detector Would Actually Have to Detect	2	11	1036	17	0	0	0	0	0	0	10	0	0		0	1	0	0	5
 11.4	When an Ethics-Embedding Method Stops Generalizing	2	11	337	5	0	0	0	0	0	0	3	0	2	2022	0	0	0	0	1
 11.5	Value Learning as Unfinished Technical Research	2	11	564	6	0	0	0	0	0	0	2	0	3	2023	0	1	0	0	1
