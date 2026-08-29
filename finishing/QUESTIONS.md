@@ -1,6 +1,6 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-102. Fifteen questions are open**, raised by
+**Current as of 2026-08-29, after D-102. Sixteen questions are open**, raised by
 P28 through P31, D-095, D-096, P33, P34, P35, P36, P37 and P38, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether to prune `refs.bib`, whether chapter
@@ -621,6 +621,36 @@ section 3.1's paragraph is evidence of.
 **Default (a) applies now.** Recorded because the book has not previously built a
 paragraph of argument on a case decided in the same summer, and a fresh session should
 know to check it.
+
+### Q-043 — Claims one chapter makes flatly that another chapter has already qualified
+
+P42's seven items included four of one shape: section 10.8 said the EU's statute does
+nothing about government uses, and section 6.4.3 had already recorded its ban on
+government social scoring; section 6.4.4 said a federated design puts a structural limit
+on seizure, and section 6.4.2 had already said a government can demand raw data at the
+source; section 6.3.3 said a system that can explain itself has visible failures, and
+sections 11.1, 4.2.5 and 2.4.1 had already said why an explanation is not evidence;
+section 12.1.2 said the Council of Europe convention binds a signatory, one sentence
+after section 10.8 stated its ratification threshold. None of the four cites the section
+that weakens it, which is why Q-041's class does not cover them: there is no reference to
+resolve. A second reader found them by knowing the subject, not by reading the book
+against itself.
+
+- **(a) Default — leave it, and let outside readers keep finding them.** Two readers in
+  one day found eleven defects between them (Q-041's seventh and these four among them);
+  that is a working method, and it costs the project nothing.
+- (b) Sweep by topic. List the book's recurring factual subjects — the AI Act, the
+  convention, federated learning, self-report, the chip supply chain, the removal cases —
+  and read every sentence on each subject together, across chapters. The unit of reading
+  is the subject and not the section, which is what neither a section read nor a
+  reference check does.
+- (c) Sweep by tool. Cluster sentences by shared proper nouns and acronyms across
+  sections and print the clusters for reading. Cheap, and it would have caught three of
+  the four; it would not have caught 6.3.3, which names nothing.
+
+**Default (a) applies now.** Recorded because the four are a different failure from a
+wrong fact: each was a sentence the book itself could have corrected, and (b) is the only
+method that reads the book the way the reader who found them did.
 
 ## Resolved
 

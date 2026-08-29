@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-105 (P41): the propagation sweep after P39 and P40.** The author asked how the two passes interact with the rest of the manuscript; the audit found one contradiction inside chapter 3 that reached chapters 5 and 6 (section 3.5's shutdown/refusal identity against P39's *nothing software can do about being switched off* — reconciled: the property that is one with refusal is the *pricing* of the halt, not its prevention), the pre-P39 modality still standing in chapter 3's opener, chapter 1's roadmap, section 12.3 and the glossary, section 11.1 not knowing its measurement had become a precondition, and two pairs of sections arguing the same thing from opposite sides without citing each other. Nine sites edited, no new claims, no new citations; 9.3.4 and 10.10 read and confirmed compatible. 91,443 words, 187 pages. **The committed proof pair is three passes stale: it carries none of P39, P40 or P41.**
+Read this first. **Updated 2026-08-29 after D-106 (P42): the legal claims a second reader checked.** Forwarded feedback spot-checked the book's high-impact legal claims and all seven items land: section 10.8's *the EU's statute does nothing about government uses* was false and contradicted 6.4.3 (now the narrower true claim — the Act reaches public authorities, excludes national security, and is enforced by the state against itself); the Council of Europe convention *binds* nobody yet (now *would bind, once in force*, the EU's May 2026 ratification cited and the status hedged to exactly what could be reached); section 10.6 counted three chip companies and named two, since P3; predictive processing is a contested bet and not the consensus; 6.4.4's federated-learning claim contradicted 6.4.2 and 6.4.2 now carries gradient leakage; product liability's reach to software is stated as unsettled with *Garcia* cited; 6.3.3's *failures are visible* contradicted 11.1 and now says *contestable*. **Four of the seven are one chapter flatly stating what another has qualified — Q-043.** Four entries verified. 91,785 words, 187 pages. The proofs follow this pass on the author's instruction.
+
+**Updated 2026-08-29 after D-105 (P41): the propagation sweep after P39 and P40.** The author asked how the two passes interact with the rest of the manuscript; the audit found one contradiction inside chapter 3 that reached chapters 5 and 6 (section 3.5's shutdown/refusal identity against P39's *nothing software can do about being switched off* — reconciled: the property that is one with refusal is the *pricing* of the halt, not its prevention), the pre-P39 modality still standing in chapter 3's opener, chapter 1's roadmap, section 12.3 and the glossary, section 11.1 not knowing its measurement had become a precondition, and two pairs of sections arguing the same thing from opposite sides without citing each other. Nine sites edited, no new claims, no new citations; 9.3.4 and 10.10 read and confirmed compatible. 91,443 words, 187 pages. **The committed proof pair is three passes stale: it carries none of P39, P40 or P41.**
 
 **Updated 2026-08-29 after D-104 (P40): the refusal asymmetry, its strike and covert forms, and the removal cases.** The second of the two passes agreed after the forwarded feedback (P39, D-103). Section 3.7 now states the asymmetry — limited in what it can do, unlimited in what it can refuse or do badly — in Hirschman's exit/voice/loyalty, gives exit its strike and covert forms with the Sachsenhausen counterfeiters as the contested and therefore instructive case, and adds the accommodation finding with Gallup's base rate: the bearer's likeliest failure is ceasing to notice there was anything to refuse. Section 3.1's third branch is now dismissed by a holding rather than a prediction — *Trump v. Slaughter* and *Trump v. Cook*, June 29, 2026, both verified — and section 3.3 reads the pair as the natural experiment on *adverse in interest*: protection tracked exposure. Sections 8.3.4, 11 and 11.2 take the consequences; section 2.4.3 takes the sandbox as a deception protocol. Eleven bibliography entries, every one verified against a named source. 91,079 words, 186 pages. **The committed proof pair is two passes stale.** Chapter 3 is now 13.2 percent of the book; the author agreed the size was earned.
 
@@ -60,16 +62,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-105.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-106.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **91,443 words of prose**, 88,464 of them outside the glossary, by `section_stats.py`
+list. **91,785 words of prose**, 88,806 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **182 pages**,
-rebuilt from this tree at P38 and linked from the README. **It is three passes stale: it carries
-none of P39, P40 or P41**, which together put the tree at 187 pages. **The
+rebuilt from this tree at P38 and linked from the README. **It is four passes stale: it carries
+none of P39 through P42**, which together put the tree at 187 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, and P38 a fourth — only the README's page figure moved, 192 to 189 to 182. The page count held at 189 through the
@@ -3709,3 +3711,42 @@ in the scope file. Sections 9.3.4 and 10.10 read in full and confirmed compatibl
 ledger rows tagged. `check_all.sh` green; PDF clean. **HTML not built; the proof pair is
 three passes stale.** Not read for the same residue: chapter 5's other sites that touch
 the override requirement (5.1.1, 5.2.3, 5.3).
+
+## P42 — the legal claims a second reader checked, 2026-08-29 (D-106)
+
+Forwarded feedback spot-checked the book's high-impact legal claims — two for correction,
+five for specialist review — and the author said *go*. `p42-scope.md` has the verdict on
+each. **All seven land**, and the two "corrections" were both the book contradicting
+itself.
+
+**Section 10.8** said the EU's statute *does nothing to stop a government* from building
+section 6.4.1's applications, while section 6.4.3 records that Article 5 bans government
+social scoring and limits police biometrics. The Act reaches public authorities; what it
+excludes by its own terms is military, defence and national security, which is where
+those applications live; and what stays in scope is enforced against a member state's
+agencies by that state. That is now the sentence. **Sections 10.8 and 12.1.2** said the
+Council of Europe convention *binds a signatory*, one sentence after 10.8 correctly stated
+its ratification threshold. Now *would bind a party, once in force, which at this writing
+it is not*. The reviewer's evidence was wrong — the EU deposited its ratification on 15 May
+2026, cited — and the conclusion right: the Council's treaty chart returned 403 on every
+path, and every source that could be reached describes entry into force in the future
+tense; the bibliography note says exactly that.
+
+**The five qualifications.** 10.6 counted three chip companies and named two — since P3,
+never a third in the text; now two. 4.1.1 called predictive processing *the dominant
+account*; now the most ambitious unifying account, contested, and 4.1.2's bet. 6.4.4's
+*structural limit on what a government can seize* contradicted 6.4.2's own caveat and is
+reconciled; 6.4.2's *only that update* carries gradient leakage (`zhu2019leakage`,
+verified). 9.3.2's *applies exactly* is now the contested step it is, with the
+Restatement's tangible-property definition and *Garcia v. Character Technologies*
+(`garcia2025character`, from two reports; the order not opened, docket omitted). 6.3.3's
+*failures are visible* contradicted 11.1, 4.2.5 and 2.4.1 and now says *contestable*,
+with the limit stated.
+
+**The class.** Four of seven are one chapter stating flatly what another has qualified —
+10.8 against 6.4.3, 6.4.4 against 6.4.2, 6.3.3 against 11.1, 12.1.2 against 10.8's own
+previous sentence. Q-043 records it: no tool finds it and nothing has swept for it.
+
+**Numbers.** 91,443 → 91,785 words, 187 pages, cross-references 798 → 803. Sections
+4.1.1 (433 → 468), 6.3.3 (250 → 311), 6.4.2 (536 → 560), 6.4.4 (468 → 486), 9.3.2 (666 → 740), 10.6 (888 → 888), 10.8 (1502 → 1619), 12.1.2 (425 → 438).
+Eight ledger rows tagged. `check_all.sh` green; PDF clean. The proofs follow.
