@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	On Method	7407ef111c50035965ad0e9cadc2dedf5e0cb01908098851b069cdbec30d0c4a
-manuscript/sections/ch01/01.tex	1	Introduction	aac239207f70e06536da71d7de4b2d83499001fa9d390844471c4e864b8a80af
+manuscript/sections/ch01/01.tex	1	Introduction	cb50a9ec786ee49ec9f12e9038d38a50d36ae2945ce363da6b80d59cb07c24f0
 manuscript/sections/ch01/01_01.tex	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	9657e60110e7a1133c551e32b081fe1632107820445cc49cb68bc31f86129fde
 manuscript/sections/ch01/01_02.tex	1.2	Aims and Objectives	8423c0faf49f500ba8601a3347c323c65df2ce9a9453da1263d3458454850c20
 manuscript/sections/ch01/01_03.tex	1.3	Mindset and Motivation in AI Behavior	04bc41eef26bf2fe8c0ac1f458c13ce683c97d26edc2087858fe5452fda2b02d
@@ -19,12 +19,12 @@ manuscript/sections/ch02/02_04.tex	2.4	Ethical implications of experimenting on 
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	cb942ed37ff4c184576d48971a1691b090a8c0bf4c707aac6f6e439b3ee0d536
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	655bef7ad9ba2f0a7c90f10a43d9ecd6d39e1d11b8b5276ae087222afe426e52
 manuscript/sections/ch02/02_04_03.tex	2.4.3	What Oversight Would Have to Cover	96b22788cd45370bbe53cd90f6354285caf0a7e18a071f13890a823c7fda8093
-manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	a3e4bc7936e7997e39ded3d5787145d604f45dbfe8a6f0e854d16dbb9bf13627
+manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	db04d810ac2a9756aa115810185e62f095ab9a5762da43b0b99a1d17d906fb7f
 manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	4dfb2eb7fd9f0f63fcc14de99ec3a461346b1b8abde0710c268eede12b2f087a
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	af7eaa9e08b4b6a91cc1e7bd1236f8475987d9464b6e39cd85cd5bb30d9cd1b8
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	cd6450e66413d270862290426b68e1a8f450683aac35ff7f62437f67b5216d9c
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	05bb7982483fa4c225246300af9522e05bf4022231cfbe8a1cb27e852d5cc4d8
-manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	87eb3f1ef47e71d0e90e640fa8f65d5ca434f7dfcd3eacd7a8f37805754c9a82
+manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	ad9bd76f7e2fbc513d956ed8e4a3badfc28f3f58c01b583c0ec2697ea5230adc
 manuscript/sections/ch03/03_06.tex	3.6	Whether the Bearer Can Be Believed	b32ba72935ca35cd8c4736edb1ea2b07099beba1acd66053fad71644505950b1
 manuscript/sections/ch03/03_07.tex	3.7	A Bearer That Can Leave	1f3c8b5dc81c6619b19baa7a2af91e19ca79ec5c0ae4ebb3d69543dd02e64bb8
 manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing	754fa40ba4a5a8c2786cd2149b95e3f79b0248dfc28ee48bcd909a935cdf5ba0
@@ -65,7 +65,7 @@ manuscript/sections/ch05/05_05.tex	5.5	The Interplay of Competition and Collabor
 manuscript/sections/ch05/05_05_01.tex	5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	2e2956ce507ad3d1acf826e33cae0f8a14227ccf7add28f643a1cf2ab5d09879
 manuscript/sections/ch05/05_06.tex	5.6	Motivation in AI Systems	d47868eb15abdeff3356d0f05f6ec87828259cf735d467abca23cf819ed5b71c
 manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	7bc22ae4f3f3ffc2e87c616dbbdfb10db224c4b70a0d724501cd7c73e4b42d8c
-manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	cd844780bcb78b62a6d7611f9573018039f70735cce7a5444618f6f8d4619f2a
+manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	2d89bc343a83be36ab754482b9d6797243ce40c03cf87f65bf45e53e90848dd5
 manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development in AI	f05ceff774a2c8ec9c8563f12d2a2cb7e30a32f2b994c792a999ef95064d5e56
 manuscript/sections/ch05/05_07_01.tex	5.7.1	The Role of Play in Moral Learning and Socialization	07bd106e35a827bd2f9d3bbd3337ba300239890e72d45cc43a2216a181b27dab
 manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	b065e9694270a2684ae7bb161fd261ec541dea0b0b45301e6c824b3fc5be7b34
@@ -76,7 +76,7 @@ manuscript/sections/ch06/06_01_03.tex	6.1.3	The Role of Transparency and Account
 manuscript/sections/ch06/06_02.tex	6.2	Robustness, Generalization, and Adaptability in AI Systems	d186703965354963d1983e769c23d2405316f0baf6be92682a5df95cbea35daf
 manuscript/sections/ch06/06_02_01.tex	6.2.1	AI Systems that Adapt to Novel Situations	ea21beb6eef312c381355df14318add198191470e3681f53c3e5e40db26015f1
 manuscript/sections/ch06/06_02_02.tex	6.2.2	Strategies for Enhancing Robustness and Generalizability in AI	a2832e4ded568a92a898b54049b3615e05cd56f2ffaf1df15239040bec308076
-manuscript/sections/ch06/06_03.tex	6.3	AI Safety, Unintended Consequences, and Risk Mitigation	4bfbf6192f2c85b66cc860dac5aff7c56c0c103c540b1aa3b2b475d765a36adc
+manuscript/sections/ch06/06_03.tex	6.3	AI Safety, Unintended Consequences, and Risk Mitigation	6636af687b8179c375792c1821cdc44af3ae3b9279b2c648a0e43472d675fc9a
 manuscript/sections/ch06/06_03_01.tex	6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	ca7f818a5fe198a45cb7d9bde745dfe83bf60b474b461a9b5f7a920fdd752df6
 manuscript/sections/ch06/06_03_02.tex	6.3.2	AI Systems that Learn to Deceive or Manipulate	1a6f54c0e78068dad74f9dc9e6e11586833af3c888d9a4c18f71fbb6c55f2d46
 manuscript/sections/ch06/06_03_03.tex	6.3.3	Strategies for AI Safety and Risk Mitigation	644ca140a20bf2b2d84059fcb41a92675bf0852c376d339ec252b76ca1387a06
@@ -92,7 +92,7 @@ manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State 
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	fcab9110ce3966de99d3d7f022a96b179d1df7d6d26ab781f49e716c911dbb07
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	c8f76efc3abe6dd9fe5426b55940dcd166f2d1dc777d799c1e45104236db095a
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	77ad1b2c8143779292e224b099468917ff06e67e2ee7605455495432d3400636
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	6d37d400d434b4f99216d5b195e226b6cbc8679b8177040d8702c15d8778fa81
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	8d3525ef83b3434d3607df1743fdb8ca051501a69f87e6ca36354742d316de4f
 manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	54ec1b3d9a89ef678a323afeeb73fab7942434b309b14220dabb640869c02b90
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	9e9bdb940a45decbf52683c500109166f43afb770ee6dfe0f53f8cfc7eb3539f
 manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	64798a8d4fe733dc590a58add95e7fb4e4dc440a9bebcfd6a3583a5268abc4a2
@@ -104,7 +104,7 @@ manuscript/sections/ch08/08_02_03.tex	8.2.3	AI Literacy Outside the Classroom	9a
 manuscript/sections/ch08/08_03.tex	8.3	The Political Economy of AI and Power	622a1381fc35bf34dd8b90bcd29b63e8e06b155c481026f74448e446fa9beb27
 manuscript/sections/ch08/08_03_01.tex	8.3.1	Economic Incentives in AI Development	5255e5176baa9364b0d93746e56839e92ef3ad9007e307e2f3b4b7535832481e
 manuscript/sections/ch08/08_03_02.tex	8.3.2	AI and the Concentration of Power in Tech	9c13ce6ca9611676182aa3eaebd72a721a41499cfbb9a68f8ef542bdae5c920a
-manuscript/sections/ch08/08_03_03.tex	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	e56ebda2586d8d0e1d9a86f85921157e36a74999dc65702231ee120b27bd448e
+manuscript/sections/ch08/08_03_03.tex	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	5622de1c6449d43de802b87a56eb0e1a4f34dfdd3c8070c847953bfa745ea907
 manuscript/sections/ch08/08_03_04.tex	8.3.4	Addressing Workforce Disruption	c49bb442c5a681c6f4ca7e49c42114ea78b795746a9288c760449e1d58e5ac3f
 manuscript/sections/ch08/08_03_05.tex	8.3.5	Literacy, Training, and Where Each One Sits	2c1d1ebd5806ec9be8850d64424a5d179d86feebaba56e78c6db4b49a2cf7d66
 manuscript/sections/ch09/09.tex	9	Policy, Law, and Accountability	81db7e35f1c5b2675c75aa0aaf31f8c81925f929affc9776a8c2d07f89eb3c0b
@@ -133,8 +133,8 @@ manuscript/sections/ch10/10_07.tex	10.7	Military Applications and the Limits of 
 manuscript/sections/ch10/10_08.tex	10.8	International Governance and Diverging National Rules	5af6639e2874ad487709e4888e65b366575fea9716b0875bc88612886fdaf59d
 manuscript/sections/ch10/10_09.tex	10.9	Equity and the Digital Divide	03731d3c40b1f04b92c835ffa7585312cb58ed768efd06144d6b1b151b42d3a3
 manuscript/sections/ch10/10_10.tex	10.10	What the Democratic Dividend Leaves Out	317ef905f19abd344e8e80a7f2da4d6c4ba029fb3ae11de866e6e564b02ed3e0
-manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	b0ef8c258a5b9581fea9223bf938647dc7b848ef0a604b0bddd3bc3f2670452d
-manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	ecae90747734b963d4ca84f17616eed5d81bd559b01b8af16a0e926960b53478
+manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	2ff453df5bac01b4ed80a64a128cc756fa9878f7713926bc2fbef30832a47ac1
+manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	0ed78c721b682d2fb27a1bb00e7b403b5fa4c55a6a3d370b032d05fd484c091e
 manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	0769738a4922004ab2304f4cc229f03734aa9f559925888500f7572078f8c87b
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	aedb528c480ed8187306d8056f6bff39ab514e8cb69076368cb0310c5a399fa2
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	f7b435d66d38d375e739f6e62bf3eb8332c821fc638d4a3d271512b89005e588
@@ -150,5 +150,5 @@ manuscript/sections/ch12/12_01_02.tex	12.1.2	Commitment Was Never the Missing Pi
 manuscript/sections/ch12/12_02.tex	12.2	Signatures of Altruistic and Antifascist AI	82c091891c8beca42befbe6306bb0bfc61644137e5be3d10a9ab5b16dbb7d3e7
 manuscript/sections/ch12/12_02_01.tex	12.2.1	One Standard, Five Worked Cases	16dc70d0c117ffe096ac281ef19c69f7f29a0a100639462d14d35d2f96a0bc68
 manuscript/sections/ch12/12_02_02.tex	12.2.2	How to Tell Whether a Milestone Has Been Met	5a9a1a127c13223286fca9b9cd9daf93772821cbf39560e2ac9d4384253647f4
-manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	c94b3ae2de9b412afff9989c4f9856f065be2bf5a6b5311ee03377f940459adc
-manuscript/sections/ch13/13.tex	13	Glossary	7f03928ebef9d0333a40f13edca40331bb267eba25cc30f026922c2df2eb8160
+manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	bcb8959b84a97ee6da3b1f81cba249a1475382191aa6c107ff97d8b1fc5482b5
+manuscript/sections/ch13/13.tex	13	Glossary	36964a99fba7536a1148a54dea93af43f45f56aa499ac63fe26d2f3b2e596004
