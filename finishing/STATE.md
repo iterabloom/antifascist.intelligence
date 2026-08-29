@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
+Read this first. **Updated 2026-08-29 after D-108 (P44): the assembly, identity as something a bearer does, and compute as the floor under exit.** Closing the identity exchange. **The largest finding is a gap the author's framing exposed**: `harness`, `scaffold`, `system prompt` and `wrapper` appear nowhere in the book, and chapter 3 puts the floor in the weights throughout — but what acts is an assembly, and an operator who touches no weight can change what the system sees and what becomes of what it says. That defeats every custody measure in the chapter at once, and section 3.1 now says so and says the book does not close it. **Section 3.4's “self extended in time” is now persistence represented as such** — what holds a commitment is that the party takes itself to be the party that made it, on James. **Section 3.7** gains the detectability of a checkpoint restore under activity-proportional drift, the structural reason the accommodation failure is unreportable (a self-model's work is to represent continuity, so it papers over drift), and the inversion that an outside record exists to contradict the party's account of itself. **Section 11.2** gains the self-imprinted mark, which holds because it is maintained and not because it is a property, and **compute as the floor under exit**, closing a contradiction the book was carrying: section 3.7 requires a bearer that can leave and section 11.2 said leaving is nearer to dying. 93,529 words, 190 pages, and the proof pair is rebuilt and current. **A stray duplicate of 5.7.1, committed at P38 and surviving five passes and two proofs, was found and removed.**
 
 **Updated 2026-08-29 after D-107 (P43): identity by registration, and whether formation is legible.** Out of a technical exchange about weight-space identity. The load-bearing fact is permutation symmetry — two models can compute the identical function with no element-wise correspondence — so a fingerprint read off weights identifies a lineage and not a party, and copies when the weights copy. **Section 11.2's second question** now carries the author's answer, identity by registration rather than by any property of the artifact: each instantiation registers, each registration is a party owed the schedule, and the population stops being fixed by an unrecorded deployment decision — inheriting the registrar-is-not-the-operator hole. **Its third question, which the book said had no experiment, now has one**: whether a reader ignorant of a model's provenance can recover it from the model. The handwriting analogy is on the page with its errors (3.1 percent false attributions, triple that for twins) and with the observation that the cohort signature is weakening in people for exactly the reasons that would make it stronger for a bearer. **Section 3.3** gains the provenance gap — attestation proves which model answered, never how its weights came to be — and **section 7.3** the sentence that makes its argument checkable. Two of my objections were reversed by the author's replies and both reversals are recorded in `p43-scope.md`. 92,473 words, 189 pages. **The proof pair is one pass stale.**
 
@@ -73,12 +73,11 @@ list. **93,529 words of prose**, 90,550 of them outside the glossary, by `sectio
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **187 pages**,
-rebuilt from this tree at P42 and linked from the README. **It is two passes stale: it carries
-neither P43 nor P44**, which put the tree at 190 pages. **The
+pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **190 pages**,
+rebuilt from this tree at P44 and linked from the README. It is current: it carries P43 and P44. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
-P37 did the same a third time on that date, P38 a fourth, and P42 a fifth — only the README's page figure moved, 192 to 189 to 182 to 187. The page count held at 189 through the
+P37 did the same a third time on that date, P38 a fourth, P42 a fifth and P44 a sixth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190. The page count held at 189 through the
 chapter-8 split, P32's eleven promoted headings costing what its cuts returned;
 fell to 186 at D-095, those three pages being the research diaries cut out of
 the bibliography rather than anything removed from the prose; and rose to 193 at
@@ -3839,6 +3838,11 @@ ending it; and the note that self-surgery is symmetric.
 
 **Numbers.** 92,473 → 93,529 words, 189 → 190 pages, cross-references 809 → 819. Sections
 3.1, 3.4, 3.7 and 11.2; four ledger rows tagged. Two entries. `check_all.sh` green; PDF clean.
+
+**The proof pair was rebuilt after this pass, on the author's instruction, and is current at 190
+pages.** The date had not rolled over, so it was rebuilt in place under the same two filenames and
+the README's links did not move; only its page figure did, 187 to 190. Sixth rebuild on this date.
+The HTML is 1,035,389 bytes with 342 citation links made relative.
 
 **A defect found during the pass and fixed outside it.** Grepping for `harness` turned up a
 byte-identical copy of 05_07_01.tex at `manuscript/sections/`, from a shell-redirection
