@@ -1,7 +1,7 @@
 # Open questions
 
-**Current as of 2026-08-29, after D-099. Thirteen questions are open**, raised by
-P28 through P31, D-095, D-096, P33, P34 and P35, none of them blocking and each with a default that has
+**Current as of 2026-08-29, after D-100. Fourteen questions are open**, raised by
+P28 through P31, D-095, D-096, P33, P34, P35 and P36, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
@@ -9,10 +9,11 @@ fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
 should stay annotated at all, whether the taxonomy of bias sources should name the
 choice of training target, whether section 4.2 should be split, whether chapter 5 needs
 the pipeline treatment chapter 4 just had, what chapter 3's new length means for where it sits, and
-whether the plural arrangement P34 recommends should be given an institutional form, and whether the 340
-remaining "rather than" constructions are worth a pass of their own. For orientation read `finishing/STATE.md`.
+whether the plural arrangement P34 recommends should be given an institutional form, whether the 340
+remaining "rather than" constructions are worth a pass of their own, and how much further to
+cut now that the recurring conclusions are out. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **147 of the book's 169 sections are
+The other standing item is not a question. **148 of the book's 168 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -480,6 +481,35 @@ made inside the pass and recorded. Twelve chapters at that cost is a pass of its
   process, which P12 recorded three times.
 - (c) Run it over chapters 2, 3 and 4 only, which carry 141 of the 340 between them and are the
   chapters most likely to be read linearly.
+
+### Q-039 — The recurring-conclusion cut reached 2,051 of approximately 5,000
+
+D-100 asked for approximately 5,000 words on the finding that the same conclusions
+recur across too many chapters. The diagnosis measured out as real: one whole
+section restating conclusions its five destinations already state, the five-step
+spine chain written out in five chapters, two sentences duplicated word for word,
+and about twenty glosses reproducing a list the target section holds. Cutting all
+of it came to **2,051 words**. The class does not contain 5,000, for a reason in
+the repository's own record: P11, P28, P29 and P35 already cut this book on this
+axis, and most of the connective tissue left was added on purpose by D-078 and
+D-090, eight and one days before the instruction.
+
+- **(a) Default — stop at 2,051.** What remains either argues, imports a premise
+  the sentence needs, or is the conclusion's home rather than a recurrence.
+- (b) Cut the evidence in chapters 4 and 5, which is Q-027 (b). About 1,900 words,
+  and it converts several claims into assertions a reader has to take on trust.
+- (c) Compress the remaining four-fifths of the 288 pointer-plus-recap sentences.
+  About 2,300 words, and it produces pointers a reader has to chase — the cost P28
+  named when it declined to cut references by rate.
+- (d) Make chapter 3 state its conclusion once rather than at both ends, cutting
+  into its opener and section 3.8. About 800 words. The only remaining option
+  inside the named class, and it cuts the book's central chapter.
+- (e) Fold the twelve thin leaf subsections, which is Q-029 (b). Saves little text
+  and renumbers chapters against 785 resolved references.
+
+*Default applies now.* `p36-scope.md` carries the measurement behind each figure.
+
+---
 
 ## Resolved
 
