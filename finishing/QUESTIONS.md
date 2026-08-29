@@ -738,6 +738,19 @@ weaker than the sentence needs, and Q-043 is about claims that point nowhere at 
 
 **Ruled 2026-08-29 (D-111): build a tool, executed in P47** — and none of the four options as filed. `finishing/tools/xref_pairs.py` writes every reference's citing sentence beside the opening sentence of the section it points at, padding a sentence under 15 words with its predecessor and one under 10 with both neighbours. **829 pairs across 153 sections** at `finishing/reports/xref_pairs.txt`. **It found an instance on its first run**: section 3.7's opener quoted section 3.5's dial in a wording P45 had changed four hours earlier. The file has not been read; reading it is group 4.
 
+**Read 2026-08-29 (D-112, P48).** All 829 pairs, in order. **Six defects, each confirmed
+against the target section rather than against the pairing** — the Partnership on AI cited
+to a chapter that never names it, a glossary entry for a term (`AlphaGo Zero`) that appears
+nowhere in the manuscript outside the entry, two dead pointers, and **sections 3.1 and 3.2
+both naming the wrong one of section 2.1.2's four features**, which had the book
+contradicting its own definition in the two sections that set up the floor. One report to
+the author is recorded as overstated. Eight targets checked and found sound are named in
+`p48-scope.md`. **This narrows the class and does not close it.** What the pairing file
+exposes is a pointer aimed at the wrong section or a citing sentence that misdescribes its
+target's subject. Q-041's own class — a reference that resolves and names a claim made in
+the *middle* of a target section that the section does not make — is invisible to it,
+because the file shows only the target's opening sentence. 829 → 826 pairs.
+
 ---
 
 ### Q-040 — The inventories outside chapters 8–10
