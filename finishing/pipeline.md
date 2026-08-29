@@ -35,8 +35,13 @@ in tex4ht's dvi mode and converts the result. The sequence is in
 not run biber and biblatex would emit an empty bibliography. What make4ht leaves
 behind is a page plus a stylesheet plus a dozen intermediates;
 `finishing/tools/html_single_file.py` folds the stylesheet in, makes the citation
-links relative so the file can be renamed, gives it the book's title, and refuses
-to write anything it cannot verify. About 18 seconds.
+links relative so the file can be renamed, gives it the book's title, drops
+tex4ht's one keyless anchor and any id it has already used, and refuses to write
+anything it cannot verify. The de-duplication is D-095: tex4ht draws section and
+citation anchors from one counter, so a chapter's title anchor and a citation
+anchor can be the same id, and it can hang a heading's readable slug on a later
+paragraph. It keeps the first, which is what the links point at, drops the rest,
+and prints what it dropped. About 18 seconds.
 
 **What each is for.** The PDF is the typeset book: it is the only one of the two
 that can be page-proofed, because it is the only one with pages. The HTML is the
