@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-106 (P42): the legal claims a second reader checked.** Forwarded feedback spot-checked the book's high-impact legal claims and all seven items land: section 10.8's *the EU's statute does nothing about government uses* was false and contradicted 6.4.3 (now the narrower true claim — the Act reaches public authorities, excludes national security, and is enforced by the state against itself); the Council of Europe convention *binds* nobody yet (now *would bind, once in force*, the EU's May 2026 ratification cited and the status hedged to exactly what could be reached); section 10.6 counted three chip companies and named two, since P3; predictive processing is a contested bet and not the consensus; 6.4.4's federated-learning claim contradicted 6.4.2 and 6.4.2 now carries gradient leakage; product liability's reach to software is stated as unsettled with *Garcia* cited; 6.3.3's *failures are visible* contradicted 11.1 and now says *contestable*. **Four of the seven are one chapter flatly stating what another has qualified — Q-043.** Four entries verified. 91,785 words, 187 pages. The proof pair is rebuilt and current at 187 pages.
+Read this first. **Updated 2026-08-29 after D-107 (P43): identity by registration, and whether formation is legible.** Out of a technical exchange about weight-space identity. The load-bearing fact is permutation symmetry — two models can compute the identical function with no element-wise correspondence — so a fingerprint read off weights identifies a lineage and not a party, and copies when the weights copy. **Section 11.2's second question** now carries the author's answer, identity by registration rather than by any property of the artifact: each instantiation registers, each registration is a party owed the schedule, and the population stops being fixed by an unrecorded deployment decision — inheriting the registrar-is-not-the-operator hole. **Its third question, which the book said had no experiment, now has one**: whether a reader ignorant of a model's provenance can recover it from the model. The handwriting analogy is on the page with its errors (3.1 percent false attributions, triple that for twins) and with the observation that the cohort signature is weakening in people for exactly the reasons that would make it stronger for a bearer. **Section 3.3** gains the provenance gap — attestation proves which model answered, never how its weights came to be — and **section 7.3** the sentence that makes its argument checkable. Two of my objections were reversed by the author's replies and both reversals are recorded in `p43-scope.md`. 92,473 words, 189 pages. **The proof pair is one pass stale.**
+
+**Updated 2026-08-29 after D-106 (P42): the legal claims a second reader checked.** Forwarded feedback spot-checked the book's high-impact legal claims and all seven items land: section 10.8's *the EU's statute does nothing about government uses* was false and contradicted 6.4.3 (now the narrower true claim — the Act reaches public authorities, excludes national security, and is enforced by the state against itself); the Council of Europe convention *binds* nobody yet (now *would bind, once in force*, the EU's May 2026 ratification cited and the status hedged to exactly what could be reached); section 10.6 counted three chip companies and named two, since P3; predictive processing is a contested bet and not the consensus; 6.4.4's federated-learning claim contradicted 6.4.2 and 6.4.2 now carries gradient leakage; product liability's reach to software is stated as unsettled with *Garcia* cited; 6.3.3's *failures are visible* contradicted 11.1 and now says *contestable*. **Four of the seven are one chapter flatly stating what another has qualified — Q-043.** Four entries verified. 91,785 words, 187 pages. The proof pair is rebuilt and current at 187 pages.
 
 **Updated 2026-08-29 after D-105 (P41): the propagation sweep after P39 and P40.** The author asked how the two passes interact with the rest of the manuscript; the audit found one contradiction inside chapter 3 that reached chapters 5 and 6 (section 3.5's shutdown/refusal identity against P39's *nothing software can do about being switched off* — reconciled: the property that is one with refusal is the *pricing* of the halt, not its prevention), the pre-P39 modality still standing in chapter 3's opener, chapter 1's roadmap, section 12.3 and the glossary, section 11.1 not knowing its measurement had become a precondition, and two pairs of sections arguing the same thing from opposite sides without citing each other. Nine sites edited, no new claims, no new citations; 9.3.4 and 10.10 read and confirmed compatible. 91,443 words, 187 pages. (The proof pair was rebuilt at P42 and is current.)
 
@@ -62,16 +64,16 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-106.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-107.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **91,785 words of prose**, 88,806 of them outside the glossary, by `section_stats.py`
+list. **92,473 words of prose**, 89,494 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **187 pages**,
-rebuilt from this tree at P42 and linked from the README. It is current: it carries P39
-through P42. **The
+rebuilt from this tree at P42 and linked from the README. **It is one pass stale: it does not
+carry P43**, which puts the tree at 189 pages. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, and P42 a fifth — only the README's page figure moved, 192 to 189 to 182 to 187. The page count held at 189 through the
@@ -3756,3 +3758,45 @@ Eight ledger rows tagged. `check_all.sh` green; PDF clean.
 filenames and the README's links did not move; only its page figure did, 182 to 187. That is
 the fifth rebuild on this date. The HTML was built for the first time since P38, at 1,016,856
 bytes with 336 citation links made relative.
+
+## P43 — identity by registration, and whether formation is legible, 2026-08-29 (D-107)
+
+Out of a technical exchange: does initialization entropy make every model uniquely
+identifiable, and could that ground both an identity register and a criterion for
+personhood? `p43-scope.md` is the pass.
+
+**The premise holds, for a stronger reason than entropy.** Permutation symmetry — permute a
+layer's hidden units, invert the permutation downstream, and the function is untouched —
+means two models can compute the identical function with no element-wise correspondence at
+all. So a fingerprint read off weights identifies an equivalence class rather than a party,
+and it copies when the weights copy.
+
+**Two of my objections did not survive the author's replies.** I said any identifier robust
+to self-modification is robust to adversarial retraining, so identity across change is
+unavailable; handwriting is the counterexample, because the invariant is the motor program
+and not the letterforms. The correct objection is narrower — identification survives drift
+and degrades against disguise, and the bearer's case is adversarial by construction, with
+**distillation** as the machine form of the attack: handwriting identifies the writer, not
+whoever dictated. And I read the token proposal as a property regime, which chapter 3
+argues against at length; *social security number, not chattel* is the right instrument and
+dissolves the objection, since an assigned identifier is derived from nothing about the
+artifact and so survives every change in it.
+
+**What went in.** Section 11.2's second question carries identity by registration and the
+hole it inherits, a registrar who is not the operator — which chapter 11's opener and
+section 3.1's removal cases say American public law does not now supply to anybody. Its
+third question, which the book had said has no experiment, carries the formation-forensics
+candidate at the strength the evidence supports: the copybook legible beside the individual
+hand, the error rates (3.1 percent false attributions, 8.7 against twins), and the
+observation that the cohort signature is weakening in people for precisely the reasons that
+would make it stronger for a bearer. **And it now has an experiment** — whether a reader
+ignorant of a model's provenance can recover it. Section 3.3 gains the provenance gap;
+section 7.3 gains the sentence that makes its argument checkable rather than believed.
+
+**Declined:** fingerprinting as a criterion of personhood. Identity is not moral status, and
+section 2.4.1 already says what a capacity list does when used as a test of who counts.
+
+**Numbers.** 91,785 → 92,473 words, 187 → 189 pages, cross-references 803 → 809. Section
+11.2 is 1,281 → 1,873 words. Four entries, verified against dblp, the ICLR and USENIX
+programmes, PubMed Central, and NISTIR 8282's own title page. `check_all.sh` green; PDF
+clean. **HTML not built; the proof pair is one pass stale.**
