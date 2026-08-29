@@ -1,15 +1,16 @@
 # Open questions
 
-**Current as of 2026-08-28, after D-096. Eight questions are open**, raised by
-P28 through P31, D-095 and D-096, none of them blocking and each with a default that has
+**Current as of 2026-08-28, after D-097. Ten questions are open**, raised by
+P28 through P31, D-095, D-096 and P33, none of them blocking and each with a default that has
 already applied: how much further to cut the cross-references, how much further to
 cut chapters 4 and 5, whether chapter 3 should move earlier in the book, whether to
 fold the subsections P29 left thin, whether to prune `refs.bib`, whether chapter
 9's gap list should get its nearest-work notes back, whether the bibliography
-should stay annotated at all, and whether the taxonomy of bias sources should name the
-choice of training target. For orientation read `finishing/STATE.md`.
+should stay annotated at all, whether the taxonomy of bias sources should name the
+choice of training target, whether section 4.2 should be split, and whether chapter 5 needs
+the pipeline treatment chapter 4 just had. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **122 of the book's 162 sections are
+The other standing item is not a question. **127 of the book's 167 sections are
 `drafted` and unread**, concentrated in chapter 2 and chapters 4 and 5, which P29
 cut, chapter 3, which P27 rewrote, chapter 11 entire, which P31 reordered when it
 was chapter 9, and the three chapters P32 made out of chapter 8. `ledger.tsv`
@@ -338,6 +339,58 @@ to organize it.
 
 *Default applies now. This is a gap D-096 found on its way through, not something
 the author's finding asked for, so it is filed rather than taken.*
+
+---
+
+### Q-034 — Section 4.2 now has nine subsections, the second-widest in the book
+
+P33 rebuilt section 4.2 as the training pipeline in the order its stages run: nine subsections
+and 4,260 words, against four and 1,858. Only chapter 10 is wider, at ten, and it is a chapter.
+Chapter 11 also has nine and is likewise a chapter. So section 4.2 carries a chapter's worth of
+headings under a section heading, which is the shape D-067 and D-093 both named as a reason to
+split — "the table of contents hid a chapter's worth of structure."
+
+The counter-argument is that the nine are one sequence rather than nine topics. They run in the
+order a system is actually built, and the order is the argument: each stage is a place where a
+party decides what the system will value, and the list is cumulative. Cutting it in two puts a
+heading between two stages that run consecutively.
+
+- **(a) Default — leave it.** The subsections are stages of one process and the sequence is
+  what makes the point. A section may be long where its length is a sequence.
+- (b) Split at the training/deployment seam: 4.2 keeps 4.2.1 through 4.2.7, and a new 4.3
+  takes system instructions and tool use, with play demoted to 4.4. This renumbers chapter 4's
+  tail against 5 inbound references and needs a renumber map.
+- (c) Split at the classical/contemporary seam, which would separate 4.2.3 and 4.2.9 from the
+  rest. This undoes the integration the instruction asked for and is recorded only to be
+  declined.
+
+*Default applies now. `p33-scope.md` has the pass.*
+
+---
+
+### Q-035 — Whether chapter 5 needs the pipeline treatment chapter 4 just had
+
+The instruction that produced P33 named "the building chapters," plural. The seven items it
+listed — pretraining and instruction tuning, preference optimization, model-generated feedback,
+process versus outcome supervision, scalable oversight, interpretability and evaluation,
+deployment-time instructions and tool use — are all chapter-4 material, and that is where they
+went.
+
+Chapter 5 is moral psychology: moral development, moral emotions, dual-process theories, the
+moral ecosystem, multi-agent norms, motivation, play. Its machinery claims are thinner and older
+than chapter 4's were, and it was cut 13.5 percent at P29 and rewritten at P26. Whether it has
+the same defect was not measured in this pass, only its subject matter checked against the list.
+
+- **(a) Default — leave it.** The instruction's own list is answered in full, and chapter 5's
+  subject is human moral psychology rather than machine training, so the pipeline is not what it
+  is missing.
+- (b) Run the same measurement over chapter 5 that opened P33 — count what contemporary
+  vocabulary is absent — and act on what it finds. Cheap to do and it is the honest version of
+  answering an instruction that said "chapters."
+- (c) Rewrite chapter 5's machinery sections around the pipeline, which duplicates chapter 4
+  and is recorded to be declined.
+
+*Default applies now. (b) is a measurement rather than a pass, and would take an hour.*
 
 ---
 
