@@ -35,14 +35,14 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-121:** 94,090 words,
+**The figures this file turns on, re-measured 2026-08-30 after D-122:** 94,092 words,
 153 sections, 191 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
 `refs.bib` at 305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 201 carrying
 notes; **318 instances of "rather than"** — the 312 recorded here was already two short when
 written, and D-119 to D-121 added four more, three of them in glossary entries written by the
-agent and one in the author's own wording for the Menand clause, which is worth Q-038 knowing; **123 locator calls across the glossary's 58 entries —
+agent and one in the author's own wording for the Menand clause, which is worth Q-038 knowing; D-122 added none; **123 locator calls across the glossary's 58 entries —
 the 109 recorded here before P54 could not be reproduced** by any count of chapter 13 (entries,
 entries carrying at least one locator, and locator calls give 58, 58 and 123), so it is dropped
 rather than carried; **seven** leaf subsections
@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — Two consecutive findings were the same class: the book states a source more firmly than the source states itself
+### Q-056 — Three findings were the same class: the book states a source, or its own section, more firmly than the thing states itself. **(a)'s trigger has fired**
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1433,6 +1433,41 @@ because the choice between waiting and auditing is a judgment about how much the
 sourcing is trusted, and that is the author's and not the agent's. **Raised here because it
 would otherwise exist only in a conversation**: both decisions record their own instance,
 and neither records that there are two.
+
+**Amended 2026-08-30 (D-122).** The third instance arrived the same day, from the same
+reader, in the same section as the second. Section 3.3's pointer at section 11.6 compressed
+it as *“documents it failing … settled into a stable cartel”*; section 11.6 says a
+**simulated** market, and says the algorithms settled into supracompetitive pricing *“that
+looked to a regulator exactly like a cartel.”* The simulation was dropped and the simile was
+promoted to the finding. **Same fault shape, different mechanism, and the difference matters
+for what to do about it.** What was overstated here is not a source but a section of this
+book, thirty pages away. No bibliography note could have caught it, so the one instrument
+the entry above names does not apply; and neither audit offered below would have reached it,
+because both open sources. What could reach it is `xref_pairs.py`, which is Q-041's tool for
+exactly this — *a reference that resolves and names a claim its target does not make* — and
+`reports/xref_pairs.txt` had the pair, at line 691, in a form that could not show the fault:
+it prints the target's **opening** sentence, and section 11.6 opens on multi-agent RL as a
+route to prosocial behavior, which carries neither the simulation nor the cartel. **The
+blindness the tool table claims for it in the abstract, on a live instance.**
+
+**What the third instance changes.** Option (a)'s condition was *wait for a third instance*,
+and it has now occurred, so (a) is spent as a default rather than reaffirmed: leaving it in
+force is now a choice to do nothing about a class that has surfaced three times in one day.
+Three points still do not establish a rate. But the concentration (a) treated as unmeasured
+has held for every instance so far — **all three are in chapter 3, two of them in section
+3.3** — and chapter 3 is where the book's central argument is made, which is the worst place
+for the class to sit and the reason it is worth a ruling rather than another wait.
+
+- (d) **New, and the cheapest of the four: read chapter 3's own cross-references against
+  their targets.** Not the sources — the sections. Bounded by a chapter and by a list that
+  already exists: `reports/xref_pairs.txt` names every pair, and chapter 3's are countable
+  before starting. It tests the concentration all three instances point at, needs no
+  network, and opens nothing outside the manuscript. It would not have caught D-120 or
+  D-121, which are source-fidelity and not internal, so it is a complement to (b) or (c)
+  and not a substitute.
+
+*No default applies now.* (a) is spent, and the choice among (b), (c) and (d) is the same
+judgment about trust that the entry above hands to the author. **Not started.**
 
 ---
 
