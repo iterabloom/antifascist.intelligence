@@ -8,12 +8,10 @@ Achieving either at a level that satisfies everyone involved runs into limits. A
 
 \runin{Challenges to Explainability and Transparency}
 \begin{itemize}
-  \item Complexity and nonlinearity: a deep learning architecture's many layers, nonlinear relationships, and interactions among variables resist interpretation by construction, not as an oversight that better tooling can simply remove.
   \item Accuracy versus explainability: a model tuned to also be transparent sometimes gives up some of the performance a less interpretable model would have delivered, and there is no general method for knowing in advance how much.
   \item Identifying which features matter: even a comparatively simple, transparent model can leave it unclear which inputs drove a given decision, especially with high-dimensional data.
   \item Diverging standards: designers, users, and regulators disagree about what counts as an adequate explanation, and no standard has emerged that satisfies all three at once.
   \item Technique mismatch: an explainability method built for one kind of model does not necessarily transfer to another, so novel architectures can outrun the tools built to explain them.
-  \item Legal and ethical exposure: explaining an AI system's reasoning can require revealing information — proprietary methods, training data that touches personal information — that the organization has other obligations to protect.
 \end{itemize}
 \runin{Explainability Techniques}
 LIME and SHAP are the two tools practitioners reach for, and section~\ref{sec:6.1.3} sets out what each does and where both stop: neither can tell you the model is aimed at the wrong thing, because both take the training target as given.

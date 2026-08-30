@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-116 (P51): the rulings executed and the four defects repaired.** The author said *"go"* on D-115's seven rulings and on the defects `p50-scope.md` recorded. **12 sections changed.** The book's operational definition of a floor *holding* now sits in section 3.8 where the threat model doubles, moved out of section 5.1.1, which keeps the growth-mindset argument and a bridge — +166 and −123 words, neutral book-wide and not neutral for chapter 3, which the ruling took knowingly. Section 3.3 concedes that its falsifier's middle condition rests on the builder's account of their own method, since the same section has already said no training history can be proved, and points at section 11.2's third question; section 11.1's near-term work now does too. Section 6.3.4's LIME/SHAP paragraphs are cut to a pointer at 6.1.3 and its opening carries 6.3.3's limit — **D-106 made that repair at 6.3.3 and stopped three heads short.** Section 10.7 names Anthropic for the commitment it paid for. Chapter 1's advance note carries section 2.4.1's caveat that the lower rungs need no persistence. Section 2.4.1's pointer, which had credited section 3.5 with a claim 3.5 declines, is repointed to 2.4.2 and 11.2; the section 2.4 epigraph loses its raw archive URL and its "also see" note; and section 3.5's allusion to the compound called a school gains a pointer to section 10.10. **Q-048 is the pass's own finding.** The five discriminators section 2.1.2 builds were run against chapter 7's three instances and **clear all three** — three absent outright, two undetermined because they turn on what an institution rewarded rather than what it wrote, which is the artifact section 7.3 asks for and nobody publishes. Chapter 7 now finds a recuperation mechanism inside ordinary institutional decay rather than fascism at the molecular scale, and section 11.3 gains the pointer, because this is the measurement it says has never been made: the four features flag all three instances and the five-test filter passes all three. **One measurement of an instrument's false-positive behavior is not a validation, and it is more than the assertion the book had.** 95,405 words, 192 pages, 0 undefined references, `check_all.sh` green. Chapter 3 is 14.36 percent of the book, from 14.21; chapter 7 is 4.93 from 4.25. **12 sections `accepted` and 141 `drafted`** — section 6.3.4 moved. **The proof pair was rebuilt in place afterwards at 192 pages and is current**, the date not having rolled over.
+Read this first. **Updated 2026-08-30 after D-117 (P52): the reader-cost pass.** The author sampled eight pages at random, edited them by hand, applied them at `fc65cd5`, and asked for the same treatment across the rest of the book — *"not annoying the reader and not wasting their time"* rather than conciseness as such. **The taxonomy is read off his own edits**, class by class, and includes the two moves that spend words rather than saving them: naming what a cross-reference points at, and making a harm concrete. **100 files, 95,095 → 94,017 words**, a 1.1 percent cut against the 7.8 percent he took from the pages he read; 98 of 153 sections changed. **Four defects came from reading rather than from the taxonomy**, and the worst is in the conclusion: section 12.3, the last section of the book, pointed forward with *"The rest of this chapter"* at sections 12.1 and 12.2, which the reader has already passed. No claim changed anywhere. The proof pair is stale from this pass.
+
+**Updated 2026-08-29 after D-116 (P51): the rulings executed and the four defects repaired.** The author said *"go"* on D-115's seven rulings and on the defects `p50-scope.md` recorded. **12 sections changed.** The book's operational definition of a floor *holding* now sits in section 3.8 where the threat model doubles, moved out of section 5.1.1, which keeps the growth-mindset argument and a bridge — +166 and −123 words, neutral book-wide and not neutral for chapter 3, which the ruling took knowingly. Section 3.3 concedes that its falsifier's middle condition rests on the builder's account of their own method, since the same section has already said no training history can be proved, and points at section 11.2's third question; section 11.1's near-term work now does too. Section 6.3.4's LIME/SHAP paragraphs are cut to a pointer at 6.1.3 and its opening carries 6.3.3's limit — **D-106 made that repair at 6.3.3 and stopped three heads short.** Section 10.7 names Anthropic for the commitment it paid for. Chapter 1's advance note carries section 2.4.1's caveat that the lower rungs need no persistence. Section 2.4.1's pointer, which had credited section 3.5 with a claim 3.5 declines, is repointed to 2.4.2 and 11.2; the section 2.4 epigraph loses its raw archive URL and its "also see" note; and section 3.5's allusion to the compound called a school gains a pointer to section 10.10. **Q-048 is the pass's own finding.** The five discriminators section 2.1.2 builds were run against chapter 7's three instances and **clear all three** — three absent outright, two undetermined because they turn on what an institution rewarded rather than what it wrote, which is the artifact section 7.3 asks for and nobody publishes. Chapter 7 now finds a recuperation mechanism inside ordinary institutional decay rather than fascism at the molecular scale, and section 11.3 gains the pointer, because this is the measurement it says has never been made: the four features flag all three instances and the five-test filter passes all three. **One measurement of an instrument's false-positive behavior is not a validation, and it is more than the assertion the book had.** 95,405 words, 192 pages, 0 undefined references, `check_all.sh` green. Chapter 3 is 14.36 percent of the book, from 14.21; chapter 7 is 4.93 from 4.25. **12 sections `accepted` and 141 `drafted`** — section 6.3.4 moved. **The proof pair was rebuilt in place afterwards at 192 pages and is current**, the date not having rolled over.
 
 **Updated 2026-08-29 after D-115: the author ruled on P50's seven questions.** A question-by-question walkthrough, nothing executed. **Six rulings produce work.** The definition of a floor *holding* moves from section 5.1.1 into chapter 3 (Q-046); section 3.3 concedes that its falsifier's middle condition rests on the builder's account, with a pointer from 11.1 to 11.2's provenance experiment (Q-047); section 6.1.3's LIME/SHAP treatment survives and 6.3.4's is cut to a pointer (Q-049); section 10.7 names the vendor it currently credits anonymously (Q-050); and chapter 1's first advance note gains section 2.4.1's caveat that the lower rungs of harm do not need persistence (Q-052). **Q-048 is a pass on its own**: the five discriminators section 2.1.2 builds get run against chapter 7's three instances and the result reported whichever way it comes out, the expected result being that all three clear — which is why it is worth running, since section 11.3's complaint is that the book asserts a detection capability it has never specified. **Q-051 is closed on the premise rather than on scope**: the question assumed a partition between a movement's winning and what follows, and section 2.1.2 denies it — the tendency is permanent and what varies is the slope, so naming a boundary would concede a before and after the argument does not have. **Nothing is executed and the four defects in `p50-scope.md` are still unrepaired.**
 
@@ -4175,3 +4177,47 @@ change. `check_all.sh` green.
 over, so the two filenames and the README's links did not move; only the page figure did.
 PDF: 0 undefined references. HTML: 1,337 internal links over 1,587 ids, none broken, none
 duplicated.
+
+## P52 — the reader-cost pass, 2026-08-30 (D-117)
+
+`p52-scope.md` has the taxonomy, with the author's own edit cited beside each class.
+
+**The method is the part worth carrying forward.** The eight before/after page pairs were
+not used as such. The pass reads the git range `331f0a5..fc65cd5` instead, because that is
+what the author actually applied — thirty-eight changed paragraphs across seventeen section
+files, five of which came from a separate instruction about naming fascism and not from the
+pages at all. Every edit was classified, and the classes became the thing the remaining 153
+sections were read against. `reader_tax.py` is new and locates candidates in the four classes
+a regular expression can find; it decided nothing.
+
+**What the instruction is not.** The author said conciseness was a side effect. The taxonomy
+bears him out: two of its ten classes cost words rather than saving them. Naming what a
+cross-reference points at — *"section 2.1.2's structural signature"* becoming *"the four
+features section 2.1.2 uses to define fascism"* — is longer at every one of its seven sites,
+and saves the reader a lookup. Making a harm concrete is longer and lands.
+
+**Numbers.** 100 files, 371 insertions, 381 deletions, 95,095 → 94,017 words. That is 1.1
+percent against the 7.8 percent the author cut from the eight pages he read. His pages were
+sampled at random and carried the tax at its ordinary density; this pass cut only where a
+sentence was doing the thing, and not to a quota. 98 of 153 sections changed. Of the
+seventeen the author had already edited, three were touched again and none of his own
+sentences was revised. `check_all.sh` green.
+
+**Four defects came from reading and not from the taxonomy.** Section 12.3, the last section
+of the book, said *"The rest of this chapter is what the project is for and how anyone would
+know it was working"* — sections 12.1 and 12.2 are what that describes, and the reader has
+passed both. Section 12.1.1 twice called the list four sentences above it *"the old list"*,
+which is the editorial archaeology D-099 cut, surviving in the conclusion. Three prose
+cross-references used the glossary's `§` locator form against 363 that use `section~\ref`,
+and one of them mixes both inside a single clause. And section 6.1 cited `benjamin2019race`
+twice in adjacent sentences.
+
+**One structural cut.** Section 6.3.4's six-item list of explainability challenges lost two,
+because the paragraph directly above the list already stated both. Nothing else in the
+manuscript lost a list item.
+
+**What is left open.** Run-in head capitalization is inconsistent — chapter 9's heads are
+Title Case, chapter 3's are sentence case — and was not touched, because it is a ruling and
+not a defect. No citation was checked against its source. The proof pair is stale from this
+pass: it was current at `a5c2adc` and reads 191 pages against a manuscript now 1,078 words
+shorter.
