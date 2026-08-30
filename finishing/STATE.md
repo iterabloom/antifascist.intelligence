@@ -1203,12 +1203,18 @@ table and the run-in heads hold. The rest was not read.
 ## The immediate open items
 
 **`finishing/QUESTIONS.md` is the live list; read it there rather than here.** As
-of D-119 it carries **28 entries above its Resolved line that are not also below
-it**, and the newest is Q-054 — whether chapter 1's roadmap should have survived
-P53's cut of every other self-indexing passage. **That 27 overstates what is
-live**: many carry a D-111 or D-115 ruling in place and were never moved after
-execution, and five more (Q-019, Q-021, Q-022, Q-028, Q-029) appear both above
-the line and below it. Reconciling the filing is real work nobody has done. The
+of D-121 it carries **29 entries above its Resolved line that are not also below
+it** — counted rather than incremented, after this paragraph was found saying
+both 28 and 27 of itself in consecutive sentences. Three are new since P53:
+Q-054, whether chapter 1's roadmap should have survived the cut of every other
+self-indexing passage; Q-055, the running head over the glossary reading
+“CHAPTER 12”; and Q-056, that D-120 and D-121 are one class twice — the book
+stating a source more firmly than the source states itself, which no tool in the
+suite can see. **That 29 overstates what is live**: many carry a D-111 or D-115
+ruling in place and were never moved after execution, and five more (Q-019,
+Q-021, Q-022, Q-028, Q-029) appear both above the line and below it — 34 entries
+sit above it in total, of which 5 are duplicates of resolved ones. Reconciling
+the filing is real work nobody has done. The
 other standing item is the **146 `drafted` ledger rows** named under "Where the
 book is" above, which the author has not read.
 

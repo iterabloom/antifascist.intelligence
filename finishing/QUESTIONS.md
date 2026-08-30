@@ -35,12 +35,14 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-119:** 94,065 words,
+**The figures this file turns on, re-measured 2026-08-30 after D-121:** 94,090 words,
 153 sections, 191 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
 `refs.bib` at 305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 201 carrying
-notes; 312 instances of "rather than"; **123 locator calls across the glossary's 58 entries —
+notes; **318 instances of "rather than"** — the 312 recorded here was already two short when
+written, and D-119 to D-121 added four more, three of them in glossary entries written by the
+agent and one in the author's own wording for the Menand clause, which is worth Q-038 knowing; **123 locator calls across the glossary's 58 entries —
 the 109 recorded here before P54 could not be reproduced** by any count of chapter 13 (entries,
 entries carrying at least one locator, and locator calls give 58, 58 and 123), so it is dropped
 rather than carried; **seven** leaf subsections
@@ -1378,6 +1380,59 @@ page is right"* — collecting a third instance, after the epigraph stanza break
 
 *Default (a) applies at the next preamble change.* Not taken at P54, which was scoped to
 four findings in the prose and the bibliography and did not touch the typesetting.
+
+---
+
+### Q-056 — Two consecutive findings were the same class: the book states a source more firmly than the source states itself
+
+D-120 and D-121 arrived one after the other, from the author's reading, and they are one
+fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
+an interim-docket ruling on an application for a stay that expressly says it has “not
+addressed the facts,” was written as a holding that “kept one body's protection.” Menand's
+“distinct impression” was written as what he “calls” the exception, and his hedged,
+landscape-wide, comparative claim about a “stable doctrinal equilibrium” was written as an
+absolute claim about the carve-out specifically. Neither is a fabrication and neither
+citation is wrong: in both cases the source is real, says something adjacent, and was
+quoted accurately word for word.
+
+**Nothing in the invariant suite can see this class, and this is not a gap that better
+tooling closes cheaply.** `check_xrefs.py` checks that a cross-reference resolves, not that
+it resolves to the right place — its own docstring says so. `xref_content.py` and
+`xref_pairs.py` work inside the manuscript, comparing a citing sentence to its target's
+opening sentence; neither opens a source. `claims.py` extracts assertions that need a
+source without judging whether the source supplies them. `names_guard.py` is about the
+persona device. **The one instrument that touches this class is the `note` field in
+`refs.bib` — and D-121 is the case where a note existed, was accurate, and still let the
+error through**, because it certified that both phrases appeared in the essay rather than
+what claims they carried. A note can be true and useless in the same breath.
+
+**What is and is not known.** Two instances, both found by the author reading, both in
+chapter 3, both in legal or legal-adjacent material added late — *Slaughter* and *Cook*
+were decided during the finishing campaign, and the Menand essay is from July 2026. Whether
+the class concentrates in recent additions, in legal material, in chapter 3, or is spread
+through the book **has not been measured, and two points do not establish a rate.** 104 of
+`refs.bib`'s 305 entries carry no note at all; how many of those are load-bearing the way
+these two were is unknown and unchecked.
+
+- **(a) Default — do nothing systematic; wait for a third instance.** Two findings in one
+  day from one reader in one chapter is not a rate, and an audit that opens every source is
+  the most expensive pass the campaign could run. The cost of being wrong is that the class
+  keeps surfacing one instance at a time, which is how these two surfaced and is survivable.
+- (b) Audit outward from the load-bearing citations. Not alphabetically and not
+  exhaustively: start from the claims the argument leans on — the ones a reader would
+  check — open those sources, and ask what the source actually says rather than whether it
+  exists. That is P4's shape pointed at fidelity rather than existence. Bounded by picking
+  the list first and saying what was left out.
+- (c) Narrow it to the recent legal material, where both instances sit. Cheapest of the
+  three and the most likely to find a third instance if the class really does concentrate
+  there. It would also settle whether the concentration is real, which (b) assumes and
+  neither has tested.
+
+*Default (a) applies unless the author rules otherwise.* Recorded rather than acted on,
+because the choice between waiting and auditing is a judgment about how much the remaining
+sourcing is trusted, and that is the author's and not the agent's. **Raised here because it
+would otherwise exist only in a conversation**: both decisions record their own instance,
+and neither records that there are two.
 
 ---
 
