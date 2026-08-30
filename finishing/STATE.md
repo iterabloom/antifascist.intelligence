@@ -1197,11 +1197,14 @@ table and the run-in heads hold. The rest was not read.
 ## The immediate open items
 
 **`finishing/QUESTIONS.md` is the live list; read it there rather than here.** As
-of D-100 it carries **fourteen** open questions, each with a default that has
-already applied, and the newest is Q-039 — how much further to cut now that the
-recurring conclusions are out, with the remaining options costed. The other
-standing item is the **148 `drafted` ledger rows** named under "Where the book
-is" above, which the author has not read.
+of D-118 it carries **27 entries above its Resolved line that are not also below
+it**, and the newest is Q-054 — whether chapter 1's roadmap should have survived
+P53's cut of every other self-indexing passage. **That 27 overstates what is
+live**: many carry a D-111 or D-115 ruling in place and were never moved after
+execution, and five more (Q-019, Q-021, Q-022, Q-028, Q-029) appear both above
+the line and below it. Reconciling the filing is real work nobody has done. The
+other standing item is the **146 `drafted` ledger rows** named under "Where the
+book is" above, which the author has not read.
 
 **The paragraph that stood here was the D-060 snapshot and is dropped rather than
 kept as history:** it named Q-018, Q-020, Q-023 and Q-024 as the live items, and

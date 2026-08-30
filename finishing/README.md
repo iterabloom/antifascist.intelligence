@@ -20,6 +20,8 @@ New files here omit the date suffix, as the file convention allows.
 | `tools/` | Read-only analysis and invariant checks (see below) |
 | `reports/` | Generated, committed, small. Regenerate rather than hand-edit |
 
+The tool table below covers what a session finishing the book would reach for. **Eight further scripts in `tools/` are deliberately not listed**: `common.py` and `odsread.py` are libraries, `html_single_file.py` is documented in `pipeline.md` where it runs, and `triage.py`, `apply_triage.py`, `toc_v4.py`, `list_candidates.py` and `refs_to_latex.py` are one-shot instruments from P0–P1 and the D-066 conversion, kept because they record how the structure was decided and not because anything should run them again.
+
 ## The manuscript's working form
 
 The book is LaTeX (D-065). The editable form is one file per section:
@@ -41,8 +43,10 @@ before that one, and the tools that read them are in `tools/dialect-era/`.
 
 ## Tools
 
-Run from the repo root. Stdlib-only except `redundancy.py` / `quarry_map.py`,
-which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
+Run from the repo root. Stdlib-only except `redundancy.py`, which needs the venv
+on PATH and runs offline (`HF_HUB_OFFLINE=1`). (`quarry_map.py`, named here
+until D-118, is not in the repository and appears in no commit; the reference was
+wrong rather than stale.)
 
 | Tool | Does |
 |---|---|
@@ -60,6 +64,11 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `refresh_order_shas.py` | Rewrites `ORDER.tsv`'s sha256 column from the files. `check_structure.py` fails on a stale digest; this clears it |
 | `section_stats.py` | Per-section counts and the generation's tells; `--seed-ledger` |
 | `reader_tax.py` | What the prose charges the reader that the argument does not need (D-117). The taxonomy is read off the author's own hand edits at `331f0a5..fc65cd5`, and every class cites the edit it comes from. **Candidates for a hand read, not defects** — `deixis` is a pool of 232 and most of it is fine — and deliberately not in `check_all.sh`. It finds only the four classes a regular expression can find; the other six need reading |
+| `xref_shapes.py` | Sorts every cross-reference by the **shape** of its sentence — signpost, restated, appended, attributive, structural, and the `imports` keep class — so a density cut can be argued rather than guessed. Built for P28 (D-089) and the instrument P53 (D-118) used to explain P28's shortfall: **the five removable shapes total about 100 references and 625 of 806 are `inline`**, where the reference is a term in the sentence and no tool reaches it. **Candidates for a hand read, not defects.** Not in `check_all.sh` |
+| `xref_pairs.py` | Writes every cross-reference's citing sentence next to its target's opening sentence, to `reports/xref_pairs.txt` (D-111). For Q-041's class — a reference that resolves and names a claim its target does not make. **Blind to anything the target's first sentence does not show**, which is what P50 found by reading instead |
+| `inventories.py` | Counts sentences carrying a series of three or more items, per chapter (D-101). Its limit is on the record: the syntactic test missed the shape that produces the reading experience, an inventory spread over consecutive sentences, so P37's diagnosis was made by reading |
+| `tics.py` | Censuses the generation's verbal tics and voice markers; writes `reports/tics.tsv` and `reports/voice.tsv` |
+| `claims.py` | Extracts every assertion needing a source and every dated claim, to `reports/claims.tsv` — the P4 sourcing record, 536 rows |
 | `choose-a-random-page.py` | One random page of the book as markdown, for a before/after revision pass, written to `~/book-scratch/random-pages/`. The page always opens on a heading; the page number is a cross-product estimate that runs high by a median of 18 pages, and the docstring carries the measurement and the `--pages` value that fixes it |
 
 ## Two rules that bite
