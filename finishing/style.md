@@ -129,7 +129,47 @@ empty and the sentence should go.
 
 Connective tics — "Moreover" (34), "Furthermore" (32), "Additionally" (30) — are
 usually a paragraph pretending to follow from the one before it. Cut the word;
-if the paragraph no longer follows, that is the real problem.
+if the paragraph no longer follows, that is the real problem. "However" opening a
+paragraph is the same tic and goes the same way. Inside a paragraph it is an
+ordinary word and this section has nothing to say about it.
+
+## 3a. The em dash
+
+671 em dashes in 95,405 words: one every 142 words, in 134 of 153 sections and in
+35 percent of paragraphs. One sentence in eight carries at least one — 291 with a
+lone dash, 190 with a matched pair, none with three.
+
+The reason to count is not that the mark is wrong. It is that the em dash is
+among the most-remarked tells of generated prose, this manuscript was generated,
+and a reader who holds that association brings it to the page whether or not the
+association is fair. This file does not attempt to verify the impression and does
+not need to: the dashes doing real work pay for the ones that are not.
+
+What a lone dash introduces, counted by the word after it:
+
+| After the dash | Count | What it is |
+|---|---|---|
+| the / a / an | 99 | an appositive: a restatement or a list. The dash's own job |
+| and / but / so | 33 | a coordinating conjunction. A comma does this |
+| which / that / what / whether | 30 | a relative gloss. A comma usually does this |
+| not | 7 | D-025's contrastive negation, wearing a dash |
+
+Only the first row is work no other mark does. Section 3's logic applies here
+unchanged: none is forbidden, each is a flag.
+
+**The test.** Replace the dash with the mark it is standing in for — comma,
+colon, period, connective — and read the sentence again. If nothing is lost, the
+dash was setting a beat rather than doing a job. Three cases in particular:
+
+- **A dash before "and", "but" or "so"** is a comma with a drumroll. 33
+  instances. Keep it where the beat is the point and it is the only one nearby.
+- **A dash carrying a turn** is a connective the prose declined to write, which
+  is how a book with 671 dashes ends up with six connectives. Section 3 has the
+  word. A paragraph whose contrast lives entirely in its dashes has hidden the
+  joints of its own argument, and the reader has to reassemble them.
+- **Three or more in one paragraph.** 65 percent of paragraphs have none, 37 are
+  at three or more, and 12 at four or more. The dense ones are where to look
+  first; nothing about the count alone makes a paragraph wrong.
 
 ## 4. Lists
 
@@ -267,8 +307,9 @@ reader has to decode rather than read.
   properly. Converting them would buy nothing and would put `'Cause` and `'90s`
   at risk, where the mark is an elision and not a possessive.
 - **Dashes are the characters themselves**, `—` and `–`, not `---` and `--`.
-  785 em dashes and 1 en; mixing the two notations sets the same dash at two
-  widths on one page.
+  671 em dashes and 1 en, counted 2026-08-30; mixing the two notations sets
+  the same dash at two widths on one page. This rule is about the character.
+  How many there should be is section 3a.
 - `finishing/tools/check_typography.py` enforces the quote and dash rules, and
   runs in `check_all.sh`. Neither is catchable any other way: both notations
   compile without a warning and produce a page that is merely wrong.
