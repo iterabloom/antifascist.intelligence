@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — Three findings were the same class: the book states a source, or its own section, more firmly than the thing states itself. **(a)'s trigger has fired**
+### Q-056 — Four findings were the same class: the book states a source, or its own section, more firmly than the thing states itself. **(a)'s trigger has fired, and (d) is now known to be partial**
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1468,6 +1468,50 @@ for the class to sit and the reason it is worth a ruling rather than another wai
 
 *No default applies now.* (a) is spent, and the choice among (b), (c) and (d) is the same
 judgment about trust that the entry above hands to the author. **Not started.**
+
+**Amended again 2026-08-30 (D-123).** The fourth instance arrived within the hour, and it is
+**the same misdescription as the third at a second site**: chapter 11's opening list glossed
+the multi-agent capture entry as *“the pricing-algorithm study in which independent learners
+reached a stable cartel.”* Both of D-122's faults, in one sentence, thirty pages from the
+first.
+
+**D-122's sweep did not find it, and the reason bears directly on (d).** That sweep looked at
+the sites *pointing at* section 11.6 and found three, all sound. **This site describes
+section 11.6's result without pointing at it, because P53 cut the pointer.** At `142f0e4` the
+entry read *“…with designer intent (section~\ref{sec:11.6})”*; P53 removed the parenthetical
+and left the description, 56 words to 55. That is D-118's ruled method — *where the sentence
+already carries the claim, delete the reference alone* — meeting the case it does not cover,
+where **the sentence carries the claim wrongly.** Cutting the link severed the description
+from the only thing that would have corrected it.
+
+**The class is larger than these two, and here is what is measured about it.** Across P53's
+70 files, **178 paragraphs lost at least one cross-reference**: 79 came out longer after
+discounting the removed reference, the restate-then-cut shape, and **99 only shorter, which
+is this one.** In all 178, whatever the paragraph still says about its former target now
+stands with no link to it, and **no tool in `tools/` can reach it** — `check_xrefs.py`,
+`xref_content.py`, `xref_pairs.py` and `xref_shapes.py` every one begin from a reference that
+exists. Counted from `git show 142f0e4` at zero context by pairing removed and added lines in
+order, so it counts **paragraphs, not references**, and can miscount a paragraph copy-edited
+in the same hunk. **It is the shape of the class and not a census of it, and how many of the
+178 misdescribe their former target is unknown and unchecked.** Two are now known to.
+
+**What this does to the options.** (d) — read chapter 3's cross-references against their
+targets — is **no longer the cheapest complete answer, because it is not complete**: it
+starts from `xref_pairs.txt`, and the sites this class now includes have no cross-reference
+left to appear there. It still tests the chapter-3 concentration, which is worth doing, but
+it cannot be described as covering the internal variant.
+
+- (e) **New: read P53's 178 unlinked paragraphs against the sections they used to point at.**
+  The list is derivable from one commit and needs no network. It is the only option that
+  reaches the two instances found today, and it is a bounded read of 178 paragraphs rather
+  than an open-ended audit. Its own limit, stated up front: it covers what **P53** unlinked
+  and nothing else — a description that never had a pointer is outside it, and nothing
+  measures how many of those there are.
+
+*Still no default.* Four instances, two mechanisms, and now two different bounded reads that
+between them cover the source variant ((b) or (c)) and the internal one ((e)). **Not
+started.** Both instances of the internal variant were found by the author reading, not by
+anything in this repository.
 
 ---
 
