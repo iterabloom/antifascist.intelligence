@@ -35,13 +35,18 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-29 after D-116:** 95,405 words,
-153 sections, 192 pages; 843 `\ref{sec:` calls, one per 113 words; `refs.bib` at
-303 entries, 23 having moved to `unused_bibliography.bib` at P47, with 198 carrying
-notes; 322 instances of "rather than"; 120 glossary locators; five leaf subsections
-under 230 words, at 6.2.2, 6.3.2, 8.2.1, 8.2.3 and 9.1.3. **The notes' word total is
-not re-measured and the previous figure, 8,695 at 210 entries, is dropped rather than
-carried.** The block this replaces was measured after D-109 and was seven passes stale. For orientation read `finishing/STATE.md`.
+**The figures this file turns on, re-measured 2026-08-30 after D-117:** 94,017 words,
+153 sections, 191 pages; 848 `\ref{sec:` calls, one per 111 words; `refs.bib` at
+305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 200 carrying
+notes; 312 instances of "rather than"; 109 glossary locators; **seven** leaf subsections
+under 230 words, at 1.1, 6.2.2, 6.3.2, 8.2.1, 8.2.3, 8.3.1 and 9.1.3. **The notes' word
+total is not re-measured and the previous figure, 8,695 at 210 entries, is dropped rather
+than carried.** Five of the seven figures moved at P52 and one moved at `fc65cd5`; the
+cross-reference count went **up**, because naming what a pointer points at sometimes meant
+writing the pointer out. The thin-leaf list gained two entries the same way: sections 1.1
+and 8.3.1 crossed under 230 words because prose came out of them, 8.3.1 under the author's
+own hand at `fc65cd5`. That is Q-029's class returning and it is recorded here rather than
+repaired. For orientation read `finishing/STATE.md`.
 
 The other standing item is not a question. **140 of the book's 153 sections are
 `drafted` and unread**, and the seven passes of 2026-08-29 concentrated their
@@ -1271,6 +1276,39 @@ hand.
 
 
 **Ruled 2026-08-29 (D-115): (b), add the caveat.** One clause in chapter 1's first advance note: the lower rungs do not need persistence, so what the result rules out is the top of the ladder and not harm as such.
+---
+
+### Q-053 — Run-in head capitalization is inconsistent, and one of the two is wrong
+
+The manuscript's 194 run-in heads are set two ways and nothing distinguishes the cases.
+Chapter 9 uses Title Case — *The Dangers of Corporate Doublespeak in AI Ethics*,
+*Consequences of AI Self-regulation and Potential Power Imbalances*, *Assessing the
+Effectiveness of AI Self-regulation* — and so does section 6.1.2's *Hiring*, *Credit
+Scoring*, *Healthcare*. Everywhere else they are sentence case: *What a procedure records,
+and what it drops*, *Measure targets per hour against reviewers available*, *The near-term
+work*.
+
+The split is by chapter rather than by kind, which is what makes it drift rather than a
+convention: the Title Case heads sit in the sections drafted earliest and revised least.
+Nothing in `style.md` §4a says which is right, so neither set is wrong against a stated
+rule, and a reader meets both inside a single reading.
+
+P52 renamed six run-in heads on other grounds and left every one of them in the case it
+already had, because changing a head's case is a ruling and not a defect.
+
+- **(a) Default — sentence case throughout.** It is the majority (the Title Case heads are
+  confined to chapter 9 and one subsection of chapter 6), it matches the section titles'
+  own register in the TOC, and it is what the heads written most recently use. Mechanical
+  for the roughly two dozen heads that would change, and each one still wants a read,
+  because Title Case hides which words are proper nouns.
+- (b) Title Case throughout. Consistent with how the numbered section titles are set, and
+  the larger edit: it would change most of the 194 rather than two dozen.
+- (c) Leave it. Defensible only if the inconsistency is invisible in the built page, and it
+  is not — chapter 9's heads look like titles and chapter 3's look like sentences.
+
+*Default (a) applies at the next pass touching chapters 6 and 9.* Recommended weakly: this
+is the smallest thing in the file and the only one a reader meets on every page.
+
 ---
 
 ## Resolved

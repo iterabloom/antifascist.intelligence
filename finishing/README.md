@@ -59,6 +59,8 @@ which need the venv on PATH and run offline (`HF_HUB_OFFLINE=1`).
 | `headings.py` | Three-way reconcile: manuscript / outline / TOC. `--write-toc` regenerates the TOC; `--check` fails if the TOC on disk is not what regeneration would produce (D-042), and is run by `check_all.sh` |
 | `refresh_order_shas.py` | Rewrites `ORDER.tsv`'s sha256 column from the files. `check_structure.py` fails on a stale digest; this clears it |
 | `section_stats.py` | Per-section counts and the generation's tells; `--seed-ledger` |
+| `reader_tax.py` | What the prose charges the reader that the argument does not need (D-117). The taxonomy is read off the author's own hand edits at `331f0a5..fc65cd5`, and every class cites the edit it comes from. **Candidates for a hand read, not defects** — `deixis` is a pool of 232 and most of it is fine — and deliberately not in `check_all.sh`. It finds only the four classes a regular expression can find; the other six need reading |
+| `choose-a-random-page.py` | One random page of the book as markdown, for a before/after revision pass, written to `~/book-scratch/random-pages/`. The page always opens on a heading; the page number is a cross-product estimate that runs high by a median of 18 pages, and the docstring carries the measurement and the `--pages` value that fixes it |
 
 ## Two rules that bite
 
