@@ -136,9 +136,8 @@ rows were already `drafted`.
 
 ## What this pass does not do
 
-It does not rebuild the committed proof pair, which still reads 191 pages against a tree
-that now builds 192. **The README's figure and the pair are stale until the proofs are
-made.** It touches none of the four remaining group-4 items — Q-035 still needs a ruling on
+It did not rebuild the committed proof pair, which was made afterwards as its own gesture:
+the pair is current at 192 pages and the README's figure moved with it. It touches none of the four remaining group-4 items — Q-035 still needs a ruling on
 chapter 5's citation age, and Q-043 and Q-045 stay open. And it checked no citation against
 a source: the vendor named at section 10.7 is named from the title of the reference the
 sentence already carried, and no new factual claim was added anywhere in the pass.
