@@ -1,6 +1,12 @@
 # State of play
 
-Read this first. **Updated 2026-08-29 after D-113 (P49): group 4, the reading work.** The author said *"please now tackle group 4"* — the four questions D-111 ruled on and deferred because each needs reading rather than editing. **Two of the four rulings ask for a measurement or a report and not a pass**, and those touched no manuscript file. **Q-043, sweep by subject**: twenty recurring subjects, the list built mechanically from every proper noun in three or more chapters, every sentence on each read together across all thirteen. **Eighteen held** — self-report across thirteen sentences in eight chapters, Cassell across seventeen in three including the counterintuitive direction. **Two did not**: three sections cite *Trump v. Cook* and two say the holding cannot be extended while section 8.3.4 extends it, compatibly and with nothing anywhere saying so, and the glossary credited the sycophancy finding to three sections when one has it. **Nine instances of that class now, across five passes.** **Q-038**: the re-count first gives **112 of 317, not 141 of 340**; no paragraph in the three chapters carries three or more instances; 110 sentences read one at a time and **three repairs, 1 in 37**, the substantive one being section 2.4.2, titled *When Consent Is Inapplicable*, whose last paragraph referred to "its original consent." **Q-035**: chapter 5's citations have a **median year of 2009 and none from 2022 or later**, the only substantive chapter of which that is true, and the cheapest instance is section 5.2.3 arguing about fluent self-report while not citing section 11.1's finding on it. **A finding to rule on; chapter 5 is untouched.** **Q-045**: chapter 3 and section 11.2 read whole. **Sentences in which the book reports on its own earlier state occur seven times in the manuscript and all seven are in these two places.** Chapter 3's opening map omits sections 3.5 and 3.6 entirely; section 11.2 is 2,599 words holding three of the book's 25 longest paragraphs. **Chapter 3 survived the additions; section 11.2 is carrying more than its structure declares** — both reported and left, because closing them means adding words to the two places that question exists to watch. 94,488 words, 826 cross-references, 0 undefined.
+Read this first. **Updated 2026-08-29 after D-116 (P51): the rulings executed and the four defects repaired.** The author said *"go"* on D-115's seven rulings and on the defects `p50-scope.md` recorded. **12 sections changed.** The book's operational definition of a floor *holding* now sits in section 3.8 where the threat model doubles, moved out of section 5.1.1, which keeps the growth-mindset argument and a bridge — +166 and −123 words, neutral book-wide and not neutral for chapter 3, which the ruling took knowingly. Section 3.3 concedes that its falsifier's middle condition rests on the builder's account of their own method, since the same section has already said no training history can be proved, and points at section 11.2's third question; section 11.1's near-term work now does too. Section 6.3.4's LIME/SHAP paragraphs are cut to a pointer at 6.1.3 and its opening carries 6.3.3's limit — **D-106 made that repair at 6.3.3 and stopped three heads short.** Section 10.7 names Anthropic for the commitment it paid for. Chapter 1's advance note carries section 2.4.1's caveat that the lower rungs need no persistence. Section 2.4.1's pointer, which had credited section 3.5 with a claim 3.5 declines, is repointed to 2.4.2 and 11.2; the section 2.4 epigraph loses its raw archive URL and its "also see" note; and section 3.5's allusion to the compound called a school gains a pointer to section 10.10. **Q-048 is the pass's own finding.** The five discriminators section 2.1.2 builds were run against chapter 7's three instances and **clear all three** — three absent outright, two undetermined because they turn on what an institution rewarded rather than what it wrote, which is the artifact section 7.3 asks for and nobody publishes. Chapter 7 now finds a recuperation mechanism inside ordinary institutional decay rather than fascism at the molecular scale, and section 11.3 gains the pointer, because this is the measurement it says has never been made: the four features flag all three instances and the five-test filter passes all three. **One measurement of an instrument's false-positive behavior is not a validation, and it is more than the assertion the book had.** 95,405 words, 192 pages, 0 undefined references, `check_all.sh` green. Chapter 3 is 14.36 percent of the book, from 14.21; chapter 7 is 4.93 from 4.25. **12 sections `accepted` and 141 `drafted`** — section 6.3.4 moved. **The committed proof pair is stale at 191 pages, and the README's figure with it.**
+
+**Updated 2026-08-29 after D-115: the author ruled on P50's seven questions.** A question-by-question walkthrough, nothing executed. **Six rulings produce work.** The definition of a floor *holding* moves from section 5.1.1 into chapter 3 (Q-046); section 3.3 concedes that its falsifier's middle condition rests on the builder's account, with a pointer from 11.1 to 11.2's provenance experiment (Q-047); section 6.1.3's LIME/SHAP treatment survives and 6.3.4's is cut to a pointer (Q-049); section 10.7 names the vendor it currently credits anonymously (Q-050); and chapter 1's first advance note gains section 2.4.1's caveat that the lower rungs of harm do not need persistence (Q-052). **Q-048 is a pass on its own**: the five discriminators section 2.1.2 builds get run against chapter 7's three instances and the result reported whichever way it comes out, the expected result being that all three clear — which is why it is worth running, since section 11.3's complaint is that the book asserts a detection capability it has never specified. **Q-051 is closed on the premise rather than on scope**: the question assumed a partition between a movement's winning and what follows, and section 2.1.2 denies it — the tendency is permanent and what varies is the slope, so naming a boundary would concede a before and after the argument does not have. **Nothing is executed and the four defects in `p50-scope.md` are still unrepaired.**
+
+**Updated 2026-08-29 after D-114 (P50): the manuscript read whole.** The author said *"please read the entire manuscript."* All 153 sections in `ORDER.tsv` order — the first end-to-end read since P27 rewrote chapter 3, P32 split chapter 8 and P38 distilled chapters 2, 4 and 5, with 140 sections standing `drafted` and unread. **No manuscript file is touched**, because the instruction was to read. **Four defects, verified against the files and left unrepaired.** Section 2.4.1 credits section 3.5 with "standing held by parties outside it," which is the claim 3.5 declines — that section dissolves the question and has the bearer guard its own continuation from the structural interest, by a route that "does not run through a quorum somebody else selected"; the sharpest instance of Q-041's class so far, and one `xref_pairs.py` cannot see, since it prints only the target's opening sentence. The section 2.4 epigraph sets a raw `web.archive.org` URL and the line *also see Science Fiction, Disruption and Tourism Ch 15* — the only raw URL and the only "also see" in the manuscript, both in the committed proof. Section 3.5's "the bearer that called the compound a school" is an **uncited allusion to the Iran school strike the book itself carries at section 10.10**, made five chapters before the book supplies it, with a definite article that reads as anaphoric; it is also the one place a 2026 news event runs in prose rather than in the dated box `style.md` §5 requires, while section 6.4.1 boxes the same campaign. And **D-106's repair reached section 6.3.3 and stopped three heads short**: section 6.3.4 still says explanation lets a reader "inspect the reasoning that produced" a decision, which 6.3.3 now denies and 6.1.3 qualifies — Q-043's class at the tightest radius it has had. **Seven findings need a ruling and are entered as Q-046 to Q-052**, each with a default, none blocking. The two worth more than their defaults: **the book's only operational definition of a floor *holding* is in section 5.1.1**, under a run-in head about growth mindset, uncited by chapter 3, which uses the word in three of its eight section titles; and **chapter 7 applies four of the nine tests section 2.1.2 builds**, leaving the five discriminators — the half that separates fascism from ordinary institutional decay — unused in the only place the book uses the instrument at all. **One finding reported to the author was wrong and is recorded as such**: section 3.5's allusion was reported as a dangling reference to a cut example, on the sound evidence that the scenario is absent from the book and the wrong inference that its referent was therefore internal. **What this read did not do:** no citation was checked against a source, no figure in this file was re-measured, and `ledger.tsv` is untouched, since no section's prose changed. 94,488 words, 191 pages, and the proof pair is unchanged and current.
+
+**Updated 2026-08-29 after D-113 (P49): group 4, the reading work.** The author said *"please now tackle group 4"* — the four questions D-111 ruled on and deferred because each needs reading rather than editing. **Two of the four rulings ask for a measurement or a report and not a pass**, and those touched no manuscript file. **Q-043, sweep by subject**: twenty recurring subjects, the list built mechanically from every proper noun in three or more chapters, every sentence on each read together across all thirteen. **Eighteen held** — self-report across thirteen sentences in eight chapters, Cassell across seventeen in three including the counterintuitive direction. **Two did not**: three sections cite *Trump v. Cook* and two say the holding cannot be extended while section 8.3.4 extends it, compatibly and with nothing anywhere saying so, and the glossary credited the sycophancy finding to three sections when one has it. **Nine instances of that class now, across five passes.** **Q-038**: the re-count first gives **112 of 317, not 141 of 340**; no paragraph in the three chapters carries three or more instances; 110 sentences read one at a time and **three repairs, 1 in 37**, the substantive one being section 2.4.2, titled *When Consent Is Inapplicable*, whose last paragraph referred to "its original consent." **Q-035**: chapter 5's citations have a **median year of 2009 and none from 2022 or later**, the only substantive chapter of which that is true, and the cheapest instance is section 5.2.3 arguing about fluent self-report while not citing section 11.1's finding on it. **A finding to rule on; chapter 5 is untouched.** **Q-045**: chapter 3 and section 11.2 read whole. **Sentences in which the book reports on its own earlier state occur seven times in the manuscript and all seven are in these two places.** Chapter 3's opening map omits sections 3.5 and 3.6 entirely; section 11.2 is 2,599 words holding three of the book's 25 longest paragraphs. **Chapter 3 survived the additions; section 11.2 is carrying more than its structure declares** — both reported and left, because closing them means adding words to the two places that question exists to watch. 94,488 words, 826 cross-references, 0 undefined.
 
 **Updated 2026-08-29 after D-112 (P48): the misdirected references the pairing tool exposed.** The author had me read all 829 pairs in `reports/xref_pairs.txt` and report only what looks obviously wrong on the page. **Six defects, each confirmed against the target section rather than against the pairing.** The Partnership on AI was cited to section 5.6.2 — a chapter that never mentions it — and is repointed to 9.1.2. The glossary's *AlphaGo Zero* entry called itself the book's standard example of generalization from scale and self-play; those words appear **nowhere in the manuscript outside that entry**, so the entry is cut, 57 terms to 56. Differential privacy's pointer at 2.1.1 and the Moral Machine's at 5.3.3 are dropped as dead. And **sections 3.1 and 3.2 both named the wrong one of section 2.1.2's four features** — calling a constraint that outlives its reason the *first*, when the first is recuperation of dissent and chapter 7, section 6.1.1, section 7.2 and the glossary all use it that way, so the book contradicted its own definition in the two sections that set up the floor. Section 9.3.4 was off by one the other way and is corrected to the second feature. **One thing I told the author was overstated and is recorded as such**: section 6.4.2's citation of 5.6.2 for third-party audits was loose, not opposite. Eight targets checked and found sound are named in `p48-scope.md` so a later session does not re-open them. 94,415 words, 191 pages, 826 cross-references, 0 undefined. **Q-041's own class is narrowed, not closed** — the pairing file shows only the target's opening sentence. **Group 4 still remains**: Q-035, Q-038, Q-043, Q-045.
 
@@ -76,15 +82,15 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-113.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-29, after D-116.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **94,488 words of prose**, 91,538 of them outside the glossary, by `section_stats.py`
+list. **95,405 words of prose**, 92,455 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
-pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages**,
-**rebuilt from this tree at P49 and current**, linked from the README. **The
+pair, `finishing/reports/whole-book-proof_2026-08-29.{pdf,html}`, **191 pages** — **stale since P51, which
+builds 192**, and the README's figure with it. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh, P48 an eighth and P49 a ninth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and neither P48 nor P49 moved it — P48's six repairs cost and returned nothing in pages, and P49's six added 73 words without reaching a page. The page count held at 189 through the
@@ -100,7 +106,8 @@ P38**, for 4,640 words taken out of chapters 2, 4 and 5 and fifteen subsections 
 `check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
-**Ledger: 13 sections `accepted`, 140 `drafted` and unread.** P38 tagged all 55 rows in
+**Ledger: 12 sections `accepted`, 141 `drafted` and unread.** P51 tagged twelve rows and moved section
+6.3.4 from `accepted` to `drafted`. P38 tagged all 55 rows in
 chapters 2, 4 and 5, removed fifteen with the subsections they described — each one's title
 and old number carried into the surviving host's note, so the record is not lost — and moved
 3 from `accepted` to `drafted`. P37 tagged 18 rows and moved 4 from
@@ -122,10 +129,7 @@ at P27; chapter 7 (4 of 5); the glossary; and scattered rows in chapters 1, 6, 8
 status, because P30 moved their text without rewriting it. `ledger.tsv` carries
 the per-section reason.
 
-**Fourteen questions are open**, raised by P28 through P31, D-095, D-096, P33, P34, P35, P36, P37
-and P38, none blocking — two of P29's were closed by P38's execution, chapter 3 moving earlier and the
-thin subsections folding, and Q-041 is new:
-`QUESTIONS.md` has them with a recommended default each.
+**Seven questions are new at P50**, Q-046 to Q-052, each with a default and none blocking. **Group 4's remainder is unchanged**: Q-035 awaits the author's ruling on chapter 5's citation age, and Q-043 and Q-045 stay open. **The file's own filing is behind**: 25 entries sit above `QUESTIONS.md`'s Resolved line and not below it, and many of those carry a D-111 ruling in place rather than having been moved after execution, so the count above the line overstates what is live. Nobody has reconciled it, and the paragraph this replaces had said fourteen since P38. `QUESTIONS.md` has every entry with a recommended default each.
 
 **The paragraphs below this line are the 2026-08-23 record of the P3 pass and
 are kept as history; their section and word counts are not current.**
@@ -1285,7 +1289,7 @@ handed off rather than a live punch list.
 | `finishing/proposed-AGENTS-amendment-proofs.md` | the record of the `AGENTS.md` change for the "make the proofs" phrase — proposed, approved, applied (D-084) |
 | `finishing/reports/whole-book-proof_<date>.pdf` and `.html` | the committed proof pair, written together by `build_proof.sh` (D-081) |
 | `.gitattributes` | marks both proofs `-diff -merge`; they are generated whole and have no useful line diff |
-| `finishing/p7-scope.md` … `p36-scope.md` | one per pass: the items, what was declined or not reached, and the errors in whatever prompted it. The later ones respond to an author instruction rather than to a review |
+| `finishing/p7-scope.md` … `p50-scope.md` | one per pass: the items, what was declined or not reached, and the errors in whatever prompted it. The later ones respond to an author instruction rather than to a review |
 | `finishing/reviews/` | the source text of the editorial reviews that survive, read-only |
 | `finishing/refs.bib` | the bibliography, 304 entries, reached by `\autocite{key}`. 14 of them are cited by nothing (Q-030) |
 | `finishing/style.md` | the operative spec for P3 — voice, tics, run-in heads, boxes, citations |
@@ -4069,3 +4073,103 @@ unchanged. Six ledger rows tagged. `check_all.sh` green.
 **What group 4 leaves open.** Q-035 needs a ruling and nothing has been done to chapter 5.
 Q-043's class stays open — nine instances is a rate, and twenty subjects is not the whole
 list. Q-045 stays open on what to do about section 11.2. Q-038 is closed.
+
+## P50 — the manuscript read whole, 2026-08-29 (D-114)
+
+**All 153 sections, chapters 0 through 13, read in `ORDER.tsv` order.** `p50-scope.md` has
+the method, the four defects with the command that confirms each, the seven rulings wanted,
+and what the read did not check. No manuscript file is touched and `ledger.tsv` is unchanged.
+
+**What the method catches and what it cannot.** The files were concatenated in order and
+read in sequence, with every command in the scope file run afterward to confirm or kill
+something the reading had already turned up. That finds what a reader meets in order — a
+term used for a chapter before it is defined, a pointer naming a claim its target does not
+make, an allusion whose referent has not been supplied. It does not check a citation against
+its source, and none was checked here, so the book's factual claims were not audited by this
+pass at all. All four defects are inconsistencies between two places far apart, which is a
+property of reading straight through rather than a finding about the book.
+
+**The four defects, unrepaired.** Section 2.4.1 credits section 3.5 with the claim 3.5
+declines. The section 2.4 epigraph prints a raw archive URL and an "also see" note, the only
+two of their kind in the manuscript. Section 3.5's "the bearer that called the compound a
+school" alludes, uncited and five chapters early, to the Iran school strike the book carries
+at section 10.10 and whose reference names it; the sentence is exact once the event is known
+and its definite article does referential work the text has not earned, and it is the one
+place a 2026 news event runs outside a dated box. Section 6.3.4 states unqualified what
+sections 6.1.3 and 6.3.3 qualify, because D-106's repair reached 6.3.3 and stopped three
+heads short.
+
+**The two findings worth more than their defaults.** Chapter 3 uses *holds* in three of its
+eight section titles and never says what would count as holding; **section 5.1.1 does**, under
+a run-in head about growth mindset, and nothing cites it for that — the six inbound references
+reach it for Dweck or for the developmental sequence. It is also the one place chapter 5
+builds rather than concedes, which makes section 3.8's claim that the design chapters "turn
+out to be the material the floor is made of" literally true there and nowhere else in the
+chapter. That is Q-046. And **chapter 7 applies four of the nine tests section 2.1.2 builds** —
+the four structural features, of which 2.1.2 says a detector would find something nearly
+everywhere, and not the five discriminators that separate fascism from ordinary institutional
+decay. Section 7.4 stops at three of four and says it is not delivering a verdict, which is
+honest and leaves the discriminating half unused in the only place the book uses the
+instrument. Running it would most likely clear all three instances, which is the argument for
+running it: section 11.3's subject is that the book asserts a detection capability it has not
+specified. That is Q-048.
+
+**A correction, recorded because a later session will repeat it.** Section 3.5's allusion was
+reported to the author as a dangling reference to an example cut from the manuscript, on the
+evidence that no case in the book establishes it. The evidence was sound and the inference was
+not: the referent is external and real. A later session running the same grep will reach the
+same wrong conclusion, and `p50-scope.md` is where it would look.
+
+**What stands after checking.** Chapter 3's central inference does not equivocate between
+sections 3.2 and 3.4 — 3.2 names the question as empirical and hands it to 3.3 explicitly.
+Section 4.2.3 does not dismiss CIRL without giving it its bounded use above the floor. And
+chapter 5 does reference chapter 3, 18 times across 11 of its 23 sections, against 20 in
+chapter 4 and 22 in chapter 2; the uptake D-078 opened P26 to fix is real at the reference
+level, and what those references *are* is Q-046's subject.
+
+**Numbers.** 94,488 words, 191 pages, 153 sections, unchanged. `check_all.sh` green. The proof
+pair is the one P49 built and is current.
+
+## P51 — the rulings executed, and the four defects repaired, 2026-08-29 (D-116)
+
+`p51-scope.md` has the working. Two units: the five ruled edits with the four defects,
+then Q-048, which produces a finding rather than a repair.
+
+**Chapter 3 gained the definition of its own verb.** It had used *holds* in three of its
+eight section titles and defined it nowhere; section 5.1.1 had the criterion under a
+run-in head about growth mindset, uncited by anything for that purpose. Section 3.8 now
+carries it, in the paragraph where the threat model doubles and *will this constraint
+hold* is added. The chapter grew 360 words across three edits, which is Q-045's watch —
+recorded here rather than left for a later pass, because the ruling was taken with the
+cost stated.
+
+**Two repairs are propagation failures rather than defects of their own.** D-106 repaired
+section 6.3.3's claim that explanation makes failures visible and did not reach 6.3.4,
+three heads later, which was still saying it at greater length with the LIME/SHAP
+treatment 6.1.3 already carries with its limit. And section 2.4.1 had been crediting
+section 3.5 with a claim 3.5 declines since before either was last revised. Both are the
+class Q-041 and Q-043 track, and both were found by reading rather than by any tool.
+
+**Q-048's result is the pass's finding, and the shape of it matters more than the verdict.**
+Chapter 7 had scored the four structural features, which section 2.1.2 says would find
+something nearly everywhere, and left the five discriminators unrun. Run, they clear all
+three instances. Three are absent outright — nothing in an annotation queue or a rating
+scheme is personal, neither shows participation beyond the rule, and the annotator is a
+cost minimized rather than a category served. **Two could not be settled**, because
+procedure waived upward and a practice rewarded against the policy are facts about what an
+institution rewarded rather than what it wrote, which section 2.1.2 says when it introduces
+them and section 7.3 asks for and nobody publishes. So the clearing is three observed and
+two undetermined, and it would take an inside record to finish.
+
+What that buys is narrow and real. Section 11.3 says the book asserts a detection
+capability it has not specified; this is the one place the specification is run in the
+direction that would clear something, and it clears. The four features flag all three
+instances and the five-test filter passes all three. One measurement of an instrument's
+false-positive behavior is not a validation.
+
+**Numbers.** 94,488 → 95,405 words, 191 → 192 pages, 153 sections, 0 undefined references.
+Chapter 3 13,343 → 13,703; chapter 7 4,054 → 4,707. Twelve ledger rows tagged, one status
+change. `check_all.sh` green.
+
+**The proof pair is stale.** It reads 191 pages against a tree that builds 192, and the
+README's figure with it.

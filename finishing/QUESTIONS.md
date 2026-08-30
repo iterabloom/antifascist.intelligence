@@ -1,5 +1,21 @@
 # Open questions
 
+**Current as of 2026-08-29, after D-114 (P50): the manuscript read whole.** Seven entries
+are new, Q-046 through Q-052, out of the first end-to-end read of the book. **Three are
+about something the book does not say**: what *holds* means, when chapter 3 uses the word
+in three of its eight section titles (Q-046); that section 3.3's falsifier rests on the
+builder's account of their own method, which the same section says cannot be proved
+(Q-047); and that the discriminating half of section 2.1.2's fascism definition has never
+been run, in chapter 7 or anywhere else (Q-048). **Two are Q-043's class, taking it to
+eleven instances across six passes** — section 6.3.4 stating unqualified what two
+neighboring subsections qualify, which is the tightest radius the class has had, and
+chapter 1's advance note against section 2.4.1's own caveat (Q-052). The other two are a
+duplication inside chapter 6 (Q-049) and a vendor named three times for the charge and
+once, anonymously, for the credit (Q-050); Q-051 records that the book takes an
+authoritarian movement's winning as given at four sites and treats it nowhere. **Every
+entry carries a default and none blocks work.** Four further defects needed no ruling and
+are recorded in `p50-scope.md` instead, one of them Q-041's class. **Group 4's remainder is
+unchanged**: Q-035 awaits a ruling on chapter 5, and Q-043 and Q-045 stay open.
 **Current as of 2026-08-29, after D-111. The author has now ruled on all eighteen.**
 Eight were closed or left standing with no action; ten produced work, of which six are
 done in P47 and four remain as the reading group — Q-035's measurement over chapter 5,
@@ -1007,6 +1023,252 @@ went to the same two places.
 
 **What this does not settle.** Whether to restructure section 11.2 is a pass and the author's to call. (c) — a size figure in every scope file — was not adopted and would still have caught this earlier. **The report is delivered; the entry stays open on what to do about section 11.2.**
 
+---
+
+### Q-046 — The definition of a floor *holding* is in section 5.1.1
+
+Chapter 3 asks whether a floor holds in three of its eight section titles — 3.3,
+*Could Anything but Affect Hold a Reason?*; 3.5, *What Can Be Switched Off Cannot Hold
+a Line*; and section 3.8's added question, whether the constraint will hold — and never
+says what would count as holding.
+
+Section 5.1.1 does, under a run-in head about growth mindset: "A floor holds, in the
+sense chapter~3 can deliver, when the bearer can be shown to have violated it in terms
+it accepts, so that the violation registers as one and changes what happens next. That
+is the difference between a system that did something wrong and a system for which
+nothing counts as doing something wrong."
+
+That is the only operational criterion for the book's central term anywhere in the
+manuscript. It converts *holds* from a promise about the future, which section 9.3.4
+says cannot be audited, into something checkable after a failure, which the same section
+says is the only thing worth anything. It is also the one place chapter 5 builds rather
+than concedes, which makes section 3.8's claim that the design chapters "turn out to be
+the material the floor is made of" literally true at this sentence and nowhere else in
+the chapter.
+
+**Chapter 3 does not cite it, and nothing does.** Six sections reference 5.1.1: chapters
+4 and 5 for the developmental sequence, the glossary and section 1.3 for Dweck, and
+chapter 5's own opener for the growth-mindset half of the same subsection. None reaches
+the criterion.
+
+- **(a) Default — a pointer from chapter 3.** Section 3.8's paragraph handing the
+  obligation to chapters 4 and 5 is where it goes, since that paragraph already names the
+  second half of the doubled threat model as "what a system has been built to care about
+  and how reliably that survives." About twenty words, which is the smallest addition to
+  chapter 3 that closes it and keeps faith with Q-045.
+- (b) Move the criterion into chapter 3 and leave a pointer at 5.1.1. It belongs where the
+  word is used. It costs the longest chapter in the book more words, in the chapter Q-045
+  exists to watch.
+- (c) Leave it. Defensible only if the criterion is meant to arrive late, and neither
+  chapter says it is.
+
+*Default (a) applies at the next pass touching chapter 3.* Recommended more firmly than a
+default usually is: a reader can finish chapter 3 without having met the definition of its
+own verb.
+
+
+**Ruled 2026-08-29 (D-115): (b), move it into chapter 3.** The criterion goes where the word is used, with a pointer left at section 5.1.1. Chapter 3 takes the words, against Q-045's watch on its length.
+---
+
+### Q-047 — Section 3.3's falsifier requires a provenance the same section says cannot be proved
+
+Section 3.3 states what would overturn the book's central inference: a system whose
+refusal reaches an unanticipated case, lifts when the rationale is defeated, and prices
+what declining costs, "produced by a method that installs nothing answering to the fourth
+capacity in section~2.3's table," and shown to hold all three under sustained pressure.
+
+The middle condition is a claim about how the system was made rather than a property of
+the system. Two heads earlier, the same section says there is no way to establish one:
+"Training is not replayable — floating-point addition on a parallel device is not
+associative, so the same seed over the same data does not reproduce the same model bit for
+bit — which means there is no proof of a training history to publish beside the hash."
+
+So the condition that carries the falsifier is satisfiable on the builder's own account of
+what they built, which is the kind of evidence section 2.4.1 declines when the system
+offers it. Section 11.1's near-term work operationalizes the falsifier in full and does not
+mention this; it makes no reference to section 11.2 at all, where the provenance experiment
+P43 added — whether a reader ignorant of a model's provenance can recover it from the model
+— is the only proposed instrument that would close the gap.
+
+- **(a) Default — concede it in a clause.** A sentence in 3.3 saying the middle condition
+  rests on the builder's account, and a pointer from 11.1's near-term work to 11.2's
+  provenance experiment. Roughly thirty words across two sections. The chapter concedes
+  worse things than this.
+- (b) Restate the middle condition so it is checkable from outside. Nobody knows how;
+  section 11.2's third question is the attempt, and chapter 11 ranks it the second-hardest
+  problem in the book.
+- (c) Leave it. The falsifier still works between honest parties, which is most of them and
+  not the party the floor exists to resist.
+
+*Default (a) applies at the next pass touching chapter 3 or section 11.1.* The book's stated
+route to being wrong runs through the one thing it says nobody can check, and saying so
+costs a sentence.
+
+
+**Ruled 2026-08-29 (D-115): (a), concede it in a clause.** A sentence in section 3.3 saying the middle condition rests on the builder's account of their own method, and a pointer from section 11.1's near-term work to section 11.2's provenance experiment.
+---
+
+### Q-048 — Chapter 7 applies four of the nine tests section 2.1.2 builds
+
+Section 2.1.2 builds its definition in two parts. Four structural features — recuperation,
+the aestheticized metric, exception coded as betrayal, the model decoupled from the world —
+of which the section says a detector "would find something nearly everywhere," treating that
+as the expected result rather than a defect. Then five discriminators restated for the
+molecular scale, which separate fascism from ordinary institutional decay: participation
+exceeding what the rule requires, personal loyalty overriding role, an internal category
+whose adverse treatment is the category's purpose, procedure enforced downward and waived
+upward, and deniability. "The four features tell you a place is sick; these five tell you
+what it is sick with."
+
+Chapter 7 applies the four and not the five. Section 7.1 reaches "two of section~2.1.2's
+four features" at the annotation label; section 7.4 scores the alignment discourse three of
+four and stops, saying "Three of four is not a verdict of fascism at the molecular scale and
+I am not delivering one."
+
+That sentence is honest, and it leaves the discriminating half of the instrument unused in
+the only place the book ever uses the instrument. Section 11.3's subject is that the book
+asserts a detection capability it has not specified, and chapter 7 is the one demonstration
+available to it.
+
+- **(a) Default — leave, and say so.** A sentence in 7.4 recording that the discriminators
+  were not run and why.
+- (b) Run the five against the three instances and report. The likely result is that all
+  three clear: an annotation pipeline has no leader cult and no scapegoat. That is the
+  argument for running them rather than against it, since it would show the definition
+  discriminating rather than only accusing, which section 11.3 says has never been shown. A
+  pass, not a paragraph.
+- (c) Drop chapter 7's claim on the four features and say it describes a mechanism rather
+  than making a fascism finding, which 7.4 is one sentence away from already.
+
+*Default (a) applies now.* (b) is the recommendation. A definition never run in the direction
+that would clear something has unknown false-positive behavior, which is the objection this
+book raises against everyone else's instruments.
+
+
+**Ruled 2026-08-29 (D-115): (b), run the five.** The discriminators are applied to the annotation label, the reward model and the alignment discourse, and the result reported whichever way it comes out. A pass rather than a paragraph. The expected result is that all three clear, which is the point of running it: section 11.3 says the book asserts a detection capability it has not specified, and this is the one place available to show the definition discriminating rather than only accusing.
+---
+
+### Q-049 — LIME and SHAP are explained twice in chapter 6
+
+Section 6.1.3 explains both and closes on the limit: neither tool can tell you the model is
+aimed at the wrong thing, both take the training target as given, so a model whose target is
+a poor proxy "will attribute its predictions to the features it was built to use and report
+nothing amiss." Section 6.3.4 explains both again, at greater length and with worked
+examples, carrying no limit at all.
+
+The redundancy tooling does not see it: the two treatments sit in different sections under
+different framings, one about bias reduction and one about explainability, and share little
+vocabulary beyond the two names.
+
+- **(a) Default — cut 6.3.4's two paragraphs and point at 6.1.3.** The shorter treatment
+  survives because it is the qualified one.
+- (b) Keep 6.3.4's fuller treatment, move the limit into it, and reduce 6.1.3's to a pointer.
+  More words survive, and 6.1.3 loses the sentence that makes its own argument land.
+- (c) Leave both, on the ground that a reader of chapter 6 may meet either section alone.
+
+*Default (a) applies at the next pass touching chapter 6.* The unqualified half of the
+duplication is a defect in its own right — `p50-scope.md` records it as defect 4 — and is
+repairable without settling this.
+
+
+**Ruled 2026-08-29 (D-115): (a), section 6.1.3's treatment survives.** Section 6.3.4's two paragraphs are cut to a pointer, because the shorter treatment is the qualified one. The unqualified explainability claim in 6.3.4's opening is repaired separately, as a defect rather than under this ruling.
+---
+
+### Q-050 — The vendor is named for the criticism and unnamed for the credit
+
+Section 6.4.1's Maven box names Anthropic, Palantir and AWS in the arrangement that puts a
+commercial model inside an accredited classified environment. Section 6.1.1 names Anthropic
+as the defendant in the copyright case and says why: "The defendant is named here on
+purpose... a chapter arguing that provenance should be visible cannot describe a provenance
+case in the passive voice." Chapter 0 names it as the tool this book was written with.
+
+Section 10.7 describes a vendor that refused fully autonomous weapons targeting and mass
+domestic surveillance, held that line against contract termination and a supply-chain-risk
+designation, and went to litigation — "a commitment with a price attached and paid it." The
+prose leaves it unnamed. The reference does not: the CRS report is titled *Pentagon-Anthropic
+Dispute over Autonomous Weapon Systems*.
+
+So the book names the company three times for what is against it and describes it
+anonymously for the one thing it credits. The name is one step away in the reference list,
+which makes this a consistency question rather than concealment.
+
+- **(a) Default — leave.** The passage makes a structural point about two kinds of
+  commitment, and a name pulls a general claim toward a particular company.
+- (b) Name it, as 6.1.1 names it and for 6.1.1's stated reason. Section 7.4's test asks which
+  of this book's arguments would be inconvenient to the industry that made it possible, and a
+  book applying that test to itself should not be visibly easier on the credit than on the
+  charge.
+- (c) Anonymize 6.4.1 to match. Unavailable: chapter 0 has already named the company and
+  6.1.1 argues against exactly this move.
+
+*Default (a) applies now.* (b) is the recommendation, on the book's own standard rather than
+on fairness to a company.
+
+
+**Ruled 2026-08-29 (D-115): (b), name it.** Section 10.7 names the vendor as sections 6.1.1 and 6.4.1 already do, on section 6.1.1's stated ground: a book that asks which of its arguments would be inconvenient to the industry that made it possible should not be visibly easier on the credit than on the charge.
+---
+
+### Q-051 — How an authoritarian movement wins is exogenous to the book
+
+The book's political claim, made in chapter 1, section 3.1, section 10.10 and section 12.3,
+is that a machine perfectly correctable by whoever holds it "is exactly what an authoritarian
+movement that has won an election requires." The winning is taken as given at every one of
+those sites.
+
+What AI does to the winning appears twice. Section 6.4.1 lists psychographic micro-targeting,
+with Cambridge Analytica and the effect explicitly disputed, and synthetic disinformation,
+with the Slovakia recording. Section 9.1.5 gives election-integrity monitoring two paragraphs
+and concludes that its review condition "fails first, and it fails structurally." Nothing else
+in 94,000 words.
+
+The floor is therefore a defense for the day after, and the book nowhere says whether anything
+defends the day before. That is a scope decision rather than an omission, and it is not
+recorded as one.
+
+- **(a) Default — leave.** The book's subject is what a system does once built and who can
+  make it stop; the electoral mechanism is a different book with a different literature.
+- (b) Say so at section 12.3, where the residual risks are collected: the floor is a defense
+  for the day after, this book does not treat the day before, and here is what that leaves
+  out. A paragraph.
+- (c) Treat it, which is a chapter — in a book that has just cut 4,640 words to bring the
+  floor argument seven pages earlier.
+
+*Default (a) applies now.* (b) closes the gap a reader feels at 12.3, which names what could
+still go wrong and does not name this.
+
+
+**Closed 2026-08-29 (D-115) on the premise rather than on scope.** The entry assumed a partition between a movement's winning and what follows, and the book denies it. Section 2.1.2 holds the tendency to be permanent, with what varies being how far it has got in a particular place and whether it is getting further, which is why section 9.3.4 measures the slope rather than the level. "An authoritarian movement that has won an election" is doing stress-test work in chapter 1 and section 10.10 — the case where every democratic check is satisfied and the danger is still there — rather than periodizing work. Naming a boundary at section 12.3 would concede a before and after the argument does not have. **Recorded so the next reader who notices the same absence does not reach for the same fix.**
+---
+
+### Q-052 — Chapter 1's advance note does not carry section 2.4.1's own caveat
+
+Chapter 1's first advance note: "Whether a system can be wronged in the way that suffering
+names turns on whether anything about it persists — a question about architecture rather than
+about inner life," and the result "rules the case out for a system that carries nothing
+forward."
+
+Section 2.4.1 states the caveat the note leaves out. "The lower rungs do not need persistence:
+nociception and pain are bad while they obtain, whether or not anything carries them forward,
+and an amnesiac who is mistreated and cannot afterward recall it has still been wronged."
+Section 3.4 goes further: on the thinner accounts of harm a bearer qualifies sooner than on
+Cassell's.
+
+The note is accurate on the book's own vocabulary, which reserves *suffering* for Cassell's
+sense throughout. It is misleading on an ordinary reading, where "can be wronged" and
+"suffering" are not held apart, and the whole load sits on an unmarked technical use of one
+word in the book's fourth paragraph.
+
+- **(a) Default — leave.** The clause "in the way that suffering names" does the work, and the
+  section it advertises states its own limits at length.
+- (b) Add the caveat, one clause: the lower rungs do not need persistence, so what the result
+  rules out is the top of the ladder and not harm as such. The note already runs to three
+  sentences of qualification and this is the one it omits.
+
+*Default (a) applies now.* (b) costs about fifteen words, in the chapter the author revised by
+hand.
+
+
+**Ruled 2026-08-29 (D-115): (b), add the caveat.** One clause in chapter 1's first advance note: the lower rungs do not need persistence, so what the result rules out is the top of the ladder and not harm as such.
 ---
 
 ## Resolved
