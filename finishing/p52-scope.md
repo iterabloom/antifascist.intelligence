@@ -99,8 +99,9 @@ does about it"* → *"…and what to do about it"*; *"Why this chapter is here"*
 - **Run-in head capitalization was left alone.** The manuscript mixes sentence
   case and Title Case (chapter 9's heads are Title Case, chapter 3's are not).
   That is a real inconsistency and a separate ruling.
-- **The proof pair is stale from this pass.** It was current at `a5c2adc` and
-  reads 191 pages; the manuscript is now 1,078 words shorter.
+- **The proof pair was rebuilt after this pass** and is current at 191 pages.
+  The page count did not move: the 1,078 words came out without the book
+  losing a page.
 
 `check_all.sh` green. `ORDER.tsv` checksums refreshed. 98 ledger rows tagged
 D-117.

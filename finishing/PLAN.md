@@ -1,7 +1,7 @@
 # Finishing plan
 
-The book stands at 153 sections and 94,017 words, with 12 sections accepted and 141
-drafted and unread. The page figure is stale from P52 and the proof pair with it. Twenty-four passes have been executed: P28, which cut 79
+The book stands at 153 sections, 94,017 words and 191 pages, with 12 sections accepted
+and 141 drafted and unread. Twenty-four passes have been executed: P28, which cut 79
 cross-references by class; P29, which cut chapter 2 by 20.2 percent and chapters
 4 and 5 by 13.5 percent and made chapter 3 the book's center without changing a
 word in it; P30, which moved section 10.3's three case subsections into chapter 6
