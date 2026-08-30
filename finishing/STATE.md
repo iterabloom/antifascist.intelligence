@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-30 after D-118 (P53): the cross-reference density pass.** The author's finding was that the book is *"way too cross referenced"* and that the references distract, and he ruled the method before anything was cut: **restate, then cut**. Where a pointer carried meaning it was replaced by a short restatement of the claim and the reference deleted; where the sentence already carried the claim the reference came out alone. **The glossary is out of scope by the same ruling.** **848 → 596 references book-wide, the body 728 → 476, one per 122 words of prose to one per 188.** The figure that describes the reading experience: **paragraphs carrying at least one reference went from 51 to 36 percent, and paragraphs carrying two or more from 21 to 10.** **Chapter 3 went 147 → 53** and **chapter 12 went 45 → 7**; a conclusion restates rather than indexes, and chapter 3 had been mapping its own eight sections three separate times. **Why P28 got 10 percent against an instruction of 50 is now on the record:** the shapes a tool can classify as removable total about 100, and 625 of 806 references are welded into their sentences where no tool reaches them. **70 sections changed, 94,017 → 93,740 words** — 277 words for 252 references, because the restatements buy the words back. 191 pages, 0 undefined references, `check_all.sh` green. **7 sections `accepted` and 146 `drafted`.** **The proof pair was rebuilt in place afterwards and is current**, the date not having rolled over: 191 pages, 0 undefined references, 1,091 internal links over 1,589 ids with none broken — the link count down by exactly the 252 references the pass removed. Chapter 1's twelve-reference roadmap was kept on a judgment rather than a measurement and is the one call in the pass most open to being overruled.
+Read this first. **Updated 2026-08-30 after D-119 (P54): four defects in the glossary and the sourcing.** The author supplied four findings as a list; each was checked against the manuscript before anything was changed. **Three held exactly as stated and one is larger than the finding said.** **“Floor” was the only misalphabetized entry in 56** — sorting the whole list is what established that, which makes it a slip and not a convention — and it moved to between “Few-shot learning” and “GPT-3 and GPT-4.” **“Exit” and “molar and molecular fascism” now have entries**, neither term having appeared anywhere in chapter 13 before; the second lists **the five molecular discriminators**, which the glossary did not carry despite chapter 7's argument being run against them. **The Gordon 14 percent figure was misdescribed in the prose and not merely unannotated**: it read “14 percent of *contested cases*” where the paper's denominator is all items. Verified against the authors' own copy of the paper, the ACM page having refused automated fetches and the arXiv listing carrying no version of the figure; the evaluation is 18 community moderators on comment toxicity, and the prose now says so. **The finding's own wording needed one correction**: the citation is used twice, the figure once. **The Dweck definition** stood in sections 1.3 and 5.1.1 as a 30-word verbatim run, and 1.3 carried it with no citation at all; **the author ruled that 1.3 compresses and 5.1.1 stands**, Dweck named in both and no cross-reference added. The longest shared run is now three words. **93,740 → 94,065 words, 56 → 58 glossary entries, 191 pages, 0 undefined references, `check_all.sh` green.** Four files changed and section 5.1.1 is untouched. The three new locators are all inside the glossary, which D-118 ruled out of scope; the body count is unchanged at 476. **The committed proof pair is now stale**: it was rebuilt at P53 and this pass changed chapter 1, chapter 7 and the glossary after it. **Q-055 is the pass's own finding** — the running head over every glossary page reads “CHAPTER 12. CONCLUSION AND OUTLOOK”, because `\chapter*` sets no running mark. Confirmed as a rasterized image, invisible to every automated check, and not repaired here.
+
+**Updated 2026-08-30 after D-118 (P53): the cross-reference density pass.** The author's finding was that the book is *"way too cross referenced"* and that the references distract, and he ruled the method before anything was cut: **restate, then cut**. Where a pointer carried meaning it was replaced by a short restatement of the claim and the reference deleted; where the sentence already carried the claim the reference came out alone. **The glossary is out of scope by the same ruling.** **848 → 596 references book-wide, the body 728 → 476, one per 122 words of prose to one per 188.** The figure that describes the reading experience: **paragraphs carrying at least one reference went from 51 to 36 percent, and paragraphs carrying two or more from 21 to 10.** **Chapter 3 went 147 → 53** and **chapter 12 went 45 → 7**; a conclusion restates rather than indexes, and chapter 3 had been mapping its own eight sections three separate times. **Why P28 got 10 percent against an instruction of 50 is now on the record:** the shapes a tool can classify as removable total about 100, and 625 of 806 references are welded into their sentences where no tool reaches them. **70 sections changed, 94,017 → 93,740 words** — 277 words for 252 references, because the restatements buy the words back. 191 pages, 0 undefined references, `check_all.sh` green. **7 sections `accepted` and 146 `drafted`.** **The proof pair was rebuilt in place afterwards and is current**, the date not having rolled over: 191 pages, 0 undefined references, 1,091 internal links over 1,589 ids with none broken — the link count down by exactly the 252 references the pass removed. Chapter 1's twelve-reference roadmap was kept on a judgment rather than a measurement and is the one call in the pass most open to being overruled.
 
 **Updated 2026-08-30 after D-117 (P52): the reader-cost pass.** The author sampled eight pages at random, edited them by hand, applied them at `fc65cd5`, and asked for the same treatment across the rest of the book — *"not annoying the reader and not wasting their time"* rather than conciseness as such. **The taxonomy is read off his own edits**, class by class, and includes the two moves that spend words rather than saving them: naming what a cross-reference points at, and making a harm concrete. **100 files, 95,095 → 94,017 words**, a 1.1 percent cut against the 7.8 percent he took from the pages he read; 98 of 153 sections changed. **Four defects came from reading rather than from the taxonomy**, and the worst is in the conclusion: section 12.3, the last section of the book, pointed forward with *"The rest of this chapter"* at sections 12.1 and 12.2, which the reader has already passed. No claim changed anywhere. The proof pair was rebuilt afterwards and is current at 191 pages.
 
@@ -89,12 +91,12 @@ recorded in `p8-scope.md` rather than passed over.
 **Current as of 2026-08-30, after D-118.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
-list. **93,740 words of prose**, 90,791 of them outside the glossary, by `section_stats.py`
+list. **94,065 words of prose**, 90,781 of them outside the glossary, by `section_stats.py`
 (`finishing/reports/section_stats.tsv`). That figure excludes the four epigraphs
 as third-party text and counts a reference as the one number it prints; the
 conventions are in `common.tex_sections_of`. The whole-book proof is committed as a
 pair, `finishing/reports/whole-book-proof_2026-08-30.{pdf,html}`, **191 pages**,
-**rebuilt in place after P53 and current**, linked from the README. **The
+**rebuilt in place after P53 and now stale**, linked from the README — P54 changed chapter 1, chapter 7 and the glossary after it was built. **The
 date rolled over at P35**, having held from P30 through P34; P36 ran on the same date, so
 the pair was rebuilt in place under the same two filenames and the README links did not move, and
 P37 did the same a third time on that date, P38 a fourth, P42 a fifth, P44 a sixth, P45 a seventh, P48 an eighth and P49 a ninth — only the README's page figure moved, 192 to 189 to 182 to 187 to 190 to 191, and neither P48 nor P49 moved it — P48's six repairs cost and returned nothing in pages, and P49's six added 73 words without reaching a page. The page count held at 189 through the
@@ -1197,7 +1199,7 @@ table and the run-in heads hold. The rest was not read.
 ## The immediate open items
 
 **`finishing/QUESTIONS.md` is the live list; read it there rather than here.** As
-of D-118 it carries **27 entries above its Resolved line that are not also below
+of D-119 it carries **28 entries above its Resolved line that are not also below
 it**, and the newest is Q-054 — whether chapter 1's roadmap should have survived
 P53's cut of every other self-indexing passage. **That 27 overstates what is
 live**: many carry a D-111 or D-115 ruling in place and were never moved after
@@ -4278,3 +4280,73 @@ made the problem marginally worse: glossing a pointer puts the content on the pa
 leaves the number beside it, which is heavier than either alone. Four of the six had their
 pointers deleted here. **When a cross-reference needs explaining, check first whether it
 needs deleting.**
+
+## P54 — four defects in the glossary and the sourcing, 2026-08-30 (D-119)
+
+`p54-scope.md` has the item-by-item treatment and the verification route for each.
+
+**The findings came as a list of four and were checked one at a time before anything
+changed.** Three held exactly as stated. The third is larger than the finding said, and
+that is the part worth carrying forward.
+
+**“Floor” was misalphabetized, and sorting the list is what made it a defect rather than a
+guess.** It sat between “Explainability and transparency” and “Federated learning.”
+Re-sorting all 56 entries found **no other entry out of order**, which is what establishes
+it as a slip; a second exception would have suggested a convention nobody wrote down.
+
+**Two coinages had no entry, and the check was stronger than a lookup.** The strings
+`exit`, `molar` and `molecular` appear **nowhere in chapter 13 at all**. Exit is the book's
+narrowing of Hirschman at section 3.7; molar and molecular fascism is the Deleuze and
+Guattari borrowing section 2.1.2 leans on and chapter 7 and section 11.3 both turn on. The
+second entry lists **the five molecular discriminators** — participation exceeding the rule,
+loyalty overriding role, an internal category whose adverse treatment is its purpose,
+procedure enforced downward and waived upward, and a practice disowned in policy and
+rewarded in promotion. The glossary did not carry them anywhere, though chapter 7's whole
+argument is run against them and P51 measured them.
+
+**The Gordon figure was wrong on the page, not just unannotated.** The finding was that
+`gordon2022jury` carries no verification note while 200 of 305 entries do. True — and the
+prose read “changed the classification outcome for 14 percent of *contested cases*,” where
+the paper's denominator is all items: the abstract says juries “alter 14% of classification
+outcomes” and section 1 says the composition “changed the algorithm's classifications on
+14% of items.” The arXiv listing carries no version of the figure and the ACM page refuses
+automated fetches, so the authors' own copy was used and the text extracted locally. The
+evaluation is **18 moderators of online communities** on a comment toxicity task, and the
+prose now states the sample size, because the book leans on the number and eighteen is
+small. **One correction to the finding as given:** the citation is used twice, at 7.2 and
+7.3; the figure appears once.
+
+**The Dweck duplication was a 30-word verbatim run, and the author ruled which site
+survives.** Sections 1.3 and 5.1.1 shared “distinction between a fixed mindset, which
+treats ability as static, and a growth mindset, which treats it as built through effort and
+experience, matters,” then closed on the same errors-as-data against defends-prior-outputs
+contrast. **Section 1.3 carried it with no citation at all**, which was not in the finding.
+The two are not interchangeable — 5.1.1 has the `\autocite` and the tie to section 3.8's
+standard for a floor holding, while 1.3 is a preview whose two sibling run-in heads carry
+no names and no pointers — so the choice went to the author rather than being made for him.
+**His ruling: compress 1.3, keep 5.1.1 whole, keep Dweck's name in both, add no
+cross-reference.** Longest shared run now three words. The glossary's third statement was
+left alone, restating being what a glossary does.
+
+**Numbers.** 93,740 → 94,065 words; 56 → 58 glossary entries; glossary locators 120 → 123
+and the body unchanged at 476, D-118 having ruled the glossary out of scope; `refs.bib`
+notes 200 → 201 of 305. 191 pages, 0 undefined references, `check_all.sh` green. Four files
+changed — `ch01/01_03.tex` −12 words, `ch07/07_02.tex` +2, `ch13/13.tex` +333, and
+`refs.bib`. Section 5.1.1 untouched.
+
+**What this pass did not do.** It touched four files. **The 70 sections P53 changed are
+still unread end to end.** No other bibliography entry was audited for a missing
+annotation, and **104 of 305 still have none** — whether any of those is load-bearing the
+way the Gordon figure is has not been checked, and the finding does not generalize on its
+own. The other 121 glossary entries were checked for alphabetical order and not for
+content.
+
+**The pass's own finding, Q-055.** Reading the rendered glossary page rather than the
+extracted text showed the running head on every page of chapter 13: **“CHAPTER 12.
+CONCLUSION AND OUTLOOK.”** The glossary is set with `\chapter*`, which prints no number and
+sets no running mark, so chapter 12's head persists to the end of the book's body matter.
+The bibliography does not have it, `\printbibliography` setting its own mark. The build is
+clean and every check is green with it in place, which makes it a third instance of
+`pipeline.md`'s standing warning that a successful build says nothing about whether the
+page is right — after the epigraph stanza breaks and the `tcolorbox` paragraph runs. It is
+a preamble fix, outside these four findings, and was filed rather than taken.

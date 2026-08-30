@@ -35,11 +35,15 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-118:** 93,740 words,
-153 sections, 191 pages; **596 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
-words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them; `refs.bib` at
-305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 200 carrying
-notes; 312 instances of "rather than"; 109 glossary locators; **seven** leaf subsections
+**The figures this file turns on, re-measured 2026-08-30 after D-119:** 94,065 words,
+153 sections, 191 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
+words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
+P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
+`refs.bib` at 305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 201 carrying
+notes; 312 instances of "rather than"; **123 locator calls across the glossary's 58 entries —
+the 109 recorded here before P54 could not be reproduced** by any count of chapter 13 (entries,
+entries carrying at least one locator, and locator calls give 58, 58 and 123), so it is dropped
+rather than carried; **seven** leaf subsections
 under 230 words, at 1.1, 6.2.2, 6.3.2, 8.2.1, 8.2.3, 8.3.1 and 9.1.3. **The notes' word
 total is not re-measured and the previous figure, 8,695 at 210 entries, is dropped rather
 than carried.** Five of the seven figures moved at P52 and one moved at `fc65cd5`; the
@@ -1341,6 +1345,39 @@ pass otherwise removed**, which is either the right exception or an inconsistenc
 *Default (a) applies immediately and has already applied.* Recommended weakly: the reason
 to raise it is that the pass removed the same shape everywhere else, and an exception
 nobody ruled on is worse than either answer.
+
+---
+
+### Q-055 — The running head over the glossary names chapter 12
+
+Found at P54 (D-119) while reading the rendered glossary page, and confirmed as an image
+rather than in extracted text: every page of chapter 13 carries the running head
+**"CHAPTER 12. CONCLUSION AND OUTLOOK."** Printed pages 151 through 155 all show it.
+
+The cause is mechanical. The glossary is set with `\chapter*`, which prints no number and
+sets no running mark, so the head left standing by chapter 12 persists to the end of the
+chapter. `\addcontentsline` puts the glossary in the table of contents, which is why the
+defect is invisible everywhere except on the page itself. The bibliography does not have
+it: `\printbibliography` sets its own mark, which is why page 181 correctly reads
+"REFERENCES."
+
+**Nothing automated will catch this.** It is not a broken reference, a stale digest or a
+typographic character; the build is clean and `check_all.sh` is green with it in place. It
+is `pipeline.md`'s standing warning — *"the build succeeding says nothing about whether the
+page is right"* — collecting a third instance, after the epigraph stanza breaks and the
+`tcolorbox` paragraph runs.
+
+- **(a) Default — fix it in `preamble.tex`.** A `\markboth{GLOSSARY}{GLOSSARY}` after the
+  `\chapter*`, or `\chaptermark{Glossary}`, sets the head correctly. One line, in the file
+  that is already the design surface, and it changes no prose.
+- (b) Number the glossary as an ordinary chapter. It is already chapter 13 in the table of
+  contents and in every cross-reference; `\chapter` would make the running head correct for
+  free. Changes how the glossary presents itself, and the front matter would need a look.
+- (c) Leave it. It is one wrong line on five pages of back matter that many readers will
+  never turn to.
+
+*Default (a) applies at the next preamble change.* Not taken at P54, which was scoped to
+four findings in the prose and the bibliography and did not touch the typesetting.
 
 ---
 
