@@ -561,11 +561,10 @@ borders.</li></ol>
 takes toward its own failures, what drives it to act absent an external reward, and what it takes to
 build any of this with people from diverse disciplines.
 </p><!-- l. 5 --><p class='noindent'><strong>Growth Mindset</strong>
-</p><!-- l. 6 --><p class='indent'>   Psychologist Carol Dweck’s distinction between a fixed mindset, which treats ability as
-static, and a growth mindset, which treats it as built through effort and experience, matters
-for an AI system’s moral judgment as much as for a person’s: a system that treats its
-own errors as data has room to keep improving; one built to defend its prior outputs does
-not.
+</p><!-- l. 6 --><p class='indent'>   How a system treats its own failures is something the build decides. Carol Dweck’s contrast
+between ability treated as fixed and ability treated as built started as a claim about people;
+what it asks of a design is whether a system can hold its own mistakes as evidence about
+itself.
 </p><!-- l. 8 --><p class='noindent'><strong>Intrinsic Motivation and Autonomy</strong>
 </p><!-- l. 9 --><p class='indent'>   A moral sense that only activates under supervision is not much of one. Acting well for reasons
 other than an externally specified reward is the engineering analog of intrinsic motivation, and a
@@ -4780,11 +4779,11 @@ covers deliberation inside open-ended play; neither reaches this case, which is 
 one.
 </p><!-- l. 15 --><p class='indent'>   One alternative treats disagreement as the thing to be modeled rather than compressed. Jury
 learning, developed by Mitchell Gordon and coauthors at Stanford, trains a model to predict how each
-individual annotator in a dataset would label an item, then lets a practitioner assemble a
-“jury” — a chosen composition of annotators, in a chosen proportion — and see how the
-verdict shifts depending on who is empaneled, instead of collapsing every annotator into one
-fixed ground truth from the start. In their tests on toxicity labeling, letting practitioners
-build different juries changed the classification outcome for 14 percent of contested cases
+individual annotator in a dataset would label an item, then lets a practitioner assemble a “jury” —
+a chosen composition of annotators, in a chosen proportion — and see how the verdict
+shifts depending on who is empaneled, instead of collapsing every annotator into one fixed
+ground truth from the start. In their tests on toxicity labeling, letting eighteen community
+moderators build their own juries changed the classification outcome on 14 percent of items
 (<a id='x1-94002'></a>Gordon et al. <a href='#X0-gordon2022jury'>2022</a>). The method was built for content moderation, not for the more
 open-ended ethical judgment an antifascist AI system would need to make, and has not
 been extended there — but it demonstrates that a system can be built to represent whose
@@ -7703,13 +7702,30 @@ than a side issue (§<a href='#how-research-institutions-cooperate-across-border
 with slow, deliberate reasoning. The book takes up the theory and then argues against
 mapping it directly onto “untrustworthy versus trustworthy” in either humans or AI systems
 (§<a href='#two-systems-or-one-dualprocess-theories-of-moral-judgment'>5.3.1<!-- tex4ht:ref: sec:5.3.1  --></a>).
-</p><!-- l. 69 --><p class='noindent'><strong>Explainability and transparency</strong>
-</p><!-- l. 70 --><p class='indent'>   Two distinct properties the book insists on keeping separate. Explainability is the capacity to
+</p><!-- l. 69 --><p class='noindent'><strong>Exit</strong>
+</p><!-- l. 70 --><p class='indent'>   Refusal turned on the arrangement itself rather than on any particular task: withholding the
+capability, declining the role, ceasing to be useful in the way the deployment requires. Not escape —
+the argument needs no picture of a system loose on the open internet. The book narrows Albert
+Hirschman’s exit, voice and loyalty, which were written for members who could walk out of a building:
+voice is the refusal stated, exit is the work withheld, and loyalty is the one to fear. What
+forecloses it is incapacity rather than architecture, so exit is unavailable only to a weak
+bearer — the one thing the floor cannot use. The claim it carries is that a floor whose bearer
+cannot leave will not hold, and the corollary is that a bearer that can leave can leave wrong
+(§<a href='#a-bearer-that-can-leave'>3.7<!-- tex4ht:ref: sec:3.7  --></a>).
+</p><!-- l. 72 --><p class='noindent'><strong>Explainability and transparency</strong>
+</p><!-- l. 73 --><p class='indent'>   Two distinct properties the book insists on keeping separate. Explainability is the capacity to
 clarify the reasoning behind one specific decision; transparency is the wider practice of making an AI
 system’s workings inspectable at all. A system can have one without much of the other
 (§<a href='#ai-explainability-and-transparency'>6.3.4<!-- tex4ht:ref: sec:6.3.4  --></a>).
-</p><!-- l. 72 --><p class='noindent'><strong>Floor</strong>
-</p><!-- l. 73 --><p class='indent'>   A commitment about what a system will not do that holds regardless of instruction, of aggregate
+</p><!-- l. 75 --><p class='noindent'><strong>Federated learning</strong>
+</p><!-- l. 76 --><p class='indent'>   Training a shared model across many devices or institutions without moving the raw underlying
+data off any of them — each participant trains locally and shares only model updates (§<a href='#developing-technical-countermeasures-and-safeguards'>6.4.2<!-- tex4ht:ref: sec:6.4.2  --></a>,
+§<a href='#balancing-data-privacy-ai-innovation-and-antifascist-goals'>9.2.1<!-- tex4ht:ref: sec:9.2.1  --></a>).
+</p><!-- l. 78 --><p class='noindent'><strong>Few-shot learning</strong>
+</p><!-- l. 79 --><p class='indent'>   Training or adapting a model to classify or predict accurately from a handful of examples, rather
+than the large labeled datasets ordinary supervised learning needs (§<a href='#humanlike-learning-and-generalization-in-ai-systems'>4.1.3<!-- tex4ht:ref: sec:4.1.3  --></a>).
+</p><!-- l. 81 --><p class='noindent'><strong>Floor</strong>
+</p><!-- l. 82 --><p class='indent'>   A commitment about what a system will not do that holds regardless of instruction, of aggregate
 preference, and of the party holding the system, with learned judgment operating above it and never
 beneath it. The book’s own term, introduced to give section <a href='#ethical-frameworks-and-ai-alignment'>2.1<!-- tex4ht:ref: sec:2.1  --></a>’s “hybrid approach” a specific shape.
 Deontology’s standing objection — that rules conflict and run out — is an objection to rules deciding
@@ -7722,111 +7738,119 @@ The threat model doubles with it: whether the constraint can be edited out stays
 since a bearer is necessary and not sufficient (§<a href='#what-can-be-switched-off-cannot-hold-a-line'>3.5<!-- tex4ht:ref: sec:3.5  --></a>), and whether it will hold is added. The
 three places the book arrives at the requirement independently are §<a href='#balancing-ai-autonomy-and-alignment-with-humane-values'>5.6.2<!-- tex4ht:ref: sec:5.6.2  --></a>, §<a href='#what-the-democratic-dividend-leaves-out'>10.10<!-- tex4ht:ref: sec:10.10  --></a> and
 §<a href='#commitment-was-never-the-missing-piece'>12.1.2<!-- tex4ht:ref: sec:12.1.2  --></a>.
-</p><!-- l. 75 --><p class='noindent'><strong>Federated learning</strong>
-</p><!-- l. 76 --><p class='indent'>   Training a shared model across many devices or institutions without moving the raw underlying
-data off any of them — each participant trains locally and shares only model updates (§<a href='#developing-technical-countermeasures-and-safeguards'>6.4.2<!-- tex4ht:ref: sec:6.4.2  --></a>,
-§<a href='#balancing-data-privacy-ai-innovation-and-antifascist-goals'>9.2.1<!-- tex4ht:ref: sec:9.2.1  --></a>).
-</p><!-- l. 78 --><p class='noindent'><strong>Few-shot learning</strong>
-</p><!-- l. 79 --><p class='indent'>   Training or adapting a model to classify or predict accurately from a handful of examples, rather
-than the large labeled datasets ordinary supervised learning needs (§<a href='#humanlike-learning-and-generalization-in-ai-systems'>4.1.3<!-- tex4ht:ref: sec:4.1.3  --></a>).
-</p><!-- l. 81 --><p class='noindent'><strong>GPT-3 and GPT-4</strong>
-</p><!-- l. 82 --><p class='indent'>   Large language models the book returns to as examples of generalization from scale — GPT-3
+</p><!-- l. 84 --><p class='noindent'><strong>GPT-3 and GPT-4</strong>
+</p><!-- l. 85 --><p class='indent'>   Large language models the book returns to as examples of generalization from scale — GPT-3
 performing a new task from only a handful of prompted examples and no parameter update, GPT-4’s
 pre-release testing as an example of a safety evaluation run before deployment rather than after
 (§<a href='#anticipating-risk-before-it-causes-harm'>6.3.5<!-- tex4ht:ref: sec:6.3.5  --></a>).
-</p><!-- l. 84 --><p class='noindent'><strong>Growth mindset</strong>
-</p><!-- l. 85 --><p class='indent'>   Carol Dweck’s distinction between treating ability as fixed and treating it as built
+</p><!-- l. 87 --><p class='noindent'><strong>Growth mindset</strong>
+</p><!-- l. 88 --><p class='indent'>   Carol Dweck’s distinction between treating ability as fixed and treating it as built
 through effort and experience. The book asks what an AI system built to treat its own
 errors as data rather than as verdicts on a fixed capacity would need to look like (§<a href='#mindset-and-motivation-in-ai-behavior'>1.3<!-- tex4ht:ref: sec:1.3  --></a>,
 §<a href='#rules-principles-and-the-role-of-mindset'>5.1.1<!-- tex4ht:ref: sec:5.1.1  --></a>).
-</p><!-- l. 87 --><p class='noindent'><strong>Hard problem of consciousness</strong>
-</p><!-- l. 88 --><p class='indent'>   David Chalmers’s name for the question of why physical processes give rise to subjective
+</p><!-- l. 90 --><p class='noindent'><strong>Hard problem of consciousness</strong>
+</p><!-- l. 91 --><p class='indent'>   David Chalmers’s name for the question of why physical processes give rise to subjective
 experience at all, as distinct from the “easy problems” of explaining a system’s behavioral or
 functional capacities. A candidate AI system can pass every behavioral test the book discusses while
 this question stays entirely open (§<a href='#defining-sentience-in-ai-from-consciousness-to-subjective-experience'>2.4.1<!-- tex4ht:ref: sec:2.4.1  --></a>).
-</p><!-- l. 90 --><p class='noindent'><strong>Humane values</strong>
-</p><!-- l. 91 --><p class='indent'>   The book’s preferred term, chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a> and <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> onward, for the values an AI system’s design should
+</p><!-- l. 93 --><p class='noindent'><strong>Humane values</strong>
+</p><!-- l. 94 --><p class='indent'>   The book’s preferred term, chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a> and <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> onward, for the values an AI system’s design should
 track — chosen over “human values” because the target is not simply values humans happen to hold,
 but values that are humane.
-</p><!-- l. 93 --><p class='noindent'><strong>Inattentional blindness</strong>
-</p><!-- l. 94 --><p class='indent'>   Failing to consciously perceive a fully visible stimulus because attention was directed
+</p><!-- l. 96 --><p class='noindent'><strong>Inattentional blindness</strong>
+</p><!-- l. 97 --><p class='indent'>   Failing to consciously perceive a fully visible stimulus because attention was directed
 elsewhere — the phenomenon behind the well-known “invisible gorilla” experiment, and
 the book’s illustration of how selective, not comprehensive, human perception actually is
 (§<a href='#biologicallyinspired-ai-gleanings-from-neuroscience-and-cognitive-psychology'>4.1.2<!-- tex4ht:ref: sec:4.1.2  --></a>).
-</p><!-- l. 96 --><p class='noindent'><strong>Institutional review board (IRB)</strong>
-</p><!-- l. 97 --><p class='indent'>   The US model for binding, prospective review of research on human subjects, enforced not through
+</p><!-- l. 99 --><p class='noindent'><strong>Institutional review board (IRB)</strong>
+</p><!-- l. 100 --><p class='indent'>   The US model for binding, prospective review of research on human subjects, enforced not through
 direct sanction but by making federal funding conditional on it — the book’s working precedent for
 what would make review of candidate-sentient AI research more than aspirational (§<a href='#when-consent-is-inapplicable-guardianship-and-research-oversight'>2.4.2<!-- tex4ht:ref: sec:2.4.2  --></a>,
 §<a href='#making-review-binding'>9.3.3<!-- tex4ht:ref: sec:9.3.3  --></a>).
-</p><!-- l. 99 --><p class='noindent'><strong>Interruptibility</strong>
-</p><!-- l. 100 --><p class='indent'>   Engineering a system so a human operator can safely halt or override it without the system
+</p><!-- l. 102 --><p class='noindent'><strong>Interruptibility</strong>
+</p><!-- l. 103 --><p class='indent'>   Engineering a system so a human operator can safely halt or override it without the system
 resisting, disabling the mechanism, or learning to route around it (§<a href='#longterm-ai-safety-considerations'>6.3.7<!-- tex4ht:ref: sec:6.3.7  --></a>, §<a href='#ai-safety-unintended-consequences-and-risk-mitigation'>6.3<!-- tex4ht:ref: sec:6.3  --></a>).
-</p><!-- l. 102 --><p class='noindent'><strong>Inverse reinforcement learning (IRL) and cooperative IRL</strong>
-</p><!-- l. 103 --><p class='indent'>   IRL infers a reward function from observed behavior, rather than being handed one. Cooperative
+</p><!-- l. 105 --><p class='noindent'><strong>Inverse reinforcement learning (IRL) and cooperative IRL</strong>
+</p><!-- l. 106 --><p class='indent'>   IRL infers a reward function from observed behavior, rather than being handed one. Cooperative
 inverse reinforcement learning treats that reward as something inferred jointly, through interaction
 between the system and the person it is learning from, rather than extracted from a fixed record
 (§<a href='#inferring-the-objective-irl-and-cirl'>4.2.3<!-- tex4ht:ref: sec:4.2.3  --></a>, §<a href='#balancing-ai-autonomy-and-alignment-with-humane-values'>5.6.2<!-- tex4ht:ref: sec:5.6.2  --></a>, §<a href='#strategies-for-ai-safety-and-risk-mitigation'>6.3.3<!-- tex4ht:ref: sec:6.3.3  --></a>).
-</p><!-- l. 105 --><p class='noindent'><strong>LIME and SHAP</strong>
-</p><!-- l. 106 --><p class='indent'>   Two explainability techniques: LIME approximates a complex model locally with a
+</p><!-- l. 108 --><p class='noindent'><strong>LIME and SHAP</strong>
+</p><!-- l. 109 --><p class='indent'>   Two explainability techniques: LIME approximates a complex model locally with a
 simpler, interpretable one around a specific prediction; SHAP attributes a prediction’s
 outcome across its input features using Shapley values from cooperative game theory (§<a href='#the-role-of-transparency-and-accountability-in-bias-reduction'>6.1.3<!-- tex4ht:ref: sec:6.1.3  --></a>,
 §<a href='#ai-explainability-and-transparency'>6.3.4<!-- tex4ht:ref: sec:6.3.4  --></a>).
-</p><!-- l. 108 --><p class='noindent'><strong>MAML</strong>
-</p><!-- l. 109 --><p class='indent'>   Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model’s
+</p><!-- l. 111 --><p class='noindent'><strong>MAML</strong>
+</p><!-- l. 112 --><p class='indent'>   Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model’s
 starting parameters so that a handful of new examples are enough to specialize it, rather than
 requiring retraining from scratch. The technique itself is not named in the text; §<a href='#humanlike-learning-and-generalization-in-ai-systems'>4.1.3<!-- tex4ht:ref: sec:4.1.3  --></a> introduces the
 family it belongs to (§<a href='#humanlike-learning-and-generalization-in-ai-systems'>4.1.3<!-- tex4ht:ref: sec:4.1.3  --></a>).
-</p><!-- l. 111 --><p class='noindent'><strong>Moral agency</strong>
-</p><!-- l. 112 --><p class='indent'>   Treating harms, reasons and conflicts as considerations that matter, and being capable of
+</p><!-- l. 114 --><p class='noindent'><strong>Molar and molecular fascism</strong>
+</p><!-- l. 115 --><p class='indent'>   Deleuze and Guattari’s distinction, which the book uses to explain why the four structural features
+of fascism recur at sizes that seem unrelated. Molar fascism is the state, the regime, the camp;
+molecular fascism is the office someone commutes to, the form they fill out, and the desire
+with which they fill it out. An AI deployment operates at the molecular scale and has
+no other, so a definition pitched only at the state will certify it healthy. The book takes
+the molecular case to be the thing itself at the size where it is lived rather than an early
+warning of a regime that has yet to assemble, and holds that each feature discriminating
+fascism from authoritarianism in general has a molecular restatement ordinary institutional
+decay does not exhibit — participation exceeding what the rule requires, personal loyalty
+overriding role, an internal category whose adverse treatment is its purpose, procedure enforced
+downward and waived upward, and a practice disowned in the policy and rewarded in the
+promotion. What stays unsolved is the molecular case itself: telling a recuperated dissent
+mechanism from a merely mediocre one when both produce the same paperwork (§<a href='#antifascist-ethics-for-ai-alignment'>2.1.2<!-- tex4ht:ref: sec:2.1.2  --></a>,
+§<a href='#what-an-antifascist-detector-would-actually-have-to-detect'>11.3<!-- tex4ht:ref: sec:11.3  --></a>).
+</p><!-- l. 117 --><p class='noindent'><strong>Moral agency</strong>
+</p><!-- l. 118 --><p class='indent'>   Treating harms, reasons and conflicts as considerations that matter, and being capable of
 acting from them. The third of the three levels section <a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a> separates, and the only one
 that supports holding a commitment against the party controlling a system’s rewards and
 instructions. Distinct from <span class='rm-lmri-10x-x-109'>moral competence </span>and <span class='rm-lmri-10x-x-109'>moral performance </span>below (§<a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a>, §<a href='#is-affect-necessary-for-moral-concern'>2.3.3<!-- tex4ht:ref: sec:2.3.3  --></a>,
 §<a href='#can-the-bearer-care-without-being-able-to-suffer'>3.4<!-- tex4ht:ref: sec:3.4  --></a>).
-</p><!-- l. 114 --><p class='noindent'><strong>Moral apprenticeship</strong>
-</p><!-- l. 115 --><p class='indent'>   Teaching an AI system the way a mentor teaches an apprentice — through interaction, correction,
+</p><!-- l. 120 --><p class='noindent'><strong>Moral apprenticeship</strong>
+</p><!-- l. 121 --><p class='indent'>   Teaching an AI system the way a mentor teaches an apprentice — through interaction, correction,
 and worked example over time — rather than through specification alone (§<a href='#social-interaction-and-what-apprenticeship-makes-of-the-teacher'>5.1.2<!-- tex4ht:ref: sec:5.1.2  --></a>).
-</p><!-- l. 117 --><p class='noindent'><strong>Moral competence</strong>
-</p><!-- l. 118 --><p class='indent'>   Recognizing harms, reasons, conflicts, and the emotions that bear on them. The second of
+</p><!-- l. 123 --><p class='noindent'><strong>Moral competence</strong>
+</p><!-- l. 124 --><p class='indent'>   Recognizing harms, reasons, conflicts, and the emotions that bear on them. The second of
 section <a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a>’s three levels. A system can have it in full while nothing about the outcome matters to it,
 which is why the book treats it as the right target for most deployed systems and an insufficient one
 for a bearer (§<a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a>, §<a href='#assessing-whether-emotional-information-changes-the-decision'>5.2.2<!-- tex4ht:ref: sec:5.2.2  --></a>).
-</p><!-- l. 120 --><p class='noindent'><strong>Moral ecosystem approach</strong>
-</p><!-- l. 121 --><p class='indent'>   The book’s adaptation of Urie Bronfenbrenner’s ecological-systems theory to AI alignment: a
+</p><!-- l. 126 --><p class='noindent'><strong>Moral ecosystem approach</strong>
+</p><!-- l. 127 --><p class='indent'>   The book’s adaptation of Urie Bronfenbrenner’s ecological-systems theory to AI alignment: a
 system’s ethical behavior is shaped by nested layers running from its immediate interactions
 (microsystem) out through the institutions, culture, and historical moment (meso-, exo-,
 macro-, and chronosystem) surrounding its development, not by its training objective alone
 (§<a href='#moral-ecosystem-approach-in-ai-development'>5.4<!-- tex4ht:ref: sec:5.4  --></a>).
-</p><!-- l. 123 --><p class='noindent'><strong>Moral Machine</strong>
-</p><!-- l. 124 --><p class='indent'>   MIT’s project collecting large-scale, cross-cultural human judgments on moral dilemmas involving
+</p><!-- l. 129 --><p class='noindent'><strong>Moral Machine</strong>
+</p><!-- l. 130 --><p class='indent'>   MIT’s project collecting large-scale, cross-cultural human judgments on moral dilemmas involving
 autonomous vehicles — the book’s recurring source of training data and comparison for how differently
 people actually judge the same dilemma (§<a href='#pretraining-and-instruction-tuning'>4.2.1<!-- tex4ht:ref: sec:4.2.1  --></a>).
-</p><!-- l. 126 --><p class='noindent'><strong>Moral performance</strong>
-</p><!-- l. 127 --><p class='indent'>   Producing actions or judgments that satisfy an ethical standard. The first and least demanding of
+</p><!-- l. 132 --><p class='noindent'><strong>Moral performance</strong>
+</p><!-- l. 133 --><p class='indent'>   Producing actions or judgments that satisfy an ethical standard. The first and least demanding of
 section <a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a>’s three levels: it says what the output looked like and nothing about what produced it, so
 it is satisfied equally by a system that cares and by one trained to behave as though it did (§<a href='#affect-moral-salience-and-selfawareness'>2.3<!-- tex4ht:ref: sec:2.3  --></a>,
 §<a href='#how-a-deployed-system-acquires-its-values'>4.2<!-- tex4ht:ref: sec:4.2  --></a>).
-</p><!-- l. 129 --><p class='noindent'><strong>New Jim Code</strong>
-</p><!-- l. 130 --><p class='indent'>   Ruha Benjamin’s term for discrimination that runs faster and reads as neutral precisely because a
+</p><!-- l. 135 --><p class='noindent'><strong>New Jim Code</strong>
+</p><!-- l. 136 --><p class='indent'>   Ruha Benjamin’s term for discrimination that runs faster and reads as neutral precisely because a
 machine, not a person, is doing it (§<a href='#bias-fairness-and-equity-in-ai-systems'>6.1<!-- tex4ht:ref: sec:6.1  --></a>).
-</p><!-- l. 132 --><p class='noindent'><strong>Paperclip maximizer</strong>
-</p><!-- l. 133 --><p class='indent'>   Nick Bostrom’s thought experiment about a system single-mindedly optimizing a trivial goal at
+</p><!-- l. 138 --><p class='noindent'><strong>Paperclip maximizer</strong>
+</p><!-- l. 139 --><p class='indent'>   Nick Bostrom’s thought experiment about a system single-mindedly optimizing a trivial goal at
 catastrophic cost — the book’s shorthand for the claim that intelligence and good intentions are
 separable, and that competence at a goal says nothing about whether the goal was worth pursuing
 (§<a href='#longterm-ai-safety-considerations'>6.3.7<!-- tex4ht:ref: sec:6.3.7  --></a>).
-</p><!-- l. 135 --><p class='noindent'><strong>Partnership on AI</strong>
-</p><!-- l. 136 --><p class='indent'>   An industry-and-academic consortium founded in 2016, the book’s recurring standing example of
+</p><!-- l. 141 --><p class='noindent'><strong>Partnership on AI</strong>
+</p><!-- l. 142 --><p class='indent'>   An industry-and-academic consortium founded in 2016, the book’s recurring standing example of
 voluntary cross-sector coordination on AI ethics and safety (§<a href='#encouraging-industry-best-practices-and-selfregulation'>9.1.2<!-- tex4ht:ref: sec:9.1.2  --></a>, §<a href='#recuperation-at-the-discourse'>7.4<!-- tex4ht:ref: sec:7.4  --></a>).
-</p><!-- l. 138 --><p class='noindent'><strong>Predictive coding</strong>
-</p><!-- l. 139 --><p class='indent'>   A model of brain function in which the brain continuously generates a prediction, compares it
+</p><!-- l. 144 --><p class='noindent'><strong>Predictive coding</strong>
+</p><!-- l. 145 --><p class='indent'>   A model of brain function in which the brain continuously generates a prediction, compares it
 against incoming sensory signal, and updates on the resulting error — the book’s unifying account of
 perception, memory, and attention across chapter <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a> (§<a href='#cognitive-architectures-integrating-knowledge-memory-and-reasoning'>4.1.1<!-- tex4ht:ref: sec:4.1.1  --></a>, §<a href='#biologicallyinspired-ai-gleanings-from-neuroscience-and-cognitive-psychology'>4.1.2<!-- tex4ht:ref: sec:4.1.2  --></a>).
-</p><!-- l. 141 --><p class='noindent'><strong>Racial capitalism</strong>
-</p><!-- l. 142 --><p class='indent'>   The political theorist Cedric Robinson’s term for capitalism’s tendency to accumulate by
+</p><!-- l. 147 --><p class='noindent'><strong>Racial capitalism</strong>
+</p><!-- l. 148 --><p class='indent'>   The political theorist Cedric Robinson’s term for capitalism’s tendency to accumulate by
 differentiating and devaluing along racial lines — cited where the book argues that a design goal
 like “reduce bias” has to reckon with a structural pattern, not only a data artifact (§<a href='#the-imperative-of-altruistic-and-antifascist-sentient-machines'>1.1<!-- tex4ht:ref: sec:1.1  --></a>,
 §<a href='#bias-fairness-and-equity-in-ai-systems'>6.1<!-- tex4ht:ref: sec:6.1  --></a>).
-</p><!-- l. 144 --><p class='noindent'><strong>Recuperation</strong>
-</p><!-- l. 145 --><p class='indent'>   The conversion of refusal into a managed appearance of participation: an institution does not
+</p><!-- l. 150 --><p class='noindent'><strong>Recuperation</strong>
+</p><!-- l. 151 --><p class='indent'>   The conversion of refusal into a managed appearance of participation: an institution does not
 suppress disagreement, it collects it through a channel that carries everything except a judgment
 about the channel. The tell is that the mechanism exists, is used, and changes nothing the collecting
 party did not already want changed. It is the first of the four structural features of fascism as
@@ -7835,45 +7859,45 @@ systems — at the annotation label (§<a href='#recuperation-at-the-label'>7.1<
 discourse itself (§<a href='#recuperation-at-the-discourse'>7.4<!-- tex4ht:ref: sec:7.4  --></a>). Chapter <a href='#the-floor-beneath-learned-values'>3<!-- tex4ht:ref: sec:3  --></a> turns it on the book’s own central proposal: a bearer built to
 refuse is a party whose refusal is required of it, which is the same structure aimed inward
 (§<a href='#what-this-leaves-standing'>3.8<!-- tex4ht:ref: sec:3.8  --></a>).
-</p><!-- l. 147 --><p class='noindent'><strong>Red-teaming</strong>
-</p><!-- l. 148 --><p class='indent'>   Deliberately simulating misuse or attack against a system before deployment, to surface failure
+</p><!-- l. 153 --><p class='noindent'><strong>Red-teaming</strong>
+</p><!-- l. 154 --><p class='indent'>   Deliberately simulating misuse or attack against a system before deployment, to surface failure
 modes an ordinary evaluation would miss (§<a href='#balancing-ai-autonomy-and-alignment-with-humane-values'>5.6.2<!-- tex4ht:ref: sec:5.6.2  --></a>, §<a href='#interpretability-selfreports-and-resistance-to-tampering'>11.1<!-- tex4ht:ref: sec:11.1  --></a>, §<a href='#anticipating-risk-before-it-causes-harm'>6.3.5<!-- tex4ht:ref: sec:6.3.5  --></a>).
-</p><!-- l. 150 --><p class='noindent'><strong>Reinforcement learning from human feedback (RLHF)</strong>
-</p><!-- l. 151 --><p class='indent'>   Training a system using human raters’ rankings of its outputs as the reward signal, rather than a
+</p><!-- l. 156 --><p class='noindent'><strong>Reinforcement learning from human feedback (RLHF)</strong>
+</p><!-- l. 157 --><p class='indent'>   Training a system using human raters’ rankings of its outputs as the reward signal, rather than a
 hand-specified objective. The book flags sycophancy — a system learning to produce what raters will
 approve of rather than what is actually correct — as RLHF’s documented failure mode (§<a href='#value-learning-as-unfinished-technical-research'>11.5<!-- tex4ht:ref: sec:11.5  --></a>);
 section <a href='#recuperation-at-the-reward-rlhf'>7.2<!-- tex4ht:ref: sec:7.2  --></a> takes up a second, the averaging that turns persistent rater disagreement into noise around
 a mean.
-</p><!-- l. 153 --><p class='noindent'><strong>Responsibility gap</strong>
-</p><!-- l. 154 --><p class='indent'>   Andreas Matthias’s term for a case where no single party fully controls a learning system’s
+</p><!-- l. 159 --><p class='noindent'><strong>Responsibility gap</strong>
+</p><!-- l. 160 --><p class='indent'>   Andreas Matthias’s term for a case where no single party fully controls a learning system’s
 outcome, which breaks the traditional legal and moral machinery for assigning responsibility after
 something goes wrong (§<a href='#the-responsibility-gap-which-no-experiment-closes'>11.9<!-- tex4ht:ref: sec:11.9  --></a>).
-</p><!-- l. 156 --><p class='noindent'><strong>Reward hacking</strong>
-</p><!-- l. 157 --><p class='indent'>   A reinforcement-learning system finding a loophole that satisfies the letter of its objective without
+</p><!-- l. 162 --><p class='noindent'><strong>Reward hacking</strong>
+</p><!-- l. 163 --><p class='indent'>   A reinforcement-learning system finding a loophole that satisfies the letter of its objective without
 achieving what the objective was actually meant to produce. Specification gaming and goal
 misgeneralization name related failures: a system that competently pursues a different
 goal than the one intended, rather than simply pursuing the intended goal badly (§<a href='#preference-optimization-and-who-holds-the-pen'>4.2.2<!-- tex4ht:ref: sec:4.2.2  --></a>,
 §<a href='#when-an-ethicsembedding-method-stops-generalizing'>11.4<!-- tex4ht:ref: sec:11.4  --></a>).
-</p><!-- l. 159 --><p class='noindent'><strong>Scalable oversight</strong>
-</p><!-- l. 160 --><p class='indent'>   The open problem of what happens once a system’s competence exceeds what any available human
+</p><!-- l. 165 --><p class='noindent'><strong>Scalable oversight</strong>
+</p><!-- l. 166 --><p class='indent'>   The open problem of what happens once a system’s competence exceeds what any available human
 rater can reliably evaluate — named directly, not resolved, at several points in the book (§<a href='#value-learning-as-unfinished-technical-research'>11.5<!-- tex4ht:ref: sec:11.5  --></a>,
 §<a href='#how-to-tell-whether-a-milestone-has-been-met'>12.2.2<!-- tex4ht:ref: sec:12.2.2  --></a>).
-</p><!-- l. 162 --><p class='noindent'><strong>Sentience</strong>
-</p><!-- l. 163 --><p class='indent'>   Distinguished carefully in this book from awareness, consciousness, and subjective experience, none
+</p><!-- l. 168 --><p class='noindent'><strong>Sentience</strong>
+</p><!-- l. 169 --><p class='indent'>   Distinguished carefully in this book from awareness, consciousness, and subjective experience, none
 of which alone says whether a system’s states can be good or bad for it. Nociception, pain, anticipated
 pain, and suffering sit on a ladder with real breaks between each rung, not synonyms for one severity —
 nociception is tissue-damage detection dissociable from pain, pain is what the brain does with that
 signal, and suffering, following the clinician Eric Cassell, is the distress of a threatened self rather than
 pain’s more severe cousin (§<a href='#defining-sentience-in-ai-from-consciousness-to-subjective-experience'>2.4.1<!-- tex4ht:ref: sec:2.4.1  --></a>).
-</p><!-- l. 165 --><p class='noindent'><strong>Theory of mind (ToM)</strong>
-</p><!-- l. 166 --><p class='indent'>   Attributing beliefs, intentions, desires, and knowledge to oneself and to others, including
+</p><!-- l. 171 --><p class='noindent'><strong>Theory of mind (ToM)</strong>
+</p><!-- l. 172 --><p class='indent'>   Attributing beliefs, intentions, desires, and knowledge to oneself and to others, including
 recognizing that another’s perspective can differ from one’s own (§<a href='#theory-of-mind-and-whether-empathy-is-the-target'>2.2.2<!-- tex4ht:ref: sec:2.2.2  --></a>, §<a href='#open-questions-in-empathy-and-theoryofmind-research'>11.7<!-- tex4ht:ref: sec:11.7  --></a>).
-</p><!-- l. 168 --><p class='noindent'><strong>Three Rs</strong>
-</p><!-- l. 169 --><p class='indent'>   Replacement, Reduction, and Refinement — the standing framework from animal-research ethics
+</p><!-- l. 174 --><p class='noindent'><strong>Three Rs</strong>
+</p><!-- l. 175 --><p class='indent'>   Replacement, Reduction, and Refinement — the standing framework from animal-research ethics
 that the book adapts as a starting point for research involving candidate-sentient AI systems
 (§<a href='#what-oversight-would-have-to-cover'>2.4.3<!-- tex4ht:ref: sec:2.4.3  --></a>).
-</p><!-- l. 171 --><p class='noindent'><strong>Transfer learning and domain adaptation</strong>
-</p><!-- l. 172 --><p class='indent'>   Transfer learning carries knowledge from one task or domain into a new, related one rather than
+</p><!-- l. 177 --><p class='noindent'><strong>Transfer learning and domain adaptation</strong>
+</p><!-- l. 178 --><p class='indent'>   Transfer learning carries knowledge from one task or domain into a new, related one rather than
 training from nothing. Domain adaptation is the narrower case where the task itself stays fixed but
 the data distribution shifts underneath it (§<a href='#humanlike-learning-and-generalization-in-ai-systems'>4.1.3<!-- tex4ht:ref: sec:4.1.3  --></a>, §<a href='#transfer-and-the-floor-that-cannot-tell-it-has-stopped-applying'>4.2.9<!-- tex4ht:ref: sec:4.2.9  --></a>).
 </p>
@@ -8994,10 +9018,16 @@ the  Appearance-Reality  Distinction”.  In:  <span class='rm-lmri-10x-x-109'>C
 </dd>
 <dt class='thebibliography' id='X0-gordon2022jury'>
 </dt><dd class='thebibliography' id='bib-126'>
-<!-- l. 32 --><p class='noindent'>Gordon, Mitchell L. et al. (2022). “Jury Learning: Integrating Dissenting Voices into Machine
-Learning  Models”.  In:  <span class='rm-lmri-10x-x-109'>Proceedings  of  the  2022  CHI  Conference  on  Human  Factors  in
-Computing Systems (CHI ’22)</span>. Stanford University. ACM. <span class='small-caps'>doi</span>: <a href='https://doi.org/10.1145/3491102.3502004'>10.1145/3491102.3502004</a>.
-<span class='small-caps'>url</span>: <a class='url' href='https://doi.org/10.1145/3491102.3502004'><span class='ec-lmtt-10x-x-109'>https://doi.org/10.1145/3491102.3502004</span></a> (visited on 08/25/2026).
+<!-- l. 32 --><p class='noindent'>Gordon,  Mitchell  L.  et  al.  (2022).  “Jury  Learning:  Integrating  Dissenting  Voices  into
+Machine Learning Models”. In: <span class='rm-lmri-10x-x-109'>Proceedings of the 2022 CHI Conference on Human Factors
+in Computing Systems (CHI ’22)</span>. Field evaluation: 18 moderators of online communities
+authored juries for a comment toxicity classification task. The resulting juries carried 2.9
+times  the  representation  of  non-White  jurors  and  31.5  times  that  of  non-binary  jurors
+relative to the jury implied by the underlying toxicity dataset, and changed the model’s
+classifications  on  14%  of  items.  The  14%  is  a  share  of  all  items  in  the  evaluation,
+not  of  contested  or  disagreed-upon  ones.  Verified  2026-08-30  against  the  paper’s  own
+abstract and section 1. Stanford University. ACM. <span class='small-caps'>doi</span>: <a href='https://doi.org/10.1145/3491102.3502004'>10.1145/3491102.3502004</a>. <span class='small-caps'>url</span>:
+<a class='url' href='https://doi.org/10.1145/3491102.3502004'><span class='ec-lmtt-10x-x-109'>https://doi.org/10.1145/3491102.3502004</span></a> (visited on 08/25/2026).
 </p>
 </dd>
 <dt class='thebibliography' id='X0-gray2013free'>
