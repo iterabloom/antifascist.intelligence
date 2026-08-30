@@ -35,11 +35,13 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, measured 2026-08-29 after D-109:** 93,911 words,
-153 sections, 191 pages; 826 `\ref{sec:` calls, one per 114 words; `refs.bib` at
-326 entries with 23 uncited and 210 carrying notes totalling 8,695 words; 317
-instances of "rather than"; 124 glossary locators; five leaf subsections under 230
-words. For orientation read `finishing/STATE.md`.
+**The figures this file turns on, re-measured 2026-08-29 after D-116:** 95,405 words,
+153 sections, 192 pages; 843 `\ref{sec:` calls, one per 113 words; `refs.bib` at
+303 entries, 23 having moved to `unused_bibliography.bib` at P47, with 198 carrying
+notes; 322 instances of "rather than"; 120 glossary locators; five leaf subsections
+under 230 words, at 6.2.2, 6.3.2, 8.2.1, 8.2.3 and 9.1.3. **The notes' word total is
+not re-measured and the previous figure, 8,695 at 210 entries, is dropped rather than
+carried.** The block this replaces was measured after D-109 and was seven passes stale. For orientation read `finishing/STATE.md`.
 
 The other standing item is not a question. **140 of the book's 153 sections are
 `drafted` and unread**, and the seven passes of 2026-08-29 concentrated their

@@ -119,6 +119,7 @@ behavior is not a validation, and it is more than the assertion the book had.
 | pages | 191 | 192 |
 | sections | 153 | 153 |
 | undefined references in the build | 0 | 0 |
+| `\ref{sec:` calls | 826 | 843 |
 | ledger `accepted` | 13 | 12 |
 
 **Per section:** 3.8 +166, 3.3 +94, 3.5 +7, 5.1.1 −123, 1 +26, 2.4.1 +34, 6.3.4 −49,
