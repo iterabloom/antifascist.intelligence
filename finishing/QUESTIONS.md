@@ -35,8 +35,9 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-117:** 94,017 words,
-153 sections, 191 pages; 848 `\ref{sec:` calls, one per 111 words; `refs.bib` at
+**The figures this file turns on, re-measured 2026-08-30 after D-118:** 93,740 words,
+153 sections, 191 pages; **596 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
+words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them; `refs.bib` at
 305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 200 carrying
 notes; 312 instances of "rather than"; 109 glossary locators; **seven** leaf subsections
 under 230 words, at 1.1, 6.2.2, 6.3.2, 8.2.1, 8.2.3, 8.3.1 and 9.1.3. **The notes' word
@@ -1308,6 +1309,38 @@ already had, because changing a head's case is a ruling and not a defect.
 
 *Default (a) applies at the next pass touching chapters 6 and 9.* Recommended weakly: this
 is the smallest thing in the file and the only one a reader meets on every page.
+
+---
+
+### Q-054 — Chapter 1's roadmap survived the cross-reference cut on a judgment
+
+P53 (D-118) cut the book from 848 cross-references to 596 and left chapter 1's roadmap
+paragraph intact: twelve references in one paragraph, naming chapters 2 through 12 in
+order. It is now the densest paragraph in the body of the book, and chapter 1 is the
+densest body chapter at one reference per 116 words against a book average of one per 188.
+
+The pass kept it on the reasoning that a roadmap is the one place where the numbers are the
+subject rather than an interruption — the reader is not being sent anywhere, they are being
+told the shape of the book. That is a judgment about what a reader wants from an
+introduction, and nothing measured it. Every other self-indexing passage in the book was
+cut, including the openers of chapters 7, 8, 9, 11 and 12, each of which mapped its own
+sections the same way at smaller scale. **The roadmap is the one survivor of a class the
+pass otherwise removed**, which is either the right exception or an inconsistency.
+
+- **(a) Default — keep it.** An introduction that says what each chapter does is ordinary
+  nonfiction, and a reader meets it once, before any argument, when they have nothing else
+  to hold. Costs nothing further; the inconsistency stands and is recorded here.
+- (b) Cut the numbers, keep the prose. The paragraph would describe the book's shape
+  without printing twelve references — *"the design chapters," "the policy chapters," "the
+  conclusion."* Consistent with what the pass did everywhere else, and it loses the
+  reader's ability to turn to a named chapter from the introduction.
+- (c) Cut the paragraph. It is the largest single block of references left in the body and
+  the chapter reads without it. The most aggressive option and the one the author has not
+  asked for.
+
+*Default (a) applies immediately and has already applied.* Recommended weakly: the reason
+to raise it is that the pass removed the same shape everywhere else, and an exception
+nobody ruled on is worse than either answer.
 
 ---
 

@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-08-30 after D-117 (P52): the reader-cost pass.** The author sampled eight pages at random, edited them by hand, applied them at `fc65cd5`, and asked for the same treatment across the rest of the book — *"not annoying the reader and not wasting their time"* rather than conciseness as such. **The taxonomy is read off his own edits**, class by class, and includes the two moves that spend words rather than saving them: naming what a cross-reference points at, and making a harm concrete. **100 files, 95,095 → 94,017 words**, a 1.1 percent cut against the 7.8 percent he took from the pages he read; 98 of 153 sections changed. **Four defects came from reading rather than from the taxonomy**, and the worst is in the conclusion: section 12.3, the last section of the book, pointed forward with *"The rest of this chapter"* at sections 12.1 and 12.2, which the reader has already passed. No claim changed anywhere. The proof pair was rebuilt afterwards and is current at 191 pages.
+Read this first. **Updated 2026-08-30 after D-118 (P53): the cross-reference density pass.** The author's finding was that the book is *"way too cross referenced"* and that the references distract, and he ruled the method before anything was cut: **restate, then cut**. Where a pointer carried meaning it was replaced by a short restatement of the claim and the reference deleted; where the sentence already carried the claim the reference came out alone. **The glossary is out of scope by the same ruling.** **848 → 596 references book-wide, the body 728 → 476, one per 122 words of prose to one per 188.** The figure that describes the reading experience: **paragraphs carrying at least one reference went from 51 to 36 percent, and paragraphs carrying two or more from 21 to 10.** **Chapter 3 went 147 → 53** and **chapter 12 went 45 → 7**; a conclusion restates rather than indexes, and chapter 3 had been mapping its own eight sections three separate times. **Why P28 got 10 percent against an instruction of 50 is now on the record:** the shapes a tool can classify as removable total about 100, and 625 of 806 references are welded into their sentences where no tool reaches them. **70 sections changed, 94,017 → 93,740 words** — 277 words for 252 references, because the restatements buy the words back. 191 pages, 0 undefined references, `check_all.sh` green. **7 sections `accepted` and 146 `drafted`.** **The committed proof pair predates this pass and prints the old text.** Chapter 1's twelve-reference roadmap was kept on a judgment rather than a measurement and is the one call in the pass most open to being overruled.
+
+**Updated 2026-08-30 after D-117 (P52): the reader-cost pass.** The author sampled eight pages at random, edited them by hand, applied them at `fc65cd5`, and asked for the same treatment across the rest of the book — *"not annoying the reader and not wasting their time"* rather than conciseness as such. **The taxonomy is read off his own edits**, class by class, and includes the two moves that spend words rather than saving them: naming what a cross-reference points at, and making a harm concrete. **100 files, 95,095 → 94,017 words**, a 1.1 percent cut against the 7.8 percent he took from the pages he read; 98 of 153 sections changed. **Four defects came from reading rather than from the taxonomy**, and the worst is in the conclusion: section 12.3, the last section of the book, pointed forward with *"The rest of this chapter"* at sections 12.1 and 12.2, which the reader has already passed. No claim changed anywhere. The proof pair was rebuilt afterwards and is current at 191 pages.
 
 **Updated 2026-08-29 after D-116 (P51): the rulings executed and the four defects repaired.** The author said *"go"* on D-115's seven rulings and on the defects `p50-scope.md` recorded. **12 sections changed.** The book's operational definition of a floor *holding* now sits in section 3.8 where the threat model doubles, moved out of section 5.1.1, which keeps the growth-mindset argument and a bridge — +166 and −123 words, neutral book-wide and not neutral for chapter 3, which the ruling took knowingly. Section 3.3 concedes that its falsifier's middle condition rests on the builder's account of their own method, since the same section has already said no training history can be proved, and points at section 11.2's third question; section 11.1's near-term work now does too. Section 6.3.4's LIME/SHAP paragraphs are cut to a pointer at 6.1.3 and its opening carries 6.3.3's limit — **D-106 made that repair at 6.3.3 and stopped three heads short.** Section 10.7 names Anthropic for the commitment it paid for. Chapter 1's advance note carries section 2.4.1's caveat that the lower rungs need no persistence. Section 2.4.1's pointer, which had credited section 3.5 with a claim 3.5 declines, is repointed to 2.4.2 and 11.2; the section 2.4 epigraph loses its raw archive URL and its "also see" note; and section 3.5's allusion to the compound called a school gains a pointer to section 10.10. **Q-048 is the pass's own finding.** The five discriminators section 2.1.2 builds were run against chapter 7's three instances and **clear all three** — three absent outright, two undetermined because they turn on what an institution rewarded rather than what it wrote, which is the artifact section 7.3 asks for and nobody publishes. Chapter 7 now finds a recuperation mechanism inside ordinary institutional decay rather than fascism at the molecular scale, and section 11.3 gains the pointer, because this is the measurement it says has never been made: the four features flag all three instances and the five-test filter passes all three. **One measurement of an instrument's false-positive behavior is not a validation, and it is more than the assertion the book had.** 95,405 words, 192 pages, 0 undefined references, `check_all.sh` green. Chapter 3 is 14.36 percent of the book, from 14.21; chapter 7 is 4.93 from 4.25. **12 sections `accepted` and 141 `drafted`** — section 6.3.4 moved. **The proof pair was rebuilt in place afterwards at 192 pages and is current**, the date not having rolled over.
 
@@ -84,7 +86,7 @@ recorded in `p8-scope.md` rather than passed over.
 
 ## Where the book is
 
-**Current as of 2026-08-29, after D-116.** `manuscript/sections/chNN/*.tex` —
+**Current as of 2026-08-30, after D-118.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
 list. **95,405 words of prose**, 92,455 of them outside the glossary, by `section_stats.py`
@@ -108,7 +110,7 @@ P38**, for 4,640 words taken out of chapters 2, 4 and 5 and fifteen subsections 
 `check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
-**Ledger: 12 sections `accepted`, 141 `drafted` and unread.** P51 tagged twelve rows and moved section
+**Ledger: 7 sections `accepted`, 146 `drafted` and unread.** P53 tagged 70 rows and moved five from `accepted` to `drafted` — sections 1.1, 6.1, 6.3.3, 6.4.2 and 6.4.3, whose prose it changed. P51 tagged twelve rows and moved section
 6.3.4 from `accepted` to `drafted`. P38 tagged all 55 rows in
 chapters 2, 4 and 5, removed fifteen with the subsections they described — each one's title
 and old number carried into the surviving host's note, so the record is not lost — and moved
@@ -4224,3 +4226,52 @@ not a defect. No citation was checked against its source.
 which is the one thing the numbers above would not have predicted: 1,078 words came out and
 the book still sets to the same length. PDF: 0 undefined references. HTML: 1,343 internal
 links over 1,590 ids, none broken, none duplicated.
+
+## P53 — the cross-reference density pass, 2026-08-30 (D-118)
+
+`p53-scope.md` has the class-by-class treatment and the per-chapter table.
+
+**The instruction was a finding, not a method, and the method was ruled separately.** The
+author said the cross-references distract. Four routes were costed against the measurement
+and he took *restate, then cut*: a pointer that carries meaning is replaced by a short
+restatement of the claim, a pointer whose claim the sentence already carries is simply
+deleted. He also ruled the glossary out of scope — a locator in a glossary entry is the
+entry doing its job — which leaves its 120 untouched and takes them out of the headline.
+
+**The measurement is the part worth carrying forward.** One reference every 109 words is a
+number nobody can feel. **51 percent of paragraphs carrying at least one, and 21 percent
+carrying two or more, is the same fact stated so a reader recognizes it.** Those are now
+36 and 10. The introduction and the conclusion were the two densest body chapters, which is
+the worst place for the fault, and chapter 10 was already running at one per 243 without
+anyone calling it disconnected — the evidence that the book could stand the cut.
+
+**P28's shortfall is explained rather than repeated.** `xref_shapes.py` finds about 100
+removable references across its five shapes, and P28 cut those and reported 10 percent
+against an instruction of 50. **625 of 806 are "inline" — the reference is a term in the
+sentence.** No tool reaches that class; it needs the sentence rewritten, which is what the
+author's route licensed and what this pass did.
+
+**Chapter 3, 147 → 53, is the largest single change**, and the reason is that the chapter
+was mapping itself: its opener listed its own eight sections, section 3.1 listed them
+again, and 3.8 listed them a third time. **Chapter 12, 45 → 7**, because a conclusion
+restates and does not index.
+
+**What was kept.** Imports a sentence cannot stand without — chapter 3's opening names the
+four places the book independently arrived at the same requirement, and that convergence is
+the argument. Genuine navigation, including the sentence telling a reader where to get off.
+And **chapter 1's roadmap, twelve references in one paragraph**, on the judgment that in a
+roadmap the numbers are the subject rather than an interruption. That is a judgment and not
+a measurement, and it is the call in this pass a reader is most likely to want reversed.
+
+**Left open.** The four densest remaining chapters — 11 at one per 143, 9 at 146, 7 at 148,
+4 at 153 — were thinned and not driven to the new average, because their references are the
+regime D-013 built: chapter 11 points each research gap back at the place it arose, and
+chapter 7 applies chapter 2's definition and has to say whose definition it is. No claim
+changed, no reference was repointed, no citation was checked against a source, and **the 70
+changed sections have not been read end to end since the pass**.
+
+**The pass's own finding.** The six glossed ordinal pointers repaired immediately before it
+made the problem marginally worse: glossing a pointer puts the content on the page and
+leaves the number beside it, which is heavier than either alone. Four of the six had their
+pointers deleted here. **When a cross-reference needs explaining, check first whether it
+needs deleting.**
