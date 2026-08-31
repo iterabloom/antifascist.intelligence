@@ -103,6 +103,6 @@ at **304**. 0 undefined references, 0 undefined citations, `check_all.sh` green.
   tool in `finishing/tools` currently does, and building one was not in scope
   here.
 - **The committed proof pair is stale after P66 through P71**, six passes, and
-  its page figure says 190 against a book at 188.
+  its page figure says 190 against a book at 188. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **Four ledger rows tagged D-152**, all `drafted`. **2 `accepted`, 134
   `drafted`**, unchanged.

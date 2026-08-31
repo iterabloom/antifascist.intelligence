@@ -210,7 +210,7 @@ that settles it comes next”* directly above §8.2.1's DeepMind Health panel.
 
 - **The committed proof pair is stale after this pass.** It was built at P65 and
   is 190 pages, which is also this pass's page count, but its text is the
-  pre-P66 text.
+  pre-P66 text. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **Fourteen ledger rows tagged D-147**; the three cut rows deleted with their
   titles and numbers carried into the hosts' notes. **2 `accepted`, 134
   `drafted`.**

@@ -160,7 +160,7 @@ box, under §4.1's opener.
   is now wrong on the page count as well: it is 190 pages and the book is 189.
   `pipeline.md`'s end-to-end verification line still reads 190 and is right as
   written — it records a run made against that pair, not against the current
-  tree. I changed it to 189 in this pass and changed it back.
+  tree. I changed it to 189 in this pass and changed it back. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **Two ledger rows tagged D-148**, both `drafted` already and neither moved
   status. **2 `accepted`, 134 `drafted`**, unchanged.
 - **The predictive-processing account was not re-verified against Friston.** The

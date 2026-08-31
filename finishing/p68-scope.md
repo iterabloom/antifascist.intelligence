@@ -110,7 +110,7 @@ deleted citation was a duplicate. 0 undefined references, 0 undefined citations,
   seven — Amazon and jury learning — are now at one telling each, the first by
   P65 and the second by this pass.
 - **The committed proof pair is stale after P66, P67 and this pass**, and its page
-  figure is wrong: it says 190 and the book was 189 before this pass.
+  figure is wrong: it says 190 and the book was 189 before this pass. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **One ledger row tagged D-149**, `drafted` already. **2 `accepted`, 134
   `drafted`**, unchanged.
 - **The census counts files and passages, not judgments about which telling

@@ -159,6 +159,6 @@ failure modes, the gloss, then racial capitalism and the New Jim Code.
   here; the instruction asked for the material to move earlier and this is the
   earliest place it can stand.
 - **The committed proof pair is stale after P66 through P73**, eight passes, and
-  its page figure says 190 against a book at 187.
+  its page figure says 190 against a book at 187. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **Four ledger rows tagged D-154**, plus the glossary's and §10.2's, all
   `drafted`. **2 `accepted`, 134 `drafted`**, unchanged.

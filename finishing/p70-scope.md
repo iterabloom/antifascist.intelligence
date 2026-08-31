@@ -145,7 +145,7 @@ citations, `check_all.sh` green.
   political form of this is already on the page”* still resolves: P69 kept the
   third note's conclusion for exactly that reason, and this pass did not touch it.
 - **The committed proof pair is stale after P66 through P70**, five passes, and
-  its page figure says 190.
+  its page figure says 190. **[Rebuilt at P73: the pair now stands at 187 pages, covering P66 through P73 together. The date had not rolled over, so it was rebuilt in place and the README's links did not move.]**
 - **Two ledger rows tagged D-151** — the Introduction and chapter 3 — both `drafted`. **2 `accepted`, 134
   `drafted`**, unchanged.
 - **No search was made for a third statement of the distinction in a paraphrase
