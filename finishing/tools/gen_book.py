@@ -23,11 +23,6 @@ def expected():
     rows.sort(key=lambda r: common.numkey(r["num"]))
     out = [HEAD]
     for r in rows:
-        # Chapter 0 is unnumbered (\chapter*) and comes first, so the counter
-        # has to be put back before chapter 1 or the first numbered chapter
-        # would come out as 2.
-        if r["num"] == "1":
-            out.append("\\setcounter{chapter}{0}\n")
         rel = os.path.relpath(os.path.join(common.REPO, r["path"]),
                               os.path.join(common.REPO, "manuscript"))
         out.append("\\input{%s}\n" % rel[:-4])   # \input adds .tex itself

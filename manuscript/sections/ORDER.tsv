@@ -1,5 +1,4 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	On Method	34035e2957894e919a55ea44bc710b9671d1b8f6c16842f26ed331438e953702
 manuscript/sections/ch01/01.tex	1	Introduction	358bb0793967635bb3f04eecff3bc0963c12ed1f5294fd75ca2d51a6801235a6
 manuscript/sections/ch01/01_01.tex	1.1	The Imperative of Altruistic and Antifascist Sentient Machines	ca9f55c20c78f4c65450ddf3b83dd676de9230d0b7bbaac7c4c872c1be6f6ef9
 manuscript/sections/ch01/01_02.tex	1.2	Aims and Objectives	86a92283fd6ab3994f9f4505b738acc181050781a9488935ebdae536060f83ab
@@ -19,7 +18,7 @@ manuscript/sections/ch02/02_04.tex	2.4	Ethical implications of experimenting on 
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	6e757b1622e1ad9905b30ee6e2fec18486f18649abf307a4f464eed87d5295e5
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	1ff45d69b72205c1cf469c5a2ccae54b6252d48434b821027a065e6eff5f8e8c
 manuscript/sections/ch02/02_04_03.tex	2.4.3	What Oversight Would Have to Cover	e8a1aae097a639cc40a9bcc96950cefec0581772b6c832bea8133537bf534d67
-manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	45d662ade6294544d171f402d470a29ad005e96c7ff3e21a21710bfbadf82331
+manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	a4f4ec8c7249085d955ce3c41542df06783cc33e1c839d54c0c2c939c883ac87
 manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	1f9479f16da20f4fbbb82aa48dfafd6054a2534580c26a41fe2223961c667c09
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	6224ba858cb5192555223c63799ca39ec430902b8a837e603a5b6ed0db07c711
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	9777bc1302345df24acbd8ab12f40ddd7951986235f0fda4390a737455d8e71d
@@ -71,7 +70,7 @@ manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development 
 manuscript/sections/ch05/05_07_01.tex	5.7.1	The Role of Play in Moral Learning and Socialization	292b7329c76b01359f48bdcee19ae19d03084e9443b4abbcc4dec81d048ca549
 manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	0dc68f9a1e7d06d4fc514a6ebfa8899fe29ec6c3130747f411034ebb210d39af
 manuscript/sections/ch06/06_01.tex	6.1	Bias, Fairness, and Equity in AI Systems	82723c4379a24ade300b6151c25aa5e92ce50abc243f812c496989618a3d7fab
-manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	db468faeed9a4976003138259f058c541355e374f192d3339d098f4e95237107
+manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	e3e67370b9748bcaf4f4bb1216cef2f6e0d906d7c14298b0d3ea173e239b5061
 manuscript/sections/ch06/06_01_02.tex	6.1.2	Ensuring Fairness and Equity in AI Decision-Making	ad05abcfdcdb423823fde563e82238ed055da5680ee625b4708c1502551420c1
 manuscript/sections/ch06/06_01_03.tex	6.1.3	The Role of Transparency and Accountability in Bias Reduction	5712e05b3d6fdc0b67c59c6cef396f938af1606a4a35db3594fd61fe6a03837e
 manuscript/sections/ch06/06_02.tex	6.2	Robustness, Generalization, and Adaptability in AI Systems	c570eea5672cfee7d4cc403c887aa37ffc0f5079d856cb95ec6cd5eafadf10c9
@@ -92,7 +91,7 @@ manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	4337fe563cdb7fa094
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	f809fce5778360ae3c261d8a0cfc605045109f42858539e7e7d57ef5710507ee
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	7208bdaa2ba98c96e227fc7c3800cd8efcc81df6c6a12e33cec8935f571bb52f
 manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	51bb9a443bc2715cd410f9e76d093d1396ea3ee41bf8c02446d462f926659ebb
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	38e1dd648590168a9135ec3e458e41c04ceaeea86bfeb3d071b89335d613460c
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	3bd31a8e033a14112bf49bacf17a48676a1fb86c3f7765a329232f9a99852161
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	c3089227e93326dab85861de8377b439051acbb7ab3cc055ecaaf3422477ed36
 manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	64798a8d4fe733dc590a58add95e7fb4e4dc440a9bebcfd6a3583a5268abc4a2
 manuscript/sections/ch08/08_01_01.tex	8.1.1	What Makes Collaboration Expensive to Walk Away From	17a2e9ed470e00d75d75d897f4d7e13aeb54923f9916cc5b9838fbd29a12ccf6
@@ -144,4 +143,5 @@ manuscript/sections/ch12/12_02.tex	12.2	Signatures of Altruistic and Antifascist
 manuscript/sections/ch12/12_02_01.tex	12.2.1	One Standard, Five Worked Cases	94caf1ac77f38e97253d458fafa61e4161ff2530d1b79f81fdde820990d6861a
 manuscript/sections/ch12/12_02_02.tex	12.2.2	How to Tell Whether a Milestone Has Been Met	5643bf142601c141aad09d33991e1441438642ff2e3c3562b3d6a7681f11ce9b
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	297dfd1c993f12ca0e2de117c771c4d5a135a9839c09798dff6927e1c9612ad8
-manuscript/sections/ch13/13.tex	13	Glossary	13dd7655da566c74b256149996c94ae3a0f47320815cb7e9ce51019171adc3ae
+manuscript/sections/ch13/13.tex	13	Glossary	3c188853ad8e41130db0355e07c0c9ec344d921eea498adb3895165f1c46f90c
+manuscript/sections/ch14/14.tex	14	Appendix: On Method	3134bb86fb48bb22e9f9ef106b693aa76d9e6359d0c49385148e165617f50fa5

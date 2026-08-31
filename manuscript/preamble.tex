@@ -35,10 +35,16 @@
 
 % Front and back matter are \chapter*, which does not set \@currentlabel, so a
 % plain \label after one captures whatever number was last set -- silently
-% wrong. This pins the printed value, so \ref{sec:0} really yields 0.
+% wrong. This pins the printed value, so \ref{sec:13} really yields 13.
 \makeatletter
 \newcommand{\unnumberedlabel}[2]{\begingroup\def\@currentlabel{#2}\label{#1}\endgroup}
 \makeatother
+
+% \chapter* also sets no running mark, so the head left standing by the last
+% numbered chapter persists over the back matter -- every page of the glossary
+% read "CHAPTER 12. CONCLUSION AND OUTLOOK" (Q-055). Called once per starred
+% chapter, after the heading.
+\newcommand{\backmattermark}[1]{\markboth{\MakeUppercase{#1}}{\MakeUppercase{#1}}}
 
 % The title page. book.tex supplies \booktitlemain, \booksubtitle and
 % \bookauthor, and calls \booktitlepage as the first thing after \frontmatter.

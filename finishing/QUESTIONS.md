@@ -35,7 +35,9 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-31 after D-139 (P58):** 96,840 words, 146 sections. P58 cut 708 words and removed no section; `refs.bib` is at 309 entries with 28 in `unused_bibliography.bib`, and all body `\ref{sec:}` stands at 418 with the glossary unchanged at 123. The page figure is taken from the rebuilt proof rather than carried.
+**The figures this file turns on, re-measured 2026-08-31 after D-140 (P59):** 96,829 words, 146 sections, 196 pages. P59 removed chapter~0 and added the appendix, so the section count is unchanged; body `\ref{sec:}` stands at 418 and `refs.bib` at 309, both unchanged. Of the 11-word fall from P58's 96,840, **4 are a tool correction and not an edit** — `common.py` was taught `backmattermark` and `url`, and had been counting two running-head titles as prose.
+
+**Superseded, kept for the record. Re-measured 2026-08-31 after D-139 (P58):** 96,840 words, 146 sections. P58 cut 708 words and removed no section; `refs.bib` is at 309 entries with 28 in `unused_bibliography.bib`, and all body `\ref{sec:}` stands at 418 with the glossary unchanged at 123. The page figure is taken from the rebuilt proof rather than carried.
 
 **Superseded, kept for the record. Re-measured 2026-08-31 after D-136 (P57):** 97,548 words, 146 sections, 197 pages. **The cross-reference figure this file has been carrying is a different measurement from the author's, and both are right.** This file counted every `\ref{sec:}` in the body; the P57 memo counted `section~\ref` only, excluding chapter-level references and bare continuations. On the memo's count the book stood at **343**, one per 276 words, and stands at **291** after P57's cut, one per 324 words of body prose. On this file's count it stood at 480 and stands at **420**, with the glossary unchanged at 123. Use the memo's count for density questions; it is the one that tracks what a reader is asked to hold. **P57 cut 70 and added 18**, against an instruction of roughly half, and the shortfall is structural rather than an effort problem — 132 of the survivors are forward pointers the instruction says to keep, and `xref_shapes.py` classifies 360 of 463 body references as `inline`, where removing the reference means rewriting the claim. `refs.bib` at **314** entries, five added at P57 and all five verified against the sources, with 23 still in `unused_bibliography.bib`. **Eight sections were merged away and one added at P57**; chapter 10 is six sections where it was ten, chapter 3 is nine where it was eight, and `renumber-map_2026-08-31.tsv` translates both. **The thin-leaf count and the "rather than" census were not re-measured at P57** and the figures below are carried unchanged; treat them as pre-P57.
 
@@ -1360,7 +1362,7 @@ nobody ruled on is worse than either answer.
 
 ---
 
-### Q-055 — The running head over the glossary names chapter 12
+### Q-055 — The running head over the glossary names chapter 12. **Closed by execution, D-140 (P59), on default (a).**
 
 Found at P54 (D-119) while reading the rendered glossary page, and confirmed as an image
 rather than in extracted text: every page of chapter 13 carries the running head
@@ -1390,6 +1392,13 @@ page is right"* — collecting a third instance, after the epigraph stanza break
 
 *Default (a) applies at the next preamble change.* Not taken at P54, which was scoped to
 four findings in the prose and the bibliography and did not touch the typesetting.
+
+**Taken at P59 (D-140), and the trigger was that the pass would otherwise have spread it.**
+Moving the method note to the back adds a second `\chapter*` to the back matter, which would
+have inherited the same wrong head. `preamble.tex` gains `\backmattermark`, called once after
+the heading in `ch13/13.tex` and `ch14/14.tex`. The glossary page now reads **GLOSSARY**,
+confirmed in a rasterized page rather than in the log — which is how the defect was found and
+the only way it can be seen.
 
 ---
 
@@ -1761,6 +1770,8 @@ documented harm record the autism material does. Rule on both or say which gover
 ---
 
 ## Resolved
+
+### Q-055 — The running head over the glossary. **Closed by execution, D-140 (P59), on default (a):** `\backmattermark` in `preamble.tex`, called once in each starred back-matter chapter. The glossary reads GLOSSARY and the new appendix reads its own title.
 
 ### Q-058 — How far D-137 and D-138 reach into section 2.3.3's evidence. **Closed by ruling, D-139, and by execution at P58.** Koenigs kept; Bechara and the Blair/Cima psychopathy pair cut on evidence quality rather than on the disability rule; the autism material cut on both rules. D-137 is not applied to brain-injured populations as a class.
 

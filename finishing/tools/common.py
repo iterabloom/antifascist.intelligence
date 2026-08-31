@@ -162,9 +162,12 @@ def write_tsv(path, header, rows):
 #   * A box is the author's own prose and counts, same as <<box>> did.
 
 TEX_DROP_WHOLE = ("label", "unnumberedlabel", "addcontentsline", "input",
-                  "autocite", "cite", "nocite")
+                  "autocite", "cite", "nocite", "backmattermark")
 TEX_DROP_HEADING = ("chapter", "section", "subsection", "subsubsection")
-TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "boxtitle", "text")
+# \url keeps its argument: the address is text on the page, and it counts
+# as the one token it prints, the same convention \ref gets above.
+TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "boxtitle", "text",
+                "url")
 TEX_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
             "smallskip", "bigskip", "nopagebreak", "item", "centering")
 TEX_QUOTE_ENVS = ("verse", "flushright")

@@ -1,5 +1,4 @@
 num	title	level	parent
-0	On Method	1	
 1	Introduction	1	
 1.1	The Imperative of Altruistic and Antifascist Sentient Machines	2	1
 1.2	Aims and Objectives	2	1
@@ -145,3 +144,4 @@ num	title	level	parent
 12.2.2	How to Tell Whether a Milestone Has Been Met	3	12.2
 12.3	The Risk That Does Not Design Out	2	12
 13	Glossary	1	
+14	Appendix: On Method	1	
