@@ -121,7 +121,7 @@ table of contents, and 5.2.1 with the epigraph and the folded material.
 
 ## Not done
 
-- **The committed proof pair is stale**, and the README's links with it.
+- **The committed proof pair is stale**, and the README's links with it. **[Reconciled at P76: the pair has been rebuilt since, most recently at P75, and stands at 187 pages. P63's own reconciliation commit did not reach the scope files, so this line and the four like it in `p59`–`p62` went uncorrected until now.]**
 - **Theory of mind now has no section of its own.** 2.2.2 defined it; the
   glossary entry and section 11.7 carry it, and 11.7 is where the open questions
   already live. The elderly-companion case and its line — *"An AI companion is not

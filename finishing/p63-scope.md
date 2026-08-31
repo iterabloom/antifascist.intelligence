@@ -76,7 +76,7 @@ where it was made rather than take the gathering on trust.
   the one it condemns, and none was added for routing alone. Recorded here so a
   later density pass does not cut them unread.
 - **The committed proof pair is stale**, and the README's links and page figure
-  with it. It was already stale after P62.
+  with it. It was already stale after P62. **[Reconciled at P76: the pair has been rebuilt since, most recently at P75, and stands at 187 pages. P63's own reconciliation commit did not reach the scope files, so this line and the four like it in `p59`–`p62` went uncorrected until now.]**
 - **Both ledger rows are `drafted`.** The author has not read the passage in
   position.
 - **The survival claims are about the arguments, not about their evidence.** Each

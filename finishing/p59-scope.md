@@ -115,7 +115,7 @@ both builds clean.
 ## What this pass does not do
 
 - **The committed proof pair is stale.** `finishing/reports/whole-book-proof_2026-08-31.{pdf,html}`
-  and the README's two links point at a book that still has a chapter 0.
+  and the README's two links point at a book that still has a chapter 0. **[Reconciled at P76: the pair has been rebuilt since, most recently at P75, and stands at 187 pages. P63's own reconciliation commit did not reach the scope files, so this line and the four like it in `p59`–`p62` went uncorrected until now.]**
 - **The front matter no longer discloses anything.** Title page, table of
   contents, chapter 1. The persona device, the vendor, and the repository are
   disclosed at the back and in the README, and a reader who does not turn to the

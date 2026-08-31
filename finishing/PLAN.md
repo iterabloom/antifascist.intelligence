@@ -1,7 +1,13 @@
 # Finishing plan
 
-The book stands at 141 sections, 96,585 words and 193 pages, with 3 sections accepted
-and 138 drafted and unread. Sixty-three passes have been executed. The run below
+The book stands at **136 sections, 93,796 words and 187 pages**, with 2 sections accepted
+and 134 drafted and unread. **Seventy-five passes have been executed.**
+
+**This file's run below stops at P63 and is a historical record from there on. For the
+current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P75
+read D-145 through D-156 in `DECISIONS.md` and `p64-scope.md` through `p75-scope.md`.**
+Those twelve passes were compression against author findings, and they cut five sections
+and about 2,800 words without adding one. The run below
 enumerates P28 through P51; the six after them are summarized at its end: P28, which cut 79
 cross-references by class; P29, which cut chapter 2 by 20.2 percent and chapters
 4 and 5 by 13.5 percent and made chapter 3 the book's center without changing a

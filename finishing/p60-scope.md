@@ -76,7 +76,7 @@ green, **the rebuilt page read in a rasterized proof**.
 
 ## Not done
 
-- **The committed proof pair is stale**, and the README's links with it.
+- **The committed proof pair is stale**, and the README's links with it. **[Reconciled at P76: the pair has been rebuilt since, most recently at P75, and stands at 187 pages. P63's own reconciliation commit did not reach the scope files, so this line and the four like it in `p59`–`p62` went uncorrected until now.]**
 - **The ledger row for chapter 3's opener stays `drafted`.** The author has not
   read the replacement in position.
 - **Paragraph 4 of the opener was not touched**, and it carries a claim of the

@@ -131,7 +131,7 @@ section and the seam on either side of it.
 ## Not done
 
 - **The committed proof pair is stale**, and the README's two links and its page
-  figure with it.
+  figure with it. **[Reconciled at P76: the pair has been rebuilt since, most recently at P75, and stands at 187 pages. P63's own reconciliation commit did not reach the scope files, so this line and the four like it in `p59`–`p62` went uncorrected until now.]**
 - **Section 12.3 was not touched.** Its closing paragraph carries the ordering in
   one sentence — *“a deployment that goes straight to the bearer owes an account
   of what it tried first”* — which is now the milestone stated four pages
