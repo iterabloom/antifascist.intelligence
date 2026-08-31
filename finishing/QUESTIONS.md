@@ -35,7 +35,7 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-125:** 94,249 words,
+**The figures this file turns on, re-measured 2026-08-30 after D-126:** 94,269 words,
 153 sections, 192 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — Eight instances in one day, four mechanisms. The newest is **a negative claim about a document nobody had read**, and no source audit catches that class
+### Q-056 — Nine instances, four mechanisms. **One mechanism is now covered by a tool** (`negatives.py`, D-126); the other three are not
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1573,6 +1573,42 @@ the book contains is unknown.
 
 *Still no default.* **Eight instances, four mechanisms. Seven were found by the author
 reading and one by the author re-reading his own correction.**
+
+**Amended a fifth time 2026-08-30 (D-126), and this one was found by a tool.** The sweep this
+entry recommended after D-125 has been run and is now `finishing/tools/negatives.py`. **36
+rows, all read.** Most are not the class: a negation about the world, or a cited study's own
+finding stated negatively. **Three are claims about what a document does not contain**, and
+two of them were checked and hold — section 6.4.3's, against Regulation (EU) 2021/821, where
+neither term is defined anywhere; and section 11.6's, against the full 33,000-word Cooperative
+AI paper, in which *authoritarian*, *subversion*, *hostile* and *malicious* appear zero times.
+Section 12.1's is **the legitimate form**: the negative is the source's own assertion, quoted,
+rather than the book's inference.
+
+**The ninth instance is section 9.1.2, and it is the first one no human found.** The book said
+Clearview AI marketed near-100-percent accuracy, *“a figure independent testing did not
+support.”* The cited source says something narrower and different — the ACLU's objection to a
+study **Clearview commissioned from a panel it assembled itself** — and the claim as written
+is contradicted by NIST's own FRVT evaluation of October 2021. **An unbounded negative about a
+whole body of testing, on a citation that never made it.** Rewritten to what the source
+carries.
+
+**So the tooling position has changed, narrowly.** Q-056 has said since it was filed that
+nothing in `tools/` can see this class. **That is now false for one mechanism of the four:**
+a negative claim sitting next to a citation is findable, and one real error was found this
+way. The other three mechanisms are untouched — a source read too firmly, a section
+summarised too firmly, and a note that feeds both — and **the sweep's own limits are on the
+record**: it cannot find a negative claim with no citation near it, and it cannot separate a
+negation about a source from a negation about the world, which was done by reading all 36.
+
+**What the sweep left standing, deliberately.** Three unbounded negatives about a literature
+rather than a document — section 2.2.1's *“Single-neuron evidence was never obtained in humans
+on the same terms”*, section 6.1.1's *“a gap survey data on actual drug use across races does
+not support”*, and what remains in 9.1.2. **These cannot be verified at all**, only softened
+or cut, and whether the prose should carry that hedging is the author's call and not a defect
+to be repaired quietly.
+
+*Still no default on (b) through (e).* **Nine instances, four mechanisms, one of them now
+covered by a tool.**
 
 ---
 
