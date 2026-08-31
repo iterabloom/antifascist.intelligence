@@ -120,6 +120,6 @@ missing and no entry left uncited. `check_all.sh` green.
   names six documented forms… section 6.4.3 the policy levers”* — which is the
   shape P66 and P74 cut elsewhere. It frames the China contrast as well as the
   three-jurisdiction comparison, and the finding did not name it.
-- **The proof pair is stale after P74 and again after this pass.**
+- **The proof pair is stale after P74 and again after this pass.** **[Rebuilt at P75: the pair now stands at 187 pages, covering P74 and P75 together. The date had not rolled over, so it was rebuilt in place; the README is unchanged, its links not having moved and its page figure having already been 187.]**
 - **One ledger row tagged D-156**, §10.4, `drafted` already. §12.1.2 was read and
   not edited, so it carries no tag. **2 `accepted`, 134 `drafted`**, unchanged.

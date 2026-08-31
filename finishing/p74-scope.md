@@ -126,4 +126,4 @@ citations, `check_all.sh` green.
   actual complaint. Compressing §9.1.4 makes the material around it shorter, not
   different in kind. Whether §9.1's children should be reordered, merged, or
   reduced to §9.1.1 and §9.1.2 is the question the ruling deferred.
-- **The proof pair is stale after this pass**, having been rebuilt at P73.
+- **The proof pair is stale after this pass**, having been rebuilt at P73. **[Rebuilt at P75: the pair now stands at 187 pages, covering P74 and P75 together. The date had not rolled over, so it was rebuilt in place; the README is unchanged, its links not having moved and its page figure having already been 187.]**

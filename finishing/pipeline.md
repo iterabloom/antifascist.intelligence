@@ -1,16 +1,16 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, most recently 2026-08-31 after P73, against
+Verified end to end on this machine, most recently 2026-08-31 after P75, against
 the committed proof pair rather than a build directory: **187-page PDF, lualatex +
 biber, no undefined references and no undefined citations; and a one-file HTML page,
-make4ht + biber, with 335 citation links made relative, one empty anchor dropped and
-two duplicate ids dropped.** **The internal-link count is re-taken here and is 1,019
-over 1,510 ids, with none broken and none duplicated.** Read that against the 1,039
-over 1,545 taken at P65 rather than against anything older: three sections were cut
-between the two, at P66, and eight passes of compression ran, so the fall is what those
-passes did and not a defect. The P53 figure, 1,091 over 1,589, was dropped as uncarryable at
-P57 and is not comparable to either.
+make4ht + biber, with 332 citation links made relative, one empty anchor dropped and
+two duplicate ids dropped.** **The internal-link count is re-taken here and is 1,016
+over 1,503 ids, with none broken and none duplicated.** The counts fall a little at every
+rebuild because the compression passes keep cutting cross-references and citations along
+with the prose carrying them; read a fall as the passes' work unless the broken or
+duplicated columns move off zero, which is the number that would signal a defect. The
+P53 figure, 1,091 over 1,589, was dropped as uncarryable at P57 and is not comparable.
 
 ## What is available here
 
@@ -131,7 +131,7 @@ than chosen here.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, 136 of them. The prose. |
-| `finishing/refs.bib` | 302 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. The 35 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, one at D-145, two at D-147, two at D-148, and two at D-153). |
+| `finishing/refs.bib` | 300 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. The 37 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, one at D-145, two at D-147, two at D-148, two at D-153, and two at D-156). |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
