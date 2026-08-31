@@ -239,6 +239,50 @@ reference entry.** An assertion nobody can source is cut during the revise pass,
 not carried forward with a placeholder — that is the rule that stops the
 citation backlog from becoming the project.
 
+## 6a. Claims about a disabled population (D-137, D-138)
+
+A finding about a disabled population may not be used as a premise unless the
+population took part in producing it, or the population's own literature supports
+it. Where neither holds, the finding and the assertion resting on it are **cut**,
+not hedged.
+
+The test is participation and standing: whether the population was included in
+producing the finding, and what their own literature says about it.
+
+Participation means a hand in producing the finding -- the question asked, the
+measure chosen, the result interpreted. Being a subject is not participation, and
+the distinction is the rule's whole content: the literatures this rule is aimed at
+have no shortage of subjects.
+
+The figure the rule was written against, and the one to measure a source by:
+across 142 human-robot-interaction papers on autism from 2016--2022, about 90
+percent did not include autistic people in the design process, 93.75 percent
+pathologized their communication behaviors, and nearly 20 percent took autistic
+perspectives into account nowhere in the research process at all (Rizvi, Wu,
+Bolds, Mondal, Begel and Munyaka, *Are Robots Ready to Deliver Autism Inclusion?
+A Critical Review*, CHI 2024). That is a fact about method, checkable against a
+paper. Record it that way.
+
+Where the population's own literature exists it is evidence and not a
+complication. The double empathy problem and the review of theory-of-mind's
+empirical failures are both the work of autistic researchers answering the
+literature this book has been citing.
+
+**Research that harms a disabled population gets no oxygen at all (D-138)**, and
+that includes stating a finding in order to dismiss it. There is no version of
+this rule under which the book rehearses a harmful claim first and answers it
+after. Whatever the rehearsal wins back in argument is not worth its price, which
+is the ruling and not a weighing to be redone case by case.
+
+The two rules test different things and a passage is checked against both. D-137
+asks about method: was the population a party to producing the finding. D-138 asks
+about effect: does the research harm the population. A study can fail one and pass
+the other.
+
+**One application question is open at Q-058** -- whether section~2.3.3's
+psychopathy and ventromedial-prefrontal legs are reached -- and this section
+should not be applied to them until it is ruled.
+
 ## 7. Cross-references
 
 The book currently contains one backward reference and one forward reference in

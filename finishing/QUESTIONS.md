@@ -35,7 +35,9 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-31 after D-136 (P57):** 97,548 words, 146 sections, 197 pages. **The cross-reference figure this file has been carrying is a different measurement from the author's, and both are right.** This file counted every `\ref{sec:}` in the body; the P57 memo counted `section~\ref` only, excluding chapter-level references and bare continuations. On the memo's count the book stood at **343**, one per 276 words, and stands at **291** after P57's cut, one per 324 words of body prose. On this file's count it stood at 480 and stands at **420**, with the glossary unchanged at 123. Use the memo's count for density questions; it is the one that tracks what a reader is asked to hold. **P57 cut 70 and added 18**, against an instruction of roughly half, and the shortfall is structural rather than an effort problem — 132 of the survivors are forward pointers the instruction says to keep, and `xref_shapes.py` classifies 360 of 463 body references as `inline`, where removing the reference means rewriting the claim. `refs.bib` at **314** entries, five added at P57 and all five verified against the sources, with 23 still in `unused_bibliography.bib`. **Eight sections were merged away and one added at P57**; chapter 10 is six sections where it was ten, chapter 3 is nine where it was eight, and `renumber-map_2026-08-31.tsv` translates both. **The thin-leaf count and the "rather than" census were not re-measured at P57** and the figures below are carried unchanged; treat them as pre-P57.
+**The figures this file turns on, re-measured 2026-08-31 after D-139 (P58):** 96,840 words, 146 sections. P58 cut 708 words and removed no section; `refs.bib` is at 309 entries with 28 in `unused_bibliography.bib`, and all body `\ref{sec:}` stands at 418 with the glossary unchanged at 123. The page figure is taken from the rebuilt proof rather than carried.
+
+**Superseded, kept for the record. Re-measured 2026-08-31 after D-136 (P57):** 97,548 words, 146 sections, 197 pages. **The cross-reference figure this file has been carrying is a different measurement from the author's, and both are right.** This file counted every `\ref{sec:}` in the body; the P57 memo counted `section~\ref` only, excluding chapter-level references and bare continuations. On the memo's count the book stood at **343**, one per 276 words, and stands at **291** after P57's cut, one per 324 words of body prose. On this file's count it stood at 480 and stands at **420**, with the glossary unchanged at 123. Use the memo's count for density questions; it is the one that tracks what a reader is asked to hold. **P57 cut 70 and added 18**, against an instruction of roughly half, and the shortfall is structural rather than an effort problem — 132 of the survivors are forward pointers the instruction says to keep, and `xref_shapes.py` classifies 360 of 463 body references as `inline`, where removing the reference means rewriting the claim. `refs.bib` at **314** entries, five added at P57 and all five verified against the sources, with 23 still in `unused_bibliography.bib`. **Eight sections were merged away and one added at P57**; chapter 10 is six sections where it was ten, chapter 3 is nine where it was eight, and `renumber-map_2026-08-31.tsv` translates both. **The thin-leaf count and the "rather than" census were not re-measured at P57** and the figures below are carried unchanged; treat them as pre-P57.
 
 **Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-30 after D-129:** 94,617 words,
 153 sections, 192 pages; **603 `\ref{sec:` calls, 480 of them outside the glossary, one per 190
@@ -1686,6 +1688,74 @@ and have been rewritten to the descriptive core, their verification record moved
 *Default (a) applies unless the author rules otherwise.* **Not started.** Raised because
 D-124 is the first case where the two rulings visibly collided, and because the three
 non-compliant notes mean the file is currently in neither state.
+
+---
+
+### Q-058 — How far D-137 and D-138 reach into section 2.3.3's evidence. **Closed by ruling, D-139: Koenigs kept, Bechara and the psychopathy pair cut, on evidence quality rather than on the disability rule.**
+
+D-137 bars a finding about a disabled population from serving as a premise unless the
+population took part in producing it or its own literature supports it. The autism
+material at section 2.3.3 is unambiguously in scope. Two of the section's other
+evidentiary legs fail the same participation test, and whether *disabled population*
+was meant to reach them is not settled.
+
+**The section measures out as 1,668 words in seven parts.** The Kennett autism material
+is 557. The psychopathy dissociation at Blair and Cima is 194, and the ventromedial-
+prefrontal material is 230 across the opener and the card-task run-in. Nichols, the
+prosocial-emotion findings, and the Frankfurt/Watson close are 618 and touch no disabled
+population. So the ruling decides whether this pass moves 557 words or 861.
+
+**The two legs are not the same case.** Both fail the first test the same way — their
+subjects were scanned, tested and scored, and participation under D-137 means a hand in
+the question asked and the result interpreted. They differ on the second. Autism has a
+large self-authored literature that answers the findings directly. Psychopathy has no
+self-advocacy literature of that kind, and neither does ventromedial-prefrontal injury,
+so applying the second test to them either excuses them by default or condemns them by
+default depending on how the absence is read. The rule does not say which, and it is the
+question.
+
+**It reaches chapter 3.** Section 3.4 calls section 2.3.3 *the evidence*, and three of
+the four clauses in its one-paragraph summary are population-based legs: affect as part
+of the machinery of valuation is Bechara, the cases where moral knowledge survives and
+moral conduct does not are Blair and Cima, and the rationalist counterexample is Kennett.
+Section 3.3's induction already runs on *one species, plus a handful of clinical
+dissociations inside that species,* and calls the dissociations contested. Removing two
+of the three legs weakens it materially.
+
+- **(a) Default — autism only.** The rule was written against a measurement about autism
+  research and against a passage about autistic people. Take the 557 words now, leave the
+  other two legs standing, and record that they were considered and not taken. Cheapest,
+  and it leaves an inconsistency on the page: two literatures failing the same test with
+  one cut and two kept.
+- (b) All three legs. Consistent, and it is the reading the rule's own words support if
+  *disabled population* is read plainly — brain-injured people and people with a
+  psychiatric diagnosis are disabled populations. Costs 861 words, guts the dissociation
+  argument, and obliges chapter 3 to restate its induction on what survives. That is a
+  change to the book's central inference and wants its own ruling either way.
+- ~~(c) All three legs, and rebuild rather than only cut, with the excluded literatures
+  described rather than relied on.~~ **Foreclosed by D-138**: describing them is the
+  oxygen. What survives of this option is the rebuild without the description — section
+  2.3.3 rewritten around Nichols, the prosocial-emotion findings and the Frankfurt/Watson
+  specification, which is what (b) leaves standing anyway.
+
+*Default (a) applies at the pass that executes D-137.*
+
+**A second question stood here and is closed by ruling, D-138.** The reading recorded was
+the agent's: that *used as a premise* was D-137's operative restriction, so section
+2.2.1's broken-mirror clause would survive, since it states an autism finding in order to
+report that it failed. **The author ruled against it** — research that harms people with
+disabilities gets no oxygen, including to dismiss it, and the debating points are not
+worth the price. The clause goes with the rest. It is the second half of one sentence
+after a semicolon, and the paragraph keeps three of its four supports for the claim that
+the mirror-neuron interpretation outran its evidence.
+
+**That ruling also changes what the question above is asking.** There are now two
+criteria and they are not the same test. D-137 asks whether the population was a party to
+producing the finding; the psychopathy and ventromedial-prefrontal legs fail it exactly as
+the autism material does. D-138 asks whether the research harms the population, and that
+is not answered by the first: the strongest case for reaching those two legs is
+participation, and the strongest case against is that neither literature carries the
+documented harm record the autism material does. Rule on both or say which governs.
 
 ---
 
