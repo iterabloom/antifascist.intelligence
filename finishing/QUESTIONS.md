@@ -35,7 +35,7 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-126:** 94,269 words,
+**The figures this file turns on, re-measured 2026-08-30 after D-127:** 94,298 words,
 153 sections, 192 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — Nine instances, four mechanisms. **One mechanism is now covered by a tool** (`negatives.py`, D-126); the other three are not
+### Q-056 — Ten instances, four mechanisms. One is covered by a tool; the newest is **in `DECISIONS.md`, which no tool reads**
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1609,6 +1609,33 @@ to be repaired quietly.
 
 *Still no default on (b) through (e).* **Nine instances, four mechanisms, one of them now
 covered by a tool.**
+
+**Amended a sixth time 2026-08-30 (D-127), and the tenth instance is the agent's, inside a
+decision about this entry.** D-126 gave two grounds for cutting section 9.1.2's clause. The
+first stands. **The second — that NIST's evaluation contradicted the claim — was itself the
+class**, and the author caught it with one question: *if the study was commissioned by
+Clearview, was it independent?* It was not. Its own report called the three-person body the
+“Independent Review Panel” and Clearview assembled it, so *independent testing* in the book's
+sentence never referred to that study; it was the contrast the paragraph is built on. NIST is
+not evidence against it either, being twenty months later, a different task, and a different
+algorithm.
+
+**What that shows about this entry's own subject.** The fourth mechanism — asserting something
+about a source without holding the source to it — appeared here in a decision record rather
+than in the manuscript. `negatives.py` covers the manuscript and nothing else. **Nothing
+sweeps `DECISIONS.md`, `STATE.md` or this file**, and those are where a wrong reason does the
+most damage, because they are what a later session acts on without re-deriving. How many such
+claims the planning files carry is unknown and unmeasured.
+
+**One thing worth keeping from it.** The repair was not to restore the negative but to state
+the bounded positives that make the same point better: the panel the company assembled and
+called independent, and a test run against the vendor's own 2.8 billion images rather than the
+25,000 mugshots of the method it claimed to copy. **Where an unbounded negative can be
+replaced by a specific positive, the sentence gets stronger and the class disappears from
+it** — which is the one general remedy this entry has produced in ten instances.
+
+*Still no default.* **Ten instances, four mechanisms, one covered by a tool, and the newest
+one in a file no tool reads.**
 
 ---
 
