@@ -35,12 +35,12 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-128:** 94,465 words,
-153 sections, 192 pages; **602 `\ref{sec:` calls, 479 of them outside the glossary, one per 190
+**The figures this file turns on, re-measured 2026-08-30 after D-129:** 94,617 words,
+153 sections, 192 pages; **603 `\ref{sec:` calls, 480 of them outside the glossary, one per 190
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope; **P55 added three to the body**, one in
 section 3.8 and two in section 12.3, the second of those restoring a pointer P53 had cut, and D-118
-is not reversed. The per-word ratio is recomputed here against a body-prose denominator of 91,181
+is not reversed; **P56 added one**, in section 3.7, pointing at the step section 3.4 supplies. The per-word ratio is recomputed here against a body-prose denominator of 91,181
 words (94,465 less chapter 13's 3,284); the 188 it replaces was not reproduced and the method behind
 it is not recorded, so the two are not strictly comparable;
 `refs.bib` at 309 entries, 23 having moved to `unused_bibliography.bib` at P47, with 205 carrying
