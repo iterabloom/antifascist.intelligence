@@ -79,6 +79,15 @@ all.
 producing *a faultless output* — now appears **once in the book**, in §8.2.1,
 where the finding says its home is. It appeared twice.
 
+**[Forward note, P70. This was true when written and is no longer. On the
+author's instruction — *the deportation thought experiment should be added back
+to the first occurrence of the protection-from-the-majority argument* — the
+sentence was restored to the Introduction's third note at D-151. It appears twice
+again, at the Introduction and §8.2.1. The rest of this pass's cut to the
+Introduction stands: the enumeration of mechanisms and *more legible and more
+actionable* did not come back. This is a reversal by decision, not a correction
+of an error.]**
+
 ## What was lost, named rather than repaired
 
 - **“A floor that holds against the aggregate, including a well-formed and
