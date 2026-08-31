@@ -71,10 +71,9 @@ num	title	level	parent
 6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6.3
 6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6.3
 6.3.3	Strategies for AI Safety and Risk Mitigation	3	6.3
-6.3.4	AI Explainability and Transparency	3	6.3
-6.3.5	Anticipating Risk Before It Causes Harm	3	6.3
-6.3.6	Remediating a Harm Once It Is Identified	3	6.3
-6.3.7	Long-term AI safety considerations	3	6.3
+6.3.4	Anticipating Risk Before It Causes Harm	3	6.3
+6.3.5	Remediating a Harm Once It Is Identified	3	6.3
+6.3.6	Long-term AI safety considerations	3	6.3
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6
 6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6.4
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6.4

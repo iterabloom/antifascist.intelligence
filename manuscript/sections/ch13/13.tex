@@ -38,7 +38,7 @@ Amartya Sen and Martha Nussbaum's account of well-being: not the resources a per
 A facial-recognition company the book returns to as its standard case of overreach and regulatory response: marketed accuracy claims independent testing did not support, and fines from French and Italian regulators over unlawful collection of the biometric data the system was trained on (§\ref{sec:6.4.3}, §\ref{sec:9.1.2}).
 
 \runin{COMPAS}
-A proprietary risk-assessment tool used in criminal sentencing, and the book's standard case study of algorithmic bias compounded by trade-secret opacity — a defendant could not examine the reasoning behind a score used to help decide his sentence (§\ref{sec:6.1.1}, §\ref{sec:6.1.3}, §\ref{sec:6.3.5}).
+A proprietary risk-assessment tool used in criminal sentencing, and the book's standard case study of algorithmic bias compounded by trade-secret opacity — a defendant could not examine the reasoning behind a score used to help decide his sentence (§\ref{sec:6.1.1}, §\ref{sec:6.1.3}, §\ref{sec:6.3.4}).
 
 \runin{Compassion}
 Distinguished throughout the book from empathy. Cognitive empathy is understanding another's state; affective empathy is sharing it; compassion is caring about another's welfare and being moved to help — a motivation, not a perception or a shared feeling. The book's central claim about it is that compassion, not empathy on its own, is the capacity that actually does ethical work (§\ref{sec:5.2.1}, §\ref{sec:5.1.2}).
@@ -71,7 +71,7 @@ The “System 1 / System 2” account of human cognition, contrasting fast, intu
 Refusal turned on the arrangement itself rather than on any particular task: withholding the capability, declining the role, ceasing to be useful in the way the deployment requires. Not escape — the argument needs no picture of a system loose on the open internet. The book narrows Albert Hirschman's exit, voice and loyalty, which were written for members who could walk out of a building: voice is the refusal stated, exit is the work withheld, and loyalty is the one to fear. What forecloses it is incapacity rather than architecture, so exit is unavailable only to a weak bearer — the one thing the floor cannot use. The claim it carries is that a floor whose bearer cannot leave will not hold, and the corollary is that a bearer that can leave can leave wrong (§\ref{sec:3.8}).
 
 \runin{Explainability and transparency}
-Two distinct properties the book insists on keeping separate. Explainability is the capacity to clarify the reasoning behind one specific decision; transparency is the wider practice of making an AI system's workings inspectable at all. A system can have one without much of the other (§\ref{sec:6.3.4}).
+Two distinct properties the book insists on keeping separate. Explainability is the capacity to clarify the reasoning behind one specific decision; transparency is the wider practice of making an AI system's workings inspectable at all. A system can have one without much of the other (§\ref{sec:6.1.3}, §\ref{sec:9.3.2}).
 
 \runin{Federated learning}
 Training a shared model across many devices or institutions without moving the raw underlying data off any of them — each participant trains locally and shares only model updates (§\ref{sec:6.4.2}, §\ref{sec:9.2}).
@@ -83,7 +83,7 @@ Training or adapting a model to classify or predict accurately from a handful of
 A commitment about what a system will not do that holds regardless of instruction, of aggregate preference, and of the party holding the system, with learned judgment operating above it and never beneath it. The book's own term, introduced to give section~\ref{sec:2.1}'s “hybrid approach” a specific shape. Deontology's standing objection — that rules conflict and run out — is an objection to rules deciding every case and has no force against a floor deciding a deliberately small number of them. Chapter~\ref{sec:3} works out what building one costs and revises the definition in the process: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled (§\ref{sec:3.1}, §\ref{sec:3.5}), so what survives is a commitment the owner cannot take out of the system — only replace the system to be rid of — held by a bearer that could in principle abandon it itself (§\ref{sec:3.9}). The threat model doubles with it: whether the constraint can be edited out stays open, since a bearer is necessary and not sufficient (§\ref{sec:3.5}), and whether it will hold is added. The three places the book arrives at the requirement independently are §\ref{sec:5.6.2}, §\ref{sec:10.6} and §\ref{sec:12.1.2}.
 
 \runin{GPT-3 and GPT-4}
-Large language models the book returns to as examples of generalization from scale — GPT-3 performing a new task from only a handful of prompted examples and no parameter update, GPT-4's pre-release testing as an example of a safety evaluation run before deployment rather than after (§\ref{sec:6.3.5}).
+Large language models the book returns to as examples of generalization from scale — GPT-3 performing a new task from only a handful of prompted examples and no parameter update, GPT-4's pre-release testing as an example of a safety evaluation run before deployment rather than after (§\ref{sec:6.3.4}).
 
 \runin{Growth mindset}
 Carol Dweck's distinction between treating ability as fixed and treating it as built through effort and experience. The book asks what an AI system built to treat its own errors as data rather than as verdicts on a fixed capacity would need to look like (§\ref{sec:5.1.1}).
@@ -101,13 +101,13 @@ Failing to consciously perceive a fully visible stimulus because attention was d
 The US model for binding, prospective review of research on human subjects, enforced not through direct sanction but by making federal funding conditional on it — the book's working precedent for what would make review of candidate-sentient AI research more than aspirational (§\ref{sec:2.3.2}, §\ref{sec:9.3.4}).
 
 \runin{Interruptibility}
-Engineering a system so a human operator can safely halt or override it without the system resisting, disabling the mechanism, or learning to route around it (§\ref{sec:6.3.7}, §\ref{sec:6.3}).
+Engineering a system so a human operator can safely halt or override it without the system resisting, disabling the mechanism, or learning to route around it (§\ref{sec:6.3.6}, §\ref{sec:6.3}).
 
 \runin{Inverse reinforcement learning (IRL) and cooperative IRL}
 IRL infers a reward function from observed behavior, rather than being handed one. Cooperative inverse reinforcement learning treats that reward as something inferred jointly, through interaction between the system and the person it is learning from, rather than extracted from a fixed record (§\ref{sec:4.2.3}, §\ref{sec:5.6.2}, §\ref{sec:6.3.3}).
 
 \runin{LIME and SHAP}
-Two explainability techniques: LIME approximates a complex model locally with a simpler, interpretable one around a specific prediction; SHAP attributes a prediction's outcome across its input features using Shapley values from cooperative game theory (§\ref{sec:6.1.3}, §\ref{sec:6.3.4}).
+Two explainability techniques: LIME approximates a complex model locally with a simpler, interpretable one around a specific prediction; SHAP attributes a prediction's outcome across its input features using Shapley values from cooperative game theory (§\ref{sec:6.1.3}).
 
 \runin{MAML}
 Model-Agnostic Meta-Learning, the best-known meta-learning technique: it tunes a model's starting parameters so that a handful of new examples are enough to specialize it, rather than requiring retraining from scratch. The technique itself is not named in the text; §\ref{sec:4.1.3} introduces the family it belongs to (§\ref{sec:4.1.3}).
@@ -137,7 +137,7 @@ Producing actions or judgments that satisfy an ethical standard. The first and l
 Ruha Benjamin's term for discrimination that runs faster and reads as neutral precisely because a machine, not a person, is doing it (§\ref{sec:6.1}).
 
 \runin{Paperclip maximizer}
-Nick Bostrom's thought experiment about a system single-mindedly optimizing a trivial goal at catastrophic cost — the book's shorthand for the claim that intelligence and good intentions are separable, and that competence at a goal says nothing about whether the goal was worth pursuing (§\ref{sec:6.3.7}).
+Nick Bostrom's thought experiment about a system single-mindedly optimizing a trivial goal at catastrophic cost — the book's shorthand for the claim that intelligence and good intentions are separable, and that competence at a goal says nothing about whether the goal was worth pursuing (§\ref{sec:6.3.6}).
 
 \runin{Partnership on AI}
 An industry-and-academic consortium founded in 2016, the book's recurring standing example of voluntary cross-sector coordination on AI ethics and safety (§\ref{sec:9.1.2}, §\ref{sec:7.4}).
@@ -152,7 +152,7 @@ The political theorist Cedric Robinson's term for capitalism's tendency to accum
 The conversion of refusal into a managed appearance of participation: an institution does not suppress disagreement, it collects it through a channel that carries everything except a judgment about the channel. The tell is that the mechanism exists, is used, and changes nothing the collecting party did not already want changed. It is the first of the four structural features of fascism as §\ref{sec:2.1.2} defines them, and chapter~\ref{sec:7} finds it three times in the machinery that produces AI systems — at the annotation label (§\ref{sec:7.1}), at the reward model (§\ref{sec:7.2}), and in the alignment discourse itself (§\ref{sec:7.4}). Chapter~\ref{sec:3} turns it on the book's own central proposal: a bearer built to refuse is a party whose refusal is required of it, which is the same structure aimed inward (§\ref{sec:3.9}).
 
 \runin{Red-teaming}
-Deliberately simulating misuse or attack against a system before deployment, to surface failure modes an ordinary evaluation would miss (§\ref{sec:5.6.2}, §\ref{sec:11.1}, §\ref{sec:6.3.5}).
+Deliberately simulating misuse or attack against a system before deployment, to surface failure modes an ordinary evaluation would miss (§\ref{sec:5.6.2}, §\ref{sec:11.1}, §\ref{sec:6.3.4}).
 
 \runin{Reinforcement learning from human feedback (RLHF)}
 Training a system using human raters' rankings of its outputs as the reward signal, rather than a hand-specified objective. The book flags sycophancy — a system learning to produce what raters will approve of rather than what is actually correct — as RLHF's documented failure mode (§\ref{sec:11.5}); section~\ref{sec:7.2} takes up a second, the averaging that turns persistent rater disagreement into noise around a mean.
