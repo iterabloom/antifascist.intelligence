@@ -35,10 +35,14 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-127:** 94,298 words,
-153 sections, 192 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
+**The figures this file turns on, re-measured 2026-08-30 after D-128:** 94,465 words,
+153 sections, 192 pages; **602 `\ref{sec:` calls, 479 of them outside the glossary, one per 190
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
-P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
+P54, all three inside the glossary D-118 ruled out of scope; **P55 added three to the body**, one in
+section 3.8 and two in section 12.3, the second of those restoring a pointer P53 had cut, and D-118
+is not reversed. The per-word ratio is recomputed here against a body-prose denominator of 91,181
+words (94,465 less chapter 13's 3,284); the 188 it replaces was not reproduced and the method behind
+it is not recorded, so the two are not strictly comparable;
 `refs.bib` at 309 entries, 23 having moved to `unused_bibliography.bib` at P47, with 205 carrying
 notes and 104 carrying none; **318 instances of "rather than"** — the 312 recorded here was already two short when
 written, and D-119 to D-121 added four more, three of them in glossary entries written by the
@@ -645,6 +649,8 @@ to.
 ---
 
 **Ruled 2026-08-29 (D-111): leave, carried as research.** The recommendation stands as written and section 11.6 holds it as an open problem.
+
+**Noted 2026-08-30 after D-128 (P55).** **The ruling is not reopened and the gap is more visible.** P55 carried section 3.3's ordering into sections 3.8 and 12.3, so both closes now tell a reader that the plural arrangement gets its attempt before the bearer does. A reader who follows that instruction reaches section 11.6 and is told the arrangement's central assumption is what nothing secures. That was already true of section 3.3's own first-person recommendation — *“I recommend it whatever else this chapter recommends”* — and P55 moved it from the middle of a chapter to the end of two. Nothing here argues against (a); it records that the cost of (a) is now paid on the book's last page as well as in section 3.3.
 
 ---
 

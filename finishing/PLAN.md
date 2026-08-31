@@ -1,7 +1,8 @@
 # Finishing plan
 
-The book stands at 153 sections, 94,298 words and 192 pages, with 7 sections accepted
-and 146 drafted and unread. Twenty-five passes have been executed: P28, which cut 79
+The book stands at 153 sections, 94,465 words and 192 pages, with 7 sections accepted
+and 146 drafted and unread. Twenty-eight passes have been executed. The run below
+enumerates P28 through P51; the four after them are summarized at its end: P28, which cut 79
 cross-references by class; P29, which cut chapter 2 by 20.2 percent and chapters
 4 and 5 by 13.5 percent and made chapter 3 the book's center without changing a
 word in it; P30, which moved section 10.3's three case subsections into chapter 6
@@ -59,13 +60,21 @@ section 6.3.4 — together with the finding that the book's only operational def
 rulings on those findings and repaired the four defects, moving the definition of *holding* into
 chapter 3 and running the five discriminators section 2.1.2 builds against chapter 7's three
 instances, which clear all three.
+**P52 through P55, in brief.** P52 generalized the author's hand edits to eight sampled
+pages into a reader-cost taxonomy and applied it; P53 cut the book's cross-references
+from 848 to 596 on the author's finding that the book is *"way too cross referenced"*;
+P54 repaired four defects in the glossary and the sourcing; and P55 carried section 3.3's
+ordering constraint — the cheaper routes get their attempt before anyone builds toward
+affect on purpose — into sections 3.8 and 12.3, which both closed on the bearer without
+it, and repaired a phrase in section 3.3 that P53's cuts had left resolving to the wrong
+rung of section 3.2's ladder.
 **Chapter numbers
 above P32 have moved: old 9, 10 and 11 are now 11, 12 and 13. Section numbers
 under 4.2 moved at P33; `renumber-map_2026-08-28d.tsv` is the map. Chapter 3's
 sections 3.2 to 3.7 moved to 3.4 to 3.9 at P34; `renumber-map_2026-08-28e.tsv` is
 that map. P35, P36 and P37 renumbered nothing; P36 removed section 3.9, the last
 section of its chapter. P38 renumbered inside chapters 2, 4 and 5 and merged
-fifteen subsections away; `renumber-map_2026-08-29.tsv` is that map. P39 through P51 renumbered nothing.**
+fifteen subsections away; `renumber-map_2026-08-29.tsv` is that map. P39 through P55 renumbered nothing.**
 
 ## 1. Passes
 
@@ -122,6 +131,7 @@ you do not rewrite a section about a 2021 model and then update it.
 | P52 The reader-cost pass ▶ executed 2026-08-30, awaiting the author's read | section | The author's instruction to generalize eight hand-edited random pages across the rest of the book (D-117), scoped in `p52-scope.md`. **The taxonomy is read off his own edits** in the range `331f0a5..fc65cd5` rather than invented: meta-narration, the announcing sentence, the autobiography of the insight, the negated echo, filler intensifiers, unspecified demonstratives, nominalizations, series-of-three, and the two classes that *spend* words — naming what a cross-reference points at, and making a harm concrete. 100 files, 95,095 → 94,017 words, a 1.1 percent cut against the 7.8 percent he took from the pages he read. Four defects came from reading rather than the taxonomy, the worst being section 12.3 pointing forward at sections the reader has passed. No claim changed. | P51 | author reads | author |
 | P53 The cross-reference density pass ▶ executed 2026-08-30, awaiting the author's read | reference | The author's finding that the book is *"way too cross referenced"* and that the references distract (D-118), scoped in `p53-scope.md`. **The author ruled the method before anything was cut: restate, then cut** — a pointer carrying meaning is replaced by a short restatement of the claim and deleted, a pointer whose claim the sentence already carries is deleted alone; the glossary is out of scope. **848 → 596 references book-wide, the body 728 → 476, one per 122 words of prose to one per 188**, with paragraphs carrying at least one going from 51 to 36 percent and paragraphs carrying two or more from 21 to 10. Chapter 3 went 147 → 53, having mapped its own eight sections three separate times; chapter 12 went 45 → 7. **Why P28 reached 10 percent against an instruction of 50 is now on the record**: the shapes a tool can classify as removable total about 100, and 625 of 806 are welded into their sentences. 70 sections changed, 94,017 → 93,740 words — the restatements buy the words back. Chapter 1's roadmap was kept on a judgment and is filed as Q-054 | P52 | author reads the 70 changed sections | author |
 | P54 Glossary and sourcing defects ▶ executed 2026-08-30, awaiting the author's read | defect | Four findings the author supplied as a list (D-119), scoped in `p54-scope.md`, each checked against the manuscript before anything was changed. **“Floor” was misalphabetized** and re-sorting all 56 entries established it was the only one out of order, which is what makes it a slip rather than a convention. **“Exit” and “molar and molecular fascism” had no entries** — neither term appeared anywhere in chapter 13 — and the second now lists the five molecular discriminators the glossary never carried, though chapter 7's argument is run against them. **The Gordon 14 percent figure was misdescribed and not merely unannotated:** the prose said “contested cases” where the paper's denominator is all items, verified against the authors' own copy after the ACM page refused automated fetches; the evaluation is 18 community moderators and the prose now says so. The citation is used twice, the figure once. **The Dweck definition** shared a 30-word verbatim run between sections 1.3 and 5.1.1, with 1.3 carrying it uncited; the author ruled that 1.3 compresses and 5.1.1 stands, and the longest shared run is now three words. 93,740 → 94,065 words, 191 pages, `check_all.sh` green, four files changed. Q-055 filed and not repaired: the running head over the glossary reads “CHAPTER 12” | P53 | the four findings closed or explicitly declined with reasons; `check_all.sh` green; the changed pages read in the rendered proof | author |
+| P55 The ordering carried into the two closes ▶ executed 2026-08-30, awaiting the author's read | defect | The author's finding (D-128), scoped in `p55-scope.md`: section 3.3 states that the maintained justification and the plural arrangement get their attempt before anyone builds toward affect on purpose, and neither section 3.8 nor section 12.3 restated it, so a reader taking the conclusions at face value comes away thinking the book recommends building the affective bearer now. **Holds for the two closes and is wrong about the rest of the book in one respect**: four sites already carry the ordering, including **chapter 1's roadmap**, which P41 had repaired. That correction is what shows the defect is a propagation gap — the sentence entered at P39, and **P41 was P39's own propagation sweep, named section 12.3 in its commit body, edited that paragraph, and carried P39's other point across instead**. Section 3.8 gains a paragraph beside the exit it already offers a reader who declines the price; section 12.3 gains a sentence and the pointer to where the price is set out, which P53 had cut. **A third defect found while verifying the quotation**: section 3.3's “the fourth capacity”, used twice, means affective concern — the fourth row of section 2.3's table — and P53 cut the clause in section 3.2 that said so, leaving it to resolve against section 3.2's own ladder, where the fourth rung is phenomenal experience. Repaired by naming the capacity instead of numbering it. No tool in the suite reaches it. 94,298 → 94,465 words, body references 476 → 479, 192 pages, `check_all.sh` green, three files changed, both changed pages read in the rendered PDF. Q-037's tension is more visible and is not reopened | P54 | the ordering readable from each close without following a reference; `check_all.sh` green; the changed pages read in the rendered proof | author |
 | P6 Copyedit and build ✅ author-accepted 2026-08-23 | whole | Terminology consistency, tic lint, HTML → ODT → PDF locally; other formats elsewhere | P5 | clean build; author's final read | author |
 
 **Chapter order for P3:** 3 → 2 → 4 → 5 → 7 (absorbing 8) → 6 → 9 → 10 → **1 last**.
