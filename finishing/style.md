@@ -136,7 +136,7 @@ ordinary word and this section has nothing to say about it.
 ## 3a. The em dash
 
 662 em dashes in 92,582 words: one every 139 words, in 132 of 153 sections and in
-35 percent of paragraphs. One sentence in eight carries at least one — 291 with a
+35 percent of paragraphs. **Counted before P57**, which merged eight sections away, added one, and added about 2,900 words; the census has not been retaken and the ratios below are the ones it produced. One sentence in eight carries at least one — 291 with a
 lone dash, 190 with a matched pair, none with three.
 
 The reason to count is not that the mark is wrong. It is that the em dash is

@@ -114,7 +114,7 @@ recorded in `p8-scope.md` rather than passed over.
 
 **Ledger: 3 sections `accepted`, 143 `drafted` and unread.** P57 moved four rows from `accepted` to `drafted` — sections 6.2, 9.2 and 10.1, whose prose it rebuilt, and one more whose cross-references it recast — tagged 68 rows in all, and removed eight rows with the sections they described, each one's title and old number carried into the surviving host's note, and added one for section 3.6. The rows it tagged are chapter 3 entire, sections 2.3.3, 2.4.1, 5.6.1, 5.4.2, 6.4.2, 10.1 to 10.6, 11 and 12.3, plus the sections whose cross-references it recast.
 
-**Current as of 2026-08-30, after D-118.** `manuscript/sections/chNN/*.tex` —
+**Superseded by the paragraph above and kept for the record — the state as of 2026-08-30, after D-118.** `manuscript/sections/chNN/*.tex` —
 **153 sections**, chapters 0 through 13, one `.tex` file each, nothing deeper than
 three levels; `book.tex` is the master, `sections.tex` the generated `\input`
 list. **94,298 words of prose**, 91,014 of them outside the glossary, by `section_stats.py`
@@ -138,7 +138,7 @@ P38**, for 4,640 words taken out of chapters 2, 4 and 5 and fifteen subsections 
 `check_frozen.py` registers no file, since D-088 removed the two
 dialect texts it had guarded.
 
-**Ledger: 7 sections `accepted`, 146 `drafted` and unread.** P53 tagged 70 rows and moved five from `accepted` to `drafted` — sections 1.1, 6.1, 6.3.3, 6.4.2 and 6.4.3, whose prose it changed. P51 tagged twelve rows and moved section
+**Superseded, kept for the record. Ledger: 7 sections `accepted`, 146 `drafted` and unread**, as of P53. P53 tagged 70 rows and moved five from `accepted` to `drafted` — sections 1.1, 6.1, 6.3.3, 6.4.2 and 6.4.3, whose prose it changed. P51 tagged twelve rows and moved section
 6.3.4 from `accepted` to `drafted`. P38 tagged all 55 rows in
 chapters 2, 4 and 5, removed fifteen with the subsections they described — each one's title
 and old number carried into the surviving host's note, so the record is not lost — and moved
@@ -1237,7 +1237,7 @@ ruling in place and were never moved after execution, and five more (Q-019,
 Q-021, Q-022, Q-028, Q-029) appear both above the line and below it — 34 entries
 sit above it in total, of which 5 are duplicates of resolved ones. Reconciling
 the filing is real work nobody has done. The
-other standing item is the **146 `drafted` ledger rows** named under "Where the
+other standing item is the **143 `drafted` ledger rows** named under "Where the
 book is" above, which the author has not read.
 
 **The paragraph that stood here was the D-060 snapshot and is dropped rather than

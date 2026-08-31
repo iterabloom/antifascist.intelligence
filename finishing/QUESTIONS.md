@@ -61,7 +61,7 @@ and 8.3.1 crossed under 230 words because prose came out of them, 8.3.1 under th
 own hand at `fc65cd5`. That is Q-029's class returning and it is recorded here rather than
 repaired. For orientation read `finishing/STATE.md`.
 
-The other standing item is not a question. **146 of the book's 153 sections are
+The other standing item is not a question. **143 of the book's 146 sections are
 `drafted` and unread**, and the seven passes of 2026-08-29 concentrated their
 additions in chapter 3 and section 11.2, neither of which has been read whole
 since before any of them. That concentration is Q-045.
