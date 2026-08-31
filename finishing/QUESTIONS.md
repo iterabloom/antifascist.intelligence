@@ -1769,6 +1769,35 @@ documented harm record the autism material does. Rule on both or say which gover
 
 ---
 
+### Q-059 — The Replacement ordering now stands in four places. Should section 12.3 keep its version?
+
+Section 3.3 states the ordering and the obligation. Section 3.9 restates both for a
+reader who has accepted the price. Section 12.3, the book's closing section, carries them
+in one sentence, added at P55 under D-128 because neither close restated them and a
+reader taking the conclusions at face value came away thinking the book recommends
+building the affective bearer now. **P62 adds a fourth**, and it is the one that states
+them as a milestone: what a deployment has to publish, and who can check it.
+
+**The fourth is not a repetition of the third and the measurement says so.** Shared
+8-grams between section 12.2.1 and section 12.3 are zero, and the two do different jobs:
+12.2.1 says what would satisfy the obligation, 12.3 says the obligation exists and is the
+last thing before the price. But they now sit four pages apart in the same chapter, and a
+reader meets the ordering twice in a chapter that had it once.
+
+- **(a) Default — leave both.** They do different jobs and share no phrasing. The closing
+  section is where a reader who skipped chapter 12's middle will meet the ordering at all,
+  and D-128 exists because that reader was already missed once.
+- (b) Cut section 12.3's sentence and let section 12.2.1 carry it. Saves 25 words and one
+  `\ref`, and reverses D-128 in the one place D-128 was aimed at.
+- (c) Repoint section 12.3's sentence at section 12.2.1 rather than at section 3.3, so the
+  close names the milestone instead of restating the requirement. One reference changes;
+  no claim moves.
+
+**Not a question about whether the ordering is right.** It is settled at D-128 and again
+at D-143. This is about how many times the book says it.
+
+---
+
 ## Resolved
 
 ### Q-055 — The running head over the glossary. **Closed by execution, D-140 (P59), on default (a):** `\backmattermark` in `preamble.tex`, called once in each starred back-matter chapter. The glossary reads GLOSSARY and the new appendix reads its own title.
