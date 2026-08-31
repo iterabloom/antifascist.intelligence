@@ -94,7 +94,7 @@ Both the cut and the addition are inside chapter 6, so its fall and the book's
 are the same 620. **140 sections**, down 1. **191 pages**, down 2 from 193.
 All `\ref{sec:}` 557 → **556**: seven references were repointed by the renumber
 and one was removed with the glossary locator, against no addition — the moved
-sentence carries none. Glossary locators 117 → 116. 0 undefined references, 0
+sentence carries none. Glossary locators 117 → 116. **[Corrected at P65: the glossary locators did not move. They were 117 at P63 and are 117 now — this pass removed the LIME/SHAP entry's second locator and added §9.3.2 to the explainability entry, netting zero. The one reference this pass removed was in the cut section's own body, its pointer at §6.1.3, and not a glossary locator, so the sentence above is wrong in its reason as well as its figure. The book-wide 557 → 556 is right.]** 0 undefined references, 0
 undefined citations, `check_all.sh` green. Pages 78 and 81 were rasterized and
 read: the counterfactual sentence in place, and §6.3.3 running straight into
 *Anticipating Risk Before It Causes Harm*.
