@@ -105,9 +105,9 @@ section; anything naming 6.3.5, 6.3.6 or 6.3.7 means one number lower now.
 
 ## Not done
 
-- **The committed proof pair is stale**, and the README's page figure with it.
-  The date has not rolled over, so a rebuild would be in place and the links
-  would not move.
+- **The committed proof pair was stale after this pass and was rebuilt at P65**,
+  in place at 190 pages, covering P64 and P65 together. The date had not rolled
+  over, so the links did not move.
 - **Five ledger rows tagged; all five were `drafted` already** and none moved
   status. **3 `accepted`, 137 `drafted`.** The author has not read §6.1.3 in its
   new form.

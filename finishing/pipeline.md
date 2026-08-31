@@ -1,13 +1,14 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, most recently 2026-08-31 after P63, against
-the committed proof pair rather than a build directory: **193-page PDF, lualatex +
+Verified end to end on this machine, most recently 2026-08-31 after P65, against
+the committed proof pair rather than a build directory: **190-page PDF, lualatex +
 biber, no undefined references and no undefined citations; and a one-file HTML page,
-make4ht + biber, with 344 citation links made relative, one empty anchor dropped and
-two duplicate ids dropped.** The internal-link count was not re-taken at P57; the 1,091
-over 1,589 ids recorded here at P53 is dropped rather than carried, since eight sections
-have been merged away and one added since.
+make4ht + biber, with 343 citation links made relative, one empty anchor dropped and
+two duplicate ids dropped.** **The internal-link count is re-taken here and is 1,039
+over 1,545 ids, with none broken and none duplicated.** The figure it replaces, 1,091 over
+1,589, was recorded at P53 and dropped as uncarryable at P57; ten sections have been
+merged or cut away and two added since it was taken, so the two are not comparable.
 
 ## What is available here
 
@@ -127,8 +128,8 @@ than chosen here.
 | `manuscript/book.tex` | master. Hand-edited. |
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
-| `manuscript/sections/chNN/*.tex` | one file per section, 146 of them. The prose. |
-| `finishing/refs.bib` | 309 entries, reached from the manuscript by `\autocite{key}`. The 28 nothing cites live in `unused_bibliography.bib` (D-111, and five more at D-137 to D-139). |
+| `manuscript/sections/chNN/*.tex` | one file per section, 139 of them. The prose. |
+| `finishing/refs.bib` | 308 entries, reached from the manuscript by `\autocite{key}`. The 29 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, and one at D-145). |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**

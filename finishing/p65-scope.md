@@ -119,8 +119,10 @@ citations, `check_all.sh` green. Printed pages 75 and 81 rasterized and read.
 
 ## Not done
 
-- **The committed proof pair is stale**, by P64 and again by this pass, and the
-  README's page figure with it. The date has not rolled over.
+- **The proof pair was rebuilt in place afterwards and is current**, the date not
+  having rolled over: 190 pages, 0 undefined references and 0 undefined citations,
+  1,039 internal links over 1,545 ids with none broken and none duplicated. It
+  covers P64 and P65 together, both having been stale.
 - **Four ledger rows tagged; all four were `drafted` already.** **3 `accepted`,
   136 `drafted`.**
 - **The surviving Amazon narration was not re-verified against the Reuters
