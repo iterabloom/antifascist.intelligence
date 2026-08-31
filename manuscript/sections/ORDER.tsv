@@ -8,7 +8,7 @@ manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awarenes
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	bc8fd78c3dfc58a394093ea15ef23a92a79464f51cb6c234cc55d51d35fd3696
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	b3565389619a81e2ba9e482024812ec53e5f9f4043459ccf36c62a5cebb3ed48
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	f0919bdcfed3a6075119cd9b46b829d02d5bbbb22c558bfaead67419d8cb5fb5
-manuscript/sections/ch02/02_03.tex	2.3	Ethical implications of experimenting on sentient machine subjects	2b0849c1947437cfe7000eef4f29c57461db6f775c47eb99184bae243a96a470
+manuscript/sections/ch02/02_03.tex	2.3	Ethical implications of experimenting on sentient machine subjects	5b02049ecff3696c6a00963e290707ae4bb21ff1018c5355ea1a51d8c80af464
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	a11f1347b6ea82f64fec847f42b38be3201503d1a892744ef94716e800cf20e2
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	de8b3fac715ec7b8d6de32b463edae8ff5f8eb079765a7f2149df0ffbb2b3930
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	45b18c490ce995d41ad12b85d8728ac8c796e7194f830c8b4655d2d873147861
@@ -44,7 +44,7 @@ manuscript/sections/ch05/05_01_01.tex	5.1.1	Rules, Principles, and the Role of M
 manuscript/sections/ch05/05_01_02.tex	5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	dfd92eac29e6ebd90db5009d73ae4a6ba6551513d32dbd9e72c3ba527c208beb
 manuscript/sections/ch05/05_01_03.tex	5.1.3	Human Dignity, and One Indicator That Can Be Audited	6af3501cef2f7d72e2a307c431c982bf2a4dfb06c16e904b0054ed136d374de0
 manuscript/sections/ch05/05_02.tex	5.2	Emotions and Intuitions in Moral Decision-Making	5ce3c39ea9f2f6245d1f0665af27ffe524035b4966298b2f8ff2c53248379812
-manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	77b2c3dbf2814affd2399a6a0f779fa81491751c5217b94d3a54c39cc658da83
+manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	da124a907e207260f495f647fd2436acc4da41e58a6bd478d38c806c296e0d88
 manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	fd23bacc540668d8ecb5e45c1a2c56e27924a146a97d9e00abbe08bb84e8f076
 manuscript/sections/ch05/05_02_03.tex	5.2.3	The Role of Introspection for AI Systems	72ef532b8b4723a66af1a16d0502942ff6f14538a5c3762cc41ac1f9ba5b7e57
 manuscript/sections/ch05/05_03.tex	5.3	Integrating Moral Intuitions and Deliberation	a4cd9d2ff9c8440dfebb023b5b314ff4ebff9321c666c6a5e73ae687ee9c5146
@@ -91,7 +91,7 @@ manuscript/sections/ch08/08_02_02.tex	8.2.2	AI Literacy Outside the Classroom	54
 manuscript/sections/ch08/08_03.tex	8.3	The Political Economy of AI and Power	84b1c978e3959960a382c4c88bfb5594e901d5d1929352238e6c279d70a0cd1a
 manuscript/sections/ch08/08_03_01.tex	8.3.1	Economic Incentives in AI Development	9be84cc6c72ee2eaf6c05b0515c9894fbae9b3cf7c59902323e3a5c53b0f3672
 manuscript/sections/ch08/08_03_02.tex	8.3.2	AI and the Concentration of Power in Tech	89b17144e22879b5ccb668198845dbf3498f64948b413af8d82a9ae487122c34
-manuscript/sections/ch08/08_03_03.tex	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	56fd1785211bb4554267ab1acfbb32280abe82fcb5eda0af34b26d153edcd23b
+manuscript/sections/ch08/08_03_03.tex	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	ed88c212652c09c50026ea7c69af8f7e2466aac60cf7b79061881c4e3c5954bd
 manuscript/sections/ch08/08_03_04.tex	8.3.4	Addressing Workforce Disruption	bec001fed1dfce1b5d7449808482be1188544b51fd8380382b79f7f031869a41
 manuscript/sections/ch08/08_03_05.tex	8.3.5	Literacy, Training, and Where Each One Sits	dc2f7d6c15305ae9c9c142db2a9d6d591e2b36c7652aa03c87c9bc1588264d4b
 manuscript/sections/ch09/09.tex	9	Policy, Law, and Accountability	0effa718d27cd24c8295d93221320bac13048dc25fc1a687363cf8b93c907472
@@ -113,7 +113,7 @@ manuscript/sections/ch10/10_02.tex	10.2	AI as a Strategic National Asset	aeedcad
 manuscript/sections/ch10/10_03.tex	10.3	Military Applications and the Limits of Autonomy	99eab112ef9d9c65d69105f6c064964b4020c7410eda523d2fba061b8ee32074
 manuscript/sections/ch10/10_04.tex	10.4	International Governance and Diverging National Rules	9216dfd9cdfc61e632e438749c6d45e1cb379b0d380cffc67e337e3b5289b4d6
 manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	14da7da5cdf10021758cf42a2f2ddfb795354c0569c792695a1215e120339236
-manuscript/sections/ch10/10_06.tex	10.6	What the Democratic Dividend Leaves Out	b7f0f1c4a55dd0756676241a110321ce2dbc79daca71d969d2a6520944ded56c
+manuscript/sections/ch10/10_06.tex	10.6	What the Democratic Dividend Leaves Out	c6872fd683c0342d6a76aa1a8d3129594b9141bcb8d1de75e55b5588cc35c275
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	17a2e6396c91dae41b254ec14f463cb443e942230f2cf703252a6cedd9247fd2
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	d3f3f66a19d7efcc4dd38b5636535c88603c09c651a49caf4a2353cc5dafa3d3
 manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	cd33eadf4b1ead92a4bfb0a6a91ed82b589d0c1bd6a77c81994faeee81098fe8
