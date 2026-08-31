@@ -48,7 +48,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.2.2	Assessing Whether Emotional Information Changes the Decision	3	5	690	9	0	0	0	0	0	0	4	0	1		0	0	0	0	2
 5.2.3	The Role of Introspection for AI Systems	3	5	337	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 5.3	Integrating Moral Intuitions and Deliberation	2	5	85	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	586	5	0	0	0	0	0	0	1	0	4		0	0	0	0	0
+5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	3	5	562	5	0	0	0	0	0	0	1	0	4		0	0	0	0	0
 5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	3	5	505	4	0	0	0	0	0	0	1	1	1		0	0	0	0	0
 5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	3	5	378	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 5.4	Moral Ecosystem Approach in AI Development	2	5	155	1	0	0	0	0	0	0	1	0	1		0	0	0	0	0
@@ -71,7 +71,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6	195	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.3.3	Anticipating Risk Before It Causes Harm	3	6	939	6	0	0	0	0	0	0	3	0	7	2023	4	0	0	0	0
 6.3.4	Remediating a Harm Once It Is Identified	3	6	1031	6	0	0	0	0	0	0	4	0	6	2026	0	0	0	0	0
-6.3.5	Long-term AI safety considerations	3	6	317	4	0	0	0	0	0	0	3	0	2		0	0	0	0	0
+6.3.5	Long-term AI safety considerations	3	6	214	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	192	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6	1212	25	6	0	0	0	0	0	3	0	8	2029	0	0	0	2	1
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6	612	5	0	0	0	0	0	0	4	0	1		0	0	0	0	0
@@ -133,5 +133,5 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	573	12	0	0	0	0	0	0	1	0	2	2023	0	0	0	0	5
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	517	5	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	624	6	0	0	0	0	0	0	5	0	0		0	0	0	0	0
-13	Glossary	1	13	3273	117	0	0	0	0	0	0	116	0	0	2019	5	0	0	0	58
+13	Glossary	1	13	3225	115	0	0	0	0	0	0	114	0	0	2019	5	0	0	0	57
 14	Appendix: On Method	1	14	397	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0

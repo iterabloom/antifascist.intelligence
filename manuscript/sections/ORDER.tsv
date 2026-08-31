@@ -48,7 +48,7 @@ manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and 
 manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	fd23bacc540668d8ecb5e45c1a2c56e27924a146a97d9e00abbe08bb84e8f076
 manuscript/sections/ch05/05_02_03.tex	5.2.3	The Role of Introspection for AI Systems	72ef532b8b4723a66af1a16d0502942ff6f14538a5c3762cc41ac1f9ba5b7e57
 manuscript/sections/ch05/05_03.tex	5.3	Integrating Moral Intuitions and Deliberation	a4cd9d2ff9c8440dfebb023b5b314ff4ebff9321c666c6a5e73ae687ee9c5146
-manuscript/sections/ch05/05_03_01.tex	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	f22a21e12d53a2bbf5e793b03c1c0a5752852b4b5d5bbb25ccaa8f35cd309a9d
+manuscript/sections/ch05/05_03_01.tex	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	1138d35da38f642266a3492e44af9809ead95a2c8c04822f91adcf3449608cac
 manuscript/sections/ch05/05_03_02.tex	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	bb47025a0c0a7a94045ff2346f7c6ce28a44a4dc8b8fe93617a9e0915006f5ef
 manuscript/sections/ch05/05_03_03.tex	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	bd3a349079d7e5d29f1c2bc4c65cfd91630e36670fbd8c497df7fcce6702f287
 manuscript/sections/ch05/05_04.tex	5.4	Moral Ecosystem Approach in AI Development	4068d01ccf75feafb31fa61a5d661363c621aa1eb3c057f20288374b47f95a7d
@@ -71,7 +71,7 @@ manuscript/sections/ch06/06_03_01.tex	6.3.1	The Alignment Problem: AI Systems wi
 manuscript/sections/ch06/06_03_02.tex	6.3.2	AI Systems that Learn to Deceive or Manipulate	62e3eb5bc18787812d1776912dd9ec058046ba88a8c535a56ae8763486de21aa
 manuscript/sections/ch06/06_03_03.tex	6.3.3	Anticipating Risk Before It Causes Harm	26e57dde855674ca4f2b12a82fa67ae912544a6821c3f1d51f63cb005403da88
 manuscript/sections/ch06/06_03_04.tex	6.3.4	Remediating a Harm Once It Is Identified	2adc1cb81d8da608a63ee60417ab0ca3d5d3c997140898e8e024daaabde257ce
-manuscript/sections/ch06/06_03_05.tex	6.3.5	Long-term AI safety considerations	a8428178d81278e6a82b4ca16d7f6096189154f5679dbd4082d76a27c91ea261
+manuscript/sections/ch06/06_03_05.tex	6.3.5	Long-term AI safety considerations	c041b8210f45b837c66c8ce7af137e771f1388bb43c9b2ac782f830f998d8e77
 manuscript/sections/ch06/06_04.tex	6.4	Preventing the Misuse of AI for Authoritarian Purposes	90a867f63d8be4820184dde3ef586e81b868d7b2025660e8f5e11660b4802d64
 manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications, and the Party Missing From the List	df9cb6ea241f8f5706bb9bace5c0ff18ac32c00b5bab91fa978df8f5606666fb
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	2d8a03b844da4c73890837e6dfe261d2610a03f17416ed04fb9cb11c519c79ea
@@ -133,5 +133,5 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	c
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	319419c990423ec99e1311574dc9df1d05bd05f15cacb83c569d5615a723c063
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	f5a159e2df8bc758d404c44fe8799a9794b034d91d5ad43abc383ab5aa879dbc
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	297dfd1c993f12ca0e2de117c771c4d5a135a9839c09798dff6927e1c9612ad8
-manuscript/sections/ch13/13.tex	13	Glossary	2b614dc0a24a1b4506564487b085203288210438d772d4c792176c02fb9cf5a9
+manuscript/sections/ch13/13.tex	13	Glossary	641f5d02004a7a37e606f4582079d01efecc2bf992b37b9e3377e92dd086c593
 manuscript/sections/ch14/14.tex	14	Appendix: On Method	3134bb86fb48bb22e9f9ef106b693aa76d9e6359d0c49385148e165617f50fa5
