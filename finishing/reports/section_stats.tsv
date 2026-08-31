@@ -61,10 +61,10 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.6.2	Balancing AI Autonomy and Alignment with Humane Values	3	5	613	8	0	0	0	0	0	0	5	1	1		0	0	0	0	2
 5.7	Play, Exploration, and Moral Development in AI	2	5	90	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 5.7.1	The Role of Play in Moral Learning and Socialization	3	5	898	11	0	0	0	0	0	0	4	0	5		0	1	0	0	2
-6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	184	2	0	0	0	0	0	0	2	0	0		0	0	1	0	0
-6.1	Bias, Fairness, and Equity in AI Systems	2	6	912	10	0	0	0	0	0	0	3	0	6	2030	0	0	0	1	0
-6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1328	16	0	0	0	0	0	0	6	0	8	2018	2	0	0	0	5
-6.1.2	The Role of Transparency and Accountability in Bias Reduction	3	6	517	9	0	0	0	0	0	0	4	0	3		0	0	0	0	4
+6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	826	7	0	0	0	0	0	0	4	0	5	2030	0	0	1	1	0
+6.1	Bias, Fairness, and Equity in AI Systems	2	6	227	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1111	15	0	0	0	0	0	0	6	0	8	2018	2	0	0	0	5
+6.1.2	The Role of Transparency and Accountability in Bias Reduction	3	6	455	7	0	0	0	0	0	0	3	0	3		0	0	0	0	3
 6.2	Robustness, Generalization, and Adaptability in AI Systems	2	6	563	6	0	0	0	0	0	0	2	0	3		0	0	0	0	0
 6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	394	6	0	0	0	0	0	0	6	0	0		0	0	0	0	0
 6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	248	4	0	0	0	0	0	0	2	0	0		0	0	0	0	0
@@ -109,7 +109,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 9.3.5	What Keeps the Apparatus More Than Aspirational	3	9	1070	13	0	0	0	2	0	0	4	0	1		0	0	0	0	2
 10	Governance Across Borders	1	10	130	2	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 10.1	What Actually Crosses a Border	2	10	1375	17	0	0	0	0	0	1	2	0	11	2026	0	1	0	0	5
-10.2	AI as a Strategic National Asset	2	10	887	8	0	0	0	0	0	0	4	0	6	2030	0	0	0	0	0
+10.2	AI as a Strategic National Asset	2	10	888	8	0	0	0	0	0	0	4	0	6	2030	0	0	0	0	0
 10.3	Military Applications and the Limits of Autonomy	2	10	1487	17	4	0	0	0	0	0	5	0	7	2023	0	1	0	0	1
 10.4	International Governance and Diverging National Rules	2	10	1597	13	0	0	0	0	0	0	3	0	12	2026	0	1	0	0	1
 10.5	Equity and the Digital Divide	2	10	646	8	0	0	0	0	0	1	0	0	2	2025	0	1	0	1	1
@@ -133,5 +133,5 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	573	12	0	0	0	0	0	0	1	0	2	2023	0	0	0	0	5
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	517	5	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	624	6	0	0	0	0	0	0	5	0	0		0	0	0	0	0
-13	Glossary	1	13	3225	115	0	0	0	0	0	0	114	0	0	2019	5	0	0	0	57
+13	Glossary	1	13	3233	115	0	0	0	0	0	0	114	0	0	2019	5	0	0	0	57
 14	Appendix: On Method	1	14	397	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0
