@@ -123,8 +123,14 @@ citations, `check_all.sh` green. Printed pages 75 and 81 rasterized and read.
   having rolled over: 190 pages, 0 undefined references and 0 undefined citations,
   1,039 internal links over 1,545 ids with none broken and none duplicated. It
   covers P64 and P65 together, both having been stale.
-- **Four ledger rows tagged; all four were `drafted` already.** **3 `accepted`,
-  136 `drafted`.**
+- **Four ledger rows tagged.** **[Corrected at P66: the cut row was not `drafted`.**
+  **Section 6.1.2, *Ensuring Fairness and Equity in AI Decision-Making*, was
+  `accepted` in the ledger, and this pass cut it.** The tree at P64's commit held 3
+  `accepted` and 137 `drafted`; at this pass's commit, 2 and 137. The sentence
+  below said the opposite of both facts — that no accepted row was touched, and that
+  the counts were 3 and 136. **This pass cut an author-accepted section and reported
+  that it had not.**] ~~All four were `drafted` already. 3 `accepted`, 136
+  `drafted`.~~
 - **The surviving Amazon narration was not re-verified against the Reuters
   article.** The citation was moved because the cut section carried it for the
   same claim, not because the source was opened here. The two details added to

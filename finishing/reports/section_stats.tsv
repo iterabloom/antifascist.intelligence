@@ -28,7 +28,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	399	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 4.2	How a Deployed System Acquires Its Values	2	4	250	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 4.2.1	Pretraining and Instruction Tuning	3	4	533	7	0	0	0	0	0	0	2	0	2	2022	0	0	0	0	1
-4.2.2	Preference Optimization, and Who Holds the Pen	3	4	600	9	0	0	0	0	0	0	3	0	3	2023	0	0	0	0	3
+4.2.2	Preference Optimization, and Who Holds the Pen	3	4	601	9	0	0	0	0	0	0	3	0	3	2023	0	0	0	0	3
 4.2.3	Inferring the Objective: IRL and CIRL	3	4	326	4	0	0	0	0	0	0	2	0	1		0	0	0	0	0
 4.2.4	Model-Generated Feedback and Constitutional Approaches	3	4	429	6	0	0	0	0	0	0	6	0	1	2022	0	0	0	0	1
 4.2.5	Process and Outcome Supervision	3	4	419	4	0	0	0	0	0	0	4	0	3	2023	0	0	0	0	0
@@ -66,13 +66,12 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.1.1	Sources of Bias in AI Data and Algorithms	3	6	1328	16	0	0	0	0	0	0	6	0	8	2018	2	0	0	0	5
 6.1.2	The Role of Transparency and Accountability in Bias Reduction	3	6	517	9	0	0	0	0	0	0	4	0	3		0	0	0	0	4
 6.2	Robustness, Generalization, and Adaptability in AI Systems	2	6	563	6	0	0	0	0	0	0	2	0	3		0	0	0	0	0
-6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	309	5	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	394	6	0	0	0	0	0	0	6	0	0		0	0	0	0	0
 6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	248	4	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6	195	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-6.3.3	Strategies for AI Safety and Risk Mitigation	3	6	309	6	0	0	0	0	0	0	4	0	1		0	0	0	0	0
-6.3.4	Anticipating Risk Before It Causes Harm	3	6	939	6	0	0	0	0	0	0	3	0	7	2023	4	0	0	0	0
-6.3.5	Remediating a Harm Once It Is Identified	3	6	1031	6	0	0	0	0	0	0	4	0	6	2026	0	0	0	0	0
-6.3.6	Long-term AI safety considerations	3	6	317	4	0	0	0	0	0	0	3	0	2		0	0	0	0	0
+6.3.3	Anticipating Risk Before It Causes Harm	3	6	939	6	0	0	0	0	0	0	3	0	7	2023	4	0	0	0	0
+6.3.4	Remediating a Harm Once It Is Identified	3	6	1031	6	0	0	0	0	0	0	4	0	6	2026	0	0	0	0	0
+6.3.5	Long-term AI safety considerations	3	6	317	4	0	0	0	0	0	0	3	0	2		0	0	0	0	0
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	192	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.4.1	Authoritarian Applications, and the Party Missing From the List	3	6	1212	25	6	0	0	0	0	0	3	0	8	2029	0	0	0	2	1
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6	612	5	0	0	0	0	0	0	4	0	1		0	0	0	0	0
@@ -86,23 +85,21 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 8	Coordination, the Public, and the Political Economy	1	8	240	3	0	0	0	0	0	0	4	0	0		0	0	0	0	0
 8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	166	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8	868	15	0	0	0	0	0	0	2	0	7	2022	0	0	0	0	4
-8.2	Stakeholder Involvement and Public Engagement	2	8	82	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-8.2.1	Engaging Diverse Stakeholders in AI Development	3	8	197	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-8.2.2	Public Deliberation and Participatory AI Governance	3	8	666	9	3	0	0	0	0	0	2	1	3	2019	0	1	0	0	1
-8.2.3	AI Literacy Outside the Classroom	3	8	183	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+8.2	Stakeholder Involvement and Public Engagement	2	8	235	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+8.2.1	Public Deliberation and Participatory AI Governance	3	8	668	9	3	0	0	0	0	0	2	0	3	2019	0	1	0	0	1
+8.2.2	AI Literacy Outside the Classroom	3	8	183	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 8.3	The Political Economy of AI and Power	2	8	80	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.3.1	Economic Incentives in AI Development	3	8	211	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 8.3.2	AI and the Concentration of Power in Tech	3	8	514	6	0	0	0	0	0	0	1	0	3	2025	0	1	0	0	0
 8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	1874	22	3	0	0	0	0	0	6	0	10	2034	0	0	0	0	4
 8.3.4	Addressing Workforce Disruption	3	8	771	12	0	0	0	0	0	0	5	1	2	2026	0	0	0	0	1
 8.3.5	Literacy, Training, and Where Each One Sits	3	8	535	8	0	0	0	0	0	0	1	0	4		0	0	0	0	2
-9	Policy, Law, and Accountability	1	9	164	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
-9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9	168	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	271	5	0	0	0	0	0	0	4	0	0		0	0	0	0	0
+9	Policy, Law, and Accountability	1	9	156	2	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9	247	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	252	5	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 9.1.2	Encouraging Industry Best Practices and Self-regulation	3	9	1520	17	0	0	0	0	0	0	5	0	9	2020	2	0	0	0	3
-9.1.3	Public-Private Partnerships for AI Research and Innovation	3	9	215	3	0	0	0	0	0	0	0	1	2		0	0	0	0	0
-9.1.4	Legal and ethical implications of AI systems gaining personhood	3	9	252	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-9.1.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9	334	7	0	0	0	0	0	1	1	0	1		0	0	0	0	2
+9.1.3	Legal and ethical implications of AI systems gaining personhood	3	9	252	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+9.1.4	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9	334	7	0	0	0	0	0	1	1	0	1		0	0	0	0	2
 9.2	Privacy, Security, and Antifascism in AI Systems	2	9	850	11	0	0	0	0	0	0	3	0	10		0	0	0	0	0
 9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9	48	1	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	351	4	0	0	0	0	0	0	2	0	0		0	0	0	0	0
@@ -136,5 +133,5 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	573	12	0	0	0	0	0	0	1	0	2	2023	0	0	0	0	5
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	517	5	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	624	6	0	0	0	0	0	0	5	0	0		0	0	0	0	0
-13	Glossary	1	13	3274	117	0	0	0	0	0	0	117	0	0	2019	5	0	0	0	58
+13	Glossary	1	13	3273	117	0	0	0	0	0	0	116	0	0	2019	5	0	0	0	58
 14	Appendix: On Method	1	14	397	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0

@@ -68,10 +68,9 @@ Chapter 6: Overcoming Challenges, Risks, and Authoritarianism in AI Development
 6.3. AI Safety, Unintended Consequences, and Risk Mitigation
 6.3.1. The Alignment Problem: AI Systems with Misaligned Goals
 6.3.2. AI Systems that Learn to Deceive or Manipulate
-6.3.3. Strategies for AI Safety and Risk Mitigation
-6.3.4. Anticipating Risk Before It Causes Harm
-6.3.5. Remediating a Harm Once It Is Identified
-6.3.6. Long-term AI safety considerations
+6.3.3. Anticipating Risk Before It Causes Harm
+6.3.4. Remediating a Harm Once It Is Identified
+6.3.5. Long-term AI safety considerations
 6.4. Preventing the Misuse of AI for Authoritarian Purposes
 6.4.1. Authoritarian Applications, and the Party Missing From the List
 6.4.2. Developing Technical Countermeasures and Safeguards
@@ -86,9 +85,8 @@ Chapter 8: Coordination, the Public, and the Political Economy
 8.1. Interdisciplinary Collaboration and Knowledge Exchange
 8.1.1. What Makes Collaboration Expensive to Walk Away From
 8.2. Stakeholder Involvement and Public Engagement
-8.2.1. Engaging Diverse Stakeholders in AI Development
-8.2.2. Public Deliberation and Participatory AI Governance
-8.2.3. AI Literacy Outside the Classroom
+8.2.1. Public Deliberation and Participatory AI Governance
+8.2.2. AI Literacy Outside the Classroom
 8.3. The Political Economy of AI and Power
 8.3.1. Economic Incentives in AI Development
 8.3.2. AI and the Concentration of Power in Tech
@@ -99,9 +97,8 @@ Chapter 9: Policy, Law, and Accountability
 9.1. Developing Policy Frameworks for AI Ethics, Safety, and Antifascism
 9.1.1. National Policy Guidelines for AI Development, Employment, and Antifascism
 9.1.2. Encouraging Industry Best Practices and Self-regulation
-9.1.3. Public-Private Partnerships for AI Research and Innovation
-9.1.4. Legal and ethical implications of AI systems gaining personhood
-9.1.5. Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
+9.1.3. Legal and ethical implications of AI systems gaining personhood
+9.1.4. Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
 9.2. Privacy, Security, and Antifascism in AI Systems
 9.3. Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation
 9.3.1. Subjecthood as a Legal Category, Not a Scientific One
