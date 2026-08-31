@@ -1722,23 +1722,24 @@ Section 3.3's induction already runs on *one species, plus a handful of clinical
 dissociations inside that species,* and calls the dissociations contested. Removing two
 of the three legs weakens it materially.
 
-- **(a) Default — autism only.** The rule was written against a measurement about autism
-  research and against a passage about autistic people. Take the 557 words now, leave the
-  other two legs standing, and record that they were considered and not taken. Cheapest,
-  and it leaves an inconsistency on the page: two literatures failing the same test with
-  one cut and two kept.
-- (b) All three legs. Consistent, and it is the reading the rule's own words support if
-  *disabled population* is read plainly — brain-injured people and people with a
-  psychiatric diagnosis are disabled populations. Costs 861 words, guts the dissociation
-  argument, and obliges chapter 3 to restate its induction on what survives. That is a
-  change to the book's central inference and wants its own ruling either way.
-- ~~(c) All three legs, and rebuild rather than only cut, with the excluded literatures
-  described rather than relied on.~~ **Foreclosed by D-138**: describing them is the
-  oxygen. What survives of this option is the rebuild without the description — section
-  2.3.3 rewritten around Nichols, the prosocial-emotion findings and the Frankfurt/Watson
-  specification, which is what (b) leaves standing anyway.
+**Ruled by the author, D-139: keep Koenigs, cut Bechara, cut the psychopathy pair**, and
+executed at P58. Neither of the two options this entry set out was taken whole. The
+answer splits the four sources by *why* rather than by *which population*: the autism
+material went on D-137 and D-138, and Bechara and the Blair/Cima pair went on evidence
+quality, which is ordinary editorial judgment. Koenigs was kept although its subjects
+are ventromedial-prefrontal patients, the same population as Bechara's — **so D-137 is
+not applied to brain-injured populations as a class**, and that reading is the agent's,
+recorded at D-139 and stated to the author when the ruling was given.
 
-*Default (a) applies at the pass that executes D-137.*
+**What decided Bechara was not the disability rule but a literature check that reversed
+an earlier report.** Bechara had been put to the author as the loss that would hurt. The
+gambling-task deficit reproduces widely; the somatic-marker inference the book actually
+used does not. A sourcing defect surfaced with it and went with the cut: the claim about
+patients choosing badly after they could state the rule aloud is Bechara et al. 1997 in
+*Science*, cited in the book to the 1994 *Cognition* paper.
+
+The cost landed as measured: section 2.3.3 went 1,668 → 1,008 words, keeps no case of
+affect removed, and now says so on the page. Section 3.3's licence was untouched.
 
 **A second question stood here and is closed by ruling, D-138.** The reading recorded was
 the agent's: that *used as a premise* was D-137's operative restriction, so section
@@ -1760,6 +1761,8 @@ documented harm record the autism material does. Rule on both or say which gover
 ---
 
 ## Resolved
+
+### Q-058 — How far D-137 and D-138 reach into section 2.3.3's evidence. **Closed by ruling, D-139, and by execution at P58.** Koenigs kept; Bechara and the Blair/Cima psychopathy pair cut on evidence quality rather than on the disability rule; the autism material cut on both rules. D-137 is not applied to brain-injured populations as a class.
 
 ### Q-028 — Whether chapter 3 should move earlier. **Closed by execution, D-102 (P38), on (a).**
 

@@ -279,9 +279,14 @@ asks about method: was the population a party to producing the finding. D-138 as
 about effect: does the research harm the population. A study can fail one and pass
 the other.
 
-**One application question is open at Q-058** -- whether section~2.3.3's
-psychopathy and ventromedial-prefrontal legs are reached -- and this section
-should not be applied to them until it is ruled.
+**Both rules have been applied once, at P58**, and Q-058 records how far they
+reached. The reach is narrower than the rules read: the autism material at
+sections~2.3.3 and 2.2.1 went on these rules, while section~2.3.3's psychopathy
+and ventromedial-prefrontal material went on evidence quality instead, and
+Koenigs was kept although its subjects are the same population as Bechara's. So
+**D-137 has not been applied to brain-injured populations as a class**, and a
+later pass proposing to do that is opening a question rather than following a
+precedent.
 
 ## 7. Cross-references
 
