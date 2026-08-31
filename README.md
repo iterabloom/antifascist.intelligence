@@ -1,7 +1,7 @@
 # Antifascist Intelligence  
 ## Building Machines That Can Refuse  
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-08-31.pdf) · [HTML](finishing/reports/whole-book-proof_2026-08-31.html) — 190 pages, built 2026-08-31 from the sources in this repository.  
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-08-31.pdf) · [HTML](finishing/reports/whole-book-proof_2026-08-31.html) — 187 pages, built 2026-08-31 from the sources in this repository.  
 
 Machines are being built that can accomplish almost anything and have no stake in whether what they do helps or harms anyone. This book asks what it would take to build one that is altruistic and antifascist by design — a system that stands for humanity and against concentrated, unaccountable power — and draws on psychology, neuroscience, ethics, law, political economy, and artificial intelligence to say what that would require.  
 
