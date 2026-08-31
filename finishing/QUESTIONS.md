@@ -35,11 +35,11 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-124:** 94,196 words,
+**The figures this file turns on, re-measured 2026-08-30 after D-125:** 94,249 words,
 153 sections, 192 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
-`refs.bib` at 307 entries, 23 having moved to `unused_bibliography.bib` at P47, with 203 carrying
+`refs.bib` at 309 entries, 23 having moved to `unused_bibliography.bib` at P47, with 205 carrying
 notes and 104 carrying none; **318 instances of "rather than"** — the 312 recorded here was already two short when
 written, and D-119 to D-121 added four more, three of them in glossary entries written by the
 agent and one in the author's own wording for the Menand clause, which is worth Q-038 knowing; D-122 added none; **123 locator calls across the glossary's 58 entries —
@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — The class now has seven instances in one day, and one of them shows how it spreads: **a wrong bibliography note fed two sections**
+### Q-056 — Eight instances in one day, four mechanisms. The newest is **a negative claim about a document nobody had read**, and no source audit catches that class
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1547,6 +1547,32 @@ not comply.
 *Still no default on (b) through (e).* **Seven instances, three mechanisms — a source read
 too firmly, a section summarised too firmly, and a note that fed both — and every one of the
 seven was found by the author reading.**
+
+**Amended a fourth time 2026-08-30 (D-125).** The eighth instance is the first the **author**
+committed rather than caught, and it is a different failure again: **a negative claim about a
+document nobody had read.** D-124 applied his wording that the audit's findings did not
+include the disability objection. He then withdrew it himself, on evidence that cuts against
+it — HireVue's own post lists Integrate Autism Employment Advisors first among the audit's
+external stakeholders, and the audit records a stakeholder concern about head and face
+coverings. **A claim about what a source omits is a claim about the whole source**, and
+cannot be made from secondary reporting of it; the fix was to replace it with three positive
+facts from inside the document, the strongest being that the audit states the phase-out
+decision was already taken before it was conducted.
+
+**This adds a fourth mechanism to the list, and it is the one no source-opening audit
+catches**: (b), (c) and (e) all check whether a claim matches what a source says. **None of
+them detects a claim about what a source does not say**, because the check is unbounded —
+confirming an absence requires reading the whole document, and here the document is eight
+pages behind a legal agreement. The only defence is not to write the sentence.
+
+**What this suggests for the options, without pre-empting the ruling:** any audit run under
+(b), (c) or (e) should treat a negative claim as a distinct and harder class, and the cheap
+sweep for it is a phrase search — *does not*, *was not among*, *nowhere in*, *says nothing
+about* — attached to a citation. **That sweep has not been run**, and how many such sentences
+the book contains is unknown.
+
+*Still no default.* **Eight instances, four mechanisms. Seven were found by the author
+reading and one by the author re-reading his own correction.**
 
 ---
 
