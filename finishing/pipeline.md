@@ -129,7 +129,7 @@ than chosen here.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, 136 of them. The prose. |
-| `finishing/refs.bib` | 306 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. The 31 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, one at D-145, and two at D-147). |
+| `finishing/refs.bib` | 304 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. The 33 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, one at D-145, two at D-147, and two at D-148). |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
