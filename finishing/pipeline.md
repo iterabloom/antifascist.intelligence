@@ -1,10 +1,10 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, most recently 2026-08-31 after P58, against
-the committed proof pair rather than a build directory: **196-page PDF, lualatex +
+Verified end to end on this machine, most recently 2026-08-31 after P63, against
+the committed proof pair rather than a build directory: **193-page PDF, lualatex +
 biber, no undefined references and no undefined citations; and a one-file HTML page,
-make4ht + biber, with 346 citation links made relative, one empty anchor dropped and
+make4ht + biber, with 344 citation links made relative, one empty anchor dropped and
 two duplicate ids dropped.** The internal-link count was not re-taken at P57; the 1,091
 over 1,589 ids recorded here at P53 is dropped rather than carried, since eight sections
 have been merged away and one added since.
@@ -15,7 +15,11 @@ TeX Live 2026 installed under `$HOME/texlive/2026` — user-space, because there
 is no root on this machine and `apt` was therefore not an option. `lualatex`,
 `biber` 2.22, `make4ht`/`tex4ht`, `scheme-medium` plus `collection-latexextra`.
 Also `libreoffice` 24.2.7 headless, `gs`, `pdfinfo`/`pdftotext`, python 3.12,
-node 20. **Not** here: `pandoc`, ImageMagick's `convert`, `tidy`.
+node 20. **Not** here: `pandoc`, ImageMagick's `convert`, `tidy`. Nor, found at P62,
+either Python package `redundancy.py` needs: `sentence_transformers` for its default
+backend and `sklearn` for its `--tfidf` fallback. **That tool cannot run on this
+machine**, and a redundancy check has to be done another way — P62 used shared n-grams
+between the new section and the sections it drew from.
 
 `~/texlive/2026/bin/x86_64-linux` is **not** on the default PATH. `build_tex.sh`
 adds it; set `TEXLIVE_BIN` to override.

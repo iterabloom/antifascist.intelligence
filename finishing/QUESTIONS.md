@@ -35,7 +35,9 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-31 after D-140 (P59):** 96,829 words, 146 sections, 196 pages. P59 removed chapter~0 and added the appendix, so the section count is unchanged; body `\ref{sec:}` stands at 418 and `refs.bib` at 309, both unchanged. Of the 11-word fall from P58's 96,840, **4 are a tool correction and not an edit** — `common.py` was taught `backmattermark` and `url`, and had been counting two running-head titles as prose.
+**The figures this file turns on, re-measured 2026-08-31 after D-144 (P63):** 96,585 words, **141 sections**, 193 pages. Four passes have moved them since the P59 measurement below, and the section count moved twice: P61 cut six sections and moved one out of chapter~2, and P62 added one. Body `\ref{sec:}` stands at **438** and the glossary at 117, against 418 and 123 at P59 - P61's cuts took the glossary down and P62's new section 12.2.1 put thirteen into the body. `refs.bib` is unchanged at 309 with 28 in `unused_bibliography.bib`. **Any question below reasoning from 146 sections, 96,829 words or 196 pages is reasoning from the P59 figures**, and the renumber maps for 2026-08-31, `_2026-08-31b` and `_2026-08-31c` translate the numbers that moved with them.
+
+**Superseded, kept for the record. Re-measured 2026-08-31 after D-140 (P59):** 96,829 words, 146 sections, 196 pages. P59 removed chapter~0 and added the appendix, so the section count is unchanged; body `\ref{sec:}` stands at 418 and `refs.bib` at 309, both unchanged. Of the 11-word fall from P58's 96,840, **4 are a tool correction and not an edit** — `common.py` was taught `backmattermark` and `url`, and had been counting two running-head titles as prose.
 
 **Superseded, kept for the record. Re-measured 2026-08-31 after D-139 (P58):** 96,840 words, 146 sections. P58 cut 708 words and removed no section; `refs.bib` is at 309 entries with 28 in `unused_bibliography.bib`, and all body `\ref{sec:}` stands at 418 with the glossary unchanged at 123. The page figure is taken from the rebuilt proof rather than carried.
 
@@ -670,8 +672,12 @@ The reason is what the measurement showed. Book-wide the contrastive constructio
 1,000 words against the calibration set's 2.90, which looks like a book-wide tic; read one by one
 they are mostly not. Chapter 6's 25 instances yielded one repair out of 25. The two chapters
 scoring highest on the rate are the conclusion and the glossary, and both score high because their
-content is genuinely contrastive — a glossary distinguishes terms, and section 12.2.1 states one
-standard five times as "met when X, not when Y," which is its structure rather than a habit.
+content is genuinely contrastive — a glossary distinguishes terms, and the section then
+numbered 12.2.1 stated one standard five times as "met when X, not when Y," which was its
+structure rather than a habit. **P62 moved that example.** It is now section 12.2.2, the standard
+it applied five times has gone up into section 12.2's opener, and the five cases keep the met-when
+form without stating the standard themselves. The rate above was measured before that and has not
+been retaken.
 
 So the rate is not the instrument, and the only instrument that works is reading each one against
 its paragraph. P12 did exactly that for chapter 5: 152 instances, judged individually, two mistakes

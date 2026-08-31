@@ -178,6 +178,15 @@ Branches: `main` is what the author sees. One branch per pass
 if the author has committed from the phone. Tags: `v3b-import`, `v4-split`,
 `v4-normalized`, `plan-1.0`, `pass-N-done`.
 
+**Two things in this section stopped describing practice, recorded 2026-08-31 after P63
+rather than rewritten, so the plan still reads as it was written.** `tools/dashboard.py`
+was never built; `finishing/tools/section_stats.py` and `check_all.sh` are what a session
+actually runs, and the ledger is read directly. And the branch-per-pass practice stopped: the last
+merge in the history is `331f0a5`, the random-page sampler on 2026-08-30, and every
+commit since it — P52 through P63 and their proofs — has gone straight to `main`, which is
+what `pipeline.md` sets out under "Make the proofs." Branches were real before that, and
+`pass/51-rulings-and-defects` is the last pass branch merged.
+
 ## 3. Standing rules
 
 1. The agent never authors a reference entry; it writes placeholders only.
