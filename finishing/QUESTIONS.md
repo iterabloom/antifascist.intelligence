@@ -35,12 +35,12 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-30 after D-122:** 94,092 words,
-153 sections, 191 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
+**The figures this file turns on, re-measured 2026-08-30 after D-124:** 94,196 words,
+153 sections, 192 pages; **599 `\ref{sec:` calls, 476 of them outside the glossary, one per 188
 words of body prose** — down from 848 and one per 111 at P53, which cut 252 of them, and up 3 at
 P54, all three inside the glossary D-118 ruled out of scope, so the body figure is unmoved;
-`refs.bib` at 305 entries, 23 having moved to `unused_bibliography.bib` at P47, with 201 carrying
-notes; **318 instances of "rather than"** — the 312 recorded here was already two short when
+`refs.bib` at 307 entries, 23 having moved to `unused_bibliography.bib` at P47, with 203 carrying
+notes and 104 carrying none; **318 instances of "rather than"** — the 312 recorded here was already two short when
 written, and D-119 to D-121 added four more, three of them in glossary entries written by the
 agent and one in the author's own wording for the Menand clause, which is worth Q-038 knowing; D-122 added none; **123 locator calls across the glossary's 58 entries —
 the 109 recorded here before P54 could not be reproduced** by any count of chapter 13 (entries,
@@ -1383,7 +1383,7 @@ four findings in the prose and the bibliography and did not touch the typesettin
 
 ---
 
-### Q-056 — Four findings were the same class: the book states a source, or its own section, more firmly than the thing states itself. **(a)'s trigger has fired, and (d) is now known to be partial**
+### Q-056 — The class now has seven instances in one day, and one of them shows how it spreads: **a wrong bibliography note fed two sections**
 
 D-120 and D-121 arrived one after the other, from the author's reading, and they are one
 fault twice. **In each, the manuscript was more confident than its source.** *Trump v. Cook*,
@@ -1512,6 +1512,83 @@ it cannot be described as covering the internal variant.
 between them cover the source variant ((b) or (c)) and the internal one ((e)). **Not
 started.** Both instances of the internal variant were found by the author reading, not by
 anything in this repository.
+
+**Amended a third time 2026-08-30 (D-124), and this one changes the diagnosis.** Three more
+instances arrived together, all on one case — the HireVue video-interview product — and they
+are not three independent slips. **`kahn2021hirevue`'s note asserted three things the article
+does not contain**: a January 2021 discontinuation date (it was March 2020), the audit as the
+cause (the company's own reason was that nonverbal data added about 0.25 percent to
+predictive power), and criticism about autism, facial differences and atypical affect (the
+article says nothing about disability). **Section 11.8 and section 12.1 then said what the
+note said.** Section 12.1's verb was “established”, which made an independent audit the
+source of a finding it never made.
+
+**That is the transmission mechanism, and it was not visible in the first four instances.** A
+note is written once, from a hurried reading; the sections are written from the note; and the
+error is then in the manuscript twice with a citation attached to it, looking exactly like a
+sourced claim. **Every check in `tools/` passes on this.** `claims.py` sees an assertion with
+a citation. `check_xrefs.py` sees nothing, there being no cross-reference. Nothing opens the
+article. The only reader who can catch it is one who opens the source, which is what the
+author did.
+
+**This raises (b) from a reasonable option to the one the evidence points at**, because (b)
+audits load-bearing citations by opening the sources, and the note is where the corruption
+enters. **The measurement that bounds it:** 203 of 307 entries carry a note, and 104 carry
+none. How many of the 203 describe an article accurately is now known to be at most 202.
+
+**A second finding, and it is a conflict between two rulings of the author's own.** D-111
+holds that a note *“stays if it says what the source says or is, and goes if it records what
+was done to check it,”* capped at 802 characters. **Q-056 above names the note field as the
+one instrument that touches this class.** Those cannot both stand: the material that would
+have caught this error — what the article does *not* say — is exactly what D-111 rules out of
+the file. Filed as **Q-057**, with the measurement that three notes already in the file do
+not comply.
+
+*Still no default on (b) through (e).* **Seven instances, three mechanisms — a source read
+too firmly, a section summarised too firmly, and a note that fed both — and every one of the
+seven was found by the author reading.**
+
+---
+
+### Q-057 — D-111 and Q-056 contradict each other about what a bibliography note is for
+
+**D-111 (2026-08-29), the author's ruling:** a note *“stays if it says what the source says or
+is, and goes if it records what was done to check it,”* with any annotated entry capped at
+802 characters, twice the average bare entry. The reason is sound and visible on the page:
+**notes print in the References**, so a note recording an agent's verification process is
+printed matter about making the book, in the back of the book.
+
+**Q-056 (2026-08-30), on the evidence of seven instances:** the note field is the only
+instrument in the repository that touches the source-fidelity class, and D-124 showed a wrong
+note feeding two sections. What would have caught D-124 is the sentence D-111 forbids — *the
+article does not say this.*
+
+**Both cannot hold.** The material with diagnostic value is precisely the material ruled out.
+
+**What is measured.** 203 of 307 entries carry a note; 104 carry none. **Three notes do not
+comply with D-111 as it stands** — `cook2026` at 1,256 characters and `menand2026exception`
+at 1,053 exceed the cap, and both, with `gordon2022jury`, record what was done to check the
+source. All three were written at D-119 to D-121, after D-111, by an agent that had read the
+file. **They are not repaired**, because repairing them would delete the record that D-121's
+own diagnosis said was missing. The three notes written today were first drafted the same way
+and have been rewritten to the descriptive core, their verification record moved to D-124.
+
+- **(a) Default — keep D-111 as written and put the verification record in `DECISIONS.md`.**
+  It is where D-124's record went, it does not print, and it is already the file a reader of
+  the campaign consults. The cost: the record is one indirection away from the citation it is
+  about, and nobody checking a claim against its source will find it there. Bring the three
+  non-compliant notes into line as a separate small pass.
+- (b) Amend D-111 to admit one sentence of negative content — *what the source does not
+  support* — while keeping the ban on process language and dates of checking. This is the
+  narrow reading of what has diagnostic value, and it prints, which is arguably a virtue: a
+  reader learns the limit of the citation at the citation.
+- (c) Move the whole verification apparatus out of `refs.bib` into a companion file that does
+  not print, keyed by citation key. Most work, and creates a second file to keep current,
+  which `check_all.sh` would then need to check.
+
+*Default (a) applies unless the author rules otherwise.* **Not started.** Raised because
+D-124 is the first case where the two rulings visibly collided, and because the three
+non-compliant notes mean the file is currently in neither state.
 
 ---
 
