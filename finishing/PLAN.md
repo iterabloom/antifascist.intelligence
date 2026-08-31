@@ -71,13 +71,14 @@ rung of section 3.2's ladder; and P56 gave section 3.7's non-partitionability pr
 treatment the rest of chapter 3 gets — the arrangement-level step it was missing, the split
 between its definitional and empirical halves, and a named falsifier that nothing available can
 check.
+**P57** executed the author's seven-item revision memo: section 3.5's identity claim argued rather than asserted, against the three constructions built to deny it; the accounts of harm put on one ladder across sections 2.4.1 and 3.4; the definitional loophole in the reply to Kennett closed; the chapter's central instruction given its first worked instance in a new section 3.6; section 11.3's epistemic status propagated to the two sites that asserted the capability; three endings repaired; and a structural pass that merged eight sections away, took the body's `section~\ref` count from 343 to 291 against an instruction of roughly half, and recorded why the rest is out of reach. Two of the memo's structural premises had moved and both were measured rather than assumed.
 **Chapter numbers
 above P32 have moved: old 9, 10 and 11 are now 11, 12 and 13. Section numbers
 under 4.2 moved at P33; `renumber-map_2026-08-28d.tsv` is the map. Chapter 3's
 sections 3.2 to 3.7 moved to 3.4 to 3.9 at P34; `renumber-map_2026-08-28e.tsv` is
 that map. P35, P36 and P37 renumbered nothing; P36 removed section 3.9, the last
 section of its chapter. P38 renumbered inside chapters 2, 4 and 5 and merged
-fifteen subsections away; `renumber-map_2026-08-29.tsv` is that map. P39 through P56 renumbered nothing.**
+fifteen subsections away; `renumber-map_2026-08-29.tsv` is that map. P39 through P56 renumbered nothing. P57 renumbered twice: chapter 3's sections 3.6 to 3.8 became 3.7 to 3.9 when the new section 3.6 was inserted, and chapter 10's 10.6 to 10.10 became 10.2 to 10.6 when 10.1 to 10.5 were merged into one; `renumber-map_2026-08-31.tsv` carries both.**
 
 ## 1. Passes
 
