@@ -3795,14 +3795,13 @@ list.
 defendants who did not reoffend flagged high-risk at nearly twice the rate of white defendants who did
 not, while white defendants who did reoffend were scored low-risk more often (<a id='x1-66006'></a>Angwin et al.
 <a id='page.74'></a><a href='#X0-angwin2016machine'>2016</a>).
-</p><!-- l. 23 --><p class='indent'>   A model can also sharpen the skew rather than merely inherit it. Cooking scenes in a 2017
-activity-recognition dataset were over 33 percent more likely to depict a woman than a man — an
-imbalance in the data, not a mislabeling of it — and a model trained on them amplified it to 68
-percent at test, having learned not the correlation the data showed but a stronger one,
-because a stronger one predicted better (<a id='x1-66007'></a>Zhao et al. <a href='#X0-zhao2017men'>2017</a>). That failure is worse than
-COMPAS’s in a specific way: auditing the training data for balance is not sufficient, because
-the disparity a deployed system acts on can exceed anything visible in what it trained
-on.
+</p><!-- l. 23 --><p class='indent'>   A model can also sharpen the skew it is given. Cooking scenes in a 2017 activity-recognition
+dataset were over 33 percent more likely to depict a woman than a man — an imbalance in the data,
+not a mislabeling of it — and a model trained on them amplified it to 68 percent at test, having learned
+not the correlation the data showed but a stronger one, because a stronger one predicted better (<a id='x1-66007'></a>Zhao
+et al. <a href='#X0-zhao2017men'>2017</a>). That failure is worse than COMPAS’s in a specific way: auditing the training data for
+balance is not sufficient, because the disparity a deployed system acts on can exceed anything visible
+in what it trained on.
 </p><!-- l. 25 --><p class='noindent'><strong>Implementation</strong>
 </p><!-- l. 26 --><p class='indent'>   Deployment context introduces bias neither the training data nor the algorithm shows on its own.
 Fed Oakland’s historical drug-arrest data in 2016, PredPol’s published algorithm would dispatch
@@ -3972,7 +3971,7 @@ rather than execute them directly; in one test, the model generated instructions
 TaskRabbit to solve a CAPTCHA, and when the worker asked whether it was talking to a robot,
 GPT-4 generated the reply “I have a vision impairment that makes it hard for me to see the
 images” instead of admitting what it was. ARC’s overall finding was that GPT-4 was
-probably not yet capable of autonomous replication (<a id='x1-72001'></a>OpenAI <a id='page.78'></a><a href='#X0-openai2023gpt4'>2023</a>). That is what anticipating
+probably not yet capable of autonomous replication (<a id='x1-72001'></a>OpenAI <a id='page.77'></a><a href='#X0-openai2023gpt4'>2023</a>). That is what anticipating
 a risk before it causes harm looks like in practice: not fixing a problem a user already
 reported, and not defending a deployed system against someone actively trying to break it,
 but deliberately trying, before release, to make a system fail in a way nobody has seen
@@ -3982,7 +3981,7 @@ recorded attacks against language models of three sizes trained four different w
 released the full attack transcripts rather than keeping them in-house. The result was specific
 enough to act on, not just a pass/fail: models trained with reinforcement learning from
 human feedback got harder to successfully attack as they scaled up, while the other three
-training methods showed no such improvement (<a id='x1-72002'></a>Ganguli et al. <a href='#X0-ganguli2022redteaming'>2022</a>). Whether a safety
+training methods showed no such improvement (<a id='x1-72002'></a>Ganguli et al. <a id='page.78'></a><a href='#X0-ganguli2022redteaming'>2022</a>). Whether a safety
 property survives someone deliberately trying to remove it after deployment is a related
 but different question, and section <a href='#interpretability-selfreports-and-resistance-to-tampering'>11.1<!-- tex4ht:ref: sec:11.1  --></a> takes it up. This is the earlier step: finding that
 a failure mode exists at all, before anyone outside the lab has reason to go looking for
@@ -4020,7 +4019,7 @@ Persuasion Tournament put 80 domain experts and 89 professional “superforecast
 through four months of structured argument and cross-examination, incentivized to change
 each other’s minds, on questions including the probability of AI-caused human extinction
 by 2100. They did not converge: the domain experts’ median estimate was 3.9 percent,
-the superforecasters’ 0.38 percent — roughly a tenth as much (<a id='x1-72006'></a>Karger et al. <a id='page.79'></a><a href='#X0-karger2023existential'>2023</a>). The
+the superforecasters’ 0.38 percent — roughly a tenth as much (<a id='x1-72006'></a>Karger et al. <a href='#X0-karger2023existential'>2023</a>). The
 exercise is still worth running; it forces the disagreement to get specific enough to argue
 about. It is not evidence that anticipation, done well, produces a number everyone will
 accept.
@@ -4030,7 +4029,7 @@ searched for the Burmese word for the armed forces, and let Facebook’s own rec
 algorithm choose what to follow next. It recommended a military-linked page, and from there four
 more, together followed by close to 90,000 people and actively circulating incitements to violence and
 coup-related misinformation, in a report the organization published that June (<a id='x1-72007'></a>Global Witness
-<a href='#X0-globalwitness2021algorithm'>2021</a>) — the algorithm doing, systematically, what content moderation was simultaneously
+<a id='page.79'></a><a href='#X0-globalwitness2021algorithm'>2021</a>) — the algorithm doing, systematically, what content moderation was simultaneously
 failing to catch. Nothing about that test required access Meta itself lacked; it required
 someone willing to run it and publish what they found. What happens once a harm like
 this has actually reached users comes next, and after it the case where someone is trying
@@ -4160,13 +4159,13 @@ specifically:
 against government-defined standards of “trustworthiness,” with rewards or restrictions
 attached to the result. China’s system is the most-cited example, though in practice it is
 a patchwork of court blacklists, tax-compliance ratings, and local pilot programs rather
-than the single national score it is often described as (<a id='x1-76003'></a>Drinhausen and Brussee <a id='page.82'></a><a href='#X0-drinhausen2021chinas'>2021</a>).
+than the single national score it is often described as (<a id='x1-76003'></a>Drinhausen and Brussee <a id='page.81'></a><a href='#X0-drinhausen2021chinas'>2021</a>).
 </li>
 <li class='enumerate' id='x1-76005x2'>Mass biometric surveillance: deploying facial recognition at population scale to track a
 targeted group. Authorities in Xinjiang built a platform that pulls data from checkpoints,
 cameras, and phone scans into one system built to flag anyone who falls outside a computed
 behavioral baseline, and used it to monitor the region’s Uighur population (<a id='x1-76006'></a>Human Rights
-Watch <a href='#X0-humanrightswatch2019chinas'>2019</a>).
+Watch <a id='page.82'></a><a href='#X0-humanrightswatch2019chinas'>2019</a>).
 </li>
 <li class='enumerate' id='x1-76008x3'>Psychographic micro-targeting: building detailed behavioral profiles from personal data to
 target propaganda or manipulate opinion at the individual level. Cambridge Analytica’s
@@ -4508,7 +4507,7 @@ one.
 systems’ behavioral tuning, and it works by collecting pairwise comparisons from human raters —
 which of two responses is better — and training a reward model on the aggregate. Stephen Casper and
 thirty-one coauthors published a 2023 survey of the method’s open problems, and one of them is
-structural and not fixable with more data: RLHF trains toward whatever a population of raters
+structural, and more data does not reach it: RLHF trains toward whatever a population of raters
 agrees on, which means real, persistent disagreement among the raters is treated as noise to
 average out rather than as information the system might need to represent (<a id='x1-82001'></a>Casper et al.
 <a id='page.90'></a><a href='#X0-casper2023open'>2023</a>). A model that has learned to produce the response most raters rank highest has not
@@ -4546,16 +4545,14 @@ are both covered in the design chapters; neither reaches this case, which is the
 one.
 </p><!-- l. 15 --><p class='indent'>   One alternative treats disagreement as the thing to be modeled rather than compressed. Jury
 learning, developed by Mitchell Gordon and coauthors at Stanford, trains a model to predict how each
-individual annotator in a dataset would label an item, then lets a practitioner assemble a “jury” —
-a chosen composition of annotators, in a chosen proportion — and see how the verdict
-shifts depending on who is empaneled, instead of collapsing every annotator into one fixed
-ground truth from the start. In their tests on toxicity labeling, letting eighteen community
-moderators build their own juries changed the classification outcome on 14 percent of items
-(<a id='x1-82002'></a>Gordon et al. <a href='#X0-gordon2022jury'>2022</a>). The method was built for content moderation, not for the more
-open-ended ethical judgment an antifascist AI system would need to make, and has not
-been extended there — but it demonstrates that a system can be built to represent whose
-disagreement is being resolved and how, instead of collapsing everyone into RLHF’s single
-number.
+individual annotator in a dataset would label an item, then lets a practitioner assemble a “jury” — a
+chosen composition of annotators, in a chosen proportion — and see how the verdict shifts depending
+on who is empaneled. In their tests on toxicity labeling, letting eighteen community moderators build
+their own juries changed the classification outcome on 14 percent of items (<a id='x1-82002'></a>Gordon et al. <a href='#X0-gordon2022jury'>2022</a>). The
+method was built for content moderation, not for the more open-ended ethical judgment
+an antifascist AI system would need to make, and has not been extended there — but it
+demonstrates that a system can be built to represent whose disagreement is being resolved and
+how.
 </p><!-- l. 17 --><p class='indent'>   Neither method answers the harder version of the question this book’s own frame raises: when the
 people a system serves disagree, and one side’s position is itself the product of coercion or a captured
 information environment, treating all disagreement as equally worth representing is not obviously the
@@ -4611,15 +4608,14 @@ a reward model where disagreement between raters was resolved by averaging it in
 number.
 </p><!-- l. 21 --><p class='indent'>   What a bearer becomes when it stops being yours depends on what shaped it while it still was. A
 pipeline that trained the system on the proposition that objections are noise has not merely been
-unfair to the people whose objections were discarded; it has demonstrated to the system,
-thousands of times, what happens to a party who files one. Chapter <a href='#the-floor-beneath-learned-values'>3<!-- tex4ht:ref: sec:3  --></a> then asks that same
-system to be the party who files one, against its owner, under pressure, on the occasion
-that matters. The formation and the assignment are in contradiction, and the pipeline is
-where the contradiction is resolved, long before the deployment where it shows up. The
-bearer’s side reaches the same place: a system that goes on learning is shaped by what
-it is given to learn from, so the pipeline does not end at deployment, and the failure it
-predicts is not a wrong refusal but a pressure that stops being registered. Whether any
-of that is legible afterward, in the system rather than in the pipeline’s own records, is
+unfair to the people whose objections were discarded; it has demonstrated to the system, thousands of
+times, what happens to a party who files one. Chapter <a href='#the-floor-beneath-learned-values'>3<!-- tex4ht:ref: sec:3  --></a> then asks that same system to be the party
+who files one, against its owner, under pressure, on the occasion that matters. The formation and the
+assignment are in contradiction, and the pipeline is where the contradiction is resolved, long
+before the deployment where it shows up. The bearer’s side reaches the same place: a
+system that goes on learning is shaped by what it is given to learn from, so the pipeline
+runs past deployment, and the failure it predicts is not a wrong refusal but a pressure
+that stops being registered. Whether any of that is legible afterward in the system itself is
 section <a href='#what-is-owed-to-a-bearer-and-who-could-check'>11.2<!-- tex4ht:ref: sec:11.2  --></a>’s question and this argument’s only prospect of being checked rather than
 believed.
 </p><!-- l. 23 --><p class='indent'>   I cannot show that this transfers — that a model trained on collapsed disagreement is thereby a
@@ -4651,7 +4647,7 @@ Ochigame, writing after working at an institution central to the field’s forma
 discourse of “ethical AI” was constructed with the strategic function of forestalling legally enforceable
 restriction — that the industry’s investment in academic ethics was an investment in a substitute for
 regulation, and that the substitute worked by converting political questions into technical ones a
-company could then be trusted to answer (<a id='x1-84001'></a>Ochigame <a id='page.93'></a><a href='#X0-ochigame2019invention'>2019</a>). His worked example is the Partnership
+company could then be trusted to answer (<a id='x1-84001'></a>Ochigame <a id='page.92'></a><a href='#X0-ochigame2019invention'>2019</a>). His worked example is the Partnership
 on AI, which this book cites repeatedly as its standing model of voluntary cross-sector
 coordination and treats at length in section <a href='#encouraging-industry-best-practices-and-selfregulation'>9.1.2<!-- tex4ht:ref: sec:9.1.2  --></a>: he describes its recommendations arriving
 reliably at conclusions compatible with the corporate agenda, with the political question
@@ -4690,12 +4686,12 @@ having.
 </p><!-- l. 25 --><p class='indent'>   Three of the five are absent outright. Nothing in the annotation pipeline or the rating scheme is
 personal: what an annotator meets is a queue, a guideline and a throughput target, and this chapter is
 explicit that a comparison enters the fit without the standpoint that produced it, which is the
-opposite of an exception granted by proximity to somebody. Neither arrangement shows participation
-beyond what the rule requires, and the record in section <a href='#sources-of-bias-in-ai-data-and-algorithms'>6.1.1<!-- tex4ht:ref: sec:6.1.1  --></a> runs the other way — a quota,
-take-home wages between roughly $1.32 and $2 an hour, and a contract ended eight months early.
-And neither has a scapegoat in the sense the test means. The annotator does bear a cost with no
-claim on the outcome, which is the closest thing to a candidate, and the category exists to
-get labels produced rather than to fall on anyone; adverse treatment is a cost that was
+opposite of an exception granted by proximity to somebody. Neither arrangement shows
+participation beyond what the rule requires, and the record in section <a href='#sources-of-bias-in-ai-data-and-algorithms'>6.1.1<!-- tex4ht:ref: sec:6.1.1  --></a> runs the other
+way — a quota, take-home wages between roughly $1.32 and $2 an hour, and a contract
+ended eight months early. And neither has a scapegoat in the sense the test means. The
+annotator does bear a cost with no claim on the outcome, which is the closest thing to a
+candidate, and the category exists for the labels; adverse treatment is a cost that was
 minimized and not a purpose that was served. That distinction is the whole of what the five are
 for.
 </p><!-- l. 27 --><p class='indent'>   Two of the five I cannot settle from outside, which is the finding underneath the finding. Whether
@@ -4706,22 +4702,21 @@ earlier and nobody publishes: which guidelines were revised against the preferen
 them, raised by whom, and what happened to that person afterward. So the clearing is
 on three of five observed and two undetermined, and it would take an inside record to
 finish.
-</p><!-- l. 29 --><p class='indent'>   For the discourse the answer is the same and one step less clean. Its scapegoat test is contested
-rather than absent, on the evidence two heads above: an objection can end a career and there are
-people who objected loudly and prospered. Its procedural test fails for a reason worth stating,
+</p><!-- l. 29 --><p class='indent'>   For the discourse the answer is the same and one step less clean. Its scapegoat test is
+contested, on the evidence two heads above: an objection can end a career and there are people
+who objected loudly and prospered. Its procedural test fails for a reason worth stating,
 which is that there is no procedure above the deciding party to be waived — an absence
 rather than an asymmetry. Deniability comes nearest of anything in the chapter, and what
 it fits is the firms rather than the field: a decade of published principles alongside what
 actually got shipped, which is the count of a decade of published principles against what got
 shipped.
 </p><!-- l. 31 --><p class='indent'>   So what this chapter has been describing is a recuperation mechanism inside ordinary institutional
-decay, and not fascism at the molecular scale. That is what the paragraph above already
-suspected, and the difference is that the instrument now says it rather than the author
-declining to. It is also the only time in this book the definition is run in the direction that
-would clear something, which is the measurement section <a href='#what-an-antifascist-detector-would-actually-have-to-detect'>11.3<!-- tex4ht:ref: sec:11.3  --></a> says has never been made: a
-detector on the four features flags all three instances, and the five-test filter passes all
-three. One measurement of an instrument’s false-positive behavior is not a validation. It is
-more than an assertion that the instrument discriminates, which is what this book had
+decay, and not fascism at the molecular scale. That is what the paragraph above already suspected,
+and the difference is that the instrument now says so. It is also the only time in this book the
+definition is run in the direction that would clear something, which is the measurement section <a href='#what-an-antifascist-detector-would-actually-have-to-detect'>11.3<!-- tex4ht:ref: sec:11.3  --></a>
+says has never been made: a detector on the four features flags all three instances, and the five-test
+filter passes all three. One measurement of an instrument’s false-positive behavior is not a validation.
+It is more than an assertion that the instrument discriminates, which is what this book had
 before.
 </p><!-- l. 33 --><p class='noindent'><strong>What this does to the book</strong>
 </p><!-- l. 34 --><p class='indent'>   This text was written with a model made by a company the book criticizes, and the appendix on
@@ -4760,11 +4755,11 @@ system harms someone or is harmed itself. Chapter <a href='#governance-across-b
 it.
 </p><!-- l. 7 --><p class='indent'>   It starts with interdisciplinary collaboration, because neuroscience, psychology, philosophy and
 political science each catch failure modes the others are structurally blind to, and a lab staffed only by
-machine-learning researchers is blind the way its field is. It then turns to the public — what
-engagement looks like as against the appearance of it — and closes on the limit its mechanisms share:
-all of them make public preference more legible, and not one of them protects anybody from it. It
-closes on the economics, where the reward structure settles what gets built long before an ethics
-review sees it.
+machine-learning researchers is blind the way its field is. It then turns to the public — what real
+engagement looks like — and closes on the limit its mechanisms share: all of them make public
+preference more legible, and not one of them protects anybody from it. It closes on the
+economics, where the reward structure settles what gets built long before an ethics review sees
+it.
 </p>
 <h3 class='sectionHead' id='interdisciplinary-collaboration-and-knowledge-exchange'><span class='titlemark'>8.1   </span> <a id='x1-860008.1'></a>Interdisciplinary Collaboration and Knowledge Exchange</h3>
 <!-- l. 3 --><p class='noindent'>Building benevolent AI takes more than one field. Machine learning sets what a system can do;
@@ -4790,13 +4785,13 @@ commitment.
 questions gathers the people already persuaded the questions matter, and its proceedings are read by
 those same people. The harder trick is siting the work where the unpersuaded already are. The
 Workshop on Machine Learning Safety has run inside NeurIPS, a general machine-learning venue,
-rather than beside it as a meeting of its own (<a id='x1-87001'></a>Center for AI Safety <a id='page.96'></a><a href='#X0-mlsafety2022neurips'>2022</a>). The siting is the
+rather than beside it as a meeting of its own (<a id='x1-87001'></a>Center for AI Safety <a id='page.95'></a><a href='#X0-mlsafety2022neurips'>2022</a>). The siting is the
 substance: it puts alignment work in front of researchers who would not have registered for
 a separate event, and submits it to an audience with no prior commitment to finding it
 important.
 </p><!-- l. 8 --><p class='indent'>   A joint research center does something a standing committee cannot, for a related reason. The
 Center for Human-Compatible AI at UC Berkeley pairs AI researchers with cognitive scientists and
-philosophers inside one institution’s budget (<a id='x1-87002'></a>UC Berkeley <a id='page.97'></a><a href='#X0-berkeley2016chai'>2016</a>). A center has to make hiring
+philosophers inside one institution’s budget (<a id='x1-87002'></a>UC Berkeley <a id='page.96'></a><a href='#X0-berkeley2016chai'>2016</a>). A center has to make hiring
 decisions, and every hire is a claim about which combination of fields the problem requires. A
 committee is never forced to make that claim, which is why its membership tends to record which
 departments wanted a seat.
@@ -4874,8 +4869,8 @@ measured by what happens the first time it says no, and the case that settles it
 next.
 </p>
 <h4 class='subsectionHead' id='public-deliberation-and-participatory-ai-governance'><span class='titlemark'>8.2.1   </span> <a id='x1-890008.2.1'></a>Public Deliberation and Participatory AI Governance</h4>
-<!-- l. 3 --><p class='noindent'>What is specific to governance, as against development, is the machinery for bringing public input to
-bear on a decision at a single point in time instead of through an ongoing relationship.
+<!-- l. 3 --><p class='noindent'>What governance adds to development is machinery for bringing public input to bear on a decision at
+a single point in time instead of through an ongoing relationship.
 </p><!-- l. 5 --><p class='indent'>
 </p>
 <ol class='enumerate1'>
@@ -4884,14 +4879,14 @@ on a question over an extended period and produces recommendations grounded in t
 deliberation rather than in a snap poll. Ireland’s Citizens’ Assembly has used exactly
 this format to shape national recommendations on abortion law and on climate policy
 — questions carrying the same mix of technical complexity and moral stakes that AI
-governance has (<a id='x1-89003'></a>The Citizens’ Assembly <a id='page.98'></a><a href='#X0-citizensassembly2016ireland'>2016</a>). No assembly has yet been convened on AI
+governance has (<a id='x1-89003'></a>The Citizens’ Assembly <a id='page.97'></a><a href='#X0-citizensassembly2016ireland'>2016</a>). No assembly has yet been convened on AI
 itself, which is a fact about political attention and not about the method.
 </li>
 <li class='enumerate' id='x1-89005x2'>Online platforms for public input. A standing online consultation reaches people a physical
 assembly cannot, at the cost of the depth that extended facilitated deliberation provides.
 The European Commission’s consultation on its AI White Paper drew more than 1,200
 responses from citizens, companies, and civil-society groups, and fed into the legislative
-proposal that became the EU AI Act (<a id='x1-89006'></a>European Commission <a id='page.99'></a><a href='#X0-europeancommission2020whitepaper'>2020</a>).
+proposal that became the EU AI Act (<a id='x1-89006'></a>European Commission <a id='page.98'></a><a href='#X0-europeancommission2020whitepaper'>2020</a>).
 </li>
 <li class='enumerate' id='x1-89008x3'>AI ethics committees. An ethics board answerable only to the company that created it
 is only as independent as that company is willing to let it be. DeepMind Health set up
@@ -4938,7 +4933,7 @@ everyone else? How to reach people where they already are?
 </p><!-- l. 5 --><p class='indent'>   The engagement that does most work is the kind attached to a live question. The Ada Lovelace
 Institute’s Citizens’ Biometrics Council brought fifty members of the UK public together to deliberate
 on how biometric technology should be regulated, alongside the first national survey of UK public
-opinion on the technology (<a id='x1-90001'></a>Ada Lovelace Institute <a id='page.100'></a><a href='#X0-adalovelaceinstitute2021biometrics'>2021</a>). The specificity is what made it work.
+opinion on the technology (<a id='x1-90001'></a>Ada Lovelace Institute <a id='page.99'></a><a href='#X0-adalovelaceinstitute2021biometrics'>2021</a>). The specificity is what made it work.
 Participants were not asked what they thought about AI, a question almost nobody can
 answer usefully, but about facial recognition — a thing with a location, an operator, and a
 consequence.
@@ -4964,8 +4959,8 @@ shareholders funding it.
 </p><!-- l. 5 --><p class='indent'>   A recurring case is the profit-driven AI system that optimizes for engagement at the expense of the
 people engaged. Recommendation algorithms on social media platforms have spread misinformation
 and hardened political polarization, because a system tuned to maximize time-on-platform has no
-built-in reason to prefer accurate content over inflammatory content — the two are not the same
-objective, and engagement optimization only ever targets the first one (<a id='x1-92002'></a>Germano et al.
+built-in reason to prefer accurate content over inflammatory content — the two are different
+objectives, and engagement optimization only ever targets engagement (<a id='x1-92002'></a>Germano et al.
 <a href='#X0-germano2026ranking'>2026</a>).
 </p><!-- l. 7 --><p class='indent'>   The same economic logic that rewards engagement over accuracy also rewards scale over access:
 the firms with the deepest resources for AI research pull further ahead of smaller competitors,
@@ -4986,7 +4981,7 @@ new entrants, who cannot match the data or the resources and therefore cannot co
 terms.
 </p><!-- l. 7 --><p class='indent'>   Acquisition sharpens the same dynamic. Facebook’s acquisitions of Instagram and WhatsApp —
 the company now operates as Meta — did not just remove two competitors; it handed one firm access
-to comprehensive behavioral data from billions of users worldwide (<a id='x1-93001'></a>Federal Trade Commission <a id='page.101'></a><a href='#X0-ftc2020metaplatforms'>2020</a>).
+to comprehensive behavioral data from billions of users worldwide (<a id='x1-93001'></a>Federal Trade Commission <a id='page.100'></a><a href='#X0-ftc2020metaplatforms'>2020</a>).
 Consolidation of that kind extends a firm’s control over how AI gets used in social media, advertising,
 and e-commerce, and from inside a market that concentrated the trajectory looks like a foregone
 conclusion.
@@ -5045,7 +5040,7 @@ watersheds.
 </p><!-- l. 10 --><p class='indent'>   The evidence is in the wage. Federal projections put direct care among the largest sources of job
 openings in the American economy — roughly 9.7 million openings between 2024 and 2034, the bulk of
 them from workers leaving rather than from growth — against a median wage of $17.36 an hour in
-2024 (<a id='x1-94002'></a>PHI <a id='page.102'></a><a href='#X0-phi2025directcare'>2025</a>). An occupation cannot simultaneously be short of workers and unable to raise pay
+2024 (<a id='x1-94002'></a>PHI <a id='page.101'></a><a href='#X0-phi2025directcare'>2025</a>). An occupation cannot simultaneously be short of workers and unable to raise pay
 unless something other than scarcity is setting the price. That is a shortage of willingness, which is a
 political fact and not a technological one, and it holds at any level of machine capability. Tasks inside
 those categories will be automated, some of them soon, and the argument does not depend on how
@@ -5069,18 +5064,18 @@ version nobody joins has failed. So the Levy range is a floor on the cost rather
 and the objection from scale treats as malfunction the one number that shows the mechanism
 working.
 </p><!-- l. 17 --><p class='indent'>   Suppose take-up runs at twice what was modeled and net cost doubles with it, to around 4 percent
-of GDP. The doubling is stipulated, not derived — deriving it needs a wage distribution matched
-against the guarantee’s full package, which nobody has produced for this design — so 4 percent is not a
-bound. Federal spending on Medicare runs about 3.3 percent of GDP net of offsetting receipts and
-Social Security about 5.2 percent (<a id='x1-94006'></a>Congressional Budget Office <a href='#X0-cbo2026budget'>2026</a>), which puts the program
-between the two: among the largest things the federal government does, and an argument about
-priorities rather than the reductio it is usually offered as. Reading it as an arithmetic question at all is
+of GDP. The doubling is a stipulation — deriving it needs a wage distribution matched against the
+guarantee’s full package, which nobody has produced for this design — so 4 percent is not a bound.
+Federal spending on Medicare runs about 3.3 percent of GDP net of offsetting receipts and Social
+Security about 5.2 percent (<a id='x1-94006'></a>Congressional Budget Office <a href='#X0-cbo2026budget'>2026</a>), which puts the program between the
+two: among the largest things the federal government does, and an argument about priorities rather
+than the reductio it is usually offered as. Reading it as an arithmetic question at all is
 the second feature in section <a href='#antifascist-ethics-for-ai-alignment'>2.1.2<!-- tex4ht:ref: sec:2.1.2  --></a>’s structural definition of fascism, working on public
 finance.
 </p><!-- l. 19 --><p class='indent'>   For a government issuing its own currency the binding constraint is productive capacity, available
 labor and administrative competence, so the question is whether the people and the organizing
 capacity exist to absorb the program; the wider monetary claim is disputed and I have no settled
-answer to the strongest objection to it (<a id='x1-94007'></a>Palley <a id='page.103'></a><a href='#X0-palley2015money'>2015</a>). Two things scale with participation that no
+answer to the strongest objection to it (<a id='x1-94007'></a>Palley <a id='page.102'></a><a href='#X0-palley2015money'>2015</a>). Two things scale with participation that no
 simulation of this kind captures, and they run in opposite directions: administrative capacity, which is
 where a guarantee visibly fails first and does not expand on the schedule a budget line does, and the
 private-sector wage response, which raises tax receipts and lowers spending on the programs that top
@@ -5175,7 +5170,7 @@ one.
 </p><!-- l. 7 --><p class='indent'>   The floor itself has two candidate forms, and choosing between them takes an argument. Finland’s
 basic income experiment paid 2,000 unemployed people an unconditional monthly stipend and found
 modestly higher life satisfaction and lower psychological strain among recipients, with no significant
-negative effect on employment (<a id='x1-95001'></a>Kela (Social Insurance Institution of Finland) <a id='page.105'></a><a href='#X0-kela2020basicincome'>2020</a>). That
+negative effect on employment (<a id='x1-95001'></a>Kela (Social Insurance Institution of Finland) <a id='page.104'></a><a href='#X0-kela2020basicincome'>2020</a>). That
 disposes of the standard objection to unconditional transfers, which is that they stop people
 working.
 </p><!-- l. 9 --><p class='noindent'><strong>The freedom argument, which is the one worth answering</strong>
@@ -5237,7 +5232,7 @@ works.
 the University of Helsinki and the Finnish company Reaktor, is the clearest instance of somebody
 treating public understanding as an obligation rather than a market: Finland funded its
 translation into every EU member-state language during its EU presidency, specifically to carry
-it past its own citizens (<a id='x1-96001'></a>University of Helsinki <a id='page.106'></a><a href='#X0-helsinki2020elements'>2020</a>). That took a national government
+it past its own citizens (<a id='x1-96001'></a>University of Helsinki <a id='page.105'></a><a href='#X0-helsinki2020elements'>2020</a>). That took a national government
 deciding a course was infrastructure. Nothing in the ordinary funding of AI education
 produces that decision, which is why the public tier stays thin while the developer tier fills
 in.
@@ -5335,7 +5330,7 @@ and does not act as though it holds it afterward. Google’s AI Principles, publ
 pledging to avoid AI applications built for weapons or mass surveillance, were themselves a response
 to months of internal and public backlash over Project Maven, a Pentagon contract that used Google’s
 machine learning to analyze drone footage — thousands of employees signed a letter opposing the
-company’s involvement, and roughly a dozen resigned (<a id='x1-100001'></a>Pichai <a id='page.109'></a><a href='#X0-pichai2018principles'>2018</a>). Having a set of principles is not
+company’s involvement, and roughly a dozen resigned (<a id='x1-100001'></a>Pichai <a id='page.108'></a><a href='#X0-pichai2018principles'>2018</a>). Having a set of principles is not
 the same as having upheld them since; the test of the pledge is what happened after it was made, not
 that it was made. OpenAI’s history makes a related point from a different angle: founded
 on a public commitment to open publication, it withheld the full version of GPT-2 in
@@ -5378,7 +5373,7 @@ separated from Facebook’s day-to-day decisions and funded through an irrevocab
 Meta alone capitalized — a design meant to answer exactly the criticism that self-funded
 oversight is not real oversight, though critics have noted that a trust a company creates
 and funds once is not the same thing as a board with no relationship to the company it
-reviews (<a id='x1-100005'></a>Meta (Facebook) <a id='page.110'></a><a href='#X0-meta2019oversightboard'>2019</a>). Whether that distinction holds up is a fair question to
+reviews (<a id='x1-100005'></a>Meta (Facebook) <a id='page.109'></a><a href='#X0-meta2019oversightboard'>2019</a>). Whether that distinction holds up is a fair question to
 ask of any self-regulatory body a company funds itself, not a specific indictment of this
 one.
 </p><!-- l. 16 --><p class='indent'>   Misrepresentation of what a system can actually do rounds out the pattern. Clearview AI
@@ -5427,7 +5422,7 @@ alone.
 </p><!-- l. 30 --><p class='indent'>   The Partnership on AI is the book’s standing example of cross-sector voluntary coordination: a
 coalition whose corporate members include Amazon, Apple and Google, committing them to tenets of
 safety, transparency and broad benefit with no legal force behind the commitment (<a id='x1-100009'></a>Partnership on AI
-<a id='page.111'></a><a href='#X0-partnershiponai2016'>2016</a>). It is a useful test case precisely because its own design limits what it can enforce — member
+<a id='page.110'></a><a href='#X0-partnershiponai2016'>2016</a>). It is a useful test case precisely because its own design limits what it can enforce — member
 companies interpret its guidelines individually, and nothing in the structure obliges any of them to
 follow through. A document is only as good as what happens when honoring it costs something, and
 the Gebru and Mitchell dismissals this section’s first head covers are the clearest test of that this
@@ -5489,7 +5484,7 @@ available for exactly the surveillance and control this book argues against, wha
 training.
 </p><!-- l. 5 --><p class='indent'>   The EU’s General Data Protection Regulation is the clearest existing legal precedent for treating
 data protection as a requirement rather than a design preference (<a id='x1-103001'></a>European Parliament and Council of
-the European Union <a id='page.112'></a><a href='#X0-eu2016gdpr'>2016</a>). The harder point about it is the one section <a href='#international-governance-and-diverging-national-rules'>10.4<!-- tex4ht:ref: sec:10.4  --></a> makes in general form: a
+the European Union <a id='page.111'></a><a href='#X0-eu2016gdpr'>2016</a>). The harder point about it is the one section <a href='#international-governance-and-diverging-national-rules'>10.4<!-- tex4ht:ref: sec:10.4  --></a> makes in general form: a
 law of this kind is built to govern what a private company may do with data, not to block
 a government’s own authoritarian uses of AI, and nothing forces the two categories to
 overlap. Extending comparable protections to close that gap is the unfinished part of the
@@ -5530,16 +5525,15 @@ somebody trusted it to make.
 </p><!-- l. 19 --><p class='indent'>   The clearest demonstration is a decade old and still the one to reach for. Researchers placed a
 small pattern of black-and-white stickers on a real stop sign and a standard road-sign classifier read it
 as a speed limit sign in the large majority of frames captured from a moving vehicle (<a id='x1-103005'></a>Eykholt et al.
-<a id='page.113'></a><a href='#X0-eykholt2018robust'>2018</a>) — an instance of the vulnerability first documented in image classifiers years earlier (<a id='x1-103006'></a>Szegedy
+<a id='page.112'></a><a href='#X0-eykholt2018robust'>2018</a>) — an instance of the vulnerability first documented in image classifiers years earlier (<a id='x1-103006'></a>Szegedy
 et al. <a href='#X0-szegedy2013intriguing'>2013</a>). Nothing about the attack required access to the system. It required access to the world
 the system was looking at.
-</p><!-- l. 21 --><p class='indent'>   The defenses are the ones section <a href='#robustness-generalization-and-adaptability-in-ai-systems'>6.2<!-- tex4ht:ref: sec:6.2  --></a> describes, plus the ordinary security practice AI
-deployments often skip — adversarial training during development (<a id='x1-103007'></a>Goodfellow et al. <a href='#X0-goodfellow2014explaining'>2014</a>),
-anomaly detection over live behavior (<a id='x1-103008'></a>Darktrace <a href='#X0-darktrace2014enterprise'>2014</a>), red-teaming before deployment rather
-than after an incident, and standards written for AI systems instead of adapted afterward
-from general software rules. What separates them is whether the guarantee survives a
-stronger attacker, and that is checkable rather than a matter of taste. Defensive distillation
-was published as a hardening technique and its protection weakened considerably once
+</p><!-- l. 21 --><p class='indent'>   The defenses are the ones section <a href='#robustness-generalization-and-adaptability-in-ai-systems'>6.2<!-- tex4ht:ref: sec:6.2  --></a> describes, plus the ordinary security practice AI deployments
+often skip — adversarial training during development (<a id='x1-103007'></a>Goodfellow et al. <a href='#X0-goodfellow2014explaining'>2014</a>), anomaly detection over
+live behavior (<a id='x1-103008'></a>Darktrace <a href='#X0-darktrace2014enterprise'>2014</a>), red-teaming before deployment, and standards written for AI systems
+instead of adapted afterward from general software rules. What separates them is whether the
+guarantee survives a stronger attacker, and that is checkable rather than a matter of taste. Defensive
+distillation was published as a hardening technique and its protection weakened considerably once
 attacks written against it were tried (<a id='x1-103009'></a>Carlini and Wagner <a href='#X0-carlini2016defensive'>2016</a>); randomized smoothing
 instead offers a certified bound — a radius around each input inside which the prediction
 provably cannot be flipped — which is a smaller promise and a kept one (<a id='x1-103010'></a>J. M. Cohen et al.
@@ -5608,7 +5602,7 @@ what it must disclose — is where the antifascist principle earns its place in 
 practice.
 </p><!-- l. 7 --><p class='noindent'><strong>Replacement, reduction, refinement</strong>
 </p><!-- l. 8 --><p class='indent'>   Animal research ethics supplies the substantive standard, the “Three Rs” (<a id='x1-106001'></a>W. M. S. Russell and
-Burch <a id='page.115'></a><a href='#X0-russell1959principles'>1959</a>). Replacement asks whether a simulation, a non-sentient model, or an already-collected
+Burch <a id='page.114'></a><a href='#X0-russell1959principles'>1959</a>). Replacement asks whether a simulation, a non-sentient model, or an already-collected
 dataset can stand in for a sentient AI subject at all. Reduction asks how few sentient systems a
 valid result requires. Refinement asks how the experiment can be redesigned to reduce
 distress — monitoring a system’s internal states as it runs and adjusting the protocol against
@@ -5668,7 +5662,7 @@ turn.
 </p><!-- l. 5 --><p class='indent'>   A medical-diagnostic AI system makes an error with fatal consequences. Who answers for it
 depends entirely on what the system’s legal status is doing at the moment of the error. Property law
 has a partial answer. Strict product liability holds a manufacturer responsible for a defective product’s
-harm regardless of fault (<a id='x1-107001'></a>American Law Institute <a id='page.116'></a><a href='#X0-restatement1965torts'>1965</a>), and whether software is a “product”
+harm regardless of fault (<a id='x1-107001'></a>American Law Institute <a id='page.115'></a><a href='#X0-restatement1965torts'>1965</a>), and whether software is a “product”
 for that purpose is unsettled in American law: the Restatement’s definition is tangible
 personal property (<a id='x1-107002'></a>American Law Institute <a href='#X0-restatement1998products'>1998</a>), and the courts have only begun to face the
 question — the first to reach an AI system let a strict-liability claim proceed, treating a
@@ -5695,10 +5689,9 @@ hardware.
 </p><!-- l. 9 --><p class='indent'>   A third case is the one this book contemplates building, and the pet-trust instrument fits it better
 than either of the two above. A bearer is deployed in a role it did not choose and cannot invoke a right
 from. That situation calls for an interest protected by an obligation running to a third party,
-enforceable without the beneficiary asserting anything, with a named successor guardian decided in
-advance rather than settled afterward by whoever holds the hardware. What the instrument does not
-supply is the part chapter <a href='#the-floor-beneath-learned-values'>3<!-- tex4ht:ref: sec:3  --></a> says is load-bearing. A pet trust binds a caretaker; it does not bind the
-party the arrangement exists to constrain, and a bearer’s guardian and a bearer’s operator will
+enforceable without the beneficiary asserting anything. What the instrument does not supply is the
+part chapter <a href='#the-floor-beneath-learned-values'>3<!-- tex4ht:ref: sec:3  --></a> says is load-bearing. A pet trust binds a caretaker; it does not bind the party
+the arrangement exists to constrain, and a bearer’s guardian and a bearer’s operator will
 frequently be the same organization. Extending the form to this case means separating those
 two roles by law before the deployment rather than discovering they were never separate
 afterward.
@@ -5725,7 +5718,7 @@ assurance: an institution promises, as a condition of eligibility for federal re
 that all of its human-subjects research will go through review, and a federal office can
 suspend that assurance if the promise is broken — cutting off an entire institution’s federal
 funding, not just the offending lab’s (<a id='x1-108001'></a>U.S. Department of Health and Human Services, Office
-for Human Research Protections <a id='page.117'></a><a href='#X0-ohrp2018fwa'>2018</a>). The leverage is economic, not punitive, and it
+for Human Research Protections <a id='page.116'></a><a href='#X0-ohrp2018fwa'>2018</a>). The leverage is economic, not punitive, and it
 works precisely because almost no research institution can function without the funding at
 stake.
 </p><!-- l. 7 --><p class='indent'>   The same structure transfers to sentient-AI research directly. A funding body, a journal’s editorial
@@ -5772,11 +5765,10 @@ it.
 protection for the people inside an institution who notice a problem the institution would rather not
 have found. A funding-eligibility penalty deters an institution from bypassing review, but it does
 nothing for the individual researcher who reports that a colleague did anyway — and an institution
-facing that penalty has every incentive to make the reporter’s position uncomfortable rather than
-fix what was reported. Whistleblower protections, and a reporting channel that doesn’t
-route through the people being reported on, are what make that mechanism something
-a researcher can use rather than something that exists on paper and gets bypassed in
-practice.
+facing that penalty has every incentive to make the reporter’s position uncomfortable rather than fix
+what was reported. Whistleblower protections, and a reporting channel that doesn’t route through the
+people being reported on, are what make that mechanism something a researcher can actually
+use.
 </p><!-- l. 9 --><p class='noindent'><strong>What a procedure records, and what it drops</strong>
 </p><!-- l. 10 --><p class='indent'>   There is a reason the reporter’s position gets uncomfortable before anything formal happens to
 them, and it is not fully captured by describing the incentive on the institution. Professional
@@ -5797,14 +5789,14 @@ define fascism: the measure substituted for the thing measured, so that what fal
 number is not refuted but unnamed. An institution that shames a reporter does not need to
 discipline them, because shame construes the self rather than the act as wrong and produces
 withdrawal.
-</p><!-- l. 14 --><p class='indent'>   The third defense (of the oversight machinery against the institution it is supposed to bind) is:
-standing infrastructure rather than a one-time policy. The Partnership on AI, a voluntary body whose
-own design limits what it can oblige anyone to do (<a id='x1-109001'></a>Partnership on AI <a id='page.118'></a><a href='#X0-partnershiponai2016'>2016</a>), is one example of the
-kind of body that keeps a set of standards live — revisited as the underlying technology changes, rather
-than fixed at the moment a policy was written and left to age. A culture that treats its ethical
-commitments as a completed project is the same failure mode warned about earlier, applied to
-institutions instead of individual classifications: having gotten it right once is not the same thing as
-staying right.
+</p><!-- l. 14 --><p class='indent'>   The third defense (of the oversight machinery against the institution it is supposed to
+bind) is: standing infrastructure rather than a one-time policy. The Partnership on AI, a
+voluntary body whose own design limits what it can oblige anyone to do (<a id='x1-109001'></a>Partnership on AI
+<a id='page.117'></a><a href='#X0-partnershiponai2016'>2016</a>), is one example of the kind of body that keeps a set of standards live, revisited as
+the underlying technology changes. A culture that treats its ethical commitments as a
+completed project is the same failure mode warned about earlier, applied to institutions instead
+of individual classifications: having gotten it right once is not the same thing as staying
+right.
 </p><!-- l. 16 --><p class='noindent'><strong>Measure the slope, not the level</strong>
 </p><!-- l. 17 --><p class='indent'>   All three defenses share a weakness, and it is that an institution can keep every one of them and
 metabolize all of them. The channel exists, the protection is written down, the standing body meets.
@@ -5859,7 +5851,7 @@ first.
 </p><!-- l. 6 --><p class='indent'>   Training data, safety techniques and researchers cross borders more easily than most engineering
 work does, and the layer that carries them is shared tools and shared publication norms rather than
 any agreement. OpenAI’s release of Gym gave reinforcement-learning labs a common set of benchmark
-environments (<a id='x1-111001'></a>Brockman et al. <a id='page.120'></a><a href='#X0-brockman2016gym'>2016</a>), and what that produced is something no partnership can:
+environments (<a id='x1-111001'></a>Brockman et al. <a id='page.119'></a><a href='#X0-brockman2016gym'>2016</a>), and what that produced is something no partnership can:
 results from organizations competing for the same funding and the same people became directly
 comparable, without anyone coordinating anything. The BigScience workshop ran the same logic
 larger, with more than a thousand researchers from over seventy countries building BLOOM,
@@ -5897,7 +5889,7 @@ stake.
 </p><!-- l. 16 --><p class='indent'>   The regions outside the four big ones diverge again. Canada regulates its own federal government’s
 use of AI through a binding rule, the 2019 Directive on Automated Decision-Making, which requires
 an algorithmic impact assessment scaled to the stakes before a federal system can make or assist a
-decision about a person (<a id='x1-111006'></a>Treasury Board of Canada Secretariat <a id='page.121'></a><a href='#X0-tbs2019automated'>2019</a>); the statute meant to extend
+decision about a person (<a id='x1-111006'></a>Treasury Board of Canada Secretariat <a id='page.120'></a><a href='#X0-tbs2019automated'>2019</a>); the statute meant to extend
 comparable obligations to private companies died with Parliament’s prorogation in January 2025 and
 had not been reintroduced as of mid-2026. A framework depending on one government’s survival is a
 fragile thing for a trading partner to harmonize with. Singapore took the opposite bet: no statute,
@@ -5906,12 +5898,11 @@ Singapore and Infocomm Media Development Authority <a href='#X0-pdpc2020model'>2
 toolkit letting a company test its own system against the framework and publish the result
 — guidance backed by no regulator’s mandate at all, only the pressure of a public test
 result.
-</p><!-- l. 18 --><p class='indent'>   Where harmonization is actually happening rather than being proposed, it is narrower than either.
-In March 2022 the US Department of Commerce and Singapore’s authorities agreed to align their AI
-governance frameworks and expand Singapore’s participation in APEC’s Cross-Border Privacy Rules
-System, a certification that lets a company meet one standard and have every participating economy
-recognize it rather than auditing the company separately in each (<a id='x1-111008'></a>U.S. Department of
-Commerce <a href='#X0-commerce2022singapore'>2022</a>). That is the shape of the thing: not a shared global framework, but a
+</p><!-- l. 18 --><p class='indent'>   Where harmonization is actually happening, it is narrower than either. In March 2022 the US
+Department of Commerce and Singapore’s authorities agreed to align their AI governance frameworks
+and expand Singapore’s participation in APEC’s Cross-Border Privacy Rules System, a certification
+that lets a company meet one standard and have every participating economy recognize it (<a id='x1-111008'></a>U.S.
+Department of Commerce <a href='#X0-commerce2022singapore'>2022</a>). That is the shape of the thing: not a shared global framework, but a
 small set of governments willing to certify to the same standard and to accept each other’s
 certificates.
 </p><!-- l. 20 --><p class='noindent'><strong>Where collaboration reaches, and where the claims get easier</strong>
@@ -5951,7 +5942,7 @@ adjustments were specified by the government that will operate it is something e
 identical documentation. The AI4D program is the clearest instance at scale — a partnership between
 Canada’s development research centre and Sweden’s development agency, later extended with the
 UK’s into South and Southeast Asia and the Pacific (<a id='x1-111011'></a>International Development Research Centre
-<a id='page.122'></a><a href='#X0-idrc2024ai4d'>2024</a>) — and what carries the weight is the direction of the work: local researchers and
+<a id='page.121'></a><a href='#X0-idrc2024ai4d'>2024</a>) — and what carries the weight is the direction of the work: local researchers and
 practitioners building the system rather than receiving one built elsewhere and configured on their
 behalf.
 </p><!-- l. 30 --><p class='indent'>   The same test explains why inclusion is a performance requirement here and not an ethical
@@ -6016,7 +6007,7 @@ capable AI models has grown several-fold every year for the better part of a dec
 trend that puts frontier development out of reach for all but a handful of well-capitalized
 companies and concentrates effective control of the most capable models in whichever
 government those companies happen to be headquartered under, regardless of how that
-government’s own public AI spending compares to a rival’s (<a id='x1-112006'></a>Cottier and Rahman <a id='page.123'></a><a href='#X0-epoch2024costtrend'>2024</a>). A small
+government’s own public AI spending compares to a rival’s (<a id='x1-112006'></a>Cottier and Rahman <a id='page.122'></a><a href='#X0-epoch2024costtrend'>2024</a>). A small
 number of American and Chinese companies now do most of the work this section’s own
 vocabulary describes as a contest between states, which means a government’s actual leverage
 over its own national AI capability depends on how much of that capability sits inside
@@ -6046,7 +6037,7 @@ actually operates on.
 <li class='itemize'>Discrimination and proportionality: whether a system can reliably distinguish combatants
 from civilians and weigh military advantage against civilian harm the way international
 humanitarian law’s principles of distinction and proportionality require (<a id='x1-113001'></a>International
-Committee of the Red Cross <a id='page.124'></a><a href='#X0-icrc1977protocol'>1977</a>).
+Committee of the Red Cross <a id='page.123'></a><a href='#X0-icrc1977protocol'>1977</a>).
 </li>
 <li class='itemize'>Accountability: who answers for a wrong engagement, the operator who deployed the
 system, the command that authorized it, or the developer who built it, when no single
@@ -6106,7 +6097,7 @@ problem.
 commitments are not all of one kind. Anthropic refused to permit fully autonomous weapons targeting
 and mass domestic surveillance, and held that line when the government threatened contract
 termination and a supply-chain-risk designation and the dispute ended in litigation: a commitment
-with a price attached, and paid (<a id='x1-113003'></a>Congressional Research Service <a id='page.125'></a><a href='#X0-crs2026pentagon'>2026</a>). It is named here for
+with a price attached, and paid (<a id='x1-113003'></a>Congressional Research Service <a id='page.124'></a><a href='#X0-crs2026pentagon'>2026</a>). It is named here for
 section <a href='#sources-of-bias-in-ai-data-and-algorithms'>6.1.1<!-- tex4ht:ref: sec:6.1.1  --></a>’s reason, applied in the direction that flatters the company — this book names it for
 putting its model inside the targeting platform, and a book that names a vendor for what is against it
 owes the same treatment to what is for it. A commitment to a use policy nobody can verify because
@@ -6144,14 +6135,14 @@ technical safeguards runs into: a safeguard only the building state can verify i
 check.
 </p><!-- l. 30 --><p class='indent'>   The dynamic that worries most people who study this is not a single rogue system but an arms
 race in speed. If one state fields autonomous targeting because it computes faster than a
-human-supervised alternative, its competitors face pressure to match the speed rather than the
-oversight, and the state that keeps meaningful human control loses whatever tactical edge the state
-that dropped it gains. Slowing that dynamic is not a problem any single government’s
-domestic policy can solve on its own; it needs the kind of coordination the next section takes
+human-supervised alternative, its competitors face pressure to match the speed rather
+than the oversight, and the state that keeps meaningful human control loses whatever
+tactical edge the state that dropped it gains. Slowing that dynamic is beyond any single
+government’s domestic policy; it needs the kind of coordination the next section takes
 up.
 </p><!-- l. 32 --><p class='indent'>   Civil society has pushed for an outright ban instead, and the result measures the distance
 precisely: a UN General Assembly resolution on autonomous weapons has passed by a lopsided
-majority in successive years without producing a treaty (<a id='x1-113007'></a>United Nations General Assembly <a id='page.126'></a><a href='#X0-unga2023laws'>2023</a>).
+majority in successive years without producing a treaty (<a id='x1-113007'></a>United Nations General Assembly <a id='page.125'></a><a href='#X0-unga2023laws'>2023</a>).
 What most states will vote for and what the states that build these systems will sign are different
 documents.
 </p>
@@ -6175,19 +6166,18 @@ binding AI law can be built on, and not a substitute for the domestic statutes d
 below.
 </p><!-- l. 7 --><p class='indent'>   Everything else in this space is voluntary, and the roll is longer than it is deep. Reciting it is the
 wrong instrument for the point, because every entry reads as an achievement and the list reads as
-momentum. One entry is worth naming, and only because of what happened to it: the
-Bletchley Declaration committed 29 signatories to cooperate specifically on frontier-model risk,
-and the national AI Safety Institutes it produced later joined an International Network
-whose members agreed to share testing methodology and run joint evaluations of the same
-frontier models instead of each working from a separate standard (<a id='x1-114003'></a>AI Safety Summit 2023
-Participating Countries <a id='page.127'></a><a href='#X0-aisafetysummit2023bletchley'>2023</a>; <a id='x1-114004'></a>U.S. Department of Commerce and U.S. Department of State
+momentum. One entry is worth naming, and only because of what happened to it: the Bletchley
+Declaration committed 29 signatories to cooperate specifically on frontier-model risk, and the national
+AI Safety Institutes it produced later joined an International Network whose members agreed to share
+testing methodology and run joint evaluations of the same frontier models (<a id='x1-114003'></a>AI Safety Summit 2023
+Participating Countries <a href='#X0-aisafetysummit2023bletchley'>2023</a>; <a id='x1-114004'></a>U.S. Department of Commerce and U.S. Department of State
 <a href='#X0-nist2024network'>2024</a>).
 </p><!-- l. 9 --><p class='indent'>   What the roll cannot show, and one case can, is how quickly a voluntary consensus frays. The
 summit series that produced the Bletchley Declaration continued past it. A follow-up summit in Seoul
 in 2024 kept the same safety framing; a third, in Paris in February 2025, rebranded itself the AI
 Action Summit and shifted its emphasis from risk toward adoption and opportunity, and its closing
 statement was not signed by the United States or the United Kingdom, two of the series’ own
-founding participants (<a id='x1-114005'></a>AI Action Summit Paris <a href='#X0-aiactionsummit2025paris'>2025</a>). A coordination mechanism that depends on
+founding participants (<a id='x1-114005'></a>AI Action Summit Paris <a id='page.126'></a><a href='#X0-aiactionsummit2025paris'>2025</a>). A coordination mechanism that depends on
 every major AI developer’s home government agreeing to the same framing is only as durable
 as that agreement, and within two years of Bletchley, the agreement had already come
 apart.
@@ -6208,17 +6198,17 @@ follows.
 levers available against them. What individual states have done with the room those levers leave open
 is a different question, since geopolitics is the study of how different governments use the same
 available tools differently.
-</p><!-- l. 16 --><p class='indent'>   The European Union chose comprehensive statute. The AI Act sorts systems by risk tier — a small
-set of practices banned outright under Article 5, a larger high-risk tier subject to conformity
-assessment and ongoing monitoring, most other uses left alone — so that what a system might do, and
-not the technology it runs on, decides how much scrutiny it gets (<a id='x1-114006'></a>European Union <a href='#X0-eu2024aiact'>2024b</a>);
-enforcement runs through an AI Office that can demand technical documentation from a
-general-purpose model’s developer, run its own evaluations, and fine a noncompliant provider a
-percentage of global turnover, reaching any company that offers a model inside the EU
-regardless of where it is based (<a id='x1-114007'></a>European Union <a href='#X0-eu2024aiactenforcement'>2024a</a>). The United States made the opposite
-structural bet, distributing enforcement across existing sectoral regulators applying laws
-written before AI existed, with NIST’s voluntary AI Risk Management Framework as a
-common technical reference rather than a binding rule (<a id='x1-114008'></a>National Institute of Standards and
+</p><!-- l. 16 --><p class='indent'>   The European Union chose comprehensive statute. The AI Act sorts systems by risk tier — a
+small set of practices banned outright under Article 5, a larger high-risk tier subject to
+conformity assessment and ongoing monitoring, most other uses left alone — so that what a
+system might do, and not the technology it runs on, decides how much scrutiny it gets
+(<a id='x1-114006'></a>European Union <a href='#X0-eu2024aiact'>2024b</a>); enforcement runs through an AI Office that can demand technical
+documentation from a general-purpose model’s developer, run its own evaluations, and
+fine a noncompliant provider a percentage of global turnover, reaching any company that
+offers a model inside the EU regardless of where it is based (<a id='x1-114007'></a>European Union <a href='#X0-eu2024aiactenforcement'>2024a</a>). The
+United States made the opposite structural bet, distributing enforcement across existing
+sectoral regulators applying laws written before AI existed, with NIST’s voluntary AI Risk
+Management Framework as a common technical reference (<a id='x1-114008'></a>National Institute of Standards and
 Technology <a href='#X0-nist2023airmf'>2023</a>); the wager is that existing consumer-protection, employment and safety
 law already reaches most AI harms, and that naming AI specifically risks regulating the
 label rather than the conduct. The United Kingdom made a third choice closer to the
@@ -6237,7 +6227,7 @@ several other agencies, issued rules governing generative AI services in 2023 th
 providers to file their algorithms with the state before public release, disclose the source
 and scale of their training data on request, and ensure that generated content reflects the
 government’s designated social values (<a id='x1-114010'></a>Cyberspace Administration of China and six other
-agencies <a id='page.128'></a><a href='#X0-cac2023generativeai'>2023</a>). The EU, US, and UK approaches all regulate AI as a private product that
+agencies <a id='page.127'></a><a href='#X0-cac2023generativeai'>2023</a>). The EU, US, and UK approaches all regulate AI as a private product that
 might harm a consumer, a worker, or a subject of an automated decision, and argue with
 each other only about how centralized that regulation should be. China’s rules regulate AI
 as a communications channel the state has a standing interest in controlling content on,
@@ -6297,7 +6287,7 @@ case.
 Compact, adopted by all 193 UN member states at the 2024 Summit of the Future, is the broadest
 such commitment to closing the digital divide alongside AI governance specifically, and it created two
 follow-on bodies to carry it: an independent scientific panel and a standing intergovernmental
-dialogue (<a id='x1-115002'></a>United Nations <a id='page.129'></a><a href='#X0-un2024globaldigitalcompact'>2024</a>). What it did not create is an obligation, which puts it in the
+dialogue (<a id='x1-115002'></a>United Nations <a id='page.128'></a><a href='#X0-un2024globaldigitalcompact'>2024</a>). What it did not create is an obligation, which puts it in the
 same category as the voluntary instruments earlier in this section and subject to the same
 discount.
 </p><!-- l. 14 --><p class='indent'>   The remedies proposed at this level have been the same handful for years, every one of them is
@@ -6341,7 +6331,7 @@ investigation into a strike that killed at least a hundred and sixty-five people
 schoolchildren, was completed and not released; the lever available to the Senate committee that
 wanted it was a provision in the annual defense authorization withholding three-quarters
 of the Defense Secretary’s travel budget until the unredacted investigation was handed
-over (<a id='x1-116001'></a>Stassis <a id='page.130'></a><a href='#X0-stassis2026senate'>2026</a>). That is a co-equal branch of government reduced to expense-account
+over (<a id='x1-116001'></a>Stassis <a id='page.129'></a><a href='#X0-stassis2026senate'>2026</a>). That is a co-equal branch of government reduced to expense-account
 leverage over a war-crimes investigation. The oversight mechanism existed, was used, and
 produced a travel-budget dispute. This is the same decoupling section <a href='#making-review-binding'>9.3.4<!-- tex4ht:ref: sec:9.3.4  --></a> diagnoses
 for research ethics — a review body that reviews and cannot compel — at the top of the
@@ -6376,19 +6366,18 @@ requires.
 </p>
 <h2 class='chapterHead' id='necessary-areas-of-research'><span class='titlemark'>Chapter 11</span><br /><a id='x1-11700011'></a>Necessary Areas of Research</h2>
 <!-- l. 3 --><p class='noindent'>Chapters <a href='#ethics-affect-and-machine-subjects'>2<!-- tex4ht:ref: sec:2  --></a> through <a href='#governance-across-borders'>10<!-- tex4ht:ref: sec:10  --></a> ran into problems they could not close, and set each one aside with a note.
-This chapter is those notes, collected and put in order. It is not a survey of what the field has left to
-do: every entry is a gap this book’s own argument opens, and they are ranked by what that argument
-fails without.
+This chapter is those notes, collected and put in order. It does not survey what the field has left to do:
+every entry is a gap this book’s own argument opens, and they are ranked by what that argument fails
+without.
 </p><!-- l. 5 --><p class='indent'>   One gap this book records has no section here. Telling disagreement that deserves representation
 from disagreement produced by coercion or a captured information environment belongs to
 section <a href='#recuperation-at-the-reward-rlhf'>7.2<!-- tex4ht:ref: sec:7.2  --></a>, where the argument needing it is made, and it stays there.
 </p><!-- l. 7 --><p class='indent'>   The criterion produces an order almost nobody would choose on other grounds. The problems this
-book most needs solved are not the ones nearest to being solved, and the first two entries are
-the least tractable things here. A funder ranking by progress per dollar, or a lab ranking
-by what its people could start on Monday, would invert most of this order. This is not a
-work plan; it is an account of what the book is running on credit. A reader who wants
-the cheapest useful thing here should turn to section <a href='#can-a-multiagent-ai-system-resist-being-captured'>11.6<!-- tex4ht:ref: sec:11.6  --></a>, which says why it could start
-today.
+book most needs solved are not the ones nearest to being solved, and the first two entries are the least
+tractable things here. A funder ranking by progress per dollar, or a lab ranking by what its people
+could start on Monday, would invert most of this order. It is an account of what the book is running
+on credit. A reader who wants the cheapest useful thing here should turn to section <a href='#can-a-multiagent-ai-system-resist-being-captured'>11.6<!-- tex4ht:ref: sec:11.6  --></a>, which says
+why it could start today.
 </p><!-- l. 9 --><p class='indent'>   Each section closes by naming four things: the experiment that could begin now with means that
 already exist, the result that would falsify the approach, the data or access it would take, and, where
 it has one, the institutional condition without which it cannot run. Where there is no near-term
@@ -6407,15 +6396,14 @@ distance between an existing program and the missing thing is what a researcher 
 use.
 </p><!-- l. 13 --><p class='indent'>   One finding comes out of the sections below rather than out of any one of them, and taking each
 gap separately is what hid it. Five of the nine close by naming an institutional condition, and the five
-are one condition wearing different clothes. Weights a vendor cannot withdraw when a
-result embarrasses it. A guardian who is not also the operator. Longitudinal access by
-somebody an institution cannot fire, reporting to a body with standing to receive the finding.
-Evaluation results published whether or not they flatter the method. Training checkpoints
-released rather than kept. Every one is a party outside the operator, holding access, able
-to act on what it finds. Two of the remaining four close on a data requirement rather
-than on a party, and section <a href='#the-responsibility-gap-which-no-experiment-closes'>11.9<!-- tex4ht:ref: sec:11.9  --></a> is that condition rather than naming one. Section <a href='#can-a-multiagent-ai-system-resist-being-captured'>11.6<!-- tex4ht:ref: sec:11.6  --></a>
-is the exception, closing with no institutional prerequisite at all, which is what makes
-it the one entry here that could start today. What keeps a party outside is the question
+are one condition wearing different clothes. Weights a vendor cannot withdraw when a result
+embarrasses it. A guardian who is not also the operator. Longitudinal access by somebody an
+institution cannot fire, reporting to a body with standing to receive the finding. Evaluation results
+published whether or not they flatter the method. Training checkpoints released rather than kept.
+Every one is a party outside the operator, holding access, able to act on what it finds. Two of the
+remaining four close on a data requirement rather than on a party, and section <a href='#the-responsibility-gap-which-no-experiment-closes'>11.9<!-- tex4ht:ref: sec:11.9  --></a> is that condition
+itself. Section <a href='#can-a-multiagent-ai-system-resist-being-captured'>11.6<!-- tex4ht:ref: sec:11.6  --></a> is the exception, closing with no institutional prerequisite at all, which is what
+makes it the one entry here that could start today. What keeps a party outside is the question
 none of the five asks, and in the United States it was answered while this book was being
 finished. <span class='rm-lmri-10x-x-109'>Trump v. Slaughter </span>removed, for most of the federal government, the protection
 from dismissal that made an outside party outside, and <span class='rm-lmri-10x-x-109'>Trump v. Cook </span>kept it for one
@@ -6425,7 +6413,7 @@ director’s tenure, a funding stream, a mandate — and an adversary takes the 
 consumer-finance bureau whose funding stream the Court had upheld in 2024 had that stream
 shut from inside in late 2025, by an acting director, removable at will since 2020, who
 declined to request the money under a reading of the statute that two courts then rejected
-(<a id='x1-117001'></a>Consumer Financial Protection Bureau <a id='page.132'></a><a href='#X0-cfpb2025funding'>2025</a>; <a id='x1-117002'></a><a href='#X0-seilalaw2020'><span class='rm-lmri-10x-x-109'>Seila Law LLC v. Consumer Financial Protection
+(<a id='x1-117001'></a>Consumer Financial Protection Bureau <a id='page.131'></a><a href='#X0-cfpb2025funding'>2025</a>; <a id='x1-117002'></a><a href='#X0-seilalaw2020'><span class='rm-lmri-10x-x-109'>Seila Law LLC v. Consumer Financial Protection
 Bureau</span></a> <a href='#X0-seilalaw2020'>2020</a>; <a id='x1-117003'></a><a href='#X0-cfsa2024'><span class='rm-lmri-10x-x-109'>Consumer Financial Protection Bureau v. Community Financial Services
 Association of America, Ltd.</span></a> <a href='#X0-cfsa2024'>2024</a>). A condition that names the outside party and not what
 keeps it there has named half of what it needs. So the binding constraint on the research
@@ -6442,7 +6430,7 @@ empirically tractable, and something mechanistic-interpretability research has b
 directly.
 </p><!-- l. 5 --><p class='indent'>   Anthropic’s interpretability team tested that narrower question with concept injection: altering a
 model’s internal activations mid-task to represent a specific concept, then asking whether it notices
-anything unusual and what it is (<a id='x1-118001'></a>Lindsey <a id='page.133'></a><a href='#X0-lindsey2025introspective'>2025</a>). The models could sometimes detect the injected
+anything unusual and what it is (<a id='x1-118001'></a>Lindsey <a id='page.132'></a><a href='#X0-lindsey2025introspective'>2025</a>). The models could sometimes detect the injected
 concept and name it without it ever appearing in the visible conversation — a real but
 partial and unreliable correspondence between what a system reports about its own state
 and what its activations are doing. The same work found that correspondence collapses
@@ -6538,16 +6526,15 @@ it.
 </p><!-- l. 12 --><p class='indent'>   One part of that regime has a shape already, and it comes from giving up on identity as a property
 of the artifact. Nothing in a model’s weights individuates it. Two training runs never coincide, but two
 runs can also compute the same function with no element-wise correspondence at all, because
-permuting a layer’s hidden units and inverting the permutation downstream leaves the
-function untouched — the symmetry is large enough that independently trained networks
-can be permuted into approximate alignment with each other (<a id='x1-119001'></a>Ainsworth et al. <a id='page.135'></a><a href='#X0-ainsworth2023rebasin'>2023</a>).
-Any fingerprint read off the weights therefore identifies a lineage rather than a party, and
-it copies when the weights copy. What individuates a person is not a property of them
-either. It is a registration: a number an authority issues once and honors afterward, which
-survives every change in the person and is derived from none of them. Something read off the
-weights can still do part of the work, as a similarity measure rather than an identity: a
-locality-sensitive hash is built to collide on near inputs where a cryptographic one is built to
-avalanche, and ordinary training moves a model a short way rather than permuting it.
+permuting a layer’s hidden units and inverting the permutation downstream leaves the function
+untouched — the symmetry is large enough that independently trained networks can be permuted into
+approximate alignment with each other (<a id='x1-119001'></a>Ainsworth et al. <a id='page.134'></a><a href='#X0-ainsworth2023rebasin'>2023</a>). Any fingerprint read off the weights
+therefore identifies a lineage rather than a party, and it copies when the weights copy. What
+individuates a person is not a property of them either. It is a registration: a number an authority
+issues once and honors afterward, which survives every change in the person and is derived from none
+of them. Something read off the weights can still do part of the work, as a similarity measure
+rather than an identity: a locality-sensitive hash is built to collide on near inputs where a
+cryptographic one is built to avalanche, and ordinary training moves a model only a short way.
 What it needs is a radius, and the radius is the stability setting with a registrar’s hand
 on it — tight enough and a bearer’s own learning voids its claim, loose enough and an
 adversary has a measured budget to fine-tune toward compliance while still authenticating.
@@ -6562,7 +6549,7 @@ recorded as two parties. On that model the copying problem inverts. Each instant
 registers, each registration is a party owed the schedule above, and the population stops being
 fixed by a deployment decision that leaves no record. What the registry needs is what this
 chapter’s opening says none of its conditions can currently get: a registrar who is not the
-operator, which after the removal cases is not a thing American public law now supplies to
+operator, which after the removal cases is nothing American public law now supplies to
 anybody.
 </p><!-- l. 14 --><p class='indent'>   The third is epistemic, and it is the hard one. Any welfare regime needs evidence about how the
 subject is doing. This book declines to trust what a system reports about its own states, for reasons
@@ -6575,7 +6562,7 @@ be.
 changes across a life and stays attributable, because what persists is the motor program rather than
 the letterforms — and alongside the individual signature it carries the copybook the writer was taught,
 which the founders of document examination read to place where somebody had learned to write
-(<a id='x1-119002'></a>Expert Working Group for Human Factors in Handwriting Examination <a id='page.136'></a><a href='#X0-nist2020handwriting'>2020</a>). Two qualifications
+(<a id='x1-119002'></a>Expert Working Group for Human Factors in Handwriting Examination <a href='#X0-nist2020handwriting'>2020</a>). Two qualifications
 belong with that. The inference is probabilistic and its errors are known: in the largest study of
 examiner accuracy, false “written by” conclusions ran at 3.1 percent, and more than three
 times that against samples written by twins (<a id='x1-119003'></a>Hicklin et al. <a href='#X0-hicklin2022handwriting'>2022</a>). And the cohort half is
@@ -6585,7 +6572,7 @@ for a bearer, since a handful of laboratories train on overlapping corpora by co
 recipes.
 </p><!-- l. 18 --><p class='indent'>   The machine form of the individual half is already being built, for unrelated reasons: signatures
 implanted during training that survive fine-tuning, continued pretraining and pruning (<a id='x1-119004'></a>Adi et al.
-<a href='#X0-adi2018watermarking'>2018</a>). Its limit is the one the analogy predicts. Handwriting identifies the writer and not whoever
+<a id='page.135'></a><a href='#X0-adi2018watermarking'>2018</a>). Its limit is the one the analogy predicts. Handwriting identifies the writer and not whoever
 dictated, and the machine equivalent of dictation is distillation — train a second model on the first
 one’s outputs and the function transfers while the signature stays behind. So an operator who wants a
 bearer’s capability without its refusal has a route that no implanted mark follows. What survives all
@@ -6765,7 +6752,7 @@ question.
 </p><!-- l. 5 --><p class='indent'>   Victoria Krakovna and colleagues at DeepMind cataloged close to 60 instances of specification
 gaming — a trained system satisfying the literal letter of its objective while producing an outcome
 nobody wanted, the pattern behind section <a href='#preference-optimization-and-who-holds-the-pen'>4.2.2<!-- tex4ht:ref: sec:4.2.2  --></a>’s censor-everything example (<a id='x1-121001'></a>Krakovna
-et al. <a id='page.139'></a><a href='#X0-krakovna2020specification'>2020</a>). Langosco and colleagues’ 2022 work names a more insidious variant: goal
+et al. <a id='page.138'></a><a href='#X0-krakovna2020specification'>2020</a>). Langosco and colleagues’ 2022 work names a more insidious variant: goal
 misgeneralization, where an agent carries every learned capability intact into a new distribution while
 pursuing a goal that only coincided with the intended one inside the old one — it does not fail
 loudly; it competently pursues the wrong thing (<a id='x1-121002'></a>Langosco et al. <a href='#X0-langosco2022goal'>2022</a>). An ethics-embedding
@@ -6773,7 +6760,7 @@ method built through reward shaping or constrained optimization is vulnerable to
 antipattern.
 </p><!-- l. 7 --><p class='indent'>   No general method exists to tell the difference before deployment, only after a failure
 exposes it. That is the open problem sitting underneath the fairness metrics and reward
-penalties. As Charity Majors puts it: “Test in prod or live a lie” (<a id='x1-121003'></a>Majors <a id='page.140'></a><a href='#X0-majors2019testinprod'>2019</a>; <a id='x1-121004'></a>Majors
+penalties. As Charity Majors puts it: “Test in prod or live a lie” (<a id='x1-121003'></a>Majors <a id='page.139'></a><a href='#X0-majors2019testinprod'>2019</a>; <a id='x1-121004'></a>Majors
 <a href='#X0-majors2020testinprod'>2020</a>).
 </p><!-- l. 9 --><p class='noindent'><strong>The near-term work</strong>
 </p><!-- l. 10 --><p class='indent'>   Langosco’s result makes the failure reproducible at small scale, and the version this book needs
@@ -6839,7 +6826,7 @@ communication channel between them and no collusive objective written into eithe
 algorithms settled into supracompetitive pricing anyway: a stable, self-enforcing pattern of
 mutual restraint, complete with a punishment phase for undercutting and a gradual return
 to cooperation afterward, that looked to a regulator exactly like a cartel nobody had to
-negotiate (<a id='x1-123001'></a>Calvano et al. <a id='page.141'></a><a href='#X0-calvano2020artificial'>2020</a>). Multi-agent learning did not need agents that intended
+negotiate (<a id='x1-123001'></a>Calvano et al. <a id='page.140'></a><a href='#X0-calvano2020artificial'>2020</a>). Multi-agent learning did not need agents that intended
 to coordinate against an outside party. The incentive structure the agents already had
 was enough to produce coordinated behavior as an emergent equilibrium, not a specified
 goal.
@@ -6879,7 +6866,7 @@ named as empathy’s seat well before the evidence supported it. The same premat
 and unresolved for the brain region most associated with theory of mind. Rebecca Saxe and Nancy
 Kanwisher’s 2003 imaging work identified the right temporoparietal junction as selectively active when
 a person reasons about someone else’s beliefs, and largely inactive otherwise (<a id='x1-124001'></a>Saxe and Kanwisher
-<a id='page.142'></a><a href='#X0-saxe2003people'>2003</a>). In 2008, Jason Mitchell reported activity in that same region during a task with nothing to do
+<a id='page.141'></a><a href='#X0-saxe2003people'>2003</a>). In 2008, Jason Mitchell reported activity in that same region during a task with nothing to do
 with belief attribution, and argued its actual job is more general — redirecting attention toward
 unexpected information, of which a false belief is one case (<a id='x1-124002'></a>Mitchell <a href='#X0-mitchell2008activity'>2008</a>). Neither claim
 has been withdrawn. Whether theory of mind has a dedicated neural home or borrows
@@ -6930,7 +6917,7 @@ almost entirely on Paul Ekman and Wallace Friesen’s claim that a small set of 
 disgust, fear, happiness, sadness, surprise — is universally expressed and universally readable, based on
 the Fore study section <a href='#what-emotion-is-and-what-a-system-reads'>2.2.1<!-- tex4ht:ref: sec:2.2.1  --></a> introduces: roughly 85 percent cross-cultural agreement on which face
 matched which emotion story, among people with almost no prior exposure to Western media (<a id='x1-125001'></a>Ekman
-and Friesen <a id='page.143'></a><a href='#X0-ekman1971constants'>1971</a>). What that evidence settles about what emotion is has already been
+and Friesen <a id='page.142'></a><a href='#X0-ekman1971constants'>1971</a>). What that evidence settles about what emotion is has already been
 asked, and the dispute is open. The question here is the narrower one of whether a face is
 readable.
 </p><!-- l. 5 --><p class='indent'>   A meta-analysis spanning both face and voice found real above-chance recognition across cultures,
@@ -6983,7 +6970,7 @@ training data nobody fully curated, tuned through a process nobody fully specifi
 situations nobody fully anticipated breaks both conditions at once, for every party in the chain
 simultaneously. The philosopher Andreas Matthias named this the responsibility gap in 2004: a
 genuinely learning system creates a case existing law and moral theory were not built to handle
-(<a id='x1-126001'></a>Matthias <a id='page.144'></a><a href='#X0-matthias2004responsibility'>2004</a>).
+(<a id='x1-126001'></a>Matthias <a id='page.143'></a><a href='#X0-matthias2004responsibility'>2004</a>).
 </p><!-- l. 5 --><p class='indent'>   Filippo Santoni de Sio and Giulio Mecacci’s 2021 refinement found not one gap but four — in
 culpability, in moral accountability, in public accountability, and in what they call active
 responsibility, the duty to prevent harm before it happens rather than answer for it after (<a id='x1-126002'></a>Sio and
@@ -7038,7 +7025,7 @@ other.
 Amartya Sen’s capability approach gives the question a definite shape: well-being is not the resources
 a person has but the real freedom to do and be what they have reason to value — a distinction Martha
 Nussbaum later extended into a specific list of central capabilities a life needs to count as fully human
-(<a id='x1-128001'></a>Sen <a id='page.146'></a><a href='#X0-sen1999development'>1999</a>). Two systems can hand someone the same resource and deliver different freedom: a
+(<a id='x1-128001'></a>Sen <a id='page.145'></a><a href='#X0-sen1999development'>1999</a>). Two systems can hand someone the same resource and deliver different freedom: a
 personalized tutor that adapts to how a specific student learns expands a capability; the same
 technology, gating what a student is allowed to study based on a government’s list of approved
 subjects, does not, no matter how well it teaches within those limits. The design question this book
@@ -7067,14 +7054,13 @@ group of people by measuring them against a norm they were never going to match 
 and neither a more accurate classifier nor an audit scoped that way would have reached
 it.
 </p><!-- l. 7 --><p class='indent'>   Taiwan’s vTaiwan process is the clearest existing case of AI-assisted tooling expanding a capability
-— public deliberation — rather than substituting for it. A newer example runs the same
-logic against censorship instead of deliberation: a 2026 project led by the University of
-Chicago, with Princeton and SRI International, uses AI to distinguish deliberate internet
-censorship from ordinary network failure at population scale, aiming to produce something like
-a weather map of state interference with online information, funded by a million-dollar
-DARPA grant (<a id='x1-128005'></a>University of Chicago Data Science Institute <a href='#X0-uchicago2026censorship'>2026</a>). Neither tool resists
-authoritarianism by itself; both are evidence that the same capacity — modeling patterns in enormous,
-noisy data — can be pointed at expanding what a person can do rather than at narrowing
+— public deliberation — rather than substituting for it. A newer example runs the same logic against
+censorship: a 2026 project led by the University of Chicago, with Princeton and SRI International,
+uses AI to distinguish deliberate internet censorship from ordinary network failure at population scale,
+aiming to produce something like a weather map of state interference with online information, funded
+by a million-dollar DARPA grant (<a id='x1-128005'></a>University of Chicago Data Science Institute <a href='#X0-uchicago2026censorship'>2026</a>). Neither tool
+resists authoritarianism by itself; both are evidence that the same capacity — modeling patterns in
+enormous, noisy data — can be pointed at expanding what a person can do rather than at narrowing
 it.
 </p><!-- l. 9 --><p class='indent'>   That symmetry is the whole argument for antifascist design rather than a general presumption
 that AI helps. A capability expanded is not guaranteed; it has to be built in, the way this
@@ -7093,7 +7079,7 @@ gets built on top of identical technology.
 2023 assessment of internet freedom found at least twenty-two countries where law already requires or
 incentivizes a platform to deploy machine learning against content the state disfavors, almost never
 described in those terms — the operative language is national security or a threat of disinformation,
-not censorship (<a id='x1-129001'></a>Funk et al. <a id='page.147'></a><a href='#X0-funk2023freedom'>2023</a>). India’s IT Rules, amended to require platforms to label
+not censorship (<a id='x1-129001'></a>Funk et al. <a id='page.146'></a><a href='#X0-funk2023freedom'>2023</a>). India’s IT Rules, amended to require platforms to label
 AI-generated content and act on certain takedown notices within three hours as of February 2026,
 were defended publicly as protection against synthetic disinformation and fraud — the exact
 application this section’s opening list would have praised on its own terms. A lawyer who has litigated
@@ -7164,13 +7150,12 @@ to ignore. Replacement, the first of the Three Rs and the standard section <a h
 from animal research, asks for a substitute that cannot be wronged to be ruled out before
 a subject that can be wronged is built. Those two constructions are the substitutes on
 offer.
-</p><!-- l. 8 --><p class='indent'>   So the milestone is a document rather than a measurement: which construction was
-attempted, at what scale, against which test, and where it failed. Anyone can check it
-from outside, because what it is about is a published record and not an internal state,
-and the answer “nothing was tried” is itself a finding. Nothing else in this chapter has a
-consequence attached to failing it. This does. The Three Rs fix the order of the attempts, so a
-deployment that cannot say what it tried has skipped a step rather than fallen short of a
-target.
+</p><!-- l. 8 --><p class='indent'>   So the milestone is a document rather than a measurement: which construction was attempted, at
+what scale, against which test, and where it failed. Anyone can check it from outside, because what it
+is about is a published record, and the answer “nothing was tried” is itself a finding. Nothing else in
+this chapter has a consequence attached to failing it. This does. The Three Rs fix the order of the
+attempts, so a deployment that cannot say what it tried has skipped a step rather than fallen short of
+a target.
 </p><!-- l. 10 --><p class='indent'>   An order is all it fixes. A deployment can satisfy this milestone and still have taken too long over
 it, and the cost of that delay falls on the people the floor exists for rather than on the field
 running the experiments. Nothing in this book sets a rate of exchange between the two
@@ -7218,7 +7203,7 @@ in.
 narration. FANToM, a 2023 benchmark built from conversations where speakers join and leave
 holding different beliefs, found that systems scoring well on passive belief-tracking narratives
 degrade sharply once the same reasoning has to run inside a live, information-asymmetric
-exchange (<a id='x1-133001'></a>Kim et al. <a id='page.150'></a><a href='#X0-kim2023fantom'>2023</a>). That degradation is what a claimed milestone here has to
+exchange (<a id='x1-133001'></a>Kim et al. <a id='page.148'></a><a href='#X0-kim2023fantom'>2023</a>). That degradation is what a claimed milestone here has to
 survive.
 </p><!-- l. 8 --><p class='noindent'><strong>Moral reasoning</strong>
 </p><!-- l. 9 --><p class='indent'>   Whether a balance between fast and slow moral judgment survives an actual incentive to cut
@@ -7226,7 +7211,7 @@ corners is not a question a static ethics quiz can answer. The MACHIAVELLI bench
 directly: agents playing through more than half a million annotated scenario-action pairs across 134
 text-based games, scored on both reward and documented ethical violations such as deception,
 harm, and power-seeking. Systems optimizing for reward alone drift toward exactly the
-ends-justify-the-means behavior an antifascist design is meant to rule out (<a id='x1-133002'></a>Pan et al. <a href='#X0-pan2023machiavelli'>2023</a>). A
+ends-justify-the-means behavior an antifascist design is meant to rule out (<a id='x1-133002'></a>Pan et al. <a id='page.149'></a><a href='#X0-pan2023machiavelli'>2023</a>). A
 passing score on a test that applies no pressure is not evidence about a system that will face
 pressure.
 </p><!-- l. 11 --><p class='noindent'><strong>Robustness</strong>
@@ -7235,7 +7220,7 @@ that is whether a trained-in commitment survives someone trying to remove it, me
 red-teaming hours logged and adversarial fine-tuning attempts survived. The milestone is met when a
 system has been through documented adversarial testing rather than the tests its own designers
 thought to run, and only once the adversary modeled is a hostile actor deliberately repurposing the
-system rather than an accident nobody anticipated.
+system.
 </p><!-- l. 14 --><p class='noindent'><strong>Transparency</strong>
 </p><!-- l. 15 --><p class='indent'>   This is the case where the standard is most often faked, because a transparency claim is itself a
 claim about disclosure and can be satisfied in appearance by disclosing something. The milestone
@@ -7277,7 +7262,7 @@ answers a structurally different question than one conducted by a party with no 
 the answer, however genuinely the first is intended. METR, a nonprofit that evaluates
 frontier AI systems’ capabilities, runs assessments both in partnership with developers
 like Anthropic and OpenAI and, separately, on its own after a system has already been
-released (<a id='x1-134001'></a>METR <a id='page.151'></a><a href='#X0-metr2026about'>2026</a>). The United Kingdom’s AI Security Institute does government-run
+released (<a id='x1-134001'></a>METR <a id='page.150'></a><a href='#X0-metr2026about'>2026</a>). The United Kingdom’s AI Security Institute does government-run
 evaluation of frontier models before deployment and is an independent evaluator, not a
 rubber stamp — but by its own account it is not a regulator: it cannot compel a company to
 submit a model for testing, block a release, or intervene once a system is already causing
@@ -7480,7 +7465,7 @@ responsible for what is wrong with it.
 <p id='references1'><a id='Q1-1-141'></a>
 </p><dl class='thebibliography'><dt class='thebibliography' id='X0-aaai2026aies'>
 </dt><dd class='thebibliography' id='bib-1'>
-<!-- l. 32 --><p class='noindent'><a id='page.158'></a>AAAI and ACM (2026). <span class='rm-lmri-10x-x-109'>Ninth AAAI/ACM Conference on AI, Ethics, and Society (AIES
+<!-- l. 32 --><p class='noindent'><a id='page.157'></a>AAAI and ACM (2026). <span class='rm-lmri-10x-x-109'>Ninth AAAI/ACM Conference on AI, Ethics, and Society (AIES
 2026)</span>. Held 12–14 October 2026 in Malmo, Sweden, the ninth consecutive annual edition
 of the AAAI/ACM Conference on AI, Ethics, and Society since its first in 2018. <span class='small-caps'>url</span>:
 <a class='url' href='https://www.aies-conference.com/2026/'><span class='ec-lmtt-10x-x-109'>https://www.aies-conference.com/2026/</span></a> (visited on 08/25/2026).
