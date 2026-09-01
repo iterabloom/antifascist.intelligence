@@ -35,7 +35,11 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-31 after D-159 (P78):** 90,981 words, **136 sections**, 182 pages. P78 cut corrective antitheses for density: **611 → 583 instances**, **6.69 → 6.40 per 1,000** against a calibration set at 2.90, doubled sentences **37 → 25**, pairs within 60 words **143 → 126**. All `\ref{sec:}` **unchanged at 463**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **P75's defect class is now at four instances in four passes** — prose stating a reason that is false, or a sentence whose stated referent does not resolve — the newest being section~8.3.1's *the two are not the same objective … targets the first one*, true on one reading and backwards on the other. **This is the suite's largest uncovered class.** **Still open: the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
+**The figures this file turns on, re-measured 2026-08-31 after D-161 (P80):** 90,767 words, **136 sections**, 182 pages. P80 repaired the eight references that fail the four-way test — pertinent, helpful, non-distracting, reader-friendly: body references **403 → 395**, all `\ref{sec:}` **435 → 427**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Two figures worth carrying.** **Cutting for density and cutting for quality select different sets**: the 32 paragraphs closing on a pointer sentence pass all four tests and were left alone, and the quality set is now exhausted at eight repairs in 399. **Reciprocity, corrected at D-162**: the figure is **20 percent, 72 edges in 36 pairs**, not the 43 percent first reported, which counted matches made through an ancestor. **It is not a quality signal**: paragraph-closing pointer sentences are reciprocated at 26 percent against a book-wide 20, so the shape and the reciprocity go together rather than apart. Reciprocity is a property of the pair and quality is a property of the edge. **A gap in the suite is recorded**: `check_typography.py` does not check apostrophes and says so in its docstring, so a curly apostrophe written into new prose passes every check. It is a source-convention violation and not a print defect. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
+
+**Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-160 (P79):** 90,795 words, **136 sections**, 182 pages. P79 cut 28 self-locating cross-references at 14 sites: all `\ref{sec:}` **463 → 435**, body references **431 → 403**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Three figures this file and its predecessors have carried are corrected here.** The body reference count is **431 before this pass and 403 after**, not the 421 the P79 finding used and not reconcilable with the 420 recorded at P57 — P64 already dropped one figure in this family as unreproducible, and the count to use is *all* `\ref{sec:}` less the 30 in chapter~13 and the 2 in chapter~14. **The book carries 253 instances of *this book*, *this chapter*, *this section***, which no entry here had counted, and together with the references that is **one act of self-locating every 133 words**. **P79's own cut is the evidence that the two halves are separate problems**: 28 references came out and the self-location count did not move. **P75's defect class stands at four and is not incremented by P79** — P79's is prose stating a true thing the paragraph did not need, adjacent to P75's prose stating a reason that is false, and both are invisible to a check that verifies references resolve. **A class D-099 recorded as cleared is back**: two instances of *this section used to* in §3.5, reintroduced when P57 rewrote the section. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
+
+**Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-159 (P78):** 90,981 words, **136 sections**, 182 pages. P78 cut corrective antitheses for density: **611 → 583 instances**, **6.69 → 6.40 per 1,000** against a calibration set at 2.90, doubled sentences **37 → 25**, pairs within 60 words **143 → 126**. All `\ref{sec:}` **unchanged at 463**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **P75's defect class is now at four instances in four passes** — prose stating a reason that is false, or a sentence whose stated referent does not resolve — the newest being section~8.3.1's *the two are not the same objective … targets the first one*, true on one reading and backwards on the other. **This is the suite's largest uncovered class.** **Still open: the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
 
 **Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-158 (P77):** 91,151 words, **136 sections**, 182 pages, taken from the committed proof pair, which was rebuilt after this pass and is current. Two passes since the last re-measure. P76 cut chapter~11's opening enumeration, 508 words, and moved the *Trump v. Slaughter* finding to the chapter's close; P77 cut the glossary from **57 entries to 16** and 3,233 words to 1,098. All `\ref{sec:}` **547 → 463** and glossary locators **114 → 30**, every removed reference outbound from a cut glossary entry; `refs.bib` **unchanged at 300** with **37** in `unused_bibliography.bib`. **P75's defect class turned up twice more, in both passes**: chapter~11's finding said all nine of its sections close by naming an institutional condition and section~11.6 says it has none, and the glossary's *Humane values* entry called itself the book's preferred term *chapters 4 and 5 onward* when the phrase appears twice in the manuscript. **Three instances in three consecutive passes makes this the suite's largest uncovered class**: prose that states a reason, where the reason is false. **Open and named for a ruling: the book has no index**, and P77's finding assigns work to one twice — a glossary at 16 entries and no index leaves a reader who meets *COMPAS* or *scalable oversight* in chapter~9 with nothing to look it up in. **Still open from P74**: whether section~9.1's children should be reordered, merged, or reduced to 9.1.1 and 9.1.2. **Still open from P75**: the Council of Europe paragraph in 10.4 is the fastest-dating prose in the manuscript and is also that section's opening claim.
 
@@ -1845,6 +1849,41 @@ P78 ran the proximity pass in full over chapters~6 to 12 and applied the author'
 - (c) Read only the sections still above 8.0 per 1,000 after P78, which is where the ear is most likely to flatten again.
 
 **Section~3.9 is exempt by ruling and should stay exempt under any of the three.** It is now among the densest sections in the book at 9.19 per 1,000, which is the ruling working rather than a defect: it was left intact while its competition was cut.
+
+### Q-061 — The 20 narrating self-locations, and whether the book should say what it is doing
+
+P79 censused the 253 instances of *this book*, *this chapter*, *this section* rather than cutting
+any of them, on the author's ruling. **Four of the five shapes do work**: 54 are stance, where the
+book commits to something (*this book does not take a system's word about its own internals*); 43
+are locative, scoping a claim (*nothing in this book closes it*); 39 are possessive terms (*this
+chapter's argument*); 97 are other and were not sorted further.
+
+**The removable shape is `narration`, and it is 20.** *This chapter opened with*, *this chapter has
+been asking, for its whole length*, *the question this section used to open with*, *what this chapter
+has been describing*. It is the book narrating its own progress, and it is `style.md` section 2's
+meta-narration and D-117's *autobiography of the insight* wearing a different phrase.
+
+**Two of the twenty are worse than the class.** Section~3.5's *the question this section used to open
+with* and *this section used to rest on it as though it were* are revision history on the page, put in
+front of a reader who has no access to the old draft. **D-099 recorded four instances of exactly this
+phrase, all cleared at P35**, and §3.5 was rewritten at P57 with the tic back in it. Nothing in
+`check_all.sh` looks for the shape.
+
+- **(a) Default — cut the two `used to` instances now, census the other 18 into a later pass.** The
+  revision-history pair is a defect on any reading and is not a judgment call; the rest is a density
+  question that wants the same treatment P78 gave the antithesis, which is proximity rather than
+  per-instance. Applies at the close of the next pass if nothing is said.
+- (b) Cut all 20. About 250 words, spread over 13 sections, and it costs the reader the four or five
+  places where a chapter genuinely does need to say what it has been doing — §3.9's *the floor survives
+  this chapter* is one.
+- (c) Cut the two, and add a check for *this {book,chapter,section} used to* to `check_all.sh` so the
+  class cannot return through a third rewrite. The shape is a fixed string and a regular expression
+  reaches it, which is not true of the other 18.
+
+**Not a question about the other 233.** Those scope a claim or make one, and cutting them would take
+the claim with them.
+
+---
 
 ## Resolved
 
