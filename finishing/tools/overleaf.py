@@ -289,6 +289,18 @@ loads `fontspec` and will not build under pdfLaTeX. Overleaf's documentation
 gives that menu as the way to set the compiler, so the package does not try to
 set it from inside a file.
 
+**The main document is `book.tex`.** Overleaf picks it by scanning for
+`\\documentclass`, and `book.tex` is the only file in the package carrying one,
+so a fresh upload should select it unaided. If it does not -- a project
+remembers the main file it was given, so re-uploading into one that already
+chose wrong keeps the wrong choice -- set it from the file tree: right-click
+`book.tex` -> Set as Main File, or Menu -> Main document.
+
+The symptom of the wrong main file is a build ending `<*> preamble.tex` and
+`(job aborted, no legal \\end found)`. That is TeX handed a file with no
+`\\begin{{document}}`, reading to the end looking for the matching `\\end`. It
+means the entry point is wrong, not the package (D-170).
+
 The bibliography is biblatex with the biber backend, which Overleaf runs on its
 own. The body font is TeX Gyre Pagella, which ships with TeX Live; if the first
 build cannot find it, that line is the second one in `preamble.tex`.
@@ -310,6 +322,8 @@ build cannot find it, that line is the second one in `preamble.tex`.
   writing anything, so nothing is lost -- but the work has to be done in the
   repository instead.
 - **Do not change a `\\label{{sec:N}}` line.** That is the section's number.
+- **Do not move `\\documentclass` into `preamble.tex`.** It is in `book.tex` so
+  that Overleaf's main-file detection lands on the master (D-170).
 - **Retitling is fine.** Change the text inside `\\section{{...}}` and the import
   syncs the three copies the repository keeps of the title.
 - **Do not delete `{manifest}`.** The import reads it to tell your edits from
@@ -406,7 +420,10 @@ def cmd_export(args):
     print()
     print("Upload to Overleaf: New Project -> Upload Project -> this zip.")
     print("Then set the compiler to LuaLaTeX (gear icon -> Compiler); it does")
-    print("not build under pdfLaTeX. %s in the project repeats this." % READMEF)
+    print("not build under pdfLaTeX. The main document is book.tex, the only")
+    print("file carrying \\documentclass, so Overleaf should select it unaided;")
+    print("a build ending 'no legal \\end found' means it did not (D-170).")
+    print("%s in the project repeats both." % READMEF)
     return 0
 
 
@@ -736,8 +753,9 @@ and a path under the repository root is refused in both directions.
   overleaf.py import ZIP                apply, repair, check
 
 Set the compiler to LuaLaTeX in Overleaf (gear icon -> Compiler); the book does
-not build under pdfLaTeX. Retitling a section is safe. Renumbering one, adding
-one, or deleting one is not, and stops the import with nothing written.
+not build under pdfLaTeX. The main document is book.tex. Retitling a section is
+safe. Renumbering one, adding one, or deleting one is not, and stops the import
+with nothing written.
 """)
     sub = ap.add_subparsers(dest="cmd", required=True)
 

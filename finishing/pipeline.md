@@ -138,6 +138,33 @@ gives that menu as the way to set it, so the package does not try from inside a
 file. Verified: the exported package compiles on its own to **186 pages with no
 undefined references**, the same as `build_tex.sh` on the same commit.
 
+**The main document is `book.tex`, and until D-170 the package did not make that
+findable.** Overleaf chooses a project's main file by scanning for
+`\documentclass`, which lived in `preamble.tex` — so Overleaf compiled the
+preamble, hit end of file with no `\begin{document}`, and aborted on
+`(job aborted, no legal \end found)` under the banner `<*> preamble.tex`. **The
+package was fine and the entry point was wrong**, which is what that error means
+wherever it appears. D-170 moved `\documentclass` into `book.tex`, leaving it
+the only file in the package that carries one. The move is output-neutral: the
+PDF before and after is 186 pages with an identical `pdftotext` digest, and the
+HTML build is unaffected.
+
+**What that fixes and what it does not.** What is verified here is that
+`book.tex` is now the sole bearer of `\documentclass` and that the local builds
+do not move. **Whether Overleaf's detection then picks it is a fact about
+Overleaf and is not verifiable from this machine** — and an existing project
+remembers the main file it was given, so re-uploading into one that already
+chose `preamble.tex` will keep that choice. The fallback is the file tree:
+right-click `book.tex` → Set as Main File, or Menu → Main document.
+
+**The claim above was published before it was fully true.** It read that the
+package "compiles there as it stands," and the page and reference counts in it
+are right and reproduce. The upload it describes must have had its main file set
+by hand, and the step went unrecorded — the first real Overleaf compile after
+D-169 failed on exactly this. **A round trip verified by its output is not
+verified end to end**; the steps taken to reach that output are part of what
+gets recorded, and one of them was missing.
+
 **What the import is up against**, and the answer to each:
 
 - **`sections.tex` is generated.** It has to be in the package or Overleaf

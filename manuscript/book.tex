@@ -5,6 +5,11 @@
 % sections.tex, which is generated from sections/ORDER.tsv by
 % finishing/tools/gen_book.py. Edit the prose in the section files; edit the
 % typesetting in preamble.tex; do not edit sections.tex.
+% The class is declared here rather than in preamble.tex so that this file is
+% the only one carrying \documentclass. Overleaf detects a project's main file
+% by scanning for it, and with the class in the preamble it chose preamble.tex
+% and the build died on "no legal \end found" (D-170).
+\documentclass[11pt,oneside]{book}
 \input{preamble}
 
 % The title page (preamble.tex) and the PDF metadata below both read these,
