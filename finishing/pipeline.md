@@ -1,18 +1,21 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, most recently 2026-08-31 after P77, against
+Verified end to end on this machine, most recently 2026-08-31 after P78, against
 the committed proof pair rather than a build directory: **182-page PDF, lualatex +
 biber, no undefined references and no undefined citations; and a one-file HTML page,
 make4ht + biber, with 332 citation links made relative, one empty anchor dropped and
 two duplicate ids dropped.** **The internal-link count is re-taken here and is 932
-over 1,493 ids, with none broken and none duplicated.** The counts fall a little at every
+over 1,496 ids, with none broken and none duplicated.** The counts fall a little at every
 rebuild because the compression passes keep cutting cross-references and citations along
 with the prose carrying them; read a fall as the passes' work unless the broken or
 duplicated columns move off zero, which is the number that would signal a defect.
-P75's figures were 1,016 over 1,503, and the 84-link fall is exactly the number
-of cross-references P77 removed with the glossary. The P53 figure, 1,091 over
-1,589, was dropped as uncarryable at P57 and is not comparable.
+P75's figures were 1,016 over 1,503, and P77's 84-link fall is exactly the number
+of cross-references it removed with the glossary. P78 moved the link count not at
+all and the id count up three, which is what a pass that converts a construction
+rather than cutting a claim should look like in these columns: read a flat link
+count as evidence no cross-reference went. The P53 figure, 1,091 over 1,589, was
+dropped as uncarryable at P57 and is not comparable.
 
 ## What is available here
 
@@ -108,6 +111,12 @@ that names a fixed sequence, not just a build. It means all of this, in order:
 2. **Run `finishing/tools/build_proof.sh`.** Both formats, one date.
 3. **Remove the previous dated pair** if the date has rolled over. The script
    prints the `git rm` lines; the proof is one pair replaced, not a series.
+   **Rolled over in local time**, which is what `build_proof.sh` names files by
+   (`date +%F`) and what this repository's `name_YYYY-MM-DD` convention has
+   always meant. The machine runs on US Eastern, so between roughly 20:00 and
+   midnight local the UTC date is already tomorrow and the proof's is not.
+   Checking `date -u` and concluding the pair needs renaming is a mistake this
+   file now records because it was made. Read `date`, not `date -u`.
 4. **Point the README's links at the new files.** Both of them, in the "Read the
    book" line under the subtitle. A link to a proof that is no longer there is
    worse than no link.
