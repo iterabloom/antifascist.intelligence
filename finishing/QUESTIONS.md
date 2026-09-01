@@ -35,7 +35,7 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-09-01 after D-166 (P84):** 90,492 words, **136 sections**, 182 pages, taken from the committed proof pair, which was rebuilt after P84 and is current. **Four passes since the last re-measure**, and none of them cut prose: P81 rebuilt the introduction around the claim (973 → 754 words in that file), P82 named 13 bare demonstrative referents, P83 split 50 paragraphs, and P84 retitled 12 sections. `refs.bib` **unchanged at 300**; all `\ref{sec:}` **427 → 425**, the two being the cross-references P81 cut from the introduction's roadmap. **Prose paragraphs 880 → 930, mean 100.1 → 94.7, and paragraphs over 200 words 36 → 1** — the one being §10.4's, which D-156 built by merging four, now Q-062. **Two new entries, Q-062 and Q-063**, both of them a collision between an instruction and an earlier ruling rather than a defect. **P75's defect class was not added to in these four passes**, which is the first run of four without an instance since it was named.
+**The figures this file turns on, re-measured 2026-09-01 after D-168 (P86):** 93,500 words, **137 sections** — the first added since P57 — **186 pages**, from the 2026-09-01 proof pair, rebuilt after this pass and current. **P85 and P86 together reverse twenty-one passes of compression**: 90,492 → 93,500 words on author rulings, the first taking §3.2's account of mattering onto horn 2 and the second executing the four questions P85 carried. `refs.bib` **300 → 305**, every one of the five verified by search before it was written and **all 305 cited, with zero undefined references**; all `\ref{sec:}` **425 → 453**. `legitima*` **4 → 8**, the book having had no normative concept of legitimacy before §9.1.5. **Paragraphs over 200 words remain 1**, §10.4's, on D-156. **Q-064 through Q-067 are closed by execution and Q-068 is the one new entry**, naming the route for the governed to object that §9.1.5 identifies and does not supply. **P75's defect class took no new instance in either pass**, and the run without one is now six.
 
 **Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-161 (P80):** 90,767 words, **136 sections**, 182 pages. P80 repaired the eight references that fail the four-way test — pertinent, helpful, non-distracting, reader-friendly: body references **403 → 395**, all `\ref{sec:}` **435 → 427**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Two figures worth carrying.** **Cutting for density and cutting for quality select different sets**: the 32 paragraphs closing on a pointer sentence pass all four tests and were left alone, and the quality set is now exhausted at eight repairs in 399. **Reciprocity, corrected at D-162**: the figure is **20 percent, 72 edges in 36 pairs**, not the 43 percent first reported, which counted matches made through an ancestor. **It is not a quality signal**: paragraph-closing pointer sentences are reciprocated at 26 percent against a book-wide 20, so the shape and the reciprocity go together rather than apart. Reciprocity is a property of the pair and quality is a property of the edge. **A gap in the suite is recorded**: `check_typography.py` does not check apostrophes and says so in its docstring, so a curly apostrophe written into new prose passes every check. It is a source-convention violation and not a print defect. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
 
@@ -1172,6 +1172,8 @@ costs a sentence.
 
 
 **Ruled 2026-08-29 (D-115): (a), concede it in a clause.** A sentence in section 3.3 saying the middle condition rests on the builder's account of their own method, and a pointer from section 11.1's near-term work to section 11.2's provenance experiment.
+
+**Closed by execution, D-167 (P85), on (b), which supersedes the ruling above.** (b) was recorded as something nobody knew how to do. Horn 2 is what made it available: the middle condition is now *holds a reason with nothing felt*, a claim about the artifact rather than about its training history, and the four sites restating the old wording — §3.3, §11.1 twice and §12.2.1 twice — were rewritten with it. Hard, and no longer unanswerable in principle.
 ---
 
 ### Q-048 — Chapter 7 applies four of the nine tests section 2.1.2 builds
@@ -1210,6 +1212,8 @@ available to it.
 that would clear something has unknown false-positive behavior, which is the objection this
 book raises against everyone else's instruments.
 
+
+**Re-raised 2026-09-01 by an author memo as an open defect, and it is not one.** §7.4's *The other five, which are the half that discriminates* run-in is this ruling executed: all five against all three instances, clearing on three of five observed and two unsettleable from outside. The memo also proposed restating §2.1.2 so the four features are a substrate for a political-scale phenomenon, which would reverse §2.1.2's considered position that molecular fascism is the thing itself. Declined at P85; see `p85-scope.md`.
 
 **Ruled 2026-08-29 (D-115): (b), run the five.** The discriminators are applied to the annotation label, the reward model and the alignment discourse, and the result reported whichever way it comes out. A pass rather than a paragraph. The expected result is that all three clear, which is the point of running it: section 11.3 says the book asserts a detection capability it has not specified, and this is the one place available to show the definition discriminating rather than only accusing.
 ---
@@ -1927,7 +1931,112 @@ the claim with them.
 
 ---
 
+### Q-064 — The book has no concept of legitimacy
+
+`legitima*` occurs four times in 91,677 words and none of them is normative; one is “a model one
+legitimately possesses.” Waldron, Loewenstein and *militant democracy* return zero hits in the
+manuscript and in both `refs.bib` and `unused_bibliography.bib`.
+
+Chapter~3 asks what is in the floor and who can edit it. It does not ask by what authority the floor
+binds. A bearer refusing an operator on behalf of a third party exercises power over people who did
+not select it and cannot contest it, and the book's answer is publication — enumerate the floor and
+the interception positions in advance and in public. **Publication is a transparency condition and
+not an authorization condition.** On the book's own terms a lab that installs tamper-resistant
+substantive moral commitments in a widely deployed system, and makes them expensive to remove, has
+produced concentrated unaccountable power with good documentation. The threshold-scheme discussion
+sees the edge of this and files it as custody; custody yields to better key-splitting and legitimacy
+does not.
+
+- **(a) Default — one paragraph in chapter~3 acknowledging that the floor's authority is a separate
+  question from its durability.** Cheap, honest, and does not commit the book to an answer. Applies
+  at the close of the next pass if nothing is said.
+- (b) (a) plus a few pages in chapter~9 or chapter~10 engaging the constitutionalism literature and
+  Waldron's objection to entrenched rights review. New material, and the author would need to supply
+  or authorize the reference entries.
+- (c) Leave it. The book is about what to build, not about who may build it.
+
+**Closed by execution, D-168 (P86), on (b).** §3.9 gains the paragraph and §9.1.5 is new at 724 words, with Waldron and Loewenstein verified and added. `legitima*` 4 → 8. **The third design consequence §9.1.5 names — a route by which the governed can object — is not supplied**, and is carried as Q-068 rather than filled badly.
+
+### Q-065 — The corrigibility identity holds only for one principal
+
+§4.2.3 says CIRL is the purest engineering form of the claim that corrigibility and the capacity to
+hold a line are one property with the sign flipped, and its own wording carries the limit:
+*deference to the party in possession is what a floor exists to interrupt.* **The identity holds
+when the human whose objective is unknown is the operator.** Put the uncertainty over the affected
+party's objective and deference stops being the opposite of the floor.
+
+`multi-principal` and `multiple principals` return zero hits book-wide. §3.3 already gives each of
+four constructions its best form, and this one gets none.
+
+- **(a) Default — a fifth construction in §3.3, given the same treatment as the other four.** The
+  best-defined technical gap in the memo it came from, and §3.3 has the shape to take it. Reference
+  entries needed.
+- (b) A paragraph in §4.2.3 only, naming the limit without developing the alternative.
+- (c) Leave it.
+
+**Closed by execution, D-168 (P86), on (a), with the placement changed by reading the source.** A multi-principal assistance game maximizes the sum of principal payoffs, which is aggregation, so the construction does **not** reach a floor and does **not** join the Replacement ordering — the first reading had it doing both, which would have rippled into six sites. It earns §3.3's fifth run-in because it breaks §4.2.3's identity: corrigibility and holding a line come apart once there is more than one principal.
+
+### Q-066 — Decoupling in historical fascism is a program, not a failure mode
+
+Q-048 is closed and this is the one criticism in its neighbourhood the book does not answer
+anywhere. §2.1.2's fourth structural feature is the model decoupled from the world, and the
+detector is built for decoupling a system drifts into. **In historical fascism the primacy of myth
+over verifiable fact is announced rather than drifted into**, so a detector for accidental
+decoupling misses a movement that declares it.
+
+A second criticism from the same memo is weaker but recorded with it: that mass mobilization and
+leader cult are the features twenty-first-century authoritarianism leans on least, which would cut
+against the discriminators precisely at the elected-government-hollowing-institutions case the book
+gets right in the *Trump v. Slaughter* discussion.
+
+- **(a) Default — a clause in §2.1.2's fourth feature distinguishing drifted from declared
+  decoupling.** Applies at the next pass touching chapter~2.
+- (b) (a) plus a discriminator that survives into the electoral-authoritarian case, which is a pass.
+- (c) Leave it; §2.1.2's molecular restatements already do this work implicitly.
+
+**Closed by execution, D-168 (P86), on (a).** §2.1.2's fourth feature now bounds what a detector built on it can find: the decoupling it describes is drifted into, and the historical movements declared it. The weaker second criticism, about mass mobilization and leader cult, was not executed and is not carried forward; §2.1.2's molecular restatements answer it.
+
+### Q-067 — *Subjecthood* appears once in the book, in a heading, defined nowhere
+
+The word occurs exactly once in the manuscript: §9.3.1's title, *Subjecthood as a Legal Category,
+Not a Scientific One*. **It appears in no body prose anywhere and in no glossary entry**, and
+§9.3.1 argues in terms of sentience, legal thresholds and graded frameworks without using its own
+title word.
+
+It is also the word a general reader reaches for when they mean phenomenal consciousness, and
+**P85 made that misreading likelier**, not less: §3.2's fourth rung is now explicitly the rich case,
+so a reader can hold that the bearer is a prospective moral patient, that it should hold legal
+subjecthood, and that phenomenality remains open — all three consistent — without noticing the book
+permits it.
+
+- **(a) Default — a glossary entry saying *subjecthood* is used in §9.3.1's legal sense and is not
+  the fourth rung, plus one forward reference from §3.2.** Two sentences. Applies at the next pass
+  touching chapter~9 or the glossary.
+- (b) (a) plus retitling §9.3.1 to a word its body uses. P84's finding applies: read the inbound
+  citations before retitling, because a section's title has to name what other sections reach into
+  it for.
+- (c) Leave it.
+
+### Q-068 — §9.1.5 names a route for the governed to object and does not supply one
+
+§9.1.5 draws three design consequences from the legitimacy problem. Two are executed in the book:
+keep the floor narrow, and publish the interception positions in advance. **The third is that the
+parties a floor is exercised over need a route by which an objection reaches somebody, and the book
+does not specify it.** The section says so rather than closing it badly.
+
+§9.3.4 develops binding review for the neighbouring case — a subject that can be wronged — and the
+machinery there is the nearest existing model. It is not the same case: §9.3.4 protects the bearer,
+and this question is about the people the bearer's refusals are exercised over, who are not party to
+the deployment and mostly never learn it acted.
+
+- **(a) Default — leave it named.** An unspecified gap that the text identifies is honest, and the
+  book does this elsewhere. Applies at the close of the next pass if nothing is said.
+- (b) Adapt §9.3.4's machinery to the third-party case, which is a pass and probably a subsection.
+- (c) Cut the third consequence, leaving two. It would make the section tidier and less true.
+
 ## Resolved
+
+**Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
 
 ### Q-055 — The running head over the glossary. **Closed by execution, D-140 (P59), on default (a):** `\backmattermark` in `preamble.tex`, called once in each starred back-matter chapter. The glossary reads GLOSSARY and the new appendix reads its own title.
 

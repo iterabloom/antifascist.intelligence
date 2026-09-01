@@ -99,6 +99,7 @@ Chapter 9: Policy, Law, and Accountability
 9.1.2. Encouraging Industry Best Practices and Self-regulation
 9.1.3. Legal and Ethical Implications of AI Systems Gaining Personhood
 9.1.4. Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
+9.1.5. The Legitimacy of an Entrenched Floor
 9.2. Privacy, Security, and Antifascism in AI Systems
 9.3. Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation
 9.3.1. Subjecthood as a Legal Category, Not a Scientific One
