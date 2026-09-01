@@ -1,16 +1,18 @@
 # Build pipeline
 
 The book is LaTeX and builds two ways from the same `manuscript/book.tex`.
-Verified end to end on this machine, most recently 2026-08-31 after P75, against
-the committed proof pair rather than a build directory: **187-page PDF, lualatex +
+Verified end to end on this machine, most recently 2026-08-31 after P77, against
+the committed proof pair rather than a build directory: **182-page PDF, lualatex +
 biber, no undefined references and no undefined citations; and a one-file HTML page,
 make4ht + biber, with 332 citation links made relative, one empty anchor dropped and
-two duplicate ids dropped.** **The internal-link count is re-taken here and is 1,016
-over 1,503 ids, with none broken and none duplicated.** The counts fall a little at every
+two duplicate ids dropped.** **The internal-link count is re-taken here and is 932
+over 1,493 ids, with none broken and none duplicated.** The counts fall a little at every
 rebuild because the compression passes keep cutting cross-references and citations along
 with the prose carrying them; read a fall as the passes' work unless the broken or
-duplicated columns move off zero, which is the number that would signal a defect. The
-P53 figure, 1,091 over 1,589, was dropped as uncarryable at P57 and is not comparable.
+duplicated columns move off zero, which is the number that would signal a defect.
+P75's figures were 1,016 over 1,503, and the 84-link fall is exactly the number
+of cross-references P77 removed with the glossary. The P53 figure, 1,091 over
+1,589, was dropped as uncarryable at P57 and is not comparable.
 
 ## What is available here
 
