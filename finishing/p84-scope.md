@@ -136,4 +136,4 @@ an inference.
 **§4.2.9 and §4.3 are over `style.md` §8's ten-word limit** at 11 and 12 words and were
 left. Both are pre-existing and neither is in a named chapter.
 
-**No new question was opened**, but whether chapters 11 and 12 follow is worth a ruling.
+**One question was opened, Q-063**: whether the ruling extends to chapters 11 and 12.

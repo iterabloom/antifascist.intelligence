@@ -111,4 +111,4 @@ three times as many paragraphs, and it is not what was asked.
 **The claim that this helps more than any amount of sentence-level editing was not
 tested.** It is a comparison against work not done, and nothing here measures it.
 
-**No new question was opened**, but §10.4 needs a ruling and is recorded above.
+**One question was opened, Q-062**: §10.4's paragraph, which two author findings now pull in opposite directions.

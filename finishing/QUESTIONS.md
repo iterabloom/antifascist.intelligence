@@ -35,7 +35,9 @@ and the class Q-043 names has tripled its evidence. Each entry below now carries
 dated re-check paragraph saying what moved and whether the default still holds.
 None blocks work and every default still applies.
 
-**The figures this file turns on, re-measured 2026-08-31 after D-161 (P80):** 90,767 words, **136 sections**, 182 pages. P80 repaired the eight references that fail the four-way test — pertinent, helpful, non-distracting, reader-friendly: body references **403 → 395**, all `\ref{sec:}` **435 → 427**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Two figures worth carrying.** **Cutting for density and cutting for quality select different sets**: the 32 paragraphs closing on a pointer sentence pass all four tests and were left alone, and the quality set is now exhausted at eight repairs in 399. **Reciprocity, corrected at D-162**: the figure is **20 percent, 72 edges in 36 pairs**, not the 43 percent first reported, which counted matches made through an ancestor. **It is not a quality signal**: paragraph-closing pointer sentences are reciprocated at 26 percent against a book-wide 20, so the shape and the reciprocity go together rather than apart. Reciprocity is a property of the pair and quality is a property of the edge. **A gap in the suite is recorded**: `check_typography.py` does not check apostrophes and says so in its docstring, so a curly apostrophe written into new prose passes every check. It is a source-convention violation and not a print defect. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
+**The figures this file turns on, re-measured 2026-09-01 after D-166 (P84):** 90,492 words, **136 sections**, 182 pages, taken from the committed proof pair, which was rebuilt after P84 and is current. **Four passes since the last re-measure**, and none of them cut prose: P81 rebuilt the introduction around the claim (973 → 754 words in that file), P82 named 13 bare demonstrative referents, P83 split 50 paragraphs, and P84 retitled 12 sections. `refs.bib` **unchanged at 300**; all `\ref{sec:}` **427 → 425**, the two being the cross-references P81 cut from the introduction's roadmap. **Prose paragraphs 880 → 930, mean 100.1 → 94.7, and paragraphs over 200 words 36 → 1** — the one being §10.4's, which D-156 built by merging four, now Q-062. **Two new entries, Q-062 and Q-063**, both of them a collision between an instruction and an earlier ruling rather than a defect. **P75's defect class was not added to in these four passes**, which is the first run of four without an instance since it was named.
+
+**Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-161 (P80):** 90,767 words, **136 sections**, 182 pages. P80 repaired the eight references that fail the four-way test — pertinent, helpful, non-distracting, reader-friendly: body references **403 → 395**, all `\ref{sec:}` **435 → 427**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Two figures worth carrying.** **Cutting for density and cutting for quality select different sets**: the 32 paragraphs closing on a pointer sentence pass all four tests and were left alone, and the quality set is now exhausted at eight repairs in 399. **Reciprocity, corrected at D-162**: the figure is **20 percent, 72 edges in 36 pairs**, not the 43 percent first reported, which counted matches made through an ancestor. **It is not a quality signal**: paragraph-closing pointer sentences are reciprocated at 26 percent against a book-wide 20, so the shape and the reciprocity go together rather than apart. Reciprocity is a property of the pair and quality is a property of the edge. **A gap in the suite is recorded**: `check_typography.py` does not check apostrophes and says so in its docstring, so a curly apostrophe written into new prose passes every check. It is a source-convention violation and not a print defect. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
 
 **Superseded, kept for the record.** **The figures this file turns on, re-measured 2026-08-31 after D-160 (P79):** 90,795 words, **136 sections**, 182 pages. P79 cut 28 self-locating cross-references at 14 sites: all `\ref{sec:}` **463 → 435**, body references **431 → 403**, glossary locators **unchanged at 30**, `refs.bib` **unchanged at 300**. **Three figures this file and its predecessors have carried are corrected here.** The body reference count is **431 before this pass and 403 after**, not the 421 the P79 finding used and not reconcilable with the 420 recorded at P57 — P64 already dropped one figure in this family as unreproducible, and the count to use is *all* `\ref{sec:}` less the 30 in chapter~13 and the 2 in chapter~14. **The book carries 253 instances of *this book*, *this chapter*, *this section***, which no entry here had counted, and together with the references that is **one act of self-locating every 133 words**. **P79's own cut is the evidence that the two halves are separate problems**: 28 references came out and the self-location count did not move. **P75's defect class stands at four and is not incremented by P79** — P79's is prose stating a true thing the paragraph did not need, adjacent to P75's prose stating a reason that is false, and both are invisible to a check that verifies references resolve. **A class D-099 recorded as cleared is back**: two instances of *this section used to* in §3.5, reintroduced when P57 rewrote the section. **Still open: the 20 `narration` self-locations** (Q-061), **the isolated antitheses in chapters~6 to 12** (Q-060), **the book has no index** (P77), whether section~9.1's children should be reordered or merged (P74), and the Council of Europe paragraph in 10.4 as the fastest-dating prose in the manuscript (P75).
 
@@ -1849,6 +1851,46 @@ P78 ran the proximity pass in full over chapters~6 to 12 and applied the author'
 - (c) Read only the sections still above 8.0 per 1,000 after P78, which is where the ear is most likely to flatten again.
 
 **Section~3.9 is exempt by ruling and should stay exempt under any of the three.** It is now among the densest sections in the book at 9.19 per 1,000, which is the ruling working rather than a defect: it was left intact while its competition was cut.
+
+### Q-062 — §10.4's 285-word paragraph is the only one over 200, and D-156 built it that way
+
+P83 split every prose paragraph over 200 words except one. **§10.4's is the product of D-156**:
+P75 merged four paragraphs into it — the EU paragraph, the US paragraph, the UK paragraph and the
+*which-structural-bet-is-safer* paragraph — on the author's own finding that *the EU/US/UK
+comparison can be one paragraph*. `p75-scope.md` §"The EU/US/UK comparison, four paragraphs to one"
+is the record.
+
+**Two author findings collide.** P83 asks for everything over 200 words split; D-156 asks for that
+particular passage to be one paragraph. It is also the paragraph with the highest mean sentence
+length in the book, 47.5 words over six sentences, so it is the one place where P83's *long
+paragraphs and long sentences compound* actually describes something.
+
+- **(a) Default — leave it whole.** D-156 is a ruling on this specific passage and P83 was a
+  general instruction; a specific decision outranks a general one until the author says otherwise.
+  Applies at the close of the next pass if nothing is said.
+- (b) Split it three ways — EU, then US and UK together, then the argument among them — which
+  reverses the merge and restores something close to what P75 replaced.
+- (c) Leave the paragraph and cut its sentences instead, which is the only remedy that serves both
+  findings: at 47.5 words per sentence it is an outlier on the axis P83 named and D-156 did not.
+
+### Q-063 — Chapters 11 and 12 are the two most oblique after chapter 3, and P84 was told to fix three chapters
+
+P84 made chapters 6, 9 and 10 plain on the author's instruction and left the rest. **By the loose
+classifier chapter~11 is 70 percent oblique and chapter~12 is 56**, against chapter~3's 90 and a
+book-wide 44. They are the next two, and the instruction named three chapters rather than a rule.
+
+**The strict test would select fewer.** In chapters 6, 9 and 10 the loose classifier found 16 and
+the author's own test — *a reader scanning the table of contents cannot tell what's in any of
+them* — found five. The same ratio over chapters 11 and 12 would be about four headings, among them
+§11.3 *What an Antifascist Detector Would Actually Have to Detect*, §12.2.1 *What the Floor Would
+Have to Show* and §12.2.2 *Where the Existing Instruments Reach*.
+
+- **(a) Default — leave them.** The instruction named three chapters and executing beyond it is
+  scope the author did not grant. Applies at the close of the next pass if nothing is said.
+- (b) Extend the ruling to chapters 11 and 12, applying the strict test, which is about four
+  renames and one further pass.
+- (c) Extend it book-wide except chapter~3, which is the general rule the instruction stopped short
+  of stating. Chapter~2 at 55 percent and chapter~5 at 30 would come in as well.
 
 ### Q-061 — The 20 narrating self-locations, and whether the book should say what it is doing
 
