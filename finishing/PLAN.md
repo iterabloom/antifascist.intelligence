@@ -1,13 +1,15 @@
 # Finishing plan
 
-The book stands at **136 sections, 90,981 words and 182 pages**, with 2 sections accepted
-and 134 drafted and unread. **Seventy-eight passes have been executed.**
+The book stands at **136 sections, 90,767 words and 182 pages**, with 2 sections accepted
+and 134 drafted and unread. **Eighty passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
-current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P78
-read D-145 through D-159 in `DECISIONS.md` and `p64-scope.md` through `p78-scope.md`.**
-Those fifteen passes were compression against author findings, and they cut five sections
-and about 5,600 words without adding one.
+current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P80
+read D-145 through D-162 in `DECISIONS.md` and `p64-scope.md` through `p80-scope.md`.**
+Those seventeen passes were compression against author findings, and they cut five
+sections and about 5,800 words without adding one. **D-162 is not a pass**: it withdraws
+a claim D-161 made about cross-reference reciprocity, and it is the only row in the log
+that corrects an earlier row of the same day.
 
 **These four figures go stale every pass, and have twice** — this header duplicates
 what `STATE.md` measures, so nothing but a habit keeps them in step. A session
