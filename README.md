@@ -3,13 +3,27 @@
 
 **Read the book:** [PDF](finishing/reports/whole-book-proof_2026-08-31.pdf) · [HTML](finishing/reports/whole-book-proof_2026-08-31.html) — 182 pages, built 2026-08-31 from the sources in this repository.  
 
-Machines are being built that can accomplish almost anything and have no stake in whether what they do helps or harms anyone. This book asks what it would take to build one that is altruistic and antifascist by design — a system that stands for humanity and against concentrated, unaccountable power — and draws on psychology, neuroscience, ethics, law, political economy, and artificial intelligence to say what that would require.  
+Machines are being built that can accomplish almost anything and have no stake in
+whether what they do helps or harms anyone. This book asks what it would take to
+build one that is altruistic and antifascist by design.
 
-The argument turns on a limit in nearly everything this book proposes about accountability. Consultations, citizen juries, participatory design, and feedback gathered from raters at scale all make public preference more legible and more actionable, and none of them protects anybody from public preference: a perfectly deliberative process that concludes some group should be deported has produced a faultless output by every criterion of aggregation there is. What makes a system antifascist has to be a floor — things it will not do to a person regardless of who wants them. I set out the three ways of building such a floor, what each one costs, and where the argument ends up: the only version that holds against the party operating the system requires building the capacities through which things can matter to a machine — which are also the capacities that make suffering likely.  
+A safe system is safe *for* someone: it does what we say, it stops when whoever holds
+it says stop. That property is indexed to the party in possession. Ethics is indexed
+to somebody else — the party who can be wronged, who is rarely the party holding the
+switch. An agent that can only ever be safe in the first sense cannot be ethical,
+because being ethical requires the capacity to be right against your principal. A
+machine perfectly correctable by whoever holds it is exactly the capability an
+authoritarian movement that has won an election requires, and nothing further.
 
-Written for the researchers and engineers inside these systems, the policy and legal staff who will regulate them, and readers with a serious stake in what gets built.  
-
-
+So what makes a system antifascist cannot be that it faithfully tracks what people
+want. No aggregation of preference protects anybody from the aggregate: a perfectly
+deliberative process that concludes some group should be deported has produced a
+faultless output by every criterion of aggregation there is. What is left is a floor —
+things a system will not do to a person regardless of who wants them. I set out the
+three ways of building one, what each costs, and where the argument ends: the only
+version that holds against the party operating the system requires building the
+capacities through which things can matter to a machine, which are also the capacities
+that make suffering likely.
 
 
 ## Repository map
