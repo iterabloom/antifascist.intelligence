@@ -105,6 +105,76 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
    -sOutputFile=page.png book.pdf
 ```
 
+## The Overleaf round trip
+
+`finishing/tools/overleaf.py` takes the manuscript out to Overleaf for visual
+editing and brings it back (D-169). Two subcommands, and **packages live outside
+the repository** — `~/book-scratch/overleaf/` by default, beside
+`choose-a-random-page.py`'s output. A path under the repository root is refused
+in both directions, because a zip of the manuscript in the tree is a build
+product and it would be committed.
+
+```sh
+finishing/tools/overleaf.py export                    # -> ~/book-scratch/overleaf/
+finishing/tools/overleaf.py import ZIP --dry-run      # report, write nothing
+finishing/tools/overleaf.py import ZIP                # apply, repair, check
+```
+
+**Always dry-run first.** It reports exactly what would be written, and it is
+the only cheap way to see a conflict before it becomes a diff.
+
+**The package** is `manuscript/` flattened to its own root — `book.tex`,
+`preamble.tex`, `sections.tex`, the 137 section files — plus `refs.bib`, a
+README and a manifest. **One line is rewritten**: `preamble.tex`'s
+`\addbibresource{../finishing/refs.bib}` becomes `refs.bib`, because that is the
+only path in the build escaping `manuscript/` and an Overleaf project has
+nothing outside itself. Everything else travels byte for byte. The rewrite is
+exact-match and counted in both directions; if the line is not there to reverse,
+the file is reported and not applied rather than guessed at.
+
+**Set the compiler to LuaLaTeX in Overleaf** — gear icon → Compiler. The book
+loads `fontspec` and does not build under pdfLaTeX. Overleaf's documentation
+gives that menu as the way to set it, so the package does not try from inside a
+file. Verified: the exported package compiles on its own to **186 pages with no
+undefined references**, the same as `build_tex.sh` on the same commit.
+
+**What the import is up against**, and the answer to each:
+
+- **`sections.tex` is generated.** It has to be in the package or Overleaf
+  cannot compile, so it goes out and is then ignored on the way back and
+  regenerated from `ORDER.tsv`. The TOC is not in the package at all.
+- **Four files carry each heading.** The `.tex` heading is authoritative
+  (D-011); `ORDER.tsv`, `outline.tsv` and `ledger.tsv` each keep a copy of the
+  title, and a mismatch with `ORDER.tsv` fails `check_structure.py` **fatally**.
+  A retitle in Overleaf is fine: the import syncs all three and prints every
+  line it changed. `--no-sync-titles` leaves them stale, which fails the suite.
+- **The repository moves while the author edits.** The manifest records both
+  what was exported and what the repository held at the time, so the import
+  tells "Overleaf changed this" from "the repository changed this" and
+  **refuses the file where both moved**. All three cases were tested and
+  separate correctly. Delete the manifest and that distinction is gone; the
+  import then refuses to run without `--no-manifest-ok`.
+
+**Structural change stops the import with nothing written.** A renumber, a
+heading-depth change, a heading that no longer opens the file, and a deleted or
+renamed section were caught together in one run and none of them was applied.
+Each needs rows in `ORDER.tsv`, `outline.tsv` and `ledger.tsv`, or a
+renumber-map and a sweep of every `\ref` — none of which are in the package.
+Those are made in the repository, not in Overleaf. A file Overleaf added is
+reported and never applied, for the same reason.
+
+After applying, the import runs `refresh_order_shas.py`, `gen_book.py`,
+`headings.py --write-toc` and `check_all.sh`, and prints the result. **A green
+suite means the structure survived the trip, not that the prose did** — what
+came back is writing, and writing is read. `git diff` is the read, which is why
+the import refuses a dirty tree without `--allow-dirty`.
+
+One oddity the round trip surfaced and did not change:
+`manuscript/sections/ch12/12_02_03.tex` is the only file in the manuscript with
+no final newline. Normalizing it on the way back invented an edit to a file
+nobody had opened, so the import now restores a final newline only where the
+repository's own copy has one.
+
 ## "Make the proofs"
 
 An author's phrase — "make the proofs," "do the proofs," or any near variant —
