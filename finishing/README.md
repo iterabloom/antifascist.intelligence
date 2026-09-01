@@ -20,7 +20,7 @@ New files here omit the date suffix, as the file convention allows.
 | `tools/` | Read-only analysis and invariant checks (see below) |
 | `reports/` | Generated, committed, small. Regenerate rather than hand-edit |
 
-The tool table below covers what a session finishing the book would reach for. **Eight further scripts in `tools/` are deliberately not listed**: `common.py` and `odsread.py` are libraries, `html_single_file.py` is documented in `pipeline.md` where it runs, and `triage.py`, `apply_triage.py`, `toc_v4.py`, `list_candidates.py` and `refs_to_latex.py` are one-shot instruments from P0–P1 and the D-066 conversion, kept because they record how the structure was decided and not because anything should run them again.
+The tool table below covers what a session finishing the book would reach for. **Nine further scripts in `tools/` are deliberately not listed**: `common.py` and `odsread.py` are libraries, `html_single_file.py` is documented in `pipeline.md` where it runs, and `triage.py`, `apply_triage.py`, `toc_v4.py`, `list_candidates.py` and `refs_to_latex.py` are one-shot instruments from P0–P1 and the D-066 conversion, kept because they record how the structure was decided and not because anything should run them again. The ninth is `redundancy.py`, which is not omitted on purpose but **cannot run on this machine**: P62 found that neither package it needs is installed, and `pipeline.md` carries that finding. The line above about running it offline with the venv on PATH describes a machine this is not.
 
 ## The manuscript's working form
 
