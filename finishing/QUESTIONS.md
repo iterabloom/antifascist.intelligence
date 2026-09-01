@@ -2034,6 +2034,55 @@ the deployment and mostly never learn it acted.
 - (b) Adapt §9.3.4's machinery to the third-party case, which is a pass and probably a subsection.
 - (c) Cut the third consequence, leaving two. It would make the section tidier and less true.
 
+### Q-069 — Is §2.3.2's "no prior party could have agreed" argument too convenient?
+
+**The author's own note, written into the manuscript during the 2026-09-01 Overleaf pass and moved
+here because it would otherwise typeset.** Verbatim: *this smells like something a large
+profit-seeking frontier model business might say. I should give this a bit more thought.*
+
+It attaches to §2.3.2's paragraph closing *That is not a missing instrument. It is the ordinary
+structure of the cases where consent has never applied.* The argument: a bearer built to refuse has
+persistence, so the party who consented is still present, but it has no position from which to
+authorize what is done to it — it was made for the role, and there was no prior party whose
+agreement could have been sought.
+
+The worry is that the same reasoning licenses **any** treatment of a system its builder designed to
+want the role, and that a commercial developer would reach for it in exactly that form. §9.1.5's
+legitimacy argument is the nearest thing the book has to a check on it, and it is aimed at the
+floor's authority over third parties rather than at the bearer.
+
+- **(a) Default — leave the argument and add the objection to it**, in the section, as the reading
+  a developer would want and what stops it. Applies at the close of the next pass touching
+  chapter~2 if nothing is said.
+- (b) A pass: test the argument against the cases it is borrowed from — infant, animal, person
+  without capacity — and say which disanalogy does the work, since none of those was *built* to
+  occupy its role.
+- (c) Leave it. The guardianship instruments in §9.3.2 and §9.3.3 already carry the protection, and
+  the argument is about consent rather than about what is owed.
+
+### Q-070 — §2.3.2's "the approval does not carry over" may open the loophole it closes
+
+**The author's own note, same provenance and same reason for being here.** Verbatim: *smells
+loophole-ish; revisit.*
+
+It attaches to §2.3.2's sentence *A system that develops new capacities during the research it did
+not have going in is not the subject the board approved a protocol for, and the approval does not
+carry over to it.*
+
+Read as protection, it stops a board's approval travelling to a system that has become something
+else. Read the other way, it hands an operator a reason the existing approval no longer binds — the
+subject changed, so the conditions attached to it lapse — which is the opposite of what the sentence
+is for. The section does not say which of the two follows, and the difference is whether the
+research stops or continues unreviewed.
+
+- **(a) Default — one clause naming which way it runs**: the approval lapses and the research
+  pauses, rather than the constraints lapsing and the research continuing. Applies at the close of
+  the next pass touching chapter~2 if nothing is said.
+- (b) (a) plus the reciprocal in §9.3.4, where review is made binding, so the two sections agree
+  about what a lapsed approval obliges.
+- (c) Leave it; a board that let the second reading stand would be failing at its job, and the book
+  does not have to legislate for it.
+
 ## Resolved
 
 **Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
