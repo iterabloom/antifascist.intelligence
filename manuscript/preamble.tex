@@ -2,12 +2,15 @@
 % Hand-edited. This is the design surface: change type, measure, and styling
 % here. Nothing regenerates this file.
 %
-% \documentclass is deliberately NOT here; it is in book.tex, above the
-% \input that pulls this file in (D-170). Overleaf picks a project's main file
-% by looking for \documentclass, so with the class declared here it compiled
-% preamble.tex, which has no \begin{document}, and aborted with "no legal \end
-% found". The class options travel with the master for that reason. Do not move
-% it back.
+% The document class is deliberately NOT declared here. It is in book.tex,
+% above the \input that pulls this file in (D-170). Overleaf picks a project's
+% main file by searching the .tex files for that declaration, so while it lived
+% here Overleaf compiled preamble.tex, which has no \begin{document}, and
+% aborted with "no legal \end found". The class options travel with the master
+% for that reason. Do not move them back.
+%
+% The declaration is spelled out nowhere in this file, comment included, in
+% case that search does not skip comments -- which is not checkable from here.
 
 \usepackage{fontspec}
 \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
