@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-02, after D-185 (P91): Q-071 is closed by execution and Q-072 through Q-074 stand.** The closure came from the author's question about the correction P90 made — *the reader won't have access to DECISIONS.md* — which is the right test and a different one from whether the argument exists. It existed; it was unreachable. **Q-072 and Q-073 have not been touched**, and Q-074's two citations still disclose an unreached primary.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-02, after D-181 (P88): four new entries out of an outside review and the
 discussion after it**, `reviews/author-discussion_2026-09-02.md`. Q-071 through Q-073 are the
 substantive ones and all three are gaps rather than errors — the exit argument's outside option
@@ -2099,6 +2102,8 @@ research stops or continues unreviewed.
   does not have to legislate for it.
 
 ### Q-071 — §3.8 calls the bearer's exit "narrower and still complete" and the thing that completes it is in §11.2
+
+**Closed by execution, D-185 (P91), on more than the default.** The author's question was whether the point is strong enough *in the manuscript*, the reader having no decision log. It was not: the two sections were the only pair in the neighbourhood not citing each other, and §11.2 was correcting §3.8 — *the contradiction chapter~3 leaves standing*, *exit, as the book has it, is a form of dying* — while §3.8 called its account *still complete*. Default (a) would have left that claim beside a pointer to the section disputing it. **§3.8 now concedes the leverage and keeps the capacity**, and §11.2's *that section*, a locator with no `\ref` at all, now names §3.8.
 
 **From the 2026-09-02 discussion, checked against the manuscript.** §3.8 cites Hirschman and says the
 bearer's version of exit, voice and loyalty is *narrower and still complete*: voice is the refusal
