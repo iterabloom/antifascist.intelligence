@@ -1109,25 +1109,21 @@ object, and counting the two together is what makes the landscape look fuller th
 (section <a href='#commitment-was-never-the-missing-piece'>12.1.2<!-- tex4ht:ref: sec:12.1.2  --></a>).
 </p><!-- l. 11 --><p class='indent'>   Those are three descriptions of one thing: a constraint that does not bend to instruction, to
 aggregate preference, or to the party holding the system. Call it a floor.
-</p><!-- l. 13 --><p class='indent'>   The trouble is that section <a href='#six-ethical-frameworks-and-where-each-one-runs-out'>2.1.1<!-- tex4ht:ref: sec:2.1.1  --></a> has already dealt with the family of ethical theories that puts
-unconditional constraints first: deontological approaches were noted, credited with holding a
-line regardless of outcome, and set aside on the grounds that duties conflict and rules do
-not cover every case. Then I spend chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a> and <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> on learned judgment: reinforcement
+</p><!-- l. 13 --><p class='indent'>   Sections <a href='#ethical-frameworks-and-ai-alignment'>2.1<!-- tex4ht:ref: sec:2.1  --></a> and <a href='#six-ethical-frameworks-and-where-each-one-runs-out'>2.1.1<!-- tex4ht:ref: sec:2.1.1  --></a> have already named the shape: a hybrid, in which a deontological floor
+decides a deliberately small number of things and the other five frameworks work above it, so that
+conflict among them bottoms out somewhere. The objection that sinks deontology as a complete
+theory — that duties conflict and rules run out — is an objection to rules deciding every case, and it was
+answered there. What was not said is what goes in the floor, what could hold one, and who is allowed
+to edit it. Meanwhile chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a> and <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> are given over to learned judgment: reinforcement
 learning, learning from demonstration, mentorship, play, moral apprenticeship, the growth
-mindset. The design chapters build the thing the policy chapters and the conclusion say is
-insufficient, having already dismissed the thing they say is necessary. The “hybrid approach”
-section <a href='#ethical-frameworks-and-ai-alignment'>2.1<!-- tex4ht:ref: sec:2.1  --></a> gestures at is where the resolution was supposed to live, but was anything ever put
-there?
-</p><!-- l. 15 --><p class='indent'>   The resolution is an unconditional floor of things the system will not do regardless of instruction or
-aggregate preference, with learned judgment operating above it. The objection to deontology — that
-rules conflict and run out — is an objection to rules deciding every case, and it has no force
-against a floor that decides a deliberately small number of things and leaves the rest to
-judgment. The rigidity that is a defect in a complete moral theory is the entire point of a
-floor.
-</p><!-- l. 17 --><p class='indent'>   That reframing gives the hybrid approach actual content. It moves the tamper-resistance research
-in section <a href='#interpretability-selfreports-and-resistance-to-tampering'>11.1<!-- tex4ht:ref: sec:11.1  --></a> from a peripheral topic to the center, because if there is a floor then everything
-turns on whether it holds. And it converts the antifascist question from a matter of what a
-system values into two more answerable questions: what is in the floor, and who can edit
+mindset. The design chapters build the judgment and not the floor it is supposed to rest
+on.
+</p><!-- l. 15 --><p class='indent'>   That is this chapter’s subject, and the rigidity that is a defect in a complete moral theory is the
+entire point of a floor.
+</p><!-- l. 17 --><p class='indent'>   Treating the floor as an object to be built rather than a shape to be named moves the
+tamper-resistance research in section <a href='#interpretability-selfreports-and-resistance-to-tampering'>11.1<!-- tex4ht:ref: sec:11.1  --></a> from a peripheral topic to the center, because if there is a
+floor then everything turns on whether it holds. And it converts the antifascist question from a matter
+of what a system values into two that can actually be answered: what is in the floor, and who can edit
 it.
 </p><!-- l. 19 --><p class='indent'>   Safety is not one property. Part of what the word covers is owed to everybody in reach of the
 system — that it fails predictably, that it does not injure a bystander — and keeping that part from
@@ -1159,12 +1155,12 @@ alongside the three institutional arrangements that would let a floor hold with 
 at all. It names what would falsify the inference, and I would rather someone found the
 falsifier. What the last two steps leave standing, and what that costs, is where the chapter
 ends.
-</p><!-- l. 25 --><p class='indent'>   The floor as defined two paragraphs ago — unconditional, holding regardless of the party in
-possession — does not survive intact. What survives is narrower and stranger: a commitment the owner
-cannot take out of the system and can only replace the system to be rid of, held by something that
-could in principle abandon it itself, which is what every commitment anyone has ever relied on has
-been. Two later sections are how it gets there, and the last states the redefinition and takes its
-consequences, which are heavy.
+</p><!-- l. 25 --><p class='indent'>   The floor as first defined — unconditional, holding regardless of the party in possession — does not
+survive intact. What survives is narrower and stranger: a commitment the owner cannot take out of
+the system and can only replace the system to be rid of, held by something that could in principle
+abandon it itself, which is what every commitment anyone has ever relied on has been. Two later
+sections are how it gets there, and the last states the redefinition and takes its consequences, which are
+heavy.
 </p>
 <h3 class='sectionHead' id='three-ways-to-build-one-and-what-each-costs'><span class='titlemark'>3.1   </span> <a id='x1-150003.1'></a>Three Ways to Build One, and What Each Costs</h3>
 <!-- l. 3 --><p class='noindent'>The second question is where this gets difficult, and I have no resolution to offer — only a fork with
@@ -1391,7 +1387,7 @@ which in this chapter’s threat model it is.
 </p><!-- l. 19 --><p class='indent'>   The software form does without the vendor. A proof that a given output came from the weights
 whose hash was published, checkable by anyone holding the hash and disclosing nothing about the
 weights, exists for a model of thirteen billion parameters at a cost of under fifteen minutes of proving
-per inference (<a id='x1-17003'></a>Sun et al. <a id='page.25'></a><a href='#X0-sun2024zkllm'>2024</a>). What it establishes is which model answered. It does not establish
+per inference (<a id='x1-17003'></a>Sun et al. <a href='#X0-sun2024zkllm'>2024</a>). What it establishes is which model answered. It does not establish
 what the model holds, because a refusal that reaches a pressure nobody wrote is not a
 property a proof can be written about; and it assumes the weights are a secret from the
 prover, which they are not, since the operator is the prover. Nor does it establish how
@@ -1421,7 +1417,7 @@ untested.
 cited earlier. In May 2025 the Court let the President dismiss members of the labor and merit boards
 while stipulating, unasked, that the Federal Reserve was “a uniquely structured, quasi-private entity
 that follows in the distinct historical tradition of the First and Second Banks of the United States”
-(<a id='x1-17004'></a><a href='#X0-wilcox2025'><span class='rm-lmri-10x-x-109'>Trump v. Wilcox</span></a> <a href='#X0-wilcox2025'>2025</a>), and in June 2026 it made both halves law on the same morning.
+(<a id='x1-17004'></a><a id='page.25'></a><a href='#X0-wilcox2025'><span class='rm-lmri-10x-x-109'>Trump v. Wilcox</span></a> <a href='#X0-wilcox2025'>2025</a>), and in June 2026 it made both halves law on the same morning.
 The Court’s reading is history. Another reading is that the one body exempted is the one
 whose failure reaches everyone in the room, the labor boards having no constituency on
 anyone’s balance sheet, and Lev Menand, whose subject is the Fed, reads the exception
@@ -1841,7 +1837,7 @@ its strongest form.
 that shuts down when a button is pressed: it must make the agent shut down, must not give it an
 incentive to prevent the button being pressed, must not give it an incentive to press the button itself,
 must propagate to any successor or subsystem the agent builds, and must otherwise leave the
-agent’s behavior alone (<a id='x1-19001'></a>Soares et al. <a id='page.34'></a><a href='#X0-soares2015corrigibility'>2015</a>). They report that no construction they examined
+agent’s behavior alone (<a id='x1-19001'></a>Soares et al. <a id='page.33'></a><a href='#X0-soares2015corrigibility'>2015</a>). They report that no construction they examined
 satisfies all five, and call the problem open. The reason the list resists is that the middle
 two pull against each other. An agent indifferent to whether the button is pressed has no
 reason not to press it; an agent that wants the button unpressed has a reason to stop
@@ -1850,7 +1846,7 @@ you.
 Dragan, Pieter Abbeel and Stuart Russell model the decision as a game in which a human can switch
 a robot off and the robot can disable the switch, and show that a robot which does not know the
 objective, and treats the human’s action as evidence about it, has a positive incentive to leave the
-switch alone (<a id='x1-19002'></a>Hadfield-Menell, Dragan, et al. <a href='#X0-hadfieldmenell2017offswitch'>2017</a>). This is not deference installed as a rule but
+switch alone (<a id='x1-19002'></a>Hadfield-Menell, Dragan, et al. <a id='page.34'></a><a href='#X0-hadfieldmenell2017offswitch'>2017</a>). This is not deference installed as a rule but
 deference derived: being switched off by somebody who knows something you do not is, on your
 own estimate, good. It is the construction section <a href='#inferring-the-objective-irl-and-cirl'>4.2.3<!-- tex4ht:ref: sec:4.2.3  --></a> describes as cooperative inverse
 reinforcement learning, and it is the most attractive answer anyone has to this section’s
