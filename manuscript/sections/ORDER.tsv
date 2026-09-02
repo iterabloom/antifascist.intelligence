@@ -13,14 +13,14 @@ manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consc
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	ef8437101bc5845389fdfd41eaf77c6a8f4239cd8592442c49e86f20ef483840
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	402e01fab3310aa4f04f157904d30686b110ae8b98ff6cd8ca6804f1ced22c3c
 manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	6d22774e0ca61d0128d0e9dd62f216711fb3663bd0017c6bb705884f49676206
-manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	acdb9524ac5b5f39c13e3b505ae511f8d5b9a9718726c40d8bb0a25ce13b0057
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	3fb936ec7e5cd25a8706156aadee30745eff21c3339db624f55a49c77194a4fa
+manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	8fc4c70a9bdd9a80a42189f1fe1f9b3aee7dd18b578fa8165ddfe4ef94cc01df
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	0692e2c009027f761ba1a675b6adfca64946305283758a7d41686e7a989db975
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	efc9680202fb7ad749702539e4ac09be76a14d40a81cf37fba70f0bc07fbcbcb
-manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	59abf59b49b6286b5bbec363e5dbda3fa5e9c0f698ef9b67a9a91b357c02976b
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	bab1c218e6ee582bc83ae006204427afeb0741c172ccbe46c36a0a1a613d3486
+manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	f8facd218e5648bd0ad911979ac3c9dc25915ca3d02eafb9ff4d4471311dab44
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	001d991a1cf640d5a6933b0e43d88531fdad10fba8ecca183ececcf33a8bd8bc
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	8f27b5550769d93fedc1b848ba515d7bcc848335ca4b7ac000f8442a484b1eb2
-manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	d91a65132df9c5a438eac1906b9b6f39b7d96efe464960723e777b6ebb789408
-manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	8a3c1d08ecfd8e2021a611a4111e09dfd612c0c0c43e02c7400106944e174e04
+manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	878a17f5854c45b0e10c13e51d0a554c7c53433ed696316e427fd90f14736518
+manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	8eb8e78f4e58facb03ad980fcfb52be11360edbe8b380b5b03a9f203867a585a
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	1aa928d0937c29d9c7d0bb2219f97f658ac81aeafe73a7d9e254b0cefef3182f
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	95d38c2550d1c265a2a8e3471cfd0e152a83c593b796ddc8e49c06ac9dbc66ae
 manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	1b53c06fc5b99a15dc0f7d036daf6a7485126d8c229427c0e748d3c9c36ddbbd
@@ -103,7 +103,7 @@ manuscript/sections/ch09/09_01_04.tex	9.1.4	Encouraging the Development of Altru
 manuscript/sections/ch09/09_01_05.tex	9.1.5	The Legitimacy of an Entrenched Floor	c8c77975f8a2a189e6f61555fb24db03604aa0928cb549e2b6798ac1a4e64c8b
 manuscript/sections/ch09/09_02.tex	9.2	Privacy, Security, and Antifascism in AI Systems	698ed82315a54fb4781eb5a9a3efaf6d7b74b378281942e2c2f187203dbf80ce
 manuscript/sections/ch09/09_03.tex	9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	d9ade651f8636df9ca544aae71041ccc84e59af2fd560a2568343bdb3b433280
-manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	6b18942927cb3463854ba21b3fd3033a06ff82506b0cc668599ac65562f8e0be
+manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	208a07fbc75ab272f6a4773773061ad78ab2b90ba9b6422b9d1ac8a14026a4ac
 manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	51613f0dafc84a9104014185207383c64dfc42d45fb7fa1ad885a727c0692db0
 manuscript/sections/ch09/09_03_03.tex	9.3.3	Legal Frameworks for Sentient AI Subjects	f5fddaa6a192e3c3a1d49633e3a137f71447aa6c0cb0a143dc342bf9f14cca89
 manuscript/sections/ch09/09_03_04.tex	9.3.4	Making Review Binding	75af27e4008a6e44ae01373d3c9ca653fe0fbc3277394300d16ab538f45542bb
@@ -134,5 +134,5 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	b
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	a93bea635d453d599bf12affa3f4ec854fc955eea67e592ffd9794c5bc977b28
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	b4fd2cca5b6367c079eb425bb010409369b7a3daa2392ee6baa4883bb2628ad9
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	8052f5ba6bff4e2eb2f8a21091c736fb54974d769d6ab8e949bd1b870910ba5d
-manuscript/sections/ch13/13.tex	13	Glossary	8247ec0daf0a9a28368575f5ad1b5aec3082ffa377a081fa156f3f5e0e1383ed
+manuscript/sections/ch13/13.tex	13	Glossary	5f223303c345aa67437f35d0a39c8d29a510be63ea1e06e91016a03e4f05a6d5
 manuscript/sections/ch14/14.tex	14	Appendix: On Method	3134bb86fb48bb22e9f9ef106b693aa76d9e6359d0c49385148e165617f50fa5
