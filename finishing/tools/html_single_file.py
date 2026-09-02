@@ -75,6 +75,25 @@ def main() -> int:
     # so it goes.
     html, n_empty = re.subn(r"<a href='book\.html' id='X0-'>\s*</a>", "", html)
 
+    # A DOI containing an underscore is set as a dot-above accent in the link
+    # text -- 10.1007/978-3-662-47854-7_14 prints as ...-7˙14 -- while the
+    # href beside it keeps the underscore and works. The PDF sets the same entry
+    # correctly, so this is tex4ht's, not the bibliography's; one entry in
+    # refs.bib has such a DOI and escaping it in the .bib breaks the href
+    # instead. The href is what biblatex built from the field, so it is the
+    # authority: where the link text disagrees with it, take the href.
+    def doi_text(m):
+        href, text = m.group(1), m.group(2)
+        if text == href:
+            return m.group(0)
+        doi_fixed.append(href)
+        return m.group(0).replace(">" + text + "<", ">" + href + "<")
+
+    doi_fixed = []
+    html = re.sub(
+        r"<a href='https://doi\.org/([^']*)'>([^<]*)</a>", doi_text, html
+    )
+
     # tex4ht draws section anchors and citation anchors from one counter, so a
     # chapter anchor and a citation anchor can collide (x1-70002 is both chapter
     # 2's title and the second citation in a later paragraph), and it can hang a
@@ -130,6 +149,8 @@ def main() -> int:
         note += f", {n_empty} empty anchor dropped"
     if dropped:
         note += f", duplicate ids dropped: {', '.join(sorted(set(dropped)))}"
+    if doi_fixed:
+        note += f", DOI link text repaired: {', '.join(doi_fixed)}"
     print(f"wrote {out} ({note})")
     return 0
 

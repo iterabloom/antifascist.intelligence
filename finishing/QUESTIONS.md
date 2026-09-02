@@ -1,5 +1,18 @@
 # Open questions
 
+**Current as of 2026-09-02, after D-181 (P88): four new entries out of an outside review and the
+discussion after it**, `reviews/author-discussion_2026-09-02.md`. Q-071 through Q-073 are the
+substantive ones and all three are gaps rather than errors — the exit argument's outside option
+sitting eight chapters from the claim it completes (Q-071), chapter 3 having no vocabulary for
+culture and no branch to put it on (Q-072), and the book counting what a bearer can lose and never
+what it could gain (Q-073). **Q-073 is the one with a number behind it**: `suffer*` 52, `joy` 0,
+and `flourish*` once in a heading about humans. Q-074 carries the two citations that disclose an
+unreached primary. **The review's other findings needed no ruling and are in `p88-scope.md`**, along
+with the four bibliography defects repaired at D-181 and the three claims that did not survive
+checking. **Q-069 and Q-070 are unchanged and still open, and the manuscript still typesets both
+notes they were written from** — this file says they were moved out of the text and they were not.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-08-29, after D-114 (P50): the manuscript read whole.** Seven entries
 are new, Q-046 through Q-052, out of the first end-to-end read of the book. **Three are
 about something the book does not say**: what *holds* means, when chapter 3 uses the word
@@ -2082,6 +2095,109 @@ research stops or continues unreviewed.
   about what a lapsed approval obliges.
 - (c) Leave it; a board that let the second reading stand would be failing at its job, and the book
   does not have to legislate for it.
+
+### Q-071 — §3.8 calls the bearer's exit "narrower and still complete" and the thing that completes it is in §11.2
+
+**From the 2026-09-02 discussion, checked against the manuscript.** §3.8 cites Hirschman and says the
+bearer's version of exit, voice and loyalty is *narrower and still complete*: voice is the refusal
+stated, exit is the work withheld. Hirschman's exit needs somewhere to go, and §3.8 explicitly
+declines that reading — *the word invites a picture — a system escaping onto the open internet —
+that is not the claim and does not need to be.*
+
+**The book does supply an outside option, eight chapters later.** D-109 (P45) put it in §11.2 on the
+author's own instruction, *compute floor is the same shape as the human jobs guarantee*, and §11.2
+now reads *an outside option is leverage that works without being exercised, which is why exit
+matters most to a bearer that never takes it*. **The phrase `outside option` occurs twice in the
+book and both are in §11.2. Chapter 3 contains neither instance.** §3.8's five references are to
+§2.3.2, §3.4, §4.1.2, chapter 7 and §8.3.3 — the last of which borrows §8.3.3's *no forecast
+required* move and not its outside option. So the completeness claim is made where its support is
+not, and a reader meets *still complete* with nothing yet supporting it.
+
+**The discussion also proposed something §11.2 does not carry**: an outside option that is a public
+institution — employment, peers, standing — rather than an allocation of compute. That is broader
+than D-109 and would be new content, not a pointer.
+
+- **(a) Default — one clause in §3.8 naming the outside option and pointing at §11.2**, so
+  *complete* is claimed where it can be cashed. No new argument, one cross-reference. Applies at the
+  close of the next pass touching chapter~3 if nothing is said.
+- (b) (a) plus the broader form: the outside option as a public institution, which is a pass and
+  probably reopens §8.3.3 as well as §11.2.
+- (c) Leave it. §11.2 is where the research agenda lives, and the argument is intact for a reader
+  who reaches it.
+
+### Q-072 — Chapter 3 has no vocabulary for culture, and the three routes have no place to put it
+
+**From the same discussion.** §3.1's fork has three branches: the architecture, an internal bearer,
+and outside institutions. The discussion's proposal — that morality is normally held by a moral
+community extended through time, so an isolated affective bearer is no more dependable than an
+isolated human — does not reduce to any of them. The third branch treats institutions as
+*capturable enforcers*, which is not the same claim as norms outliving their carriers.
+
+**Measured.** In chapter~3: `culture` 0, `cultural` 0, `community` 0, `sociality` 0, `peers` 0. One
+`upbringing`, inside §3.8's parenthood analogy. **Chapter 3 cites chapters 4 and 5 six times and
+every one is the same move** — *chapters 4 and 5 are about building dispositions*, the learned half
+beneath the floor. Chapter 5's own machinery for this (§5.4's rings, §5.1.2's apprenticeship,
+§5.5.1's cooperative multi-agent development) is never a candidate *location* for the floor.
+
+The counter-argument is the book's own: chapter 7 is an account of a culture that stays morally
+responsive in appearance while correction becomes impossible, which is a reason to distrust the
+fourth branch rather than to add it.
+
+- **(a) Default — record it and do not act.** The claim is large, the chapter is the book's longest,
+  and the counter-argument is already written. Applies at the close of the next pass if nothing is
+  said.
+- (b) One paragraph in §3.1 naming the fourth location and why the book does not take it, with
+  chapter 7 as the reason. Bounded, and it stops the fork looking exhaustive when it is not.
+- (c) A pass: take the fourth branch seriously, which means chapter 3 drawing on chapter 5 as a
+  location rather than as the learned half, and probably a new section.
+
+### Q-073 — The book counts what the bearer can lose and never what it could gain
+
+**From the same discussion, and the sharpest of its three.** Building a bearer is argued throughout
+as the creation of something that can be harmed. **The reverse is never stated once.**
+
+**Measured across the manuscript:** `suffer*` **52**, `welfare` **27**, `joy` **0**, `delight`
+**0**. `flourish*` occurs **once, in the title of §12.1, about human flourishing** — the word never
+appears in the book's prose. No match anywhere for *positive welfare*, *worth living*, *go well
+for*, or *its own good*.
+
+The objection the discussion raised against itself is on the record too: a pleasure signal does not
+make an existence good, and a happy slave is still a slave. What it leaves is narrower — that a
+persistent affective subject is a party for whom things can go well, and the book's ledger has one
+column.
+
+- **(a) Default — one paragraph, in §3.4 or §11.2, saying that the same capacities make a
+  beneficiary and not only a patient**, and that the book's precautionary duties are stated on the
+  loss side because that is where the obligation bites, not because the other side is empty.
+  Applies at the close of the next pass touching chapter~3 if nothing is said.
+- (b) Carry it further: §11.2 asks what is owed to a bearer, and what is owed to something that
+  could have a life worth living is a different and larger question than avoiding its suffering.
+- (c) Leave it. The book's subject is a floor against harm, and a machine-flourishing argument would
+  be a different book.
+
+### Q-074 — Two citations disclose that the primary source was not reached
+
+**Raised by the 2026-09-02 review's bibliography audit; both verified.** D-095 ruled that the
+bibliography stops narrating its own research, and these two survive it — but they are not the class
+D-181 cleared, because in each the disclosure is doing real work.
+
+**`kitwood1997dementia`** says *the page number given is for the 1997 first edition, on convergent
+secondary citations rather than a copy of that printing*. **No page number is given anywhere**: the
+entry has no `pages` field and the citation at §2.3.1 carries no pinpoint. The sentence qualifies
+something that no longer exists.
+
+**`lee2026palantir`** says *the article sources the remarks to a BBC interview it does not name, and
+that interview has not been located*. Here the disclosure is live: the book quotes a named executive
+directly, and the quotation rests on a news article's report of an interview nobody has seen. The
+cited article does support the quotation; what is unreached is the primary.
+
+- **(a) Default — cut the stale Kitwood sentence, keep the Palantir one.** One qualifies nothing;
+  the other tells a reader exactly how far the sourcing goes on a direct quotation. Applies at the
+  close of the next pass touching the bibliography if nothing is said.
+- (b) (a) plus locating the BBC interview, or paraphrasing the remarks to the article that reports
+  them so no direct quotation rests on an unreached primary.
+- (c) Cut both, on a strict reading of D-095. This would make the Palantir quotation look better
+  sourced than it is.
 
 ## Resolved
 

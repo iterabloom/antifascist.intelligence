@@ -22,6 +22,7 @@ these files are the input, not the verdict.
 | `review-for-p11_2026-08-24.md` | The sixth editorial review, 2026-08-24 | P11 — `p11-scope.md`, D-043 |
 | `revision-plan-for-p20_2026-08-25.md` | The revision plan distilled from the seventh review and the discussion after it, supplied by the author 2026-08-25 | P20 — `p20-scope.md` |
 | `author-discussion_2026-08-28.txt` | A recorded discussion between the author and a language model shown the 194-page PDF, 2026-08-28. Not a review — see below | P26 — `p26-scope.md`, D-077 to D-080 |
+| `author-discussion_2026-09-02.md` | An editorial review and the discussion after it, from a language model shown the 183-page proof, 2026-09-02. **Excerpted by the author** — see below | P88 — `p88-scope.md`, D-181 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -73,5 +74,12 @@ the revision plan is: the four rulings in D-077 to D-080 came out of it, and
 survive checking. Two of the model's claims about chapter 6 correspond to nothing
 in the text and are identified there; nothing in the file is a finding until it
 has been checked.
+
+`author-discussion_2026-09-02.md` is the same device a second time, and its header carries two things this
+folder has not had to record before. **It is an excerpt**: the author removed some of the model's completions
+before supplying it, so the file is verbatim in what it keeps and silent about what it drops. And **one
+speech-to-text error in an author prompt is preserved rather than corrected** — *shit* for *ship* — because
+the model answered the text as transcribed. `p88-scope.md` records which of its claims were checked against
+the manuscript, which held, and which did not; four of its bibliography findings were repaired at D-181.
 
 `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
