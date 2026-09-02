@@ -12,10 +12,10 @@ manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on 
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	696b6946c5fa8d6d9e9023530af550740c59436aab0cc736b0260edfe7a53c7a
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	ef8437101bc5845389fdfd41eaf77c6a8f4239cd8592442c49e86f20ef483840
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	402e01fab3310aa4f04f157904d30686b110ae8b98ff6cd8ca6804f1ced22c3c
-manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	99ae808d52e1e42dee38095d7e4231f8fa71ca82d9397310273522eb89fb9e44
+manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	6d22774e0ca61d0128d0e9dd62f216711fb3663bd0017c6bb705884f49676206
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	acdb9524ac5b5f39c13e3b505ae511f8d5b9a9718726c40d8bb0a25ce13b0057
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	3fb936ec7e5cd25a8706156aadee30745eff21c3339db624f55a49c77194a4fa
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	6ac74da78e32f71cb682933e72bf8230ae916934669d695bc6871f3219bf4eb5
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	efc9680202fb7ad749702539e4ac09be76a14d40a81cf37fba70f0bc07fbcbcb
 manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	59abf59b49b6286b5bbec363e5dbda3fa5e9c0f698ef9b67a9a91b357c02976b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	bab1c218e6ee582bc83ae006204427afeb0741c172ccbe46c36a0a1a613d3486
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	8f27b5550769d93fedc1b848ba515d7bcc848335ca4b7ac000f8442a484b1eb2
@@ -52,7 +52,7 @@ manuscript/sections/ch05/05_03_01.tex	5.3.1	Two Systems, or One? Dual-Process Th
 manuscript/sections/ch05/05_03_02.tex	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	1654900fb915c81548411f7471f2eaa89b605ea3c634d9cba79539c3a4fc633b
 manuscript/sections/ch05/05_03_03.tex	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	bd3a349079d7e5d29f1c2bc4c65cfd91630e36670fbd8c497df7fcce6702f287
 manuscript/sections/ch05/05_04.tex	5.4	Moral Ecosystem Approach in AI Development	bf88d422b0bfb152566c0bde4b0a974a03a5afaa0f516be78ce34baa20e35c4a
-manuscript/sections/ch05/05_04_01.tex	5.4.1	The Rings, and What Each One Pushes With	1268fb4d9de10fad82ee302ecf0a3dcfd3f73f9be24cf12e0670b7befa94fe93
+manuscript/sections/ch05/05_04_01.tex	5.4.1	The Rings, and What Each One Pushes With	5699f64eeb433a15e88f83b2438e1f705717ec771e76c1421e66980b0614192a
 manuscript/sections/ch05/05_04_02.tex	5.4.2	AI Systems Responding to Authoritarianism and Democratic Backsliding	e7160e7b173d01be19cdb58efb0e0717f81bae0d8ebe9a5782f028ce05d47e34
 manuscript/sections/ch05/05_05.tex	5.5	The Interplay of Competition and Collaboration in AI Development	c4dc40115097613a36ac6f788fef4500240cafe9cf6fb48b10ad074b965c09e0
 manuscript/sections/ch05/05_05_01.tex	5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	2e2956ce507ad3d1acf826e33cae0f8a14227ccf7add28f643a1cf2ab5d09879
@@ -66,7 +66,7 @@ manuscript/sections/ch06/06_01.tex	6.1	Bias, Fairness, and Equity in AI Systems	
 manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	15ed7850cfbc6bdac0d8c2616f50b8c7ca5df6b9d81c31d0856b7731bb8722f6
 manuscript/sections/ch06/06_01_02.tex	6.1.2	The Role of Transparency and Accountability in Bias Reduction	92baa4f39d9a44ae615e554c034c32092f2269c988fd7b5843926db4217d92f3
 manuscript/sections/ch06/06_02.tex	6.2	Robustness, Generalization, and Adaptability in AI Systems	8b57ba321781884c581ebd830ce248da6ddd83ca9474d8eb5f048a22f1302d9b
-manuscript/sections/ch06/06_03.tex	6.3	AI Safety, Unintended Consequences, and Risk Mitigation	9cd566b606c80524af5394cbf9cd444ad6b4053457dddfe0cd70a6fb55f4d94a
+manuscript/sections/ch06/06_03.tex	6.3	AI Safety, Unintended Consequences, and Risk Mitigation	6532f288d803eaf0eb5c291feb09cfe8e265041f5fd919eea8163985da2ca9c7
 manuscript/sections/ch06/06_03_01.tex	6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	dfa68ea92669675ee13b1eb1e23a012938ef0718e85b1b783536aa49f232214b
 manuscript/sections/ch06/06_03_02.tex	6.3.2	AI Systems that Learn to Deceive or Manipulate	62e3eb5bc18787812d1776912dd9ec058046ba88a8c535a56ae8763486de21aa
 manuscript/sections/ch06/06_03_03.tex	6.3.3	Anticipating Risk Before It Causes Harm	34a0a12dea4e1878d17340038a26420754cebaa5995e77a74fe68bd87f297305
