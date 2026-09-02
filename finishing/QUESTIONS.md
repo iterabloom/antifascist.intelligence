@@ -9,8 +9,9 @@ what it could gain (Q-073). **Q-073 is the one with a number behind it**: `suffe
 and `flourish*` once in a heading about humans. Q-074 carries the two citations that disclose an
 unreached primary. **The review's other findings needed no ruling and are in `p88-scope.md`**, along
 with the four bibliography defects repaired at D-181 and the three claims that did not survive
-checking. **Q-069 and Q-070 are unchanged and still open, and the manuscript still typesets both
-notes they were written from** — this file says they were moved out of the text and they were not.
+checking. **Q-069 and Q-070 are unchanged and still open, and both notes still stand in the manuscript and
+print in the proofs**, which is where the author wants them; the two entries copy them rather than
+housing them, and said otherwise until D-184.
 
 **Superseded header, kept for the record.**
 **Current as of 2026-08-29, after D-114 (P50): the manuscript read whole.** Seven entries
@@ -2049,8 +2050,8 @@ the deployment and mostly never learn it acted.
 
 ### Q-069 — Is §2.3.2's "no prior party could have agreed" argument too convenient?
 
-**The author's own note, written into the manuscript during the 2026-09-01 Overleaf pass and moved
-here because it would otherwise typeset.** Verbatim: *this smells like something a large
+**The author's own note, written into the manuscript during the 2026-09-01 Overleaf pass and copied
+here for extra oomph.** It stands in `02_03_02.tex` and prints in both proofs. Verbatim: *this smells like something a large
 profit-seeking frontier model business might say. I should give this a bit more thought.*
 
 It attaches to §2.3.2's paragraph closing *That is not a missing instrument. It is the ordinary
@@ -2075,7 +2076,8 @@ floor's authority over third parties rather than at the bearer.
 
 ### Q-070 — §2.3.2's "the approval does not carry over" may open the loophole it closes
 
-**The author's own note, same provenance and same reason for being here.** Verbatim: *smells
+**The author's own note, same provenance and same reason for being here**, and it stands in the
+manuscript too. Verbatim: *smells
 loophole-ish; revisit.*
 
 It attaches to §2.3.2's sentence *A system that develops new capacities during the research it did
