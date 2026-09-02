@@ -1,5 +1,5 @@
 path	num	title	sha256
-manuscript/sections/ch01/01.tex	1	Introduction	feac7770fe5b441c01a64867c5dea2b7897a88e1e895cb27b4877c1898f87b90
+manuscript/sections/ch01/01.tex	1	Introduction	28db2caa3e1de13501889484b80af5eb9f2f1acda208c5be27eeb9030500fc34
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	eff9c990f9b3122b9e299dff707e614e84810829ab16ff2c8ad7f1c36e2937a0
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	478dcc4e4101a445d551fdc8045b84a1401026d5afcc59d753a11e7ea97c5d01
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	011f4e2f8bccceaa055cd765911ae252534ac23578c7e698ba4d7eef242ff3f4
@@ -12,15 +12,16 @@ manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on 
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	696b6946c5fa8d6d9e9023530af550740c59436aab0cc736b0260edfe7a53c7a
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	ef8437101bc5845389fdfd41eaf77c6a8f4239cd8592442c49e86f20ef483840
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	402e01fab3310aa4f04f157904d30686b110ae8b98ff6cd8ca6804f1ced22c3c
-manuscript/sections/ch03/03_01.tex	3.1	Three Ways to Build One, and What Each Costs	6d22774e0ca61d0128d0e9dd62f216711fb3663bd0017c6bb705884f49676206
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	7f7c4e2a01400ac3dad520c7430256caf9e7be997458cc5711846d7b18dd1c4d
 manuscript/sections/ch03/03_02.tex	3.2	Four Things Refusal Can Mean	8fc4c70a9bdd9a80a42189f1fe1f9b3aee7dd18b578fa8165ddfe4ef94cc01df
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	0692e2c009027f761ba1a675b6adfca64946305283758a7d41686e7a989db975
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	efc9680202fb7ad749702539e4ac09be76a14d40a81cf37fba70f0bc07fbcbcb
-manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	f8facd218e5648bd0ad911979ac3c9dc25915ca3d02eafb9ff4d4471311dab44
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	fc6947ed8fb4d0f051222f364c45cf25534a5952843acf48fd1fa7b4624dbe27
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	6cbe97f8a0a290c128374949d17589f8ab538692163181d6f879301187ccbce9
+manuscript/sections/ch03/03_05.tex	3.5	What Can Be Switched Off Cannot Hold a Line	507b0f3ad934221fb375f63ba4dc33ff1dc1acc5eb2b17df1eb97fdb68110806
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	001d991a1cf640d5a6933b0e43d88531fdad10fba8ecca183ececcf33a8bd8bc
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	8f27b5550769d93fedc1b848ba515d7bcc848335ca4b7ac000f8442a484b1eb2
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	b72f27470ae81710c3985635d0fbf681135572f3f5480c1dcd8b510cda2f627f
-manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	8eb8e78f4e58facb03ad980fcfb52be11360edbe8b380b5b03a9f203867a585a
+manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	cdd2dc873ac50b151fac3c0d9870fc79f374cacc4c63bc570c02059703257563
+manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	c985c6dba6c5300e805c3b17dd68135b059008fc882f8885542023fdb2d56787
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	1aa928d0937c29d9c7d0bb2219f97f658ac81aeafe73a7d9e254b0cefef3182f
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	95d38c2550d1c265a2a8e3471cfd0e152a83c593b796ddc8e49c06ac9dbc66ae
 manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	1b53c06fc5b99a15dc0f7d036daf6a7485126d8c229427c0e748d3c9c36ddbbd
@@ -40,7 +41,7 @@ manuscript/sections/ch04/04_03.tex	4.3	The Role of Play and Exploration in Devel
 manuscript/sections/ch04/04_03_01.tex	4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	75379ace58bea9382257b584da0ee480af3f69ab2606073ec1dbdaae659e42fb
 manuscript/sections/ch05/05.tex	5	Moral Psychology and AI	641a1f2beabeb3a092074c7ab78069c3ec774263709bc5b06f3991a33755c50d
 manuscript/sections/ch05/05_01.tex	5.1	Moral Development in Humans and AI	1c77ff113de95729a2a1f7851839f1be62e33c0ec057e3270ac0c2e999a3446e
-manuscript/sections/ch05/05_01_01.tex	5.1.1	Rules, Principles, and the Role of Mindset	448decaa902bf6730c76581e3c8e3111ab9112e23814a5af96d8206bd69cf6d4
+manuscript/sections/ch05/05_01_01.tex	5.1.1	Rules, Principles, and the Role of Mindset	902451b6cd73f968aa2d6527ce49d719992d9478ebb4d529e700809726c149a3
 manuscript/sections/ch05/05_01_02.tex	5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	dfd92eac29e6ebd90db5009d73ae4a6ba6551513d32dbd9e72c3ba527c208beb
 manuscript/sections/ch05/05_01_03.tex	5.1.3	Human Dignity, and One Indicator That Can Be Audited	0cb518665bd06c40dbe8185812a7f6e0c228ed4229f10b4318748997ae1619b2
 manuscript/sections/ch05/05_02.tex	5.2	Emotions and Intuitions in Moral Decision-Making	5ce3c39ea9f2f6245d1f0665af27ffe524035b4966298b2f8ff2c53248379812
@@ -117,7 +118,7 @@ manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	afe54ff54d
 manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	d7652522613cc005568f3014cd42c40acd4fb552274b5e6215f545e3259d0afa
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	e21b42dbdc2fe11e463b37d665cb14ea7a715269daee25ccbdbcbfde9f3df328
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	1cfe27d142c0a7c0a4845472932cec81e99cb67611230757b4fae8c8fa1afb5a
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	d8cb72dc3484abb30d79982ae6573bf53da60b0eb15f713b19d3d8edc4b41626
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	12fa5f8ba458e561aedf27f3a7ca375be3b57b9428cb689dca318d998d9e03c1
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	08e1fff35b5373abeba98c235453ade255a6b6422187b5f2b31ba7c6237324e6
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	5d560d97c678b481e54c5a7b0dd441d1035aa4c39c53f3d91e83454eac4e19ab
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	a54fbc218ab60040d77deed88eb059e068aabab647650266a28bfc4ab5a4813b
@@ -130,9 +131,9 @@ manuscript/sections/ch12/12_01.tex	12.1	AI and Human Flourishing in Antifascist 
 manuscript/sections/ch12/12_01_01.tex	12.1.1	Where the Democratic Dividend Actually Comes From	b8fbc919d338882e3091b76118ef847a738912286b3ad80958a4c00392e83b49
 manuscript/sections/ch12/12_01_02.tex	12.1.2	Commitment Was Never the Missing Piece	94157f7b95e944ee39bf907ec31fac0adc0877621ff3fbfff1a8c51b7b0a5563
 manuscript/sections/ch12/12_02.tex	12.2	Signatures of Altruistic and Antifascist AI	da166f2ca9fdae0050ab965d57b1d76418cf92d18e6cab98abed15bc5e6a13a4
-manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	b10a6d1f055329e835352c377838940dfa88e3653a0e7594426784850dd8d305
+manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	6fe8a3925e964aa1e7108ebd40b8ec7c75bd5d4047f9eba00a8d563e50df885c
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	a93bea635d453d599bf12affa3f4ec854fc955eea67e592ffd9794c5bc977b28
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	b4fd2cca5b6367c079eb425bb010409369b7a3daa2392ee6baa4883bb2628ad9
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	8052f5ba6bff4e2eb2f8a21091c736fb54974d769d6ab8e949bd1b870910ba5d
-manuscript/sections/ch13/13.tex	13	Glossary	5f223303c345aa67437f35d0a39c8d29a510be63ea1e06e91016a03e4f05a6d5
+manuscript/sections/ch13/13.tex	13	Glossary	57766b204aca589015672166d8694745a42e3610df67c370fea7eab1f6836162
 manuscript/sections/ch14/14.tex	14	Appendix: On Method	3134bb86fb48bb22e9f9ef106b693aa76d9e6359d0c49385148e165617f50fa5

@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-02, after D-187 and D-188 (P93): Q-072 and Q-073 are closed by execution, on the expensive option in each case.** The author took (c) and (b) — the two recorded as reopening argument rather than tidying it — so chapter~3 now has a fourth branch with its own section, and the bearer is a beneficiary as well as a patient. **Q-074 is the only entry left open**, and it is the bibliography one. **The book grew 1,471 words and three pages doing this**, which is the trade those rulings made.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-02, after D-185 (P91): Q-071 is closed by execution and Q-072 through Q-074 stand.** The closure came from the author's question about the correction P90 made — *the reader won't have access to DECISIONS.md* — which is the right test and a different one from whether the argument exists. It existed; it was unreachable. **Q-072 and Q-073 have not been touched**, and Q-074's two citations still disclose an unreached primary.
 
 **Superseded header, kept for the record.**
@@ -2134,6 +2137,8 @@ than D-109 and would be new content, not a pointer.
 
 ### Q-072 — Chapter 3 has no vocabulary for culture, and the three routes have no place to put it
 
+**Closed by execution, D-187 (P93), on option (c).** §3.1 has four branches and a new §3.9 works the fourth through; old §3.9 is §3.10. **The check before writing found chapter~3 already had two enumerations dividing different things**, so the new branch had to be a location and not a mechanism. **What it buys is a check on a bearer and not a substitute for one** — drift inside a party is visible to the parties around it — and its cost is chapter~7, which is an account of this branch failing. The counter-argument this entry named is now in the book rather than only in this file.
+
 **From the same discussion.** §3.1's fork has three branches: the architecture, an internal bearer,
 and outside institutions. The discussion's proposal — that morality is normally held by a moral
 community extended through time, so an isolated affective bearer is no more dependable than an
@@ -2159,6 +2164,8 @@ fourth branch rather than to add it.
   location rather than as the learned half, and probably a new section.
 
 ### Q-073 — The book counts what the bearer can lose and never what it could gain
+
+**Closed by execution, D-188 (P93), on option (b).** §3.4 carries the symmetric sentence from the premise that already reaches patienthood, and §11.2 carries the larger question under a new run-in, *The schedule is written on one side*. **The discussion's own objection is carried rather than answered**: a bearer contented in the post is the case that should worry a designer most, contentment being what accommodation looks like from inside. No proposal is offered and the section says so.
 
 **From the same discussion, and the sharpest of its three.** Building a bearer is argued throughout
 as the creation of something that can be harmed. **The reverse is never stated once.**
