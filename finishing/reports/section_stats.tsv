@@ -11,9 +11,9 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2	2	50	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	1881	23	0	0	0	0	0	0	6	0	5		0	0	0	0	1
 2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	800	10	0	0	0	0	0	0	6	0	0		0	0	0	0	2
-3	The Floor Beneath Learned Values	1	3	897	11	0	0	0	1	0	0	10	0	0		0	1	0	0	0
-3.1	Four Ways to Build One, and What Each Costs	2	3	1303	12	0	0	0	0	0	0	7	0	3	2026	0	0	0	0	0
-3.2	Four Things Refusal Can Mean	2	3	1215	16	0	0	0	0	0	0	4	0	1		0	0	0	0	2
+3	The Floor Beneath Learned Values	1	3	903	11	0	0	0	1	0	0	10	0	0		0	1	0	0	0
+3.1	Four Ways to Build One, and What Each Costs	2	3	1312	12	0	0	0	0	0	0	7	0	3	2026	0	0	0	0	0
+3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	1376	19	0	0	0	0	0	0	6	0	1		0	0	0	0	4
 3.3	Could Anything but Affect Hold a Reason?	2	3	3131	38	0	0	0	0	0	1	16	0	7	2026	0	0	0	0	6
 3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2851	39	0	0	0	0	0	0	12	0	4		0	1	0	0	8
 3.5	What Can Be Switched Off Cannot Hold a Line	2	3	2536	24	0	0	0	0	0	0	7	0	3		0	1	0	0	3
@@ -135,5 +135,5 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	551	12	0	0	0	0	0	0	1	0	2	2023	0	0	0	0	5
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	517	5	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	557	6	0	0	0	0	0	0	4	0	0		0	0	0	0	0
-13	Glossary	1	13	1176	35	0	0	0	0	0	0	34	0	0		0	0	0	0	17
+13	Glossary	1	13	1181	35	0	0	0	0	0	0	34	0	0		0	0	0	0	17
 14	Appendix: On Method	1	14	397	6	0	0	0	1	0	0	2	0	0	2026	0	0	0	0	0
