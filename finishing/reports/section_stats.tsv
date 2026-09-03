@@ -12,15 +12,15 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	1881	23	0	0	0	0	0	0	6	0	5		0	0	0	0	1
 2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	800	10	0	0	0	0	0	0	6	0	0		0	0	0	0	2
 3	The Floor Beneath Learned Values	1	3	897	11	0	0	0	1	0	0	10	0	0		0	1	0	0	0
-3.1	Four Ways to Build One, and What Each Costs	2	3	1301	12	0	0	0	0	0	0	7	0	3	2026	0	0	0	0	0
+3.1	Four Ways to Build One, and What Each Costs	2	3	1303	12	0	0	0	0	0	0	7	0	3	2026	0	0	0	0	0
 3.2	Four Things Refusal Can Mean	2	3	1215	16	0	0	0	0	0	0	4	0	1		0	0	0	0	2
-3.3	Could Anything but Affect Hold a Reason?	2	3	3130	38	0	0	0	0	0	1	15	0	7	2026	0	0	0	0	6
-3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2854	39	0	0	0	0	0	0	12	0	4		0	1	0	0	8
-3.5	What Can Be Switched Off Cannot Hold a Line	2	3	2534	24	0	0	0	0	0	0	6	0	3		0	1	0	0	3
+3.3	Could Anything but Affect Hold a Reason?	2	3	3131	38	0	0	0	0	0	1	16	0	7	2026	0	0	0	0	6
+3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2851	39	0	0	0	0	0	0	12	0	4		0	1	0	0	8
+3.5	What Can Be Switched Off Cannot Hold a Line	2	3	2536	24	0	0	0	0	0	0	7	0	3		0	1	0	0	3
 3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1314	21	0	0	0	0	0	0	5	2	0		0	0	0	0	3
 3.7	Whether the Bearer Can Be Believed: Editable Memory	2	3	558	5	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 3.8	A Bearer That Can Leave: Exit as Leverage	2	3	2022	19	0	0	0	1	0	0	6	1	4	2024	0	0	0	0	0
-3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	992	13	0	0	0	0	0	0	10	1	0		0	1	0	0	3
+3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	1004	13	0	0	0	0	0	0	11	1	0		0	1	0	0	3
 3.10	What This Leaves Standing: The Floor, Redefined	2	3	2049	18	0	0	0	4	0	0	20	0	0		0	0	0	0	0
 4	Machine Learning and Cognitive Science	1	4	159	3	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	83	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
@@ -38,7 +38,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 4.2.8	System Instructions and Tool Use at Deployment	3	4	349	3	0	0	0	0	0	0	2	0	1		0	0	0	0	0
 4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	3	4	365	4	0	0	0	0	0	0	2	0	1		0	0	0	0	0
 4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	42	1	0	0	0	0	0	0	0	1	0		0	0	0	0	0
-4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	3	4	504	5	0	0	0	0	0	0	5	0	3		0	0	0	0	1
+4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	3	4	505	5	0	0	0	0	0	0	5	0	3		0	0	0	0	1
 5	Moral Psychology and AI	1	5	118	2	0	0	0	0	0	0	2	0	0		0	1	0	0	0
 5.1	Moral Development in Humans and AI	2	5	56	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 5.1.1	Rules, Principles, and the Role of Mindset	3	5	957	13	0	0	0	0	0	0	4	0	5		0	0	0	1	2
@@ -105,7 +105,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 9.2	Privacy, Security, and Antifascism in AI Systems	2	9	758	11	0	0	0	0	0	0	3	0	10		0	0	0	0	0
 9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9	50	1	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	540	6	0	0	0	0	0	1	4	0	1		0	0	0	0	0
-9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1054	11	0	0	0	0	0	0	6	0	3		0	0	0	0	2
+9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1055	11	0	0	0	0	0	0	6	0	3		0	0	0	0	2
 9.3.3	Legal Frameworks for Sentient AI Subjects	3	9	678	7	0	0	0	0	0	0	2	0	7	2017	0	0	0	0	0
 9.3.4	Making Review Binding	3	9	460	5	0	0	0	0	0	0	1	0	1		0	0	0	0	1
 9.3.5	Three Defenses, and Measuring the Slope Not the Level	3	9	989	13	0	0	0	2	0	0	2	0	1		0	0	0	0	2
