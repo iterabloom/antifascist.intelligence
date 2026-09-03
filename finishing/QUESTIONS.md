@@ -1,5 +1,7 @@
 # Open questions
 
+**Current as of 2026-09-03, after D-196 (P98): no entry changes.** P98 reordered the prior in §3.3 and §3.4 on the author's ruling, the mechanism constructions first and the affective route once they have failed; it opened no question and closed none. `p98-scope.md` has the check, and Q-074 is still the only entry open.
+
 **Current as of 2026-09-03, after D-195 (P97): no entry changes.** P97 cut one sentence from §3.3 on the author's ruling, the human evidence offered for the maintained-justification construction; it opened no question and closed none. `p97-scope.md` has the check, and Q-074 is still the only entry open.
 
 **Current as of 2026-09-03, after D-194 (P96): no entry changes.** P96 swept chapters 3 to 12 against the ten classes distilled from the chapter 3 rulings; it opened no question and closed none. The fourteen candidates it declined and the things it left undone are in `p96-scope.md`, following P95's practice, and Q-074 is still the only entry open.
