@@ -1,5 +1,7 @@
 # Open questions
 
+**Current as of 2026-09-03, after D-194 (P96): no entry changes.** P96 swept chapters 3 to 12 against the ten classes distilled from the chapter 3 rulings; it opened no question and closed none. The fourteen candidates it declined and the things it left undone are in `p96-scope.md`, following P95's practice, and Q-074 is still the only entry open.
+
 **Current as of 2026-09-03, after D-190 to D-193 (P95): Q-075 and Q-076 are closed by execution, and Q-074 is the only entry open.** Q-075 closed on the author's vocabulary rather than on either option as written — *way fits better in the places I changed it* — so the edit the Overleaf pass started was finished at 28 sites in eleven files (D-191), not reverted at one. Q-076 closed on rulings taken item by item (D-192): the mattering sentence takes the author's own five words, *relocates the uncertainty advantageously*, and the opening announces the capacities again in a form the author asked to be less clever. **Neither entry is moved or annotated below, following P93's practice with Q-072 and Q-073.** The same sitting produced two things no entry had asked for: the third way now fails by formation and not by reach (D-190), and §3.2 is two-plus-two under a new title (D-193). **Four judgment calls from the P94 analysis were offered and not ruled on and are not entered here**; `p95-scope.md` lists them. **Q-074 is untouched.**
 
 **Superseded header, kept for the record.**
