@@ -1,6 +1,8 @@
 # Open questions
 
-**Current as of 2026-09-02, after D-187 and D-188 (P93): Q-072 and Q-073 are closed by execution, on the expensive option in each case.** The author took (c) and (b) — the two recorded as reopening argument rather than tidying it — so chapter~3 now has a fourth branch with its own section, and the bearer is a beneficiary as well as a patient. **Q-074 is the only entry left open**, and it is the bibliography one. **The book grew 1,471 words and three pages doing this**, which is the trade those rulings made.
+**Current as of 2026-09-03, after D-189 (P94): two new entries out of the author's Overleaf pass, and Q-074 unchanged.** Both are about the author's own hand edits to chapter~3 and neither is an error the edit made carelessly — **Q-075 is a figure that lost its introduction**, §3.1 having converted its *branches* to *ways* and deleted its only use of *fork*, leaving `fork` live in four sections and `branch` live 22 times across ten files with nothing introducing either; **Q-076 is two sentence-level things in §3.2** that may be slips rather than choices. **Q-075 was found by grep and would not have been found by reading**, because every instance reads correctly in its own paragraph, which is D-182's class one pass later. **Q-074 is untouched and still the bibliography one.** The book ships with Q-075 unrepaired in the 2026-09-03 proofs.
+
+**Superseded header, kept for the record.**
 
 **Superseded header, kept for the record.**
 **Current as of 2026-09-02, after D-185 (P91): Q-071 is closed by execution and Q-072 through Q-074 stand.** The closure came from the author's question about the correction P90 made — *the reader won't have access to DECISIONS.md* — which is the right test and a different one from whether the argument exists. It existed; it was unreachable. **Q-072 and Q-073 have not been touched**, and Q-074's two citations still disclose an unreached primary.
@@ -2212,6 +2214,67 @@ cited article does support the quotation; what is unreached is the primary.
   them so no direct quotation rests on an unreached primary.
 - (c) Cut both, on a strict reading of D-095. This would make the Palantir quotation look better
   sourced than it is.
+
+### Q-075 — The fork and its branches lost their introduction in the Overleaf pass
+
+**Raised by P94's vocabulary grep, not by reading; every instance below reads correctly in its own
+paragraph.** §3.1's hand edit converted the enumeration from *branches* to *ways to build the
+floor*, and deleted the section's only use of `fork` — *What it has is a fork with four branches and
+a cost on each*. **`fork` in §3.1 is now 1 → 0.**
+
+**The figure is still in use in four sections**, §3.5 attributing a statement to it outright: *the
+fork's third branch* (§3.3), *The first branch of the fork fails* (§3.4), *The fork was never four
+options* and *as the fork itself said* (§3.5). §11.2's *a fork to be recorded as two parties* is the
+ordinary sense and is unaffected.
+
+**`branch` survives 22 times as the term for §3.1's items, across ten files** — §3.3 five, §3.9
+four, §3.5 three, §3.10 two, §3.4 one, §2.1.1 one, §4.2.4 one, §4.3.1 one, §5.1.2 one, **and §3.1
+itself two**: the section now says *the four ways* and then, in the same file, *It is the one branch
+nothing can dismiss* and *hybrids that take a mechanism from one branch and a custody arrangement
+from another*.
+
+**Four sites name §3.1 by cross-reference and call its items branches** — §2.1.1, §4.2.4, §4.3.1 and
+§9.3.2's *section~\ref{sec:3.1} attaches a cost to each of its branches* — so a reader following any
+of them arrives at a section that does not use the word. **§3.9 is written entirely in the
+vocabulary**, down to the run-in head *Why this is not the third branch*, and D-187 built it nine
+days ago.
+
+**This is D-182's class** — a figure used as a definite reference with nothing establishing it — in
+the same chapter, one pass later, and produced by removal rather than by omission.
+
+- **(a) Default — restore one sentence to §3.1 naming the fork and its four branches.** One
+  sentence makes 22 downstream uses correct again, and it can carry the new *ways* vocabulary
+  alongside rather than reverting the edit: the fork has four branches, and the four ways are what
+  they are. Applies at the close of the next pass touching chapter~3 if nothing is said.
+- (b) Convert the 22 uses to *way* / *ways* and finish the edit the import started. Ten files,
+  including §3.9 throughout and a run-in head, and four cross-referencing sentences in other
+  chapters. Consistent, and the most expensive.
+- (c) Leave it. Every instance reads locally and no reader is stopped; what is lost is the figure a
+  reader could have carried between sections, and §3.5's *as the fork itself said* points at nothing.
+
+### Q-076 — Two things in §3.2 the compression may not have meant
+
+**Both are the author's own edits and neither was touched.** They are separated from Q-075 because
+they are sentence-level and could be slips rather than choices.
+
+**The mattering sentence no longer parses the way its paragraph needs.** *Defining mattering that
+way moves the uncertainty and does not dispose of it, and where it moves to is the gain* became
+**\*Defining mattering that way moves the uncertainty to the gain.\*** The paragraph after it still
+does the work the old clause set up — the open question stops being metaphysical and becomes one
+about a particular artifact — but the sentence introducing it now says the uncertainty is moved *to
+the gain*, which is not a place. **Not checked**: whether the same shape occurs elsewhere in the
+four imported files.
+
+**§3.2's opening no longer announces the enumeration its title promises.** The clause *the distance
+between the two is hidden by a word that covers four different capacities* is gone, so the four-way
+split arrives unannounced under a heading reading *Four Things Refusal Can Mean*. This is the same
+shape as Q-075 at paragraph scale.
+
+- **(a) Default — repair the mattering sentence and leave the opening alone.** The first is a
+  sentence that does not say what the paragraph needs; the second is a compression the heading
+  already covers. Applies at the close of the next pass touching chapter~3 if nothing is said.
+- (b) Both: restore a clause to the opening naming the four capacities as well.
+- (c) Neither. Both readings are mine and the prose is the author's.
 
 ## Resolved
 

@@ -1,11 +1,11 @@
 # Finishing plan
 
-The book stands at **138 sections, 91,457 words and 186 pages**, with 2 sections accepted
-and 135 drafted and unread. **Ninety-three passes have been executed.**
+The book stands at **138 sections, 91,170 words and 186 pages**, with 2 sections accepted
+and 136 drafted and unread. **Ninety-four passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
-current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P93
-read D-145 through D-188 in `DECISIONS.md` and `p64-scope.md` through `p93-scope.md`.**
+current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P94
+read D-145 through D-189 in `DECISIONS.md` and `p64-scope.md` through `p94-scope.md`.**
 P64 through P84 were compression against author findings, and they cut five
 sections and about 6,100 words without adding one. **P85 and P86 reverse that direction on
 author rulings**, adding about 3,000 words and one section: P85 took §3.2's account of
@@ -15,7 +15,7 @@ concept of legitimacy at the new §9.1.5. **D-162 is not a pass**: it withdraws
 a claim D-161 made about cross-reference reciprocity, and it is the only row in the log
 that corrects an earlier row of the same day.
 
-**These four figures go stale every pass, and have six times** — this header duplicates
+**These four figures go stale every pass, and have seven times** — this header duplicates
 what `STATE.md` measures, so nothing but a habit keeps them in step. A session
 reconciling the handoff files should treat this paragraph as one of them. The run below
 enumerates P28 through P51; the six after them are summarized at its end: P28, which cut 79
