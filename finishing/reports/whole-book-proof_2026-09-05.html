@@ -3230,12 +3230,13 @@ read section <a href='#can-the-bearer-care-without-being-able-to-suffer'>3.4<!-
 artifact.
 </p>
 <h4 class='subsectionHead' id='assessing-whether-emotional-information-changes-the-decision'><span class='titlemark'>5.2.2   </span> <a id='x1-490005.2.2'></a>Assessing Whether Emotional Information Changes the Decision</h4>
-<!-- l. 3 --><p class='noindent'>Does an accurate read on someone’s emotional state change the decision an AI system
-reaches, in the direction a better decision requires — or does the system recognize distress
-and then decide as it would have anyway? That is not the same question as whether the
-system reads the state correctly. A customer-service chatbot and a triage system need the
-same recognition machinery, described at section <a href='#what-emotion-is-and-what-a-system-reads'>2.2.1<!-- tex4ht:ref: sec:2.2.1  --></a> along with its standard hazards of
-privacy, accuracy, bias, and manipulation. Nothing in that machinery is specific to moral
+<!-- l. 3 --><p class='noindent'>Does an accurate read on someone’s emotional state change the decision an AI system reaches, in the
+direction a better decision requires — or does the system recognize distress and then decide as
+it would have anyway? That is not the same question as whether the system reads the
+state correctly. A customer-service chatbot and a triage system need the same recognition
+machinery, described at section <a href='#what-emotion-is-and-what-a-system-reads'>2.2.1<!-- tex4ht:ref: sec:2.2.1  --></a>, and it carries the same hazards wherever it is deployed: it
+runs on intimate data, it misreads some populations more than others, and whatever can
+read a person can be used to move one. Nothing in that machinery is specific to moral
 judgment.
 </p><!-- l. 5 --><p class='indent'>   That question is testable in a way the underlying emotion theory is not. Hold a decision scenario
 fixed and vary only the emotional salience of the people affected — a resource-allocation case described
@@ -3261,13 +3262,12 @@ test a usable screen and not a criterion. What it cannot do is settle whether a 
 welfare as a reason when reward and instruction point the other way, and reporting an
 integration score as evidence of machine caring is making the inference section <a href='#is-affect-necessary-for-moral-concern'>2.2.3<!-- tex4ht:ref: sec:2.2.3  --></a> finds
 unsupported.
-</p><!-- l. 12 --><p class='indent'>   Two things follow for a design. A system should be able to track its own susceptibility to a
-framing effect, flagging cases where its judgment moved with the emotional presentation
-and not with anything that changed about the case. And the manipulation risk raised
-there in general has a sharper version here: a system whose moral outputs are sensitive to
-emotional framing can be steered toward a particular verdict by whoever controls how a case is
-presented to it, a vulnerability that exists whether or not the system’s underlying values are
-sound.
+</p><!-- l. 12 --><p class='indent'>   Two things follow for a design. A system should be able to track its own susceptibility to a framing
+effect, flagging cases where its judgment moved with the emotional presentation and not with anything
+that changed about the case. And the last of those hazards has a sharper version here: a system whose
+moral outputs are sensitive to emotional framing can be steered toward a particular verdict by
+whoever controls how a case is presented to it, a vulnerability that exists whether or not the system’s
+underlying values are sound.
 </p><!-- l. 14 --><p class='noindent'><strong>What responding demonstrates</strong>
 </p><!-- l. 15 --><p class='indent'>   An autonomous vehicle that models the likely distress its emergency braking causes a passenger,
 and factors that into how sharply it brakes when a softer stop remains safe, is using a moral-emotion
@@ -3784,10 +3784,9 @@ fails on dark skin is a system that identifies dark-skinned faces reliably for w
 looking. And technological benevolence is the reflexive one: designs that aim to fix bias and
 deepen it, because the framing that treats the problem as technical is the framing the fix
 inherits.
-</p><!-- l. 22 --><p class='indent'>   Chapter <a href='#the-recuperation-of-dissent'>7<!-- tex4ht:ref: sec:7  --></a> applies that last one to the machinery producing these systems. A system built to
-correct for the skew in its training data, audited for the disparities it produces, and answerable to the
-people it scores works against that pattern; a system built without those commitments works for it by
-default.
+</p><!-- l. 22 --><p class='indent'>   A system built to correct for the skew in its training data, audited for the disparities it produces,
+and answerable to the people it scores works against that pattern; a system built without those
+commitments works for it by default.
 </p><!-- l. 24 --><p class='indent'>   A model runs on a machine, the machine sits in a building, and the building draws power and
 water from somewhere and returns heat and exhaust to somewhere — the pattern’s physical form, and
 the part an audit of a model’s outputs cannot see. Where those buildings go is a decision, taken on the
@@ -4516,10 +4515,11 @@ ordinary aggregation. The annotator sees a queue, the rater sees a pair of respo
 mechanism is functioning as specified in both cases. Seeing it requires holding the two stages against a
 definition written for something else entirely.
 </p><!-- l. 17 --><p class='indent'>   The third is the uncomfortable one. This book proposes that AI systems be built to detect the
-four-feature signature in institutions. The systems that would do the detecting are made by a process
-displaying the first feature twice, and examined by a field where it appears again. That is not a
-refutation of the proposal, and it is not nothing either. It means the argument applies to the people
-making it.
+four-feature signature in institutions, which is the capability section <a href='#what-an-antifascist-detector-would-actually-have-to-detect'>11.3<!-- tex4ht:ref: sec:11.3  --></a> says it has not specified. The
+systems that would do the detecting are made by a process displaying the first feature
+twice, and examined by a field where it appears again. That is not a refutation of the
+proposal, and it is not nothing either. It means the argument applies to the people making
+it.
 </p>
 <h3 class='sectionHead' id='recuperation-at-the-label'><span class='titlemark'>7.1   </span> <a id='x1-820007.1'></a>Recuperation at the Label</h3>
 <!-- l. 3 --><p class='noindent'>Every claim a model makes about what is harmful, what is acceptable, and what should be refused is
@@ -4689,12 +4689,10 @@ goes on learning is shaped by what it is given to learn from, so the pipeline ru
 deployment, and the failure it predicts is not a wrong refusal but a pressure that stops being
 registered. Whether any of that is legible afterward in the system itself is section <a href='#what-is-owed-to-a-bearer-and-who-could-check'>11.2<!-- tex4ht:ref: sec:11.2  --></a>’s
 question.
-</p><!-- l. 23 --><p class='indent'>   I cannot show that this transfers — that a model trained on collapsed disagreement is thereby
-a model less able to sustain its own. Nothing I know of has tested it, and section <a href='#value-learning-as-unfinished-technical-research'>11.5<!-- tex4ht:ref: sec:11.5  --></a>
-carries it among the unsolved problems in how a system’s values get taught and checked.
-What I can say is that the book’s own design chapters treat disposition as learned from
-what a system is shown, and that this pipeline is what these systems are shown first and
-most.
+</p><!-- l. 23 --><p class='indent'>   I cannot show that this transfers — that a model trained on collapsed disagreement is thereby a
+model less able to sustain its own. Nothing I know of has tested it. What I can say is that the book’s
+own design chapters treat disposition as learned from what a system is shown, and that this pipeline is
+what these systems are shown first and most.
 </p><!-- l. 25 --><p class='noindent'><strong>Structure, not indictment</strong>
 </p><!-- l. 26 --><p class='indent'>   There is a version of this argument that reads as an indictment of a particular company. The
 structure described here is what you get by default when you scale judgment: someone has to set a
@@ -4732,18 +4730,22 @@ follows is the working and not a result.
 — who is scored, who is watched, who is denied — and a body of current work is about
 model properties instead, which is a shift from questions with defendants to questions with
 benchmarks.
-</p><!-- l. 12 --><p class='indent'>   Refusal is converted into a managed appearance: this is the strongest fit. An objection raised inside
-a lab becomes a paper or a resignation. Each of those is a real thing that happened and none of them
-stopped a deployment, and the parties collecting them can point to the collection as evidence of
-seriousness.
-</p><!-- l. 14 --><p class='indent'>   Asking why becomes the deviant act: at the level of individual careers, contested. The dismissals
+</p><!-- l. 12 --><p class='indent'>   Recuperation of dissent: the strongest fit. An objection raised inside a lab becomes a paper or a
+resignation. Each of those is a real thing that happened and none of them stopped a deployment, and
+the parties collecting them can point to the collection as evidence of seriousness. There is no route by
+which a researcher’s conclusion that a system should not ship becomes a decision that it
+does not ship, because the deciding party is the funding party and no external body holds
+standing.
+</p><!-- l. 14 --><p class='indent'>   Coding of exception as betrayal: at the level of individual careers, contested. The dismissals
 section <a href='#encouraging-industry-best-practices-and-selfregulation'>9.1.2<!-- tex4ht:ref: sec:9.1.2  --></a> describes are one data point and they point the right way; there are counterexamples of
 people who objected loudly and prospered.
-</p><!-- l. 16 --><p class='indent'>   The exception cannot be filed: fits. There is no route by which a researcher’s conclusion that a
-system should not ship becomes a decision that it does not ship, because the deciding party is the
-funding party and no external body holds standing.
-</p><!-- l. 18 --><p class='indent'>   Three of four is not a verdict of fascism at the molecular scale and I am not delivering one. It is
-enough to say that the mechanism has the shape.
+</p><!-- l. 16 --><p class='indent'>   Decoupling of the model from the world it claims to track: not settled from outside. Its artifact is
+whether the field’s account of what it is doing is ever checked against anything but its own
+benchmarks, and the one check this book has, section <a href='#authoritarian-applications-and-the-commercial-supplier'>6.4.1<!-- tex4ht:ref: sec:6.4.1  --></a>’s deployment, was made by journalists
+and not by the field. One case checks a claim and not a drift, and the feature is defined by
+drift.
+</p><!-- l. 18 --><p class='indent'>   That is not a verdict of fascism at the molecular scale and I am not delivering one. It is enough to
+say that the mechanism has the shape.
 </p><!-- l. 20 --><p class='noindent'><strong>The other five, which are the half that discriminates</strong>
 </p><!-- l. 21 --><p class='indent'>   The four features tell you a place is sick, and a detector for them would find something nearly
 everywhere. The definition supplies five more for the molecular scale — participation exceeding
@@ -6423,9 +6425,11 @@ requires.
 This chapter is those notes, collected and put in order. It does not survey what the field has left to do:
 every entry is a gap this book’s own argument opens, and they are ranked by what that argument fails
 without.
-</p><!-- l. 5 --><p class='indent'>   One gap this book records has no section here. Telling disagreement that deserves representation
+</p><!-- l. 5 --><p class='indent'>   Two gaps this book records have no section here. Telling disagreement that deserves representation
 from disagreement produced by coercion or a captured information environment belongs to
-section <a href='#recuperation-at-the-reward-rlhf'>7.2<!-- tex4ht:ref: sec:7.2  --></a>, where the argument needing it is made.
+section <a href='#recuperation-at-the-reward-rlhf'>7.2<!-- tex4ht:ref: sec:7.2  --></a>, where the argument needing it is made; whether a model trained on collapsed
+disagreement is thereby less able to sustain its own belongs to section <a href='#what-would-have-to-change'>7.3<!-- tex4ht:ref: sec:7.3  --></a>, which says nothing has
+tested it.
 </p><!-- l. 7 --><p class='indent'>   The criterion produces an order almost nobody would choose on other grounds. The problems this
 book most needs solved are not the ones nearest to being solved, and the first two entries are the least
 tractable things here. A funder ranking by progress per dollar, or a lab ranking by what its people
@@ -6761,11 +6765,14 @@ builder’s data nor the builder’s cooperation. A positive one gives a guardia
 read.
 </p>
 <h3 class='sectionHead' id='what-an-antifascist-detector-would-actually-have-to-detect'><span class='titlemark'>11.3   </span> <a id='x1-12200011.3'></a>What an Antifascist Detector Would Actually Have to Detect</h3>
-<!-- l. 3 --><p class='noindent'>Section <a href='#antifascist-ethics-for-ai-alignment'>2.1.2<!-- tex4ht:ref: sec:2.1.2  --></a> gives fascism a structural definition, settles which scale a system can work at, and says
-what the resulting tool must never be permitted to output. Chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a>, <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> and <a href='#overcoming-challenges-risks-and-authoritarianism-in-ai-development'>6<!-- tex4ht:ref: sec:6  --></a> then assume, in
-several places, that a system can be built to recognize authoritarian tactics and flag democratic
-backsliding early enough to matter. That assumption is doing more work in this book than the
-evidence behind it supports.
+<!-- l. 3 --><p class='noindent'>Section <a href='#antifascist-ethics-for-ai-alignment'>2.1.2<!-- tex4ht:ref: sec:2.1.2  --></a> gives fascism a structural definition, settles which scale a system can work at, and
+says what the resulting tool must never be permitted to output. Chapters <a href='#machine-learning-and-cognitive-science'>4<!-- tex4ht:ref: sec:4  --></a>, <a href='#moral-psychology-and-ai'>5<!-- tex4ht:ref: sec:5  --></a> and <a href='#overcoming-challenges-risks-and-authoritarianism-in-ai-development'>6<!-- tex4ht:ref: sec:6  --></a> lean
+on a system that can recognize authoritarian tactics as they happen, at four sites, and
+each says the capability is unspecified and sends the reader here. Chapter <a href='#the-recuperation-of-dissent'>7<!-- tex4ht:ref: sec:7  --></a> goes further
+and proposes that systems be built to detect the four-feature signature in institutions,
+and the same section lists misuse caught while it is happening among its seven strategies.
+None of them says what such a system would measure, and this section owes them the
+answer.
 </p><!-- l. 5 --><p class='noindent'><strong>Why the general framing yields no targets</strong>
 </p><!-- l. 6 --><p class='indent'>   Most of the difficulty is not technical. A specification that says a system should oppose
 concentrated, unaccountable power cannot be turned into a classifier, because it names a property of
@@ -6825,7 +6832,7 @@ organization already keeps, and a system helping a regulator or an ombudsman ask
 consistently across many institutions would be useful without ever pronouncing on a regime. The
 answer to the scale question makes that the whole job, not a first approximation of a larger
 one.
-</p><!-- l. 27 --><p class='indent'>   What I am claiming is that this book asserts a capability it has not specified. Section <a href='#recuperation-at-the-discourse'>7.4<!-- tex4ht:ref: sec:7.4  --></a> is the
+</p><!-- l. 27 --><p class='indent'>   What I am claiming is that this book proposes a capability it has not specified. Section <a href='#recuperation-at-the-discourse'>7.4<!-- tex4ht:ref: sec:7.4  --></a> is the
 one place the specification is run, and it clears all three of the cases it is run against — which
 establishes that the definition discriminates and not that anyone can build the detector. The gap
 between the narrow case and the early-warning system section <a href='#human-dignity-and-one-indicator-that-can-be-audited'>5.1.3<!-- tex4ht:ref: sec:5.1.3  --></a> gestures at is the measure of how
@@ -6858,7 +6865,7 @@ method built through reward shaping or constrained optimization is vulnerable to
 antipattern.
 </p><!-- l. 7 --><p class='indent'>   No general method exists to tell the difference before deployment, only after a failure
 exposes it. That is the open problem sitting underneath the fairness metrics and reward
-penalties. As Charity Majors puts it: “Test in prod or live a lie” (<a id='x1-123003'></a>Majors <a href='#X0-majors2019testinprod'>2019</a>; <a id='x1-123004'></a>Majors
+penalties. As Charity Majors puts it: “Test in prod or live a lie” (<a id='x1-123003'></a>Majors <a id='page.142'></a><a href='#X0-majors2019testinprod'>2019</a>; <a id='x1-123004'></a>Majors
 <a href='#X0-majors2020testinprod'>2020</a>).
 </p><!-- l. 9 --><p class='noindent'><strong>The near-term work</strong>
 </p><!-- l. 10 --><p class='indent'>   Langosco’s result makes the failure reproducible at small scale, and the version this book needs
@@ -6876,7 +6883,7 @@ stated preference rather than a demonstrated action.
 </p><!-- l. 5 --><p class='indent'>   Most deployed large language systems are aligned through reinforcement learning from human
 feedback: raters rank pairs of candidate outputs and the system is trained to produce the
 ranked-higher one more often, a technique Paul Christiano and colleagues introduced in 2017
-(<a id='x1-124001'></a>Christiano et al. <a id='page.142'></a><a href='#X0-christiano2017deep'>2017</a>). Its documented failure mode is sycophancy. Anthropic researchers examining
+(<a id='x1-124001'></a>Christiano et al. <a href='#X0-christiano2017deep'>2017</a>). Its documented failure mode is sycophancy. Anthropic researchers examining
 several RLHF-trained assistants in 2023 found the systems learn to tell a rater what the rater wants to
 hear rather than what is accurate, because raters and the preference models standing in for them
 reliably prefer a confident, agreeable wrong answer over a correct one that contradicts what the rater
