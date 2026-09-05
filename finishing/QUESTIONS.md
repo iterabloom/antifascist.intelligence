@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-05, after D-203 (P105): no entry changes.** P105 read chapters 4 to 7 and repaired twenty seams on rulings, among them P104's open item on §11.3:3 and P96's leftover on §7.4's fourth label; it opened no question and closed none. One item awaits a ruling and is in `p105-scope.md` rather than entered here, following P95's practice: §4.2.9:5's *a chapter* for what §2.1.2 argues in a section. P103's four unruled findings and P104's list still stand in their scope files. Q-070 and Q-074 stand.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-05, after D-202 (P104): no entry changes.** P104 read chapters 3 to 6 and 11 and repaired thirteen seams on rulings; it opened no question and closed none. What awaits rulings is in `p104-scope.md` rather than entered here, following P95's practice: the largest, §3.10:11's assignment of the slow drift of a role to chapters 4 and 5, has a recommended repair and needs a ruling rather than a default; two touch the bibliography, `kosinski2023theory` pinning a version whose figures the prose does not use and the Maven box's four unsourced figures; the rest are judgments on wording and structure. P103's four unruled findings still stand in `p103-scope.md`. Q-070 and Q-074 stand.
 
 **Superseded header, kept for the record.**
