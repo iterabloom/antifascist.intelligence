@@ -119,8 +119,9 @@ is named here because it bears on a premise the chapter leans on.
 §11.2 +10. **184 → 185 pages**, built to the scratchpad; **0 undefined references; 20 overfull
 boxes against P100's 20; 138 sections; 516 `\ref`.** Six `ORDER.tsv` digests refreshed.
 `reports/section_stats.tsv` regenerated. `check_all.sh` green, including the typography check
-over `refs.bib`. **Nothing committed at the time of writing, and P101 is uncommitted beneath
-this.**
+over `refs.bib`. **Committed with P101 as `1fd6b2e`, the two passes sharing eight files; the proof pair
+rebuilt in place at `6571c70` and the README's page count corrected at `dcf7a5a`, on the
+author's *make the proofs*.**
 
 ## Left undone, named
 

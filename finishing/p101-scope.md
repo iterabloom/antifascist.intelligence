@@ -251,13 +251,13 @@ and where it touches the book:
 names, §2.1.1 −116, §2.2.3 +7, §2.3.1 +2, §3.10 +2, chapter 1 unchanged. **184 pages**, built to the
 scratchpad with `build_tex.sh` after every edit; **0 undefined references; 20 overfull boxes
 against P100's 20; 138 sections; 511 `\ref`.** Eight `ORDER.tsv` digests refreshed.
-`reports/section_stats.tsv` regenerated. `check_all.sh` green. **Nothing committed at the
-time of writing.**
+`reports/section_stats.tsv` regenerated. `check_all.sh` green. **Committed with P102 as
+`1fd6b2e`; the proof pair followed at `6571c70`.**
 
 ## Left undone, named
 
-- **Nothing is committed.** The author did not ask for a commit and the tree carries nine
-  manuscript and finishing changes plus this write-up.
+- **Committed with P102 as `1fd6b2e`** on the author's *make the proofs*, the two passes
+  sharing eight files.
 - **§3.3:19 is unchanged**, with the author's *iirc* parenthetical still printing; the
   proposed repair and the decentralized-training discussion await a ruling.
 - **§3.4's opener is unchanged**; suggestion only.
