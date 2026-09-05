@@ -3,7 +3,7 @@ manuscript/sections/ch01/01.tex	1	Introduction	7b81091790821f464358f21b8394ef372
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	eff9c990f9b3122b9e299dff707e614e84810829ab16ff2c8ad7f1c36e2937a0
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	478dcc4e4101a445d551fdc8045b84a1401026d5afcc59d753a11e7ea97c5d01
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	906326c5c8422145a5f4e9ce83d13f552fef972e48fa21ac5bdb54a6cc629c45
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	134c521d5acb93c6f6eb8ad5fb419fb9b7b04fe46d5c64d7025b22053adf964c
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	ae953cbfcc6980aa5d400c7bfed8264fa4b1fc08ba66f7fd9d7a8633c2734a61
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	187ea48a96987aa293ce7359a7655475bc0e14418db8f35a26f64c706bd136c7
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	92fd11396bfdcd1a2bf95c9562c350e358f5bbdeabd8f24d8124d95a70d6c457
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	08d3b59b5d8e5c4350346bfdf8c74b9804986366ff0593d4863e95fad95b95c7
@@ -74,7 +74,7 @@ manuscript/sections/ch06/06_03_03.tex	6.3.3	Anticipating Risk Before It Causes H
 manuscript/sections/ch06/06_03_04.tex	6.3.4	Remediating a Harm Once It Is Identified	6a64d001837794577aace18cbf5908d19ff4941d774016880ca1f992dd537d95
 manuscript/sections/ch06/06_03_05.tex	6.3.5	Long-Term AI Safety Considerations	71e19316a1b1028071fa3ebc2b5bfe8e01d815f4589019411007b9b8031685da
 manuscript/sections/ch06/06_04.tex	6.4	Preventing the Misuse of AI for Authoritarian Purposes	42ec36dd7f84ba91b215faa4e9784ba0b01c02ab012639f45da6b3cebfd057b4
-manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	051513465cb2cd0ea3c9b053edb5b99432c8ca74fc98793d60b684483407c9ba
+manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	be1825cb03fd6bffda6eefa9324dd3eb802a3bf6dd72f946175be16fe733f1be
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	1d9bb5187d873162d56ca9a6a7ebc2dffbedd6a461f515ab95cbe36b6edc5a47
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	e904f23e35cb8f513bd2b973062518b7241acb20e79782c7d76fbaf449be2ee4
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	ba64650de71e928400f6ab93ba10ff2702744073de5dbe1da0d54aab22a16c10
@@ -118,10 +118,10 @@ manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	586583b824
 manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	436393f22e8ce81ce422f8bd92ac62e87e135472149ac39441e787dae5c90ee2
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	c947f2bdd8d0d49dde596c56938411db2bb141ba80f0c77ace4239f9fe374c66
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	da7f87e3433ce4471a98d8ff679ca71a056c536f2a7a7c3652f3564a9d792008
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	235b22d7731d3195e7cd0b50c92dcef285b80e46f47a1adc90b27e739c7b4775
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	dcfd48f562cc7a828c03bf8ffe2ca61ba96d1d4f3a892d94ce1899dce0e2f6f1
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	cd2d0a1e7da5db08c4f322ecf730f79cc78341022cd8e155f128ed4586afb85f
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	046094ce0b25a9b2235766aafa5c5992d871a5616a850ca459695e5daad816f4
-manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	f3bb7898fe31c60e6f906cf4f2644488173ec3c5ecd01411c4d6868bf914df86
+manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	c449ab7ae917f5707905d96e2435fadaae6a79b2b53e4f3fdc5e170c912a972c
 manuscript/sections/ch11/11_06.tex	11.6	Can a Multi-Agent AI System Resist Being Captured?	82d41ab5205a5b95e119d6c66170b8032e550c048a7e5490ee42d955e673bf20
 manuscript/sections/ch11/11_07.tex	11.7	Open Questions in Empathy and Theory-of-Mind Research	20c0ded886e9b56e522075e9b0845126097eef6991608e78de528318c6aee9ef
 manuscript/sections/ch11/11_08.tex	11.8	Is Emotion Legible From a Face at All?	09da648d570e180efeafb0f7f6f9fd12ac668851a97ec18e5795b3813f3b7865

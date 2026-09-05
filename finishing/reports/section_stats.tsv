@@ -3,7 +3,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2	Ethics, Affect, and Machine Subjects	1	2	129	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 2.1	Ethical Frameworks and AI Alignment	2	2	79	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3	2	627	8	0	0	0	0	0	0	2	0	1		0	0	0	0	2
-2.1.2	Antifascist Ethics for AI Alignment	3	2	1917	26	4	0	0	0	0	0	4	0	6		0	0	0	0	4
+2.1.2	Antifascist Ethics for AI Alignment	3	2	1935	26	4	0	0	0	0	0	9	0	6		0	0	0	0	4
 2.2	Affect, Moral Salience, and Self-Awareness	2	2	472	13	0	0	0	0	0	0	6	0	0		0	0	0	0	1
 2.2.1	What Emotion Is, and What a System Reads	3	2	610	7	0	0	0	0	0	0	1	0	5		0	0	0	0	1
 2.2.2	Self-awareness and Self-regulation in AI Systems	3	2	593	7	0	0	0	0	0	0	5	0	2		0	0	0	0	1
@@ -74,7 +74,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.3.4	Remediating a Harm Once It Is Identified	3	6	1011	8	0	0	0	0	0	0	0	0	6	2026	0	0	0	0	0
 6.3.5	Long-Term AI Safety Considerations	3	6	206	3	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	105	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-6.4.1	Authoritarian Applications and the Commercial Supplier	3	6	1155	25	6	0	0	0	0	0	4	0	8	2029	0	0	0	2	1
+6.4.1	Authoritarian Applications and the Commercial Supplier	3	6	1170	25	6	0	0	0	0	0	4	0	8	2029	0	0	0	2	1
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6	561	5	0	0	0	0	0	0	3	0	1		0	0	0	0	0
 6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	537	5	3	0	0	0	0	0	2	0	3	2021	0	0	0	0	0
 6.4.4	Resilience Against Deliberate State Compromise	3	6	448	5	0	0	0	0	0	0	4	0	1	2023	0	0	0	0	0
@@ -118,10 +118,10 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 10.6	The Limits of the Democratic Dividend	2	10	691	12	0	0	0	0	0	0	4	0	1		0	0	0	0	3
 11	Necessary Areas of Research	1	11	745	7	0	0	0	0	0	0	9	0	1	2025	0	0	0	0	0
 11.1	Interpretability, Self-Reports, and Resistance to Tampering	2	11	1181	13	2	0	0	0	0	0	8	0	7		2	0	0	0	2
-11.2	What Is Owed to a Bearer, and Who Could Check	2	11	2757	28	0	0	0	0	0	1	20	0	5		0	2	0	0	5
+11.2	What Is Owed to a Bearer, and Who Could Check	2	11	2759	28	0	0	0	0	0	1	20	0	5		0	2	0	0	5
 11.3	What an Antifascist Detector Would Actually Have to Detect	2	11	1035	17	0	0	0	0	0	0	9	0	0		0	1	0	0	5
 11.4	When an Ethics-Embedding Method Stops Generalizing	2	11	329	5	0	0	0	0	0	0	1	0	3	2022	0	0	0	0	1
-11.5	Value Learning as Unfinished Technical Research	2	11	565	6	0	0	0	0	0	0	3	0	3	2023	0	1	0	0	1
+11.5	Value Learning as Unfinished Technical Research	2	11	570	6	0	0	0	0	0	0	3	0	3	2023	0	1	0	0	1
 11.6	Can a Multi-Agent AI System Resist Being Captured?	2	11	550	6	0	0	0	0	0	0	3	0	3	2020	0	1	0	0	1
 11.7	Open Questions in Empathy and Theory-of-Mind Research	2	11	628	6	0	0	0	0	0	0	2	0	6	2023	1	0	0	0	1
 11.8	Is Emotion Legible From a Face at All?	2	11	601	7	0	0	0	0	0	0	1	0	7	2020	0	0	0	0	1
