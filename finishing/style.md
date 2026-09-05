@@ -375,8 +375,8 @@ reader has to decode rather than read.
 - **A title may be a question, and may address the reader as *you*** (D-198,
   Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* The
   author's own title, ruled part of the book's voice. Do not report it.
-- ***e.g.* is permitted in body prose** (D-198, Q-079). The book has one, at
-  §3.4, and it is the author's. Do not report it or expand it.
+- ***e.g.* is permitted in body prose** (D-198, Q-079). The book has two, at
+  §2.1.2 and §3.4, the second the author's own. Do not report either or expand it.
 - **Emphasis is `\emph`, never `\textit`** (D-189, applied again at D-197).
   The book's practice was uniform and unwritten, so the eight `\textit` that
   came back from the first Overleaf pass and the twelve from the second were

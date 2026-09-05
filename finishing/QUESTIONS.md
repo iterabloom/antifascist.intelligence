@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-05, after D-201 (P103): no entry changes.** P103 read chapters 1 to 3 again and repaired ten seams on rulings; it opened no question and closed none. Four findings await rulings and are in `p103-scope.md` rather than entered here, following P95's practice: the first, §2.3.2:16's *the route this book recommends building first*, is a defect against D-196 and needs no default, and the other three are judgments on wording. Q-070 and Q-074 stand.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-04, after D-200 (P102): no entry changes.** P102 executed the ruling on §3.3:19's determinism claim and the decentralized-training discussion that `p101-scope.md` had put to the author; it opened no question and closed none. One item is named there and not entered: the *no-off problem* paper and §3.5's premise that the halt is always available, which needs a ruling rather than a default. `p102-scope.md` has the check, and Q-070 and Q-074 stand.
 
 **Superseded header, kept for the record.**
