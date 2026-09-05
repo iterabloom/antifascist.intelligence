@@ -28,14 +28,14 @@ manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating
 manuscript/sections/ch04/04_01_02.tex	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	c15205ef43b988b6ce253d7af5077e17377941d7f0d2893cd02a024ba962dda3
 manuscript/sections/ch04/04_01_03.tex	4.1.3	Human-Like Learning and Generalization in AI Systems	7c2ef94b94780726bd2cd85038232ea7b07616ff99075a33bdd822a1495bb1a5
 manuscript/sections/ch04/04_02.tex	4.2	How a Deployed System Acquires Its Values	854a70a3dbd60ea9b3251cf60b4bb9ae4eba64664c812eb00ac39da5f335a500
-manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	6c27d9439cf2b8d0901d799e43948c8d862b91959a23faf4ecc795a90b7c3351
+manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	0e402cca398417c7fc2c94a63ddd8480bf579edb9150d0efb933f9342850de85
 manuscript/sections/ch04/04_02_02.tex	4.2.2	Preference Optimization, and Who Holds the Pen	8b775f17f6fb66813717b52e0d6b81b6535517d2042ad57823ea32cdcc04179d
 manuscript/sections/ch04/04_02_03.tex	4.2.3	Inferring the Objective: IRL and CIRL	0d18fa64aa804330db212577994d681155152368c0454a9b98bf357c6648308d
 manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	d92d8317c881ed3386b88dd88ab97c693ae33f35d01987c3a88769d9a36e63a2
 manuscript/sections/ch04/04_02_05.tex	4.2.5	Process and Outcome Supervision	df5f65c5e3c4c4ec17bec7cc6dcee332fd01cc3d0bcb8c1b44a354ac73587122
 manuscript/sections/ch04/04_02_06.tex	4.2.6	Scalable Oversight	93389de0a4873ddd6e131c05fde16eaae78de48cd041f8a98fad4078d8d98c21
 manuscript/sections/ch04/04_02_07.tex	4.2.7	Interpretability and Evaluation as Instruments	d3b24c8ac0ae0fbe6a5cb1bc7bd12dc5885c47dba089e886cb998db83e7d51c3
-manuscript/sections/ch04/04_02_08.tex	4.2.8	System Instructions and Tool Use at Deployment	886e14d0c8db417b7bd194d771cf297af28263d07e0f8230e4bcb8f22699a9a2
+manuscript/sections/ch04/04_02_08.tex	4.2.8	System Instructions and Tool Use at Deployment	60f2e511f6604f86b46790c842af91fccbfa9d0ba503e4b2d8bdf3e1f5af5abd
 manuscript/sections/ch04/04_02_09.tex	4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	f12c2e6010e9ec0cd2e7e72fca0461aeb928848c10a6a9de4b83fa0cb2200b9b
 manuscript/sections/ch04/04_03.tex	4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	0251012dfd87e5783d652f9163a186a029b24056481a0a4d25e4c53c1b1033f7
 manuscript/sections/ch04/04_03_01.tex	4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	c1f2f082197774a182c79a914ad070d8fa3426b7a8686e7364f64a7e25b256b7
@@ -46,7 +46,7 @@ manuscript/sections/ch05/05_01_02.tex	5.1.2	Social Interaction, and What Apprent
 manuscript/sections/ch05/05_01_03.tex	5.1.3	Human Dignity, and One Indicator That Can Be Audited	c7f058d08dbfa0f63963b3465f6c0abffb7f6b58e94dbb424f7392b54576800a
 manuscript/sections/ch05/05_02.tex	5.2	Emotions and Intuitions in Moral Decision-Making	5ce3c39ea9f2f6245d1f0665af27ffe524035b4966298b2f8ff2c53248379812
 manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	a04a792d0406fbd8a54e54539d5453c4573780a30d7f9235752e8ed47e8d92ce
-manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	9bfb883ae9907447b4e39a43f0bb522f091a4de920c21a1427a4a4a2d63e8a4f
+manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	bfcedadd778211444703d22a88084e4e203472a2c1cda66957be3c53134d6517
 manuscript/sections/ch05/05_02_03.tex	5.2.3	The Role of Introspection for AI Systems	d24386d491f6345753368274f81ba2c34bd936d8650af5761f4c57ba81222c70
 manuscript/sections/ch05/05_03.tex	5.3	Integrating Moral Intuitions and Deliberation	a4cd9d2ff9c8440dfebb023b5b314ff4ebff9321c666c6a5e73ae687ee9c5146
 manuscript/sections/ch05/05_03_01.tex	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	258da28e90e185ac9cccd8d5211c4be06bfae25cb3bc5f4fc6aab58a35208b43
@@ -62,7 +62,7 @@ manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, 
 manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	beeac884056aa25231a472e12a671ffff7ebd53668c27dfe140c4e176d5322bd
 manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development in AI	4c84b881fa612a10ffed6aef2fb757d37c555c9d4ac4d0cdae66fa7a544f2901
 manuscript/sections/ch05/05_07_01.tex	5.7.1	The Role of Play in Moral Learning and Socialization	b125a6b870fcd55697dd6c1880b3d379941d2179ecd8c7877165469ab48391d1
-manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	68055cd32d179c4966d0e6965344d1cc227ea16617c7dd4e04094e4b6c4f4dce
+manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	0860ee38951dc352f29465317775b97fda446d83393fd197a38868103a39aedf
 manuscript/sections/ch06/06_01.tex	6.1	Bias, Fairness, and Equity in AI Systems	eade1372c0fca7da31c48065f9a14cec51b55fcf9ba27f614ba2713e28a31387
 manuscript/sections/ch06/06_01_01.tex	6.1.1	Sources of Bias in AI Data and Algorithms	d98750cd33fcbfba3a0b399ba21a86c8a6a3bf466da39dc12a1aee7d1b03a68a
 manuscript/sections/ch06/06_01_02.tex	6.1.2	The Role of Transparency and Accountability in Bias Reduction	be58ea09a64624037c93e6e8047e4e4e999607f5aabcab3e46e7b7d73dade223
@@ -78,11 +78,11 @@ manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the C
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	1d9bb5187d873162d56ca9a6a7ebc2dffbedd6a461f515ab95cbe36b6edc5a47
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	e904f23e35cb8f513bd2b973062518b7241acb20e79782c7d76fbaf449be2ee4
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	ba64650de71e928400f6ab93ba10ff2702744073de5dbe1da0d54aab22a16c10
-manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	64ec11609cecc791ff09c466c578ea8bd5e3d05df8295c9c110c587c16276a6b
+manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	288da6be4cd962b5ef73ffc861ac0d2350febe1aa094203c915b34a2ed46078f
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	6d74fe914966a2dc7092f1d893e6b81a10198c4bb302de8eb5b383bdc328672c
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	c7401d7bb2afa0c11766f3183937157209dc7eec19a4e57761092a4eb67499d6
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	6862a332922c7d1822c390bc628e76dcd58e9663fe8d564e104c8f621bef750c
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	e959ddcffaac01cd4dd2ea4bdae8a615c0650e4d3e2b1a4fc5c433c962dde6e9
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	94a6dba180b820ef60c6a0ae61e4a80daa63e2423e7e6448dcad5b13b0212e0b
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	7c154859581af67b1c73718d6162e163c3c57872a1c8c681a003347be81942cc
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	4d7f1fbdd3893338454d0be8df88f5e57e5ed686e36c7b0a402a0db208984680
 manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	ed6c1b3378af75625c61aa87daf925a713ba2def13cb466cf8a6be0f950de35c
 manuscript/sections/ch08/08_01_01.tex	8.1.1	What Makes Collaboration Expensive to Walk Away From	b67283b6c1a771a3f92d0532fe69d51d45e3e2eb608998e5870f945be93da349
@@ -116,10 +116,10 @@ manuscript/sections/ch10/10_03.tex	10.3	Military Applications and the Limits of 
 manuscript/sections/ch10/10_04.tex	10.4	International Governance and Diverging National Rules	db0012fabcd361c9991eeeffff58d9a82e2dc18ddeb4c6f65279f2b0ecdacc13
 manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	586583b824a5eb3d995abe6721cf7caf4c185f4167e2e6a68012e09e57bc4c70
 manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	436393f22e8ce81ce422f8bd92ac62e87e135472149ac39441e787dae5c90ee2
-manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	c947f2bdd8d0d49dde596c56938411db2bb141ba80f0c77ace4239f9fe374c66
+manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	e166eafa333d1649b8e9d4e88699842b011bc1ccda0bbd1bdbfe67a7ed39aa5a
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	da7f87e3433ce4471a98d8ff679ca71a056c536f2a7a7c3652f3564a9d792008
 manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	dcfd48f562cc7a828c03bf8ffe2ca61ba96d1d4f3a892d94ce1899dce0e2f6f1
-manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	cd2d0a1e7da5db08c4f322ecf730f79cc78341022cd8e155f128ed4586afb85f
+manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	bb573aa532d0dfe1cff4a14dbda03fb520d9c4732a273cda3b96506b23cbb670
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	046094ce0b25a9b2235766aafa5c5992d871a5616a850ca459695e5daad816f4
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	c449ab7ae917f5707905d96e2435fadaae6a79b2b53e4f3fdc5e170c912a972c
 manuscript/sections/ch11/11_06.tex	11.6	Can a Multi-Agent AI System Resist Being Captured?	82d41ab5205a5b95e119d6c66170b8032e550c048a7e5490ee42d955e673bf20
