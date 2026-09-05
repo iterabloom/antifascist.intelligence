@@ -12,14 +12,14 @@ manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on 
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	f7d57d3582b8300828caea8a178ebf1d49154e8b17329e399993bf03756169c5
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	8fd9b3f63fe92f22c9882ccb0d4e7d914dbb40e98c9276fa38431cc2bd905808
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	70b274ec173317d3dfd6a5038cf082b06a7c150b5e4faae1abbaabbaef439870
-manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	37ac6d20fa9292a99db8058f405c463364ac1c161ced3697162ed5673c363b6d
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	3749b1718d35f7dff5910535f95e6e89177a9bbb5adcafe0e7c793420fb00b02
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	9ba1ce4ca3df1ae269a1090cef3e0160bb6066650321cf631e82fb81ce97109a
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	afc0ea6fdc1ae6f3b17b10d456b89672f08168de824dcea4173cb7252b7daf8f
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	9e4759ac28d9f707c0ba35654adddbddc5f897b1c9da1a6cbdd00e8758ea6941
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	b763d3cc20f3a0ccb4ebdeaa853cd0e3db8f973b7392c493cd27c2dbe1ce66bc
-manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	316eb7888045021ce9844c5f9d47fdbe0ed3cc421455a321de484d5ff080f038
+manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	9acdc9a457f07552e60c7af400d84a9bfb179b41b58974b6b8f604582ca3eab1
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	17313e671925d16b952605979c79140acc4b4427dce2ab36cf7c11f7e7f04650
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	fcc1579606b9f0b896bccfacae845cfbab985a71f9ac0fd465ef4f19e7c1fca2
-manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	7852063c8abd829c3c926ca48acfd96d4f2dd7bbb86e869f62d5b5376ed73d2c
+manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	545f923583b25d5e7c06572e00fbdf475ce533dd3a62474b0f08c12875c34d36
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	8f77e5e94472d0000ed882aa0c3db7ca7fce1eecec47e2f29501ec416ba88baf
 manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	1fa12475a93681641294d28ede90e488e6402320f3c28b31475118ad9ae9ea4a
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	af732b084926765ba3610e74d940fc17eccb62092101b57645bec6ede346aade
@@ -118,7 +118,7 @@ manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	586583b824
 manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	436393f22e8ce81ce422f8bd92ac62e87e135472149ac39441e787dae5c90ee2
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	e166eafa333d1649b8e9d4e88699842b011bc1ccda0bbd1bdbfe67a7ed39aa5a
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	da7f87e3433ce4471a98d8ff679ca71a056c536f2a7a7c3652f3564a9d792008
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	dcfd48f562cc7a828c03bf8ffe2ca61ba96d1d4f3a892d94ce1899dce0e2f6f1
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	65204e3ce7809f2c07196ea5537343b0b55dab6da70445042f805ccaa4957748
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	bb573aa532d0dfe1cff4a14dbda03fb520d9c4732a273cda3b96506b23cbb670
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	046094ce0b25a9b2235766aafa5c5992d871a5616a850ca459695e5daad816f4
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	c449ab7ae917f5707905d96e2435fadaae6a79b2b53e4f3fdc5e170c912a972c
