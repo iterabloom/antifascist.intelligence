@@ -382,8 +382,8 @@ reader has to decode rather than read.
   came back from the first Overleaf pass and the twelve from the second were
   caught by reading and not by any check. Edits made in Overleaf come back with
   `\textit`; convert them on import. `\textbf` is not used in the prose at
-  all: its only use is a table header in §2.2, and the one in §3.3 is a working
-  note's marking, open under Q-077.
+  all: its only use is a table header in §2.2. The one that stood in §3.3, a
+  working note's marking, was cut at D-199.
 
 ## 9. What this pass does not do (D-007)
 

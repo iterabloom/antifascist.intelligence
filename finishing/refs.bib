@@ -14,6 +14,17 @@
   note = {Held 12--14 October 2026 in Malmo, Sweden, the ninth consecutive annual edition of the AAAI/ACM Conference on AI, Ethics, and Society since its first in 2018.}
 }
 
+@inproceedings{abbaszadeh2024kaizen,
+  author = {Abbaszadeh, Kasra and Pappas, Christodoulos and Katz, Jonathan and Papadopoulos, Dimitrios},
+  title = {Zero-Knowledge Proofs of Training for Deep Neural Networks},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)},
+  doi = {10.1145/3658644.3670316},
+  url = {https://eprint.iacr.org/2024/162},
+  urldate = {2026-09-04},
+  note = {Kaizen, a zero-knowledge proof that a committed model was trained by gradient descent on a committed dataset. Reports VGG-11 at 10 million parameters and batch size 16 at 15 minutes of proving per iteration, with a 1.63 MB proof verified in 130 ms; the proof size and verifier time are independent of the number of iterations.}
+}
+
 @online{abraham2024lavender,
   author = {Abraham, Yuval},
   title = {'Lavender': The {AI} Machine Directing {I}srael's Bombing Spree in {G}aza},
@@ -152,6 +163,18 @@
   urldate = {2026-08-25}
 }
 
+@online{arun2025verde,
+  author = {Arun, Arasu and St. Arnaud, Adam and Titov, Alexey and Wilcox, Brian and Kolobarić, Viktor and Brinkmann, Marc and Ersoy, Oguzhan and Fielding, Ben and Bonneau, Joseph},
+  title = {Verde: Verification via Refereed Delegation for Machine Learning Programs},
+  year = {2025},
+  month = feb,
+  eprint = {2502.19405},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2502.19405},
+  urldate = {2026-09-04},
+  note = {Refereed delegation for training: providers commit to checkpoints, a referee localizes a dispute to one training step and then to one operator and recomputes only that, and the client obtains the correct result if at least one provider is honest. RepOps, its reproducible-operator library, fixes the order of floating-point operations so that different GPUs compute the same bits, at under 30 percent overhead for large matrix multiplications and about 60 percent for training Llama-3.1-1B on an A100; the paper states that RepOps covers single-GPU programs only at publication, with multi-GPU parallelism left to future work.}
+}
+
 @article{awad2018moral,
   author = {Awad, Edmond and Dsouza, Sohan and Kim, Richard and Schulz, Jonathan and Henrich, Joseph and Shariff, Azim and Bonnefon, Jean-Fran\c{c}ois and Rahwan, Iyad},
   title = {The Moral Machine Experiment},
@@ -280,6 +303,18 @@
   url = {https://supreme.justia.com/cases/federal/us/601/22-448/},
   urldate = {2026-08-29},
   note = {Decided May 16, 2024, 7--2. Held that the Bureau's funding from the Federal Reserve's earnings, outside annual appropriations, satisfies the Appropriations Clause.}
+}
+
+@inproceedings{choi2023verifying,
+  author = {Choi, Dami and Shavit, Yonadav and Duvenaud, David},
+  title = {Tools for Verifying Neural Models' Training Data},
+  year = {2023},
+  booktitle = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023)},
+  eprint = {2307.00682},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2307.00682},
+  urldate = {2026-09-04},
+  note = {Proof-of-training-data: a data-dependent pre-committed seed, and a verifier who re-executes segments of the run and accepts weights within a tolerance, at about 1.3 percent of the training compute on the paper's accounting. States that hardware-level noise means no two training runs return the same final weights bit for bit, which the reproducible-operator work of arun2025verde contradicts for the hardware it covers.}
 }
 
 @misc{coe2026euratifies,
@@ -1951,6 +1986,18 @@
   urldate = {2026-08-25}
 }
 
+@inproceedings{long2025unextractable,
+  author = {Long, Alexander and Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},
+  title = {Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization},
+  year = {2025},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025)},
+  eprint = {2605.23464},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2605.23464},
+  urldate = {2026-09-04},
+  note = {Model-parallel training across participants none of whom holds a full set of weights, with time-varying invertible transforms at shard boundaries so that shards from different times cannot be reassembled. Demonstrated on Qwen-2.5-0.5B and Llama-3.2-1B at 1.6 percent training-time overhead; reassembly by fine-tuning stitched shards is reported to cost at least 60 percent of training from scratch. Posted to arXiv in May 2026, five months after the conference; the NeurIPS 2025 poster is listed at neurips.cc/virtual/2025/poster/118911.}
+}
+
 @misc{loomis2016compas,
   author = {{Wisconsin Supreme Court}},
   title = {State v. Loomis},
@@ -2486,6 +2533,18 @@
   url = {https://blog.google/technology/ai/ai-principles/},
   urldate = {2026-08-25},
   note = {Published June 7, 2018, following weeks of employee and public backlash over Project Maven, a Pentagon drone-footage-analysis contract; roughly 4{,}000 employees signed a letter opposing it and about a dozen resigned.}
+}
+
+@online{primeintellect2025intellect2,
+  author = {{Prime Intellect Team} and Jaghouar, Sami and Mattern, Justus and Ong, Jack Min and Straube, Jannik and Basra, Manveer and Pazdera, Aaron and Thaman, Kushal and Di Ferrante, Matthew and Gabriel, Felix and Obeid, Fares and Erdem, Kemal and Keiblinger, Michael and Hagemann, Johannes},
+  title = {{INTELLECT-2}: A Reasoning Model Trained Through Globally Decentralized Reinforcement Learning},
+  year = {2025},
+  month = may,
+  eprint = {2505.07291},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2505.07291},
+  urldate = {2026-09-04},
+  note = {A 32-billion-parameter model trained by reinforcement learning with rollouts from permissionless contributors on consumer GPUs, each rollout checked against the claimed weights by TOPLOC; the training step itself ran on trusted nodes and the trainers kept the decision.}
 }
 
 @misc{propublica2023leo,

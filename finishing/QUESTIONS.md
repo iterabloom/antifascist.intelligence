@@ -1,5 +1,11 @@
 # Open questions
 
+**Current as of 2026-09-04, after D-200 (P102): no entry changes.** P102 executed the ruling on §3.3:19's determinism claim and the decentralized-training discussion that `p101-scope.md` had put to the author; it opened no question and closed none. One item is named there and not entered: the *no-off problem* paper and §3.5's premise that the halt is always available, which needs a ruling rather than a default. `p102-scope.md` has the check, and Q-070 and Q-074 stand.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-04, after D-199 (P101): Q-069 and Q-077 are closed by ruling; Q-070 and Q-074 stand.** Q-069 closed by answering the note in the section — the case that fits is the research animal, because it alone was made for its role, and being made for the role raises the burden — and then removing the note. Q-077 closed by cutting the *because* clause and its bolding on the reader's recommendation, after a check outside chapters 1 to 3 found nothing leaning on the clause. **Q-070's note stays in §2.3.2 and prints**; nothing was ruled on it. **Q-074 is untouched.** **No new entry**: the determinism claim at §3.3:19 was investigated with sources and put to the author in `p101-scope.md` rather than entered here, because what it needs is a ruling on new material and a default would not do. `p101-scope.md` has the check.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-04, after D-198 (P100): Q-078, Q-079 and Q-080 are closed by ruling, and Q-074 and Q-077 stand.** Q-078 closed on the author's verb rather than on any option as written — *I think specifies is a better word* — so *specifies* stays and the from/into frame that belonged to *converts* goes, carried now by a relative clause on the question. Q-079 closed on (b), *those all stay they are part of my style*, and the three choices are written into `style.md` §1 and §8 so no pass reports them again. Q-080 closed on the author's second option, *force readers to build their own*, after a bridge was drafted and found to repeat §3.2's own opening: what the cut bridge carried is on the page in four other places. **Each closed entry carries a closure line under its heading and is otherwise left in place**, which is P95's practice with one line added. **Q-074 and Q-077 are untouched**: the two working notes in §3.3 still print, bold clause included. `p100-scope.md` has the check.
 
 **Superseded header, kept for the record.**
@@ -2072,6 +2078,8 @@ the deployment and mostly never learn it acted.
 
 ### Q-069 — Is §2.3.2's "no prior party could have agreed" argument too convenient?
 
+**Closed by ruling, D-199 (P101), on (b) in substance and (a) in form**: the section now names the research animal as the case that fits, because it alone was brought into existence for its role, says that being made for the role raises the burden, and says outright that the argument is what a laboratory wanting a free hand would say and why that laboratory is wrong about what follows. The note is removed from the manuscript.
+
 **The author's own note, written into the manuscript during the 2026-09-01 Overleaf pass and copied
 here for extra oomph.** It stands in `02_03_02.tex` and prints in both proofs. Verbatim: *this smells like something a large
 profit-seeking frontier model business might say. I should give this a bit more thought.*
@@ -2290,6 +2298,8 @@ shape as Q-075 at paragraph scale.
 - (b) Both: restore a clause to the opening naming the four capacities as well.
 - (c) Neither. Both readings are mine and the prose is the author's.
 ### Q-077 — Two working notes in §3.3, and a `\textbf` that bolds 24 words of the argument
+
+**Closed by ruling, D-199 (P101), on the reader's recommendation rather than an option as written**: the *because* clause and its `\textbf` are cut, the note with them, after a check found nothing outside chapters 1 to 3 leaning on the clause. The sentence reads *Put that way the claim is safer than it is useful.* and the routes sentence follows. The determinism note at §3.3:19 was investigated separately and stands; `p101-scope.md` carries the findings.
 
 **Raised by P99's read of the returned Overleaf package; both print in the 2026-09-04
 proofs.** Neither was removed, because **Q-069 and Q-070 record that working notes are in
