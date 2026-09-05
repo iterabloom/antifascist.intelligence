@@ -83,8 +83,8 @@ to the scratchpad with `build_tex.sh`; **0 undefined references**; **20 overfull
 against the 20 P99 reported**, which makes this the first pass with a baseline for that
 count. **138 sections.** `check_all.sh` green after `refresh_order_shas.py` refreshed the
 one digest the edit staled. `reports/section_stats.tsv` was regenerated and did not change.
-**Nothing is committed at the time of writing**, and the 2026-09-04 proof pair no longer
-matches the sources at §3:15.
+**Committed as `9b802a4`**, and the proof pair rebuilt in place at `969b952` on the
+author's *make the proofs*, same local date, so the 2026-09-04 pair is current.
 
 ## Left undone, named
 
