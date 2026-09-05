@@ -9,3 +9,5 @@
 # a conflict, rebuild with finishing/tools/build_proof.sh rather than resolve.
 finishing/reports/whole-book-proof_*.pdf   -diff -merge linguist-generated
 finishing/reports/whole-book-proof_*.html  -diff -merge linguist-generated
+# The persona-device record is one binary archive by design (2026-09-05).
+persona-device-files_*.zip                 -diff -merge

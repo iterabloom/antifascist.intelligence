@@ -5,7 +5,7 @@ Kept because `AGENTS.md` describes this repository as the book **plus the
 complete record of how it was made**, and until 2026-08-24 the reviews existed
 only in temporary files while the responses to them were fully documented.
 
-**Read-only, like `editorial/`.** These are received documents. Do not edit,
+**Read-only, like the rest of the provenance record.** These are received documents. Do not edit,
 renumber, "correct" or reformat them — including the section numbers inside
 them, which are the numbering in force when the review was written and are
 therefore *pre*-D-031 and *pre*-D-043. Use `renumber-map_2026-08-23.tsv` and

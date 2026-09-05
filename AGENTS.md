@@ -8,11 +8,15 @@
   structure). Do not generate, commit, restore, or re-derive anything that
   presents such simulated material as a real person's own view, conduct, or
   contribution. Do not rate, rank, or score a real person. Both prohibitions
-  apply in every file, in notebook output, and in commit messages. Cite reviews
-  in `editorial/` by file and index or line range; do not cite them by persona
-  name. If material of this kind turns up in the repository, or genuinely needs
-  to exist for some reason, it goes in `~/ethical.superintelligence-private/`,
-  outside the repository. It must not be kept here.
+  apply in every file, in notebook output, and in commit messages. Cite the archived
+  reviews (`editorial/` inside the archive) by file and index or line range; do
+  not cite them by persona name. Material of this kind that is part of the record is kept as one binary
+  archive, `persona-device-files_<date>.zip` at the repository root, never as
+  text in the tree: the record stays complete and anyone can download and read
+  it, and no rendered page carries a real person's name beside generated text,
+  which is what search engines index. The plain files came out of the tree on
+  2026-09-05. Anything of this kind that must not be in the repository at all
+  goes in `~/ethical.superintelligence-private/`, outside it.
 
   **Ordinary scholarly citation is allowed and expected.** Naming the researchers
   who published a finding, quoting a published claim with a citation, and
@@ -68,11 +72,16 @@
   the URL is unauthenticated, and the passphrase is the whole of the protection.
   Passphrases are logged in cleartext to `~/.upload-secrets`, which stays outside
   the repository.
-- **Provenance, read-only.** `genesis/`, `personas/`, `generation/`,
-  `editorial/`, `summaries/`, and `manuscript/previous/` are the record of what
-  happened during the book's creation. Editing or regenerating them destroys that
-  record, so do neither. `summaries/summary_triangle_*` is frozen as a unit: do
-  not modify any part of it independently of the rest.
+- **Provenance, read-only.** `summaries/`, `manuscript/previous/`, what remains
+  of `generation/` and `cognition/`, and the persona-device archive
+  `persona-device-files_<date>.zip` at the root are the record of what happened
+  during the book's creation. The archive holds, as one binary file, what were
+  the `genesis/`, `personas/` and `editorial/` folders, the persona-bearing files
+  of `generation/` and `cognition/`, and the original upload's layout index; the
+  names guard reads its roster from the spreadsheets inside it. Editing or
+  regenerating any of this destroys that record, so do neither.
+  `summaries/summary_triangle_*` is frozen as a unit: do not modify any part of
+  it independently of the rest.
 - **Quarry.** `cognition/` holds source material, including a draft of a separate
   book, *An Atlas of Human Cognition*. Passages from it may be adapted into the
   manuscript where useful. The *Atlas* itself is not a second deliverable and
@@ -84,9 +93,10 @@
   form `name_YYYY-MM-DD.ext`. The date records when the author last worked on the
   file. Do not update, remove, or correct it when a file is edited or moved. New
   files may omit the suffix.
-- `original-layout-and-mtimes.txt` records the archive as it was originally
-  uploaded. It is a historical record and not an index of the repository's
-  current contents. Do not regenerate it.
+- `original-layout-and-mtimes.txt`, inside the persona-device archive since
+  2026-09-05, records the upload as it was originally received. It is a
+  historical record and not an index of the repository's current contents. Do
+  not regenerate it.
 
 ## Author's Shorthand
 - **"Make the proofs."** This phrase — or "do the proofs," or a near variant —

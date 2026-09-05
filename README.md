@@ -31,14 +31,11 @@ that make suffering likely.
 | Folder | Contents |
 |---|---|
 | `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the book one file per section, in LaTeX; `book.tex` is the master file and `preamble.tex` the typesetting |
-| `genesis/` | Apr 2023 origin: the founding prompt and the first seed report |
-| `personas/` | The cast of ~100 simulated expert co-authors, their grouping by field, authoritarianism screen, and per-section author assignments |
-| `generation/` | The notebooks that generated the text section by section, the full generation transcript, and loose prompt fragments |
-| `editorial/` | Review passes: persona-by-persona feedback and the "editorial triad" restructuring reviews |
+| `persona-device-files_2026-09-05.zip` | The persona-device record as one binary archive: the Apr 2023 founding prompt and seed report; the cast of ~100 simulated expert co-authors, their grouping by field and per-section author assignments; the notebooks that generated the text section by section and the full generation transcript; the persona-by-persona feedback and the "editorial triad" restructuring reviews; a Dec 2022 theory-of-mind transcript; and the map from every file's original path to its last-modified timestamp. Kept as an archive so the record stays complete and downloadable while no rendered page carries a real person's name beside generated text |
+| `generation/` | The API smoke test and loose prompt fragments; the generation notebooks and transcript are in the archive |
 | `summaries/` | Per-section summaries and the "triangle of summaries" experiment |
-| `cognition/` | 2026 source material on human cognition: the *Atlas of Human Cognition* draft, a predictive-processing diagram, notes, and a Dec 2022 theory-of-mind transcript |
+| `cognition/` | 2026 source material on human cognition: the *Atlas of Human Cognition* draft, a predictive-processing diagram, and notes |
 | `finishing/` | The campaign to finish the book: plan, decisions, work ledger, and read-only analysis tools |
-| `original-layout-and-mtimes.txt` | Map from every file's original path to its last-modified timestamp |
 
 Filenames carry their last-modified date as a suffix (`name_YYYY-MM-DD.ext`).
 

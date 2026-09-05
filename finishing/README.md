@@ -1,8 +1,9 @@
 # finishing/
 
 Working area for the campaign to finish the book. Everything here is new work;
-nothing in `genesis/`, `personas/`, `generation/`, `editorial/`, `summaries/`,
-or `manuscript/previous/` is touched by it — those stay read-only provenance.
+nothing in the provenance record — `summaries/`, `manuscript/previous/`, what
+remains of `generation/`, and the persona-device archive at the repository root —
+is touched by it. That record is read-only.
 
 New files here omit the date suffix, as the file convention allows.
 
@@ -95,7 +96,7 @@ allowed everywhere, including in the book.
 range of "reviewed by", "rated", "in their review", "writing as", "in the voice
 of", "simulated", and similar — and hard-fails on that anywhere. Other name hits
 are listed as citations for a human to confirm. The name list is built in memory
-from the spreadsheets and is never written to disk. Material that must exist and
+from the spreadsheets inside the persona-device archive and is never written to disk. Material that must exist and
 cannot live here goes to `~/ethical.superintelligence-private/`.
 
 **Commit sign-off.** `git commit -s` is mandatory. A commit without a DCO

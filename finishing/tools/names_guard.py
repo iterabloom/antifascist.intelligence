@@ -19,7 +19,9 @@ the voice of, simulated. Those are hard failures anywhere. Other name hits are
 reported for a human to confirm are citations.
 
 The persona name list is built in memory from the spreadsheets and is NEVER
-written to disk.
+written to disk. Since 2026-09-05 the spreadsheets live inside the
+persona-device archive at the repository root (odsread reads them from there),
+so that no rendered page carries a real person's name beside generated text.
 
 Usage:
   names_guard.py                       # scan finishing/ and manuscript/
@@ -46,9 +48,17 @@ ATTRIB = re.compile(
 PERSONA_SOURCES = [
     ("personas/section-assignments/superintelligence-ethics-outline_v3b_2024-07-07.ods", 1),
     ("personas/section-assignments/superintelligence-ethics-outline_v3_2024-07-07.ods", 1),
+    ("personas/section-assignments/previous/superintelligence-ethics-outline_v3a_2024-07-07.ods", 1),
+    ("personas/section-assignments/previous/superintelligence-ethics-outline_v2_2024-07-07.ods", 1),
     ("personas/nonredundant_authors_2023-05-08.ods", 0),
     ("personas/author-grouping-bootstrap_2023-08-21.ods", 0),
 ]
+
+# A name may carry a lowercase particle between its first and last tokens (van,
+# de, von, della). Until 2026-09-05 every token had to be capitalized, which
+# silently dropped one persona from the roster; the 2026-09-05 audit found it.
+NAME_TOKEN = re.compile(r"^[A-Z][\w.'-]*$")
+PARTICLE = re.compile(r"^[a-z]{1,5}$")
 
 STOP = {"the", "and", "of", "team", "comprising", "professor", "phd"}
 
@@ -76,7 +86,7 @@ def persona_names():
     names = set()
     for rel, start_col in PERSONA_SOURCES:
         path = os.path.join(common.REPO, rel)
-        if not os.path.exists(path):
+        if not odsread.exists(path):
             continue
         for _, rows in odsread.sheets(path):
             for row in rows:
@@ -86,7 +96,9 @@ def persona_names():
                         toks = [t for t in nm.split() if t.lower() not in STOP]
                         if len(toks) < 2:
                             continue
-                        if not all(re.match(r"^[A-Z][\w.'-]*$", t) for t in toks):
+                        if not (NAME_TOKEN.match(toks[0]) and NAME_TOKEN.match(toks[-1])):
+                            continue
+                        if not all(NAME_TOKEN.match(t) or PARTICLE.match(t) for t in toks[1:-1]):
                             continue
                         if len(toks) > 5:
                             continue
@@ -101,7 +113,7 @@ def build_regex(names):
     for n in sorted(names, key=len, reverse=True):
         toks = n.split()
         # first ... last, tolerating middle names/initials in between
-        pat = re.escape(toks[0]) + r"(?:\s+[A-Z][\w.'-]*){0,3}\s+" + re.escape(toks[-1])
+        pat = re.escape(toks[0]) + r"(?:\s+[\w.'-]+){0,3}\s+" + re.escape(toks[-1])
         pats.append(pat)
     return re.compile(r"\b(?:%s)\b" % "|".join(pats)) if pats else None
 
