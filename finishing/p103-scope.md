@@ -157,7 +157,7 @@ named as wrong; it has two, at §2.1.2 and §3.4, and now says so.
 0, §3.6 −1, §3.8 −1, §3.4 −41. **185 pages**, built to the scratchpad after every edit; **0 undefined
 references; 20 overfull boxes against P102's 20; 138 sections; 518 `\ref`, +2** (§3.10 → §3.4, §2.2 →
 §9.3.5). Ten `ORDER.tsv` digests refreshed across the round. `reports/section_stats.tsv` regenerated.
-`check_all.sh` green. **Nothing committed at the time of writing.**
+`check_all.sh` green. **Committed as `0d65a7c`; the proof pair rebuilt at `c7084d6` on the author's *make the proofs*, so the 2026-09-05 pair is current at 185 pages.**
 
 ## Left undone, named
 
