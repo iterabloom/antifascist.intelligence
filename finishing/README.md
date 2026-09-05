@@ -96,8 +96,9 @@ allowed everywhere, including in the book.
 range of "reviewed by", "rated", "in their review", "writing as", "in the voice
 of", "simulated", and similar — and hard-fails on that anywhere. Other name hits
 are listed as citations for a human to confirm. The name list is built in memory
-from the spreadsheets inside the persona-device archive and is never written to disk. Material that must exist and
-cannot live here goes to `~/ethical.superintelligence-private/`.
+from the spreadsheets inside the persona-device archive and is never written to disk. Material of the persona kind that is
+part of the record goes into that archive, never into the tree as text; material
+that must not be in the repository at all goes to `~/ethical.superintelligence-private/`.
 
 **Commit sign-off.** `git commit -s` is mandatory. A commit without a DCO
 sign-off is rejected. Don't put anything you need to keep into a trailer.
