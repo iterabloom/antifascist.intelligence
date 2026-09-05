@@ -7,15 +7,15 @@ manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	187ea48a96987aa293ce7359a7655475bc0e14418db8f35a26f64c706bd136c7
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	92fd11396bfdcd1a2bf95c9562c350e358f5bbdeabd8f24d8124d95a70d6c457
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	08d3b59b5d8e5c4350346bfdf8c74b9804986366ff0593d4863e95fad95b95c7
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	b684cc7c7ed63198ff3bf12603c060109f0c018d0878737d63439b0fa55520a4
+manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	37c3669f72414b8cc47c5fbc7fcfd808876fde6d01016f708c290a36b6030ab9
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	f7d57d3582b8300828caea8a178ebf1d49154e8b17329e399993bf03756169c5
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	8fd9b3f63fe92f22c9882ccb0d4e7d914dbb40e98c9276fa38431cc2bd905808
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	70b274ec173317d3dfd6a5038cf082b06a7c150b5e4faae1abbaabbaef439870
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	3749b1718d35f7dff5910535f95e6e89177a9bbb5adcafe0e7c793420fb00b02
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	9ba1ce4ca3df1ae269a1090cef3e0160bb6066650321cf631e82fb81ce97109a
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	e62c2dae57df4087acdcde55f942c192f15b543c6e06fa04a16d3b68609c5056
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	9e4759ac28d9f707c0ba35654adddbddc5f897b1c9da1a6cbdd00e8758ea6941
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	b763d3cc20f3a0ccb4ebdeaa853cd0e3db8f973b7392c493cd27c2dbe1ce66bc
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	256056d2d789f83d1356852a999dd73bfd6171a8295fdd0b89ed2409eaba31c5
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	9acdc9a457f07552e60c7af400d84a9bfb179b41b58974b6b8f604582ca3eab1
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	17313e671925d16b952605979c79140acc4b4427dce2ab36cf7c11f7e7f04650
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	fcc1579606b9f0b896bccfacae845cfbab985a71f9ac0fd465ef4f19e7c1fca2
@@ -45,7 +45,7 @@ manuscript/sections/ch05/05_01_01.tex	5.1.1	Rules, Principles, and the Role of M
 manuscript/sections/ch05/05_01_02.tex	5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	becfd99725c4a5e0b50bc3090dbc476b82388df5f9573f93d669ca5cfbd7bb51
 manuscript/sections/ch05/05_01_03.tex	5.1.3	Human Dignity, and One Indicator That Can Be Audited	c7f058d08dbfa0f63963b3465f6c0abffb7f6b58e94dbb424f7392b54576800a
 manuscript/sections/ch05/05_02.tex	5.2	Emotions and Intuitions in Moral Decision-Making	5ce3c39ea9f2f6245d1f0665af27ffe524035b4966298b2f8ff2c53248379812
-manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	a04a792d0406fbd8a54e54539d5453c4573780a30d7f9235752e8ed47e8d92ce
+manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	a0e3c2bf9eec3dc2d66da02a1ab7652a5ad73d5b0697692700053aacd38aed1a
 manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	bfcedadd778211444703d22a88084e4e203472a2c1cda66957be3c53134d6517
 manuscript/sections/ch05/05_02_03.tex	5.2.3	The Role of Introspection for AI Systems	d24386d491f6345753368274f81ba2c34bd936d8650af5761f4c57ba81222c70
 manuscript/sections/ch05/05_03.tex	5.3	Integrating Moral Intuitions and Deliberation	a4cd9d2ff9c8440dfebb023b5b314ff4ebff9321c666c6a5e73ae687ee9c5146
@@ -123,7 +123,7 @@ manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actua
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	046094ce0b25a9b2235766aafa5c5992d871a5616a850ca459695e5daad816f4
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	c449ab7ae917f5707905d96e2435fadaae6a79b2b53e4f3fdc5e170c912a972c
 manuscript/sections/ch11/11_06.tex	11.6	Can a Multi-Agent AI System Resist Being Captured?	82d41ab5205a5b95e119d6c66170b8032e550c048a7e5490ee42d955e673bf20
-manuscript/sections/ch11/11_07.tex	11.7	Open Questions in Empathy and Theory-of-Mind Research	20c0ded886e9b56e522075e9b0845126097eef6991608e78de528318c6aee9ef
+manuscript/sections/ch11/11_07.tex	11.7	Open Questions in Theory-of-Mind Research	976ed7d3c2f2f36027e1b3351c4a27d138e55aa04daa82a5d6333081dc7537cd
 manuscript/sections/ch11/11_08.tex	11.8	Is Emotion Legible From a Face at All?	09da648d570e180efeafb0f7f6f9fd12ac668851a97ec18e5795b3813f3b7865
 manuscript/sections/ch11/11_09.tex	11.9	The Responsibility Gap, Which No Experiment Closes	dcb50f0eeeca00924ce67de6c41212c982f7f339af44ba71ceb88641d616fbde
 manuscript/sections/ch12/12.tex	12	Conclusion and Outlook	51a48e3e552a9c3881b9ed850da082f0979f7b51ae8b8ccf451016658c9ce8a4

@@ -122,7 +122,7 @@ Chapter 11: Necessary Areas of Research
 11.4. When an Ethics-Embedding Method Stops Generalizing
 11.5. Value Learning as Unfinished Technical Research
 11.6. Can a Multi-Agent AI System Resist Being Captured?
-11.7. Open Questions in Empathy and Theory-of-Mind Research
+11.7. Open Questions in Theory-of-Mind Research
 11.8. Is Emotion Legible From a Face at All?
 11.9. The Responsibility Gap, Which No Experiment Closes
 Chapter 12: Conclusion and Outlook
