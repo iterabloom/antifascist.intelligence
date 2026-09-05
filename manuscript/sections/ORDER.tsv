@@ -16,22 +16,22 @@ manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Cos
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	9ba1ce4ca3df1ae269a1090cef3e0160bb6066650321cf631e82fb81ce97109a
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	afc0ea6fdc1ae6f3b17b10d456b89672f08168de824dcea4173cb7252b7daf8f
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	b763d3cc20f3a0ccb4ebdeaa853cd0e3db8f973b7392c493cd27c2dbe1ce66bc
-manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	3187c6ade16f9514fd4648d5d0ef241e757c736d2fab74ab5c0db695b4ddc5c7
+manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	316eb7888045021ce9844c5f9d47fdbe0ed3cc421455a321de484d5ff080f038
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	17313e671925d16b952605979c79140acc4b4427dce2ab36cf7c11f7e7f04650
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	fcc1579606b9f0b896bccfacae845cfbab985a71f9ac0fd465ef4f19e7c1fca2
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	7852063c8abd829c3c926ca48acfd96d4f2dd7bbb86e869f62d5b5376ed73d2c
-manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	f6d322c3be0ab8f8a3dabd19e7e649e2fea3352779d87bb48cbf81dbf3e7d39b
+manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	8f77e5e94472d0000ed882aa0c3db7ca7fce1eecec47e2f29501ec416ba88baf
 manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	1fa12475a93681641294d28ede90e488e6402320f3c28b31475118ad9ae9ea4a
-manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	30b0d75d5fd9b1ea29c60dfab997b47ad7ff30075920d36954b0817916871cd9
+manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	af732b084926765ba3610e74d940fc17eccb62092101b57645bec6ede346aade
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	8c29ef4494c227a74d5ba69106dabe66ad7a313468e457ca34a7e1808f4e7e71
-manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	1b53c06fc5b99a15dc0f7d036daf6a7485126d8c229427c0e748d3c9c36ddbbd
+manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	0c239cfc31c691587e2a36b638daeecd01675438a56d9397dca9c8ef53684a7b
 manuscript/sections/ch04/04_01_02.tex	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	95b6b603f196a97acdad5ef58143434159c68c4779bc9e4b305bfd8681195c38
 manuscript/sections/ch04/04_01_03.tex	4.1.3	Human-Like Learning and Generalization in AI Systems	7c2ef94b94780726bd2cd85038232ea7b07616ff99075a33bdd822a1495bb1a5
 manuscript/sections/ch04/04_02.tex	4.2	How a Deployed System Acquires Its Values	854a70a3dbd60ea9b3251cf60b4bb9ae4eba64664c812eb00ac39da5f335a500
-manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	afcada888bdfc66df53f3b9cdd4e0f90f6ac4d4f3f11112962e2c8913f67750a
+manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	6c27d9439cf2b8d0901d799e43948c8d862b91959a23faf4ecc795a90b7c3351
 manuscript/sections/ch04/04_02_02.tex	4.2.2	Preference Optimization, and Who Holds the Pen	8b775f17f6fb66813717b52e0d6b81b6535517d2042ad57823ea32cdcc04179d
 manuscript/sections/ch04/04_02_03.tex	4.2.3	Inferring the Objective: IRL and CIRL	0d18fa64aa804330db212577994d681155152368c0454a9b98bf357c6648308d
-manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	c8dd369164ba3c154f984d7423adbe26e3d778554ab505557c4620f0b7700b2e
+manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	7d447d4d329a78e9c56422ebc62edd71fea9d7574fbad7993972a8bfb0525864
 manuscript/sections/ch04/04_02_05.tex	4.2.5	Process and Outcome Supervision	df5f65c5e3c4c4ec17bec7cc6dcee332fd01cc3d0bcb8c1b44a354ac73587122
 manuscript/sections/ch04/04_02_06.tex	4.2.6	Scalable Oversight	93389de0a4873ddd6e131c05fde16eaae78de48cd041f8a98fad4078d8d98c21
 manuscript/sections/ch04/04_02_07.tex	4.2.7	Interpretability and Evaluation as Instruments	d3b24c8ac0ae0fbe6a5cb1bc7bd12dc5885c47dba089e886cb998db83e7d51c3
@@ -58,8 +58,8 @@ manuscript/sections/ch05/05_04_02.tex	5.4.2	AI Systems Responding to Authoritari
 manuscript/sections/ch05/05_05.tex	5.5	The Interplay of Competition and Collaboration in AI Development	cf778c8fa52fb70b6a7477075c7d45994d575736baf06562be0993b47d8d042d
 manuscript/sections/ch05/05_05_01.tex	5.5.1	Cooperative AI Systems and Multi-Agent Moral Development	2e2956ce507ad3d1acf826e33cae0f8a14227ccf7add28f643a1cf2ab5d09879
 manuscript/sections/ch05/05_06.tex	5.6	Motivation in AI Systems	6dd5885b2368a38bea47755823ff8e42b93ef8e3b7dfc7bb8ac235176ee843c6
-manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	42491decdcb110ddfc97cee080aa0bf45cba9b27334a034324845d9cdea4fad1
-manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	44cd02b3d881b8eddea617f13daff6dbdc2e099254ac6419cbac15c3f563ef95
+manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	9a653c471eabbcd6c762d5d4aef44847b0b49ac1135d483e4e348d04392044d1
+manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	803099b685507d5bc1768a882f0df5954f0b0c0c2e7b1e5d7eb638049e6a8c7d
 manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development in AI	4c84b881fa612a10ffed6aef2fb757d37c555c9d4ac4d0cdae66fa7a544f2901
 manuscript/sections/ch05/05_07_01.tex	5.7.1	The Role of Play in Moral Learning and Socialization	c9b09f377f3018ecea1acfc89f38b233e98b4d9ff734d0f159c0db83549832bf
 manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	68055cd32d179c4966d0e6965344d1cc227ea16617c7dd4e04094e4b6c4f4dce
