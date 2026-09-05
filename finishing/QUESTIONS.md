@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-04, after D-198 (P100): Q-078, Q-079 and Q-080 are closed by ruling, and Q-074 and Q-077 stand.** Q-078 closed on the author's verb rather than on any option as written — *I think specifies is a better word* — so *specifies* stays and the from/into frame that belonged to *converts* goes, carried now by a relative clause on the question. Q-079 closed on (b), *those all stay they are part of my style*, and the three choices are written into `style.md` §1 and §8 so no pass reports them again. Q-080 closed on the author's second option, *force readers to build their own*, after a bridge was drafted and found to repeat §3.2's own opening: what the cut bridge carried is on the page in four other places. **Each closed entry carries a closure line under its heading and is otherwise left in place**, which is P95's practice with one line added. **Q-074 and Q-077 are untouched**: the two working notes in §3.3 still print, bold clause included. `p100-scope.md` has the check.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-04, after D-197 (P99): four new entries, Q-077 through Q-080, and Q-074 stands.** P99 imported the author's second Overleaf pass over chapter 3 and **the author deferred every ruling it raised and asked for the proofs**, so the four entries record what the 2026-09-04 pair ships rather than what was fixed. **Q-077 is the one that changes the printed page**: two working notes are now in §3.3 and both print, and the second is wrapped in a `\textbf` that opens 24 words early, bolding a clause of the book's own argument beside a note that contradicts it. **Neither note was removed, on Q-069 and Q-070**, which record that working notes are in the manuscript by the author's choice; Q-077 asks only about the markup and the unverified determinism claim. Q-078 is a verb that no longer takes its prepositions, Q-079 groups three register departures each of which is a book-first, and Q-080 is §3.1's cut bridge into §3.2. **Every entry carries a default and none blocks work.** Three further cut sentences needed no entry and are in `p99-scope.md`, following P95's practice. **Q-074 is untouched**, and its two citations still disclose an unreached primary.
 
 **Superseded header, kept for the record.**
@@ -2323,6 +2326,8 @@ else in the book's prose; the only other instance in the manuscript is a table h
 
 ### Q-078 — §3:15's verb no longer takes its prepositions
 
+**Closed by ruling, D-198 (P100), on the author's verb and not on an option**: *specifies* stays, and the sentence now reads *it specifies the antifascist question, which stops being what a system values and becomes ⟨what comprises the floor, and who can edit it?⟩*.
+
 **Raised by P99's read of the diff.** The chapter opener now says the floor-as-object
 framing *specifies the antifascist question **from** the matter of what a system values
 **into** what comprises the floor, and who can edit it?* The verb the edit replaced was
@@ -2340,6 +2345,8 @@ which verb stands.
 ---
 
 ### Q-079 — Three register departures, each the book's first
+
+**Closed by ruling, D-198 (P100), on (b)**: *those all stay they are part of my style.* Written into `style.md` §1 and §8; nothing in the manuscript changed.
 
 **Raised by P99, measured against the whole manuscript.** None is a defect on its own;
 they are grouped because they are one question — whether the register of the author's
@@ -2374,6 +2381,8 @@ assertion did.
 ---
 
 ### Q-080 — §3.1 lost its closing bridge into §3.2
+
+**Closed by ruling, D-198 (P100), on the author's second option** — *either build a non-confusing bridge or force readers to build their own* — after a bridge was drafted and found to repeat §3.2's opening. §3.1 ends on its hybrids sentence; the stance the cut bridge stated is at chapter 1, §3's opener, §3.9 and §3.10.
 
 **Raised by P99's read of the diff; structural rather than stylistic.** The Overleaf edit
 cut §3.1's last two sentences: *None of that can be judged while “refusal” covers two

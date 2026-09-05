@@ -25,6 +25,13 @@ not replaced with a first-person frame; it is removed.
 attention" — where it means *you and I*, not *the authors*. When in doubt,
 substitute "you and I" and see whether the sentence still means what it should.
 
+**The author's own *we* stands (D-198, Q-079).** *We need nothing beyond
+reasons-responsive refusal*; *the route by which we achieve reasons-responsive
+refusal* (§3.2). It is the *we* of whoever is building the thing, the reader
+included, and the author has ruled it part of the book's voice. It is not the
+committee *we* this section removes, which proposed and recommended on behalf of
+authors who did not exist. Do not report it, and do not recast it.
+
 This is not a search-and-replace. Most of the 258 instances sit in sentences
 built around a committee that did not exist, and the sentence has to be recast.
 Expect this to be the bulk of the editing time.
@@ -365,6 +372,18 @@ reader has to decode rather than read.
 - "AI" as a mass noun ("an AI system", not "an AI") except where the book means an individual system, which it sometimes does deliberately — that distinction is load-bearing in chapters 2 and 7 and should be made consistently.
 - Spelling: US.
 - Section titles: sentence-shaped, under about ten words. The current set includes titles of 20+ words.
+- **A title may be a question, and may address the reader as *you*** (D-198,
+  Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* The
+  author's own title, ruled part of the book's voice. Do not report it.
+- ***e.g.* is permitted in body prose** (D-198, Q-079). The book has one, at
+  §3.4, and it is the author's. Do not report it or expand it.
+- **Emphasis is `\emph`, never `\textit`** (D-189, applied again at D-197).
+  The book's practice was uniform and unwritten, so the eight `\textit` that
+  came back from the first Overleaf pass and the twelve from the second were
+  caught by reading and not by any check. Edits made in Overleaf come back with
+  `\textit`; convert them on import. `\textbf` is not used in the prose at
+  all: its only use is a table header in §2.2, and the one in §3.3 is a working
+  note's marking, open under Q-077.
 
 ## 9. What this pass does not do (D-007)
 
