@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-04, after D-197 (P99): four new entries, Q-077 through Q-080, and Q-074 stands.** P99 imported the author's second Overleaf pass over chapter 3 and **the author deferred every ruling it raised and asked for the proofs**, so the four entries record what the 2026-09-04 pair ships rather than what was fixed. **Q-077 is the one that changes the printed page**: two working notes are now in §3.3 and both print, and the second is wrapped in a `\textbf` that opens 24 words early, bolding a clause of the book's own argument beside a note that contradicts it. **Neither note was removed, on Q-069 and Q-070**, which record that working notes are in the manuscript by the author's choice; Q-077 asks only about the markup and the unverified determinism claim. Q-078 is a verb that no longer takes its prepositions, Q-079 groups three register departures each of which is a book-first, and Q-080 is §3.1's cut bridge into §3.2. **Every entry carries a default and none blocks work.** Three further cut sentences needed no entry and are in `p99-scope.md`, following P95's practice. **Q-074 is untouched**, and its two citations still disclose an unreached primary.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-03, after D-196 (P98): no entry changes.** P98 reordered the prior in §3.3 and §3.4 on the author's ruling, the mechanism constructions first and the affective route once they have failed; it opened no question and closed none. `p98-scope.md` has the check, and Q-074 is still the only entry open.
 
 **Current as of 2026-09-03, after D-195 (P97): no entry changes.** P97 cut one sentence from §3.3 on the author's ruling, the human evidence offered for the maintained-justification construction; it opened no question and closed none. `p97-scope.md` has the check, and Q-074 is still the only entry open.
@@ -2283,6 +2286,122 @@ shape as Q-075 at paragraph scale.
   already covers. Applies at the close of the next pass touching chapter~3 if nothing is said.
 - (b) Both: restore a clause to the opening naming the four capacities as well.
 - (c) Neither. Both readings are mine and the prose is the author's.
+### Q-077 — Two working notes in §3.3, and a `\textbf` that bolds 24 words of the argument
+
+**Raised by P99's read of the returned Overleaf package; both print in the 2026-09-04
+proofs.** Neither was removed, because **Q-069 and Q-070 record that working notes are in
+the manuscript by the author's choice**. What is put here is the two ways these differ from
+the §2.3.2 pair.
+
+**§3.3:19** appends to the non-replayability claim: *(although there are some
+less-commonly used pytorch/CUDA/cublas settings that can guarantee an additional level of
+determinism iirc)*. **The claim was not verified** in P99 and no source was consulted for
+it. If it is right, the sentence it qualifies — that training is not replayable, so no
+proof of a training history can be published beside the hash — is weakened at the point
+where §3.3 uses it to bound what cryptographic attestation buys.
+
+**§3.3:55** carries an all-capital objection to the sentence it is embedded in, that an
+agent holding another's welfare as a reason need not be an agent to which that welfare
+matters. **The passage now argues against itself in print.** Its `\textbf{` opens **24
+words before the note**, so *and an agent that holds another's welfare as a reason is an
+agent to which that welfare matters* prints in bold as well. `\textbf` appears nowhere
+else in the book's prose; the only other instance in the manuscript is a table header in
+`ch02/02_02.tex`. The §2.3.2 notes are parenthetical and bold nothing.
+
+- **(a) Default — move the `\textbf{` to the note's own opening parenthesis, leaving both
+  notes in place and printing.** It changes nothing about what the book says, treats the
+  bolding as the marking gesture it looks like, and leaves the substance for whenever the
+  objection is answered. Applies at the close of the next pass touching chapter~3 if
+  nothing is said.
+- (b) (a) plus answering the objection in §3.3, which is a claim about what training does
+  and not about wording, and would likely reach §3.2's definition of mattering.
+- (c) Cut both notes. Departs from Q-069 and Q-070 and loses the objection, which is the
+  sharpest thing said against that paragraph.
+- (d) Leave everything exactly as it stands, bold clause included.
+
+---
+
+### Q-078 — §3:15's verb no longer takes its prepositions
+
+**Raised by P99's read of the diff.** The chapter opener now says the floor-as-object
+framing *specifies the antifascist question **from** the matter of what a system values
+**into** what comprises the floor, and who can edit it?* The verb the edit replaced was
+*converts*, which takes from/into; *specifies* does not, and the sentence has no other
+verb to carry them.
+
+Nothing else in the sentence is in question, and no cross-reference or claim depends on
+which verb stands.
+
+- **(a) Default — restore *converts*.** The from/into frame is the author's and only the
+  verb moved. Applies at the close of the next pass touching chapter~3 if nothing is said.
+- (b) *turns*, which takes the same prepositions and is plainer.
+- (c) Recast the sentence so the prepositions are not needed.
+
+---
+
+### Q-079 — Three register departures, each the book's first
+
+**Raised by P99, measured against the whole manuscript.** None is a defect on its own;
+they are grouped because they are one question — whether the register of the author's
+hand edits becomes the book's.
+
+**The first authorial *we*, twice in §3.2**: *We need nothing beyond reasons-responsive
+refusal* and *the `\emph{route}` by which we achieve reasons-responsive refusal*. The book
+is written in *I*. Book-wide, *we* as an authorial subject appears nowhere else — the two
+hits in §9.3.5 are quoted institutional speech (*we have a whistleblower channel*), and one
+hit in chapter~1 was not classified.
+
+**The book's only *e.g.* in body prose**, §3.4: *what caring costs (e.g., does caring cost
+suffering)*. The two other instances in the manuscript sit inside chapter~2's itemized
+definitions.
+
+**The book's first second-person section title**, §3.5. Five other titles are questions, so
+the interrogative is established and *You* is not. **On the substance the retitle looks
+like a repair and this entry does not propose reverting it**: the old title asserted *What
+Can Be Switched Off Cannot Hold a Line* and the section's own opening qualifies it — *The
+halt is always available* — so the question form matches the argument better than the
+assertion did.
+
+- **(a) Default — bring the two *we*'s and the *e.g.* to the book's register, keep §3.5's
+  title.** *We need nothing* → *Nothing is needed*, or back to the third person; *(e.g.,
+  does caring cost suffering)* → *— whether caring costs suffering*. Applies at the close of
+  the next pass touching chapter~3 if nothing is said.
+- (b) All three stand, and the departures are the author's voice arriving. If so it should
+  be written into `style.md`, which has no rule on any of the three, so the next pass does
+  not report them again.
+- (c) Take them one at a time.
+
+---
+
+### Q-080 — §3.1 lost its closing bridge into §3.2
+
+**Raised by P99's read of the diff; structural rather than stylistic.** The Overleaf edit
+cut §3.1's last two sentences: *None of that can be judged while “refusal” covers two
+different capacities and says nothing about what is doing the refusing. Separating them is
+what inclines this chapter toward the second method — the bearer.*
+
+**Two things went with them.** §3.1 now ends on *the strongest proposals are hybrids that
+take a mechanism from one way and a custody arrangement from another*, with no transition
+into §3.2, which opens on what refusal can mean. And **the chapter's statement that it
+inclines toward the bearer is gone from §3.1**, which is where the four ways are
+enumerated and the natural place for it. D-191 settled *inclines toward* as the author's
+own word for that stance in §3.9's opener, so the vocabulary survives at the far end of the
+chapter without the near end setting it up.
+
+**What is not affected**: no cross-reference dangles, and §3.2 introduces its own subject
+without needing the handoff. This is a question about whether the chapter still says where
+it is going, not about a broken pointer.
+
+- **(a) Default — restore the second sentence only.** It carries the chapter's stance and
+  costs one line; the first sentence's work is now done by §3.2's own opening, which names
+  the capacities in its first paragraph. Applies at the close of the next pass touching
+  chapter~3 if nothing is said.
+- (b) Restore both, as written.
+- (c) Leave §3.1 ending where it does, and let §3.10 carry the stance alone.
+- (d) Write a new bridge in the author's compressed register rather than restoring cut
+  text.
+
+---
 
 ## Resolved
 
