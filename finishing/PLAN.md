@@ -1,11 +1,11 @@
 # Finishing plan
 
-The book stands at **138 sections, 91,749 words and 185 pages**, with 2 sections accepted
-and 136 drafted and unread. **One hundred and five passes have been executed.**
+The book stands at **138 sections, 92,514 words and 188 pages**, with 2 sections accepted
+and 136 drafted and unread. **One hundred and eight passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
-current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P105
-read D-145 through D-203 in `DECISIONS.md` and `p64-scope.md` through `p105-scope.md`.**
+current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P108
+read D-145 through D-206 in `DECISIONS.md` and `p64-scope.md` through `p108-scope.md`.**
 P64 through P84 were compression against author findings, and they cut five
 sections and about 6,100 words without adding one. **P85 and P86 reverse that direction on
 author rulings**, adding about 3,000 words and one section: P85 took §3.2's account of

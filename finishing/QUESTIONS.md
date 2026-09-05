@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-05, after D-204 to D-206 (P106 to P108): no entry changes.** P106 read the author's offline-payments manuscript against §3.3 and repaired ten sites on rulings; P107 read a compassion-and-empathy discussion against the book, cited or repaired five sites and retitled §11.7 on rulings; P108 made the persona-device record one binary archive at the repository root. None opened a question or closed one. What awaits rulings is in the scope files, following P95's practice: §3.5:5's quorum sentence against the witness form now at §3.5:7, a GPU-attestation clause, and Frankfurt's 1999 line and Helm's 2010 quotations as optional additions, all in `p106-scope.md` and `p107-scope.md`. P103's four, P104's list and P105's one still stand. Q-070 and Q-074 stand.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-05, after D-203 (P105): no entry changes.** P105 read chapters 4 to 7 and repaired twenty seams on rulings, among them P104's open item on §11.3:3 and P96's leftover on §7.4's fourth label; it opened no question and closed none. One item awaits a ruling and is in `p105-scope.md` rather than entered here, following P95's practice: §4.2.9:5's *a chapter* for what §2.1.2 argues in a section. P103's four unruled findings and P104's list still stand in their scope files. Q-070 and Q-074 stand.
 
 **Superseded header, kept for the record.**
