@@ -6,22 +6,22 @@ manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Ea
 manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	5ed7a6e790204f722cb5f29a080b6d719ee3802b3667d43a1d43a317a1df47a7
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	ff7f625207cd9ea375c9c3e1c5348a8698def08a12481e19ded99de0ebdf4f1b
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
-manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	5c9e0b0129aa4112def0e71189a68a0478877a648f4309404be2735a7bab7c70
+manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	9f78f92ceec9ad6f866340ed6c5585735a39090b9302be940051c74f13ad1fd7
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	e2414f0012fc1c4557daae58ba36213589ac06813bd53c30c4a582cd612fe382
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
-manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2376556ce12800c08351f54cbed681a9d30c92385e695e9948c6b54be887e168
+manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	fe3523e434d4c859fe15f5e220ab68e5482844c5c19629339c4056ecee9373be
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	50f153a125b3f199bbf8394c4ace7cc0cb3c70f6a7427793fbd30f8d3d447349
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	a83143b93a682595d736b1642f95928cdaa9aa7faa80619cea1cb86e95dbdf31
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	17309bd1a3c36973817fafab604d6534cca70a9d699a82cde0d708fba1d3661e
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	555bd8e1b683f019ddebf29b0847f2b901c39b2ea06d2a8fea5db9830cd558a0
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	dae199e86a04ef3afb0af3a42a5f84016c49b3996685c275a6221ef62e1407f9
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	ddcf29e804d29f957d5130de269f72914ce2cd17139fbc27027a893397341754
-manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	1aaa96acb2359431e3926976be0c54b5d97da8acb9ba47041c81b759e3de49ef
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	be5927d1cd727c52ebbc77f78175cb177676832cc169f4dbe18a795b45bb292e
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	4202628c1714d00ddc2ac6f6b66f6347de1b8f294f63a506e8fc60636346a949
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	71541df925e484c6f38bd1c1cbb2dab406dceb0c26c659d7d94eeb71eabccf28
+manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	d9ba74d41b11ceea448093a01eac3da7c91ba32a8e0d22442afd279921de7026
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	cb25a284920605c37d6c046de548959e4fb9275bea32ddf4a80aee0f298cf136
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	cc769623c34b3e4fc059a326fe4e7e6779a77fe689329d876d12457daf8a8866
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	504c66773a4f1890bf0b42bcbf45740866f4b2ac43f9a12628854a5ac21a062e
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	cecb035a648f47fd4990a7125ee545eb9aa7ee6643f4e31359e7321214a4d2fd
-manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	9b9498a2922f07df8b4fb5d3e19e7b703b1bbcfe90c407b465ee58217199fda8
+manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	6bad9c8c266c8eba080f708db0e306f23be5c682d1da7510825a01b15eaf73ce
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	38e31ea579c8d3e5bf5950b1932d40b41d3f12050e2f9042e3b928ef2f8fb886
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	8c29ef4494c227a74d5ba69106dabe66ad7a313468e457ca34a7e1808f4e7e71
 manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	a17b822473dc3ff7bc632455860a80e5c341925f5fea89a2b074570be7c8ebe1
@@ -30,7 +30,7 @@ manuscript/sections/ch04/04_01_03.tex	4.1.3	Human-Like Learning and Generalizati
 manuscript/sections/ch04/04_02.tex	4.2	How a Deployed System Acquires Its Values	fd1b6d02a1ad7d0b0ff5e8374b30cb04d5b0b04849f9313b631e39c448491779
 manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	06c5c8d886bf9b8bbc58390b6e208de15990607cb9ce79643a71187de768a1c8
 manuscript/sections/ch04/04_02_02.tex	4.2.2	Preference Optimization, and Who Holds the Pen	eee68805ed50bfd9925f6ac204b9cb5c2beb0b487856ff3b760d769ba0cacbdd
-manuscript/sections/ch04/04_02_03.tex	4.2.3	Inferring the Objective: IRL and CIRL	ab7684017f9b6599d7f64320e7895b219e3151edaca2e935dbdee4e7c8383020
+manuscript/sections/ch04/04_02_03.tex	4.2.3	Inferring the Objective: IRL and CIRL	c5af6116ce1010fa27bb0352f423beeef850e9b20ab125b7656367c67be76558
 manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	c539d7214a40d72d430d21e76af6f34823cb6fbce55ba0f1f2fcbb0b68df0c44
 manuscript/sections/ch04/04_02_05.tex	4.2.5	Process and Outcome Supervision	35d9d465b4680e588c977052ac2bda750675b18f404db1d0e9645f4c3cd03f42
 manuscript/sections/ch04/04_02_06.tex	4.2.6	Scalable Oversight	0c96aa4cf39833b3df4ae5e94258ecc3d8031f9b316d1183ef28339c8b65f671
