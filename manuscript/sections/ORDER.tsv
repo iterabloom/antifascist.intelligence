@@ -1,5 +1,5 @@
 path	num	title	sha256
-manuscript/sections/ch01/01.tex	1	Introduction	97cfffa8c53c495df2a5558167d916e756bf889c475bc9cce3372bbdda92ca16
+manuscript/sections/ch01/01.tex	1	Introduction	18963a56f664f70e27785ba54a8333f720d9d678539cd61aa3cc95c28cb6fafe
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	461f6dfa2c63593f2c86d3779bec44c70e91498160f217f3765476a7699ac067
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
@@ -7,19 +7,19 @@ manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	ff7f625207cd9ea375c9c3e1c5348a8698def08a12481e19ded99de0ebdf4f1b
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	5c9e0b0129aa4112def0e71189a68a0478877a648f4309404be2735a7bab7c70
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	9d61b49c14af7563a16e5e76006bbade67f10a3d5d8555fce7dcadaf4faf4079
+manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	e2414f0012fc1c4557daae58ba36213589ac06813bd53c30c4a582cd612fe382
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2376556ce12800c08351f54cbed681a9d30c92385e695e9948c6b54be887e168
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	50f153a125b3f199bbf8394c4ace7cc0cb3c70f6a7427793fbd30f8d3d447349
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	a83143b93a682595d736b1642f95928cdaa9aa7faa80619cea1cb86e95dbdf31
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	17309bd1a3c36973817fafab604d6534cca70a9d699a82cde0d708fba1d3661e
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	555bd8e1b683f019ddebf29b0847f2b901c39b2ea06d2a8fea5db9830cd558a0
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	a03615156d519b679d4578de034d3bf84af234058297210456aeae7ee14da7b0
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	dae199e86a04ef3afb0af3a42a5f84016c49b3996685c275a6221ef62e1407f9
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	ddcf29e804d29f957d5130de269f72914ce2cd17139fbc27027a893397341754
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	1aaa96acb2359431e3926976be0c54b5d97da8acb9ba47041c81b759e3de49ef
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	be5927d1cd727c52ebbc77f78175cb177676832cc169f4dbe18a795b45bb292e
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	cc769623c34b3e4fc059a326fe4e7e6779a77fe689329d876d12457daf8a8866
-manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	925e57b24f8e20e3fe318c977fe9e819b4795d802a5a290cd4117574eb5f7fbf
+manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	504c66773a4f1890bf0b42bcbf45740866f4b2ac43f9a12628854a5ac21a062e
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	cecb035a648f47fd4990a7125ee545eb9aa7ee6643f4e31359e7321214a4d2fd
 manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	9b9498a2922f07df8b4fb5d3e19e7b703b1bbcfe90c407b465ee58217199fda8
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	38e31ea579c8d3e5bf5950b1932d40b41d3f12050e2f9042e3b928ef2f8fb886
@@ -35,7 +35,7 @@ manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constit
 manuscript/sections/ch04/04_02_05.tex	4.2.5	Process and Outcome Supervision	35d9d465b4680e588c977052ac2bda750675b18f404db1d0e9645f4c3cd03f42
 manuscript/sections/ch04/04_02_06.tex	4.2.6	Scalable Oversight	0c96aa4cf39833b3df4ae5e94258ecc3d8031f9b316d1183ef28339c8b65f671
 manuscript/sections/ch04/04_02_07.tex	4.2.7	Interpretability and Evaluation as Instruments	d3b24c8ac0ae0fbe6a5cb1bc7bd12dc5885c47dba089e886cb998db83e7d51c3
-manuscript/sections/ch04/04_02_08.tex	4.2.8	System Instructions and Tool Use at Deployment	747e9938b24bdab67e6ac1f5f8708d78e47692389f4e8defe091f16e435c14c3
+manuscript/sections/ch04/04_02_08.tex	4.2.8	System Instructions and Tool Use at Deployment	8970a8556ed023d83fd0b16aafd62d1b2cd76cf440364723db558961c8ac479b
 manuscript/sections/ch04/04_02_09.tex	4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	ab3a7e621a68204dd5fbee87a2a4c5664631c481a55c74daf10b83d0862887bd
 manuscript/sections/ch04/04_03.tex	4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	0251012dfd87e5783d652f9163a186a029b24056481a0a4d25e4c53c1b1033f7
 manuscript/sections/ch04/04_03_01.tex	4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	06db07fbbfbc8ae561e25b631d8a3f4ea0ce68cfbe0c01542319bfa18f77e367
@@ -116,8 +116,8 @@ manuscript/sections/ch10/10_04.tex	10.4	International Governance and Diverging N
 manuscript/sections/ch10/10_05.tex	10.5	Equity and the Digital Divide	46f5347ad3f75c7b1f354a604fee42e31be0f05824b0d9f6f945d9b1de8b7ad8
 manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	52c26a9f07b603c6429bee5c7c76e894293a1a1c8627fa19c4fd55d4f016801d
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	b69c3719d6d9f8a0d2ce07ff4b0b92087513341cf8f54309f3bff2873120e013
-manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	e7baa157835e84d712a4db2333ec99a7870314cd7769c44eb1040564585f497b
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	844342d0933fdd71f0e093a6bef7f9da1dba82a11b4083b66815e91b71af391b
+manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	2d3ce41d3d78f8f74b054f8e3dd195bce5f9937f013956796e0ba4363b7ac7c0
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	adcf36f865470df14bfd68e12297bfc053ddf1dc17815a2ab0e8f286b4b9b4a1
 manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	ab267a12ae57670aac6fd2ebdd5ac1cc5c1b1deec9658700b4c74351d15ce85b
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	5bbd5fd6d38184a187121262a647ae8e14d5cf43eff0025892a40b120699c710
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	a9cdfcee70a0e9da586f802606127485611d76adb0edeb323f9c66fa34cd36dc
@@ -135,4 +135,4 @@ manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reac
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	24cbc5aa63b0ecb9542751c7c797560f638b750a14202f6cabae1b099b6edd10
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	fd298f32a24effb953a3bad672ba75e7bdf65fafd0e747b4c0a467281dfa7d88
 manuscript/sections/ch13/13.tex	13	Glossary	4a0aeb305706a1d43a16b9f10f4b5f978c48abca5590b240fc9311ffa22194ff
-manuscript/sections/ch14/14.tex	14	Appendix: On Method	3134bb86fb48bb22e9f9ef106b693aa76d9e6359d0c49385148e165617f50fa5
+manuscript/sections/ch14/14.tex	14	Appendix: On Method	2886db29336f3a1525b7b32331880f2f2507e4174c5f21c96e0d8f1d81b4e454

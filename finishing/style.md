@@ -241,10 +241,13 @@ allocated at transplant time, not deferred.** The pilot appended five rows to
 `claims.tsv` as it went; doing that retroactively across sixteen transplants
 would mean re-reading all of them. Expect the debt to rise during P3, not fall —
 imported material makes specific empirical claims where the original made
-general ones. **The agent never writes a
-reference entry.** An assertion nobody can source is cut during the revise pass,
-not carried forward with a placeholder — that is the rule that stops the
-citation backlog from becoming the project.
+general ones. **The agent writes a reference entry only from
+metadata it has verified against the source itself.** The rule here forbade it
+outright until D-204; the practice outgrew the words, and D-204, D-209 and D-213
+record entries authored that way. What has not changed is the reason behind the
+old rule: an assertion nobody can source is cut during the revise pass, not
+carried forward with a placeholder — that is what stops the citation backlog
+from becoming the project.
 
 ## 6a. Claims about a disabled population (D-137, D-138)
 

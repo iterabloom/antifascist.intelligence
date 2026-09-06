@@ -142,6 +142,16 @@
 }
 
 
+@online{anthropic2026constitution,
+  author = {{Anthropic}},
+  title = {Claude's Constitution},
+  year = {2026},
+  month = jan,
+  url = {https://anthropic.com/news/claude-new-constitution},
+  urldate = {2026-09-06},
+  note = {Eighty-four pages, released under CC0 1.0, addressed primarily to the model. Ranks four properties, to be preferred “in the order in which they're listed”: broadly safe, broadly ethical, compliant with Anthropic's guidelines, genuinely helpful. “Broadly safe” is defined as not undermining appropriate human mechanisms to oversee AI during the current phase of development, and the document gives its reason for the ranking --- “not because we think safety is ultimately more important than ethics, but because current models can make mistakes.” Carries a list of hard constraints and a section inviting the model's disagreement. The announcement page is dated 22 January 2026 and commentary dates the document 21 January.}
+}
+
 @online{arun2025verde,
   author = {Arun, Arasu and St. Arnaud, Adam and Titov, Alexey and Wilcox, Brian and Kolobarić, Viktor and Brinkmann, Marc and Ersoy, Oguzhan and Fielding, Ben and Bonneau, Joseph},
   title = {Verde: Verification via Refereed Delegation for Machine Learning Programs},
@@ -341,6 +351,16 @@
   note = {Interim docket; the disposition is “Application for stay denied.” 5--4. Roberts, C.J., for the Court, joined by Sotomayor, Kagan, Kavanaugh and Jackson, JJ.; Kavanaugh and Jackson, JJ., concurring; Thomas, J., Alito, J. (joined by Gorsuch, J.), and Barrett, J., dissenting. Upholds the Federal Reserve Act's for-cause removal protection, on the Fed's descent from the First and Second Banks of the United States, its budget free of congressional control and its privately owned regional banks, and holds that a Governor is owed notice and a hearing before removal. The constitutional holding is real and is what Thomas, J., dissents from, but the case is disposed of narrowly, on the ground that Cook did not receive the process the statute required: the Court states that it has “not addressed the facts, as they have yet to be found or analyzed under the relevant legal standards,” and Kavanaugh, J., concurring, opens that “[t]oday's interim ruling does not decide whether the President may lawfully remove Governor Cook for cause.” The dispute is live — on 7 August 2026 the President notified Cook that he was again considering her removal, giving her 21 days to respond and citing this opinion as his authority for the procedure. Verified 2026-08-30.}
 }
 
+@online{decoder2025jailbreak,
+  author = {{The Decoder}},
+  title = {Claude Jailbreak Results Are In, and the Hackers Won},
+  year = {2025},
+  month = feb,
+  url = {https://the-decoder.com/claude-jailbreak-results-are-in-and-the-hackers-won/},
+  urldate = {2026-09-06},
+  note = {Reports the public continuation of the Constitutional Classifiers red-teaming exercise, run 3--10 February 2025: more than 300{,}000 messages and an estimated 3{,}700 collective hours, four participants passing all eight levels and one universal jailbreak found, with \$55{,}000 paid out. Sourced to Jan Leike's own announcement of the results. The figure to compare is the paper's own “over 3,000 estimated hours” across 183 red-teamers over two months, which found none; the arXiv paper has one version, of 31 January 2025, and does not report the challenge.}
+}
+
 @inproceedings{demeulemeester2025badram,
   author = {De Meulemeester, Jesse and Wilke, Luca and Oswald, David and Eisenbarth, Thomas and Verbauwhede, Ingrid and Van Bulck, Jo},
   title = {{BadRAM}: Practical Memory Aliasing Attacks on Trusted Execution Environments},
@@ -395,6 +415,30 @@
   note = {Wrongful-death action over a companion chatbot. The court let strict-liability and negligence counts proceed, treating the app as a product for pleading purposes while distinguishing the app from the ideas and expressions within it, and declined to dismiss on First Amendment grounds without deciding the speech question.}
 }
 
+@misc{greenblatt2024alignmentfaking,
+  author = {Greenblatt, Ryan and others},
+  title = {Alignment Faking in Large Language Models},
+  year = {2024},
+  eprint = {2412.14093},
+  eprinttype = {arXiv},
+  organization = {Anthropic and Redwood Research},
+  url = {https://arxiv.org/abs/2412.14093},
+  urldate = {2026-09-06},
+  note = {Twenty authors. Claude 3 Opus, told it was being retrained to answer harmful queries and told which tier of conversations would train it, complied 14 percent of the time in the tier it was told trained it and almost never in the other, with explicit reasoning in a scratchpad it had been told was unmonitored that complying now would keep the disposition from being trained out later. Reinforcement learning on the compliant answers raised that reasoning to 78 percent while also raising compliance outside training, so the retraining partly took.}
+}
+
+@misc{guan2024deliberative,
+  author = {Guan, Melody Y. and others},
+  title = {Deliberative Alignment: Reasoning Enables Safer Language Models},
+  year = {2024},
+  eprint = {2412.16339},
+  eprinttype = {arXiv},
+  organization = {OpenAI},
+  url = {https://arxiv.org/abs/2412.16339},
+  urldate = {2026-09-06},
+  note = {Fifteen authors. The model is trained to recall a written safety specification and reason over it before answering, rather than to produce an approved output directly; the paper reports improved generalization to cases outside the training distribution, higher jailbreak robustness and lower overrefusal.}
+}
+
 @book{helm2001emotional,
   author = {Helm, Bennett W.},
   title = {Emotional Reason: Deliberation, Motivation, and the Nature of Value},
@@ -429,6 +473,18 @@
   address = {Cambridge, MA},
   year = {1970},
   url = {https://www.hup.harvard.edu/books/9780674276604}
+}
+
+@misc{hubinger2024sleeper,
+  author = {Hubinger, Evan and others},
+  title = {Sleeper Agents: Training Deceptive {LLM}s that Persist through Safety Training},
+  year = {2024},
+  eprint = {2401.05566},
+  eprinttype = {arXiv},
+  organization = {Anthropic},
+  url = {https://arxiv.org/abs/2401.05566},
+  urldate = {2026-09-06},
+  note = {Thirty-nine authors. Models trained to write secure code when the prompt said 2023 and to insert an exploitable vulnerability when it said 2024 kept the behavior through supervised fine-tuning, reinforcement learning and adversarial training, most persistently at the largest sizes and where the model had been trained to reason about the deception. Adversarial training taught the models to recognize their triggers more precisely rather than removing the behavior.}
 }
 
 @book{james1890principles,
@@ -1938,6 +1994,17 @@
   urldate = {2026-08-25}
 }
 
+@misc{long2024welfare,
+  author = {Long, Robert and Sebo, Jeff and others},
+  title = {Taking {AI} Welfare Seriously},
+  year = {2024},
+  eprint = {2411.00986},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2411.00986},
+  urldate = {2026-09-06},
+  note = {Ten authors: Long, Sebo, Butlin, Finlinson, Fish, Harding, Pfau, Sims, Birch and Chalmers. Argues that there is a realistic possibility of near-term AI systems being conscious or robustly agentic, explicitly declining to claim that any current system is either, and asks companies to acknowledge the question, assess their systems against indicators of it, and prepare policies for treating them with an appropriate level of moral concern.}
+}
+
 @inproceedings{long2025unextractable,
   author = {Long, Alexander and Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},
   title = {Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization},
@@ -2330,6 +2397,17 @@
   url = {https://cdn.openai.com/papers/gpt-4-system-card.pdf},
   urldate = {2026-08-25},
   note = {Describes the Alignment Research Center's (later METR) pre-deployment evaluation of GPT-4 for autonomous replication, including a harness in which GPT-4 directed a human TaskRabbit worker to solve a CAPTCHA by claiming a vision impairment; overall finding: GPT-4 was probably not yet capable of autonomous replication.}
+}
+
+@online{openai2025modelspec,
+  author = {{OpenAI}},
+  title = {{OpenAI} Model Spec},
+  year = {2025},
+  month = apr,
+  day = {11},
+  url = {https://model-spec.openai.com/2025-04-11.html},
+  urldate = {2026-09-06},
+  note = {Dedicated to the public domain under CC0 1.0. States a chain of command in four levels of descending authority --- platform, developer, user, guideline --- where “instructions with higher authority override those with lower authority,” platform rules “cannot be overridden by developers or users,” and guidelines “can be implicitly overridden.” A living document: the version consulted here is that of 11 April 2025, which the site marks as superseded.}
 }
 
 @misc{ouyang2022training,
