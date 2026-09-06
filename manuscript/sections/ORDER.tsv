@@ -3,7 +3,7 @@ manuscript/sections/ch01/01.tex	1	Introduction	18963a56f664f70e27785ba54a8333f72
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	461f6dfa2c63593f2c86d3779bec44c70e91498160f217f3765476a7699ac067
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	7ee101848641d63688bfaa4baeb3a8b9586dd5df31a701e3d65fb49daa9fc13b
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	5ed7a6e790204f722cb5f29a080b6d719ee3802b3667d43a1d43a317a1df47a7
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	ff7f625207cd9ea375c9c3e1c5348a8698def08a12481e19ded99de0ebdf4f1b
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	5c9e0b0129aa4112def0e71189a68a0478877a648f4309404be2735a7bab7c70
@@ -118,7 +118,7 @@ manuscript/sections/ch10/10_06.tex	10.6	The Limits of the Democratic Dividend	52
 manuscript/sections/ch11/11.tex	11	Necessary Areas of Research	b69c3719d6d9f8a0d2ce07ff4b0b92087513341cf8f54309f3bff2873120e013
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	2d3ce41d3d78f8f74b054f8e3dd195bce5f9937f013956796e0ba4363b7ac7c0
 manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	adcf36f865470df14bfd68e12297bfc053ddf1dc17815a2ab0e8f286b4b9b4a1
-manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	ab267a12ae57670aac6fd2ebdd5ac1cc5c1b1deec9658700b4c74351d15ce85b
+manuscript/sections/ch11/11_03.tex	11.3	What an Antifascist Detector Would Actually Have to Detect	4a32ee0a74f31fe3a60266367a26354fe26bbf4440595d8664b23c37597bcd69
 manuscript/sections/ch11/11_04.tex	11.4	When an Ethics-Embedding Method Stops Generalizing	5bbd5fd6d38184a187121262a647ae8e14d5cf43eff0025892a40b120699c710
 manuscript/sections/ch11/11_05.tex	11.5	Value Learning as Unfinished Technical Research	a9cdfcee70a0e9da586f802606127485611d76adb0edeb323f9c66fa34cd36dc
 manuscript/sections/ch11/11_06.tex	11.6	Can a Multi-Agent AI System Resist Being Captured?	2ffd8c0c89008554d6a738339ccbff73a7c4a3d79902c5771c0954fd8ac943a7
@@ -134,5 +134,5 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	6
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	4066adf12d6bdf9de8f130292729cd129094b91b5b8ad757b9e79c83df2f2ff5
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	24cbc5aa63b0ecb9542751c7c797560f638b750a14202f6cabae1b099b6edd10
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	fd298f32a24effb953a3bad672ba75e7bdf65fafd0e747b4c0a467281dfa7d88
-manuscript/sections/ch13/13.tex	13	Glossary	4a0aeb305706a1d43a16b9f10f4b5f978c48abca5590b240fc9311ffa22194ff
+manuscript/sections/ch13/13.tex	13	Glossary	786e4a94448360e3812cc2da13b9733de0c7d0216ea0d2d6d0958999ab6c9eaa
 manuscript/sections/ch14/14.tex	14	Appendix: On Method	2886db29336f3a1525b7b32331880f2f2507e4174c5f21c96e0d8f1d81b4e454
