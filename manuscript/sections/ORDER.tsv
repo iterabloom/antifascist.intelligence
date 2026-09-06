@@ -12,14 +12,14 @@ manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on 
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	f7d57d3582b8300828caea8a178ebf1d49154e8b17329e399993bf03756169c5
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	8fd9b3f63fe92f22c9882ccb0d4e7d914dbb40e98c9276fa38431cc2bd905808
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	70b274ec173317d3dfd6a5038cf082b06a7c150b5e4faae1abbaabbaef439870
-manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	3749b1718d35f7dff5910535f95e6e89177a9bbb5adcafe0e7c793420fb00b02
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	2e05bf419632b21c8a88b509f07da5c1b3257696dae1e2805dfe11ff20fe2ea3
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	e62c2dae57df4087acdcde55f942c192f15b543c6e06fa04a16d3b68609c5056
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	9e4759ac28d9f707c0ba35654adddbddc5f897b1c9da1a6cbdd00e8758ea6941
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	256056d2d789f83d1356852a999dd73bfd6171a8295fdd0b89ed2409eaba31c5
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	058d30d9d471306501587f3b227fd39c9704ae0ddb2313e5f8a3256697180985
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	3e0706f89955b3b9570827f98409a8fdbd315047849da02b24da14c8bdd21de7
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	9acdc9a457f07552e60c7af400d84a9bfb179b41b58974b6b8f604582ca3eab1
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	17313e671925d16b952605979c79140acc4b4427dce2ab36cf7c11f7e7f04650
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	fcc1579606b9f0b896bccfacae845cfbab985a71f9ac0fd465ef4f19e7c1fca2
-manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	545f923583b25d5e7c06572e00fbdf475ce533dd3a62474b0f08c12875c34d36
+manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	d19f0e0fb19a4bff36c2674b76ee6ea10cedc8bb1e65b3a78a54f706eab9be4c
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	8f77e5e94472d0000ed882aa0c3db7ca7fce1eecec47e2f29501ec416ba88baf
 manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	1fa12475a93681641294d28ede90e488e6402320f3c28b31475118ad9ae9ea4a
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	af732b084926765ba3610e74d940fc17eccb62092101b57645bec6ede346aade
@@ -31,7 +31,7 @@ manuscript/sections/ch04/04_02.tex	4.2	How a Deployed System Acquires Its Values
 manuscript/sections/ch04/04_02_01.tex	4.2.1	Pretraining and Instruction Tuning	0e402cca398417c7fc2c94a63ddd8480bf579edb9150d0efb933f9342850de85
 manuscript/sections/ch04/04_02_02.tex	4.2.2	Preference Optimization, and Who Holds the Pen	8b775f17f6fb66813717b52e0d6b81b6535517d2042ad57823ea32cdcc04179d
 manuscript/sections/ch04/04_02_03.tex	4.2.3	Inferring the Objective: IRL and CIRL	0d18fa64aa804330db212577994d681155152368c0454a9b98bf357c6648308d
-manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	d92d8317c881ed3386b88dd88ab97c693ae33f35d01987c3a88769d9a36e63a2
+manuscript/sections/ch04/04_02_04.tex	4.2.4	Model-Generated Feedback and Constitutional Approaches	5aaf9dd76f1359519e70c2ba931d54e2f7b7ef0043e074839df5658890a39126
 manuscript/sections/ch04/04_02_05.tex	4.2.5	Process and Outcome Supervision	df5f65c5e3c4c4ec17bec7cc6dcee332fd01cc3d0bcb8c1b44a354ac73587122
 manuscript/sections/ch04/04_02_06.tex	4.2.6	Scalable Oversight	93389de0a4873ddd6e131c05fde16eaae78de48cd041f8a98fad4078d8d98c21
 manuscript/sections/ch04/04_02_07.tex	4.2.7	Interpretability and Evaluation as Instruments	d3b24c8ac0ae0fbe6a5cb1bc7bd12dc5885c47dba089e886cb998db83e7d51c3
@@ -74,7 +74,7 @@ manuscript/sections/ch06/06_03_03.tex	6.3.3	Anticipating Risk Before It Causes H
 manuscript/sections/ch06/06_03_04.tex	6.3.4	Remediating a Harm Once It Is Identified	6a64d001837794577aace18cbf5908d19ff4941d774016880ca1f992dd537d95
 manuscript/sections/ch06/06_03_05.tex	6.3.5	Long-Term AI Safety Considerations	71e19316a1b1028071fa3ebc2b5bfe8e01d815f4589019411007b9b8031685da
 manuscript/sections/ch06/06_04.tex	6.4	Preventing the Misuse of AI for Authoritarian Purposes	42ec36dd7f84ba91b215faa4e9784ba0b01c02ab012639f45da6b3cebfd057b4
-manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	4a9fb1da65d76feb5063a3a204f146a6464267d5cb1a250203a0bf91d2d1041b
+manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	632b397affa8834d0e371c5e6cb264afb736563296d62ec199b84213fa857525
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	1d9bb5187d873162d56ca9a6a7ebc2dffbedd6a461f515ab95cbe36b6edc5a47
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	e904f23e35cb8f513bd2b973062518b7241acb20e79782c7d76fbaf449be2ee4
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	ba64650de71e928400f6ab93ba10ff2702744073de5dbe1da0d54aab22a16c10
