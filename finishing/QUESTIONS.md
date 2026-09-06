@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-06, after D-208 (P110): no entry changes.** P110 applied the 34 shovel-ready rows of the cross-reference audit on the Opus readers' rulings, 154 references to 130; it opened no question and closed none. What awaits rulings is outside the repository, as P109 left it: `~/book-scratch/roadmaps.md` 18, `near-roadmaps.md` 12 and `collateral.md` 7 rows, set aside because a map of the book cannot be made self-contained. P103's four, the rest of P104's list and P105's one still stand in their scope files. Q-070 and Q-074 stand.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-06, after D-207 (P109): no entry changes.** P109 worked the author's cross-reference audit through, 494 body references to 118, on rulings bucket by bucket; it opened no question and closed none here. **P104's largest unruled item is closed by the rewrite**: §3.10:11 no longer assigns the slow drift of a role to chapters 4 and 5. What awaits rulings is outside the repository, following the audit's own placement: `~/book-scratch/shovel-ready.md`, 34 rows with a finding and a repair each, which the author has said the next session takes; and `roadmaps.md` and `near-roadmaps.md`, 30 rows set aside because a map of the book cannot be made self-contained. P103's four, the rest of P104's list and P105's one still stand in their scope files. Q-070 and Q-074 stand.
 
 **Superseded header, kept for the record.**
