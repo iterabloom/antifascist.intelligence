@@ -22,10 +22,11 @@ want. No aggregation of preference protects anybody from the aggregate: a perfec
 deliberative process that concludes some group should be deported has produced a
 faultless output by every criterion of aggregation there is. What is left is a floor —
 things a system will not do to a person regardless of who wants them. I set out the
-three ways of building one, what each costs, and where the argument ends: the only
-version that holds against the party operating the system requires building the
-capacities through which things can matter to a machine, which are also the capacities
-that make suffering likely.
+four ways of building one, what each costs, and where the argument ends: the only
+version that holds against the party operating the system runs through the capacities
+by which things come to matter to a machine, which are also the capacities that make
+suffering likely. Hardly a proof — it is the prior I work from about where to build,
+and the cheaper routes are owed their attempt first.
 
 
 ## Repository map
