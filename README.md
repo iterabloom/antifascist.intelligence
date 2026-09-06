@@ -1,3 +1,5 @@
+![book cover](cover_cropped.png)
+
 # Antifascist Intelligence  
 ## Building Machines That Can Refuse  
 
