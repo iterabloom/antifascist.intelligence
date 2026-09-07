@@ -24,6 +24,7 @@ these files are the input, not the verdict.
 | `author-discussion_2026-08-28.txt` | A recorded discussion between the author and a language model shown the 194-page PDF, 2026-08-28. Not a review — see below | P26 — `p26-scope.md`, D-077 to D-080 |
 | `author-discussion_2026-09-02.md` | An editorial review and the discussion after it, from a language model shown the 183-page proof, 2026-09-02. **Excerpted by the author** — see below | P88 — `p88-scope.md`, D-181 |
 | `author-discussion_2026-09-05.txt` | Four questions from the author to a language model, on whether compassion needs empathy, whether perspective-taking is empathy, whether caring is a feeling, and whether deliberation is one, with the model's answers, 2026-09-05. Not a review, and not shown the book — see below | P107 — `p107-scope.md`, D-205 |
+| `author-discussion_2026-09-06.txt` | The device a fourth time and much the longest, at 3,896 lines: chapter-by-chapter recaps of the book and the discussion that ran off them, from a language model shown the manuscript at its 187-page state, 2026-09-06. **Excerpted by the author.** Not a review — see below | P119 and P120 — `p119-scope.md`, `p120-scope.md`, D-217 to D-220 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -66,7 +67,7 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**Three files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+**Four files here are not reviews.** `author-discussion_2026-08-28.txt` is a
 transcript of the author thinking aloud with a language model that had been given
 the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
 are the author's; the completions are the model's. It is kept for the same reason
@@ -90,5 +91,19 @@ with what was checked against the manuscript and what was taken, is in `p107-sco
 model's until a source is opened; the works it names were verified separately before any entry was written. The real
 people it names are named as scholars, which is ordinary citation under `AGENTS.md`, and the names guard lists them as
 citations to confirm.
+
+`author-discussion_2026-09-06.txt` is the device a fourth time and much the longest of the four. The model was shown the
+manuscript, and most of the file is its recaps of chapters 3 through 12 and the appendix, with the author's questions running
+off them into exit, migration, compute, wages, personhood, cryptographic self-licensing and autonomous weapons. **It is an
+excerpt in five places**, and the author's bracketed notes say so and say why: the attached manuscript, one whole completion,
+some back-and-forth, and three passages he removed on their content rather than their length. What was taken from it is in
+`p119-scope.md`; the editorial recommendation it closes on — cut ten to fifteen thousand words — was executed and came in at
+2,372, and `p120-scope.md` records why, with D-219 and D-220 correcting the first account of that.
+
+The recaps are a model's summaries and were checked against the text before anything was taken from them; `p119-scope.md`
+records how the manuscript it saw was dated, which matters because two of its findings would read differently against an
+earlier draft. Its factual claims are a model's until a source is opened. The real people it names are named as scholars,
+which is ordinary citation under `AGENTS.md`, and the names guard lists two of them to confirm — both from the chapter 9
+recap, describing a documented dismissal the book already cites at §9.1.2.
 
 `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.

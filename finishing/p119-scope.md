@@ -1,7 +1,7 @@
 # P119 — the transcript's six repairs, two positions the author took in conversation, and the bearer's economics
 
-**The instruction.** The author put `~/book-scratch/transcript.txt` (3,896 lines) for analysis against
-the manuscript, then: *please revise the manuscript in light of the above*. Three rulings shaped the
+**The instruction.** The author put a 3,896-line transcript, now `reviews/author-discussion_2026-09-06.txt`, for analysis
+against the manuscript, then: *please revise the manuscript in light of the above*. Three rulings shaped the
 scope. Cut in the same pass as the additions. Write the bearer's economic membership in full, not as
 a pointer. Write both positions rather than naming them as gaps — and on the second of them the author
 supplied the governing clause: *automated killing machines should not be built, but if an AI system is
