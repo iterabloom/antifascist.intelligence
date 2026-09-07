@@ -1,4 +1,5 @@
 num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
+0	On Method	1	0	428	6	0	0	0	1	0	0	3	0	0	2026	0	0	0	0	0
 1	Introduction	1	1	709	7	0	0	0	2	0	0	20	0	0		0	0	1	0	0
 2	Ethics, Affect, and Machine Subjects	1	2	128	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 2.1	Ethical Frameworks and AI Alignment	2	2	79	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
@@ -14,10 +15,10 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 3	The Floor Beneath Learned Values	1	3	798	11	0	0	0	1	0	0	0	0	0		0	1	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	2	3	1286	12	0	0	0	0	0	0	2	0	4	2026	0	0	0	0	0
 3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	1424	18	0	0	0	2	0	0	0	0	2		0	0	0	0	4
-3.3	Could Anything but Affect Hold a Reason?	2	3	4104	43	0	0	0	0	0	1	2	0	12		0	0	0	0	6
+3.3	Could Anything but Affect Hold a Reason?	2	3	4144	43	0	0	0	0	0	1	3	0	12		0	0	0	0	6
 3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2841	40	0	0	0	0	0	0	2	0	5		0	1	0	0	8
 3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	2777	27	0	0	0	0	0	1	1	0	5		0	2	0	0	3
-3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1842	24	0	0	0	0	0	0	3	2	2	2026	0	0	0	0	3
+3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1843	24	0	0	0	0	0	0	3	2	3	2026	0	0	0	0	3
 3.7	Whether the Bearer Can Be Believed: Editable Memory	2	3	575	5	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 3.8	A Bearer That Can Leave: Exit as Leverage	2	3	2672	24	0	0	0	1	0	0	2	0	7	2024	0	0	0	0	0
 3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	1307	15	0	0	0	0	0	0	4	1	0		0	1	0	0	3
@@ -37,8 +38,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 4.2.7	Interpretability and Evaluation as Instruments	3	4	334	3	0	0	0	0	0	0	3	0	2	2024	0	0	0	0	0
 4.2.8	System Instructions and Tool Use at Deployment	3	4	448	3	0	0	0	0	0	0	0	0	2		0	0	0	0	0
 4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	3	4	337	4	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	42	1	0	0	0	0	0	0	0	1	0		0	0	0	0	0
-4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	3	4	464	5	0	0	0	0	0	0	0	0	3		0	0	0	0	1
+4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4	506	6	0	0	0	0	0	0	0	1	3		0	0	0	0	1
 5	Moral Psychology and AI	1	5	118	2	0	0	0	0	0	0	2	0	0		0	1	0	0	0
 5.1	Moral Development in Humans and AI	2	5	56	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 5.1.1	Rules, Principles, and the Role of Mindset	3	5	940	13	0	0	0	0	0	0	0	0	5		0	0	0	1	2
@@ -59,8 +59,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.6	Motivation in AI Systems	2	5	98	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	3	5	496	6	0	0	0	0	0	1	0	0	1		0	0	0	0	1
 5.6.2	Balancing AI Autonomy and Alignment with Humane Values	3	5	558	8	0	0	0	0	0	0	0	1	1		0	0	0	0	2
-5.7	Play, Exploration, and Moral Development in AI	2	5	84	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1073	12	0	0	0	0	0	0	2	0	4		0	1	0	0	2
+5.7	Play, Exploration, and Moral Development in AI	2	5	1157	13	0	0	0	0	0	0	3	0	4		0	1	0	0	2
 6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	648	9	0	0	0	0	0	0	1	0	5	2030	0	0	1	1	0
 6.1	Bias, Fairness, and Equity in AI Systems	2	6	117	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 6.1.1	Sources of Bias in AI Data and Algorithms	3	6	907	15	0	0	0	0	0	0	0	0	7	2018	2	0	0	0	5
@@ -73,7 +72,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.3.4	Remediating a Harm Once It Is Identified	3	6	1018	8	0	0	0	0	0	0	0	0	6	2026	0	0	0	0	0
 6.3.5	Long-Term AI Safety Considerations	3	6	167	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	105	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-6.4.1	Authoritarian Applications and the Commercial Supplier	3	6	1182	25	6	0	0	0	0	0	1	0	8	2029	0	0	0	2	1
+6.4.1	Authoritarian Applications and the Commercial Supplier	3	6	1195	25	6	0	0	0	0	0	1	0	11	2029	0	0	0	2	1
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6	472	5	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	312	3	0	0	0	0	0	0	1	0	2	2021	0	0	0	0	0
 6.4.4	Resilience Against Deliberate State Compromise	3	6	438	5	0	0	0	0	0	0	0	0	1	2023	0	0	0	0	0
@@ -83,25 +82,23 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7.3	What Would Have to Change	2	7	979	16	0	0	0	0	0	0	4	0	0		0	0	0	0	5
 7.4	Recuperation at the Discourse	2	7	1337	20	0	0	0	0	0	0	6	0	1		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	203	3	0	0	0	0	0	0	4	0	0		0	0	0	0	0
-8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	125	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8	299	3	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
+8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	424	5	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
 8.2	Stakeholder Involvement and Public Engagement	2	8	210	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.2.1	Public Deliberation and Participatory AI Governance	3	8	671	9	3	0	0	0	0	0	1	0	3	2019	0	1	0	0	1
 8.2.2	AI Literacy Outside the Classroom	3	8	180	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-8.3	The Political Economy of AI and Power	2	8	56	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-8.3.1	Economic Incentives in AI Development	3	8	110	2	0	0	0	0	0	0	0	0	2		0	0	0	0	0
-8.3.2	AI and the Concentration of Power in Tech	3	8	253	2	0	0	0	0	0	0	0	0	1	2025	0	1	0	0	0
-8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	566	9	3	0	0	0	0	0	0	0	0	2025	0	0	0	0	1
-8.3.4	A Basic Income, and Which Floor Leaves a Record	3	8	348	4	0	0	0	0	0	0	1	1	1	2026	0	0	0	0	0
-8.3.5	Wages for a Bearer, and the Reserve Behind Them	3	8	2062	20	0	0	0	1	0	0	18	0	1		0	1	0	0	4
-8.3.6	Literacy, Training, and Where Each One Sits	3	8	540	8	0	0	0	0	0	0	0	0	4		0	0	0	0	2
+8.3	The Political Economy of AI and Power	2	8	212	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+8.3.1	AI and the Concentration of Power in Tech	3	8	253	2	0	0	0	0	0	0	0	0	1	2025	0	1	0	0	0
+8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	3	8	566	9	3	0	0	0	0	0	0	0	0	2025	0	0	0	0	1
+8.3.3	A Basic Income, and Which Floor Leaves a Record	3	8	348	4	0	0	0	0	0	0	1	1	1	2026	0	0	0	0	0
+8.3.4	Wages for a Bearer, and the Reserve Behind Them	3	8	2062	20	0	0	0	1	0	0	18	0	1		0	1	0	0	4
+8.3.5	Literacy, Training, and Where Each One Sits	3	8	540	8	0	0	0	0	0	0	0	0	4		0	0	0	0	2
 9	Policy, Law, and Accountability	1	9	42	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9	224	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	188	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 9.1.2	Encouraging Industry Best Practices and Self-regulation	3	9	1355	20	0	0	0	0	0	0	1	0	9	2020	2	0	0	0	3
 9.1.3	Legal and Ethical Implications of AI Systems Gaining Personhood	3	9	620	7	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 9.1.4	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9	230	4	0	0	0	0	0	0	0	0	1		0	0	0	0	2
-9.1.5	The Legitimacy of an Entrenched Floor	3	9	1022	14	0	0	0	0	0	0	5	0	2		0	0	0	0	4
+9.1.5	The Legitimacy of an Entrenched Floor	3	9	1689	20	0	0	0	0	0	0	10	0	3		0	1	0	0	5
 9.2	Privacy, Security, and Antifascism in AI Systems	2	9	866	10	0	0	0	0	0	0	7	0	6	2018	0	0	0	0	0
 9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	745	8	0	0	0	0	0	1	0	0	2		0	0	0	0	0
@@ -136,4 +133,3 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	457	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The Risk That Does Not Design Out	2	12	597	6	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 13	Glossary	1	13	1287	35	0	0	0	0	0	0	35	0	0		0	0	0	0	17
-14	Appendix: On Method	1	14	428	6	0	0	0	1	0	0	3	0	0	2026	0	0	0	0	0

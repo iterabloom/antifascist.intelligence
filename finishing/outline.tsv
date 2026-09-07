@@ -1,4 +1,5 @@
 num	title	level	parent
+0	On Method	1	
 1	Introduction	1	
 2	Ethics, Affect, and Machine Subjects	1	
 2.1	Ethical Frameworks and AI Alignment	2	2
@@ -38,7 +39,6 @@ num	title	level	parent
 4.2.8	System Instructions and Tool Use at Deployment	3	4.2
 4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	3	4.2
 4.3	The Role of Play and Exploration in Developing Antifascist and Altruistic AI	2	4
-4.3.1	Play, Curiosity, and a Disposition Nobody Wrote Down	3	4.3
 5	Moral Psychology and AI	1	
 5.1	Moral Development in Humans and AI	2	5
 5.1.1	Rules, Principles, and the Role of Mindset	3	5.1
@@ -60,7 +60,6 @@ num	title	level	parent
 5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	3	5.6
 5.6.2	Balancing AI Autonomy and Alignment with Humane Values	3	5.6
 5.7	Play, Exploration, and Moral Development in AI	2	5
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5.7
 6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	
 6.1	Bias, Fairness, and Equity in AI Systems	2	6
 6.1.1	Sources of Bias in AI Data and Algorithms	3	6.1
@@ -84,17 +83,15 @@ num	title	level	parent
 7.4	Recuperation at the Discourse	2	7
 8	Coordination, the Public, and the Political Economy	1	
 8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8
-8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8.1
 8.2	Stakeholder Involvement and Public Engagement	2	8
 8.2.1	Public Deliberation and Participatory AI Governance	3	8.2
 8.2.2	AI Literacy Outside the Classroom	3	8.2
 8.3	The Political Economy of AI and Power	2	8
-8.3.1	Economic Incentives in AI Development	3	8.3
-8.3.2	AI and the Concentration of Power in Tech	3	8.3
-8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8.3
-8.3.4	A Basic Income, and Which Floor Leaves a Record	3	8.3
-8.3.5	Wages for a Bearer, and the Reserve Behind Them	3	8.3
-8.3.6	Literacy, Training, and Where Each One Sits	3	8.3
+8.3.1	AI and the Concentration of Power in Tech	3	8.3
+8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	3	8.3
+8.3.3	A Basic Income, and Which Floor Leaves a Record	3	8.3
+8.3.4	Wages for a Bearer, and the Reserve Behind Them	3	8.3
+8.3.5	Literacy, Training, and Where Each One Sits	3	8.3
 9	Policy, Law, and Accountability	1	
 9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9
 9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9.1
@@ -136,4 +133,3 @@ num	title	level	parent
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12.2
 12.3	The Risk That Does Not Design Out	2	12
 13	Glossary	1	
-14	Appendix: On Method	1	

@@ -1,3 +1,4 @@
+Chapter 0: On Method
 Chapter 1: Introduction
 Chapter 2: Ethics, Affect, and Machine Subjects
 2.1. Ethical Frameworks and AI Alignment
@@ -37,7 +38,6 @@ Chapter 4: Machine Learning and Cognitive Science
 4.2.8. System Instructions and Tool Use at Deployment
 4.2.9. Transfer, and the Floor That Cannot Tell It Has Stopped Applying
 4.3. The Role of Play and Exploration in Developing Antifascist and Altruistic AI
-4.3.1. Play, Curiosity, and a Disposition Nobody Wrote Down
 Chapter 5: Moral Psychology and AI
 5.1. Moral Development in Humans and AI
 5.1.1. Rules, Principles, and the Role of Mindset
@@ -59,7 +59,6 @@ Chapter 5: Moral Psychology and AI
 5.6.1. Intrinsic and Extrinsic Motivation, and What Each One Leaves Open
 5.6.2. Balancing AI Autonomy and Alignment with Humane Values
 5.7. Play, Exploration, and Moral Development in AI
-5.7.1. The Role of Play in Moral Learning and Socialization
 Chapter 6: Overcoming Challenges, Risks, and Authoritarianism in AI Development
 6.1. Bias, Fairness, and Equity in AI Systems
 6.1.1. Sources of Bias in AI Data and Algorithms
@@ -83,17 +82,15 @@ Chapter 7: The Recuperation of Dissent
 7.4. Recuperation at the Discourse
 Chapter 8: Coordination, the Public, and the Political Economy
 8.1. Interdisciplinary Collaboration and Knowledge Exchange
-8.1.1. What Makes Collaboration Expensive to Walk Away From
 8.2. Stakeholder Involvement and Public Engagement
 8.2.1. Public Deliberation and Participatory AI Governance
 8.2.2. AI Literacy Outside the Classroom
 8.3. The Political Economy of AI and Power
-8.3.1. Economic Incentives in AI Development
-8.3.2. AI and the Concentration of Power in Tech
-8.3.3. A Jobs Guarantee, and the Objection It Has to Answer
-8.3.4. A Basic Income, and Which Floor Leaves a Record
-8.3.5. Wages for a Bearer, and the Reserve Behind Them
-8.3.6. Literacy, Training, and Where Each One Sits
+8.3.1. AI and the Concentration of Power in Tech
+8.3.2. A Jobs Guarantee, and the Objection It Has to Answer
+8.3.3. A Basic Income, and Which Floor Leaves a Record
+8.3.4. Wages for a Bearer, and the Reserve Behind Them
+8.3.5. Literacy, Training, and Where Each One Sits
 Chapter 9: Policy, Law, and Accountability
 9.1. Developing Policy Frameworks for AI Ethics, Safety, and Antifascism
 9.1.1. National Policy Guidelines for AI Development, Employment, and Antifascism
@@ -135,4 +132,3 @@ Chapter 12: Conclusion and Outlook
 12.2.3. How to Tell Whether a Milestone Has Been Met
 12.3. The Risk That Does Not Design Out
 Chapter 13: Glossary
-Chapter 14: Appendix: On Method
