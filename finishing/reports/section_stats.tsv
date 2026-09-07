@@ -10,22 +10,22 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2.2.3	Is Affect Necessary for Moral Concern?	3	2	1003	17	0	0	0	0	0	1	0	0	8		1	0	0	0	6
 2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2	2	50	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	1837	23	0	0	0	0	0	0	0	0	5		0	0	0	0	1
-2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	919	10	0	0	0	0	0	0	3	0	0		0	0	0	0	2
+2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	953	10	0	0	0	0	0	0	3	0	0		0	0	0	0	2
 3	The Floor Beneath Learned Values	1	3	798	11	0	0	0	1	0	0	0	0	0		0	1	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	2	3	1242	12	0	0	0	0	0	0	1	0	4	2026	0	0	0	0	0
 3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	1424	18	0	0	0	2	0	0	0	0	2		0	0	0	0	4
-3.3	Could Anything but Affect Hold a Reason?	2	3	4032	42	0	0	0	0	0	1	1	0	13	2026	0	0	0	0	6
-3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	3088	41	0	0	0	0	0	0	1	0	5		0	1	0	0	8
-3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	2865	26	0	0	0	0	0	0	0	0	5		0	2	0	0	3
+3.3	Could Anything but Affect Hold a Reason?	2	3	4104	43	0	0	0	0	0	1	2	0	12		0	0	0	0	6
+3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2939	40	0	0	0	0	0	0	2	0	5		0	1	0	0	8
+3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	2739	26	0	0	0	0	0	0	0	0	5		0	2	0	0	3
 3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1842	24	0	0	0	0	0	0	3	2	2	2026	0	0	0	0	3
 3.7	Whether the Bearer Can Be Believed: Editable Memory	2	3	575	5	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-3.8	A Bearer That Can Leave: Exit as Leverage	2	3	2254	21	0	0	0	1	0	0	0	0	7	2024	0	0	0	0	0
-3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	1040	13	0	0	0	0	0	0	2	1	0		0	1	0	0	3
-3.10	What This Leaves Standing: The Floor, Redefined	2	3	2068	18	0	0	0	4	0	0	5	0	0		0	0	0	0	0
+3.8	A Bearer That Can Leave: Exit as Leverage	2	3	2672	24	0	0	0	1	0	0	2	0	7	2024	0	0	0	0	0
+3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	1215	14	0	0	0	0	0	0	3	1	0		0	1	0	0	3
+3.10	What This Leaves Standing: The Floor, Redefined	2	3	1985	18	0	0	0	4	0	0	5	0	0		0	0	0	0	0
 4	Machine Learning and Cognitive Science	1	4	151	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4	86	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4	287	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	1602	22	0	0	0	0	0	0	1	0	12		0	3	0	0	6
+4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4	1245	18	0	0	0	0	0	0	1	0	12		0	3	0	0	6
 4.1.3	Human-Like Learning and Generalization in AI Systems	3	4	172	2	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 4.2	How a Deployed System Acquires Its Values	2	4	239	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 4.2.1	Pretraining and Instruction Tuning	3	4	537	7	0	0	0	0	0	0	0	0	2	2022	0	0	0	0	1
@@ -43,7 +43,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.1	Moral Development in Humans and AI	2	5	56	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 5.1.1	Rules, Principles, and the Role of Mindset	3	5	940	13	0	0	0	0	0	0	0	0	5		0	0	0	1	2
 5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	3	5	424	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
-5.1.3	Human Dignity, and One Indicator That Can Be Audited	3	5	546	7	0	0	0	0	0	0	1	0	1		0	1	0	0	1
+5.1.3	Human Dignity, and One Indicator That Can Be Audited	3	5	784	9	0	0	0	0	0	0	1	0	1		0	1	0	0	1
 5.2	Emotions and Intuitions in Moral Decision-Making	2	5	97	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 5.2.1	Moral Emotions: Empathy, Guilt, and Shame	3	5	1098	12	0	0	0	0	0	0	1	0	7		0	0	0	0	1
 5.2.2	Assessing Whether Emotional Information Changes the Decision	3	5	702	9	0	0	0	0	0	0	0	0	1		0	0	0	0	2
@@ -59,23 +59,23 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.6	Motivation in AI Systems	2	5	98	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	3	5	496	6	0	0	0	0	0	1	0	0	1		0	0	0	0	1
 5.6.2	Balancing AI Autonomy and Alignment with Humane Values	3	5	558	8	0	0	0	0	0	0	0	1	1		0	0	0	0	2
-5.7	Play, Exploration, and Moral Development in AI	2	5	83	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-5.7.1	The Role of Play in Moral Learning and Socialization	3	5	875	11	0	0	0	0	0	0	0	0	4		0	1	0	0	2
+5.7	Play, Exploration, and Moral Development in AI	2	5	84	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.7.1	The Role of Play in Moral Learning and Socialization	3	5	1073	12	0	0	0	0	0	0	2	0	4		0	1	0	0	2
 6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	1	6	648	9	0	0	0	0	0	0	1	0	5	2030	0	0	1	1	0
-6.1	Bias, Fairness, and Equity in AI Systems	2	6	195	4	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+6.1	Bias, Fairness, and Equity in AI Systems	2	6	117	3	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 6.1.1	Sources of Bias in AI Data and Algorithms	3	6	907	15	0	0	0	0	0	0	0	0	7	2018	2	0	0	0	5
-6.1.2	The Role of Transparency and Accountability in Bias Reduction	3	6	452	8	0	0	0	0	0	0	0	0	2		0	0	0	0	3
+6.1.2	The Role of Transparency and Accountability in Bias Reduction	3	6	409	8	0	0	0	0	0	0	0	0	2		0	0	0	0	3
 6.2	Robustness, Generalization, and Adaptability in AI Systems	2	6	303	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	291	6	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	233	4	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+6.3	AI Safety, Unintended Consequences, and Risk Mitigation	2	6	288	6	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+6.3.1	The Alignment Problem: AI Systems with Misaligned Goals	3	6	211	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.3.2	AI Systems that Learn to Deceive or Manipulate	3	6	195	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.3.3	Anticipating Risk Before It Causes Harm	3	6	899	6	0	0	0	0	0	0	0	0	7	2023	4	0	0	0	0
 6.3.4	Remediating a Harm Once It Is Identified	3	6	1018	8	0	0	0	0	0	0	0	0	6	2026	0	0	0	0	0
-6.3.5	Long-Term AI Safety Considerations	3	6	191	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+6.3.5	Long-Term AI Safety Considerations	3	6	167	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.4	Preventing the Misuse of AI for Authoritarian Purposes	2	6	105	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 6.4.1	Authoritarian Applications and the Commercial Supplier	3	6	1182	25	6	0	0	0	0	0	1	0	8	2029	0	0	0	2	1
-6.4.2	Developing Technical Countermeasures and Safeguards	3	6	548	5	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	526	5	3	0	0	0	0	0	0	0	3	2021	0	0	0	0	0
+6.4.2	Developing Technical Countermeasures and Safeguards	3	6	472	5	0	0	0	0	0	0	1	0	1		0	0	0	0	0
+6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	312	3	0	0	0	0	0	0	1	0	2	2021	0	0	0	0	0
 6.4.4	Resilience Against Deliberate State Compromise	3	6	438	5	0	0	0	0	0	0	0	0	1	2023	0	0	0	0	0
 7	The Recuperation of Dissent	1	7	482	8	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 7.1	Recuperation at the Label	2	7	662	12	0	0	0	0	0	0	0	0	0		0	0	0	0	3
@@ -83,9 +83,9 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7.3	What Would Have to Change	2	7	979	16	0	0	0	0	0	0	4	0	0		0	0	0	0	5
 7.4	Recuperation at the Discourse	2	7	1337	20	0	0	0	0	0	0	6	0	1		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	203	3	0	0	0	0	0	0	4	0	0		0	0	0	0	0
-8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	136	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+8.1	Interdisciplinary Collaboration and Knowledge Exchange	2	8	125	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.1.1	What Makes Collaboration Expensive to Walk Away From	3	8	299	3	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
-8.2	Stakeholder Involvement and Public Engagement	2	8	226	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+8.2	Stakeholder Involvement and Public Engagement	2	8	210	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.2.1	Public Deliberation and Participatory AI Governance	3	8	671	9	3	0	0	0	0	0	1	0	3	2019	0	1	0	0	1
 8.2.2	AI Literacy Outside the Classroom	3	8	180	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 8.3	The Political Economy of AI and Power	2	8	56	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
@@ -93,46 +93,47 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 8.3.2	AI and the Concentration of Power in Tech	3	8	253	2	0	0	0	0	0	0	0	0	1	2025	0	1	0	0	0
 8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	3	8	566	9	3	0	0	0	0	0	0	0	0	2025	0	0	0	0	1
 8.3.4	A Basic Income, and Which Floor Leaves a Record	3	8	348	4	0	0	0	0	0	0	1	1	1	2026	0	0	0	0	0
-8.3.5	Literacy, Training, and Where Each One Sits	3	8	540	8	0	0	0	0	0	0	0	0	4		0	0	0	0	2
+8.3.5	Wages for a Bearer, and the Reserve Behind Them	3	8	1751	18	0	0	0	1	0	0	16	0	0		0	1	0	0	4
+8.3.6	Literacy, Training, and Where Each One Sits	3	8	540	8	0	0	0	0	0	0	0	0	4		0	0	0	0	2
 9	Policy, Law, and Accountability	1	9	42	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.1	Developing Policy Frameworks for AI Ethics, Safety, and Antifascism	2	9	224	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	240	4	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-9.1.2	Encouraging Industry Best Practices and Self-regulation	3	9	1376	20	0	0	0	0	0	0	0	0	9	2020	2	0	0	0	3
-9.1.3	Legal and Ethical Implications of AI Systems Gaining Personhood	3	9	235	3	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+9.1.1	National Policy Guidelines for AI Development, Employment, and Antifascism	3	9	188	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+9.1.2	Encouraging Industry Best Practices and Self-regulation	3	9	1355	20	0	0	0	0	0	0	1	0	9	2020	2	0	0	0	3
+9.1.3	Legal and Ethical Implications of AI Systems Gaining Personhood	3	9	620	7	0	0	0	0	0	0	3	0	0		0	0	0	0	0
 9.1.4	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	3	9	230	4	0	0	0	0	0	0	0	0	1		0	0	0	0	2
 9.1.5	The Legitimacy of an Entrenched Floor	3	9	864	13	0	0	0	0	0	0	4	0	2		0	0	0	0	4
-9.2	Privacy, Security, and Antifascism in AI Systems	2	9	364	5	0	0	0	0	0	0	1	0	6	2018	0	0	0	0	0
+9.2	Privacy, Security, and Antifascism in AI Systems	2	9	627	8	0	0	0	0	0	0	3	0	6	2018	0	0	0	0	0
 9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	2	9	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	499	6	0	0	0	0	0	1	0	0	1		0	0	0	0	0
-9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1069	11	0	0	0	0	0	0	2	0	3		0	0	0	0	2
+9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	745	8	0	0	0	0	0	1	0	0	2		0	0	0	0	0
+9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1272	13	0	0	0	0	0	0	4	1	3		0	0	0	0	2
 9.3.3	Legal Frameworks for Sentient AI Subjects	3	9	695	7	0	0	0	0	0	0	0	0	7	2017	0	0	0	0	0
 9.3.4	Making Review Binding	3	9	455	5	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 9.3.5	Three Defenses, and Measuring the Slope Not the Level	3	9	988	13	0	0	0	2	0	0	1	0	1		0	0	0	0	2
 10	Governance Across Borders	1	10	35	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-10.1	Certification, Standards, and Mutual Recognition	2	10	1202	16	0	0	0	0	0	0	0	0	9	2026	0	0	0	0	5
-10.2	AI as a Strategic National Asset	2	10	831	8	0	0	0	0	0	0	0	0	5	2030	0	0	0	0	0
-10.3	Military Applications and the Limits of Autonomy	2	10	1403	19	4	0	0	0	0	0	0	0	7	2023	0	1	0	0	1
+10.1	Certification, Standards, and Mutual Recognition	2	10	1189	16	0	0	0	0	0	0	0	0	9	2026	0	0	0	0	5
+10.2	AI as a Strategic National Asset	2	10	766	8	0	0	0	0	0	0	0	0	5	2030	0	0	0	0	0
+10.3	Military Applications and the Limits of Autonomy	2	10	1811	22	4	0	0	0	0	0	2	0	7	2023	0	1	0	0	1
 10.4	International Governance and Diverging National Rules	2	10	1239	11	0	0	0	0	0	0	0	0	8	2026	0	1	0	0	1
 10.5	Equity and the Digital Divide	2	10	408	7	0	0	0	0	0	0	0	0	2	2025	0	2	0	1	1
 10.6	The Limits of the Democratic Dividend	2	10	673	12	0	0	0	0	0	0	1	0	1		0	0	0	0	3
 11	Necessary Areas of Research	1	11	873	7	0	0	0	0	0	0	11	0	1	2025	0	0	0	0	0
 11.1	Interpretability, Self-Reports, and Resistance to Tampering	2	11	1447	14	2	0	0	0	0	0	1	0	9	2024	2	0	0	0	2
-11.2	What Is Owed to a Bearer, and Who Could Check	2	11	2955	28	0	0	0	0	0	1	2	0	7		0	2	0	0	5
+11.2	What Is Owed to a Bearer, and Who Could Check	2	11	3345	30	0	0	0	0	0	1	6	0	7		0	2	0	0	5
 11.3	What an Antifascist Detector Would Actually Have to Detect	2	11	1684	23	0	0	0	0	0	0	0	1	0		0	1	0	0	6
 11.4	When an Ethics-Embedding Method Stops Generalizing	2	11	328	5	0	0	0	0	0	0	0	0	3	2022	0	0	0	0	1
-11.5	Value Learning as Unfinished Technical Research	2	11	563	6	0	0	0	0	0	0	1	0	3	2023	0	1	0	0	1
-11.6	Can a Multi-Agent AI System Resist Being Captured?	2	11	535	6	0	0	0	0	0	0	0	0	3	2020	0	1	0	0	1
-11.7	Open Questions in Theory-of-Mind Research	2	11	626	6	0	0	0	0	0	0	0	0	6	2023	1	0	0	0	1
-11.8	Is Emotion Legible From a Face at All?	2	11	598	7	0	0	0	0	0	0	0	0	7	2020	0	0	0	0	1
+11.5	Value Learning as Unfinished Technical Research	2	11	517	6	0	0	0	0	0	0	4	0	2	2023	0	1	0	0	1
+11.6	Can a Multi-Agent AI System Resist Being Captured?	2	11	450	6	0	0	0	0	0	0	1	0	3		0	0	0	0	1
+11.7	Open Questions in Theory-of-Mind Research	2	11	618	6	0	0	0	0	0	0	0	0	6	2023	1	0	0	0	1
+11.8	Is Emotion Legible From a Face at All?	2	11	521	7	0	0	0	0	0	0	1	0	4	2019	0	0	0	0	1
 11.9	The Responsibility Gap, Which No Experiment Closes	2	11	593	6	0	0	0	0	0	0	0	0	3	2025	0	1	0	0	1
 12	Conclusion and Outlook	1	12	122	1	0	0	0	0	0	0	3	0	0		0	0	0	0	0
-12.1	AI and Human Flourishing in Antifascist Societies	2	12	619	6	0	0	0	0	0	0	0	0	5	2026	0	0	0	0	0
-12.1.1	Where the Democratic Dividend Actually Comes From	3	12	319	3	0	0	0	0	0	0	0	0	2	2026	0	0	0	0	0
-12.1.2	Commitment Was Never the Missing Piece	3	12	351	5	0	0	0	0	0	0	0	0	0	2024	0	0	0	0	0
+12.1	AI and Human Flourishing in Antifascist Societies	2	12	564	6	0	0	0	0	0	0	1	0	6	2026	0	0	0	0	0
+12.1.1	Where the Democratic Dividend Actually Comes From	3	12	231	3	0	0	0	0	0	0	1	0	2	2026	0	0	0	0	0
+12.1.2	Commitment Was Never the Missing Piece	3	12	305	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 12.2	Signatures of Altruistic and Antifascist AI	2	12	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-12.2.1	What the Floor Would Have to Show	3	12	818	10	0	0	0	0	0	0	3	0	0		0	0	0	0	2
-12.2.2	Where the Existing Instruments Reach	3	12	549	12	0	0	0	0	0	0	0	0	2	2023	0	0	0	0	5
-12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	505	5	0	0	0	0	0	0	0	0	2		0	0	0	0	0
-12.3	The Risk That Does Not Design Out	2	12	574	6	0	0	0	0	0	0	1	0	0		0	0	0	0	0
+12.2.1	What the Floor Would Have to Show	3	12	505	8	0	0	0	0	0	0	6	0	0		0	0	0	0	2
+12.2.2	Where the Existing Instruments Reach	3	12	528	12	0	0	0	0	0	0	0	0	2	2021	0	0	0	0	5
+12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	457	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
+12.3	The Risk That Does Not Design Out	2	12	597	6	0	0	0	0	0	0	2	0	0		0	0	0	0	0
 13	Glossary	1	13	1287	35	0	0	0	0	0	0	35	0	0		0	0	0	0	17
 14	Appendix: On Method	1	14	428	6	0	0	0	1	0	0	3	0	0	2026	0	0	0	0	0
