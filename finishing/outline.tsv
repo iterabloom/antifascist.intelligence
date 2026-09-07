@@ -27,7 +27,6 @@ num	title	level	parent
 4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	2	4
 4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	3	4.1
 4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	3	4.1
-4.1.3	Human-Like Learning and Generalization in AI Systems	3	4.1
 4.2	How a Deployed System Acquires Its Values	2	4
 4.2.1	Pretraining and Instruction Tuning	3	4.2
 4.2.2	Preference Optimization, and Who Holds the Pen	3	4.2
