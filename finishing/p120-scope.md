@@ -24,10 +24,17 @@ chapter 6, whose whole named pool of 2,767 words gave up 460.
 the section still has to name what failed, and `style.md` §7 requires the carrying sentence to make
 sense to a reader who does not follow the reference. That accounts for roughly a fifth of the gap.
 
-**And some of it was my own cap, which should not be filed under a measurement error.** §3.4 was
-estimated at 615 and gave up 149; §3.5 at 487 and gave up 126. Two of §3.4's three target passages are
-P117's repairs to the author's finding (a), and I held them to no more than a third off and left §3.5's
-P117 additions untouched. That was a stated decision before execution, not something the text refused.
+**And some of it was my own reticence, which I first filed under the cap and then measured.** The cap
+was supposed to protect P117's repairs to the author's finding (a) at no more than a third off. What it
+actually described was a much broader reluctance: across §3.3, §3.4, §3.5 and §3.10 I opened 8 paragraphs
+out of 86, and on the three P117 paragraphs the cap covered I took 10, 14 and 24 percent — never reaching
+it. §3.4's depths run-in, which the plan wanted at 943 → 520, came out at 943 → 875, or 7.2 percent off.
+The author put the arithmetic to me: a cap applied per-passage, with most passages never opened, is not a
+third off anything. A second pass over that run-in opened the six paragraphs never touched and took
+P117's three to a genuine quarter, bringing it to 777, or 17.6 percent. §3.5's Soares enumeration, which
+I had skipped because P117's *middle two* depended on it, came out once that clause was rewritten to
+name the pair. Chapter 3 now stands at 21,401 against a baseline of 21,228, the additions in §3.3,
+§3.8 and §3.9 having outrun the cuts.
 
 Underneath all three: the manuscript had already been compressed once. Chapters 5 through 10 had not
 gained a word since P112/P113, and every word P114–P118 added went into chapters 2, 3 and 11 — the
@@ -86,8 +93,8 @@ moved to `unused_bibliography.bib` under D-111.
 
 ## Figures
 
-**138 sections, 40 changed in prose across both halves, one renumbered and one added of the pass; 91,932 → 94,597 words (+2,665: +4,903 added,
-−2,238 cut); 187 → 189 pages; 18 → 17 overfull boxes; 0 undefined references and citations; 310 → 309
+**138 sections, 40 changed in prose across both halves, one renumbered and one added of the pass; 91,932 → 94,463 words (+2,531: +4,903 added,
+−2,372 cut); 187 → 188 pages; 18 → 17 overfull boxes; 0 undefined references and citations; 310 → 309
 bibliography entries, all cited, none orphaned; 145 → 200 cross-references resolving; suite green.**
 
 ## What was not done
