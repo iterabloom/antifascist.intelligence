@@ -10,18 +10,28 @@ finished the pass **larger**, at 94,597 words against 91,932. Nothing was blocke
 abandoned: every one of the sixteen sites was worked. What the sites contained was less than the
 estimate said.
 
-## Why the estimates were wrong, and they were wrong the same way each time
+## Why the cut fell short, in three parts
 
-The plan's per-site figures were measured on the length of the passages that duplicate other sections.
-What actually comes out is smaller, because a duplicated *claim* still has to be made once here — as a
-sentence, a clause, or a cross-reference — and the cost of making it is most of the words. §12.2.1 was
-"roughly 70 percent recap" and gave up 313 of 818. §3.4's depths passage is the one `STATE.md` itself
-flags as over-apparatus, and gave up 149 against 423. Chapter 6's whole named pool, 2,767 words against
-a request for 2,000–3,000, gave up 460.
+**Most of it: the estimates counted paragraphs, and the duplication was in paragraph openings.** §11.5
+is the clearest case, estimated at 147 and giving up 49. The plan named three passages restating §4.2.3,
+§4.2.2 and §4.2.6, totalling 297 words. The middle one is a 187-word paragraph scored whole as
+restatement, but only its first 47 words set up RLHF; the remaining 140 are the sycophancy finding,
+which is §11.5's own and duplicates nothing. A paragraph that *opens* by restating another section is
+not a paragraph of restatement. The same shape holds at §12.1.2 (140 estimated, 40 taken) and across
+chapter 6, whose whole named pool of 2,767 words gave up 460.
 
-The manuscript had already been compressed once. Chapters 5 through 10 had not gained a word since
-P112/P113, and every word P114–P118 added went into chapters 2, 3 and 11 — the argument. The transcript
-was describing a book that no longer existed.
+**Some of it: a cross-reference is not free.** Cutting §11.5's 47-word setup saved 35, not 47, because
+the section still has to name what failed, and `style.md` §7 requires the carrying sentence to make
+sense to a reader who does not follow the reference. That accounts for roughly a fifth of the gap.
+
+**And some of it was my own cap, which should not be filed under a measurement error.** §3.4 was
+estimated at 615 and gave up 149; §3.5 at 487 and gave up 126. Two of §3.4's three target passages are
+P117's repairs to the author's finding (a), and I held them to no more than a third off and left §3.5's
+P117 additions untouched. That was a stated decision before execution, not something the text refused.
+
+Underneath all three: the manuscript had already been compressed once. Chapters 5 through 10 had not
+gained a word since P112/P113, and every word P114–P118 added went into chapters 2, 3 and 11 — the
+argument. The transcript was describing a book that no longer existed.
 
 ## What came out, by site
 
