@@ -4,9 +4,9 @@
 which the author approved executing in the same pass as P119's additions, choosing the deepest of three
 options — *everything genuinely removable*, including section merges.
 
-**The headline is a miss, and it is the finding.** The cut came to **2,238 words** against a plan of
+**The headline is a miss, and it is the finding.** The cut came to **2,372 words** against a plan of
 about 7,000, itself already cut down from the transcript's 10,000–15,000 during verification. The book
-finished the pass **larger**, at 94,597 words against 91,932. Nothing was blocked and nothing was
+finished the pass **larger**, at 94,463 words against 91,932. Nothing was blocked and nothing was
 abandoned: every one of the sixteen sites was worked. What the sites contained was less than the
 estimate said.
 
@@ -103,7 +103,7 @@ bibliography entries, all cited, none orphaned; 145 → 200 cross-references res
   reopened past the 358 words taken from §3.3, §3.4, §3.5 and §3.10, or §2.1.2 — 2,352 words, five inbound
   references, named by nobody — or the merges at the costs above. All three need a ruling.
 - **Chapters 1, 5, 7, 13 and 14 were not searched.** The transcript named none of them and neither did I,
-  so 2,238 is a floor on what exists rather than a ceiling.
+  so 2,372 is a floor on what exists rather than a ceiling.
 - **§9.1.2 at 1,376 words was compressed by 55 and is still the second-largest section in chapter 9.**
   Its Clearview case is now the book's only one, because §6.4.3's came out.
 - **Nothing was re-read end to end after compression.** Thirty sections moved and a green suite says the

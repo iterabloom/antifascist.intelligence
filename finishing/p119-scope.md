@@ -107,7 +107,7 @@ for — went to §9.3.2 beside the Three Rs, where it is checkable in a way Redu
 ## Figures
 
 **138 sections (137 + 1 new), 12 changed by this half of the pass; 91,932 → 96,835 words before the cut,
-+4,903; 189 pages; 0 undefined references and citations; 311 bibliography entries after one addition;
++4,903; 192 pages at that point; 0 undefined references and citations; 311 bibliography entries after one addition;
 200 cross-references resolving, from 145.** Per-section: §3.3 +307, §3.8 +418, §3.9 +175, §5.1.3 +238,
 §5.7.1 +198, §8.3.5 +1,751 new, §9.1.3 +385, §9.2 +263, §9.3.1 +246, §9.3.2 +203, §10.3 +408, §11.2 +390,
 §12.3 +23. One new reference verified against the codified statute before it was written:
