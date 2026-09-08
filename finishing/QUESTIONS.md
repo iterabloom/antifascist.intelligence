@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-231 (P131): three new entries, Q-095 through Q-097, and nothing carried over is reopened.** P131 answered an outside note asking for the floor's authorization problem to be moved out of the closing pages, into chapter~1 and wherever the floor's contents are published. **The note was restating Q-064, which the book closed by execution eight days ago** — D-168 (P86) on option (b), giving `03_10.tex:23` as the acknowledging paragraph and §9.1.5 as its 1,686-word treatment — so what a reader catches at §3.10 is a designed acknowledgment. **The pass's own record is three corrections to my assessment of the note, and the author asked for the check that produced them**: I reported §9.1.5 as unreferenced when it has two inbound references and my own truncated grep output was the cause; the repair I proposed was a new cross-reference, which is the class D-089 and D-099 cut twice, so **this pass adds none and the count is unchanged at 230**; and I told the author the note's second recommendation was already satisfied when it was not. **That third error is where §3.6's new caveat came from**: five sites publish the floor's contents or the five precommitment terms, publication is justified by detectability at every one and by authorization at none, and §3.6 is the only place either enumeration is actually run. **Q-095** is that `03_01.tex:23`'s four hanging threads — custody, patienthood, enforcement, formation — omit legitimacy while `01.tex:26` counts them, §9.1.5 having arrived later; chapter~1's new sentence attaches its cost to line 20's trade to avoid reading as a fifth. **Q-096** carries the four publication sites left uncaveated, D-044 being the reason they were not swept. **Q-097** records that chapter~12's last word on the floor and the glossary's *bearer* and *floor* entries name no legitimacy cost. **Q-068 stands unanswered on its default**, and this pass did not touch it: §9.1.5's third design consequence, a route by which the governed can object, is named in the text and unsupplied. **Two things are in `p131-scope.md` rather than entered here, following P95's practice**: the two duplications with §9.1.5 that the suite cannot see, measured at 11 and 13 shared words before and 5 and 5 after, and the publication-site table. Q-080, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090, Q-091, Q-092, Q-093 and Q-094 stand, each with its default; **Q-085 does not fire here**, this pass not having touched chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-230 (P130): five new entries, Q-090 through Q-094, and nothing carried over is reopened.** P130 came out of a long working conversation about §3.2's exclusion of William James's epistemic feelings, and the instruction was to use the whole of it to reconcile contradictions across the text. **The design rule the pass ran on, taken from what the author actually argued**: across five worked cases he never claimed a machine feels anything, only that unearned negatives are unearned — so the pass removes negatives and installs no positives. **The wide repair was designed, checked and rejected, and the author's own question killed it.** *This exists?*, asked of "inference with nothing riding on it", is decisive; and making what a system has to lose criterial for affective concern breaks `03_03.tex:75`, whose falsifier needs a system that prices a cost under sustained pressure *with nothing felt*. What went in sorts felt states by what they are about, which is what the working psychology does too. **The pass's largest finding was not what the conversation was about**: fourteen sites take the negative verdict `03_04.tex:66` calls *available to nobody*, of which seven were repaired and seven were left as capability claims, each classified before being touched and each reported, because D-044 records what a metric-driven sweep did to three arguments. **Q-090 is the part of that deliberately not done** — seven sites presuppose no bearer exists yet, including the author's own rewrite of chapter 3's last sentence, and converting them would make this a book about current systems. **Q-091 carries the inventory of about thirty undated present-tense capability claims** found while dating Butlin, so the pass that fixes them need not rediscover them. **Q-092** is *against its own interest* at `03_03.tex:69` and `03_04.tex:33` against `03_04.tex:47`'s constitutive move. **Q-093** records verbatim duplications the run check found in text this pass did not write, joining Q-083's `dupes.py` proposal. **Q-094** is a side effect: adding the second Butlin entry made biblatex expand the first one's name list, so `(Butlin et al. 2023)` in the committed proof now reads `(Butlin, R. Long, Elmoznino, et al. 2023)`. **Three things are in `p130-scope.md` rather than entered here, following P95's practice**: the four-way case against the wide repair, the fourteen-site classification table with outcomes, and that Crossref corrected the plan twice — the Butlin successor is a June 2026 print article and not the 2025 every search summary reported, and Pekrun's published year is 2016 against a 2017 print issue. Q-080, Q-081, Q-083, Q-084, Q-085, Q-087, Q-088 and Q-089 stand, each with its default; **Q-085 fires here**, this pass having touched chapter~2, and closes on its default (a): §2.3.2's *persistence by design* stays as written. A different sentence in the same section, `02_03_02.tex:10`, was audited as one of the fourteen and left, being a conditional claim about persistence rather than a verdict about feeling; the two are not the same site and P128's Q-086 is the reason for saying so. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2736,6 +2739,62 @@ appearance because of an entry added elsewhere.
 is a global change to the citation style of a 324-entry bibliography, made to tidy three
 in-text citations. **Fires if the author dislikes the expanded form**, in which case the preamble
 change wants checking against every multi-author citation in the book and not only these.
+
+
+### Q-095 — The book's four hanging threads do not include legitimacy
+
+**Raised by P131.** `03_01.tex:23` closes the four ways to build a floor with *"Their costs are the
+four threads this book leaves hanging: custody, patienthood, enforcement, and formation."*
+`01.tex:26` counts them the same way — *"the floor with its four costs."* Legitimacy is not among
+them, because §9.1.5 arrived later, in P86.
+
+Chapter~1's new sentence attaches its "second cost" to line 20's **trade**, whose first cost is
+uncorrectability in the preceding sentence, so it does not read as a fifth thread. That is a
+wording choice and not an answer.
+
+- **(a) Default — leave the four as four.** They are the costs of the four *ways*, and legitimacy is
+  a cost of having a floor at all, which is a different list. Applies at the close of the next pass
+  if nothing is said.
+- (b) Make it five in both places, and give legitimacy a sentence in `03_01.tex:23` alongside the
+  other four. Reaches chapter~1's count, the chapter~3 opener, and anywhere the four are enumerated.
+- (c) Leave the count and say in `03_01.tex:23` that the list is of the four ways' costs and not of
+  everything the floor owes.
+
+### Q-096 — Four of the five publication sites carry no legitimacy caveat
+
+**Raised by P131.** The floor's contents or the five precommitment terms are published or restated at
+`03_06.tex:10–22,27`, `03_03.tex:19`, `03_05.tex:48`, `03_10.tex:29`, `09_01_05.tex:26` and
+`03_01.tex:7`. **In every one, publication is justified by detectability** — *a later absence is a
+visible absence* — **and never by authorization.** §3.6 gained the caveat in this pass because it is
+the only place either enumeration is actually run. The rest were left.
+
+Caveating all of them is a sweep across two chapters, and **D-044 is the record of what a
+metric-driven sweep did to three arguments**, which is why this was not done on a count.
+
+- **(a) Default — leave them.** The distinction is made three times already, at `03_10.tex:23`,
+  `09_01_05.tex:3` and now `03_06.tex:42`, and a fourth and fifth would be the repetition D-013
+  exists to prevent. Applies at the close of the next pass if nothing is said.
+- (b) Add it at `03_03.tex:19` only, the precommitment forms being the list §9.1.5 later recasts as
+  an amendment procedure.
+- (c) All five, classified before touching, on P130's method for the negative-verdict sweep.
+
+### Q-097 — Chapter 12 and the glossary close on the floor without its legitimacy cost
+
+**Raised by P131.** `12_03.tex:7` is the book's last word on the floor — *"A constraint that holds
+against the party in possession has to be held by something that party cannot instruct"* — and it
+names custody and residual risk and no legitimacy cost. The glossary's `bearer` (`13.tex:17`) and
+`floor` (`13.tex:26`) entries cite §3.1 and §3.10 and never §9.1.5, so a reader who arrives at the
+book's definitions has no route to its treatment of the floor's authority.
+
+The chapter~12 half matters more than the glossary half: chapter~1 now states the objection, and a
+book that raises a problem in its introduction and closes without returning to it has done something
+worse than not raising it.
+
+- **(a) Default — the glossary only.** One clause in the `floor` entry, which is cheap and reaches a
+  reader who looks the word up. Applies at the close of the next pass touching chapter~13.
+- (b) Chapter~12 as well, one sentence in `12_03.tex`, so the objection stated in the introduction is
+  acknowledged where the book closes.
+- (c) Leave both. §3.10 and §9.1.5 carry it, and the conclusion is short on purpose.
 
 
 ## Resolved

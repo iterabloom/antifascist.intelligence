@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Yes, I Did Use LLMs	4b23ac27f9b282a4714a3d9ddeb8061d0ff72cc0696e0e8d07e4cda8ccd741a2
-manuscript/sections/ch01/01.tex	1	Introduction	54baa8aa1959068ef3b0ddc5093333740b59e768cb3ab99956d4d257fb5bdbab
+manuscript/sections/ch01/01.tex	1	Introduction	da5f08e6d121b28554f41f16d6714209159dc520f0c5658a85f98be505617996
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	2e2c4fbc1296e2cd2495b708f008401aa809319969f3e84965f2cf92c7d1bb39
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
@@ -18,11 +18,11 @@ manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	f3dd6d4e2aef617f53a1da45de77f133448c2734103a22e8dccd3dc56c9058d5
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	1f2faf87a698be7c2d32b3bdc6dff7430916f813b1be788e60283c0e2dd3fed2
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	4bcaa0095f8a8701f02ccfceacce8b73eaa2a97d3f8302f9c97ba137ea5b9575
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	cc5def277d6c4f6a06a2889c48868aeecdc416d89a122f91715f99793e15e8f7
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	ce01423cf4288c2d9c9d02060e38ab1a43b8fa46b938a1e83602985cc06c640f
-manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	08f755847ec372c5924f940c57a80213dbdb3006cd50c90ad7a8c892585deb47
-manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	df73a701ee741f9ca83674e7e9b43b1801a710e8f1a08f258eff209fe13fc487
+manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	28b0ef1f5cdc89684f003524eda0a4a3e8acde872db92b8b553ee7fc130afd61
+manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	2fd0742121f2210dc9caf5aea1737dcd82cadefdb119e566549361293bb88e18
 manuscript/sections/ch04/04.tex	4	Machine Learning and Cognitive Science	7c6235b8f56542f43b5c75f6905fc762615be3a0116c1ad06d078b06bf188df1
 manuscript/sections/ch04/04_01.tex	4.1	Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making	367b89e38a4f44858559a78116890a696c95cd59617dca691fbfadb468d11b1f
 manuscript/sections/ch04/04_01_01.tex	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	adfae16327ed9d4b175ac0039aaa4ac3c0844f6d35cda00d3dfe567bd5d74258
