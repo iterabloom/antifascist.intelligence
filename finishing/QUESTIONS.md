@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-226 (P126): four new entries, Q-081 through Q-084, and nothing carried over is reopened.** P126 imported an Overleaf pass and repaired the five defects it brought back. **Two of the four entries are the author's own edits recorded rather than defects**: Q-081, chapter 0's retitle to *Yes, I Did Use LLMs*, whose companion macros were synced to the heading under D-011 so the book stops disagreeing with itself — a consistency repair that settles nothing about which title is right; and Q-082, the two clauses §3.10 lost that D-215 put there by name, of which *the middle clause is the one to attack* is the one §12.3 was later aligned to. **Q-083 is the pass's finding turned into a proposal**: a `\ref` missing its `sec:` prefix is invisible to `check_xrefs.py` rather than dangling, and a duplicated sentence is invisible to the suite and to the build alike, so the entry asks whether a prefix test and `dupes.py` — five hits over 133 files, three of them deliberate repetitions — belong in `tools/`. **Q-084 records an asymmetry rather than a defect**: `AGENTS.md` has an argued exception for sending files out and none for bringing them in, so the Overleaf round trip is tooled in one direction only. **Every entry carries a default and none blocks work.** Nothing from the P124 and P125 walkthrough is reopened, and the standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged. `p126-scope.md` has the trip and the defects.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-07, after D-225 (P125): the walkthrough is complete and nothing is awaiting a ruling.** The author asked to be walked through every open question one by one and ruled on all of them; P124 executed thirteen and P125 sixteen. **No numbered entry is open** — Q-074 closed at P124 on its own default, with the assumption checked first at the author's instruction. **The standing items that had been carried since P111 through P118 are decided rather than deferred**, and the scope-file items from P103, P104 and P105 that were included in the walkthrough are executed; what remains in those files was not part of it. **B-4 closed without an edit**, the research showing that the paper reports no message count and that hours against hours is the only comparable pair, so P115's correction stands; if the author meant something the research did not reach, the item should be reopened. **Four things are in `p125-scope.md` rather than entered here, following P95's practice**: that the lab-welfare survey covered one laboratory's published commitment and not the field; that §4.2.9 now opens on material moved into it rather than composed for it; that folding kept parent titles where two child titles were better; and that `\backmattermark` names the running-head macro now used by a front-matter chapter. D-012's permissions task still does not exist. `roadmaps.md` 16 rows, `near-roadmaps.md` 12 and `collateral.md` 7 stand outside the repository, each needing a ruling. Q-070 was closed at P120.
 
 **Superseded header, kept for the record.**
@@ -2479,6 +2482,102 @@ it is going, not about a broken pointer.
 - (c) Leave §3.1 ending where it does, and let §3.10 carry the stance alone.
 - (d) Write a new bridge in the author's compressed register rather than restoring cut
   text.
+
+---
+
+### Q-081 — Chapter 0's retitle: *On Method* → *Yes, I Did Use LLMs*
+
+**Raised by P126's Overleaf import, which applied it.** D-224 (P124) moved this chapter from
+the back of the book to page 1 and retitled it *Appendix: On Method* → *On Method*, on the
+reasoning that at the front it is not an appendix; the new title is the author's own, made in
+Overleaf, and reads as a deliberate change of register rather than a slip — the chapter's whole
+first paragraph was rewritten into the first person in the same edit.
+
+**What P126 already did**: `\addcontentsline` and `\backmattermark` still said *On Method*, so
+the built book carried one title on page 1 and another in its own table of contents and running
+head. Both were synced to the heading under D-011, which makes the `.tex` heading authoritative.
+That is a consistency repair and settles nothing about which title is right.
+
+**What turns on it**: the title is the first thing a reader of the PDF sees, the chapter having
+been moved to page 1 precisely so the disclosure sits ahead of every criticism in the book.
+
+- **(a) Default — the new title stands.** It is the author's own edit, made deliberately
+  alongside a first-person rewrite of the same chapter. Applies if nothing is said.
+- (b) Revert to *On Method*, and revert the two companion macros with it.
+- (c) Keep *Yes, I Did Use LLMs* as the page heading and put *On Method* in the table of
+  contents, which `\addcontentsline` supports and which D-011 would then need an exception for.
+
+---
+
+### Q-082 — §3.10 lost two clauses P117 put there by name
+
+**Raised by P126's read of the import diff.** The Overleaf edit dropped *the middle clause is
+the one to attack* from the chapter's closing proposition, and *which is why this book treats
+the question as research rather than as a matter to be settled after the fact* from the sentence
+after it. D-215 (P117) added the first as the answer to what would change the author's mind, and
+`STATE.md` names it among that pass's load-bearing repairs; D-216 (P118) then rebuilt §12.3's
+ending on the same ordering.
+
+**What is not affected**: §3.10's falsifier passage and the *Suppose the induction fails*
+paragraph are untouched, so the argument the clauses pointed at is still on the page. What went
+is the signpost telling a reader which conjunct to attack.
+
+- **(a) Default — leave both out.** The edit is the author's and the compression is consistent
+  with the rest of it. Applies at the close of the next pass touching chapter~3 if nothing is
+  said.
+- (b) Restore *the middle clause is the one to attack* only, it being the one D-215 argued for
+  and the one §12.3 was aligned to.
+- (c) Restore both.
+
+---
+
+### Q-083 — Two checks the suite does not have, and whether they should exist
+
+**Raised by P126, where three of five defects were invisible to `check_all.sh`.**
+
+**The `\ref` prefix.** `check_xrefs.py` matches `\\ref\{sec:([^}]*)\}`. A reference written
+`\ref{9.3.5}` without the prefix matches that pattern and no other, so it is neither counted as
+resolving nor reported as dangling — the check prints OK and the defect reaches the build, where
+it appears as an undefined reference. One line of regex would catch it at the source.
+
+**Repeated sentences.** Two duplicated passages came back in the import, one a sentence written
+twice in succession and one a rewritten sentence left standing beside the sentence it replaced.
+Neither the suite nor the build sees either; both compile. `dupes.py` — a sentence repeated
+inside one paragraph, or a nine-word run repeated inside one paragraph — returns five hits over
+133 files, the two defects and three deliberate repetitions, which is the signal-to-noise other
+`tools/` instruments are held to. **It is in the session scratchpad and not in the repository.**
+
+- **(a) Default — add both.** The `\ref`-prefix test into `check_xrefs.py` and into
+  `check_all.sh`, since it has no false positives; `dupes.py` into `tools/` and the README table
+  as a hand-run instrument, not into `check_all.sh`, following `antithesis.py` and `deixis.py`.
+  Applies at the close of the next pass that touches `tools/` if nothing is said.
+- (b) The `\ref` test only; leave duplication to reading.
+- (c) Neither; record the finding and rely on the diff read.
+
+---
+
+### Q-084 — The manuscript has a way out and no way back
+
+**Raised by P126.** `AGENTS.md` scopes the agent's network use to `git` to `origin` and web
+browsing for research, fact-checking and citation verification, and carries **a deliberate,
+argued exception for sending files out** — `~/upload-tool/`, which encrypts, uploads, verifies
+the round trip and logs the passphrase, and which runs on the author's ask. There is **no
+symmetric exception for bringing files in.** So the export half of the Overleaf round trip is
+tooled and audited, and the import half arrives however the author improvises: this pass, a
+Google Drive link the agent declined to fetch and the author downloaded himself.
+
+**What is not in question**: that the author can put a file on this machine by any means he
+likes. The question is whether the agent should have a sanctioned way to retrieve one, and what
+it would have to verify before the file reached `overleaf.py import`.
+
+- **(a) Default — leave it.** The author fetching the file himself costs one command and keeps
+  the agent's network surface as narrow as it is. Applies if nothing is said.
+- (b) Amend `AGENTS.md` with a narrow inbound exception, mirroring the upload tool's shape: a
+  named directory outside the repository, a hash the author states in advance, and a refusal to
+  fetch anything whose hash was not stated. The amendment goes through
+  `proposed-AGENTS-amendment*.md` as D-017's and the proofs phrase's did.
+- (c) Build the inbound half as a tool first and leave the rule alone, on the ground that
+  `overleaf.py import` already refuses structural change and verifies a manifest.
 
 ---
 

@@ -1,5 +1,5 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	Yes, I Did Use LLMs	b7d835f8f1ade5c5cb9e0045d3c80268d75a329f5a9b1f7646582592b3345b7e
+manuscript/sections/ch00/00.tex	0	Yes, I Did Use LLMs	4b23ac27f9b282a4714a3d9ddeb8061d0ff72cc0696e0e8d07e4cda8ccd741a2
 manuscript/sections/ch01/01.tex	1	Introduction	89c37075809b7ddf3aaa0fed91fbf8f9c3d9687bfd5a39e5dbd0b9969fc9ec3a
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	2e2c4fbc1296e2cd2495b708f008401aa809319969f3e84965f2cf92c7d1bb39
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
@@ -10,7 +10,7 @@ manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System R
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	9f78f92ceec9ad6f866340ed6c5585735a39090b9302be940051c74f13ad1fd7
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	f54419e29590a9f05b57baf6c788bafb93f2d9442b5120b65cb072bcc4663147
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
-manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	03fcba72474101fe505cbd43cc6784f880fa7547f2bb4aad8574287f7c8d23e4
+manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	e6ed5de99e1fe30455280e586dd5ed387326fa741fb1e8eff13e4f55a23df240
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	86033bf12c5e9dc0f815a912a04a0c96f9eb4a8387f3e884bacac0f93712601e
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	d00682b9af9478ab97d5724b06b34faf925e62f5b75ea98eeade6b74bd32f73b
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	b66bc4204b7b130caf142c08bfefed8d8f8a2c4f4d48c6139d7c8dd484045dfd
@@ -18,7 +18,7 @@ manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	8968259c1af1840037320fd1e2f85672b0207ef6503ff15f50076d369c523f9c
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	2973c6a66dfb53a944ad5accf1dc123d44fe288c70758cb41463f401153c3b6d
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	b60bbd30388a959923bdde8c831a0c1d7c0d4feed8f0768715ad5e9b039de279
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	9e383ffdbff0266ee3a49a8076d70652cc69d8d156f666482d8d14260a2308ce
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	ce01423cf4288c2d9c9d02060e38ab1a43b8fa46b938a1e83602985cc06c640f
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	08f755847ec372c5924f940c57a80213dbdb3006cd50c90ad7a8c892585deb47

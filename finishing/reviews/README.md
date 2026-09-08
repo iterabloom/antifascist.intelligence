@@ -25,6 +25,7 @@ these files are the input, not the verdict.
 | `author-discussion_2026-09-02.md` | An editorial review and the discussion after it, from a language model shown the 183-page proof, 2026-09-02. **Excerpted by the author** — see below | P88 — `p88-scope.md`, D-181 |
 | `author-discussion_2026-09-05.txt` | Four questions from the author to a language model, on whether compassion needs empathy, whether perspective-taking is empathy, whether caring is a feeling, and whether deliberation is one, with the model's answers, 2026-09-05. Not a review, and not shown the book — see below | P107 — `p107-scope.md`, D-205 |
 | `author-discussion_2026-09-06.txt` | The device a fourth time and much the longest, at 3,896 lines: chapter-by-chapter recaps of the book and the discussion that ran off them, from a language model shown the manuscript at its 187-page state, 2026-09-06. **Excerpted by the author.** Not a review — see below | P119 and P120 — `p119-scope.md`, `p120-scope.md`, D-217 to D-220 |
+| `author-discussion_2026-09-07.txt` | The device a fifth time and much the shortest, at 374 lines: one critical review of the whole book and four author turns against it, from a language model shown the manuscript at its 188-page state, 2026-09-07. Not a review in the numbered series — see below | P121 to P123 — `p121-scope.md`, `p122-scope.md`, `p123-scope.md`, D-221 to D-223 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -67,7 +68,7 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**Four files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+**Five files here are not reviews.** `author-discussion_2026-08-28.txt` is a
 transcript of the author thinking aloud with a language model that had been given
 the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
 are the author's; the completions are the model's. It is kept for the same reason
@@ -105,5 +106,20 @@ records how the manuscript it saw was dated, which matters because two of its fi
 earlier draft. Its factual claims are a model's until a source is opened. The real people it names are named as scholars,
 which is ordinary citation under `AGENTS.md`, and the names guard lists two of them to confirm — both from the chapter 9
 recap, describing a documented dismissal the book already cites at §9.1.2.
+
+`author-discussion_2026-09-07.txt` is the device a fifth time and much the shortest of the five, at 374 lines
+against the previous file's 3,896. The first completion is a critical review of the whole manuscript, delivered in
+one pass and reaching a verdict — that the constitutional argument is strong and the affective-bearer inference is
+not yet earned — and the four author turns after it argue with that verdict rather than collecting more of it. Only
+the attached manuscript is omitted, marked in the author's own bracket on line 3; nothing else is excerpted.
+**It was filed late, at P126 on 2026-09-08**, the three passes it drove having been written up without it; the
+delay is a gap in the record and not a judgment about the file.
+
+Two things about it are worth having in front of anyone who opens it. **The model read the current book**, which
+`p121-scope.md` establishes and which the previous transcript's model did not — 309 references and §8.3.5 material
+written the day before are both named in it, so its cut estimates are costed against the manuscript that existed.
+And **four of its five objections describe passages that already exist**; D-221 lists them so a later pass does not
+reopen them, and `p121-scope.md` records which of its findings were live. Its factual claims are a model's until a
+source is opened.
 
 `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
