@@ -1,4 +1,4 @@
-Chapter 0: On Method
+Chapter 0: Yes, I Did Use LLMs
 Chapter 1: Introduction
 Chapter 2: Ethics, Affect, and Machine Subjects
 2.1. Ethical Frameworks and AI Alignment
