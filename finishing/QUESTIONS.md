@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-228 (P128): two new entries, Q-086 and Q-087, and Q-082 is closed by execution on its default.** P128 answered an outside note that asked the book to state the patienthood conclusion is unfalsifiable and defend it as the design. **The note read §3.3 and §3.4 correctly and its remedy inverts what the book holds**: one sentence says the conclusion is closed to evidence and it is the only one in 133 sections, and it contradicts `03_03.tex:79` four lines above it, `03_03.tex:75` and `03_10.tex:39`, `03_02.tex:19` and `:31`, and chapter 11's own stated standard. It was narrowed to what the rest of the book supports. **Q-082 closes on (a)**, with a finding the question did not have: the `3acef1f` diff shows the author rewrote §3.10's closing paragraph rather than compressing it, so restoring the two clauses would undo an authorial rewrite of chapter~3's last sentence. **Q-086 and Q-087 are both filed rather than repaired.** Q-086 is a tension the author's own 2026-09-08 Overleaf sentence created and left: §3.2:17 says the first gap is *the only gap in the chapter that an inspector can work on at all* and §3.2:19 says the second is *which interpretability can bear on*, two paragraphs later, with §12.2.1:13 repeating line 17. Reading *an inspector* there is a judgment about which instruments count, not a repair. Q-087 is the pass's other finding turned into a proposal: the same rewrite left two `\textit` at §3.10, the third recurrence over three imports of a class `style.md` §8 already documents and tells the importer to convert, and `overleaf.py` has no conversion step — which joins Q-083's two proposed checks. **Two things are in `p128-scope.md` rather than entered here, following P95's practice**: that §3.4 needed no edit, correcting an account already given the author, and that the sentence repaired was P117 drafting rather than the author's finding, which is what made it repairable. Q-081, Q-083, Q-084 and Q-085 stand, each with its default; **Q-085 does not fire here**, applying at the close of the next pass touching chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-227 (P127): one new entry, Q-085, and nothing carried over is reopened.** P127 joined the book's two senses of *persistence* — §2.3.1's architectural fact and §3.4's requirement that the party take itself to be the one that refused in March — after an outside note found them transferred between silently. **The pass's finding is that checking the assumptions changed the fix twice.** The sentence that had to be repaired turned out to be an author-confirmed ruling (D-039's second residual, promoted by D-040), so the edit adds a term rather than rewriting the contrast; and the site I had named to the author as the damaging one, §2.3.2's *persistence by design*, turned out to be a D-039 concession whose conclusion does not rest on it. **Q-085 is that site**, recorded because P127's narrowing of §2.3.1 leaves it licensed on the representational reading and not the architectural one, with a default of leaving it. **Three things are in `p127-scope.md` rather than entered here, following P95's practice**: that Parfit's Part III was declined and why, that the second read of the diff changed two drafting decisions, and that six rows of `DECISIONS.md` (D-221 to D-226) lack the Status cell the header defines and were left alone rather than filled in on another pass's behalf. Q-081 through Q-084 stand, each with its default. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2512,28 +2515,6 @@ been moved to page 1 precisely so the disclosure sits ahead of every criticism i
 
 ---
 
-### Q-082 — §3.10 lost two clauses P117 put there by name
-
-**Raised by P126's read of the import diff.** The Overleaf edit dropped *the middle clause is
-the one to attack* from the chapter's closing proposition, and *which is why this book treats
-the question as research rather than as a matter to be settled after the fact* from the sentence
-after it. D-215 (P117) added the first as the answer to what would change the author's mind, and
-`STATE.md` names it among that pass's load-bearing repairs; D-216 (P118) then rebuilt §12.3's
-ending on the same ordering.
-
-**What is not affected**: §3.10's falsifier passage and the *Suppose the induction fails*
-paragraph are untouched, so the argument the clauses pointed at is still on the page. What went
-is the signpost telling a reader which conjunct to attack.
-
-- **(a) Default — leave both out.** The edit is the author's and the compression is consistent
-  with the rest of it. Applies at the close of the next pass touching chapter~3 if nothing is
-  said.
-- (b) Restore *the middle clause is the one to attack* only, it being the one D-215 argued for
-  and the one §12.3 was aligned to.
-- (c) Restore both.
-
----
-
 ### Q-083 — Two checks the suite does not have, and whether they should exist
 
 **Raised by P126, where three of five defects were invisible to `check_all.sh`.**
@@ -2603,11 +2584,69 @@ stated the requirement — but the section does not say which it means.
 - (c) Reopen the paragraph. Q-069 closed on it at D-199 for a different worry and the author's own
   note about it is quoted there, so a second pass would have to answer both.
 
+### Q-086 — §3.2 says the second gap is both unreachable and reachable
+
+**Raised by P128.** §3.2:17 says the first of the three gaps *shows in behavior* and that this
+*makes it the only gap in the chapter that an inspector can work on at all*. Two paragraphs later
+§3.2:19 says the second gap becomes the question whether an artifact has mattering or ranking
+machinery, *which interpretability can bear on*. §12.2.1:13 repeats line 17's claim and cites §3.2
+for it.
+
+**The sentence that creates the tension is the author's own**, added in the Overleaf edit imported
+at `59f8f9b` on 2026-09-08, and he left line 17 alone. A charitable reading holds: *an inspector*
+at line 17 is the behavioral inspector the paragraph is about, and interpretability is a different
+instrument. The sentence does not say so.
+
+- **(a) Default — leave line 17 and §12.2.1:13 as they are**, reading *an inspector* as the
+  behavioral one. Applies at the close of the next pass touching chapter~2 or chapter~3 if nothing
+  is said.
+- (b) Narrow line 17 to the behavioral inspector in a clause, and make the matching change at
+  §12.2.1:13.
+- (c) Reopen the paragraph, which would mean deciding what interpretability is claimed to reach —
+  a substantive question about instruments and not a wording repair.
+
+---
+
+### Q-087 — Three imports, three `\textit` recurrences, and no conversion step
+
+**Raised by P128.** `style.md` §8 states the rule (D-189, D-197), names the mechanism — *Edits made
+in Overleaf come back with `\textit`; convert them on import* — and records eight instances from
+the first Overleaf pass and twelve from the second, **caught by reading and not by any check**. The
+third import left two at §3.10, found in this pass rather than in P126, which makes it a sixth
+defect from that round trip. They compile, so neither `check_all.sh` nor the build sees them.
+
+`overleaf.py` has no conversion step; grep for `textit` in it returns nothing.
+
+- **(a) Default — leave the tool alone and keep converting by hand.** The count is falling, two
+  against twelve against eight, and a reader has caught it every time. Applies at the close of the
+  next pass touching `tools/` if nothing is said.
+- (b) Convert in `overleaf.py import`, which is where `style.md` already says it should happen, and
+  report the count in the import summary the way the retitle is reported.
+- (c) Add a check to the suite instead, which is Q-083's shape: a grep for `\textit` in
+  `manuscript/sections/` costs nothing and fails loudly. **(b) and (c) are not exclusive.**
+
 ---
 
 ## Resolved
 
 **Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
+
+### Q-082 — §3.10's two dropped D-215 clauses. **Closed by execution, D-228 (P128), on default (a).** Both stay out.
+
+**The question understated what the edit did.** It records two dropped clauses — *the middle clause
+is the one to attack*, and *which is why this book treats the question as research rather than as a
+matter to be settled after the fact*. The `3acef1f` diff shows the author rewrote the whole closing
+paragraph: *anybody has an instance of* became *anyone has \emph{definitely} reproduced*,
+*\emph{in silico}* was added, *what is owed to it* became *owed to them*, and the hedge *rather
+than a ruled-out one* went with the two clauses. **Restoring them would undo an authorial rewrite
+of chapter~3's last sentence, which is not what (b) or (c) were written to do.**
+
+What the clauses pointed at is still on the page, and after P128 it is stated more accurately than
+it was: §3.3:79 says both parts of the middle condition are questions somebody can work on, and
+§3.3:83 no longer claims no result is coming. The same rewrite left two `\textit` behind, repaired
+in the same pass and filed as Q-087.
+
+---
 
 ### Q-055 — The running head over the glossary. **Closed by execution, D-140 (P59), on default (a):** `\backmattermark` in `preamble.tex`, called once in each starred back-matter chapter. The glossary reads GLOSSARY and the new appendix reads its own title.
 
