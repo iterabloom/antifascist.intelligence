@@ -4,7 +4,7 @@ manuscript/sections/ch01/01.tex	1	Introduction	da5f08e6d121b28554f41f16d67142091
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	2e2c4fbc1296e2cd2495b708f008401aa809319969f3e84965f2cf92c7d1bb39
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	5c1898d7ad362a40d80e731b1d896705ca3150548c6b791bf1bb4ed14ebc89f0
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	65f7d575b6ea17438eedbe2a080e34538c7cbf938d9096a51a40d2110131abce
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	5eeff091052950f09c8743320e1d52b7a687713026019f89b98db8d35d02e408
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	9f78f92ceec9ad6f866340ed6c5585735a39090b9302be940051c74f13ad1fd7
@@ -18,7 +18,7 @@ manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	f3dd6d4e2aef617f53a1da45de77f133448c2734103a22e8dccd3dc56c9058d5
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	1f2faf87a698be7c2d32b3bdc6dff7430916f813b1be788e60283c0e2dd3fed2
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	cc5def277d6c4f6a06a2889c48868aeecdc416d89a122f91715f99793e15e8f7
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	038897bc190fcaa18f9b5b6b64ddf62bbffbe5d225441ae3958c9693e4dc4988
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	ce01423cf4288c2d9c9d02060e38ab1a43b8fa46b938a1e83602985cc06c640f
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	28b0ef1f5cdc89684f003524eda0a4a3e8acde872db92b8b553ee7fc130afd61
@@ -97,7 +97,7 @@ manuscript/sections/ch09/09_01_01.tex	9.1.1	National Policy Guidelines for AI De
 manuscript/sections/ch09/09_01_02.tex	9.1.2	Encouraging Industry Best Practices and Self-regulation	1a1de22fc9879ba262181712c083cd8014f711dc261651f492df561094e761b4
 manuscript/sections/ch09/09_01_03.tex	9.1.3	Legal and Ethical Implications of AI Systems Gaining Personhood	adaa75ea8003c65bce97e061f1fdb8464a453cc59ad9999f7ba41aa235a67f82
 manuscript/sections/ch09/09_01_04.tex	9.1.4	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	81b3e4bde7f55ef9f60d3fad86fb983d9e89928e04ba9f039fc7e32889fc25c0
-manuscript/sections/ch09/09_01_05.tex	9.1.5	The Legitimacy of an Entrenched Floor	dc17b5c3d71d8cc7a64b39d96d24653f03ce3b962b93cf7d03e5aae076e5df4b
+manuscript/sections/ch09/09_01_05.tex	9.1.5	The Legitimacy of an Entrenched Floor	7ae916670a22a333dadda0582ac6dd66ec6cee363d8de4a607bd555d4d65b6a9
 manuscript/sections/ch09/09_02.tex	9.2	Privacy, Security, and Antifascism in AI Systems	c20a7357c7b10cb15242cba6c761768f8850f71dd0f08816ca139b4ecbfdda6b
 manuscript/sections/ch09/09_03.tex	9.3	Accountability, Legal Responsibility, and Antifascism in Sentient Machine Experimentation	1a0459628d87f02d7554dfc22b2b4604b020d6245c54bbf3eb597c03d6fc5c50
 manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	9fcfea9ad0379a05d50a9bc263c66b4632b2360b8fada23a6e6b65a5f452774e

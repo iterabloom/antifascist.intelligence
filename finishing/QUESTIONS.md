@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-232 (P132): three new entries, Q-098 through Q-100, and nothing carried over is reopened.** P132 executed a four-message discussion. **Two of the three things I proposed in it were already in the book and were withdrawn** — Arendt on plurality, which `09_01_05.tex:16` already makes without her, and peer-to-peer training, which `11_01.tex:25` cites and `:27` gives a verdict on. **The pass's finding is that §2.1.2's compression in `59f8f9b` ran one way**: 147 words, every concession surviving and eight sentences answering them cut. The author ruled the narrowest repair, so **Q-098** carries the other seven, the D-214 legal-scope safeguard among them — the class Q-082 covered for §3.10 and nobody filed for §2.1.2. **Q-099 is the author's own steer turned into a question**: §3.6's reviewer-ratio prohibition now stands beside three that have a stated source and has none, and whether a rate constraint belongs in that enumeration at all is a question the section raises twice and does not settle. **Q-100 records what was not audited**: sixteen other sections came back in the same import and none was checked for the same one-way compression. Q-064 is not reopened — the provenance §9.1.5 gained answers where the contents came from and says in the same paragraph that it answers nothing about who may impose them. **Q-068 stands untouched**, and the pass records why: all three proposals in the discussion land on authorship and none reaches the objection route. Q-095 through Q-097 stand with their defaults. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-231 (P131): three new entries, Q-095 through Q-097, and nothing carried over is reopened.** P131 answered an outside note asking for the floor's authorization problem to be moved out of the closing pages, into chapter~1 and wherever the floor's contents are published. **The note was restating Q-064, which the book closed by execution eight days ago** — D-168 (P86) on option (b), giving `03_10.tex:23` as the acknowledging paragraph and §9.1.5 as its 1,686-word treatment — so what a reader catches at §3.10 is a designed acknowledgment. **The pass's own record is three corrections to my assessment of the note, and the author asked for the check that produced them**: I reported §9.1.5 as unreferenced when it has two inbound references and my own truncated grep output was the cause; the repair I proposed was a new cross-reference, which is the class D-089 and D-099 cut twice, so **this pass adds none and the count is unchanged at 230**; and I told the author the note's second recommendation was already satisfied when it was not. **That third error is where §3.6's new caveat came from**: five sites publish the floor's contents or the five precommitment terms, publication is justified by detectability at every one and by authorization at none, and §3.6 is the only place either enumeration is actually run. **Q-095** is that `03_01.tex:23`'s four hanging threads — custody, patienthood, enforcement, formation — omit legitimacy while `01.tex:26` counts them, §9.1.5 having arrived later; chapter~1's new sentence attaches its cost to line 20's trade to avoid reading as a fifth. **Q-096** carries the four publication sites left uncaveated, D-044 being the reason they were not swept. **Q-097** records that chapter~12's last word on the floor and the glossary's *bearer* and *floor* entries name no legitimacy cost. **Q-068 stands unanswered on its default**, and this pass did not touch it: §9.1.5's third design consequence, a route by which the governed can object, is named in the text and unsupplied. **Two things are in `p131-scope.md` rather than entered here, following P95's practice**: the two duplications with §9.1.5 that the suite cannot see, measured at 11 and 13 shared words before and 5 and 5 after, and the publication-site table. Q-080, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090, Q-091, Q-092, Q-093 and Q-094 stand, each with its default; **Q-085 does not fire here**, this pass not having touched chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2796,6 +2799,92 @@ worse than not raising it.
   acknowledged where the book closes.
 - (c) Leave both. §3.10 and §9.1.5 carry it, and the conclusion is short on purpose.
 
+
+### Q-098 — §2.1.2's seven unrestored losses from the Overleaf import
+
+`59f8f9b` cut 147 words from §2.1.2 (2,749 → 2,602). The cuts run one way: every concession
+survived and eight sentences answering them were cut. **The author ruled one restoration**, the
+sentence declining the dilution charge, executed at D-232. The other seven stand cut:
+
+| Cut | What it did |
+|---|---|
+| *The next run-in is about what to do with that, and not about how to get around it.* | said the Griffin concession gets answered rather than absorbed |
+| *Those are detection targets. Concentrated, unaccountable power is not.* | an assertion, replaced by the denial *None of this is yet a "fascism detector"* |
+| *I take that as a finding.* | marked the molecular reading as a position rather than a fallback |
+| *The second does more work.* | marked the five molecular restatements as load-bearing |
+| *that judgment … is made by parties for whom an outcome registers as mattering rather than merely ranking* | tied the *Korematsu* paragraph to the book's own apparatus |
+| *Which of them is right about the law is not what this section can settle.* | the D-214 safeguard |
+| *keep their own job, which is to* | marked the molar/molecular split as a division of labour |
+
+**The last one is the entry's reason for existing.** D-214 records that paragraph as *written so it
+cannot be read as a legal claim*, and names this sentence as how. It is the class Q-082 covered for
+§3.10's two D-215 clauses, in a section nobody filed it for; P126 recorded §2.1.2's additions and
+not its losses. The paragraph still gives the 2018 majority's position and the dissent's without
+endorsing either, so it does not assert a holding. What is gone is the sentence saying it is not
+trying to.
+
+- **(a) Default — leave all seven cut.** The author ruled the narrowest option once, with the
+  finding in front of him. Applies at the close of the next pass touching chapter~2 if nothing is
+  said.
+- (b) The D-214 safeguard alone, on the ground that it is not prose compression but a stated design
+  requirement, and that Q-082's reasoning — *restoring would undo an authorial rewrite* — does not
+  transfer, this one being a deletion rather than a rewrite.
+- (c) All seven, which reverses the author's ruling and Q-082's precedent together.
+
+---
+
+### Q-099 — §3.6's rate prohibition now sits beside three that have a source and has none
+
+D-232 gave §3.6's three act-prohibitions a stated provenance — interests the Universal Declaration
+names — and said the reviewer-ratio prohibition has no parent there. **That was the author's own
+constraint**: *I'd be careful with anything that says humans must review all decisions of type X.
+The point is to make ethical AI, not AI that nags humans to be ethical while giving them huge
+queues.*
+
+The section already says the fourth item is different, twice and at length. `03_06.tex:33`: *It does
+not bind the same party as the other three, and the list's own grammar hides that.* `03_06.tex:42`:
+*a rate is a fact about the organization rather than about the model.* The new paragraph adds a third
+way it is different — it is the one item with no external source — and three differences is enough to
+raise whether it belongs in the enumeration at all, or belongs beside it as the operator duty the
+section keeps calling it.
+
+Against moving it: `03_06.tex:42` calls it *the one item that reaches the harm*, and §3.6:46 says it
+is what would have caught the deployment the section is built on. An enumeration that drops its only
+effective item to keep its grammar tidy would be the wrong trade.
+
+- **(a) Default — leave it in the list.** The section names the anomaly three times and a reader who
+  reaches the end has it. Applies at the close of the next pass touching chapter~3 if nothing is said.
+- (b) One sentence saying the list has three members and a fourth thing, and why it is carried
+  together anyway.
+- (c) Restructure the enumeration into three prohibitions plus one operator duty, which reaches
+  §3.6's summary, §5.1.3 and §3.10's reading of the ratio.
+
+---
+
+### Q-100 — sixteen sections came back in the same import and none was audited
+
+`59f8f9b` applied eighteen sections from the author's Overleaf pass. **Two have been examined for
+what they lost**: §3.10, at P126, which produced Q-082, and §2.1.2, at P132, which produced Q-098.
+The other sixteen — chapter 0, chapter 1, three further sections of chapter 2, every subsection of
+chapter 3 but §3.1, and chapter 4's opener — have not been read against their pre-import versions.
+
+Both audits found the same shape: connective and stance-carrying material cut, concessions kept. Two
+instances is not a pattern, and it is also not nothing, since neither was found by looking — P126
+found §3.10's by reading the proof and P132 found §2.1.2's only because an outside note complained
+about the result.
+
+The suite cannot see this class. `check_all.sh` reads structure, not sentences, and D-226 already
+records that no check in this repository reads a sentence and that the build is not a backstop
+either.
+
+- **(a) Default — leave it.** The two sections that mattered most have been read, and a sixteen-section
+  diff audit is a pass on its own. Applies at the close of the next pass if nothing is said.
+- (b) A pass: `git diff 59f8f9b^ 59f8f9b` over the remaining sixteen, reporting losses only, with no
+  restoration proposed until the author has the list.
+- (c) The cheaper half: chapter 3's subsections only, that being where the import made its largest
+  changes and where D-215's clauses were already found to have gone.
+
+---
 
 ## Resolved
 
