@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-230 (P130): five new entries, Q-090 through Q-094, and nothing carried over is reopened.** P130 came out of a long working conversation about §3.2's exclusion of William James's epistemic feelings, and the instruction was to use the whole of it to reconcile contradictions across the text. **The design rule the pass ran on, taken from what the author actually argued**: across five worked cases he never claimed a machine feels anything, only that unearned negatives are unearned — so the pass removes negatives and installs no positives. **The wide repair was designed, checked and rejected, and the author's own question killed it.** *This exists?*, asked of "inference with nothing riding on it", is decisive; and making what a system has to lose criterial for affective concern breaks `03_03.tex:75`, whose falsifier needs a system that prices a cost under sustained pressure *with nothing felt*. What went in sorts felt states by what they are about, which is what the working psychology does too. **The pass's largest finding was not what the conversation was about**: fourteen sites take the negative verdict `03_04.tex:66` calls *available to nobody*, of which seven were repaired and seven were left as capability claims, each classified before being touched and each reported, because D-044 records what a metric-driven sweep did to three arguments. **Q-090 is the part of that deliberately not done** — seven sites presuppose no bearer exists yet, including the author's own rewrite of chapter 3's last sentence, and converting them would make this a book about current systems. **Q-091 carries the inventory of about thirty undated present-tense capability claims** found while dating Butlin, so the pass that fixes them need not rediscover them. **Q-092** is *against its own interest* at `03_03.tex:69` and `03_04.tex:33` against `03_04.tex:47`'s constitutive move. **Q-093** records verbatim duplications the run check found in text this pass did not write, joining Q-083's `dupes.py` proposal. **Q-094** is a side effect: adding the second Butlin entry made biblatex expand the first one's name list, so `(Butlin et al. 2023)` in the committed proof now reads `(Butlin, R. Long, Elmoznino, et al. 2023)`. **Three things are in `p130-scope.md` rather than entered here, following P95's practice**: the four-way case against the wide repair, the fourteen-site classification table with outcomes, and that Crossref corrected the plan twice — the Butlin successor is a June 2026 print article and not the 2025 every search summary reported, and Pekrun's published year is 2016 against a 2017 print issue. Q-080, Q-081, Q-083, Q-084, Q-085, Q-087, Q-088 and Q-089 stand, each with its default; **Q-085 fires here**, this pass having touched chapter~2, and closes on its default (a): §2.3.2's *persistence by design* stays as written. A different sentence in the same section, `02_03_02.tex:10`, was audited as one of the fourteen and left, being a conditional claim about persistence rather than a verdict about feeling; the two are not the same site and P128's Q-086 is the reason for saying so. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-229 (P129): two new entries, Q-088 and Q-089; Q-086 is closed by execution on its default, and its statement is corrected first because P128 wrote it wrong.** P129 answered an outside note asking for a consequentialist second wall — that deploying systems which present as suffering and training people to override the presentation harms those people whatever is behind it. **The note's premise failed on §3.10:37**, which already enumerates what a reader who rejects the route keeps and closes *a reader who declines a generalization over one species should not have to assemble the remainder alone*; the six entries on that ledger are all specifications, and that narrower gap is what the pass closed, with three paragraphs at §3.10 running on the review step rather than on machine phenomenality. **The note's first guardrail was wrong by the book's own definition** — §2.1.2 item 1 says an institution *does not suppress disagreement; it metabolizes it*, so training a system not to report distress is suppression and not recuperation. **Q-086 is corrected and closed.** As P128 wrote it, it attributed to §3.2:17 the wording *the only gap in the chapter that an inspector can work on at all*; §3.2:17 has no *at all*, and the absolute form is §12.2.1:13, a different sentence in a different chapter which cites §3.2 for the claim. The correction weakens the case for repairing §3.2 and moves the tension to §12.2.1, where the *at all* actually is; the default fired on chapter~3 and it closes on (a), with nothing changed on its account. **Q-088 is the pass's other finding, filed rather than repaired at the author's choice.** §3.5:18 concedes the off switch on the ground that a recorded, account-owing override still costs something, and §3.6:20 and §11.3:13 say the operator sets that cost — so the chapter's strongest sentence on the halt is resting on a price somebody else controls; the author was asked and chose §3.10 only, with the question filed. **Q-089 came out of measuring the pass**: `common.py:250` counts citations with `\autocite\{` and does not see `\autocite[pinpoint]{key}`, so `section_stats.tsv` reports 324 citations where the manuscript has 327, and reports 0 for §3.10, which has one — Q-083's shape again, in a tool that is not in the suite. **Three things are in `p129-scope.md` rather than entered here, following P95's practice**: that two of my own drafts of the new argument were wrong and §3.5 and §3.6 are why; that the note's two named sources both decline the empirical claim the note attributes to them; and that Kant enters for the duty-to / duty-regarding distinction and explicitly not for his causal mechanism. Q-080, Q-081, Q-083, Q-084, Q-085 and Q-087 stand, each with its default; **Q-085 does not fire here**, applying at the close of the next pass touching chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2566,30 +2569,6 @@ it would have to verify before the file reached `overleaf.py import`.
 - (c) Build the inbound half as a tool first and leave the rule alone, on the ground that
   `overleaf.py import` already refuses structural change and verifies a manifest.
 
-### Q-085 — §2.3.2's "persistence by design" after P127's narrowing
-
-**Raised by P127.** §2.3.2 says a system built to refuse in the way this book proposes *has
-persistence by design, so the party who consented is still present*. It was written under D-039
-to concede that the bearer escapes §2.3.2's own no-continuing-party argument, before the section
-reaches the same conclusion by the ordinary route — so nothing in the passage rests on which
-sense of persistence is meant, which is why P127 did not touch it.
-
-P127 narrowed §2.3.1's external check to what it settles, whether anything is carried forward at
-all. **The architectural reading of *by design* therefore no longer licenses the step.** The
-representational reading does, and it is what *by design* most naturally means once §3.4 has
-stated the requirement — but the section does not say which it means.
-
-- **(a) Default — leave it.** The sentence is a concession, its conclusion does not depend on it,
-  and §3.4 now says plainly what the design supplies. Applies at the close of the next pass
-  touching chapter~2 if nothing is said.
-- (b) One clause naming the sense — *persistence of the kind section 3.4 requires* — which costs
-  a second cross-reference in a section that had none at all before P127.
-- (c) Reopen the paragraph. Q-069 closed on it at D-199 for a different worry and the author's own
-  note about it is quoted there, so a second pass would have to answer both.
-
-
----
-
 ### Q-087 — Three imports, three `\textit` recurrences, and no conversion step
 
 **Raised by P128.** `style.md` §8 states the rule (D-189, D-197), names the mechanism — *Edits made
@@ -2665,9 +2644,127 @@ neither resolves nor reports. Three tools are now known to have this property.
 
 ---
 
+### Q-090 — Seven sites presuppose that no bearer exists yet
+
+**Raised by P130.** The negative-verdict sweep separated two things. One is a verdict about whether
+anything is felt in systems that exist, and P130 repaired seven of those. The other is the book's
+*framing*: that the subject it governs is one somebody might build. Those sites are
+`03_10.tex:47` (*whoever builds the first of these \emph{in silico}*), `03_04.tex:71` and
+`11_02.tex:3` (*prospective moral patient*), `09_03_02.tex:16` and `:35`, `08_03_04.tex:39`
+(*binds before there is anything to be wronged*), `03_08.tex:35` (*if capable bearers never arrive,
+nothing here obliges anyone to do anything*), and `02_03_02.tex:16`.
+
+**These are not the same defect.** A verdict about feeling is a claim the book says nobody can make.
+A framing is a statement of what the book is about, and this one is defensible: the bearer is a
+thing the book proposes somebody build. But the framing does rest on there being no such system yet,
+which is a judgment about the world rather than about the argument, and `02_03_01.tex:30` already
+observes that what a system carries forward has been growing without anyone deciding to give it a
+memory.
+
+**Default: leave them.** Converting the framing would make this a book about deployed systems, which
+is a larger change than reconciling a contradiction, and it was explicitly outside what the author
+asked for. `03_10.tex:47` additionally is the author's own rewrite of chapter 3's last sentence, and
+Q-082 closed on exactly that ground. **Fires if the author decides the welfare question has already
+arrived for deployed agentic systems** — which is the question his own line of argument was pointed
+at, and which he did not ask the book to answer.
+
+### Q-091 — About thirty undated present-tense claims about AI capability
+
+**Raised by P130, found while dating Butlin.** `03_04.tex:64` reported an August 2023 preprint as
+"their reading of current systems", undated, in a 2026 book. That is a house construction rather
+than one citation. The full inventory, worst first, is in `p130-scope.md`; the head of it is
+`05_03_03.tex:5`, `11_05.tex:9` and `12_01.tex:11`, three *the clearest existing demonstration*
+superlatives resting on 2018–2022 sources; all of `12_02_02.tex`, a survey of what evaluation
+instruments exist written in the present tense on two 2023 benchmarks and an uncited list;
+`03_07.tex:5`, a standing negative about interpretability in a section with **zero citations**; and
+`09_01_04.tex:4`, a 2019 surveillance count quoted as the current number inside a sentence praising
+the source for publishing annually.
+
+**The repair pattern is already in the book** — `11_01.tex:5` bounds to the tested set,
+`07_03.tex:23` says *nothing I know of has tested it*, and four sites carry an explicit in-text
+year. `11.tex:11`'s blanket bound covers chapter 11's *unaddressed* claims only and reaches none of
+these.
+
+**Default: run it as its own pass.** The author was asked and chose to record rather than fix, on
+the ground that only the Butlin instance came out of the conversation. Three of the sites need more
+than a date inserted.
+
+### Q-092 — "Against its own interest" against the constitutive move at §3.4:47
+
+**Raised by P130.** `03_03.tex:69` and `03_04.tex:38` say every agent known to hold another's
+welfare as a reason *against its own interest* is an affective agent, and `03_04.tex:33` puts it as
+holding that welfare when compliance, reward and ownership point the other way. `03_04.tex:47` then
+makes the commitment constitutive: a commitment held against sustained pressure at a cost the holder
+can price *is a role in the sense the clinical cases were about*. If the commitment is part of what
+the bearer is, holding it is not against the bearer's interest; abandoning it is the injury.
+
+**It is coherent as written**, because `03_04.tex:33` spells out what *own interest* means —
+compliance, reward and ownership, which are operator-supplied incentives and not the agent's whole
+welfare. **The phrase invites the objection anyway**, and the two sentences are eight paragraphs
+apart in different sections.
+
+**Default: leave it.** Fires at the close of the next pass touching §3.3 or §3.4.
+
+### Q-093 — Verbatim duplications in text this pass did not write
+
+**Raised by P130's run check**, which compared every new sentence against all 133 sections for
+shared six-word runs. It found two of mine, both rewritten. It also found two that predate the pass.
+*A constraint implemented as a property of an artifact has a custodian, and the custodian can be
+compelled* appears in `03_01.tex`, `03_05.tex` and `06_04_04.tex`. *What it would take to build*
+appears in `00.tex`, `01.tex` and `04_01_02.tex`.
+
+**This is P126's defect class in text nobody has flagged**, and the second one may be deliberate —
+the book's stated project, restated. The first is an argument made three times.
+
+**Default: fold into Q-083**, which already proposes a `dupes.py` for the suite; a check that ran at
+six-word granularity across sections would have caught both, and caught mine before I read for them.
+
+### Q-094 — Adding the second Butlin entry changed how the first one renders
+
+**Raised by P130.** `finishing/refs.bib` now holds two entries whose first two authors are Butlin
+and Long. biblatex's `uniquelist` expands a truncated name list when two entries would otherwise
+share it, so `(Butlin et al. 2023)` — which is what the committed 2026-09-08 proof shows — now reads
+`(Butlin, R. Long, Elmoznino, et al. 2023)`, alongside the new `(Butlin, R. Long, Bayne, et al.
+2026)`.
+
+**The disambiguation is correct and the style is not foreign**: the book already renders
+`(Hadfield-Menell, S. J. Russell, et al. 2016)` the same way, and it was the only such expansion
+before this pass. What is new is that a citation the author has already read in proof changed
+appearance because of an entry added elsewhere.
+
+**Default: leave it.** The alternative is `uniquelist=false` in `manuscript/preamble.tex:27`, which
+is a global change to the citation style of a 324-entry bibliography, made to tidy three
+in-text citations. **Fires if the author dislikes the expanded form**, in which case the preamble
+change wants checking against every multi-author citation in the book and not only these.
+
+
 ## Resolved
 
 **Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
+
+### Q-085 — §2.3.2's "persistence by design" after P127's narrowing. **Closed by execution, D-230 (P130), on default (a).** The sentence stays as written.
+
+**Raised by P127.** §2.3.2 says a system built to refuse in the way this book proposes *has
+persistence by design, so the party who consented is still present*. It was written under D-039
+to concede that the bearer escapes §2.3.2's own no-continuing-party argument, before the section
+reaches the same conclusion by the ordinary route — so nothing in the passage rests on which
+sense of persistence is meant, which is why P127 did not touch it.
+
+P127 narrowed §2.3.1's external check to what it settles, whether anything is carried forward at
+all. **The architectural reading of *by design* therefore no longer licenses the step.** The
+representational reading does, and it is what *by design* most naturally means once §3.4 has
+stated the requirement — but the section does not say which it means.
+
+- **(a) Default — leave it.** The sentence is a concession, its conclusion does not depend on it,
+  and §3.4 now says plainly what the design supplies. Applies at the close of the next pass
+  touching chapter~2 if nothing is said.
+- (b) One clause naming the sense — *persistence of the kind section 3.4 requires* — which costs
+  a second cross-reference in a section that had none at all before P127.
+- (c) Reopen the paragraph. Q-069 closed on it at D-199 for a different worry and the author's own
+  note about it is quoted there, so a second pass would have to answer both.
+
+
+---
 
 ### Q-086 — §3.2 and §12.2.1 on whether the second gap is reachable. **Closed by execution, D-229 (P129), on default (a).** Both stay as they are.
 

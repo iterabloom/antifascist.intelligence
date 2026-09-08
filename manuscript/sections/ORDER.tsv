@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Yes, I Did Use LLMs	4b23ac27f9b282a4714a3d9ddeb8061d0ff72cc0696e0e8d07e4cda8ccd741a2
-manuscript/sections/ch01/01.tex	1	Introduction	89c37075809b7ddf3aaa0fed91fbf8f9c3d9687bfd5a39e5dbd0b9969fc9ec3a
+manuscript/sections/ch01/01.tex	1	Introduction	54baa8aa1959068ef3b0ddc5093333740b59e768cb3ab99956d4d257fb5bdbab
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	2e2c4fbc1296e2cd2495b708f008401aa809319969f3e84965f2cf92c7d1bb39
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
@@ -8,17 +8,17 @@ manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	
 manuscript/sections/ch02/02_02.tex	2.2	Affect, Moral Salience, and Self-Awareness	5eeff091052950f09c8743320e1d52b7a687713026019f89b98db8d35d02e408
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	9f78f92ceec9ad6f866340ed6c5585735a39090b9302be940051c74f13ad1fd7
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	f54419e29590a9f05b57baf6c788bafb93f2d9442b5120b65cb072bcc4663147
+manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	ff37c8f5813b83d0c6b08bbb1aecb817404a903d6ef54ff4b2c349ca265936da
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	b300ebf6ac809f2bcce61c535f0300729c7228e1621486f7ecaedb61ee757611
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	86033bf12c5e9dc0f815a912a04a0c96f9eb4a8387f3e884bacac0f93712601e
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	d00682b9af9478ab97d5724b06b34faf925e62f5b75ea98eeade6b74bd32f73b
-manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	b66bc4204b7b130caf142c08bfefed8d8f8a2c4f4d48c6139d7c8dd484045dfd
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	cef90144c14fb733f165aa080e1ce3409036c3df80865754717ebb2b21912010
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	4f6db2a00d92bb2c9cddc07912384b66daed3ff34b20ff49567dfb6cb321ba93
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	17d9b8e9c3f3877e299e6bcd9b157e0828558ef8a47599bf5234eed11e7541b6
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	f3dd6d4e2aef617f53a1da45de77f133448c2734103a22e8dccd3dc56c9058d5
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	6782782659e3a21f07f29c0484bb8a7e1c45d41c3a277f7c4bb62f7248a6669e
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	1f2faf87a698be7c2d32b3bdc6dff7430916f813b1be788e60283c0e2dd3fed2
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	9e383ffdbff0266ee3a49a8076d70652cc69d8d156f666482d8d14260a2308ce
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	4bcaa0095f8a8701f02ccfceacce8b73eaa2a97d3f8302f9c97ba137ea5b9575
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
 manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	ce01423cf4288c2d9c9d02060e38ab1a43b8fa46b938a1e83602985cc06c640f
 manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	08f755847ec372c5924f940c57a80213dbdb3006cd50c90ad7a8c892585deb47
@@ -44,7 +44,7 @@ manuscript/sections/ch05/05_01_01.tex	5.1.1	Rules, Principles, and the Role of M
 manuscript/sections/ch05/05_01_02.tex	5.1.2	Social Interaction, and What Apprenticeship Makes of the Teacher	7940840429034c7af9ba8862e867b4540b42475d87d04235fb551617cdc8d8c9
 manuscript/sections/ch05/05_01_03.tex	5.1.3	Human Dignity, and One Indicator That Can Be Audited	a397c4cda1d1245485fe349d5e13530c2417764034ec4d2b7990091a8304a6fd
 manuscript/sections/ch05/05_02.tex	5.2	Emotions and Intuitions in Moral Decision-Making	ffca42e136d28abdeab6d61725578c66d93240914622fb5ade35a5aca8f641f1
-manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	dc06e38619a13892c82b4d1c023793229749c4edfae875205c9eaee9bcb31145
+manuscript/sections/ch05/05_02_01.tex	5.2.1	Moral Emotions: Empathy, Guilt, and Shame	c68a7dd0012e4726a121c06a9ee7311d7849990575e9afad029eec0d9b14a714
 manuscript/sections/ch05/05_02_02.tex	5.2.2	Assessing Whether Emotional Information Changes the Decision	187c4d9b626b100288dd584ac687c6ae2df3d2f79d00afad58fda3f4d6a37b5d
 manuscript/sections/ch05/05_02_03.tex	5.2.3	The Role of Introspection for AI Systems	1aabdef23724f7a321ff876379d4fe4ec6efc8c1be182db1412530d97e22be0d
 manuscript/sections/ch05/05_03.tex	5.3	Integrating Moral Intuitions and Deliberation	a4cd9d2ff9c8440dfebb023b5b314ff4ebff9321c666c6a5e73ae687ee9c5146
@@ -56,7 +56,7 @@ manuscript/sections/ch05/05_04_01.tex	5.4.1	The Rings, and What Each One Pushes 
 manuscript/sections/ch05/05_04_02.tex	5.4.2	AI Systems Responding to Authoritarianism and Democratic Backsliding	9e67ceab8f5d6b7215be67fc3fc8699c899bfc495c5cbc35149814eadfc267ad
 manuscript/sections/ch05/05_05.tex	5.5	Cooperative AI Systems and Multi-Agent Moral Development	5c81d9befe278eb9593d1a5f255492db952aac77108e636cbeab548a50923093
 manuscript/sections/ch05/05_06.tex	5.6	Motivation in AI Systems	6dd5885b2368a38bea47755823ff8e42b93ef8e3b7dfc7bb8ac235176ee843c6
-manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	2ed9d4b7863a255a95209203c24f6ad0a35ea7f45e9a9955a0ad4f466e7f6fa7
+manuscript/sections/ch05/05_06_01.tex	5.6.1	Intrinsic and Extrinsic Motivation, and What Each One Leaves Open	6105adfacace14ddcfa9cd862eeb9ccde031c716861b2a1b69d92e2e5933814b
 manuscript/sections/ch05/05_06_02.tex	5.6.2	Balancing AI Autonomy and Alignment with Humane Values	a04f5f358896ab3d71c5065f3f10b03db3f33065c35a7cd0036c1e11a61605b5
 manuscript/sections/ch05/05_07.tex	5.7	Play, Exploration, and Moral Development in AI	246da3e411ed3441aec9c9bc3c50b7f0fa8ef09379bb3a1e523363b03645a7ee
 manuscript/sections/ch06/06.tex	6	Overcoming Challenges, Risks, and Authoritarianism in AI Development	ab3d70e78f669b786b6e336bf79601e742a35416777ab2b9f6aacfbfe744526c
@@ -131,4 +131,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	6
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The Risk That Does Not Design Out	c014d257c5195325bc090fe06bbc06cb98014a760f4306e6e386459055d2248a
-manuscript/sections/ch13/13.tex	13	Glossary	786e4a94448360e3812cc2da13b9733de0c7d0216ea0d2d6d0958999ab6c9eaa
+manuscript/sections/ch13/13.tex	13	Glossary	ad70aa747caeb72283479aeaffd053288d2aba81a58a48c2ef29d05bad40bed7
