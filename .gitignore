@@ -4,3 +4,4 @@ __MACOSX/
 ._*
 finishing/reports/*.npy
 __pycache__/
+.venv/
