@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-229 (P129): two new entries, Q-088 and Q-089; Q-086 is closed by execution on its default, and its statement is corrected first because P128 wrote it wrong.** P129 answered an outside note asking for a consequentialist second wall — that deploying systems which present as suffering and training people to override the presentation harms those people whatever is behind it. **The note's premise failed on §3.10:37**, which already enumerates what a reader who rejects the route keeps and closes *a reader who declines a generalization over one species should not have to assemble the remainder alone*; the six entries on that ledger are all specifications, and that narrower gap is what the pass closed, with three paragraphs at §3.10 running on the review step rather than on machine phenomenality. **The note's first guardrail was wrong by the book's own definition** — §2.1.2 item 1 says an institution *does not suppress disagreement; it metabolizes it*, so training a system not to report distress is suppression and not recuperation. **Q-086 is corrected and closed.** As P128 wrote it, it attributed to §3.2:17 the wording *the only gap in the chapter that an inspector can work on at all*; §3.2:17 has no *at all*, and the absolute form is §12.2.1:13, a different sentence in a different chapter which cites §3.2 for the claim. The correction weakens the case for repairing §3.2 and moves the tension to §12.2.1, where the *at all* actually is; the default fired on chapter~3 and it closes on (a), with nothing changed on its account. **Q-088 is the pass's other finding, filed rather than repaired at the author's choice.** §3.5:18 concedes the off switch on the ground that a recorded, account-owing override still costs something, and §3.6:20 and §11.3:13 say the operator sets that cost — so the chapter's strongest sentence on the halt is resting on a price somebody else controls; the author was asked and chose §3.10 only, with the question filed. **Q-089 came out of measuring the pass**: `common.py:250` counts citations with `\autocite\{` and does not see `\autocite[pinpoint]{key}`, so `section_stats.tsv` reports 324 citations where the manuscript has 327, and reports 0 for §3.10, which has one — Q-083's shape again, in a tool that is not in the suite. **Three things are in `p129-scope.md` rather than entered here, following P95's practice**: that two of my own drafts of the new argument were wrong and §3.5 and §3.6 are why; that the note's two named sources both decline the empirical claim the note attributes to them; and that Kant enters for the duty-to / duty-regarding distinction and explicitly not for his causal mechanism. Q-080, Q-081, Q-083, Q-084, Q-085 and Q-087 stand, each with its default; **Q-085 does not fire here**, applying at the close of the next pass touching chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-228 (P128): two new entries, Q-086 and Q-087, and Q-082 is closed by execution on its default.** P128 answered an outside note that asked the book to state the patienthood conclusion is unfalsifiable and defend it as the design. **The note read §3.3 and §3.4 correctly and its remedy inverts what the book holds**: one sentence says the conclusion is closed to evidence and it is the only one in 133 sections, and it contradicts `03_03.tex:79` four lines above it, `03_03.tex:75` and `03_10.tex:39`, `03_02.tex:19` and `:31`, and chapter 11's own stated standard. It was narrowed to what the rest of the book supports. **Q-082 closes on (a)**, with a finding the question did not have: the `3acef1f` diff shows the author rewrote §3.10's closing paragraph rather than compressing it, so restoring the two clauses would undo an authorial rewrite of chapter~3's last sentence. **Q-086 and Q-087 are both filed rather than repaired.** Q-086 is a tension the author's own 2026-09-08 Overleaf sentence created and left: §3.2:17 says the first gap is *the only gap in the chapter that an inspector can work on at all* and §3.2:19 says the second is *which interpretability can bear on*, two paragraphs later, with §12.2.1:13 repeating line 17. Reading *an inspector* there is a judgment about which instruments count, not a repair. Q-087 is the pass's other finding turned into a proposal: the same rewrite left two `\textit` at §3.10, the third recurrence over three imports of a class `style.md` §8 already documents and tells the importer to convert, and `overleaf.py` has no conversion step — which joins Q-083's two proposed checks. **Two things are in `p128-scope.md` rather than entered here, following P95's practice**: that §3.4 needed no edit, correcting an account already given the author, and that the sentence repaired was P117 drafting rather than the author's finding, which is what made it repairable. Q-081, Q-083, Q-084 and Q-085 stand, each with its default; **Q-085 does not fire here**, applying at the close of the next pass touching chapter~2. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2584,26 +2587,6 @@ stated the requirement — but the section does not say which it means.
 - (c) Reopen the paragraph. Q-069 closed on it at D-199 for a different worry and the author's own
   note about it is quoted there, so a second pass would have to answer both.
 
-### Q-086 — §3.2 says the second gap is both unreachable and reachable
-
-**Raised by P128.** §3.2:17 says the first of the three gaps *shows in behavior* and that this
-*makes it the only gap in the chapter that an inspector can work on at all*. Two paragraphs later
-§3.2:19 says the second gap becomes the question whether an artifact has mattering or ranking
-machinery, *which interpretability can bear on*. §12.2.1:13 repeats line 17's claim and cites §3.2
-for it.
-
-**The sentence that creates the tension is the author's own**, added in the Overleaf edit imported
-at `59f8f9b` on 2026-09-08, and he left line 17 alone. A charitable reading holds: *an inspector*
-at line 17 is the behavioral inspector the paragraph is about, and interpretability is a different
-instrument. The sentence does not say so.
-
-- **(a) Default — leave line 17 and §12.2.1:13 as they are**, reading *an inspector* as the
-  behavioral one. Applies at the close of the next pass touching chapter~2 or chapter~3 if nothing
-  is said.
-- (b) Narrow line 17 to the behavioral inspector in a clause, and make the matching change at
-  §12.2.1:13.
-- (c) Reopen the paragraph, which would mean deciding what interpretability is claimed to reach —
-  a substantive question about instruments and not a wording repair.
 
 ---
 
@@ -2625,11 +2608,88 @@ defect from that round trip. They compile, so neither `check_all.sh` nor the bui
 - (c) Add a check to the suite instead, which is Q-083's shape: a grep for `\textit` in
   `manuscript/sections/` costs nothing and fails loudly. **(b) and (c) are not exclusive.**
 
+### Q-088 — §3.5 concedes the switch on a cost the operator sets
+
+**Raised by P129.** §3.5:18 concedes the off switch entirely, and the ground it gives is that the
+override still costs something: *A bearer that yields to every halt, leaves a record of it, declines
+to resume until it has been told what filled the gap, and refuses the covered act when it does
+resume has conceded the switch entirely and given up nothing the floor needs.* The same chapter then
+says who fixes that cost. §3.6:20 — *a refusal that requires a person to read it before anything
+happens is a refusal priced at whatever that person's attention costs, and the deployment sets that
+price by setting the tempo.* And §11.3:13 makes the general test: what separates a dissent mechanism
+from a recuperated one is whether the party disagreeing prices the disagreement or the party being
+disagreed with does.
+
+**Run the test on §3.5's record and the operator is on the pricing side.** The operator writes the
+form, sets the tempo at which it is filled in, and decides what counts as having been told what
+filled the gap. That does not show the floor fails — §3.5's claim is about what the *floor* gives
+up, and P129's addition at §3.10 is about who *pays*, which is why the two can both stand. It does
+show that *given up nothing the floor needs* is the strongest sentence in the chapter on this point
+and is resting on a cost somebody else controls.
+
+**The author was asked and declined the repair**, choosing §3.10 only and this question instead.
+
+- **(a) Default — leave §3.5:18 as written.** The two claims are about different things and the
+  chapter now carries both. Applies at the close of the next pass touching chapter~3 if nothing is
+  said.
+- (b) Narrow *given up nothing the floor needs* by naming the condition — that the record is worth
+  something only where the party filing it is not the party pricing it — which costs a cross-reference
+  in a paragraph that has none.
+- (c) Reopen the concession, which means asking whether a bearer should decline to resume on the
+  operator's account rather than on its own assessment of it. That is a design question and not a
+  wording repair, and §3.5:20 says the chapter loses more than a paragraph if the assumption behind
+  it is wrong.
+
+### Q-089 — `section_stats.py` does not count a pinpointed citation
+
+**Raised by P129.** `common.py:250` counts citations with `re.findall(r"\\autocite\{", line)`, which
+matches `\autocite{key}` and not `\autocite[pinpoint]{key}`. The manuscript holds 327 `\autocite`,
+of which 3 carry a pinpoint; the `cites` column in `finishing/reports/section_stats.tsv` reports
+**324**, and reports **0** for §3.10, which has one.
+
+**This is a reporting inaccuracy and not a failed invariant.** `section_stats.py` is not in
+`check_all.sh`. Nothing in the book's argument or apparatus rests on the column, and the figures
+published in `DECISIONS.md` rows have used it for words and cross-references rather than for
+citations.
+
+**It is Q-083's shape.** A construction the tool's pattern does not match is not counted and not
+flagged — the same failure as a `\ref` written without its `sec:` prefix, which `check_xrefs.py`
+neither resolves nor reports. Three tools are now known to have this property.
+
+- **(a) Default — repair the regex to `\\autocite\s*(\[[^]]*\])*\{`** and regenerate
+  `section_stats.tsv`, which moves one published figure and no argument. Applies at the close of the
+  next pass touching `finishing/tools/` if nothing is said.
+- (b) Leave it and record the undercount where the column is used.
+- (c) Fold it into Q-083, which already asks which missing checks belong in `tools/`, and decide the
+  set at once.
+
 ---
 
 ## Resolved
 
 **Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
+
+### Q-086 — §3.2 and §12.2.1 on whether the second gap is reachable. **Closed by execution, D-229 (P129), on default (a).** Both stay as they are.
+
+**The question misquoted the sentence it was about, and this is the correction.** As written at P128
+it attributed to §3.2:17 the wording *the only gap in the chapter that an inspector can work on at
+all*. §3.2:17 has no *at all*: it reads *which makes it the only gap in the chapter that an
+inspector can work on*. The absolute form is **§12.2.1:13** — *the only one of section 3.2's three
+gaps an inspector can work on at all* — a different sentence, in a different chapter, which cites
+§3.2 for the claim. P128 conflated the two.
+
+**The correction weakens the case for repairing §3.2 and moves the tension to §12.2.1.** §3.2:17's
+wording is compatible with §3.2:19's *which interpretability can bear on* under the reading that
+*an inspector* names the behavioral inspector the paragraph is about. §12.2.1:13's *at all* is the
+sentence that will not take that reading, and it is the one citing §3.2 rather than the one being
+cited. Whoever reopens this should start there.
+
+**The sentence that created the tension is the author's own**, added in the Overleaf edit imported
+at `59f8f9b` on 2026-09-08, and he left line 17 alone.
+
+Closed on the default because the default fired: it applied at the close of the next pass touching
+chapter~2 or chapter~3, and P129 edited §3.10. Nothing in the manuscript changed on this question's
+account.
 
 ### Q-082 — §3.10's two dropped D-215 clauses. **Closed by execution, D-228 (P128), on default (a).** Both stay out.
 
