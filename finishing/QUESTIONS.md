@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-227 (P127): one new entry, Q-085, and nothing carried over is reopened.** P127 joined the book's two senses of *persistence* — §2.3.1's architectural fact and §3.4's requirement that the party take itself to be the one that refused in March — after an outside note found them transferred between silently. **The pass's finding is that checking the assumptions changed the fix twice.** The sentence that had to be repaired turned out to be an author-confirmed ruling (D-039's second residual, promoted by D-040), so the edit adds a term rather than rewriting the contrast; and the site I had named to the author as the damaging one, §2.3.2's *persistence by design*, turned out to be a D-039 concession whose conclusion does not rest on it. **Q-085 is that site**, recorded because P127's narrowing of §2.3.1 leaves it licensed on the representational reading and not the architectural one, with a default of leaving it. **Three things are in `p127-scope.md` rather than entered here, following P95's practice**: that Parfit's Part III was declined and why, that the second read of the diff changed two drafting decisions, and that six rows of `DECISIONS.md` (D-221 to D-226) lack the Status cell the header defines and were left alone rather than filled in on another pass's behalf. Q-081 through Q-084 stand, each with its default. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-226 (P126): four new entries, Q-081 through Q-084, and nothing carried over is reopened.** P126 imported an Overleaf pass and repaired the five defects it brought back. **Two of the four entries are the author's own edits recorded rather than defects**: Q-081, chapter 0's retitle to *Yes, I Did Use LLMs*, whose companion macros were synced to the heading under D-011 so the book stops disagreeing with itself — a consistency repair that settles nothing about which title is right; and Q-082, the two clauses §3.10 lost that D-215 put there by name, of which *the middle clause is the one to attack* is the one §12.3 was later aligned to. **Q-083 is the pass's finding turned into a proposal**: a `\ref` missing its `sec:` prefix is invisible to `check_xrefs.py` rather than dangling, and a duplicated sentence is invisible to the suite and to the build alike, so the entry asks whether a prefix test and `dupes.py` — five hits over 133 files, three of them deliberate repetitions — belong in `tools/`. **Q-084 records an asymmetry rather than a defect**: `AGENTS.md` has an argued exception for sending files out and none for bringing them in, so the Overleaf round trip is tooled in one direction only. **Every entry carries a default and none blocks work.** Nothing from the P124 and P125 walkthrough is reopened, and the standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged. `p126-scope.md` has the trip and the defects.
 
 **Superseded header, kept for the record.**
@@ -2578,6 +2581,27 @@ it would have to verify before the file reached `overleaf.py import`.
   `proposed-AGENTS-amendment*.md` as D-017's and the proofs phrase's did.
 - (c) Build the inbound half as a tool first and leave the rule alone, on the ground that
   `overleaf.py import` already refuses structural change and verifies a manifest.
+
+### Q-085 — §2.3.2's "persistence by design" after P127's narrowing
+
+**Raised by P127.** §2.3.2 says a system built to refuse in the way this book proposes *has
+persistence by design, so the party who consented is still present*. It was written under D-039
+to concede that the bearer escapes §2.3.2's own no-continuing-party argument, before the section
+reaches the same conclusion by the ordinary route — so nothing in the passage rests on which
+sense of persistence is meant, which is why P127 did not touch it.
+
+P127 narrowed §2.3.1's external check to what it settles, whether anything is carried forward at
+all. **The architectural reading of *by design* therefore no longer licenses the step.** The
+representational reading does, and it is what *by design* most naturally means once §3.4 has
+stated the requirement — but the section does not say which it means.
+
+- **(a) Default — leave it.** The sentence is a concession, its conclusion does not depend on it,
+  and §3.4 now says plainly what the design supplies. Applies at the close of the next pass
+  touching chapter~2 if nothing is said.
+- (b) One clause naming the sense — *persistence of the kind section 3.4 requires* — which costs
+  a second cross-reference in a section that had none at all before P127.
+- (c) Reopen the paragraph. Q-069 closed on it at D-199 for a different worry and the author's own
+  note about it is quoted there, so a second pass would have to answer both.
 
 ---
 
