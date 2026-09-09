@@ -1,5 +1,20 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-256 (P156): the cross-reference review was re-run across the whole session and found nothing to act on. No prose changed.** `p156-scope.md` has the pass. **Twenty-fourth pass of the day.**
+
+**First, the instruction and the answer.** The author asked, for the third time this session, that every cross-reference the session added be judged against the reader and removed where it costs. **Nothing added this session survives to be judged.** **231 cross-references at the session's first commit and 231 now.**
+
+**Second, why the totals were not accepted as the answer.** A reference added in one pass and a different one removed in another nets to zero, so **every commit was checked for the references its diff added and removed.** Two commits moved the set and they cancel: **P145 added `\ref{sec:11.1}` and `\ref{sec:11.2}`, P151 removed exactly those two.** The eleven other commits have added lists identical to their removed lists — a reference carried along inside a rewritten line — and **no reference was repointed**, since a removal paired with a different addition would have shown as a differing set.
+
+**Third, three confirmations, because a null result is worth checking twice.** P151's removal stands: §3.3 holds no reference to §11.1 or §11.2 and its replacement prose is intact. **Chapter~3's three references to those two sections all predate the session** — §3.8 one, §3.9 two, each file at its `8a0935f` count — so they are not P145's and nothing here reopens them. And every section whose prose changed this session holds its starting count: §2.1.2 2, §2.3.1 1, §3.3 3, §9.1.5 10, §11.1 1, §11.3 0, §12.2.1 6.
+
+**Fourth, the standing net of the instruction.** Across P142 and P151 it has run on real additions twice and **removed seven of eight**. The survivor is P142's §5.2 → §2.2.1: backward, at a section head, into a section that had no inbound references. **This third run had nothing to remove, which is the first time that has been true** — and the session's net on the count is zero.
+
+**Fifth, what is still waiting on the author.** **Q-110** is one pass old, on whether a limit in a paragraph's final position counts as discarded, and its option (c) would settle four more `epigram.py` pairs at once. **Q-075, Q-076 and Q-088** fire *at the close of the next pass touching chapter~3*; P145 and P151 both changed `03_03.tex`, two of the three defaults are actions rather than no-ops, and **twenty-four passes have gone by**. **The proof pair is eleven passes stale**: the committed pair is `3ab8454`'s, carrying P133 through P143.
+
+**Measured:** 133 sections, **0 changed**. 99,568 words, 196 pages, **231 cross-references**, 324 bibliography entries — all unchanged, and 231 is the count the session opened at. Suite green.
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-255 (P155): the structural pass ran, the author's test was measured against the whole manuscript, and it found nothing. No prose changed.** `p155-scope.md` has the pass. **Twenty-third pass of the day.** **`epigram.py` is new, and Q-110 is the one live disagreement.**
 
 **First, the four, checked before anything was built.** **Three are the shape**, and D-234's own note on §2.1.2 had already recorded it in the author's words: *the epigram between the two failure directions, so the second arrived after the line that reads as a verdict and a reader who stopped at the quotable sentence stopped one failure short.* **§2.3.1's is not an instance** — D-239 ordered three qualifications by weight and **there was no landing line among them**. All four were repaired by the passes that named them, at P134, P139, P147 and P148.
