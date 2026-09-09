@@ -1,5 +1,38 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-243 (P143): no new entries, and Q-101 is closed by execution on option (b).** §11.3 now says what its own specification could not catch: *An institution that announces its decoupling has no slope to measure, and a detector built this way would not see it.* **Closed against its default, not on it.** The default was *leave it*, and P142 is what made that wrong — removing P133's forward pointer on the reader test was right, and it left nothing in the book connecting the limit to the section built on top of it. **No cross-reference was added; the count stays at 231.** **Q-104 shaped the drafting again**: §2.1.2 and §11.3 are now the book's two statements of one limit, and they share 0 runs at six words or more, which is the discipline Q-104 exists to record the absence of. **The limit sits in both places it is needed and neither points at the other.** **Q-107 is the live question**, five passes old, with option (c) untried. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106 and Q-107 all stand, each with its default — **thirty-seven open, with Q-101 and Q-105 both closed today.** **What this header still does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; P140 and P141 both changed chapter~3 sections, two of the three defaults are actions rather than no-ops, and **eleven passes have now gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-242 (P142): no new entries, and Q-105 is closed by execution.** The author asked whether each cross-reference added this session helps or costs a reader, and for the ones that cost, removal plus a better passage in the same edit. **Five removed, one kept, 236 → 231.** **The test that decided them**: forward, deep and mid-argument is the expensive combination; backward at a section head is the cheap one. §2.1.2's pointer to §11.3 sent a reader inside a definition nine chapters ahead; §2.2.3's to §3.3 was navigation over navigation, the paragraph above already naming chapter~3; §2.2.3's three to §3.3, §9.3.2 and §12.2.1 delivered **a point about significance as three section numbers**. §5.2's to §2.2.1 is kept and is the one that helps, being backward, at a pause, and into a section that had zero inbound references. **Each removal took a better sentence with it**, which is what the instruction asked and is recorded at D-242. **The net of ten passes is one cross-reference.** **Q-101 is now more urgent, not less**: §11.3 still never says a party announcing its myth escapes a slope, and **nothing in the book connects the two any more**, so its option (b) — one sentence at `11_03.tex:11`, no cross-reference — is the only remaining route and its *leave it* default is worth revisiting. **Q-104 governed the drafting** and no fourth instance of the milestone formula was written. **Q-107 is still live**, four passes old. **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-104, Q-106 and Q-107 all stand, each with its default — **thirty-eight open, one fewer with Q-105 closed.** **What this header still does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, P140 and P141 both changed chapter~3 sections, and two of the three defaults are actions rather than no-ops. **Ten passes.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-241 (P141): no new entries, and nothing carried over is reopened.** P141 marked §3.3's third construction as objected to on different grounds from the other four and said at the close why it survives to the untried list. **The pass raises no question, the third in a row.** **What checking added to the note is one refinement**: construction 1 meets the custody objection too, at `:12` and `:14`, and is on the try-first list anyway — so **the custody objection bounds a construction and does not remove one**, and a first draft calling it *the failure that disqualifies the rest* would have been false. **The sharp point is that `:48`'s second objection is the qualification and not a verdict**: producing no bearer is what `:85`'s Replacement question asks to be tried before a subject is built. **Q-105 is not advanced and this pass did not add to it**: 236 cross-references, **the fourth pass in a row not to move the count**. **Q-107 remains the live one**, three passes old, option (c) untried. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-107 all stand, each with its default — **thirty-nine open, unchanged.** **What this header does not settle, and now needs settling more than it did:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*. **P140 changed `03_04.tex` and P141 changed `03_03.tex` — two consecutive chapter~3 passes**, after eight in which the trigger was recorded as not firing. Two of the three defaults are actions rather than no-ops. **Nine passes have gone by; on any reading of the trigger that fires on a pass changing the chapter, it has now fired twice more and nothing has been done about it.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-240 (P140): no new entries, and nothing carried over is reopened.** P140 stated Cassell's two parts at the point of definition and expanded §3.4's recap to carry them. **The pass raises no question, the second in a row.** **What it found is worse than the missing recap the note described**: `03_04.tex:62`'s *the depth asking for both conditions* had its only antecedent four paragraphs back at `:52`, and a **competing pair** sat between them at `:58` — *the middle depth's first condition* and *the second requirement*, a different two things — so a reader had a wrong binding two sentences closer than the right one. **The two-part claim was in the third qualification and not the Cassell paragraph**, which is the third note in five whose description of the page is off while its reading of the problem is right. **Q-104 shaped the drafting**: the two sites deliberately use different wording, 0 shared runs at six words or more, because a recap is exactly the shape that produces the formula Q-104 records. **Q-105 is not advanced and this pass did not add to it**: 236 cross-references, **the third pass in a row not to move the count**. **Q-107 remains the live one**, two passes old, with option (c) untried. **Q-106 is not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-107 all stand, each with its default — **thirty-nine open, unchanged.** **What this header does not settle, and has not settled at D-230 through D-239 either:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*. **P140 changed a chapter~3 section** — `03_04.tex:60` — which is the first of the eight passes since P132 to do so. **On the reading that a trigger fires on any pass changing the chapter it names, all three are now due**, and nothing here closes them, because the same reading would mean P130 through P132 consumed them three times already. **Eight passes, and this is the first where the answer would change what happens next.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-239 (P139): no new entries, and nothing carried over is reopened.** P139 moved §2.3.1's moving-boundary qualification to first among the three and gave its evidence a sentence of its own. **The pass raises no question**, which is the first time in seven that a pass has not: the note's two asks were structural, both were executable as stated, and the one departure — five items in the list where the note's parenthetical named six — is recorded at D-239 rather than filed, because it is a decision with a reason and not an open choice. Many instances running concurrently multiplies the parties rather than extending what a system carries forward, so a list governed by *Each extends what a system carries forward* would have been false of that member; the manuscript already marked it as the odd one with a *too* and it keeps its own sentence. **Q-107 is one pass old and is the live one**: §2.3.1's aground sentence was cut at P138 and option (c) — the concrete image rebuilt without the water dependency — has not been tried. **Q-105 is not advanced and this pass did not add to it**: 236 cross-references, the second pass in a row not to move the count. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-107 all stand, each with its default — **thirty-nine open, unchanged.** **What this header does not settle, and has not settled at D-230 through D-238 either:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and P130 through P132 each touched chapter~3 while the record said only that they stand. **P139 touched chapter~2 only**; across P133 through P139 the trigger has not been consumed once, and Q-102's chapter~2 default has now been passed over five times by chapter~2 passes that did not touch §2.1.2. **Seven passes without the question being settled, and it is the author's to settle.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-238 (P138): one new entry, Q-107, and nothing carried over is reopened.** P138 gave the hull figure one home in §3.4 and made §2.3.1 plain, on the author's steer that §3.4's is the clearest statement. **The figure appears twice more in §2.3.1 than the note counted** — `02_03_01.tex:13` and `:28` on top of `:9` and `:24` — for **sixteen occurrences across the two sections** once §3.4's seven are added. **Q-107 is the loss and it is one edit to reverse.** `:13`'s *A hull that draws more water than there is does not float badly; it is aground* is the only place the figure carried an argument rather than decorating one, and it could not be kept: its *not in that water at all* has no antecedent once `:9` goes. Against it, both of its sentences are shapes `style.md` rules against — the contrastive frame at §2 and the two-clause aphorism at §7. **§3.4 is unchanged**, and `03_04.tex:60` now translates §2.3.1's plain claim into the figure §3.4 owns, which is what letting one section carry a figure looks like. **Q-105 is not advanced and this pass did not add to it**: the count stays at 236, the first pass in six not to move it. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-106 all stand, each with its default — **thirty-nine open with the new one.** **What this header does not settle, and has not settled at D-230 through D-237 either:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and P130 through P132 each touched chapter~3 while the record said only that they stand. **P138 touched chapter~2 and read chapter~3 without changing it**; P133 through P136 touched chapter~2 only and P137 chapter~5, so none consumes that trigger, and Q-102's chapter~2 default has now been passed over four times. **Six passes have been recorded without the question being settled, and it is the author's to settle.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-237 (P137): one new entry, Q-106, and nothing carried over is reopened.** P137 executed an author's note offering two ways to connect §5.2 and §11.8 to the open question §2.2.1 leaves, with the back-mention at §5.2 named as the cheaper. **It is also the correct one, for a reason the note did not have: §11.8 already restates the openness** at `11_08.tex:3`, *the dispute is open*, and scopes its own narrower question against it; what it lacks is the address. **§5.2 was the gap** — *has already been covered* is about coverage and told a reader nothing was unsettled — and **§2.2.1 had zero inbound and zero outbound references**, two sections leaning on it and neither followable to it. **Q-106 is the half deliberately not done**: §11.8's *has already been asked* points nowhere by the same fault, and the default is to leave it, because §11.8 already gives the reader the fact and Q-105 is open on exactly this kind of addition. **Q-105 is not advanced and this pass added to it**: 235 → 236, one pass after it was filed with a default of *leave them and stop adding*. The note's other option would have cost two references and a navigational line; this cost one and no new sentence, repairing a back-mention already in the text. **Recorded plainly because the count is now the thing four separate reasonable instructions have moved, and no instruction has been about the total.** **Q-104 is not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-105 all stand, each with its default — **thirty-eight open with the new one.** **What this header does not settle, and has not settled at D-230 through D-236 either:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and P130 through P132 each touched chapter~3 while the record said only that they stand. **P133 through P136 touched chapter~2 only; P137 touched chapter~5 and chapter~2's §2.2.1 not at all**, so none consumes that trigger, and Q-102's chapter~2 default has now been passed over three times. **Five passes have been recorded without the question being settled.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-236 (P136): two new entries, Q-104 and Q-105, and nothing carried over is reopened.** P136 executed an author's note asking §2.2.3's identification of the maintained justification to be made a separate sentence with its consequences named. **Both downstream claims check out and neither later section uses the phrase**, so both had to be checked under different vocabulary: `09_03_02.tex:12` makes Replacement *the R the bearer proposal has not discharged*, and `12_02_01.tex:6` closes *Nothing else in this chapter has a consequence attached to failing it. This does.* **Q-105 is the item that most needs the author**, and it is about the aggregate rather than any one edit: **cross-references went 230 → 235 across the four passes of 2026-09-08, and §2.2.3 alone went from 2 to 6.** Each addition was asked for and each is argued at D-233, D-235 and D-236; the aggregate was asked for by nobody, and D-089's finding was that the references made the prose read as a navigated repository. **Q-104 is the largest duplication now known in the manuscript**, and no pass wrote it: the milestone formula appears three times, with `03_03.tex:73` and `09_03_02.tex:12` sharing **twelve words verbatim**, twice the six-word standard the recent passes report themselves against. **Q-103 is not advanced** and its chapter~3 trigger is not consumed, this pass having touched chapter~2 only. **Q-102 is not advanced either**: its chapter~2 default has now been passed over by two chapter~2 passes that did not touch §2.1.2. **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-103 all stand, each with its default — **thirty-seven open with the two new ones.** **What this header does not settle, and did not settle at D-230 through D-235 either:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and P130 through P132 each touched chapter~3 while the record said only that they stand. **P133 through P136 all touched chapter~2 only**, so none consumes that trigger, and Q-102's chapter~2 default now has the mirror-image problem. **Whether a trigger naming a chapter fires on any pass touching that chapter is the question underneath both, and four passes have now been recorded without it being settled.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-235 (P135): one new entry, Q-103, and nothing carried over is reopened.** P135 executed an author's note asking §2.2.3 to give advance notice that the burden it sets is two kinds of claim. **The note's account of the split checks out**: `03_03.tex:83` states it in one sentence and runs it both ways, and `03_04.tex:62` restates it in Birch's terms without the vocabulary. **The gap was neither the pointer nor the concession**, both of which §2.2.3 already had — what both existing sentences do is treat the burden as one thing with one fate. Three sentences added, in their own paragraph, with **no labels**: *the prior* and *the precaution* are terms of art by `03_03.tex:73`, and introducing them in chapter~2 with their definitions in chapter~3 is the name-dropped shape `style.md` §7 rules against. **Q-103 follows Q-093's practice** — a duplication found in text the pass did not write: `02_02_03.tex:27` and `03_04.tex:38` share the six-word run *is an affective agent and no*, inside the same argument shape stated twice with different predicates. **Cross-references are 231 → 232, the second added in three passes after none in the four before them**, and both are argued at D-233 and D-235 rather than assumed; a session reading the count alone will see a reversal of D-089 and D-099 that is not there. **Q-101 and Q-102 are not advanced.** Q-102's chapter~2 trigger is not consumed by this pass, which touched §2.2.3 and not §2.1.2 — **the same reading question the chapter~3 trigger already carries, now open on chapter~2 as well.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-102 all stand, each with its default — **thirty-five open with the new one.** **What this header does not settle, and did not settle at D-230 through D-234 either:** Q-075, Q-076 and Q-088 carry defaults reading *applies at the close of the next pass touching chapter~3*, and P130, P131 and P132 each touched chapter~3 while the record said only that they stand. **P133, P134 and P135 all touched chapter~2 only**, so none consumes that trigger. Whether it has been consumed three times or has never been read as firing is still the author's to say. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-234 (P134): one new entry, Q-102, and nothing carried over is reopened.** P134 executed an author's note on §2.1.2's reflexive-cost paragraph. **The restructure the note asked for was right about a fault the suite cannot reach**: the reflexive epigram sat between the two failure directions, so a reader who stopped at the most quotable line in the section stopped one failure short. The paragraph now pairs the directions, takes *Better engineering fixes neither* and the specification constraint, and closes on the epigram. **The second ask was offered as *consider* and is taken, on a reason stronger than the one given**: `:5` opens a loop in the same words — *Opposing “concentrated, unaccountable power” gives an engineer nothing to build … So, first, the definition* — and the moved sentence is the report on that promise, deliverable only once the definition has been given. **Q-102 is a finding of the pass, filed rather than repaired**: `:51` and `:53` now open on the same premise with two different consequences, the second restating rather than carrying forward, and the reason for filing it is that the note enumerates the paragraph's elements and keeps the one the restatement sits in — **P132's one-directional-editing finding, run in the other direction, is what rewriting a preserved element would be.** The repair is eight words and is named in the entry. **Q-101 is not advanced**: this pass touched chapter~2 and §11.3 still does not state the drift limit for a reader arriving there first. **Q-085 does not fire here** although this pass touched chapter~2, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-101 all stand, each with its default — **thirty-four open with the new one.** **What this header does not settle, and did not settle at D-230, D-231, D-232 or D-233 either:** Q-075, Q-076 and Q-088 carry defaults reading *applies at the close of the next pass touching chapter~3*, and P130, P131 and P132 each touched chapter~3 while the record said only that they stand. **P133 and P134 both touched chapter~2 only, so neither consumes the trigger and neither clears the question.** Two of those defaults are actions rather than no-ops, and whether the trigger has been consumed three times or has never been read as firing is still the author's to say. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
+**Current as of 2026-09-08, after D-233 (P133): one new entry, Q-101, and nothing carried over is reopened.** P133 executed an author's note on §2.1.2's four-feature list. **Both of its substantive claims hold and two of its descriptions do not, in the same direction**: the sentence each part asks for already exists, and what is wrong in both is position. The theorem really is the only formal support anywhere in the list, and §11.3 really does inherit feature 4's drift limit without restating it — `11_03.tex:11` builds the longitudinal requirement on *a model drifting from what it tracks*, and every form of *declare*, *announce*, *myth*, *outright*, *overt* and *avow* is absent from its 1,724 words. **Q-101 is the half of that the pass did not repair**: the forward flag now in §2.1.2 reaches a reader who arrives at §11.3 by the argument and does nothing for one who arrives there first, and the note's own choice of remedy is why the default is to leave it. **The pass adds a cross-reference, 230 → 231, which is against the book's direction and is argued rather than assumed** — D-089 and D-099 cut twice and P131 added none on purpose; the four reasons are in `p133-scope.md` and D-233. **Q-085 does not fire here** although this pass touched chapter~2, it having closed at D-230. **Q-100 is not advanced**: §2.1.2 was already one of the two audited sections, and the other sixteen from `59f8f9b` remain unread against their pre-import versions. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100 all stand, each with its default — **thirty-three open with the new one.** **What this header does not settle, and did not settle at D-230, D-231 or D-232 either:** Q-075, Q-076 and Q-088 carry defaults reading *applies at the close of the next pass touching chapter~3*, and P130, P131 and P132 each touched chapter~3 while the record said only that they stand. **P133 touched chapter~2 only, so it does not consume the trigger and does not clear the question either.** Two of those defaults are actions rather than no-ops, and whether the trigger has been consumed three times or has never been read as firing is still the author's to say. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-232 (P132): three new entries, Q-098 through Q-100, and nothing carried over is reopened.** P132 executed a four-message discussion. **Two of the three things I proposed in it were already in the book and were withdrawn** — Arendt on plurality, which `09_01_05.tex:16` already makes without her, and peer-to-peer training, which `11_01.tex:25` cites and `:27` gives a verdict on. **The pass's finding is that §2.1.2's compression in `59f8f9b` ran one way**: 147 words, every concession surviving and eight sentences answering them cut. The author ruled the narrowest repair, so **Q-098** carries the other seven, the D-214 legal-scope safeguard among them — the class Q-082 covered for §3.10 and nobody filed for §2.1.2. **Q-099 is the author's own steer turned into a question**: §3.6's reviewer-ratio prohibition now stands beside three that have a stated source and has none, and whether a rate constraint belongs in that enumeration at all is a question the section raises twice and does not settle. **Q-100 records what was not audited**: sixteen other sections came back in the same import and none was checked for the same one-way compression. Q-064 is not reopened — the provenance §9.1.5 gained answers where the contents came from and says in the same paragraph that it answers nothing about who may impose them. **Q-068 stands untouched**, and the pass records why: all three proposals in the discussion land on authorship and none reaches the objection route. Q-095 through Q-097 stand with their defaults. **The full standing list, which this header first omitted and which is restored here:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-094 all stand, each with its default — thirty-two open with the three new ones. **Q-085 does not fire here**, it having closed at D-230. **What this header does not settle, and did not settle at D-230 or D-231 either:** Q-075, Q-076 and Q-088 carry defaults reading *applies at the close of the next pass touching chapter~3*, and P130, P131 and P132 each touched chapter~3 while the record said only that they stand. Two of those defaults are actions rather than no-ops. **Whether the trigger has been consumed three times or has never been read as firing is the author's to say, and nothing is closed on it here.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2883,6 +2916,237 @@ either.
   restoration proposed until the author has the list.
 - (c) The cheaper half: chapter 3's subsections only, that being where the import made its largest
   changes and where D-215's clauses were already found to have gone.
+
+---
+
+### Q-101 — §11.3 inherits feature 4's drift limit and, read alone, still does not state it. **Closed by execution, D-243 (P143), on option (b)** — one sentence at `11_03.tex:11`, no cross-reference. **Not on its default**, which was *leave it*; P142's removal of the forward pointer left nothing connecting the limit to the section inheriting it, and the author ruled the default wrong.
+
+**Raised by P133.** §2.1.2 item 4 now carries the limit and a forward flag: an instrument tuned to
+drift will not register a party that announces its myth outright, *a limit that section 11.3
+inherits when it asks what a detector would have to measure*.
+
+**The inheritance is load-bearing, not incidental.** `11_03.tex:11` makes longitudinal access the
+first of the three things a detector would need, on the ground that *Every one of the four features
+is defined by a change over time — dissent metabolized, a metric substituted, an exception recoded,
+a model drifting from what it tracks*, and concludes that *the slope rather than the level is the
+instrument*. A party that declares the primacy of myth outright presents no slope. **Every form of
+*declare*, *announce*, *myth*, *outright*, *overt* and *avow* is absent from §11.3's 1,724 words**,
+so the section that exists to say what a detector would have to detect does not say what this one
+cannot.
+
+The flag repairs the reading order the argument travels in. It does nothing for a reader who opens
+chapter~11 on its own, which is the way a research chapter is most likely to be read.
+
+- **(a) Default — leave it.** The note that raised this considered §11.3 and chose the forward flag
+  as the remedy, and the flag is now in. Applies at the close of the next pass touching chapter~11
+  if nothing is said.
+- (b) One sentence at `11_03.tex:11`, where the slope argument is made, saying that a party that
+  announces the decoupling is not caught by a slope. Costs no cross-reference — §11.3 makes none —
+  and puts the limit where a detector would be specified.
+- (c) The *What I am claiming and what I am not* run-in at `:36`, which already bounds the section.
+  Costs more and fits worse: that run-in is about the narrow case being tractable, and this is a
+  limit on the instrument rather than on the scope.
+
+---
+
+### Q-102 — §2.1.2's two detector paragraphs now open on the same premise
+
+**Raised by P134**, while restructuring the paragraph next to it.
+
+`02_01_02.tex:51` opens *That a detector of the four features would find something nearly
+everywhere is expected*. `:53` opens *A tool reporting the four features will have something to
+report nearly everywhere*. **Same observation, twice, in consecutive paragraphs.**
+
+The consequences differ and both are wanted: `:51` answers the base-rate objection with
+section 9.3.5's slope rather than its level, and `:53` uses ubiquity as the premise for the misuse
+argument. What is wrong is that the second **restates** the premise instead of carrying it
+forward, in a passage the author's own note describes as the most compressed in the chapter and
+the one most often read at half strength.
+
+**The suite cannot see it.** The two openings share *nearly everywhere* and nothing at six words,
+so no run check reaches it; it was found by reading.
+
+**Why P134 did not repair it.** The note that produced P134 enumerates the paragraph's elements
+and keeps the accusation as element 1, which is the clause the restatement sits in. D-232 records
+what one-directional editing did to this same section, and rewriting an element the instruction
+preserved is that move in the other direction.
+
+- **(a) Default — leave it.** The repetition is a premise a reader has just been given, and
+  restating it costs eight words rather than misleading anybody. Applies at the close of the next
+  pass touching chapter~2 if nothing is said.
+- (b) Carry it forward instead: *The output is also an accusation: in the hands of whoever holds
+  it, a technical-sounding case that any given opponent is operating fascistically.* Eight words
+  out, the premise inherited from `:51`, no other element touched.
+- (c) Merge `:51` and `:53` into one paragraph, stating the premise once and running both
+  consequences off it. Costs the beat between the base-rate answer and the misuse argument, which
+  are doing different jobs, and makes a long paragraph longer.
+
+---
+
+### Q-103 — the same generalization is made in §2.2.3 and §3.4 with different predicates
+
+**Raised by P135**, while checking where the prior/precaution split is stated. **Neither sentence
+was written by this pass**, which is why it is recorded rather than repaired — Q-093's practice.
+
+`02_02_03.tex:27`: *every agent known to have something register as mattering is an affective
+agent, and no design has yet demonstrated that state arising from reasoning alone.*
+
+`03_04.tex:38`: *Every agent known to hold another's welfare as a reason against its own interest
+is an affective agent, and no demonstrated example exists of reasoning alone generating
+non-instrumental concern.*
+
+**Shared run: six words, *is an affective agent and no*** — the standard the last several passes
+have reported themselves against, met by two sentences already in the book.
+
+**The predicates differ, and the difference is real.** §2.2.3 generalizes over *something
+registering as mattering*; §3.4 generalizes over *holding another's welfare as a reason against
+one's own interest*. The second is narrower and is the one chapter~3 needs. So this is one
+argument shape carrying two claims, not one claim written twice, and D-013's *one home* does not
+straightforwardly apply.
+
+What makes it worth an entry anyway: the two sentences are close enough that a reader who
+remembers the first will read the second as a restatement and miss that the scope has narrowed.
+
+- **(a) Default — leave both.** The claims differ, each is doing work in its own chapter, and the
+  shared words are the frame rather than the content. Applies at the close of the next pass
+  touching chapter~3 if nothing is said.
+- (b) Vary the frame in §3.4, which is the later and narrower one, so the narrowing is visible
+  rather than buried in a sentence that opens identically.
+- (c) Have §3.4 cite §2.2.3 for the frame and state only the narrowing. Costs a cross-reference,
+  which is the direction D-089 and D-099 set against, and `03_04.tex:38` already carries a
+  reference to §3.3 in its next sentence.
+
+---
+
+### Q-104 — the milestone formula is written out three times, twelve words of it verbatim
+
+**Raised by P136**, while checking where the obligations on the maintained justification live.
+**No pass wrote any of these three sentences.**
+
+- `03_03.tex:73` — *which construction, at what scale, against which test, and where it stopped*
+- `09_03_02.tex:12` — *which construction, at what scale, against which test, and where it stopped*
+- `12_02_01.tex:6` — *which construction was attempted, at what scale, against which test, and
+  where it failed*
+
+**The first two share twelve words verbatim.** Each shares nine with the third. That is twice the
+six-word standard D-231 through D-236 all report themselves against, and it is the largest
+duplication now known in the manuscript.
+
+**It reads as a deliberate refrain**, and the case for keeping it is real: each site is stating
+what a party owes, the wording is the specification, and varying it would suggest three different
+requirements where the book means one. D-013 asks for one home per repeated argument and this may
+be the exception the rule needs — a form of words that is the content.
+
+**What decides it is whether the reader meets all three.** §3.3 and §12.2.1 are chapter-3 and
+chapter-12 statements of the same milestone, and §9.3.2 is the research-side version.
+
+- **(a) Default — leave all three.** The formula is a specification, and a specification restated
+  in the same words is doing its job. Applies at the close of the next pass touching chapter~3 if
+  nothing is said.
+- (b) Keep §3.3's in full as the home, and have the other two cite it and state only what their
+  own chapter adds — the research framing at §9.3.2, the failure consequence at §12.2.1. Costs
+  two cross-references, which is the direction Q-105 is about.
+- (c) Vary the wording at two of the three so the repetition is audible as emphasis rather than
+  as copy. Cheapest, and the one that risks implying three different requirements.
+
+---
+
+### Q-105 — the cross-reference count rose 230 to 235 in one day, and §2.2.3 from 2 to 6. **Closed by execution, D-242 (P142).** Five of the six were removed on a reader test, the count is 231, and §2.2.3 is back to 2.
+
+**Raised by P136**, about the aggregate rather than any single edit.
+
+| pass | added | to | count |
+|---|---|---|---|
+| P133 | §11.3 forward flag | §2.1.2 | 231 |
+| P134 | none | — | 231 |
+| P135 | §3.3, the prior/precaution split | §2.2.3 | 232 |
+| P136 | §3.3, §9.3.2, §12.2.1 | §2.2.3 | 235 |
+
+**Every one was named in an author instruction and every one is argued** — D-233 gives four
+reasons, D-235 and D-236 give theirs. **Nobody asked for the total.** D-089 (P28) cut 79 by class
+and D-099 (P35) cut more, on the author's finding that the references made the prose read as a
+navigated repository, and §2.2.3 now carries six in nine paragraphs, two of them to §3.3.
+
+**Repeat references to one target are not the anomaly.** Fourteen sections do it; §9.1.5 points
+twice at §3.3 and §8.3.4 points five times at §3.8. The density in one short section is what is
+new.
+
+**The honest statement of the risk**: four separate instructions, each reasonable, have produced
+an aggregate none of them intended, and the pass that notices this is the one that added three.
+
+- **(a) Default — leave them and stop adding.** Each earns its place by the §7 test, and removing
+  a reference an instruction asked for would be reversing the author rather than the drift.
+  Applies at the close of the next pass touching chapter~2 if nothing is said.
+- (b) Read §2.2.3 as a whole against `xref_shapes.py` and cut whichever of the six are the
+  removable shapes, keeping the `inline` ones. **Regenerate the report first** — it has been found
+  stale twice.
+- (c) Rule that the P136 sentence names §3.3 only, on the ground that §9.3.2 and §12.2.1 both
+  reach the construction through §3.3 anyway. Costs the thing the note asked for, which is the
+  reader knowing the obligations exist.
+
+---
+
+### Q-106 — §11.8's back-mention states the fact and gives no address
+
+**Raised by P137.** §11.8 says *What that evidence settles about what emotion is has already been
+asked, and the dispute is open*, then scopes its own question as *the narrower one of whether a
+face is readable*. **The fact is there and the location is not** — the same fault §5.2's *has
+already been covered* had before P137, minus the part that mattered.
+
+The repair is one reference and no prose: *has already been asked in section~\ref{sec:2.2.1}*.
+
+**Why it is filed rather than done.** §5.2's reader was missing the fact, which is what made that
+one worth an addition. §11.8's reader has the fact and would only be saved a search. **Q-105 is
+open on the cross-reference count rising 230 → 236 across five passes in one day**, and an
+addition whose whole benefit is convenience is the first one that should wait for a ruling on the
+aggregate.
+
+- **(a) Default — leave it.** The reader of §11.8 is told the dispute is open, which is what the
+  section's argument needs. Applies at the close of the next pass touching chapter~11 if nothing
+  is said.
+- (b) Add the address, one reference, no new prose. Takes the count to 237 and should probably be
+  decided together with Q-105 rather than before it.
+- (c) Take it as part of a ruling on Q-105 — if the answer there is that the additions were right,
+  this one follows automatically; if it is that they were not, this is the first to drop.
+
+---
+
+### Q-107 — the aground sentence, cut with the rest of §2.3.1's hull figure
+
+**Raised by P138**, which cut it. **This is the one item in that pass worth a second look**, and
+reversing it is one edit.
+
+**Before**, `02_03_01.tex:13`:
+
+> Suffering is not merely hard for such a system to reach. It is not suffering faintly; it is not
+> in that water at all. A hull that draws more water than there is does not float badly; it is
+> aground.
+
+**After:**
+
+> Suffering is not merely hard for such a system to reach. The self it requires is not there, and
+> a concept whose precondition is missing does not apply in a weaker form.
+
+**The case for the original.** It is the only one of §2.3.1's four uses where the figure carries
+an argument instead of decorating one. *Aground* makes a categorical claim concrete: a system with
+no persistence is not a faint sufferer, it is outside the concept. The replacement states the same
+thing and states it abstractly.
+
+**The case against, which is why it went.** Keeping it means keeping `:9`'s introduction, because
+*not in that water at all* has no antecedent without it — and keeping both is keeping the figure
+in §2.3.1, which is the branch the note declined. Independently, both sentences are shapes
+`style.md` rules against: *not suffering faintly; it is not in that water at all* is §2's
+contrastive frame, and *does not float badly; it is aground* is §7's aphorism, which *asks to be
+admired before it is checked*.
+
+- **(a) Default — leave it cut.** The pass did what the note asked, the claim survives, and the
+  figure now has one home. Applies at the close of the next pass touching chapter~2 if nothing is
+  said.
+- (b) Restore `:13` and `:9` together, and accept the figure in both chapters. Two edits, and it
+  reopens the question the note asked to close.
+- (c) Restore the aground image without the water: a sentence at `:13` that makes the categorical
+  point concretely without needing `:9` to have introduced anything. Costs a draft, and is the
+  option that keeps what was good about the original without the dependency that killed it.
 
 ---
 
