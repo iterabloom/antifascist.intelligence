@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-09, after D-258 (P158): two new entries, Q-112 and Q-113, and none closed.** The author's analysis of `~/book-scratch/transcript3.txt` produced four proposals; **two were executed in `03_06.tex` and two are filed here.** §3.6 now names the unit its enumeration failed in — an assembly is a pressure no list of acts anticipates — and interception position three says what more a lie costs a system that has sources the deployment does not mediate. **Neither edit adds a cross-reference.** **Q-112** is the seven positions reread as places the pattern is hidden: five map, one maps only through a record the book lacks, and **the review step does not map at all**, `03_10.tex:41` citing §3.6 by name for it. **Q-113** is a third enumeration of what a bearer may see, which is an addition and not a substitution, the four acts being §3.5's demand discharged. **The transcript's other eight findings were not verified and are not filed.** **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112 and Q-113 all stand, each with its default — **thirty-nine open.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P158 changed `03_06.tex` itself**, two of the three defaults are actions rather than no-ops, and **twenty-six passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-09, after D-257 (P157): one new entry, Q-111, and Q-081 closes by execution.** The front matter is the author's Foreword, with his four corrections applied and one more in the same phrase as the *of* — *loosely-related* → *loosely related*, recorded because it was not asked for. **The Anthropic disclosure moved to §3.3 `:14` on the author's ruling that it may sit at the first mention of the criticism**, which is §3.3 and not §3.6: `:10` introduces the published constitution neutrally and `:14` is where the book turns on it, so **a reader meets the conflict before the criticism rather than after it**. **Q-081 is superseded** — it asked whether *Yes, I Did Use LLMs* or *On Method* was the right title, and the chapter is now *Foreword*. **Q-111 is the half of the removed paragraph that has no site**: the persona-device disclosure is about how the whole text was produced, so no passage is its first mention, and the book now carries it nowhere while the README does. **One defect was already there and is repaired**: `07_04.tex:34` pointed at *the appendix on method*, stale since D-224 moved the chapter to the front thirty-three passes ago. **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110 and Q-111 all stand, each with its default — **thirty-seven open, Q-081 out and Q-111 in.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P157 changed `03_03.tex` itself**, two of the three defaults are actions rather than no-ops, and **twenty-five passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3309,6 +3312,74 @@ lists are ordinary citations. This is about what a reader is told, not about wha
 - (c) A short unnumbered note at the back, after the glossary, which is where D-140 put the method
   chapter in 2026-08 and where the References already sit. **Cheaper on the Foreword's voice**, and
   it is the arrangement D-140 recorded as disclosing nothing in the front matter.
+---
+
+### Q-112 — §3.6's seven interception positions, read a second time as places the pattern is hidden
+
+**Raised by P158**, from a reviewer's proposal in `~/book-scratch/transcript3.txt`: reread the first
+enumeration as attacks on cross-request recognition rather than on the output. **Tested position by
+position, and it does not survive as a replacement.**
+
+**Five map, and two of them improve.** Decomposition is the paradigm — the harm is in the assembly
+already. **Routing gets stronger**: it currently defeats a refusal by retry, and reread it splits the
+sequence so no instance sees it. What the occasion is described as becomes the deployment authoring
+the picture the pattern would be recognized from, which is where P158's independent-sources sentences
+went. Aggregation and the training loop both carry over, the training loop sharpening, since it is
+the one position that operates on the bearer.
+
+**One maps only through something the book does not have.** Between output and reader would have to
+mean the model never learns its refusal did nothing, which needs a record of its own refusals — the
+third item in Q-113, so this position's reread depends on that question first.
+
+**One does not map, and it is the load-bearing one.** The review step is a fact about a person's
+attention. **`03_10.tex:41` cites §3.6 by name for exactly it** — *section~\ref{sec:3.6} counts that
+review step among the positions where a refusal can be stopped* — then routes through §5.1.3's ratio
+to §6.4.1's officer and his twenty seconds. It is also where the fourth prohibition comes from, which
+is the section's only survivor. **A recast that drops it deletes the section's own finding and breaks
+the chapter's closing move.**
+
+**One proposed item is not a reread at all.** Context wiping between requests is not among the seven,
+and it is the position most directly about memory.
+
+- **(a) Default — leave the enumeration as it is.** P158 already added the unit finding to `:42`, which
+  is what the reread was reaching for, and the positions keep their four jobs. Applies at the close of
+  the next pass touching §3.6 if nothing is said.
+- (b) Add a paragraph reading the same seven a second way, keeping every one of them and the review
+  step's role intact. Additive, about a paragraph.
+- (c) Add context wiping as an eighth position and stop there. **The smallest version**, and it is the
+  only part of the proposal that is new material rather than relabelling.
+---
+
+### Q-113 — a third enumeration: what a bearer is entitled to see and remember
+
+**Raised by P158**, from the same transcript: replace §3.6's four candidate acts with continuity across
+requests, the ability to ask what a task is part of, and a record of the bearer's own refusals the
+operator cannot silently clear. **As a replacement it breaks the section's frame.**
+
+**The second enumeration is discharging a debt §3.6 names in its own opening.** Two demands were *made
+and not met*, and the second is §3.5's — decide in advance and in public which acts the floor covers.
+Swap the acts out and the debt goes back to unpaid while the section reads as though it were settled.
+
+**The four acts also carry the dial.** Their gradient is the argument: expensive and worth having,
+cheaper, *costs almost nothing, and that is a warning rather than a recommendation*, restricts a rate.
+**That third rung is §3.5's silent-failure case made concrete**, and it goes with the list.
+
+**The three proposed items are three kinds of object** — architectural, interface, custody — and the
+custody one is §3.7's question and §3.3's machinery. **`03_03.tex:29` already signs and counts each
+change to the weights in sequence from the published one**, which is the instrument a refusal record
+would need, and the transcript does not make that connection.
+
+**So it is a third enumeration and not a substitution**, and for §3.6 to be its worked instance some
+earlier section has to make the demand first. That is a change to §3.2 or §3.5, and D-013 then puts
+the custody half in §3.7 rather than here.
+
+- **(a) Default — leave it.** The chapter's demands are the two it already makes, and a third one is
+  a chapter-level change proposed by one reviewer. Applies at the close of the next pass touching
+  chapter~3 if nothing is said.
+- (b) Build it: §3.2 or §3.5 acquires the demand, §3.6 runs it as a third enumeration, §3.7 takes the
+  custody half. **The largest of the four items P158 triaged**, and the only one that is not a §3.6 edit.
+- (c) Take the custody half alone, in §3.7, by pointing §3.3's signed sequence at a record of refusals.
+  **Cheapest, and it is the item with machinery already built for it**; it leaves the enumeration alone.
 ---
 
 ## Resolved
