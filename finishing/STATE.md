@@ -1,5 +1,22 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-253 (P153): the quorum now keeps the record of a refused amendment attempt, and Q-109 closes on option 2.** `p153-scope.md` has the pass. **Twenty-first pass of the day.** **Three questions closed today — Q-107, Q-108 and Q-109 — and the author's two rulings from one message are both executed.**
+
+**First, the gap, because it is what the clause is for.** `09_01_05.tex:33`'s second condition requires that an amendment attempt reach the record **whether it carries or fails**, and **none of the five terms `:31` lists registers a proposal that was refused.** §3.3 `:29`'s witnessed sequence signs *each change to the weights*, and a proposal the quorum declined changes none. The attestation reports what is running. The bond is forfeited on a removal that happened.
+
+**Second, the edit, and why it is not a bare naming.** *The attempt has to reach the record whether it carries or fails, **and a proposal that fails moves no weights, so the parties who had to agree are the ones who record that they were asked.*** **It states the gap and closes it in one movement.** Putting the record in the quorum's hands without the reason would have read as arbitrary.
+
+**Third, one word the book could not lend, and this is worth carrying.** The natural phrasing is *a refusal moves no weights*. ***Refusal* is what a system does in this book** — the load-bearing term of chapters~2 and 3 — and a second sense, a quorum declining a proposal, would have collided with it head-on. *A proposal that fails* is the replacement. **A term this book has spent two chapters defining cannot be borrowed for an adjacent meaning in a third.**
+
+**Fourth, whose phrase was used and why.** ***The parties who had to agree*, not *the quorum***: it is condition one's own wording, one sentence earlier, so the two conditions now tie together and §9.1.5 does not import §3.3's term to say who keeps the record.
+
+**Fifth, what was deliberately not claimed.** **Nothing here says the arrangement is secure.** §3.3 `:39` has the parties to a threshold scheme selected by whoever assembles the deployment, and **nobody has implemented adverse interest for a floor.** The clause says who would record the attempt, not that the record would be honest, and `:39` of this section still says the procedure is no route of appeal. **Option 3 was not taken** — naming the mechanism unbuilt would have put a second unbuilt item into a section whose argument depends on the procedure being runnable, which is the cost that option carried when it was filed.
+
+**Sixth, what the session's question list now looks like.** Thirty-six open. **The chapter~3 trigger is the only live item whose defaults are actions**: Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P145 and P151 both changed `03_03.tex`**, and two of the three defaults are actions rather than no-ops. **Twenty-one passes.**
+
+**Measured:** 133 sections, 1 changed. 99,547 → 99,571 words, +24; §9.1.5 1,939 → 1,963. 196 pages unchanged. **231 cross-references unchanged.** 324 bibliography entries unchanged. 0 `\textit`. 0 new shared six-word runs, 1,622 book-wide before and after, checked because *the parties who had to agree* is close to `:31`'s *how many parties had to agree*. §9.1.5's censuses unchanged against HEAD: 8 antithesis sentences, 0 clusters, 7 `deixis --hard` hits. Suite green; scratchpad build 196 pages, 0 undefined references and citations, the clause read back out of `pdftotext` in position. **The proof pair was not rebuilt and is ten passes stale: the committed pair is `3ab8454`'s, carrying P133 through P143.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-252 (P152): Q-107 closed on option (c) — §2.3.1's categorical claim is concrete again, and it is not a scene.** `p152-scope.md` has the pass. **Twentieth pass of the day.** **One record repair: P138's water-vocabulary measurement was wrong.**
 
 **First, the ruling and what went in.** The author's answer on Q-107 was *try it*. `02_03_01.tex:13` now ends *The self it requires is not there, and a system with no biography to lose is in a different state from one with little to lose*, replacing P138's abstract *a concept whose precondition is missing does not apply in a weaker form*. **It depends on nothing that was cut** — *biography* is §2.3.1's own word at `:16` and `:28`, *anything to lose* is `:38`'s, and the paragraph's own *Suffering is not merely hard for such a system to reach* still sets it up.
