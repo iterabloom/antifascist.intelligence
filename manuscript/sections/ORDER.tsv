@@ -1,5 +1,5 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	Yes, I Did Use LLMs	4b23ac27f9b282a4714a3d9ddeb8061d0ff72cc0696e0e8d07e4cda8ccd741a2
+manuscript/sections/ch00/00.tex	0	Foreword	a80b693469d04d93ed02573774ff1586385bcd99b72e94b34bb787b68f5f9f6f
 manuscript/sections/ch01/01.tex	1	Introduction	da5f08e6d121b28554f41f16d6714209159dc520f0c5658a85f98be505617996
 manuscript/sections/ch02/02.tex	2	Ethics, Affect, and Machine Subjects	2e2c4fbc1296e2cd2495b708f008401aa809319969f3e84965f2cf92c7d1bb39
 manuscript/sections/ch02/02_01.tex	2.1	Ethical Frameworks and AI Alignment	0a62945936b72af89da96157f39a89da32283ebe3328b7cd4d5df920b258a860
@@ -15,7 +15,7 @@ manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardi
 manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	d00682b9af9478ab97d5724b06b34faf925e62f5b75ea98eeade6b74bd32f73b
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	4f6db2a00d92bb2c9cddc07912384b66daed3ff34b20ff49567dfb6cb321ba93
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	17d9b8e9c3f3877e299e6bcd9b157e0828558ef8a47599bf5234eed11e7541b6
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	47e735271c327948d30dc3333b857ace182c24bff30c9e691d8dadbb167dcdf2
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	05a7d1f5b5f2cd0f7bdd296813b8d514acdd02025ad0a6fcc4a03499343a685b
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	7e5ca50c2cf9288cb7e8afade09f73c7423010c9ae82a61dca9ae3cc03271971
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	038897bc190fcaa18f9b5b6b64ddf62bbffbe5d225441ae3958c9693e4dc4988
@@ -79,7 +79,7 @@ manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	aadd3cfe2e552ebb00
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	1bf6eacc1a4d0f9e391bd8cdcd5643b0e43bd737bea31f01d7783b31fd2d1531
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	c93a9416ba583d964a6beb6fbd266e574648b39778e6469fdd62511c9db7c232
 manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	b7132f3bb31ab54f2eaf107da2efd8e12834c9f1b95c083bb14ff4224eb1bcf4
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	0ba9498ff89d2a38614fd27699114ee7588eaf412b0ea4f1abf360dd8903f884
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	e98023c3880b9ddf0a3564c1eb7ed3afaaa3f73537962d7ef91bd69ce6ff01b5
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	4d7f1fbdd3893338454d0be8df88f5e57e5ed686e36c7b0a402a0db208984680
 manuscript/sections/ch08/08_01.tex	8.1	Interdisciplinary Collaboration and Knowledge Exchange	8a95a0b38be0be3f6c5e4cd254f3c0ed9272ae58c8396aa4c0fa974a7b6d4c99
 manuscript/sections/ch08/08_02.tex	8.2	Stakeholder Involvement and Public Engagement	0644d2d27b79dd1a06faa7766558a3441aad830f33531c357282a2673e09c1db

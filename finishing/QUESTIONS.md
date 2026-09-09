@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-09, after D-257 (P157): one new entry, Q-111, and Q-081 closes by execution.** The front matter is the author's Foreword, with his four corrections applied and one more in the same phrase as the *of* — *loosely-related* → *loosely related*, recorded because it was not asked for. **The Anthropic disclosure moved to §3.3 `:14` on the author's ruling that it may sit at the first mention of the criticism**, which is §3.3 and not §3.6: `:10` introduces the published constitution neutrally and `:14` is where the book turns on it, so **a reader meets the conflict before the criticism rather than after it**. **Q-081 is superseded** — it asked whether *Yes, I Did Use LLMs* or *On Method* was the right title, and the chapter is now *Foreword*. **Q-111 is the half of the removed paragraph that has no site**: the persona-device disclosure is about how the whole text was produced, so no passage is its first mention, and the book now carries it nowhere while the README does. **One defect was already there and is repaired**: `07_04.tex:34` pointed at *the appendix on method*, stale since D-224 moved the chapter to the front thirty-three passes ago. **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110 and Q-111 all stand, each with its default — **thirty-seven open, Q-081 out and Q-111 in.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P157 changed `03_03.tex` itself**, two of the three defaults are actions rather than no-ops, and **twenty-five passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-256 (P156): no new entries, none closed, and no prose changed.** The cross-reference review was re-run across the whole session on the author's instruction and **found nothing to act on**: 231 at the session's first commit and 231 now, with every commit checked for the references its diff added and removed rather than the totals being trusted. **Two commits moved the set and they cancel** — P145 added `\ref{sec:11.1}` and `\ref{sec:11.2}`, P151 removed those two — and no reference was repointed. **Q-110 is one pass old and is the live one**: whether a limit in a paragraph's final position counts as discarded, with option (c) settling four more `epigram.py` pairs at once instead of one at a time. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106 and Q-110 all stand, each with its default — **thirty-seven open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, P145 and P151 both changed `03_03.tex`, two of the three defaults are actions rather than no-ops, and **twenty-four passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -2575,7 +2578,7 @@ it is going, not about a broken pointer.
 
 ---
 
-### Q-081 — Chapter 0's retitle: *On Method* → *Yes, I Did Use LLMs*
+### Q-081 — Chapter 0's retitle: *On Method* → *Yes, I Did Use LLMs*. **Closed by execution, D-257 (P157), superseding both options.** The chapter is now *Foreword*, on the author's replacement of the front matter, and neither title in this question survives to be chosen between.
 
 **Raised by P126's Overleaf import, which applied it.** D-224 (P124) moved this chapter from
 the back of the book to page 1 and retitled it *Appendix: On Method* → *On Method*, on the
@@ -3278,6 +3281,34 @@ tool's 24-word ceiling, which is a blindness its docstring declares.
 - (c) Rule on the general question instead, which is the one underneath: **whether a limit in a
   paragraph's final position counts as discarded.** Four of the pairs `epigram.py` found in §3.3 and
   §11.3 turn on the same point, and a ruling would settle them together rather than one at a time.
+---
+
+### Q-111 — the persona-device disclosure has no site, and the book no longer carries it
+
+**Raised by P157.** The replaced front matter carried two disclosures. **The vendor half had a first
+mention to sit at and has moved there**, §3.3 `:14`, on the author's ruling. **This half has none**:
+it is about how the whole text was produced, so no passage in the book is its first mention.
+
+**What was removed.** *None of the named people whose expertise those personas imitated wrote a word
+of it, reviewed it, or knows it exists*, together with the account of the roughly one hundred
+simulated expert co-authors and the 2026 finishing pass's rule that a named person is now either
+cited for something published or described in a documented event.
+
+**What still carries it.** The README's disclaimer, in full, and `AGENTS.md` requires that its
+wording not be weakened. The Foreword links to the repository, so the path exists. **A reader with
+the PDF and no browser does not meet it**, and the book names Arendt, Nussbaum, Gebru, Robinson,
+Gilligan, Greene and others in its own pages.
+
+**What is not at stake.** The book's text is clean: `names_guard.py` passes, and the 42 name hits it
+lists are ordinary citations. This is about what a reader is told, not about what the prose does.
+
+- **(a) Default — leave it out.** The Foreword links to the repository and the README carries the
+  disclaimer. Applies at the close of the next pass touching the front matter if nothing is said.
+- (b) One sentence in the Foreword, after the line about the first draft, in that paragraph's
+  register. Costs about twenty words and puts the disclosure back where every reader meets it.
+- (c) A short unnumbered note at the back, after the glossary, which is where D-140 put the method
+  chapter in 2026-08 and where the References already sit. **Cheaper on the Foreword's voice**, and
+  it is the arrangement D-140 recorded as disclosing nothing in the front matter.
 ---
 
 ## Resolved
