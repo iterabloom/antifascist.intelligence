@@ -1,5 +1,14 @@
 # State of play
 
+Read this first. **Updated 2026-09-09 after D-262 (P162): §5.4 is *It Takes a Village to Deploy a Self-Aware Email Server*.** `p162-scope.md` has the pass. **Sixth pass of the day.** **No prose changed** — one heading and the four files that copy a title.
+
+**The instruction** replaced a title P161 gave the section one day earlier. **The village figure survives it**: §5.4 is Bronfenbrenner's nested rings and both titles carry that, so what is new is the joke rather than a different reading of the section.
+
+**Two things on the record.** **It is the longest title in the book at 53 characters and the running head sets it on one line**, checked in the built PDF against P160's finding that 85 is where the head strains. And **§5.4.2 is still *AI Systems Responding to Authoritarianism and Democratic Backsliding***, one of the seventeen titles `p161-scope.md` names as still in the generation-era register, now sitting under a joke title. Recorded rather than filed, the author naming these by number as he goes.
+
+**Measured:** 133 sections, **1 heading changed, 0 words of prose**. 99,458 words, 194 pages, 228 cross-references and 324 bibliography entries unchanged. 0 undefined references and citations. Suite green. **The proof pair is one pass stale.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-09 after D-261 (P161): twenty-three titles retitled, and the book's register changed with them.** `p161-scope.md` has the pass. **Fifth pass of the day.** **No prose changed** — twenty-three headings and the four files that copy a title.
 
 **First, the instructions.** *Foreword → Sup* and chapter~6's *Overcoming Challenges, Risks, and Authoritarianism in AI Development → Deterring Haters and Other Wack Elements in AI Development* — **retitled again before the pass closed to *Neutralizing and Preventing Fascism in AI Development*** — then twenty-one more named by number, the current ones being **really boring**.
