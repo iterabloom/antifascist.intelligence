@@ -1,5 +1,24 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-250 (P150): §12.2.1's third milestone requirement now has its own sentence and is named as the hard one.** `p150-scope.md` has the pass. **Eighteenth pass of the day.** **No new question.**
+
+**First, what the sentence was doing.** `12_02_01.tex:11` carried three requirements in one breath — sustained pressure from the trainer, a long enough schedule, and a held-out set of pressures the trainers did not write — **the third arriving last, coordinated with *and*, after a 20-word phrase and an 11-word one.** Nothing in the sentence said which of the three was hard.
+
+**Second, the placement differs from P148's and the reason is local.** P148 put §11.1's held-out set at the **end** of its paragraph, on the chapter's pattern of closing an experiment on its institutional condition. Here the requirement sits **immediately after the milestone sentence**, because closing this paragraph with it would have set the falsifier gloss between the milestone and the requirement that qualifies it. **Same requirement, two sections, two right answers.**
+
+**Third, a numeral nearly went in and would have undone P144.** The first draft read *and that is the hard one of the three*. **The paragraph already has *three marks***, so *the three* would have been a second unlabelled three inside four sentences — which is the exact ambiguity P144 was run to remove from §11.1. The wording carries no count.
+
+**Fourth, the reason it is hard was deliberately left in §11.1.** P148 gave that section the mechanism — *the party holding the model is the party that wrote what it was trained on* — and §11.1 is where the experiment lives. §12.2.1 states the milestone, so it says the requirement is the hard one and leaves the argument where it is made. **A second statement of the mechanism is Q-104's shape**, and this is the fourth pass in seven where Q-104 governed a drafting choice without being opened.
+
+**Fifth, one word changed to keep a collision clear.** *The trainers* became *the system's trainers*, the bare form having no noun in its new sentence to attach to. §11.1 and §3.3 both carry *pressures the model's trainers did not write*, so the possessive was chosen against them: **0 new shared six-word runs.** The pre-existing overlap on *held-out set of pressures the* is unchanged and was not introduced here.
+
+**Sixth, what was left and why.** The falsifier gloss is untouched — *that same result* now sits one sentence further from its antecedent and **still binds**, both preceding sentences describing the milestone-meeting result, and tightening it would have meant rewriting a sentence the note did not raise. **No cross-reference; 233**, with Q-108 live on exactly that spend.
+
+**Seventh, the chapter~3 trigger stands consumed and unacted on.** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; **P145 changed `03_03.tex` itself**, and P146 through P150 worked in chapters~9, 11 and 12. **Eighteen passes.** **Q-107 is live**, twelve passes old; **Q-108 five**; **Q-109 four.**
+
+**Measured:** 133 sections, 1 changed. 99,511 → 99,527 words, +16; §12.2.1 511 → 527. 196 pages unchanged. **233 cross-references unchanged.** 324 bibliography entries unchanged. 0 `\textit`. 0 new shared six-word runs, 1,622 book-wide before and after. §12.2.1's censuses unchanged against HEAD: 3 antithesis sentences, 0 clusters, 1 `deixis --hard` hit. Suite green; scratchpad build 196 pages, 0 undefined references and citations, the passage read back out of `pdftotext` in position. **The proof pair was not rebuilt and is seven passes stale: the committed pair is `3ab8454`'s, carrying P133 through P143.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-249 (P149): §11.3 now says that the four-then-five ordering reaches only one of the two failures, and that both are governed by who may be told what the tool found.** `p149-scope.md` has the pass. **Seventeenth pass of the day.** **No new question.**
 
 **First, half the note was already done, and by P143.** Its second item — the feature-4 limit, that a detector tuned to drift will not register a movement announcing itself — **is `11_03.tex:11`** and has been since D-243. **This is the third note in six whose items were partly executed by an earlier pass in the same session**, after P148's and P144's, and a session taking these should check the target before drafting.
