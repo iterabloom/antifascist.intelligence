@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-245 (P145): one new entry, Q-108, and nothing carried over is reopened.** P145 replaced `03_03.tex:79`'s two-item list of what bears on the middle conjunct with the two routes that actually do. **Q-108 is the cross-reference question**: 231 → 233, the first addition since Q-105 closed at D-242, and **by P142's own test these two are the expensive kind** — forward, deep, mid-argument. Its default keeps them, on the author's stated reason that the passages are far apart; its (b) drops both numbers on D-243's precedent and its (c) keeps only §11.2's. **What checking added to the note is two findings.** §3.3 was not the blank the note describes: its existing first item, *The tamper-resistance apparatus is where that would be attacked*, is contradicted by `11_01.tex:22`, `12_02_01.tex:13` and `03_02.tex:19`, so the pass is a replacement. And **the note's three passages are two routes**, §11.1 putting the question and §11.2 stating the experiment, which is how `12_02_01.tex:15` already pairs them. **Q-104 is not opened but bore on the drafting twice**: the first draft echoed §3.2 and §11.1 for seven new six-word runs, and the redraft carries none. **Q-107 is still live**, seven passes old, option (c) untried. **Q-106 is not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-107 and Q-108 all stand, each with its default — **thirty-eight open with the new one.** **What this header now settles differently:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and **P145 changed `03_03.tex` itself**, the section Q-075's default would add a sentence to. **Thirteen passes, two of the three defaults actions rather than no-ops, and this is the fourth pass in six to change a chapter~3 section.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-244 (P144): no new entries, and nothing carried over is reopened.** P144 moved the falsifier's unreached condition ahead of the apparatus at §11.1 and ahead of the milestone at §12.2.1, leaving §3.10 as the model. **The pass raises no question, the fourth in five.** **Q-104 was not opened and is the nearest thing this pass came to one**: §9.3.2 is the third site of the milestone formula, the pass did not touch it, and nothing here bears on whether the formula should vary. **What checking added to the note is one slip and one tool finding.** The slip: the §11.1 bullet says *the middle condition* and then *the third conjunct*, and at `03_03.tex:75` the unreachable one is the middle, the second of three. The finding: `antithesis.py --clusters` rejected the first draft of the §11.1 sentence, which sat **25 words from a load-bearing *rather than***, and the split into two sentences returns the section to its pre-edit 11 instances and 5 clusters. **Q-105 is not reopened and this pass did not bear on it**: 231 cross-references, unchanged, the reordering needing no apparatus. **Q-107 remains the live one**, six passes old, option (c) untried. **Q-106 is not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106 and Q-107 all stand, each with its default — **thirty-seven open, unchanged.** **What this header still does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; P140 and P141 both changed chapter~3 sections, **P144 read §3.3 and §3.10 closely and changed neither**, two of the three defaults are actions rather than no-ops, and **twelve passes have now gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3151,6 +3154,35 @@ admired before it is checked*.
   point concretely without needing `:9` to have introduced anything. Costs a draft, and is the
   option that keeps what was good about the original without the dependency that killed it.
 
+---
+
+### Q-108 — two forward cross-references into chapter~11, added from inside chapter~3's argument
+
+**Raised by P145**, which added them. **231 → 233**, and they are the first addition
+since Q-105 closed by execution at D-242.
+
+**By P142's own test they are the expensive kind.** That test: a reference helps when the reader
+can act on it and costs when it interrupts something they are in the middle of to name a place
+they cannot use yet, and *forward, deep and mid-argument* is the expensive combination. These two
+sit inside `03_03.tex:79`, in the middle of the paragraph developing the middle conjunct, and
+point eight chapters ahead into §11.1 and §11.2.
+
+**What is different from the five P142 removed.** The sentence carrying them is complete without
+them — *The second is whether formation can be read off the artifact where provenance cannot be
+established* is the claim, and the numbers say only where it is worked on, which is what
+`style.md` §7 asks of a reference. None of the five removed at P142 could say that.
+
+**What argues the other way is one pass old.** D-243 had §11.3 and §2.1.2 state one limit in both
+places it was needed and spent no cross-reference doing it, on the finding that neither site needs
+to point at the other. §3.3 could name the two routes and leave a reader to find them.
+
+- **(a) Default — keep both.** The author's stated reason for the mention is that the three
+  passages are *far apart*, and an address is what answers that. Applies at the close of the next
+  pass touching chapter~3 if nothing is said.
+- (b) Drop both numbers and keep the routes named — *the research chapter puts the question and
+  states the experiment* — taking the count back to 231 and following D-243's precedent. One edit.
+- (c) Keep §11.2's, which is the experiment a reader would actually go and look at, and drop
+  §11.1's, which states a question §3.3 has just stated itself. 232.
 ---
 
 ## Resolved
