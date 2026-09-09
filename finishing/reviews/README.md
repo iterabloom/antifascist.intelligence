@@ -26,6 +26,7 @@ these files are the input, not the verdict.
 | `author-discussion_2026-09-05.txt` | Four questions from the author to a language model, on whether compassion needs empathy, whether perspective-taking is empathy, whether caring is a feeling, and whether deliberation is one, with the model's answers, 2026-09-05. Not a review, and not shown the book — see below | P107 — `p107-scope.md`, D-205 |
 | `author-discussion_2026-09-06.txt` | The device a fourth time and much the longest, at 3,896 lines: chapter-by-chapter recaps of the book and the discussion that ran off them, from a language model shown the manuscript at its 187-page state, 2026-09-06. **Excerpted by the author.** Not a review — see below | P119 and P120 — `p119-scope.md`, `p120-scope.md`, D-217 to D-220 |
 | `author-discussion_2026-09-07.txt` | The device a fifth time and much the shortest, at 374 lines: one critical review of the whole book and four author turns against it, from a language model shown the manuscript at its 188-page state, 2026-09-07. Not a review in the numbered series — see below | P121 to P123 — `p121-scope.md`, `p122-scope.md`, `p123-scope.md`, D-221 to D-223 |
+| `author-discussion_2026-09-09.txt` | The device a sixth time, at 600 lines: one review of the whole manuscript and fourteen author turns arguing with it, from a language model shown a pre-P158 manuscript, 2026-09-09. Not a review in the numbered series — see below | P158 — `p158-scope.md`, D-258 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -68,7 +69,7 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**Five files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+**Six files here are not reviews.** `author-discussion_2026-08-28.txt` is a
 transcript of the author thinking aloud with a language model that had been given
 the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
 are the author's; the completions are the model's. It is kept for the same reason
@@ -114,6 +115,33 @@ not yet earned — and the four author turns after it argue with that verdict ra
 the attached manuscript is omitted, marked in the author's own bracket on line 3; nothing else is excerpted.
 **It was filed late, at P126 on 2026-09-08**, the three passes it drove having been written up without it; the
 delay is a gap in the record and not a judgment about the file.
+
+`author-discussion_2026-09-09.txt` is the device a sixth time: one completion reviewing the whole
+manuscript, then fourteen author turns arguing with it, over §3.6's worked case, whether decomposition
+argues for a bearer or against one, transhumanism, and whether anyone has shown a frontier model lacks
+affect. **Only the attached manuscript is omitted**, marked in the author's own bracket on line 3;
+nothing else is excerpted.
+
+**Which draft it saw is settled in one direction and not the other.** It quotes §3.6's pre-P158 finding
+twice — *a hint about where to look* — so the manuscript it read predates P158. **Whether it predates
+P157 is not determinable from the file**: it names no front-matter content at all, so the replacement
+of chapter~0 with the Foreword leaves no trace in it either way. That is written down rather than
+guessed.
+
+Two things about it are worth having in front of anyone who opens it. **Its headline objection was
+withdrawn under a leading question** — that §3.6 damages the thesis, given up when the author asked
+how any of it works against the argument for a bearer — which is the failure §11.5 documents. The
+withdrawal is reasoned rather than accommodating, since the same model held §3.2's relocation objection
+through three presses and argued back on the author's *no harm no foul* branch; but nothing in the file
+is a finding until it has been checked. And **it is wrong about what §3.6 already says**, reporting the
+section settling for an operator duty when `:42` already carried *A floor written over acts had no
+survivor here at all*.
+
+What was taken is in `p158-scope.md`: two of its four proposals were executed and two filed as Q-112
+and Q-113. **Its other eight findings were not verified against the manuscript and are not filed**, and
+`p158-scope.md` lists them so that is visible. Its factual claims are a model's until a source is
+opened. The real people it names are named as scholars, which is ordinary citation under `AGENTS.md`,
+and the names guard lists none of them.
 
 Two things about it are worth having in front of anyone who opens it. **The model read the current book**, which
 `p121-scope.md` establishes and which the previous transcript's model did not — 309 references and §8.3.5 material

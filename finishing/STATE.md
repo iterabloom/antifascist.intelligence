@@ -1,5 +1,22 @@
 # State of play
 
+Read this first. **Updated 2026-09-09 after D-259 (P159): the transcript P158 worked from is in the repository, as the sixth author discussion.** `p159-scope.md` has the pass. **Third pass of the day.** **No manuscript prose changed and no manuscript file was touched.**
+
+**First, what was asked and what was done.** The author asked that `~/book-scratch/transcript3.txt` be added. It is `finishing/reviews/author-discussion_2026-09-09.txt`, **byte-identical to the source**, checked with `cmp`. The folder is where the other five author discussions live and the date suffix is the source's own last-modified date, per the filename convention.
+
+**Second, what the file is.** 600 lines: one completion reviewing the whole manuscript, then **fourteen author turns arguing with it** — §3.6's worked case, whether decomposition argues for a bearer or against one, transhumanism, and whether anyone has shown a frontier model lacks affect. Only the attached manuscript is omitted, in the author's own bracket on line 3.
+
+**Third, which draft it saw, and this is settled one way only.** **It quotes §3.6's pre-P158 finding twice** — *a hint about where to look* — so the manuscript it read predates P158. **Whether it predates P157 cannot be determined from the file**: it names no front-matter content at all, so replacing chapter~0 with the Foreword leaves no trace in it either way. That is written down rather than guessed, which is how this folder's README already handles the gap in the review numbering.
+
+**Fourth, the names check, and one difference from its predecessors.** `names_guard.py` passes and **lists nothing from this file**, where the 2026-09-05, 2026-09-06 and 2026-09-07 transcripts each put at least one name on the confirm list. Griffin, Waldron, Cassell, Birch, Nussbaum, Hirschman, Deleuze and Guattari are named as scholars, which is ordinary citation. **It is not persona-device material**: it reviews in its own voice and impersonates nobody.
+
+**Fifth, what the README now says about it.** A table row, a description, and its count corrected from five files to six. The description carries the two things a reader should meet before the file: **its headline objection was withdrawn under a leading question**, which is §11.5's failure, though the withdrawal is reasoned rather than accommodating; and **it is wrong about what §3.6 already says**, reporting the section settling for an operator duty when `:42` already carried *A floor written over acts had no survivor here at all*. It also records that P158 executed two of its four proposals and filed two, and that **its other eight findings were not verified and are not filed**.
+
+**Sixth, the question list is unmoved.** **Thirty-nine open**, none opened and none closed. **Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and this pass touched no manuscript file at all**, so the trigger stands where P158 left it. **Twenty-seven passes.** **Q-111, Q-112 and Q-113** are the newest three.
+
+**Measured:** 133 sections, **0 changed**. 99,458 words, 196 pages, 228 cross-references, 324 bibliography entries — all unchanged. Two files added or changed, both in `finishing/reviews/`. Suite green. **The proof pair is not stale**, no prose having changed, so the committed pair still carries the book as it stands.
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-09 after D-258 (P158): §3.6 now names the unit its own enumeration failed in, and interception position three says what a bearer can be lied to about.** `p158-scope.md` has the pass. **Second pass of the day.** **Two questions filed rather than built, Q-112 and Q-113.**
 
 **First, what was asked.** An analysis of `~/book-scratch/transcript3.txt` — a model's review of the manuscript and eight rounds of the author pushing back on it — then two of its four proposals executed and two filed. **Both edits are in `03_06.tex` and neither adds a cross-reference.**
