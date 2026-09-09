@@ -1,10 +1,10 @@
-Chapter 0: Foreword
-Chapter 1: Introduction
-Chapter 2: Ethics, Affect, and Machine Subjects
-2.1. Ethical Frameworks and AI Alignment
+Chapter 0: Sup
+Chapter 1: Why You're Going to Hate This
+Chapter 2: Yes, It Has to Have Feelings
+2.1. Six Theories, None of Which Will Save You
 2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
 2.1.2. Antifascist Ethics for AI Alignment
-2.2. Affect, Moral Salience, and Self-Awareness
+2.2. Going Numb Won't Make You Fair
 2.2.1. What Emotion Is, and What a System Reads
 2.2.2. Self-awareness and Self-regulation in AI Systems
 2.2.3. Is Affect Necessary for Moral Concern?
@@ -22,11 +22,11 @@ Chapter 3: The Floor Beneath Learned Values
 3.8. A Bearer That Can Leave: Exit as Leverage
 3.9. What One Bearer Cannot Catch: A Floor Carried Between Them
 3.10. What This Leaves Standing: The Floor, Redefined
-Chapter 4: Machine Learning and Cognitive Science
-4.1. Incorporating Human Cognitive Models in AI Systems for Ethical Decision-Making
+Chapter 4: Where the Caring Gets Built
+4.1. You Can't Hold a Line You Didn't Notice
 4.1.1. Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning
 4.1.2. Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology
-4.2. How a Deployed System Acquires Its Values
+4.2. The Assembly Line for a Conscience
 4.2.1. Pretraining and Instruction Tuning
 4.2.2. Preference Optimization, and Who Holds the Pen
 4.2.3. Inferring the Objective: IRL and CIRL
@@ -50,7 +50,7 @@ Chapter 5: Moral Psychology and AI
 5.3.1. Two Systems, or One? Dual-Process Theories of Moral Judgment
 5.3.2. Balancing Intuition and Deliberation in AI Decision-Making
 5.3.3. AI Systems Learning from Moral Disagreements and Conflicts
-5.4. Moral Ecosystem Approach in AI Development
+5.4. Nobody Raises a Machine Alone
 5.4.1. The Rings, and What Each One Pushes With
 5.4.2. AI Systems Responding to Authoritarianism and Democratic Backsliding
 5.5. Cooperative AI Systems and Multi-Agent Moral Development
@@ -58,18 +58,18 @@ Chapter 5: Moral Psychology and AI
 5.6.1. Intrinsic and Extrinsic Motivation, and What Each One Leaves Open
 5.6.2. Balancing AI Autonomy and Alignment with Humane Values
 5.7. Play, Exploration, and Moral Development in AI
-Chapter 6: Overcoming Challenges, Risks, and Authoritarianism in AI Development
-6.1. Bias, Fairness, and Equity in AI Systems
+Chapter 6: Neutralizing and Preventing Fascism in AI Development
+6.1. Garbage In, Bigotry Out
 6.1.1. Sources of Bias in AI Data and Algorithms
 6.1.2. The Role of Transparency and Accountability in Bias Reduction
-6.2. Robustness, Generalization, and Adaptability in AI Systems
-6.3. AI Safety, Unintended Consequences, and Risk Mitigation
+6.2. Holding Up When the World Moves On
+6.3. It Was Supposed to Help
 6.3.1. The Alignment Problem: AI Systems with Misaligned Goals
 6.3.2. AI Systems that Learn to Deceive or Manipulate
 6.3.3. Anticipating Risk Before It Causes Harm
 6.3.4. Remediating a Harm Once It Is Identified
 6.3.5. Long-Term AI Safety Considerations
-6.4. Preventing the Misuse of AI for Authoritarian Purposes
+6.4. Same Robot, Worse Boss
 6.4.1. Authoritarian Applications and the Commercial Supplier
 6.4.2. Developing Technical Countermeasures and Safeguards
 6.4.3. Promoting AI Development Policies that Discourage Authoritarian Use
@@ -80,8 +80,8 @@ Chapter 7: The Recuperation of Dissent
 7.3. What Would Have to Change
 7.4. Recuperation at the Discourse
 Chapter 8: Coordination, the Public, and the Political Economy
-8.1. Interdisciplinary Collaboration and Knowledge Exchange
-8.2. Stakeholder Involvement and Public Engagement
+8.1. Everybody Knows a Different Piece
+8.2. Ask the People It Happens To
 8.2.1. Public Deliberation and Participatory AI Governance
 8.2.2. AI Literacy Outside the Classroom
 8.3. The Political Economy of AI and Power
@@ -109,9 +109,9 @@ Chapter 10: Governance Across Borders
 10.2. AI as a Strategic National Asset
 10.3. Military Applications and the Limits of Autonomy
 10.4. International Governance and Diverging National Rules
-10.5. Equity and the Digital Divide
-10.6. The Limits of the Democratic Dividend
-Chapter 11: Necessary Areas of Research
+10.5. Built for the Rich Parts of the World
+10.6. Democracy Is Not a Force Field
+Chapter 11: Everything I Couldn't Figure Out, Ranked
 11.1. Interpretability, Self-Reports, and Resistance to Tampering
 11.2. What Is Owed to a Bearer, and Who Could Check
 11.3. What an Antifascist Detector Would Actually Have to Detect
@@ -121,13 +121,13 @@ Chapter 11: Necessary Areas of Research
 11.7. Open Questions in Theory-of-Mind Research
 11.8. Is Emotion Legible From a Face at All?
 11.9. The Responsibility Gap, Which No Experiment Closes
-Chapter 12: Conclusion and Outlook
-12.1. AI and Human Flourishing in Antifascist Societies
+Chapter 12: What I Actually Think Happens Now
+12.1. Better, Not Just Less Bad
 12.1.1. Where the Democratic Dividend Actually Comes From
 12.1.2. Commitment Was Never the Missing Piece
-12.2. Signatures of Altruistic and Antifascist AI
+12.2. How You'd Know It Was Working
 12.2.1. What the Floor Would Have to Show
 12.2.2. Where the Existing Instruments Reach
 12.2.3. How to Tell Whether a Milestone Has Been Met
-12.3. The Risk That Does Not Design Out
+12.3. The One That Gets You Anyway
 Chapter 13: Glossary

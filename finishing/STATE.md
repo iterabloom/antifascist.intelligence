@@ -1,5 +1,28 @@
 # State of play
 
+Read this first. **Updated 2026-09-09 after D-261 (P161): twenty-three titles retitled, and the book's register changed with them.** `p161-scope.md` has the pass. **Fifth pass of the day.** **No prose changed** — twenty-three headings and the four files that copy a title.
+
+**First, the instructions.** *Foreword → Sup* and chapter~6's *Overcoming Challenges, Risks, and Authoritarianism in AI Development → Deterring Haters and Other Wack Elements in AI Development* — **retitled again before the pass closed to *Neutralizing and Preventing Fascism in AI Development*** — then twenty-one more named by number, the current ones being **really boring**.
+
+**Second, the register was asked before it was applied, and this is the part worth carrying.** Three were put to the author with drafted samples — the book's own argumentative style, an irreverent one, and a mixed proposal keeping the sections plain — and **he chose irreverent throughout.** The question was asked **after all twenty-one sections had been read**, so the samples were written off what each section argues rather than off its old title. Twenty-one titles is a large share of the book's surface and the registers produce different books, which is why it was worth one question.
+
+**Third, how they were written.** Each off its section's opening. **Three drafts were changed for repetition before anything was applied**: *Nobody* had opened three of them and now opens one, and *X Is Not Y* had been the shape of two.
+
+**Fourth, one edit the instruction did not name.** `00.tex:15` read *the initial draft of this Foreword* — the piece naming itself. ***This Sup* does not parse**, so the word is now lowercase and generic. The piece is a foreword; *Sup* is its title.
+
+**Fifth, what was checked before the swap.** **No title is quoted in the prose** — all twenty-three counted across every section file with the heading line discounted, total zero, so no sentence needed repair. Chapter~6's old title survives in `manuscript/previous/`, which is provenance and untouched.
+
+**Sixth, one record defect found on the way.** `ledger.tsv`'s row for chapter~2 carried **`Foundations of Compassion and Empathy in Friendly AI`**, a generation-era title, so the ledger had been stale since whatever pass renamed that chapter. **All 133 rows were compared against `ORDER.tsv` and it was the only one.** Now synced. `check_structure.py` compares row parity and not titles, which is why nothing had caught it.
+
+**Seventh, what the change makes visible.** The contents now carry two registers on one page, chapter~2's new titles sitting directly above chapter~3's, which are argumentative and were left alone. **Seventeen titles remain in the generation-era register** by the same test — 2.2.2, 2.3, 4.3, 5.2.3, 5.3.3, 5.4.2, 5.6, 5.6.2, 5.7, 6.1.1, 6.1.2, 6.3.2, 6.4.3, 8.3.1, 9.1.3, 9.1.4 and 9.2 — and they read flatter beside the new ones than beside the old. Named in the scope rather than filed, the author working through the list by number himself.
+
+**Eighth, one flag changed a title, and this is the pass's most useful moment.** Chapter~6's opening page set *Deterring Haters and Other Wack Elements in AI Development* directly above its epigraph, a pseudonymous Israeli signals-intelligence commander on being unable to produce enough targets per day, with §6.4.1's Gaza box nine pages later. **Reported as a fact about the rendered page rather than as an objection** — he had not seen it and cannot from a title list. **He read it and retitled the chapter *Neutralizing and Preventing Fascism in AI Development***, which is the book's own vocabulary, §2.1.2 defining the structural signature the word names. **Chapter~6 therefore ends outside the register the other twenty-two are in**, deliberately.
+
+**Ninth, the question list is unmoved.** **Forty open.** **Q-081 is superseded a second time** and stays closed: it asked between *Yes, I Did Use LLMs* and *On Method*, D-257 made it *Foreword*, and this is *Sup*. **Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and this pass changed no chapter~3 file**, so the trigger stands where P158 left it. **Twenty-nine passes.**
+
+**Measured:** 133 sections, **23 headings changed, 0 words of prose**. 99,458 words unchanged. **194 pages unchanged.** 228 cross-references and 324 bibliography entries unchanged. 0 undefined references and citations. Suite green. **The committed proof pair is one pass stale and shows the old titles.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-09 after D-260 (P160): the running head carries the deepest heading in force, and the contents stop at the section.** `p160-scope.md` has the pass. **Fourth pass of the day.** **No prose changed; both edits are in `preamble.tex`.**
 
 **First, the instruction and why it is one change and not two.** The author read the contents as one level too deep and asked for both halves of the recommended option — head first, then depth. **The depth cut is the second half of the first option**, so the two are one change set.
