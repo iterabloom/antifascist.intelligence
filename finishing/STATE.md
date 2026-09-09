@@ -1,5 +1,24 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-249 (P149): §11.3 now says that the four-then-five ordering reaches only one of the two failures, and that both are governed by who may be told what the tool found.** `p149-scope.md` has the pass. **Seventeenth pass of the day.** **No new question.**
+
+**First, half the note was already done, and by P143.** Its second item — the feature-4 limit, that a detector tuned to drift will not register a movement announcing itself — **is `11_03.tex:11`** and has been since D-243. **This is the third note in six whose items were partly executed by an earlier pass in the same session**, after P148's and P144's, and a session taking these should check the target before drafting.
+
+**Second, what §11.3 was missing, and it is three of four moves.** §2.1.2 `:53` runs: the four-feature tool accuses everybody; **the opposite failure is no safer**; better engineering fixes neither; **both are governed by what the tool may output and to whom.** §11.3 `:22` carried the first and said the ordering *disposes of* it. **Grepped: 0 occurrences of *assurance*, *reports nothing*, *absence of warning*, *no safer* or *tuned until* in 1,735 words.** A researcher starting here read that over-flagging was the design problem and a second gate had settled it.
+
+**Third, the other clause was half-present, and the half that was present is the interesting part.** §11.3's **opening sentence already names output governance** — *says what the resulting tool must never be permitted to output* — but as the third item in an inventory of what the book has already settled. **Named as background, not carried as a constraint on what follows.** That is the difference the note is pointing at, and it is a reminder that a grep for a claim can find it and still miss that it is doing no work.
+
+**Fourth, two sentences where the note asked for one, and the wording is deliberately not §2.1.2's.** Reusing that site would have brought *A tool tuned until it reports nothing supplies false assurance* and *what the tool may output and to whom* across — **ten and eight words verbatim.** This says *tuned down until it stops flagging*, *reassurance nobody has checked*, and *who may be told what the tool found*: **0 new shared six-word runs.** The note's own word *disclosure* was also not imported, the book stating this constraint twice without it.
+
+**Fifth, the placement, and why not beside the overstatement.** Directly after *it disposes of the objection that the instrument accuses everybody* would have interrupted the two sentences explaining how the second gate works. At the paragraph's end it qualifies the whole ordering argument including its worked instance, and **the section closes paragraphs on their limits at `:33` and `:38`.**
+
+**Sixth, no cross-reference, and Q-108 is why that is worth saying.** 233 unchanged. Q-108 is live on exactly this trade — whether a forward address earns its cost — and this pass does not add to the count while it is open. `:33`'s legibility bias was left as a third failure separate from §2.1.2's two, the note not having raised it.
+
+**Seventh, the chapter~3 trigger stands consumed and unacted on.** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; **P145 changed `03_03.tex` itself**, and P146 through P149 worked in chapters~9 and 11. **Seventeen passes.** **Q-107 is live**, eleven passes old; **Q-108 four**; **Q-109 three.**
+
+**Measured:** 133 sections, 1 changed. 99,459 → 99,511 words, +52; §11.3 1,735 → 1,787. 196 pages unchanged. **233 cross-references unchanged.** 324 bibliography entries unchanged. 0 `\textit`. 0 new shared six-word runs, 1,622 book-wide before and after. §11.3's censuses unchanged against HEAD: 12 antithesis sentences, 5 clusters, 8 `deixis --hard` hits. Suite green; scratchpad build 196 pages, 0 undefined references and citations, the passage read back out of `pdftotext` in position. **The proof pair was not rebuilt and is six passes stale: the committed pair is `3ab8454`'s, carrying P133 through P143.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-248 (P148): §11.1's held-out set now says why it is the hard half, and it closes the paragraph the way the price curve's condition closes `:18`.** `p148-scope.md` has the pass. **Sixteenth pass of the day.** **No new question.**
 
 **First, half of the note was already done, by the pass that did its other half.** The note's first item — move the middle-condition caveat ahead of the apparatus — **is P144**, and it also moved *The extra requirement over the price curve is a held-out set of pressures the model's trainers did not write* into `:20` as its own sentence. So the second item's *give it its own sentence* was satisfied four passes ago. **What was missing is the note's other clause**, which the manuscript never carried: why the requirement is hard.
