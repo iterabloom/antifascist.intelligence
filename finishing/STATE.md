@@ -1,5 +1,24 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-254 (P154): the aground image is back in §2.3.1, as a named exception to `style.md` §2 and §7.** `p154-scope.md` has the pass. **Twenty-second pass of the day.** **This reverses P152 and partly reverses D-238, on the author's ruling.**
+
+**First, the ruling.** Told that restoring the image meant accepting a shape the style sheet rules against, the author said to make an exception. `02_03_01.tex:13` now closes *Suffering is not merely hard for such a system to reach. The self it requires is not there. A hull that draws more water than there is does not float badly; it is aground.*
+
+**Second, what did not come back, because the exception does not reach it.** The original's middle sentence, *It is not suffering faintly; it is not in that water at all*, **needs `:9` for *that water* to point at**, and `:9` went at P138. **The hull sentence introduces its own water** — *more water than there is* — so it stands alone. **The exception lifts the shapes; the dependency still binds.** P152's plain declarative is gone, the ruling preferring the aphorism and both together making the point twice.
+
+**Third, the exception is for one sentence and neither rule was edited.** The sentence breaks `style.md` §2's contrastive frame — *does not float badly* spends a clause on the wrong answer — and §7's aphorism. **Both are why P138 cut it.** **A later pass finding this sentence and reporting it as a defect is re-opening a decision, not making a finding**, and that is why it is on the record here and on Q-107's closed entry.
+
+**Fourth, what the exception costs, measured rather than asserted.** D-238 gave the figure one home in §3.4 and §2.3.1 now carries one instance again. **P138's complaint was the proportion**: four instances in §2.3.1 against §3.4's seven, read as a motif. On seven figure words now, **§2.3.1 carries 4 and §3.4 carries 8** — three of §2.3.1's four inside this one sentence, the fourth `:38`'s pre-existing *deep*. §3.4 still owns the developed figure, and `03_04.tex:60`'s back-reference now points at a section where it is live.
+
+**Fifth, and this is the part the structural pass turns on.** The restored sentence is **the paragraph's last**, and `epigram.py` — built this session for the author's structural note — **pairs it with nothing**, because the shape that note describes is a landing line *followed* by the sentence carrying the limit. **An epigram in final position is emphatic rather than one a reader stops at.**
+
+**Sixth, one tool is blind here and the record should not read as a clearance.** `antithesis.py` left §2.3.1 at 11 instances. Its six patterns are *rather than*, *not X but Y*, *is not a*, *and not*, *instead of*, *as against*, and **§2's contrastive frame in a semicolon form matches none of them.** The count did not move because the tool cannot see this sentence, not because the shape is absent.
+
+**Seventh, the structural pass is under way and is not this pass.** `epigram.py` is written and its first census is **122 pairs in 59 sections, 83 mid-paragraph and 39 paragraph-final**. The hand read is P155.
+
+**Measured:** 133 sections, 1 changed. 99,571 → 99,568 words, −3; §2.3.1 1,870 → 1,867. 196 pages unchanged. **231 cross-references unchanged.** 324 bibliography entries unchanged. 0 `\textit`. 0 new shared six-word runs, 1,622 book-wide before and after. §2.3.1's censuses unchanged against HEAD: 11 antithesis sentences, 3 clusters, 4 `deixis --hard` hits. Suite green; scratchpad build 196 pages, 0 undefined references and citations, the sentence read back out of `pdftotext` in position. **The proof pair was not rebuilt and is eleven passes stale.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-253 (P153): the quorum now keeps the record of a refused amendment attempt, and Q-109 closes on option 2.** `p153-scope.md` has the pass. **Twenty-first pass of the day.** **Three questions closed today — Q-107, Q-108 and Q-109 — and the author's two rulings from one message are both executed.**
 
 **First, the gap, because it is what the clause is for.** `09_01_05.tex:33`'s second condition requires that an amendment attempt reach the record **whether it carries or fails**, and **none of the five terms `:31` lists registers a proposal that was refused.** §3.3 `:29`'s witnessed sequence signs *each change to the weights*, and a proposal the quorum declined changes none. The attestation reports what is running. The bond is forfeited on a removal that happened.
