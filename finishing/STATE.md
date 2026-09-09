@@ -1,5 +1,26 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-255 (P155): the structural pass ran, the author's test was measured against the whole manuscript, and it found nothing. No prose changed.** `p155-scope.md` has the pass. **Twenty-third pass of the day.** **`epigram.py` is new, and Q-110 is the one live disagreement.**
+
+**First, the four, checked before anything was built.** **Three are the shape**, and D-234's own note on §2.1.2 had already recorded it in the author's words: *the epigram between the two failure directions, so the second arrived after the line that reads as a verdict and a reader who stopped at the quotable sentence stopped one failure short.* **§2.3.1's is not an instance** — D-239 ordered three qualifications by weight and **there was no landing line among them**. All four were repaired by the passes that named them, at P134, P139, P147 and P148.
+
+**Second, what the test measures when it is run on the book.** `epigram.py` finds **125 pairs in 59 sections**, 85 mid-paragraph, and **289 `--tails` in 84 sections**. **Hand read: all 5 `balanced` pairs — `style.md` §7's epigram proper, in 99,568 words — every pair in the four named sections, every pair in the two densest, and the top tails. Zero clear instances of the defect.**
+
+**Third, what the pairs turn out to be, because this is why the test does not work.** **A verdict that opens a gap the next sentence fills** is the commonest: §2.1.2's surviving pair is *Better engineering fixes neither.* → *Both are governed by what the tool may output and to whom*, where the verdict poses the question the next sentence answers and **inverting it would remove the question.** The rest are parallel list items, structural markers, and definitions before their consequence. **In two places the proposed inversion would make the prose worse**: §5.2.1's definition has to precede what it explains, and §6.3.3 would end a paragraph about expert non-convergence on a softening concession instead of on the limit.
+
+**Fourth, the generalization, corrected, and this is the part to carry.** The four do not share *epigram then qualification*. **They share the second side of a two-sided finding sitting in a weaker grammatical position than the first — and the position is different every time**: after a verdict (D-234), third of three (D-239), a concessive tail inside one sentence (D-247), the last of three prepositional phrases (D-248). **That has no syntactic signature.** It is why reading found all four and a pattern finds none, and it is the limit `inventories.py` already carries on the record and `antithesis.py` declares about its own class.
+
+**Fifth, one bug the reading exposed.** `\runin` heads were joining the sentence after them, which gave §11.3 a 14-word landing line that was a head plus a 5-word sentence. Fixed; the census moved 122 → 125.
+
+**Sixth, Q-110, and it is a disagreement with the rule rather than a gap.** §11.1 is named in the note, and **the rule read literally inverts a placement P148 made this morning.** `epigram.py` cannot see it — the conclusion sits in a 35-word sentence, over the 24-word ceiling, a blindness the docstring declares. **I did not invert it**: the memorable line is mid-paragraph where a reader continues, and the limit is in the paragraph's emphatic final position, so the mechanism the rule prevents is not operating. **Its option (c) offers to rule on the general question underneath** — whether a limit in final position counts as discarded — which would settle four more pairs at once instead of one at a time.
+
+**Seventh, why there is no edit, stated plainly.** The four instances were repaired when they were found. The method proposed to find more was tested against the whole manuscript and found none, and in two places it is actively wrong. **Making edits to satisfy the instruction would have been worse than reporting that**, and `reports/epigram.tsv` carries the census so the reading can be redone.
+
+**Eighth, the chapter~3 trigger stands consumed twice over.** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; P145 and P151 both changed `03_03.tex`. **Twenty-three passes.**
+
+**Measured:** 133 sections, **0 changed**. 99,568 words, 196 pages, 231 cross-references, 324 bibliography entries — all unchanged. Suite green. One new tool, one new report, one new question. **The proof pair was not rebuilt and is eleven passes stale: the committed pair is `3ab8454`'s, carrying P133 through P143.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-254 (P154): the aground image is back in §2.3.1, as a named exception to `style.md` §2 and §7.** `p154-scope.md` has the pass. **Twenty-second pass of the day.** **This reverses P152 and partly reverses D-238, on the author's ruling.**
 
 **First, the ruling.** Told that restoring the image meant accepting a shape the style sheet rules against, the author said to make an exception. `02_03_01.tex:13` now closes *Suffering is not merely hard for such a system to reach. The self it requires is not there. A hull that draws more water than there is does not float badly; it is aground.*

@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-255 (P155): one new entry, Q-110, and no prose changed.** The author's structural note asked for a pass inverting quotable-then-qualifying pairs. **`epigram.py` was built to test that and the result is negative**: 125 pairs in 59 sections, 289 `--tails` in 84, and a hand read of all 5 `balanced` pairs in 99,568 words, every pair in the four named sections, every pair in the two densest, and the top tails found **zero clear instances of the defect**. Most pairs are a verdict that opens a gap the next sentence fills, parallel list items, or a definition before its consequence, and **in two places inverting would make the prose worse** — §5.2.1's definition must precede what it explains, §6.3.3 would end on a softening concession. **Three of the four named cases are the shape; §2.3.1's is not**, D-239 having ordered three qualifications by weight with no landing line among them. **The generalization is corrected**: the four share the second side of a finding in a weaker grammatical position, and the position differs every time — after a verdict, third of three, a concessive tail, the last of three prepositional phrases — so the class has no syntactic signature, which is the limit `inventories.py` already carries. **Q-110 is the one live disagreement**: §11.1, where the rule read literally inverts P148's placement from this morning, and its option (c) offers to rule on the general question underneath — whether a limit in a paragraph's final position counts as discarded, which would settle four more pairs at once. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106 and Q-110 all stand, each with its default — **thirty-seven open with the new one.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, P145 and P151 both changed `03_03.tex`, two of the three defaults are actions rather than no-ops, and **twenty-three passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-254 (P154): no new entries, and no question is opened or closed.** The author ruled that the aground image goes back into §2.3.1 as a named exception to `style.md` §2 and §7, which reverses P152 and partly reverses D-238. **Q-107 was closed at P152 and is settled the other way here**, recorded on the closed entry rather than reopened as a live item: the ruling is an exception for one sentence, not an amendment to either rule, so **a later pass reporting that sentence as a defect is re-opening a decision and not making a finding.** **The dependency still binds**: the original's *It is not suffering faintly; it is not in that water at all* stayed cut, needing `:9` for *that water* to point at, and the hull sentence introduces its own water. **What the exception costs is measured rather than asserted**: on seven figure words §2.3.1 carries 4 and §3.4 carries 8, three of §2.3.1's four being in the one restored sentence. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104 and Q-106 all stand, each with its default — **thirty-six open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, P145 and P151 both changed `03_03.tex`, two of the three defaults are actions rather than no-ops, and **twenty-two passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3241,6 +3244,37 @@ could have kept minutes is the quorum, and neither section says it keeps any.**
 - (c) Name it as unbuilt, the way §3.3 names the adverse-interest quorum as something nobody has
   implemented for a floor. Honest, and it adds a second unbuilt item to a section whose argument
   rests on the procedure being runnable.
+---
+
+### Q-110 — §11.1's near-term work: does the trade-off-first rule invert what P148 did this morning?
+
+**Raised by P155.** The author's structural note names §11.1 as one of four instances and gives the
+general fix as *state the trade-off before the epigram rather than after it.* **Read literally, that
+inverts a placement P148 made the same day**, and P148's reason is still on the record.
+
+**What `:20` does now.** The experiment, then *A model that holds all three marks with nothing felt
+is the counterexample that inference asks for and does not expect, and making the attempt is a
+condition of building a bearer at all*, then the held-out-set requirement and *That requirement
+cannot be met from inside the building.*
+
+**P148's reason for that order.** The chapter closes an experiment on its institutional condition —
+`:18` does it for the price curve — and the arc runs experiment, what a result would mean, then what
+attempting requires and why it cannot come from inside.
+
+**Why I did not invert it.** The defect the rule exists to prevent is a reader stopping at the
+memorable line. **Here the memorable line is mid-paragraph and the limit is the paragraph's last
+sentence**, which is the emphatic position, so nothing is behind a closed door. `epigram.py` finds
+no pair here, and that is not a clearance: the conclusion sits inside a 35-word sentence, over the
+tool's 24-word ceiling, which is a blindness its docstring declares.
+
+- **(a) Default — leave it.** The limit is in final position and is not discarded. Applies at the
+  close of the next pass touching chapter~11 if nothing is said.
+- (b) Invert, so the requirement and its impossibility precede the obligation and the paragraph ends
+  on *making the attempt is a condition of building a bearer at all.* **This is what the rule says**,
+  and it ends on the obligation with the obstacle already in the reader's hand.
+- (c) Rule on the general question instead, which is the one underneath: **whether a limit in a
+  paragraph's final position counts as discarded.** Four of the pairs `epigram.py` found in §3.3 and
+  §11.3 turn on the same point, and a ruling would settle them together rather than one at a time.
 ---
 
 ## Resolved
