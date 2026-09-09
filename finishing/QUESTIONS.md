@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-08, after D-246 (P146): one new entry, Q-109, and nothing carried over is reopened.** P146 gave §9.1.5's failed-attempt finding its own sentence. **Q-109 is the finding the note did not ask for**: condition two requires that an amendment attempt reach the record whether it carries or fails, and **§3.3's five terms produce no such record** — a proposal the quorum refused changes no weights, so the witnessed sequence that signs each weight change has nothing to sign, the attestation reports what is running, and the bond is forfeited on a removal that happened. Its default leaves it, (b) names the quorum as the keeper in one clause, (c) names it unbuilt as §3.3 does the adverse-interest quorum. **What checking added to the note is two things.** The proportions are real — 37, 45 and 76 words — but **each condition already had its own sentence**, and what read as a clause is the finding inside condition two, coordinate rather than subordinate. And **that finding is argued nowhere, §3.3 included**, while the paragraph opens by calling two of the three already argued for, which is the label telling a reader to discount the one place the section contributes something. **Q-108 is one pass old** and unanswered: whether to keep the two forward references P145 spent into chapter~11. **Q-107 is still live**, eight passes old, option (c) untried. **Q-104 and Q-106 are not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-107, Q-108 and Q-109 all stand, each with its default — **thirty-nine open with the new one.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P145 changed `03_03.tex` itself** and P146 did not touch the chapter, two of the three defaults are actions rather than no-ops, and **fourteen passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-08, after D-245 (P145): one new entry, Q-108, and nothing carried over is reopened.** P145 replaced `03_03.tex:79`'s two-item list of what bears on the middle conjunct with the two routes that actually do. **Q-108 is the cross-reference question**: 231 → 233, the first addition since Q-105 closed at D-242, and **by P142's own test these two are the expensive kind** — forward, deep, mid-argument. Its default keeps them, on the author's stated reason that the passages are far apart; its (b) drops both numbers on D-243's precedent and its (c) keeps only §11.2's. **What checking added to the note is two findings.** §3.3 was not the blank the note describes: its existing first item, *The tamper-resistance apparatus is where that would be attacked*, is contradicted by `11_01.tex:22`, `12_02_01.tex:13` and `03_02.tex:19`, so the pass is a replacement. And **the note's three passages are two routes**, §11.1 putting the question and §11.2 stating the experiment, which is how `12_02_01.tex:15` already pairs them. **Q-104 is not opened but bore on the drafting twice**: the first draft echoed §3.2 and §11.1 for seven new six-word runs, and the redraft carries none. **Q-107 is still live**, seven passes old, option (c) untried. **Q-106 is not advanced.** **Q-085 does not fire here**, it having closed at D-230. **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-081, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-107 and Q-108 all stand, each with its default — **thirty-eight open with the new one.** **What this header now settles differently:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and **P145 changed `03_03.tex` itself**, the section Q-075's default would add a sentence to. **Thirteen passes, two of the three defaults actions rather than no-ops, and this is the fourth pass in six to change a chapter~3 section.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3183,6 +3186,37 @@ to point at the other. §3.3 could name the two routes and leave a reader to fin
   states the experiment* — taking the count back to 231 and following D-243's precedent. One edit.
 - (c) Keep §11.2's, which is the experiment a reader would actually go and look at, and drop
   §11.1's, which states a question §3.3 has just stated itself. 232.
+---
+
+### Q-109 — §9.1.5's second amendment condition asks for a record §3.3's mechanisms do not produce
+
+**Raised by P146**, while splitting the condition's finding into its own sentence. **Not what the
+note asked about, and it is a gap in the argument rather than in the prose.**
+
+**The condition**, at `09_01_05.tex:33`: *The attempt has to reach the record whether it carries or
+fails*, on the finding that a floor nobody has tried to change and one whose removal was proposed
+and refused are otherwise indistinguishable from outside.
+
+**The five terms it is built on**, listed two paragraphs above at `:31`: the contents published
+before deployment, the weights held so that no single party can retrain them, the running model
+attested against what was published, a quorum adverse in interest, and a bond forfeited when the
+record shows the floor gone.
+
+**None of them registers a refused proposal.** §3.3 `:29`'s witnessed record signs *each change to
+the weights* and counts it in sequence from the published one — and a proposal the quorum declined
+changes no weights, so there is nothing for a witness to sign. The attestation reports what is
+running. The bond is forfeited on a removal that happened. **The one term with a party in it that
+could have kept minutes is the quorum, and neither section says it keeps any.**
+
+- **(a) Default — leave it.** The condition is a requirement on the procedure and a procedure can
+  be asked for before its mechanism is specified; §9.1.5 is a section about legitimacy, not an
+  engineering section. Applies at the close of the next pass touching chapter~9 if nothing is said.
+- (b) One clause naming the quorum as the keeper — the parties who must agree are the parties who
+  record that they were asked. Cheapest, and it puts the record where the adverse-interest
+  requirement already is.
+- (c) Name it as unbuilt, the way §3.3 names the adverse-interest quorum as something nobody has
+  implemented for a floor. Honest, and it adds a second unbuilt item to a section whose argument
+  rests on the procedure being runnable.
 ---
 
 ## Resolved
