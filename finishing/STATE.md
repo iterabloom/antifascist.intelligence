@@ -1,5 +1,24 @@
 # State of play
 
+Read this first. **Updated 2026-09-09 after D-260 (P160): the running head carries the deepest heading in force, and the contents stop at the section.** `p160-scope.md` has the pass. **Fourth pass of the day.** **No prose changed; both edits are in `preamble.tex`.**
+
+**First, the instruction and why it is one change and not two.** The author read the contents as one level too deep and asked for both halves of the recommended option — head first, then depth. **The depth cut is the second half of the first option**, so the two are one change set.
+
+**Second, why the head had to go first, and this is the fact the recommendation turned on.** **79 of the 228 cross-references point at an x.y.z — 35 percent.** `book.tex` declares `oneside`, where `book.cls` drops `\sectionmark` altogether and marks every page with the chapter: **all 196 pages read `CHAPTER n. TITLE`**, checked on pages 57 through 60. So the contents were the only lookup path for a third of the book's own pointers, and cutting the depth alone would have left those 79 with nothing to consult.
+
+**Third, what the head does now.** `fancyhdr`, carrying the deepest heading in force — subsection where there is one, section otherwise, chapter before the first section. **`\subsectionmark` had to be defined**: `\@sect` calls it and the standard page styles `\@gobble` it, which is why a subsection never reached a head. Read off the built PDF: p52 `3.10.`, p53 blank on the chapter opening, p54 and p55 `4.1.2.`, p56 `4.2.`, p57 `4.2.2.` **Small caps rather than the class's uppercase**, an x.y.z title in full capitals running to 85 characters. **`\backmattermark` is untouched**, so Q-055's repair survives and the glossary still reads `GLOSSARY`.
+
+**Fourth, what it bought.** **The contents are 2 pages, from 4. The book is 194 pages, from 196**, and the Foreword moved from page 6 to page 4. **Overfull hboxes fell from 18 to 6**, the old contents having been where most of them were.
+
+**Fifth, what it cost, and it is filed rather than swallowed.** `tocdepth` governs both builds and **the HTML has no page cost to recover.** Measured: its contents block held 15 chapter, 55 section and **64 subsection entries, and the 64 are gone** — 134 to 70, with total internal links 680 to 616, so nothing but the contents changed. Every subsection is still an anchored heading and the prose references still reach it; what went is the list at the top. **Q-114** puts it, and its (b) — a `\ifdefined\HCode` conditional — **is not verified in this build**, so that option is a change plus a test.
+
+**Sixth, one measurement that was wrong before it was right.** The first HTML comparison reported **0 internal anchors in both files** and would have supported a claim that the page has no contents at all. **The markup uses single-quoted attributes and the grep used double quotes.** The corrected counts are above, and **nothing was written to the record from the wrong figure.**
+
+**Seventh, the question list.** **Forty open** with Q-114. **Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, and P159 and P160 changed no manuscript file**, so the trigger stands where P158 left it. **Twenty-eight passes.**
+
+**Measured:** 133 sections, **0 changed** — no manuscript file was touched. 99,458 words unchanged. **196 → 194 pages.** 228 cross-references and 324 bibliography entries unchanged. Contents 4 pages → 2; HTML contents 134 entries → 70. Overfull hboxes 18 → 6. 0 undefined references and citations. Suite green. **The committed proof pair is one pass stale and shows the old head and the old contents.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-09 after D-259 (P159): the transcript P158 worked from is in the repository, as the sixth author discussion.** `p159-scope.md` has the pass. **Third pass of the day.** **No manuscript prose changed and no manuscript file was touched.**
 
 **First, what was asked and what was done.** The author asked that `~/book-scratch/transcript3.txt` be added. It is `finishing/reviews/author-discussion_2026-09-09.txt`, **byte-identical to the source**, checked with `cmp`. The folder is where the other five author discussions live and the date suffix is the source's own last-modified date, per the filename convention.

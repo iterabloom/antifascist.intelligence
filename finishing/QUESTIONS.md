@@ -1,5 +1,8 @@
 # Open questions
 
+**Current as of 2026-09-09, after D-260 (P160): one new entry, Q-114, and no prose changed.** The author read the contents as one level too deep and instructed both halves of the recommended option: **the running head now carries the deepest heading in force, and the contents stop at the section.** **Contents 4 pages → 2, book 196 → 194.** **The head had to go first** — 79 of 228 cross-references point at an x.y.z and the class is `oneside`, where every page marked the chapter, so the contents were their only lookup path. **Q-114 is what the change cost the HTML**, which has no page cost to recover: its contents block lost exactly its 64 subsection entries, 134 → 70. Its (b), a `\ifdefined\HCode` conditional, **is not verified in this build**. **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112, Q-113 and Q-114 all stand, each with its default — **forty open.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P158 changed `03_06.tex` and P159 and P160 changed no manuscript file**, so the trigger stands where P158 left it; two of the three defaults are actions rather than no-ops, and **twenty-eight passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-09, after D-259 (P159): no new entries, none closed, and no prose changed.** The transcript P158 worked from is now in the repository as `finishing/reviews/author-discussion_2026-09-09.txt`, byte-identical to the source and the sixth author discussion in that folder. **The pass touched no manuscript file**, so nothing here moves. **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112 and Q-113 all stand, each with its default — **thirty-nine open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P158 changed `03_06.tex` and P159 changed no manuscript file**, so the trigger stands where P158 left it; two of the three defaults are actions rather than no-ops, and **twenty-seven passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3383,6 +3386,30 @@ the custody half in §3.7 rather than here.
   custody half. **The largest of the four items P158 triaged**, and the only one that is not a §3.6 edit.
 - (c) Take the custody half alone, in §3.7, by pointing §3.3's signed sequence at a record of refusals.
   **Cheapest, and it is the item with machinery already built for it**; it leaves the enumeration alone.
+---
+
+### Q-114 — the HTML contents lost 64 entries it had no page cost to save
+
+**Raised by P160.** `tocdepth` governs both builds. **The print contents went 4 pages to 2 and the
+book 196 pages to 194**, which is what the depth cut was for. **The HTML page has no page cost to
+recover**, and it paid the same price.
+
+**Measured, not assumed.** Its contents block held 15 chapter, 55 section and 64 subsection entries;
+the 64 are gone, 134 entries to 70. Total internal links 680 to 616, a loss of exactly 64, so the
+contents block is the only thing that changed.
+
+**What is not lost.** Every subsection is still a heading with its own anchor in the page, and the
+prose cross-references still resolve to them. What went is the list at the top.
+
+- **(a) Default — accept it.** One source, one setting, and a reader of a scrollable page can search
+  the text where a reader of a printed one cannot. Applies at the close of the next pass touching
+  `preamble.tex` if nothing is said.
+- (b) Make the depth conditional on the build: depth 1 under LaTeX, depth 2 under tex4ht, by
+  `\ifdefined\HCode`. **That is the standard tex4ht test and it has not been verified in this
+  build**, so this option is a change plus a test, not a change.
+- (c) Restore depth 2 everywhere and give back the four print pages. **This is the option the author
+  has already ruled against**, and it is listed so the ruling is visible rather than assumed
+  permanent.
 ---
 
 ## Resolved

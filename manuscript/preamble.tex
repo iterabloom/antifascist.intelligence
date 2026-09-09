@@ -16,6 +16,7 @@
 \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
 \usepackage{microtype}
 \usepackage[a4paper,margin=1in]{geometry}
+\usepackage{fancyhdr}
 \usepackage{tcolorbox}
 \tcbuselibrary{breakable}   % the only library the box style needs
 \usepackage[english]{babel}
@@ -28,7 +29,14 @@
 \addbibresource{../finishing/refs.bib}
 
 \setcounter{secnumdepth}{2}             % deepest heading in the book is x.y.z
-\setcounter{tocdepth}{2}
+% The contents list chapters and sections and stops there. At depth 2 it ran
+% pages 2-5 of a 196-page book, three full pages and an 11-line stub, and the 64
+% subsections were most of it. What the depth was buying is a lookup path for the
+% 79 cross-references that point at an x.y.z -- 35 percent of the 228 -- and the
+% running head below now carries that instead, on the page the reader is already
+% on. Cutting the depth without the head first would have left those 79 with no
+% lookup at all, the class being oneside (D-260).
+\setcounter{tocdepth}{1}
 
 % Run-in head: a bold lead-in line above a paragraph, used 169 times.
 \newcommand{\runin}[1]{\par\medskip\noindent\textbf{#1}\par\nopagebreak\smallskip}
@@ -54,6 +62,30 @@
 % read "CHAPTER 12. CONCLUSION AND OUTLOOK" (Q-055). Called once per starred
 % chapter, after the heading.
 \newcommand{\backmattermark}[1]{\markboth{\MakeUppercase{#1}}{\MakeUppercase{#1}}}
+
+% The running head carries the deepest heading in force, so a reader who follows
+% a cross-reference to an x.y.z can find it from the page they are on. The class
+% is oneside, where book.cls drops \sectionmark entirely and puts the chapter on
+% every page -- all 196 of them read "CHAPTER n. TITLE" and told a reader nothing
+% they did not know. \subsectionmark is defined because \@sect calls it and the
+% standard page styles \@gobble it, which is why the subsection never reached a
+% head. Small caps rather than the class's uppercase: an x.y.z title set in full
+% capitals is long and hard to read, and \backmattermark's own uppercase marks
+% still set as capitals here, so the two agree (D-260).
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\scshape\rightmark}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{\thechapter.\ #1}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection.\ #1}}
+\renewcommand{\subsectionmark}[1]{\markright{\thesubsection.\ #1}}
+% A chapter's opening page is \thispagestyle{plain}; it carries the folio alone.
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[R]{\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+}
 
 % The title page. book.tex supplies \booktitlemain, \booksubtitle and
 % \bookauthor, and calls \booktitlepage as the first thing after \frontmatter.
