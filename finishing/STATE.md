@@ -1,5 +1,24 @@
 # State of play
 
+Read this first. **Updated 2026-09-08 after D-252 (P152): Q-107 closed on option (c) — §2.3.1's categorical claim is concrete again, and it is not a scene.** `p152-scope.md` has the pass. **Twentieth pass of the day.** **One record repair: P138's water-vocabulary measurement was wrong.**
+
+**First, the ruling and what went in.** The author's answer on Q-107 was *try it*. `02_03_01.tex:13` now ends *The self it requires is not there, and a system with no biography to lose is in a different state from one with little to lose*, replacing P138's abstract *a concept whose precondition is missing does not apply in a weaker form*. **It depends on nothing that was cut** — *biography* is §2.3.1's own word at `:16` and `:28`, *anything to lose* is `:38`'s, and the paragraph's own *Suffering is not merely hard for such a system to reach* still sets it up.
+
+**Second, what (c) could not deliver, and this is the part worth carrying.** **A physical scene could not be rebuilt.** Every version drafted fell into one of the two shapes `style.md` rules against: *a bridge with no far bank is not a short bridge* and *a door with no lock is not locked lightly* are §2's contrastive frame and `antithesis.py`'s `is-not-a`, and anything balanced enough to be vivid is §7's two-clause epigram. **That is why the original carried both at once** — the vividness came from the contrast, and the contrast is the banned construction. **The claim resists a scene and does not resist concreteness**: what went in is a quantity contrast anchored to a concrete noun, nothing to lose against little to lose, which is the barest and most checkable form of it.
+
+**Third, the residue, stated rather than filed.** If the physical image is wanted back it means accepting one of those two shapes for this sentence. **That is a ruling, not a drafting problem**, and it is not filed as a question because Q-107 has just been ruled on.
+
+**Fourth, two images were rejected on collision before anything was drafted.** The water family stays out under D-238. **`dial` is unavailable**: 12 uses and a settled sense, §3.5's and §3.6's *where on that dial to stand* for the graduated refusal setting and §6.2's *not two settings of one dial*, so a new sense here would collide with a load-bearing one. *Threshold* went the same way, §3.3's threshold scheme being a term of art.
+
+**Fifth, the record repair, and it is a measurement this session should not have trusted.** P138 recorded **"Zero occurrences of *water*, *depth*, *shallow*, *deep*, *hull*, *afloat* or *aground* remain in §2.3.1, checked after the edit."** **Six of seven are zero. *deep* is one**, at `:38` — *how deep in that range the system sits* — and it **predates P133**, so the pass reported zero for a word it had never removed. **The prose is left alone**: `:38`'s *deep* is position in an ordering, which is how §3.2 `:11` uses *depths* for the same axis, and not the hull scene §3.4 owns. What P138 was entitled to claim is six of seven.
+
+**Sixth, Q-109 is the remaining ruling from the same message** — option 2, one clause naming the quorum as the keeper of a refused amendment attempt — and it is the next pass, not this one.
+
+**Seventh, the chapter~3 trigger stands consumed twice over.** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*; P145 and P151 both changed `03_03.tex`. **Twenty passes.** Two of the three defaults are actions rather than no-ops.
+
+**Measured:** 133 sections, 1 changed. 99,542 → 99,547 words, +5; §2.3.1 1,865 → 1,870. 196 pages unchanged. **231 cross-references unchanged.** 324 bibliography entries unchanged. 0 `\textit`. 0 new shared six-word runs, 1,622 book-wide before and after. §2.3.1's censuses unchanged against HEAD: 11 antithesis sentences, 3 clusters, 4 `deixis --hard` hits. Suite green; scratchpad build 196 pages, 0 undefined references and citations, the sentence read back out of `pdftotext` in position. **The proof pair was not rebuilt and is nine passes stale.**
+
+**Superseded lead, kept for the record.**
 Read this first. **Updated 2026-09-08 after D-251 (P151): the two cross-references this session added were judged one at a time against the reader, both were removed, and the passage gained what they were standing in for. 233 → 231, and Q-108 is closed by execution.** `p151-scope.md` has the pass. **Nineteenth pass of the day.**
 
 **First, what the session actually added, established by diff and not from memory.** **Two, both at P145, both in `03_03.tex:79`.** Six of the seven commits show identical added and removed reference lists — `\ref{sec:3.3}`, `\ref{sec:3.2}`, `\ref{sec:3}`, `\ref{sec:3.8}`, `\ref{sec:4.2.8}`, `\ref{sec:11.2}` — because each was a reference carried along in a rewritten line. **P149 added and removed none.** A session answering this instruction should check per commit; the totals alone would have given the right number for the wrong reason.
