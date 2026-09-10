@@ -4,7 +4,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2	Yes, It Has to Have Feelings	1	2	1746	13	0	0	0	2	0	0	8	0	4		0	0	0	0	0
 2.1	Six Theories, None of Which Will Save Us	2	2	79	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3	2	1081	12	0	0	0	1	0	0	2	0	2		0	0	0	0	3
-2.1.2	Antifascist Ethics for AI Alignment	3	2	2788	29	4	0	0	1	0	0	3	0	11	2018	0	0	0	0	5
+2.1.2	Antifascist Ethics for AI Alignment	3	2	2947	29	4	0	0	1	0	0	3	0	11	2018	0	0	0	0	5
 2.2	Going Numb Won't Make You Fair	2	2	457	13	0	0	0	0	0	0	1	0	0		0	0	0	0	1
 2.2.1	What Emotion Is, and What a System Reads	3	2	605	7	0	0	0	0	0	0	0	0	6		0	0	0	0	1
 2.2.2	Self-awareness and Self-regulation in AI Systems	3	2	706	8	0	0	0	0	0	0	0	0	3		0	0	0	0	1
@@ -75,11 +75,11 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.4.2	Developing Technical Countermeasures and Safeguards	3	6	441	5	0	0	0	0	0	0	1	0	1		0	0	0	0	0
 6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	3	6	312	3	0	0	0	0	0	0	1	0	2	2021	0	0	0	0	0
 6.4.4	Resilience Against Deliberate State Compromise	3	6	438	5	0	0	0	0	0	0	0	0	1	2023	0	0	0	0	0
-7	The Recuperation of Dissent	1	7	486	8	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-7.1	Recuperation at the Label	2	7	662	12	0	0	0	0	0	0	0	0	0		0	0	0	0	3
+7	The Recuperation of Dissent	1	7	532	8	0	0	0	0	0	0	2	0	0		0	0	0	0	0
+7.1	Recuperation at the Label	2	7	737	12	0	0	0	0	0	0	1	0	0		0	0	0	0	3
 7.2	Recuperation at the Reward: RLHF	2	7	752	8	0	0	0	0	0	0	0	1	2	2023	0	0	0	0	0
-7.3	What Would Have to Change	2	7	979	16	0	0	0	0	0	0	4	0	0		0	0	0	0	5
-7.4	Recuperation at the Discourse	2	7	1314	20	0	0	0	0	0	0	7	0	1		0	0	0	0	3
+7.3	What Would Have to Change	2	7	1240	17	0	0	0	0	0	0	5	0	0		0	0	0	0	5
+7.4	Recuperation at the Discourse	2	7	1486	21	0	0	0	0	0	0	8	0	1		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	203	3	0	0	0	0	0	0	4	0	0		0	0	0	0	0
 8.1	Everybody Knows a Different Piece	2	8	424	5	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
 8.2	Ask the People It Happens To	2	8	210	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
@@ -130,4 +130,4 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	528	12	0	0	0	0	0	0	0	0	2	2021	0	0	0	0	5
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	457	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
 12.3	The One That Gets You Anyway	2	12	597	6	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-13	Glossary	1	13	2206	51	0	0	0	0	0	0	50	0	0		0	0	0	0	25
+13	Glossary	1	13	2241	51	0	0	0	0	0	0	50	0	0		0	0	0	0	25

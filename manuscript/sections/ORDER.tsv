@@ -4,7 +4,7 @@ manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist an
 manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	cb53c8ff2cfce39fd7ac5efbcd6dd0409230987cfcf7cd489125287c886c1e72
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	001e4711e2bcd5902741f21c2773e730608716a29249d8db9e2948746f2134e2
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	f2b06f85da3673689e4fa6f783b6278e36d53a8fcac9c2e65f572b61a99662f1
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	63c7e6f2174d2d81a3ec836e47680fd72e94166d11f7a6d3975a7281e9d0b787
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
@@ -75,11 +75,11 @@ manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the C
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	f5de4bc9fd6a71e9baa15337fea936471c32b5cecdac394ced3fb22611da371e
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	1f6b9e09ecfc1e2faaf8b5264f6ca57e747b4c94ec7034955dc233cc53e5e37d
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	309849439e4b2653adb32497e21937f60f696415b5d1d1935902e8f43b1ddfe3
-manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	9c4bc38ca90ce9e1cb98436f453544e32d99c03cf1e02bdfad2736749482d1a2
-manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	1bf6eacc1a4d0f9e391bd8cdcd5643b0e43bd737bea31f01d7783b31fd2d1531
+manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	2f537bcd3b80de127d0b3ff9fe513efd8215ef4cd4c7451ede3f8cc88ee4e276
+manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	5f3ac4925f9ab1b6c9db3d6c9c1458c8738e7da2712a86535778833347bdc096
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	c93a9416ba583d964a6beb6fbd266e574648b39778e6469fdd62511c9db7c232
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	b7132f3bb31ab54f2eaf107da2efd8e12834c9f1b95c083bb14ff4224eb1bcf4
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	0841ea6e33c321554d54ff472541e0e4d02f166a4ab9fa13f28ab0c68b3a89f2
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	f9819c4316e84c0af555053920107d74e93924437f745376e13d5f0f7d99a868
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	c4f69bb2a0bd38b35fb824b2c69f8a5fe38212fff7d29fe1dfeed4b69ed01060
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	4d7f1fbdd3893338454d0be8df88f5e57e5ed686e36c7b0a402a0db208984680
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	f9b1c2bb844231a8cf9d00dcdfcfa6a48e0d9385a7d82d7def53c4812f2a7767
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	0c6d1abd993c7c77de85a89e8a91d214a3c4e8ef744cbbc8beee81449f79c9e7
@@ -130,4 +130,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	4
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	7c858ebba2963b0413da55514040e605432c599a5e086e06390f023aa9b3418d
+manuscript/sections/ch13/13.tex	13	Glossary	aa82463da37c1a0f5e5d194443850030047532565a06528f127a92392745b197
