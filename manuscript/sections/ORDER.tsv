@@ -1,10 +1,10 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Sup	2ee0baa44fd712838fb5f54736453ad4ca2746ef78bf3670f163c28dc196c67c
-manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	4e007f1a56a9239518ece2c012cbb4f333ebd50a9fab5d354606dd571a7a06ae
+manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	437c262d465a19440d10784731424b70a80b9a137598e7d99ee3fc6308e4ddce
 manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	cb53c8ff2cfce39fd7ac5efbcd6dd0409230987cfcf7cd489125287c886c1e72
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	8e94b151af4efa09e928334e205bb4b931a856cc1d334044cd7be4ad8b364cbb
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	806174349a5c3f515e41403f316aadc884811f9b5c501494be6bf8a11b57d085
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	63c7e6f2174d2d81a3ec836e47680fd72e94166d11f7a6d3975a7281e9d0b787
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	b3a31e10b61f6b7d0557853263257eeca87415d74333db2903527f5547d02a76
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
@@ -75,11 +75,11 @@ manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the C
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	f5de4bc9fd6a71e9baa15337fea936471c32b5cecdac394ced3fb22611da371e
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	1f6b9e09ecfc1e2faaf8b5264f6ca57e747b4c94ec7034955dc233cc53e5e37d
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	309849439e4b2653adb32497e21937f60f696415b5d1d1935902e8f43b1ddfe3
-manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	2f537bcd3b80de127d0b3ff9fe513efd8215ef4cd4c7451ede3f8cc88ee4e276
+manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	a194cee92c1c2c90b2f29dcc92fc9064a9bfb99ac898916425b85cb32036d0e4
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	5f3ac4925f9ab1b6c9db3d6c9c1458c8738e7da2712a86535778833347bdc096
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	c93a9416ba583d964a6beb6fbd266e574648b39778e6469fdd62511c9db7c232
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	f9819c4316e84c0af555053920107d74e93924437f745376e13d5f0f7d99a868
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	c4f69bb2a0bd38b35fb824b2c69f8a5fe38212fff7d29fe1dfeed4b69ed01060
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	605e05d80359b34c19d4372a844722b3f9998b3108796f940eec1321c4a96696
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	49e62f9394a625404d071bcea1637375b23000aca856e8a09098e0e744abd833
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	4d7f1fbdd3893338454d0be8df88f5e57e5ed686e36c7b0a402a0db208984680
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	f9b1c2bb844231a8cf9d00dcdfcfa6a48e0d9385a7d82d7def53c4812f2a7767
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	0c6d1abd993c7c77de85a89e8a91d214a3c4e8ef744cbbc8beee81449f79c9e7
@@ -130,4 +130,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	4
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	aa82463da37c1a0f5e5d194443850030047532565a06528f127a92392745b197
+manuscript/sections/ch13/13.tex	13	Glossary	0d142ced6fe3790cd79daef990a7012a79ab769641b5c7df1866c53b089e4a91
