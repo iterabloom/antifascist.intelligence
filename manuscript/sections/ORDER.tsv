@@ -6,7 +6,7 @@ manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
 manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	8e94b151af4efa09e928334e205bb4b931a856cc1d334044cd7be4ad8b364cbb
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	63c7e6f2174d2d81a3ec836e47680fd72e94166d11f7a6d3975a7281e9d0b787
-manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
+manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	b3a31e10b61f6b7d0557853263257eeca87415d74333db2903527f5547d02a76
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	dd3caeaea5ac0bca877508a2a98e80aa0c0d69d44503f590233bb9d0d0534fb7
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
@@ -119,7 +119,7 @@ manuscript/sections/ch11/11_03.tex	11.3	When an Ethics-Embedding Method Stops Ge
 manuscript/sections/ch11/11_04.tex	11.4	Value Learning as Unfinished Technical Research	45df1506f758fcc503c54290d7d0d0e710ade50892e2a3dce468f7d693a110d3
 manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent AI System Resist Being Captured?	5bd578264e4cd8771a7ebbcd4d2785ab518a465a870143c4db5fc17d9d90706d
 manuscript/sections/ch11/11_06.tex	11.6	Open Questions in Theory-of-Mind Research	4fef3f38b1372c33862767ed45881a6f1419a11c1d8fe5a3fbe3cb82601d057d
-manuscript/sections/ch11/11_07.tex	11.7	Is Emotion Legible From a Face at All?	845faa366cba633e40ecf898585d96f1e9c66a880fe6d20d36cd5ab5c7ca72c0
+manuscript/sections/ch11/11_07.tex	11.7	Is Emotion Legible From a Face at All?	d14d3eabeca0b8d65e9521c48b6d53d87a3a2857e220edd277c99650c8f01808
 manuscript/sections/ch11/11_08.tex	11.8	The Responsibility Gap, Which No Experiment Closes	ef2351258f84998e960605a729bddd874015be06120aa69dc88f1df9dbbb2131
 manuscript/sections/ch12/12.tex	12	What I Actually Think Happens Now	8d1e7967ca1fea19f8d79fbe01a20ec005dcdd966e52ef63d9d53e451e40e9a2
 manuscript/sections/ch12/12_01.tex	12.1	Better, Not Just Less Bad	2a6a65b213e2a47156cad292cbc0549f27864d6d56d315b3ab944f6496c697b2
