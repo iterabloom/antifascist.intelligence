@@ -1,8 +1,23 @@
 # Open questions
 
-**Current as of 2026-09-09, after D-262 (P162): no new entries, none closed, and no prose changed.** §5.4 was retitled on the author's instruction, replacing a title P161 gave it a day earlier; the Bronfenbrenner village figure survives the change. **Nothing here moves.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112, Q-113 and Q-114 all stand, each with its default — **forty open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P162 changed no chapter~3 file**, so the trigger stands where P158 left it; two of the three defaults are actions rather than no-ops, and **thirty passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
+**Current as of 2026-09-10, after D-263 through D-273 (P163–P172): one new entry, none closed, and the chapter~3 trigger has fired.** **Forty-one open** with Q-115.
+
+**The trigger fired and the defaults were not applied, deliberately.** Q-075, Q-076 and Q-088 were set to fire *at the close of the next pass touching chapter~3*. **Seven chapter~3 files were touched this session** — `03.tex`, `03_01`, `03_02`, `03_03`, `03_04`, `03_09`, `03_10` — so the condition is satisfied several times over. **The record pass checked all three against the manuscript before applying anything, and all three have premises that no longer hold.**
+
+**Q-075's default would now make the book worse.** It asks for one sentence in §3.1 naming the fork and its four branches, on the finding that `branch` survived 22 times across ten files. **It survives twice, and both are unrelated uses** — a co-equal branch of government in §10.6, and §3.8. `fork` survives six times, all in the ordinary computational sense. **The vocabulary was removed by passes between P94 and this session, not by this one**: the counts were already 2 and 6 at `4065f15`, the session's first commit. Restoring the sentence would reintroduce a figure the book no longer uses anywhere. **Needs the author; the default is not safe to apply.**
+
+**Q-076's two items are both gone.** The mattering sentence it asks to repair — *moves the uncertainty to the gain* — is not in §3.2 or anywhere else, and §3.2's heading is no longer *Four Things Refusal Can Mean* but *What Refusal Can Mean, and What a Refuser Can Be*, its opening run-in reading *Two things refusal can mean*. **The section was restructured at `373d894`**, before this session. Nothing to repair. **Recommend closing as overtaken.**
+
+**Q-088's default is the one no-op of the three and is safe**, but **its reasoning has lost a leg**: it cites §11.3:13 for the who-prices-the-dissent test, and D-264 cut §11.3 whole. That is Q-115, new this pass.
+
+**What the session's passes bear on and nobody has checked.** **`QUESTIONS.md` was not read during P163–P172.** Ten passes moved the detector, the molar/molecular distinction, the fourth structural feature, the floor's ground and the floor's account of durability, and the standing list has not been re-read against any of it. The three above were checked only because their trigger named chapter~3. **Treat every remaining default as unverified until its premise is checked**, which is the lesson the three produced.
+
+**Q-087 is unresolved for a fourth import.** Seven `\textit` remain in `02_01_02.tex` and `02_02_03.tex` against D-189's `\emph`, flagged at D-263 and not repaired across nine subsequent passes.
+
+**The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112, Q-113, Q-114 and Q-115 — **forty-one open.** The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged and were not looked at.
 
 **Superseded header, kept for the record.**
+**Current as of 2026-09-09, after D-262 (P162): no new entries, none closed, and no prose changed.** §5.4 was retitled on the author's instruction, replacing a title P161 gave it a day earlier; the Bronfenbrenner village figure survives the change. **Nothing here moves.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112, Q-113 and Q-114 all stand, each with its default — **forty open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P162 changed no chapter~3 file**, so the trigger stands where P158 left it; two of the three defaults are actions rather than no-ops, and **thirty passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 **Current as of 2026-09-09, after D-261 (P161): no new entries, none closed, and no prose changed.** Twenty-three titles were retitled on the author's instruction — *Sup*, chapter~6, and twenty-one more named by number — and **the register was put to him with drafted samples before anything was applied**; he chose irreverent throughout. **Q-081 is superseded a second time and stays closed**: it asked between *Yes, I Did Use LLMs* and *On Method*, D-257 made it *Foreword*, and this is *Sup*. **Seventeen titles remain in the generation-era register**, named in `p161-scope.md` and not filed, the author working through the list by number himself. **Q-104 and Q-106 are not advanced.** **The standing list, restated in full:** Q-053, Q-054, Q-056, Q-057, Q-059, Q-060, Q-061, Q-062, Q-063, Q-067, Q-068, Q-070, Q-074, Q-075, Q-076, Q-083, Q-084, Q-087, Q-088, Q-089, Q-090 through Q-100, Q-102, Q-103, Q-104, Q-106, Q-110, Q-111, Q-112, Q-113 and Q-114 all stand, each with its default — **forty open, unchanged.** **What this header does not settle:** Q-075, Q-076 and Q-088 fire *at the close of the next pass touching chapter~3*, **P161 changed no chapter~3 file**, so the trigger stands where P158 left it; two of the three defaults are actions rather than no-ops, and **twenty-nine passes have gone by**. The standing items outside the repository — `roadmaps.md` 16 rows, `near-roadmaps.md` 12, `collateral.md` 7 — are unchanged.
 
 **Superseded header, kept for the record.**
@@ -3421,6 +3436,34 @@ prose cross-references still resolve to them. What went is the list at the top.
 ## Resolved
 
 **Closed by execution, D-168 (P86), on (a).** §9.3.1 defines its own title word in its second paragraph, a glossary entry says the same, and §3.2 carries a forward reference. **The heading was not changed**, which is (b) and would need P84's inbound-citation read first.
+
+### Q-115 — the who-prices-the-dissent test left the book with §11.3
+
+**Raised by the record pass, P173, and it is a consequence of D-264 nobody caught at the time.**
+§11.3 carried the operational form of the first structural feature: what separates a dissent
+mechanism from a recuperated one is **who prices the dissent** — whether the person disagreeing
+writes the justification in their own words and can decline to write it at all, or whether the cost
+is set by the party being disagreed with. **§11.3 was cut whole, and the test went with it.** A grep
+for it across all 132 sections returns nothing.
+
+**What still stands without it.** §2.1.2's feature~1 has a different tell — where what the mechanism
+carries stops, the judgment that the frame is the wrong frame having nowhere to go — and that
+survives. §7 runs recuperation on the annotation pipeline and RLHF without needing the pricing test
+by name. So the book is not broken; it has lost the sharpest one-sentence version of a distinction it
+uses in three chapters.
+
+**Where it is load-bearing and now unsupported.** Q-088's reasoning cites §11.3:13 for exactly this
+test, and §3.6:20 states the same thought locally — a refusal priced at whatever a reviewer's
+attention costs, with the deployment setting that price by setting the tempo — **which is the test in
+one deployment rather than as a general criterion.**
+
+- **(a) Default — restore the test to §2.1.2, one or two sentences, attached to feature~1.** It is
+  the general form of what §3.6 already says locally and what D-266 made definitional by putting
+  tempo in feature~4, so the definition is where it belongs and it does not reintroduce the detector.
+  Applies at the close of the next pass touching chapter~2 if nothing is said.
+- (b) Restore it to §7.4 instead, where the reading is actually run.
+- (c) Leave it out. §2.1.2's existing tell and §3.6's local statement are enough, and the cut was
+  meant to be a cut.
 
 ### Q-085 — §2.3.2's "persistence by design" after P127's narrowing. **Closed by execution, D-230 (P130), on default (a).** The sentence stays as written.
 
