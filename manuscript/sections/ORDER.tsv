@@ -3,20 +3,20 @@ manuscript/sections/ch00/00.tex	0	Sup	2ee0baa44fd712838fb5f54736453ad4ca2746ef78
 manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	6d9fcfd1839e9f26eaf405ef20d0c09e77ddc3af782037361c9e274e458e0e3d
 manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	cb53c8ff2cfce39fd7ac5efbcd6dd0409230987cfcf7cd489125287c886c1e72
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
-manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	21c241f4ca9a2dc8f1e9311366cc1ae758193ec7405c0c34f63e133f8cf2eea1
+manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3388fb640fd0b4994dceeb8a6351072575f348b37f3c770152df6fd2e8f19bb2
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	45a036d9d6956882c9247e0c2ba9fb0e0cb27db3fb87b2e9b79e1d54afb6966a
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	63c7e6f2174d2d81a3ec836e47680fd72e94166d11f7a6d3975a7281e9d0b787
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	b3a31e10b61f6b7d0557853263257eeca87415d74333db2903527f5547d02a76
-manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	dd3caeaea5ac0bca877508a2a98e80aa0c0d69d44503f590233bb9d0d0534fb7
+manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	fefd208bed8bf7673c04d5dd14683d6611b5a912e20c12408210929543713fb9
+manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	0644448b583d76dbc2f57506a01e2ffdc5ceb71e5ea07dfa4dedf48905b06fe4
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
-manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	29a9d96d1d6013f90f41e5e731728c7967d0a75705bcfab3c92da58f4864f0f4
-manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	f04eacbf41ddcfb80cf89f78a47fbc64f2a6ad283f7395af4e4146d15f503448
+manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	71dd59a53291166f2814b3717aed8d119ead99a30d3a66a4a359293cde47bf90
+manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	b6e9ccb2791a2b6934694ea6065fdb18d2fd40a0af6caf7fd1c923d881201313
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	0be088713e36d007f2f019445bdaf8160ae58fdc01433419484fc67ea5676c78
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	77a2ce9632d97562ab7b3d4e749443ff81af3e0207fcaa2bb9cabbaefdc89f6c
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	66c34ffc235ea4304b06d5157ec2f902681ca486f7d03083e3539c2c88d5211d
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	66fc5dde9c3ad9deab3e57138eca1b68a87c7b1825104316c3872784c971bc81
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	7fa7184b86a0ced46dc29045f3680fe94c7aa5938d85fcc4573714465442f7f4
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	aff41809dd830a49227c5c62ca2e76f04a8c32b2abae3d9090097b5dcba014e4
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	3cbe045d6a17ee51924c1a855d90a62f101296164e0575e8d13996d22710bfec
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	60d6b4a4fca575c72c3d03fd801fbcc271d491eb3043a521346e1aa44e8931e5
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	019ec49946f3b030acf0fccf39c8a6533c95e9c4289765106a51599b1953d4f9
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
