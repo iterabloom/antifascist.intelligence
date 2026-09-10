@@ -102,3 +102,37 @@ cross-references**, up 4. **338 bibliography entries**, unchanged. 0 undefined
 references and citations. Suite red on typography at 29, unchanged. **§2.1.2
 carries three of the author's annotations and none was touched**; the chapter~7
 files carry none.
+
+---
+
+## Correction, appended 2026-09-10 after the author read the pass
+
+**The claim that the Korematsu example had been "false on its face" was wrong,
+and it appears above, in D-279, in `STATE.md`'s lead and in the commit message.**
+D-280 withdraws it.
+
+The old sentence read *ask the artifact question — has the channel ever changed
+an outcome — and increasingly for the Roberts Court, the answer is no*, and
+**that was correct**. The outcome of *Trump v. Hawaii* was that the ban was
+upheld. The channel changed nothing about it. Repudiating a 1944 decision that
+had been dead letter for decades, in dicta, in the opinion permitting the
+analogous thing, is not an outcome the channel moved — **and the same paragraph
+says so two sentences earlier**, in the words *in the same opinion that let the
+thing objected to proceed*. The error was reading "the Court said something new
+about an old precedent" as "an outcome changed."
+
+**What the pass got right stands**: the corrected question gives a better reading
+of this case, because *what did the demand come back as* has an answer here — a
+quotable formula of repudiation — where the old question only has a no.
+
+**The replacement sentence also had to be fixed**, because it ended *being
+citable was the outcome that changed*, which reintroduced the frame the
+correction was meant to remove and contradicted the paragraph's own finding. It
+now says the objection became citable, that nothing about the outcome moved and
+the ban stood, and that the old question **gets the right answer here for the
+wrong reason** — no, in a case where the institution had no room to add an axiom.
+Where it has that room the answer is yes and the recuperation is identical, which
+is the actual argument for replacing the question.
+
+**The Roberts Court observation was dropped in the first repair and is restored.**
+It was a real finding and nothing about the correction required removing it.
