@@ -1,7 +1,7 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Sup	2ee0baa44fd712838fb5f54736453ad4ca2746ef78bf3670f163c28dc196c67c
 manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	4e007f1a56a9239518ece2c012cbb4f333ebd50a9fab5d354606dd571a7a06ae
-manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	3e3ba1b4a8854253a7eddba1afa1ce4680eb2bc5bf1da69612561a5fa50308b4
+manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	fb9776ac9277c2773a081b85fda20c8d7ef29f36bb88608f853187cb0b91c69b
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
 manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	001e4711e2bcd5902741f21c2773e730608716a29249d8db9e2948746f2134e2
@@ -10,7 +10,7 @@ manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System R
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	dd3caeaea5ac0bca877508a2a98e80aa0c0d69d44503f590233bb9d0d0534fb7
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
-manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	6c2c2ee4334205937cf2263c261fb86b069f9078e1443b2364906380f6f567f4
+manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	29a9d96d1d6013f90f41e5e731728c7967d0a75705bcfab3c92da58f4864f0f4
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	bb32dc31f5371ca59acb4df2e481146f906db27d2ce7784a645505d2da2b9634
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	a3feca95e6ac28df15f4869a22542560104bb19c345fdc732e6d9e634f6b2e91
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	29d3307e9aaba80853d404b17119a4c5c486a7e1b038556abaf2bdb2b0bd8ce9
@@ -114,7 +114,7 @@ manuscript/sections/ch10/10_05.tex	10.5	Built for the Rich Parts of the World	9d
 manuscript/sections/ch10/10_06.tex	10.6	Democracy Is Not a Force Field	441bee5b5d050d881c20a454821f9446b1711893b633bd7533660263363820c4
 manuscript/sections/ch11/11.tex	11	Everything I Couldn't Figure Out, Ranked	9ccf7187f4fbb39689ceabdf52eae1ab69f1b7f00509a7be5b8b08016ebe3bfc
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	333552333577215da490c0aee2fb664ffd8c5f3e73819c47f89c67d8709b97c3
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	e8f26ec92c7203a8e9d3f353bdb3b33f6cdf2c075aff2f857fd47104e8fd0e0b
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	06dfd5ba21f3a49de43c0cd93adb26589c23073d09deebead5564fe512c5f14a
 manuscript/sections/ch11/11_03.tex	11.3	When an Ethics-Embedding Method Stops Generalizing	ed4acdbce32c0416a42d41b69570828d345e46d2d83956997556f874b13cfa21
 manuscript/sections/ch11/11_04.tex	11.4	Value Learning as Unfinished Technical Research	45df1506f758fcc503c54290d7d0d0e710ade50892e2a3dce468f7d693a110d3
 manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent AI System Resist Being Captured?	5bd578264e4cd8771a7ebbcd4d2785ab518a465a870143c4db5fc17d9d90706d
@@ -130,4 +130,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	4
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	0680265d4631977a16cb2c6c67b2a3bce57af28fe52f65f8c47843b31c394764
+manuscript/sections/ch13/13.tex	13	Glossary	c364974e7cebce5d1f4b3e3bda52b608deafd9c476917992bc5244c450a8df35
