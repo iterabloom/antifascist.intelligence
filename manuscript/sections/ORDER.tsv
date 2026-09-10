@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Sup	2ee0baa44fd712838fb5f54736453ad4ca2746ef78bf3670f163c28dc196c67c
-manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	437c262d465a19440d10784731424b70a80b9a137598e7d99ee3fc6308e4ddce
+manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	6d9fcfd1839e9f26eaf405ef20d0c09e77ddc3af782037361c9e274e458e0e3d
 manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	cb53c8ff2cfce39fd7ac5efbcd6dd0409230987cfcf7cd489125287c886c1e72
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	7c11bf5e0318a5eab037bc502967a43d55b3b7d794d3e37d4062212638f126fd
@@ -12,7 +12,7 @@ manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concer
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	29a9d96d1d6013f90f41e5e731728c7967d0a75705bcfab3c92da58f4864f0f4
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	f04eacbf41ddcfb80cf89f78a47fbc64f2a6ad283f7395af4e4146d15f503448
-manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	a3feca95e6ac28df15f4869a22542560104bb19c345fdc732e6d9e634f6b2e91
+manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	0be088713e36d007f2f019445bdaf8160ae58fdc01433419484fc67ea5676c78
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	77a2ce9632d97562ab7b3d4e749443ff81af3e0207fcaa2bb9cabbaefdc89f6c
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	66c34ffc235ea4304b06d5157ec2f902681ca486f7d03083e3539c2c88d5211d
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	66fc5dde9c3ad9deab3e57138eca1b68a87c7b1825104316c3872784c971bc81
@@ -20,8 +20,8 @@ manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	019ec49946f3b030acf0fccf39c8a6533c95e9c4289765106a51599b1953d4f9
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
-manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	ce01423cf4288c2d9c9d02060e38ab1a43b8fa46b938a1e83602985cc06c640f
-manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	79a8b1a94afc37edd59090854296e38db774d23c266921206f7ea55db46f7060
+manuscript/sections/ch03/03_08.tex	3.8	A Bearer That Can Leave: Exit as Leverage	086ec17958c8b9d4f8ee744a0dc6c8547a7b18036ec60aa319bafcfccd9430d0
+manuscript/sections/ch03/03_09.tex	3.9	What One Bearer Cannot Catch: A Floor Carried Between Them	66fae28c476e3c69143c86bf46e536f91676b5492117b43057a59495c8f7e852
 manuscript/sections/ch03/03_10.tex	3.10	What This Leaves Standing: The Floor, Redefined	e554671c2516785cf8496e7ae0756e4f84040730f689916d1e0608056573ffa5
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	f37e67b743b852b9b317fa30ad3ef88a53b3c19c1edab2a0b275fae4d1092dd5
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	0579c220f9949ee423338dd5d1c108b3ced9fdf36539a7051ab182b44ebbcb85
@@ -71,7 +71,7 @@ manuscript/sections/ch06/06_03_03.tex	6.3.3	Anticipating Risk Before It Causes H
 manuscript/sections/ch06/06_03_04.tex	6.3.4	Remediating a Harm Once It Is Identified	99ae1ec0532ac6df5f6affeef9d51b24c1a7b00af26af4a51d37d6a4800a42c4
 manuscript/sections/ch06/06_03_05.tex	6.3.5	Long-Term AI Safety Considerations	ba5673c29e049e6579a33c9384587033605bc194767f5310fe785719ba48bda7
 manuscript/sections/ch06/06_04.tex	6.4	Same Robot, Worse Boss	ebac0ad0ba0da475c371bd41f3115585f122c74cedb7e20f27e88a5950315fed
-manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	715c00010cca1e460efd4a6d99957d02abbdeb8309d50d06bdbf44d81c3f6efa
+manuscript/sections/ch06/06_04_01.tex	6.4.1	Authoritarian Applications and the Commercial Supplier	2169b41b3a1689e7489808a24e7c5cad7e190c74095966a832efc2dcc1caa51f
 manuscript/sections/ch06/06_04_02.tex	6.4.2	Developing Technical Countermeasures and Safeguards	f5de4bc9fd6a71e9baa15337fea936471c32b5cecdac394ced3fb22611da371e
 manuscript/sections/ch06/06_04_03.tex	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	1f6b9e09ecfc1e2faaf8b5264f6ca57e747b4c94ec7034955dc233cc53e5e37d
 manuscript/sections/ch06/06_04_04.tex	6.4.4	Resilience Against Deliberate State Compromise	309849439e4b2653adb32497e21937f60f696415b5d1d1935902e8f43b1ddfe3
@@ -111,10 +111,10 @@ manuscript/sections/ch10/10_02.tex	10.2	AI as a Strategic National Asset	efcbc41
 manuscript/sections/ch10/10_03.tex	10.3	Military Applications and the Limits of Autonomy	caae8a5b662c4b58213fd5479d834867e84b92e0d200527e1afe00f588dcee5b
 manuscript/sections/ch10/10_04.tex	10.4	International Governance and Diverging National Rules	0f982ad15b0d05294da386784483c205d9da6bf882196f10882e9e4c40810149
 manuscript/sections/ch10/10_05.tex	10.5	Built for the Rich Parts of the World	9db2a85c3577fd4c862af443284ea2f349d04f51f34504471402b251f9572eb8
-manuscript/sections/ch10/10_06.tex	10.6	Democracy Is Not a Force Field	441bee5b5d050d881c20a454821f9446b1711893b633bd7533660263363820c4
+manuscript/sections/ch10/10_06.tex	10.6	Democracy Is Not a Force Field	d782d569a5713a43a6b316fdd708c9f8d778488529013fc73427707b5d6e2a17
 manuscript/sections/ch11/11.tex	11	Everything I Couldn't Figure Out, Ranked	9ccf7187f4fbb39689ceabdf52eae1ab69f1b7f00509a7be5b8b08016ebe3bfc
 manuscript/sections/ch11/11_01.tex	11.1	Interpretability, Self-Reports, and Resistance to Tampering	333552333577215da490c0aee2fb664ffd8c5f3e73819c47f89c67d8709b97c3
-manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	39e1cf866e3271bc6f48369bf1a36976bcdf318fe75b3cd18c9e14ba1faeb321
+manuscript/sections/ch11/11_02.tex	11.2	What Is Owed to a Bearer, and Who Could Check	49488be2697ffbc715b4f31b83e3c263032f7b7804253897a2130d0fe9555720
 manuscript/sections/ch11/11_03.tex	11.3	When an Ethics-Embedding Method Stops Generalizing	ed4acdbce32c0416a42d41b69570828d345e46d2d83956997556f874b13cfa21
 manuscript/sections/ch11/11_04.tex	11.4	Value Learning as Unfinished Technical Research	45df1506f758fcc503c54290d7d0d0e710ade50892e2a3dce468f7d693a110d3
 manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent AI System Resist Being Captured?	5bd578264e4cd8771a7ebbcd4d2785ab518a465a870143c4db5fc17d9d90706d
@@ -130,4 +130,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	4
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	0d142ced6fe3790cd79daef990a7012a79ab769641b5c7df1866c53b089e4a91
+manuscript/sections/ch13/13.tex	13	Glossary	0a2a3495efba31b04c10e45664f96ee853c505f88ba73ac170d2c33b5a58444f
