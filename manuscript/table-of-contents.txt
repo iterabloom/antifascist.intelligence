@@ -1,7 +1,7 @@
 Chapter 0: Sup
-Chapter 1: Why You're Going to Hate This
+Chapter 1: This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes
 Chapter 2: Yes, It Has to Have Feelings
-2.1. Six Theories, None of Which Will Save You
+2.1. Six Theories, None of Which Will Save Us
 2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
 2.1.2. Antifascist Ethics for AI Alignment
 2.2. Going Numb Won't Make You Fair
@@ -11,7 +11,7 @@ Chapter 2: Yes, It Has to Have Feelings
 2.3. Ethical Implications of Experimenting on Sentient Machine Subjects
 2.3.1. Defining Sentience in AI: From Consciousness to Subjective Experience
 2.3.2. When Consent Is Inapplicable: Guardianship and Research Oversight
-Chapter 3: The Floor Beneath Learned Values
+Chapter 3: A Floor Beneath Learned Values
 3.1. Four Ways to Build One, and What Each Costs
 3.2. What Refusal Can Mean, and What a Refuser Can Be
 3.3. Could Anything but Affect Hold a Reason?

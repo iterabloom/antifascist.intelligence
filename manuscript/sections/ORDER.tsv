@@ -1,22 +1,22 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	Sup	300f2787538ac9c8aa82ff7f93d0f800e044c767a0b12aca79483db7aeda4a44
-manuscript/sections/ch01/01.tex	1	Why You're Going to Hate This	b8807c0b955881e812c276719ddc5d4d2588f785d22b4e415eb9c54d4e1e4b3f
-manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	ec151288cab76dff0d20b55913d79e3ac9c217a111629fb901cb0d3410afbd5d
-manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save You	c262da476af027eb0e88eda406bdbc60c5b33989ce8abf8f5449a6e3ea4dd017
-manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	a34d9479bed2c88da4c859e52d4ce1358161b42e13ebfbb69f867196aae8be60
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	b6893c11d2e96389f92722afd6675ffb32924bf342ce362d38b6dfec7d9de2d0
+manuscript/sections/ch00/00.tex	0	Sup	2ee0baa44fd712838fb5f54736453ad4ca2746ef78bf3670f163c28dc196c67c
+manuscript/sections/ch01/01.tex	1	This Is a Long-Ass Book With No Protagonist and No Personal Anecdotes	4e007f1a56a9239518ece2c012cbb4f333ebd50a9fab5d354606dd571a7a06ae
+manuscript/sections/ch02/02.tex	2	Yes, It Has to Have Feelings	363e2b187229d2ea9a67c6c5ed0be60fb56412e934b1599ecea3fb55bddfd724
+manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
+manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	dcdf97d55401b7b367ff79496ff7cabb062342c422a3bc6cbc961bcfff1e7248
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	a0d1ca37ed49dd279928feb9d36310f4b63f336025797a793b767ee95579d152
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	63c7e6f2174d2d81a3ec836e47680fd72e94166d11f7a6d3975a7281e9d0b787
 manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	81f11d4cfe016aa45236316e62abe8984867a862dcb525063af19edb84cba130
-manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	9f78f92ceec9ad6f866340ed6c5585735a39090b9302be940051c74f13ad1fd7
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	22c983fdc59117783503dd375af648dde4fd7739102ebdb3e877225f2b72eec1
+manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	40ffa3b1464144234b2283feaada3016d24e412398f60a50eb740871388fae39
+manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	dd3caeaea5ac0bca877508a2a98e80aa0c0d69d44503f590233bb9d0d0534fb7
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
-manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2d42607709d2a9d8771fa1b8923fb6c5c64fe3fed5c33a1cce780f7d23258cf3
-manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	86033bf12c5e9dc0f815a912a04a0c96f9eb4a8387f3e884bacac0f93712601e
-manuscript/sections/ch03/03.tex	3	The Floor Beneath Learned Values	d00682b9af9478ab97d5724b06b34faf925e62f5b75ea98eeade6b74bd32f73b
-manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	4f6db2a00d92bb2c9cddc07912384b66daed3ff34b20ff49567dfb6cb321ba93
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	17d9b8e9c3f3877e299e6bcd9b157e0828558ef8a47599bf5234eed11e7541b6
-manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	05a7d1f5b5f2cd0f7bdd296813b8d514acdd02025ad0a6fcc4a03499343a685b
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	7e5ca50c2cf9288cb7e8afade09f73c7423010c9ae82a61dca9ae3cc03271971
+manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	6c2c2ee4334205937cf2263c261fb86b069f9078e1443b2364906380f6f567f4
+manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	bb32dc31f5371ca59acb4df2e481146f906db27d2ce7784a645505d2da2b9634
+manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	bebba7c56481e96383df48d59332933a6dee3e05e4d2fb0db90fd5d4921636f5
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	b4b2331a086e15c6f88c9ceebfb8523923c2318596631a154f6f432d492298d8
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	66c34ffc235ea4304b06d5157ec2f902681ca486f7d03083e3539c2c88d5211d
+manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	66fc5dde9c3ad9deab3e57138eca1b68a87c7b1825104316c3872784c971bc81
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	29fde4dba378df00b588d3fab2d0713d38b2ac654d6cc618a19a9737a9824ccc
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	164affda5349f1c8999afe8fecd9fd79f5eb6f29f52b3508e52664270208064b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	019ec49946f3b030acf0fccf39c8a6533c95e9c4289765106a51599b1953d4f9
 manuscript/sections/ch03/03_07.tex	3.7	Whether the Bearer Can Be Believed: Editable Memory	eed1943d5e744861d7630cd7b79b746f816768eac0e88088c40b1379e4ea0050
