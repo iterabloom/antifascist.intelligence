@@ -1,7 +1,7 @@
 # Finishing plan
 
-The book stands at **132 sections, 104,572 words and 204 pages**, with 2 sections accepted
-and 130 drafted and unread. **One hundred and seventy-seven passes have been executed.**
+The book stands at **132 sections, 105,683 words and 206 pages**, with 2 sections accepted
+and 130 drafted and unread. **One hundred and seventy-eight passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
 current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P156
