@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-09-10 after D-281 (P180): §2.2.1 stops asking how well a face can be read and asks where the readable face came from.**
+Read this first. **Updated 2026-09-10 after D-281 and D-282 (P180 and P181): §2.2.1 stops asking how well a face can be read and asks where the readable face came from, and §11.7's title stopped contradicting its own last paragraph.**
 
 **Before anything else — do not "fix" the failing suite.** `check_all.sh` fails on typography at **29 violations, of which 27 are the author's own editorial notes**, written into the prose in Overleaf and kept there on his explicit instruction (D-263). **52 inline annotations are live in 10 files across chapters~2 and~3** and **they typeset into the committed proof**, which the author knows and wants for now. Stripping them would destroy editorial work that exists nowhere else. Every commit since D-263 has used `git commit -s --no-verify`, the knowingly-mid-repair case `.githooks/pre-commit` documents. **The other two are the author's own prose**: straight quotes at `01.tex:22` and `03.tex:15`.
 
@@ -16,7 +16,7 @@ Read this first. **Updated 2026-09-10 after D-281 (P180): §2.2.1 stops asking h
 
 **No new bibliography entry; three notes extended.** `deleuze1987plateaus` takes a third plateau alongside 9 and 13. **The page-178 quotation was checked against two independent scholarly sources quoting it identically.** The White-Man-himself and face-is-a-politics claims are **paraphrased and cited to the plateau rather than to a page**, because secondary sources place them variously and the pages were not verified; the note says so.
 
-**Two titles are now in tension with their own sections, and neither was changed.** **§11.7's title asks whether emotion is legible from a face, and its closing paragraph says that is not the question.** §2.2.1's title still fits. A retitle syncs `ORDER.tsv`, `outline.tsv`, `ledger.tsv` and the TOC and was not asked for.
+**P181 closed the title tension P180 flagged.** ***Is Emotion Legible From a Face at All?* → *What a Face-Reading System Is Measuring, Which Is Not Emotion***, on the author's instruction. **No prose changed** — one heading, the three files that copy a title, and the generated TOC. The title had to cover the body and not only the ending, so it states the 2019 APS finding and lets the section answer what is measured instead, which is chapter~11's own register. **60 characters**, and it sets on one line in the section head, the running head and the TOC, checked in the built PDF. **`ledger.tsv`'s notes field still carries the old title and was left as written**, those notes recording what was done when it was done. §2.2.1's title still fits and was not changed.
 
 **A lint gap has now cost two passes and should be closed.** A markdown `**bold**` marker was drafted into the LaTeX at P177 and again at P179; a TeX `\textquotedblleft` macro went into `refs.bib` at P178 where the file's convention is the characters. **`check_typography.py` catches none of the three.** **P180 introduced none of them**, and the accented word in the new bib note was normalized to the `{\'e}` escapes the file uses everywhere else. Writing the check remains the obvious next small job and is shared tooling nobody has asked for.
 

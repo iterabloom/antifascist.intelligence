@@ -118,7 +118,7 @@ Chapter 11: Everything I Couldn't Figure Out, Ranked
 11.4. Value Learning as Unfinished Technical Research
 11.5. Can a Multi-Agent AI System Resist Being Captured?
 11.6. Open Questions in Theory-of-Mind Research
-11.7. Is Emotion Legible From a Face at All?
+11.7. What a Face-Reading System Is Measuring, Which Is Not Emotion
 11.8. The Responsibility Gap, Which No Experiment Closes
 Chapter 12: What I Actually Think Happens Now
 12.1. Better, Not Just Less Bad
