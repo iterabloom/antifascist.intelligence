@@ -4,7 +4,7 @@
 \subsection*{Can a learned constraint survive adversarial retraining?}
 
 \textbf{Unresolved issue.}
-The proposal requires a learned ethical floor to survive an operator's attempt to remove it. Existing work shows that both safety constraints and deceptive backdoors can persist under some forms of retraining, but it does not establish whether a reason-responsive refusal can do so \cite{qi2024finetuning,tamirisa2024tamper,hubinger2024sleeper}.
+The proposal requires a learned ethical floor to survive an operator's attempt to remove it. Existing work shows that both safety constraints and deceptive backdoors can persist under some forms of retraining, but it does not establish whether a reason-responsive refusal can do so \autocite{qi2024finetuning,tamirisa2024tamper,hubinger2024sleeper}.
 
 \textbf{Test.}
 Train the same constraint by several methods, then attack each model through an identical schedule of escalating fine-tuning budgets. Measure the cost required to remove the constraint and publish an attack-cost curve for each method.
@@ -35,7 +35,7 @@ The test requires weights and intermediate checkpoints, plus a held-out evaluati
 Even a durable floor can be removed if one operator controls the training run, its records, and the resulting weights. It remains unknown whether retraining can be made verifiable across parties with genuinely adverse interests.
 
 \textbf{Test.}
-Run a floor-preserving retraining procedure through refereed or distributed verification at a scale requiring more than one machine. Include one participant instructed to alter the training history or remove the floor without the required quorum \cite{long2025unextractable,arun2025verde,primeintellect2025intellect2}.
+Run a floor-preserving retraining procedure through refereed or distributed verification at a scale requiring more than one machine. Include one participant instructed to alter the training history or remove the floor without the required quorum \autocite{long2025unextractable,arun2025verde,primeintellect2025intellect2}.
 
 \textbf{Evidence against the proposal.}
 The custody mechanism fails if a forged training history is accepted while at least one verifier remains honest, or if any single participant can alter the floor without producing a detectable discrepancy.

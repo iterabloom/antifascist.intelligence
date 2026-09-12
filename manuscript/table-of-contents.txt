@@ -54,8 +54,9 @@ Chapter 8: Coordination, the Public, and the Political Economy
 8.3.5. Literacy, Training, and Where Each One Sits
 Chapter 9: Authority, Standing, and the Power to Stop
 9.1. Authority Over the Floor
-9.1.1. Legal and Ethical Implications of AI Systems Gaining Personhood
-9.2. Privacy and Security
+9.1.1. Who May Create or Amend the Floor?
+9.1.2. Legal and Ethical Implications of AI Systems Gaining Personhood
+9.2. Privacy
 9.3. What Makes Review Binding?
 9.3.1. Subjecthood as a Legal Category, Not a Scientific One
 9.3.2. Research Principles, the Three Rs, and Legal Status
