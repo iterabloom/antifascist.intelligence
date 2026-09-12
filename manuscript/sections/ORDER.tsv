@@ -11,7 +11,7 @@ manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation i
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	0644448b583d76dbc2f57506a01e2ffdc5ceb71e5ea07dfa4dedf48905b06fe4
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	c13c8825c2827d33bffdfe9c7ff0f605bd23411e1e58078c0458a56452f71d3b
-manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	6bf272bb21730e35bc2a924e57a9fd538633b4b03b8afbf467888f6ac0a2bbc0
+manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	2aeab9005c7316f8193501d0c77c735d772694c2ab3c18e9cfcfbd424925f960
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	cfab524b4924cf23d84d3ce8d7515f30455b0ace0a75f94744352cad57bbbc73
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	0d78bd8108a4d0a3ddac5914cee0fe4c0f6a12f69c1af2a57fb2b0ccd083703f
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	c84c6fcd9b539a4820a61135342eff8d37b2372e2456ed4858da294cc031279b
@@ -57,7 +57,7 @@ manuscript/sections/ch09/09.tex	9	Authority, Standing, and the Power to Stop	d13
 manuscript/sections/ch09/09_01.tex	9.1	Authority Over the Floor	fd52620a9c1a24701bc8ed70fe21de74c250f710f1bb6425a2dd69eeda09faf3
 manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	f162cd04b8a5835946b1afa262ee62b598606d36d4417cc09de6578f06e1d103
 manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	d295716e2dad6614458668460559951997895849d410bc34215bc0c3191d8958
-manuscript/sections/ch09/09_02.tex	9.2	Privacy	3d58f0aeffcc2cbe4f803a32bc7999985e75302905f6c96a5637cc6ac3468a4f
+manuscript/sections/ch09/09_02.tex	9.2	Privacy	6f426c107f9493f3c5ae1bdaf2085666f2a029c2a9e549f7f65becc0df326edb
 manuscript/sections/ch09/09_03.tex	9.3	What Makes Review Binding?	076d2c8b7fb908e4dfccaea92d7146efc325adc0263fbaa667c1de792ceaf3dd
 manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	9fcfea9ad0379a05d50a9bc263c66b4632b2360b8fada23a6e6b65a5f452774e
 manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	4eba7b7ca9794ab76ac94802c6b1454352f81254275a54a6f1454bbc8459606a
@@ -68,7 +68,7 @@ manuscript/sections/ch10/10.tex	10	Custody, Compulsion, and the State	3afffb52ae
 manuscript/sections/ch10/10_01.tex	10.1	Authority Does Not Travel with the System	2e49602dcb5d007ba895b206ef5c16eefc511eff00627c43883c9432dc169b9a
 manuscript/sections/ch10/10_02.tex	10.2	Where the State's Leverage Sits	9b397ea81bc63999be18b38c9c38f6e66020804cbbce0d8243efdc7ddb866ddb
 manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility Gap	2aa8283a52ad7369985eed02103f0253783271f54e4c8ef4102eda314c34f729
-manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	9800db3cf46fff19cc6765e694c1bdbb0356f159050868d75ca5f30ee12a2b1d
+manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	fb3900ac8c3b5dc422c4b66546d81d48c15d25580c898c567a2d4cb76c16a67f
 manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	4d4229806ceb267bb619e2a9835c90812fc3993aebc882d4d0071a3a72c1cf21
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
 manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	3f8df5e052406c06a35fac061f83a285c8d3cea255df209063e4eb15f9170c52
@@ -84,8 +84,8 @@ manuscript/sections/ch12/12_01.tex	12.1	Better, Not Just Less Bad	2a6a65b213e2a4
 manuscript/sections/ch12/12_01_01.tex	12.1.1	Where the Democratic Dividend Actually Comes From	6c290fec43d0f0158341fdd4d40002185e4bc52211af9e6faa2c9be9c1db7e06
 manuscript/sections/ch12/12_01_02.tex	12.1.2	Commitment Was Never the Missing Piece	33e410eca0c080f6ad222504c5b5ffdba5d22e62594ba69b69ea622ef893e2a9
 manuscript/sections/ch12/12_02.tex	12.2	How You'd Know It Was Working	e4ef73c84ae14fac5a77faa0302977da09555aa4c73416b081a5cf55568fc127
-manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	35e3cf5716d5150cda09586944c0e95fd7246b39d97be68d20b1a29cbd2e9ab7
+manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	a22637d21aa9a41fc54c85390c8be80b0ab74efe9f9bbaea70800a2a136c80fa
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	edb3b76f9cbb3e795f70f54273ebc6ca6cd20defecda6b07567dc1fa83ad4d04
+manuscript/sections/ch13/13.tex	13	Glossary	f5551164fe1e80fa70b13ee0c6401b7a7d00c9f22214168df0284ce95b279da0
