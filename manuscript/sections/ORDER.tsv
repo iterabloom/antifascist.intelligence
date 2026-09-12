@@ -20,10 +20,10 @@ manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	6cc9fe7a5a77f10e388aef80c9ecd8cc6caca7dc4f0e9a247f120de69172609b
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	333959ae6cc92d2844764ef7f04bb17b93e54a22a54f26524f69c67cedcb956d
 manuscript/sections/ch03/03_07.tex	3.7	What One Bearer Cannot Catch: A Floor Carried Between Them	eb6975ac28ee4c2842247843ba7767aa5074c6b04d808bf749b3530cf74148d9
-manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing: The Floor, Redefined	813f26c376db6465d6cdc42fe908f627fe7972d3ceb50439fe0076f78d4dfb6a
+manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing: The Floor, Redefined	e7ee7535054a874553b728bad16ac17db32f5597aa06e7559e21952ce9a97fab
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	ef9d5fbfd4d8a30706d0da374e46089b51ff01541b9bc76f78abc0d7d3999a57
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	146ba5e53f8c35856a7470fc93134226c1bd394c85af7dbd9b93a2559793cdbf
-manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	bc41b244c5bbeadba3b72e1529cb15e8e0b56e6d32ba288fd3de7ec4bfcf3d8d
+manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	c9df6e4f644b188284fdd4511e2d78645992f6f08133e3966dfb4d47b0b43749
 manuscript/sections/ch04/04_03.tex	4.3	Formation Through Persistent Interaction	409fac682d17d282689af0d2cf01a1ae3d62cc8a9d3a69b5bb96a7741f179e95
 manuscript/sections/ch05/05.tex	5	Formation or Imitation?	effc5120d17173c8bde01ac83fbcb201b02b16d025a0783bdb220ab6bead34fb
 manuscript/sections/ch05/05_01.tex	5.1	What Formation Would Have to Add	3df525f766336ec67476b2a3d61559b1b24dbc90b84ab8e51454dd10ae3d4168
@@ -31,10 +31,10 @@ manuscript/sections/ch05/05_02.tex	5.2	Recognition, Concern, and the Evidence Be
 manuscript/sections/ch05/05_03.tex	5.3	Conflict as a Diagnostic	71a22b25765c0390f1ef2244b6146d8c7b364bcaa5a738b5a209fc2dceba09c0
 manuscript/sections/ch05/05_04.tex	5.4	The Evaluator Is Part of the Custody Chain	6b2a5026fb148821af105e1c2ac4149ee08b51bf9034257ce1ca12486bf67a10
 manuscript/sections/ch05/05_05.tex	5.5	What the Evidence Can Establish	8630f734072d14602c5383aee30d0f6466d7e5a96db030670cf06bdd2813a136
-manuscript/sections/ch06/06.tex	6	Neutralizing and Preventing Fascism in AI Development	ca82a427077bc55644df9114e56b431322b38a63fa224361792adae95efdaffa
+manuscript/sections/ch06/06.tex	6	Neutralizing and Preventing Fascism in AI Development	8f43dff6a091e56ee22e84a46c4eea7ae54753b182cac46f7c5796d45ec2cfe3
 manuscript/sections/ch06/06_01.tex	6.1	Who Supplies the System's Values	60509547b66cbac42054e8bae3474c10f119db378478250039591033a3544494
 manuscript/sections/ch06/06_02.tex	6.2	Who Is Allowed to Look	53b4b746b1d84ae5f155f4e123d5d9337476d7f17d78f010f3bac20056cf0b55
-manuscript/sections/ch06/06_03.tex	6.3	Same Robot, Worse Boss	3ef2300565f99ea458b4f8d9371699cf46459b97927f7c2fa914c617f9cc5c40
+manuscript/sections/ch06/06_03.tex	6.3	Same Robot, Worse Boss	87e8415113d4d251bdaab9c9a31b4bc932c2e20e59358523afb079de164717fb
 manuscript/sections/ch06/06_03_01.tex	6.3.1	Twenty Seconds	dfd51437f775fe132c91c33169b9355f4b59a44ddd43ed3deae74aa2b23c2bbd
 manuscript/sections/ch06/06_03_02.tex	6.3.2	Custody and State Compulsion	124c9bb841338349bf1a6feb2d709478a59b0b343d7f692fca26ccd16a686dcf
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	a194cee92c1c2c90b2f29dcc92fc9064a9bfb99ac898916425b85cb32036d0e4
@@ -71,7 +71,7 @@ manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility 
 manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	9800db3cf46fff19cc6765e694c1bdbb0356f159050868d75ca5f30ee12a2b1d
 manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	4d4229806ceb267bb619e2a9835c90812fc3993aebc882d4d0071a3a72c1cf21
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
-manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	11f444ded80d0b3dfb582b396006e1033d23e3e0bbe7082a482f19b7a135f499
+manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	3f8df5e052406c06a35fac061f83a285c8d3cea255df209063e4eb15f9170c52
 manuscript/sections/ch11/11_02.tex	11.2	Bearer Welfare and Independent Guardianship	f70e3285de7303ea43b88578d58416824d7c7cbfdd47b2d5f92394eca6cbe08f
 manuscript/sections/ch11/11_03.tex	11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	0ab8afcd5f23447f2398d57782a36f24434006921ab7fc0ca71b0070e616c2e2
 manuscript/sections/ch11/11_04.tex	11.4	Can Scalable Oversight Correct Rater Bias?	e702e85059355e1e41ccbc5a0f9b6907a8daad5d1296ee12caa6654da7ed4238
@@ -88,4 +88,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	3
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	5ae935ac6e1365ab982dd5d95ac7f7c33d81a43f96647f9ab1e3bb9a5f2876a4
-manuscript/sections/ch13/13.tex	13	Glossary	6edffe42a227aede7dbe92fdb62200d89403843625ac1a0eb45dad23dc73cccf
+manuscript/sections/ch13/13.tex	13	Glossary	edb3b76f9cbb3e795f70f54273ebc6ca6cd20defecda6b07567dc1fa83ad4d04

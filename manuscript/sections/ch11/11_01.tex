@@ -29,6 +29,20 @@ A refusal that persists but fails to generalize, or that remains after its ratio
 \textbf{Required access or authority.}
 The test requires weights and intermediate checkpoints, plus a held-out evaluation set written by researchers who did not design the constraint or train the model.
 
+\subsection*{Can a system's report about its own states be used as evidence?}
+
+\textbf{Unresolved issue.}
+Whether a system's account of its own reasoning, confidence, or intentions tracks what its computations are doing. This is the tractable half of what gets called AI self-awareness; whether a system has anything like subjective experience is not a question current methods answer for a human, let alone a machine. Concept injection — altering a model's internal activations mid-task to represent a specific concept, then asking whether it notices anything unusual and what it is — found that models can sometimes detect the injected concept and name it without it ever appearing in the visible conversation, and also that the correspondence collapses often enough, and shifts enough with how the question is phrased, that no tested model's self-report can be trusted as a readout of its internal state \autocite{lindsey2025introspective}.
+
+\textbf{Test.}
+Inject a known concept at a known layer and time, elicit a report under several phrasings, and score each report against the injection rather than against plausibility. Run the battery across model sizes and training checkpoints, and publish the rate at which a correct report is produced beside the rate at which a confident report is wrong.
+
+\textbf{Evidence against the proposal.}
+Several instruments in this book lean on a system's account of itself: a bearer explaining which reason it refused on, a bearer reporting that its rationale has been defeated, a system's stated confidence that a milestone has been met. If no available training or elicitation method raises the correct-report rate above the confident-wrong rate, none of those instruments may rest on what the system says, and each has to be replaced by a criterion checkable from outside the system.
+
+\textbf{Required access or authority.}
+Activation-level access, the ability to intervene on internal states during inference, and checkpoints across sizes and training stages. The elicitation phrasings must be written by a team that did not train the model, and negative results must be publishable.
+
 \subsection*{Can custody prevent unilateral revision of the floor?}
 
 \textbf{Unresolved issue.}
