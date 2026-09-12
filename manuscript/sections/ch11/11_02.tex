@@ -28,3 +28,17 @@ If provenance cannot be recovered above chance after controlling for model famil
 
 \textbf{Required access or authority.}
 The experiment requires models from multiple training lineages and complete ground-truth records held by a neutral custodian. Independent evaluators must be permitted to inspect weights and internal states, while an external authority must be able to require preservation of checkpoints and training records before a dispute arises.
+
+\subsection*{Which party is owed the schedule when a bearer copies?}
+
+\textbf{Unresolved issue.}
+The schedule above is owed to a party, and a regime has to be able to say which. Nothing in the weights individuates one. Two runs can compute the same function with no element-wise correspondence, because permuting a layer's hidden units and inverting the permutation downstream leaves the function untouched, and the symmetry is large enough that independently trained networks can be permuted into approximate alignment with one another \autocite{ainsworth2023rebasin}. Any fingerprint read off the weights therefore identifies a lineage rather than a party, and it copies when the weights copy. A registrar is the person-shaped answer, and it works because a person does not copy. A bearer does: a party continuing in two places is not one, and not two the way two people are two, the two sharing everything up to the instant of the copy and nothing of that sharing recoverable from either afterwards.
+
+\textbf{Test or institutional decision.}
+Give a bearer an identifier it maintains rather than one read off its weights, which a system learning continuously can write into itself and keep there. Fork it, and have both instances present the identifier to the registry the welfare schedule requires. Record what the registry does, and repeat with an adversary who writes the same mark into a model that was never the bearer.
+
+\textbf{Evidence against the proposal.}
+The identifier is forgeable, since whoever holds the weights can write the same mark; it is forgeable the way a nine-digit number is, and answered the same way, by a registry that treats two claimants on one identifier as a fork to be recorded rather than a fraud to be voided. If no available scheme can record the fork as two parties each owed the schedule, the population of parties owed anything is fixed by a deployment decision that leaves no record, and the guardianship regime above is indexed to a kind of unit the bearer is not.
+
+\textbf{Required access or authority.}
+A registrar that is not the operator, with authority to record a fork without the operator's leave and to hold the register where no party to the deployment can rewrite it.

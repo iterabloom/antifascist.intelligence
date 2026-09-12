@@ -2155,3 +2155,92 @@
   urldate = {2026-08-25},
   note = {Uses concept injection -- altering internal activations mid-task and asking the model to report what it notices -- to test introspective self-report; finds limited but real functional correspondence between self-report and internal state, strongest in Claude Opus 4 and 4.1, unreliable across the board.}
 }
+
+@inproceedings{demeulemeester2025badram,
+  author = {De Meulemeester, Jesse and Wilke, Luca and Oswald, David and Eisenbarth, Thomas and Verbauwhede, Ingrid and Van Bulck, Jo},
+  title = {{BadRAM}: Practical Memory Aliasing Attacks on Trusted Execution Environments},
+  year = {2025},
+  booktitle = {Proceedings of the 46th IEEE Symposium on Security and Privacy (SP 2025)},
+  url = {https://badram.eu/},
+  urldate = {2026-09-05},
+  note = {Defeats AMD SEV-SNP, the confidential-virtual-machine design, by aliasing memory through a modified DDR module; the project site's bill of materials comes to about ten dollars of off-the-shelf equipment. Disclosed December 2024. The site reports that Intel TDX and scalable SGX carry dedicated countermeasures. Cited for the position of an adversary with physical access to the hardware, which is where a model's operator stands.}
+}
+@inproceedings{sun2024zkllm,
+  author = {Sun, Haochen and Li, Jason and Zhang, Hongyang},
+  title = {{zkLLM}: Zero Knowledge Proofs for Large Language Models},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)},
+  doi = {10.1145/3658644.3670334},
+  url = {https://arxiv.org/abs/2404.16109},
+  urldate = {2026-08-29},
+  note = {Reports a correctness proof for the entire inference of a 13-billion-parameter model in under 15 minutes, at under 200 kB, disclosing nothing about the parameters.}
+}
+@inproceedings{abbaszadeh2024kaizen,
+  author = {Abbaszadeh, Kasra and Pappas, Christodoulos and Katz, Jonathan and Papadopoulos, Dimitrios},
+  title = {Zero-Knowledge Proofs of Training for Deep Neural Networks},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)},
+  doi = {10.1145/3658644.3670316},
+  url = {https://eprint.iacr.org/2024/162},
+  urldate = {2026-09-04},
+  note = {Kaizen, a zero-knowledge proof that a committed model was trained by gradient descent on a committed dataset. Reports VGG-11 at 10 million parameters and batch size 16 at 15 minutes of proving per iteration, with a 1.63 MB proof verified in 130 ms; the proof size and verifier time are independent of the number of iterations.}
+}
+
+@inproceedings{ainsworth2023rebasin,
+  author = {Ainsworth, Samuel K. and Hayase, Jonathan and Srinivasa, Siddhartha S.},
+  title = {Git Re-Basin: Merging Models modulo Permutation Symmetries},
+  year = {2023},
+  booktitle = {Proceedings of the 11th International Conference on Learning Representations (ICLR 2023)},
+  url = {https://arxiv.org/abs/2209.04836},
+  urldate = {2026-08-29},
+  note = {An ICLR 2023 oral. Permutes independently trained networks into alignment and argues the loss landscape holds nearly a single basin once permutation symmetry is quotiented out.}
+}
+@misc{gallup2024workplace,
+  author = {{Gallup}},
+  title = {State of the Global Workplace: 2024 Report},
+  year = {2024},
+  url = {https://www.gallup.com/workplace/645416/state-global-workplace-2024-report.aspx},
+  urldate = {2026-08-29},
+  note = {Global figures: 23 percent engaged, 62 percent not engaged (“those who show up, do the bare minimum and are uninspired by their work”), 15 percent actively disengaged. Gallup's overview page describes the middle category as “quietly quitting.”}
+}
+@misc{europeanparliament2017civil,
+  author = {{European Parliament}},
+  title = {European Parliament Resolution of 16 February 2017 with Recommendations to the Commission on Civil Law Rules on Robotics (2015/2103(INL))},
+  year = {2017},
+  howpublished = {P8\_TA(2017)0051},
+  note = {Rapporteur: Mady Delvaux; Committee on Legal Affairs report A8-0005/2017},
+  url = {https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2018.252.01.0239.01.ENG},
+  urldate = {2026-08-25}
+}
+@misc{robotics2018openletter,
+  author = {{Open Letter to the European Commission}},
+  title = {Open Letter to the European Commission: Artificial Intelligence and Robotics},
+  year = {2018},
+  howpublished = {robotics-openletter.eu},
+  note = {Signed by more than 150 AI and robotics researchers, legal scholars, and ethicists from 14 countries, including Noel Sharkey, Raja Chatila, Alan Winfield, and Nathalie Nevejans},
+  url = {https://www.robotics-openletter.eu/},
+  urldate = {2026-08-25}
+}
+@article{saxe2003people,
+  author = {Rebecca Saxe and Nancy Kanwisher},
+  title = {People thinking about thinking people: The role of the temporo-parietal junction in ‘theory of mind’},
+  journal = {NeuroImage},
+  volume = {19},
+  number = {4},
+  pages = {1835--1842},
+  year = {2003},
+  url = {https://web.mit.edu/bcs/nklab/media/pdfs/SaxeKanwisherNeuroImage03.pdf},
+  urldate = {2026-08-25},
+}
+@article{mitchell2008activity,
+  author = {Jason P. Mitchell},
+  title = {Activity in Right Temporo-Parietal Junction is Not Selective for Theory-of-Mind},
+  journal = {Cerebral Cortex},
+  volume = {18},
+  number = {2},
+  pages = {262--271},
+  year = {2008},
+  doi = {10.1093/cercor/bhm051},
+  url = {https://academic.oup.com/cercor/article/18/2/262/333414},
+  urldate = {2026-08-25},
+}

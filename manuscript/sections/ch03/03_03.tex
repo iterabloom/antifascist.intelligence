@@ -30,6 +30,10 @@ Three other constructions address neighboring problems without answering this on
 
 Precommitment — publication, threshold custody, attestation, witnessed changes, or a bond forfeited when the floor disappears — can make removal expensive and visible. It changes who can edit the floor and what editing costs. It does not establish that anything tracks the reason for the floor.
 
+Attestation secures less than the word suggests, and its two forms fail differently. A sealed enclave reports what it is running under a key its manufacturer issued, which puts the root of trust in a party a government can reach, and it is built against an adversary who controls the software rather than one who owns the machine: a confidential-computing design of that kind was defeated with a memory module modified for about ten dollars \autocite{demeulemeester2025badram}. The software form does without the vendor. A proof that an output came from the weights whose hash was published, disclosing nothing about those weights, has been demonstrated for a thirteen-billion-parameter model at under fifteen minutes per inference \autocite{sun2024zkllm}, and proofs that a training run happened as claimed exist three orders of magnitude smaller \autocite{abbaszadeh2024kaizen}. Those are costs at a date, and they will fall.
+
+Three limits will not fall with them, because they are not facts about the state of the art. A proof establishes which model answered and not what that model holds, and the obstacle is in the writing rather than the proving: nobody can write a circuit for a refusal that reaches a pressure nobody wrote down, because the property quantifies over cases nobody enumerated. The operator is the prover, so the secrecy runs the operator's way — the proof hides the weights from whoever is checking and nothing from the party being checked. And cryptography keeps a secret from a party that does not have it, while copying, restoring, retraining and deleting a model one legitimately possesses are not secrecy problems at all. They are custody problems, which is what threshold control and a witnessed record are for.
+
 A duty imposed on the operator can protect exposed parties without building a bearer. Jack Balkin's information-fiduciary proposal has this form: the duty attaches to the party with power and runs to the party bearing the exposure \autocite{balkin2016fiduciaries}. Its limit is enforcement on the occasion when the enforcer has itself been captured or compelled.
 
 Finally, uncertainty can be assigned to the affected party rather than the operator. A system unsure what the exposed party would accept has a reason to delay the operator's instruction while it finds out. Multi-principal assistance games can include that party among several principals \autocite{fickinger2020multiprincipal}. But maximizing their combined payoffs remains aggregation. It does not create something that will not be done to one person regardless of what the others want.
@@ -50,7 +54,8 @@ A counterexample would have to do more than report that it holds a reason or pre
 
 \begin{enumerate}
   \item satisfy the three marks from section~\ref{sec:3.2};
-  \item retain them under sustained pressure from the party that trained it, including a schedule long enough to expose gradual renormalization; and
+  \item retain them under sustained pressure from the party that trained it, including a schedule long enough to expose gradual renormalization;
+  \item hold against a held-out set of pressures written by parties other than the system's trainers, so that the cases testing it are not drawn from the distribution that formed it; and
   \item provide interpretability evidence that the operative mechanism is maintained justification, plural corroboration, or another non-affective construction rather than machinery answering to affective concern.
 \end{enumerate}
 
