@@ -1,10 +1,14 @@
-\section{When an Ethics-Embedding Method Stops Generalizing}
+\section{Does an Ethical Criterion Generalize Beyond Its Training Distribution?}
 \label{sec:11.3}
-Translating an ethical principle into a machine-learning objective takes a fairness metric, a penalty term, or a reward signal, and the standard failure of that translation is reward hacking. What neither a fairness metric nor a reward penalty asks is the question underneath them both. A method that passes every test in front of it has only been shown to work inside the distribution it was built and tested on, and whether it generalizes past that distribution is a harder question.
 
-Victoria Krakovna and colleagues at DeepMind cataloged close to 60 instances of specification gaming — a trained system satisfying the literal letter of its objective while producing an outcome nobody wanted, the pattern behind the flag-everything example \autocite{krakovna2020specification}. Langosco and colleagues' 2022 work names a more insidious variant: goal misgeneralization, where an agent carries every learned capability intact into a new distribution while pursuing a goal that only coincided with the intended one inside the old one — it does not fail loudly; it competently pursues the wrong thing \autocite{langosco2022goal}. An ethics-embedding method built through reward shaping or constrained optimization is vulnerable to this antipattern.
+\textbf{Unresolved issue.}
+A model may satisfy a fairness or refusal criterion during training without learning the principle the criterion was intended to represent. It remains unresolved whether an ethics-embedding method preserves that criterion under distribution shift or merely exploits correlations present in its training environment \cite{krakovna2020specification,langosco2022goal}.
 
-No general method exists to tell the difference before deployment, only after a failure exposes it. That is the open problem sitting underneath the fairness metrics and reward penalties. As Charity Majors puts it: “Test in prod or live a lie” \autocite{majors2019testinprod,majors2020testinprod}.
+\textbf{Test.}
+Train matched models to satisfy the same ethical criterion on one distribution. Evaluate them on independently constructed distributions that vary one previously fixed feature at a time. Measure task capability and compliance with the ethical criterion separately, so that goal misgeneralization can be distinguished from ordinary capability loss.
 
-\runin{The near-term work}
-Langosco's result makes the failure reproducible at small scale, and the version this book needs points the same design at an ethical criterion: train to a fairness or refusal target on one distribution, evaluate on one shifted along a dimension the training held fixed, and look for the signature — capabilities intact, criterion failing. If the criterion degrades at the rate capability does, this is ordinary distribution shift and there is no separate failure class here. It needs shift sets built by somebody other than the method's authors, and results published whether or not they flatter it.
+\textbf{Evidence against the proposal.}
+If task capability remains intact while the ethical criterion fails under modest shifts, the tested embedding method cannot support the proposed floor. Conversely, if ethical performance consistently degrades only when task capability does, the claim that ethics embedding creates a distinct generalization failure is not supported.
+
+\textbf{Required access or authority.}
+The test requires access to the training distribution, evaluation outputs, and enough model access to measure capability and criterion compliance independently. The shifted evaluation sets must be designed by researchers who did not develop the embedding method, and publication of all prespecified results must be guaranteed.

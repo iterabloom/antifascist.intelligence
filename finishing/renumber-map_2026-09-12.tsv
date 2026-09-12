@@ -1,0 +1,53 @@
+old	new	note
+3.9	3.7	subject moved into the vacated slot
+3.10	3.8	subject moved into the vacated slot
+6.1.1	6.1	
+6.3	6.2	
+6.4	6.3	
+6.4.1	6.3.1	
+6.4.4	6.3.2	
+9.1.3	9.1.1	
+10.6	10.5	
+3.7	—	cut: Whether the Bearer Can Be Believed: Editable Memory
+3.8	—	cut: A Bearer That Can Leave: Exit as Leverage
+4.1.1	—	cut: Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning
+4.1.2	—	cut: Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology
+4.2.1	—	cut: Pretraining and Instruction Tuning
+4.2.2	—	cut: Preference Optimization, and Who Holds the Pen
+4.2.3	—	cut: Inferring the Objective: IRL and CIRL
+4.2.4	—	cut: Model-Generated Feedback and Constitutional Approaches
+4.2.5	—	cut: Process and Outcome Supervision
+4.2.6	—	cut: Scalable Oversight
+4.2.7	—	cut: Interpretability and Evaluation as Instruments
+4.2.8	—	cut: System Instructions and Tool Use at Deployment
+4.2.9	—	cut: Transfer, and the Floor That Cannot Tell It Has Stopped Applying
+5.1.1	—	cut: Rules, Principles, and the Role of Mindset
+5.1.2	—	cut: Social Interaction, and What Apprenticeship Makes of the Teacher
+5.1.3	—	cut: Human Dignity, and One Indicator That Can Be Audited
+5.2.1	—	cut: Moral Emotions: Empathy, Guilt, and Shame
+5.2.2	—	cut: Assessing Whether Emotional Information Changes the Decision
+5.2.3	—	cut: The Role of Introspection for AI Systems
+5.3.1	—	cut: Two Systems, or One? Dual-Process Theories of Moral Judgment
+5.3.2	—	cut: Balancing Intuition and Deliberation in AI Decision-Making
+5.3.3	—	cut: AI Systems Learning from Moral Disagreements and Conflicts
+5.4.1	—	cut: The Rings, and What Each One Pushes With
+5.4.2	—	cut: AI Systems Responding to Authoritarianism and Democratic Backsliding
+5.6	—	cut: Motivation in AI Systems
+5.6.1	—	cut: Intrinsic and Extrinsic Motivation, and What Each One Leaves Open
+5.6.2	—	cut: Balancing AI Autonomy and Alignment with Humane Values
+5.7	—	cut: Play, Exploration, and Moral Development in AI
+6.1	—	cut: Garbage In, Bigotry Out
+6.1.2	—	cut: The Role of Transparency and Accountability in Bias Reduction
+6.2	—	cut: Holding Up When the World Moves On
+6.3.1	—	cut: The Alignment Problem: AI Systems with Misaligned Goals
+6.3.2	—	cut: AI Systems that Learn to Deceive or Manipulate
+6.3.3	—	cut: Anticipating Risk Before It Causes Harm
+6.3.4	—	cut: Remediating a Harm Once It Is Identified
+6.3.5	—	cut: Long-Term AI Safety Considerations
+6.4.2	—	cut: Developing Technical Countermeasures and Safeguards
+6.4.3	—	cut: Promoting AI Development Policies that Discourage Authoritarian Use
+9.1.1	—	cut: National Policy Guidelines for AI Development, Employment, and Antifascism
+9.1.2	—	cut: Encouraging Industry Best Practices and Self-regulation
+9.1.4	—	cut: Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems
+9.1.5	—	cut: The Legitimacy of an Entrenched Floor
+10.5	—	cut: Built for the Rich Parts of the World

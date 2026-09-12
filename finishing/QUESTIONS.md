@@ -1,5 +1,14 @@
 # Open questions
 
+**Current as of 2026-09-12, after D-288 (P187): no entry opened or closed, and the whole list needs re-checking against a book that lost 43 sections.**
+
+**The standing list was not read this pass.** The September 12 Overleaf return cut the book from 132 sections to 89 and rewrote chapters~3, 4, 5 and 11; **several open questions name sections that no longer exist or no longer say what the question was about.** Q-075, Q-076 and Q-088 turn on chapter~3, which is now new prose. Nothing was closed on that basis, because a question whose target was rewritten is not thereby answered — it has to be re-read against what replaced it.
+
+**Q-087 survives untouched and is now unresolved for a fifth import.** Its 7 `\textit` are in `02_01_02.tex` and `02_02_03.tex`, two of the files this edit did not change.
+
+**Forty-one still open**, unchanged in number. `renumber-map_2026-09-12.tsv` translates any section number written here before today.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-10, after D-263 through D-273 (P163–P172): one new entry, none closed, and the chapter~3 trigger has fired.** **Forty-one open** with Q-115.
 
 **The trigger fired and the defaults were not applied, deliberately.** Q-075, Q-076 and Q-088 were set to fire *at the close of the next pass touching chapter~3*. **Seven chapter~3 files were touched this session** — `03.tex`, `03_01`, `03_02`, `03_03`, `03_04`, `03_09`, `03_10` — so the condition is satisfied several times over. **The record pass checked all three against the manuscript before applying anything, and all three have premises that no longer hold.**

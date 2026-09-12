@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-12 after D-288 (P187): the September 12 Overleaf return is in, with its structure, and the book is 89 sections, 64,530 words and 137 pages.**
+
+**The suite is green** — structure, generated files, cross-references, typography and the names guard — **for the first time since D-263**, so `git commit -s` works here again without `--no-verify`. `build_tex.sh` builds 137 pages with zero undefined references and zero undefined citations.
+
+**What arrived was a 42 percent cut carried by new prose, and the author confirmed it before any of it was applied.** 110,842 words to 64,530; 132 sections to 89; 214 pages to 137. Chapter~3 loses 65 percent, chapter~11 73, chapter~5 68, chapter~6 61, chapter~4 60. **It is a rewrite and not a compression**: of the returned sentences over 60 characters, 98 percent of chapter~3's, 100 percent of chapters~4 and~5's and 85 percent of chapter~11's appear nowhere in the exported text. Chapters~2, 7, 8 and 12 come back substantially as they went, at 1 to 6 percent.
+
+**The prose has not been read.** This pass applied it, measured it, and made the structure consistent around it. What a green suite says is that the structure survived the trip.
+
+**The structural work the import refuses is done.** 43 section files removed, nine sections renumbered, and `renumber-map_2026-09-12.tsv` carries both. The nine: **3.9 and 3.10 moved up into the 3.7 and 3.8 slots**, which is a subject move and not a file move — `03_07.tex` and `03_08.tex` keep their names and carry what §3.9 and §3.10 carried, and the ledger rows moved with the subject. **6.1.1 to 6.1** was the author's own promotion, already in the returned label, and the one mismatch that stopped the import. Then 6.3 to 6.2, 6.4 to 6.3, 6.4.1 to 6.3.1, 6.4.4 to 6.3.2, 9.1.3 to 9.1.1, 10.6 to 10.5. **Two compatibility aliases came back and were removed**; the one live reference to `sec:9.1.5`, at `08_03_04.tex:19`, was retargeted to §9.1, where the claim it names survives.
+
+**The bibliography follows D-111's convention and refs.bib corresponds to the book again**: 341 entries to 192, all cited, with 147 moved to `unused_bibliography.bib`, which goes 60 to 209. **The Overleaf edit deleted two entries rather than leaving them uncited** — `patterson1982slavery` and `hartman1997scenes` — and both were restored from `HEAD` into the unused file. Social death and fungibility appear nowhere in the book now.
+
+**Three things were read and left for the author.** **Chapter~11 uses `\textbf` as a run-in label**, 41 instances across 7 of its 8 sections, where `style.md` §8 says the book does not use `\textbf` in prose at all; it is consistent enough to look deliberate. **§9.1 keeps one of its five subsections and §6.3 two of four**, both legal and both odd in a contents list. **Chapter~0's title came back as *Foreward***, a misspelling of *Foreword*, applied as returned because the heading is authoritative (D-011).
+
+**One repair is outside the import and is recorded as such**: the straight double quote at `01.tex:22`, last of the three `STATE.md` called a small fix somebody should make. The other two were in files this edit rewrote. Six ASCII dashes came back with the zip; 78 curly apostrophes and 19 unspaced em dashes were repaired on the D-189 precedent, both being uniform practice no checker enforces.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md` are hand reads** keyed to paragraphs, and about 47,000 words of those paragraphs are gone; they are not regenerable by a tool. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun. **`QUESTIONS.md`'s forty-one open questions were not checked against the new structure** and several name sections that no longer exist. **The proof pair is a book behind**: it is the 2026-09-10 pair at 214 pages, and the README still links it. **Q-087's 7 `\textit` survive** in `02_01_02.tex` and `02_02_03.tex`, files this edit did not touch. **`ledger.tsv`'s decisions column still stops at D-258.**
+
+**Measured:** 89 sections, **64,530 words**, **137 pages**. **233 cross-references** resolving against 89 labels, 192 bibliography entries, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-10 after D-287 (P186): the author's 51 inline annotations are enumerated, answered and gone, and the manuscript carries none.**
 
 **The standing warning at the top of this file is withdrawn, and read this instead.** Every prior lead since D-263 opened by saying *do not "fix" the failing suite*, because 27 of 29 typography violations were the author's own editorial notes. **Those notes have now been worked through and removed on the author's instruction, one pass, all 51.** `check_all.sh` still fails on typography, at **3 violations, and none of them is a note**: straight double quotes in the author's own prose at `01.tex:22`, `03.tex:15` and `03_04.tex:17`. The third was masked until now, because the checker reports one violation per line and that line also carried a note. **All three were left, and they are a small fix somebody should make.** `git commit -s --no-verify` is still what commits here.

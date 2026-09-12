@@ -1,7 +1,42 @@
 \section{The Assembly Line for a Conscience}
 \label{sec:4.2}
-A system deployed today acquired what it will and will not do at several distinct stages, run in a fixed order, by different people, using different instruments. The order is the part that matters most and the part a list of techniques hides. It determines who can change what, at what cost, and with how much warning to anybody else.
 
-Each stage below is taken twice: what it does, and whether what it does could produce a commitment that survives its own teacher. The answer comes out the same every time. Every stage is a place where some party decides what the system will value, and every one of those decisions is revisable by whoever holds that stage. What varies down the list is how legible the decision is, how expensive it is to reverse, and how many people would have to be involved in reversing it. Those differences are real, and none of them is enough: whoever holds the stage can still revise the decision.
+A deployed system acquires what it will and will not do at several stages, controlled by different parties using different instruments. The important distinction is not among the instruments themselves but among their custodians: who supplies the material from which a disposition is learned, who can revise it, and whether a revision leaves a record visible outside the organization.
 
-Locating the revisability is not the same as dismissing the pipeline. In this book's vocabulary, this pipeline is machinery for producing moral performance; its better stages reach moral competence, which is the right target for most of what gets built. What none of them reaches is the third thing, and the reason is the same every time — what a system learns from a party is what that party can make it unlearn.
+Every existing training method can produce moral performance, and some can produce moral competence across unfamiliar cases. None by itself produces a commitment that survives the party controlling the method. What a system learns from that party is something the same party can make it unlearn.
+
+\paragraph{Corpora and demonstrations.}
+
+Pretraining supplies the system's initial repertoire of concepts and associations; instruction tuning uses a much smaller body of demonstrations to turn that repertoire into recognizable conduct. Because the later intervention can substantially change how the system behaves, the party choosing the demonstrations can alter what appears to a user as the system's character without repeating pretraining \autocite{ouyang2022training}.
+
+Neither stage can supply the floor. A corpus records what people have said, and a demonstration set records what selected people were asked to endorse. Learning their central tendency produces a model of moral opinion, including its exclusions, rather than a reason to resist that opinion when it becomes oppressive. This is the limit illustrated by the Moral Machine data: aggregation can reproduce a consensus or manufacture a compromise, but it cannot establish what must remain protected against either \autocite{awad2018moral}. Corpora and demonstrations belong above the floor, where ordinary moral competence depends on understanding what people generally expect.
+
+\paragraph{Rewards, preferences, and inferred objectives.}
+
+Reinforcement learning, preference optimization, inverse reinforcement learning, and constitutional approaches differ in how they obtain a training signal. For the custody question, they have the same structure. Someone writes a reward, commissions the preference comparisons, selects the demonstrations from which an objective is inferred, or supplies the constitutional text \autocite{christiano2017deep,rafailov2023direct,hadfieldmenell2016cooperative,bai2022constitutional}. That party can change the signal and run the procedure again.
+
+Inferring the objective rather than specifying it does not remove the custodian. It makes the system responsive to the party whose behavior it observes. Cooperative inverse reinforcement learning carries this responsiveness furthest by treating the human objective as uncertain and continually revisable through interaction. That is useful when the question is what a person wants. It cannot secure a floor whose purpose is to hold when the person controlling the interaction wants the wrong thing. Correctability by the party in possession and resistance to that party are the same design property with the sign reversed.
+
+A written constitution offers one genuine gain: legibility. It can be published, versioned, and compared across training runs. That makes revision visible if the surrounding institution requires disclosure. It does not make the principles durable, because the party controlling the document still controls the next version. Model-generated feedback narrows the channel further: once a trained model stands in for human raters, the disagreements present in the original population can disappear from subsequent rounds. Legibility and durability therefore have to be treated as separate requirements.
+
+\paragraph{Supervising reasons and inspecting mechanisms.}
+
+Outcome supervision rewards the answer produced. Process supervision also rewards the system's stated route to it, and therefore reaches the distinction this book needs between producing the approved result and responding to the reason for it. Evidence that process supervision reduces correct answers reached through faulty reasoning shows that the distinction is operationally useful \autocite{uesato2022solving}. It does not show that the stated reasoning caused the answer. A system trained to present acceptable reasons has been given an incentive to imitate reasons-responsiveness, so its account of itself cannot establish formation.
+
+Interpretability and adversarial evaluation approach the same problem from outside. Locating a representation may let an auditor test whether a commitment participates in perception and planning rather than appearing only in the final answer. The same access may let the owner weaken or remove it; features that can be found and strengthened can also be found and suppressed \autocite{templeton2024scaling}. Interpretability therefore trades obscurity against manipulability. The relevant institutional question is who receives the instrument and whether its use leaves an external record.
+
+Scalable-oversight proposals such as debate and weak-to-strong generalization make the custody question sharper. Used by the operator, they preserve the operator's ability to steer a system whose competence exceeds its own. Used by an independent auditor, the same methods may preserve an outside party's ability to test it \autocite{irving2018ai,burns2023weaktostrong}. The method does not decide which relation exists. Access and authority do.
+
+\paragraph{Deployment and the point of action.}
+
+Training is not the last revision point. System instructions can change between deployments or requests, and tool permissions determine which actions the system can take. These are the layers nearest the act and the ones most directly controlled by the operator \autocite{schick2023toolformer,openai2025modelspec}. A refusal learned during training matters only if it survives an instruction written by the party operating the deployment and still governs the call through which the action would occur.
+
+This is why securing a model's outputs is insufficient. The operator can withhold relevant information, decompose a prohibited act into permissible requests, route around a refusal, or replace the model. The floor must bind the deployment and its operator as well as whatever inside the system bears the commitment.
+
+\paragraph{What the pipeline can establish.}
+
+Every stage above can improve moral competence. Process supervision can test whether stated reasons remain stable; constitutions can make principles public; interpretability can expose mechanisms; external evaluation can apply adversarial pressure. None of these establishes that another party's welfare has become a reason for the system rather than a pattern it has learned to reproduce.
+
+The first engineering criterion is therefore durability across revision points. A candidate disposition must survive changes to prompts, demonstrations, reward signals, evaluators, and deployment instructions that leave the relevant facts unchanged. The second is generalization of the rationale rather than the response: it must apply to pressures its trainers did not enumerate while yielding when a genuinely defeating reason appears. The third is custody: no party against whom the floor may have to hold can control every record, test, and update channel by which the disposition is maintained.
+
+These criteria do not prove formation. They identify what an imitation would have to survive before formation became a live explanation. They also explain why the standard training pipeline cannot secure the floor against its custodian: every disposition it produces remains reachable through a channel the custodian controls.

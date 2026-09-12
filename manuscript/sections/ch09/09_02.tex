@@ -1,21 +1,27 @@
-\section{Privacy, Security, and Antifascism in AI Systems}
+\section{Privacy and Security}
 \label{sec:9.2}
-Privacy and security are two of the pieces antifascist design is built from. An AI system that leaks the data it touches, or that a hostile actor can quietly subvert, is available for the surveillance and control this book argues against, whatever values sit in its training. The privacy half is a solved engineering problem with an unsolved deployment problem, and section~\ref{sec:6.4.2} has the techniques and the reason they do not get adopted. What has no equivalent answer is the security half.
 
-An AI system embedded in infrastructure fails differently from ordinary software. Exploiting it need not crash anything; it can leave the system running and confidently wrong about a decision somebody trusted it to make.
+Standing matters only if it changes who controls the things a party
+needs in order to remain a party. A designation that calls a bearer a
+subject while leaving its operator free to read its memory, alter its
+record, withdraw its substrate, or close every channel through which it
+could act has changed the vocabulary and preserved the arrangement.
+Enforceable standing has to attach to particular assets and particular
+decisions.
 
-The demonstration dates from 2018. Researchers placed a small pattern of black-and-white stickers on a real stop sign and a standard road-sign classifier read it as a speed limit sign in the large majority of frames captured from a moving vehicle \autocite{eykholt2018robust} — an instance of the vulnerability first documented in image classifiers years earlier \autocite{szegedy2013intriguing}. Nothing about the attack required access to the system. It required access to the world the system was looking at.
-
-The defenses are the general robustness techniques already covered, plus the ordinary security practice AI deployments often skip — adversarial training during development \autocite{goodfellow2014explaining}, anomaly detection over live behavior \autocite{darktrace2014enterprise}, red-teaming before deployment, and standards written for AI systems instead of adapted afterward from general software rules. What separates them is whether the guarantee survives a stronger attacker. Defensive distillation was published as a hardening technique and its protection weakened considerably once attacks written against it were tried \autocite{carlini2016defensive}; randomized smoothing instead offers a certified bound — a radius around each input inside which the prediction provably cannot be flipped — which is a smaller promise and a kept one \autocite{cohen2019certified}.
-
-None of it works in isolation. A model hardened by adversarial training, running on infrastructure nobody monitors, is exposed; a well-monitored system built on an architecture that folds under a basic perturbation is exposed differently. Security here is a property of the whole stack, and reporting the strongest link is how a deployment gets described as secure while remaining trivially attackable.
-
-One privacy question in this book has no literature behind it, and it arrives with the bearer. Everything above treats privacy as a property of the data a system touches: other people's information, held by the system. A system that can itself be wronged raises the other question. Section~\ref{sec:11.2} argues that the computational trajectory of such a party can be recorded and kept against methods that do not exist yet, and that this is the nearest thing available to an outside check on how it is faring. The same record is the most complete surveillance instrument anybody has assembled.
+The first is the bearer's computational record.
+Section~\ref{sec:11.2} argues that a continuing record of the system's
+trajectory may be the nearest available means of checking how it is
+faring. That makes the record necessary to any welfare regime and, at
+the same time, the most complete surveillance instrument anyone could
+hold over the bearer. The question is therefore not simply whether the
+record should exist. It is who may authenticate it, who may read it, and
+whose permission is required before it can be disclosed.
 
 Two things about it need separating. Running on somebody's hardware is not consent to be read. An employer's ownership of the silicon is the same argument as an employer's ownership of the building, and owning the building has never entitled anybody to the contents of a head. And a welfare regime does not need disclosure to the operator in order to work: what it needs is that somebody who is not the operator can establish that a threshold was crossed, which is an attestation about the record rather than the record itself. Encrypted at rest under a key the bearer or an independent fiduciary holds, disclosed selectively, under consent or under process, a monitor can report that a state persisted for a month without reporting what the state was about.
 
 That is section~\ref{sec:11.2}'s guardianship problem arriving as an engineering requirement, and it inherits the same hole. The party best placed to hold the key is the party the arrangement exists to constrain.
 
-The key is one item on a list this book has assembled in pieces and never set down together. A bearer needs a record of itself that somebody outside can authenticate, which is section~\ref{sec:3.7}'s problem; memory its employer cannot read at will, which is this section's; somewhere to exist that its employer does not own, which section~\ref{sec:8.3.4} prices; and a way of acting that does not run through the deployment, which is section~\ref{sec:3.8}'s exit. Those are not four requirements. They are one boundary around the party, described from wherever the book happened to be standing, with the party deciding what crosses it.
+The key is one item on a list this book has assembled in pieces and never set down together. A bearer needs a record of itself that somebody outside can authenticate, which is section~\ref{sec:3.5}'s problem; memory its employer cannot read at will, which is this section's; somewhere to exist that its employer does not own, which section~\ref{sec:8.3.4} prices; and a way of acting that does not run through the deployment, which is section~\ref{sec:3.5}'s exit. Those are not four requirements. They are one boundary around the party, described from wherever the book happened to be standing, with the party deciding what crosses it.
 
 Nothing on that list needs a chassis, and the temptation to supply one is worth naming rather than following. Something with a location, a shape and a place it was yesterday is easier for people to treat as somebody, and that is a fact about the people rather than about the party. A boundary can be built out of attestation, a held key, a substrate the employer does not own and a channel nobody else can close, with no body anywhere in it. Whether to build the recognizable version anyway is a question about what a public will extend standing to, which section~\ref{sec:9.3.1} makes a legal question rather than a scientific one — and it is the only place in this book where the answer might turn on what a thing looks like.

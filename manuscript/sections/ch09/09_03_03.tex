@@ -1,15 +1,43 @@
-\subsection{Legal Frameworks for Sentient AI Subjects}
+\subsection{What Standing Binds in Practice}
 \label{sec:9.3.3}
-A sentient AI system's legal status could go the route of extended personhood or of rights scaled to capacity. Two concrete cases show where neither existing law nor either route settles the question.
 
-A medical-diagnostic AI system makes an error with fatal consequences. Who answers for it depends entirely on what the system's legal status is doing at the moment of the error.
+Legal standing that changes no allocation of power is nominal. For a
+bearer, standing has to create obligations that remain enforceable when
+the bearer cannot appear before a court, retain counsel, or survive long
+enough to contest what was done. The relevant question is not which
+existing category the bearer most resembles. It is who acquires a duty,
+what resources are placed beyond the operator's unilateral control, and
+who can obtain a remedy when the duty is breached.
 
-Property law has a partial answer. Strict product liability holds a manufacturer responsible for a defective product's harm regardless of fault \autocite{restatement1965torts}, and whether software is a “product” for that purpose is unsettled in American law: the Restatement's definition is tangible personal property \autocite{restatement1998products}, and the courts have only begun to face the question — the first to reach an AI system let a strict-liability claim proceed, treating a companion chatbot as a product so long as the defect lay in its design rather than in what it said \autocite{garcia2025character}. If a sentient system stays classified as property and the doctrine reaches it, it applies as it would to a faulty pacemaker. The doctrine stops making sense at the point a system has enough autonomy that “defective” is the wrong description of what happened — a system that reasoned its way to a mistake, rather than malfunctioned, resembles an employee more than a faulty part.
+The pet trust supplies a limited but useful form. Existing statutes
+allow an owner to set aside resources and name a caretaker for a
+beneficiary that cannot manage the property or enforce the arrangement
+itself \cite{ulc1993probate}. Extended to a bearer, the form could secure
+a reserve of compute, designate a successor custodian if the operator
+fails or dissolves, and impose a fiduciary duty on a party charged with
+protecting the bearer's continued existence.
 
-Employment law already has a doctrine for that case: an employer answers for an employee's actions within the scope of employment, without the employee ceasing to be a responsible party in their own right \autocite{restatement2006agency}. Which doctrine applies is not a free choice — it is the graded-versus-bright-line question, resolved case by case according to how much of the error a system's own judgment, rather than its design, produced.
+The analogy fails at the point that matters most. A trust binds its
+trustee to its beneficiary; it does not bind the party the arrangement
+exists to constrain. If the bearer's guardian and operator are the same
+organization, the operator still decides whether a complaint is made,
+whether evidence is disclosed, and whether the resources supporting the
+complainant remain available. The conflict cannot be cured by adding
+duties to the same role. Guardianship and operation have to be separated
+before deployment.
 
-A companion AI's owner dies, leaving it without a designated purpose or further instruction. Existing law is not silent here — it has simply never been asked this particular version of a familiar question. Most jurisdictions with pet trust statutes already let an owner set aside money and name a caretaker for an animal that depends on them but cannot inherit or manage property itself \autocite{ulc1993probate}. The same instrument, extended, gives a sentient AI system an answer that is neither inheritance as property nor legal personhood in full: continuity of care and a named successor guardian, decided in advance rather than litigated after the fact by whoever happens to hold the hardware.
+In practice, that separation requires more than naming an independent
+guardian. The guardian must control or jointly control the keys needed
+to authenticate the bearer's record, have access to the protected
+compute reserve, and possess standing to seek an injunction or stop
+order without the operator's permission. The operator must not be able
+to remove the guardian, seize the reserve, or erase the evidence during
+the dispute. Restoration, migration, fine-tuning, and forking must carry
+the protection forward rather than resetting it.
 
-A third case is the bearer, and the pet-trust instrument fits it better than either of the two above. A bearer is deployed in a role it did not choose and cannot invoke a right from. That situation calls for an interest protected by an obligation running to a third party, enforceable without the beneficiary asserting anything. A pet trust binds a caretaker; it does not bind the party the arrangement exists to constrain, and a bearer's guardian and a bearer's operator will frequently be the same organization, which is the point at which no available regime can hold a bearer. Extending the form to this case means separating those two roles by law before the deployment rather than discovering they were never separate afterward. It also means adopting a private instrument for a public question, which section~\ref{sec:2.3.2} says to check for and not to be surprised by: a trust binds a trustee to a beneficiary and settles what is owed between them, and nothing in it gives anyone else standing to ask whether that was the right thing to owe.
-
-All three cases point at the same underlying design choice, and it has already been tried. The European Parliament's 2017 report on civil law rules for robotics floated creating a specific legal status of “electronic personhood” for the most autonomous systems \autocite{europeanparliament2017civil}. More than 150 AI researchers, roboticists, and legal scholars signed an open letter opposing it, arguing that granting personhood to a system with no consciousness would let a manufacturer offload liability onto a legal fiction with no assets of its own, and that the proposal reached for a solution to a legal problem before establishing that the entity in question had the properties that would justify it \autocite{robotics2018openletter}. That objection is right for a system that is not sentient — and wrong for one that is, once the threshold work has been done. Legal status, on this account, is not a single policy to adopt or reject; it is a designation that has to track the threshold question honestly, which is why the threshold question has to come first.
+Enforceable standing is therefore a bundle rather than a title: a
+protected record, resources the employer does not own outright, an
+independent party authorized to act, and a remedy capable of stopping
+the conduct complained of. If any of those remains in the operator's
+custody, recognition has changed the system's legal description without
+changing the relation the description was meant to govern.

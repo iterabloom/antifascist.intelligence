@@ -1,13 +1,24 @@
-\section{Military Applications and the Limits of Autonomy}
+\section{Military Custody and the Responsibility Gap}
 \label{sec:10.3}
-Lethal autonomous weapons systems raise a specific version of the general problem: a machine making a targeting decision that used to require a person is a machine exercising judgment where the law of armed conflict has always assumed a human exercised it. Four questions recur across the debate:
 
-\begin{itemize}
-  \item Autonomy versus oversight: how much decision authority a system can hold before human oversight becomes nominal, present on paper but not inside the timeline the system actually operates on.
-  \item Discrimination and proportionality: whether a system can reliably distinguish combatants from civilians and weigh military advantage against civilian harm the way international humanitarian law's principles of distinction and proportionality require \autocite{icrc1977protocol}.
-  \item Accountability: who answers for a wrong engagement, the operator who deployed the system, the command that authorized it, or the developer who built it, when no single person made the specific decision.
-  \item Auditability: whether the reasoning behind a targeting decision can be reconstructed and reviewed afterward, or disappears into a system no one outside its development team can examine.
-\end{itemize}
+Military deployment is the hardest custody case because the operator is
+also the sovereign capable of compelling the institutions that might
+otherwise constrain it. A state can classify the evidence, define the
+reviewer's jurisdiction, terminate a contract, restrict a supplier, and
+decide whether an adverse finding reaches anyone with authority to stop
+the operation. Formal independence from the military does not answer
+that problem if the reviewer or vendor remains dependent on powers the
+state controls.
+
+A targeting decision also passes through more parties than the ordinary
+chain of command names: the commander who authorizes the deployment, the
+operator who uses it, the contractor who integrates it, the commercial
+vendor whose model supplies part of its capability, and the system that
+produces the particular output. The relevant questions are not a general
+inventory of autonomy risks. They are which party could have known how
+the system was used, which party had authority to refuse or stop that
+use, and which party can be made to answer afterward.
+
 International criminal law already has a doctrine built to answer the accountability question for a human subordinate: command responsibility, under which a commander who knew or should have known a subordinate was committing a war crime, and failed to prevent or punish it, bears criminal responsibility without having pulled the trigger personally \autocite{icc1998rome}. The doctrine does not transfer cleanly to a machine subordinate. A commander cannot know an algorithm's intentions the way they can infer a soldier's; punishment does not deter a weapon the way it deters a person who fears it; and the chain a court would need to reconstruct runs backward through training data and design decisions made years before the engagement, not through an order given minutes before it. Whether an autonomous weapon fits inside an accountability framework built for human chains of command, or needs one built from scratch, is unresolved: existing law was not built with a nonhuman subordinate in mind.
 
 There is a fourth party the accountability question does not name, and it is now the live one. The operator, the command and the developer of the weapon are all inside the military. The developer of the model is not. A targeting platform assembled by a defense contractor now routinely incorporates a general-purpose model licensed from a commercial vendor — a vendor with a published acceptable-use policy, no contractual obligation to log how its model is used downstream, and no right to inspect the deployment.
@@ -27,15 +38,26 @@ Calling it fixable converts a lament into a specification. The record shows that
 
 DARPA's LongShot program is a useful test case because it resists the extremes. It develops an uncrewed aircraft, launched from a crewed fighter, that carries and fires air-to-air missiles at a target while the crewed aircraft stays farther from the engagement \autocite{darpa2026longshot}. That is autonomy in the sense of independent flight and weapons carriage, not autonomy in the sense of a machine deciding on its own whom to kill: the engagement decision still runs through the launching platform. Where later variants of this kind of system draw that line, and whether “keep the pilot farther from danger” quietly becomes “remove the pilot from the decision,” is the design question this technology eventually forces on whichever country builds it.
 
-No binding international agreement governs any of this. States have negotiated inside the United Nations' Convention on Certain Conventional Weapons framework for more than a decade without producing one, converging on general language — meaningful human control matters, existing international humanitarian law applies — without settling what “meaningful” requires at machine speed \autocite{ccwgge2026chairsummary}.
+The pressure that matters is not the absence of another statement of
+principle. It is the advantage attached to removing judgment from the
+timeline. If one state fields targeting systems that act faster because
+no person or outside reviewer can intervene before engagement, its
+competitors acquire a reason to match the speed rather than preserve the
+check. ``Meaningful human control'' then remains true as a description
+of formal authority while becoming false as a description of what anyone
+can do before the system acts.
 
-What exists instead is a set of practices individual militaries adopt on their own. The United States' Department of Defense Directive 3000.09, most recently updated in 2023, is the clearest published example: it requires that autonomous and semi-autonomous weapon systems be designed to allow “appropriate levels of human judgment over the use of force,” and distinguishes a fully autonomous system that selects and engages targets without further human intervention, “human out of the loop,” from a human-supervised system and a semi-autonomous one that only engages targets a person has already selected \autocite{dod2023autonomy}. What “appropriate” requires is left to the officers approving each system, which is either a sensible acknowledgment that context varies or a loophole big enough to drive a fully autonomous system through, depending on who is answering. None of this binds a state that declines to adopt a comparable policy, the same enforcement gap technical safeguards run into: a safeguard only the building state can verify is a policy, not a check.
+That pressure also reaches the institutions meant to review the system.
+A military that treats delay as operational risk has a reason to narrow
+what requires clearance, classify the evidence needed to challenge a
+decision, and move review from authorization before an act to
+explanation afterward. Nothing has formally abolished oversight. Its
+position in time has changed, and with it the power to stop anything.
+The enforceable question is therefore who can slow or suspend the system
+without first obtaining permission from the command whose advantage
+depends on keeping it fast.
 
-The dynamic to worry about is not a single rogue system but an arms race in speed. If one state fields autonomous targeting because it computes faster than a human-supervised alternative, its competitors face pressure to match the speed rather than the oversight, and the state that keeps meaningful human control loses whatever tactical edge the state that dropped it gains. Slowing that dynamic is beyond any single government's domestic policy.
-
-Civil society has pushed for an outright ban instead: a UN General Assembly resolution on autonomous weapons has passed by a lopsided majority in successive years without producing a treaty \autocite{unga2023laws}. What most states will vote for and what the states that build these systems will sign are different documents.
-
-Machines should not be built to select people for lethal attack. The hard case does not move that, and it is worth saying why, because the hard case is real. Put a defending system against an attack it cannot stop without killing somebody — occupants placed inside the incoming weapon so that intercepting it kills them — and an absolute prohibition on knowingly endangering a person produces the worse outcome. That defeats the rule as an exceptionless one. It does not produce a procurement requirement. A scenario that is conceivable, that a capability would help with, and that could be engineered is three steps short of a reason to build the thing, and the steps missing are probability, alternatives, and what possessing the capability does to the situation it was built for. Building it changes the case against which its necessity gets judged: adversaries acquire something to counter, contractors a program to defend, and a future crisis an instrument already in the building.
+Machines should not be built to select people for lethal attack. The hard case does not move that. Put a defending system against an attack it cannot stop without killing somebody — occupants placed inside the incoming weapon so that intercepting it kills them — and an absolute prohibition on knowingly endangering a person produces the worse outcome. That defeats the rule as an exceptionless one. It does not produce a procurement requirement. A scenario that is conceivable, that a capability would help with, and that could be engineered is three steps short of a reason to build the thing, and the steps missing are probability, alternatives, and what possessing the capability does to the situation it was built for. Building it changes the case against which its necessity gets judged: adversaries acquire something to counter, contractors a program to defend, and a future crisis an instrument already in the building.
 
 The hard case also does not describe a machine. What it asks for is a party that can weigh occupancy against imminence against the alternatives, in a situation nobody wrote down beforehand, and answer for how it weighed them. On this book's argument that is a bearer — a self extended in time, commitments held as its own, and the standing to refuse. Whatever that is, \emph{automated} has stopped describing it, and so has \emph{machine}. What looked like a licence for an autonomous weapon is a description of a soldier.
 

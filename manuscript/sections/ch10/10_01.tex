@@ -1,28 +1,30 @@
-\section{Certification, Standards, and Mutual Recognition}
+\section{Authority Does Not Travel with the System}
 \label{sec:10.1}
-Nothing in AI governance converges toward a single global standard, and four regions have made four different bets inside their own borders. What crosses a border between any of them is narrower than a shared statute. It is a certification a handful of regulators agree to recognize, a technical standard a company adopts because a customer requires it, or a treaty obligation written at the level of human rights rather than of a specific rule. A fourth thing crosses more easily than any of them and binds nobody at all.
 
-\runin{Shared infrastructure, which binds nobody}
-Training data, safety techniques and researchers cross borders more easily than most engineering work does, and the layer that carries them is shared tools and shared publication norms rather than any agreement. OpenAI's release of Gym gave reinforcement-learning labs a common set of benchmark environments \autocite{brockman2016gym}, and what that produced is something no partnership can: results from organizations competing for the same funding and the same people became directly comparable, without anyone coordinating anything. The BigScience workshop ran the same logic larger, with more than a thousand researchers from over seventy countries building BLOOM, a 176-billion-parameter multilingual model released under a license written to restrict harmful use, its training data and code published for inspection \autocite{bigscience2022bloom}. Nothing compelled any of them to take part and nothing compels the next such effort to happen.
+A certification can cross a border. Authority cannot. A certificate may
+establish that a system was tested against a stated process, that an
+auditor inspected specified evidence, or that one regulator accepts
+another regulator's finding. None of those establishes that the party
+who selected the system's floor was entitled to select it for the people
+subject to the deployment.
 
-The mechanism's limit is what makes it useful. Infrastructure that binds nobody is available where nothing binding is: a lab in a country that has signed no convention can still train against the same benchmark and publish against the same baseline. It also stops at the resource line, because an institution without the compute to run the benchmark is outside the arrangement however open the arrangement is — a membership condition nobody wrote down.
+The question reopens wherever the system is deployed. A floor formed in
+one jurisdiction may arrive in another with the same prohibitions and a
+different operator, population, and distribution of power. Local
+adaptation does not resolve the problem by itself, because adaptation is
+another opportunity to amend the floor. What matters is who specified
+the change, who could contest it, and who can stop the deployment if the
+change places the protected party at risk. Adjustments chosen by the
+operating government and adjustments chosen by the people subject to the
+system may produce identical technical documentation while carrying
+opposite claims to legitimacy.
 
-\runin{A standard a customer requires}
-Underneath the treaty layer sits an older one built by engineers rather than diplomats. The IEEE's Ethically Aligned Design set out general principles for autonomous and intelligent systems and, more consequentially, the IEEE 7000 series that translates them into requirements a development team can test against \autocite{ieee2019eadand7000series}; the OECD's own AI Principles followed the same year \autocite{oecd2019aiprinciples}. ISO/IEC 42001, published in December 2023, took the layer further: the first management-system standard for AI, structured like the ones a company already uses for information security, specifying what an internal AI governance program must include and auditable by an accredited certification body \autocite{iso2023iec42001}.
-
-What a technical standard does that a treaty cannot is bind through the market rather than through a state's consent. A government uninterested in constraining AI has no reason to ratify a human-rights convention; a company that wants to sell to a customer requiring ISO 42001 has a reason regardless of what its home government thinks. A company operating entirely inside a market that never asks has no reason to seek certification either; certification establishes that a management system exists and not that anyone follows it with rigor; and it does not reach an authoritarian government's own systems at all, since those are built and used domestically with no export or customer relationship at stake.
-
-\runin{A certification other regulators recognize}
-The regions outside the four big ones diverge again. Canada regulates its own federal government's use of AI through a binding rule, the 2019 Directive on Automated Decision-Making, which requires an algorithmic impact assessment scaled to the stakes before a federal system can make or assist a decision about a person \autocite{tbs2019automated}; the statute meant to extend comparable obligations to private companies died with Parliament's prorogation in January 2025 and had not been reintroduced as of mid-2026. A framework depending on one government's survival is a fragile thing for a trading partner to harmonize with. Singapore took the opposite bet: no statute, a voluntary Model AI Governance Framework \autocite{pdpc2020model}, and since 2022 a companion toolkit letting a company test its own system against the framework and publish the result — guidance backed by no regulator's mandate at all, only the pressure of a public test result.
-
-Where harmonization is actually happening, it is narrower than either. In March 2022 the US Department of Commerce and Singapore's authorities agreed to align their AI governance frameworks and expand Singapore's participation in APEC's Cross-Border Privacy Rules System, a certification that lets a company meet one standard and have every participating economy recognize it \autocite{commerce2022singapore}. Harmonization in practice is not a shared global framework but a small set of governments willing to certify to the same standard and to accept each other's certificates.
-
-\runin{Where collaboration reaches, and where the claims get easier}
-Research collaboration reaches furthest where the problem is inherently cross-border and one country's data is insufficient, and where it reaches, the standing cases run on data-sharing arrangements rather than on any algorithm or consortium. Where there is no such arrangement there is nothing to inspect and the claims get easier. None of it is evidence that collaboration works the way the treaty layer aspires to, because each case ran on the participants choosing to participate, project by project, with nothing binding the next one to happen. And participating constrains nothing else a government does: a state can fund cross-border health research and separately build mass biometric surveillance, using the same underlying capability.
-
-\runin{Adaptation, and the test that separates it from an alibi}
-What crosses a border gets adapted when it arrives. Responding to the actual needs and values of a community is a design constraint: a system developed where individual autonomy is the default good may need rebuilding where group harmony is. What it must not become is the claim that a population has culturally consented to whatever is done to it — that surveillance is acceptable in a country because harmony is a value there. The two collapse into each other where a government wants them to, and they are indistinguishable in the design itself.
-
-They are distinguishable in who did the adapting, which is testable from outside. A system whose local adjustments were specified by the people subject to it has been adapted. A system whose local adjustments were specified by the government that will operate it is something else, and both produce identical documentation. That is the formation mechanism at a smaller scale: whoever specifies what a system will hold decides what it holds. The AI4D program is an instance at scale — a partnership between Canada's development research centre and Sweden's development agency, later extended with the UK's into South and Southeast Asia and the Pacific \autocite{idrc2024ai4d} — and what carries the weight is the direction of the work: local researchers and practitioners building the system rather than receiving one built elsewhere and configured on their behalf.
-
-The same test explains why inclusion is a performance requirement here and not an ethical addition. A healthcare system built around the assumptions of a well-funded hospital underperforms everywhere else, and an education system built around one learning style serves only the learners who already fit it. Both are failures of adaptation by the standard just given: somebody specified a local context, and it was not the context the system was deployed into.
+Mutual recognition can reduce duplicated inspection. Technical
+standards can make evidence legible to more than one regulator. Neither
+supplies standing or enforcement where none existed. International
+governance matters to this argument only when it assigns a party access
+to evidence, authority to compel a change, or power to stop a deployment
+against the wishes of the state or company operating it. The cases that
+follow ask where those powers go when AI is treated as national
+infrastructure, placed inside a military chain of command, or directed
+at people outside the institutions meant to constrain it.

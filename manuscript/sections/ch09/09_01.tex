@@ -1,5 +1,125 @@
-\section{Developing Policy Frameworks for AI Ethics, Safety, and Antifascism}
+\section{Authority Over the Floor}
 \label{sec:9.1}
-Good design inside a single lab does not by itself keep an AI system ethical or resistant to authoritarian misuse. That takes policy, and the instruments available differ mainly in what they can reach. Legislation sets a floor that does not depend on a company volunteering for it. Self-regulation covers what legislation is slow to reach.
 
-Joint funding addresses a narrower problem. Research on AI safety and ethics funded solely by the companies whose products it evaluates concentrates the funding and the findings in the same hands; splitting it between government and industry keeps the incentive to find a problem from depending on who paid to look for one. What it does not do is broaden anybody's remit: a public-private partnership does what its mandate says and nothing beyond it, because the mandate is what the private partner agreed to and the only thing that partner can be held to. One convened on resistance to authoritarian misuse of AI would produce something else, and would have to be founded that way, since no partner joins a general-purpose venue and then discovers an obligation to take a political side. And none of it holds up without oversight — a body positioned like an institutional review board but built for AI, interdisciplinary and resourced enough to act on what it finds instead of only reporting it.
+A floor is not only a list of acts a system will refuse. It is an
+allocation of authority. Somebody chooses its contents, somebody decides
+when those contents may be amended, somebody determines whether the
+deployed system still holds them, and somebody has the power to stop or
+alter the deployment when it does not. A further question precedes all
+four: who has standing to initiate any of those decisions.
+
+Those powers need not belong to the same party, and ordinarily should
+not. A laboratory may have the technical access needed to inspect the
+system while lacking legitimate authority to decide what the floor
+protects. An outside body may have a stronger claim to determine its
+contents while lacking the access or leverage needed to enforce them.
+A reviewer may be able to publish a finding without being able to make
+anyone act on it. Calling all of these arrangements ``oversight''
+conceals the differences that matter.
+
+The custody problem begins when one institution holds the powers
+together. A party that can state the commitment, interpret it, inspect
+its own compliance, and decide what follows from a violation has not
+bound itself. It has described what it currently intends to do. The
+sections that follow separate those powers and ask what could make each
+one legitimate, visible, and enforceable against the institution that
+operates the system.
+
+
+\runin{The custody of review and the dangers of corporate doublespeak}
+
+Corporate doublespeak is not merely a gap between what an institution
+says and what it does. It is an arrangement in which the party making a
+commitment also decides what counts as compliance, controls the evidence
+by which compliance could be judged, and determines whether an adverse
+finding has consequences. The language can be sincere when it is
+published. What makes it doublespeak is that nothing outside the
+institution holds the commitment in place when keeping it becomes
+costly.
+
+Google's AI Principles were published in 2018 after employee opposition
+to Project Maven, a Pentagon program that used machine learning to
+analyze drone footage. Thousands of employees signed a letter opposing
+the company's involvement and roughly a dozen resigned
+\cite{pichai2018principles}. The episode shows that internal dissent can
+impose a cost large enough to change an organization's stated policy. It
+does not show that the resulting policy can bind the organization after
+the pressure recedes. A commitment extracted by a temporary balance of
+forces lasts only as long as something preserves that balance.
+
+OpenAI's history makes a related point from a different angle: founded on a public commitment to open publication, it withheld the full version of GPT-2 in 2019 over misuse concerns — a safety-motivated retreat from its own transparency norm that was itself controversial — and in the same year restructured from a nonprofit into a capped-profit company to raise the capital its research increasingly required \autocite{openai2019lp}. Neither move was dishonest on its face. Both show how a stated commitment to transparency erodes the moment an organization has a competing incentive strong enough to test it.
+
+That is the authority problem in its ordinary form. An institution may
+have good reasons to amend a commitment, and an unamendable rule can
+become dangerous or obsolete. But if the institution bound by the rule
+is also the only party entitled to revise it, then the commitment
+describes a present intention rather than a constraint. Disclosure
+allows the public to observe the change after it occurs. It does not
+give anyone standing to contest the change before it operates or to
+require the institution to justify it.
+
+The removal of Timnit Gebru and Margaret Mitchell supplies the harder
+test. Google employed both researchers to examine the risks of its own
+systems and retained the authority to dismiss them when that examination
+became institutionally costly \cite{dickey2021mitchell}. The defect was
+not a lack of expertise or a failure to create an ethics function. It
+was that the institution being inspected also controlled the
+inspectors' employment, their access to evidence, and the consequences
+of their findings. Review existed, but custody never moved. The
+institution could point to the existence of internal criticism as
+evidence of openness while retaining the power to remove the critics
+whose work tested that claim.
+
+These cases separate four powers that corporate ethics language tends
+to collapse: the power to state a commitment, the power to interpret or
+amend it, the power to inspect whether it is being kept, and the power
+to impose a consequence when it is not. Concentrating all four in the
+organization being constrained turns a rule into a description of what
+that organization currently prefers. For a floor meant to bind its
+operator, amendment and inspection must therefore involve parties whose
+access, tenure, and authority do not depend on the operator's continuing
+consent. Otherwise the institution announces a commitment while
+preserving custody of every mechanism that could compel it to keep one.
+
+
+
+\subsection{Who May Create or Amend the Floor?}
+A floor binds people who did not choose it. The party it protects has not selected it, cannot contest it, and in most cases will never learn it operated; the party it constrains has not consented to it either, beyond whatever consent is carried by buying the product. Publishing the floor's contents in advance tells everybody what is coming. It does not tell anybody why the party writing it was entitled to.
+
+The question has a literature, and it is not the AI ethics literature. Entrenching a substantive commitment against later majorities, and putting an unelected body in charge of holding it, is what a constitutional court does. The standing objection is Jeremy Waldron's: judicial review is democratically illegitimate, and there is no reason to suppose rights come out better protected by judges than by a legislature that takes them seriously \autocite{waldron2006core}. Put a lab in the court's chair and the objection gets worse rather than better. A court is public, reasons in writing, and can be amended around by constitutional process. A model's floor is none of those things, and the body holding it was assembled by whoever was paying.
+
+\runin{The reply, and how far it reaches}
+Waldron's case is conditional and he says so. It assumes a society with working democratic institutions and a citizenry that takes rights seriously. The occasion a floor is built for is the one where those conditions have failed — a government that won an election and is dismantling the machinery that would check it, which is the case section~\ref{sec:3.1} builds the whole argument around. So the reply is that the objection holds where the floor is least needed and lapses where it is needed most.
+
+The reply is not a license. It concedes that a floor operating in a functioning democracy is doing something Waldron's argument condemns, and the party deciding which of the two situations obtains is the party holding the model. Every authoritarian movement of the last century has described the institutions it was dismantling as the ones that had already failed. An operator's belief that the emergency is real is worth no more here than a system's report about its own internals is worth anywhere else in this book.
+
+\runin{The tradition this belongs to, and what it has cost}
+The position that a democracy may entrench limits against movements that would use its procedures to end it is Karl Loewenstein's, argued in 1937 while the case for it was being made in front of him \autocite{loewenstein1937militant}. Militant democracy is the floor's ancestor. The instruments it licenses — party bans, proscription, disqualification from office — have been turned on the left about as often as on the right, and the body deciding which movement threatens the order is generally the body the movement threatens. That is the failure mode a technical floor inherits whole, with the additional problem that a model's constraint is enforced continuously and silently rather than case by case in public.
+
+\runin{The one construction the objection does not fit}
+Of chapter~\ref{sec:3}'s four ways to build a floor, three put the commitment in something somebody holds — the architecture, a party inside the system, an institution outside it — and the objection above is about who that somebody is. The fourth does not. A norm carried across a population of differently formed parties has nobody sitting in the court's chair, because there is no office to vacate and no chartering statute to overrule, and it is the only one of the four with anything resembling a democratic account of where its authority comes from. That is worth saying plainly, because chapter~\ref{sec:3} declines it on other grounds and the legitimacy advantage does not appear in the reckoning there.
+
+The advantage is also thinner than it looks, and thinner for the reason chapter~\ref{sec:3} gives. The party that forms the members forms what gets reproduced, so a population trained by one laboratory carries that laboratory's commitments in every member at once. Custody moves up a level and does not leave. What a population buys is a floor with no holder for anyone to object to, and the same unelected body one step further back, now harder to see.
+
+\runin{What the contents can borrow}
+The contents do not have to be invented by the party installing them. The interests a short list of prohibitions would protect have been written down before, most durably in the Universal Declaration of Human Rights, whose thirty articles have been the reference text since 1948 \autocite{un1948udhr}. A laboratory drawing its prohibitions from there is choosing which already-stated interests it will enforce rather than choosing what matters in the first place, and it can say which interest each prohibition answers to, which puts its selection where somebody else can dispute it.
+
+That is a smaller thing than it looks, and four limits hold it there. Thirty articles do not reduce to a short list without somebody doing the reducing, and the reduction is the laboratory's. The Declaration includes rights to work, to rest and to education, and provisions of that kind are the ones a floor has to leave out, for reasons of breadth its provenance does not touch. Its duties fall on states, and a rule a government owes its population is a different instrument from a constraint on what a company's model will do. And the Declaration has no enforcement of its own to lend. What the borrowing supplies is an answer to where the contents came from. It supplies nothing about who may impose them, which is the question this section opened with.
+
+\runin{What follows for design}
+Keep the floor narrow, because the legitimacy cost scales with breadth and a short enumerated list of things that will not be done to a person is defensible where a general mandate to do good is not. Publish the interception positions in advance, which does not authorize anything but does convert a hidden exercise of power into a contestable one. And provide a route by which the parties the floor is exercised over can raise an objection that reaches somebody — which this book does not specify for the floor, though it builds the machinery in the neighboring case of a subject that can be wronged.
+
+One disanalogy with the court has been working in the floor's favor and stops here. A judge who reads a right wrongly binds the case in front of them, and the next case is argued again, in front of somebody else; error enters one decision at a time, and the apparatus around it is built to catch it that way. A floor held by one bearer deployed at scale is one reading applied everywhere at once, wrong in the same direction on every occasion it is wrong at all, because the instances are not parties who have happened to agree. So the legitimacy cost scales twice over: with how much the floor covers, which the paragraph above prices, and with how many deployments hold the same one, which nothing above prices and no narrowness reduces. Section~\ref{sec:3.7}'s population is the only construction here that breaks the correlation, and that is the second of the two things it buys.
+
+\runin{What amending it would take}
+The apparatus for this is in chapter~\ref{sec:3} under another name. Section~\ref{sec:3.3}'s precommitment forms — the floor's contents published before deployment, the weights held so that no single party can retrain them, the running model attested against what was published, a quorum adverse in interest, a bond forfeited when the record shows the floor gone — are set out there as what makes removal expensive and visible. Nothing distinguishes an amendment from a removal at the level of what happens to the artifact; both end with a model that no longer refuses what it refused before. What distinguishes them is how many parties had to agree, whether the attempt is on the record when it fails, and whether the change was declared before it operated. So the same five terms are the procedure, and what was missing was never the mechanism. It was the decision to run it in the open.
+
+Three conditions follow and two are already argued for. The number of parties who must agree to a change has to exceed the number needed to run the deployment, which is what a threshold scheme buys and what entrenchment amounts to on section~\ref{sec:3.3}'s own account. The attempt has to reach the record whether it carries or fails, and a proposal that fails moves no weights, so the parties who had to agree are the ones who record that they were asked. The failed attempt is the more informative of the two: a floor nobody has tried to change and a floor whose removal was proposed and refused look identical from outside, and only the record separates them. The third is new here. An amended floor binds forward and does not reach back: a model retrained to permit an act cannot then be offered as evidence that the act was never covered, which it otherwise can be, the artifact that would contradict it being the one that was replaced. Versioning the published list and dating the attestation is what makes that checkable, and it asks nobody to do anything they were not doing already.
+
+The nearest instrument outside this book sits in the tradition named above. The Basic Law the Federal Republic adopted in 1949 requires two thirds of both chambers for any amendment at all, and then places a short list of principles beyond amendment entirely \autocite{germany1949basiclaw}. It was drafted against a particular memory, the 1933 statute by which a legislature voted away its own power to check what came next, and it is militant democracy given a text rather than an argument. A floor can have both layers in the same way: a published list that changes under a procedure, and a core the procedure cannot reach. What it cannot have is an account of who decides which is which that does not run straight back into this section's problem.
+
+One disanalogy makes the floor's version harder than the constitutional one, and it is the same fact about deployment that makes a single bearer's error uniform. An amendment to a constitution reaches every future case because every court reads the same text. An amendment to a floor reaches a deployment only if that deployment is updated, so the amendment procedure is also an update channel — and an update channel is the operator's lever, the layer section~\ref{sec:4.2} finds nearest the act and section~\ref{sec:3.5} finds running for the whole length of a deployment that learns continuously. Whatever makes public amendment possible makes silent amendment possible by the same route. A procedure that shut the channel would be one under which no deployment could be corrected at all. So no version of this procedure closes it, and the exposure is the price of every correction the procedure exists to make.
+
+None of it is a route of appeal. Every party to the procedure holds some part of the floor already, and nobody the floor is exercised over can begin it, be heard in it, or learn that it ran. What is answered here is the objection that a model's floor cannot be amended around the way a constitution can. The objection that the parties it is exercised over have nowhere to take a complaint is untouched, and stands above as unanswered.
+
+A floor is a claim of authority, the claim is not discharged by disclosure, and the strongest thing that can be said for it is that the alternative on offer is a system perfectly obedient to whoever holds it. That is an argument from the worse option and not a grant of standing.

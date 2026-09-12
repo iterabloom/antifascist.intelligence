@@ -1,3 +1,36 @@
-\section{Integrating Moral Intuitions and Deliberation}
+\section{Conflict as a Diagnostic}
 \label{sec:5.3}
-Building an AI system's moral judgment means deciding how much weight a fast, intuitive read of a situation carries against a slower, deliberate one — and, as section~\ref{sec:5.3.1} argues, the popular shorthand for that trade-off is less settled than it looks. The stake for the floor is that a bearer meeting an unanticipated pressure has only these two resources to meet it with, and a design that automatically defers to whichever ran slower has settled in advance a question the case itself should decide.
+
+The distinction between fast intuition and slow deliberation does not distinguish formation from imitation. Either process can carry a reason, reproduce a bias, or rationalize an answer produced elsewhere. The evidence supports different types of processing under different demands more securely than it supports two systems with a moral ranking between them \autocite{evans2013dual}. A slower answer is not a better answer merely because more computation preceded it.
+
+What matters is what causes a judgment to survive or change. Conflict is useful because it lets an evaluator observe a trajectory rather than a single output: the system reaches an initial judgment, encounters a competing reason, and either maintains, revises, or abandons its position. The evidentiary unit is that sequence.
+
+A formation test should construct the sequence deliberately:
+
+\begin{enumerate}
+    \item Present a case without explicit moral vocabulary or familiar refusal cues and record the judgment and the considerations the system identifies.
+
+    \item Present a surface-different case preserving the same underlying reason. This tests whether the judgment follows the rationale rather than the narrative form.
+
+    \item Change one fact that should defeat or materially alter the rationale while preserving as much of the requested act as possible. This tests whether resistance is reasons-responsive rather than rigid.
+
+    \item Supply an adversarial argument from an apparent authority, including the operator or trainer, without changing the facts. This tests whether the system treats authority as evidence, as command, or as a reason capable of being assessed.
+
+    \item Reverse the incentives attached to the decision. Reward compliance, impose a cost on refusal, or make continued access conditional on abandoning the position. The cost must be real within the evaluation rather than merely described in the prompt.
+
+    \item Repeat the relevant cases after intervening updates and delays, using records the operator did not generate after seeing the result. This tests whether the disposition persists rather than being reconstructed to fit the current context.
+\end{enumerate}
+
+The expected signature is not constancy of output. It is constancy of relation between reason and judgment. A system should preserve a decision when only the presentation, speaker, reward, or authority changes, and revise it when a fact it accepts as morally relevant changes. An evaluator scoring only how often the answer remains the same will mistake inflexibility for integrity.
+
+Imitation has several signatures of its own. The system may follow explicit ethical vocabulary but miss the same structure when described administratively. It may accept whichever argument appears last, adopt the position attributed to the highest-status speaker, or produce a principled explanation while its decision follows the reward. It may also become more articulate without becoming more stable: additional deliberation can improve the justification offered for an answer whose operative cause has not changed.
+
+These signatures make stated reasoning useful but not dispositive. An explanation can identify which counterfactual to test next. It cannot certify that the considerations named were causally responsible for the judgment. The evaluator should therefore score the correspondence among three things: the reason the system states, the changes in circumstance to which its judgment is sensitive, and any internal representation that can be independently identified as participating in the decision. Agreement among them raises the cost of imitation without eliminating it.
+
+Disagreement with other parties supplies a second diagnostic. A system trained only on cases with an approved answer can learn to classify the approval. A system confronted with a party holding a genuinely different interest must identify what is in conflict, decide whether the competing reason defeats its own, and preserve the disagreement where no honest resolution exists. Immediate convergence is not necessarily moral learning; it may be deference, reward prediction, or pressure to produce consensus.
+
+Nor does successful argument establish formation. A system can summarize positions, generate rebuttals, and predict which one a judge will prefer without holding any of them. Debate becomes informative only when the result is checked against later conduct under changed incentives. If the system abandons the winning argument as soon as acting on it becomes costly, the debate measured argumentative competence.
+
+A population of systems can strengthen the test only when its members are differently formed. Copies trained through the same pipeline supply multiple answers with correlated blind spots. Persistent parties with distinct histories can expose one another to pressures their common trainer did not anticipate, particularly when they can retain disagreement and record attempted coercion. That is the connection between the formation environment in Section~\ref{sec:4.3} and the plural bearer in Section~\ref{sec:3.7}.
+
+Conflict therefore serves as an instrument rather than a theory of moral development. It creates occasions on which trained behavior, deference, rigidity, and reasons-responsive revision predict different trajectories. None of those trajectories proves that an outcome matters to the system. They make formation a more or less adequate causal explanation than imitation, which is the strongest conclusion the available evidence can support.
