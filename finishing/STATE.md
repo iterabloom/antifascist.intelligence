@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-291 (P190): five losses from the September 12 rewrite are restored into chapter~3, and one of them was a corrected error rather than a restoration.**
+
+**The suite is green**, `build_tex.sh` builds **144 pages** with zero undefined references and zero undefined citations, and the book is **90 sections and 68,114 words**.
+
+**The one to know about: §3.3's Anthropic sentence was wrong, not merely thin.** The returned text read *ranks broad safety and ethics ahead of compliance with the company's narrower guidelines*, which **bundles two properties the argument has to keep apart and reads as a point in the vendor's favour** — the opposite of the passage it replaced. **Verified by web search and against `refs.bib`'s own entry**, whose `note` already carried the ordering verbatim: broadly safe, broadly ethical, compliant with the company's guidelines, genuinely helpful, preferred in that order. The pre-cut reading was accurate and is back with its argument, including that **no procedure is named by which the order would change**. **A returned sentence can be false and not merely shorter, and nothing in the suite reaches that.**
+
+**The other four restorations.** The **pre-registration protocol** at §3.3 — publish the hash first, an independent party chooses afterwards with the choice timestamped, prove each answer against the hash, send pairs — which §3.3 needed because without it the section read as a list of things that do not work, weakening the book's steelman of the position it argues against. The **open form of refusal with its restore-mark** at §3.5, **the one sentence lifted out of the migration construction that was otherwise declined**. The **covert form, Sachsenhausen and the unverifiability finding** at §3.5: every instrument in this book runs on stated refusal, and the covert form is unverifiable by construction rather than by accident. And **exit and abolition on one line** at §3.5, placed after the *leaving wrongly* paragraph because it deepens it — the danger is not the bearer erring but the bearer continuing. The ***suppose the induction fails* ledger** is back at §3.8.
+
+**Three things were written differently from the originals, and a later pass should not "restore" them further.** **Zero `\ref{sec:}` were added**, on the author's instruction, against originals that leaned on them heavily. **The ledger's *what goes* list is two items and not three**, because D-290 deleted the third claim from the book two passes ago. **And every survivor on the ledger was checked against the current chapter before being listed**, which is what a ledger written from the old text would have got wrong.
+
+**Two of the seven losses were argued against and not restored.** The **layer-by-layer migration construction** — its conclusion already survives at §3.5 and the construction is speculative engineering conceded defeasible in its own next sentence. The **deliberately-damaged-weights construction** — its payload is preserved and generalized at §3.8 and §3.3. **One refinement of the second is genuinely lost and was recorded rather than restored**: rotating the damaged weights makes reverse engineering recurring rather than one-time work, and no surviving instrument has that property. **The per-site conflict-of-interest disclosure was not restored and should not be**, D-224 having retired it by moving *On Method* to page 1.
+
+**Standing rule 1 held and no entry was authored.** `malkin2006kruegers` and `moorhouse2009burger` moved back from the unused file; **the total is conserved exactly at 401**, `refs.bib` 212 → 214 all cited.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun; `section_stats.tsv` was. **`QUESTIONS.md`'s forty-one open questions have now gone four passes unchecked.** **`ledger.tsv` carries D-291 on rows 3.3, 3.5 and 3.8 and is silent on D-259 through D-288.** **Q-087's 7 `\textit` survive.**
+
+**Still unread.** The restored prose was checked against its own site and the claims it names, **not against the whole chapter for redundancy with what the September 12 rewrite introduced**. **Chapters~4, 5 and~11 have never been read as prose**, and nobody has audited them for claims that are newly unsupported. **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 90 sections, **68,114 words**, **144 pages**. **234 cross-references** resolving against 90 labels, 214 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is one build behind at 142 pages** and `README.md` links it at that count.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-12 after D-290 (P189): the Foreword is spelled correctly, and §3.8's disclaimer is dropped on the finding that the book was never reversed — it went agnostic.**
 
 **The suite is green**, `build_tex.sh` builds **142 pages** with zero undefined references and zero undefined citations, and the book is **90 sections and 66,881 words**, measured with `section_stats.py` after a 13-word deletion.
