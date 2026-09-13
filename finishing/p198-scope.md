@@ -35,12 +35,22 @@ Its second sentence is cut: *It is the only test the definition gets, and whatev
 it is worth in the other eleven chapters is owed there.* The paragraph now stops
 after naming the three things chapter~7 runs the definition on.
 
-**Nothing downstream rested on it.** The arithmetic P196 verified — *the other
-eleven chapters*, against twelve numbered chapters — goes with the sentence, so
-that claim is no longer in the book and no longer needs to survive a
-restructuring. The claim that chapter~7 is the definition's only test is also
-gone; **§7.4 still makes the substance of it in its own voice**, at `:3`, *There
-is a third instance and it is the one this book is inside.*
+**Nothing downstream rested on it**, and the cut is better than a cut — it is a
+de-duplication. **Chapter~7's own opener carries the same claim almost verbatim**,
+at `07.tex:7`: *and this chapter is where the book does it. Everything the
+definition is worth in the other eleven chapters is owed here.* The Foreword
+sentence was that line restated from the front matter, so removing it is D-013's
+one-home rule rather than the retirement of a claim.
+
+**The arithmetic P196 verified therefore stays in the book**, at one site instead
+of two, and still has to survive any restructuring that changes the chapter count.
+**Nothing in the suite counts chapters against that phrase**, so a later pass has
+to find `07.tex:7` by reading.
+
+*(Corrected at D-300. This paragraph first said the arithmetic went out of the
+book with the sentence, and cited §7.4 `:3` rather than the chapter opener. The
+probe that caught it was run against the rebuilt HTML proof, expecting the phrase
+to be absent.)*
 
 ## Checked
 
