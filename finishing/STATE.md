@@ -20,7 +20,9 @@ Read this first. **Updated 2026-09-13 after D-296 (P195): chapter~11's numbering
 
 **Still unread.** **The September 13 prose is read and not audited** — nobody has checked it for redundancy against the chapters it draws on, where the remainder material lands at six sites written to be read in sequence. **Chapters~4, 5 and~11 have still never been read as prose**, and §11.6 is new prose inside one of them. **`QUESTIONS.md`'s forty-one open questions have now gone eight passes unchecked.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
 
-**Measured on the current tree:** 91 sections, **74,608 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+**The committed proof pair is this build.** `whole-book-proof_2026-09-13`, rebuilt in place again — the local date still had not rolled over — and `README.md` links it at 156 pages, which needed no edit because the renumber changed the contents and chapter~11's numbers without changing the page count. **A pair can go stale at a constant page count**, which is how the P194 pair looked current for one commit while its contents were wrong. The HTML has zero broken links and zero duplicated ids over 1,135 ids and 590 links.
+
+**Measured on the current tree:** 91 sections, **74,608 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green, tree clean, pushed.
 
 **Superseded lead, kept for the record.**
 
