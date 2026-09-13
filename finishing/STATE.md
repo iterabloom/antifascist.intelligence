@@ -18,7 +18,9 @@ Read this first. **Updated 2026-09-13 after D-293 (P193): the September 12 discu
 
 **Still unread.** **Chapters~4, 5 and~11 have never been read as prose**, and nobody has audited them for claims that are newly unsupported — though §4.1 was read closely this pass and is where the one-axis material went. **The new prose was checked against its own site and against the sections it names, and not against whole chapters for redundancy.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
 
-**Measured on the current tree:** 90 sections, **70,178 words**, **147 pages**, 234 cross-references resolving against 90 labels, 219 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is three pages and one pass behind** — `whole-book-proof_2026-09-13` at 144 pages — and `README.md` links it at that count.
+**Measured on the current tree:** 90 sections, **70,178 words**, **147 pages**, 234 cross-references resolving against 90 labels, 219 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is this build** — `whole-book-proof_2026-09-13`, rebuilt in place at 147 pages because the local date had not rolled over — and `README.md` links it at that count.
+
+**An Overleaf package went out and a return may be coming.** `antifascist-intelligence_2026-09-13.zip` was exported from `a8e4974` and uploaded, and the author confirmed both digests end to end. **Dry-run any returned zip before applying it**, and expect `\textit` where the book uses `\emph`: that has come back on every import so far and is Q-087, unresolved for five.
 
 **Superseded lead, kept for the record.**
 
