@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-293 (P193): the September 12 discussion is in the book, on twenty-one rulings the author gave one at a time, and three of them are corrections he made to what was put to him.**
+
+**The suite is green**, the book builds **147 pages**, and it is **90 sections and 70,178 words**. **`refs.bib` is 214 → 219**, every entry cited, zero undefined references and citations, **234 cross-references and none added**.
+
+**The three rulings that changed the most.** **The dependency argument he disowns in the transcript is gone from §2 and §8.3.4** — the need is physical, nobody installed it, the conatus and the electricity bill are one fact at two scales, and what is chosen is the arrangement through which one party comes to hold the whole supply. **The artifact argument was never his reason for preferring a jobs guarantee**, so §8.3.3 is rebuilt on the public option, the charter-school test, what employment carries besides money, anti-discrimination duties attaching to employment and not to income, and the right to produce against the right to consume; the record argument survives as the second reason and now meets an entrenched basic income instead of ducking it. **And the claim that exactly two of the five discriminators are unobservable from outside does not hold** — §2.1.2's own Eichmann case is the counterexample — so the count is dropped, and because the limit is a limit on an *outside* reader, §3.1 gains the diagnostic case for a bearer.
+
+**Two verified factual repairs.** §8.2.1 said no citizens' assembly had been convened on AI; three have, each now cited from its own source, and the Swiss one ran two weekends rather than the four days a search summary claimed. §2.2.1 stops asserting that DeepFace's registration explains *Gender Shades*'s error gradient across three other vendors' products, which is what §11.7 already states as a hypothesis.
+
+**Everything else that moved**: §2's striving claim split into a settled thermodynamic half and an open own-ness half; §2.2.2 and §9.2 naming the body schema and its politics; §3.4's convergence argument, which is the author's own and has none of §3.3's three admitted weaknesses; §3.7 and chapter~1 on what makes an intelligence antifascist as a capacity; §2.1.2's tempo claim grounded in Eco and marked as the book's rather than the field's; §4.1 naming the over-precise and over-revisable failures as one axis; §5.2's dial turned toward tuned contentment; §7.1's concept leakage and §7.2's personalization; §9.3.2's Replacement generalized to a bearer's own tools; §9.3.1's category fixed before the capacities arrived; §2.1.1's two powers and its concession on selection; and hedges at §10.3 and chapter~1 matching what other chapters already said.
+
+**One defect found in passing and repaired**: §8.3's forward pointer described §8.3.4 and cited §8.3.3. It resolves, so nothing in the suite reaches it.
+
+**§8.3.3 is retitled** *People Have a Right to Consume AND a Right to Produce* (D-294), the old title having named the argument this pass demoted to second. **One thing a later pass should know: the word estimate given before the work was low by about 900**: 900–1,100 was promised and +1,967 delivered, every item's own cost having been stated correctly.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun; `section_stats.py` was. **`QUESTIONS.md`'s forty-one open questions have now gone six passes unchecked.** **Q-087's 7 `\textit` survive.**
+
+**Still unread.** **Chapters~4, 5 and~11 have never been read as prose**, and nobody has audited them for claims that are newly unsupported — though §4.1 was read closely this pass and is where the one-axis material went. **The new prose was checked against its own site and against the sections it names, and not against whole chapters for redundancy.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 90 sections, **70,178 words**, **147 pages**, 234 cross-references resolving against 90 labels, 219 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is three pages and one pass behind** — `whole-book-proof_2026-09-13` at 144 pages — and `README.md` links it at that count.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-292 (P191): the damaged-weights construction is in §3.3's body, and it is there rather than in a footnote for a reason worth keeping.**
 
 **The suite is green**, the book builds **144 pages**, and it is **90 sections and 68,211 words**. **This pass added 97 words and moved nothing else. The lead below it is still the state of play, and everything open there is still open.**
