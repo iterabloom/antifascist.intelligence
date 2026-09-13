@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-12 after D-290 (P189): the Foreword is spelled correctly, and §3.8's disclaimer is dropped on the finding that the book was never reversed — it went agnostic.**
+
+**The suite is green**, `build_tex.sh` builds **142 pages** with zero undefined references and zero undefined citations, and the book is **90 sections and 66,881 words**, measured with `section_stats.py` after a 13-word deletion.
+
+**D-289's developmental finding was wrong as written and is withdrawn here.** It read *the book reversed its position on the developmental material without saying so*, and **the next pass would have repaired something that is not broken.** The comparison was between two different sites: old §3.10's successor is **§3.8**, D-288 having moved the subject there with `03_08.tex` keeping its filename and taking the ledger row, and **§5.1 is not its successor**. **§3.8 did not reverse the claim — it went agnostic**, handing chapters~4 and~5 two questions rather than an answer, in the author's own Overleaf prose at `3402bec` that P187 applied without reading. **§5.1's *taxonomy only* is the narrower Piaget/Kohlberg stage claim**, declined as a mechanism since D-037. Old §3.10's assertion was itself conditional: **D-144's budget already listed it among what comes off if the induction fails.**
+
+**What P188 did do, two commits before writing that finding, was cut the manuscript's one explicit agnostic marker** — §5.1's *Nothing here requires a developmental sequence, treats principled reasoning as a stage of maturity, or assumes that producing a principled explanation predicts principled conduct*, removed at `404fc4c`. Its stated reason covers the second clause and not the first.
+
+**The author declined the restoration and ruled the parallel deletion instead**, so the book is now agnostic **by not making the claim rather than by disclaiming it**, consistently at both sites. §3.8 loses *Neither chapter assumes that durability proves concern or that formation removes the custodian*. **Both halves are made downstream where they are argued** — `04_02.tex:18` near-verbatim for the custodian half, `04_02.tex:40–42` and §5.1 for the concern half — and chapter~4's opener re-makes the custody point about two hundred words later in reading order. **Nothing inbound rests on it.** **The silence is complete**: Piaget and Kohlberg are cited once in the book, at §5.1, as a taxonomy, and *developmental* survives once, at `11_06.tex:5`, unrelated.
+
+**The misspelling is fixed at four live sites** — `ch00/00.tex` three times, `ORDER.tsv`, `outline.tsv`, `ledger.tsv` — TOC regenerated, ORDER sha refreshed. It was corrected once before at D-257 and returned with the import. **Chapter 0's body prose always had it right.** **The five record files that quote it were left**, and **the committed proof pair still reads *Foreward*** in its HTML TOC and heading until a rebuild.
+
+**Three of P188's four findings stand untouched**: both sentences `style.md` §1 protects as the author's voice are still gone from the manuscript; D-261's irreverent title register is still partly reversed and the book still mixed; global inequality is still gone with nothing left behind.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun; `section_stats.tsv` was. **`QUESTIONS.md`'s forty-one open questions have now gone three passes unchecked** against the new structure. **`ledger.tsv`'s decisions column carries D-290 on the two rows this pass touched, 0 and 3.8, and is silent on D-259 through D-288.** **Q-087's 7 `\textit` survive.**
+
+**Still unread, and this pass did not change it.** **Nobody has audited the new chapters~3, 4, 5 and~11 for claims that are newly unsupported**, and the prose of those chapters is still unread as prose; the reading behind this pass was confined to one sentence and the passages that make its two claims elsewhere. **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file** and are recorded in their commit bodies only.
+
+**Measured on the current tree:** 90 sections, **66,881 words**, **142 pages**. **234 cross-references** resolving against 90 labels, 212 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is one build behind** — it is `07ccef5`'s 142-page build and does not carry the Foreword fix — and `README.md` links it at the right page count.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-12 after D-289 (P188): the September 12 return has been compared against what preceded it, and the six places where surviving text rested on cut material are repaired.**
 
 **The suite is green** and `build_tex.sh` builds **142 pages** with zero undefined references and zero undefined citations. The book is **90 sections and 66,894 words**, measured with `section_stats.py`.
