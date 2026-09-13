@@ -27,6 +27,7 @@ these files are the input, not the verdict.
 | `author-discussion_2026-09-06.txt` | The device a fourth time and much the longest, at 3,896 lines: chapter-by-chapter recaps of the book and the discussion that ran off them, from a language model shown the manuscript at its 187-page state, 2026-09-06. **Excerpted by the author.** Not a review — see below | P119 and P120 — `p119-scope.md`, `p120-scope.md`, D-217 to D-220 |
 | `author-discussion_2026-09-07.txt` | The device a fifth time and much the shortest, at 374 lines: one critical review of the whole book and four author turns against it, from a language model shown the manuscript at its 188-page state, 2026-09-07. Not a review in the numbered series — see below | P121 to P123 — `p121-scope.md`, `p122-scope.md`, `p123-scope.md`, D-221 to D-223 |
 | `author-discussion_2026-09-09.txt` | The device a sixth time, at 600 lines: one review of the whole manuscript and fourteen author turns arguing with it, from a language model shown a pre-P158 manuscript, 2026-09-09. Not a review in the numbered series — see below | P158 — `p158-scope.md`, D-258 |
+| `author-discussion_2026-09-12.md` | The device a seventh time, at 2,140 lines: one review of the whole manuscript and twenty-five author turns that leave it, from a language model shown `07ccef5`, 2026-09-12. Not a review in the numbered series, and mostly not about the book — see below | P192 — `p192-scope.md` |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -69,7 +70,7 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**Six files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+**Seven files here are not reviews.** `author-discussion_2026-08-28.txt` is a
 transcript of the author thinking aloud with a language model that had been given
 the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
 are the author's; the completions are the model's. It is kept for the same reason
@@ -149,5 +150,34 @@ written the day before are both named in it, so its cut estimates are costed aga
 And **four of its five objections describe passages that already exist**; D-221 lists them so a later pass does not
 reopen them, and `p121-scope.md` records which of its findings were live. Its factual claims are a model's until a
 source is opened.
+
+`author-discussion_2026-09-12.md` is the device a seventh time and the one that
+leaves the book. The first completion is a review of the whole manuscript in the
+shape the previous six took; from the second prompt on it is a theory
+conversation — machine embodiment and body schemas, whether compute precarity is
+political, vector prices and concept bottlenecks, Deleuze on desire and molecular
+fascism, the curse of dimensionality, and active inference — and the manuscript
+reappears only where the author or the model puts it there. **Only the attached
+manuscript is omitted**, marked in the author's own bracket on line 3; nothing
+else is excerpted. The author's turns are dictated and are kept as transcribed.
+
+Three things about it are worth having in front of anyone who opens it. **Which
+draft it saw is the author's statement and is not derivable from the file** — he
+supplied it as `07ccef5`, and the file quotes no passage that distinguishes that
+commit from the ones either side of it. **The author argues against the book in
+it**, disowning chapter~2's dependency argument in the sixth prompt and building
+the replacement over the two exchanges after it; that passage was still in the
+manuscript at §2 and §8.3.4 when the file was written. And **its central
+criticism of the affect argument was aimed at a chapter that has since
+changed**: §3.8's *suppose the induction fails* ledger, restored at P190, answers
+the oscillation the review describes, and `07ccef5` did not carry it.
+
+What was taken is in `p192-scope.md`, which changed no prose. **Two of its
+factual corrections were verified against sources and hold** — the citizens'
+assemblies at §8.2.1 and the *Gender Shades* vendors at §2.2.1 — and one of its
+section references, to a §6.4, points at no section in this draft or any adjacent
+one. Its other factual claims are a model's until a source is opened. The real
+people it names are named as scholars, which is ordinary citation under
+`AGENTS.md`.
 
 `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
