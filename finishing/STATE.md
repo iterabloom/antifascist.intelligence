@@ -1,5 +1,17 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-292 (P191): the damaged-weights construction is in §3.3's body, and it is there rather than in a footnote for a reason worth keeping.**
+
+**The suite is green**, the book builds **144 pages**, and it is **90 sections and 68,211 words**. **This pass added 97 words and moved nothing else. The lead below it is still the state of play, and everything open there is still open.**
+
+**The manuscript has no footnotes** — zero `\footnote` across 90 sections — and **`style.md` §2a names the move**: a passage that cannot finish *the argument I am making would be harder to understand or believe without this, because…* is "cut. **Not compressed, not moved to a footnote** — cut." The style sheet offers two destinations and a footnote is neither. **A later pass asked for a footnote should say so before making the book's first one.**
+
+**The refinement earns the body on §2a's own test.** §3.3's precommitment paragraph claims precommitment changes what editing costs, and every other instrument named there makes that cost one-time. This is the only one that makes it recurring, which is what turns an attack into a decision somebody has to keep making.
+
+**Measured on the current tree:** 90 sections, **68,211 words**, **144 pages**. **234 cross-references**, 214 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is two builds behind at 142 pages** and `README.md` links it at that count.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-291 (P190): five losses from the September 12 rewrite are restored into chapter~3, and one of them was a corrected error rather than a restoration.**
 
 **The suite is green**, `build_tex.sh` builds **144 pages** with zero undefined references and zero undefined citations, and the book is **90 sections and 68,114 words**.
