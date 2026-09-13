@@ -1,5 +1,31 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-298 (P197): the previous pass's central finding was wrong, and the author's Foreword text is restored as he wrote it.**
+
+**The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,684 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
+
+**D-297 reported that the Foreword's *thirteen thousand names in thirty-eight days* was unsupported and contradicted the book. It is exact, and the book states it twice.** §6.3.1 `:60` — *Thirty-eight days in, the figure given by the Pentagon's chief digital and artificial intelligence officer was thirteen thousand targets* — and §3.6 `:68` — *Reporting on the 2026 Iran campaign describes thirteen thousand targets in thirty-eight days.* **`breakingdefense2026maven`'s own note carries the quotation it comes from and records it as verified 2026-09-07.** The clause is restored verbatim, and the author's ruling in P196, given on a false premise, is not treated as a ruling on the restored text.
+
+**How it went wrong, because the mechanism is reusable.** The first grep did find both passages and its output was piped through `cut -c1-230`, **which cut every line before the matched text**. What stayed visible was a third hit — §6.3.1 `:14`, the Lavender box and its 37,000, a different system, a different war and a different unit of count — and the finding was built on that. **Two web searches then ran on Lavender and Gaza, which is not what the clause is about**, and came back consistent, which read as confirmation. **Do not truncate the output of the grep that is deciding whether a claim is supported**, and grep the manuscript for the author's own words before searching the web for someone else's.
+
+**One distinction is open and was deliberately not changed.** The sources and the book say ***targets***; the Foreword says ***names***. In this book that difference carries weight — §6.3.1 separates Habsora, which marks buildings and structures, from Lavender, which marks people and puts them on a kill list, and the Maven figure is a target count. **Whether *names* is the intended rhetorical move is the author's to say.**
+
+**Everything else from P196 stands.** The Foreword is the author's new one, 176 → 249 words, six paragraphs for the previous seven. `Chapter 7` is `Chapter~\ref{sec:7}` — required, `check_xrefs.py`'s `BARE` rule matching `[Cc]hapters?\s*\d` — and the spaced hyphen in *raising a child - in other words* is an em dash per `style.md` §8. **The suite cannot see that second one**: `check_typography.py` tests for `--` and `---`, and a lone spaced hyphen is neither, so it would have printed as a hyphen. **A later pass taking author text in should apply both by hand.**
+
+**Verified and holding**: chapter~7 runs the definition on the machinery (§7.1, §7.2), on the field (§7.4) and on this book (§7.4 `:34`); *the other eleven chapters* is right; `\url` resolves.
+
+**Q-111 is unchanged and this is now the passage a ruling on it would edit.** The persona device is still named nowhere in the book. **D-008 originally called for a note that names it.**
+
+**`p196-scope.md` keeps its false finding**, being the record of what that pass did; **`p197-scope.md` is the correction** and the D-297 row names D-298. `DECISIONS.md` is append-only and a reversal is a new row, which is what D-289 did for the same kind of error.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun, nor was `xref_content.py`; `section_stats.py` was.
+
+**Still unread.** **Nothing else was re-read against the new front matter.** **Chapters~4, 5 and~11 have still never been read as prose.** **`QUESTIONS.md`'s forty-one open questions have now gone ten passes unchecked.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 91 sections, **74,684 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-297 (P196): the Foreword is the author's new one, and the one figure in it that the book contradicted was put to him and corrected.**
 
 **The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,681 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
