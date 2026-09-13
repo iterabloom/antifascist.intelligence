@@ -1,5 +1,12 @@
 # Open questions
 
+**Current as of 2026-09-13, after D-297 (P196): no entry opened or closed, and Q-111 has a new site.**
+
+**Q-111 asks where the persona-device disclosure goes**, the book carrying it nowhere while the README does. **The Foreword was replaced whole this pass and the device is still named nowhere in the book.** The old text at least gestured at method — *the different strategies I used to prompt LLMs to generate the text* — and the new one says *I used LLMs extensively in writing this book* and links the repository. **The gesture is gone and the disclosure is not**, so the question is unchanged in substance and the passage a ruling on it would edit is now `00.tex:13`. **D-008 originally called for a note naming the device**; nothing has withdrawn that and nothing has executed it.
+
+**Forty-one still open**, unchanged in number, and **nine passes unchecked**.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-13, after D-296 (P195): no entry opened or closed, and the chapter~11 caveat in the header below is withdrawn.**
 
 **That caveat is spent.** It said a question here naming an x.y number in chapter~11 had to be read against the printed book and not only against the label, because the book printed nine sections there and the records knew eight. **D-296 closed the divergence**: chapter~11 is nine sections everywhere, and `book.aux` confirms all 91 labels print the number their name says. **What replaces the caveat is `renumber-map_2026-09-13.tsv`** — anything written here before today naming 11.6, 11.7 or 11.8 means what is now 11.7, 11.8 or 11.9.

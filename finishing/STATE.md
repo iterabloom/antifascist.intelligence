@@ -1,5 +1,29 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-297 (P196): the Foreword is the author's new one, and the one figure in it that the book contradicted was put to him and corrected.**
+
+**The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,681 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
+
+**The Foreword was replaced whole on the author's instruction**, 176 → 249 words, six paragraphs for the previous seven. It opens on the safety/authoritarianism inversion, puts the affect claim second, addresses two readerships in the third paragraph, hands chapter~7 the book's one self-test in the fourth, and closes on the LLM disclosure and the repository link.
+
+**One clause was checked rather than typed, and it did not hold.** It read *a weapons targeting pipeline running at thirteen thousand names in thirty-eight days*. **§6.3.1 says 37,000**, citing `abraham2024lavender`, whose `note` carries the same figure, and Abraham's investigation reports 37,000 over the first weeks of the war. **Two searches returned no reporting giving 13,000 and none giving a 38-day window.** Put to the author with the evidence; **he chose the book's own figure**, so it reads *a weapons targeting pipeline that marked thirty-seven thousand names*. **The day-count is dropped rather than corrected**, because §6.3.1 states no window and putting one in the Foreword alone would reopen the same gap from the other side.
+
+**Two mechanical conventions were applied to the supplied text, and one of them the suite cannot see.** `Chapter 7` became `Chapter~\ref{sec:7}` — required, `check_xrefs.py`'s `BARE` rule matching `[Cc]hapters?\s*\d`. And a spaced hyphen in *raising a child - in other words* became an em dash: **`check_typography.py` tests for `--` and `---`, and a lone spaced hyphen is neither**, so it would have printed as a hyphen with nothing to catch it. **A later pass taking author text in should apply both by hand.**
+
+**Three claims in the new text were verified and hold.** Chapter~7 does run the definition on the machinery (§7.1, §7.2), on the field (§7.4) and on this book (§7.4 `:34`). *The other eleven chapters* is right — twelve numbered chapters, the Foreword unnumbered, chapter~13 the glossary. And `\url` resolves.
+
+**Q-111 is unchanged and this is now the passage a ruling on it would edit.** The persona device — models prompted to write as named real people — is still named nowhere in the book. The old Foreword at least gestured at method; the new one says *I used LLMs extensively in writing this book* and links the repository. **D-008 originally called for a note that names the device.**
+
+**What the replacement dropped**, in case a later pass looks for it: the thought-experiment opening, the audience-annoying framing, *You hold the result*, and the naming of Gaza and Iran in the front matter — §6.3.1 and §6.3.2 still name both. **The caps opening was not reproduced**, `00.tex` having been the only file in the manuscript that opened that way.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun, nor was `xref_content.py`; `section_stats.py` was.
+
+**Still unread.** **Nothing else was re-read against the new front matter.** The September 13 prose is read and not audited for redundancy against the chapters it draws on. **Chapters~4, 5 and~11 have still never been read as prose.** **`QUESTIONS.md`'s forty-one open questions have now gone nine passes unchecked.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 91 sections, **74,681 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-296 (P195): chapter~11's numbering is closed, and every label in the book now prints the number its name says.**
 
 **The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,608 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
