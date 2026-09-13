@@ -1,5 +1,12 @@
 # Open questions
 
+**Current as of 2026-09-13, after D-296 (P195): no entry opened or closed, and the chapter~11 caveat in the header below is withdrawn.**
+
+**That caveat is spent.** It said a question here naming an x.y number in chapter~11 had to be read against the printed book and not only against the label, because the book printed nine sections there and the records knew eight. **D-296 closed the divergence**: chapter~11 is nine sections everywhere, and `book.aux` confirms all 91 labels print the number their name says. **What replaces the caveat is `renumber-map_2026-09-13.tsv`** — anything written here before today naming 11.6, 11.7 or 11.8 means what is now 11.7, 11.8 or 11.9.
+
+**Nothing else moves.** **Forty-one still open**, unchanged in number, and **now eight passes unchecked** against a structure that has moved three times: the September 12 return, the September 13 return, and this renumber. Q-075, Q-076 and Q-088 still turn on chapter~3. **Q-087's seven `\textit` are untouched.**
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-13, after D-295 (P194): no entry opened or closed, and one standing item's premise has changed for the better.**
 
 **Q-087's count did not move, for the first time in six imports.** It records 7 `\textit` against D-189's `\emph`, in `02_01_02.tex` and `02_02_03.tex`. `HEAD` carried 5 and 2 before the September 13 return and the tree carries the same 7 after it, so **this import added none** — every previous one added new ones, which is the basis on which `style.md` §8 tells a later pass to expect them. **The seven themselves are still unrepaired and the entry stays open**, now unresolved for a sixth import.

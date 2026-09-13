@@ -1,9 +1,9 @@
 # Finishing plan
 
-The book stands at **74,648 words and 156 pages**, in **90 sections by `ORDER.tsv` and 91 as
-printed** — the extra being §11.5a, inserted inside `11_05.tex` by the September 13 Overleaf
-return, carrying no row here or in any other record file (D-295). Of the 90, 2 are accepted and
-88 drafted and unread. **One hundred and ninety-four passes have been executed.**
+The book stands at **91 sections, 74,608 words and 156 pages**, the section count now agreeing
+across the manuscript, `ORDER.tsv`, `outline.tsv`, `ledger.tsv` and the contents (D-296 closed the
+one divergence, in chapter~11). Of the 91, 2 are accepted and 89 drafted and unread. **One hundred
+and ninety-five passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
 current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P156

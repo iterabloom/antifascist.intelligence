@@ -1,5 +1,29 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-296 (P195): chapter~11's numbering is closed, and every label in the book now prints the number its name says.**
+
+**The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,608 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
+
+**The divergence P194 reported is gone.** §11.5a — the section the September 13 return inserted as a second `\section` inside `11_05.tex` — has its own file, number and label as **§11.6**, and old 11.6 through 11.8 moved up to 11.7 through 11.9. **The book, `table-of-contents.txt`, `outline.tsv`, `ledger.tsv` and `ORDER.tsv` all say nine sections in chapter~11.** **The whole renumber cost one cross-reference**: `02_02_01.tex:25` was the only place in the manuscript pointing into the shifted range, and it now reads `sec:11.8`, the face-reading section it always meant.
+
+**Verified where it matters, out of `book.aux`**, which is where LaTeX records what each label resolved to: **91 labels, 0 whose name differs from the number assigned.** **No tool in the repository checks that** — `check_xrefs.py` checks that references resolve and that no number is typed into prose, which is a different property, and it passed throughout the period the names were wrong.
+
+**`renumber-map_2026-09-13.tsv` records the four moves, and the record files keep their old numbers.** `STATE.md` below this lead, `DECISIONS.md` and every scope file before today say §11.7 for the face-reading section, correctly as of when they were written. Read them through the map; do not rewrite them.
+
+**Splitting the file exposed a markup defect, and it is repaired.** §11.6's four rubrics used `\runin`, which sets the label on its own line with the body indented beneath; every other rubric in chapter~11 uses a bare `\textbf`, which runs the label into its paragraph. **On printed page 111 the two shapes sat one above the other.** §11.6 was converted and the page re-rasterized and read. **The counts point the other way and the fix is still right**: book-wide `\runin` leads 124 uses in 35 files against `\textbf`'s 50 in 8, so the author's markup followed the book and chapter~11 is the holdout — but chapter~11 marks its display sub-heads with `\subsection*` and its rubric lead-ins with `\textbf`, and these are lead-ins.
+
+**`style.md` §8 is wrong about `\textbf` and was deliberately left alone.** It says the only use is a table header in §2.2; there are 50, and 49 are chapter~11's rubrics. **Which convention chapter~11 should end up in is a ruling and not a typo fix**, and a later pass sweeping those seven sections to `\runin` would be making it.
+
+**One measurement moved and no prose was cut.** **74,648 → 74,608 words**, the 40 being exactly the author's comment block, counted word for word. **`section_stats.py` strips commands but not `%` comments**, so commented text counts as prose — P194's figure was inflated for as long as the comment sat in the tree, and so is any earlier figure taken while a comment sat in a section file.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun, nor was `xref_content.py`; `section_stats.py` was.
+
+**Still unread.** **The September 13 prose is read and not audited** — nobody has checked it for redundancy against the chapters it draws on, where the remainder material lands at six sites written to be read in sequence. **Chapters~4, 5 and~11 have still never been read as prose**, and §11.6 is new prose inside one of them. **`QUESTIONS.md`'s forty-one open questions have now gone eight passes unchecked.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 91 sections, **74,608 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-295 (P194): the September 13 Overleaf return is in, its two broken citations are repaired, and the book now prints one more section than any record file knows about.**
 
 **The suite is green**, the book builds **156 pages**, and it is **74,648 words**. **`refs.bib` is 219 → 227**, every entry cited, zero undefined references and citations, **256 cross-references** resolving against 91 labels. **The return arrived with 0 conflicts and 0 structural problems**, the first in six to do so.

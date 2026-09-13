@@ -6,7 +6,7 @@ manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	5f0b3047a85a3e0b54a332287805c403b9472d95cd330f5598f987f3db6f0d7b
 manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	07af823680f0ae061bc77f29c4fadb1c8d35e60a15d6fcdc955c9e152f51ea2f
 manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	126711661aa95854c7066c0ac9e1bc4d1f74ed29341115e3b296157e060907cf
-manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	0db835f1f5965da16084073a99cfe6d072468e2401ecf579249e0b9747749368
+manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	18d2fe608eb85ffd3dfc5465a4d80c30cf4118aa1922c01dd3197dcea38b2bb1
 manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	969d07f99275bcc7c2819a7877b91c4623e95784f367c1b55b70f65c7fbe34f8
 manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	0644448b583d76dbc2f57506a01e2ffdc5ceb71e5ea07dfa4dedf48905b06fe4
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
@@ -75,10 +75,11 @@ manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive 
 manuscript/sections/ch11/11_02.tex	11.2	Bearer Welfare and Independent Guardianship	80338781b20a8184020fbd1aea8cfc6b3596788064ccd4e23d612e6a5e372b99
 manuscript/sections/ch11/11_03.tex	11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	0ab8afcd5f23447f2398d57782a36f24434006921ab7fc0ca71b0070e616c2e2
 manuscript/sections/ch11/11_04.tex	11.4	Can Scalable Oversight Correct Rater Bias?	e702e85059355e1e41ccbc5a0f9b6907a8daad5d1296ee12caa6654da7ed4238
-manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent Floor Resist Collusive Capture?	13dca0f4980fe364d891b48c56a47d1a91999ca45a0c784a7fd7cae95d00e956
-manuscript/sections/ch11/11_06.tex	11.6	Does Theory-of-Mind Performance Reflect a General Capacity?	fa8c9aa752fdb468ec9d31410f3c00e299f3aaee87cfcd05b25d04bf40d9b1c1
-manuscript/sections/ch11/11_07.tex	11.7	What Does a Face-Reading System Measure?	b7c345a9d99f5fcd7e49a2c67cecda369cda9b8913212ac202b0df29860063fa
-manuscript/sections/ch11/11_08.tex	11.8	The Responsibility Gap, Which No Experiment Closes	481d5e51be11b19c5c8a7b42ab248e63187ee0502e1c81f3a1bb205387f6cdac
+manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent Floor Resist Collusive Capture?	2d27ba4d895c41d895aba9b8befe30029f61b7ac728d0002d4be7fc5bae34f49
+manuscript/sections/ch11/11_06.tex	11.6	Can a Population Coordinate Without Converging?	4eac5b25246faaea7e54b7dc802c30479afd2add41e7e1390b7a4ac133403931
+manuscript/sections/ch11/11_07.tex	11.7	Does Theory-of-Mind Performance Reflect a General Capacity?	c51021ff26abb32c77151cce080ce39abd30fc10c590960233eaa50495c3aed4
+manuscript/sections/ch11/11_08.tex	11.8	What Does a Face-Reading System Measure?	b4076c9192639b47f5a9f405ce579f2e8c73000b773630acab9ceaf7ca54b741
+manuscript/sections/ch11/11_09.tex	11.9	The Responsibility Gap, Which No Experiment Closes	53ba09097015cdf8fa496d96bddc6a399f96c31f466c94394885d2ac542b355e
 manuscript/sections/ch12/12.tex	12	What I Actually Think Happens Now	8d1e7967ca1fea19f8d79fbe01a20ec005dcdd966e52ef63d9d53e451e40e9a2
 manuscript/sections/ch12/12_01.tex	12.1	Better, Not Just Less Bad	2a6a65b213e2a47156cad292cbc0549f27864d6d56d315b3ab944f6496c697b2
 manuscript/sections/ch12/12_01_01.tex	12.1.1	Where the Democratic Dividend Actually Comes From	6c290fec43d0f0158341fdd4d40002185e4bc52211af9e6faa2c9be9c1db7e06
