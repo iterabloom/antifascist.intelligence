@@ -1,5 +1,16 @@
 # Open questions
 
+**Current as of 2026-09-13, after D-295 (P194): no entry opened or closed, and one standing item's premise has changed for the better.**
+
+**Q-087's count did not move, for the first time in six imports.** It records 7 `\textit` against D-189's `\emph`, in `02_01_02.tex` and `02_02_03.tex`. `HEAD` carried 5 and 2 before the September 13 return and the tree carries the same 7 after it, so **this import added none** — every previous one added new ones, which is the basis on which `style.md` §8 tells a later pass to expect them. **The seven themselves are still unrepaired and the entry stays open**, now unresolved for a sixth import.
+
+**The list was not read this pass.** The September 13 return rewrote parts of chapters~1, 2, 3, 4, 7, 9, 11 and~13 on top of the September 12 return's rewrite of chapters~3, 4, 5 and~11, and **forty-one questions have now gone seven passes unchecked against a structure that has moved twice.** Q-075, Q-076 and Q-088 turn on chapter~3, which this return changed again at §3.1, §3.2, §3.6 and §3.7. **Nothing was closed on that basis**: a question whose target was rewritten is not thereby answered.
+
+**One new fact bears on any question about chapter~11's numbering.** The book now prints nine sections there against eight in every record file, §11.5a having been inserted inside `11_05.tex`, and `sec:11.6` through `sec:11.8` print one number above their label names. A question written here about an x.y number in chapter~11 needs reading against the printed book and not only against the label.
+
+**Forty-one still open**, unchanged in number. `renumber-map_2026-09-12.tsv` translates any section number written here before that date; no renumber map exists for §11.5a, because no renumber was performed.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-12, after D-288 (P187): no entry opened or closed, and the whole list needs re-checking against a book that lost 43 sections.**
 
 **The standing list was not read this pass.** The September 12 Overleaf return cut the book from 132 sections to 89 and rewrote chapters~3, 4, 5 and 11; **several open questions name sections that no longer exist or no longer say what the question was about.** Q-075, Q-076 and Q-088 turn on chapter~3, which is now new prose. Nothing was closed on that basis, because a question whose target was rewritten is not thereby answered — it has to be re-read against what replaced it.

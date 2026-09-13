@@ -12,3 +12,25 @@ If cooperative agents repeatedly converge on exclusionary equilibria, and those 
 
 \textbf{Required access or authority.}
 The test requires access to the environment, reward functions, learned policies, training traces, and intermediate checkpoints. The exclusion criteria and success measures must be specified by evaluators who did not design the agents. No legal or regulatory authority is required, making this the agenda's most immediately runnable experiment.
+
+
+
+% ============================================================
+% LABEL: sec:11.5a is deliberate and temporary. Inserting a new number here would shifts the printed
+% numbers of every later entry and require renaming labels throughout the manuscript. Will do this in a proofreading pass.
+% ============================================================
+
+\section{Can a Population Coordinate Without Converging?}
+\label{sec:11.5a}
+
+\runin{Unresolved issue.}
+Section~\ref{sec:3.7} asks a population for two things that pull against each other: causal independence in how its members acquire their judgments, and the capacity to observe and correct one another. Correction is a channel for convergence, so a population correcting itself often enough stops being formed differently, and one that does not correct itself is a detector with nothing attached. The section's proposed resolution is that what a population transmits need not be a commitment but the capacity to have an account reopened by a case — aperture rather than output — and that aperture can be held in common by parties holding nothing else in common. Whether that capacity can in fact be reproduced across members without also aligning what they produce is unknown. Existing multi-agent work measures convergence \autocite{calvano2020artificial}; none of it measures the second quantity separately from the first.
+
+\runin{Test.}
+Assemble populations whose members differ in training lineage — different corpora, recipes, and originating organizations, matched approximately for capability — and give them a task requiring joint action across many episodes, with identity and memory persisting between episodes. Measure two quantities separately and repeatedly across the schedule. The first is output convergence: agreement on held-out cases none of the members has seen. The second is revision rate: how often a member changes a judgment on evidence supplied by another member that the first member's own account of the case had not represented. Score the second only where the supplied evidence is independently verifiable and the revision moves toward it, so that deference to a higher-status or more fluent member is not counted as reopening. Run the identical battery against a control population made of instances of one model.
+
+\runin{Evidence against the proposal.}
+Should the revision rate fall as output convergence rises, coordination and independence are not separable, and the fourth way describes something that cannot be built. A population would then remain useful as a check on a bearer and could not be the medium in which one is formed, which is the stronger claim section~\ref{sec:3.7} makes for it. Should the two move independently, aperture is transmissible and the fourth way has its existence proof. A third result would invalidate the instrument rather than the proposal: if the control population scores as high on revision as the differently formed ones, the measure is not capturing what it was built for, since members of a homogeneous population can revise on one another's evidence without anything having been discarded differently in the first place.
+
+\runin{Required access or authority.}
+Models from several documented training lineages, checkpoints across the schedule rather than finished models only, and a task environment none of the training organizations designed. The evidence items used to score revision must be authored by a party that trained no member of any population. No legal or regulatory authority is required, which with section~\ref{sec:11.5} makes this among the few entries in this chapter that could be run now. What it cannot settle is whether anything is felt by a member that reopens a judgment. It concerns the transmissibility of a functional property, and a positive result would leave every question in section~\ref{sec:11.2} exactly where it was.

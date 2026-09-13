@@ -1,6 +1,6 @@
 Chapter 0: Foreword
 Chapter 1: The Bearer: Our Fresh-Faced Protagonist
-Chapter 2: Yes, It Has to Have Feelings
+Chapter 2: The Striving and the Electricity Bill
 2.1. Six Theories, None of Which Will Save Us
 2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
 2.1.2. Antifascist Ethics for AI Alignment
