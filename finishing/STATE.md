@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-299 (P198): the author's two tweaks to the Foreword are in, and the *names* question D-298 left open is answered.**
+
+**The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,663 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
+
+**The targeting clause now reads *a weapons pipeline targeting thirteen thousand locations in Iran in thirty-eight days*.** *Names* is gone, which is what D-298 flagged, and **Iran is right**: the figure is Operation Epic Fury, which §6.3.1 `:60` and §3.6 `:68` both attribute it to. **One small thing, and nothing was changed on it** — *locations* is as much an interpretation of the source as *names* was, pointed the other way. The CDAO quotation and both book passages say **targets** and none says what kind; a strike target is usually a place and may be a vehicle, a structure or a person, and §6.3.1 spends its length distinguishing Habsora, which marks buildings, from Lavender, which marks people. **The author has chosen this wording having seen the distinction raised**, and the book's own unspecified word is available if he wants it.
+
+**The chapter~7 paragraph lost its second sentence** — *It is the only test the definition gets, and whatever it is worth in the other eleven chapters is owed there.* **Nothing downstream rested on it**, and the *other eleven chapters* arithmetic goes out of the book with it, so it no longer has to survive a restructuring. **§7.4 `:3` still makes the substance of the only-test claim in its own voice.**
+
+**The figure itself is settled and should not be relitigated.** D-297 reported it unsupported, **that finding was wrong**, and D-298 withdrew it: thirteen thousand in thirty-eight days is exact, stated twice in the book and carried verbatim in `breakingdefense2026maven`'s note as a CDAO quotation verified 2026-09-07. **The mechanism of the error is worth keeping**: a grep that did find both passages was piped through `cut -c1-230`, which cut every line before the matched text, and the finding was built on a third hit about a different system in a different war. **Do not truncate the output of the grep that is deciding whether a claim is supported.**
+
+**Everything else in the Foreword stands as P196 left it.** `Chapter 7` is `Chapter~\ref{sec:7}` — required, `check_xrefs.py`'s `BARE` rule matching `[Cc]hapters?\s*\d` — and the spaced hyphen in *raising a child - in other words* is an em dash per `style.md` §8. **The suite cannot see that second one**: `check_typography.py` tests for `--` and `---`, and a lone spaced hyphen is neither. **A later pass taking author text in should apply both by hand.**
+
+**Q-111 is unchanged and `00.tex:13` is the passage a ruling on it would edit.** The persona device is still named nowhere in the book. **D-008 originally called for a note that names it.**
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun, nor was `xref_content.py`; `section_stats.py` was.
+
+**Still unread.** **Nothing else has been re-read against the new front matter.** **Chapters~4, 5 and~11 have still never been read as prose.** **`QUESTIONS.md`'s forty-one open questions have now gone eleven passes unchecked.** **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 91 sections, **74,663 words**, **156 pages**, 256 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-298 (P197): the previous pass's central finding was wrong, and the author's Foreword text is restored as he wrote it.**
 
 **The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,684 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.
