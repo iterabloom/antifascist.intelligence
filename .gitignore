@@ -5,3 +5,11 @@ __MACOSX/
 finishing/reports/*.npy
 __pycache__/
 .venv/
+# editor swap and backup files -- a live vim swap was committed by `git add -A`
+# on 2026-09-13 while the author had 00.tex open
+*.swp
+*.swo
+*.swn
+.*.sw[a-p]
+*~
+.*.un~
