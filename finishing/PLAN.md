@@ -1,6 +1,6 @@
 # Finishing plan
 
-The book stands at **90 sections, 66,845 words and 142 pages**, with 2 sections accepted
+The book stands at **90 sections, 66,894 words and 142 pages**, with 2 sections accepted
 and 88 drafted and unread. **One hundred and eighty-eight passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
