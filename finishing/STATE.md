@@ -8,7 +8,7 @@ Read this first. **Updated 2026-09-13 after D-292 (P191): the damaged-weights co
 
 **The refinement earns the body on §2a's own test.** §3.3's precommitment paragraph claims precommitment changes what editing costs, and every other instrument named there makes that cost one-time. This is the only one that makes it recurring, which is what turns an attack into a decision somebody has to keep making.
 
-**Measured on the current tree:** 90 sections, **68,211 words**, **144 pages**. **234 cross-references**, 214 bibliography entries all cited, 0 undefined references and citations. Suite green. **The committed proof pair is two builds behind at 142 pages** and `README.md` links it at that count.
+**Measured on the current tree:** 90 sections, **68,211 words**, **144 pages**. **234 cross-references**, 214 bibliography entries all cited, 0 undefined references and citations. Suite green, tree clean, pushed. **The committed proof pair is this build** — `whole-book-proof_2026-09-13`, the 2026-09-12 pair removed in the same commit — and `README.md` links it at 144 pages.
 
 **Superseded lead, kept for the record.**
 
