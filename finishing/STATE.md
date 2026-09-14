@@ -1,5 +1,29 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-310 (P208): §3.8's recap is cut and the induction-failure passage is surfaced.**
+
+**The suite is green at 88 sections**, the book builds **153 pages**, and it is **73,494 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
+
+**The author's finding was that §3.8 summarizes chapter~3 for a reader who just finished chapter~3**, that chapter~12 summarizes it again, and that the *suppose the induction fails* passage is the genuinely new material, buried. **The diagnosis holds. 268 words cut**, §3.8 going 1,151 → 896. Four recaps went, each with its other home identified: §3.2's three marks (restated at `03_02.tex:35`, `03_03.tex:3`, `12_02_01.tex:11`), §3.1's four ways, the try-the-alternatives-first rule (stated twice in chapter~12), §3.5's custody argument, and §3.6's worked deployment.
+
+**One paragraph was nearly cut whole and must not have been.** `03_08.tex:7` carries *A floor holds when a violation is legible in terms the bearer accepts as reasons, registers as a violation, and changes what happens next* — **the book's only statement of what it is for a floor to hold**, found nowhere else in 88 sections, and **it is P51's repair**, which moved the definition out of §5.1.1 on P50's finding that chapter~3 never had one. **Only the paragraph's third sentence went.**
+
+**Two paragraphs that read as recap are load-bearing and stayed.** `03_08.tex:5` is what the glossary's **Floor** entry cites `sec:3.8` for, near-verbatim. `03_08.tex:9`, the threat model's two questions, is what `12_02_01.tex:13` means by *section~3.8's other question*. **Cutting either would have left a reference that resolves while naming a claim its target no longer makes** — Q-041's class, D-050's principle.
+
+**A dangling demonstrative was created and repaired in the same pass.** The publication paragraph opened *Publication makes those commitments and interception positions testable* and both antecedents sat in paragraphs cut above it. It now names them.
+
+**The run-in head is this pass's addition, not the author's instruction.** `\runin{The chapter without its central inference}` marks the passage. **§3.8 was the only section in chapter~3 carrying no run-in heads** — §3.2 has four at 1,227 words, §3.4 four at 1,309 — and 18 sections below §4a's 1,500-word threshold carry them, so the addition follows the book. **Strike it if the subtraction was meant to do the work alone.**
+
+**Three paragraphs that are not recap were kept**, named so a later pass does not read them as missed work: the legitimacy paragraph is **chapter~3's only pointer to the authority question**, nothing else in the chapter mentioning legitimacy or referring to chapter~9; the recuperation paragraph turns chapter~7's definition on the book's own central proposal; and the chapter~4/5 handoff is structural.
+
+**One small loss recorded and not repaired.** *Custody survives, for the reason each of the four ways failed on* had a local gloss in the cut four-ways paragraph and now takes its antecedent from §3.1's title and opening sentence. Repairing it would cost a cross-reference against a book that has cut them from 848 to 258.
+
+**Still open.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph. **`QUESTIONS.md`'s forty-one open questions have now gone seventeen passes unchecked.** **`check_typography.py` claims more than it tests** (D-309): three `` `` '' pairs sit in the sections undetected. **The committed proof pair is stale by four pages**: 157 against the book's 153, and `README.md` still says 157.
+
+**Measured on the current tree:** 88 sections, **73,494 words**, **153 pages**, 258 cross-references against 88 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-309 (P207): §6.4's six worked examples are cut to two sentences, and the glossary is the taxonomy's home.**
 
 **The suite is green at 88 sections**, the book builds **154 pages**, and it is **73,749 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
