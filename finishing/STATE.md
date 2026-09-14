@@ -1,5 +1,29 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-307 (P205): §8.2.2 and §8.3.5 are cut, and the specificity lesson survives as one sentence in §8.2.1.**
+
+**The suite is green at 89 sections**, the book builds **155 pages**, and it is **74,121 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 89 labels.
+
+**The author's finding was that the two sections overlap heavily and are both policy inventory**, with the specificity lesson — ask the public about facial recognition, not about AI — the one thing worth keeping, and a sentence. **Both are gone, 720 words**, and the sentence closes §8.2.1's citizen-assembly item, the Ada Lovelace Institute's Citizens' Biometrics Council joining the four assemblies already listed there. **The wording is the book's own**, carried over from §8.2.2's second paragraph, where P7 (D-032) drew the argument out of the council in the first place.
+
+**The cut needed no renumbering and no map.** Each section was the last child of its parent, so §8.2.1 and §8.3.1–§8.3.4 keep their numbers. Nothing in the book pointed at either one — zero `\ref` to `sec:8.2.2` or `sec:8.3.5` — and no glossary entry lost its last home, which is P48's defect class in the other direction. ***Literacy* now appears nowhere in the book**, which is the change a later pass is likeliest to trip over.
+
+**Five of the six sources went to `unused_bibliography.bib`** and `adalovelaceinstitute2021biometrics` stayed in `refs.bib`, cited by the kept sentence. **That correspondence was checked by hand because nothing in the suite tests it**, which is the gap D-302 named: 222 entries, all 222 cited, none cited-but-missing.
+
+**§8.3.5 carried a dead back-reference, and it argues for the cut.** Its opening paragraph said *Cross-training among developers, ethicists and legal scholars has already been named as a lever on a system's immediate environment*, and **the book names it nowhere**: `cross-train` appears in no other section and *lever on a system's immediate environment* appears in none at all. D-050's class, in a section opening on a pointer to material the book does not contain.
+
+**One thing flagged and deliberately not decided.** **§8.2 now has a single child, §8.2.1** — the first single-child parent in the book, every other having two or more. Folding §8.2.1 up into §8.2 would close it, and that is a ruling about §8.2 rather than about the overlap this pass was given.
+
+**§8.2.2 was one of the book's two `accepted` rows and the book now has one**, chapter~6. Its acceptance was the 2026-08-23 blanket instruction — *I accept them. Do them. Do P4 on them.* — which its own ledger note disclosed as not the section-by-section read the standing rule requires.
+
+**A record-keeping note for whoever reads below.** **The superseded lead's header says *after D-304 (P202)* while its body covers D-305 (P203) and D-306 (P204)**: those two passes amended that lead in place instead of writing fresh ones. The content is sound; the header is narrower than what follows it.
+
+**Still open from earlier today.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph both give the coded-exposure fix word for word. **`QUESTIONS.md`'s forty-one open questions have now gone fourteen passes unchecked**, with two renumber maps standing between that file and the book. **The committed proof pair is stale**: it is 157 pages and the book is 155, and the README still says 157.
+
+**Measured on the current tree:** 89 sections, **74,121 words**, **155 pages**, 258 cross-references against 89 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-304 (P202): the D-008 dating policy is retired, and the half of it that was still working has moved into §4b.**
 
 **The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **No manuscript file changed this pass**, and the committed proof pair is still current at 157.
