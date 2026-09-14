@@ -14,9 +14,9 @@ Read this first. **Updated 2026-09-13 after D-303 (P201): the author trimmed `st
 
 **One thing is recorded and not settled.** **§5's rule is out of the sheet and its instruments still run**: `claims.py` writes `reports/dated.tsv`, and `section_stats.py` carries a `TEMPORAL` pattern for *currently*, *recently*, *state-of-the-art* and *cutting-edge* and reports `dated_names` per section — and `section_stats.py` runs every pass. **Whether the dating policy is retired as a rule or only trimmed from the sheet has not been asked.**
 
-**The proof pair is a build behind.** It is 156 pages and the book is 157, D-302 having added a page. `README.md` links it at 156, which matches the pair and not the book.
+**The committed proof pair is this build.** `whole-book-proof_2026-09-13`, rebuilt in place at **157 pages** — **the first rebuild today where the count actually moved**, D-302 having added one — and `README.md` now says 157. **Local time was 20:32 on the 13th while UTC was already the 14th**, which is the window `pipeline.md` warns about: the pair is named by local date, so nothing was removed. Read `date`, not `date -u`. The HTML carries §6.1 and the renumbered sections, with zero broken links and zero duplicated ids over 1,138 ids and 593 links.
 
-**Measured on the current tree:** 91 sections, **74,789 words**, **157 pages**, 258 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+**Measured on the current tree:** 91 sections, **74,789 words**, **157 pages**, 258 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green, tree clean, pushed.
 
 **Superseded lead, kept for the record.**
 
