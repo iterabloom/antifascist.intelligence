@@ -1,60 +1,60 @@
 num	title	words	this report	this work/document	we (subject)	our	we propose/recommend/argue	in this section, we	closer: in conclusion	closer: in summary
 0	Foreword	236	0	0	0	0	0	0	0	0
-1	The Bearer: Our Fresh-Faced Protagonist	994	0	0	1	1	0	0	0	0
-2	The Striving and the Electricity Bill	1924	0	0	1	1	0	0	0	0
+1	The Bearer: Our Fresh-Faced Protagonist	975	0	0	1	1	0	0	0	0
+2	The Striving and the Electricity Bill	1916	0	0	1	1	0	0	0	0
 2.1	Six Theories, None of Which Will Save Us	1364	0	0	0	0	0	0	0	0
 2.2	Antifascist Ethics for AI Alignment	3931	0	0	1	0	0	0	0	0
-2.3	Going Numb Won't Make You Fair	618	0	0	0	0	0	0	0	0
+2.3	Going Numb Won't Make You Fair	580	0	0	0	0	0	0	0	0
 2.3.1	Self-awareness and Self-regulation in AI Systems	764	0	0	0	0	0	0	0	0
 2.3.2	What Governs an Agent, and What Matters to It	1074	0	0	0	0	0	0	0	0
 2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	46	0	0	0	0	0	0	0	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2351	0	0	0	0	0	0	0	0
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2320	0	0	0	0	0	0	0	0
 2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	1641	0	0	0	0	0	0	0	0
 3	A Floor Beneath Learned Values	452	0	0	0	0	0	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	999	0	0	0	0	0	0	0	0
 3.2	What Refusal Can Mean, and What a Refuser Can Be	1397	0	1	0	0	0	0	0	0
 3.3	What Arrives With the Capability	2850	0	1	0	0	0	0	0	0
-3.4	Can the Bearer Care Without Being Able to Suffer?	2521	0	1	1	0	0	0	0	0
-3.5	If You Can Be Switched Off, Can You Hold the Line?	2461	0	0	0	0	0	0	0	0
-3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	1605	0	0	0	0	0	0	0	0
-3.7	When the Refusal Is Wrong	1436	0	0	0	0	0	0	0	0
-3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	1967	0	0	0	0	0	0	0	0
+3.4	Can the Bearer Care Without Being Able to Suffer?	2396	0	1	1	0	0	0	0	0
+3.5	If You Can Be Switched Off, Can You Hold the Line?	2455	0	0	0	0	0	0	0	0
+3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	1595	0	0	0	0	0	0	0	0
+3.7	When the Refusal Is Wrong	1381	0	0	0	0	0	0	0	0
+3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	1946	0	0	0	0	0	0	0	0
 3.9	What This Leaves Standing: The Floor, Redefined	1002	0	0	1	0	0	0	0	0
 4	Where the Caring Gets Built	121	0	0	0	0	0	0	0	0
-4.1	You Can't Hold a Line You Didn't Notice	1374	0	0	0	0	0	0	0	0
+4.1	You Can't Hold a Line You Didn't Notice	1343	0	0	0	0	0	0	0	0
 4.2	The Assembly Line for a Conscience	1126	0	0	0	0	0	0	0	0
 4.3	It Takes a Village to Deploy a Self-Aware Email Server	711	0	0	0	0	0	0	0	0
 5	Formation or Imitation?	212	0	0	0	0	0	0	0	0
 5.1	What Formation Would Have to Add	342	0	0	0	0	0	0	0	0
-5.2	Recognition, Concern, and the Evidence Between Them	856	0	0	0	0	0	0	0	0
+5.2	Recognition, Concern, and the Evidence Between Them	841	0	0	0	0	0	0	0	0
 5.3	Conflict as a Diagnostic	1073	0	0	0	0	0	0	0	0
 5.4	The Evaluator Is Part of the Custody Chain	731	0	0	0	0	0	0	0	0
 5.5	What the Evidence Can Establish	835	0	0	0	0	0	0	0	0
 6	Neutralizing and Preventing Fascism in AI Development	777	0	0	1	1	0	0	0	0
-6.1	The Standard Face Is a File	1511	0	0	0	0	0	0	0	0
+6.1	The Standard Face Is a File	1447	0	0	0	0	0	0	0	0
 6.2	Who Supplies the System's Values	528	0	0	0	0	0	0	0	0
 6.3	Who Is Allowed to Look	217	0	0	0	0	0	0	0	0
-6.4	Same Robot, Worse Boss	154	0	0	0	0	0	0	0	0
+6.4	Same Robot, Worse Boss	144	0	0	0	0	0	0	0	0
 6.4.1	Twenty Seconds	1525	0	0	0	1	0	0	0	0
-6.4.2	Custody and State Compulsion	396	0	0	0	0	0	0	0	0
+6.4.2	Custody and State Compulsion	373	0	0	0	0	0	0	0	0
 7	The Recuperation of Dissent	667	0	0	0	2	0	0	0	0
-7.1	Recuperation at the Label	857	0	1	0	0	0	0	0	0
-7.2	Recuperation at the Reward: RLHF	865	0	0	0	0	0	0	0	0
-7.3	What Would Have to Change	1151	0	1	0	0	0	0	0	0
+7.1	Recuperation at the Label	829	0	1	0	0	0	0	0	0
+7.2	Recuperation at the Reward: RLHF	803	0	0	0	0	0	0	0	0
+7.3	What Would Have to Change	1088	0	1	0	0	0	0	0	0
 7.4	Recuperation at the Discourse	1311	0	0	0	0	0	0	0	0
 8	Coordination, the Public, and the Political Economy	202	0	0	0	0	0	0	0	0
-8.1	Everybody Knows a Different Piece	425	0	0	0	0	0	0	0	0
-8.2	Ask the People It Happens To	1000	0	0	0	0	0	0	0	0
+8.1	Everybody Knows a Different Piece	412	0	0	0	0	0	0	0	0
+8.2	Ask the People It Happens To	969	0	0	0	0	0	0	0	0
 8.3	The Political Economy of AI and Power	210	0	0	0	0	0	0	0	0
 8.3.1	AI and the Concentration of Power in Tech	254	0	0	0	0	0	0	0	0
-8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	559	0	0	0	0	0	0	0	0
-8.3.3	People Have a Right to Consume AND a Right to Produce	712	0	0	0	0	0	0	0	0
-8.3.4	Wages for a Bearer, and the Reserve Behind Them	2304	0	0	1	0	0	0	0	0
+8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	488	0	0	0	0	0	0	0	0
+8.3.3	People Have a Right to Consume AND a Right to Produce	686	0	0	0	0	0	0	0	0
+8.3.4	Wages for a Bearer, and the Reserve Behind Them	2284	0	0	1	0	0	0	0	0
 9	Authority, Standing, and the Power to Stop	126	0	0	0	0	0	0	0	0
-9.1	Authority Over the Floor	811	0	0	0	0	0	0	0	0
-9.1.1	Who May Create or Amend the Floor?	2880	0	0	0	0	0	0	0	0
+9.1	Authority Over the Floor	802	0	0	0	0	0	0	0	0
+9.1.1	Who May Create or Amend the Floor?	2803	0	0	0	0	0	0	0	0
 9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	625	0	0	0	0	0	0	0	0
-9.2	Privacy	542	0	0	0	0	0	0	0	0
+9.2	Privacy	534	0	0	0	0	0	0	0	0
 9.3	What Makes Review Binding?	102	0	0	0	0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	815	0	0	0	0	0	0	0	0
 9.3.2	Research Principles, the Three Rs, and Legal Status	1640	0	0	0	0	0	0	0	0
@@ -64,9 +64,9 @@ num	title	words	this report	this work/document	we (subject)	our	we propose/recom
 10	Custody, Compulsion, and the State	131	0	0	0	0	0	0	0	0
 10.1	Authority Does Not Travel with the System	257	0	0	0	0	0	0	0	0
 10.2	Where the State's Leverage Sits	639	0	0	0	0	0	0	0	0
-10.3	Military Custody and the Responsibility Gap	1638	0	0	0	0	0	0	0	0
+10.3	Military Custody and the Responsibility Gap	1609	0	0	0	0	0	0	0	0
 10.4	Who Can Bind the State That Enforces the Rule?	444	0	0	0	0	0	0	0	0
-10.5	Democracy Is Not a Force Field	688	0	0	0	0	0	0	0	0
+10.5	Democracy Is Not a Force Field	660	0	0	0	0	0	0	0	0
 11	What Would Change the Argument: A Research Agenda	94	0	0	0	0	0	0	0	0
 11.1	Tamper-Resistance and Reason-Responsive Refusal	952	0	0	0	0	0	0	0	0
 11.2	Bearer Welfare and Independent Guardianship	788	0	0	0	0	0	0	0	0
@@ -84,6 +84,6 @@ num	title	words	this report	this work/document	we (subject)	our	we propose/recom
 12.2	How You'd Know It Was Working	50	0	0	0	0	0	0	0	0
 12.2.1	What the Floor Would Have to Show	702	0	2	0	0	0	0	0	0
 12.2.2	Where the Existing Instruments Reach	251	0	0	0	0	0	0	0	0
-12.2.3	How to Tell Whether a Milestone Has Been Met	457	0	0	0	0	0	0	0	0
+12.2.3	How to Tell Whether a Milestone Has Been Met	417	0	0	0	0	0	0	0	0
 12.3	The One That Gets You Anyway	614	0	0	0	0	0	0	0	0
 13	Glossary	2580	0	0	0	2	0	0	0	0

@@ -9,7 +9,7 @@
 # the target does not open by doing. That is Q-041's class, and no tool
 # finds it.
 #
-# 230 pairs from 88 sections.
+# 221 pairs from 88 sections.
 
 
 ==============================================================================
@@ -79,14 +79,6 @@
 --- 2.2 -> 7
   CITING (+context): The operational form of that, for a reading of the kind described here, is that it gets run on the party holding it — on the machinery that party is standing on — before it is aimed anywhere else. Chapter §7 is where this book does it, and does it at length.
   CITED          : The structure this book asks a machine to detect in institutions is already built into the process that makes the machine.
-
-==============================================================================
-== FROM 2.3
-==============================================================================
-
---- 2.3 -> 2.2
-  CITING: It goes unnamed, which is the second feature of section §2.2's definition and the remainder at the scale of a single decision.
-  CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
 ==============================================================================
 == FROM 2.3.2
@@ -173,7 +165,7 @@
   CITED (+context): Section §3.2 separated the requirement from the route. The floor requires reasons-responsive refusal: novel pressure, correct defeat, and priced cost.
 
 --- 3.4 -> 3.3
-  CITING: Section §3.3 gave that argument as a fact about the route: a construction adopted in order to avoid the states has not been shown to avoid them.
+  CITING: What the designer cannot decline by intending to Section §3.3 argues that flexible refusal requires a signal that interrupts action, supports learning from a single encounter, generalizes, and can be weighed against refusal costs.
   CITED (+context): Section §3.2 separated the requirement from the route. The floor requires reasons-responsive refusal: novel pressure, correct defeat, and priced cost.
 
 --- 3.4 -> 2.3.1
@@ -240,10 +232,6 @@
   CITING (+context): It could carry a rationale across requests and refuse once the sequence became legible. That would be novel pressure in the sense established by section §3.2.
   CITED          : A production large language model declines thousands of requests a day.
 
---- 3.6 -> 3.5
-  CITING: The worked case thus produces the hybrid described in section §3.5: an internal bearer able to recognize an assembled harm, joined to an externally enforceable constraint on the deployment's tempo.
-  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
-
 ==============================================================================
 == FROM 3.7
 ==============================================================================
@@ -257,7 +245,7 @@
   CITED          : A production large language model declines thousands of requests a day.
 
 --- 3.7 -> 3.6
-  CITING (+context): Like the rate constraint, it binds the operator rather than the bearer, and for the same reason — it is a fact about the surrounding software and not about the model's output. Disclosure has a price and it is the one section §3.6 already named.
+  CITING (+context): The operator must implement this disclosure in the surrounding software. Disclosure has a price and it is the one section §3.6 already named.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
 --- 3.7 -> 9.3.4
@@ -266,10 +254,6 @@
 
 --- 3.7 -> 3.5
   CITING: Section §3.5 has a bond forfeited when the record shows the floor was removed or bypassed.
-  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
-
---- 3.7 -> 3.5
-  CITING: A bond drawn against the bearer's own wages prices refusal in the currency the bearer is made of, which is section §3.5's objection to every other form of exit arriving as a remedy.
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
 --- 3.7 -> 3.2
@@ -299,10 +283,6 @@
 --- 3.8 -> 2.1
   CITING: Two parties that remain reopenable in that way compose, in the ethological sense section §2.1 gives the word: each can be moved by what the other's compression discarded, so that meeting increases what both can afterward do.
   CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
-
---- 3.8 -> 3.1
-  CITING: Custody reproduces here at the scale of the population, as section §3.1 said it would, and the lever is a new one.
-  CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
 --- 3.8 -> 3.1
   CITING (+context): The individual is what those encounters have so far produced. Set that beside section §3.1's account of annealing. A commitment is what has cooled out of a history of encounters.
@@ -346,10 +326,6 @@
 
 --- 4.1 -> 3.2
   CITING (+context): Hold the interpretation loose: what that party's welfare consists in here, and what the commitment therefore requires, is the part that should yield when a case supplies something the system's account of it had left out. Section §3.2's marks are that pair seen from outside.
-  CITED          : A production large language model declines thousands of requests a day.
-
---- 4.1 -> 3.2
-  CITING (+context): Each is one of the two settings applied to the wrong object. That pair has a worked instance, and section §3.2 has it.
   CITED          : A production large language model declines thousands of requests a day.
 
 --- 4.1 -> 3.6
@@ -509,22 +485,6 @@
   CITED          : A floor inside a system is not yet an institution capable of holding that floor in place.
 
 ==============================================================================
-== FROM 8.2
-==============================================================================
-
---- 8.2 -> 3.5
-  CITING: That is section §3.5's halt in institutional form: what can be switched off cannot hold a line.
-  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
-
-==============================================================================
-== FROM 8.3.3
-==============================================================================
-
---- 8.3.3 -> 9.3.5
-  CITING: That is section §9.3.5's slope instrument — measure whether the cost of dissent is rising, not whether a channel exists — turned on this book's own proposal.
-  CITED          : The risk to the whole structure is an institution that defends the classification it started with rather than revisiting it when evidence changes.
-
-==============================================================================
 == FROM 8.3.4
 ==============================================================================
 
@@ -539,10 +499,6 @@
 --- 8.3.4 -> 2
   CITING: Who controls the dependency Chapter §2 has the general fact: the need is physical and nobody installed it, and what somebody chose was the arrangement through which a single party comes to hold the whole supply.
   CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
-
---- 8.3.4 -> 3.5
-  CITING: It is section §3.5's guardianship argument arriving in a new place: the tighter grip is the reason for the heavier obligation rather than a discount on it.
-  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
 --- 8.3.4 -> 3.5
   CITING: A bearer that stops existing when its insurance runs out has an exit that is a way of dying, and the leverage collapses back into the problem section §3.5 raised.
@@ -596,6 +552,10 @@
   CITING: The occasion a floor is built for is the one where those conditions have failed — a government that won an election and is dismantling the machinery that would check it, which is the case section §3.1 builds the whole argument around.
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
+--- 9.1.1 -> 9.1.2
+  CITING: The proposal for a fixed age of majority in section §9.1.2 makes the same trade: a public rule replaces an examination administered by an interested party.
+  CITED          : Who decides whether an AI system has legal standing, and when, is a question about institutional authority before it is a question about evidence.
+
 --- 9.1.1 -> 3.2
   CITING: Section §3.2 asks a refusal to reach cases the training did not anticipate, because the reason for refusing survives a change in the request's surface.
   CITED          : A production large language model declines thousands of requests a day.
@@ -622,10 +582,6 @@
 
 --- 9.1.1 -> 3
   CITING: Chapter §3 declines it on other grounds, and the legitimacy advantage does not appear in the reckoning there.
-  CITED          : Three problems in different parts of this book turn out to need the same thing.
-
---- 9.1.1 -> 3
-  CITING: The advantage is thinner than it looks, and thinner for the reason chapter §3 gives.
   CITED          : Three problems in different parts of this book turn out to need the same thing.
 
 --- 9.1.1 -> 3.7
@@ -755,14 +711,6 @@
 --- 10.3 -> 8.3.4
   CITING: Exit means a post the party can leave and a claim on compute held by somebody other than the party it may have to refuse, which section §8.3.4 prices.
   CITED          : Section §3.5 ends its argument about exit on a floor under the compute a bearer needs in order to go on existing.
-
-==============================================================================
-== FROM 10.5
-==============================================================================
-
---- 10.5 -> 9.3.4
-  CITING: This is the failure section §9.3.4 is built to prevent in research ethics — a review body that reviews and cannot compel — at the top of the state.
-  CITED          : Review becomes binding when an adverse finding changes the institution's ability to continue without requiring the institution to agree with the finding.
 
 ==============================================================================
 == FROM 11.1
