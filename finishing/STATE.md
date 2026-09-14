@@ -1,5 +1,31 @@
 # State of play
 
+Read this first. **Updated 2026-09-13, reconciling the handoff after the P205–P209 proofs: the pair is current at 152 pages and nothing is outstanding.**
+
+**The suite is green at 88 sections**, the book builds **152 pages**, and it is **73,216 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels. **Tree clean, pushed, `origin/main` at the proofs commit.**
+
+**Three claims in the lead below are now false and this paragraph is why it stays.** It says the five passes had *not yet been proofed*, that the committed pair was *stale by five pages*, and that `README.md` *still says 157*. **All three were true when it was written and none is true now.** `whole-book-proof_2026-09-13` was rebuilt in place at 152 pages, and the README says 152.
+
+**The pair was rebuilt, not renamed.** Local time was 21:35 on the 13th while UTC was already the 14th — the window `pipeline.md` warns about — so the date had not rolled over and **nothing was removed**. Read `date`, not `date -u`.
+
+**The HTML is clean: 0 broken links and 0 duplicated ids over 1,106 ids and 588 links.** Ids fell 1,138 → 1,106 and links 593 → 588, which is the three sections removed at P205 and P206 plus the six citation instances that left with them. **The two columns that would signal a defect are both zero**; read the falls as the passes' work, which is what `pipeline.md` says to do.
+
+**Nine passes today, D-303 through D-311.** The last five were author findings about recap and policy inventory, and every one held up on checking: §8.2.2 and §8.3.5 cut with the specificity lesson kept as one sentence in §8.2.1; §8.2.1 then folded up into §8.2, closing the book's first single-child parent; §6.4's six worked examples cut to two sentences against the glossary; §3.8's recap cut and the induction-failure passage surfaced; §12.2.2 cut to its concession and the two benchmarks that do work. **157 → 152 pages, 74,789 → 73,216 words, 91 → 88 sections.**
+
+**The hazard a fresh session is likeliest to hit.** **Two renumber maps from today still stand between every record file and the book** — `renumber-map_2026-09-13.tsv` for chapter~11 and `renumber-map_2026-09-13b.tsv` for chapters~2 and~6. **This already bit once**: P207's instruction named §6.3 and meant §6.4, which D-302 had displaced that morning. **A section number arriving from the author, or read out of a record file, has to be checked against the maps before anything is cut.**
+
+**What was found while cutting and is worth not re-finding.** **A closing section is where the book puts a sentence it wants the reader to leave with, and that looks exactly like recap from outside**: §3.8's *A floor holds when a violation is legible in terms the bearer accepts as reasons* is the book's only statement of what holding is, it is P51's repair, and it sat inside a paragraph that otherwise was recap. **Two more §3.8 paragraphs that read as recap are cited from outside** — the glossary's **Floor** entry and `12_02_01.tex:13`'s *section~3.8's other question*. **Check whether a summary paragraph is the only site of what it states, and whether anything cites it, before cutting it.**
+
+**Stale, and now concretely so.** **24 rows across six committed reports name sections that no longer exist**: `claims.tsv` 8, `xref_shapes.tsv` 6, `epigram.tsv` 3, `redundancy_sections.tsv` 3, `voice.tsv` 3, `xref_content.tsv` 1. None was rerun today. `xref-paragraphs-{related,unrelated}.md` are hand reads keyed to paragraphs, several of which are now cut. `dated.tsv` and `section_stats.tsv`'s `TEMPORAL` and `dated_names` columns are noise under D-304. **`section_stats.tsv` and `headings_reconcile.md` are current.**
+
+**Three things this session added that the author can strike.** §3.8's `\runin{The chapter without its central inference}` is P208's addition, not the instruction. §12.2.2's opening sentence is new prose, the old opener having been a claim about five areas. §6.4's six-key citation bundle was kept where the instruction said nothing about sourcing; dropping it moves six entries to `unused_bibliography.bib` and is one line.
+
+**Open, and none of it blocking.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph both give the coded-exposure fix word for word. **`check_typography.py` claims more than it tests** (D-309): it prints *no TeX quote notation* on success but applies that rule to `refs.bib` only, and three `` `` '' `` pairs sit in the sections at `06_04.tex:11`, `09_01.tex` and `10_03.tex`. **`QUESTIONS.md`'s forty-one open questions have gone eighteen passes unchecked and its header is current only to P200**; its two hits on the deleted §8.3.5 are both historical — a superseded header and Q-041's account of a repair already made — **so no live question points at a section cut today.** **The book has one `accepted` row**, chapter~6, D-307 having cut the other. **§3.8's *each of the four ways* now takes its antecedent from §3.1's title** rather than from a local gloss.
+
+**Measured on the current tree:** 88 sections, **73,216 words**, **152 pages**, 258 cross-references against 88 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green, tree clean, pushed.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-311 (P209): §12.2.2 is compressed to the concession and the two benchmarks that do work.**
 
 **The suite is green at 88 sections**, the book builds **152 pages**, and it is **73,216 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
