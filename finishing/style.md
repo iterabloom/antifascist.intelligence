@@ -7,6 +7,24 @@ over 115,377 body words.
 Draft. The pilot section will test it, and what the pilot teaches gets folded
 back in before the pass proper begins.
 
+**Two sections are gone and their numbers are left vacant on purpose.** §4, on
+lists, and §5, on dates and currency, were deleted 2026-09-13 (D-303), along with
+§1's paragraph about the *we* sweep not being a search-and-replace. **Do not close
+the gaps.** Eighteen references across `DECISIONS.md`, the superseded `STATE.md`
+leads and the `pNN-scope.md` files cite these sections by number, and most of them
+sit in the append-only record where they cannot be rewritten; renumbering §6 or
+§6a to fill a hole would silently repoint every one of them at the wrong rule.
+§4a, §4b and §6a already sit under numbers whose parents are gone, which is the
+same arrangement.
+
+**What §5 leaves behind.** The written rule is out; **the instruments that find
+its violations still run.** `claims.py` writes `reports/dated.tsv`, and
+`section_stats.py` carries a `TEMPORAL` pattern for *currently*, *recently*,
+*state-of-the-art* and *cutting-edge* and reports a `dated_names` count per
+section. **Eight references to §5 now dangle**, which is the intended failure: a
+pointer that obviously goes nowhere is safer than one that resolves to a rule its
+author never meant.
+
 ## 1. Person and stance (D-008)
 
 | Now | Becomes |
@@ -31,10 +49,6 @@ refusal* (§3.2). It is the *we* of whoever is building the thing, the reader
 included, and the author has ruled it part of the book's voice. It is not the
 committee *we* this section removes, which proposed and recommended on behalf of
 authors who did not exist. Do not report it, and do not recast it.
-
-This is not a search-and-replace. Most of the 258 instances sit in sentences
-built around a committee that did not exist, and the sentence has to be recast.
-Expect this to be the bulk of the editing time.
 
 ## 2. Section shape
 
@@ -178,18 +192,6 @@ dash was setting a beat rather than doing a job. Three cases in particular:
   at three or more, and 12 at four or more. The dense ones are where to look
   first; nothing about the count alone makes a paragraph wrong.
 
-## 4. Lists
-
-585 enumerated items in 102 sections sit outside the `<<list>>` markup, in four
-different styles: `(n)` 380, bullet 97, `n)` 95, alpha 13. Chapters 2–10 all
-have them; chapter 3 has 117.
-
-Rule: `<<list>>` markup for anything that is genuinely a list; `(n)` inline
-enumeration only where the items are short and the sentence needs them numbered.
-A run of five paragraph-length items each beginning "(3)" is prose wearing a
-list's clothes — either make it a real list of short items or write it as
-paragraphs.
-
 ## 4a. Run-in heads inside long sections
 
 The three-level cap is about the **reader-facing table of contents**, not about
@@ -218,16 +220,6 @@ and counts toward the word count, unlike an epigraph.
 
 Use sparingly. A box is a promise that the material is worth stepping out of the
 argument for.
-
-## 5. Dates and currency (D-008 dating policy)
-
-Prose is dateless. The book does not say "currently", "recently", "state of the
-art", or "is being developed" — 117 flagged instances in 49 sections, in
-`reports/dated.tsv`, each with a proposed remediation.
-
-Where a specific date or system genuinely matters, it goes in a clearly dated
-box, so a reader in 2030 can see what was true when and the surrounding prose
-does not rot with it.
 
 ## 6. Citations (D-009)
 

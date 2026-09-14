@@ -1,5 +1,25 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-303 (P201): the author trimmed `style.md`, and the two headings whose renumbering would have repointed eighteen references are back where they were.**
+
+**The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **No manuscript file changed this pass** — the lead below it is still the state of the book, and everything open there is still open.
+
+**What the author deleted stands:** `style.md` §4 (lists), §5 (dates and currency), and §1's paragraph about the *we* sweep not being a search-and-replace. **What was reverted is the renumbering that came with them**, Citations 6→5 and the disabled-population rule 6a→6.
+
+**`style.md` is cited by number in 201 places and the two moved headings carried eighteen of them.** Eight references to **§6 meant Citations** and after the renumber landed on the disabled-population rule; three to **§6a** meant the disabled-population rule and stopped resolving. **Three of the eight are from today** — D-295, `p194-scope.md` and the then-current lead, all citing §6 for the rule that permits a verified bibliography entry. **Most of the eighteen sit in `DECISIONS.md`, the superseded leads below, and the scope files**, which are append-only or are records of what a pass did.
+
+**The asymmetry settled it and is worth keeping.** Deleting §4 left §4a and §4b orphaned under a vacant number and **broke nothing**, because nothing was renumbered. §4 and §5 are now vacant the same way. **A note at the head of `style.md` says not to close the gaps**, because a later pass tidying the sequence would silently repoint all eighteen.
+
+**Verified: every `style.md` reference in the repository resolves except the eight naming §5**, which point at the deleted dating policy and **dangle by design** — a pointer that obviously goes nowhere is safer than one that resolves to a rule its author never meant, which is D-050's principle applied to this file.
+
+**One thing is recorded and not settled.** **§5's rule is out of the sheet and its instruments still run**: `claims.py` writes `reports/dated.tsv`, and `section_stats.py` carries a `TEMPORAL` pattern for *currently*, *recently*, *state-of-the-art* and *cutting-edge* and reports `dated_names` per section — and `section_stats.py` runs every pass. **Whether the dating policy is retired as a rule or only trimmed from the sheet has not been asked.**
+
+**The proof pair is a build behind.** It is 156 pages and the book is 157, D-302 having added a page. `README.md` links it at 156, which matches the pair and not the book.
+
+**Measured on the current tree:** 91 sections, **74,789 words**, **157 pages**, 258 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-302 (P200): §2.2.1 is out of chapter~2 and into chapter~6 as §6.1, revised, with both chapters renumbered around it.**
 
 **The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **258 cross-references** against 91 labels.
