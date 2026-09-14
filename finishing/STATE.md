@@ -1,5 +1,25 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-304 (P202): the D-008 dating policy is retired, and the half of it that was still working has moved into §4b.**
+
+**The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **No manuscript file changed this pass**, and the committed proof pair is still current at 157.
+
+**The rule was not what it looked like.** §5 never barred dates. It had two halves: **(a)** the prose does not say *currently*, *recently*, *state of the art* — words that rot silently — and **(b)** where a date or system genuinely matters it goes in a clearly dated box, which *requires* the date.
+
+**(a) is finished, which is why retiring it costs nothing.** 117 flagged instances when the rule was written; **15 regex matches now and not one a violation.** Eleven are *proposed* in its argumentative sense; one is a consensus protocol's *latest state*; one sits inside a dated court holding; and **two are §9.1's load-bearing distinction** between what an organization *currently* intends and what it has bound itself to — removing those would break the argument.
+
+**(b) is live and unanimous, and had no written basis outside the deleted section.** All three boxes in the book carry the period in the title. §4b described what a box is for and said nothing about dating one. It now carries one sentence that does.
+
+**The instruments outlived the rule.** `claims.py` still writes `reports/dated.tsv`; `section_stats.py` still carries its `TEMPORAL` pattern and reports `dated_names` on every run, including every run today. **They were left in place and `style.md`'s head note now says to read those columns as noise unless somebody reinstates the rule.**
+
+**Two staleness items were found in §4b and not repaired**, both predating today. It prescribes `<<box>>` … `<</box>>`, **dialect-era markup retired at D-065 that would not compile** — the book uses `\begin{esbox}` with `\boxtitle{}`. And it cites *the mirror-neuron overshoot in §2.2.1* as the model for a box, **a passage that is nowhere in the book**; that pointer was dead before D-302 renumbered §2.2.1, so the renumber did not cause it. **A later pass writing a box from §4b as it stands would write markup that fails the build.**
+
+**Still open from earlier today.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph both give the coded-exposure fix word for word, printed pages 59 and 60. **`QUESTIONS.md`'s forty-one open questions have gone thirteen passes unchecked**, with two renumber maps now standing between that file and the book.
+
+**Measured on the current tree:** 91 sections, **74,789 words**, **157 pages**, 258 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-303 (P201): the author trimmed `style.md`, and the two headings whose renumbering would have repointed eighteen references are back where they were.**
 
 **The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **No manuscript file changed this pass** — the lead below it is still the state of the book, and everything open there is still open.

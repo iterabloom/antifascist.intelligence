@@ -17,13 +17,24 @@ sit in the append-only record where they cannot be rewritten; renumbering §6 or
 §4a, §4b and §6a already sit under numbers whose parents are gone, which is the
 same arrangement.
 
-**What §5 leaves behind.** The written rule is out; **the instruments that find
-its violations still run.** `claims.py` writes `reports/dated.tsv`, and
-`section_stats.py` carries a `TEMPORAL` pattern for *currently*, *recently*,
-*state-of-the-art* and *cutting-edge* and reports a `dated_names` count per
-section. **Eight references to §5 now dangle**, which is the intended failure: a
-pointer that obviously goes nowhere is safer than one that resolves to a rule its
-author never meant.
+**What §5 leaves behind, and why it was safe to go (D-304).** It had two halves.
+The one telling the prose not to say *currently*, *recently* or *state of the art*
+**is finished**: 117 instances when the rule was written, **15 regex matches now,
+and none of them a violation** — eleven are *proposed* in its argumentative sense,
+one is a consensus protocol's *latest state*, one sits inside a dated court
+holding, and two are §9.1's load-bearing distinction between what an organization
+*currently* intends and what it has bound itself to. The other half, that a box
+carrying datable facts is dated in its title, **is live and unanimous**, and has
+moved to §4b.
+
+**The instruments outlived the rule and nothing now backs them.** `claims.py`
+writes `reports/dated.tsv`, and `section_stats.py` carries a `TEMPORAL` pattern
+and reports a `dated_names` count per section on every run. They were left in
+place; **read their columns as noise unless somebody reinstates the rule.**
+
+**Eight references to §5 now dangle**, which is the intended failure: a pointer
+that obviously goes nowhere is safer than one that resolves to a rule its author
+never meant.
 
 ## 1. Person and stance (D-008)
 
@@ -220,6 +231,12 @@ and counts toward the word count, unlike an epigraph.
 
 Use sparingly. A box is a promise that the material is worth stepping out of the
 argument for.
+
+**A box carrying facts that will date takes the period in its title** — *as
+reported through mid-2026* — so the prose around it does not rot with them. This
+is what survives of the D-008 dating policy, whose own section was retired at
+D-304: the half telling the prose not to say *currently* had finished its work,
+and this half had not. All three boxes in the book already do it.
 
 ## 6. Citations (D-009)
 
