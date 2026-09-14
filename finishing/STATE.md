@@ -1,5 +1,25 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-308 (P206): §8.2.1 is folded up into §8.2, and the book has no single-child parent again.**
+
+**The suite is green at 88 sections**, the book builds **155 pages**, and it is **74,121 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
+
+**This closes the item D-307 flagged and left open.** Cutting §8.2.2 had left §8.2 with one child, the first such parent in the book; the author ruled it folded. **§8.2 *Ask the People It Happens To* is now one section of 995 words**, and *Public Deliberation and Participatory AI Governance* is retired as a number and a title. **Minimum child count across the book is two again.**
+
+**No prose was rewritten and none was lost** — 74,121 words before and after, the page count unmoved at 155. What left is one heading. **The seam needed no repair**: §8.2.1's opening sentence was already written as a pivot off §8.2's list of development-stage mechanisms, and the `\runin{What none of these mechanisms does}` already spanned both halves. **The setup and its payoff are now adjacent** — §8.2 ends on *a board's worth is measured by what happens the first time it says no*, and the enumerate's third item answers it with the DeepMind Health panel.
+
+**Nothing referenced `sec:8.2.1` or `sec:8.2`**, so no repointing and no renumber map. **The ledger row was folded rather than dropped**: §8.2's row carries the union of both `decisions` and `evidence` columns, `words_v3b` 880, and §8.2.1's whole note history appended to its own.
+
+**One thing observed and left alone.** The merged section runs two mechanism lists in sequence — four development-stage mechanisms in prose, then three governance ones in the enumerate — and *ethics advisory boards* in the first is *AI ethics committees* in the second. The subsection break used to hide the adjacency. **It reads as setup and treatment rather than repetition**, the first list existing to make the point the third enumerate item cashes, **and it is recorded because a later reader may weigh it differently.**
+
+**Chapter~8 is now 8 sections and 5,753 words**, its subsection level surviving only under §8.3.
+
+**Still open.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph both give the coded-exposure fix word for word. **`QUESTIONS.md`'s forty-one open questions have now gone fifteen passes unchecked**, with two renumber maps standing between that file and the book. **The book is down to one `accepted` row**, chapter~6, D-307 having cut the other. **The committed proof pair is stale**: it is 157 pages against the book's 155, and `README.md` still says 157.
+
+**Measured on the current tree:** 88 sections, **74,121 words**, **155 pages**, 258 cross-references against 88 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-307 (P205): §8.2.2 and §8.3.5 are cut, and the specificity lesson survives as one sentence in §8.2.1.**
 
 **The suite is green at 89 sections**, the book builds **155 pages**, and it is **74,121 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 89 labels.

@@ -44,7 +44,6 @@ Chapter 7: The Recuperation of Dissent
 Chapter 8: Coordination, the Public, and the Political Economy
 8.1. Everybody Knows a Different Piece
 8.2. Ask the People It Happens To
-8.2.1. Public Deliberation and Participatory AI Governance
 8.3. The Political Economy of AI and Power
 8.3.1. AI and the Concentration of Power in Tech
 8.3.2. A Jobs Guarantee, and the Objection It Has to Answer
