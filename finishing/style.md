@@ -206,21 +206,27 @@ dash was setting a beat rather than doing a job. Three cases in particular:
 ## 4a. Run-in heads inside long sections
 
 The three-level cap is about the **reader-facing table of contents**, not about
-forbidding internal structure. Where folding leaves a long section — §3.1.2
-absorbs 24 subsections and lands near 14,000 words with its transplants — the
-absorbed material keeps unnumbered run-in heads:
+forbidding internal structure. Where a section runs long, its internal divisions
+keep unnumbered run-in heads:
 
 ```
-Hierarchical processing and the visual cortex
+\runin{What enumeration answers, and what it leaves}
 ```
 
-on its own line, no number, not in the table of contents. A reader still gets
-signposts; the outline still reads three deep.
+no number, not in the table of contents. A reader still gets signposts; the
+outline still reads three deep.
+
+§9.1.1 is the working example: **2,946 words carrying eight of them**, and the
+eight read as the outline of an argument — *The reply, and how far it reaches*;
+*The tradition this belongs to, and where it went wrong*; *The tradeoff this
+leaves the book with* — material that would otherwise have wanted subsections and
+a fourth level to hold them.
 
 Rule of thumb: a section over about 1,500 words wants run-in heads. Below that,
-paragraphs are enough. This is the escape valve D-010 always had — it was in the
-decision's original form and was lost when the triage was ruled, which is why
-§3.1.2 briefly looked like an unreadable 12,000-word run.
+paragraphs are enough. **The book follows it**: measured 2026-09-13, 15 of the 16
+sections over 1,500 words carry run-in heads, the one exception being chapter~2's
+opener at 2,081 words with none. This is the escape valve D-010 always had — it
+was in the decision's original form and was lost when the triage was ruled.
 
 ## 4b. Boxes
 
