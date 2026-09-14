@@ -224,10 +224,10 @@ decision's original form and was lost when the triage was ruled, which is why
 
 ## 4b. Boxes
 
-`<<box>>` … `<</box>>`, first line taken as the title. For a case study or a
-self-contained episode that would derail the paragraph it sits next to — the
-mirror-neuron overshoot in §2.2.1 is the model. A box is the author's own prose
-and counts toward the word count, unlike an epigraph.
+`\begin{esbox}` … `\end{esbox}`, with `\boxtitle{…}` as the first line inside
+it. For a case study or a self-contained episode that would derail the paragraph
+it sits next to — the Gaza targeting box at §6.4.1 is the model. A box is the
+author's own prose and counts toward the word count, unlike an epigraph.
 
 Use sparingly. A box is a promise that the material is worth stepping out of the
 argument for.

@@ -2,7 +2,7 @@
 
 The book stands at **91 sections, 74,789 words and 157 pages**, the section count agreeing across
 the manuscript, `ORDER.tsv`, `outline.tsv`, `ledger.tsv` and the contents (D-296 closed the one
-divergence, in chapter~11). Of the 91, 2 are accepted and 89 drafted and unread. **Two hundred and two passes have been executed.**
+divergence, in chapter~11). Of the 91, 2 are accepted and 89 drafted and unread. **Two hundred and three passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
 current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P156
