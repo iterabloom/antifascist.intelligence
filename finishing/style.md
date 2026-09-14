@@ -116,7 +116,7 @@ at any length.
 Three shapes this rule condemns, all present in the 2023 draft:
 
 - **The catalog.** A numbered run of theories, techniques, or frameworks, one
-  paragraph each, with an example and a "challenge" attached. Section 2.1.1's six
+  paragraph each, with an example and a "challenge" attached. Section 2.1's six
   ethical theories and section 5.7.1's four developmental frameworks are the
   specimens. The catalog's real claim is almost always one item long.
 - **The definition with a speculative tail.** "X trains a system on Y. Applied to
@@ -394,7 +394,7 @@ reader has to decode rather than read.
   Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* The
   author's own title, ruled part of the book's voice. Do not report it.
 - ***e.g.* is permitted in body prose** (D-198, Q-079). The book has two, at
-  §2.1.2 and §3.4, the second the author's own. Do not report either or expand it.
+  §2.2 and §3.4, the second the author's own. Do not report either or expand it.
 - **Emphasis is `\emph`, never `\textit`** (D-189, applied again at D-197).
   The book's practice was uniform and unwritten, so the eight `\textit` that
   came back from the first Overleaf pass and the twelve from the second were

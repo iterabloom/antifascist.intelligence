@@ -2,14 +2,13 @@ Chapter 0: Foreword
 Chapter 1: The Bearer: Our Fresh-Faced Protagonist
 Chapter 2: The Striving and the Electricity Bill
 2.1. Six Theories, None of Which Will Save Us
-2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
-2.1.2. Antifascist Ethics for AI Alignment
-2.2. Going Numb Won't Make You Fair
-2.2.1. Self-awareness and Self-regulation in AI Systems
-2.2.2. What Governs an Agent, and What Matters to It
-2.3. Ethical Implications of Experimenting on Sentient Machine Subjects
-2.3.1. Defining Sentience in AI: From Consciousness to Subjective Experience
-2.3.2. When Consent Is Inapplicable: Guardianship and Research Oversight
+2.2. Antifascist Ethics for AI Alignment
+2.3. Going Numb Won't Make You Fair
+2.3.1. Self-awareness and Self-regulation in AI Systems
+2.3.2. What Governs an Agent, and What Matters to It
+2.4. Ethical Implications of Experimenting on Sentient Machine Subjects
+2.4.1. Defining Sentience in AI: From Consciousness to Subjective Experience
+2.4.2. When Consent Is Inapplicable: Guardianship and Research Oversight
 Chapter 3: A Floor Beneath Learned Values
 3.1. Four Ways to Build One, and What Each Costs
 3.2. What Refusal Can Mean, and What a Refuser Can Be
