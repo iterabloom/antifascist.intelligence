@@ -1,5 +1,31 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-311 (P209): §12.2.2 is compressed to the concession and the two benchmarks that do work.**
+
+**The suite is green at 88 sections**, the book builds **152 pages**, and it is **73,216 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
+
+**The author's finding was that §12.2.2's five areas each name a benchmark and then concede none of them reaches the floor**, and that FANToM and MACHIAVELLI are the two that do work. **528 → 250 words.** Theory of mind and Moral reasoning survive with their paragraphs **byte-identical**; Robustness, Transparency and Applications are gone, with the opening sentence about the five areas not forming a queue, which had nothing left to rank.
+
+**Checking found the cut areas better justified than the finding claimed.** All three restate the one standard §12.2 sets two sentences earlier — *the milestone is the independently checked evidence, not the developer's account of having reached it* — in a subsection whose sibling §12.2.3 is entirely about who is qualified to check.
+
+**Two sentences also went out of the concession, and they are its Robustness half.** `12_02_01.tex:13` makes that claim one subsection earlier, so it stays there and goes here — D-013's one-home rule between adjacent subsections.
+
+**Two referents were repaired where the cut broke them.** *None of the five* is now *Neither… and nothing else available does either*, keeping the concession's original scope; *What the standard does not answer* is now *What they leave unanswered*, *the standard* having pointed at the Transparency area. **The closing sentence is a bridge rather than a loose end**: it asks who is qualified to check, and §12.2.3 answers it.
+
+**Nothing was orphaned.** No `\ref` points at `sec:12.2.2`, and the section's only two citations are the two kept, so `refs.bib` is untouched.
+
+**One sourcing gap leaves with the cut, recorded rather than repaired.** The Applications area named Perspective API, the Carnegie Endowment's AI Global Surveillance Index and UNESCO's 2021 Recommendation **with no citation on any of them**, against D-009's rule for named systems and instruments. All three appeared nowhere else and are now out of the book; vTaiwan, the fourth, survives at §8.2 and §12.1. **A later pass should not assume the rest of the book is clean on this**: nothing in `check_all.sh` tests for a named instrument carrying no source.
+
+**The opening sentence is new prose and is this pass's**, the old opener being a claim about five areas: *Two instruments do work that bears on the floor, and both do it by applying pressure.*
+
+**Five passes today have taken the book from 157 pages to 152** — D-307 through D-311, all of them author findings about recap and inventory, and **none of them has yet been proofed**. **The committed proof pair is stale by five pages**, and `README.md` still says 157.
+
+**Still open.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph. **`QUESTIONS.md`'s forty-one open questions have now gone eighteen passes unchecked.** **`check_typography.py` claims more than it tests** (D-309).
+
+**Measured on the current tree:** 88 sections, **73,216 words**, **152 pages**, 258 cross-references against 88 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-310 (P208): §3.8's recap is cut and the induction-failure passage is surfaced.**
 
 **The suite is green at 88 sections**, the book builds **153 pages**, and it is **73,494 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.

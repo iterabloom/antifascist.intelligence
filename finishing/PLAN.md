@@ -1,8 +1,8 @@
 # Finishing plan
 
-The book stands at **88 sections, 73,494 words and 153 pages**, the section count agreeing across
+The book stands at **88 sections, 73,216 words and 152 pages**, the section count agreeing across
 the manuscript, `ORDER.tsv`, `outline.tsv`, `ledger.tsv` and the contents (D-296 closed the one
-divergence, in chapter~11). Of the 88, 1 is accepted and 87 drafted and unread. **Two hundred and eight passes have been executed.**
+divergence, in chapter~11). Of the 88, 1 is accepted and 87 drafted and unread. **Two hundred and nine passes have been executed.**
 
 **This file's run below stops at P63 and is a historical record from there on. For the
 current state read `STATE.md`, whose lead paragraph is the handoff; for P64 through P156
