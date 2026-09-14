@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-302 (P200): §2.2.1 is out of chapter~2 and into chapter~6 as §6.1, revised, with both chapters renumbered around it.**
+
+**The suite is green at 91 sections**, the book builds **157 pages**, and it is **74,789 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **258 cross-references** against 91 labels.
+
+***What Emotion Is, and What a System Reads* is now §6.1, *The Standard Face Is a File***, the first numbered section of chapter~6, placed after the data-centre energy esbox and before what was *Who Supplies the System's Values*. **The revision reorders it** — the deployed case first, the scientific dispute second, reversing the order it carried in chapter~2 — and compresses the Ekman/Barrett material from four paragraphs to three. **All eight citations are retained**, checked as a set before the move, **because a dropped key would have left an uncited entry in `refs.bib` and nothing in the suite tests for that.** A stub paragraph in §2.2 keeps the first capacity a live category for the table above it and points at §6.1.
+
+**Eight numbers moved and `renumber-map_2026-09-13b.tsv` records them.** 2.2.2→2.2.1, 2.2.3→2.2.2, 6.1→6.2, 6.2→6.3, 6.3→6.4, 6.3.1→6.4.1, 6.3.2→6.4.2. **This is the second renumber map of the day** — `renumber-map_2026-09-13.tsv` is D-296's, in chapter~11 — and **the record files are read through both, not rewritten.** Nine cross-references were remapped in one simultaneous pass, matched on the full brace so `sec:6.3` never matched inside `sec:6.3.1`; **nothing pointed at the moved section**, so the move cost no repointing beyond the stub. The ledger row travelled with the section, so §6.1 keeps the history it accumulated as §2.2.1.
+
+**Three corrections were made to the supplied text and a later pass should know why.** It carried `\label{sec:2.2.1}` on a section becoming §6.1, which would have failed `check_structure.py` and **reproduced exactly the divergence D-296 was opened to close**. It read `section~\ref{sec:11.7}` where D-296 had already moved that section to **§11.8** earlier the same day. And it carried seven ASCII em dashes and one TeX quote pair, converted per `style.md` §8. **A supplied block is written against the tree as the author last saw it, and the tree moved twice today.**
+
+**Verified from `book.aux`, where LaTeX records what each label resolved to: all 91 labels print the number their name says, 0 divergences.**
+
+**One thing flagged and not changed.** **A 23-word clause is now stated twice, on facing pages.** Chapter~6's opener defines coded exposure as *the face-recognition case, where the fix for a system that fails on dark skin is a system that identifies dark-skinned faces reliably for whoever is looking*, and §6.1's first paragraph repeats the second half **word for word**, on printed pages 59 and 60. *The one named above* already does the pointing, so the restatement is the part that could go — `style.md` §2's shape and D-013's one-home rule. It is the author's prose and the pickup may be deliberate.
+
+**Stale, and none of it blocking.** **`xref-paragraphs-{related,unrelated}.md`** are hand reads keyed to paragraphs largely gone. **`claims.tsv`, `epigram.tsv`, `xref_shapes.tsv`, `negatives.tsv` and `redundancy_*.tsv`** were not rerun, nor was `xref_content.py` — **whose semantic check is the one that bears on nine just-remapped references**; `section_stats.py` was.
+
+**Still unread.** **Chapter~6 was not re-read whole against its new first section**, which is now the chapter's longest and changes what the chapter opens on. **Chapters~4, 5 and~11 have still never been read as prose.** **`QUESTIONS.md`'s forty-one open questions have now gone twelve passes unchecked**, and two renumber maps now stand between that file and the book. **`c8b1a97`, `c0b24bd` and `0fcf381` have no row, lead or scope file.**
+
+**Measured on the current tree:** 91 sections, **74,789 words**, **157 pages**, 258 cross-references against 91 labels, 227 bibliography entries all cited, 0 undefined references and citations. Chapter~2 is 10 sections and 13,490 words; chapter~6 is 7 and 5,412. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-299 (P198): the author's two tweaks to the Foreword are in, and the *names* question D-298 left open is answered.**
 
 **The suite is green at 91 sections**, the book builds **156 pages**, and it is **74,666 words**. **`refs.bib` is 227**, every entry cited, zero undefined references and citations, **256 cross-references** against 91 labels.

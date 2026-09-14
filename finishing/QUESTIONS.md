@@ -1,5 +1,14 @@
 # Open questions
 
+**Current as of 2026-09-13, after D-302 (P200): no entry opened or closed, and a second renumber map now stands between this file and the book.**
+
+**Two chapters were renumbered today and neither renumber has been propagated here, deliberately.** `renumber-map_2026-09-13.tsv` carries D-296's chapter~11 moves and **`renumber-map_2026-09-13b.tsv` carries D-302's**, which moved §2.2.1 out of chapter~2 into chapter~6 as §6.1 and shifted 2.2.2–2.2.3 up and 6.1–6.3.2 down. **Anything written here naming a number in §2.2.x or chapter~6 has to be read through the second map**, and anything naming chapter~11 through the first.
+
+**The moved section is the one to watch.** It was §2.2.1, *What Emotion Is, and What a System Reads*, and it is now §6.1, *The Standard Face Is a File* — **retitled, reordered and compressed**, so a question about it needs re-reading against the new text and not merely renumbering.
+
+**Forty-one still open**, unchanged in number, and **twelve passes unchecked**.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-13, after D-297 (P196): no entry opened or closed, and Q-111 has a new site.**
 
 **Q-111 asks where the persona-device disclosure goes**, the book carrying it nowhere while the README does. **The Foreword was replaced whole this pass and the device is still named nowhere in the book.** The old text at least gestured at method — *the different strategies I used to prompt LLMs to generate the text* — and the new one says *I used LLMs extensively in writing this book* and links the repository. **The gesture is gone and the disclosure is not**, so the question is unchanged in substance and the passage a ruling on it would edit is now `00.tex:13`. **D-008 originally called for a note naming the device**; nothing has withdrawn that and nothing has executed it.

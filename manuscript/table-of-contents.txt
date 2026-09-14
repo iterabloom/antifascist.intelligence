@@ -5,9 +5,8 @@ Chapter 2: The Striving and the Electricity Bill
 2.1.1. Six Ethical Frameworks, and Where Each One Runs Out
 2.1.2. Antifascist Ethics for AI Alignment
 2.2. Going Numb Won't Make You Fair
-2.2.1. What Emotion Is, and What a System Reads
-2.2.2. Self-awareness and Self-regulation in AI Systems
-2.2.3. Is Affect Necessary for Moral Concern?
+2.2.1. Self-awareness and Self-regulation in AI Systems
+2.2.2. Is Affect Necessary for Moral Concern?
 2.3. Ethical Implications of Experimenting on Sentient Machine Subjects
 2.3.1. Defining Sentience in AI: From Consciousness to Subjective Experience
 2.3.2. When Consent Is Inapplicable: Guardianship and Research Oversight
@@ -31,11 +30,12 @@ Chapter 5: Formation or Imitation?
 5.4. The Evaluator Is Part of the Custody Chain
 5.5. What the Evidence Can Establish
 Chapter 6: Neutralizing and Preventing Fascism in AI Development
-6.1. Who Supplies the System's Values
-6.2. Who Is Allowed to Look
-6.3. Same Robot, Worse Boss
-6.3.1. Twenty Seconds
-6.3.2. Custody and State Compulsion
+6.1. The Standard Face Is a File
+6.2. Who Supplies the System's Values
+6.3. Who Is Allowed to Look
+6.4. Same Robot, Worse Boss
+6.4.1. Twenty Seconds
+6.4.2. Custody and State Compulsion
 Chapter 7: The Recuperation of Dissent
 7.1. Recuperation at the Label
 7.2. Recuperation at the Reward: RLHF

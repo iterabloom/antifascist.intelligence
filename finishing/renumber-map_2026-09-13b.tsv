@@ -1,0 +1,9 @@
+old	new	note
+2.2.1	6.1	What Emotion Is, and What a System Reads → The Standard Face Is a File; moved out of chapter 2 into chapter 6 as its first numbered section, reordered and compressed (D-302)
+2.2.2	2.2.1	displaced upward by the move out
+2.2.3	2.2.2	displaced upward by the move out
+6.1	6.2	displaced downward by the move in
+6.2	6.3	displaced downward by the move in
+6.3	6.4	displaced downward by the move in
+6.3.1	6.4.1	displaced downward by the move in
+6.3.2	6.4.2	displaced downward by the move in

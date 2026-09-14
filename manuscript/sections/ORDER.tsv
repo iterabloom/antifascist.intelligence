@@ -4,11 +4,10 @@ manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	0bfc57
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	07a7eeb519312e5d5eafb37f599cc099627213b72f14b6370f257540ddd769ba
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories, None of Which Will Save Us	ed8fd1c5a30099aeb187d28aa67f52468947671c9be133ada5686e4f009b8c25
 manuscript/sections/ch02/02_01_01.tex	2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	5f0b3047a85a3e0b54a332287805c403b9472d95cd330f5598f987f3db6f0d7b
-manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	07af823680f0ae061bc77f29c4fadb1c8d35e60a15d6fcdc955c9e152f51ea2f
-manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	126711661aa95854c7066c0ac9e1bc4d1f74ed29341115e3b296157e060907cf
-manuscript/sections/ch02/02_02_01.tex	2.2.1	What Emotion Is, and What a System Reads	18d2fe608eb85ffd3dfc5465a4d80c30cf4118aa1922c01dd3197dcea38b2bb1
-manuscript/sections/ch02/02_02_02.tex	2.2.2	Self-awareness and Self-regulation in AI Systems	969d07f99275bcc7c2819a7877b91c4623e95784f367c1b55b70f65c7fbe34f8
-manuscript/sections/ch02/02_02_03.tex	2.2.3	Is Affect Necessary for Moral Concern?	0644448b583d76dbc2f57506a01e2ffdc5ceb71e5ea07dfa4dedf48905b06fe4
+manuscript/sections/ch02/02_01_02.tex	2.1.2	Antifascist Ethics for AI Alignment	63b634c7a09e6a5b144188aaeec0bf05ba0dbd320096c79743044549b2a08528
+manuscript/sections/ch02/02_02.tex	2.2	Going Numb Won't Make You Fair	7685c4b75fdbfcdcf131e60f4130003e6d24e2991c315b917fbc0269fd16d97f
+manuscript/sections/ch02/02_02_01.tex	2.2.1	Self-awareness and Self-regulation in AI Systems	598ef17ff15a03e049fddecf8453befd9c53efb4ff17aa72d989e1143048b435
+manuscript/sections/ch02/02_02_02.tex	2.2.2	Is Affect Necessary for Moral Concern?	221ca85a6b9cab6711973d46e6299be06f61a5981693ad063296a323f002bf9e
 manuscript/sections/ch02/02_03.tex	2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2a5f726ede6d3e8cd6a188ba885f80fbaa9b6b0838d3220e39252aceb9bacb71
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	c13c8825c2827d33bffdfe9c7ff0f605bd23411e1e58078c0458a56452f71d3b
 manuscript/sections/ch02/02_03_02.tex	2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	2aeab9005c7316f8193501d0c77c735d772694c2ab3c18e9cfcfbd424925f960
@@ -18,7 +17,7 @@ manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser
 manuscript/sections/ch03/03_03.tex	3.3	Could Anything but Affect Hold a Reason?	4a8c3c3abbba2f1c714e8cd90c517ce899b500a9460cea91247beec576305146
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	4afa75a46b3cf3c944d1fc521973b8b6e5bf8fa28e289b2ba480b3f01d9478ac
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	ce7911ad7be9b48427806c72c8018ea11ca0daab972ac8293727a5ee1246197f
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	837d32f80d0523035bb40eacc3caf85e7e7304a08c75bea4e11a3da3bd2017cb
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	fb0a6f056f2f472e2231089151193c1e89984f9806b34e36bec6a62b29c61764
 manuscript/sections/ch03/03_07.tex	3.7	What One Bearer Cannot Catch: A Floor Carried Between Them	2b9748cb899036b4384f7884e2ef257a8fa67e66655e01701d4ffd63ce330971
 manuscript/sections/ch03/03_08.tex	3.8	What This Leaves Standing: The Floor, Redefined	7b41f6e8b7a552c9e09b016777839b8a9b0d289dc23edbcc6d0e1d1b8bb09c00
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	ef9d5fbfd4d8a30706d0da374e46089b51ff01541b9bc76f78abc0d7d3999a57
@@ -31,17 +30,18 @@ manuscript/sections/ch05/05_02.tex	5.2	Recognition, Concern, and the Evidence Be
 manuscript/sections/ch05/05_03.tex	5.3	Conflict as a Diagnostic	71a22b25765c0390f1ef2244b6146d8c7b364bcaa5a738b5a209fc2dceba09c0
 manuscript/sections/ch05/05_04.tex	5.4	The Evaluator Is Part of the Custody Chain	6b2a5026fb148821af105e1c2ac4149ee08b51bf9034257ce1ca12486bf67a10
 manuscript/sections/ch05/05_05.tex	5.5	What the Evidence Can Establish	8630f734072d14602c5383aee30d0f6466d7e5a96db030670cf06bdd2813a136
-manuscript/sections/ch06/06.tex	6	Neutralizing and Preventing Fascism in AI Development	8f43dff6a091e56ee22e84a46c4eea7ae54753b182cac46f7c5796d45ec2cfe3
-manuscript/sections/ch06/06_01.tex	6.1	Who Supplies the System's Values	60509547b66cbac42054e8bae3474c10f119db378478250039591033a3544494
-manuscript/sections/ch06/06_02.tex	6.2	Who Is Allowed to Look	53b4b746b1d84ae5f155f4e123d5d9337476d7f17d78f010f3bac20056cf0b55
-manuscript/sections/ch06/06_03.tex	6.3	Same Robot, Worse Boss	87e8415113d4d251bdaab9c9a31b4bc932c2e20e59358523afb079de164717fb
-manuscript/sections/ch06/06_03_01.tex	6.3.1	Twenty Seconds	dfd51437f775fe132c91c33169b9355f4b59a44ddd43ed3deae74aa2b23c2bbd
-manuscript/sections/ch06/06_03_02.tex	6.3.2	Custody and State Compulsion	124c9bb841338349bf1a6feb2d709478a59b0b343d7f692fca26ccd16a686dcf
+manuscript/sections/ch06/06.tex	6	Neutralizing and Preventing Fascism in AI Development	5977d82ee37af4c0a7470d669475a17825b396c0013f668a452a9c6ddc3c0ccf
+manuscript/sections/ch06/06_01.tex	6.1	The Standard Face Is a File	09132318c91222bb3b28d6fb8fae8be932de14f2b47b2ecb3f1e7f1928abacaa
+manuscript/sections/ch06/06_02.tex	6.2	Who Supplies the System's Values	513d4653a7259ef571736b8850c1e8625bf335b1e91dc144ac7031dafd370552
+manuscript/sections/ch06/06_03.tex	6.3	Who Is Allowed to Look	4d878577e9c08efc93e28ef93a4bc90181fc7787651527e1611f0a75dee743fd
+manuscript/sections/ch06/06_04.tex	6.4	Same Robot, Worse Boss	f02c34d4011625721c84007e77d6e2215aa87a9a9c444e3e2e60d67b0c1262f0
+manuscript/sections/ch06/06_04_01.tex	6.4.1	Twenty Seconds	2cc678474afc0e5293cda7df7a9fe89369389290568acf3a450aad9f6dec8392
+manuscript/sections/ch06/06_04_02.tex	6.4.2	Custody and State Compulsion	dbf2915672bae7bfe4e9a9fd7b0bf666e16c417516207a8c59e431be9453e3c6
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	a194cee92c1c2c90b2f29dcc92fc9064a9bfb99ac898916425b85cb32036d0e4
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	1bb9294d6fdb43063de156780ef186c4837eb182851d57b7fd0938047075c2f2
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	5e135fc8bd96c02dede70163c2f62da70bcbcee540654dc03e0c5817fb3a40f0
 manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	9c9008fd72ee4a8bacc030e06f5efdf3759462319e02e26e6c6b681619e30052
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	c1f9c679b6c1b424c718d552bb33f5cefcfe658a606d1138a124b30f6ceb508b
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	49e62f9394a625404d071bcea1637375b23000aca856e8a09098e0e744abd833
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	e8882876dc58e9ebfdd26b296e48ee5543971229d1dc2bbecbd023168b6ccd43
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	f9b1c2bb844231a8cf9d00dcdfcfa6a48e0d9385a7d82d7def53c4812f2a7767
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	0c6d1abd993c7c77de85a89e8a91d214a3c4e8ef744cbbc8beee81449f79c9e7
@@ -89,4 +89,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	a
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	32c0f7fa74bb20b7f15b0c03a8d210c77d48d629549b9abb52f251c99682bd72
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	3c086ed03413578835af2310e4b7eb0aa38dc2dd759c87b7598ad98781aa404a
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	9bedc3f22b9688d67c403c30c8feff49d6f8b4f86f42cc1f5ac6351200c39360
-manuscript/sections/ch13/13.tex	13	Glossary	593597237fc699c8374df7995d25deeb0787e9ddbefa464298dba38a991fe453
+manuscript/sections/ch13/13.tex	13	Glossary	04bf6bc38f8ff00e8dd0615309cf2f2e76737508d75043b0104a52a2967f623c
