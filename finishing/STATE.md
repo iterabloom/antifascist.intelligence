@@ -2,7 +2,7 @@
 
 Read this first. **Updated 2026-09-14 after D-312 through D-314 (P210, P211, P212): the 2026-09-14 edit list is executed entire, §2.1 is dissolved, and the D-009 gap is closed.**
 
-**The suite is green at 88 sections**, the book builds **160 pages**, and it is **79,081 words**. **`refs.bib` is 226**, every entry cited, zero undefined references and citations, **232 cross-references** against 88 labels. **Tree clean, pushed, `origin/main` at the proofs commit.**
+**The suite is green at 88 sections**, the book builds **160 pages**, and it is **79,081 words**. **`refs.bib` is 226**, every entry cited, zero undefined references and citations, **232 cross-references** against 88 labels. **Tree clean and pushed.** `origin/main` is one commit past the proofs, and that commit is `reports/` and this file only — the proof pair on disk is the current book.
 
 **Three passes, and they are one instruction.** A 23-item editorial list at `~/book-scratch/edit-list-sep14.txt`, reviewed whole before anything was touched, then executed batch by batch on the author's direction: **P210** took Tier 0 and Tier 1 (items 1-15 and 23) in four batches, **P211** took Tier 2 and Tier 3 (items 16-22) last, as the list requires, so the compression standard reached P210's additions, and **P212** closed the gap P210 had left open and flagged. `p210-scope.md`, `p211-scope.md` and `p212-scope.md` have the three.
 
