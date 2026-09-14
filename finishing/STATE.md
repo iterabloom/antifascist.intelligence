@@ -1,5 +1,27 @@
 # State of play
 
+Read this first. **Updated 2026-09-13 after D-309 (P207): §6.4's six worked examples are cut to two sentences, and the glossary is the taxonomy's home.**
+
+**The suite is green at 88 sections**, the book builds **154 pages**, and it is **73,749 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
+
+**The author's finding was that §6.4's enumerate exists in order to be set aside**, the section's own next line saying each form is recognizable as misuse from outside and the case the chapter takes up is the one that is not. **Six worked examples were a lot of words to spend clearing the table; two sentences and the glossary entry carry it.** The enumerate is gone, **372 words**: §6.4 goes 525 → 153.
+
+**The finding named §6.3 and the section is §6.4.** D-302 displaced chapter~6 downward this morning and `renumber-map_2026-09-13b.tsv` is the map. *Same Robot, Worse Boss* is unmistakably the section meant — it held the enumerate and the quoted line. **This is the hazard `QUESTIONS.md`'s header names, arriving from the author rather than from a record file**, and a later pass taking author text in should expect it again while today's two maps stand.
+
+**What replaces the enumerate names the same six in the glossary's own words** — algorithmic social scoring, mass biometric surveillance, psychographic micro-targeting, automated censorship, synthetic disinformation, repurposed dual-use systems — and keeps the closing line verbatim.
+
+**The glossary needed no edit and is the definition now.** It already lists all six and points at `sec:6.4`, which still names them, so the pointer resolves to a section that uses the term rather than one that has forgotten it. **It was the only thing in the book pointing at §6.4**: one `\ref`, the one the author named.
+
+**All six citations were kept, bundled on the naming sentence, and that is a judgment call.** Each is cited nowhere else, so cutting the examples would have orphaned all six — **the same six the 2026-09-12 Overleaf cut orphaned and P187 restored**, on the finding that the glossary had gone on defining a taxonomy the book no longer contained. That failure mode is not repeated here, the forms still being named, but the entries would have round-tripped a second time and the sources are what carry *documented*. **The cost is a six-key parenthetical of about thirty printed words against 372 cut**, and the glossary takes no citations by a convention it keeps at zero.
+
+**One tool defect found and recorded, not repaired.** `check_typography.py` prints *no straight quotes, no ASCII dashes, no TeX quote notation* on success, **but its TeX-quote rules sit in `BIB_RULES` and are applied to `refs.bib` only.** The manuscript is checked against `RULES`, which has no such rule. **Three `` `` '' pairs sit in the sections undetected** — `06_04.tex:11`, `09_01.tex`, `10_03.tex`. They set correctly, so it is source consistency against D-082 and not a rendering fault; **the success line claims more than the run tested.**
+
+**Still open.** **A 23-word clause is stated twice on facing pages** — chapter~6's opener and §6.1's first paragraph both give the coded-exposure fix word for word. **`QUESTIONS.md`'s forty-one open questions have now gone sixteen passes unchecked.** **The book has one `accepted` row**, chapter~6. **The committed proof pair is stale**: 157 pages against the book's 154, and `README.md` still says 157.
+
+**Measured on the current tree:** 88 sections, **73,749 words**, **154 pages**, 258 cross-references against 88 labels, 222 bibliography entries all cited, 0 undefined references and citations. Suite green.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-13 after D-308 (P206): §8.2.1 is folded up into §8.2, and the book has no single-child parent again.**
 
 **The suite is green at 88 sections**, the book builds **155 pages**, and it is **74,121 words**. **`refs.bib` is 222**, every entry cited, zero undefined references and citations, **258 cross-references** against 88 labels.
