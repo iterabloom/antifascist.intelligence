@@ -6,19 +6,20 @@ Chapter 2: The Striving and the Electricity Bill
 2.1.2. Antifascist Ethics for AI Alignment
 2.2. Going Numb Won't Make You Fair
 2.2.1. Self-awareness and Self-regulation in AI Systems
-2.2.2. Is Affect Necessary for Moral Concern?
+2.2.2. What Governs an Agent, and What Matters to It
 2.3. Ethical Implications of Experimenting on Sentient Machine Subjects
 2.3.1. Defining Sentience in AI: From Consciousness to Subjective Experience
 2.3.2. When Consent Is Inapplicable: Guardianship and Research Oversight
 Chapter 3: A Floor Beneath Learned Values
 3.1. Four Ways to Build One, and What Each Costs
 3.2. What Refusal Can Mean, and What a Refuser Can Be
-3.3. Could Anything but Affect Hold a Reason?
+3.3. What Arrives With the Capability
 3.4. Can the Bearer Care Without Being Able to Suffer?
 3.5. If You Can Be Switched Off, Can You Hold the Line?
 3.6. The Enumeration, Run Once: A Worked Floor for One Deployment
-3.7. What One Bearer Cannot Catch: A Floor Carried Between Them
-3.8. What This Leaves Standing: The Floor, Redefined
+3.7. When the Refusal Is Wrong
+3.8. What One Bearer Cannot Catch: A Floor Carried Between Them
+3.9. What This Leaves Standing: The Floor, Redefined
 Chapter 4: Where the Caring Gets Built
 4.1. You Can't Hold a Line You Didn't Notice
 4.2. The Assembly Line for a Conscience

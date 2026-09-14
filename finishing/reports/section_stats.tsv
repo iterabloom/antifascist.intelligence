@@ -1,37 +1,38 @@
 num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
 0	Foreword	1	0	234	6	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-1	The Bearer: Our Fresh-Faced Protagonist	1	1	961	13	0	0	0	1	0	0	10	0	0		0	0	1	0	0
+1	The Bearer: Our Fresh-Faced Protagonist	1	1	1011	13	0	0	0	1	0	0	10	0	0		0	0	1	0	0
 2	The Striving and the Electricity Bill	1	2	2081	16	0	0	0	1	0	0	8	0	4		0	0	0	0	0
 2.1	Six Theories, None of Which Will Save Us	2	2	79	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3	2	1191	13	0	0	0	0	0	0	2	0	2		0	0	0	0	3
-2.1.2	Antifascist Ethics for AI Alignment	3	2	3597	32	4	0	0	1	0	0	4	0	14	2018	0	0	0	0	5
+2.1.1	Six Ethical Frameworks, and Where Each One Runs Out	3	2	1428	14	0	0	0	0	0	0	3	0	2		0	0	0	0	3
+2.1.2	Antifascist Ethics for AI Alignment	3	2	3971	33	4	0	0	1	0	0	5	0	14	2018	0	0	0	0	5
 2.2	Going Numb Won't Make You Fair	2	2	675	16	0	0	0	0	0	0	2	0	0		0	0	0	0	1
 2.2.1	Self-awareness and Self-regulation in AI Systems	3	2	775	9	0	0	0	0	0	0	0	0	3		0	0	0	0	1
-2.2.2	Is Affect Necessary for Moral Concern?	3	2	1062	18	0	0	0	0	0	0	2	0	8		1	0	0	0	6
+2.2.2	What Governs an Agent, and What Matters to It	3	2	1079	18	0	0	0	0	0	0	2	0	8		1	0	0	0	6
 2.3	Ethical Implications of Experimenting on Sentient Machine Subjects	2	2	50	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2282	23	0	0	0	0	0	0	4	0	5	2026	0	0	0	0	1
+2.3.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3	2	2395	23	0	0	0	0	0	0	5	0	5	2026	0	0	0	0	1
 2.3.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1698	17	0	0	0	0	0	0	9	0	2		0	0	0	0	3
 3	A Floor Beneath Learned Values	1	3	452	9	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	2	3	1040	13	0	0	0	0	0	0	6	0	5	2026	0	0	0	0	0
-3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	1227	28	8	0	0	0	0	0	4	0	3	2007	0	1	0	0	4
-3.3	Could Anything but Affect Hold a Reason?	2	3	1981	36	4	0	0	0	0	0	2	0	12		0	0	0	0	5
-3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	1309	24	0	0	0	0	0	0	4	0	6	2023	0	0	0	0	4
+3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	1448	28	8	0	0	0	0	0	8	0	3	2007	0	1	0	0	4
+3.3	What Arrives With the Capability	2	3	2923	41	4	0	0	0	0	0	9	0	12		0	0	0	0	5
+3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2580	31	0	0	0	1	0	0	17	0	7	2023	0	0	0	0	6
 3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	2515	42	7	0	0	0	0	0	2	0	12	2024	0	1	0	0	3
-3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1579	38	11	0	0	0	0	0	5	0	3	2026	0	1	0	0	5
-3.7	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	1877	30	0	0	0	0	0	0	8	0	3		0	0	0	0	4
-3.8	What This Leaves Standing: The Floor, Redefined	2	3	896	14	0	0	0	1	0	0	6	0	0		0	2	0	0	1
+3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	1603	38	11	0	0	0	0	0	6	0	3	2026	0	1	0	0	5
+3.7	When the Refusal Is Wrong	2	3	1498	30	0	0	0	0	0	0	16	0	0		0	0	0	0	8
+3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	2055	31	0	0	0	0	0	0	9	0	3		0	0	0	0	4
+3.9	What This Leaves Standing: The Floor, Redefined	2	3	1018	14	0	0	0	1	0	0	6	0	0		0	2	0	0	1
 4	Where the Caring Gets Built	1	4	135	3	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-4.1	You Can't Hold a Line You Didn't Notice	2	4	1001	12	0	0	0	0	0	0	2	0	3		0	0	0	0	0
+4.1	You Can't Hold a Line You Didn't Notice	2	4	1262	16	0	0	0	0	0	0	4	0	3		0	0	0	0	0
 4.2	The Assembly Line for a Conscience	2	4	1125	20	0	0	0	0	0	0	0	0	7		0	0	0	0	0
 4.3	It Takes a Village to Deploy a Self-Aware Email Server	2	4	736	9	0	0	0	0	0	0	2	1	1		0	1	0	0	0
 5	Formation or Imitation?	1	5	212	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 5.1	What Formation Would Have to Add	2	5	372	6	0	0	0	0	0	0	3	0	1		0	0	0	0	0
-5.2	Recognition, Concern, and the Evidence Between Them	2	5	863	12	0	0	0	0	0	0	3	0	3		0	0	0	0	0
+5.2	Recognition, Concern, and the Evidence Between Them	2	5	862	12	0	0	0	0	0	0	3	0	3		0	0	0	0	0
 5.3	Conflict as a Diagnostic	2	5	795	16	6	0	0	0	0	0	2	0	1		0	0	0	0	0
 5.4	The Evaluator Is Part of the Custody Chain	2	5	731	10	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-5.5	What the Evidence Can Establish	2	5	814	16	4	0	0	0	0	0	1	0	0		0	0	0	0	0
+5.5	What the Evidence Can Establish	2	5	833	16	4	0	0	0	0	0	1	0	0		0	0	0	0	0
 6	Neutralizing and Preventing Fascism in AI Development	1	6	703	29	0	0	0	0	0	0	1	0	5	2030	0	0	1	1	0
-6.1	The Standard Face Is a File	2	6	1517	19	0	0	0	0	0	0	2	0	9		0	0	0	0	5
+6.1	The Standard Face Is a File	2	6	1556	19	0	0	0	0	0	0	2	0	9		0	0	0	0	5
 6.2	Who Supplies the System's Values	2	6	528	7	0	0	0	0	0	0	0	0	3		0	0	0	0	0
 6.3	Who Is Allowed to Look	2	6	216	3	0	0	0	0	0	0	0	0	2	2020	0	0	0	0	0
 6.4	Same Robot, Worse Boss	2	6	153	11	0	0	0	0	0	0	0	0	1		0	0	0	0	0
@@ -52,12 +53,12 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 8.3.4	Wages for a Bearer, and the Reserve Behind Them	3	8	2361	22	0	0	0	1	0	0	19	0	3	2017	0	1	0	0	4
 9	Authority, Standing, and the Power to Stop	1	9	125	12	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.1	Authority Over the Floor	2	9	810	69	0	0	0	0	0	0	0	0	3	2019	1	2	0	0	1
-9.1.1	Who May Create or Amend the Floor?	3	9	2946	37	0	0	0	0	0	0	16	0	8	2017	0	1	0	0	8
+9.1.1	Who May Create or Amend the Floor?	3	9	2956	37	0	0	0	0	0	0	18	0	8	2017	0	1	0	0	8
 9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	3	9	637	20	0	0	0	0	0	0	4	0	0		0	0	0	0	0
 9.2	Privacy	2	9	559	17	0	0	0	0	0	0	5	0	0		0	0	0	0	0
 9.3	What Makes Review Binding?	2	9	101	9	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	3	9	814	9	0	0	0	0	0	1	0	0	2		0	0	0	0	0
-9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1576	15	0	0	0	0	0	0	7	1	3		0	0	0	0	2
+9.3.2	Research Principles, the Three Rs, and Legal Status	3	9	1646	15	0	0	0	0	0	0	8	1	3		0	0	0	0	2
 9.3.3	What Standing Binds in Practice	3	9	375	36	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 9.3.4	Making Review Binding	3	9	501	33	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 9.3.5	How Review Is Captured Without Being Abolished	3	9	830	12	0	0	0	2	0	0	1	0	0		0	0	0	0	2
@@ -68,12 +69,12 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 10.4	Who Can Bind the State That Enforces the Rule?	2	10	443	44	0	0	0	0	0	0	0	0	2	2026	0	0	0	0	0
 10.5	Democracy Is Not a Force Field	2	10	688	12	0	0	0	0	0	0	1	0	1		0	0	0	0	3
 11	What Would Change the Argument: A Research Agenda	1	11	93	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-11.1	Tamper-Resistance and Reason-Responsive Refusal	2	11	818	32	0	0	0	0	0	0	0	0	3		0	0	0	0	0
+11.1	Tamper-Resistance and Reason-Responsive Refusal	2	11	916	32	0	0	0	0	0	0	2	0	3		0	0	0	0	0
 11.2	Bearer Welfare and Independent Guardianship	2	11	759	24	0	0	0	0	0	0	0	0	2		0	0	0	0	0
 11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	2	11	195	8	0	0	0	0	0	0	0	0	1		0	1	0	0	0
 11.4	Can Scalable Oversight Correct Rater Bias?	2	11	194	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 11.5	Can a Multi-Agent Floor Resist Collusive Capture?	2	11	239	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-11.6	Can a Population Coordinate Without Converging?	2	11	532	8	0	0	0	0	0	0	4	0	1		0	1	0	0	0
+11.6	Can a Population Coordinate Without Converging?	2	11	1089	8	0	0	0	0	0	0	9	0	1		0	1	0	0	0
 11.7	Does Theory-of-Mind Performance Reflect a General Capacity?	2	11	326	8	0	0	0	0	0	0	0	0	4		0	0	0	0	0
 11.8	What Does a Face-Reading System Measure?	2	11	225	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 11.9	The Responsibility Gap, Which No Experiment Closes	2	11	579	6	0	0	0	0	0	0	0	0	3	2025	0	1	0	0	1
@@ -82,8 +83,8 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.1.1	Where the Democratic Dividend Actually Comes From	3	12	231	3	0	0	0	0	0	0	1	0	2	2026	0	0	0	0	0
 12.1.2	Commitment Was Never the Missing Piece	3	12	305	4	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 12.2	How You'd Know It Was Working	2	12	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-12.2.1	What the Floor Would Have to Show	3	12	523	8	0	0	0	0	0	0	5	0	0		0	0	0	0	2
+12.2.1	What the Floor Would Have to Show	3	12	710	9	0	0	0	0	0	0	9	0	0		0	0	0	0	3
 12.2.2	Where the Existing Instruments Reach	3	12	250	6	0	0	0	0	0	0	0	0	2		0	0	0	0	2
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	457	4	0	0	0	0	0	0	1	0	2		0	0	0	0	0
-12.3	The One That Gets You Anyway	2	12	608	6	0	0	0	0	0	0	2	0	0		0	0	0	0	0
-13	Glossary	1	13	2555	51	0	0	0	0	0	0	55	0	0		0	0	0	0	25
+12.3	The One That Gets You Anyway	2	12	621	6	0	0	0	0	0	0	3	0	0		0	0	0	0	0
+13	Glossary	1	13	2615	51	0	0	0	0	0	0	56	0	0		0	0	0	0	25
