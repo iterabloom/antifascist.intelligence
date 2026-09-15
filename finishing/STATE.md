@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-09-15 after D-319: every page of the book now says it is a preprint, and the bibliography has a human-check tracker whose count the page prints.**
+Read this first. **Updated 2026-09-15 after D-319: every page of the book now says it is a preprint, the bibliography has a human-check tracker whose count the page prints, and the proof pair was rebuilt to carry both.**
 
 **The suite is green at eight checks and 88 sections**, the book builds **153 pages**, and it is **73,807 words** by `section_stats.py`. **`refs.bib` is 226**, every entry cited, **0 of the 226 human-checked**, zero undefined references and citations, **75 cross-references** against 88 labels.
 
@@ -18,7 +18,9 @@ Read this first. **Updated 2026-09-15 after D-319: every page of the book now sa
 
 **One defect was found in testing and fixed.** The Markdown renderer's first reading of the switch matched `\draftmodefalse` inside the comment that explains how to turn the apparatus off, and reported the book final. It now strips LaTeX comments and takes the last setting, as TeX would. **The HTML path was never exposed to that class** — it reads the rendered page, not the source.
 
-**Not done, and none of it blocking.** **The proof pair in `finishing/reports/` is still the 2026-09-14 build and carries none of this**; the README's two links point at it. **`AGENTS.md` is untouched** — its last section requires the author's approval to change it — so the SOP for the tracker lives in `finishing/README.md` and in this file only. **The committed `section_stats.tsv` was one word stale** before this work, from the item-39 em dash at `cbd1988`, and the 73,807 above is the regenerated figure against STATE's previous 73,806.
+**The proofs were made on the author's ask, at `c0287f6`.** The pair is **2026-09-15**, the first to carry the apparatus: the watermark and footer on all 153 pages of the PDF, the tiled mark and fixed bar in the HTML, both reading **0/226**. The 2026-09-14 pair was removed in the same commit and the README's two links and its build date repoint at the new one. Two commits, work then generated output, and both pushed.
+
+**Not done, and none of it blocking.** **`AGENTS.md` is untouched** — its last section requires the author's approval to change it — so the SOP for the tracker lives in `finishing/README.md` and in this file only. **The committed `section_stats.tsv` was one word stale** before this work, from the item-39 em dash at `cbd1988`, and the 73,807 above is the regenerated figure against STATE's previous 73,806.
 
 **Carried over from P215, unchanged.** **§2.4.1's *The two readings do not conflict* still resolves forwards.** **§9.3.5 still has no inbound reference**, and 57 of 88 labels have none. **Seven committed reports are stale**: the four `redundancy*` files, `list_candidates.tsv`, `triage-summary.md`, and `toc_v4.md`, which is stale by rule (`finishing/README.md:27`, D-075). **Do not rerun `toc_v4.py`, `triage.py`, `apply_triage.py`, `list_candidates.py` or `refs_to_latex.py`.** **The 79,081-vs-78,940 disagreement at `5c80425` is still unreconciled.** **`QUESTIONS.md` has now gone twenty-five passes unchecked.** **The book still has no `accepted` row.**
 
