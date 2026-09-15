@@ -105,6 +105,37 @@ gs -dNOPAUSE -dBATCH -sDEVICE=png16m -r95 -dFirstPage=6 -dLastPage=6 \
    -sOutputFile=page.png book.pdf
 ```
 
+## The draft apparatus
+
+Every page of the PDF carries a DRAFT watermark behind the text and a footer
+reading `PREPRINT · WORKING MANUSCRIPT · Rendered MM/DD/YYYY HH:MM · N/226
+bibliographic entries human-checked` (D-319). **One switch turns all of it
+off**: `\draftmodefalse` in `manuscript/preamble.tex`, which silences the PDF's
+footer and watermark, the HTML's bar and tiled background, and the Markdown
+renderer's line together. **Built both ways the book is 153 pages**, so the
+apparatus costs no pagination and page counts stay comparable across it.
+
+**The count comes from `finishing/refs-ledger.tsv` and cannot drift from it.**
+`refs_ledger.py` generates `manuscript/draft-status.tex`, the two macros the
+preamble prints, and its `--check` is in `check_all.sh`, so a stale macro file
+fails the suite and the pre-commit hook before it can reach a page. **The
+timestamp beside the count is not generated**: TeX computes it from `\time`,
+`\month`, `\day` and `\year` as the job starts. That is deliberate — a
+generated file that changed on every build would make its own `--check`
+meaningless — and it is plain TeX arithmetic rather than `\directlua` so the
+Overleaf round trip below still compiles on an engine that is not LuaTeX.
+
+**The watermark does not reach the PDF's text layer.** `pdftotext` finds
+PREPRINT on all 153 pages and DRAFT on none, so the word cannot contaminate a
+copy-paste, a `pdftotext` grep, or a word count taken from the PDF.
+
+**The HTML gets an equivalent, not a copy**, because the page has none of the
+pages the instruction was written for: `html_single_file.py` adds a tiled SVG
+background and a bar fixed to the bottom of the window, both suppressed under
+`@media print`. It lifts the status line out of the rendered page rather than
+rebuilding it from the ledger, so the bar and the PDF's footer are one string
+set once by TeX and cannot disagree.
+
 ## The Overleaf round trip
 
 `finishing/tools/overleaf.py` takes the manuscript out to Overleaf for visual

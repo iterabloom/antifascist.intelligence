@@ -30,6 +30,36 @@ h2, h3, h4 { margin-top: 1.6em; }
 body { overflow-wrap: break-word; }
 """
 
+# The HTML counterpart of the PDF's watermark and running foot (D-319). The page
+# has no pages, so "on every page" becomes a tiled background that scrolls with
+# nothing and a bar fixed to the bottom of the window.
+#
+# The mark is filled `gray` rather than branched on prefers-color-scheme: the
+# stylesheet above sets `background-color: Canvas`, so the page follows the
+# reader's system theme, and a mid grey at this opacity reads as a watermark
+# against either end of that. The bar takes CanvasText for the same reason.
+DRAFT_CSS = """
+/* html_single_file.py: the draft apparatus. */
+body { background-image: url("data:image/svg+xml,\
+%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='200'%3E\
+%3Ctext%20x='150'%20y='115'%20font-family='Georgia,serif'%20font-size='46'\
+%20fill='gray'%20text-anchor='middle'%20transform='rotate(-30%20150%20100)'\
+%3EDRAFT%3C/text%3E%3C/svg%3E");
+       background-repeat: repeat;
+       background-attachment: fixed;
+       padding-bottom: 3.2em; }
+/* The tile is painted behind body's own content by the box model, so the prose
+   needs no z-index of its own; only the fixed bar does. */
+.draftbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 2;
+            margin: 0; padding: 0.45em 0.8em;
+            background-color: Canvas; color: CanvasText; opacity: 0.97;
+            border-top: 1px solid rgba(128,128,128,0.45);
+            font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+            font-size: 0.72rem; line-height: 1.3; text-align: center; }
+@media print { body { background-image: none; padding-bottom: 0; }
+               .draftbar { position: static; opacity: 1; } }
+"""
+
 
 def book_title(repo: Path) -> str:
     """Read the title out of book.tex, which is where it is written once."""
@@ -58,11 +88,20 @@ def main() -> int:
     css = css_src.read_text(encoding="utf-8")
     title = book_title(repo)
 
+    # The status line the preamble sets into the title page. Its absence is not
+    # a failure: it means \draftmodefalse, and then the page gets no apparatus
+    # either. Taking the text from the page rather than rebuilding it from the
+    # ledger is what keeps the bar and the PDF's footer saying the same thing --
+    # they are the same string, set once by TeX.
+    m = re.search(r">(PREPRINT[^<]*)<", html)
+    status = " ".join(m.group(1).split()) if m else None
+
     # The stylesheet goes in the page; the link to it goes away.
     link = re.compile(r"[ \t]*<link href='book\.css'[^>]*/>\n?")
     if not link.search(html):
         sys.exit("html_single_file.py: no <link> to book.css -- tex4ht's output changed shape")
-    html = link.sub("<style>\n" + css + EXTRA_CSS + "</style>\n", html, count=1)
+    extra = EXTRA_CSS + (DRAFT_CSS if status else "")
+    html = link.sub("<style>\n" + css + extra + "</style>\n", html, count=1)
 
     # tex4ht writes citation links as href='book.html#X0-key'. Relative to what
     # the file is called, they break the moment it is renamed.
@@ -118,6 +157,11 @@ def main() -> int:
         sys.exit("html_single_file.py: expected an empty <title> to fill in")
     html = html.replace("<title></title>", f"<title>{title}</title>", 1)
 
+    if status:
+        if "<body>" not in html:
+            sys.exit("html_single_file.py: no <body> to attach the draft bar to")
+        html = html.replace("<body>", f"<body>\n<div class='draftbar'>{status}</div>", 1)
+
     # tex4ht pads its output with runs of whitespace-only lines. There is no
     # <pre> in this book, so dropping them changes nothing that renders.
     lines = [ln.rstrip() for ln in html.split("\n")]
@@ -151,6 +195,7 @@ def main() -> int:
         note += f", duplicate ids dropped: {', '.join(sorted(set(dropped)))}"
     if doi_fixed:
         note += f", DOI link text repaired: {', '.join(doi_fixed)}"
+    note += ", draft watermark and status bar" if status else ", no draft apparatus (draftmode off)"
     print(f"wrote {out} ({note})")
     return 0
 

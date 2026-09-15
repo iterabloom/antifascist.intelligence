@@ -57,6 +57,35 @@ def repo_root():
         capture_output=True, text=True, check=True).stdout.strip()
 
 
+def draft_status(root):
+    """The status line, or None when the book is not in draft mode.
+
+    The switch is \\draftmode in manuscript/preamble.tex, so one edit there
+    governs the PDF's footer, the HTML's bar and this line together instead of
+    three files having to be remembered at once. The count is read from
+    refs-ledger.tsv rather than from the generated draft-status.tex, so this
+    renderer does not depend on that file having been regenerated.
+    """
+    pre = os.path.join(root, "manuscript", "preamble.tex")
+    # Comments are stripped first and the LAST setting wins, which is what TeX
+    # would do. Searching the raw file found \\draftmodefalse in the comment
+    # that explains how to turn the apparatus off, and read the book as final.
+    setting = None
+    for line in open(pre, encoding="utf-8"):
+        line = re.split(r"(?<!\\)%", line)[0]
+        for m in re.finditer(r"\\draftmode(true|false)", line):
+            setting = m.group(1)
+    if setting != "true":
+        return None
+    ledger = os.path.join(root, "finishing", "refs-ledger.tsv")
+    with open(ledger, encoding="utf-8", newline="") as fh:
+        rows = list(csv.DictReader(fh, delimiter="\t"))
+    n = sum(1 for r in rows if (r.get("checked") or "").strip().lower() == "yes")
+    return ("PREPRINT \u00b7 WORKING MANUSCRIPT \u00b7 Rendered %s \u00b7 "
+            "%d/%d bibliographic entries human-checked"
+            % (datetime.datetime.now().strftime("%m/%d/%Y %H:%M"), n, len(rows)))
+
+
 def read_order(root):
     path = os.path.join(root, "manuscript", "sections", "ORDER.tsv")
     with open(path, encoding="utf-8") as fh:
@@ -241,11 +270,13 @@ def main():
         body += render(row["path"], row["num"], root, labels)
 
     body = squeeze(body)
+    status = draft_status(root)
     front = [
         "# Antifascist Intelligence: Building Machines That Can Refuse",
         "",
         "Joshua G. Stern",
         "",
+    ] + (["**%s**" % status, ""] if status else []) + [
         "Rendered %s from %s%s, %d sections. Citations are keys into "
         "finishing/refs.bib; the bibliography, table of contents and page "
         "breaks are not reproduced. This file is disposable output, not a "
@@ -256,7 +287,8 @@ def main():
         "---",
         "",
     ]
-    text = "\n".join(front + body) + "\n"
+    foot = (["", "---", "", "**%s**" % status] if status else [])
+    text = "\n".join(front + body + foot) + "\n"
 
     leftover = sorted(set(re.findall(r"\\[a-zA-Z]+", text)))
     words = len(re.findall(r"\S+", "\n".join(body)))

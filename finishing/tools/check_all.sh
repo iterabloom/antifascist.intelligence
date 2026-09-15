@@ -11,6 +11,7 @@ run "TOC is generated output, and current" python3 finishing/tools/headings.py -
 run "cross-references: resolve, and prefixed" python3 finishing/tools/check_xrefs.py
 run "typography: quotes and dashes are the characters" python3 finishing/tools/check_typography.py
 run "named-persons guard" python3 finishing/tools/names_guard.py
+run "bibliography ledger, and the draft-status macros it generates" python3 finishing/tools/refs_ledger.py --check
 echo
 [ "$fail" = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit "$fail"

@@ -1,5 +1,31 @@
 # State of play
 
+Read this first. **Updated 2026-09-15 after D-319: every page of the book now says it is a preprint, and the bibliography has a human-check tracker whose count the page prints.**
+
+**The suite is green at eight checks and 88 sections**, the book builds **153 pages**, and it is **73,807 words** by `section_stats.py`. **`refs.bib` is 226**, every entry cited, **0 of the 226 human-checked**, zero undefined references and citations, **75 cross-references** against 88 labels.
+
+**What the author asked for, and what it cost.** A footer on every page, a tracker they can mark an entry off in, and a DRAFT watermark behind the text. **The requested count was 0/237; the real number is 226**, which is what `refs.bib` holds and what the footer prints. The PDF was built with the apparatus on and off and is **153 pages either way**, so the footer changes no pagination and the page count is comparable across the change.
+
+**The tracker is `finishing/refs-ledger.tsv`**, one row per bibliography key — `key`, `checked`, `date`, `by`, `notes` — seeded at 226 rows, all `no`. **The file is the interface**: edit it by hand, or run `finishing/tools/refs_ledger.py --mark KEY --by jgs`, which `--unmark` reverses. **What counts as having checked an entry is not defined anywhere** and is the author's to set; the tool records a flag and tests nothing about what earned it.
+
+**The footer cannot print a count the ledger does not carry.** `refs_ledger.py` generates `manuscript/draft-status.tex`, the two macros the preamble reads, and `refs_ledger.py --check` is the eighth line of `check_all.sh` — it fails on drift between ledger and `refs.bib` in either direction, on a `checked` value that is not `yes` or `no`, and on stale macros. **Verified by tampering**: a hand-edited count of 99 was caught and the repair cleared it.
+
+**One switch governs all three renderings.** `\draftmodefalse` in `manuscript/preamble.tex` silences the PDF's footer and watermark, the HTML's bar and background, and the Markdown's line together. **The timestamp is not generated into a file**: TeX computes it as the job starts, in plain TeX arithmetic rather than `\directlua`, so that `draft-status.tex` stays stable between builds — otherwise its own `--check` would mean nothing — and so that the Overleaf round trip (D-169) still compiles on an engine that is not LuaTeX.
+
+**The watermark is `draftwatermark` 3.3 at its own defaults**, 45 degrees and 0.25\paperwidth, with only the lightness moved from 0.8 to 0.88. It is drawn behind the text by a `shipout/background` hook and appears on every page, title page and contents included. **It does not reach the text layer** — `pdftotext` finds PREPRINT on all 153 pages and DRAFT on none — so the word cannot contaminate a copy-paste or a text-extraction word count.
+
+**The HTML has no pages**, so `html_single_file.py` gives it the equivalent: a tiled SVG background and a bar fixed to the bottom of the window, both suppressed under `@media print`. It lifts the status line out of the rendered page rather than rebuilding it from the ledger, so the bar and the PDF's footer are the same string, set once by TeX. **`render_markdown.py` carries the line at both head and foot**, a 465 KB file being read from the top.
+
+**One defect was found in testing and fixed.** The Markdown renderer's first reading of the switch matched `\draftmodefalse` inside the comment that explains how to turn the apparatus off, and reported the book final. It now strips LaTeX comments and takes the last setting, as TeX would. **The HTML path was never exposed to that class** — it reads the rendered page, not the source.
+
+**Not done, and none of it blocking.** **The proof pair in `finishing/reports/` is still the 2026-09-14 build and carries none of this**; the README's two links point at it. **`AGENTS.md` is untouched** — its last section requires the author's approval to change it — so the SOP for the tracker lives in `finishing/README.md` and in this file only. **The committed `section_stats.tsv` was one word stale** before this work, from the item-39 em dash at `cbd1988`, and the 73,807 above is the regenerated figure against STATE's previous 73,806.
+
+**Carried over from P215, unchanged.** **§2.4.1's *The two readings do not conflict* still resolves forwards.** **§9.3.5 still has no inbound reference**, and 57 of 88 labels have none. **Seven committed reports are stale**: the four `redundancy*` files, `list_candidates.tsv`, `triage-summary.md`, and `toc_v4.md`, which is stale by rule (`finishing/README.md:27`, D-075). **Do not rerun `toc_v4.py`, `triage.py`, `apply_triage.py`, `list_candidates.py` or `refs_to_latex.py`.** **The 79,081-vs-78,940 disagreement at `5c80425` is still unreconciled.** **`QUESTIONS.md` has now gone twenty-five passes unchecked.** **The book still has no `accepted` row.**
+
+**Measured on the current tree:** 88 sections, **73,807 words**, **153 pages**, 75 cross-references against 88 labels, 226 bibliography entries all cited and **0 human-checked**, 0 undefined references and citations. Suite green at eight checks.
+
+**Superseded lead, kept for the record.**
+
 Read this first. **Updated 2026-09-14 after D-317 (P215): the author's 124-item list against the cross-reference written as prose is executed entire, and the book's internal routing has been cut by two thirds.**
 
 **The suite is green at 88 sections**, the book builds **153 pages**, and it is **73,806 words** by `section_stats.py`. **`refs.bib` is 226**, every entry cited, zero undefined references and citations, **75 cross-references** against 88 labels. **Tree clean and pushed**, the proof pair rebuilt in place at 2026-09-14 because the date had not rolled over in local time.
