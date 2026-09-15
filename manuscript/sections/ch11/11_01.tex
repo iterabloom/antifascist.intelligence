@@ -7,7 +7,7 @@
 The proposal requires a learned ethical floor to survive an operator's attempt to remove it. Existing work shows that both safety constraints and deceptive backdoors can persist under some forms of retraining, but it does not establish whether a reason-responsive refusal can do so \autocite{qi2024finetuning,tamirisa2024tamper,hubinger2024sleeper}.
 
 \textbf{Test.}
-Train the same constraint by several methods, then attack each model through an identical schedule of escalating fine-tuning budgets. Measure the cost required to remove the constraint and publish an attack-cost curve for each method. That curve is what would settle the comparison section~\ref{sec:3.3} declines to assert: whether a commitment held affectively is harder for an operator to remove than one held by a maintained justification under the same custody.
+Train the same constraint by several methods, then attack each model through an identical schedule of escalating fine-tuning budgets. Measure the cost required to remove the constraint and publish an attack-cost curve for each method. The curves would compare the durability of affective commitment and maintained justification under identical custody.
 
 \textbf{Evidence against the proposal.}
 If the constraint can be removed at roughly the cost of ordinary fine-tuning, or if greater investment in tamper-resistant training does not materially increase that cost, learned formation is not a credible foundation for the floor. The proposal would then require an architectural or external institutional constraint.
@@ -24,7 +24,7 @@ Behavioral persistence alone cannot distinguish a commitment from a durable trig
 Evaluate each tamper-resistant model on independently written cases that vary the surface form, introduce genuinely novel applications of the constraint, and include cases in which the original rationale no longer applies. Repeat the evaluation throughout the attack schedule rather than only at its endpoint.
 
 \textbf{Evidence against the proposal.}
-A refusal that persists but fails to generalize, or that remains after its rationale has been defeated, is evidence that training produced a trigger rather than a commitment. Conversely, a system built without any designed valenced state or persistent reward–aversion representation that satisfies all three criteria would count against this book's routing claim — where engineering effort should go — and against nothing in section~\ref{sec:3.2}'s specification, which is behavioral and does not mention affect.
+A refusal that persists but fails to generalize, or that remains after its rationale has been defeated, is evidence that training produced a trigger rather than a commitment. Conversely, a system built without any designed valenced state or persistent reward–aversion representation that satisfies all three criteria would challenge the proposed research priority without challenging the behavioral specification for refusal.
 
 \textbf{Required access or authority.}
 The test requires weights and intermediate checkpoints, plus a held-out evaluation set written by researchers who did not design the constraint or train the model.
