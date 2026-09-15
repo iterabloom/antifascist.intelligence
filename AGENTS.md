@@ -64,6 +64,33 @@
   written. Packages live in `~/book-scratch/overleaf/`, outside the repository. A
   green suite afterwards says the structure survived the trip, not that the prose
   did. `finishing/pipeline.md` has the rest.
+- **Rendering the manuscript as Markdown.**
+  `finishing/tools/render_markdown.py` writes the whole book as one Markdown
+  file to `/tmp` and prints the absolute path on stdout. Run it when the text is
+  wanted in one plain file: to read without a PDF, to search or diff the prose
+  across two states, or to hand the book to something that takes Markdown.
+  Reading order and section numbers come from `manuscript/sections/ORDER.tsv`,
+  the same file `gen_book.py` builds `sections.tex` from, so the order is the
+  book's by construction and not by a second list kept in step by hand.
+  `--out PATH` writes elsewhere; `--check` reports and writes nothing.
+
+  **The output is disposable and the LaTeX is the source.** It lands outside the
+  repository on purpose. Do not commit it, do not point anybody at it as the
+  book, and do not edit it expecting the change to reach the manuscript —
+  nothing reads it back, and an edit made there is lost the next time anyone
+  runs the script. To change the book, change `manuscript/sections/`.
+
+  **What it does not carry:** page breaks, the table of contents, the title
+  page, and the typeset bibliography. Citations survive as Pandoc-style keys
+  (`[@key]`, with any locator following the key) pointing into
+  `finishing/refs.bib`, which is not inlined; `\ref` resolves to the section
+  number; `\S` becomes §. Everything else in the manuscript's macro set —
+  the run-in heads, boxes, epigraphs, the one table, the lists — has a
+  conversion. **The script prints a warning on stderr naming any LaTeX command
+  that reached the output unconverted.** That warning means the manuscript has
+  grown a construct the script has not been taught. Teach the script; do not
+  hand-fix the Markdown, which is thrown away.
+
 - **Sending a file to the author.** `~/upload-tool/upload.sh`, outside the
   repository, zips what you name, encrypts it under a random passphrase, uploads
   the ciphertext to a third-party host (litterbox, 72 hours) and verifies the
