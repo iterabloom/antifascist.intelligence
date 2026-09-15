@@ -117,11 +117,14 @@ section — several of which are now among the unreferenced.
 
 ## Found while cutting, and left standing
 
-**Item 39's replacement reads oddly and was applied verbatim.** *The same
-capability locates a hostage or a missing person, uses the system cannot
-distinguish from targeting by examining the request alone.* The appositive
-*uses* attaches to *a hostage or a missing person* rather than to the locating.
-Reported to the author inside the run; no change made.
+**Item 39's replacement read oddly, was applied verbatim, and was then fixed
+on the author's instruction.** It arrived as *The same capability locates a
+hostage or a missing person, uses the system cannot distinguish from targeting
+by examining the request alone*, where the appositive *uses* attached to *a
+hostage or a missing person* rather than to the locating. Reported inside the
+run, committed as written at `2f15910`, and corrected after the author said to
+fix it: the comma is now a spaced em dash. Every word of the replacement is
+kept.
 
 **§2.4.1's *The two readings do not conflict*** still resolves forwards rather
 than backwards, carried over from P214 and untouched here.
