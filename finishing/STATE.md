@@ -1,6 +1,26 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-329: §7.3's sort is directional, and the word counter no longer disclaims its own numbers.**
+Read this first. **Updated 2026-09-16 after D-330: §3.8 no longer closes on a necessity it argues everywhere else as a hypothesis.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,736 words** under `section_stats.py` and **80,813** under `render_markdown.py`, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
+
+**§3.8's closing paragraph had been asserting what the section's own penultimate paragraph hedged.** *It is part of how a bearer capable of judgments its operator did not select could come to exist* sat two paragraphs above *that bearer cannot remain independent in isolation*. §4.1 had already separated the two things a population could be supplying, at *Differently formed peers can provide one such route* and *Access is necessary and is not sufficient*, and §11.6 names §3.8 as making *the stronger claim*. §3.8 was the outlier against both, so the fix made it agree rather than importing anything.
+
+**Do not restore the necessity claim.** The fourth way is now two claims: the drift check is established, and the population as the medium of formation is the hypothesis. §11.6 can come back on the side of access to unselected cases, in which case the population stays in the design and its reason moves from how the members were formed to how the deployment is arranged. That is §11.6's own ruling and not a weaker paraphrase of it. The glossary's *Individuation* entry was the one place carrying the unqualified version and no longer does.
+
+**The two word counters still disagree and have not been reconciled**, which is a live instance of the standing disagreement at `5c80425`. Both moved by exactly +147 across D-330, which is the first time they have been observed to move together. **The `render_markdown.py` figure in the D-329 lead is stale**: it reads 80,658, measured at `ddb90e1` before the eight-word §7.3 clause at `0bdf2d6`. The figure at `87c556f` was 80,666. Superseded leads are kept unedited, so the correction lives here and in D-330.
+
+**Two standing rulings from D-328 and D-329 remain in force.** Do not promote the distribution of authority over the artifact question in §7.3: §2.2 chose the artifact question because it reads off documents an organization wrote for its own reasons, and §2.2 also records that what an institution rewarded is not published. And the manuscript carries no numbered priors; the author offered a credence movement and ruled it out, so a later pass should not add one.
+
+**Word counts recorded before D-329 are not comparable to ones recorded after**, `common.tex_prose_line` having warned on every run until then that five commands were unknown and dropped.
+
+**One manuscript inconsistency is flagged and unchanged.** `ch04/04_02.tex` uses `\paragraph` for run-in heads where every other section uses `\runin`. Both render the same way and the counter now treats them the same way.
+
+**The §7.4 paragraph added at D-328 still has no inbound reference.** It points at §3.2, §3.3, §3.4 and §3.9 with nothing pointing back, so the finding that the survives-without-the-route move is also the form in which the expensive half of the claim became optional lives in §7.4 only. Whether §3.9's *The chapter without its central inference* should acknowledge it is unruled, and it is the same shape as the standing item about §9.3.5 having no inbound reference.
+
+**What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-329: §7.3's sort is directional, and the word counter no longer disclaims its own numbers.**
 
 **The suite is green at eight checks and 88 sections**, the book is **79,589 words** under a corrected counter, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
 
