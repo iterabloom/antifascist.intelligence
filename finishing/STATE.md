@@ -1,6 +1,28 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-326: the flat-only ruling is implemented, six passages left unruled are ruled, and the four properties have a name.**
+Read this first. **Updated 2026-09-16 after D-327: the flat-only panel's cost list is paid, and Ross is in the bibliography.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,365 words** and builds **163 pages**, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**.
+
+**The six items the panel left on chapter 3 are done, in three files.** §3.2 gains three paragraphs to *What the marks cannot settle*: correct defeat makes no claim to have enumerated its defeaters; defeat leaves the act it then permits constrained, at least extent with restoration and a record; and the marks are stated over refusal because a refusal is the only part of a trajectory the surrounding software reliably carries. §3.6 concedes that writing terms flat is a gain in observability and not in authority. §3.7 gains the restraint case, the concession that **unbuilt, the flat form is worse than the qualified one there**, the turn as interim relief's unit, and the wrongful-lifting gap. `p220-scope.md` has the detail.
+
+**The author lifted PLAN.md standing rule 1 for this session**, so the agent authored `ross1930right`. **The rule is lifted for the session and not in general.**
+
+**The brief this pass worked from misattributed the residue point, and the correction improved the argument.** It credited Marcus (1980). Ross is the right source for what chapter 3 needs — the broken promise still owing the promisee compensation, at RG 28 — and he supplies the completeness concession too, at RG 20. **Both locators are the Stanford Encyclopedia's and neither was checked against a copy of the book**, which the entry's note records. Marcus, Williams and Dancy were not entered, since every entry in this bibliography is cited.
+
+**The largest thing chapter 3 still owes is a route for the party harmed by a wrongful compliance.** §3.7 now names that gap and states that no route is supplied. Naming it is not remedying it.
+
+**Two errors of mine remain on the record and must not be reintroduced.** I recommended §9.1.1's *assessment is the capturable setting* as the ground for flat-only; it proves too much, because §9.1.1 concedes that reasons-responsive refusal requires assessment moved inside the machine. And I reported that allowing qualified terms would leave the specification one mark short; the marks are stated over refusal because refusal is the only observable, which is an argument **for** flat-only. **The replacement is the trace argument**, now stated in §3.2 as well as §3.6.
+
+**A figure in the superseded lead was wrong.** It said the stale proofs predated *eight section files* of edits. It was six: the commit changed eight files, two of which were `ORDER.tsv` and `section_stats.tsv`. **The proofs are current as of this pass**, rebuilt at 2026-09-16 and linked from the README.
+
+**Four small items are still flagged and unruled**: *not merely possible* at `ch03/03_04.tex:55`; *the hypothesized mechanism* at `ch11/11_06.tex:11`; a bare *three marks* at `ch03/03_09.tex:16`; and `germany1998stgb` reading `no` in `refs-ledger.tsv`.
+
+**Carried over from P218, still waiting on the author**: **40b's wording** at `ch11/11_06.tex`, and **two oblique back-references in his own prose**, "the marks" at `ch03/03_03.tex:68`, which the editorial panel ruled 3–0 to leave, and "the three marks" at `ch03/03_04.tex:55`, which E closed.
+
+**Carried over, unchanged.** **§2.4.1's *The two readings do not conflict* still resolves forwards.** **§9.3.5 still has no inbound reference.** **Seven committed reports are stale**: the four `redundancy*` files, `list_candidates.tsv`, `triage-summary.md`, and `toc_v4.md`, which is stale by rule (`finishing/README.md:27`, D-075). **Do not rerun `toc_v4.py`, `triage.py`, `apply_triage.py`, `list_candidates.py` or `refs_to_latex.py`.** **The 79,081-vs-78,940 disagreement at `5c80425` is still unreconciled.** **`QUESTIONS.md` has gone thirty passes unchecked.** **The book still has no `accepted` row.**
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-326: the flat-only ruling is implemented, six passages left unruled are ruled, and the four properties have a name.**
 
 **The suite is green at eight checks and 88 sections**, the book is **78,437 words**, and `refs.bib` is **228**, every entry cited, **0 of the 228 human-checked**. **The committed proofs are stale**: the 2026-09-16 pair on disk is P219's 161-page build and predates the editorial-panel round, so **the README's links point at a book that lacks eight section files' worth of edits.** Page count last measured at 161 before those edits.
 
