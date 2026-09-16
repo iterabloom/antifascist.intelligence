@@ -8,12 +8,12 @@ manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	fb7141c025
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	33a199410902892071a3c121a742309073c6591dd4d9e79d771d773702d831e2
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	53087dcebc7ba491ff0b240a9325cdf79fd0c3fe5e584fd945c04798050ab02d
 manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	033e5d6fb0a45742544326c34c6ee83447bdbbcaf94cc327fb2a7fd77ec71d72
-manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	bbf2d3ee6e9866be4f7af8ad0b1dc881508ef2a4f53b14bf3438709192ca15ff
+manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	b4fdb86f25bdf1815576fc5c2f2cf099594333b56eaf82eb8aebd713c01cee45
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	00c939644f6f7197289d6c479240fd4c10fe2cdce0e2669c24a973edb63fe61e
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	f9bd3b484600cb8351b57ac6ce1c875121088768cf76214775c54e50361f66e7
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	26b95536081c458af348609693035e16d8f519948e85c52de732e4772d677a3d
-manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	2a6940f578f3406fc63e399bdf9e9dced10f3c301664a687bca86a74a6ff6a5c
+manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	f2c30f74a87e0c3d1846da1ee6d2b97fb6071efa83bccd9956c40351d155d27a
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	bf03ae9ae67cf00bf01f50bfd5fa707a08326c4e27549f36cd2b9fd796ccfaca
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	b9c843403c828b7a90a2eb3330135fff819413a6ab98a342d706349eb7f4be8c
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	dcf295349601e7a830fa4300468f6987dfe2605d36a654c374562199a10cef4f
@@ -52,7 +52,7 @@ manuscript/sections/ch08/08_03_03.tex	8.3.3	People Have a Right to Consume AND a
 manuscript/sections/ch08/08_03_04.tex	8.3.4	Wages for a Bearer, and the Reserve Behind Them	dfa7897cae1ba0522a9e6cd00df2bea93ce53fd513e62d16730a03a28a3d1aa1
 manuscript/sections/ch09/09.tex	9	Authority, Standing, and the Power to Stop	a88cf228c5e62f50d80972b71320c2ee2767426ddf030630d7f1ede733f0a10c
 manuscript/sections/ch09/09_01.tex	9.1	Authority Over the Floor	ef118e46adf6219173c9cc8457d1993b0599a7a6f99de0aba7fb8cf8af80efec
-manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	377a65c7579af79c07f1afe8c8ef3572a56d49495d4c11d5c91659a146d0372f
+manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	39f79911ec85cebb9113de469b942fe1829865bea5f173e6d0dba5cb65beb80d
 manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	3333545f5733a507b5c7836dd558620bc939ff9bec2def6127b565f2cb683207
 manuscript/sections/ch09/09_02.tex	9.2	Privacy	8755b6f2f8a264758541ada678a9ec282d2aaa34b4a121ac5b54b861d31d94cd
 manuscript/sections/ch09/09_03.tex	9.3	What Makes Review Binding?	5f1d5ca9e22b607b2d7479db9d404f374b3d2b6e4385f3cd01461e85535a2453
@@ -64,7 +64,7 @@ manuscript/sections/ch09/09_03_05.tex	9.3.5	How Review Is Captured Without Being
 manuscript/sections/ch10/10.tex	10	Custody, Compulsion, and the State	302e5dba50c1f82d4bca5a24bf47289b069104fa28fda7bbab7aef97f7f359b7
 manuscript/sections/ch10/10_01.tex	10.1	Authority Does Not Travel with the System	2e49602dcb5d007ba895b206ef5c16eefc511eff00627c43883c9432dc169b9a
 manuscript/sections/ch10/10_02.tex	10.2	Where the State's Leverage Sits	9b397ea81bc63999be18b38c9c38f6e66020804cbbce0d8243efdc7ddb866ddb
-manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility Gap	1d04a2ca159a18271021731330d922ebbaf3b921b4c1f037bc5779a52a204598
+manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility Gap	298f47073da28e15dda818e0d593e15ff465c54f379b987b8d2f8b0fca09763b
 manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	fb3900ac8c3b5dc422c4b66546d81d48c15d25580c898c567a2d4cb76c16a67f
 manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	fc3e1904438199f41c8c87b8a4a0752506ba50135ec64c400620a129a5add442
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
