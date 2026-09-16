@@ -1,6 +1,28 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-325: a three-item outside note on the affect argument was audited, two items were applied, and the third was withdrawn by the agent that raised it.**
+Read this first. **Updated 2026-09-16 after D-326: the flat-only ruling is implemented, six passages left unruled are ruled, and the four properties have a name.**
+
+**The suite is green at eight checks and 88 sections**, the book is **78,437 words**, and `refs.bib` is **228**, every entry cited, **0 of the 228 human-checked**. **The committed proofs are stale**: the 2026-09-16 pair on disk is P219's 161-page build and predates the editorial-panel round, so **the README's links point at a book that lacks eight section files' worth of edits.** Page count last measured at 161 before those edits.
+
+**The next task is fixed and its brief is written.** Six items remain from the flat-only panel, all of them in §3.2 and §3.7, which this session never touched — the residue clause on correct defeat, the crisis concession, §3.7's wrongful-lifting gap, the Ross concession, the statement that the marks are stated over refusal because refusal is the only trace the pipeline carries, and the concession that flat-only is an observability gain rather than a legitimacy one. **The working brief is `~/book-scratch/chapter3-remainder.md`**, outside the repository, and it carries the reasoning, the anchors, the sequencing and the citations. **Items 4, 5 and 6 are a sentence each and independent; items 1, 2 and 3 interact and should be one pass.**
+
+**Two errors of mine are on the record and must not be reintroduced.** I recommended §9.1.1's *assessment is the capturable setting* as the ground for flat-only; all three seats showed it proves too much, because §9.1.1 itself concedes that reasons-responsive refusal requires assessment moved inside the machine. And I reported that allowing qualified terms would leave the specification one mark short; each seat answered that the marks are stated over refusal because refusal is the only observable, which is an argument **for** flat-only rather than a cost of the alternative. **The replacement argument is the trace argument**, and §9.1.1 was repaired to the narrow form at P219.
+
+**§86a is not flat, and the fact was verified against the official portal.** §86a(3) reads *§ 86 Abs. 4 und 5 gilt entsprechend*, and §86(4) is the social-adequacy clause. It moved from §86(3) on 1 January 2021. **No sentence in §3.2 or §9.1.1 was false** — their claim is that nobody's *dangerousness* is assessed — but flatness is no longer the explanation of why §86a survived seventy years. The finding is made by prosecutors and courts and never by the party bound, which is the repaired argument rather than a correction to one.
+
+**§3.6 now carries a drafting test** and candidate prohibition 4 is its first instance rather than an exception: can a term's qualifying condition be decided from the request alone, and where it cannot, the term binds the party who can establish the fact.
+
+**§3.9:7 no longer defines holding without an agent.** It names an operator routing around the bearer and a deployment assembling a harm across requests, makes the bearer the active subject of registering, and marks the bearer's own crossing a failure the arrangement survives rather than a form of success.
+
+**§3.3 coins ‘a live signal’** for the four properties, used at five sites with a glossary entry saying *live* is meant in the electrical sense and carries no claim that anything is felt. **Always the full phrase** — the manuscript uses *live* idiomatically ten times. **This weakens a condition D-323 reasoned from**: three of the sites that made the count of four load-bearing now carry the name. The count stands where it is introduced and in the glossary.
+
+**Four small items are flagged and unruled**: *not merely possible* at `ch03/03_04.tex:55`; *the hypothesized mechanism* at `ch11/11_06.tex:11`; a bare *three marks* at `ch03/03_09.tex:16`; and `germany1998stgb` still reading `no` in `refs-ledger.tsv` though the statute was checked against the official portal this session.
+
+**Carried over from P218, still waiting on the author**: **40b's wording** at `ch11/11_06.tex` — note that C's ruling has since edited that sentence — and **two oblique back-references in his own prose**, "the marks" at `ch03/03_03.tex:68`, which the editorial panel ruled 3–0 to leave, and "the three marks" at `ch03/03_04.tex:55`, which E closed. **§2's thermodynamics sentence is closed**: F cut it.
+
+**Carried over, unchanged.** **§2.4.1's *The two readings do not conflict* still resolves forwards.** **§9.3.5 still has no inbound reference.** **Seven committed reports are stale**: the four `redundancy*` files, `list_candidates.tsv`, `triage-summary.md`, and `toc_v4.md`, which is stale by rule (`finishing/README.md:27`, D-075). **Do not rerun `toc_v4.py`, `triage.py`, `apply_triage.py`, `list_candidates.py` or `refs_to_latex.py`.** **The 79,081-vs-78,940 disagreement at `5c80425` is still unreconciled.** **`QUESTIONS.md` has gone twenty-nine passes unchecked.** **The book still has no `accepted` row.**
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-325: a three-item outside note on the affect argument was audited, two items were applied, and the third was withdrawn by the agent that raised it.**
 
 **The suite is green at eight checks and 88 sections**, the book builds **161 pages**, and it is **77,871 words**. **`refs.bib` is 228**, every entry cited, **0 of the 228 human-checked**, zero undefined references and citations, **75 cross-references** against 88 labels.
 
