@@ -22,6 +22,8 @@ Read this first. **Updated 2026-09-16 after D-320 (P216): the four self-contradi
 
 **Carried over, unchanged.** **§2.4.1's *The two readings do not conflict* still resolves forwards.** **§9.3.5 still has no inbound reference**, and 57 of 88 labels have none. **Seven committed reports are stale**: the four `redundancy*` files, `list_candidates.tsv`, `triage-summary.md`, and `toc_v4.md`, which is stale by rule (`finishing/README.md:27`, D-075). **Do not rerun `toc_v4.py`, `triage.py`, `apply_triage.py`, `list_candidates.py` or `refs_to_latex.py`.** **The 79,081-vs-78,940 disagreement at `5c80425` is still unreconciled.** **`QUESTIONS.md` has now gone twenty-six passes unchecked.** **The book still has no `accepted` row.**
 
+**The proofs were made on the author's ask, at `2397605`.** The pair is **2026-09-16** at **154 pages**, and the apparatus D-319 built survives the rebuild: `pdftotext` finds PREPRINT on all 154 pages and DRAFT on none, and the footer reads 0/226, which is the ledger's count. The 2026-09-15 pair was removed in the same commit, and the README's two links and its build date repoint at the new one. Two commits, work then generated output, and both pushed.
+
 **Measured on the current tree:** 88 sections, **73,908 words**, **154 pages**, 75 cross-references against 88 labels, 226 bibliography entries all cited and **0 human-checked**, 0 undefined references and citations. Suite green at eight checks.
 
 **Superseded lead, kept for the record.**
