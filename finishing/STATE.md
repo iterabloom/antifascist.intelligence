@@ -22,6 +22,8 @@ Read this first. **Updated 2026-09-16 after D-331: §7.3's untested transfer cla
 
 **The §7.4 paragraph added at D-328 still has no inbound reference.** It points at §3.2, §3.3, §3.4 and §3.9 with nothing pointing back. Whether §3.9's *The chapter without its central inference* should acknowledge it is unruled, and it is the same shape as the standing item about §9.3.5 having no inbound reference.
 
+**D-328, D-330 and D-331 answer one outside note and not three.** The author supplied it in numbered pieces, as item 3 (§7.3–§7.4), item 4 (§3.8) and item 5 (§7.3). Items 1 and 2 have never been shown to this agent, later items may exist, and the decision rows describe each piece as *an outside note* without recording that they are siblings. Anything the unseen items say is unanswered, and a reader of the rows would not know to ask.
+
 **What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
 
 **Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-330: §3.8 no longer closes on a necessity it argues everywhere else as a hypothesis.**
