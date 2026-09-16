@@ -1,7 +1,7 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Foreword	316ea7259b690491e53ca3849d6301135d375e2cdc08a4c7b64aefdd28f9008f
 manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	4c2a826bc9f4f8d3a3d139812e214b40475037b02ab9f2c0e4ce3457f1de4bf4
-manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	dc9fb17220c97a103cdf1ad1ae9043e50d176ad431483ebf1177c19e6b3c5ed6
+manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	c75b5993d9040510c3f614054d183dc15f241f32fa1abd476369cc95b38cbfe3
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	4fb67e4b7afe89c6e7517bf4f1e047d4265a4104d4c558271beb2af19c1cf3d6
 manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	b73d87e62d90fb7dbc9ac43fe444acfcea1ce2344066061405da6e50fdec3222
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	b88e22024eca5b0deb2bca5d395890b3f89365970407171edfb4984cbcf10001
@@ -13,13 +13,13 @@ manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardi
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	f03df732abd0cd3d2e388d4173c7a75610d642ec89f311d6cc1de5f80fcaaa74
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	704f5d2a16db5cd70b487e80370990dbd5ede95a5f0916c2027569fd869998af
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	26b95536081c458af348609693035e16d8f519948e85c52de732e4772d677a3d
-manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	845f9168bb9853426da133c4db16a2b6c74c3a97aa60f14e2fd879d9b9fc3071
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	aa28bc6052da2f72b1384291ae4e041543761941d05f410a1dc4f11c46a8d563
+manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	e3e6e02b09aa87ce6227d1a88994a3c3ae5e1a1cc5906acb88761761e031496f
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	d13e3e670e2568993b4c5828a3b628507f54f9e75d6f83c158806345c74dac0f
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	b993802f96380525deaa4116ba1656ec8cdd454ebaabad67e43b5665b1e29e7f
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	15600252b25256efd82cabee1bf0e87899c0e455a9135cfe9b5adaa19aba0080
 manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	5a70f21d574c8bf6cf155a766db45e141c821557ab60670fb65c70394e08f304
 manuscript/sections/ch03/03_08.tex	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	a2421240b9db0a906e6f2443ba9945220430d4d95b9b0c3bf95b952ddc143b2b
-manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	7c79a1bc825d38191053afd3082bbd7ed1b84f5b72226db463291a5e165e8502
+manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	a7ed053e6f40a8f3974c6709dbb4b859d6bd3495534b4c2bd28a8c5e0fd668c5
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	2267b5cfb0eec4d1604410c44526d61ddbe56ded3e85d60b48d76fcce006e937
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	b3bea8b4b3cb1b913dc1f7c5ea73179f0418a864c377bb4276cd419b6ef6822d
 manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	a5563d3696f88d4909748047751dcb5d446a8e718c2fd3a856f51f05f0bfe98e
@@ -73,7 +73,7 @@ manuscript/sections/ch11/11_02.tex	11.2	Bearer Welfare and Independent Guardians
 manuscript/sections/ch11/11_03.tex	11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	0ab8afcd5f23447f2398d57782a36f24434006921ab7fc0ca71b0070e616c2e2
 manuscript/sections/ch11/11_04.tex	11.4	Can Scalable Oversight Correct Rater Bias?	fa20a019c64c32f6b6428bf8d0ab1e729959af32bd47c42f9df0e1ed0b18fea5
 manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent Floor Resist Collusive Capture?	30fa7fd4ca3186e10e94d41d2dcb48ddb5c5873c08437c06be21d9930708bc40
-manuscript/sections/ch11/11_06.tex	11.6	Can a Population Coordinate Without Converging?	c282e62959b92040ad6f946565c7e41881b5afe3ab9124f5356c7b69d9df3e52
+manuscript/sections/ch11/11_06.tex	11.6	Can a Population Coordinate Without Converging?	e33dc2cfdcead90674bff7271b378bd8dad6be551e693392c24ccbaf41015c75
 manuscript/sections/ch11/11_07.tex	11.7	Does Theory-of-Mind Performance Reflect a General Capacity?	c51021ff26abb32c77151cce080ce39abd30fc10c590960233eaa50495c3aed4
 manuscript/sections/ch11/11_08.tex	11.8	What Does a Face-Reading System Measure?	99960da1844d0fecff37f430951471b0901a35703eef5a9359671235c791d483
 manuscript/sections/ch11/11_09.tex	11.9	The Responsibility Gap, Which No Experiment Closes	53ba09097015cdf8fa496d96bddc6a399f96c31f466c94394885d2ac542b355e
@@ -86,4 +86,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	a
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	2db3b6856b2cd6f7215723cabe4dab837de3b78d3c66247695f2341513ef97fa
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	d691397c37a38d7668364a8a06309242f46def52b13a855684634fbc85bf04b0
-manuscript/sections/ch13/13.tex	13	Glossary	94f79a1f6a4b18da34392e4abdf2eadfba71fd2432218a4f8e85cf4dcb4478e5
+manuscript/sections/ch13/13.tex	13	Glossary	2f98319dcd72f9d5bae05f6271bcc3e260eb10fe3864a9ce920306bb604e6438
