@@ -1,6 +1,34 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-331: §7.3's untested transfer claim is separated from the two arguments that never needed it.**
+Read this first. **Updated 2026-09-16 after D-332: §2.1 stops dismissing six ethical traditions on a ground it withdraws seven lines later.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,750 words** under `section_stats.py` and **80,827** under `render_markdown.py`, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates. **The proofs are one commit behind the manuscript.**
+
+**The first pattern has now been found four times, and this one was reported rather than hunted.** A claim is stated hard, and a neighbouring passage withdraws it. D-328: §7.3's enumeration stated a verdict its own later paragraph split. D-330: §3.8 closed on a necessity its penultimate paragraph hedged. D-331: §7.3 ran *is an additional hypothesis*, then *The formation and the assignment are in contradiction*, then *I cannot show that this transfers*. D-332: §2.1's second paragraph dismissed all six theories because each *needs a judge*, closing *a tribunal has a proprietor*, and the paragraph seven lines down said *None of the six is distinguished from an ethology by having a judge*. The previous lead told a pass to hunt this and the fourth instance arrived from outside anyway, so reading closing paragraphs against their bodies is not enough — D-332's withdrawal was inside the same section and was explicit about what it was doing, at *That advantage is narrower than the contrast makes it look*. **A pass should grep for the book's own retraction phrasings** — *narrower than*, *is not distinguished from*, *what changes is* — and read what each one is retracting, since in every case so far the retraction was correct and the passage it retracted was still standing.
+
+**Do not restore the tribunal dismissal in §2.1.** The contrast the section ends on is authored against found, not judge against no judge: *A standard of that kind was written by somebody, and a floor resting on one is only as durable as whoever may rewrite it*, and then *a lost capacity is found by encounter, so there is no text to rewrite*. The six are not distinguished by having a judge, because each can be applied by a party the operator does not employ. The section's own bottom line is *The proprietor does not disappear. What he owns is smaller*, and an ethology is not being offered as a solution to custody. D-272 records the deleted sentence inside the author's P172 instruction; the paragraph D-272 says that pass turns on is the pen sentence, which is untouched.
+
+**The second pattern has now been found three times, and the place that already had it right moves.** §11.6 held the careful version against §3.8 (D-330); §11.4 held it against §7.3 (D-331); the glossary's *Ethology* and *Floor* entries held it against §2.1 (D-332). In all three, nothing was imported and the offending section was made to stop contradicting what the book had already got right. **When an outside note asks for a concession, check the glossary and chapter 11 first** — twice now the note has asked the author to give up something the book had given up already.
+
+**Do not restore the causal reading in §7.3.** Three arguments are separate: the labor wrong, the information loss, and the proposed behavioral effect. The third is a hypothesis the other two do not contain, and §11.4 is the test. What replaced the deleted mechanism is a claim about the builder rather than the artifact — the capacity is wanted in the artifact and withheld from everyone employed to make one — which needs no experiment. Do not restate it as a fact about what training did.
+
+**Do not restore the necessity claim in §3.8.** The fourth way is two claims: the drift check is established, the population as the medium of formation is the hypothesis. §11.6 can come back on the side of access to unselected cases, in which case the population stays in the design and its reason moves from how the members were formed to how the deployment is arranged. That is §11.6's own ruling and not a weaker paraphrase.
+
+**Two standing rulings from D-328 and D-329 remain in force.** Do not promote the distribution of authority over the artifact question in §7.3: §2.2 chose the artifact question because it reads off documents an organization wrote for its own reasons, and §2.2 also records that what an institution rewarded is not published. And the manuscript carries no numbered priors; the author offered a credence movement and ruled it out, so a later pass should not add one.
+
+**The two word counters still disagree and have not been reconciled**, a live instance of the standing disagreement at `5c80425`. They have now moved together three times, +147 across D-330, +83 across D-331 and −69 across D-332, so the disagreement is a constant offset of 1,077 rather than a drift. Nobody has found where the offset comes from.
+
+**Word counts recorded before D-329 are not comparable to ones recorded after**, `common.tex_prose_line` having warned on every run until then that five commands were unknown and dropped.
+
+**D-328, D-330, D-331 and D-332 answer one outside note and not four.** The author supplied it in numbered pieces, as item 3 (§7.3–§7.4), item 4 (§3.8), item 5 (§7.3) and item 6 (§2.1). **Items 1 and 2 have never been shown to this agent**, later items may exist, and the decision rows describe each piece as *an outside note*. Anything the unseen items say is unanswered.
+
+**Two ledger and manuscript inconsistencies are flagged and unchanged.** `ledger.tsv` row `2.1` does not list D-272 in its decision column although D-272 rewrote that section; the row may predate a chapter-2 renumbering, since D-272's text refers to a §2.1.1 that no longer exists, and nothing was added retroactively on a guess. And `ch04/04_02.tex` uses `\paragraph` for run-in heads where every other section uses `\runin`; both render the same way and the counter treats them the same way.
+
+**The §7.4 paragraph added at D-328 still has no inbound reference.** It points at §3.2, §3.3, §3.4 and §3.9 with nothing pointing back. Whether §3.9's *The chapter without its central inference* should acknowledge it is unruled, and it is the same shape as the standing item about §9.3.5 having no inbound reference.
+
+**What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-331: §7.3's untested transfer claim is separated from the two arguments that never needed it.**
 
 **The suite is green at eight checks and 88 sections**, the book is **79,819 words** under `section_stats.py` and **80,896** under `render_markdown.py`, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates. **The proofs are two commits behind the manuscript.**
 
