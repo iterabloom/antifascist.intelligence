@@ -203,6 +203,32 @@ dash was setting a beat rather than doing a job. Three cases in particular:
   at three or more, and 12 at four or more. The dense ones are where to look
   first; nothing about the count alone makes a paragraph wrong.
 
+## 3b. Name the thing again (D-323)
+
+Do not point back at a thing you have already named. Name it again.
+
+The tic has three forms, and all three ask the reader to hold something they
+have put down:
+
+- **A demonstrative standing in for a noun.** "Quantities of that kind," "a
+  change of that size," "states answering to that description." The reader has
+  to reconstruct which quantity, which change, which description. Say the
+  quantity.
+- **A back-reference by index.** "The third mark," "the first of the four
+  properties," "the second route," "the former." These work while the list is
+  on the page and stop working one paragraph later. Restate the mark instead of
+  numbering it. The exception is narrow: if the whole of the preceding
+  paragraph was about that item and nothing has intervened, the index is
+  legible.
+- **A signpost that carries no claim.** "That is a bet about where engineering
+  effort should go." "The research agenda states the experiment that would test
+  it." A sentence whose content is the location of other content. Cut it; the
+  reader will arrive there without being told.
+
+Restating costs four or five words and buys a sentence that can be read once.
+Prose in this book is read by people who put it down between sittings, and a
+back-reference by index is a bill they pay later.
+
 ## 4a. Run-in heads inside long sections
 
 The three-level cap is about the **reader-facing table of contents**, not about

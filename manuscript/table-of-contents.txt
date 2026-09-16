@@ -1,7 +1,7 @@
 Chapter 0: Foreword
 Chapter 1: The Bearer: Our Fresh-Faced Protagonist
 Chapter 2: The Striving and the Electricity Bill
-2.1. Six Theories, None of Which Will Save Us
+2.1. Six Theories and the Floor
 2.2. Antifascist Ethics for AI Alignment
 2.3. Going Numb Won't Make You Fair
 2.3.1. Self-awareness and Self-regulation in AI Systems
