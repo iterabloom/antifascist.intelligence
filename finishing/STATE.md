@@ -1,6 +1,30 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-330: §3.8 no longer closes on a necessity it argues everywhere else as a hypothesis.**
+Read this first. **Updated 2026-09-16 after D-331: §7.3's untested transfer claim is separated from the two arguments that never needed it.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,819 words** under `section_stats.py` and **80,896** under `render_markdown.py`, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates. **The proofs are two commits behind the manuscript.**
+
+**One pattern has now been found three times and should be hunted rather than waited for.** A claim is hedged, and the hedge is dropped by a neighbouring sentence. D-328: §7.3's enumeration stated a verdict its own later paragraph split. D-330: §3.8 closed on a necessity its penultimate paragraph hedged. D-331: §7.3 ran *is an additional hypothesis*, then *The formation and the assignment are in contradiction*, then *I cannot show that this transfers*, inside a few sentences. A pass looking for this should read each section's closing paragraph against its own body.
+
+**A second pattern has been found twice.** Chapter 11 states a limit carefully and the argument chapter upstream does not. §11.6 named §3.8 as making *the stronger claim*; §11.4 already stated what a null result costs, at *the transfer claim is unsupported and the labor argument stands on its own terms, which is where it was made*. In both cases nothing was imported and the upstream section was made to stop contradicting what the book had already got right.
+
+**Do not restore the causal reading in §7.3.** Three arguments are now separate: the labor wrong, the information loss, and the proposed behavioral effect. The third is a hypothesis the other two do not contain, and §11.4 is the test. What replaced the deleted mechanism is a claim about the builder rather than the artifact — the capacity is wanted in the artifact and withheld from everyone employed to make one — which needs no experiment and is the observation §7.4 makes of the field. Do not restate it as a fact about what training did.
+
+**Do not restore the necessity claim in §3.8.** The fourth way is two claims: the drift check is established, the population as the medium of formation is the hypothesis. §11.6 can come back on the side of access to unselected cases, in which case the population stays in the design and its reason moves from how the members were formed to how the deployment is arranged. That is §11.6's own ruling and not a weaker paraphrase.
+
+**Two standing rulings from D-328 and D-329 remain in force.** Do not promote the distribution of authority over the artifact question in §7.3: §2.2 chose the artifact question because it reads off documents an organization wrote for its own reasons, and §2.2 also records that what an institution rewarded is not published. And the manuscript carries no numbered priors; the author offered a credence movement and ruled it out, so a later pass should not add one.
+
+**The two word counters still disagree and have not been reconciled**, which is a live instance of the standing disagreement at `5c80425`. They have now moved together twice, +147 across D-330 and +83 across D-331, so the disagreement is a constant offset of 1,077 rather than a drift. Nobody has found where the offset comes from.
+
+**Word counts recorded before D-329 are not comparable to ones recorded after**, `common.tex_prose_line` having warned on every run until then that five commands were unknown and dropped.
+
+**One manuscript inconsistency is flagged and unchanged.** `ch04/04_02.tex` uses `\paragraph` for run-in heads where every other section uses `\runin`. Both render the same way and the counter now treats them the same way.
+
+**The §7.4 paragraph added at D-328 still has no inbound reference.** It points at §3.2, §3.3, §3.4 and §3.9 with nothing pointing back. Whether §3.9's *The chapter without its central inference* should acknowledge it is unruled, and it is the same shape as the standing item about §9.3.5 having no inbound reference.
+
+**What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-330: §3.8 no longer closes on a necessity it argues everywhere else as a hypothesis.**
 
 **The suite is green at eight checks and 88 sections**, the book is **79,736 words** under `section_stats.py` and **80,813** under `render_markdown.py`, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
 
