@@ -10,6 +10,8 @@ Read this first. **Updated 2026-09-16 after D-329: §7.3's sort is directional, 
 
 **One manuscript inconsistency is flagged and unchanged.** `ch04/04_02.tex` uses `\paragraph` for run-in heads where every other section uses `\runin`. Both render the same way and the counter now treats them the same way.
 
+**Two items are outstanding and were recorded nowhere else.** The two word counters disagree and have not been reconciled: `section_stats.py` reports 79,589 and `render_markdown.py` reports 80,658, which is a live instance of the standing disagreement at `5c80425`. And the §7.4 paragraph added at D-328 points at §3.2, §3.3, §3.4 and §3.9 with nothing pointing back, so the finding that the survives-without-the-route move is also the form in which the expensive half of the claim became optional lives in §7.4 only. Whether §3.9's *The chapter without its central inference* should acknowledge it is unruled, and it is the same shape as the standing item about §9.3.5 having no inbound reference.
+
 **What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
 
 **Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-328: §7.3 now runs the sort it had only been posing, and the Foreword names where the book's central term came from.**
