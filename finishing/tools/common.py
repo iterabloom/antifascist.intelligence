@@ -162,14 +162,19 @@ def write_tsv(path, header, rows):
 #   * A box is the author's own prose and counts, same as <<box>> did.
 
 TEX_DROP_WHOLE = ("label", "unnumberedlabel", "addcontentsline", "input",
-                  "autocite", "cite", "nocite", "backmattermark")
+                  "autocite", "cite", "nocite", "backmattermark", "rule")
 TEX_DROP_HEADING = ("chapter", "section", "subsection", "subsubsection")
 # \url keeps its argument: the address is text on the page, and it counts
 # as the one token it prints, the same convention \ref gets above.
 TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "boxtitle", "text",
-                "url")
+                "url", "paragraph")
 TEX_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
-            "smallskip", "bigskip", "nopagebreak", "item", "centering")
+            "smallskip", "bigskip", "nopagebreak", "item", "centering",
+            "hline", "linewidth")
+
+# Commands that print a character. \S carries a section number behind it, so it
+# has to join the number rather than become the space a dropped command becomes.
+TEX_LITERAL = {"S": "\u00a7"}
 TEX_QUOTE_ENVS = ("verse", "flushright")
 
 _TEX_ENV = re.compile(r"\\(begin|end)\{([A-Za-z*]+)\}")
@@ -227,6 +232,8 @@ def tex_prose_line(line, unknown=None):
             out.append(tex_prose_line(arg, unknown))
         elif name in TEX_BARE:
             out.append(" ")
+        elif name in TEX_LITERAL:
+            out.append(TEX_LITERAL[name])
         else:
             if unknown is not None:
                 unknown.add(name)

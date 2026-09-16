@@ -40,7 +40,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7	The Recuperation of Dissent	1	7	653	11	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 7.1	Recuperation at the Label	2	7	818	12	0	0	0	0	0	0	0	0	2		0	0	0	0	3
 7.2	Recuperation at the Reward: RLHF	2	7	802	8	0	0	0	0	0	0	0	0	3	2023	0	0	0	0	0
-7.3	What Would Have to Change	2	7	1103	16	0	0	0	0	0	0	2	0	0		0	0	0	0	5
+7.3	What Would Have to Change	2	7	1111	16	0	0	0	0	0	0	2	0	0		0	0	0	0	5
 7.4	Recuperation at the Discourse	2	7	1426	22	0	0	0	0	0	0	4	0	1		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	33	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.1	Everybody Knows a Different Piece	2	8	411	5	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
@@ -86,4 +86,4 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	219	6	0	0	0	0	0	0	0	0	2		0	0	0	0	2
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	401	4	0	0	0	0	0	0	0	0	2		0	0	0	0	0
 12.3	The One That Gets You Anyway	2	12	692	6	0	0	0	0	0	0	0	0	0		0	3	0	0	0
-13	Glossary	1	13	3260	57	0	0	0	0	0	0	58	0	0		0	3	0	0	28
+13	Glossary	1	13	3254	57	0	0	0	0	0	0	58	0	0		0	3	0	0	28

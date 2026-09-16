@@ -1,6 +1,18 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-328: §7.3 now runs the sort it had only been posing, and the Foreword names where the book's central term came from.**
+Read this first. **Updated 2026-09-16 after D-329: §7.3's sort is directional, and the word counter no longer disclaims its own numbers.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,589 words** under a corrected counter, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
+
+**Word counts recorded before D-329 are not comparable to ones recorded after.** `common.tex_prose_line` had been warning on every run that five commands were unknown and dropped, and that its numbers should not be trusted until they were taught. They are now taught. Figures in D-328 and earlier were produced under that warning.
+
+**D-328 mischaracterized one of the outside note's asks and D-329 corrects it**, since `DECISIONS.md` is append-only. The ask was a false-positive challenge — *your test must be able to recognize the gain* — and not a request for an example. The book answers it at §7.1, where the test is direction and not artifact type: *a quality score they are now measured against*, *a tier of reviewer they are not in*. §7.3's sort now carries that direction on both of its clean items.
+
+**One manuscript inconsistency is flagged and unchanged.** `ch04/04_02.tex` uses `\paragraph` for run-in heads where every other section uses `\runin`. Both render the same way and the counter now treats them the same way.
+
+**What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-328: §7.3 now runs the sort it had only been posing, and the Foreword names where the book's central term came from.**
 
 **The suite is green at eight checks and 88 sections**, the book is **79,587 words**, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
 
