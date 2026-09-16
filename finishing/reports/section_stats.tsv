@@ -1,5 +1,5 @@
 num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
-0	Foreword	1	0	239	5	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+0	Foreword	1	0	290	5	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 1	The Bearer: Our Fresh-Faced Protagonist	1	1	801	9	0	0	0	1	0	0	0	0	0		0	0	1	0	0
 2	The Striving and the Electricity Bill	1	2	2031	16	0	0	0	1	0	0	0	0	4		0	0	0	0	0
 2.1	Six Theories and the Floor	2	2	1365	14	0	0	0	0	0	0	0	0	3		0	0	0	0	3
@@ -40,8 +40,8 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7	The Recuperation of Dissent	1	7	653	11	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 7.1	Recuperation at the Label	2	7	818	12	0	0	0	0	0	0	0	0	2		0	0	0	0	3
 7.2	Recuperation at the Reward: RLHF	2	7	802	8	0	0	0	0	0	0	0	0	3	2023	0	0	0	0	0
-7.3	What Would Have to Change	2	7	1090	16	0	0	0	0	0	0	1	0	0		0	0	0	0	5
-7.4	Recuperation at the Discourse	2	7	1268	21	0	0	0	0	0	0	0	0	1		0	0	0	0	3
+7.3	What Would Have to Change	2	7	1103	16	0	0	0	0	0	0	2	0	0		0	0	0	0	5
+7.4	Recuperation at the Discourse	2	7	1426	22	0	0	0	0	0	0	4	0	1		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	33	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.1	Everybody Knows a Different Piece	2	8	411	5	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
 8.2	Ask the People It Happens To	2	8	963	11	3	0	0	0	0	0	0	0	7	2025	0	1	0	0	1

@@ -1,6 +1,20 @@
 # State of play
 
-Read this first. **Updated 2026-09-16 after D-327: the flat-only panel's cost list is paid, and Ross is in the bibliography.**
+Read this first. **Updated 2026-09-16 after D-328: §7.3 now runs the sort it had only been posing, and the Foreword names where the book's central term came from.**
+
+**The suite is green at eight checks and 88 sections**, the book is **79,587 words**, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**. The page count is in the README, which the proofs commit updates.
+
+**An outside note on §7.3–§7.4 found a real defect and misnamed it.** It proposed replacing the artifact question with the distribution of authority. **That was not applied.** §2.2 chose *what did the demand come back as* over *has the channel ever changed an outcome* because the first reads off documents an organization wrote for its own reasons, and §2.2 also records that what an institution rewarded is not published — so promoting authority to governing makes the instrument unrunnable by the outsider it exists for. §9.3.5 already holds the note's thesis at its limit: *the text of the document cannot tell those apart. Only the refusal rights can.* **Do not reintroduce the proposed repair.**
+
+**What was actually wrong was local.** §7.3's enumeration ran §7.1's question and not §7.1's sort, sweeping four returns into one verdict when §7.1 and §7.3's own later paragraph both split them. Fixed by sorting: the statistic and the occupation sort on the document, the two revision items do not, and the rater list still lands whole.
+
+**The note's request to cut §7.4's self-implication was not applied, and should not be.** §7.4 reaches a verdict, and chapter 7's opening, §2.2's operational form of the non-fascist life, and the glossary's *Non-fascist life* entry all point at §7.4 as where the book runs the reading on itself.
+
+**The author named a claim his production conditions cost him**, which is the one ask in the note worth taking. The absolutist form — trustworthiness requiring self-awareness, subjective experience and human-analogous emotions — was never written, and frontier models argued him toward the weaker claim. **He offered a credence movement and ruled it out of the book. The manuscript carries no numbered priors; do not add one.** He also ruled that the Foreword may name that *reasons-responsive refusal* reached the book through a draft a model wrote.
+
+**What chapter 3 still owes is unchanged**: no route exists for the party harmed by a wrongful compliance, which §3.7 names and does not remedy.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-16 after D-327: the flat-only panel's cost list is paid, and Ross is in the bibliography.**
 
 **The suite is green at eight checks and 88 sections**, the book is **79,365 words** and builds **163 pages**, and `refs.bib` is **229**, every entry cited, **0 of the 229 human-checked**.
 

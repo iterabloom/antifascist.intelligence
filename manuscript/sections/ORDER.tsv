@@ -1,5 +1,5 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	Foreword	316ea7259b690491e53ca3849d6301135d375e2cdc08a4c7b64aefdd28f9008f
+manuscript/sections/ch00/00.tex	0	Foreword	f34e919de2a35a85b95e51f5c0d1344cd90a234b9f49937ba7675bcb9cd3a0db
 manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	4c2a826bc9f4f8d3a3d139812e214b40475037b02ab9f2c0e4ce3457f1de4bf4
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	c75b5993d9040510c3f614054d183dc15f241f32fa1abd476369cc95b38cbfe3
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	4fb67e4b7afe89c6e7517bf4f1e047d4265a4104d4c558271beb2af19c1cf3d6
@@ -40,8 +40,8 @@ manuscript/sections/ch06/06_04_02.tex	6.4.2	Custody and State Compulsion	f7d02aa
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	3f2fb0f6585b913e86bc51059efe53f62e4577f77ad785bc413cd8c5f845b017
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	4a9752a3d244db8f5c781aaaee165dbdb24c28db4ade9c9a4f70fc4756893bc5
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	d4c143680b7f77c5b4b17462e4970c6ee91beee3fd59daf3ef0986f9e0b20450
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	b7116bee32daed1d1c74d4952d469878ec46494a36a26a5bf72e84788aecc0cd
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	588b5e64f394e7802777398998f2350fa3e10fdb124a1b784dd02915d62b2538
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	ff2c99b16ed2e772816d62a000457fbbd07c247dbe40ae11149f0afe3993565e
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	c08b94a9fa174693187165599544a90548dc2f602d3283d69edea91c496c3fa8
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	c2703d8f382f3de755d971425d2da271667d79c8aa10d10e9a5c892da3479166
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	a611fa521a47d184ee0915e8dde10bae1e320f3c660cffd747845d46fcc8e924
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	2def5a5a18776c9253f6bd62fa46895cf63d0cbd129b3f7e909c860caad3e071
