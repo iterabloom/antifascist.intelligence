@@ -111,9 +111,27 @@ Every page of the PDF carries a DRAFT watermark behind the text and a footer
 reading `PREPRINT · WORKING MANUSCRIPT · Rendered MM/DD/YYYY HH:MM · N/226
 bibliographic entries human-checked` (D-319). **One switch turns all of it
 off**: `\draftmodefalse` in `manuscript/preamble.tex`, which silences the PDF's
-footer and watermark, the HTML's bar and tiled background, and the Markdown
-renderer's line together. **Built both ways the book is 153 pages**, so the
-apparatus costs no pagination and page counts stay comparable across it.
+footer and watermark and the HTML's bar and tiled background together. **Built
+both ways the book is 153 pages**, so the apparatus costs no pagination and page
+counts stay comparable across it; re-measured at D-335, both ways, it is 164.
+
+**The two rendered single files carry no trace of it, and the switch is not how**
+(D-335). `render_markdown.py` dropped the status line from the Markdown, and its
+`--tex` form removes the apparatus from the preamble it inlines — the
+conditional blocks whole, the definitions whose bodies name it, the generated
+counts, and the comment paragraphs explaining all three — so the file reads as
+though the apparatus had never been written. Turning it off was tried first and
+was not enough: `\draftmodefalse` leaves the machinery and its commentary on the
+page for a reader to wonder about, and the point of those files is that they are
+handed to a reader. **The strip is a set of rules about shape and the gate after
+it is what makes that safe**: the script writes nothing if a word of the
+apparatus vocabulary survives in the master or the preamble, naming what it
+found, so growing the apparatus fails the render loudly instead of leaking into
+it. The book's own prose is held aside behind a sentinel while that runs, since
+*watermark* is an ordinary word in a book that cites a paper about watermarking.
+**The cost is that a PDF built from the rendered `.tex` is a draft with nothing
+on it saying so**; the proof is built from `manuscript/book.tex`, where the
+apparatus is untouched.
 
 **The count comes from `finishing/refs-ledger.tsv` and cannot drift from it.**
 `refs_ledger.py` generates `manuscript/draft-status.tex`, the two macros the

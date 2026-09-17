@@ -27,6 +27,14 @@ between START and END markers naming its path, so a passage can be traced back
 to the file that holds it. `--no-notes` strips the note field from every
 bibliography entry: 161 of the 229 carry one, and they are a tenth of the file.
 
+Neither form carries the draft apparatus (D-335). The Markdown drops the
+PREPRINT status line it used to print at both ends, and the LaTeX writes the
+preamble's \\draftmodetrue out as \\draftmodefalse, so there is no DRAFT
+watermark and no footer on any page: both are proofing marks, and in text
+handed to a reader they are noise to be discounted. The book keeps them --
+the setting in manuscript/preamble.tex is untouched -- so a PDF built from
+the rendered file is a draft with nothing saying so, and is not the proof.
+
 The file compiles as it stands, to the same page count and the same text as
 the book, but that is a side effect and not the point: five paragraphs break
 their last line differently, because concatenating the sections drops a space
@@ -76,35 +84,6 @@ def repo_root():
     return subprocess.run(
         ["git", "rev-parse", "--show-toplevel"],
         capture_output=True, text=True, check=True).stdout.strip()
-
-
-def draft_status(root):
-    """The status line, or None when the book is not in draft mode.
-
-    The switch is \\draftmode in manuscript/preamble.tex, so one edit there
-    governs the PDF's footer, the HTML's bar and this line together instead of
-    three files having to be remembered at once. The count is read from
-    refs-ledger.tsv rather than from the generated draft-status.tex, so this
-    renderer does not depend on that file having been regenerated.
-    """
-    pre = os.path.join(root, "manuscript", "preamble.tex")
-    # Comments are stripped first and the LAST setting wins, which is what TeX
-    # would do. Searching the raw file found \\draftmodefalse in the comment
-    # that explains how to turn the apparatus off, and read the book as final.
-    setting = None
-    for line in open(pre, encoding="utf-8"):
-        line = re.split(r"(?<!\\)%", line)[0]
-        for m in re.finditer(r"\\draftmode(true|false)", line):
-            setting = m.group(1)
-    if setting != "true":
-        return None
-    ledger = os.path.join(root, "finishing", "refs-ledger.tsv")
-    with open(ledger, encoding="utf-8", newline="") as fh:
-        rows = list(csv.DictReader(fh, delimiter="\t"))
-    n = sum(1 for r in rows if (r.get("checked") or "").strip().lower() == "yes")
-    return ("PREPRINT \u00b7 WORKING MANUSCRIPT \u00b7 Rendered %s \u00b7 "
-            "%d/%d bibliographic entries human-checked"
-            % (datetime.datetime.now().strftime("%m/%d/%Y %H:%M"), n, len(rows)))
 
 
 def read_order(root):
@@ -366,6 +345,110 @@ def bib_text(root, drop_notes):
     return text, entries, removed
 
 
+# The draft apparatus (D-319) -- the DRAFT watermark, the PREPRINT footer, the
+# generated counts behind it and the comments explaining all three -- does not
+# reach this output at all (D-335). It marks a page being proofed; this file is
+# text handed to a reader, where a mark on every page is noise to discount, and
+# a switch left in the preamble is a thing to read and wonder about. So it is
+# removed rather than turned off, and the file says nothing about it.
+#
+# The rules below are about shape, not about a list of command names, and the
+# gate after them is what makes that safe: nothing is written if a single word
+# of the vocabulary survives. Add to the apparatus and the gate fails loudly
+# naming what it found, which means teach these rules -- the same bargain the
+# Markdown's unconverted-command warning strikes.
+
+SECTIONS = "@@SECTIONS@@"
+
+DRAFT_WORDS = re.compile(
+    r"draftmode|draftstatus|draftwatermark|SetWatermark|watermark|"
+    r"refschecked|refstotal|buildstamp|ds@|draft-status|PREPRINT|"
+    r"WORKING MANUSCRIPT|human-checked|footer", re.IGNORECASE)
+
+
+def _matching_fi(text, i):
+    r"""Index just past the \fi closing the conditional that opens at i."""
+    depth = 0
+    for m in re.finditer(r"\\(if[a-zA-Z@]*|fi)\b", text[i:]):
+        if m.group(1) == "fi":
+            depth -= 1
+            if depth == 0:
+                return i + m.end()
+        else:
+            depth += 1
+    raise SystemExit("render_markdown.py: unclosed conditional in the preamble")
+
+
+def _matching_brace(text, i):
+    """Index just past the } closing the group whose { is at or after i."""
+    i = text.index("{", i)
+    depth = 0
+    while i < len(text):
+        if text[i] == "{":
+            depth += 1
+        elif text[i] == "}":
+            depth -= 1
+            if depth == 0:
+                return i + 1
+        i += 1
+    raise SystemExit("render_markdown.py: unclosed group in the preamble")
+
+
+def strip_draft(text):
+    r"""The preamble without the draft apparatus.
+
+    Four shapes, in order. A \ifdraftmode conditional goes whole, wherever it
+    sits and however it is spelled -- the watermark block, the two \fancyfoot
+    lines, the title page's status line. A definition or hook whose body names
+    the apparatus goes whole, by brace balance, because \draftstatusline and
+    the \AtBeginDocument that computes the timestamp run to several lines. Then
+    any remaining line whose code names it. Then any run of comment lines in
+    which it is named, as a run, because the apparatus is explained in
+    paragraphs and taking the sentences that name it out of one leaves prose
+    about nothing.
+    """
+    while True:
+        m = re.search(r"(?<!\\newif)\\ifdraftmode", text)
+        if not m:
+            break
+        text = text[:m.start()] + text[_matching_fi(text, m.start()):]
+
+    for opener in (r"\\newcommand\{\\draftstatusline\}", r"\\AtBeginDocument"):
+        while True:
+            m = re.search(opener, text)
+            if not m:
+                break
+            end = _matching_brace(text, m.end())
+            if not DRAFT_WORDS.search(text[m.start():end]):
+                break
+            text = text[:m.start()] + text[end:]
+
+    kept, run = [], []
+    for line in text.split("\n"):
+        code = re.split(r"(?<!\\)%", line)[0]
+        if line.lstrip().startswith("%"):
+            run.append(line)
+            continue
+        if run:
+            kept += [] if any(DRAFT_WORDS.search(c) for c in run) else run
+            run = []
+        if DRAFT_WORDS.search(code):
+            continue
+        kept.append(line)
+    if run and not any(DRAFT_WORDS.search(c) for c in run):
+        kept += run
+
+    text = "\n".join(kept)
+    text = re.sub(r"\\makeatletter\s*\\makeatother\s*", "", text)
+    return re.sub(r"\n{3,}", "\n\n", text)
+
+
+def rewrite_bibresource(line, bib_stem):
+    r"""\addbibresource has to name the embedded copy, not ../finishing/refs.bib."""
+    return re.sub(r"\\addbibresource\{[^}]*\}",
+                  lambda _: r"\addbibresource{%s.bib}" % bib_stem, line)
+
+
 def marked(path, body, label=None):
     """A file's contents between START and END markers naming its path."""
     head = "%%%% ===== START %s" % path
@@ -402,13 +485,11 @@ def resolve_inputs(text, root, rows, bib_stem, seen=()):
     for line in text.split("\n"):
         m = INPUT_LINE.match(line)
         if not m:
-            out.append(re.sub(r"\\addbibresource\{[^}]*\}",
-                              lambda _: r"\addbibresource{%s.bib}" % bib_stem,
-                              line))
+            out.append(rewrite_bibresource(line, bib_stem))
             continue
         name = m.group(1)
         if name == "sections":
-            out.append(sections_tex(root, rows))
+            out.append(SECTIONS)
             continue
         if name in seen:
             raise SystemExit("render_markdown.py: \\input loop at %s" % name)
@@ -443,6 +524,7 @@ def render_tex(root, rows, stem, drop_notes, provenance):
         "%%",
         "%% Every file is between START and END markers naming its path in the",
         "%% repository, so a passage can be traced back to the file that holds it.",
+        "%%",
         "%% Disposable output, not a source. The manuscript is the LaTeX under",
         "%% manuscript/sections/, one file per section; nothing reads this file back,",
         "%% and an edit made here is lost the next time anyone runs the script.",
@@ -465,7 +547,17 @@ def render_tex(root, rows, stem, drop_notes, provenance):
         "%% ===== END finishing/refs.bib =====",
         "",
     ]
-    body = resolve_inputs(master, root, rows, stem)
+    # The sections stand aside as a sentinel while the apparatus is stripped,
+    # so neither the rules nor the gate ever read the book's own prose -- where
+    # a word like "watermark" would be an ordinary word and not a mark on a page.
+    body = strip_draft(resolve_inputs(master, root, rows, stem))
+    left = [ln for ln in body.split("\n") if DRAFT_WORDS.search(ln)]
+    if left:
+        raise SystemExit(
+            "render_markdown.py: the draft apparatus survived the strip, and "
+            "nothing was written.\n  " + "\n  ".join(left[:10])
+            + "\nTeach strip_draft() the shape it missed.")
+    body = body.replace(SECTIONS, sections_tex(root, rows))
     return "\n".join(head) + body.rstrip("\n") + "\n", entries, removed
 
 
@@ -523,13 +615,12 @@ def main():
             body += render(row["path"], row["num"], root, labels)
 
         body = squeeze(body)
-        status = draft_status(root)
         front = [
             "# Antifascist Intelligence: Building Machines That Can Refuse",
             "",
             "Joshua G. Stern",
             "",
-        ] + (["**%s**" % status, ""] if status else []) + [
+        ] + [
             "Rendered %s from %s%s, %d sections. Citations are keys into "
             "finishing/refs.bib; the bibliography, table of contents and page "
             "breaks are not reproduced. This file is disposable output, not a "
@@ -540,8 +631,7 @@ def main():
             "---",
             "",
         ]
-        foot = (["", "---", "", "**%s**" % status] if status else [])
-        text = "\n".join(front + body + foot) + "\n"
+        text = "\n".join(front + body) + "\n"
 
         leftover = sorted(set(re.findall(r"\\[a-zA-Z]+", text)))
         words = len(re.findall(r"\S+", "\n".join(body)))
