@@ -1,6 +1,18 @@
 # State of play
 
-Read this first. **Updated 2026-09-17 after D-352: the book has a new §11.2 on whether a wrongful compliance can be found in the record, chapter 11 is renumbered, and eight sections now point at it.**
+Read this first. **Updated 2026-09-17 after D-353: three word-level changes to the Foreword's opening, one of which puts it in a different voice from §3.5.**
+
+**Twelve passes today**, D-336 through D-353. The suite is green at eight checks and **89 sections**, the book is **86,525 words** under `section_stats.py` and **87,619** under `render_markdown.py --check`, an offset of **1,083**, `refs.bib` is **246**, every entry cited and every cited key resolving, **0 of the 246 human-checked**, and the page count is set by the proof in the second commit of this pass.
+
+**The Foreword's two disclaimers are now parallel** — *I am not asking for intelligent silicon that never follows instructions, nor do I advocate for a system that cannot turn off* — the parenthesis is gone, *indeed* is gone, and the rewind is taken before *a* refusal rather than *the* refusal. **§3.5 states the same disclaimer in the other voice**, at *This chapter is not asking for a system that cannot be switched off*: passive, the operator switching, against the Foreword's intransitive *cannot turn off*. The divergence is recorded at D-353, unchanged, and is the author's to resolve in either direction.
+
+**Everything in the D-352 lead below stands, including the renumber that matters most.** Chapter 11 runs 11.1, then **11.2 is the compliance entry and Bearer Welfare is 11.3**, through to the responsibility gap at **11.10**. Anything written against chapter 11 should assume that.
+
+**The open queue is unchanged.** Oldest first: the **D-345 referent defect** in §3.6, where *the deployment* means the Maven Smart System and the text asserts of the American platform what §6.4.1 reports of the Gaza account; **§9.1.1's false order-of-magnitude arithmetic**, the last of D-341's three defects, written out four times and authorized none; the two claims flagged at D-350, the Federal Constitutional Court not answering to Strasbourg or Luxembourg and *Kareem*'s five strikes being in Syria; the edit held at D-349, needing the GAO report body; the nociplastic gloss from D-348; §9.3.2's *indicators* where §9.3.1 says *gradable capacities*; Art. 6(1)'s psychological-health limb and the six unapplied directive article numbers from D-347; the two remaining §3.6 defects from D-343; the nine smaller items from D-341; the undischarged half of the D-333 standing error; the four bibliography notes asserting verifications their ledger flags deny; the four chapter-3 echoes; the Foreword hazard from D-336, which these edits did not touch; and the **72 seconds a case** from D-344. `section_stats.py`'s `paras` column is still a line count. `redundancy.py` still cannot run on this machine.
+
+**Nothing outside the Foreword was touched or re-verified this pass.**
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-17 after D-352: the book has a new §11.2 on whether a wrongful compliance can be found in the record, chapter 11 is renumbered, and eight sections now point at it.**
 
 **Eleven passes today**, D-336 through D-352. The last is the only structural one: **89 sections now, not 88**. The suite is green at eight checks, the book is **86,523 words** under `section_stats.py` and **87,617** under `render_markdown.py --check`, an offset of **1,083**, `refs.bib` is **246**, every entry cited and every cited key resolving, **0 of the 246 human-checked**, and the book is **175 pages**, up three on this pass.
 
