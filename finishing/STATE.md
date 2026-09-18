@@ -1,6 +1,18 @@
 # State of play
 
-Read this first. **Updated 2026-09-18 after D-354: the Foreword is replaced whole, and it asserts one incapacity the book declines to assert.**
+Read this first. **Updated 2026-09-18 after D-355: two words put the Foreword's strongest claim in the present tense, and the proofs were remade.**
+
+**Two passes today**, D-354 and D-355, both on the Foreword. The suite is green at eight checks and **89 sections**, the book is **86,716 words** under `section_stats.py` and **87,810** under `render_markdown.py --check`, an offset of **1,094**, `refs.bib` is **246** with **0 human-checked**, and the book is **175 pages**, unchanged across both. **The committed proof pair is `whole-book-proof_2026-09-18.{pdf,html}`** and the README points at it.
+
+**D-355 is *As is,* prefixed to *artificial intelligence is the first form of intelligence that does not lose the file*.** It trades a claim about what the thing is for one about how it is currently built, which is the claim the book can carry. **It narrows one of the three over-assertions D-354 flagged and leaves two.** *No production system in September of 2026 can hold a reason against its owner* still asserts an incapacity §3.3 comes close to denying, and is now the flat sentence in a paragraph whose other strong sentence is hedged; the recommendation is unchanged, **’has been shown to hold’**. *People are the only internal reason such political projects have ever failed* is still an unbounded universal — *As is* qualifies its consequence, not the premise.
+
+**Everything in the D-354 lead below stands.** The requirement list still substitutes persistence for §3.3's generalization and still needs the author. D-336's undeclared pairing between the Foreword and §3.5 still has four points of contact and no cross-reference. The offset correction stands at 1,094 against the 1,083 four earlier leads printed.
+
+**The rest of the open queue is unchanged and nothing outside the Foreword's first paragraph was touched or re-verified this pass.** The D-345 referent defect in §3.6; §9.1.1's false order-of-magnitude arithmetic, written out four times and authorized none; the two claims flagged at D-350; the edit held at D-349, needing the GAO report body; the nociplastic gloss from D-348; §9.3.2's *indicators* against §9.3.1's *gradable capacities*; Art. 6(1)'s psychological-health limb and the six unapplied directive article numbers from D-347; the two remaining §3.6 defects from D-343; the nine smaller items from D-341; the undischarged half of the D-333 standing error; the four bibliography notes asserting verifications their ledger flags deny; the four chapter-3 echoes; and the **72 seconds a case** from D-344. The `germany1998stgb` URL is still missing. `section_stats.py`'s `paras` column is still a line count. `redundancy.py` still cannot run on this machine.
+
+**The date has not rolled over.** The proof pair remade this pass carries the same date as the one it replaced, so no pair was removed and the README's links, page count and build date were already correct and were verified rather than edited.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-18 after D-354: the Foreword is replaced whole, and it asserts one incapacity the book declines to assert.**
 
 **One pass today**, D-354, on an author-supplied Foreword. The suite is green at eight checks and **89 sections**, the book is **86,714 words** under `section_stats.py` and **87,808** under `render_markdown.py --check`, `refs.bib` is **246** with **0 human-checked**, and the book is **175 pages**, unchanged. **The Foreword goes 340 to 529 words.** The printed page was read: it sets on page 1 with no widow.
 
