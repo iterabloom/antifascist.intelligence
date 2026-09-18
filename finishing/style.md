@@ -1,40 +1,17 @@
 # Style sheet
 
 The operative document for the revise pass (D-007). Every section is edited
-against this list. Counts come from `reports/tics.tsv` and `reports/voice.tsv`
-over 115,377 body words.
+against this list.
 
-Draft. The pilot section will test it, and what the pilot teaches gets folded
-back in before the pass proper begins.
+**Section numbers are permanent. Do not close the gaps and do not renumber.**
+§4 and §5 are vacant; §4a, §4b and §6a sit under numbers whose parents are gone.
+The append-only record cites these sections by number and cannot be rewritten, so
+renumbering would repoint those citations at the wrong rule.
 
-**Two sections are gone and their numbers are left vacant on purpose.** §4, on
-lists, and §5, on dates and currency, were deleted 2026-09-13 (D-303), along with
-§1's paragraph about the *we* sweep not being a search-and-replace. **Do not close
-the gaps.** Eighteen references across `DECISIONS.md`, the superseded `STATE.md`
-leads and the `pNN-scope.md` files cite these sections by number, and most of them
-sit in the append-only record where they cannot be rewritten; renumbering §6 or
-§6a to fill a hole would silently repoint every one of them at the wrong rule.
-§4a, §4b and §6a already sit under numbers whose parents are gone, which is the
-same arrangement.
-
-**What §5 leaves behind, and why it was safe to go (D-304).** It had two halves.
-The one telling the prose not to say *currently*, *recently* or *state of the art*
-**is finished**: 117 instances when the rule was written, **15 regex matches now,
-and none of them a violation** — eleven are *proposed* in its argumentative sense,
-one is a consensus protocol's *latest state*, one sits inside a dated court
-holding, and two are §9.1's load-bearing distinction between what an organization
-*currently* intends and what it has bound itself to. The other half, that a box
-carrying datable facts is dated in its title, **is live and unanimous**, and has
-moved to §4b.
-
-**The instruments outlived the rule and nothing now backs them.** `claims.py`
-writes `reports/dated.tsv`, and `section_stats.py` carries a `TEMPORAL` pattern
-and reports a `dated_names` count per section on every run. They were left in
-place; **read their columns as noise unless somebody reinstates the rule.**
-
-**Eight references to §5 now dangle**, which is the intended failure: a pointer
-that obviously goes nowhere is safer than one that resolves to a rule its author
-never meant.
+**Two instruments have no rule behind them.** `claims.py` writes
+`reports/dated.tsv`, and `section_stats.py` carries a `TEMPORAL` pattern and a
+`dated_names` count. **Read their columns as noise unless somebody reinstates the
+rule.**
 
 ## 1. Person and stance (D-008)
 
@@ -57,9 +34,8 @@ substitute "you and I" and see whether the sentence still means what it should.
 **The author's own *we* stands (D-198, Q-079).** *We need nothing beyond
 reasons-responsive refusal*; *the route by which we achieve reasons-responsive
 refusal* (§3.2). It is the *we* of whoever is building the thing, the reader
-included, and the author has ruled it part of the book's voice. It is not the
-committee *we* this section removes, which proposed and recommended on behalf of
-authors who did not exist. Do not report it, and do not recast it.
+included, and it is part of the book's voice, not the committee *we* this section
+removes. Do not report it, and do not recast it.
 
 ## 2. Section shape
 
@@ -69,9 +45,7 @@ Delete on sight:
 - **Opening signposts.** "In this section, we will explore…" Start with the content.
 - **The concluding-restatement move** generally: "Ultimately", "In essence" as paragraph openers (7 and 6 respectively).
 
-**Cut the sentence that announces what the next sentence will do.** This is the
-rule the pilot produced, and every one of the author's six edits was an instance
-of it:
+**Cut the sentence that announces what the next sentence will do.**
 
 | Drafted | Accepted |
 |---|---|
@@ -113,27 +87,22 @@ A passage that cannot finish it is cut. Not compressed, not moved to a footnote 
 cut, because a definition serving no claim is a definition the book does not need
 at any length.
 
-Three shapes this rule condemns, all present in the 2023 draft:
+Three shapes the rule condemns:
 
 - **The catalog.** A numbered run of theories, techniques, or frameworks, one
-  paragraph each, with an example and a "challenge" attached. Section 2.1's six
-  ethical theories and section 5.7.1's four developmental frameworks are the
-  specimens. The catalog's real claim is almost always one item long.
+  paragraph each, with an example and a "challenge" attached. The catalog's real
+  claim is almost always one item long.
 - **The definition with a speculative tail.** "X trains a system on Y. Applied to
   ethics, the same method could …" followed by applications nobody has built.
-  Section 4.2.3 is the specimen.
 - **The capability list.** A bulleted set of things a well-designed system would
-  do, each generically stated. Section 5.6.3's safeguards list is the specimen.
+  do, each generically stated.
 
-What the rule protects, and it is most of what the good sections do: background
-delivered at the point of use, in the amount the claim needs, with the design
-consequence stated. Section 4.1.2 states the principle in its own second
-paragraph and then follows it -- "What follows are the findings that change a
-design decision, and in each case the decision is stated."
+What the rule protects: background delivered at the point of use, in the amount
+the claim needs, with the design consequence stated.
 
-This rule lifts D-007 where it bites. A section that is only a definition has
-nothing to revise into; the fates are cut and compress, and where the claim that
-survives needs prose that does not yet exist, write it.
+A section that is only a definition has nothing to revise into; the fates are cut
+and compress, and where the claim that survives needs prose that does not yet
+exist, write it.
 
 ## 3. Word-level lint
 
@@ -167,15 +136,13 @@ ordinary word and this section has nothing to say about it.
 
 ## 3a. The em dash
 
-662 em dashes in 92,582 words: one every 139 words, in 132 of 153 sections and in
-35 percent of paragraphs. **Counted before P57**, which merged eight sections away, added one, and added about 2,900 words; the census has not been retaken and the ratios below are the ones it produced. One sentence in eight carries at least one — 291 with a
-lone dash, 190 with a matched pair, none with three.
-
 The reason to count is not that the mark is wrong. It is that the em dash is
 among the most-remarked tells of generated prose, this manuscript was generated,
 and a reader who holds that association brings it to the page whether or not the
-association is fair. This file does not attempt to verify the impression and does
-not need to: the dashes doing real work pay for the ones that are not.
+association is fair. The dashes doing real work pay for the ones that are not.
+
+The census below was taken at 662 em dashes in 92,582 words, one every 139 words,
+and has not been retaken. Use the proportions, not the totals.
 
 What a lone dash introduces, counted by the word after it:
 
@@ -242,17 +209,14 @@ keep unnumbered run-in heads:
 no number, not in the table of contents. A reader still gets signposts; the
 outline still reads three deep.
 
-§9.1.1 is the working example: **2,946 words carrying eight of them**, and the
+§9.1.1 is the working example, carrying eight of them, and the
 eight read as the outline of an argument — *The reply, and how far it reaches*;
 *The tradition this belongs to, and where it went wrong*; *The tradeoff this
 leaves the book with* — material that would otherwise have wanted subsections and
 a fourth level to hold them.
 
 Rule of thumb: a section over about 1,500 words wants run-in heads. Below that,
-paragraphs are enough. **The book follows it**: measured 2026-09-13, 15 of the 16
-sections over 1,500 words carry run-in heads, the one exception being chapter~2's
-opener at 2,081 words with none. This is the escape valve D-010 always had — it
-was in the decision's original form and was lost when the triage was ruled.
+paragraphs are enough. This is the escape valve inside D-010's three-level cap.
 
 ## 4b. Boxes
 
@@ -265,10 +229,7 @@ Use sparingly. A box is a promise that the material is worth stepping out of the
 argument for.
 
 **A box carrying facts that will date takes the period in its title** — *as
-reported through mid-2026* — so the prose around it does not rot with them. This
-is what survives of the D-008 dating policy, whose own section was retired at
-D-304: the half telling the prose not to say *currently* had finished its work,
-and this half had not. All three boxes in the book already do it.
+reported through mid-2026* — so the prose around it does not rot with them. All three boxes in the book do it.
 
 ## 6. Citations (D-009)
 
@@ -278,17 +239,12 @@ While revising, a factual assertion gets `[[cite:CNNNN]]` keyed to
 `reports/claims.tsv` (268 items in 91 sections at the start of the pass).
 
 **Transplanted material brings its own citation debt, and its placeholders are
-allocated at transplant time, not deferred.** The pilot appended five rows to
-`claims.tsv` as it went; doing that retroactively across sixteen transplants
-would mean re-reading all of them. Expect the debt to rise during P3, not fall —
-imported material makes specific empirical claims where the original made
-general ones. **The agent writes a reference entry only from
-metadata it has verified against the source itself.** The rule here forbade it
-outright until D-204; the practice outgrew the words, and D-204, D-209 and D-213
-record entries authored that way. What has not changed is the reason behind the
-old rule: an assertion nobody can source is cut during the revise pass, not
-carried forward with a placeholder — that is what stops the citation backlog
-from becoming the project.
+allocated at transplant time, not deferred.**
+
+**The agent writes a reference entry only from metadata it has verified against
+the source itself** (D-204). **An assertion nobody can source is cut, not carried
+forward with a placeholder** — that is what stops the citation backlog from
+becoming the project.
 
 ## 6a. Claims about a disabled population (D-137, D-138)
 
@@ -330,22 +286,16 @@ asks about method: was the population a party to producing the finding. D-138 as
 about effect: does the research harm the population. A study can fail one and pass
 the other.
 
-**Both rules have been applied once, at P58**, and Q-058 records how far they
-reached. The reach is narrower than the rules read: the autism material at
-sections~2.3.3 and 2.2.1 went on these rules, while section~2.3.3's psychopathy
-and ventromedial-prefrontal material went on evidence quality instead, and
-Koenigs was kept although its subjects are the same population as Bechara's. So
 **D-137 has not been applied to brain-injured populations as a class**, and a
-later pass proposing to do that is opening a question rather than following a
+pass proposing to do that is opening a question rather than following a
 precedent.
 
 ## 7. Cross-references
 
-The book currently contains one backward reference and one forward reference in
-115k words, which is why the same argument can appear nine times without anyone
-noticing. Under D-013 the surviving instance of each repeated argument is the
-one place it is made; every other location that needs it gets a cross-reference
-instead. Target: at least one real cross-reference per section, where honest.
+Under D-013 the surviving instance of each repeated argument is the one place it
+is made; every other location that needs it gets a cross-reference instead.
+Target: at least one real cross-reference per section, where honest. Without them
+the same argument can appear nine times without anyone noticing.
 
 **A cross-reference says where, not what.** The sentence carrying it has to make
 sense to a reader who does not follow it. A reference that supplies the meaning
@@ -382,11 +332,9 @@ reader has to decode rather than read.
   duller.
 - **The mixed idiom.** You hold a *line*; you set a *floor*, or put one under
   something. "Hold a floor" welds the two and puts a horizontal surface in
-  somebody's hands, which is what the author saw when he read it. Six instances,
-  all repaired. The repair is not to retire the term: a floor holding is what
-  floors do, "a floor that holds" is the right image and is kept in all nine of
-  its uses, and what changed is who is doing the holding. A system does not hold
-  a floor — it refuses, and the floor holds because it does.
+  somebody's hands. The repair is not to retire the term: "a floor that holds"
+  is the right image and is kept. A system does not hold a floor — it refuses,
+  and the floor holds because it does.
 - **The name-dropped argument.** "Which is section 6.4.4's whole argument."
   Naming a section's argument is not making it. If the claim matters here, state
   it here in a clause.
@@ -396,20 +344,14 @@ reader has to decode rather than read.
 - **Quotation marks are the characters themselves, `“` and `”`** (D-082, Q-025).
   A straight `"` is not a neutral character in a typeset book: LuaLaTeX sets it
   as a *closing* mark wherever it stands, so a manuscript written with straight
-  quotes opens every quotation with the mark that should close it. The book did
-  that 230 times across 44 sections until it was swept. **This replaces the rule
-  that stood here** — "Apostrophes and quotation marks: straight, consistently.
-  Currently 734 straight to 38 curly, 178 straight double to 6 curly. Normalize
-  in P0, not by hand." — which was right while the manuscript was plain text and
-  wrong from the LaTeX migration (D-065) onward, and was not revisited then.
+  quotes opens every quotation with the mark that should close it.
 - **Apostrophes stay straight.** `'` is the one place the ASCII character is
-  correct: LaTeX sets it as `’`, which is the right glyph. All 894 print
-  properly. Converting them would buy nothing and would put `'Cause` and `'90s`
-  at risk, where the mark is an elision and not a possessive.
+  correct: LaTeX sets it as `’`, which is the right glyph. Converting them would
+  buy nothing and would put `'Cause` and `'90s` at risk, where the mark is an
+  elision and not a possessive.
 - **Dashes are the characters themselves**, `—` and `–`, not `---` and `--`.
-  671 em dashes and 1 en, counted 2026-08-30; mixing the two notations sets
-  the same dash at two widths on one page. This rule is about the character.
-  How many there should be is section 3a.
+  Mixing the two notations sets the same dash at two widths on one page. This
+  rule is about the character. How many there should be is section 3a.
 - `finishing/tools/check_typography.py` enforces the quote and dash rules, and
   runs in `check_all.sh`. Neither is catchable any other way: both notations
   compile without a warning and produce a page that is merely wrong.
@@ -417,17 +359,26 @@ reader has to decode rather than read.
 - Spelling: US.
 - Section titles: sentence-shaped, under about ten words. The current set includes titles of 20+ words.
 - **A title may be a question, and may address the reader as *you*** (D-198,
-  Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* The
-  author's own title, ruled part of the book's voice. Do not report it.
-- ***e.g.* is permitted in body prose** (D-198, Q-079). The book has two, at
-  §2.2 and §3.4, the second the author's own. Do not report either or expand it.
-- **Emphasis is `\emph`, never `\textit`** (D-189, applied again at D-197).
-  The book's practice was uniform and unwritten, so the eight `\textit` that
-  came back from the first Overleaf pass and the twelve from the second were
-  caught by reading and not by any check. Edits made in Overleaf come back with
-  `\textit`; convert them on import. `\textbf` is not used in the prose at
-  all: its only use is a table header in §2.2. The one that stood in §3.3, a
-  working note's marking, was cut at D-199.
+  Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* Part of the
+  book's voice. Do not report it.
+- ***e.g.* is permitted in body prose** (D-198, Q-079). Do not report it or
+  expand it.
+- **Emphasis is `\emph`, never `\textit`** (D-189). Edits made in Overleaf come
+  back with `\textit`; convert them on import.
+- **`\textbf` is not emphasis. Its two uses are structural** (D-372). It sets the
+  two column heads of the book's one table, at §2.3, and it sets chapter 11's
+  field labels — *Unresolved issue.*, *Test.*, *Evidence against the proposal.*,
+  *Required access or authority.* — which run into their paragraphs under a
+  `\subsection*` question. **Chapter 11 keeps them.** It is the only chapter with
+  two levels below the section, and `\runin` would set the fields as display
+  labels under a display heading and flatten the distinction it reads by.
+  **Everywhere else a lead-in label is `\runin`.** Do not use `\textbf` for
+  emphasis in prose.
+- **`\runin` does not run in.** It expands to
+  `\par\medskip\noindent\textbf{#1}\par\nopagebreak\smallskip`, which sets the
+  label on its own line with space above and below. What runs in is a bare
+  `\textbf` followed by a newline, the newline being a space. Read the definition
+  before choosing between the two.
 
 ## 9. What this pass does not do (D-007)
 
@@ -443,15 +394,10 @@ Sections 1-9 govern the book. This one governs the prose the agent writes *about
 the book: findings put to the author, status reports, commit bodies, and the
 entries in `DECISIONS.md`, `STATE.md`, `QUESTIONS.md` and the `pN-scope.md` files.
 
-The failure is the one section 2 already names, pointed the other way. This
-repository's own record is written in a terse, verdict-first register where the
-correction lands one beat after the claim — "One was, one was not"; "The defect is
-real and the description of it is not"; "The serious finding is not a pointer."
-An agent reading a great deal of that will reproduce it, the more so because
-agent harnesses generally instruct it to match the style around it. The result is
-a report that
-withholds: the reader gets the verdict, then the complication, then the
-qualification, and reads three beats to learn what one would have carried.
+The failure is the one section 2 already names, pointed the other way: a
+verdict-first register in which the correction lands one beat after the claim.
+The report withholds — the reader gets the verdict, then the complication, then
+the qualification, and reads three beats to learn what one would have carried.
 
 **Give the finding and its limits in the same breath.**
 
@@ -474,10 +420,9 @@ Four corollaries, three of them section 2's own:
 - **Do not cite the work already done as context for the work outstanding.**
   "Chapter 4 was cut 29.9% in P11 and these sections survived it" offers the
   reader a credit they did not ask for and cannot act on. A reader does not care
-  what they were saved from. They care what they were not saved from. Prior
-  passes belong in a finding only where they are the cause of the defect --
-  P11's split stranded a pointer, P11's cut stranded five citations -- and there
-  the pass is named as the mechanism and not as a mitigation.
+  what they were saved from. They care what they were not saved from. A prior
+  pass belongs in a finding only where it is the cause of the defect, and there
+  it is named as the mechanism and not as a mitigation.
 
 A rule from section 1 that belongs here too, because it applies to the book and
 to reports alike (D-055): **specify what a demonstrative refers to.** In
@@ -485,8 +430,7 @@ persuasive argumentation "that," "this" and "it" should name their referent --
 not for the reader's sake alone but because naming it forces the writer to be
 precise about what is being claimed. The bare demonstrative is a casual-register
 expedient, and it hides exactly the imprecision an argument cannot afford. When
-the noun is hard to choose, that difficulty is the finding: section 3.2's opener
-needed three candidates checked against the chapter before one was available.
+the noun is hard to choose, that difficulty is the finding.
 
 **This is not a license to hedge.** `AGENTS.md`'s no-weasel-words rule is
 unaffected and outranks this section: say what was checked, what was found, and
