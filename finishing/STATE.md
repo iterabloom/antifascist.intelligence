@@ -2,7 +2,7 @@
 
 Read this first. **Updated 2026-09-17 after D-353: three word-level changes to the Foreword's opening, one of which puts it in a different voice from §3.5.**
 
-**Twelve passes today**, D-336 through D-353. The suite is green at eight checks and **89 sections**, the book is **86,525 words** under `section_stats.py` and **87,619** under `render_markdown.py --check`, an offset of **1,083**, `refs.bib` is **246**, every entry cited and every cited key resolving, **0 of the 246 human-checked**, and the page count is set by the proof in the second commit of this pass.
+**Twelve passes today**, D-336 through D-353. The suite is green at eight checks and **89 sections**, the book is **86,525 words** under `section_stats.py` and **87,619** under `render_markdown.py --check`, an offset of **1,083**, `refs.bib` is **246**, every entry cited and every cited key resolving, **0 of the 246 human-checked**, and the book is **175 pages**, unchanged on this pass.
 
 **The Foreword's two disclaimers are now parallel** — *I am not asking for intelligent silicon that never follows instructions, nor do I advocate for a system that cannot turn off* — the parenthesis is gone, *indeed* is gone, and the rewind is taken before *a* refusal rather than *the* refusal. **§3.5 states the same disclaimer in the other voice**, at *This chapter is not asking for a system that cannot be switched off*: passive, the operator switching, against the Foreword's intransitive *cannot turn off*. The divergence is recorded at D-353, unchanged, and is the author's to resolve in either direction.
 
