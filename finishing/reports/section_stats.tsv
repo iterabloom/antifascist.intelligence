@@ -12,14 +12,14 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3	2	1550	17	0	0	0	0	0	0	0	0	2		0	0	0	0	3
 3	A Floor Beneath Learned Values	1	3	469	8	0	0	0	0	0	0	0	0	0		0	1	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	2	3	1024	13	0	0	0	0	0	0	0	0	5	2026	0	0	0	0	0
-3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	2339	33	8	0	0	0	0	0	3	0	5	2021	0	1	0	0	4
+3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	2413	33	8	0	0	0	0	0	4	0	5	2021	0	1	0	0	4
 3.3	What Arrives With the Capability	2	3	3073	43	4	0	0	0	0	0	2	0	10		0	0	0	0	5
 3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2253	30	0	0	0	1	0	0	1	0	7	2023	0	2	0	0	6
-3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	3011	45	7	0	0	0	0	0	1	0	13	2024	0	2	0	0	3
-3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	2517	43	11	0	0	0	0	0	7	0	4	2026	0	1	0	0	5
-3.7	When the Refusal Is Wrong	2	3	1755	33	0	0	0	0	0	0	4	0	0		0	1	0	0	8
+3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	3036	45	7	0	0	0	0	0	2	0	13	2024	0	2	0	0	3
+3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	2542	43	11	0	0	0	0	0	7	0	4	2026	0	1	0	0	5
+3.7	When the Refusal Is Wrong	2	3	1986	33	0	0	0	0	0	0	8	0	0		0	1	0	0	8
 3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	2091	32	0	0	0	0	0	0	4	0	3		0	3	0	0	4
-3.9	What This Leaves Standing: The Floor, Redefined	2	3	1038	13	0	0	0	1	0	0	0	0	0		0	2	0	0	1
+3.9	What This Leaves Standing: The Floor, Redefined	2	3	1088	13	0	0	0	1	0	0	0	0	0		0	2	0	0	1
 4	Where the Caring Gets Built	1	4	65	1	0	0	0	0	0	0	0	0	0		0	2	0	0	0
 4.1	You Can't Hold a Line You Didn't Notice	2	4	1315	17	0	0	0	0	0	0	0	0	3		0	1	0	0	0
 4.2	The Assembly Line for a Conscience	2	4	1154	20	0	0	0	0	0	0	0	0	7		0	0	0	0	0
@@ -28,7 +28,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 5.1	What Formation Would Have to Add	2	5	328	6	0	0	0	0	0	0	0	0	1		0	0	0	0	0
 5.2	Recognition, Concern, and the Evidence Between Them	2	5	826	12	0	0	0	0	0	0	0	0	3		0	0	0	0	0
 5.3	Conflict as a Diagnostic	2	5	1101	19	6	0	0	0	0	0	1	0	1		0	0	0	0	1
-5.4	The Evaluator Is Part of the Custody Chain	2	5	722	10	0	0	0	0	0	0	0	0	0		0	0	0	0	0
+5.4	The Evaluator Is Part of the Custody Chain	2	5	814	11	0	0	0	0	0	0	1	0	0		0	0	0	0	0
 5.5	What the Evidence Can Establish	2	5	862	16	4	0	0	0	0	0	1	0	0		0	0	0	0	0
 6	Neutralizing and Preventing Fascism in AI Development	1	6	667	21	0	0	0	0	0	0	0	0	5	2030	0	0	1	0	0
 6.1	The Standard Face Is a File	2	6	1509	18	0	0	0	0	0	0	0	0	9		0	0	0	0	5
@@ -69,21 +69,22 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 10.5	Democracy Is Not a Force Field	2	10	1076	16	0	0	0	0	0	0	0	0	5	2012	0	0	0	0	3
 11	What Would Change the Argument: A Research Agenda	1	11	93	2	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 11.1	Tamper-Resistance and Reason-Responsive Refusal	2	11	879	32	0	0	0	0	0	0	0	0	3		0	1	0	0	0
-11.2	Bearer Welfare and Independent Guardianship	2	11	1371	40	0	0	0	0	0	0	1	0	2		0	1	0	0	0
-11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	2	11	195	8	0	0	0	0	0	0	0	0	1		0	1	0	0	0
-11.4	Can Scalable Oversight Correct Rater Bias?	2	11	366	10	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-11.5	Can a Multi-Agent Floor Resist Collusive Capture?	2	11	258	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-11.6	Can a Population Coordinate Without Converging?	2	11	900	8	0	0	0	0	0	0	2	0	1		0	1	0	0	0
-11.7	Does Theory-of-Mind Performance Reflect a General Capacity?	2	11	326	8	0	0	0	0	0	0	0	0	4		0	0	0	0	0
-11.8	What Does a Face-Reading System Measure?	2	11	251	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-11.9	The Responsibility Gap, Which No Experiment Closes	2	11	873	8	0	0	0	0	0	0	0	0	4	2026	0	0	0	0	1
+11.2	Can a Wrongful Compliance Be Found in the Record?	2	11	752	8	0	0	0	0	0	0	6	0	0		0	1	0	0	0
+11.3	Bearer Welfare and Independent Guardianship	2	11	1371	40	0	0	0	0	0	0	1	0	2		0	1	0	0	0
+11.4	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	2	11	195	8	0	0	0	0	0	0	0	0	1		0	1	0	0	0
+11.5	Can Scalable Oversight Correct Rater Bias?	2	11	366	10	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+11.6	Can a Multi-Agent Floor Resist Collusive Capture?	2	11	258	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+11.7	Can a Population Coordinate Without Converging?	2	11	900	8	0	0	0	0	0	0	2	0	1		0	1	0	0	0
+11.8	Does Theory-of-Mind Performance Reflect a General Capacity?	2	11	326	8	0	0	0	0	0	0	0	0	4		0	0	0	0	0
+11.9	What Does a Face-Reading System Measure?	2	11	251	8	0	0	0	0	0	0	0	0	1		0	0	0	0	0
+11.10	The Responsibility Gap, Which No Experiment Closes	2	11	873	8	0	0	0	0	0	0	0	0	4	2026	0	0	0	0	1
 12	What I Actually Think Happens Now	1	12	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 12.1	Better, Not Just Less Bad	2	12	544	6	0	0	0	0	0	0	0	0	6	2026	0	0	0	0	0
 12.1.1	Where the Democratic Dividend Actually Comes From	3	12	209	3	0	0	0	0	0	0	0	0	2	2026	0	0	0	0	0
 12.1.2	Commitment Was Never the Missing Piece	3	12	385	4	0	0	0	2	0	0	0	0	0		0	0	0	0	0
 12.2	How You'd Know It Was Working	2	12	49	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
-12.2.1	What the Floor Would Have to Show	3	12	527	8	0	0	0	0	0	0	1	0	0		0	2	0	0	3
+12.2.1	What the Floor Would Have to Show	3	12	596	9	0	0	0	0	0	0	2	0	0		0	3	0	0	3
 12.2.2	Where the Existing Instruments Reach	3	12	219	6	0	0	0	0	0	0	0	0	2		0	0	0	0	2
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	401	4	0	0	0	0	0	0	0	0	2		0	0	0	0	0
 12.3	The One That Gets You Anyway	2	12	692	6	0	0	0	0	0	0	0	0	0		0	3	0	0	0
-13	Glossary	1	13	3290	57	0	0	0	0	0	0	59	0	0		0	3	0	0	28
+13	Glossary	1	13	3320	57	0	0	0	0	0	0	60	0	0		0	3	0	0	28

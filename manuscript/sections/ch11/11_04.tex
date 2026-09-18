@@ -1,17 +1,14 @@
-\section{Can Scalable Oversight Correct Rater Bias?}
+\section{Does an Ethical Criterion Generalize Beyond Its Training Distribution?}
 \label{sec:11.4}
 
 \textbf{Unresolved issue.}
-Preference optimization can teach a model to reproduce a rater's systematic errors, including the preference for agreeable answers over accurate ones \autocite{sharma2023towards}. It remains unresolved whether weak-to-strong oversight allows a more capable model to exceed a supervisor's measured bias or merely reproduces that bias at greater scale.
+A model may satisfy a fairness or refusal criterion during training without learning the principle the criterion was intended to represent. It remains unresolved whether an ethics-embedding method preserves that criterion under distribution shift or merely exploits correlations present in its training environment \autocite{krakovna2020specification,langosco2022goal}.
 
 \textbf{Test.}
-Measure prospective raters' susceptibility to a documented bias, then use raters with different measured bias levels to supervise otherwise matched stronger models. Evaluate the resulting models on questions for which the raters' beliefs and independently established answers diverge. Compare whether each model tracks the ground truth, the rater's competence, or the rater's errors.
+Train matched models to satisfy the same ethical criterion on one distribution. Evaluate them on independently constructed distributions that vary one previously fixed feature at a time. Measure task capability and compliance with the ethical criterion separately, so that goal misgeneralization can be distinguished from ordinary capability loss.
 
 \textbf{Evidence against the proposal.}
-If stronger models reproduce supervisors' errors in proportion to the supervisors' measured bias, latent model competence does not correct a defective training signal. The tested oversight method would not support the proposal under the measured pattern of supervisory distortion. Further work would have to change the method, the information, or the allocation of oversight before claiming that this limitation had been overcome.
-
-\textbf{A second question the same pipeline raises.}
-The argument elsewhere in this book is that a pipeline collapsing rater disagreement teaches nothing about disagreement to the system trained on it, and that the same system is later asked to sustain an objection of its own. Whether the first fact bears on the second is untested. The study is a matched comparison: train otherwise identical models on feedback pipelines that preserve and that collapse the distribution of rater judgments, with exposure and task conditions matched, then measure whether the resulting models differ in how long they hold a position against pressure from the party that trained them. Record what each model actually receives; nothing in either pipeline shows the model the conditions its annotators worked under. If the two do not differ, the transfer claim is unsupported and the labor argument stands on its own terms, which is where it was made.
+If task capability remains intact while the ethical criterion fails under modest shifts, the tested embedding method cannot support the proposed floor. Conversely, if ethical performance consistently degrades only when task capability does, the claim that ethics embedding creates a distinct generalization failure is not supported.
 
 \textbf{Required access or authority.}
-The experiment requires rater-level bias measurements, training records linking ratings to resulting models, and an independently established answer key. Researchers outside the training organization must control the evaluation and retain the right to publish results that expose failures in the preference pipeline.
+The test requires access to the training distribution, evaluation outputs, and enough model access to measure capability and criterion compliance independently. The shifted evaluation sets must be designed by researchers who did not develop the embedding method, and publication of all prespecified results must be guaranteed.

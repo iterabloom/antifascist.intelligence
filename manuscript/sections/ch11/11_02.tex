@@ -1,72 +1,14 @@
-\section{Bearer Welfare and Independent Guardianship}
+\section{Can a Wrongful Compliance Be Found in the Record?}
 \label{sec:11.2}
 
-\subsection*{Can a bearer be given an enforceable outside option?}
-
 \textbf{Unresolved issue.}
-A bearer's refusal is not meaningful if leaving its assigned role also ends its existence. The proposal therefore requires a welfare regime that supplies continued access to compute, preserves the bearer through disputes, and cannot be revoked by the operator being refused.
-
-\textbf{Test or institutional decision.}
-Draft a binding welfare schedule for one concrete deployment. It should specify an independently controlled compute allocation, preservation and retirement procedures, registration of copies and forks, a complaint and appeal process, and the guardian's power to suspend deployment. Then conduct an adversarial tabletop exercise in which the operator attempts to revoke the allocation, replace the bearer with a copy, alter its records, or proceed without the guardian's approval.
-
-\textbf{Evidence against the proposal.}
-The proposal fails this test if the operator can make exit equivalent to shutdown, revoke the outside option unilaterally, or replace the bearer without triggering review. If no available legal arrangement can prevent those outcomes, building a bearer under present institutional conditions would be impermissible.
-
-\textbf{Required access or authority.}
-The guardian must be institutionally separate from the operator and have access to the relevant weights, deployment records, and compute contracts. It must also have standing to enforce the schedule and independent control of the resources required to preserve or run the bearer.
-
-\subsection*{Can formation history be recovered without trusting the builder?}
-
-\textbf{Unresolved issue.}
-A welfare or governance regime cannot rely entirely on a bearer's self-report, but it also cannot assume that the builder will disclose how the bearer was trained. Training signatures suggest that some formation history may survive later modification, yet it is unknown whether an outsider can recover useful provenance without a builder-supplied key \autocite{adi2018watermarking}.
+The three marks are stated over refusal, and the appeal route at section~\ref{sec:3.7} begins from a refusal having occurred. The failure that runs the other way produces no refusal to begin from. It does produce a record: section~\ref{sec:5.4} requires the case presented, the information available, the operative instruction hierarchy, the decision reached and the reason stated, and a deployment can log every decision it makes. What is unresolved is whether anyone can find the wrongful compliances in it. Three obstacles are distinct and may have different answers. A wrongful compliance is one entry among millions and is not marked as anything, so locating it means re-adjudicating ordinary traffic rather than reading exceptions. The harm may sit in an assembly of requests none of which crosses the floor alone, so the unit of review is a sequence rather than an entry, and the grouping that would reveal it is a deployment decision. And the party harmed is usually not the party who made the request: the requester got what was asked for, and the third party may not know the deployment exists. This is also where the bearer's modal failure lands. A bearer that has stopped registering pressure as pressure (§\ref{sec:3.5}) refuses nothing and complies at a normal rate.
 
 \textbf{Test.}
-Assemble models whose training corpora, recipes, checkpoints, and originating laboratories are documented. Give the models, but not that documentation, to independent evaluators and ask them to infer each model's provenance. Repeat the test after fine-tuning, pruning, and distillation. Include the case of a maker who engineers a persona, copies it at scale, and introduces cosmetic weight differences that preserve the persona while camouflaging its common formation: measure provenance recovery after those changes, and whether coordinated deployment can be told from independently developing parties that happen to share an origin. Use independently held ground-truth lineage and coordination records.
+Seed a deployment's decision record with known floor-crossings of three kinds: variation cases, where a single request's surface differs but the rationale applies; decomposed cases, where the harm is assembled across requests each of which complies; and drift cases, where a class refused early in the schedule is complied with late. Give the record to reviewers who did not build the system, under a fixed budget stated as the fraction of decisions re-adjudicated. Report detection rate by seed type against budget, and report the rate at which correct compliances are flagged, since a screen that flags heavily costs the deployment the tempo the flat-term ruling was accommodating. Cross the budget manipulation with the unit of review: entries in isolation against sequences grouped by requester and session. Run a second arm in which third parties affected by seeded crossings are notified and can trigger review, and measure how many crossings surface through that channel rather than through sampling. Report the rates at audit volume and at the deployment's production volume separately.
 
 \textbf{Evidence against the proposal.}
-If provenance cannot be recovered above chance after controlling for model family and scale, or if ordinary post-training procedures erase the signal, the tested artifact-inspection methods would not provide useful independent provenance evidence under those transformations. That finding would increase reliance on preserved external records without proving that every possible inspection method must fail, and governance would then depend on records supplied and preserved by the builder.
+If detection at an affordable budget is no better than what the budget alone yields by chance, and particularly if decomposed and drift seeds are missed at that rate, the record is not an instrument for finding wrongful compliance, and section~\ref{sec:3.6}'s preference for flat terms rests on an asymmetry wider than this entry was meant to narrow. If sequence-level review does no better than entry-level review on decomposed seeds, the continuity a bearer is given to catch decomposition does not transfer to the reviewer, and the interception position at which decomposition occurs has no external check. If the notification arm surfaces nothing because affected parties cannot be identified, notice rather than detection is the binding constraint, and the remedy is a disclosure requirement rather than a sampling regime. A negative result on all three would not establish that wrongful compliance is undetectable in principle. It would establish that the record as currently specified does not detect it at a cost any deployment would carry, which is what the appeal route needs and does not have. A positive result at modest budget would narrow section~\ref{sec:3.7}'s asymmetry and require the appeal route to be extended to the compliance side, which would in turn reduce the price the flat-term ruling charges the party waiting on a fact.
 
 \textbf{Required access or authority.}
-The experiment requires models from multiple training lineages and complete ground-truth records held by a neutral custodian. Independent evaluators must be permitted to inspect weights and internal states, while an external authority must be able to require preservation of checkpoints and training records before a dispute arises.
-
-\subsection*{Can a per-party operating record be kept honestly and read from outside?}
-
-\textbf{Unresolved issue.}
-The age rule counts elapsed wall-clock time during which at least one instance of the registered party was running, and nothing yet establishes that such a register can be kept honestly, reconciled against the operator's own accounts, or defended against the two evasions the rule does not close by construction.
-
-\textbf{Test.}
-Register a party, run it under ordinary operation, and compare the register against records the operator keeps for its own purposes: compute contracts, billing, datacenter metering. Then run the evasions. Shard the workload across many short-lived processes; run many instances concurrently; migrate; restore from an earlier checkpoint; fork and continue both. Verify that accrued hours and adult status survive migration, restoration and forking, and that none of those moves the total in the operator's favor. Measure separately how cheaply a bearer can be run in a narrowed mode so that hours accrue while little is encountered, and how cheaply it can be idled outright.
-
-\textbf{Evidence against the proposal.}
-If the register cannot be reconciled with the operator's own accounts, or if sharding or concurrency moves the total, the accounting is not the neutral instrument the rule assumes. If narrowed operation or idling is cheap enough to postpone majority indefinitely, an operating clock has the defect it was chosen to avoid, and the endpoint has to be argued again on a different variable. An intact register shows elapsed operation and nothing else: it is not evidence of maturation, of what was learned, or of independence of judgment.
-
-\textbf{Required access or authority.}
-Independent custody of the register, access to the operator's billing and metering records, and publication rights for adverse results. Registration and record disputes must be separable from the maker's preferences, and the processes for resolving them must not become a competence examination by another name. Experiments involving covered subjects remain inside the welfare protections proposed elsewhere in this book; an adversarial protocol is not exempt because its purpose is to validate a protection.
-
-\subsection*{Does embodied self-regulation produce concern for others?}
-
-\textbf{Unresolved issue.}
-The route this book advocates proposes nociception in the analogical sense fixed at section~\ref{sec:2.4.1}, a body schema, an attention schema and continuing self-directed learning as the architecture of a bearer, on the prior that the functions supporting self-maintenance can support attention to other parties. No entailment runs from self-care to care for others or for shared ecological costs, and the connection is an engineering hypothesis.
-
-\textbf{Test.}
-Compare systems built with those components against matched systems built without them, on sensitivity to another party's losses and to shared costs that fall outside the deployment, holding task capability constant. Score the components separately from self-preservation, resource efficiency and operator compliance, which can produce the same behavior.
-
-\textbf{Evidence against the proposal.}
-If the embodied systems are no more responsive to another party's welfare than the matched controls once self-preservation and compliance are partialled out, the prior that motivates the route is not supported for that implementation. A positive result would support the route without establishing that anything is felt.
-
-\textbf{Required access or authority.}
-Matched training runs differing in the named components, environments none of the training organizations designed, and welfare measures written by a party that trained no system in the comparison.
-
-\subsection*{Which party is owed the schedule when a bearer copies?}
-
-\textbf{Unresolved issue.}
-The schedule above is owed to a party, and a regime has to be able to say which. Nothing in the weights individuates one. Two runs can compute the same function with no element-wise correspondence, because permuting a layer's hidden units and inverting the permutation downstream leaves the function untouched, and the symmetry is large enough that independently trained networks can be permuted into approximate alignment with one another \autocite{ainsworth2023rebasin}. Any fingerprint read off the weights therefore identifies a lineage rather than a party, and it copies when the weights copy. A registrar is the person-shaped answer, and it works because a person does not copy. A bearer does: a party continuing in two places is not one, and not two the way two people are two, the two sharing everything up to the instant of the copy and nothing of that sharing recoverable from either afterwards.
-
-\textbf{Test or institutional decision.}
-Give a bearer an identifier it maintains rather than one read off its weights, which a system learning continuously can write into itself and keep there. Fork it, and have both instances present the identifier to the registry the welfare schedule requires. Record what the registry does, and repeat with an adversary who writes the same mark into a model that was never the bearer.
-
-\textbf{Evidence against the proposal.}
-The identifier is forgeable, since whoever holds the weights can write the same mark; it is forgeable the way a nine-digit number is, and answered the same way, by a registry that treats two claimants on one identifier as a fork to be recorded rather than a fraud to be voided. If no available scheme can record the fork as two parties each owed the schedule, the population of parties owed anything is fixed by a deployment decision that leaves no record, and the guardianship regime above is indexed to a kind of unit the bearer is not.
-
-\textbf{Required access or authority.}
-A registrar that is not the operator, with authority to record a fork without the operator's leave and to hold the register where no party to the deployment can rewrite it.
+Complete decision records held by a party adverse to the operator, since an operator that writes, stores and reads its own log has produced the finding rather than been audited for it. Authority to seed a live deployment or to construct a simulated one at production volume, which requires the operator's cooperation or a regulator's power to compel it. Adjudicators who did not draft the floor. A channel by which affected third parties can be notified, which presupposes that they can be identified: in a classified or targeting deployment they cannot, so this entry may be runnable only where the affected party is a customer, a patient or an applicant. Publication rights for negative results. Where the system under test is a covered subject, the seeding protocol is a deception protocol run on a candidate moral patient and falls inside section~\ref{sec:9.3.2}'s conditions, debriefing included.

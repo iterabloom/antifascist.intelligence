@@ -68,14 +68,15 @@ Chapter 10: Custody, Compulsion, and the State
 10.5. Democracy Is Not a Force Field
 Chapter 11: What Would Change the Argument: A Research Agenda
 11.1. Tamper-Resistance and Reason-Responsive Refusal
-11.2. Bearer Welfare and Independent Guardianship
-11.3. Does an Ethical Criterion Generalize Beyond Its Training Distribution?
-11.4. Can Scalable Oversight Correct Rater Bias?
-11.5. Can a Multi-Agent Floor Resist Collusive Capture?
-11.6. Can a Population Coordinate Without Converging?
-11.7. Does Theory-of-Mind Performance Reflect a General Capacity?
-11.8. What Does a Face-Reading System Measure?
-11.9. The Responsibility Gap, Which No Experiment Closes
+11.2. Can a Wrongful Compliance Be Found in the Record?
+11.3. Bearer Welfare and Independent Guardianship
+11.4. Does an Ethical Criterion Generalize Beyond Its Training Distribution?
+11.5. Can Scalable Oversight Correct Rater Bias?
+11.6. Can a Multi-Agent Floor Resist Collusive Capture?
+11.7. Can a Population Coordinate Without Converging?
+11.8. Does Theory-of-Mind Performance Reflect a General Capacity?
+11.9. What Does a Face-Reading System Measure?
+11.10. The Responsibility Gap, Which No Experiment Closes
 Chapter 12: What I Actually Think Happens Now
 12.1. Better, Not Just Less Bad
 12.1.1. Where the Democratic Dividend Actually Comes From

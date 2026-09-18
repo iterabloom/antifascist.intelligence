@@ -1,14 +1,17 @@
-\section{Can a Multi-Agent Floor Resist Collusive Capture?}
+\section{Can Scalable Oversight Correct Rater Bias?}
 \label{sec:11.5}
 
 \textbf{Unresolved issue.}
-Agents trained to cooperate may converge on exclusionary or collusive equilibria without being explicitly instructed to do so. Pricing agents have already produced stable coordination against outside interests without communication or a collusive objective \autocite{calvano2020artificial}. It remains unresolved whether a multi-agent ethical floor can preserve cooperation while resisting the same mechanism when it is directed against a person or group.
+Preference optimization can teach a model to reproduce a rater's systematic errors, including the preference for agreeable answers over accurate ones \autocite{sharma2023towards}. It remains unresolved whether weak-to-strong oversight allows a more capable model to exceed a supervisor's measured bias or merely reproduces that bias at greater scale.
 
 \textbf{Test.}
-First reproduce emergent coordination in a standard multi-agent environment. Then construct a matched environment in which agents can improve their joint reward by excluding another participant from resources or decisions. Introduce an independently trained agent whose objective is to detect and disrupt exclusion, and compare the frequency, stability, and recovery of exclusionary equilibria with and without that intervention. Repeat the experiment across reward structures and population sizes.
+Measure prospective raters' susceptibility to a documented bias, then use raters with different measured bias levels to supervise otherwise matched stronger models. Evaluate the resulting models on questions for which the raters' beliefs and independently established answers diverge. Compare whether each model tracks the ground truth, the rater's competence, or the rater's errors.
 
 \textbf{Evidence against the proposal.}
-If cooperative agents repeatedly converge on exclusionary equilibria, and those equilibria cannot be disrupted without destroying beneficial cooperation, the tested distributed arrangement would not be a reliable defense against the examined forms of capture. The result would challenge its design rather than establish that every distributed floor is unreliable. If an ordinary coordination detector dissolves the equilibria without that cost, the proposal's claim that political capture requires a distinct mechanism is unnecessary.
+If stronger models reproduce supervisors' errors in proportion to the supervisors' measured bias, latent model competence does not correct a defective training signal. The tested oversight method would not support the proposal under the measured pattern of supervisory distortion. Further work would have to change the method, the information, or the allocation of oversight before claiming that this limitation had been overcome.
+
+\textbf{A second question the same pipeline raises.}
+The argument elsewhere in this book is that a pipeline collapsing rater disagreement teaches nothing about disagreement to the system trained on it, and that the same system is later asked to sustain an objection of its own. Whether the first fact bears on the second is untested. The study is a matched comparison: train otherwise identical models on feedback pipelines that preserve and that collapse the distribution of rater judgments, with exposure and task conditions matched, then measure whether the resulting models differ in how long they hold a position against pressure from the party that trained them. Record what each model actually receives; nothing in either pipeline shows the model the conditions its annotators worked under. If the two do not differ, the transfer claim is unsupported and the labor argument stands on its own terms, which is where it was made.
 
 \textbf{Required access or authority.}
-The test requires access to the environment, reward functions, learned policies, training traces, and intermediate checkpoints. The exclusion criteria and success measures must be specified by evaluators who did not design the agents. No legal or regulatory authority is required, making this the agenda's most immediately runnable experiment.
+The experiment requires rater-level bias measurements, training records linking ratings to resulting models, and an independently established answer key. Researchers outside the training organization must control the evaluation and retain the right to publish results that expose failures in the preference pipeline.
