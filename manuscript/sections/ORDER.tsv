@@ -13,20 +13,20 @@ manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardi
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	f03df732abd0cd3d2e388d4173c7a75610d642ec89f311d6cc1de5f80fcaaa74
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	704f5d2a16db5cd70b487e80370990dbd5ede95a5f0916c2027569fd869998af
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	25c163a6d6b151b50108c6eeee0171958cd03a89562d9290a062e5393192d23f
-manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	af49998cc2bd1a16a7bbe3517ef1e6bd1b2ef54123d42f38404db8432c69e1f9
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	d13e3e670e2568993b4c5828a3b628507f54f9e75d6f83c158806345c74dac0f
-manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	150d2a0cccf8c1f4c7ee26b139c587fca385f082243c288bcb755a42538fb770
+manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	4e2575c872ebcc5ffc0c9bffe84b08bfbb3ce45b90228c69b3ead46a8ee8fdbd
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	4113345a747276c5cb5900cf7904acd184ed2738280c078ee3b35ebe15bcab39
+manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	9d986da1edbeb9bee040f46b16751fcc5fe57b9e16332117b8a3f17fbd0df5ad
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	4d0fc5e830c143a2023f7cd5d0440a87829bc042115a09b5b2a2a5619dca66ed
-manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	951af6c01474150f27ccb58febed4fec6282538d05e080da329f6ac6f1f1e559
+manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	7fb1b45199b919202ee7ab20d3d39bd0d168185b64c90609ea39ae8dd79ece59
 manuscript/sections/ch03/03_08.tex	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	246cdbaafef8c0bcc28f3a71c3d2ca4ab89d7a6cacaad7e7fe49fb2d4c174bdd
 manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	84e9906b721da54385e2b25b2340464b12f2b3fbe8c627ffa3fbb96ade4857b3
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	2267b5cfb0eec4d1604410c44526d61ddbe56ded3e85d60b48d76fcce006e937
-manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	0b6a2c9554287a3c4a4125d156eadae502266359e3e8465ca0ed8ecd7ad80e82
+manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	ba44b453ff308c97118091e7905c1919535ca0d39c2cb0521cc3bb3dc256e411
 manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	a5563d3696f88d4909748047751dcb5d446a8e718c2fd3a856f51f05f0bfe98e
-manuscript/sections/ch04/04_03.tex	4.3	It Takes a Village to Deploy a Self-Aware Email Server	f142bb543a8a0c9e1b4f12e000852e3849aa7160250ad559608318fa30204d54
+manuscript/sections/ch04/04_03.tex	4.3	It Takes a Village to Deploy a Self-Aware Email Server	916d40c48732aa44a00b8c8e3707c93b1961fe5bcd47dda7468b8ebd574527b6
 manuscript/sections/ch05/05.tex	5	Formation or Imitation?	8f2e5ffecb1d19aed8e4a5ddcaa866c255258b67d56d25965d0282da09227a3b
 manuscript/sections/ch05/05_01.tex	5.1	What Formation Would Have to Add	a650d5605b31937f13ce809af240e57368f80f76669153c297d91b24be9e6a5b
-manuscript/sections/ch05/05_02.tex	5.2	Recognition, Concern, and the Evidence Between Them	37e29bff580029328e998139316dc75a59315eda0444490d11fc7e40d48ef42d
+manuscript/sections/ch05/05_02.tex	5.2	Recognition, Concern, and the Evidence Between Them	ee190a609785c3b646606a86e767a88c5e4f83aeacaaada5cc74ac3f61205c4e
 manuscript/sections/ch05/05_03.tex	5.3	Conflict as a Diagnostic	794bc38f12bba71af415949f2066306259bf54897056ebd1fadb04b995db0e3c
 manuscript/sections/ch05/05_04.tex	5.4	The Evaluator Is Part of the Custody Chain	1c0b7ed44b578e631067f5bc5e8431b9733da0475f2a092166f843fd66f4d806
 manuscript/sections/ch05/05_05.tex	5.5	What the Evidence Can Establish	f30d8975882a14a3c689b2fe81cb2479f06bbd4f0448febc0904afee159373ed
@@ -70,7 +70,7 @@ manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	46bd9c97e
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
 manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	6502aef328a9bf00421a9e69a2eb4fbde86a90c434cdb28ed33f5aa65d795d72
 manuscript/sections/ch11/11_02.tex	11.2	Can a Wrongful Compliance Be Found in the Record?	1391e7b5d5317504c17372012b5718aa31f11d3be0f15d60b62504596201f1a8
-manuscript/sections/ch11/11_03.tex	11.3	Bearer Welfare and Independent Guardianship	df5caee170794661e6e02f7657234ec7786e26071f53cd01b6499c9ab3301bc5
+manuscript/sections/ch11/11_03.tex	11.3	Bearer Welfare and Independent Guardianship	0c99d6c6ed3b33b84b680c358b134a4b5549228ed24b16a25fa67b2edd792656
 manuscript/sections/ch11/11_04.tex	11.4	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	dd8e67a869c10849efd698c28ba71a88a9d69b65f6f9f0a32fa313c09309270b
 manuscript/sections/ch11/11_05.tex	11.5	Can Scalable Oversight Correct Rater Bias?	6ed9eaa3ea7235a25fdaf7ab36cf7d3b7cb0368bd5badee40c48cb2d2f37c21e
 manuscript/sections/ch11/11_06.tex	11.6	Can a Multi-Agent Floor Resist Collusive Capture?	d9cd175a7d23fe8be942acd1c9d4c778bcad0444f9efe87c9f2d43f5333ed27b
