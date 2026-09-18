@@ -8,7 +8,7 @@ manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	b88e22024e
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	33a199410902892071a3c121a742309073c6591dd4d9e79d771d773702d831e2
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	53087dcebc7ba491ff0b240a9325cdf79fd0c3fe5e584fd945c04798050ab02d
 manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	033e5d6fb0a45742544326c34c6ee83447bdbbcaf94cc327fb2a7fd77ec71d72
-manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	313830b0990671aa7f9fb87e5a9268b3aaedd5c9376a2f1b2cac4d88ecccf641
+manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	09df83d529dda3a9948824071b7b5f29ff7d9b902fd336832c280fba4db835fd
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	f03df732abd0cd3d2e388d4173c7a75610d642ec89f311d6cc1de5f80fcaaa74
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	704f5d2a16db5cd70b487e80370990dbd5ede95a5f0916c2027569fd869998af
@@ -57,7 +57,7 @@ manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI
 manuscript/sections/ch09/09_02.tex	9.2	Privacy	8755b6f2f8a264758541ada678a9ec282d2aaa34b4a121ac5b54b861d31d94cd
 manuscript/sections/ch09/09_03.tex	9.3	What Makes Review Binding?	5f1d5ca9e22b607b2d7479db9d404f374b3d2b6e4385f3cd01461e85535a2453
 manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	fbce1598a9a78ef0c2091b0c93a11c61f0ed933aa4d93649558fbb547ce8955f
-manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	60b6baff3c6cf49cccb84b783385bef1cd3bcb4c280783d5dfa8766af8f16930
+manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	f1059755e2de05710d3dcef2c3fc5ceaa0a22e5b03896317f0265ea3fc623437
 manuscript/sections/ch09/09_03_03.tex	9.3.3	What Standing Binds in Practice	f0ccdd10931a2d9a58639d9554dbef2d836a35357332e4b9d46001edbc1fc402
 manuscript/sections/ch09/09_03_04.tex	9.3.4	Making Review Binding	09d9767b2d2dabdc167202112d8975a6e1d852f1e0f208ce2c54210c1bc5d8ea
 manuscript/sections/ch09/09_03_05.tex	9.3.5	How Review Is Captured Without Being Abolished	8b1134517f10659b08342d516ca17569c0ead2dc698480ee8b94020769dd030c
@@ -69,7 +69,7 @@ manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the
 manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	aafdbffdccfd8cad328eb9e2a98dad7d1b5099ce546d880d76b2e4fd056c506e
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
 manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	6502aef328a9bf00421a9e69a2eb4fbde86a90c434cdb28ed33f5aa65d795d72
-manuscript/sections/ch11/11_02.tex	11.2	Bearer Welfare and Independent Guardianship	418ea73a0279cc5e72311e328feb629de494cac16596919cc328235b9aaf02ea
+manuscript/sections/ch11/11_02.tex	11.2	Bearer Welfare and Independent Guardianship	aa624060737a79cfb0a437f0d050535b4e9e2b58e1faf5bae4554ca5085798a5
 manuscript/sections/ch11/11_03.tex	11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	0ab8afcd5f23447f2398d57782a36f24434006921ab7fc0ca71b0070e616c2e2
 manuscript/sections/ch11/11_04.tex	11.4	Can Scalable Oversight Correct Rater Bias?	fa20a019c64c32f6b6428bf8d0ab1e729959af32bd47c42f9df0e1ed0b18fea5
 manuscript/sections/ch11/11_05.tex	11.5	Can a Multi-Agent Floor Resist Collusive Capture?	30fa7fd4ca3186e10e94d41d2dcb48ddb5c5873c08437c06be21d9930708bc40
@@ -86,4 +86,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	a
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	2db3b6856b2cd6f7215723cabe4dab837de3b78d3c66247695f2341513ef97fa
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	d691397c37a38d7668364a8a06309242f46def52b13a855684634fbc85bf04b0
-manuscript/sections/ch13/13.tex	13	Glossary	883f7788e870a1cac6caa31e0fcd9ec47472d73aeb2ba5e4f985fa67e205e88a
+manuscript/sections/ch13/13.tex	13	Glossary	052ecb0c5a9caddd83fd43800b7109ca1e7dc3de3a3db25320d08e69c860b2d3
