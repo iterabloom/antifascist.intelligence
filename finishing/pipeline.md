@@ -291,9 +291,21 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    twice in between, both times looking only for what the build had just
    changed. **The rule is one live proof-status sentence in the lead. Where
    there are two naming different pairs or different page counts, the older is
-   false** — `grep -c 'pair is current' ` on the live lead answers it, and
-   the live lead is everything above the first `**Superseded lead, kept for the
-   record.**`, about four percent of the file.
+   false** — but **the grep that answers it has to be anchored, and the
+   sentence you are reading is why.** The live lead is everything above the
+   first `**Superseded lead, kept for the record.**` *at the start of a line*:
+   `grep -n '^\*\*Superseded lead'` gives it — line 83 of `STATE.md` at D-405,
+   56,056 characters, 4.4 percent of the file. **Run the command rather than
+   trusting a figure written into the lead**, which cannot survive the
+   paragraph that reports it: every figure D-404 and D-405 recorded for this
+   region was measured before that same pass's paragraphs went in. **Split on the bare string
+   and the boundary lands in this paragraph instead**, which quotes the marker
+   in order to define it — line 31, a region 60 percent too small that ends
+   mid-lead, measured at D-405. **And the count includes quotations of the
+   retired sentence, not only live assertions**: `grep -c 'pair is current'`
+   reads 2 today with nothing wrong, one hit being the superseded sentence
+   D-404 cut back and the other D-404's report of it, both past tense. **Read
+   the hits, do not count them.**
 
 Step 5 is why it is two commits. A megabyte of rebuilt proof in the same commit
 as the prose that changed makes the prose unreadable in the diff, which is the
