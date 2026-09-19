@@ -14,9 +14,22 @@ waited for. This is that hunt.
 WHAT THE DEFECT IS. Not an overclaim: an overclaim is a sentence with nothing
 behind it, and reading the rest of the book does not settle it. This is a *pair*.
 The book says somewhere that it cannot show X, and says somewhere else that X
-follows. The conceded member is almost always the honest one, which is what makes
-the pair cheap to repair -- the repair is to bring the assertion down to the
-concession, and the concession is already written.
+follows.
+
+WHAT THE REPAIR COSTS, measured over all fifteen instances the record holds
+(D-381, and an earlier draft of this file claimed the opposite): **the diagnosis is
+cheap and the repair is usually not the one the diagnosis suggests.** Lowering the
+assertion to the concession -- the obvious fix, and what this file first said the
+class needs -- describes 5 of the 15. Four needed a paragraph re-analysed or a
+claim narrowed with new support. **Five needed a new argument or a sweep across
+many sites**: section 3.5's took ten sites read and nine edited, and section 3.7's
+exit contradiction was closed only by inventing the compute floor, whose first
+statement then *became the next instance of this class*. In four cases the book
+already had the honest version in a different section and the repair was to stop
+one passage contradicting it, which costs a pointer. And in four of the five
+September cases the outside note's proposed repair was declined in favour of a
+different one. So a hit here is worth reading and is not worth assuming is a
+five-minute edit.
 
 WHAT THE FOUR INSTANCES SHARE, which is what this looks for:
   1. The two members are in one section, or in a section and the section it

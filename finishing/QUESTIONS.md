@@ -1355,8 +1355,11 @@ modal and no connective is invisible, which is why §2.1's *Built that way a flo
 tribunal has a proprietor* — the hard half of D-332 — is not what the tool matched on. It matched the
 *preceding* sentence, *needs a judge, a judge needs somebody to appoint him*, and got there anyway.
 
-**The class stays open.** Fourteen instances, ten passes, and now two methods that each reach one
-sub-shape.
+**What the repairs cost, measured over all fifteen (D-381).** **None of the fifteen is outstanding** — each was repaired in the pass that found it — so what stays open here is the class and not a queue. **The repair is cheap in 5 of 15 and is usually not the one the diagnosis suggests.** One word, clause or pointer in five: §6.3.3, the Council of Europe convention, §8.3.4's half of *Trump v. Cook*, the glossary's sycophancy entry, and §3.3 at D-380. A paragraph re-analysed or a claim narrowed with new support in four: §10.8, §6.4.2/§6.4.4, §7.3's annotator list, §2.1's frame. **A new argument or a multi-site sweep in five**: §3.5's pricing distinction took ten sites read and nine edited; §3.7's exit contradiction was closed only by inventing the compute floor; **that floor's first statement was then the next instance of this class**; §3.8 took three edits and a glossary entry; §7.3 went from two paragraphs to four. One was the author's own replacement text, the Foreword.
+
+**Two patterns in the repairs matter more than the distribution.** **In four cases the honest version was already in another section and nothing was imported** — §11.6 and §4.1 against §3.8, §11.4 and §7.2 against §7.3, §2.1's own close against its frame, and the three *Trump v. Cook* sections being compatible with no sentence saying so — so the repair costs a pointer. **And in four of the five September cases the outside note's proposed repair was declined in favour of a different one.** A hit is worth reading and is not worth assuming is a five-minute edit.
+
+**The class stays open.** Fifteen instances, eleven passes, two methods that each reach one sub-shape, and one instance — the compute floor's — created by the repair of another.
 
 ---
 
