@@ -600,13 +600,25 @@ def sections_tex(root, rows):
     it came from. The markers are what the single file gives back of the split
     it flattens: the path a reader -- or whatever the file is pasted into --
     has to open to change the prose. They are LaTeX comments, so they cost the
-    compiler nothing."""
+    compiler nothing.
+
+    The number beside the title is the one the page prints, simulated from the
+    counters, and not ORDER.tsv's `num` -- which is a file's identity and has
+    not tracked its position since D-406, so 77 of the 97 markers named a
+    number the book does not print there and 38 of those named a real number
+    belonging to a different file (D-468). A file whose heading is starred and
+    a continuation file with no heading both print no number and are marked
+    `--`; a file with more than one heading is marked with the first, the one
+    the marker opens on."""
+    heads = printed_numbers()
     out = []
     for row in rows:
+        nums = heads.get(row["path"])
+        label = "%s  %s" % (nums[0] if nums else "--", row["title"])
         out += [""] + marked(row["path"],
                              open(os.path.join(root, row["path"]),
                                   encoding="utf-8").read(),
-                             "%s  %s" % (row["num"] or "--", row["title"]))
+                             label if label.strip("- ") else None)
     return "\n".join(out)
 
 
@@ -662,6 +674,8 @@ def render_tex(root, rows, stem, drop_notes, provenance):
         "%%",
         "%% Every file is between START and END markers naming its path in the",
         "%% repository, so a passage can be traced back to the file that holds it.",
+        "%% The number beside the title in a marker is the one the page prints; a",
+        "%% heading that prints no number is marked --.",
         "%%",
         "%% Disposable output, not a source. The manuscript is the LaTeX under",
         "%% manuscript/sections/, one file per section; nothing reads this file back,",
