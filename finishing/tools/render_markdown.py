@@ -58,6 +58,9 @@ import re
 import subprocess
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
 SLUG = "antifascist-intelligence"
 
 # \chapter -> "##", because "#" is the book's own title. Depth is taken from
@@ -88,18 +91,53 @@ def repo_root():
 
 
 def read_order(root):
-    path = os.path.join(root, "manuscript", "sections", "ORDER.tsv")
-    with open(path, encoding="utf-8") as fh:
-        return list(csv.DictReader(fh, delimiter="\t"))
+    """ORDER.tsv in reading order.
+
+    Via common.order_rows(), which sorts on `seq`. Reading the file and taking
+    its rows as they stand gave the same answer only because ORDER.tsv happens
+    to be stored in seq order, which nothing enforces (D-422).
+    """
+    return common.order_rows()
 
 
 def label_map(root, rows):
-    """label -> section number, so \\ref{sec:3.2} can render as "3.2"."""
+    """label -> the number the book prints for it.
+
+    NOT ORDER.tsv's `num` (D-422). D-406 made `num` a stable identity that
+    matches the filename, the legacy label and the ledger key, while a file's
+    printed position moves; mapping a label to `num` made this renderer print
+    6.1 as 3.3 and ch:route as 16, wrong for 139 of the 201 references the
+    manuscript then held. The printed number comes from the same counter
+    simulation the generated table of contents is built from, checked against
+    the proof build's own book.aux at D-422: 96 labels, zero disagreements.
+
+    Three cases the heading number alone does not cover:
+      * \\unnumberedlabel{X}{V} pins V, which is what LaTeX writes and what the
+        aux records (sec:0 -> 0, sec:13 -> 17).
+      * a \\label anywhere in a file's body takes the number in force at its
+        line, not the file's own heading (sec:hold -> 3.1).
+      * a file with no heading is a continuation and carries the number of the
+        heading before it.
+    """
     out = {}
+    current = ""
+    by_path = {}
+    for num, title, path, lineno, numbered in common.printed_headings():
+        by_path.setdefault(path, []).append((lineno, str(num)))
     for row in rows:
-        text = open(os.path.join(root, row["path"]), encoding="utf-8").read()
-        for m in re.finditer(r"\\(?:unnumbered)?label\{([^}]*)\}", text):
-            out[m.group(1)] = row["num"]
+        path = os.path.join(root, row["path"])
+        heads = by_path.get(path) or by_path.get(row["path"]) or []
+        with open(path, encoding="utf-8") as fh:
+            for i, line in enumerate(fh, start=1):
+                for ln, num in heads:
+                    if ln == i:
+                        current = num
+                pin = re.match(r"\s*\\unnumberedlabel\{([^}]*)\}\{([^}]*)\}", line)
+                if pin:
+                    out[pin.group(1)] = pin.group(2)
+                    continue
+                for m in re.finditer(r"\\label\{([^}]*)\}", line):
+                    out[m.group(1)] = current
     return out
 
 
@@ -116,11 +154,19 @@ def inline(text, labels):
         r"\\(?:auto|paren|text|foot|super)?cite[a-z]*\s*(?:\[([^\]]*)\])?\{([^}]*)\}",
         cite, text)
     text = re.sub(r"\\ref\{([^}]*)\}",
-                  lambda m: labels.get(m.group(1), m.group(1).replace("sec:", "")),
+                  lambda m: labels.get(m.group(1))
+                  or re.sub(r"^(?:sec|ch):", "", m.group(1)),
                   text)
     text = re.sub(r"\\url\{([^}]*)\}", r"<\1>", text)
     text = re.sub(r"\\(?:emph|textit)\{([^}]*)\}", r"*\1*", text)
     text = re.sub(r"\\textbf\{([^}]*)\}", r"**\1**", text)
+    # \standing{...} is a note under a heading saying which of the foreword's
+    # claims the text beneath it rests on. A blockquote, not italics: the book
+    # sets it italic, but one of the eight notes contains an \emph and Markdown
+    # does not nest emphasis, so italics here would swallow it.
+    # Last, because its argument holds \emph and \ref whose braces have to go
+    # first: running it earlier took the first nested } and ate it (D-422).
+    text = re.sub(r"\\standing\{(.*)\}", r"> \1", text)
     for pattern in DROP_COMMANDS:
         text = re.sub(pattern, "", text)
     text = text.replace(r"\S", "§").replace("~", " ")
@@ -149,10 +195,42 @@ def table(lines, labels):
     return out
 
 
+# Macros whose argument inline() converts, and which a hard wrap may have split
+# across two lines. inline() runs per line, so a split argument reached the
+# output verbatim: the unconverted-command warning named \emph for two sites a
+# re-wrap had broken (D-422).
+JOIN_ARGS = ("emph", "textit", "textbf", "ref", "autocite", "cite",
+             "standing", "runin", "boxtitle", "url", "text")
+
+
+def join_split_args(text):
+    r"""Collapse newlines that fall inside a macro argument, at any brace depth.
+
+    A first attempt used [^{}]* and stopped at the first nested brace, so
+    \standing{... \emph{x} ...} joined only its first line (D-422).
+    """
+    head = re.compile(r"\\(?:" + "|".join(JOIN_ARGS) + r")\*?(?:\[[^\]]*\])?\{")
+    out, i = [], 0
+    while True:
+        m = head.search(text, i)
+        if not m:
+            out.append(text[i:])
+            return "".join(out)
+        try:
+            end = _matching_brace(text, m.start())
+        except SystemExit:
+            out.append(text[i:m.end()])
+            i = m.end()
+            continue
+        out.append(text[i:m.start()])
+        out.append(re.sub(r"\n[ \t]*", " ", text[m.start():end]))
+        i = end
+
+
 def render(path, num, root, labels):
     """One section file -> a list of Markdown lines."""
     text = open(os.path.join(root, path), encoding="utf-8").read()
-    lines = text.split("\n")
+    lines = join_split_args(text).split("\n")
     out, i, first_heading, stack = [], 0, True, []
 
     while i < len(lines):
