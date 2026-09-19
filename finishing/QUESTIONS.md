@@ -1330,12 +1330,18 @@ contradict. That is the distinction the four found instances failed to keep and 
 keeps. Most of what the tool prints is the register working — *A shows X; it does not show Y* — and §4.2,
 §5.4, §9.1 and §4.1 are model cases of it.
 
-**One candidate, weaker than any of the fourteen, is left for the author.** §3.3 closes a paragraph
-*What the position lacks is a body constituted before the forcing case arrives, and no such body exists
-to be constituted*, where §9.3.2 says *No such body currently has standing to require this record*. The
-propositions differ — existing, and having standing — and §3.3 carries no temporal qualifier where
-§9.3.2 does. It is a register difference and not a self-contradiction, and it is recorded rather than
-repaired.
+**One candidate was found and, on the author's instruction, repaired the same day (D-380). Reading the
+two sections together made it larger than this entry first recorded.** §3.3 closed a paragraph *What the
+position lacks is a body constituted before the forcing case arrives, and no such body exists to be
+constituted*, against §9.3.2's *No such body currently has standing to require this record*. The missing
+temporal qualifier was the smaller half. **The larger half is that *exists to be constituted* forecloses
+the remedy the book recommends twice** — §9.3.1 specifies such a body, interdisciplinary and with a lay
+member, and §2.4.2 closes on the review-board analogue — and §3.3 cites §9.3.1 two sentences
+earlier and then shut its answer off. **Repaired to *and none has been constituted yet***. **No pointer to
+§9.3.2 was added, deliberately**: there are three bodies with three functions — a capacity examiner, a
+Replacement reviewer, and a judge of whether the corrigibility phase has ended — and nothing in the book
+identifies them, so the pointer would have been D-345's defect. **So this sub-shape now has one instance
+found by the tool and repaired**, which is the first of the fourteen not found by somebody tracing a claim.
 
 **One already-adjudicated sentence was re-surfaced, which is the best evidence the instrument points at
 the right sentences.** §3.9's *A system for which outcomes genuinely matter … must be treated as a
