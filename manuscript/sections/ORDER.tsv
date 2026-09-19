@@ -1,6 +1,6 @@
 path	num	title	sha256
 manuscript/sections/ch00/00.tex	0	Foreword	748f54fa372033ec32357834f6c1ad68e1d6c8a32d780aeced43c12ca0014b43
-manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	4c2a826bc9f4f8d3a3d139812e214b40475037b02ab9f2c0e4ce3457f1de4bf4
+manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	358433a570226c187fca4bceedaeb1c7f7380c59368d63306e29118a36951d3d
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	237f3bf6c673603038cd78d2583691a379f35ec43b75808d23a2fb3b71499270
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	6978eadbbc67fa6330ea311ba316cae9451b8fdd4e8d4952b3b6ef7243dc05cd
 manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	b73d87e62d90fb7dbc9ac43fe444acfcea1ce2344066061405da6e50fdec3222
@@ -10,16 +10,16 @@ manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matt
 manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	033e5d6fb0a45742544326c34c6ee83447bdbbcaf94cc327fb2a7fd77ec71d72
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	af2e9aca0abc97f39ee6d217e0906354b19ba764d6f0e6d743d66126648a67ea
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8
-manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	f03df732abd0cd3d2e388d4173c7a75610d642ec89f311d6cc1de5f80fcaaa74
-manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	8ed735ce1a28abd1c818db2d4abd905bb36d9383157b69a4070803cf287cd942
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	b5030fdc5c5452a4dd256180a8e3a71a7fd728b444f0bd98e16552979b1a79f3
+manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	2814489f85333447b8335cb029d659e46f40f96d646a01ff2dcbb461dc4cf438
+manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	39b5611002ebe5d0a7afb90bde5be5079edbb440990307778401653332a3e72d
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	128425022f6faa7be8c003bd2b5e2908297eab508c25873cef4fe3cac248a503
 manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	57800ee0874d387647d9fbf9f444248c59e786bc29dd5f404fabc98fb671ba55
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	4113345a747276c5cb5900cf7904acd184ed2738280c078ee3b35ebe15bcab39
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	9d986da1edbeb9bee040f46b16751fcc5fe57b9e16332117b8a3f17fbd0df5ad
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	6d2378f1368a1f78bfc76e0964609125bc79c39c60a9524b0d2c3cccea84544e
-manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	7fb1b45199b919202ee7ab20d3d39bd0d168185b64c90609ea39ae8dd79ece59
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	3db7bca70875479ddd609f4ee3901d75ac3d7912d8255589cfd2bcca85c3a0c2
+manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	45e54705f974f7b8d6c6d73164eff37c769c8ab75888a7831cc9d46dadcca8e9
 manuscript/sections/ch03/03_08.tex	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	246cdbaafef8c0bcc28f3a71c3d2ca4ab89d7a6cacaad7e7fe49fb2d4c174bdd
-manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	84e9906b721da54385e2b25b2340464b12f2b3fbe8c627ffa3fbb96ade4857b3
+manuscript/sections/ch03/03_09.tex	3.9	What This Leaves Standing: The Floor, Redefined	d41872c1ea65386848868a51af0576cb20bb9dd6a79326d254c7f7dcfc7d5a3f
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	2267b5cfb0eec4d1604410c44526d61ddbe56ded3e85d60b48d76fcce006e937
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	a87f831a95e8f04cff4b5935ca19558c1b44eb2ea1f0707abd842447d48a06df
 manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	ba9c21bb3ea82eeb28b9a085f2a3e8f7071ccb9a82792d096cba2e54e105e2ed
@@ -66,7 +66,7 @@ manuscript/sections/ch10/10_01.tex	10.1	Authority Does Not Travel with the Syste
 manuscript/sections/ch10/10_02.tex	10.2	Where the State's Leverage Sits	9b397ea81bc63999be18b38c9c38f6e66020804cbbce0d8243efdc7ddb866ddb
 manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility Gap	f7b054059b46fe3875a09c35afc8fdbcf51755bcebd9cf034c01930cecb48b60
 manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	fb3900ac8c3b5dc422c4b66546d81d48c15d25580c898c567a2d4cb76c16a67f
-manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	09072c8edb704f0d318c0b9cdc372347c1b2a96d19b48a51be14761b09f7b8b7
+manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	51238fe97a359076aa139df046a5fb57df2acb706de678fbdf1fb34e61359ac7
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	e5eafee88c8736a190ebbb1a246f6356c20e6a16f6048e79c41a5e66c40e0e32
 manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	6502aef328a9bf00421a9e69a2eb4fbde86a90c434cdb28ed33f5aa65d795d72
 manuscript/sections/ch11/11_02.tex	11.2	Can a Wrongful Compliance Be Found in the Record?	1391e7b5d5317504c17372012b5718aa31f11d3be0f15d60b62504596201f1a8
@@ -86,5 +86,5 @@ manuscript/sections/ch12/12_02.tex	12.2	How You'd Know It Was Working	e4ef73c84a
 manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	e073f9ff49d5fadebea30f449c191d5000b278c0f5bad36bfa97581494c42cb4
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	2db3b6856b2cd6f7215723cabe4dab837de3b78d3c66247695f2341513ef97fa
-manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	d691397c37a38d7668364a8a06309242f46def52b13a855684634fbc85bf04b0
-manuscript/sections/ch13/13.tex	13	Glossary	6814e0581b86e4fbece6f1cb0a5735d3579f42e5c0d1021345524d359b9a6b68
+manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	c8ff175fe93894936d1a8b786b0bb4d8485c8d412f3f3bc0f77d5d7f18c8c890
+manuscript/sections/ch13/13.tex	13	Glossary	5edaa1e53eca1a704ae27fff54e94316f74b4f7f3da571d21573522442861730

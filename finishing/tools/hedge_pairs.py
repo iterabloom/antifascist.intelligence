@@ -82,6 +82,15 @@ Usage:
   finishing/tools/hedge_pairs.py --min 0.05      overlap floor for --pairs
   finishing/tools/hedge_pairs.py --census        lexicon hit counts
   finishing/tools/hedge_pairs.py --report        write reports/hedge_pairs.tsv
+
+--report honours --min and --cross, so the flags decide what the committed
+report contains. The committed one is written with BOTH:
+
+  finishing/tools/hedge_pairs.py --report --min 0 --cross
+
+--report alone gives a tenth of the rows, because --min defaults to 0.05 and
+cross-referenced sections are left out. Regenerating it the short way would
+look like the defect had mostly gone away.
 """
 import argparse
 import csv
