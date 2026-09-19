@@ -4,8 +4,8 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 1.1	What a Refusal Would Have to Do	2	1	536	8	0	0	0	0	0	0	2	0	1		0	0	0	0	1
 1.2	Safe for Whom	2	1	851	9	0	0	0	1	0	0	0	0	0		0	0	0	0	0
 2	The Striving and the Electricity Bill	1	2	2166	17	0	0	0	5	0	0	2	0	6		0	0	0	0	0
-2.1	Six Theories and the Floor	2	2	1400	14	0	0	0	0	0	0	1	0	3		0	0	0	0	3
-2.2	Antifascist Ethics for AI Alignment	2	2	3910	32	4	0	0	0	0	0	1	0	17	2018	0	1	0	0	5
+2.1	Six Theories and the Floor	2	2	1297	14	0	0	0	0	0	0	1	0	3		0	0	0	0	3
+2.2	Antifascist Ethics for AI Alignment	2	2	3530	31	4	0	0	0	0	0	2	0	14	2018	0	1	0	0	5
 2.3	Going Numb Won't Make You Fair	2	2	602	11	0	0	0	0	0	0	1	0	0		0	0	0	0	1
 2.3.1	Self-awareness and Self-regulation in AI Systems	3	2	853	9	0	0	0	0	0	0	0	0	3		0	0	0	0	1
 2.3.2	What Governs an Agent, and What Matters to It	3	2	1125	18	0	0	0	0	0	0	2	0	8		1	0	0	0	6
@@ -54,7 +54,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 7.1	Recuperation at the Label	2	7	818	12	0	0	0	0	0	0	0	0	2		0	0	0	0	3
 7.2	Recuperation at the Reward: RLHF	2	7	802	8	0	0	0	0	0	0	0	0	3	2023	0	0	0	0	0
 7.3	What Would Have to Change	2	7	1194	18	0	0	0	0	0	0	4	0	0		0	0	0	0	5
-7.4	Recuperation at the Discourse	2	7	1511	22	0	0	0	0	0	0	4	0	1		0	0	0	0	3
+7.4	Recuperation at the Discourse	2	7	1931	25	0	0	0	0	0	0	4	0	4		0	0	0	0	3
 8	Coordination, the Public, and the Political Economy	1	8	33	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 8.1	Everybody Knows a Different Piece	2	8	411	5	0	0	0	0	0	0	0	0	5	2024	0	0	0	0	0
 8.2	Ask the People It Happens To	2	8	963	11	3	0	0	0	0	0	0	0	7	2025	0	1	0	0	1
