@@ -1,5 +1,18 @@
 # Open questions
 
+**Current as of 2026-09-18, after D-379: three entries closed, one re-checked and left open, one brought up to date with five instances it was missing — and this is the first entry opened or closed in this file since 2026-09-08.**
+
+**The distance was worse than the lead said.** The previous header put the file at D-302 and twelve passes unchecked. **It is 77 decisions**, D-302 to D-379, and the September 12 and 13 Overleaf returns plus the D-320 through D-376 work sit inside that gap. **Thirty-eight now open**, from forty-one.
+
+**Closed: Q-030, Q-075, Q-076 — all three by execution, none by a ruling, and none by a pass that was acting on the entry.** Q-030's `refs.bib` orphans: measured directly at 275 entries, 275 cited, 0 uncited, 0 keys without an entry, twenty days after D-111 moved the 23, so the correspondence has held through a book that lost 43 sections. Q-075's fork-and-branches figure: the September 12 return took the whole vocabulary with it, which is option (b) arriving by rewrite; the 11 surviving uses of `fork` are all the copy-a-model sense the entry set aside. Q-076: both sentences gone, and §3.2 now announces *two* capacities in its opening and its run-in, where the entry complained of four arriving unannounced.
+
+**Re-checked and left open: Q-088.** All three sentences it is built on are gone, including §11.3's general pricing test, which is no longer anywhere in the book. §3.5's engineering target now reads *can detect the interruption and price it afterward*, which puts the bearer on the pricing side where the entry's worry was the operator. **That is a different question about different text and is recorded as needing a fresh read**, on this file's own convention: a question whose target was rewritten is not thereby answered.
+
+**Brought up to date: Q-043, which turns out to be the class D-331 asked a later pass to hunt.** Five instances arrived between September 16 and 17 — D-328, D-330, D-331, D-332, D-336 — and **not one of them cites this entry, its ruled method (D-111, sweep by subject) or its completed sweep (D-113, twenty subjects)**. Fourteen instances now, across at least ten passes. The new five differ from the first nine in *where* they sit: four of five are inside one section, one of them inside a single paragraph, and a subject sweep reads across chapters and would not have looked there. **Option (c), declined in August, is now built** as `finishing/tools/hedge_pairs.py`, calibrated against the pre-fix tree at three of five, and the hunt it was built for found **zero new instances**. Q-043 carries the measurement and the two blind spots.
+
+**What was not checked, and it is most of the file.** **Thirty-six of the thirty-eight open entries were not read against the current book.** Only Q-088 and Q-043 were, the other three named above having been closed. The three the previous header flagged as turning on chapter~3 were Q-075, Q-076 and Q-088, and those are done; **nothing else was**. Entries carrying section numbers written before `renumber-map_2026-09-12.tsv`, `-09-13.tsv`, `-09-13b.tsv` and `-09-14.tsv` still have to be read through four maps, and no map exists for the September 12 return's cut from 132 sections to 89, which is not a renumbering but a deletion. **Q-111 is still unsited** — the persona-device disclosure lives in the README and nowhere in the book, D-008 called for a note naming the device, nothing has withdrawn that and nothing has executed it, and the passage a ruling would edit is `00.tex:13`.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-13, after D-302 (P200): no entry opened or closed, and a second renumber map now stands between this file and the book.**
 
 **Two chapters were renumbered today and neither renumber has been propagated here, deliberately.** `renumber-map_2026-09-13.tsv` carries D-296's chapter~11 moves and **`renumber-map_2026-09-13b.tsv` carries D-302's**, which moved §2.2.1 out of chapter~2 into chapter~6 as §6.1 and shifted 2.2.2–2.2.3 up and 6.1–6.3.2 down. **Anything written here naming a number in §2.2.x or chapter~6 has to be read through the second map**, and anything naming chapter~11 through the first.
@@ -660,6 +673,15 @@ not at all.
 
 **Ruled 2026-08-29 (D-111), and executed in P47.** Neither kept nor pruned: the 23 entries were moved to `finishing/unused_bibliography.bib`, which is deliberately not `\addbibresource`d, so they survive and `refs.bib` corresponds to the book at 303 entries.
 
+**Closed 2026-09-18 (D-379). The correspondence D-111 established has held for twenty days across a book
+that lost 43 sections and gained about 16,000 words.** Measured directly rather than from the suite,
+which does not check this: **275 entries, 275 cited, 0 uncited, and 0 citation keys with no entry.** The
+mechanism this entry described — cutting prose orphans entries at a steady rate and nothing reports it —
+**has not recurred**, and the reason is that the property became a standing one that every pass since has
+maintained by hand. `finishing/unused_bibliography.bib` still holds the 23. **The entry is closed on the
+fact and not on a ruling**, and it leaves behind the check that found it, which no tool performs: the
+standing property is enforced by hand and a successor should keep measuring it.
+
 ---
 
 ### Q-031 — Chapter 9's gap list lost its nearest-work notes to the word cap
@@ -1270,6 +1292,65 @@ strongest case in this file for (b), reading by subject rather than by section.
 **2. The glossary credited the sycophancy finding to three sections and one has it.** The RLHF entry gave `(§11.5, §7.2, §6.3.5)`. Section 11.5 has it; section 7.2 documents a *different* RLHF failure, persistent rater disagreement entering the fit as variance around a mean; section 6.3.5 is red-teaming and has neither. The entry now names both failures with the right section against each, and the 6.3.5 pointer is dropped.
 
 **The rate is what the entry said it was.** Nine instances, five passes, every one found by following a claim across chapters. **The class stays open**: the method that finds them does not scale to every subject the book names once or twice, and twenty subjects is not the whole list.
+
+---
+
+**Re-checked 2026-09-18 (D-378). Fourteen instances now, and five of them arrived in September without
+anybody recording them here.** D-328 (§7.3's enumeration stating a verdict its own later paragraph
+split), D-330 (§3.8 closing on a necessity its penultimate paragraph conceded), D-331 (§7.3 again, the
+hard claim between two concessions inside one paragraph), D-332 (§2.1 dismissing six traditions on a
+ground it withdraws seven lines later) and D-336 (the same move in the Foreword's first sentence).
+**D-331's lead asked for the pattern to be hunted rather than waited for and named no prior work; this
+entry, its ruled method and its completed sweep were not cited in any of the five.** So the September
+instances were found the way the first nine were, by somebody tracing a claim, and the rate now runs to
+fourteen across at least ten passes.
+
+**What is new in the September five is where they sit.** All nine earlier instances were cross-chapter,
+which is why D-111 ruled for a sweep by *subject*. Four of the five new ones are **inside one section**
+— D-331's inside a single paragraph. A subject sweep reads across chapters and would not have looked
+there. That is not a defect in the ruled method; it is a second sub-shape the method does not reach.
+
+**Option (c) has now been built, and (c) is what this entry declined in August.** `hedge_pairs.py`
+clusters by register rather than by proper noun: a concession lexicon against an assertion lexicon,
+paired inside a section or into the sections it points at, ranked by content overlap weighted by inverse
+document frequency. **Calibrated against the tree as it stood before the fixes** (`9505cd8`, worktree)
+it surfaces three of the five — D-332 and D-331 first in their sections, D-330 about fifth. **Two are
+out of reach and stay out.** D-328's defect is a sweep against a *distinction* in §7.1, and nothing in
+§7.1 is hedged, so a concession lexicon cannot see it. D-336 is an overclaim with no concession anywhere
+to pair against. The tool's estimate of its own reach is therefore three fifths of the known instances of
+this sub-shape and none of the other.
+
+**The hunt was run and found nothing new.** Read: all 38 same-paragraph pairs, which is D-331's shape
+exhaustively; all 13 sections with an assertion in the final paragraph and a concession earlier, which is
+D-330's shape exhaustively; and the top 14 of the full cross-referenced ranking of 3,486. **Zero
+confirmed instances in the current text.** The reason is worth recording, because it is a fact about the
+book rather than about the tool: in all 13 closing-paragraph sections the closer states a **requirement**
+and the section's concessions state **epistemic limits**, which are different objects and do not
+contradict. That is the distinction the four found instances failed to keep and the rest of the book
+keeps. Most of what the tool prints is the register working — *A shows X; it does not show Y* — and §4.2,
+§5.4, §9.1 and §4.1 are model cases of it.
+
+**One candidate, weaker than any of the fourteen, is left for the author.** §3.3 closes a paragraph
+*What the position lacks is a body constituted before the forcing case arrives, and no such body exists
+to be constituted*, where §9.3.2 says *No such body currently has standing to require this record*. The
+propositions differ — existing, and having standing — and §3.3 carries no temporal qualifier where
+§9.3.2 does. It is a register difference and not a self-contradiction, and it is recorded rather than
+repaired.
+
+**One already-adjudicated sentence was re-surfaced, which is the best evidence the instrument points at
+the right sentences.** §3.9's *A system for which outcomes genuinely matter … must be treated as a
+prospective moral patient* came up against the chapter's *This chapter does not establish that such a
+bearer suffers*. That is D-325's §3.9 necessity claim, answered by D-326 the same day it was flagged and
+recorded as closed at D-373. The tool found it without being told.
+
+**Two blind spots found by running it.** *None of the X* fires the withdrawal pattern as an ordinary
+quantifier, which is what §11.7's list-fragment row is; and a flat declarative assertion carrying no
+modal and no connective is invisible, which is why §2.1's *Built that way a floor is a tribunal, and a
+tribunal has a proprietor* — the hard half of D-332 — is not what the tool matched on. It matched the
+*preceding* sentence, *needs a judge, a judge needs somebody to appoint him*, and got there anyway.
+
+**The class stays open.** Fourteen instances, ten passes, and now two methods that each reach one
+sub-shape.
 
 ---
 
@@ -2503,6 +2584,19 @@ the same chapter, one pass later, and produced by removal rather than by omissio
 - (c) Leave it. Every instance reads locally and no reader is stopped; what is lost is the figure a
   reader could have carried between sections, and §3.5's *as the fork itself said* points at nothing.
 
+**Closed 2026-09-18 (D-379), by execution and not by ruling: option (b) happened.** The September 12
+Overleaf return rewrote chapter~3 and took the vocabulary with it. **`branch` in §3.1's sense is gone
+from the whole book**: §3.1 now opens *A floor can live in four places: in the artifact, in a bearer
+inside it, in institutions around it, or between multiple bearers*, and enumerates them as *The first*,
+and so on. The four remaining uses of `branch` are unrelated — a co-equal branch of government and the
+civilian branch of Article~28 in chapter~10, and the second branch of a three-part condition in §11.7.
+**The four cross-referencing sites named here no longer call §3.1's items branches**, two of the four
+sections having ceased to exist in the renumbering. **`fork` survives 11 times and every one is the
+ordinary sense** this entry set aside — copying a model, in §9.1.2, §9.3.2, §11.3 and §2 — so nothing
+points at a figure the book does not establish. **What the entry asked for is no longer available and no
+longer needed**: there is no dangling reference to repair, because the 22 downstream uses are gone with
+the figure.
+
 ### Q-076 — Two things in §3.2 the compression may not have meant
 
 **Both are the author's own edits and neither was touched.** They are separated from Q-075 because
@@ -2526,6 +2620,14 @@ shape as Q-075 at paragraph scale.
   already covers. Applies at the close of the next pass touching chapter~3 if nothing is said.
 - (b) Both: restore a clause to the opening naming the four capacities as well.
 - (c) Neither. Both readings are mine and the prose is the author's.
+
+**Closed 2026-09-18 (D-379), by execution. Both halves are gone and the second was answered rather than
+deleted.** *Defining mattering that way moves the uncertainty to the gain* appears nowhere in the
+manuscript. And §3.2 is now titled *What Refusal Can Mean, and What a Refuser Can Be*, opens *"Refusal"
+names two different capacities, and the decline itself does not show which one produced it*, and runs its
+enumeration under the run-in *Two things refusal can mean*. **The count changed from four to two and the
+opening announces it**, which is what (b) asked for in the form the rewrite chose. Nothing here was
+repaired by a pass acting on this entry.
 ### Q-077 — Two working notes in §3.3, and a `\textbf` that bolds 24 words of the argument
 
 **Closed by ruling, D-199 (P101), on the reader's recommendation rather than an option as written**: the *because* clause and its `\textbf` are cut, the note with them, after a check found nothing outside chapters 1 to 3 leaning on the clause. The sentence reads *Put that way the claim is safer than it is useful.* and the routes sentence follows. The determinism note at §3.3:19 was investigated separately and stands; `p101-scope.md` carries the findings.
@@ -2772,6 +2874,22 @@ and is resting on a cost somebody else controls.
   operator's account rather than on its own assessment of it. That is a design question and not a
   wording repair, and §3.5:20 says the chapter loses more than a paragraph if the assumption behind
   it is wrong.
+
+**Re-checked 2026-09-18 (D-379). Not closed: all three sentences it is built on are gone, and the text
+that replaced one of them says something different enough that the question has to be re-asked rather
+than carried forward.** *A bearer that yields to every halt … has conceded the switch entirely and given
+up nothing the floor needs* is not in §3.5. §11.3's general test — *whether the party disagreeing prices
+the disagreement or the party being disagreed with does* — is not in the book at all. §3.6's half
+survives restated: *A refusal that must be read before it matters is priced at the reviewer's available
+attention, and the deployment controls that price through tempo*.
+
+**What §3.5 now says points the other way.** Its engineering target is *not \emph{cannot be turned off}
+but \emph{can detect the interruption and price it afterward}* — the bearer priced the interruption,
+where this entry's worry was that the operator prices the bearer's record. **Whether the operator still
+sets that price is a live question about text that did not exist when this was filed**, and answering it
+means reading §3.5 as it now stands rather than checking whether a sentence survived. **Recorded as
+needing a fresh read, not as answered**, on the convention this file has applied since September 12: a
+question whose target was rewritten is not thereby answered.
 
 ### Q-089 — `section_stats.py` does not count a pinpointed citation
 
