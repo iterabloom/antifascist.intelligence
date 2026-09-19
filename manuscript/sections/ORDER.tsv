@@ -5,7 +5,7 @@ manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	7a368fbc9
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9f071ebac408624cca5f17d3cc7ee3b1b4871774b35eb2fa0565f3730de3d13	4
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	2a7d05a604d5278cfc1d2b4790e705b53be0550c554f31fa106937f363104422	5
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	0d6d1a65a227ab415cf5b629acfc1818815ecc43a34e1e3403ff0e7b10e79813	6
-manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	76849338f867f170ef9209ed9c1c7347b7b5e56171290d5c2aed07fe1787d712	7
+manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	793d15b29e391865f256e48b11c69cdc139ec2c9cc24d3b15d616716abd77ee9	7
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	82dddfdeb123bc2612b5febfaf28533592bf098c20b112d6c626e79f481d094a	8
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	ce0ecf463a6fe45e5f42d7797bb118dc8ed5e13e00d027a8fb9954b4abbfc506	9
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	c85c8e8e9554747ec91c8e8cd6703b53ad5942ea82cefe06c0fded3d68bb7498	10
@@ -24,7 +24,7 @@ manuscript/sections/ch09/authority.tex	15	Authority Over the Floor	616d94ac58a03
 manuscript/sections/ch09/09_01.tex	9.1	Four Powers	aebdb3f01907325fe157a73e412ed9657152f42c08e416dc0ef915a0f66c2ca2	23
 manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	6ee5c6933563c7d59d3ee93d7ea2922020fdf2f6e76b1640d2d4dc1c2c768fc2	24
 manuscript/sections/ch09/09_03.tex	9.3	What Makes Review Binding?	5f1d5ca9e22b607b2d7479db9d404f374b3d2b6e4385f3cd01461e85535a2453	25
-manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	fbce1598a9a78ef0c2091b0c93a11c61f0ed933aa4d93649558fbb547ce8955f	26
+manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	d2132b64c510a075732059e02ac72864b01032533e63429bc67867e97b7a75dd	26
 manuscript/sections/ch09/09_03_04.tex	9.3.4	Making Review Binding	4bc45181c50a8207e80aeb844ae5b634104859affbd0459c342566cdbc90ff9b	27
 manuscript/sections/ch09/09_03_05.tex	9.3.5	How Review Is Captured Without Being Abolished	f6ff0d714fd79c0ac898e538c02487062b2d916dbe6bb6b25307295e27b35e5f	28
 manuscript/sections/ch03/route.tex	16	What Arrives With the Capability	191554bc1e67306e26f17a12833acc6ff543f728ae884c11eb731b855d56bd27	29
@@ -53,7 +53,7 @@ manuscript/sections/ch06/06_04_02.tex	6.4.2	Custody and State Compulsion	f7d02aa
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	3f2fb0f6585b913e86bc51059efe53f62e4577f77ad785bc413cd8c5f845b017	52
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	4a9752a3d244db8f5c781aaaee165dbdb24c28db4ade9c9a4f70fc4756893bc5	53
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	d4c143680b7f77c5b4b17462e4970c6ee91beee3fd59daf3ef0986f9e0b20450	54
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	06fe865135699138e2e66b33ced66efe12837a3e41100687b0b18ae0f0cade73	55
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	949d8f10a5efb418455ba5d62d6d876e69b0930c6ba6646efae18eea68246ccd	55
 manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	6ab9e5a3fb7c9ed253a1147604a4963a736e7d0c8e6c633ec1dfa7e996bcfb75	56
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	c2703d8f382f3de755d971425d2da271667d79c8aa10d10e9a5c892da3479166	57
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	a611fa521a47d184ee0915e8dde10bae1e320f3c660cffd747845d46fcc8e924	58
