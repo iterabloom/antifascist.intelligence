@@ -1,6 +1,24 @@
 # State of play
 
-Read this first. **Updated 2026-09-18 after D-373: the nine standing small items are ruled, eighteen edits went into eleven sections, and one of the nine had been answered a week ago with nobody recording it.**
+Read this first. **Updated 2026-09-18 after D-374: D-349's held edit 3 is sourced in full, both blocking documents read, and the clause the record called unsourced is GAO's own sentence.**
+
+**Twenty-one passes today**, D-354 through D-374. The suite is green at eight checks and **89 sections**, the book is **89,470 words** under `section_stats.py`, `refs.bib` is **272** with **0 human-checked** and every entry cited, and the last build was **181 pages**. **The committed proof pair is behind the sources by D-363 through D-373**; D-374 changed no manuscript file. **Remaking the proofs is the obvious next thing and has not been asked for.**
+
+**D-374 is a sourcing pass with nothing written.** **The GAO report has an HTML full text and the PDF was never needed**: `https://files.gao.gov/reports/GAO-26-107859/index.html`. Every element D-349 could not confirm is in it. **Forty-four is contracts and agreements, not acquisitions** — thirteen acquisitions at four agencies, 44 contracts awarded September 2018 to February 2025 — which is the one correction the author's text needs. The six challenge areas are enumerated. **Maven appears extensively.** **And the other-transaction sentence the record called unsourced is GAO's own**: agencies' use of OTAs *carries the risk of reduced accountability and transparency compared to FAR-based contracts*. **The report also supplies the mechanism \S\,10.3 was missing**: the July 2025 awards to four AI companies were **other transactions**, not FAR contracts, so an oversight section can be absent rather than removed. M-25-22, supplied by the author, confirms all four vendor-lock-in items verbatim and carries *accountability* zero times and *audit* zero times.
+
+**Edit 3 is unblocked in full and waits on one word.** `omb2025aiacquisition` and `gao2026aiacquisitions` go in with it; neither was created, two uncited entries being what D-349 refused.
+
+**D-344's 72 seconds a case is ruled out** — *ok leave it out* — and nothing in the book changed.
+
+**The \S\,9.1.1 sentence has a direction but not a ruling.** The author's ground: *some truths are self-evident i guess, like all people are created equal*. Recorded so a later pass has it. The objection the book supplies against itself is that the most famous floor asserted as self-evident was asserted by men holding people as property, which is chapter~6's subject, and \S\,9.1.1 already holds that publication is a transparency condition and not an authorization condition.
+
+**What the older rows still leave.** D-354's four Foreword flags, the first being *no production system in September of 2026 can hold a reason against its owner*, which the book does not assert and \S\,3.3 comes close to denying, with *has been shown to hold* recommended and unauthorized. D-341 leaves only the two items the author ruled out at D-373.
+
+**One coupling a later pass should know about.** \S\,4.1 at `04_01.tex:28` carries the same *whether a building is a school* sentence as \S\,3.6's third interception position, and \S\,3.6's closing clause now uses \S\,4.1's phrase *evidence the operator did not select*; neither says so.
+
+**The full queue is `finishing/reviews/decision-review-d288-d361_2026-09-18.md`, sorted into three buckets, and that file is the one to read before starting work.** This paragraph is its index and not a substitute. **What the author has left to settle**: D-349's edit 3, now fully sourced; D-354's four Foreword flags; \S\,9.1.1's missing sentence about the countermajoritarian hole; what a human bibliography check means, with D-340's unused outside support beside it; the stale 164-page figure inside an applied `AGENTS.md` rule; what D-317's 45 unreferenced labels cost a reader; Q-111; and the smaller standing items. **What the agent should do without a ruling**: rerun ten stale reports and never `toc_v4`; run the recurring-defect hunt D-331 asked for; bring `QUESTIONS.md` forward; the three invisible TeX quote pairs; the two `names_guard.py` blind spots; the missing label-number check; the `paras` line count; the 53 notes whose wording reads as a human check; the scope-file convention; the three commits with no record.
+
+**Superseded lead, kept for the record.** Read this first. **Updated 2026-09-18 after D-373: the nine standing small items are ruled, eighteen edits went into eleven sections, and one of the nine had been answered a week ago with nobody recording it.**
 
 **Twenty passes today**, D-354 through D-373. The suite is green at eight checks and **89 sections**, the book is **89,470 words** under `section_stats.py`, `refs.bib` is **272** with **0 human-checked** and every entry cited, and the last build was **181 pages**. **The committed proof pair `whole-book-proof_2026-09-18.{pdf,html}` is behind the sources by D-363 through D-373**, and the README still points at it. **Remaking the proofs is the obvious next thing and has not been asked for.**
 
