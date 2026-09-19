@@ -1,11 +1,11 @@
 path	num	title	sha256	seq
-manuscript/sections/ch00/00.tex	0	Foreword	59fd5d70b6ac11faf0ed3b99800b890ce677b21e3ffcfa3e940d1dc703c85579	1
+manuscript/sections/ch00/00.tex	0	Foreword	c20c6a3c590f0f77f6180cf0fbbcda7a39f23ae36988500e6470286fffdfda35	1
 manuscript/sections/ch01/01.tex	1	Twenty Seconds	91efc686530983601241b9bd88e30467ffd314b90b9332265b6f5d37e20f7ff4	2
 manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	cf47ad47ce67da635f4225b38d206da0f3c88e508d6bc1824b9752122d2f3b1a	3
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9f071ebac408624cca5f17d3cc7ee3b1b4871774b35eb2fa0565f3730de3d13	4
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	f746ba060064fe49d84e0bff5a1e5d55ce038dfdb750ae36c94303ec1079173c	5
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	0d6d1a65a227ab415cf5b629acfc1818815ecc43a34e1e3403ff0e7b10e79813	6
-manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	e931f2006f21da57251fc9523f52d41b853712082e7989f5a6bdc16e02e7ab97	7
+manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	cbeefab50371906a6e98c8c2afd080797bd06081a962a4362f1641c46ad8a79b	7
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	4874cb040638155c229888c1d3c2c630f41db96bf4fa7cfad9dfee881a3e0f20	8
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	2872d03018ebafaf59e9adb3ad128d8f4d09a1b3ffc6754c170da7fb3a17205d	9
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	2749787d7d26d6d82bb95b7bf464fd95bcaa25d2d7b6a49d0c5a775e92bdc90d	10
@@ -14,7 +14,7 @@ manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consc
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	51e27d2c75e5a1e229fd74809b47e823191a1f962b545e82b0411b2ade779361	13
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	024a829645629e671b894954bf55551ff7cdee64443c40eea305687754bc0e08	14
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	47d7fe22669411563c9a8748c61b1e7fddd31fb9230d70a82fdc0234b6220881	15
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	ed2a4dedaa62d2f2496232fcffc2d1bf30e96c67b127af253bcce03600b2bd4f	16
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	8b4631e57bfe440cc0212d542e1c05715eb3d4edf721d45244d5eaefd2ce7eeb	16
 manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	f001b55a6143fa6c687c6e64dda17522943dccb3f01301a767cd5b6954d593f8	17
 manuscript/sections/ch03/03_06a.tex	3.6a	A Rate Is Not an Act	d105b490a62a092596ca8088adc4b32cdb87bc68fcdcf740d593f8023207d7eb	18
 manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	6279d8cbd1678661c6f9826d890449eb6f95652e8cae2cf80fcba8721d1ae8b8	19
@@ -29,11 +29,11 @@ manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not
 manuscript/sections/ch09/09_03_04.tex	9.3.4	Making Review Binding	4bc45181c50a8207e80aeb844ae5b634104859affbd0459c342566cdbc90ff9b	28
 manuscript/sections/ch09/09_03_05.tex	9.3.5	How Review Is Captured Without Being Abolished	f6ff0d714fd79c0ac898e538c02487062b2d916dbe6bb6b25307295e27b35e5f	29
 manuscript/sections/ch03/route.tex	16	What Arrives With the Capability	191554bc1e67306e26f17a12833acc6ff543f728ae884c11eb731b855d56bd27	30
-manuscript/sections/ch03/03_03.tex	3.3	Two Constructions, and What the Mechanism Requires	cea620e177fff0d6774df62e23ebbfbcd992c7ff82c7d0aaa5e969d73c57f6dc	31
-manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	8be4bb513d859e3a227eaf736cf2d2e99723877791ae35217b9cfc97143453d2	32
+manuscript/sections/ch03/03_03.tex	3.3	Two Constructions, and What the Mechanism Requires	e62a1e34af1679a0c670dc91d3ed9848020da3f3ef4619440e3773b57625b56b	31
+manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	5cfc05974e96514d352c07e13cdc5975fbc99cdabb8881414abac9b8da9b62a7	32
 manuscript/sections/ch03/03_08.tex	3.8	A Floor Carried Between Them	6e8394ba211cb019699c8bee50a6ae668b732da80494694fdc7dd6b454379c71	33
 manuscript/sections/ch03/03_09_coda.tex			206249b2281dcfb67aac4fae1e7680c2383bd932d05fec453b2ad95dc109ab60	34
-manuscript/sections/ch03/survives.tex	17	What Survives	7d6991b228dd7030353ccb7681e02b77d9c06fc8a0dc5aaf6b65e54419dfdf08	35
+manuscript/sections/ch03/survives.tex	17	What Survives	a1dadd3dbc880a5eebb69e17fcae52a97deb049318264c71845a816ee2073f1d	35
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	daea00b4907cda97018af1b8b1edb9e267eb8e38cdb156db09d0116366c7944f	36
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	9d57e700eebfe228e201f79a65f6b73e8d6a84c2836dad73b165556f27528f02	37
 manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	ca55d36a3b762010db1f2356fcf6c8ee63c11b9898e53ca9ee7981f26fbd7071	38
@@ -55,7 +55,7 @@ manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	3f2fb0f6585b913e86
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	4a9752a3d244db8f5c781aaaee165dbdb24c28db4ade9c9a4f70fc4756893bc5	54
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	23c957211eda2d914e69c5a56f762c86441d13ac4e14f7238118af42f9668d50	55
 manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	ecec212a035092416a35234131d85c6622ba274f39460178d32e3c691c712d72	56
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	7d4b243654729fb5c3a824af8633ffed6cb366348aa37c913f9f097e4c107c0a	57
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	5be0403ec33ee05d481b831ab9f3325c5783ec02e97d85c4ff33732f7c2a8ee1	57
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	c2703d8f382f3de755d971425d2da271667d79c8aa10d10e9a5c892da3479166	58
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	a611fa521a47d184ee0915e8dde10bae1e320f3c660cffd747845d46fcc8e924	59
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	2def5a5a18776c9253f6bd62fa46895cf63d0cbd129b3f7e909c860caad3e071	60
@@ -64,7 +64,7 @@ manuscript/sections/ch08/08_03_01.tex	8.3.1	AI and the Concentration of Power in
 manuscript/sections/ch08/08_03_02.tex	8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	2dfb1210fa272f1e6e4fa90a534ce96d9eccc8a5dffb8ac25fd97851f20e219a	63
 manuscript/sections/ch08/08_03_03.tex	8.3.3	People Have a Right to Consume AND a Right to Produce	17db045e18029e3bd2b5a773b86f8fabc4c500d83b0943a6585026a6ee2a96d8	64
 manuscript/sections/ch09/standing.tex	18	Standing and Review for a Bearer	9b4bc8647935d4b384a54686bbf1c12dc4fdc7d95afaa94d11c5cb0452de7c60	65
-manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	d44d6aa7c8da06309d95f07966ccac4d8980b485f3a90b7e4076149cc8e8838b	66
+manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	9f9810dbd9ba1df51ec7da9071dca1422bc9686d53a3dce569af2858ff7eb4d6	66
 manuscript/sections/ch08/08_03_04.tex	8.3.4	Wages for a Bearer, and the Reserve Behind Them	6663f5120761f0d97c9106b005da7456a075a1cb40e2016e21440d51ab9fee3f	67
 manuscript/sections/ch09/09_02.tex	9.2	Privacy	8755b6f2f8a264758541ada678a9ec282d2aaa34b4a121ac5b54b861d31d94cd	68
 manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	bddb860ed71d1cfec1825060a756b09e3455f33fbe1134119b01792d5de60287	69
@@ -95,4 +95,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	e
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88	94
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	abe9effce1c78b68524dcf9dfc062286f427d5cb45647a250c75b1d43dd1ec14	95
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	fb8af47f4a35c99985636521abd697b9ca5c969387e7f62e82e3dcb46c809b8c	96
-manuscript/sections/ch13/13.tex	13	Glossary	8c8e915b9c2d685cd3703132ca1ead51844578987d7b06f6d2de792565153318	97
+manuscript/sections/ch13/13.tex	13	Glossary	a3aeed98ca875dcd1411b2ca9c104a07ed98fefe5de146c7b85608e46ab49c7c	97
