@@ -62,6 +62,11 @@ PARTICLE = re.compile(r"^[a-z]{1,5}$")
 
 STOP = {"the", "and", "of", "team", "comprising", "professor", "phd"}
 
+# An entry with no personal-name token in it at all. Excluded as an exact phrase
+# and not by token, because "service" as a token would drop a persona actually
+# surnamed Service, and the roster is checked by surname as of D-382.
+NONPERSON_PHRASES = {"Public Service"}
+
 # Field and category labels live in the grouping spreadsheet's columns beside
 # the names ("AI Research", "Cognitive Science"). A cell containing any of these
 # is a heading, not a person.
@@ -104,39 +109,100 @@ def persona_names():
                             continue
                         if any(t.lower() in NONPERSON for t in toks):
                             continue
-                        names.add(" ".join(toks))
+                        full = " ".join(toks)
+                        if full in NONPERSON_PHRASES:
+                            continue
+                        names.add(full)
     return names
 
 
 def build_regex(names):
+    """Full-name forms: "Given Family" and the "Family, Given" a BibTeX author
+    field is written in. Before D-382 only the first was built, so every
+    `author = {Family, Given}` in refs.bib was invisible to this guard -- and
+    refs.bib was not in the scan set either."""
     pats = []
     for n in sorted(names, key=len, reverse=True):
         toks = n.split()
         # first ... last, tolerating middle names/initials in between
-        pat = re.escape(toks[0]) + r"(?:\s+[\w.'-]+){0,3}\s+" + re.escape(toks[-1])
-        pats.append(pat)
+        pats.append(re.escape(toks[0]) + r"(?:\s+[\w.'-]+){0,3}\s+"
+                    + re.escape(toks[-1]))
+        # last, first -- the bibliography's order
+        pats.append(re.escape(toks[-1]) + r",\s+" + re.escape(toks[0]))
     return re.compile(r"\b(?:%s)\b" % "|".join(pats)) if pats else None
 
 
-def scan(paths, rx, hard_zone):
-    hard, warn = [], []
+def build_surname_regex(names):
+    """Surnames alone, for the HARD zone only.
+
+    A bare surname is not evidence of anything -- the roster's surnames include
+    Hall, Ross, Bell and Miller, and refs.bib alone holds 66 occurrences of 30 of
+    them, every one an ordinary citation. So a surname hit is never reported as a
+    name to confirm. It is reported only when a persona-device verb sits within
+    range, which is the case this guard exists for and the case the full-name
+    regex could not see: "as Hall put it in their review of this chapter" names
+    nobody the old pattern matched.
+
+    Two-token surnames and particles are kept whole so that "van Dijk" does not
+    match on "Dijk" alone. Surnames of four characters or fewer are dropped, which
+    loses any persona surnamed Ng or Sen and is the price of not matching every
+    occurrence of "Bell" and "Ross" in the bibliography.
+
+    Measured at the window sizes 40/60/80/120/200 the advisory list runs
+    0/2/2/3/4 across 392 files, so the collision this pass looks for is rare. The
+    window is 60 to match the full-name pass rather than to hit a target."""
+    surs = set()
+    for n in names:
+        toks = n.split()
+        i = 1
+        while i < len(toks) - 1 and PARTICLE.match(toks[i]):
+            i += 1
+        surs.add(" ".join(toks[i:]) if i < len(toks) - 1 else toks[-1])
+    surs = {s for s in surs if len(s) > 3}
+    if not surs:
+        return None
+    return re.compile(r"\b(?:%s)\b"
+                      % "|".join(re.escape(s) for s in
+                                 sorted(surs, key=len, reverse=True)))
+
+
+def scan(paths, rx, hard_zone, surname_rx=None):
+    hard, warn, read = [], [], []
+    seen_hard = set()
     for p in paths:
         try:
             with open(p, encoding="utf-8", errors="replace") as f:
                 lines = f.readlines()
         except (IsADirectoryError, FileNotFoundError):
             continue
+        rel = os.path.relpath(p, common.REPO)
         for i, line in enumerate(lines, 1):
             for m in rx.finditer(line):
-                rec = (os.path.relpath(p, common.REPO), i, m.group(0), line.strip()[:120])
+                rec = (rel, i, m.group(0), line.strip()[:120])
                 if hard_zone(p):
                     hard.append(rec)
+                    seen_hard.add((rel, i))
                 else:
                     ctx = " ".join(lines[max(0, i - 2):i + 1])
                     lo = max(0, m.start() - 60)
                     near = line[lo:m.end() + 60]
-                    (hard if (ATTRIB.search(near) or ATTRIB.search(ctx)) else warn).append(rec)
-    return hard, warn
+                    if ATTRIB.search(near) or ATTRIB.search(ctx):
+                        hard.append(rec)
+                        seen_hard.add((rel, i))
+                    else:
+                        warn.append(rec)
+            # Surname alone: advisory, and deliberately not a hard failure. See
+            # build_surname_regex and the READ note in main for why.
+            if surname_rx is None:
+                continue
+            for m in surname_rx.finditer(line):
+                if (rel, i) in seen_hard:
+                    continue
+                near = line[max(0, m.start() - 60):m.end() + 60]
+                if ATTRIB.search(near):
+                    read.append((rel, i, m.group(0), near.strip()[:120]))
+                    break
+    return hard, warn, read
 
 
 def main():
@@ -158,21 +224,40 @@ def main():
             for dp, dn, fn in os.walk(os.path.join(common.REPO, root)):
                 dn[:] = [d for d in dn if d not in ("reports", "previous", "__pycache__")]
                 paths += [os.path.join(dp, f) for f in fn
-                          if f.endswith((".txt", ".tex", ".md", ".tsv", ".py", ".sh"))]
+                          if f.endswith((".txt", ".tex", ".md", ".tsv", ".py",
+                                         ".sh", ".bib"))]
 
     names = persona_names()
     rx = build_regex(names)
+    surname_rx = build_surname_regex(names)
     if rx is None:
         sys.exit("no persona names loaded; refusing to pass vacuously")
-    hard, warn = scan(paths, rx, hard_zone)
+    hard, warn, read = scan(paths, rx, hard_zone, surname_rx)
 
     print("names_guard: %d persona names loaded, %d files scanned" % (len(names), len(paths)))
+    print("  full names in both orders, gating; surnames alone, advisory")
     if warn:
         print("\nNAMES TO CONFIRM AS CITATIONS (not violations): %d" % len(warn))
         for r in warn[:40]:
             print("  %s:%d  %s | %s" % r)
         if len(warn) > 40:
             print("  ... %d more" % (len(warn) - 40))
+    if read:
+        # WHY THIS IS NOT A FAILURE. A surname is far likelier than a full name
+        # to sit beside an ATTRIB verb innocently, because ATTRIB's vocabulary
+        # overlaps ordinary research prose: "scored", "rated", "ranked",
+        # "assigned to". Wiring these into the hard zone produced 21 failures on
+        # first run, every one a citation -- among them a sentence about an audit
+        # in which "gender was scored as female or male". This guard runs in the
+        # pre-commit hook, so a false failure here blocks every commit. The
+        # surname pass therefore reports and does not gate.
+        print("\nSURNAME BESIDE A PERSONA-DEVICE VERB -- READ THESE: %d" % len(read))
+        print("  Advisory, not failures. A surname alone is not evidence; what")
+        print("  makes one worth reading is the verb next to it.")
+        for r in read[:40]:
+            print("  %s:%d  %s | %s" % r)
+        if len(read) > 40:
+            print("  ... %d more" % (len(read) - 40))
     if hard:
         print("\nFAIL: %d name(s) credited with participating in this project" % len(hard))
         for r in hard[:40]:

@@ -12,10 +12,20 @@ and both produce a page that is merely wrong rather than broken.
   2. The ASCII dash runs `--` and `---`. The manuscript's dashes are the
      characters themselves, 785 em and 1 en, and mixing the two notations
      sets the same dash two different widths on the same page.
+  3. The TeX quote notation ``like this''. It sets the right glyphs, so the
+     page is correct and the source is inconsistent with the 894 curly pairs
+     around it, and a later sweep by character misses it.
+
+Rule 3 was in `BIB_RULES` only from D-295 to D-381 while the success line claimed
+it of the sections too, and three pairs sat unseen in `06_04.tex`, `09_01.tex` and
+`10_03.tex` for that whole time. Anything added to one list and not the other is
+the same defect again; the success line below is generated from the rules rather
+than written out, so it cannot drift from them a second time.
 
 `refs.bib` is checked too, because its `title` and `note` fields print in the
 References and had 142 straight quotes of their own. The one `\"` in the file is
-a diaeresis on a name, not a quotation mark, and is allowed for.
+a diaeresis on a name, not a quotation mark, and is allowed for. It takes the
+quote rules and not the dash ones, which is why there are two lists at all.
 
 Straight apostrophes are correct and are NOT checked: LaTeX sets `'` as `’`,
 which is the right glyph, and the manuscript's 894 of them print properly.
@@ -29,6 +39,8 @@ import common  # noqa: E402
 
 RULES = [
     ('"',   'straight double quote -- LaTeX sets it as a closing mark; use “ and ”'),
+    ('``',  'TeX quote notation -- write the characters “ and ”'),
+    ("''",  'TeX quote notation -- write the characters “ and ”'),
     ('---',  'ASCII em dash -- write the character —'),
     ('--',   'ASCII en dash -- write the character –'),
 ]
@@ -75,7 +87,20 @@ def main():
             print("  %s:%d  %s" % (path, lineno, why))
             print("      ...%s..." % ctx)
         sys.exit(1)
-    print("  typography OK: no straight quotes, no ASCII dashes, no TeX quote notation")
+    # Named from the rules actually applied, so the line cannot claim a check
+    # that is not run -- which is what it did from D-295 to D-381.
+    both = [why.split(" -- ")[0] for bad, why in RULES
+            if any(bad == b for b, w in BIB_RULES)]
+    secs_only = [why.split(" -- ")[0] for bad, why in RULES
+                 if not any(bad == b for b, w in BIB_RULES)]
+    bib_only = [why.split(" -- ")[0] for bad, why in BIB_RULES
+                if not any(bad == b for b, w in RULES)]
+    print("  typography OK")
+    print("    sections and refs.bib: no %s" % ", no ".join(sorted(set(both))))
+    if secs_only:
+        print("    sections only: no %s" % ", no ".join(sorted(set(secs_only))))
+    if bib_only:
+        print("    refs.bib only: no %s" % ", no ".join(sorted(set(bib_only))))
 
 
 if __name__ == "__main__":
