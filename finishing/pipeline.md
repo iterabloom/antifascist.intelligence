@@ -283,6 +283,18 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    proof status at D-399 — so it is a step and not a reminder. The page count,
    the word count and the commit the pair was built from all live in that lead.
 
+   **And check for a sentence that was already false before the build**, which
+   this step as first written does not reach. At D-404 the live lead carried
+   *two* proof-status sentences four apart: D-402's correct one, and D-393's
+   *the committed pair is current*, naming a pair deleted that morning at a page
+   count two builds old. It had been false for ten passes and step 6 had run
+   twice in between, both times looking only for what the build had just
+   changed. **The rule is one live proof-status sentence in the lead. Where
+   there are two naming different pairs or different page counts, the older is
+   false** — `grep -c 'pair is current' ` on the live lead answers it, and
+   the live lead is everything above the first `**Superseded lead, kept for the
+   record.**`, about four percent of the file.
+
 Step 5 is why it is two commits. A megabyte of rebuilt proof in the same commit
 as the prose that changed makes the prose unreadable in the diff, which is the
 cost D-068 named and `.gitattributes` only partly pays down.
