@@ -8,13 +8,25 @@ r"""Structural invariants for manuscript/sections and the ledger.
      of anything. Refresh with tools/refresh_order_shas.py.
   1. every section file opens with its own heading command and \label, the
      filename's number matches the label's number, and the heading's title
-     matches ORDER.tsv's title column. Since D-065 the .tex heading is what
-     is typeset, so ORDER.tsv is now the copy that can go stale rather than
-     the other way round; it is still checked, because gen_book.py and the
-     TOC are generated from it.
+     matches ORDER.tsv's title column. Two D-406 exemptions, both counted in
+     the output so the number of exempt files is visible rather than implied:
+     a file with a **named** label (`ch:custody`, a new chapter whose printed
+     number will move again) has no number in its label to compare, and a
+     **continuation** row -- empty `num`, a file with no heading that prints
+     under the heading before it -- has no heading, title or number at all.
+     For the other 88 files the chain filename -> label -> ORDER.tsv num is
+     checked exactly as it was; what `num` no longer claims is the number
+     LaTeX prints, which `headings.py` computes and the TOC carries.
+     Since D-065 the .tex heading is what is typeset, so ORDER.tsv is the copy
+     that can go stale rather than the other way round; it is still checked,
+     because gen_book.py generates the \input list from it.
   2. the heading set equals finishing/outline.tsv (numbers), with title
      differences reported (not fatal; the manuscript text wins)
-  3. sorted(glob) order == ORDER.tsv numeric order
+  3. the set of .tex files on disk == the set ORDER.tsv lists. This was an
+     ORDER-ORDER comparison until D-406, when the restructure separated a
+     file's identity from its position: reading order is now ORDER.tsv's `seq`
+     column, so sorted(glob) has no reason to reproduce it and the invariant
+     that is left is that neither side has a file the other does not.
   4. LaTeX environments are balanced and correctly nested within each file
   5. ledger.tsv (if present) has exactly one row per section
 """
@@ -32,31 +44,43 @@ ENV = re.compile(r"\\(begin|end)\{([A-Za-z*]+)\}")
 
 def main():
     errs, notes = [], []
+    continuations = named_labels = 0
     order_path = os.path.join(common.SECTIONS, "ORDER.tsv")
     if not os.path.exists(order_path):
         sys.exit("no ORDER.tsv; run split_manuscript.py")
-    _, rows = common.read_tsv(order_path)
-    rows.sort(key=lambda r: common.numkey(r["num"]))
+    rows = common.order_rows()
 
-    files = sorted(glob.glob(os.path.join(common.SECTIONS, "ch*", "*.tex")))
-    if files != [os.path.join(common.REPO, r["path"]) for r in rows]:
-        errs.append("sorted(glob) order != ORDER.tsv numeric order")
+    files = set(glob.glob(os.path.join(common.SECTIONS, "ch*", "*.tex")))
+    listed = set(os.path.join(common.REPO, r["path"]) for r in rows)
+    for f in sorted(files - listed):
+        errs.append("%s is on disk and not in ORDER.tsv" % os.path.relpath(f, common.REPO))
+    for f in sorted(listed - files):
+        errs.append("%s is in ORDER.tsv and not on disk" % os.path.relpath(f, common.REPO))
 
     for r in rows:
+        h = None
         p = os.path.join(common.REPO, r["path"])
         with open(p, encoding="utf-8", newline="") as f:
             lines = f.readlines()
         if not lines:
             errs.append("%s is empty" % r["path"])
             continue
-        h = common.tex_heading(lines)
-        if not h:
-            errs.append("%s: does not open with a heading command and \\label: %r"
-                        % (r["path"], lines[0][:60]))
-            continue
-        if h[0] != r["num"]:
-            errs.append("%s: heading number %s != ORDER.tsv %s" % (r["path"], h[0], r["num"]))
-        if h[1] != r["title"]:
+        if not r["num"]:
+            # A continuation: no heading, no identity, no title. Its contents are
+            # still digested and its environments still have to balance, so the
+            # checks below this block run; the heading checks cannot.
+            continuations += 1
+        else:
+            h = common.tex_heading(lines)
+            if not h:
+                errs.append("%s: does not open with a heading command and \\label: %r"
+                            % (r["path"], lines[0][:60]))
+                continue
+            if not re.search(r"\d", h[0]):
+                named_labels += 1      # ch:custody and the like; nothing to compare
+            elif h[0] != r["num"]:
+                errs.append("%s: heading number %s != ORDER.tsv %s" % (r["path"], h[0], r["num"]))
+        if h and h[1] != r["title"]:
             # Before D-065 the built book took its titles from ORDER.tsv, so a
             # mismatch shipped a stale title with check_all.sh green (found
             # twice: D-024/10.2's 55 titles, then 2.3.3/3.3.1/7.2.3 at P6).
@@ -72,7 +96,7 @@ def main():
                             "run tools/refresh_order_shas.py"
                             % (r["path"], r["sha256"][:12], digest[:12]))
         stem = os.path.basename(p)[:-4].replace("_", ".")   # .tex is 4 chars too
-        if tuple(int(x) for x in stem.split(".")) != common.numkey(r["num"]):
+        if r["num"] and re.match(r"^\d", stem) and common.numkey(stem) != common.numkey(r["num"]):
             errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))
         stack = []
         for i, line in enumerate(lines, 1):
@@ -94,7 +118,7 @@ def main():
 
     _, ol = common.read_tsv(common.OUTLINE_TSV)
     ol_map = {r["num"]: r["title"] for r in ol}
-    ms_map = {r["num"]: r["title"] for r in rows}
+    ms_map = {r["num"]: r["title"] for r in rows if r["num"]}
     if set(ol_map) != set(ms_map):
         errs.append("heading numbers differ from outline.tsv: only-sections=%s only-outline=%s"
                     % (sorted(set(ms_map) - set(ol_map)), sorted(set(ol_map) - set(ms_map))))
@@ -114,7 +138,9 @@ def main():
     else:
         notes.append("ledger.tsv not present yet")
 
-    print("check_structure: %d sections" % len(rows))
+    print("check_structure: %d files (%d with a heading, %d continuations); "
+          "%d named labels exempt from the number comparison"
+          % (len(rows), len(rows) - continuations, continuations, named_labels))
     for n in notes:
         print("  note: %s" % n)
     if errs:

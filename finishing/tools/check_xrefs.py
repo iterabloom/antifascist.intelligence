@@ -32,8 +32,11 @@ import sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ORDER = os.path.join(ROOT, 'manuscript/sections/ORDER.tsv')
 
-REF = re.compile(r'\\ref\{sec:([^}]*)\}')
-LABEL = re.compile(r'\\(?:label|unnumberedlabel)\{sec:([^}]*)\}')
+# D-406: new chapters carry named ch: labels, so a reference to one has to be
+# resolved here too. Without this the prefix was invisible and a \ref{ch:typo}
+# would have reached the build unchecked.
+REF = re.compile(r'\\ref\{(?:sec|ch):([^}]*)\}')
+LABEL = re.compile(r'\\(?:label|unnumberedlabel)\{(?:sec|ch):([^}]*)\}')
 # A number still typed into the prose, with a reference word in front of it.
 BARE = re.compile(r'(?:[Ss]ections?|[Cc]hapters?|§)\s*(\d{1,2}(?:\.\d{1,2}){0,2})(?![\d])')
 MASK = re.compile(r'\\(?:label|unnumberedlabel|ref|autocite|cite|input|addcontentsline)\*?\{[^}]*\}')

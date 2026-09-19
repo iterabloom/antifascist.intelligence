@@ -9,7 +9,7 @@ run "structure: headings, order, environments, ledger parity" python3 finishing/
 run "sections.tex is generated output, and current" python3 finishing/tools/gen_book.py --check
 run "TOC is generated output, and current" python3 finishing/tools/headings.py --check
 run "cross-references: resolve, and prefixed" python3 finishing/tools/check_xrefs.py
-run "label names are the numbers LaTeX prints" python3 finishing/tools/check_numbers.py
+run "labels are unique, and no pinned number collides" python3 finishing/tools/check_numbers.py
 run "typography: quotes and dashes are the characters" python3 finishing/tools/check_typography.py
 run "named-persons guard" python3 finishing/tools/names_guard.py
 run "bibliography ledger, and the draft-status macros it generates" python3 finishing/tools/refs_ledger.py --check

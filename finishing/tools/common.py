@@ -21,7 +21,11 @@ SECTION_RE = re.compile(r"^(\d+(?:\.\d+)+)\.\s+(.+)$")
 TEX_HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?\{(.*)\}\s*$")
 # \label for numbered sections; \unnumberedlabel for the starred front and
 # back matter, which pins the printed value (see preamble.tex).
-TEX_LABEL_RE = re.compile(r"^\\(?:label|unnumberedlabel)\{sec:([\d.]+)\}")
+# D-406: the prefix may be sec: or ch:, and the name need not be a number.
+# The restructure retains legacy sec:N labels on files whose printed number has
+# moved, and gives new chapters named ch: labels, so a label name is an identity
+# and not a claim about what LaTeX prints. printed_headings() computes the number.
+TEX_LABEL_RE = re.compile(r"^\\(?:label|unnumberedlabel)\{(?:sec|ch):([^}]+)\}")
 
 
 def parse_heading(line):
@@ -41,7 +45,19 @@ def parse_heading(line):
 
 
 def numkey(num):
-    return tuple(int(p) for p in num.split("."))
+    """Sort key for a section number, tolerant of a trailing letter.
+
+    D-406 added the letter form: `3.8a` is a section cut out of 3.8 that keeps
+    its relation to it in the filename and the label, and it has to sort
+    immediately after 3.8 rather than crash. Each dotted part becomes
+    (0, int, suffix), so 3.8 < 3.8a < 3.9, and a part with no leading digit at
+    all sorts after every numbered one.
+    """
+    out = []
+    for p in num.split("."):
+        m = re.match(r"^(\d+)(.*)$", p)
+        out.append((0, int(m.group(1)), m.group(2)) if m else (1, 0, p))
+    return tuple(out)
 
 
 def level(num):
@@ -72,12 +88,81 @@ def tex_heading(lines):
     return None
 
 
+def order_rows():
+    """ORDER.tsv's rows in reading order.
+
+    Reading order is the `seq` column when ORDER.tsv has one, and numeric `num`
+    order otherwise. Before D-406 the two were the same thing: `num` was both a
+    file's identity and its position, so sorting by it reproduced the book. The
+    restructure separates them -- a file keeps the `num` its filename, its label
+    and the ledger know it by, while its position moves -- and nothing can be
+    derived from `num` about where a file sits any more.
+
+    A row with an empty `num` is a **continuation**: a file with no heading of
+    its own, printing under the heading before it. It has no identity, no ledger
+    row and no outline row, and it is placed by `seq` alone.
+    """
+    header, rows = read_tsv(os.path.join(SECTIONS, "ORDER.tsv"))
+    if "seq" in header:
+        rows.sort(key=lambda r: int(r["seq"]))
+    else:
+        rows.sort(key=lambda r: numkey(r["num"]))
+    return rows
+
+
+HEAD_RE = re.compile(r"^\\(chapter|section|subsection|subsubsection)(\*?)\s*\{(.*)\}\s*$")
+UNNUM_RE = re.compile(r"^\\unnumberedlabel\{(?:sec|ch):([^}]+)\}\{([^}]*)\}")
+LEVELS = {"chapter": 0, "section": 1, "subsection": 2, "subsubsection": 3}
+
+
+def printed_headings():
+    """[(printed_number, title, path, lineno, numbered)] for every heading in the TOC.
+
+    `numbered` is False for a starred heading whose value is pinned with
+    \\unnumberedlabel -- the Foreword and the glossary. Those print no number,
+    so they must not be mistaken for chapters LaTeX numbers; conflating the two
+    is what made check_numbers.py report a collision against itself at D-406.
+
+    Simulates LaTeX's chapter/section/subsection counters over the files in
+    reading order, so the number is the one that will be typeset. A starred
+    heading prints nothing and increments nothing; it appears here only if the
+    file pins a value with \\unnumberedlabel, in which case that value is used.
+    This is what the table of contents is generated from (D-406). Before then the
+    TOC took its numbers from each file's label name, which was the printed
+    number only while the two could not diverge.
+    """
+    out, counters = [], [0, 0, 0, 0]
+    for r in order_rows():
+        path = os.path.join(REPO, r["path"])
+        rel = os.path.relpath(path, REPO)
+        with open(path, encoding="utf-8") as fh:
+            lines = fh.readlines()
+        pending_star_title = None
+        for i, line in enumerate(lines, 1):
+            m = HEAD_RE.match(line.rstrip("\n"))
+            if m:
+                kind, star, title = m.group(1), m.group(2), m.group(3).strip()
+                if star:
+                    pending_star_title = title
+                    continue
+                lvl = LEVELS[kind]
+                counters[lvl] += 1
+                for d in range(lvl + 1, 4):
+                    counters[d] = 0
+                num = ".".join(str(counters[d]) for d in range(lvl + 1))
+                out.append((num, title, rel, i, True))
+                continue
+            u = UNNUM_RE.match(line.rstrip("\n"))
+            if u and pending_star_title is not None:
+                out.append((u.group(2), pending_star_title, rel, i, False))
+                pending_star_title = None
+    return out
+
+
 def section_headings():
     """[(num, title, path)] for every section, in ORDER.tsv order."""
-    _, rows = read_tsv(os.path.join(SECTIONS, "ORDER.tsv"))
-    rows.sort(key=lambda r: numkey(r["num"]))
     out = []
-    for r in rows:
+    for r in order_rows():
         p = os.path.join(REPO, r["path"])
         with open(p, encoding="utf-8") as f:
             head = [f.readline() for _ in range(4)]

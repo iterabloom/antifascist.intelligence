@@ -34,11 +34,21 @@ def toc_expected(ms):
 def main():
     # Since D-065 the section .tex files are the source; there is no joined
     # reference text to read headings out of any more.
-    heads = common.section_headings()
+    # D-406: the numbers here are COMPUTED, by simulating LaTeX's counters over
+    # the files in reading order, and are no longer read off each file's label
+    # name. Those were the same value until the restructure separated a file's
+    # identity from its position; now a file labelled sec:3.3 can print 6.1, and
+    # the TOC has to carry what a reader will see. It also means this check is
+    # what now catches D-296's bug -- a stray extra heading shifts every number
+    # under it, the generated TOC changes, and --check fails.
+    heads = common.printed_headings()
     src = "manuscript/sections/**.tex"
     ms = [(i, n, ttl, common.heading_line(n, ttl))
-          for i, (n, ttl, _) in enumerate(heads, 1)]
-    ms_map = {n: ttl for n, ttl, _ in heads}
+          for i, (n, ttl, _p, _l, _nb) in enumerate(heads, 1)]
+    ms_map = {n: ttl for n, ttl, _p, _l, _nb in heads}
+    # Identities, for the outline comparison, which is about which sections exist
+    # rather than about what they print.
+    ident_map = {r["num"]: r["title"] for r in common.order_rows() if r["num"]}
 
     # The TOC is generated output (D-011). --check enforces that; --write-toc
     # produces it. Both run before the report below, so the report describes the
@@ -92,14 +102,16 @@ def main():
              ""]
 
     dups = sorted({n for n in ms_map if [x[1] for x in ms].count(n) > 1})
+    # Two headings printing the same number is the D-296 shape; it cannot happen
+    # while the counters are simulated, but a duplicate would show here first.
     lines += ["## Duplicate numbers in the manuscript", "",
               ("none" if not dups else ", ".join(dups)), ""]
 
     lines += ["## Manuscript vs outline (the authoritative pair)", ""]
-    only_ms = sorted(set(ms_map) - set(ol_map), key=common.numkey)
-    only_ol = sorted(set(ol_map) - set(ms_map), key=common.numkey)
-    diff_title = [(n, ms_map[n], ol_map[n]) for n in sorted(set(ms_map) & set(ol_map), key=common.numkey)
-                  if ms_map[n] != ol_map[n]]
+    only_ms = sorted(set(ident_map) - set(ol_map), key=common.numkey)
+    only_ol = sorted(set(ol_map) - set(ident_map), key=common.numkey)
+    diff_title = [(n, ident_map[n], ol_map[n]) for n in sorted(set(ident_map) & set(ol_map), key=common.numkey)
+                  if ident_map[n] != ol_map[n]]
     lines += ["- only in manuscript: %s" % (", ".join(only_ms) or "none"),
               "- only in outline: %s" % (", ".join(only_ol) or "none"),
               "- same number, different title: %d" % len(diff_title), ""]
@@ -120,11 +132,13 @@ def main():
     lines.append("")
 
     empty = []
-    for num, _, path in heads:
+    for r in common.order_rows():
+        num, path = (r["num"] or r["path"]), r["path"]
         with open(os.path.join(common.REPO, path), encoding="utf-8") as f:
             body = f.read().splitlines()
         # drop the heading command, its optional \addcontentsline, and \label
-        rest = [l for l in body[1:] if l.strip()
+        start = 0 if not r["num"] else 1      # a continuation has no heading line
+        rest = [l for l in body[start:] if l.strip()
                 and not l.startswith(("\\label{", "\\addcontentsline{"))]
         if not rest:
             empty.append(num)
