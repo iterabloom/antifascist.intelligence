@@ -242,17 +242,42 @@ def tex_prose_line(line, unknown=None):
 
 
 def tex_sections_of(lines, unknown=None):
-    """Walk a .tex section file once; return (prose_paragraphs, structure).
+    r"""Walk a .tex section file once; return (prose_paragraphs, structure).
 
     prose_paragraphs is a list of rendered non-empty paragraphs, epigraphs
     excluded. structure counts the things the dialect-era columns used to
     count, in their LaTeX form.
+
+    PARAGRAPHS, NOT LINES (D-384). Until then this appended one entry per
+    non-empty prose line, so a paragraph written across several lines counted
+    several times: 21 of 89 section files hold hard-wrapped prose and
+    section_stats.py's `paras` column was inflated by 359 across the manuscript,
+    section 9.1 by 59 and section 6.4.1 by 51 against a true 19 (D-344). Words
+    were never affected, the sum over lines being the sum over paragraphs, but
+    every caller that runs a sentence splitter over an entry was splitting
+    sentences at line breaks.
+
+    A paragraph ends at a blank line, at a heading, at an epigraph, at a
+    \runin head, and at each \item. The \runin case is not cosmetic: the head
+    sits on its own line with the paragraph beginning on the next one and no
+    blank between them, so joining them would make the label the first words of
+    the first sentence -- the same trap epigram.py records at section 11.3.
     """
     st = {"list_items": 0, "boxes": 0, "epigraphs": 0, "runins": 0,
           "refs": 0, "cites": 0}
     paras, envs = [], []
+    buf = []
+
+    def flush():
+        if buf:
+            paras.append(" ".join(buf))
+            del buf[:]
+
     for raw in lines:
         line = raw.rstrip("\n")
+        if not line.strip():
+            flush()
+            continue
         st["refs"] += len(_TEX_REF.findall(line))
         st["cites"] += len(re.findall(r"\\autocite\{", line))
         st["runins"] += len(re.findall(r"\\runin\{", line))
@@ -269,13 +294,22 @@ def tex_sections_of(lines, unknown=None):
                 envs.pop()
         if any(e in TEX_QUOTE_ENVS for e in envs) or \
            any(e in TEX_QUOTE_ENVS for e in opened):
+            flush()
             continue                      # epigraph: not the author's words
         if re.match(r"^\\(chapter|section|subsection)\*?\{", line) or \
            re.match(r"^\\(label|unnumberedlabel|addcontentsline)", line):
+            flush()
             continue                      # the heading and its machinery
         if re.match(r"^\s*\\item\b", line):
             st["list_items"] += 1
+            flush()                       # each item is its own block
+        runin = line.lstrip().startswith("\\runin{")
+        if runin:
+            flush()                       # the head is not the paragraph's first words
         text = tex_prose_line(line, unknown).strip()
         if text:
-            paras.append(text)
+            buf.append(text)
+        if runin:
+            flush()
+    flush()
     return paras, st

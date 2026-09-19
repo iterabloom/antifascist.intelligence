@@ -17,6 +17,20 @@ The word count is the words a reader reads: epigraphs are excluded as
 third-party text, citations are apparatus and do not count, a reference
 counts as the one number it prints, and run-in heads and box titles count
 because they are read.
+
+The `paras` column counts blocks, and a run-in head is a block. Prose
+paragraphs are `paras` minus `runins`. Until D-384 the column was a line count
+and read 1,527 against a true 1,114, inflated by 413 across the 28 files that
+hold hard-wrapped prose (D-344 measured 359 across 21 files, on a smaller book).
+The word count did not change by a single word when this was fixed, the sum over
+lines being the sum over paragraphs, which is the check that the repair touched
+the grouping and nothing else.
+
+D-344 also put section 6.4.1's true paragraph count at 19. That figure was a
+hand estimate and is wrong: the section has 21 blocks, of which 1 is a run-in
+head, and the estimate merged the opening paragraph into the heading's block
+because the heading, its label and the first paragraph sit on consecutive lines
+with no blank line between them.
 """
 import glob
 import os
