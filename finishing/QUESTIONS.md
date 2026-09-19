@@ -1496,6 +1496,47 @@ read**, the same shape as D-391's *an exit status is not evidence a report was w
 the wrong inference is the measurement: **2,659 words in 11 list environments across 9 files, 2.9
 percent of the section files**, the largest \S\,2.2 at 687 words and \S\,3.6 at 655.
 
+**Three candidates from 2026-09-18 (D-398), deliberately not numbered, because none has been ruled on
+and the count in this entry should mean instances the author has seen.** All three are in the fifth
+author paste, applied as supplied.
+
+**The strongest.** \S\,12.3's rebuilt close says *this book has established two things toward that and
+proposed three*, and gives the two as *it has established that an operator can defeat a safeguard* and
+*it has stated what a refusal would have to do*. **The Foreword's own grading, added at D-396, calls
+the second a specification and not something established.** The grouping is right and both claims *do
+not depend on how the rest comes out*, which is the close's own next sentence; what is doing double
+duty is *established*, evidential for one claim and constitutive for the other, in the book's last
+paragraph one chapter after the Foreword separated them.
+
+**The second.** \S\,12.3's list of what such a party would be owed includes *a record it controls*.
+The book proposes a record the **operator** cannot rewrite: \S\,11.3 wants the register held *where no
+party to the deployment can rewrite it*, and the bearer is a party to the deployment; \S\,3.5's custody
+list gives *a sequential, witnessed record of changes and interruptions* to *a quorum whose members are
+adverse in interest*. The nearest thing the book actually proposes is \S\,11.3's *an identifier it
+maintains rather than one read off its weights*. *A record its employer cannot rewrite* would match both
+the book and the list's own parallelism. **Not a clean instance**, because being owed a record and that
+record being evidence are different functions and \S\,3.5's argument bears on the second only.
+
+**The third and weakest.** \S\,3.9's new defensive paragraph ends *it is not a reason to prefer the
+route, and this book has not supplied one*, while \S\,3.3's closing paragraph says of the multi-origin
+induction that *what it does is route engineering effort, with more warrant than a single lineage would
+give it*. Routing effort with warrant is close to a reason to prefer the route. The distinction may be
+the intended one, Replacement ordering the substitutes first while the induction says where effort goes
+if they fail, but the flat negative about the whole book is this class's shape.
+
+**One trap in three forms in two days, and this is the third.** The instruments' reports are **views**,
+and a grep tests the view rather than the text. D-391: *an exit status is not evidence a report was
+written; the mtime is.* D-397: *absence from a report of pairs is not evidence the text was not read* —
+`hedge_pairs.tsv` holds only scored pairs, so an unhedged absolute never appears. **D-398: absence of a
+string from a truncated column is not evidence the text was not scored.** `redundancy_paragraphs.tsv`
+truncates `a_text` and `b_text` to **150 characters**, and one of the three probes D-396 used to
+establish that the author's deliberate redundancy was invisible looked for text beginning at **offset
+690 of an 813-character paragraph**. **That probe could not have matched either way.** Re-tested by each
+paragraph's opening, which is what the column holds, the conclusion stands — but it stood on one probe
+that did not test it. `hedge_pairs.tsv`'s assertion column runs to 492 characters, so the same grep was
+valid there and invalid here, which is why the error was not obvious. **Probe a report by what its
+columns contain, and read the writer before trusting a zero.**
+
 ---
 
 ### Q-044 — The floor is in the weights and the system is an assembly
