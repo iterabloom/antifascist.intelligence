@@ -1,5 +1,12 @@
 # Open questions
 
+**Current as of 2026-09-18, after D-393: one entry updated, and for the first time it carries an instance nobody repaired.**
+
+**Q-043 is at sixteen instances, and the sixteenth is open.** Group B of the author's four-outcomes feedback narrowed \S\,3.3 — the marks require one scale, and the system's own states being denominated on it is the route's proposal — while \S\,11.3's fourth subsection still says *commensurability needs the system's own state on the scale*, and concedes the opposite four sentences later in the same paragraph, and concedes it again in its Evidence paragraph. **`hedge_pairs.py` found it and ranked it first in that section**, at 0.155; it is the second instance the instrument found rather than a reader. **It is not repaired**, because narrowing the clause makes *Three of those are required by arguments that owe nothing to welfare* false of the first of the three, and whether that sentence keeps its count or changes its verb is a decision about how the route is presented. **So D-381's *none of the fifteen is outstanding* no longer holds.**
+
+**What was not checked, and it is still most of the file.** **Thirty-six of the thirty-eight open entries have still not been read against the current book.** Only Q-088 and Q-043 have been, and the four renumber maps and the missing map for the 132-to-89 cut stand where they stood at D-379. **Q-111 is still unsited**, at `00.tex:13`. Nothing in this pass changed either figure.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-18, after D-379: three entries closed, one re-checked and left open, one brought up to date with five instances it was missing — and this is the first entry opened or closed in this file since 2026-09-08.**
 
 **The distance was worse than the lead said.** The previous header put the file at D-302 and twelve passes unchecked. **It is 77 decisions**, D-302 to D-379, and the September 12 and 13 Overleaf returns plus the D-320 through D-376 work sit inside that gap. **Thirty-eight now open**, from forty-one.
@@ -1360,6 +1367,33 @@ tribunal has a proprietor* — the hard half of D-332 — is not what the tool m
 **Two patterns in the repairs matter more than the distribution.** **In four cases the honest version was already in another section and nothing was imported** — §11.6 and §4.1 against §3.8, §11.4 and §7.2 against §7.3, §2.1's own close against its frame, and the three *Trump v. Cook* sections being compatible with no sentence saying so — so the repair costs a pointer. **And in four of the five September cases the outside note's proposed repair was declined in favour of a different one.** A hit is worth reading and is not worth assuming is a five-minute edit.
 
 **The class stays open.** Fifteen instances, eleven passes, two methods that each reach one sub-shape, and one instance — the compute floor's — created by the repair of another.
+
+**Re-checked 2026-09-18 (D-393). Sixteen instances, and this one is the first that is outstanding.**
+Group B of the author's four-outcomes feedback narrowed \S\,3.3: the marks require **one scale**, and
+that the system's own states be denominated on it is the route's **proposal** and not a step in the
+derivation. \S\,11.3's fourth subsection still says the opposite, in its first paragraph:
+*Three of those are required by arguments that owe nothing to welfare: commensurability needs the
+system's own state on the scale the protected parties' losses come in* (\S\,3.3). **Four sentences
+later the same paragraph concedes it**: *What is a hypothesis is the link: that self-monitoring in this
+form generalizes to attention to other parties' losses, and that having the currency natively does
+better than modeling it.* And \S\,11.3's own Evidence paragraph takes the conceded side — *if the
+modeled-currency arm matches the native one, the currency argument for nociception survives, since the
+scale is still required, and the argument for having it natively does not.* **So the hard claim is
+contradicted twice inside its own subsection, and Group B makes \S\,3.3 the third site to disagree
+with it.**
+
+**`hedge_pairs.py` found it independently and ranked it first in that section**, at 0.155, pairing the
+two sentences named above. That is the second instance the instrument has found rather than a reader
+(D-380 was the first), and the first it has found in a section nobody was looking at.
+
+**Not repaired, and the reason is that the repair is not mechanical.** The clause can be narrowed —
+*commensurability needs one scale on which the protected parties' losses and the cost of refusing both
+register, and the route proposes the system's own state as what supplies it* — but then
+*Three of those are **required** by arguments that owe nothing to welfare* is no longer true of the
+first of the three, and whether the sentence keeps its count, changes *required* to *motivated*, or is
+restructured is a decision about how the route's argument is presented. **That is the author's.**
+**This is the first of the sixteen to stay open past the pass that found it**, which is a change to
+what this entry said at D-381: *none of the fifteen is outstanding*. One now is.
 
 ---
 

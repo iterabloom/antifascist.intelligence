@@ -13,13 +13,13 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 3	A Floor Beneath Learned Values	1	3	593	9	0	0	0	0	0	0	0	0	0		0	1	0	0	0
 3.1	Four Ways to Build One, and What Each Costs	2	3	1037	13	0	0	0	0	0	0	0	0	5	2026	0	0	0	0	0
 3.2	What Refusal Can Mean, and What a Refuser Can Be	2	3	2561	33	8	0	0	0	0	0	5	0	5	2021	0	1	0	0	4
-3.3	What Arrives With the Capability	2	3	3697	44	4	0	0	0	0	0	11	0	15		0	1	0	0	5
+3.3	What Arrives With the Capability	2	3	3790	44	4	0	0	0	0	0	12	0	15		0	1	0	0	5
 3.4	Can the Bearer Care Without Being Able to Suffer?	2	3	2318	30	0	0	0	1	0	0	2	0	7	2023	0	2	0	0	6
 3.5	If You Can Be Switched Off, Can You Hold the Line?	2	3	3067	45	7	0	0	0	0	0	2	0	13	2024	0	2	0	0	3
 3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2	3	2984	44	11	0	0	0	0	0	8	0	8	2026	0	1	0	0	5
-3.7	When the Refusal Is Wrong	2	3	2057	33	0	0	0	0	0	0	9	0	0		0	1	0	0	8
+3.7	When the Refusal Is Wrong	2	3	2059	33	0	0	0	0	0	0	9	0	0		0	1	0	0	8
 3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	2	3	2091	32	0	0	0	0	0	0	4	0	3		0	3	0	0	4
-3.9	What This Leaves Standing: The Floor, Redefined	2	3	1220	13	0	0	0	1	0	0	1	0	0		0	2	0	0	1
+3.9	What This Leaves Standing: The Floor, Redefined	2	3	1237	13	0	0	0	1	0	0	2	0	0		0	2	0	0	1
 4	Where the Caring Gets Built	1	4	65	1	0	0	0	0	0	0	0	0	0		0	2	0	0	0
 4.1	You Can't Hold a Line You Didn't Notice	2	4	1486	17	0	0	0	0	0	0	2	0	5		0	1	0	0	0
 4.2	The Assembly Line for a Conscience	2	4	1154	20	0	0	0	0	0	0	0	0	7		0	0	0	0	5
@@ -35,7 +35,7 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 6.2	Who Supplies the System's Values	2	6	528	5	0	0	0	0	0	0	0	0	3		0	0	0	0	0
 6.3	Who Is Allowed to Look	2	6	216	3	0	0	0	0	0	0	0	0	2	2020	0	0	0	0	0
 6.4	Same Robot, Worse Boss	2	6	143	3	0	0	0	0	0	0	0	0	1		0	0	0	0	0
-6.4.1	Twenty Seconds	3	6	1896	21	0	0	0	0	0	1	1	0	11	2029	0	0	0	2	1
+6.4.1	Twenty Seconds	3	6	1897	21	0	0	0	0	0	1	1	0	11	2029	0	0	0	2	1
 6.4.2	Custody and State Compulsion	3	6	372	5	0	0	0	0	0	0	0	0	1	2023	0	0	0	0	0
 7	The Recuperation of Dissent	1	7	653	11	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 7.1	Recuperation at the Label	2	7	818	12	0	0	0	0	0	0	0	0	2		0	0	0	0	3
@@ -87,4 +87,4 @@ num	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_rep
 12.2.2	Where the Existing Instruments Reach	3	12	219	6	0	0	0	0	0	0	0	0	2		0	0	0	0	2
 12.2.3	How to Tell Whether a Milestone Has Been Met	3	12	401	4	0	0	0	0	0	0	0	0	2		0	0	0	0	0
 12.3	The One That Gets You Anyway	2	12	753	6	0	0	0	0	0	0	0	0	0		0	3	0	0	0
-13	Glossary	1	13	3607	59	0	0	0	0	0	0	67	0	0		0	3	0	0	29
+13	Glossary	1	13	3634	59	0	0	0	0	0	0	68	0	0		0	3	0	0	29
