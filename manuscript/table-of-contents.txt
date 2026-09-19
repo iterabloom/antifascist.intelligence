@@ -1,5 +1,7 @@
 Chapter 0: Foreword
-Chapter 1: The Bearer: Our Fresh-Faced Protagonist
+Chapter 1: Twenty Seconds
+1.1. What a Refusal Would Have to Do
+1.2. Safe for Whom
 Chapter 2: The Striving and the Electricity Bill
 2.1. Six Theories and the Floor
 2.2. Antifascist Ethics for AI Alignment
@@ -47,7 +49,7 @@ Chapter 10: Neutralizing and Preventing Fascism in AI Development
 10.2. Who Supplies the System's Values
 10.3. Who Is Allowed to Look
 10.4. Same Robot, Worse Boss
-10.4.1. Twenty Seconds
+10.4.1. Subject or Component
 10.4.2. Custody and State Compulsion
 Chapter 11: The Recuperation of Dissent
 11.1. Recuperation at the Label

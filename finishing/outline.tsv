@@ -1,6 +1,8 @@
 num	title	level	parent
 0	Foreword	1	
-1	The Bearer: Our Fresh-Faced Protagonist	1	
+1	Twenty Seconds	1	
+1.1	What a Refusal Would Have to Do	2	1
+1.2	Safe for Whom	2	1
 2	The Striving and the Electricity Bill	1	
 2.1	Six Theories and the Floor	2	2
 2.2	Antifascist Ethics for AI Alignment	2	2
@@ -35,7 +37,7 @@ num	title	level	parent
 6.2	Who Supplies the System's Values	2	6
 6.3	Who Is Allowed to Look	2	6
 6.4	Same Robot, Worse Boss	2	6
-6.4.1	Twenty Seconds	3	6.3
+6.4.1	Subject or Component	3	6.3
 6.4.2	Custody and State Compulsion	3	6.3
 7	The Recuperation of Dissent	1	
 7.1	Recuperation at the Label	2	7
