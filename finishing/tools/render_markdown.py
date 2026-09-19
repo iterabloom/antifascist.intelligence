@@ -24,8 +24,9 @@ title page, the typeset bibliography. Citations survive as Pandoc-style keys
 preamble, the generated draft-status macros, and every section in ORDER.tsv
 order -- and finishing/refs.bib inside a filecontents block, with every file
 between START and END markers naming its path, so a passage can be traced back
-to the file that holds it. `--no-notes` strips the note field from every
-bibliography entry: 161 of the 229 carry one, and they are a tenth of the file.
+to the file that holds it. `--no-notes` strips both fields that print as a note
+in the References -- `note` and `addendum` -- from every bibliography entry.
+Of the 275 entries, 199 carry a `note` and 30 an `addendum`.
 
 Neither form carries the draft apparatus (D-335). The Markdown drops the
 PREPRINT status line it used to print at both ends, and the LaTeX writes the
@@ -293,11 +294,18 @@ def skip_value(s, i):
     return i
 
 
-NOTE_FIELD = re.compile(r"note[ \t]*=", re.IGNORECASE)
+NOTE_FIELD = re.compile(r"(?:note|addendum)[ \t]*=", re.IGNORECASE)
+# First letters NOTE_FIELD can start on, so the scan below can skip cheaply.
+NOTE_FIRST = "nNaA"
 
 
 def strip_notes(bib):
-    """Remove every entry-level note field. Returns (text, fields removed).
+    """Remove every entry-level note-like field. Returns (text, fields removed).
+
+    Two field names, not one: biblatex prints `note` AND `addendum` in the
+    References, verified against the built HTML. Stripping only `note` left 30
+    entries printing a note under a flag that said there would be none, 7 of
+    them carrying the agent-verification sentences D-385 relabelled.
 
     Depth is counted from the file, so `note` is recognized only where a field
     name can stand -- directly inside an entry -- and not inside a title or a
@@ -308,7 +316,7 @@ def strip_notes(bib):
     out, i, depth, removed = [], 0, 0, 0
     while i < len(bib):
         ch = bib[i]
-        if (depth == 1 and ch in "nN" and NOTE_FIELD.match(bib, i)
+        if (depth == 1 and ch in NOTE_FIRST and NOTE_FIELD.match(bib, i)
                 and not (i and (bib[i - 1].isalnum() or bib[i - 1] in "_-"))):
             j = skip_space(bib, bib.index("=", i) + 1)
             j = skip_value(bib, j)
@@ -517,8 +525,9 @@ def render_tex(root, rows, stem, drop_notes, provenance):
     ]
     if drop_notes:
         head += [
-            "%%%% Note fields stripped from %d of them (--no-notes): the References" % removed,
-            "%% print shorter here than in the book, and nothing else differs.",
+            "%%%% Note and addendum fields stripped, %d in all (--no-notes): the" % removed,
+            "%% References print shorter here than in the book, and nothing else",
+            "%% differs.",
         ]
     head += [
         "%%",
@@ -568,7 +577,8 @@ def main():
                     help="write the book as one compilable LaTeX file, "
                          "bibliography included, instead of Markdown")
     ap.add_argument("--no-notes", action="store_true",
-                    help="--tex only: strip the note field from every "
+                    help="--tex only: strip every field that prints as a note "
+                         "in the References -- note and addendum -- from every "
                          "bibliography entry")
     ap.add_argument("--out", help="output path "
                                   "(default: /tmp/<slug>_<date>.md, or .tex under --tex)")
@@ -602,12 +612,12 @@ def main():
                                             provenance)
         print("%d sections, %d bibliography entries%s, %d KB"
               % (len(rows), entries,
-                 ", %d note fields stripped" % removed if args.no_notes else "",
+                 ", %d note/addendum fields stripped" % removed if args.no_notes else "",
                  len(text.encode("utf-8")) // 1024), file=sys.stderr)
         if args.no_notes and not removed:
-            print("WARNING: --no-notes removed nothing; refs.bib has no note "
-                  "fields, or they are written in a shape strip_notes() does "
-                  "not recognize.", file=sys.stderr)
+            print("WARNING: --no-notes removed nothing; refs.bib has no note or "
+                  "addendum fields, or they are written in a shape "
+                  "strip_notes() does not recognize.", file=sys.stderr)
     else:
         labels = label_map(root, rows)
         body = []
