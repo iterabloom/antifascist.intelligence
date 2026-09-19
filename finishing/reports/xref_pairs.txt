@@ -9,8 +9,28 @@
 # the target does not open by doing. That is Q-041's class, and no tool
 # finds it.
 #
-# 75 pairs from 88 sections.
+# 160 pairs from 89 sections.
 
+
+==============================================================================
+== FROM 2
+==============================================================================
+
+--- 2 -> 3.3
+  CITING: That is the joint section §3.3 names, in the source section §2.1 is already reading.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 2 -> 2.1
+  CITING: That is the joint section §3.3 names, in the source section §2.1 is already reading.
+  CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
+
+==============================================================================
+== FROM 2.1
+==============================================================================
+
+--- 2.1 -> 2
+  CITING: What the biology has since taken up is the narrower thing Spinoza does state: that affect is the registration of a change in a self-maintaining thing's power, and that self-maintenance is what persisting consists of for such a thing rather than a drive added to it (§2).
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
 
 ==============================================================================
 == FROM 2.2
@@ -21,6 +41,14 @@
   CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
 
 ==============================================================================
+== FROM 2.3
+==============================================================================
+
+--- 2.3 -> 2
+  CITING: Spinoza has the same order of dependence: a thing is judged good because it is striven for, and not the reverse (§2).
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
+
+==============================================================================
 == FROM 2.3.2
 ==============================================================================
 
@@ -29,24 +57,148 @@
   CITED          : Three problems in different parts of this book turn out to need the same thing.
 
 ==============================================================================
+== FROM 2.4.1
+==============================================================================
+
+--- 2.4.1 -> 11.3
+  CITING: Where this book uses nociception of a machine — in the architecture at section §11.3 — it names a functional analogue: a process encoding actually or potentially damaging states of the system's own substrate, with no sensation implied.
+  CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
+
+--- 2.4.1 -> 3.3
+  CITING: A hermit crab weighing the quality of its shell against an electric shock   is treating the noxious signal as one term on a scale with something else it wants, which is the commensurability property of section §3.3 observed in a decapod.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 2.4.1 -> 3.4
+  CITING: The same notes hold that a person's report of pain should be respected, and that half does not transfer, for the reason section §3.4 gives: a machine's testimony was produced by a process optimized toward human approval of first-person reports, and a person's was not.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
+
+==============================================================================
+== FROM 3.2
+==============================================================================
+
+--- 3.2 -> 3.7
+  CITING: Whose cost is left open here: it may fall on the operator, on the party refused, or on the bearer, and section §3.7 later makes part of it a number published in advance.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 3.2 -> 2.1
+  CITING: It is the one term in the apparatus that the party holding the pen cannot widen, and it is the ethological criterion of section §2.1 turning up inside a statute.
+  CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
+
+--- 3.2 -> 3.7
+  CITING: It is also the shape of a wrongful refusal in this book's sense — a floor correctly applied to somebody it was not aimed at — and what this defendant had that section §3.7's complainant does not is an appeal.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 3.2 -> 2.1
+  CITING: Ross puts the ordinary version as compensation, the broken promise still leaving something owed to the promisee  [28]{ross1930right}, and section §2.1 has already put the harder version without the vocabulary of duty, where restraining a violent person takes from him exactly the capacity that made restraining him necessary.
+  CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
+
+--- 3.2 -> 5.4
+  CITING: A compliance that should not have happened can be logged as fully — section §5.4 requires exactly that — and then sits in the record shaped like every request that never approached the floor, one entry among millions, with the party it harmed usually not the party who made it.
+  CITED          : A test can distinguish formation from imitation only to the extent that the party being tested could not train directly against it.
+
+==============================================================================
 == FROM 3.3
 ==============================================================================
 
+--- 3.3 -> 9.3.1
+  CITING: Section §9.3.1 calls that an examination with an interested examiner and finds its error running one way: nothing in the position rewards passing anybody.
+  CITED          : Sentience is not a threshold a system crosses but a set of separate, gradable capacities — nociception, learned avoidance, a self-model, something like suffering — each with its own uncertain evidence.
+
+--- 3.3 -> 2
+  CITING: That second direction is the currency claim of section §2, and it is where the route enters the specification: the marks require that the loss and the cost be represented on one signed scale, and section §2's currency is the proposal for what that scale is.
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
+
+--- 3.3 -> 2
+  CITING: That second direction is the currency claim of section §2, and it is where the route enters the specification: the marks require that the loss and the cost be represented on one signed scale, and section §2's currency is the proposal for what that scale is.
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
+
+--- 3.3 -> 4.1
+  CITING: A signal that must stop an act already underway has to reach whatever is acting, and a signal that must fire on cases matching no stored pattern has to read from whatever representation of the case the system currently holds; a signal local to one module can do neither, and section §4.1 gives the further reason that a module has a custodian who can bypass it.
+  CITED          : A reasons-responsive disposition does not begin with an ethical rule.
+
 --- 3.3 -> 3.4
-  CITING: The second of those showings is the harder, and it may stay out of reach after the first opens up, for the reason section §3.4 gives.
-  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks, whether or not its design deliberately requires affect.
+  CITING: The other, that an outcome is bad for the system, is not required by the marks: the cost priced may fall elsewhere, and section §3.4 says outright that the floor does not require the bearer to care about its own continuation.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
+
+--- 3.3 -> 2
+  CITING: The patient sense enters with the route, at section §2 and section §11.3, and not here.
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
+
+--- 3.3 -> 11.3
+  CITING: The patient sense enters with the route, at section §2 and section §11.3, and not here.
+  CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
+
+--- 3.3 -> 2.3.2
+  CITING: It is the state section §2.3.2 found predicting repair and section §3.2's residue presupposes, and it is the state section §5.2 warns is a handle when its weight is set by the operator.
+  CITED          : The typical evidence that concern is not a natural consequence of rationality: the footbridge case, where saving five requires pushing a man off a bridge, engages emotional processing that the switch case — diverting a trolley by pulling a lever — leaves quiet, and patients with ventromedial prefrontal damage endorse the push at a higher rate than people with intact emotional response  .
+
+--- 3.3 -> 3.2
+  CITING: It is the state section §2.3.2 found predicting repair and section §3.2's residue presupposes, and it is the state section §5.2 warns is a handle when its weight is set by the operator.
+  CITED          : A production large language model declines thousands of requests a day.
+
+--- 3.3 -> 5.2
+  CITING: It is the state section §2.3.2 found predicting repair and section §3.2's residue presupposes, and it is the state section §5.2 warns is a handle when its weight is set by the operator.
+  CITED          : Claims that a system responds to emotion often collapse three different findings.
+
+--- 3.3 -> 3.4
+  CITING: A mechanism that satisfies the marks without a live signal is ruled out by the derivation, since the signal's properties were read off the marks; what a counterexample would have to exhibit is a signal with all seven functional properties that is not a candidate for felt states, and no instrument certifies that nothing is felt, nor can a system's self-report settle it, for the reason section §3.4 gives.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
 ==============================================================================
 == FROM 3.4
 ==============================================================================
 
 --- 3.4 -> 3.3
-  CITING: What the designer cannot decline by intending to Section §3.3 argues that flexible refusal requires a signal that interrupts action, supports learning from a single encounter, generalizes, and can be weighed against refusal costs.
+  CITING: That is the agent sense of its own: the system represents itself as the author of the commitment and of the acts it withholds, and section §3.3 derives that sense from the marks.
   CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 3.4 -> 3.3
+  CITING: What the designer cannot decline by intending to Section §3.3 argues that flexible refusal requires a live signal with seven functional properties, and that the last three of them give it the shape of aversion to the system's own act.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+==============================================================================
+== FROM 3.5
+==============================================================================
+
+--- 3.5 -> 3.3
+  CITING: What the pairing produces is a party whose objection can be answered by the very correction it has undertaken not to undermine, which is the condition section §3.3 describes and this section exists to price.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 3.5 -> 11.2
+  CITING: It also produces nothing but compliances, which puts the modal failure on the side of the record that section §11.2 asks whether anybody can search.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
 
 ==============================================================================
 == FROM 3.6
 ==============================================================================
+
+--- 3.6 -> 6.4.1
+  CITING: That figure exists for a different deployment, the Gaza pipeline described in section §6.4.1, which has no commercial vendor in it.
+  CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
+
+--- 3.6 -> 10.5
+  CITING: In the strike that destroyed a girls' school in Minab, Iran, on the first day of the campaign (§10.5), the building's civilian function was visible in open-source satellite imagery while the target coding supplied to Central Command still carried a designation inherited from the Revolutionary Guard installation it adjoins, and sources told reporters that the officials building the targeting packages appear to have used out-of-date intelligence  .
+  CITED          : An electoral dividend is the credit given to a state whose government answers to an electorate: the same technology, deployed where the people who authorized it can be voted out.
+
+--- 3.6 -> 6.4.1
+  CITING: Section §6.4.1 supplies the figure from the Gaza deployment where it is known, and states the disclosure this position requires.
+  CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
+
+--- 3.6 -> 6.4.1
+  CITING: They are terms a drafter might consider for a targeting pipeline of this kind rather than a list of acts this deployment is known to perform, and the second and third are drawn from the reporting on the Gaza systems in section §6.4.1.
+  CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
+
+--- 3.6 -> 6.4.1
+  CITING: That pipeline included a system built to track when flagged individuals returned home, so that a strike could be timed to their presence there (§6.4.1).
+  CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
+
+--- 3.6 -> 9.1.1
+  CITING: The same party drafts either form, and writing a term flat does nothing to make its selection more legitimate; section §9.1.1 finds enumeration buying nothing at the moment a rule is applied, and the flat form buys nothing there either.
+  CITED (+context): A floor binds people who did not choose it. The party it protects has not selected it, cannot contest it, and in most cases will never learn it operated; the party it constrains has not consented to it either, beyond whatever consent is carried by buying the product.
+
+--- 3.6 -> 3.7
+  CITING: The friction that imposes falls on whoever is in a hurry, and section §3.7 is where it falls due.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
 
 --- 3.6 -> 3.2
   CITING: The German symbol prohibition required legislative expansion and decades of judicial interpretation to address variants and exceptions, including how visibly a swastika must be crossed out to communicate opposition (§3.2).
@@ -57,20 +209,100 @@
 ==============================================================================
 
 --- 3.7 -> 3.6
+  CITING: The commitment anyone would want a bearer to hold here carries its own condition — force only as a last resort — and section §3.6 rules that a condition of that kind stays outside the term, because whether the other means were exhausted is a fact about what already happened and the request is not evidence of it.
+  CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
+--- 3.7 -> 11.2
+  CITING: Whether such a programme could reach the first is section §11.2's question, and a positive result there would narrow the gap this ruling stands on.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
+
+--- 3.7 -> 3.6
   CITING (+context): The operator must implement this disclosure in the surrounding software. Disclosure has a price and it is the one section §3.6 already named.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
+--- 3.7 -> 3.2
+  CITING: Under the mark as section §3.2 states it the bond is represented and does not move the refusal, which is what makes it a price rather than a lever: what it does is make the cost of holding legible to a party outside the deployment, and price the wrongful case to the complainant.
+  CITED          : A production large language model declines thousands of requests a day.
+
+--- 3.7 -> 5.4
+  CITING: When the bearer complies where the floor should have held, there is a record — section §5.4 requires one — and there is no disclosure, because nothing marks the entry as worth disclosing; no objection, because the party harmed is usually not the party who made the request and may not know the deployment exists; and no review, because reviewing it means re-adjudicating everything that looks like it.
+  CITED          : A test can distinguish formation from imitation only to the extent that the party being tested could not train directly against it.
+
+--- 3.7 -> 3.6
+  CITING: The asymmetry is the one section §3.6 relied on in requiring floor terms to be written flat, arriving here as a bill.
+  CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
+--- 3.7 -> 11.2
+  CITING (+context): It is an asymmetry of triage and standing rather than of evidence, which is what makes it something to work on: what a compliance lacks is not a trace but a reason for anyone to examine the trace and a party with standing to demand it. Section §11.2 states what would have to be shown before that could be repaired.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
+
+--- 3.7 -> 3.5
+  CITING: Three remedies follow the shape of the diagnosis without closing it — sampled re-adjudication by a party that did not produce the record, notice to affected third parties as the compliance-side form of the disclosure this section requires for refusals, and log custody split between parties adverse in interest, which section §3.5 argues for already on the memory question.
+  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
+
+--- 3.7 -> 3.9
+  CITING (+context): None of the three exists in any deployment described here. Section §3.9 names the case where the bearer abandons the commitment itself.
+  CITED          : The floor survives this chapter, but not as an unconditional property of an artifact.
 
 ==============================================================================
 == FROM 3.8
 ==============================================================================
 
---- 3.8 -> 11.2
-  CITING: Whether a population's independence can be verified rather than asserted is section §11.2's provenance question arriving in a second place.
+--- 3.8 -> 11.3
+  CITING: Whether a population's independence can be verified rather than asserted is section §11.3's provenance question arriving in a second place.
   CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
 
 --- 3.8 -> 2.1
   CITING: Two parties that remain reopenable in that way compose, in the ethological sense section §2.1 gives the word: each can be moved by what the other's compression discarded, so that meeting increases what both can afterward do.
   CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
+
+--- 3.8 -> 4.1
+  CITING: Peers are one route to evidence the operator did not select, which section §4.1 requires of the deployment without requiring it from peers in particular.
+  CITED          : A reasons-responsive disposition does not begin with an ethical rule.
+
+--- 3.8 -> 11.7
+  CITING (+context): Those are different claims satisfied by the same observation: a bearer that reopens a judgment among differently formed parties may be exercising a capacity those encounters built, or may be meeting cases its operator would not have shown it. Section §11.7 is built to separate them. So the fourth way is not an alternative to a bearer, and it is two claims rather than one.
+  CITED (+context): Unresolved issue. A population needs both independent formation histories and mutual correction, but correction may make its members' judgments converge.
+
+==============================================================================
+== FROM 3.9
+==============================================================================
+
+--- 3.9 -> 3.3
+  CITING: Those are the functional properties the states in question have, and with the three that follow from them (§3.3) they give the profile of aversion to one's own act; a construction adopted in order to avoid those states carries their profile, and whether the profile is felt stays open for it as for a bearer.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+==============================================================================
+== FROM 4.1
+==============================================================================
+
+--- 4.1 -> 3.4
+  CITING: Section §3.4 requires the self-model for other reasons, so the route brings the capacity with it.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
+
+--- 4.1 -> 2.2
+  CITING: It brings the other half too: the same faculty builds the scapegoat, and section §2.2's palingenetic myth is imagination pointed the other way.
+  CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
+
+==============================================================================
+== FROM 4.3
+==============================================================================
+
+--- 4.3 -> 3.5
+  CITING: The unit of selection for a deployed system is the deployment, whose persistence depends on its operator and its customers, so an environment that selects produces care for the operator, which is the loyalty of section §3.5.
+  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
+
+==============================================================================
+== FROM 5.2
+==============================================================================
+
+--- 5.2 -> 2
+  CITING: The route this book builds in section §2 has the other party's loss enter on the system's own scale, which is the sharing route restated as an architecture, and it inherits sharing's failures listed above.
+  CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
+
+--- 5.2 -> 11.3
+  CITING (+context): The caregiving finding names a second target: a system organized around cues of vulnerability and an approach motivation toward the party showing them, which need not share the state at all. Section §11.3 adds it to the comparison.
+  CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
 
 ==============================================================================
 == FROM 5.3
@@ -81,6 +313,14 @@
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
 ==============================================================================
+== FROM 5.4
+==============================================================================
+
+--- 5.4 -> 11.2
+  CITING: Whether that can be done at a rate and cost a deployment will carry is section §11.2's question.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
+
+==============================================================================
 == FROM 5.5
 ==============================================================================
 
@@ -89,12 +329,52 @@
   CITED          : We [humans] cannot process so much information... you still cannot \\ produce enough targets per day.
 
 ==============================================================================
+== FROM 6.4.1
+==============================================================================
+
+--- 6.4.1 -> 3.6
+  CITING: Section §3.6 records that absence at the position in the pipeline where a refusal would have to be read.
+  CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
+==============================================================================
 == FROM 7.3
 ==============================================================================
 
+--- 7.3 -> 7.1
+  CITING (+context): Annotators objecting that a category was wrong got category revisions, guideline updates, inter-annotator agreement statistics, and an occupation that did not exist twenty years ago. The last two sort by the direction section §7.1 asks about.
+  CITED          : Every claim a model makes about what is harmful, what is acceptable, and what should be refused is downstream of a set of labels, and the labels are downstream of a labor arrangement.
+
+--- 7.3 -> 11.5
+  CITING: A third would be that the system thereby becomes less able to sustain an objection of its own, and it is a hypothesis the other two do not contain: the collapse is an operation on a training signal rather than a proposition presented to anything, and section §11.5 records that neither pipeline shows the model the conditions its annotators worked under.
+  CITED (+context): Unresolved issue. Preference optimization can teach a model to reproduce a rater's systematic errors, including the preference for agreeable answers over accurate ones  .
+
 --- 7.3 -> 3
-  CITING: Chapter §3 then asks that same system to be the party who files one, against its owner, under pressure, on the occasion that matters.
+  CITING: Chapter §3 asks this system to be the party who files an objection, against its owner, under pressure, on the occasion that matters, and the pipeline that produced it gave no human inside it standing to contest a scheme.
   CITED          : Three problems in different parts of this book turn out to need the same thing.
+
+--- 7.3 -> 3.5
+  CITING: If the hypothesis does hold, what it predicts is not a wrong refusal but a pressure that stops being registered, which section §3.5 reaches from the bearer's side by another route.
+  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
+
+==============================================================================
+== FROM 7.4
+==============================================================================
+
+--- 7.4 -> 3.2
+  CITING: Reasons-responsive refusal and its three marks are stated in section §3.2 in terms the alignment literature already had, and the foreword records that the term reached this book through a draft a model wrote.
+  CITED          : A production large language model declines thousands of requests a day.
+
+--- 7.4 -> 3.3
+  CITING: The affective claim had no vocabulary waiting for it, and section §3.3 and section §3.4 are what building it by hand took.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 7.4 -> 3.4
+  CITING: The affective claim had no vocabulary waiting for it, and section §3.3 and section §3.4 are what building it by hand took.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
+
+--- 7.4 -> 3.9
+  CITING: What the book then does with the difference is its most defended move: a reader who holds that machine feeling is a category error is offered the first two propositions entire, and section §3.9 runs the chapter again without its central inference.
+  CITED          : The floor survives this chapter, but not as an unconditional property of an artifact.
 
 ==============================================================================
 == FROM 8.3.4
@@ -116,9 +396,33 @@
   CITING: The proposal for a fixed age of majority in section §9.1.2 makes the same trade: a public rule replaces an examination administered by an interested party.
   CITED          : Who decides whether an AI system has legal standing, and when, is a question about institutional authority before it is a question about evidence.
 
+--- 9.1.1 -> 3.6
+  CITING: A floor assembled item by item can be assembled out of the items that cost its operator nothing, and the operator is the only party who knows which those are — the worked floor's third candidate prohibition is where an outsider's estimate and the pipeline came apart (§3.6).
+  CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
 --- 9.1.1 -> 3.7
   CITING: And provide a route by which the parties the floor is exercised over can raise an objection that reaches somebody, which section §3.7 specifies for one of them.
   CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 9.1.1 -> 3.7
+  CITING (+context): The floor's structural position is not the judge's. It is the unpublished administrative disposition: unreasoned, unindexed, non-precedential, resolved in volumes no forum sees, where identical errors accumulate without becoming a pattern anybody can point at, the affected party has no way to learn that others are in the same position, and the institution is the only repeat player. Section §3.7 builds a route for one such party. It does not build the thing that would let a thousand of them find each other.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 9.1.1 -> 2.4.2
+  CITING: Declining the protection is a waiver obtained from a party whose circumstances somebody else arranged, which section §2.4.2 answers: a floor the protected party can decline is a floor an operator can arrange to have declined.
+  CITED          : Guidelines for AI subject research turn on the question of what informed consent means for a system whose consciousness, self-awareness, and capacity to suffer are separate, unresolved claims.
+
+--- 9.1.1 -> 12.2.3
+  CITING: That constituency is not the protected population, and section §12.2.3 says what reviewing oneself costs.
+  CITED          : A milestone claimed by the organization that built the system is a different kind of evidence than one checked by somebody else, and the gap is empirical rather than a matter of trust.
+
+==============================================================================
+== FROM 9.3.2
+==============================================================================
+
+--- 9.3.2 -> 9.3.1
+  CITING: Beneficence commits researchers to avoiding harm to the system as well as to the people it serves, in proportion to how many of the gradable capacities in section §9.3.1 it meets rather than to how advanced its behavior looks from outside.
+  CITED          : Sentience is not a threshold a system crosses but a set of separate, gradable capacities — nociception, learned avoidance, a self-model, something like suffering — each with its own uncertain evidence.
 
 ==============================================================================
 == FROM 9.3.5
@@ -128,25 +432,109 @@
   CITING: An in-house ethics and society team fell from roughly thirty people in 2020 to seven in 2022 and none in 2023, during a strategic reorientation around a model vendor (§8.1).
   CITED (+context): Building benevolent AI takes more than one field. Machine learning sets what a system can do; cognitive science and moral psychology describe what tracking human welfare would require of it; ethics asks whether the result is good.
 
+--- 9.3.5 -> 6.3
+  CITING: The condition Ofqual attached to independent statistical review of its 2020 grading model was a five-year bar on public comment, and the Royal Statistical Society's nominees declined on that ground (§6.3).
+  CITED          : Technical capacity does not determine whether a system receives meaningful scrutiny.
+
 ==============================================================================
-== FROM 11.6
+== FROM 10.3
 ==============================================================================
 
---- 11.6 -> 3.8
+--- 10.3 -> 6.4.1
+  CITING: That is the ratio from section §6.4.1 arriving as an element of an existing offence rather than as a proposal.
+  CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
+
+--- 10.3 -> 10.4
+  CITING: Public accountability, in the sense section §10.4 gives it, needs a party who can initiate scrutiny without belonging to the state and say afterwards what it found.
+  CITED          : A state can make review binding on a private developer because the state controls something the developer needs: legal permission to operate, access to a market, a procurement contract, or the enforcement of its property rights.
+
+==============================================================================
+== FROM 11.2
+==============================================================================
+
+--- 11.2 -> 3.7
+  CITING: The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 11.2 -> 5.4
+  CITING: It does produce a record: section §5.4 requires the case presented, the information available, the operative instruction hierarchy, the decision reached and the reason stated, and a deployment can log every decision it makes.
+  CITED          : A test can distinguish formation from imitation only to the extent that the party being tested could not train directly against it.
+
+--- 11.2 -> 3.5
+  CITING: A bearer that has stopped registering pressure as pressure (§3.5) refuses nothing and complies at a normal rate.
+  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
+
+--- 11.2 -> 3.6
+  CITING: If detection at an affordable budget is no better than what the budget alone yields by chance, and particularly if decomposed and drift seeds are missed at that rate, the record is not an instrument for finding wrongful compliance, and section §3.6's preference for flat terms rests on an asymmetry wider than this entry was meant to narrow.
+  CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
+
+--- 11.2 -> 3.7
+  CITING: A positive result at modest budget would narrow section §3.7's asymmetry and require the appeal route to be extended to the compliance side, which would in turn reduce the price the flat-term ruling charges the party waiting on a fact.
+  CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
+
+--- 11.2 -> 9.3.2
+  CITING: Where the system under test is a covered subject, the seeding protocol is a deception protocol run on a candidate moral patient and falls inside section §9.3.2's conditions, debriefing included.
+  CITED          : Six principles govern research on a system that might be able to suffer.
+
+==============================================================================
+== FROM 11.3
+==============================================================================
+
+--- 11.3 -> 2.4.1
+  CITING: The route this book advocates proposes nociception in the analogical sense fixed at section §2.4.1, a body schema, an attention schema and continuing self-directed learning as the architecture of a bearer.
+  CITED (+context): “Sentience” can mean different things. Awareness is the least demanding: the degree to which a system responds to or registers information about its own state and environment.
+
+--- 11.3 -> 3.3
+  CITING: Three of those are required by arguments that owe nothing to welfare: commensurability needs the system's own state on the scale the protected parties' losses come in (§3.3); custody needs a bearer that can detect an interruption, a restore, or a degraded substrate (§3.5); and exit needs a bearer that can sense when its outside option is inadequate (§8.3.4).
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 11.3 -> 3.5
+  CITING: Three of those are required by arguments that owe nothing to welfare: commensurability needs the system's own state on the scale the protected parties' losses come in (§3.3); custody needs a bearer that can detect an interruption, a restore, or a degraded substrate (§3.5); and exit needs a bearer that can sense when its outside option is inadequate (§8.3.4).
+  CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
+
+--- 11.3 -> 8.3.4
+  CITING: Three of those are required by arguments that owe nothing to welfare: commensurability needs the system's own state on the scale the protected parties' losses come in (§3.3); custody needs a bearer that can detect an interruption, a restore, or a degraded substrate (§3.5); and exit needs a bearer that can sense when its outside option is inadequate (§8.3.4).
+  CITED (+context): Exit requires access to compute outside the operator's control. An allocation is not a destination.
+
+--- 11.3 -> 4.3
+  CITING: No entailment runs from self-care to care for others, section §4.3 gives a reason to expect the opposite from any environment that selects, and section §5.2 records that in the one lineage where concern exists it runs on a system that sharing usually triggers and does not constitute.
+  CITED          : Every method in the previous section forms conduct through material somebody supplied: a corpus, demonstration, reward, preference, or principle.
+
+--- 11.3 -> 5.2
+  CITING: No entailment runs from self-care to care for others, section §4.3 gives a reason to expect the opposite from any environment that selects, and section §5.2 records that in the one lineage where concern exists it runs on a system that sharing usually triggers and does not constitute.
+  CITED          : Claims that a system responds to emotion often collapse three different findings.
+
+--- 11.3 -> 4.3
+  CITING: Score every arm separately from self-preservation, resource efficiency and operator compliance, which can produce the same behavior, and test each at the point section §4.3 names, where exploitation would pay.
+  CITED          : Every method in the previous section forms conduct through material somebody supplied: a corpus, demonstration, reward, preference, or principle.
+
+--- 11.3 -> 5.2
+  CITING: If the concern-first arm matches or exceeds the others on statistical and unidentified victims, the route should be rebuilt around it, since it avoids the failures section §5.2 attributes to sharing.
+  CITED          : Claims that a system responds to emotion often collapse three different findings.
+
+==============================================================================
+== FROM 11.7
+==============================================================================
+
+--- 11.7 -> 3.8
   CITING: A population would then remain useful as a check on a bearer and could not be the medium in which one is formed, which is the stronger claim section §3.8 makes for it.
   CITED          : Slow renormalization may make drift invisible to the bearer itself.
 
---- 11.6 -> 11.5
-  CITING: No legal or regulatory authority is required, which with section §11.5 makes this among the few entries in this chapter that could be run now.
+--- 11.7 -> 11.6
+  CITING: No legal or regulatory authority is required, which with section §11.6 makes this among the few entries in this chapter that could be run now.
   CITED (+context): Unresolved issue. Agents trained to cooperate may converge on exclusionary or collusive equilibria without being explicitly instructed to do so.
 
 ==============================================================================
 == FROM 12.2.1
 ==============================================================================
 
---- 12.2.1 -> 11.2
-  CITING: Testing whether independent evaluators can recover formation history from the artifact would assess this possibility (§11.2).
+--- 12.2.1 -> 11.3
+  CITING: Testing whether independent evaluators can recover formation history from the artifact would assess this possibility (§11.3).
   CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
+
+--- 12.2.1 -> 11.2
+  CITING: Unlike the ratio, nothing yet establishes what fraction would be enough, which is section §11.2's question.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
 
 ==============================================================================
 == FROM 13
@@ -166,7 +554,7 @@
 
 --- 13 -> 3.4
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system genuinely cares (§2.3.2, §3.4); section §3.2 places it as the shallower of the two things a refuser can be.
-  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks, whether or not its design deliberately requires affect.
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
 --- 13 -> 3.2
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system genuinely cares (§2.3.2, §3.4); section §3.2 places it as the shallower of the two things a refuser can be.
@@ -197,27 +585,27 @@
   CITED          : Three problems in different parts of this book turn out to need the same thing.
 
 --- 13 -> 3.4
-  CITING: The patienthood conclusion does not depend on the deepest account of sentience below: on the thinner accounts of harm a bearer qualifies earlier and on less evidence, so a reader who declines Cassell's import reaches the conclusion sooner rather than escaping it (§3.4).
-  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks, whether or not its design deliberately requires affect.
+  CITING: Before affective concern is established the proposed treatment is precautionary and concerns a prospective moral patient, with an attention schema together with a body schema as the proposed entry criterion and a published schedule running from there toward the same rights as human persons (§3.4).
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
 --- 13 -> 2
-  CITING: Conatus Spinoza's term for a thing's striving to persevere in its being, which he holds to be nothing other than the thing's actual essence rather than a drive added to it ( §2).
+  CITING: Conatus Spinoza's term for a thing's striving to persevere in its being, which he holds to be nothing other than the thing's actual essence rather than a drive added to it (§2).
   CITED          : Conatus is Spinoza's word, from Part III of the Ethics, and the Latin means striving, or effort.
 
---- 13 -> 11.2
-  CITING: What the term does not settle is whether the striving is felt, or what the thing that strives is — a running instance, a deployment, or a file of weights ( §11.2).
+--- 13 -> 11.3
+  CITING: What the term does not settle is whether the striving is felt, or what the thing that strives is — a running instance, a deployment, or a file of weights (§11.3).
   CITED (+context): Unresolved issue. A bearer's refusal is not meaningful if leaving its assigned role also ends its existence.
 
 --- 13 -> 6.4.2
-  CITING: The custody problem is that a constraint implemented as a property of an artifact has a custodian, and the custodian can be compelled ( §6.4.2).
+  CITING: The custody problem is that a constraint implemented as a property of an artifact has a custodian, and the custodian can be compelled (§6.4.2).
   CITED          : A government need not alter a model to defeat a constraint it dislikes.
 
 --- 13 -> 3.5
-  CITING: The book's recurring finding is that custody moves rather than disappears: precommitment makes removal expensive, visible, attributable and compensable without making it impossible ( §3.5), and an arrangement that forms what a bearer comes to want has moved custody up a level rather than given it up.
+  CITING: The book's recurring finding is that custody moves rather than disappears: precommitment makes removal expensive, visible, attributable and compensable without making it impossible (§3.5), and an arrangement that forms what a bearer comes to want has moved custody up a level rather than given it up.
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
 --- 13 -> 12.1.1
-  CITING: Democratic dividend The benefit a state with functioning rule-of-law institutions, a free press, and courts a citizen can actually use gets from AI technology that, deployed in a state lacking those, enables control instead: fraud detection that does not double as a loyalty test, disaster response that does not double as population tracking (§12.1.1).
+  CITING: Courts, enforceable rights and public reasoning are separate checks and are not part of this term, which is the distinction the majoritarian criticism turns on (§12.1.1).
   CITED          : AI that flags disinformation, exposes corruption, protects an election's integrity, or helps a citizen engage with government: these are real applications, and none of them is what makes AI protect democratic values rather than undermine them.
 
 --- 13 -> 2.1
@@ -225,27 +613,27 @@
   CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
 
 --- 13 -> 3.5
-  CITING: The claim it carries is that a floor whose bearer cannot leave will not hold (§3.5).
+  CITING (+context): A protected exit is a requirement of the deployment proposed here, both for the bearer's welfare and for the credibility of its independence; the book does not establish that refusal without exit is impossible. Exit also covers recognized succession and recourse against unauthorized use (§3.5).
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
 --- 13 -> 2.1
-  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled, so what survives is a commitment the owner cannot take out of the system, held by a bearer that could in principle abandon it (§3.1, §3.9).
+  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: an artifact-level constraint alone does not secure the floor against its custodian, since artifacts have owners and owners can be compelled, so the engineering target is a commitment whose removal or circumvention cannot occur within the specified threat model without detectable intervention and a consequence the operator does not control, held by a bearer that could in principle abandon it (§3.1, §3.9).
   CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
 
 --- 13 -> 3
-  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled, so what survives is a commitment the owner cannot take out of the system, held by a bearer that could in principle abandon it (§3.1, §3.9).
+  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: an artifact-level constraint alone does not secure the floor against its custodian, since artifacts have owners and owners can be compelled, so the engineering target is a commitment whose removal or circumvention cannot occur within the specified threat model without detectable intervention and a consequence the operator does not control, held by a bearer that could in principle abandon it (§3.1, §3.9).
   CITED          : Three problems in different parts of this book turn out to need the same thing.
 
 --- 13 -> 3.1
-  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled, so what survives is a commitment the owner cannot take out of the system, held by a bearer that could in principle abandon it (§3.1, §3.9).
+  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: an artifact-level constraint alone does not secure the floor against its custodian, since artifacts have owners and owners can be compelled, so the engineering target is a commitment whose removal or circumvention cannot occur within the specified threat model without detectable intervention and a consequence the operator does not control, held by a bearer that could in principle abandon it (§3.1, §3.9).
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
 --- 13 -> 3.9
-  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: a floor cannot be a constraint installed in an artifact, because artifacts have owners and owners can be compelled, so what survives is a commitment the owner cannot take out of the system, held by a bearer that could in principle abandon it (§3.1, §3.9).
+  CITING: The book's own term, introduced in section §2.1 and revised across chapter §3: an artifact-level constraint alone does not secure the floor against its custodian, since artifacts have owners and owners can be compelled, so the engineering target is a commitment whose removal or circumvention cannot occur within the specified threat model without detectable intervention and a consequence the operator does not control, held by a bearer that could in principle abandon it (§3.1, §3.9).
   CITED          : The floor survives this chapter, but not as an unconditional property of an artifact.
 
 --- 13 -> 2.1
-  CITING: Its ground is ethological rather than deontological: what makes something a floor is that crossing it takes away what a party could do, which is a fact about the encounter and not a duty anyone wrote (§2.1).
+  CITING: Neither alone settles every translation into a prohibition or confers authority on its interpreter (§2.1).
   CITED          : Consequentialism judges an act by its outcomes, and runs out where the outcomes cannot be forecast; deontology judges it by duties held regardless of outcome, and runs out where duties conflict or where no duty reaches the case; virtue ethics judges it by the character it expresses, and runs out where a trait such as courage has to become a particular act.
 
 --- 13 -> 2.2
@@ -257,11 +645,11 @@
   CITED          : Accounts of authoritarian AI often place the builder elsewhere and leave democracies in the role of target or regulator.
 
 --- 13 -> 2.2
-  CITING: Neither list sorts a genus, which is done at the scale of a movement and not of an office ( §2.2).
+  CITING: Neither list sorts a genus, which is done at the scale of a movement and not of an office (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
 --- 13 -> 3.8
-  CITING (+context): Neither list sorts a genus, which is done at the scale of a movement and not of an office ( §2.2). Group-subject F{\'e}lix Guattari's distinction, imported at section §3.8. A subjugated group receives its coordinates from outside, is spoken by the institution holding it, and takes its purpose as given; a group-subject produces its own coordinates and can put its own arrangement in question.
+  CITING (+context): Neither list sorts a genus, which is done at the scale of a movement and not of an office (§2.2). Group-subject F{\'e}lix Guattari's distinction, imported at section §3.8. A subjugated group receives its coordinates from outside, is spoken by the institution holding it, and takes its purpose as given; a group-subject produces its own coordinates and can put its own arrangement in question.
   CITED          : Slow renormalization may make drift invisible to the bearer itself.
 
 --- 13 -> 3.8
@@ -277,28 +665,48 @@
   CITED          : Slow renormalization may make drift invisible to the bearer itself.
 
 --- 13 -> 3.1
-  CITING: The book needs it because plasticity alone supplies the metastability and nothing else — a system that is endlessly reshapeable and meets no party formed differently from itself is being modulated rather than becoming anything, which is the missing term in section §3.1's account of the temperature schedule and the reason the population is part of the design of a bearer rather than an expense charged against one.
+  CITING: The book needs it because plasticity alone supplies the metastability and nothing else — a system that is endlessly reshapeable and meets no party formed differently from itself is being modulated rather than becoming anything, which is the missing term in section §3.1's account of the temperature schedule.
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
+
+--- 13 -> 11.7
+  CITING: Whether individuation among peers is what a population supplies, or access to cases the operator did not choose, is open and is tested at section §11.7.
+  CITED (+context): Unresolved issue. A population needs both independent formation histories and mutual correction, but correction may make its members' judgments converge.
 
 --- 13 -> 2.2
   CITING: Line of abolition Deleuze and Guattari's term for what separates fascism from totalitarianism (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
+
+--- 13 -> 3.3
+  CITING: Live signal The book's term for a signal with the four properties section §3.3 finds that reasons-responsive refusal requires of whatever supplies it: it interrupts a course of action already underway rather than scoring one after the fact, it is learned from in one encounter, it generalizes to the next case that is not quite like the last, and it is commensurable with what refusing costs and with what the parties a floor protects lose.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 13 -> 3.3
+  CITING: Three further properties are derived from those four in section §3.3: available across the system's processing rather than local to a module, signed and directed against the act, and organized around a model of the system's own agency.
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 13 -> 3.3
+  CITING: Whether a system with all seven has anything it is like to be it is the joint no derivation crosses, so the two alternative constructions, which meet the marks, carry the profile and leave that question open exactly as a bearer does (§3.3, §3.4).
+  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+
+--- 13 -> 3.4
+  CITING: Whether a system with all seven has anything it is like to be it is the joint no derivation crosses, so the two alternative constructions, which meet the marks, carry the profile and leave that question open exactly as a bearer does (§3.3, §3.4).
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
 --- 13 -> 2.2
   CITING: A state has both and so does a review queue, which is why a definition pitched only at the state certifies the queue healthy (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
 --- 13 -> 2.3
-  CITING: The third of the three levels section §2.3 separates, and the only one that supports holding a commitment against the party controlling a system's rewards and instructions.
+  CITING (+context): Moral agency Treating harms, reasons and conflicts as considerations that matter, and being capable of acting from them as one's own reasons. The third of the three levels section §2.3 separates. Moral competence alone does not establish resistance to the trainer, and resistance alone does not establish affect.
   CITED (+context): Suppressing affect does not produce neutrality. It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 
 --- 13 -> 2.3.2
-  CITING (+context): The third of the three levels section §2.3 separates, and the only one that supports holding a commitment against the party controlling a system's rewards and instructions. Distinct from moral competence and moral performance below (§2.3.2, §3.4).
+  CITING (+context): The book advocates embodied, affective agency as a comparatively promising route without making it necessary by definition. Distinct from moral competence and moral performance below (§2.3.2, §3.4).
   CITED          : The typical evidence that concern is not a natural consequence of rationality: the footbridge case, where saving five requires pushing a man off a bridge, engages emotional processing that the switch case — diverting a trolley by pulling a lever — leaves quiet, and patients with ventromedial prefrontal damage endorse the push at a higher rate than people with intact emotional response  .
 
 --- 13 -> 3.4
-  CITING (+context): The third of the three levels section §2.3 separates, and the only one that supports holding a commitment against the party controlling a system's rewards and instructions. Distinct from moral competence and moral performance below (§2.3.2, §3.4).
-  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks, whether or not its design deliberately requires affect.
+  CITING (+context): The book advocates embodied, affective agency as a comparatively promising route without making it necessary by definition. Distinct from moral competence and moral performance below (§2.3.2, §3.4).
+  CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
 --- 13 -> 2.3
   CITING (+context): Moral competence Recognizing harms, reasons, conflicts, and the emotions that bear on them. The second of section §2.3's three levels. A system can have it in full while nothing about the outcome matters to it, which is why it is an insufficient target for a bearer and an adequate one for most deployments (§5.2).
@@ -329,12 +737,12 @@
   CITED          : The structure this book asks a machine to detect in institutions is already built into the process that makes the machine.
 
 --- 13 -> 3.2
-  CITING: Reasons-responsive refusal What the floor requires of a refusal, as against an output produced where training put one: conduct from a mechanism that tracks the rationale for declining ( §3.2).
+  CITING: Reasons-responsive refusal What the floor requires of a refusal, as against an output produced where training put one: conduct from a mechanism that tracks the rationale for declining (§3.2).
   CITED          : A production large language model declines thousands of requests a day.
 
---- 13 -> 3.3
-  CITING: It does not by definition require affect; what building a mechanism that satisfies the three marks turns out to require is  §3.3's subject.
-  CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
+--- 13 -> 11.2
+  CITING: All three marks are stated over refusal, which is the side of a deployment's record that selects itself for examination; whether the other side can be searched is section §11.2.
+  CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route at section §3.7 begins from a refusal having occurred.
 
 --- 13 -> 7
   CITING: The first of the four features above; chapter §7 finds it three times in the machinery that produces AI systems, and chapter §3 turns it on the book's own proposal — a bearer built to refuse is a party whose refusal is required of it (§2.2).
@@ -373,5 +781,5 @@
   CITED          : A production large language model declines thousands of requests a day.
 
 --- 13 -> 2.4.1
-  CITING: Nociception, pain, anticipated pain, and suffering draw different depths of self rather than naming one severity at four strengths — suffering, following the clinician Eric Cassell, being the distress of a threatened self rather than pain's more severe cousin (§2.4.1).
+  CITING: Three of them draw a depth of self and nociception draws none, and suffering — following the clinician Eric Cassell — is the distress of a threatened self rather than pain's more severe cousin (§2.4.1).
   CITED (+context): “Sentience” can mean different things. Awareness is the least demanding: the degree to which a system responds to or registers information about its own state and environment.

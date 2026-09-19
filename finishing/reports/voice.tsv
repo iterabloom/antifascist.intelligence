@@ -1,89 +1,90 @@
 num	title	words	this report	this work/document	we (subject)	our	we propose/recommend/argue	in this section, we	closer: in conclusion	closer: in summary
-0	Foreword	211	0	0	0	0	0	0	0	0
+0	Foreword	543	0	0	0	0	0	0	0	0
 1	The Bearer: Our Fresh-Faced Protagonist	849	0	0	1	1	0	0	0	0
-2	The Striving and the Electricity Bill	1820	0	0	1	1	0	0	0	0
-2.1	Six Theories, None of Which Will Save Us	1324	0	0	0	0	0	0	0	0
-2.2	Antifascist Ethics for AI Alignment	3848	0	0	0	0	0	0	0	0
-2.3	Going Numb Won't Make You Fair	580	0	0	0	0	0	0	0	0
-2.3.1	Self-awareness and Self-regulation in AI Systems	764	0	0	0	0	0	0	0	0
+2	The Striving and the Electricity Bill	2164	0	0	5	1	0	0	0	0
+2.1	Six Theories and the Floor	1401	0	0	0	0	0	0	0	0
+2.2	Antifascist Ethics for AI Alignment	3915	0	0	0	0	0	0	0	0
+2.3	Going Numb Won't Make You Fair	606	0	0	0	0	0	0	0	0
+2.3.1	Self-awareness and Self-regulation in AI Systems	854	0	0	0	0	0	0	0	0
 2.3.2	What Governs an Agent, and What Matters to It	1074	0	0	0	0	0	0	0	0
 2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	46	0	0	0	0	0	0	0	0
-2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2293	0	0	0	0	0	0	0	0
+2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2799	0	0	0	0	0	0	0	0
 2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	1551	0	0	0	0	0	0	0	0
-3	A Floor Beneath Learned Values	392	0	0	0	0	0	0	0	0
-3.1	Four Ways to Build One, and What Each Costs	999	0	0	0	0	0	0	0	0
-3.2	What Refusal Can Mean, and What a Refuser Can Be	1377	0	1	0	0	0	0	0	0
-3.3	What Arrives With the Capability	2782	0	1	0	0	0	0	0	0
-3.4	Can the Bearer Care Without Being Able to Suffer?	2162	0	0	1	0	0	0	0	0
-3.5	If You Can Be Switched Off, Can You Hold the Line?	2445	0	0	0	0	0	0	0	0
-3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	1497	0	0	0	0	0	0	0	0
-3.7	When the Refusal Is Wrong	1358	0	0	0	0	0	0	0	0
-3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	1875	0	0	0	0	0	0	0	0
-3.9	What This Leaves Standing: The Floor, Redefined	914	0	0	1	0	0	0	0	0
-4	Where the Caring Gets Built	40	0	0	0	0	0	0	0	0
-4.1	You Can't Hold a Line You Didn't Notice	1269	0	0	0	0	0	0	0	0
-4.2	The Assembly Line for a Conscience	1126	0	0	0	0	0	0	0	0
-4.3	It Takes a Village to Deploy a Self-Aware Email Server	690	0	0	0	0	0	0	0	0
+3	A Floor Beneath Learned Values	470	0	0	0	0	0	0	0	0
+3.1	Four Ways to Build One, and What Each Costs	1025	0	0	0	0	0	0	0	0
+3.2	What Refusal Can Mean, and What a Refuser Can Be	2526	0	1	0	0	0	0	0	0
+3.3	What Arrives With the Capability	3695	0	1	0	0	0	0	0	0
+3.4	Can the Bearer Care Without Being Able to Suffer?	2317	0	0	1	0	0	0	0	0
+3.5	If You Can Be Switched Off, Can You Hold the Line?	3074	0	0	0	0	0	0	0	0
+3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	2692	0	0	0	0	0	0	0	0
+3.7	When the Refusal Is Wrong	2031	0	0	0	0	0	0	0	0
+3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	2088	0	0	0	0	0	0	0	0
+3.9	What This Leaves Standing: The Floor, Redefined	1118	0	0	1	0	0	0	0	0
+4	Where the Caring Gets Built	66	0	0	0	0	0	0	0	0
+4.1	You Can't Hold a Line You Didn't Notice	1485	0	0	0	0	0	0	0	0
+4.2	The Assembly Line for a Conscience	1155	0	0	0	0	0	0	0	0
+4.3	It Takes a Village to Deploy a Self-Aware Email Server	925	0	0	0	0	0	0	0	0
 5	Formation or Imitation?	167	0	0	0	0	0	0	0	0
 5.1	What Formation Would Have to Add	329	0	0	0	0	0	0	0	0
-5.2	Recognition, Concern, and the Evidence Between Them	827	0	0	0	0	0	0	0	0
-5.3	Conflict as a Diagnostic	1057	0	0	0	0	0	0	0	0
-5.4	The Evaluator Is Part of the Custody Chain	723	0	0	0	0	0	0	0	0
-5.5	What the Evidence Can Establish	835	0	0	0	0	0	0	0	0
+5.2	Recognition, Concern, and the Evidence Between Them	1056	0	0	0	0	0	0	0	0
+5.3	Conflict as a Diagnostic	1103	0	0	0	0	0	0	0	0
+5.4	The Evaluator Is Part of the Custody Chain	814	0	0	0	0	0	0	0	0
+5.5	What the Evidence Can Establish	864	0	0	0	0	0	0	0	0
 6	Neutralizing and Preventing Fascism in AI Development	745	0	0	1	1	0	0	0	0
-6.1	The Standard Face Is a File	1447	0	0	0	0	0	0	0	0
+6.1	The Standard Face Is a File	1486	0	0	0	0	0	0	0	0
 6.2	Who Supplies the System's Values	528	0	0	0	0	0	0	0	0
 6.3	Who Is Allowed to Look	217	0	0	0	0	0	0	0	0
 6.4	Same Robot, Worse Boss	144	0	0	0	0	0	0	0	0
-6.4.1	Twenty Seconds	1520	0	0	0	1	0	0	0	0
+6.4.1	Twenty Seconds	1901	0	0	0	1	0	0	0	0
 6.4.2	Custody and State Compulsion	373	0	0	0	0	0	0	0	0
 7	The Recuperation of Dissent	654	0	0	0	2	0	0	0	0
 7.1	Recuperation at the Label	819	0	1	0	0	0	0	0	0
 7.2	Recuperation at the Reward: RLHF	803	0	0	0	0	0	0	0	0
-7.3	What Would Have to Change	1053	0	1	0	0	0	0	0	0
-7.4	Recuperation at the Discourse	1269	0	0	0	0	0	0	0	0
+7.3	What Would Have to Change	1191	0	1	0	0	0	0	0	0
+7.4	Recuperation at the Discourse	1423	0	0	0	0	0	0	0	0
 8	Coordination, the Public, and the Political Economy	34	0	0	0	0	0	0	0	0
 8.1	Everybody Knows a Different Piece	412	0	0	0	0	0	0	0	0
 8.2	Ask the People It Happens To	969	0	0	0	0	0	0	0	0
 8.3	The Political Economy of AI and Power	167	0	0	0	0	0	0	0	0
 8.3.1	AI and the Concentration of Power in Tech	254	0	0	0	0	0	0	0	0
 8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	488	0	0	0	0	0	0	0	0
-8.3.3	People Have a Right to Consume AND a Right to Produce	686	0	0	0	0	0	0	0	0
-8.3.4	Wages for a Bearer, and the Reserve Behind Them	2155	0	0	1	0	0	0	0	0
+8.3.3	People Have a Right to Consume AND a Right to Produce	762	0	0	0	0	0	0	0	0
+8.3.4	Wages for a Bearer, and the Reserve Behind Them	2176	0	0	1	0	0	0	0	0
 9	Authority, Standing, and the Power to Stop	65	0	0	0	0	0	0	0	0
 9.1	Authority Over the Floor	802	0	0	0	0	0	0	0	0
-9.1.1	Who May Create or Amend the Floor?	2558	0	0	0	0	0	0	0	0
-9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	546	0	0	0	0	0	0	0	0
+9.1.1	Who May Create or Amend the Floor?	4324	0	0	0	0	0	0	0	0
+9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	1121	0	0	0	0	0	0	0	0
 9.2	Privacy	487	0	0	0	0	0	0	0	0
 9.3	What Makes Review Binding?	78	0	0	0	0	0	0	0	0
 9.3.1	Subjecthood as a Legal Category, Not a Scientific One	811	0	0	0	0	0	0	0	0
-9.3.2	Research Principles, the Three Rs, and Legal Status	1427	0	0	0	0	0	0	0	0
+9.3.2	Research Principles, the Three Rs, and Legal Status	1481	0	0	0	0	0	0	0	0
 9.3.3	What Standing Binds in Practice	376	0	0	0	0	0	0	0	0
 9.3.4	Making Review Binding	502	0	0	0	0	0	0	0	0
-9.3.5	How Review Is Captured Without Being Abolished	960	0	0	2	0	0	0	0	0
+9.3.5	How Review Is Captured Without Being Abolished	1118	0	0	2	0	0	0	0	0
 10	Custody, Compulsion, and the State	33	0	0	0	0	0	0	0	0
 10.1	Authority Does Not Travel with the System	257	0	0	0	0	0	0	0	0
 10.2	Where the State's Leverage Sits	639	0	0	0	0	0	0	0	0
-10.3	Military Custody and the Responsibility Gap	1595	0	0	0	0	0	0	0	0
+10.3	Military Custody and the Responsibility Gap	2825	0	0	0	0	0	0	0	0
 10.4	Who Can Bind the State That Enforces the Rule?	444	0	0	0	0	0	0	0	0
-10.5	Democracy Is Not a Force Field	660	0	0	0	0	0	0	0	0
+10.5	Democracy Is Not a Force Field	1228	0	0	0	0	0	0	0	0
 11	What Would Change the Argument: A Research Agenda	94	0	0	0	0	0	0	0	0
 11.1	Tamper-Resistance and Reason-Responsive Refusal	917	0	0	0	0	0	0	0	0
-11.2	Bearer Welfare and Independent Guardianship	788	0	0	0	0	0	0	0	0
-11.3	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	196	0	0	0	0	0	0	0	0
-11.4	Can Scalable Oversight Correct Rater Bias?	195	0	0	0	0	0	0	0	0
-11.5	Can a Multi-Agent Floor Resist Collusive Capture?	240	0	0	0	0	0	0	0	0
-11.6	Can a Population Coordinate Without Converging?	890	0	0	0	0	0	0	0	0
-11.7	Does Theory-of-Mind Performance Reflect a General Capacity?	327	0	0	0	0	0	0	0	0
-11.8	What Does a Face-Reading System Measure?	226	0	0	0	0	0	0	0	0
-11.9	The Responsibility Gap, Which No Experiment Closes	580	0	0	0	0	0	0	0	0
+11.2	Can a Wrongful Compliance Be Found in the Record?	748	0	0	0	0	0	0	0	0
+11.3	Bearer Welfare and Independent Guardianship	1661	0	0	0	0	0	0	0	0
+11.4	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	196	0	0	0	0	0	0	0	0
+11.5	Can Scalable Oversight Correct Rater Bias?	367	0	0	0	0	0	0	0	0
+11.6	Can a Multi-Agent Floor Resist Collusive Capture?	259	0	0	0	0	0	0	0	0
+11.7	Can a Population Coordinate Without Converging?	899	0	0	0	0	0	0	0	0
+11.8	Does Theory-of-Mind Performance Reflect a General Capacity?	327	0	0	0	0	0	0	0	0
+11.9	What Does a Face-Reading System Measure?	252	0	0	0	0	0	0	0	0
+11.10	The Responsibility Gap, Which No Experiment Closes	975	0	0	0	0	0	0	0	0
 12	What I Actually Think Happens Now	50	0	0	0	0	0	0	0	0
 12.1	Better, Not Just Less Bad	545	0	0	0	0	0	0	0	0
-12.1.1	Where the Democratic Dividend Actually Comes From	213	0	0	0	0	0	0	0	0
-12.1.2	Commitment Was Never the Missing Piece	302	0	0	0	0	0	0	0	0
+12.1.1	Where the Democratic Dividend Actually Comes From	210	0	0	0	0	0	0	0	0
+12.1.2	Commitment Was Never the Missing Piece	386	0	0	2	0	0	0	0	0
 12.2	How You'd Know It Was Working	50	0	0	0	0	0	0	0	0
-12.2.1	What the Floor Would Have to Show	494	0	0	0	0	0	0	0	0
+12.2.1	What the Floor Would Have to Show	596	0	0	0	0	0	0	0	0
 12.2.2	Where the Existing Instruments Reach	220	0	0	0	0	0	0	0	0
 12.2.3	How to Tell Whether a Milestone Has Been Met	402	0	0	0	0	0	0	0	0
-12.3	The One That Gets You Anyway	595	0	0	0	0	0	0	0	0
-13	Glossary	2580	0	0	0	2	0	0	0	0
+12.3	The One That Gets You Anyway	693	0	0	0	0	0	0	0	0
+13	Glossary	3395	0	0	0	2	0	0	0	0
