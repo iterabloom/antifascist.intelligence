@@ -413,7 +413,7 @@ the qualification, and reads three beats to learn what one would have carried.
 | "The serious finding is not a pointer." | "The serious finding is a sourcing hole at section 10.1.1." |
 | "Substantially fair, with two factual corrections and one thing it missed that's worse" | "Fair. Two of its specifics are wrong, and section 3.6's title is a separate defect it did not name." |
 
-Four corollaries, three of them section 2's own:
+Five corollaries, three of them section 2's own:
 
 - **No reveals.** A finding is not improved by staging it. State it, then state
   what limits it, with no beat between them built to be overturned.
@@ -444,3 +444,49 @@ what was not checked, and say "I don't know" where that is the answer. Plainness
 is not vagueness, and a flat sentence that reports an uncertainty precisely is
 what this section is asking for. What it forbids is the *shape* — the withheld
 qualification, the staged correction — not the qualification itself.
+
+
+## 10a. Cite a section by its label, not by its number (D-461)
+
+Sections 1-9 govern the book, section 10 the prose written about it. This one
+governs one habit inside that prose, and it is the cheapest rule in this file to
+follow: **in `DECISIONS.md`, `STATE.md`, `QUESTIONS.md`, the `pN-scope.md` files
+and commit bodies, name a section by its label or its file, not by the number it
+printed on the day of writing.** Write `sec:3.6`, or `ch03/03_06.tex`, where the
+habit is to write \S\,3.6.
+
+**A number is only true as of a date.** Twenty-two renumbers stand between the
+earliest entries in this record and the book, and the record already carries
+**7,022 section numbers against 228 labels**. `QUESTIONS.md`'s own header calls
+reading its entries through those maps the largest gap in that file.
+
+**A label is stable by construction.** D-406 separated a file's identity from
+its position for exactly this reason: a file keeps the label its filename and
+its ledger row know it by while the number it prints moves underneath. Every one
+of the twenty-two renumbers left the labels alone. `check_numbers.py` resolves a
+label to the number the book prints today, so a label costs the reader nothing
+and never needs a map.
+
+**The exception is a sentence about what the book prints.** A page proof, a
+printed table of contents, the number a reader sees on the page — there the
+printed number is the fact being reported, and the rule is the ordinary one:
+give it with the date or the commit it was read from.
+
+**Reading a number already in the record** is `finishing/tools/trace.py`:
+
+```
+trace.py 6.3 --as-of D-302        # a date, a decision, or a pass
+trace.py --list-maps
+```
+
+It composes the maps and reports the chain, and **it refuses to answer without
+`--as-of`**, because numbers are reissued — `6.3` is dissolved on 2026-08-23,
+becomes 6.2 on 2026-09-12 and 6.4 on 2026-09-13 — and chained from the wrong
+date it would return a confident wrong answer rather than an error. It says
+where the chain ends in a cut, where a hop crossed the September 12 rewrite, and
+where it propagated a number from its parent chapter rather than reading a row.
+
+**Nothing about the book's own prose changes.** The manuscript has always used
+`\ref`, which reads the counter; `check_xrefs.py` reports no number left in
+prose, and the last audit of literal chapter numerals found eleven, all
+`chapter~2`, all correct.
