@@ -76,7 +76,7 @@ score	a	a_title	b	b_title	same_chapter
 0.150	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	11.2	Can a Wrongful Compliance Be Found in the Record?	no
 0.149	2	The Striving and the Electricity Bill	2.1	Six Theories and the Floor	yes
 0.148	3.4	Can the Bearer Care Without Being Able to Suffer?	3.5	If You Can Be Switched Off, Can You Hold the Line?	yes
-0.147	3.5	If You Can Be Switched Off, Can You Hold the Line?	11.3	Bearer Welfare and Independent Guardianship	no
+0.148	3.5	If You Can Be Switched Off, Can You Hold the Line?	11.3	Bearer Welfare and Independent Guardianship	no
 0.146	2.2	Antifascist Ethics for AI Alignment	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	no
 0.146	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	3.9	What This Leaves Standing: The Floor, Redefined	yes
 0.146	5.2	Recognition, Concern, and the Evidence Between Them	5.5	What the Evidence Can Establish	yes
@@ -87,10 +87,10 @@ score	a	a_title	b	b_title	same_chapter
 0.143	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
 0.143	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	4.1	You Can't Hold a Line You Didn't Notice	no
 0.142	2	The Striving and the Electricity Bill	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	yes
+0.142	3.3	What Arrives With the Capability	11.3	Bearer Welfare and Independent Guardianship	no
 0.142	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	9.1.1	Who May Create or Amend the Floor?	no
 0.142	4.1	You Can't Hold a Line You Didn't Notice	13	Glossary	no
 0.142	7	The Recuperation of Dissent	7.4	Recuperation at the Discourse	yes
-0.141	3.3	What Arrives With the Capability	11.3	Bearer Welfare and Independent Guardianship	no
 0.141	5.2	Recognition, Concern, and the Evidence Between Them	5.4	The Evaluator Is Part of the Custody Chain	yes
 0.140	4.2	The Assembly Line for a Conscience	5.1	What Formation Would Have to Add	no
 0.139	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3.3	What Arrives With the Capability	no
@@ -104,8 +104,8 @@ score	a	a_title	b	b_title	same_chapter
 0.138	5.1	What Formation Would Have to Add	5.2	Recognition, Concern, and the Evidence Between Them	yes
 0.137	2.3.2	What Governs an Agent, and What Matters to It	3.4	Can the Bearer Care Without Being Able to Suffer?	no
 0.137	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.9	What This Leaves Standing: The Floor, Redefined	yes
-0.137	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
 0.137	7.3	What Would Have to Change	7.4	Recuperation at the Discourse	yes
+0.136	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
 0.135	3.7	When the Refusal Is Wrong	8.3.4	Wages for a Bearer, and the Reserve Behind Them	no
 0.135	3.9	What This Leaves Standing: The Floor, Redefined	9.1.1	Who May Create or Amend the Floor?	no
 0.134	3.2	What Refusal Can Mean, and What a Refuser Can Be	4.1	You Can't Hold a Line You Didn't Notice	no
@@ -126,9 +126,9 @@ score	a	a_title	b	b_title	same_chapter
 0.131	9.3.2	Research Principles, the Three Rs, and Legal Status	13	Glossary	no
 0.131	10.3	Military Custody and the Responsibility Gap	10.5	Democracy Is Not a Force Field	yes
 0.130	2.2	Antifascist Ethics for AI Alignment	3.2	What Refusal Can Mean, and What a Refuser Can Be	no
+0.130	2.2	Antifascist Ethics for AI Alignment	9.1.1	Who May Create or Amend the Floor?	no
 0.130	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.4	Can the Bearer Care Without Being Able to Suffer?	yes
 0.129	2.2	Antifascist Ethics for AI Alignment	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	no
-0.129	2.2	Antifascist Ethics for AI Alignment	9.1.1	Who May Create or Amend the Floor?	no
 0.129	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
 0.129	11.7	Can a Population Coordinate Without Converging?	13	Glossary	no
 0.128	2.2	Antifascist Ethics for AI Alignment	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
@@ -151,13 +151,13 @@ score	a	a_title	b	b_title	same_chapter
 0.125	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	7.3	What Would Have to Change	no
 0.124	1	The Bearer: Our Fresh-Faced Protagonist	3.9	What This Leaves Standing: The Floor, Redefined	no
 0.124	3.1	Four Ways to Build One, and What Each Costs	4.1	You Can't Hold a Line You Didn't Notice	no
-0.124	3.3	What Arrives With the Capability	5.5	What the Evidence Can Establish	no
 0.124	3.9	What This Leaves Standing: The Floor, Redefined	12.2.1	What the Floor Would Have to Show	no
 0.124	4.3	It Takes a Village to Deploy a Self-Aware Email Server	13	Glossary	no
 0.124	5.3	Conflict as a Diagnostic	11.7	Can a Population Coordinate Without Converging?	no
 0.124	6.1	The Standard Face Is a File	11.9	What Does a Face-Reading System Measure?	no
 0.123	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	13	Glossary	no
 0.123	3.3	What Arrives With the Capability	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
+0.123	3.3	What Arrives With the Capability	5.5	What the Evidence Can Establish	no
 0.123	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	12.3	The One That Gets You Anyway	no
 0.123	4.1	You Can't Hold a Line You Didn't Notice	5.4	The Evaluator Is Part of the Custody Chain	no
 0.123	4.2	The Assembly Line for a Conscience	5.3	Conflict as a Diagnostic	no
@@ -192,10 +192,10 @@ score	a	a_title	b	b_title	same_chapter
 0.118	3.4	Can the Bearer Care Without Being Able to Suffer?	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
 0.118	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	5.3	Conflict as a Diagnostic	no
 0.118	3.7	When the Refusal Is Wrong	9.3.2	Research Principles, the Three Rs, and Legal Status	no
-0.118	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	11.3	Bearer Welfare and Independent Guardianship	no
-0.118	4.3	It Takes a Village to Deploy a Self-Aware Email Server	5.1	What Formation Would Have to Add	no
 0.118	8.3.4	Wages for a Bearer, and the Reserve Behind Them	11.3	Bearer Welfare and Independent Guardianship	no
 0.118	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	9.3.2	Research Principles, the Three Rs, and Legal Status	yes
 0.117	3.1	Four Ways to Build One, and What Each Costs	3.9	What This Leaves Standing: The Floor, Redefined	yes
 0.117	3.4	Can the Bearer Care Without Being Able to Suffer?	4.1	You Can't Hold a Line You Didn't Notice	no
 0.117	3.4	Can the Bearer Care Without Being Able to Suffer?	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.117	3.4	Can the Bearer Care Without Being Able to Suffer?	11.3	Bearer Welfare and Independent Guardianship	no
+0.117	3.5	If You Can Be Switched Off, Can You Hold the Line?	4.3	It Takes a Village to Deploy a Self-Aware Email Server	no

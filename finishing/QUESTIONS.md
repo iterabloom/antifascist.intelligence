@@ -1,5 +1,14 @@
 # Open questions
 
+**Current as of 2026-09-18, after D-394: Q-043 is at sixteen instances, all sixteen repaired, and the instrument has a third blind spot.**
+
+**The sixteenth was repaired hours after being opened, and \S\,3.3 supplied the wording.** \S\,11.3 said *commensurability needs the system's own state on the scale*; \S\,3.3's own closing paragraph argues the induction is a repeated result across vertebrates, arthropods and cephalopods **and in the same breath declines necessity** — *what it does is route engineering effort*. So \S\,11.3 now reads *motivated* rather than *required*, with the clause narrowed to the scale and the system's own state named as the route's proposal. **None of the sixteen is outstanding**, which restores what D-381 recorded and D-393 had to retire for one pass.
+
+**The third blind spot is the one worth knowing.** `hedge_pairs.py` **still reports the repaired pair at 0.147 against 0.155, with its assertion class unchanged**, because *needs* is still in the sentence and the tool cannot see what the necessity is now about. **A surviving hit is not evidence a repair failed, and the tool cannot confirm its own findings closed.**
+
+**Unchanged, and still the largest gap in this file.** **Thirty-six of the thirty-eight open entries have not been read against the current book.** Four renumber maps stand between them and the text, no map exists for the 132-to-89 cut, and **Q-111 is still unsited** at `00.tex:13`.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-18, after D-393: one entry updated, and for the first time it carries an instance nobody repaired.**
 
 **Q-043 is at sixteen instances, and the sixteenth is open.** Group B of the author's four-outcomes feedback narrowed \S\,3.3 — the marks require one scale, and the system's own states being denominated on it is the route's proposal — while \S\,11.3's fourth subsection still says *commensurability needs the system's own state on the scale*, and concedes the opposite four sentences later in the same paragraph, and concedes it again in its Evidence paragraph. **`hedge_pairs.py` found it and ranked it first in that section**, at 0.155; it is the second instance the instrument found rather than a reader. **It is not repaired**, because narrowing the clause makes *Three of those are required by arguments that owe nothing to welfare* false of the first of the three, and whether that sentence keeps its count or changes its verb is a decision about how the route is presented. **So D-381's *none of the fifteen is outstanding* no longer holds.**
@@ -1394,6 +1403,29 @@ first of the three, and whether the sentence keeps its count, changes *required*
 restructured is a decision about how the route's argument is presented. **That is the author's.**
 **This is the first of the sixteen to stay open past the pass that found it**, which is a change to
 what this entry said at D-381: *none of the fifteen is outstanding*. One now is.
+
+**Repaired the same day on the author's instruction (D-394), and the verb came from the book.** The
+author asked whether the manuscript already argues the induction is broader than one species. **It
+does, in \S\,3.3's closing paragraph** — elaborated affect appears to have arisen more than once, in
+vertebrates, arthropods and cephalopods, under a named shared constraint, which upgrades the induction
+from one lineage to *a repeated result under a named constraint*. **And the same paragraph declines
+necessity in as many words**: the induction *does not establish a necessity or bear on status*, and
+*what it does is route engineering effort, with more warrant than a single lineage would give it*. **So
+the multi-origin argument sharpens the conflict rather than resolving it** — \S\,3.3 stops one step
+short of exactly what \S\,11.3 asserted — **and it supplies the replacement verb from the book's own
+text rather than from an editor's judgment**. \S\,11.3 now reads *Three of those are **motivated** by
+arguments that owe nothing to welfare: commensurability needs one scale on which the protected parties'
+losses and the cost of refusing both register, and the route proposes the system's own state as what
+supplies it.* **Both halves had to change**, because the framing verb alone leaves the clause asserting
+the same necessity. **Sixteen instances, sixteen repaired; the entry is back to none outstanding.**
+
+**A third blind spot, and this one is the most useful of the three because it fires after a repair.**
+`hedge_pairs.py` **still reports the pair, at 0.147 against 0.155 before, with
+`assertion_class=necessity` unchanged**, because the sentence still contains *needs* and the tool fires
+on the word without seeing that the necessity is now scoped to the scale rather than to the system's own
+state. **The repair is invisible to the instrument** and the 0.008 drop is overlap noise. So a hit here
+surviving a repair is not evidence the repair failed, and **the tool cannot be used to confirm its own
+findings closed** — which is a limit on the hunt D-378 built it for, not on the repair.
 
 ---
 
