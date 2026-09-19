@@ -1,15 +1,15 @@
 path	num	title	sha256	seq
-manuscript/sections/ch00/00.tex	0	Foreword	651e7b1ea3cfbec304faff6b84c03e34a11d575a83ca08ab5f77fe83050f87e5	1
+manuscript/sections/ch00/00.tex	0	Foreword	8cde9003f071c834921f522afe267d2d18b60ece22336c2f5a2febfa8dc13a63	1
 manuscript/sections/ch01/01.tex	1	Twenty Seconds	0813b385647e1a94183ae4db1eb318d43b9ad9c2eae1eed5aa05b75ccfff3ce7	2
 manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	7a368fbc9af15e7fcd131f6e82d5f6278d711401b7db778f95ffbcedba1f0689	3
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9f071ebac408624cca5f17d3cc7ee3b1b4871774b35eb2fa0565f3730de3d13	4
-manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	237f3bf6c673603038cd78d2583691a379f35ec43b75808d23a2fb3b71499270	5
+manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	2a7d05a604d5278cfc1d2b4790e705b53be0550c554f31fa106937f363104422	5
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	0d6d1a65a227ab415cf5b629acfc1818815ecc43a34e1e3403ff0e7b10e79813	6
 manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	76849338f867f170ef9209ed9c1c7347b7b5e56171290d5c2aed07fe1787d712	7
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	82dddfdeb123bc2612b5febfaf28533592bf098c20b112d6c626e79f481d094a	8
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	ce0ecf463a6fe45e5f42d7797bb118dc8ed5e13e00d027a8fb9954b4abbfc506	9
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	c85c8e8e9554747ec91c8e8cd6703b53ad5942ea82cefe06c0fded3d68bb7498	10
-manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	97b13e8c018f3dfc6002ab00ab6e9eaa0da0a2359e86d00b3e120b0f328b422b	11
+manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	bd8ebf4794cd3838cf17c1cce1c6c1acdd4d5a273657552857ae89591603947d	11
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	af2e9aca0abc97f39ee6d217e0906354b19ba764d6f0e6d743d66126648a67ea	12
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8	13
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	e13e0c36807e2be10eb19c3d038b644b40bc211b96a7aaeafae01bf306b6b51b	14
