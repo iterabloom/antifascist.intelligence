@@ -1427,6 +1427,26 @@ state. **The repair is invisible to the instrument** and the 0.008 drop is overl
 surviving a repair is not evidence the repair failed, and **the tool cannot be used to confirm its own
 findings closed** — which is a limit on the hunt D-378 built it for, not on the repair.
 
+**A fourth blind spot, found 2026-09-18 (D-396), and it is the one that bears on D-354's open flags.**
+`hedge_pairs.py` pairs an assertion with a concession, so **an absolute that nobody hedged makes no pair
+and is invisible to it**. The two Foreword sentences D-354 flagged are exactly that shape — *no
+production system in September of 2026 can hold a reason against its owner*, which the book does not
+assert and \S\,3.3 comes close to denying, and *People are the only internal reason such political
+projects have ever failed*, an unbounded historical universal — and **neither occurs anywhere in a
+3,658-row report** run at `--report --min 0 --cross`. The author's new five-status Foreword paragraph
+(D-396) is the concession those two need, and **it did not make them visible either**: the highest pair
+it enters is 0.029, against \S\,3.5's *stopping the system is always available*. So this class now has
+two methods that each reach one sub-shape and **a third shape neither reaches** — and the third is the
+one a reader stops at.
+
+**A calibration fact about `--cross` from the same run.** The pass's one new high pair is a false
+positive. Chapter 1's *it binds the operator, it can be checked from outside...* ranks **24th of 3,658
+at 0.152** against the glossary's *a system can have it in full while nothing about the outcome matters
+to it*, on a shared vocabulary of **two words**, *deployments* and *bearer*. The two sentences agree
+with each other. A two-word overlap across chapters clears all but 23 rows of the distribution, so a
+high `--cross` score is not by itself evidence of tension, and the section-local ranking that found the
+sixteen instances is the part of the report that has earned trust.
+
 ---
 
 ### Q-044 — The floor is in the weights and the system is an assembly

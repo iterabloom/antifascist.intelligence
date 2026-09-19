@@ -1,6 +1,6 @@
 path	num	title	sha256
-manuscript/sections/ch00/00.tex	0	Foreword	748f54fa372033ec32357834f6c1ad68e1d6c8a32d780aeced43c12ca0014b43
-manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	358433a570226c187fca4bceedaeb1c7f7380c59368d63306e29118a36951d3d
+manuscript/sections/ch00/00.tex	0	Foreword	2bad99aa628966ba9a2be6710e7c5b2a1ce511d4c778c148106d58ffe8cb50c0
+manuscript/sections/ch01/01.tex	1	The Bearer: Our Fresh-Faced Protagonist	a3ecac573b7fe1d0c05c2ef65e4aa7024cd7eda21f6f8d45a8b87a4944b2b69c
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	237f3bf6c673603038cd78d2583691a379f35ec43b75808d23a2fb3b71499270
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	6978eadbbc67fa6330ea311ba316cae9451b8fdd4e8d4952b3b6ef7243dc05cd
 manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	b73d87e62d90fb7dbc9ac43fe444acfcea1ce2344066061405da6e50fdec3222
@@ -10,7 +10,7 @@ manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matt
 manuscript/sections/ch02/02_04.tex	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects	033e5d6fb0a45742544326c34c6ee83447bdbbcaf94cc327fb2a7fd77ec71d72
 manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	af2e9aca0abc97f39ee6d217e0906354b19ba764d6f0e6d743d66126648a67ea
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8
-manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	2814489f85333447b8335cb029d659e46f40f96d646a01ff2dcbb461dc4cf438
+manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	15647dc681962a0a460977901738d78857d5386afc82b92f080bccd5e14748d6
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	39b5611002ebe5d0a7afb90bde5be5079edbb440990307778401653332a3e72d
 manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	128425022f6faa7be8c003bd2b5e2908297eab508c25873cef4fe3cac248a503
 manuscript/sections/ch03/03_03.tex	3.3	What Arrives With the Capability	c5bfc809f9974af606c170974daaf1d5a437b0a08da922fec8452a207fa82fa6
