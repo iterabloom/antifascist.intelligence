@@ -5,7 +5,7 @@ manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	cf47ad47c
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9f071ebac408624cca5f17d3cc7ee3b1b4871774b35eb2fa0565f3730de3d13	4
 manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	651bfdb1720b3afc190e95c5b18e00e90ed4c3918316693847e893d3a047006a	5
 manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	0d6d1a65a227ab415cf5b629acfc1818815ecc43a34e1e3403ff0e7b10e79813	6
-manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	6989a86c4280826dd0031172f4ca989ac244b48fb021003858ec14dc67bde277	7
+manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	b969db0929c97918849bea23aa70b016760813d59c7cacde14abe363ac92f0d6	7
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	4874cb040638155c229888c1d3c2c630f41db96bf4fa7cfad9dfee881a3e0f20	8
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	ce0ecf463a6fe45e5f42d7797bb118dc8ed5e13e00d027a8fb9954b4abbfc506	9
 manuscript/sections/ch02/02_03_02.tex	2.3.2	What Governs an Agent, and What Matters to It	2749787d7d26d6d82bb95b7bf464fd95bcaa25d2d7b6a49d0c5a775e92bdc90d	10
@@ -14,8 +14,8 @@ manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consc
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8	13
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	024a829645629e671b894954bf55551ff7cdee64443c40eea305687754bc0e08	14
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	47d7fe22669411563c9a8748c61b1e7fddd31fb9230d70a82fdc0234b6220881	15
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	882956c3595fe9c5122017df56fd7b890ad7c6a728ad2db85f800472fe106409	16
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	210f292d75fe87f8be82917b448bf3a983e42bfe291fef6e195d651e9798953a	17
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	40db62b8d35269edead30a2a1bbbbaca96629f918731ad458697207f4e379aba	16
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	ec92141901069b03581e2f36322806b1a45ef5b2a4ac048377f83241c7668f20	17
 manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	9091e52c00650faef2555440419229221acaa4153fc335c02e29b19ab8d04006	18
 manuscript/sections/ch03/custody.tex	14	Custody	5d7350a1e52929752cb438ba55c64f5a83d02f9a140add1722e6517bcc70b4fc	19
 manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	4686613f878d30f4a512ebeeeca3064700a91c34f55ef0b8102a6afe9b08ceeb	20
@@ -53,8 +53,8 @@ manuscript/sections/ch06/06_04_02.tex	6.4.2	Custody and State Compulsion	f7d02aa
 manuscript/sections/ch07/07.tex	7	The Recuperation of Dissent	3f2fb0f6585b913e86bc51059efe53f62e4577f77ad785bc413cd8c5f845b017	52
 manuscript/sections/ch07/07_01.tex	7.1	Recuperation at the Label	4a9752a3d244db8f5c781aaaee165dbdb24c28db4ade9c9a4f70fc4756893bc5	53
 manuscript/sections/ch07/07_02.tex	7.2	Recuperation at the Reward: RLHF	23c957211eda2d914e69c5a56f762c86441d13ac4e14f7238118af42f9668d50	54
-manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	dd58d1c4be29d38ccaddefb3b3ceefd87cc0b32e6aa66a4dbfbc664efa1d2f8e	55
-manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	cdf83fbf21446e58636ef61c3f30d6bad176cff2e629e55dd5e6fbdaa5ff553d	56
+manuscript/sections/ch07/07_03.tex	7.3	What Would Have to Change	c9ed6e1f83707506913e26a521581908f951f1b82c4bbe9a184737525c2d3aaa	55
+manuscript/sections/ch07/07_04.tex	7.4	Recuperation at the Discourse	7d4b243654729fb5c3a824af8633ffed6cb366348aa37c913f9f097e4c107c0a	56
 manuscript/sections/ch08/08.tex	8	Coordination, the Public, and the Political Economy	c2703d8f382f3de755d971425d2da271667d79c8aa10d10e9a5c892da3479166	57
 manuscript/sections/ch08/08_01.tex	8.1	Everybody Knows a Different Piece	a611fa521a47d184ee0915e8dde10bae1e320f3c660cffd747845d46fcc8e924	58
 manuscript/sections/ch08/08_02.tex	8.2	Ask the People It Happens To	2def5a5a18776c9253f6bd62fa46895cf63d0cbd129b3f7e909c860caad3e071	59
@@ -94,4 +94,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	1
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88	93
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	abe9effce1c78b68524dcf9dfc062286f427d5cb45647a250c75b1d43dd1ec14	94
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	881101bcb8c9ff0f8e0a25600a3dbc2d6ebce8bf116e2634635e5ae4fb93841b	95
-manuscript/sections/ch13/13.tex	13	Glossary	b52d191afdc814dd9789a27d98269a570e55729ac6ac291b4518e0677b8c9f1d	96
+manuscript/sections/ch13/13.tex	13	Glossary	cbde736b6eaa0ca09d1daf55f8811c41e32c3d75c6b7df8b120cbf95a388d7ac	96
