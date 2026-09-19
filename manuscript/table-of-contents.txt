@@ -65,10 +65,10 @@ Chapter 12: Coordination, the Public, and the Political Economy
 12.3.3. People Have a Right to Consume AND a Right to Produce
 12.3.4. Wages for a Bearer, and the Reserve Behind Them
 Chapter 13: Standing and Review for a Bearer
-13.0.1. Legal and Ethical Implications of AI Systems Gaining Personhood
-13.1. Privacy
-13.1.1. Research Principles, the Three Rs, and Legal Status
-13.1.2. What Standing Binds in Practice
+13.1. Legal and Ethical Implications of AI Systems Gaining Personhood
+13.2. Privacy
+13.3. Research Principles, the Three Rs, and Legal Status
+13.4. What Standing Binds in Practice
 Chapter 14: Custody, Compulsion, and the State
 14.1. Authority Does Not Travel with the System
 14.2. Where the State's Leverage Sits

@@ -109,7 +109,8 @@ MAX_MEMBER_BYTES = 8 * 1024 * 1024      # no file in the book is near this
 MAX_TOTAL_BYTES = 64 * 1024 * 1024
 
 # num level -> the heading command that sets it. Verified against all 137
-# sections: the mapping holds everywhere, and only 13 and 14 are starred.
+# sections, and true until D-406 separated identity from position. Kept as
+# the record of what a number used to imply; read nothing from it (D-415).
 LEVEL_CMD = {1: "chapter", 2: "section", 3: "subsection"}
 
 
@@ -619,12 +620,21 @@ def cmd_import(args):
                             "of every \\ref pointing at it"
                             % (zip_path_for(repo_rel), num, row["num"]))
             continue
-        want = LEVEL_CMD[common.level(num)]
+        # D-415: the depth a file must keep is the depth it left with, not one
+        # derived from its number. D-406 made ORDER.tsv's num a stable identity
+        # that matches the filename and the ledger key, so a num with three
+        # dotted parts can legitimately print as a section -- chapter 13 has
+        # three. common.level(num) read that as a depth change and returned 2
+        # with nothing written, which would block an import over files Overleaf
+        # never touched.
+        abs_ours = os.path.join(common.REPO, repo_rel)
+        ours_h = (heading_of(read_bytes(abs_ours).decode("utf-8"))
+                  if os.path.exists(abs_ours) else None)
+        want = ours_h[0] if ours_h else cmd
         if cmd != want:
-            problems.append("%s: heading is \\%s but %s is a level-%d number "
-                            "(\\%s). Changing the depth renumbers the book"
-                            % (zip_path_for(repo_rel), cmd, num,
-                               common.level(num), want))
+            problems.append("%s: heading is \\%s and the repository's is \\%s. "
+                            "Changing the depth renumbers the book"
+                            % (zip_path_for(repo_rel), cmd, want))
             continue
         if title != row["title"]:
             retitles.append((num, row["title"], title))
