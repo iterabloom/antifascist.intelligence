@@ -1,5 +1,33 @@
 # Open questions
 
+**Current as of 2026-09-19, after D-461: the maps no longer have to be held by
+hand, and one thing the header below says about them is false.**
+
+**`finishing/tools/trace.py` composes all twenty-two renumber maps.**
+`trace.py NUMBER --as-of <date|D-NNN|PNN>` reports the chain hop by hop and
+**refuses to answer without an as-of**, because numbers are reissued: `6.3` is
+dissolved on 2026-08-23, becomes 6.2 on 2026-09-12 and 6.4 on 2026-09-13. The
+four maps standing between these entries and the book are one command now.
+
+**The 132-to-89 cut is mapped, and the header below is wrong to say it is not.**
+`renumber-map_2026-09-12.tsv` carries it in full — 52 rows, **43 of them with a
+dash for the new number**, which is exactly the 43 files D-288 removed, plus
+that pass's nine renumbers. D-288 recorded it when it happened. What no map
+supplies is what a cut section became, and the answer to that is nothing, which
+is a fact about the cut rather than a gap in the record.
+
+**What the tool does not touch is the gap itself.** **Thirty-six of the
+thirty-eight open entries have still not been read against the current book**,
+and resolving a number is not reading a question: the September 12 return
+rewrote most of what it kept, so an entry whose number now resolves can be about
+prose that no longer exists. This file's own rule stands — a question whose
+target was rewritten is not thereby answered. The arithmetic is done and the
+reading is not. **The thirty-six of thirty-eight is the previous header's count,
+carried and not re-verified this pass.**
+
+**Q-111 is still unsited** at `00.tex:13`.
+
+**Superseded header, kept for the record.**
 **Current as of 2026-09-18, after D-394: Q-043 is at sixteen instances, all sixteen repaired, and the instrument has a third blind spot.**
 
 **The sixteenth was repaired hours after being opened, and \S\,3.3 supplied the wording.** \S\,11.3 said *commensurability needs the system's own state on the scale*; \S\,3.3's own closing paragraph argues the induction is a repeated result across vertebrates, arthropods and cephalopods **and in the same breath declines necessity** — *what it does is route engineering effort*. So \S\,11.3 now reads *motivated* rather than *required*, with the clause narrowed to the scale and the system's own state named as the route's proposal. **None of the sixteen is outstanding**, which restores what D-381 recorded and D-393 had to retire for one pass.
