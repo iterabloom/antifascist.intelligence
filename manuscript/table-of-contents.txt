@@ -1,4 +1,4 @@
-Chapter 0: Foreword
+Chapter 0: Preface
 Chapter 1: Twenty Seconds
 1.1. What a Refusal Would Have to Do
 1.2. Safe for Whom
@@ -87,7 +87,7 @@ Chapter 15: What Would Change the Argument: A Research Agenda
 15.8. Does Theory-of-Mind Performance Reflect a General Capacity?
 15.9. What Does a Face-Reading System Measure?
 15.10. The Responsibility Gap, Which No Experiment Closes
-Chapter 16: What I Actually Think Happens Now
+Chapter 16: What Can Be Used Now, and What Is a Bill
 16.1. Better, Not Just Less Bad
 16.1.1. Where the Democratic Dividend Actually Comes From
 16.1.2. Commitment Was Never the Missing Piece
