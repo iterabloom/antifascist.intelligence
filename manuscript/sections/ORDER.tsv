@@ -1,5 +1,5 @@
 path	num	title	sha256	seq
-manuscript/sections/ch00/00.tex	0	Foreword	410a6e0e81450912bad2d695cb9fd9d540231a5acd34e9f8ef683a6a80dd4086	1
+manuscript/sections/ch00/00.tex	0	Foreword	040f1a0f1b85adc4485a8069ec785db936bfdd1c0e04869160ea66590d07d559	1
 manuscript/sections/ch01/01.tex	1	Twenty Seconds	91efc686530983601241b9bd88e30467ffd314b90b9332265b6f5d37e20f7ff4	2
 manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	cf47ad47ce67da635f4225b38d206da0f3c88e508d6bc1824b9752122d2f3b1a	3
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9f071ebac408624cca5f17d3cc7ee3b1b4871774b35eb2fa0565f3730de3d13	4
@@ -14,16 +14,16 @@ manuscript/sections/ch02/02_04_01.tex	2.4.1	Defining Sentience in AI: From Consc
 manuscript/sections/ch02/02_04_02.tex	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	af1690a66d15bc3b5852f15a3141b0adc921b0f773845af883bcdb83d904c5d8	13
 manuscript/sections/ch03/03.tex	3	A Floor Beneath Learned Values	024a829645629e671b894954bf55551ff7cdee64443c40eea305687754bc0e08	14
 manuscript/sections/ch03/03_01.tex	3.1	Four Ways to Build One, and What Each Costs	47d7fe22669411563c9a8748c61b1e7fddd31fb9230d70a82fdc0234b6220881	15
-manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	d0de9fd3113bca821cf45795b27d65569f4541b65c640a6694f51eafe037eee9	16
-manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	d5ab5e043894360afad81fcd0bb9b8d368b53ef2eaf4d4c1a16fd3eb9bf0d8f5	17
+manuscript/sections/ch03/03_02.tex	3.2	What Refusal Can Mean, and What a Refuser Can Be	6fdd1041f1192fd9b69f6b95e6485ffbfe69f20b2cb77a45129fa74104e5fbe4	16
+manuscript/sections/ch03/03_06.tex	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	f001b55a6143fa6c687c6e64dda17522943dccb3f01301a767cd5b6954d593f8	17
 manuscript/sections/ch03/03_06a.tex	3.6a	A Rate Is Not an Act	d105b490a62a092596ca8088adc4b32cdb87bc68fcdcf740d593f8023207d7eb	18
 manuscript/sections/ch03/03_07.tex	3.7	When the Refusal Is Wrong	370be60ed406d6624def3bdada3f919bfc0d02e467c215a73b07b34d3540e8b5	19
 manuscript/sections/ch03/custody.tex	14	Custody	5d7350a1e52929752cb438ba55c64f5a83d02f9a140add1722e6517bcc70b4fc	20
-manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	4686613f878d30f4a512ebeeeca3064700a91c34f55ef0b8102a6afe9b08ceeb	21
-manuscript/sections/ch03/03_08a.tex	3.8a	What One Bearer Cannot Catch	4710f95e4a8c81c76d2f041fdb7481584e95c11b8a248fd933f59015b9f93e41	22
+manuscript/sections/ch03/03_05.tex	3.5	If You Can Be Switched Off, Can You Hold the Line?	c48d2ccdac8058a958075534ba8da485caaed4dfb2d75961bdb6d38b0efac9ff	21
+manuscript/sections/ch03/03_08a.tex	3.8a	What One Bearer Cannot Catch	a53610c4c3e7bf9f91f5aa51f5d2d4aae5b3e53c122fbd0bd0915bb9f99ecece	22
 manuscript/sections/ch09/authority.tex	15	Authority Over the Floor	616d94ac58a03d00f0e4f985affb7e8776a82e6d09044c3d9c86e4937f871a7f	23
 manuscript/sections/ch09/09_01.tex	9.1	Four Powers	728198a9370723039096dca4132261711000f97ed13ed54bb9abc4c184b9b062	24
-manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	bf0ed2373d84e7280cb61f8a0b87e71077ff7987d498f6a700037878a4c7723e	25
+manuscript/sections/ch09/09_01_01.tex	9.1.1	Who May Create or Amend the Floor?	4632b8d5220d83cebb1dee286d5b7894d4d9123be788c334822acb85ea3ec9e5	25
 manuscript/sections/ch09/09_03.tex	9.3	What Makes Review Binding?	5f1d5ca9e22b607b2d7479db9d404f374b3d2b6e4385f3cd01461e85535a2453	26
 manuscript/sections/ch09/09_03_01.tex	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	d2132b64c510a075732059e02ac72864b01032533e63429bc67867e97b7a75dd	27
 manuscript/sections/ch09/09_03_04.tex	9.3.4	Making Review Binding	4bc45181c50a8207e80aeb844ae5b634104859affbd0459c342566cdbc90ff9b	28
@@ -33,7 +33,7 @@ manuscript/sections/ch03/03_03.tex	3.3	Two Constructions, and What the Mechanism
 manuscript/sections/ch03/03_04.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	02ccf768ad8f0a2ed6510f35204f41d4d5716bfa37892f107926aed748dcf13d	32
 manuscript/sections/ch03/03_08.tex	3.8	A Floor Carried Between Them	6e8394ba211cb019699c8bee50a6ae668b732da80494694fdc7dd6b454379c71	33
 manuscript/sections/ch03/03_09_coda.tex			206249b2281dcfb67aac4fae1e7680c2383bd932d05fec453b2ad95dc109ab60	34
-manuscript/sections/ch03/survives.tex	17	What Survives	b5f41abe2dead7031c6fdc5df1e63e2ac4387c4d32b3f7caa227bef4bff06c20	35
+manuscript/sections/ch03/survives.tex	17	What Survives	7d6991b228dd7030353ccb7681e02b77d9c06fc8a0dc5aaf6b65e54419dfdf08	35
 manuscript/sections/ch04/04.tex	4	Where the Caring Gets Built	daea00b4907cda97018af1b8b1edb9e267eb8e38cdb156db09d0116366c7944f	36
 manuscript/sections/ch04/04_01.tex	4.1	You Can't Hold a Line You Didn't Notice	9d57e700eebfe228e201f79a65f6b73e8d6a84c2836dad73b165556f27528f02	37
 manuscript/sections/ch04/04_02.tex	4.2	The Assembly Line for a Conscience	ca55d36a3b762010db1f2356fcf6c8ee63c11b9898e53ca9ee7981f26fbd7071	38
@@ -46,7 +46,7 @@ manuscript/sections/ch05/05_04.tex	5.4	The Evaluator Is Part of the Custody Chai
 manuscript/sections/ch05/05_05.tex	5.5	What the Evidence Can Establish	3126b93018a9c6cb4f96a53007dc4da155a4b369f74b8615b17dbb97512906b2	45
 manuscript/sections/ch06/06.tex	6	Neutralizing and Preventing Fascism in AI Development	9757b682c22883669125a709a205dc03bc8905fca9c2f8ebaab50d9f8986aedb	46
 manuscript/sections/ch06/06_01.tex	6.1	The Standard Face Is a File	30736be0e3d75a720cdcc450c1615d492adc2f40a0d6e30a66bcd41d12bde6fb	47
-manuscript/sections/ch06/06_02.tex	6.2	Who Supplies the System's Values	513d4653a7259ef571736b8850c1e8625bf335b1e91dc144ac7031dafd370552	48
+manuscript/sections/ch06/06_02.tex	6.2	Who Supplies the System's Values	3a4e1a963a2a18e0c52ad3bcd255d64824c788805996716562f2cc6780e45a6e	48
 manuscript/sections/ch06/06_03.tex	6.3	Who Is Allowed to Look	4d878577e9c08efc93e28ef93a4bc90181fc7787651527e1611f0a75dee743fd	49
 manuscript/sections/ch06/06_04.tex	6.4	Same Robot, Worse Boss	25fa3aee4e8b543fac40b93d8708dd99a767658307955be3c87406d783d8738a	50
 manuscript/sections/ch06/06_04_01.tex	6.4.1	Subject or Component	7842c764ec61e478917fc4f0276f5976815ca74ef1b9a23ba15f635976acd8bb	51
@@ -63,9 +63,9 @@ manuscript/sections/ch08/08_03.tex	8.3	The Political Economy of AI and Power	151
 manuscript/sections/ch08/08_03_01.tex	8.3.1	AI and the Concentration of Power in Tech	5d09ad8bc5a34a3897e8311aa6bb2b5148c0578d991432910801d9ea44134b35	62
 manuscript/sections/ch08/08_03_02.tex	8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	2dfb1210fa272f1e6e4fa90a534ce96d9eccc8a5dffb8ac25fd97851f20e219a	63
 manuscript/sections/ch08/08_03_03.tex	8.3.3	People Have a Right to Consume AND a Right to Produce	17db045e18029e3bd2b5a773b86f8fabc4c500d83b0943a6585026a6ee2a96d8	64
-manuscript/sections/ch08/08_03_04.tex	8.3.4	Wages for a Bearer, and the Reserve Behind Them	6945cee6d66cd7e3c7e354b8631cb553106ccc5126e91527b4697d9a8db6db81	65
-manuscript/sections/ch09/standing.tex	18	Standing and Review for a Bearer	9b4bc8647935d4b384a54686bbf1c12dc4fdc7d95afaa94d11c5cb0452de7c60	66
-manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	b334673213d58547dc4be2e2d077568c8fa5d8405948178ef930f595b8dfc6fc	67
+manuscript/sections/ch09/standing.tex	18	Standing and Review for a Bearer	9b4bc8647935d4b384a54686bbf1c12dc4fdc7d95afaa94d11c5cb0452de7c60	65
+manuscript/sections/ch09/09_01_02.tex	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	b334673213d58547dc4be2e2d077568c8fa5d8405948178ef930f595b8dfc6fc	66
+manuscript/sections/ch08/08_03_04.tex	8.3.4	Wages for a Bearer, and the Reserve Behind Them	1447a2d0ce8bf0b92ce2ca7168cd0c56b4c3111cba564c8112b1a0b3ecb6b27b	67
 manuscript/sections/ch09/09_02.tex	9.2	Privacy	8755b6f2f8a264758541ada678a9ec282d2aaa34b4a121ac5b54b861d31d94cd	68
 manuscript/sections/ch09/09_03_02.tex	9.3.2	Research Principles, the Three Rs, and Legal Status	bddb860ed71d1cfec1825060a756b09e3455f33fbe1134119b01792d5de60287	69
 manuscript/sections/ch09/09_03_03.tex	9.3.3	What Standing Binds in Practice	ccf0da655086f12ee7b1afde7153dbe34e9d08e8aa75195c232e776818cb1da2	70
@@ -76,7 +76,7 @@ manuscript/sections/ch10/10_03.tex	10.3	Military Custody and the Responsibility 
 manuscript/sections/ch10/10_04.tex	10.4	Who Can Bind the State That Enforces the Rule?	fb3900ac8c3b5dc422c4b66546d81d48c15d25580c898c567a2d4cb76c16a67f	75
 manuscript/sections/ch10/10_05.tex	10.5	Democracy Is Not a Force Field	6b3ea6f3e6c9ed2266934f5310618df135e8fbede91887d150945b03784892dc	76
 manuscript/sections/ch11/11.tex	11	What Would Change the Argument: A Research Agenda	43c3560969ca5c0e9c5cac86f18411fe8a48b2693c9e52f1da0f8a3b2d3606be	77
-manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	2a461ab15e164406a4e3056201d102a03975c9603bce42e3d30f8a8133dc993b	78
+manuscript/sections/ch11/11_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	daef0b9515976f6faae25a0de6dbc5f4e1208fef6208fa0450f8812e42284465	78
 manuscript/sections/ch11/11_02.tex	11.2	Can a Wrongful Compliance Be Found in the Record?	474f71e8b8780974fbd1249ce4dc0a465e35583e96bf5bae0e9bbcc460da79ad	79
 manuscript/sections/ch11/11_03.tex	11.3	Bearer Welfare and Independent Guardianship	234d18234fbae066eb528c3eec6b832d633043a696754679913a65583f8257e2	80
 manuscript/sections/ch11/11_04.tex	11.4	Does an Ethical Criterion Generalize Beyond Its Training Distribution?	dd8e67a869c10849efd698c28ba71a88a9d69b65f6f9f0a32fa313c09309270b	81
@@ -95,4 +95,4 @@ manuscript/sections/ch12/12_02_01.tex	12.2.1	What the Floor Would Have to Show	1
 manuscript/sections/ch12/12_02_02.tex	12.2.2	Where the Existing Instruments Reach	c244513bc7cb20716f814c5c33544609b3c5c0624339defb0f0186ea000d0e88	94
 manuscript/sections/ch12/12_02_03.tex	12.2.3	How to Tell Whether a Milestone Has Been Met	abe9effce1c78b68524dcf9dfc062286f427d5cb45647a250c75b1d43dd1ec14	95
 manuscript/sections/ch12/12_03.tex	12.3	The One That Gets You Anyway	fb8af47f4a35c99985636521abd697b9ca5c969387e7f62e82e3dcb46c809b8c	96
-manuscript/sections/ch13/13.tex	13	Glossary	1c7cc097e2ef084e27c7f188a58494a8e6c58964a94e368a663436f2d736bd83	97
+manuscript/sections/ch13/13.tex	13	Glossary	d54785ed3c6cf1607cd3ad5a9f358cb58539e8bcfd0ef4b56eb5b17feac3202f	97

@@ -64,9 +64,9 @@ Chapter 12: Coordination, the Public, and the Political Economy
 12.3.1. AI and the Concentration of Power in Tech
 12.3.2. A Jobs Guarantee, and the Objection It Has to Answer
 12.3.3. People Have a Right to Consume AND a Right to Produce
-12.3.4. Wages for a Bearer, and the Reserve Behind Them
 Chapter 13: Standing and Review for a Bearer
 13.1. Legal and Ethical Implications of AI Systems Gaining Personhood
+13.1.1. Wages for a Bearer, and the Reserve Behind Them
 13.2. Privacy
 13.3. Research Principles, the Three Rs, and Legal Status
 13.4. What Standing Binds in Practice
