@@ -108,7 +108,8 @@
 
 % Front and back matter are \chapter*, which does not set \@currentlabel, so a
 % plain \label after one captures whatever number was last set -- silently
-% wrong. This pins the printed value, so \ref{sec:13} really yields 13.
+% wrong. This pins the value a \ref to the heading yields, which is the
+% ordinal of the heading and not a number the page shows.
 \makeatletter
 \newcommand{\unnumberedlabel}[2]{\begingroup\def\@currentlabel{#2}\label{#1}\endgroup}
 \makeatother

@@ -67,10 +67,10 @@ Chapter 12: Coordination, the Public, and the Political Economy
 12.3.3. People Have a Right to Consume AND a Right to Produce
 Chapter 13: Standing and Review for a Bearer
 13.1. Legal and Ethical Implications of AI Systems Gaining Personhood
-13.1.1. Wages for a Bearer, and the Reserve Behind Them
-13.2. Privacy
-13.3. Research Principles, the Three Rs, and Legal Status
-13.4. What Standing Binds in Practice
+13.2. Wages for a Bearer, and the Reserve Behind Them
+13.3. Privacy
+13.4. Research Principles, the Three Rs, and Legal Status
+13.5. What Standing Binds in Practice
 Chapter 14: Custody, Compulsion, and the State
 14.1. Authority Does Not Travel with the System
 14.2. Where the State's Leverage Sits
@@ -95,4 +95,4 @@ Chapter 16: What Can Be Used Now, and What Is a Bill
 Appendix A: Further Tests
 A.1. Tests That Compare Constructions Available Now
 A.2. Tests That Presuppose a Bearer and a Welfare Regime
-Chapter 17: Glossary
+Chapter 18: Glossary

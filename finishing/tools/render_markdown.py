@@ -227,11 +227,38 @@ def join_split_args(text):
         i = end
 
 
-def render(path, num, root, labels):
-    """One section file -> a list of Markdown lines."""
+def printed_numbers():
+    """path -> the printed number of each numbered heading in it, in order.
+
+    From the same counter simulation the generated table of contents is built
+    from (D-406). Starred headings are left out: they print no number, and the
+    value \\unnumberedlabel pins for the Foreword and the glossary is what a
+    \\ref to one yields, not something the page shows.
+    """
+    out = {}
+    for num, _title, path, _lineno, numbered in common.printed_headings():
+        if numbered:
+            out.setdefault(path, []).append(str(num))
+    return out
+
+
+def render(path, nums, root, labels):
+    """One section file -> a list of Markdown lines.
+
+    `nums` is the printed number of each numbered heading in the file, in the
+    order they appear -- NOT ORDER.tsv's `num`. D-406 made that an identity
+    that stops describing a file's position the moment the file moves, and
+    D-422 rebuilt the cross-references on the printed number and left the
+    headings on the identity, so the export printed "## 14. Custody" over the
+    chapter the book numbers 4 and resolved a reference inside it to 6: one
+    file disagreeing with itself. A list and not a single value because a file
+    can carry more than one heading -- survives.tex holds a chapter and three
+    sections, and prefixing only the first left those three unnumbered.
+    """
     text = open(os.path.join(root, path), encoding="utf-8").read()
     lines = join_split_args(text).split("\n")
-    out, i, first_heading, stack = [], 0, True, []
+    out, i, stack = [], 0, []
+    heads = list(nums)
 
     while i < len(lines):
         line = lines[i]
@@ -240,12 +267,19 @@ def render(path, num, root, labels):
         m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?\{(.*)\}\s*$", line)
         if m:
             kind, title = m.group(1), inline(m.group(2), labels).strip()
-            starred = "*{" in line.split("{", 1)[0] + "{"
             prefix = ""
-            if first_heading and num and num != "0" and not line.startswith("\\" + kind + "*"):
-                prefix = num + ("." if kind == "chapter" else "") + " "
+            if not line.startswith("\\" + kind + "*"):
+                if heads:
+                    prefix = heads.pop(0) + ("." if kind == "chapter" else "") + " "
+                else:
+                    # Degrade to an unnumbered heading rather than to a wrong
+                    # number, and say so: the two heading patterns, this one and
+                    # common.HEAD_RE, have to agree for the numbers to line up.
+                    print("WARNING: %s: no printed number left for heading %r, "
+                          "rendered without one; this pattern and "
+                          "common.HEAD_RE disagree about what a heading is."
+                          % (path, title), file=sys.stderr)
             out += ["", "#" * HEADING_DEPTH[kind] + " " + prefix + title, ""]
-            first_heading = False
             continue
 
         m = re.match(r"\\(?:runin|paragraph|boxtitle)\{", line)
@@ -715,9 +749,10 @@ def main():
                   "strip_notes() does not recognize.", file=sys.stderr)
     else:
         labels = label_map(root, rows)
+        numbers = printed_numbers()
         body = []
         for row in rows:
-            body += render(row["path"], row["num"], root, labels)
+            body += render(row["path"], numbers.get(row["path"], []), root, labels)
 
         body = squeeze(body)
         front = [
