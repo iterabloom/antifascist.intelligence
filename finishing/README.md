@@ -38,14 +38,25 @@ manuscript/book.tex                     the master; \input's the sections
 manuscript/sections.tex                 that \input list, generated
 ```
 
-Filenames are zero-padded and `_`-separated, and until D-406 byte-order sorting
-over them reproduced book order (with `.` as the separator a child sorts before
-its parent). **It no longer does, and nothing should be built on it: 59 of the
-97 paths are out of place under a byte sort.** Reading order is `ORDER.tsv`'s
-`seq` column, which `common.order_rows()` sorts on and every tool goes through;
-`cut -f1 manuscript/sections/ORDER.tsv | tail -n +2` prints it. The chapter
-directory a file sits in is its origin and not its destination — `ch03/` feeds
-four printed chapters, and `ch08/08_03_04.tex` prints inside chapter 13.
+Filenames are zero-padded and `_`-separated, and **byte-order sorting over them
+reproduces reading order** (with `.` as the separator a child sorts before its
+parent). That went false at D-406, when a file's identity stopped tracking its
+position, and was restored at D-464 by renaming the files — `ls
+manuscript/sections/` is the table of contents again. **`check_structure.py`
+holds it directly**: it sorts the paths and compares them to `seq` order, which
+is the property the filenames are for, where the rule it replaced compared each
+name against `ORDER.tsv`'s `num` and so tested identity against position.
+
+**The filename carries position; the label carries identity.** A chapter's slot
+is the number it would print had `\appendix` not reset the counter, which is the
+convention the two `\unnumberedlabel` pins already use: Foreword `ch00`,
+appendix `ch17`, glossary `ch18`. A continuation — a file with no heading of its
+own — takes the stem of the file it continues plus a trailing `z`, so it sorts
+after that file and its children. `ORDER.tsv`'s `num` is untouched by any of
+this and stays the identity the ledger is keyed on, so a file in `ch04/` can
+still carry `num` 14. **Renaming after a restructure is a routine operation
+now**: nothing in the record cites a filename as an identity, and
+`finishing/path-map_2026-09-19.tsv` is the map for the one rename performed.
 
 The dialect era — `<<quote>>`, `<<list>>`, `[[cite:ID]]`, and the joined
 `parseable_text_v4.txt` — ended at D-065. Its two reference texts, v3b and v4,

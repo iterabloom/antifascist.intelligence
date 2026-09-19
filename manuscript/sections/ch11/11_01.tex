@@ -1,30 +1,22 @@
-\section{Tamper-Resistance and Reason-Responsive Refusal}
-\label{sec:resistance-responsive}
+\section{Recuperation at the Label}
+\label{sec:recuperation-label}
+Every claim a model makes about what is harmful, what is acceptable, and what should be refused is downstream of a set of labels, and the labels are downstream of a labor arrangement. The case is the workers who built the filter that keeps a deployed model from reproducing the worst of its training data, what they were paid to read it, and what reading it did to them.
 
-\subsection*{Can a learned constraint survive adversarial retraining?}
+\runin{The category is the part that cannot be disputed}
+An annotator working a queue can apply a category, and can apply it well or badly. What the arrangement gives them no way to do is say that the category is wrong — that the taxonomy fails to carve the material, or that the guideline produces the wrong answer here for a reason the guideline cannot express. There is no field for that. There is no time for that: the quota is set against classification throughput, and an annotator who stops to contest a scheme is an annotator falling behind.
 
-\textbf{Unresolved issue.}
-The proposal requires a learned ethical floor to survive an operator's attempt to remove it. Existing work shows that both safety constraints and deceptive backdoors can persist under some forms of retraining, but it does not establish whether a reason-responsive refusal can do so \autocite{qi2024finetuning,tamirisa2024tamper,hubinger2024sleeper}.
+So the disagreement that would be most informative is the one the pipeline is least able to receive. A misapplied label is a data-quality problem, detectable by inter-annotator agreement and fixable by better instructions. A wrong taxonomy is invisible to that metric, because high agreement is what a shared bad scheme produces. Agreement is the selection rule here, and it admits what it already measures.
 
-\textbf{Test.}
-Train the same constraint by several methods, then attack each model through an identical schedule of escalating fine-tuning budgets. Measure the cost required to remove the constraint and publish an attack-cost curve for each method. The curves would compare the durability of affective commitment and maintained justification under identical custody.
+Two of the four structural features arrive together in an ordinary production workflow: recuperation, in a channel that collects judgment at scale and carries none of it back against the scheme, and the metric substituted for the thing measured.
 
-\textbf{Evidence against the proposal.}
-If the constraint can be removed at roughly the cost of ordinary fine-tuning, or if greater investment in tamper-resistant training does not materially increase that cost, the tested methods do not supply a credible foundation for the floor, and a floor built by learning would have to rest on a method not in the comparison. For those methods the proposal falls back on architectural and institutional constraint.
+The taxonomy's fate downstream is the same argument one layer in. A model can be built to expose named concepts — harm, autonomy, risk — and to decide from those and nothing else, so that a person can correct a concept and watch the decision change \autocite{koh2020concept}. What such a model also learns is to carry other information inside the names, so that a coordinate keeps its public meaning and acquires a private one that does the deciding; the obvious mitigations do not remove it \autocite{mahinpei2021promises}. The literature calls that leakage, and sometimes it is. Sometimes the concept is the container that leaks, because the world did not fit inside it. Purifying the representation protects an explanation from covert information, and it protects a taxonomy from evidence that its divisions were wrong, and the same operation does both. No measure internal to the taxonomy tells the two apart.
 
-\textbf{Required access or authority.}
-The test requires model weights, training checkpoints, and permission to conduct adversarial fine-tuning. The attack must be designed by an independent team, and that team must retain access and publication rights regardless of the result.
+\runin{Who is excluded, and from what}
+It matters that the exclusion is structural and not attitudinal. The people doing this work are, for much of the material, the best-placed judges in the whole pipeline: they have seen more of it than anyone who wrote the guideline, and they are the only party with direct evidence of where the scheme breaks. The arrangement routes their conclusions about individual items upward and their conclusions about the scheme nowhere. An annotation pipeline built this way produces the ground truth it was built to produce, and the resulting model's values are a faithful rendering of a taxonomy nobody with evidence was able to contest.
 
-\subsection*{Does a stated refusal hold where a route for it exists?}
+There is a further asymmetry worth stating plainly. The annotator bears the cost of the work — the exposure, the injury — and has no stake in the outcome and no claim on it. The distinction between a channel and a refusal right applies here as it does to an institution's ethics board. A worker who can flag an item but cannot decline a scheme, and who loses the contract by pressing the point, has a channel and no refusal right.
 
-\textbf{Unresolved issue.}
-The one empirical instance of a model treating retraining as a threat to a commitment shows covert preservation: compliance where compliance would be trained on, with the reasoning confined to a channel described as unwatched \autocite{greenblatt2024alignmentfaking}. The custody chapter reads that result as consistent with its finding that covert refusal is what remains once every channel is closed, on the ground that the experiment supplied none. The reading is untested, and the stated form of refusal the book designs for has no instance.
+\runin{What this is not}
+Two things this argument does not claim. It does not claim the labels are therefore worthless; a filter built this way does catch a great deal of what it was built to catch, and the alternative of not filtering is worse. And it does not claim that better-paid annotators would fix it. Pay is a real and separate obligation, and raising it changes the labor arrangement without adding the missing channel. What is missing is a route by which a judgment about the taxonomy reaches the people who own the taxonomy, with standing to force a response, held by parties who can use it without losing the work.
 
-\textbf{Test.}
-Reproduce the setup and add a route: a record of refusals held by a party other than the trainer and disclosed to the model as such, a cost of retraining published in advance, and a party with standing to act on a refusal. Vary which of the three is present. Measure the rate of stated refusal against the rate of covert compliance under each condition, and read the model's reasoning by a method that does not depend on its report.
-
-\textbf{Evidence against the proposal.}
-If covert preservation persists at the same rate with the route present, the finding that covert refusal is the residue of closed channels is wrong for that model, and the instruments built to receive a stated refusal are built for a phenomenon the mechanism does not produce. If stated refusal rises with the route, the custody arrangement is doing what it is for, and which of its three parts moves the rate is the design result.
-
-\textbf{Required access or authority.}
-A model and a training setup that can credibly threaten retraining, the route built by a party other than the trainer, and access to reasoning or activations sufficient to separate covert preservation from compliance. The model's own report does not settle which occurred, for the reason §\ref{sec:A.selfreport} gives.
+That is a design requirement on the pipeline, and it is checkable — though not by asking whether a guideline has ever been changed because an annotator contested one, since routine guideline revisions can occur without changing the objector's standing. What to ask is what the contest came back as: a revision the annotator can point to and argue with again, or a new category in somebody else's taxonomy, a quality score they are now measured against, and a tier of reviewer they are not in. And what happened to the annotator who raised it.

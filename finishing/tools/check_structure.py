@@ -95,9 +95,13 @@ def main():
                 errs.append("%s: ORDER.tsv sha256 is stale (%s != %s); "
                             "run tools/refresh_order_shas.py"
                             % (r["path"], r["sha256"][:12], digest[:12]))
-        stem = os.path.basename(p)[:-4].replace("_", ".")   # .tex is 4 chars too
-        if r["num"] and re.match(r"^\d", stem) and common.numkey(stem) != common.numkey(r["num"]):
-            errs.append("%s: filename does not encode %s" % (r["path"], r["num"]))
+        # D-464: the filename encodes the file's POSITION, not ORDER.tsv's num.
+        # This compared the two, which was the same test while num was position;
+        # D-406 made num an identity that stays put while a file moves, so the
+        # comparison would now fail on 75 of 97 files that are exactly where
+        # they belong. The property worth holding is the one the filenames are
+        # for, and it is checked once over the whole set below rather than file
+        # by file: sorting the paths reproduces reading order.
         stack = []
         for i, line in enumerate(lines, 1):
             for m in ENV.finditer(line):
@@ -137,6 +141,20 @@ def main():
             errs.append("ledger.tsv has duplicate num rows")
     else:
         notes.append("ledger.tsv not present yet")
+
+    # D-464: byte-order sorting over the paths reproduces reading order. The
+    # filenames exist to carry position, and this is that property stated once
+    # over the whole set instead of inferred from each name. It went false at
+    # D-406 and nothing noticed for thirteen days, because the per-file rule it
+    # replaces compared a filename against an identity rather than a position.
+    seq_order = [r["path"] for r in rows]
+    if sorted(seq_order) != seq_order:
+        first = next(i for i, (a, b) in enumerate(zip(seq_order, sorted(seq_order)))
+                     if a != b)
+        errs.append("byte-order sorting no longer reproduces reading order; "
+                    "first divergence at position %d: reading order has %s, "
+                    "sorted order has %s"
+                    % (first, seq_order[first], sorted(seq_order)[first]))
 
     print("check_structure: %d files (%d with a heading, %d continuations); "
           "%d named labels exempt from the number comparison"
