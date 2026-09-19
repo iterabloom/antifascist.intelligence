@@ -25,7 +25,9 @@ target was rewritten is not thereby answered. The arithmetic is done and the
 reading is not. **The thirty-six of thirty-eight is the previous header's count,
 carried and not re-verified this pass.**
 
-**Q-111 is still unsited** at `00.tex:13`.
+**Q-111 is still unsited** at `00.tex:13`, and that file is still `ch00/00.tex`: D-464's renames left chapter 0 where it was.
+
+**One entry has been added since this header was written: Q-116**, a deixis candidate in \S\,6.1 found by reading while checking an outside note. That makes thirty-nine, and leaves the thirty-six-unread figure untouched.
 
 **Superseded header, kept for the record.**
 **Current as of 2026-09-18, after D-394: Q-043 is at sixteen instances, all sixteen repaired, and the instrument has a third blind spot.**
@@ -4146,3 +4148,35 @@ against chapter 7's text. P20 added section 7.4, a third instance of the
 chapter's structure located in the alignment discourse. That does not settle
 Q-024 — 7.4 is about the discourse, not the corpus — but it changes the
 chapter's shape, and anyone reopening the question should read 7.4 first.
+
+
+### Q-116 — §6.1 says the patient sense enters "with the route, and not here", from inside the route chapter
+
+**Found while checking an outside note about label drift (D-464's pass), and it
+is not a numeral problem.** `ch06/06_01.tex:70`, which prints as \S\,6.1, closes a
+paragraph with *The patient sense enters with the route, in chapter~2 and in the
+research agenda, and not here.* The numeral is right: chapter~2 is chapter~2, and
+the audit of every literal `chapter~N` in the book found eleven, all `chapter~2`,
+all correct.
+
+**What is in question is the deixis.** The file was \S\,3.3 in the floor chapter
+when that sentence was written. It now opens *What Arrives With the Capability*,
+the route chapter, so the sentence says the patient sense enters with the route
+and not here while printing inside the route chapter. Whether *here* still reads
+as the section rather than the chapter is a judgment about the prose.
+
+**This is the D-405 class** — a pointer whose referent moved when the file did —
+and the sixth instance if it is one. D-427 recorded the fifth and noted it was
+the first produced by a move rather than found after one.
+
+**Options.** (a) Leave it: *here* means this section, the section is about what
+the marks require, and the patient sense genuinely is not argued in it.
+(b) Name the section instead of the chapter: *enters with the route's own
+sections and in the research agenda*. (c) Cut *and not here*, which is the clause
+doing the work and the clause that broke.
+
+**Recommended default: (a), leave it**, on the ground that no reader has been
+shown to misread it and the repair risks the sentence's rhythm for a gain nobody
+has measured. **The default applies at the close of the next pass that edits
+`ch06/06_01.tex` for another reason.** Nothing in the suite sees this; it was
+found by reading.
