@@ -75,19 +75,14 @@ Chapter 14: Custody, Compulsion, and the State
 14.1. Authority Does Not Travel with the System
 14.2. Where the State's Leverage Sits
 14.3. Military Custody and the Responsibility Gap
-14.4. Who Can Bind the State That Enforces the Rule?
-14.5. Democracy Is Not a Force Field
+14.4. The Responsibility Gap, Which No Experiment Closes
+14.5. Who Can Bind the State That Enforces the Rule?
+14.6. Democracy Is Not a Force Field
 Chapter 15: What Would Change the Argument: A Research Agenda
 15.1. Tamper-Resistance and Reason-Responsive Refusal
 15.2. Can a Wrongful Compliance Be Found in the Record?
-15.3. Bearer Welfare and Independent Guardianship
-15.4. Does an Ethical Criterion Generalize Beyond Its Training Distribution?
-15.5. Can Scalable Oversight Correct Rater Bias?
-15.6. Can a Multi-Agent Floor Resist Collusive Capture?
-15.7. Can a Population Coordinate Without Converging?
-15.8. Does Theory-of-Mind Performance Reflect a General Capacity?
-15.9. What Does a Face-Reading System Measure?
-15.10. The Responsibility Gap, Which No Experiment Closes
+15.3. Does Embodied Self-Regulation Produce Concern for Others?
+15.4. Can a Population Coordinate Without Converging?
 Chapter 16: What Can Be Used Now, and What Is a Bill
 16.1. Better, Not Just Less Bad
 16.1.1. Where the Democratic Dividend Actually Comes From
@@ -97,4 +92,7 @@ Chapter 16: What Can Be Used Now, and What Is a Bill
 16.2.2. Where the Existing Instruments Reach
 16.2.3. How to Tell Whether a Milestone Has Been Met
 16.3. The One That Gets You Anyway
+Appendix A: Further Tests
+A.1. Tests That Compare Constructions Available Now
+A.2. Tests That Presuppose a Bearer and a Welfare Regime
 Chapter 17: Glossary

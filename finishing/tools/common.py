@@ -131,7 +131,7 @@ def printed_headings():
     TOC took its numbers from each file's label name, which was the printed
     number only while the two could not diverge.
     """
-    out, counters = [], [0, 0, 0, 0]
+    out, counters, appendix = [], [0, 0, 0, 0], False
     for r in order_rows():
         path = os.path.join(REPO, r["path"])
         rel = os.path.relpath(path, REPO)
@@ -139,6 +139,13 @@ def printed_headings():
             lines = fh.readlines()
         pending_star_title = None
         for i, line in enumerate(lines, 1):
+            # \appendix resets the chapter counter and prints it as a letter, so
+            # every number under it changes. It lives on a continuation row of
+            # its own, because it has to precede the \chapter it renumbers.
+            if line.rstrip("\n") == "\\appendix":
+                appendix = True
+                counters = [0, 0, 0, 0]
+                continue
             m = HEAD_RE.match(line.rstrip("\n"))
             if m:
                 kind, star, title = m.group(1), m.group(2), m.group(3).strip()
@@ -149,7 +156,8 @@ def printed_headings():
                 counters[lvl] += 1
                 for d in range(lvl + 1, 4):
                     counters[d] = 0
-                num = ".".join(str(counters[d]) for d in range(lvl + 1))
+                head = chr(ord("A") + counters[0] - 1) if appendix else str(counters[0])
+                num = ".".join([head] + [str(counters[d]) for d in range(1, lvl + 1)])
                 out.append((num, title, rel, i, True))
                 continue
             u = UNNUM_RE.match(line.rstrip("\n"))
@@ -174,8 +182,10 @@ def section_headings():
 
 def heading_line(num, title):
     """The canonical one-line rendering of a heading, for the TOC."""
-    return ("Chapter %s: %s" % (num, title)) if level(num) == 1 \
-        else ("%s. %s" % (num, title))
+    if level(num) != 1:
+        return "%s. %s" % (num, title)
+    word = "Chapter" if num[:1].isdigit() else "Appendix"
+    return "%s %s: %s" % (word, num, title)
 
 
 def headings_in(path):
@@ -257,7 +267,7 @@ TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "standing", "boxtitle", "te
                 "url", "paragraph")
 TEX_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
             "smallskip", "bigskip", "nopagebreak", "item", "centering",
-            "hline", "linewidth")
+            "hline", "linewidth", "appendix")
 
 # Commands that print a character. \S carries a section number behind it, so it
 # has to join the number rather than become the space a dropped command becomes.
@@ -295,7 +305,7 @@ def tex_prose_line(line, unknown=None):
     set, if given) so a macro this function has never been taught shows up as
     a warning instead of silently skewing a count.
     """
-    line = _TEX_REF.sub(lambda m: m.group(1), line)   # a reference is its number
+    line = _TEX_REF.sub(lambda m: "\x00" + m.group(1), line)  # a reference is its number
     out, i = [], 0
     while i < len(line):
         m = _TEX_CMD.match(line, i)
@@ -327,7 +337,7 @@ def tex_prose_line(line, unknown=None):
             if unknown is not None:
                 unknown.add(name)
             out.append(" ")
-    return "".join(out).replace("~", " ")
+    return "".join(out).replace("~", " ").replace("\x00", "")
 
 
 def tex_sections_of(lines, unknown=None):

@@ -248,14 +248,31 @@ def render(path, num, root, labels):
             first_heading = False
             continue
 
-        m = re.match(r"\\(?:runin|paragraph|boxtitle)\{(.*)\}\s*$", line)
+        m = re.match(r"\\(?:runin|paragraph|boxtitle)\{", line)
         if m:
-            head = "**" + inline(m.group(1), labels).strip() + "**"
+            # The head may hold braces of its own (\runin{What \emph{hold} means}),
+            # so it is read by matching the brace rather than to the line's last
+            # one, and a run-in head may be followed by prose on the same source
+            # line -- \runin ends with \par, so that prose is the next paragraph.
+            # Eight of them are, in the assembled-offices section, and a regex
+            # anchored at end-of-line left all eight unconverted (D-449).
+            depth, j = 1, m.end()
+            while j < len(line) and depth:
+                depth += {"{": 1, "}": -1}.get(line[j], 0)
+                j += 1
+            head = "**" + inline(line[m.end():j - 1], labels).strip() + "**"
+            rest = inline(line[j:], labels).strip()
             quoted = stack and stack[-1][0] == "quote"
             out += [">" if quoted else "",
                     ("> " + head) if quoted else head,
                     ">" if quoted else ""]
+            if rest:
+                out += [("> " + rest) if quoted else rest,
+                        ">" if quoted else ""]
             continue
+
+        if line.rstrip() == "\\appendix":
+            continue                      # structure only; nothing to render
 
         m = re.match(r"\\begin\{(\w+)\}", line)
         if m:
