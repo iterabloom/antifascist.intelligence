@@ -161,8 +161,16 @@ ASSERTIONS = [
                     r"demonstrates that|entails)\b"),
     ("contradiction", r"\b(?:are in contradiction|is a contradiction|"
                       r"cannot both|is incompatible with)\b"),
-    ("only-way", r"\b(?:the only (?:way|route|thing|mechanism)|"
-                 r"the whole of|exactly what it takes)\b"),
+    # D-397: the noun here was enumerated -- way|route|thing|mechanism -- and
+    # the book has 41 "the only X" sentences of which that caught 9. The one it
+    # missed that mattered is the author's own, at 3.2: "it is the only step by
+    # which the specification bears on the route", labelled in the same breath
+    # as this book's central inference. An enumeration over forms is defeated by
+    # a new form -- which is section 3.6's own argument about floor terms,
+    # arriving in the instrument built to hunt for overclaims. The noun is now
+    # any word: 9 to 41 sentences, and the 32 added include "the only currency",
+    # "the only party", "the only channel" and "the only position".
+    ("only-way", r"\b(?:the only [a-z]+|the whole of|exactly what it takes)\b"),
 ]
 
 CONC_RE = [(n, re.compile(p, re.I)) for n, p in CONCESSIONS]

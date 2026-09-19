@@ -1447,6 +1447,55 @@ with each other. A two-word overlap across chapters clears all but 23 rows of th
 high `--cross` score is not by itself evidence of tension, and the section-local ranking that found the
 sixteen instances is the part of the report that has earned trust.
 
+**Instance seventeen, 2026-09-18 (D-397), and it is outstanding.** The author's paste gave \S\,3.2's
+proposition list a fourth item for the derivation itself, ending *it is this book's central inference,
+it is contested, and* **it is the only step by which the specification bears on the route**.
+\S\,11.3's fourth subsection contradicts that three times in one sentence: *Three of those are
+motivated by arguments that owe nothing to welfare: commensurability needs one scale on which the
+protected parties' losses and the cost of refusing both register, and the route proposes the system's
+own state as what supplies it (\S\,3.3); custody needs a bearer that can detect an interruption, a
+restore, or a degraded substrate (\S\,3.5); and exit needs a bearer that can sense when its outside
+option is inadequate (\S\,8.3.4).* **Three steps from the specification to three of the route's four
+components, none of them the functional-profile inference.** **And that sentence is instance sixteen's
+own repair** — D-394 changed *required* to *motivated* there earlier the same day, on the author's
+instruction, precisely so the specification could motivate route components without requiring them.
+**So the new proposition disagrees with the repair made hours before it.** A narrowing exists — *the
+only step by which the specification makes the route's affective character unavoidable* keeps both —
+but which claim gives way is a decision about how the central argument is presented. **That is the
+author's, on the same ground D-393 declined to act on.** Seventeen instances, sixteen repaired, one
+outstanding.
+
+**The two joints do not collide, and it is worth saying why.** \S\,3.3's commensurability joint is
+*where the route enters the specification*, route to specification, which is the B1 text at D-392.
+Edit 5's runs the other way. \S\,11.3's three cross in edit 5's direction, which is what makes them
+its counterexamples rather than a separate matter.
+
+**The fourth blind spot in its second form (D-397), and this is the one that bounds the whole hunt.**
+`hedge_pairs.py` pairs an **assertion** with a **concession**. \S\,11.3's counterpart above is itself
+an assertion, so **no pair forms** and the instrument cannot see instance seventeen even after the
+pattern was widened to classify \S\,3.2's side of it: the claim now pairs ten times, the highest at
+**0.008**, and \S\,11.3 is in none of them. **So this class is visible to the tool only where the
+other section's version happens to be phrased as a concession, and invisible wherever both sections
+state flatly** — which is the commoner case in a book that states things flatly. **Instances sixteen
+and seventeen were both found by reading.**
+
+**One narrower repair to the instrument, and the reason it was needed is the book's own argument**
+(D-397). `only-way` enumerated four nouns — *way*, *route*, *thing*, *mechanism* — and the book has
+**41** *the only X* sentences, of which it caught **9**. Among the 32 it missed: *the only currency*,
+*the only party*, *the only channel*, *the only position*, and *the only step*, the author's own label
+for the central inference. The noun is now any word and the report goes **3,707 to 4,086 rows**.
+**An enumeration over forms defeated by a new form is \S\,3.6's argument about floor terms, arriving
+inside the instrument built to hunt overclaims.**
+
+**And one wrong inference, recorded because the way it was wrong is a standing trap.** No `\item` text
+appears in either prose report, and the inference drawn from that — that neither instrument reads list
+environments, so \S\,3.2's three marks and \S\,3.6's seven interception positions had never been
+scanned — **was wrong**. Tested against `hedge_pairs.paragraphs()` directly: a list folds into one
+paragraph and every item survives. **Absence from a report of pairs is not evidence the text was not
+read**, the same shape as D-391's *an exit status is not evidence a report was written*. What survived
+the wrong inference is the measurement: **2,659 words in 11 list environments across 9 files, 2.9
+percent of the section files**, the largest \S\,2.2 at 687 words and \S\,3.6 at 655.
+
 ---
 
 ### Q-044 — The floor is in the weights and the system is an assembly
