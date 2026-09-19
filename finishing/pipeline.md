@@ -275,6 +275,13 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    worse than no link.
 5. **Commit the proofs and the README, and push again.** Two commits, not one:
    the work is legible in the first, and the second is generated output.
+6. **Re-read the top of `STATE.md` for what the build just falsified.** A lead
+   written before the proofs says the proofs are behind, and how many pages the
+   old ones had. Both are false the moment step 2 finishes, and nothing in the
+   suite checks prose. This happened three times on 2026-09-18 alone — the
+   tool names at `9a26e58`, *Groups B and C have not arrived* at D-396, and the
+   proof status at D-399 — so it is a step and not a reminder. The page count,
+   the word count and the commit the pair was built from all live in that lead.
 
 Step 5 is why it is two commits. A megabyte of rebuilt proof in the same commit
 as the prose that changed makes the prose unreadable in the diff, which is the
