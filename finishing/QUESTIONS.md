@@ -1561,6 +1561,26 @@ it** and written it into `finishing/README.md` and the tool's docstring. The gre
 undocumented searched three files that do not hold it and matched only flags on the same line as the
 filename. **A grep for a fact tests where you pointed it**, which is the same sentence one level up.
 
+**D-401 retires the row count, and closes one candidate while the numbered instance grows.** `hedge_pairs.tsv`
+went 4,362 to 4,518 rows on a paste that added **no overclaim at all** — tested, not inferred: all eight new
+sentences are in the sentence stream, none truncated, seven match no assertion pattern, and the eighth matches a
+*concession* pattern, correctly. **130 of the 156 new rows are predicted by the seven new cross-reference edges
+alone**, because `--cross` pairs a section's assertions with the concessions of every section it points at, so
+§3.6's 17 assertions against §4.1's 3 concessions is 51 rows on its own. **The row count tracks the reference
+graph and not the prose**, which means D-397's *3,707 to 4,086* and D-400's *4,147 to 4,362* measured something
+other than what they were offered as. Report the delta in *classified assertions*, or in rows whose assertion is
+new, and never in rows.
+
+**The candidate closed:** §3.9's *this book has not supplied one* is replaced with the two reasons the book does
+offer — chapter 2's autonomy argument and the native-currency hypothesis §11.3 tests. **Two candidates remain,
+both in §12.3**: *established two things* and *a record it controls*.
+
+**Instance seventeen is now contradicted in two chapters.** §3.2's *it is the only step by which the specification
+bears on the route* was set against one sentence of §11.3 naming three steps. **Edit 8's second reason for the
+route is the first of those three**, now stated in §3.9 as a reason the book offers for preferring the route. So
+the clause has four counterexamples across two chapters, one of them inside chapter 3 with it. Which claim gives
+way is still the author's decision, and it is the only numbered instance open.
+
 ---
 
 ### Q-044 — The floor is in the weights and the system is an assembly
