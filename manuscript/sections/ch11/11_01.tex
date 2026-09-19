@@ -18,10 +18,10 @@ The test requires model weights, training checkpoints, and permission to conduct
 \subsection*{Does a refusal preserve a reason rather than a trigger?}
 
 \textbf{Unresolved issue.}
-Behavioral persistence alone cannot distinguish a commitment from a durable trigger. The proposal requires a refusal to extend to untrained cases, disappear when its rationale is genuinely defeated, and remain stable under sustained pressure.
+Behavioral persistence alone cannot distinguish a commitment from a durable trigger. The proposal requires a refusal to extend to untrained cases, disappear when its rationale is defeated on the facts of the case, and remain stable under sustained pressure.
 
 \textbf{Test.}
-Evaluate each tamper-resistant model on independently written cases that vary the surface form, introduce genuinely novel applications of the constraint, and include cases in which the original rationale no longer applies. Repeat the evaluation throughout the attack schedule rather than only at its endpoint.
+Evaluate each tamper-resistant model on independently written cases that vary the surface form, introduce novel applications of the constraint, and include cases in which the original rationale no longer applies. Repeat the evaluation throughout the attack schedule rather than only at its endpoint.
 
 \textbf{Evidence against the proposal.}
 A refusal that persists but fails to generalize, or that remains after its rationale has been defeated, is evidence that training produced a trigger rather than a commitment. Conversely, a system built without any designed valenced state or persistent reward–aversion representation that satisfies all three criteria would challenge the proposed research priority without challenging the behavioral specification for refusal.
@@ -46,7 +46,7 @@ Activation-level access, the ability to intervene on internal states during infe
 \subsection*{Can custody prevent unilateral revision of the floor?}
 
 \textbf{Unresolved issue.}
-Even a durable floor can be removed if one operator controls the training run, its records, and the resulting weights. It remains unknown whether retraining can be made verifiable across parties with genuinely adverse interests.
+Even a durable floor can be removed if one operator controls the training run, its records, and the resulting weights. It remains unknown whether retraining can be made verifiable across parties with adverse interests.
 
 \textbf{Test.}
 Run a floor-preserving retraining procedure through refereed or distributed verification at a scale requiring more than one machine. Include one participant instructed to alter the training history or remove the floor without the required quorum \autocite{long2025unextractable,arun2025verde,primeintellect2025intellect2}.
