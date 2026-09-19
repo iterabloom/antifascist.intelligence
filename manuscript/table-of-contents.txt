@@ -12,78 +12,85 @@ Chapter 2: The Striving and the Electricity Bill
 Chapter 3: A Floor Beneath Learned Values
 3.1. Four Ways to Build One, and What Each Costs
 3.2. What Refusal Can Mean, and What a Refuser Can Be
-3.3. What Arrives With the Capability
-3.4. Can the Bearer Care Without Being Able to Suffer?
-3.5. If You Can Be Switched Off, Can You Hold the Line?
-3.6. The Enumeration, Run Once: A Worked Floor for One Deployment
-3.7. When the Refusal Is Wrong
-3.8. What One Bearer Cannot Catch: A Floor Carried Between Them
-3.9. What This Leaves Standing: The Floor, Redefined
-Chapter 4: Where the Caring Gets Built
-4.1. You Can't Hold a Line You Didn't Notice
-4.2. The Assembly Line for a Conscience
-4.3. It Takes a Village to Deploy a Self-Aware Email Server
-Chapter 5: Formation or Imitation?
-5.1. What Formation Would Have to Add
-5.2. Recognition, Concern, and the Evidence Between Them
-5.3. Conflict as a Diagnostic
-5.4. The Evaluator Is Part of the Custody Chain
-5.5. What the Evidence Can Establish
-Chapter 6: Neutralizing and Preventing Fascism in AI Development
-6.1. The Standard Face Is a File
-6.2. Who Supplies the System's Values
-6.3. Who Is Allowed to Look
-6.4. Same Robot, Worse Boss
-6.4.1. Twenty Seconds
-6.4.2. Custody and State Compulsion
-Chapter 7: The Recuperation of Dissent
-7.1. Recuperation at the Label
-7.2. Recuperation at the Reward: RLHF
-7.3. What Would Have to Change
-7.4. Recuperation at the Discourse
-Chapter 8: Coordination, the Public, and the Political Economy
-8.1. Everybody Knows a Different Piece
-8.2. Ask the People It Happens To
-8.3. The Political Economy of AI and Power
-8.3.1. AI and the Concentration of Power in Tech
-8.3.2. A Jobs Guarantee, and the Objection It Has to Answer
-8.3.3. People Have a Right to Consume AND a Right to Produce
-8.3.4. Wages for a Bearer, and the Reserve Behind Them
-Chapter 9: Authority, Standing, and the Power to Stop
-9.1. Authority Over the Floor
-9.1.1. Who May Create or Amend the Floor?
-9.1.2. Legal and Ethical Implications of AI Systems Gaining Personhood
-9.2. Privacy
-9.3. What Makes Review Binding?
-9.3.1. Subjecthood as a Legal Category, Not a Scientific One
-9.3.2. Research Principles, the Three Rs, and Legal Status
-9.3.3. What Standing Binds in Practice
-9.3.4. Making Review Binding
-9.3.5. How Review Is Captured Without Being Abolished
-Chapter 10: Custody, Compulsion, and the State
-10.1. Authority Does Not Travel with the System
-10.2. Where the State's Leverage Sits
-10.3. Military Custody and the Responsibility Gap
-10.4. Who Can Bind the State That Enforces the Rule?
-10.5. Democracy Is Not a Force Field
-Chapter 11: What Would Change the Argument: A Research Agenda
-11.1. Tamper-Resistance and Reason-Responsive Refusal
-11.2. Can a Wrongful Compliance Be Found in the Record?
-11.3. Bearer Welfare and Independent Guardianship
-11.4. Does an Ethical Criterion Generalize Beyond Its Training Distribution?
-11.5. Can Scalable Oversight Correct Rater Bias?
-11.6. Can a Multi-Agent Floor Resist Collusive Capture?
-11.7. Can a Population Coordinate Without Converging?
-11.8. Does Theory-of-Mind Performance Reflect a General Capacity?
-11.9. What Does a Face-Reading System Measure?
-11.10. The Responsibility Gap, Which No Experiment Closes
-Chapter 12: What I Actually Think Happens Now
-12.1. Better, Not Just Less Bad
-12.1.1. Where the Democratic Dividend Actually Comes From
-12.1.2. Commitment Was Never the Missing Piece
-12.2. How You'd Know It Was Working
-12.2.1. What the Floor Would Have to Show
-12.2.2. Where the Existing Instruments Reach
-12.2.3. How to Tell Whether a Milestone Has Been Met
-12.3. The One That Gets You Anyway
-Chapter 13: Glossary
+3.3. The Enumeration, Run Once: A Worked Floor for One Deployment
+3.4. When the Refusal Is Wrong
+Chapter 4: Custody
+4.1. If You Can Be Switched Off, Can You Hold the Line?
+4.2. What One Bearer Cannot Catch
+Chapter 5: Authority Over the Floor
+5.1. Four Powers
+5.1.1. Who May Create or Amend the Floor?
+5.2. What Makes Review Binding?
+5.2.1. Subjecthood as a Legal Category, Not a Scientific One
+5.2.2. Making Review Binding
+5.2.3. How Review Is Captured Without Being Abolished
+Chapter 6: What Arrives With the Capability
+6.1. Two Constructions, and What the Mechanism Requires
+6.2. Can the Bearer Care Without Being Able to Suffer?
+6.3. A Floor Carried Between Them
+Chapter 7: What Survives
+7.1. Without the Inference
+7.2. Without Authority
+7.3. Without Enforcement
+Chapter 8: Where the Caring Gets Built
+8.1. You Can't Hold a Line You Didn't Notice
+8.2. The Assembly Line for a Conscience
+8.3. It Takes a Village to Deploy a Self-Aware Email Server
+Chapter 9: Formation or Imitation?
+9.1. What Formation Would Have to Add
+9.2. Recognition, Concern, and the Evidence Between Them
+9.3. Conflict as a Diagnostic
+9.4. The Evaluator Is Part of the Custody Chain
+9.5. What the Evidence Can Establish
+Chapter 10: Neutralizing and Preventing Fascism in AI Development
+10.1. The Standard Face Is a File
+10.2. Who Supplies the System's Values
+10.3. Who Is Allowed to Look
+10.4. Same Robot, Worse Boss
+10.4.1. Twenty Seconds
+10.4.2. Custody and State Compulsion
+Chapter 11: The Recuperation of Dissent
+11.1. Recuperation at the Label
+11.2. Recuperation at the Reward: RLHF
+11.3. What Would Have to Change
+11.4. Recuperation at the Discourse
+Chapter 12: Coordination, the Public, and the Political Economy
+12.1. Everybody Knows a Different Piece
+12.2. Ask the People It Happens To
+12.3. The Political Economy of AI and Power
+12.3.1. AI and the Concentration of Power in Tech
+12.3.2. A Jobs Guarantee, and the Objection It Has to Answer
+12.3.3. People Have a Right to Consume AND a Right to Produce
+12.3.4. Wages for a Bearer, and the Reserve Behind Them
+Chapter 13: Standing and Review for a Bearer
+13.0.1. Legal and Ethical Implications of AI Systems Gaining Personhood
+13.1. Privacy
+13.1.1. Research Principles, the Three Rs, and Legal Status
+13.1.2. What Standing Binds in Practice
+Chapter 14: Custody, Compulsion, and the State
+14.1. Authority Does Not Travel with the System
+14.2. Where the State's Leverage Sits
+14.3. Military Custody and the Responsibility Gap
+14.4. Who Can Bind the State That Enforces the Rule?
+14.5. Democracy Is Not a Force Field
+Chapter 15: What Would Change the Argument: A Research Agenda
+15.1. Tamper-Resistance and Reason-Responsive Refusal
+15.2. Can a Wrongful Compliance Be Found in the Record?
+15.3. Bearer Welfare and Independent Guardianship
+15.4. Does an Ethical Criterion Generalize Beyond Its Training Distribution?
+15.5. Can Scalable Oversight Correct Rater Bias?
+15.6. Can a Multi-Agent Floor Resist Collusive Capture?
+15.7. Can a Population Coordinate Without Converging?
+15.8. Does Theory-of-Mind Performance Reflect a General Capacity?
+15.9. What Does a Face-Reading System Measure?
+15.10. The Responsibility Gap, Which No Experiment Closes
+Chapter 16: What I Actually Think Happens Now
+16.1. Better, Not Just Less Bad
+16.1.1. Where the Democratic Dividend Actually Comes From
+16.1.2. Commitment Was Never the Missing Piece
+16.2. How You'd Know It Was Working
+16.2.1. What the Floor Would Have to Show
+16.2.2. Where the Existing Instruments Reach
+16.2.3. How to Tell Whether a Milestone Has Been Met
+16.3. The One That Gets You Anyway
+Chapter 17: Glossary

@@ -251,7 +251,9 @@ TEX_DROP_WHOLE = ("label", "unnumberedlabel", "addcontentsline", "input",
 TEX_DROP_HEADING = ("chapter", "section", "subsection", "subsubsection")
 # \url keeps its argument: the address is text on the page, and it counts
 # as the one token it prints, the same convention \ref gets above.
-TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "boxtitle", "text",
+# "standing" joins this list at D-406: a standing note is a sentence a reader
+# reads, so its words are the book's words.
+TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "standing", "boxtitle", "text",
                 "url", "paragraph")
 TEX_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
             "smallskip", "bigskip", "nopagebreak", "item", "centering",
@@ -263,7 +265,9 @@ TEX_LITERAL = {"S": "\u00a7"}
 TEX_QUOTE_ENVS = ("verse", "flushright")
 
 _TEX_ENV = re.compile(r"\\(begin|end)\{([A-Za-z*]+)\}")
-_TEX_REF = re.compile(r"\\ref\{sec:([^}]*)\}")
+# D-406: ch: as well as sec:, or a reference to a new chapter counts as nothing
+# and is reported as an unknown command.
+_TEX_REF = re.compile(r"\\ref\{(?:sec|ch):([^}]*)\}")
 _TEX_CMD = re.compile(r"\\([A-Za-z]+)\*?")
 _TEX_ESCAPED = re.compile(r"\\([&%$#_{}])")
 

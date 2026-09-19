@@ -94,12 +94,22 @@ def stats_for(path, unknown=None):
 
 def main():
     _, order = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
-    order.sort(key=lambda r: common.numkey(r["num"]))
+    # D-406: reading order is ORDER.tsv's seq column, and a continuation row has
+    # no num at all. Its words still count toward the book and toward the chapter
+    # it prints inside, so it is grouped with the file before it rather than
+    # dropped -- dropping it would understate the book by the length of the coda.
+    order = common.order_rows()
+    carry = ""
+    for r in order:
+        if r["num"]:
+            carry = r["num"].split(".")[0]
+        r["_chapter"] = carry
     rows, unknown = [], set()
     for r in order:
         st = stats_for(os.path.join(common.REPO, r["path"]), unknown)
         st.update({"num": r["num"], "title": r["title"],
-                   "level": common.level(r["num"]), "chapter": r["num"].split(".")[0]})
+                   "level": common.level(r["num"]) if r["num"] else 0,
+                   "chapter": r["_chapter"]})
         rows.append(st)
     os.makedirs(common.REPORTS, exist_ok=True)
     common.write_tsv(OUT, HEADER, rows)
@@ -110,7 +120,7 @@ def main():
         by_ch.setdefault(r["chapter"], [0, 0])
         by_ch[r["chapter"]][0] += r["words"]
         by_ch[r["chapter"]][1] += 1
-    for ch in sorted(by_ch, key=int):
+    for ch in sorted(by_ch, key=lambda c: common.numkey(c or "0")):
         print("  ch%-2s %6d words  %3d sections" % (ch, by_ch[ch][0], by_ch[ch][1]))
     if unknown:
         # A macro this tool has never been taught is dropped, which silently

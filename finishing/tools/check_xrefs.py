@@ -29,6 +29,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import common  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 ORDER = os.path.join(ROOT, 'manuscript/sections/ORDER.tsv')
 
@@ -53,19 +56,26 @@ def load_numbers():
 
 
 def main():
-    nums = load_numbers()
-    if not nums:
-        print('check_xrefs: no section numbers in ORDER.tsv')
-        return 1
+    files = sorted(glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.tex')))
 
-    dangling, bare, labels, nrefs = [], [], set(), 0
-    for f in sorted(glob.glob(os.path.join(ROOT, 'manuscript/sections/ch*/*.tex'))):
+    # D-406: a reference is now checked against the labels the manuscript actually
+    # DEFINES, in two passes, rather than against ORDER.tsv's num column. The old
+    # test assumed every label was a section number -- so it could not see
+    # \label{ch:authority} at all, and rejected sec:3.8a because the number has a
+    # letter in it. Checking the definitions is also the stronger test: it catches
+    # a reference to a label nobody wrote, which a num-set check cannot.
+    labels = set()
+    for f in files:
+        for ln in open(f).read().split('\n'):
+            labels.update(LABEL.findall(ln))
+
+    dangling, bare, nrefs = [], [], 0
+    for f in files:
         rel = os.path.relpath(f, ROOT)
         for i, ln in enumerate(open(f).read().split('\n'), 1):
-            labels.update(LABEL.findall(ln))
             for m in REF.finditer(ln):
                 nrefs += 1
-                if m.group(1) not in nums:
+                if m.group(1) not in labels:
                     dangling.append((rel, i, m.group(1),
                                      ln[max(0, m.start() - 60):m.end() + 25]))
             masked = MASK.sub(' ', ln)
@@ -77,9 +87,19 @@ def main():
         for rel, ln, n, ctx in rows:
             print(f'  {label} {rel}:{ln}  -> {n}\n     ...{ctx.strip()}...')
 
-    missing = sorted(n for n in nums if n not in labels)
+    # Every file that has a heading must define a label, or nothing can point at
+    # it. check_structure.py checks that the OPENING label is the file's identity;
+    # this is the weaker, file-level version of the same thing, kept because it
+    # names the file rather than the number.
+    missing = []
+    for r in common.order_rows():
+        if not r["num"]:
+            continue                      # a continuation has no heading to label
+        body = open(os.path.join(ROOT, r["path"])).read()
+        if not LABEL.search(body):
+            missing.append(r["path"])
     if missing:
-        print('  NO LABEL for section(s): %s' % ', '.join(missing))
+        print('  NO LABEL in file(s): %s' % ', '.join(missing))
 
     if dangling or bare or missing:
         print(f'check_xrefs: FAILED — {len(dangling)} dangling, {len(bare)} bare, '
