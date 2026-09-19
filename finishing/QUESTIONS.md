@@ -1537,6 +1537,30 @@ that did not test it. `hedge_pairs.tsv`'s assertion column runs to 492 character
 valid there and invalid here, which is why the error was not obvious. **Probe a report by what its
 columns contain, and read the writer before trusting a zero.**
 
+**D-400, a fifth limit of `hedge_pairs.py` and a fourth form of the same trap.** The `only-way` pattern
+reads an absolute stated **before** its noun — *the only step*, *the only currency* — and is blind to one
+stated **after** it. Two sentences of the author's 2026-09-19 paste are the second kind: §2.3.2's *a prior
+about which route will meet it first and nothing more* and §3.3's *held to the same standard as a bearer
+and to nothing further*. **The closing form is unambiguous and is now in the pattern**: 8 sentences in the
+book, 0 matched before, all 8 positive absolutes. **The post-modifier *X alone* is measured and left
+out.** 60 sentences use it, and the same word carries §3.3's new *the commensurability property alone* and
+its exact negation at §4.2's *Neither stage alone establishes that a floor is held*; filtering on a
+negation window left 23, of which a hand read found four or five real. One in five is worse precision than
+the pattern has, so **the instrument cannot see that absolute and is not going to be taught to** — a
+documented limit, not a defect, and the reason is in a comment at the pattern. **The limits are now five**:
+it cannot see an unhedged absolute; it cannot see two flat claims in tension, since it pairs an assertion
+only with a concession; `--cross` ranks coincidence with tension; it cannot confirm its own findings
+closed; and it reads absolutes in one word order only.
+
+**And the fourth form of the report-is-a-view trap, committed with the rule in the lead.** The row counts
+reported at D-400 as *4,147, up from 4,086* and then *unchanged* were read off `hedge_pairs.tsv` after runs
+that **never wrote it**: the no-flag invocation prints a per-section census and returns. The mtime showed
+it; the exit status did not, which is D-391 exactly. **The same pass then re-derived the canonical
+invocation `--report --min 0 --cross` from the report's own structure when D-391 had already established
+it** and written it into `finishing/README.md` and the tool's docstring. The grep that called it
+undocumented searched three files that do not hold it and matched only flags on the same line as the
+filename. **A grep for a fact tests where you pointed it**, which is the same sentence one level up.
+
 ---
 
 ### Q-044 — The floor is in the weights and the system is an assembly

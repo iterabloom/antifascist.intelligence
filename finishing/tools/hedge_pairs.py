@@ -170,7 +170,21 @@ ASSERTIONS = [
     # arriving in the instrument built to hunt for overclaims. The noun is now
     # any word: 9 to 41 sentences, and the 32 added include "the only currency",
     # "the only party", "the only channel" and "the only position".
-    ("only-way", r"\b(?:the only [a-z]+|the whole of|exactly what it takes)\b"),
+    # D-400: the pattern reads absolutes stated before the noun and is blind to
+    # absolutes stated after it. Two of the author's new sentences are the
+    # latter: 2.3.2's "a prior about which route will meet it first and nothing
+    # more" and 3.3's "held to the same standard as a bearer and to nothing
+    # further". The closing form is unambiguous -- 8 sentences in the book, 0
+    # matched before this line, all 8 positive absolutes -- so it is added. The
+    # post-modifier "X alone" is NOT added, and the reason is measured: 60
+    # sentences use it, and the same word carries the absolute at 3.3's
+    # "the commensurability property alone" and its exact negation at 4.2's
+    # "Neither stage alone establishes that a floor is held". Filtering on a
+    # negation window left 23, of which a hand read found four or five real.
+    # One in five is worse precision than this pattern has, so that form stays
+    # a documented limit in QUESTIONS.md rather than a rule here.
+    ("only-way", r"\b(?:the only [a-z]+|the whole of|exactly what it takes|"
+                 r"and nothing (?:more|further|else)|to nothing further)\b"),
 ]
 
 CONC_RE = [(n, re.compile(p, re.I)) for n, p in CONCESSIONS]
