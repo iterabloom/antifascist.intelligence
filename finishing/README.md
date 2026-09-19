@@ -25,7 +25,7 @@ New files here omit the date suffix, as the file convention allows.
 | `tools/` | Read-only analysis and invariant checks (see below) |
 | `reports/` | Generated, committed, small. Regenerate rather than hand-edit |
 
-The tool table below covers what a session finishing the book would reach for. **Nine further scripts in `tools/` are deliberately not listed**: `common.py` and `odsread.py` are libraries, `html_single_file.py` is documented in `pipeline.md` where it runs, and `triage.py`, `apply_triage.py`, `toc_v4.py`, `list_candidates.py` and `refs_to_latex.py` are one-shot instruments from P0–P1 and the D-066 conversion, kept because they record how the structure was decided and not because anything should run them again. The ninth is `redundancy.py`, which is not omitted on purpose but **cannot run on this machine**: P62 found that neither package it needs is installed, and `pipeline.md` carries that finding. The line above about running it offline with the venv on PATH describes a machine this is not.
+The tool table below covers what a session finishing the book would reach for. **Nine further scripts in `tools/` are deliberately not listed**: `common.py` and `odsread.py` are libraries, `html_single_file.py` is documented in `pipeline.md` where it runs, and `triage.py`, `apply_triage.py`, `toc_v4.py`, `list_candidates.py` and `refs_to_latex.py` are one-shot instruments from P0–P1 and the D-066 conversion, kept because they record how the structure was decided and not because anything should run them again. The ninth is `redundancy.py`, whose two original paths **cannot run on this machine**: P62 found that neither package they need is installed, and `pipeline.md` carries that finding. The line above about running it offline with the venv on PATH describes a machine this is not. **`redundancy.py --pure` does run here** (D-386): tf-idf cosine in the standard library, the same three reports, 1.3 seconds. It is the **lexical tier only** — it finds a sentence reused, not a claim restated in other words, which is what the sentence-transformer path was for and what stays unavailable. It also keeps same-section paragraph pairs, which the numpy path discards; that exclusion is why the tool would never have found D-339's echo, both of whose members are paragraphs of §3.5. Validated against the three echoes standing in the record, and its first run produced a fourth.
 
 ## The manuscript's working form
 
@@ -48,7 +48,7 @@ before that one, and the tools that read them are in `tools/dialect-era/`.
 
 ## Tools
 
-Run from the repo root. Stdlib-only except `redundancy.py`, which needs the venv
+Run from the repo root. Stdlib-only, `redundancy.py --pure` included; that tool's two other paths need the venv
 on PATH and runs offline (`HF_HUB_OFFLINE=1`). (`quarry_map.py`, named here
 until D-118, is not in the repository and appears in no commit; the reference was
 wrong rather than stale.)

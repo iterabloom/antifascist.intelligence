@@ -374,6 +374,12 @@ reader has to decode rather than read.
   labels under a display heading and flatten the distinction it reads by.
   **Everywhere else a lead-in label is `\runin`.** Do not use `\textbf` for
   emphasis in prose.
+- **`\paragraph` is not used** (D-386). It was LaTeX's own run-in head and
+  survived in `04_02.tex` alone, five of them, each with a trailing period and a
+  blank line after it, which cost the head its run-in behaviour anyway. All five
+  are `\runin` now, without the period: none of the book's 133 run-in heads
+  carries one. Nothing enforces this; §4a is the rule and this is the note that
+  one file departed from it for a month.
 - **`\runin` does not run in.** It expands to
   `\par\medskip\noindent\textbf{#1}\par\nopagebreak\smallskip`, which sets the
   label on its own line with space above and below. What runs in is a bare

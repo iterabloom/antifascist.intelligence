@@ -2103,6 +2103,26 @@ and have been rewritten to the descriptive core, their verification record moved
 D-124 is the first case where the two rulings visibly collided, and because the three
 non-compliant notes mean the file is currently in neither state.
 
+
+**Bearing on this 2026-09-18 (D-385), and it is a partial answer from the author rather than a ruling
+on the conflict.** The author's instruction was that the wording *should make an agent verification
+unmistakable for the human check the footer counts*. **That presupposes the notes stay**, which is the
+Q-056 side of the conflict, and it addresses the reason D-111 gave — that a note recording an agent's
+process is printed matter about making the book — by making the sentence say whose process it was
+instead of removing it. **66 of 275 entries carried the ambiguous wording**, not the three this entry
+measured and not the three or four D-341 flagged: 65 occurrences of a bare *verified*, one *confirmed*
+and seven *checked* that name the act. All now read **agent-verified** or **agent-checked**, which pairs
+with the footer's *human-checked* and with `refs-ledger.tsv`'s `checked` column reading `no` for all 275.
+
+**Three occurrences of *checked* were deliberately left bare**, because they are not about us: a rollout
+checked against claimed weights by TOPLOC, which is a fact about a system the source describes; *neither
+was checked against a copy of the book*, which is a statement that nobody checked the Ross locators; and
+Spinoza's bodies known by what they can do *rather than checked against a definition*.
+
+**What is still unruled, and this entry stays open for it.** D-111's 802-character cap, and whether the
+*the article does not say this* material Q-056 wants is admissible. Labelling the agent's checks does not
+decide either. The count that bounds the question has moved: **275 entries, 0 human-checked**, against the
+307 and the three non-compliant notes recorded above.
 ---
 
 ### Q-058 — How far D-137 and D-138 reach into section 2.3.3's evidence. **Closed by ruling, D-139: Koenigs kept, Bechara and the psychopathy pair cut, on evidence quality rather than on the disability rule.**

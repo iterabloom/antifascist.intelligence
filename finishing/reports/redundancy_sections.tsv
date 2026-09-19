@@ -1,201 +1,201 @@
 score	a	a_title	b	b_title	same_chapter
-0.890	2.4.2	Ethical Considerations in AI Research and Experimentation	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	yes
-0.879	7.2	Recuperation at the Reward: RLHF	11.5	Value Learning as Unfinished Technical Research	no
-0.875	2.2.1	The Role of Empathy and Compassion in Human Social Behavior	2.2.3	Socially-Aware AI: Opportunities and Challenges	yes
-0.871	3	The Floor Beneath Learned Values	3.8	What This Leaves Standing	yes
-0.870	3.5	What Can Be Switched Off Cannot Hold a Line	3.7	A Bearer That Can Leave	yes
-0.869	5.1.4	Human Dignity, and One Indicator That Can Be Audited	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.867	3	The Floor Beneath Learned Values	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.863	4.1.3	Human-Like Learning and Generalization in AI Systems	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.860	2.1.1	Surveying Ethical Theories for AI Alignment	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.859	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	11.6	Can a Multi-Agent AI System Resist Being Captured?	no
-0.858	2.3	Affect, Moral Salience, and Self-Awareness	5.2.2	Assessing and Developing AI Emotions	no
-0.856	4.2.2	Preference Optimization, and Who Holds the Pen	11.5	Value Learning as Unfinished Technical Research	no
-0.856	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	6.4.1	Authoritarian Applications, and the Party Missing From the List	no
-0.856	6.4.2	Developing Technical Countermeasures and Safeguards	9.2.1	Balancing Data Privacy, AI Innovation, and Antifascist Goals	no
-0.855	12.1	AI and Human Flourishing in Antifascist Societies	13	Glossary	no
-0.853	2.1.4	Antifascist Ethics for AI Alignment	7	The Recuperation of Dissent	no
-0.851	4.2.4	Model-Generated Feedback and Constitutional Approaches	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.850	10.2	Standards Built by the Technical Community, Not by Governments	10.8	International Governance and Diverging National Rules	yes
-0.849	3.1	Three Ways to Build One, and What Each Costs	3.7	A Bearer That Can Leave	yes
-0.849	3.5	What Can Be Switched Off Cannot Hold a Line	3.8	What This Leaves Standing	yes
-0.849	7	The Recuperation of Dissent	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.849	8.3.5	Literacy, Training, and Where Each One Sits	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.848	11.1	Interpretability, Self-Reports, and Resistance to Tampering	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.847	4.2.3	Inferring the Objective: IRL and CIRL	11.5	Value Learning as Unfinished Technical Research	no
-0.847	5.2.2	Assessing and Developing AI Emotions	5.2.3	AI Systems Recognizing and Responding to Moral Emotions	yes
-0.846	1	Introduction	1.3	Mindset and Motivation in AI Behavior	yes
-0.846	2.1.1	Surveying Ethical Theories for AI Alignment	2.3	Affect, Moral Salience, and Self-Awareness	yes
-0.846	12.2.1	One Standard, Five Worked Cases	12.2.2	How to Tell Whether a Milestone Has Been Met	yes
-0.845	4.2.1	Pretraining and Instruction Tuning	4.2.4	Model-Generated Feedback and Constitutional Approaches	yes
-0.845	11.4	When an Ethics-Embedding Method Stops Generalizing	12.2.1	One Standard, Five Worked Cases	no
-0.844	2.3.4	Is Affect Necessary for Moral Concern?	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	no
-0.844	3	The Floor Beneath Learned Values	8	Coordination, the Public, and the Political Economy	no
-0.844	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	5.7.1	The Role of Play in Moral Learning and Socialization	no
-0.844	6.1	Bias, Fairness, and Equity in AI Systems	6.1.1	Sources of Bias in AI Data and Algorithms	yes
-0.842	2.1.1	Surveying Ethical Theories for AI Alignment	2.4.2	Ethical Considerations in AI Research and Experimentation	yes
-0.842	2.4.2	Ethical Considerations in AI Research and Experimentation	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.842	3.8	What This Leaves Standing	11.2	What Is Owed to a Bearer, and Who Could Check	no
-0.842	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	11.7	Open Questions in Empathy and Theory-of-Mind Research	no
-0.842	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	yes
-0.841	4.1.3	Human-Like Learning and Generalization in AI Systems	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	no
-0.840	1	Introduction	3	The Floor Beneath Learned Values	no
-0.840	5.2.2	Assessing and Developing AI Emotions	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.839	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	12.1.1	Where the Democratic Dividend Actually Comes From	no
-0.838	1.3	Mindset and Motivation in AI Behavior	2.4.2	Ethical Considerations in AI Research and Experimentation	no
-0.837	5.1.4	Human Dignity, and One Indicator That Can Be Audited	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	yes
-0.836	2.3.1	Components of Emotional Intelligence	11.8	Is Emotion Legible From a Face at All?	no
-0.836	3.3	Could Anything but Affect Hold a Reason?	3.7	A Bearer That Can Leave	yes
-0.836	7.4	Recuperation at the Discourse	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.835	4.2.1	Pretraining and Instruction Tuning	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.835	5.2.2	Assessing and Developing AI Emotions	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	yes
-0.835	5.2.2	Assessing and Developing AI Emotions	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.835	11.4	When an Ethics-Embedding Method Stops Generalizing	12.2.2	How to Tell Whether a Milestone Has Been Met	no
-0.835	11.5	Value Learning as Unfinished Technical Research	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.833	4.2.7	Interpretability and Evaluation as Instruments	6.3.7	Long-term AI safety considerations	no
-0.832	4.2	How a Deployed System Acquires Its Values	4.2.5	Process and Outcome Supervision	yes
-0.832	4.2.2	Preference Optimization, and Who Holds the Pen	7.2	Recuperation at the Reward: RLHF	no
-0.832	5.2.2	Assessing and Developing AI Emotions	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	yes
-0.832	7.1	Recuperation at the Label	7.2	Recuperation at the Reward: RLHF	yes
-0.831	2.4.2	Ethical Considerations in AI Research and Experimentation	7.4	Recuperation at the Discourse	no
-0.831	3.2	Four Things Refusal Can Mean	3.3	Could Anything but Affect Hold a Reason?	yes
-0.831	4.1.3	Human-Like Learning and Generalization in AI Systems	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.831	7.1	Recuperation at the Label	7.3	What Would Have to Change	yes
-0.831	10.2	Standards Built by the Technical Community, Not by Governments	11.9	The Responsibility Gap, Which No Experiment Closes	no
-0.830	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	no
-0.830	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	7.4	Recuperation at the Discourse	no
-0.830	7.4	Recuperation at the Discourse	8.3.5	Literacy, Training, and Where Each One Sits	no
-0.829	2.3	Affect, Moral Salience, and Self-Awareness	2.3.4	Is Affect Necessary for Moral Concern?	yes
-0.829	2.3.3	Self-awareness and Self-regulation in AI Systems	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.829	6.3.4	AI Explainability and Transparency	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.828	4.2.2	Preference Optimization, and Who Holds the Pen	5.6.1	Intrinsic and Extrinsic Motivation: Implications for AI Learning and Decision-Making	no
-0.828	4.2.5	Process and Outcome Supervision	4.2.6	Scalable Oversight	yes
-0.828	6.3.7	Long-term AI safety considerations	12.2.1	One Standard, Five Worked Cases	no
-0.828	7	The Recuperation of Dissent	7.4	Recuperation at the Discourse	yes
-0.827	3.3	Could Anything but Affect Hold a Reason?	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	no
-0.827	4.1.3	Human-Like Learning and Generalization in AI Systems	5.2.2	Assessing and Developing AI Emotions	no
-0.827	4.2.1	Pretraining and Instruction Tuning	7	The Recuperation of Dissent	no
-0.827	4.2.2	Preference Optimization, and Who Holds the Pen	11.6	Can a Multi-Agent AI System Resist Being Captured?	no
-0.827	11.1	Interpretability, Self-Reports, and Resistance to Tampering	11.7	Open Questions in Empathy and Theory-of-Mind Research	yes
-0.826	1	Introduction	2.1.1	Surveying Ethical Theories for AI Alignment	no
-0.826	3.1	Three Ways to Build One, and What Each Costs	3.8	What This Leaves Standing	yes
-0.826	3.8	What This Leaves Standing	12.3	The Risk That Does Not Design Out	no
-0.825	1	Introduction	8	Coordination, the Public, and the Political Economy	no
-0.825	4.2.3	Inferring the Objective: IRL and CIRL	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	yes
-0.825	4.2.7	Interpretability and Evaluation as Instruments	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	yes
-0.825	5.1.4	Human Dignity, and One Indicator That Can Be Audited	6.1	Bias, Fairness, and Equity in AI Systems	no
-0.825	5.2.2	Assessing and Developing AI Emotions	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	yes
-0.824	9.3.2	Legal Frameworks for Sentient AI Subjects	11.9	The Responsibility Gap, Which No Experiment Closes	no
-0.824	10.1	How Research Institutions Cooperate Across Borders	10.3	What International AI Collaboration Can and Cannot Fix	yes
-0.823	3	The Floor Beneath Learned Values	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	no
-0.823	3.7	A Bearer That Can Leave	3.8	What This Leaves Standing	yes
-0.823	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.823	6.1.3	The Role of Transparency and Accountability in Bias Reduction	6.3.4	AI Explainability and Transparency	yes
-0.823	7.4	Recuperation at the Discourse	11.9	The Responsibility Gap, Which No Experiment Closes	no
-0.822	3	The Floor Beneath Learned Values	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	no
-0.822	3.2	Four Things Refusal Can Mean	4.2	How a Deployed System Acquires Its Values	no
-0.822	5.1.1	Rules, Principles, and the Role of Mindset	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	yes
-0.822	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	11.5	Value Learning as Unfinished Technical Research	no
-0.822	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.822	11.4	When an Ethics-Embedding Method Stops Generalizing	11.5	Value Learning as Unfinished Technical Research	yes
-0.821	1.3	Mindset and Motivation in AI Behavior	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	no
-0.821	2.1.1	Surveying Ethical Theories for AI Alignment	5.2.2	Assessing and Developing AI Emotions	no
-0.821	3	The Floor Beneath Learned Values	3.3	Could Anything but Affect Hold a Reason?	yes
-0.821	3.2	Four Things Refusal Can Mean	11.5	Value Learning as Unfinished Technical Research	no
-0.821	3.8	What This Leaves Standing	12.1.2	Commitment Was Never the Missing Piece	no
-0.821	4.1.3	Human-Like Learning and Generalization in AI Systems	8.3.5	Literacy, Training, and Where Each One Sits	no
-0.821	4.2.1	Pretraining and Instruction Tuning	5.2.2	Assessing and Developing AI Emotions	no
-0.821	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	12.2.1	One Standard, Five Worked Cases	no
-0.821	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	11.5	Value Learning as Unfinished Technical Research	no
-0.821	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.821	6.1	Bias, Fairness, and Equity in AI Systems	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.821	11.1	Interpretability, Self-Reports, and Resistance to Tampering	11.5	Value Learning as Unfinished Technical Research	yes
-0.820	1.3	Mindset and Motivation in AI Behavior	3	The Floor Beneath Learned Values	no
-0.820	2.4.2	Ethical Considerations in AI Research and Experimentation	9.3.3	Making Review Binding	no
-0.820	2.4.2	Ethical Considerations in AI Research and Experimentation	13	Glossary	no
-0.820	3.2	Four Things Refusal Can Mean	4.2.4	Model-Generated Feedback and Constitutional Approaches	no
-0.820	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	6.4.4	Resilience Against Deliberate State Compromise	yes
-0.819	2.3	Affect, Moral Salience, and Self-Awareness	3.2	Four Things Refusal Can Mean	no
-0.819	5.2.2	Assessing and Developing AI Emotions	11.5	Value Learning as Unfinished Technical Research	no
-0.819	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	7.2	Recuperation at the Reward: RLHF	no
-0.819	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	7	The Recuperation of Dissent	no
-0.819	8.3.3	A Jobs Guarantee, and the Objection It Has to Answer	8.3.4	Addressing Workforce Disruption	yes
-0.819	11.3	What an Antifascist Detector Would Actually Have to Detect	12.2.1	One Standard, Five Worked Cases	no
-0.818	1.3	Mindset and Motivation in AI Behavior	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.818	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	9.3.3	Making Review Binding	no
-0.818	3.2	Four Things Refusal Can Mean	7	The Recuperation of Dissent	no
-0.818	4.1.3	Human-Like Learning and Generalization in AI Systems	4.2.1	Pretraining and Instruction Tuning	yes
-0.818	4.1.3	Human-Like Learning and Generalization in AI Systems	11.5	Value Learning as Unfinished Technical Research	no
-0.818	6.4.3	Promoting AI Development Policies that Discourage Authoritarian Use	9.1.5	Encouraging the Development of Altruistic, Antifascist, and Ethical AI Systems	no
-0.818	10.2	Standards Built by the Technical Community, Not by Governments	12.1.2	Commitment Was Never the Missing Piece	no
-0.818	11.3	What an Antifascist Detector Would Actually Have to Detect	11.9	The Responsibility Gap, Which No Experiment Closes	yes
-0.818	11.5	Value Learning as Unfinished Technical Research	12.2.1	One Standard, Five Worked Cases	no
-0.817	2.1.1	Surveying Ethical Theories for AI Alignment	3.3	Could Anything but Affect Hold a Reason?	no
-0.817	3	The Floor Beneath Learned Values	3.1	Three Ways to Build One, and What Each Costs	yes
-0.817	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	11.6	Can a Multi-Agent AI System Resist Being Captured?	no
-0.816	2.3.4	Is Affect Necessary for Moral Concern?	5.2.2	Assessing and Developing AI Emotions	no
-0.816	3.1	Three Ways to Build One, and What Each Costs	3.5	What Can Be Switched Off Cannot Hold a Line	yes
-0.816	3.2	Four Things Refusal Can Mean	3.7	A Bearer That Can Leave	yes
-0.816	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	4.1.2	Biologically-Inspired AI: Gleanings from Neuroscience and Cognitive Psychology	yes
-0.815	4.2.1	Pretraining and Instruction Tuning	11.4	When an Ethics-Embedding Method Stops Generalizing	no
-0.815	4.2.2	Preference Optimization, and Who Holds the Pen	11.4	When an Ethics-Embedding Method Stops Generalizing	no
-0.815	4.2.4	Model-Generated Feedback and Constitutional Approaches	7	The Recuperation of Dissent	no
-0.815	4.2.4	Model-Generated Feedback and Constitutional Approaches	11.5	Value Learning as Unfinished Technical Research	no
-0.815	4.2.5	Process and Outcome Supervision	11.5	Value Learning as Unfinished Technical Research	no
-0.815	5.1.4	Human Dignity, and One Indicator That Can Be Audited	8.3.4	Addressing Workforce Disruption	no
-0.815	6.3.5	Anticipating Risk Before It Causes Harm	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.815	12.1	AI and Human Flourishing in Antifascist Societies	12.2.1	One Standard, Five Worked Cases	yes
-0.814	4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.814	5.2.4	The Role of Introspection for AI Systems	12.2.2	How to Tell Whether a Milestone Has Been Met	no
-0.814	11.5	Value Learning as Unfinished Technical Research	12.2.2	How to Tell Whether a Milestone Has Been Met	no
-0.814	12.2.1	One Standard, Five Worked Cases	13	Glossary	no
-0.813	1	Introduction	3.8	What This Leaves Standing	no
-0.813	2.1.4	Antifascist Ethics for AI Alignment	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.813	2.4.2	Ethical Considerations in AI Research and Experimentation	4.1.3	Human-Like Learning and Generalization in AI Systems	no
-0.813	3	The Floor Beneath Learned Values	11.2	What Is Owed to a Bearer, and Who Could Check	no
-0.813	3.7	A Bearer That Can Leave	11.2	What Is Owed to a Bearer, and Who Could Check	no
-0.813	4.1.1	Cognitive Architectures: Integrating Knowledge, Memory, and Reasoning	11.7	Open Questions in Empathy and Theory-of-Mind Research	no
-0.813	4.2.7	Interpretability and Evaluation as Instruments	12.2.1	One Standard, Five Worked Cases	no
-0.813	5.1.4	Human Dignity, and One Indicator That Can Be Audited	13	Glossary	no
-0.813	5.4.3	AI Systems Responding to Authoritarianism and Democratic Backsliding	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	yes
-0.812	2.4.6	Addressing Moral and Ethical Dilemmas in AI Sentience Research	7.4	Recuperation at the Discourse	no
-0.812	4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	no
-0.812	5.1.4	Human Dignity, and One Indicator That Can Be Audited	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	yes
-0.812	5.3.2	Balancing Intuition and Deliberation in AI Decision-Making	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.812	7.3	What Would Have to Change	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.812	11.4	When an Ethics-Embedding Method Stops Generalizing	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.811	2.3	Affect, Moral Salience, and Self-Awareness	5.3.1	Two Systems, or One? Dual-Process Theories of Moral Judgment	no
-0.811	2.3	Affect, Moral Salience, and Self-Awareness	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.811	3.3	Could Anything but Affect Hold a Reason?	3.5	What Can Be Switched Off Cannot Hold a Line	yes
-0.811	4.2.1	Pretraining and Instruction Tuning	7.4	Recuperation at the Discourse	no
-0.811	4.2.1	Pretraining and Instruction Tuning	12.2.1	One Standard, Five Worked Cases	no
-0.811	4.2.5	Process and Outcome Supervision	12.2.1	One Standard, Five Worked Cases	no
-0.811	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	11.4	When an Ethics-Embedding Method Stops Generalizing	no
-0.811	7	The Recuperation of Dissent	11.5	Value Learning as Unfinished Technical Research	no
-0.811	7	The Recuperation of Dissent	11.9	The Responsibility Gap, Which No Experiment Closes	no
-0.811	11.3	What an Antifascist Detector Would Actually Have to Detect	12.2.2	How to Tell Whether a Milestone Has Been Met	no
-0.810	3	The Floor Beneath Learned Values	3.5	What Can Be Switched Off Cannot Hold a Line	yes
-0.810	3	The Floor Beneath Learned Values	4.2.1	Pretraining and Instruction Tuning	no
-0.810	3	The Floor Beneath Learned Values	4.2.4	Model-Generated Feedback and Constitutional Approaches	no
-0.810	4.2.1	Pretraining and Instruction Tuning	11.5	Value Learning as Unfinished Technical Research	no
-0.810	4.2.4	Model-Generated Feedback and Constitutional Approaches	4.2.7	Interpretability and Evaluation as Instruments	yes
-0.810	5.3.3	AI Systems Learning from Moral Disagreements and Conflicts	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.810	5.7.1	The Role of Play in Moral Learning and Socialization	5.7.2	Encouraging AI Systems to Deliberate Morally Through Playful Interactions	yes
-0.809	1.3	Mindset and Motivation in AI Behavior	4.1.3	Human-Like Learning and Generalization in AI Systems	no
-0.809	1.3	Mindset and Motivation in AI Behavior	8	Coordination, the Public, and the Political Economy	no
-0.809	1.3	Mindset and Motivation in AI Behavior	12.2.1	One Standard, Five Worked Cases	no
-0.809	2.1.1	Surveying Ethical Theories for AI Alignment	7.4	Recuperation at the Discourse	no
-0.809	3.2	Four Things Refusal Can Mean	4.2.8	System Instructions and Tool Use at Deployment	no
-0.809	4.2	How a Deployed System Acquires Its Values	4.2.4	Model-Generated Feedback and Constitutional Approaches	yes
-0.809	4.2.2	Preference Optimization, and Who Holds the Pen	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	no
-0.809	4.2.6	Scalable Oversight	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.809	4.3.1	The Power of Play: Ethical AI Development through Play-Inspired Mechanisms	11.6	Can a Multi-Agent AI System Resist Being Captured?	no
-0.809	5.1.4	Human Dignity, and One Indicator That Can Be Audited	11.1	Interpretability, Self-Reports, and Resistance to Tampering	no
-0.809	11.5	Value Learning as Unfinished Technical Research	11.7	Open Questions in Empathy and Theory-of-Mind Research	yes
-0.809	11.6	Can a Multi-Agent AI System Resist Being Captured?	12.1	AI and Human Flourishing in Antifascist Societies	no
-0.808	1.3	Mindset and Motivation in AI Behavior	5.6.3	Balancing AI Autonomy and Alignment with Humane Values	no
-0.808	3.1	Three Ways to Build One, and What Each Costs	11.2	What Is Owed to a Bearer, and Who Could Check	no
-0.808	3.5	What Can Be Switched Off Cannot Hold a Line	11.2	What Is Owed to a Bearer, and Who Could Check	no
-0.808	4.2.7	Interpretability and Evaluation as Instruments	11.3	What an Antifascist Detector Would Actually Have to Detect	no
-0.808	4.2.9	Transfer, and the Floor That Cannot Tell It Has Stopped Applying	6.2.1	AI Systems that Adapt to Novel Situations	no
-0.808	5.2.4	The Role of Introspection for AI Systems	12.1	AI and Human Flourishing in Antifascist Societies	no
+0.260	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	11.3	Bearer Welfare and Independent Guardianship	no
+0.241	2.2	Antifascist Ethics for AI Alignment	13	Glossary	no
+0.238	3.2	What Refusal Can Mean, and What a Refuser Can Be	9.1.1	Who May Create or Amend the Floor?	no
+0.235	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	3.7	When the Refusal Is Wrong	yes
+0.233	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3.4	Can the Bearer Care Without Being Able to Suffer?	no
+0.233	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	13	Glossary	no
+0.233	5.4	The Evaluator Is Part of the Custody Chain	5.5	What the Evidence Can Establish	yes
+0.225	5.3	Conflict as a Diagnostic	5.5	What the Evidence Can Establish	yes
+0.223	2.2	Antifascist Ethics for AI Alignment	7.4	Recuperation at the Discourse	no
+0.222	3.9	What This Leaves Standing: The Floor, Redefined	13	Glossary	no
+0.220	3.3	What Arrives With the Capability	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.216	3.4	Can the Bearer Care Without Being Able to Suffer?	13	Glossary	no
+0.214	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	11.7	Can a Population Coordinate Without Converging?	no
+0.213	3.3	What Arrives With the Capability	13	Glossary	no
+0.211	3.5	If You Can Be Switched Off, Can You Hold the Line?	13	Glossary	no
+0.210	7.1	Recuperation at the Label	7.3	What Would Have to Change	yes
+0.204	2	The Striving and the Electricity Bill	13	Glossary	no
+0.203	3.3	What Arrives With the Capability	3.4	Can the Bearer Care Without Being Able to Suffer?	yes
+0.200	2.1	Six Theories and the Floor	13	Glossary	no
+0.200	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	10.3	Military Custody and the Responsibility Gap	no
+0.196	3.7	When the Refusal Is Wrong	11.2	Can a Wrongful Compliance Be Found in the Record?	no
+0.193	2.2	Antifascist Ethics for AI Alignment	7	The Recuperation of Dissent	no
+0.193	3.4	Can the Bearer Care Without Being Able to Suffer?	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.192	8.3.3	People Have a Right to Consume AND a Right to Produce	8.3.4	Wages for a Bearer, and the Reserve Behind Them	yes
+0.191	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	13	Glossary	no
+0.191	5.1	What Formation Would Have to Add	5.5	What the Evidence Can Establish	yes
+0.190	3.3	What Arrives With the Capability	3.5	If You Can Be Switched Off, Can You Hold the Line?	yes
+0.188	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	9.1.1	Who May Create or Amend the Floor?	no
+0.187	3.2	What Refusal Can Mean, and What a Refuser Can Be	13	Glossary	no
+0.185	3.7	When the Refusal Is Wrong	9.1.1	Who May Create or Amend the Floor?	no
+0.185	4.2	The Assembly Line for a Conscience	5.5	What the Evidence Can Establish	no
+0.185	7.2	Recuperation at the Reward: RLHF	7.3	What Would Have to Change	yes
+0.185	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood	13	Glossary	no
+0.184	5.1	What Formation Would Have to Add	5.3	Conflict as a Diagnostic	yes
+0.179	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.7	When the Refusal Is Wrong	yes
+0.179	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.179	7	The Recuperation of Dissent	13	Glossary	no
+0.178	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	6.4.1	Twenty Seconds	no
+0.175	3.3	What Arrives With the Capability	12.2.1	What the Floor Would Have to Show	no
+0.174	1	The Bearer: Our Fresh-Faced Protagonist	3	A Floor Beneath Learned Values	no
+0.174	2.3.2	What Governs an Agent, and What Matters to It	5.2	Recognition, Concern, and the Evidence Between Them	no
+0.174	3.1	Four Ways to Build One, and What Each Costs	13	Glossary	no
+0.174	3.7	When the Refusal Is Wrong	12.2.1	What the Floor Would Have to Show	no
+0.171	6.2	Who Supplies the System's Values	7.1	Recuperation at the Label	no
+0.171	8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	8.3.3	People Have a Right to Consume AND a Right to Produce	yes
+0.169	5.3	Conflict as a Diagnostic	5.4	The Evaluator Is Part of the Custody Chain	yes
+0.167	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.7	When the Refusal Is Wrong	yes
+0.167	5.1	What Formation Would Have to Add	5.4	The Evaluator Is Part of the Custody Chain	yes
+0.166	3.1	Four Ways to Build One, and What Each Costs	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
+0.165	4.2	The Assembly Line for a Conscience	5.4	The Evaluator Is Part of the Custody Chain	no
+0.165	5	Formation or Imitation?	5.5	What the Evidence Can Establish	yes
+0.165	8.3.4	Wages for a Bearer, and the Reserve Behind Them	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.163	4.3	It Takes a Village to Deploy a Self-Aware Email Server	5.5	What the Evidence Can Establish	no
+0.163	7.4	Recuperation at the Discourse	13	Glossary	no
+0.163	9.1.1	Who May Create or Amend the Floor?	13	Glossary	no
+0.162	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.162	3.5	If You Can Be Switched Off, Can You Hold the Line?	8.3.4	Wages for a Bearer, and the Reserve Behind Them	no
+0.160	2.3	Going Numb Won't Make You Fair	13	Glossary	no
+0.159	10.3	Military Custody and the Responsibility Gap	11.10	The Responsibility Gap, Which No Experiment Closes	no
+0.158	7	The Recuperation of Dissent	7.2	Recuperation at the Reward: RLHF	yes
+0.157	2	The Striving and the Electricity Bill	3.4	Can the Bearer Care Without Being Able to Suffer?	no
+0.157	3.5	If You Can Be Switched Off, Can You Hold the Line?	9.1.1	Who May Create or Amend the Floor?	no
+0.155	3.7	When the Refusal Is Wrong	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.154	2	The Striving and the Electricity Bill	3.3	What Arrives With the Capability	no
+0.153	3.7	When the Refusal Is Wrong	13	Glossary	no
+0.152	3.3	What Arrives With the Capability	3.7	When the Refusal Is Wrong	yes
+0.152	11.3	Bearer Welfare and Independent Guardianship	13	Glossary	no
+0.151	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	13	Glossary	no
+0.149	2	The Striving and the Electricity Bill	2.1	Six Theories and the Floor	yes
+0.148	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.3	What Arrives With the Capability	yes
+0.148	3.4	Can the Bearer Care Without Being Able to Suffer?	3.5	If You Can Be Switched Off, Can You Hold the Line?	yes
+0.147	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
+0.147	3.5	If You Can Be Switched Off, Can You Hold the Line?	11.3	Bearer Welfare and Independent Guardianship	no
+0.147	5.2	Recognition, Concern, and the Evidence Between Them	5.5	What the Evidence Can Establish	yes
+0.146	2.2	Antifascist Ethics for AI Alignment	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	no
+0.146	3.3	What Arrives With the Capability	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
+0.146	12.1.2	Commitment Was Never the Missing Piece	12.3	The One That Gets You Anyway	yes
+0.145	2.3.2	What Governs an Agent, and What Matters to It	3.3	What Arrives With the Capability	no
+0.145	3	A Floor Beneath Learned Values	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
+0.145	3.3	What Arrives With the Capability	9.1.1	Who May Create or Amend the Floor?	no
+0.144	8.3.2	A Jobs Guarantee, and the Objection It Has to Answer	8.3.4	Wages for a Bearer, and the Reserve Behind Them	yes
+0.143	2	The Striving and the Electricity Bill	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	yes
+0.143	3.4	Can the Bearer Care Without Being Able to Suffer?	5.2	Recognition, Concern, and the Evidence Between Them	no
+0.143	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
+0.143	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	4.1	You Can't Hold a Line You Didn't Notice	no
+0.143	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	9.1.1	Who May Create or Amend the Floor?	no
+0.143	4.1	You Can't Hold a Line You Didn't Notice	13	Glossary	no
+0.142	3	A Floor Beneath Learned Values	13	Glossary	no
+0.142	7	The Recuperation of Dissent	7.4	Recuperation at the Discourse	yes
+0.141	5.2	Recognition, Concern, and the Evidence Between Them	5.4	The Evaluator Is Part of the Custody Chain	yes
+0.140	2	The Striving and the Electricity Bill	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
+0.140	3.5	If You Can Be Switched Off, Can You Hold the Line?	4.1	You Can't Hold a Line You Didn't Notice	no
+0.140	4.2	The Assembly Line for a Conscience	5.1	What Formation Would Have to Add	no
+0.140	9.3.2	Research Principles, the Three Rs, and Legal Status	9.3.4	Making Review Binding	yes
+0.139	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3.3	What Arrives With the Capability	no
+0.139	5	Formation or Imitation?	5.3	Conflict as a Diagnostic	yes
+0.138	2.1	Six Theories and the Floor	9.1.1	Who May Create or Amend the Floor?	no
+0.138	2.3.2	What Governs an Agent, and What Matters to It	3.4	Can the Bearer Care Without Being Able to Suffer?	no
+0.138	3.5	If You Can Be Switched Off, Can You Hold the Line?	5.4	The Evaluator Is Part of the Custody Chain	no
+0.138	5.1	What Formation Would Have to Add	5.2	Recognition, Concern, and the Evidence Between Them	yes
+0.138	7.3	What Would Have to Change	7.4	Recuperation at the Discourse	yes
+0.135	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	11.2	Can a Wrongful Compliance Be Found in the Record?	no
+0.134	3.7	When the Refusal Is Wrong	8.3.4	Wages for a Bearer, and the Reserve Behind Them	no
+0.134	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	5.3	Conflict as a Diagnostic	no
+0.134	4.3	It Takes a Village to Deploy a Self-Aware Email Server	5.4	The Evaluator Is Part of the Custody Chain	no
+0.134	7.1	Recuperation at the Label	7.4	Recuperation at the Discourse	yes
+0.134	11.3	Bearer Welfare and Independent Guardianship	11.7	Can a Population Coordinate Without Converging?	yes
+0.133	3.2	What Refusal Can Mean, and What a Refuser Can Be	4.1	You Can't Hold a Line You Didn't Notice	no
+0.133	4.2	The Assembly Line for a Conscience	4.3	It Takes a Village to Deploy a Self-Aware Email Server	yes
+0.133	9.1.1	Who May Create or Amend the Floor?	10.3	Military Custody and the Responsibility Gap	no
+0.132	2.3.1	Self-awareness and Self-regulation in AI Systems	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	yes
+0.132	9.1.1	Who May Create or Amend the Floor?	10.5	Democracy Is Not a Force Field	no
+0.131	2.2	Antifascist Ethics for AI Alignment	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	no
+0.131	3.3	What Arrives With the Capability	4.1	You Can't Hold a Line You Didn't Notice	no
+0.131	3.5	If You Can Be Switched Off, Can You Hold the Line?	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
+0.131	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	4.1	You Can't Hold a Line You Didn't Notice	no
+0.131	9.3.2	Research Principles, the Three Rs, and Legal Status	13	Glossary	no
+0.131	10.3	Military Custody and the Responsibility Gap	10.5	Democracy Is Not a Force Field	yes
+0.130	1	The Bearer: Our Fresh-Faced Protagonist	13	Glossary	no
+0.130	2.2	Antifascist Ethics for AI Alignment	3.2	What Refusal Can Mean, and What a Refuser Can Be	no
+0.130	2.2	Antifascist Ethics for AI Alignment	9.1.1	Who May Create or Amend the Floor?	no
+0.130	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.4	Can the Bearer Care Without Being Able to Suffer?	yes
+0.130	3.9	What This Leaves Standing: The Floor, Redefined	9.1.1	Who May Create or Amend the Floor?	no
+0.130	11.7	Can a Population Coordinate Without Converging?	13	Glossary	no
+0.129	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
+0.129	4.2	The Assembly Line for a Conscience	13	Glossary	no
+0.129	6.4.1	Twenty Seconds	10.3	Military Custody and the Responsibility Gap	no
+0.128	2.2	Antifascist Ethics for AI Alignment	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
+0.128	3.3	What Arrives With the Capability	11.3	Bearer Welfare and Independent Guardianship	no
+0.128	8.3.4	Wages for a Bearer, and the Reserve Behind Them	9.1.1	Who May Create or Amend the Floor?	no
+0.127	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.127	3.3	What Arrives With the Capability	11.1	Tamper-Resistance and Reason-Responsive Refusal	no
+0.127	3.5	If You Can Be Switched Off, Can You Hold the Line?	4.2	The Assembly Line for a Conscience	no
+0.126	1	The Bearer: Our Fresh-Faced Protagonist	8.2	Ask the People It Happens To	no
+0.126	2	The Striving and the Electricity Bill	8.3.4	Wages for a Bearer, and the Reserve Behind Them	no
+0.126	2.1	Six Theories and the Floor	3.3	What Arrives With the Capability	no
+0.126	2.3.2	What Governs an Agent, and What Matters to It	13	Glossary	no
+0.126	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	yes
+0.126	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	7.3	What Would Have to Change	no
+0.126	5.2	Recognition, Concern, and the Evidence Between Them	11.3	Bearer Welfare and Independent Guardianship	no
+0.125	3.2	What Refusal Can Mean, and What a Refuser Can Be	3.5	If You Can Be Switched Off, Can You Hold the Line?	yes
+0.125	3.5	If You Can Be Switched Off, Can You Hold the Line?	5.5	What the Evidence Can Establish	no
+0.125	8.3.4	Wages for a Bearer, and the Reserve Behind Them	13	Glossary	no
+0.124	2.1	Six Theories and the Floor	3	A Floor Beneath Learned Values	no
+0.124	3.1	Four Ways to Build One, and What Each Costs	4.1	You Can't Hold a Line You Didn't Notice	no
+0.124	3.3	What Arrives With the Capability	5.5	What the Evidence Can Establish	no
+0.124	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	3.9	What This Leaves Standing: The Floor, Redefined	yes
+0.124	4.2	The Assembly Line for a Conscience	5.3	Conflict as a Diagnostic	no
+0.124	4.3	It Takes a Village to Deploy a Self-Aware Email Server	13	Glossary	no
+0.124	5.3	Conflict as a Diagnostic	11.7	Can a Population Coordinate Without Converging?	no
+0.124	6.1	The Standard Face Is a File	11.9	What Does a Face-Reading System Measure?	no
+0.124	7.3	What Would Have to Change	13	Glossary	no
+0.123	3.3	What Arrives With the Capability	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.123	4.1	You Can't Hold a Line You Didn't Notice	5.4	The Evaluator Is Part of the Custody Chain	no
+0.122	2.2	Antifascist Ethics for AI Alignment	3.3	What Arrives With the Capability	no
+0.122	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3.4	Can the Bearer Care Without Being Able to Suffer?	no
+0.122	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	9.1.1	Who May Create or Amend the Floor?	no
+0.122	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	13	Glossary	no
+0.122	3.3	What Arrives With the Capability	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
+0.122	3.3	What Arrives With the Capability	5.4	The Evaluator Is Part of the Custody Chain	no
+0.122	4.1	You Can't Hold a Line You Didn't Notice	5.2	Recognition, Concern, and the Evidence Between Them	no
+0.122	5.4	The Evaluator Is Part of the Custody Chain	11.7	Can a Population Coordinate Without Converging?	no
+0.122	5.5	What the Evidence Can Establish	13	Glossary	no
+0.122	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	13	Glossary	no
+0.121	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience	5.2	Recognition, Concern, and the Evidence Between Them	no
+0.121	3.3	What Arrives With the Capability	12.3	The One That Gets You Anyway	no
+0.121	3.5	If You Can Be Switched Off, Can You Hold the Line?	7.3	What Would Have to Change	no
+0.121	4.1	You Can't Hold a Line You Didn't Notice	9.1.1	Who May Create or Amend the Floor?	no
+0.120	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	no
+0.120	3.4	Can the Bearer Care Without Being Able to Suffer?	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	yes
+0.120	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	5.3	Conflict as a Diagnostic	no
+0.120	3.7	When the Refusal Is Wrong	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.120	7	The Recuperation of Dissent	7.3	What Would Have to Change	yes
+0.119	2.3.1	Self-awareness and Self-regulation in AI Systems	3.4	Can the Bearer Care Without Being Able to Suffer?	no
+0.119	3.1	Four Ways to Build One, and What Each Costs	3.5	If You Can Be Switched Off, Can You Hold the Line?	yes
+0.119	3.3	What Arrives With the Capability	5.3	Conflict as a Diagnostic	no
+0.119	3.3	What Arrives With the Capability	10.3	Military Custody and the Responsibility Gap	no
+0.119	3.3	What Arrives With the Capability	11.7	Can a Population Coordinate Without Converging?	no
+0.119	3.4	Can the Bearer Care Without Being Able to Suffer?	3.7	When the Refusal Is Wrong	yes
+0.119	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	10.5	Democracy Is Not a Force Field	no
+0.118	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3.3	What Arrives With the Capability	no
+0.118	3.4	Can the Bearer Care Without Being Able to Suffer?	11.3	Bearer Welfare and Independent Guardianship	no
+0.118	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	5.4	The Evaluator Is Part of the Custody Chain	no
+0.118	3.8	What One Bearer Cannot Catch: A Floor Carried Between Them	11.3	Bearer Welfare and Independent Guardianship	no
+0.118	5.4	The Evaluator Is Part of the Custody Chain	11.2	Can a Wrongful Compliance Be Found in the Record?	no
+0.118	8.3.4	Wages for a Bearer, and the Reserve Behind Them	11.3	Bearer Welfare and Independent Guardianship	no
+0.118	9.3.1	Subjecthood as a Legal Category, Not a Scientific One	9.3.2	Research Principles, the Three Rs, and Legal Status	yes
+0.117	2.2	Antifascist Ethics for AI Alignment	7.3	What Would Have to Change	no
+0.117	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight	3.5	If You Can Be Switched Off, Can You Hold the Line?	no
+0.117	3.3	What Arrives With the Capability	5.2	Recognition, Concern, and the Evidence Between Them	no
+0.117	3.4	Can the Bearer Care Without Being Able to Suffer?	4.1	You Can't Hold a Line You Didn't Notice	no
+0.117	3.4	Can the Bearer Care Without Being Able to Suffer?	9.3.2	Research Principles, the Three Rs, and Legal Status	no
+0.117	3.5	If You Can Be Switched Off, Can You Hold the Line?	4.3	It Takes a Village to Deploy a Self-Aware Email Server	no
+0.117	3.7	When the Refusal Is Wrong	10.3	Military Custody and the Responsibility Gap	no
+0.117	4.3	It Takes a Village to Deploy a Self-Aware Email Server	5.1	What Formation Would Have to Add	no
+0.117	9.1.1	Who May Create or Amend the Floor?	9.3.2	Research Principles, the Three Rs, and Legal Status	yes
+0.116	2	The Striving and the Electricity Bill	9.1.1	Who May Create or Amend the Floor?	no
+0.116	3.1	Four Ways to Build One, and What Each Costs	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment	yes
+0.116	3.1	Four Ways to Build One, and What Each Costs	9.1.1	Who May Create or Amend the Floor?	no
+0.116	3.3	What Arrives With the Capability	4.2	The Assembly Line for a Conscience	no
