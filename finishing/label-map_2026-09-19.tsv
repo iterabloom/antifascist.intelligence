@@ -1,0 +1,89 @@
+# Numbered labels to named labels, 2026-09-19 (D-463).
+# Unlike a renumber map this needs no as-of: every old label is a
+# number and every new one is a name, so the two namespaces cannot
+# collide and no mention is ambiguous.
+old	new	identity	title
+sec:1.1	sec:refusal	1.1	What a Refusal Would Have to Do
+sec:1.2	sec:safe-whom	1.2	Safe for Whom
+sec:2	ch:striving-electricity	2	The Striving and the Electricity Bill
+sec:2.1	sec:theories-floor	2.1	Six Theories and the Floor
+sec:2.2	sec:antifascist-alignment	2.2	Antifascist Ethics for AI Alignment
+sec:2.3	sec:numb-fair	2.3	Going Numb Won't Make You Fair
+sec:2.3.1	sec:awareness-regulation	2.3.1	Self-awareness and Self-regulation in AI Systems
+sec:2.3.2	sec:governs-matters	2.3.2	What Governs an Agent, and What Matters to It
+sec:2.4	sec:experimenting-sentient	2.4	Ethical Implications of Experimenting on Sentient Machine Subjects
+sec:2.4.1	sec:consciousness-subjective	2.4.1	Defining Sentience in AI: From Consciousness to Subjective Experience
+sec:2.4.2	sec:inapplicable-guardianship	2.4.2	When Consent Is Inapplicable: Guardianship and Research Oversight
+sec:3	ch:learned-values	3	A Floor Beneath Learned Values
+sec:3.1	sec:build-costs	3.1	Four Ways to Build One, and What Each Costs
+sec:3.2	sec:refusal-refuser	3.2	What Refusal Can Mean, and What a Refuser Can Be
+sec:3.6	sec:enumeration-deployment	3.6	The Enumeration, Run Once: A Worked Floor for One Deployment
+sec:3.6a	sec:rate-act	3.6a	A Rate Is Not an Act
+sec:3.7	sec:refusal-wrong	3.7	When the Refusal Is Wrong
+sec:3.5	sec:switched-off	3.5	If You Can Be Switched Off, Can You Hold the Line?
+sec:3.8a	sec:cannot-catch	3.8a	What One Bearer Cannot Catch
+sec:9.1	sec:four-powers	9.1	Four Powers
+sec:9.1.1	sec:create-amend	9.1.1	Who May Create or Amend the Floor?
+sec:9.3	sec:review-binding	9.3	What Makes Review Binding?
+sec:9.3.0	sec:offices-assembled	9.3.0	The Offices, Assembled
+sec:9.3.1	sec:subjecthood-scientific	9.3.1	Subjecthood as a Legal Category, Not a Scientific One
+sec:9.3.4	sec:making-binding	9.3.4	Making Review Binding
+sec:9.3.5	sec:captured-abolished	9.3.5	How Review Is Captured Without Being Abolished
+sec:3.3	sec:mechanism-requires	3.3	Two Constructions, and What the Mechanism Requires
+sec:3.4	sec:bearer-suffer	3.4	Can the Bearer Care Without Being Able to Suffer?
+sec:3.8	sec:floor-carried	3.8	A Floor Carried Between Them
+sec:4	ch:caring-built	4	Where the Caring Gets Built
+sec:4.1	sec:didnt-notice	4.1	You Can't Hold a Line You Didn't Notice
+sec:4.2	sec:assembly-conscience	4.2	The Assembly Line for a Conscience
+sec:4.3	sec:village-deploy	4.3	It Takes a Village to Deploy a Self-Aware Email Server
+sec:5	ch:formation-imitation	5	Formation or Imitation?
+sec:5.1	sec:formation-add	5.1	What Formation Would Have to Add
+sec:5.2	sec:recognition-evidence	5.2	Recognition, Concern, and the Evidence Between Them
+sec:5.3	sec:conflict-diagnostic	5.3	Conflict as a Diagnostic
+sec:5.4	sec:evaluator-chain	5.4	The Evaluator Is Part of the Custody Chain
+sec:5.5	sec:evidence-establish	5.5	What the Evidence Can Establish
+sec:6	ch:neutralizing-development	6	Neutralizing and Preventing Fascism in AI Development
+sec:6.1	sec:standard-face	6.1	The Standard Face Is a File
+sec:6.2	sec:supplies-values	6.2	Who Supplies the System's Values
+sec:6.3	sec:allowed-look	6.3	Who Is Allowed to Look
+sec:6.4	sec:robot-worse	6.4	Same Robot, Worse Boss
+sec:6.4.1	sec:subject-component	6.4.1	Subject or Component
+sec:6.4.2	sec:state-compulsion	6.4.2	Custody and State Compulsion
+sec:7	ch:recuperation-dissent	7	The Recuperation of Dissent
+sec:7.1	sec:recuperation-label	7.1	Recuperation at the Label
+sec:7.2	sec:recuperation-reward	7.2	Recuperation at the Reward: RLHF
+sec:7.3	sec:change	7.3	What Would Have to Change
+sec:7.4	sec:recuperation-discourse	7.4	Recuperation at the Discourse
+sec:8	ch:coordination-public	8	Coordination, the Public, and the Political Economy
+sec:8.1	sec:everybody-different	8.1	Everybody Knows a Different Piece
+sec:8.2	sec:people-happens	8.2	Ask the People It Happens To
+sec:8.3	sec:political-economy	8.3	The Political Economy of AI and Power
+sec:8.3.1	sec:concentration-power	8.3.1	AI and the Concentration of Power in Tech
+sec:8.3.2	sec:guarantee-objection	8.3.2	A Jobs Guarantee, and the Objection It Has to Answer
+sec:8.3.3	sec:right-consume	8.3.3	People Have a Right to Consume AND a Right to Produce
+sec:9.1.2	sec:gaining-personhood	9.1.2	Legal and Ethical Implications of AI Systems Gaining Personhood
+sec:8.3.4	sec:reserve-behind	8.3.4	Wages for a Bearer, and the Reserve Behind Them
+sec:9.2	sec:privacy	9.2	Privacy
+sec:9.3.2	sec:principles-status	9.3.2	Research Principles, the Three Rs, and Legal Status
+sec:9.3.3	sec:binds-practice	9.3.3	What Standing Binds in Practice
+sec:10	ch:compulsion-state	10	Custody, Compulsion, and the State
+sec:10.1	sec:travel-system	10.1	Authority Does Not Travel with the System
+sec:10.2	sec:states-leverage	10.2	Where the State's Leverage Sits
+sec:10.3	sec:military-responsibility	10.3	Military Custody and the Responsibility Gap
+sec:10.3a	sec:experiment-closes	10.3a	The Responsibility Gap, Which No Experiment Closes
+sec:10.4	sec:state-enforces	10.4	Who Can Bind the State That Enforces the Rule?
+sec:10.5	sec:democracy-force	10.5	Democracy Is Not a Force Field
+sec:11	ch:argument-agenda	11	What Would Change the Argument: A Research Agenda
+sec:11.1	sec:resistance-responsive	11.1	Tamper-Resistance and Reason-Responsive Refusal
+sec:11.2	sec:wrongful-compliance	11.2	Can a Wrongful Compliance Be Found in the Record?
+sec:11.3	sec:embodied-others	11.3	Does Embodied Self-Regulation Produce Concern for Others?
+sec:11.7	sec:coordinate-converging	11.7	Can a Population Coordinate Without Converging?
+sec:12	ch:used-bill	12	What Can Be Used Now, and What Is a Bill
+sec:12.1	sec:better-less	12.1	Better, Not Just Less Bad
+sec:12.1.1	sec:democratic-dividend	12.1.1	Where the Democratic Dividend Actually Comes From
+sec:12.1.2	sec:commitment-missing	12.1.2	Commitment Was Never the Missing Piece
+sec:12.2	sec:know-working	12.2	How You'd Know It Was Working
+sec:12.2.1	sec:floor-show	12.2.1	What the Floor Would Have to Show
+sec:12.2.2	sec:existing-instruments	12.2.2	Where the Existing Instruments Reach
+sec:12.2.3	sec:whether-milestone	12.2.3	How to Tell Whether a Milestone Has Been Met
+sec:12.3	sec:anyway	12.3	The One That Gets You Anyway

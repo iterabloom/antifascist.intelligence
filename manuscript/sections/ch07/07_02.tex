@@ -1,5 +1,5 @@
 \section{Recuperation at the Reward: RLHF}
-\label{sec:7.2}
+\label{sec:recuperation-reward}
 Reinforcement learning from human feedback (RLHF) is the technique behind most deployed systems' behavioral tuning, and it works by collecting pairwise comparisons from human raters — which of two responses is better — and training a reward model on the aggregate. Stephen Casper and thirty-one coauthors published a 2023 survey of the method's open problems, and one of them is structural, and more data does not reach it: RLHF trains toward whatever a population of raters agrees on, which means real, persistent disagreement among the raters is treated as noise to average out rather than as information the system might need to represent \autocite{casper2023open}. A model that has learned to produce the response most raters rank highest has not learned what to do when the humans it serves are split. It has learned to hide the split.
 
 Every rating moves something. A comparison a rater makes enters the fit, shifts the reward model by however much one comparison shifts it, and is not thrown away.

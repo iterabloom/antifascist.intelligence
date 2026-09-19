@@ -614,12 +614,6 @@ def cmd_import(args):
                             % zip_path_for(repo_rel))
             continue
         cmd, starred, num, title = h
-        if num != row["num"]:
-            problems.append("%s: the label says sec:%s, ORDER.tsv says %s. That "
-                            "is a renumber: it needs a renumber-map and a sweep "
-                            "of every \\ref pointing at it"
-                            % (zip_path_for(repo_rel), num, row["num"]))
-            continue
         # D-415: the depth a file must keep is the depth it left with, not one
         # derived from its number. D-406 made ORDER.tsv's num a stable identity
         # that matches the filename and the ledger key, so a num with three
@@ -630,6 +624,23 @@ def cmd_import(args):
         abs_ours = os.path.join(common.REPO, repo_rel)
         ours_h = (heading_of(read_bytes(abs_ours).decode("utf-8"))
                   if os.path.exists(abs_ours) else None)
+        # D-463, and the same correction one branch over: the label a file must
+        # keep is the label it left with, not ORDER.tsv's num. D-461 made every
+        # heading label a name -- sec:anyway, ch:route -- while num stays the
+        # numeric identity the ledger is keyed on, so comparing the two called
+        # every file a renumber and returned 2 with nothing written, over an
+        # edit that changed one word. check_structure.py exempts a named label
+        # from the same comparison for the same reason. Against the repository's
+        # own copy the check still catches what it was built for: a label
+        # changed in Overleaf, which is a renumber or a rename either way and
+        # needs a map and a sweep of every \ref pointing at it.
+        theirs = ours_h[2] if ours_h else row["num"]
+        if num != theirs:
+            problems.append("%s: the label came back as %s and the repository's "
+                            "is %s. Changing a label needs a map and a sweep of "
+                            "every \\ref pointing at it"
+                            % (zip_path_for(repo_rel), num, theirs))
+            continue
         want = ours_h[0] if ours_h else cmd
         if cmd != want:
             problems.append("%s: heading is \\%s and the repository's is \\%s. "
