@@ -3,7 +3,7 @@
 # Antifascist Intelligence  
 ## Building Machines That Can Refuse  
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-09-20.pdf) · [HTML](finishing/reports/whole-book-proof_2026-09-20.html) — 206 pages, built 2026-09-20 from the sources in this repository.
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-09-20.pdf) · [HTML](finishing/reports/whole-book-proof_2026-09-20.html) — 203 pages, built 2026-09-20 from the sources in this repository.
 
 Machines are being built that can accomplish almost anything and have no stake in
 whether what they do helps or harms anyone. This book asks what it would take to
