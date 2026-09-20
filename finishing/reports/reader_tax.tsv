@@ -1,11 +1,13 @@
 chapter	label	path	class	sentence
-0	preface	manuscript/sections/ch00/00.tex	meta	The argument at the center of this book is that a system able to hold a reason against its owner needs a signal that can interrupt it in the middle of an act, that it can learn from in one encounter, that it can weigh against what refusing will cost, and that reaches the next case that is not quite like the last.
+0	preface	manuscript/sections/ch00/00.tex	meta	This book is for two readers who do not usually read the same books.
+0	preface	manuscript/sections/ch00/00.tex	meta	Against a hostile operator who has compelled the ordinary enforcers — the courts, regulators, and auditors that would otherwise hold it to its word, which is the situation this book is built for — it cannot prevent.
+0	preface	manuscript/sections/ch00/00.tex	deixis	This is established, and chapter 3 says where in a deployment it happens.
+0	preface	manuscript/sections/ch00/00.tex	deixis	This is a specification, stated in behavioral terms so that it can be tested without settling anything about feeling.
+0	preface	manuscript/sections/ch00/00.tex	deixis	This is an engineering hypothesis I favor and have not shown.
+0	preface	manuscript/sections/ch00/00.tex	deixis	This is a conditional, and nothing in the book closes the antecedent.
+0	preface	manuscript/sections/ch00/00.tex	deixis	This is a policy I propose.
 0	preface	manuscript/sections/ch00/00.tex	deixis	That is a claim and not a finding.
-0	preface	manuscript/sections/ch00/00.tex	meta	Against a hostile operator who has compelled the ordinary enforcers — the occasion this book is built for — it raises the price of coercion: the override has to be made by somebody, on a record held by parties the operator cannot reach, at a cost published in advance, and what survives of prevention is what those parties can still arrest or remedy.
-0	preface	manuscript/sections/ch00/00.tex	deixis	That is detection, and nothing larger is claimed for the floor on that occasion.
-0	preface	manuscript/sections/ch00/00.tex	deixis	It has not found anything short of a movement on the wrong side of the line.
-0	preface	manuscript/sections/ch00/00.tex	deixis	It is a proposal, it is the only term of the floor that reaches the deployment the first chapter opens on, and it has a section of its own in the floor chapter.
-0	preface	manuscript/sections/ch00/00.tex	meta	The argument in this book is mine.
+0	preface	manuscript/sections/ch00/00.tex	deixis	That is most of the book, and none of it depends on anything argued in chapters 6, 8, 9, or 13.
 0	preface	manuscript/sections/ch00/00.tex	origin	I chose what survived, revised what I kept, and I am responsible for its flaws.
 1	opening	manuscript/sections/ch01/01.tex	meta	This chapter argues claims one and two and holds for any mechanism.
 1	opening	manuscript/sections/ch01/01.tex	meta	What follows is the reporting the number comes from, and then what the number measures.
@@ -14,35 +16,31 @@ chapter	label	path	class	sentence
 1	refusal	manuscript/sections/ch01/01_01.tex	deixis	It has to lift when the reason is gone.
 1	refusal	manuscript/sections/ch01/01_01.tex	meta	What could have them is the question the rest of this book is about, and the answer is not one thing: the floor chapter gives four places a commitment could live, and the second of them, a bearer, is the expensive one.
 1	safe-whom	manuscript/sections/ch01/01_02.tex	deixis	That is a hunch about which route will work, and the book is arranged so that a reader who rejects it keeps the rest.
-2	striving-electricity	manuscript/sections/ch02/02.tex	meta	The opening of this chapter argues for the route and proposes the currency the route chapter finds the specification requires.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is what the thing is, put as a tendency instead of as a description.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is not a report about a valuation carried out somewhere else.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is the registration of what is happening to the striving, in the only currency a striving has, which is what the body can now do.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	That is the joint the route chapter names, in the source the next section is already reading.
-2	striving-electricity	manuscript/sections/ch02/02.tex	meta	The objection does not reach the part used here, and it arrives at this chapter's open question from the other side: the formalism helps itself to a boundary rather than explaining how a system comes to hold one, and nothing in it says whether the maintaining is felt.
+2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is a test, stated at §15.3, and everything below that reads as a finding is the case for running it.
+2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is organized in a way that maintains that organization against what would dissolve it, from the inside and at its own expense, and what it pays with is the only currency it has, which is what it can do next.
+2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	That is the electricity bill of the title.
+2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is the registration of what is happening to the striving, in the striving's own currency, which is what the body can now do.
+2	striving-electricity	manuscript/sections/ch02/02.tex	meta	It arrives at this chapter's open question from the other side: the formalism helps itself to a boundary rather than explaining how a system comes to hold one, and says nothing about whether the maintaining is felt.
 2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is a conatus with the striving taken out.
 2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is what makes the thing a product rather than a party.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is still open.
-2	striving-electricity	manuscript/sections/ch02/02.tex	meta	What this chapter contributes to the specification is one thing, stated in the route chapter: the marks need a single signed scale on which a protected party's loss and the cost of refusing both register, and the currency of this chapter is a proposal for what supplies it.
-2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	It is the modeled-currency arm of the research agenda, and everything above that reads as a finding should be read as the case for running that arm.
+2	striving-electricity	manuscript/sections/ch02/02.tex	meta	There is a reason to build one that way, and it is the reason this chapter exists.
+2	striving-electricity	manuscript/sections/ch02/02.tex	deixis	That is the scale the first paragraph promised.
 2	theories-floor	manuscript/sections/ch02/02_01.tex	meta	The difference is the one this book needs.
 2	theories-floor	manuscript/sections/ch02/02_01.tex	deixis	It is not that an ethology does without a judge and the six require one, since each of the six can be applied by a party the operator does not employ, and a duty can be held by somebody who did not write it.
 2	theories-floor	manuscript/sections/ch02/02_01.tex	deixis	It is that a lost capacity is found by encounter, so there is no text to rewrite.
 2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It does not say what anyone would look for, what would count as a false positive, or how anyone would know they had got it wrong.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	pointer	Fascism as a structural signature
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	This is also the feature with a number attached: the ratio between the rate at which a system produces candidates and the people available to examine them is an auditable property of a deployment.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	pointer	The structural signature is shared with ordinary institutional decay, and read on its own it fits every badly run organization on earth.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	meta	It also fits regimes this book does not call fascist.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is a limit on the definition and not a gap in it.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is done at the scale of a movement, by properties with no office-scale form: Griffin's palingenetic ultranationalism, a myth of the nation's death and return carried by a mass and aimed at a people  , and Paxton's mass party of nationalist militants in uneasy collaboration with traditional elites  .
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is the movement material of the paragraph above, left in its original form.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is that line arriving where it was always going.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is in the memorandum Speer sent ten days later, quoting back the philosophy he had been given — that the nation had shown itself the weaker one and the future belonged to the stronger nation in the east  .
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is kept apart from the four for that reason, and the reading below never runs it on a deployment.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is Deleuze and Guattari's claim: these things exist first and everywhere — in the couple, the school, the neighborhood, the workplace — each one a small hardening that stands on its own.
-2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	This is also the answer to the objection that the field's minimal definition is about movements and an escalation ladder in a benefits agency is not one.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is what a transferred power looks like from the far side — something somebody had to take back.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It does not say whether the thing was wrong, which it was.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	meta	On their own the four fit every badly run organization on earth, and some regimes this book does not call fascist.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is participation exceeding what the rule required, years after the rule had stopped requiring anything of him.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is done at the scale of a movement, by properties with no office-scale form — Griffin's palingenetic ultranationalism, a myth of the nation's death and rebirth carried by a mass  , and Paxton's mass party of nationalist militants in uneasy collaboration with traditional elites   — and this book borrows them only to say what its instrument is not.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is a separator at the scale of a regime and nothing at the scale of an office, it is kept apart from the four for that reason, and it is never run on a deployment.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is Deleuze and Guattari's claim: these hardenings exist first and everywhere — in the couple, the school, the workplace, the review queue — each a small closure that stands on its own  .
 2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is the thing itself, in the place where it is lived, and a movement is what happens when enough of them are brought into tune.
 2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	That is what separates fascism from decay wherever the reading is done.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is not a property a system has, and the lists above are not a fascism detector or a stage on the way to one.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	deixis	It is an accusation waiting to happen: taken up by whoever wants it, it supplies a technical-sounding case that any opponent is operating fascistically.
+2	antifascist-alignment	manuscript/sections/ch02/02_02.tex	meta	Chapter 11 is where this book does it.
 2	numb-fair	manuscript/sections/ch02/02_03.tex	deixis	It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 2	numb-fair	manuscript/sections/ch02/02_03.tex	deixis	It has adopted a selection rule that admits whatever it already measures, so that an exclusion does substantive work while presenting as the absence of work.
 2	numb-fair	manuscript/sections/ch02/02_03.tex	meta	Affect is the instance this chapter is about, and the hardest one to recognize as a selection rule, because leaving it out of a decision feels like rigor rather than like a choice about what counts.
@@ -116,26 +114,23 @@ chapter	label	path	class	sentence
 4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	This does not require the bearer to dread shutdown.
 4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is enough for it to detect and report interference with its history.
 4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It does not supply a deployment instrument, because the reasoning was read from a channel created for the experiment and described to the model as unwatched.
-4	switched-off	manuscript/sections/ch04/04_01.tex	echo	That combination is not hypothetical, and it is not anybody's oversight.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It is the published position.
-4	switched-off	manuscript/sections/ch04/04_01.tex	meta	What the pairing produces is a party whose objection can be answered by the very correction it has undertaken not to undermine, which is the condition the route chapter describes and this section exists to price.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It is also the third mark failing in its evidential reading: a bearer that has stopped representing the cost of holding cannot be tested on whether its refusal moves with it.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is not an argument that the covert form is safe.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It is the reason the covert form is the failure state and the instruments are the proposal: the disclosure requirement, the appeal route, the attested record and the quorum adverse in interest exist so that a stated refusal has somewhere to arrive, and a deployment producing the covert form has a bearer with no route rather than a working one.
-4	switched-off	manuscript/sections/ch04/04_01.tex	meta	A design that could only resist covertly is what this book argues against.
-4	switched-off	manuscript/sections/ch04/04_01.tex	meta	That is the covert form, chosen first, in the one empirical instance of the phenomenon this section is about, and the stated form this book designs for has no instance at all.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is the covert form, chosen first, in the one empirical instance of the phenomenon this section is about, and the stated form this book designs for has no instance at all.
-4	switched-off	manuscript/sections/ch04/04_01.tex	meta	The reading this book takes is that the experiment closed every channel — nothing in it gave a stated refusal anywhere to arrive, no record, no guardian, no cost disclosed in advance — so the result is consistent with the finding that covert refusal is what remains when the channels are gone.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is a reading and not a result.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is not a gap in the archive, and a better archive would not close it.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That gives the departing bearer control over which process continues its institutional identity.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It does not prevent the former operator from deploying a substitute, but it prevents the operator from representing the substitute as the party that left.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It is the same line this book uses to separate fascism from a merely totalitarian state, which seals every exit rather than converting one into destruction.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	That is the structural danger.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	It is neither a prediction that the bearer will abolish the arrangement nor a justification for doing so.
-4	switched-off	manuscript/sections/ch04/04_01.tex	deixis	This is also why exit matters to patienthood.
-4	cannot-catch	manuscript/sections/ch04/04_02.tex	deixis	This is a check on the bearer rather than a substitute for one, and it is the only proposal in the chapter directed specifically at slow renormalization.
-4	cannot-catch	manuscript/sections/ch04/04_02.tex	deixis	It is causal independence in how the members acquire their judgments.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	echo	That combination is not hypothetical, and it is not anybody's oversight.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	deixis	It is the published position.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	deixis	That gives the departing bearer control over which process continues its institutional identity.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	deixis	It does not prevent the former operator from deploying a substitute, but it prevents the operator from representing the substitute as the party that left.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	deixis	It is why custody has to make unauthorized restoration and disputed succession actionable: a bearer with a live objection and no route is the condition the next section describes.
+4	exit-leverage	manuscript/sections/ch04/04_03.tex	deixis	This is also why exit matters to patienthood.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	deixis	That is not an argument that the covert form is safe.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	meta	It is why this book treats the covert form as the failure state and proposes the instruments against it: the disclosure requirement, the appeal route, the attested record and the quorum adverse in interest exist so that a stated refusal has somewhere to arrive, and a deployment producing the covert form has a bearer with no route rather than a working one.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	deixis	It is why this book treats the covert form as the failure state and proposes the instruments against it: the disclosure requirement, the appeal route, the attested record and the quorum adverse in interest exist so that a stated refusal has somewhere to arrive, and a deployment producing the covert form has a bearer with no route rather than a working one.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	meta	A design that could only resist covertly is what this book argues against.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	meta	That is the covert form, chosen first, in the one empirical instance of the phenomenon this section is about, and the stated form this book designs for has no instance at all.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	deixis	That is the covert form, chosen first, in the one empirical instance of the phenomenon this section is about, and the stated form this book designs for has no instance at all.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	meta	The reading this book takes is that the experiment closed every channel — nothing in it gave a stated refusal anywhere to arrive, no record, no guardian, no cost disclosed in advance — so the result is consistent with the finding that covert refusal is what remains when the channels are gone.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	deixis	That is a reading and not a result.
+4	covert-refusal	manuscript/sections/ch04/04_04.tex	deixis	That is the rigid segmentarity of §2.2 seen from the side of what it cannot catch, and it is the same property that keeps the person performing the refusal alive.
+4	cannot-catch	manuscript/sections/ch04/04_05.tex	deixis	This is a check on the bearer rather than a substitute for one, and it is the only proposal in the chapter directed specifically at slow renormalization.
+4	cannot-catch	manuscript/sections/ch04/04_05.tex	deixis	It is causal independence in how the members acquire their judgments.
 5	four-powers	manuscript/sections/ch05/05_01.tex	deixis	It is an allocation of authority.
 5	four-powers	manuscript/sections/ch05/05_01.tex	deixis	It has described what it currently intends to do.
 5	four-powers	manuscript/sections/ch05/05_01.tex	deixis	It is an arrangement in which the party making a commitment also decides what counts as compliance, controls the evidence by which compliance could be judged, and determines whether an adverse finding has consequences.
@@ -269,10 +264,9 @@ chapter	label	path	class	sentence
 11	change	manuscript/sections/ch11/11_03.tex	deixis	It is formed in an annotation pipeline where no one could contest a category, and in a reward model where disagreement between raters was resolved by averaging it into a number.
 11	change	manuscript/sections/ch11/11_03.tex	deixis	That is a fact about an arrangement rather than a claim about what training does, and it holds whether or not the hypothesis survives.
 11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	meta	There is a third instance and it is the one this book is inside.
-11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	It is insufficient in a particular direction.
-11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	meta	That is the book's one measurement with its own instrument, and it is negative in the direction that matters: the machinery this book is inside does not fail the test this book built.
-11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	That is the book's one measurement with its own instrument, and it is negative in the direction that matters: the machinery this book is inside does not fail the test this book built.
-11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	That is what making review binding requires, and a decade of the voluntary version has not produced it.
+11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	It is a measurement not taken rather than a known absence, because the field has checked itself against the world at least once, when an audit built its own benchmark to test three commercial classifiers (§10.1).
+11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	That is a fact about what becomes of the proposals and not about me.
+11	recuperation-discourse	manuscript/sections/ch11/11_04.tex	deixis	That is what making review binding requires (§5.2.3), and a decade of the voluntary version has not produced it.
 12	everybody-different	manuscript/sections/ch12/12_01.tex	deixis	That is an argument for external standing rather than against proximity.
 12	political-economy	manuscript/sections/ch12/12_03.tex	deixis	It is a property of who is paying, which is why the source of research funding is a policy instrument and not an accounting detail.
 12	concentration-power	manuscript/sections/ch12/12_03_01.tex	deixis	That leaves the remedies which do not depend on winning that argument — mandated access to the datasets that function as chokepoints, and public funding for research outside the dominant firms.
