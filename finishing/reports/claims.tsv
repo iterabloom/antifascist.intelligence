@@ -1,5 +1,5 @@
 claim_id	label	line	kind	match	snippet	status	note
-C0001	0	5	year	2026	And no production system in September of 2026 has been shown to \emph{hold} a reason against its owner.	unverified	
+C0001	preface	5	year	2026	And no production system in September of 2026 has been shown to \emph{hold} a reason against its owner.	unverified	
 C0002	opening	23	year	2023	\boxtitle{AI targeting in the Israeli campaign in Gaza, as reported 2023–2026}	unverified	
 C0003	opening	23	year	2026	\boxtitle{AI targeting in the Israeli campaign in Gaza, as reported 2023–2026}	unverified	
 C0004	opening	28	statistic	37,000	The sources put the number marked at as many as 37,000, and described the outputs as understood inside the unit to be wrong about ten percent of the time — that is, roughly one in ten people it named was not a member of 	unverified	
@@ -142,4 +142,4 @@ C0140	better-less	7	statistic	0.25 percent	The scoring was dropped on an unrelat
 C0141	better-less	11	year	2026	A 2026 project led by the University of Chicago with Princeton and SRI International runs the same logic against censorship, using AI to distinguish deliberate state interference with online information from ordinary net	unverified	
 C0142	democratic-dividend	5	year	2023	Freedom House's 2023 assessment of internet freedom found at least twenty-two countries where law already requires or incentivizes a platform to deploy machine learning against content the state disfavors, almost never d	unverified	
 C0143	democratic-dividend	5	year	2026	India's IT Rules, amended in February 2026 to require platforms to label AI-generated content and act on certain takedown notices within three hours, were defended as protection against synthetic disinformation and fraud	unverified	
-C0144	A.1	110	hedged_evidence	evidence suggests	Human developmental evidence suggests a shared capacity because performance on false-belief and appearance–reality tasks develops together \autocite{gopnik1988childrens}.	unverified	
+C0144	compare-constructions	110	hedged_evidence	evidence suggests	Human developmental evidence suggests a shared capacity because performance on false-belief and appearance–reality tasks develops together \autocite{gopnik1988childrens}.	unverified	

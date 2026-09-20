@@ -113,7 +113,7 @@ def label_map(root, rows):
 
     Three cases the heading number alone does not cover:
       * \\unnumberedlabel{X}{V} pins V, which is what LaTeX writes and what the
-        aux records (sec:0 -> 0, sec:13 -> 17).
+        aux records (ch:preface -> 0, ch:glossary -> 18).
       * a \\label anywhere in a file's body takes the number in force at its
         line, not the file's own heading (sec:hold -> 3.1).
       * a file with no heading is a continuation and carries the number of the

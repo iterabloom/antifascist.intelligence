@@ -1,0 +1,11 @@
+# The last four numbered labels to names, 2026-09-19 (D-471). This finishes
+# what D-463 began: label-map_2026-09-19.tsv moved 84 heading labels off
+# numbers and left these four, so four locator columns in the regenerated
+# reports printed something that looked like a section number and was not.
+# Needs no as-of, for D-463's reason: every old label is a number and every
+# new one is a name, so the two namespaces cannot collide.
+old	new	identity	title
+sec:0	ch:preface	0	Preface
+sec:13	ch:glossary	13	Glossary
+sec:A.1	sec:compare-constructions	A.1	Tests That Compare Constructions Available Now
+sec:A.2	sec:presuppose-bearer	A.2	Tests That Presuppose a Bearer and a Welfare Regime

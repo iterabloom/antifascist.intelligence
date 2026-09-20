@@ -1,5 +1,5 @@
 claim_id	label	line	kind	match	snippet	remediation	status	note
-C0001	0	5	year	2026	And no production system in September of 2026 has been shown to \emph{hold} a reason against its owner.	box	unverified	
+C0001	preface	5	year	2026	And no production system in September of 2026 has been shown to \emph{hold} a reason against its owner.	box	unverified	
 C0002	opening	23	year	2023	\boxtitle{AI targeting in the Israeli campaign in Gaza, as reported 2023–2026}	box	unverified	
 C0003	opening	23	year	2026	\boxtitle{AI targeting in the Israeli campaign in Gaza, as reported 2023–2026}	box	unverified	
 C0005	opening	39	year	2026	During the 2026 Iran campaign a targeting	box	unverified	

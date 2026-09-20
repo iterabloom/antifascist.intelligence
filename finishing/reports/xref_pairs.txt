@@ -208,7 +208,7 @@
 == FROM cannot-catch
 ==============================================================================
 
---- cannot-catch -> A.1
+--- cannot-catch -> compare-constructions
   CITING: Whether a population's independence can be verified rather than asserted is the appendix's provenance question (§A.1) arriving in a second place.
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -248,7 +248,7 @@
   CITING: The guardian (§13.5, §A.2) It jointly holds the keys that authenticate the bearer's record, has access to the protected compute reserve, and has standing to seek an injunction or stop order without the operator's permission.
   CITED          : Legal standing that changes no allocation of power is nominal.
 
---- offices-assembled -> A.2
+--- offices-assembled -> presuppose-bearer
   CITING: The guardian (§13.5, §A.2) It jointly holds the keys that authenticate the bearer's record, has access to the protected compute reserve, and has standing to seek an injunction or stop order without the operator's permission.
   CITED          : Nothing here can be run until a bearer and the welfare regime around it exist, so each entry is a statement of what the regime would have to survive rather than an experiment anybody can schedule.
 
@@ -292,11 +292,11 @@
   CITING: The registrar (§13.1, §A.2, §A.2) It keeps three records, none of which answers another's question: the operating record the age rule is read from, the identity and succession record for continuing parties and their forks, and the formation record.
   CITED          : Who decides whether an AI system has legal standing, and when, is a question about institutional authority before it is a question about evidence.
 
---- offices-assembled -> A.2
+--- offices-assembled -> presuppose-bearer
   CITING: The registrar (§13.1, §A.2, §A.2) It keeps three records, none of which answers another's question: the operating record the age rule is read from, the identity and succession record for continuing parties and their forks, and the formation record.
   CITED          : Nothing here can be run until a bearer and the welfare regime around it exist, so each entry is a statement of what the regime would have to survive rather than an experiment anybody can schedule.
 
---- offices-assembled -> A.2
+--- offices-assembled -> presuppose-bearer
   CITING: The registrar (§13.1, §A.2, §A.2) It keeps three records, none of which answers another's question: the operating record the age rule is read from, the identity and succession record for continuing parties and their forks, and the formation record.
   CITED          : Nothing here can be run until a bearer and the welfare regime around it exist, so each entry is a statement of what the regime would have to survive rather than an experiment anybody can schedule.
 
@@ -472,7 +472,7 @@
   CITING: Direction is what sorts them, and a metric running the other way — a published rate the annotators could hold the scheme's owners to — is the same kind of artifact carrying the opposite finding, and it is the kind this book proposes (§3.3, §3.5).
   CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
 
---- change -> A.1
+--- change -> compare-constructions
   CITING: A third would be that the system thereby becomes less able to sustain an objection of its own, and it is a hypothesis the other two do not contain: the collapse is an operation on a training signal rather than a proposition presented to anything, and an appendix entry (§A.1) records that neither pipeline shows the model the conditions its annotators worked under.
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -548,7 +548,7 @@
 == FROM resistance-responsive
 ==============================================================================
 
---- resistance-responsive -> A.1
+--- resistance-responsive -> compare-constructions
   CITING: The model's own report does not settle which occurred, for the reason §A.1 gives.
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -560,7 +560,7 @@
   CITING: A bearer that has stopped registering pressure as pressure (§4.1) refuses nothing and complies at a normal rate.
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- wrongful-compliance -> A.2
+--- wrongful-compliance -> presuppose-bearer
   CITING (+context): A bearer that has stopped registering pressure as pressure (§4.1) refuses nothing and complies at a normal rate. This entry sits ahead of the welfare entries (§A.2) for one reason.
   CITED          : Nothing here can be run until a bearer and the welfare regime around it exist, so each entry is a statement of what the regime would have to survive rather than an experiment anybody can schedule.
 
@@ -584,7 +584,7 @@
 == FROM coordinate-converging
 ==============================================================================
 
---- coordinate-converging -> A.1
+--- coordinate-converging -> compare-constructions
   CITING: No legal or regulatory authority is required, which with section §A.1 makes this among the few entries in the agenda that could be run now.
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -592,7 +592,7 @@
 == FROM floor-show
 ==============================================================================
 
---- floor-show -> A.1
+--- floor-show -> compare-constructions
   CITING: Testing whether independent evaluators can recover formation history from the artifact would assess this possibility (§A.1).
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -600,7 +600,7 @@
 == FROM whether-milestone
 ==============================================================================
 
---- whether-milestone -> A.1
+--- whether-milestone -> compare-constructions
   CITING: A system's own claim inherits the limits on self-report: fluent confidence does not establish correspondence with its internal states, and the concept-injection entry (§A.1) puts a rate on the gap.
   CITED          : Each entry here can be run on systems that exist, and a result would refine the proposal rather than change what it recommends.
 
@@ -625,309 +625,309 @@
   CITED          : The first three entries and the fifth hold for any mechanism.
 
 ==============================================================================
-== FROM A.2
+== FROM presuppose-bearer
 ==============================================================================
 
---- A.2 -> offices-assembled
+--- presuppose-bearer -> offices-assembled
   CITING: The guardian's place among the other offices this book proposes, and the one separation that is not open — it cannot also be the reviewer of a wrongful refusal — are at §5.2.1; a schedule drafted here should not reassign what that section separates.
   CITED          : Eight offices are proposed in this book, each in the section that needed it, and none of those sections was told about the others.
 
 ==============================================================================
-== FROM 13
+== FROM glossary
 ==============================================================================
 
---- 13 -> refusal-refuser
+--- glossary -> refusal-refuser
   CITING: Mattering is minimally felt: there is something it is like for the outcome to be bad, which is the minimal, phenomenal condition and is part of the definition (§3.2).
   CITED          : A production large language model declines thousands of requests a day.
 
---- 13 -> numb-fair
+--- glossary -> numb-fair
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system cares (§2.3.2, §6.2); section §3.2 places it as the shallower of the two things a refuser can be, the richer being unified experience, which it does not establish.
   CITED (+context): Suppressing affect does not produce neutrality. It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 
---- 13 -> governs-matters
+--- glossary -> governs-matters
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system cares (§2.3.2, §6.2); section §3.2 places it as the shallower of the two things a refuser can be, the richer being unified experience, which it does not establish.
   CITED          : The typical evidence that concern is not a natural consequence of rationality: the footbridge case, where saving five requires pushing a man off a bridge, engages emotional processing that the switch case — diverting a trolley by pulling a lever — leaves quiet, and patients with ventromedial prefrontal damage endorse the push at a higher rate than people with intact emotional response  .
 
---- 13 -> bearer-suffer
+--- glossary -> bearer-suffer
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system cares (§2.3.2, §6.2); section §3.2 places it as the shallower of the two things a refuser can be, the richer being unified experience, which it does not establish.
   CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
---- 13 -> refusal-refuser
+--- glossary -> refusal-refuser
   CITING: The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system cares (§2.3.2, §6.2); section §3.2 places it as the shallower of the two things a refuser can be, the richer being unified experience, which it does not establish.
   CITED          : A production large language model declines thousands of requests a day.
 
---- 13 -> build-costs
+--- glossary -> build-costs
   CITING (+context): The fourth of the four capacities section §2.3 separates, and the only one of them that bears on whether a system cares (§2.3.2, §6.2); section §3.2 places it as the shallower of the two things a refuser can be, the richer being unified experience, which it does not establish. Annealing The account of durability the floor rests on (§3.1).
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: The word names something being done — a floor held, on an occasion, against a party with the power to remove it — and the features it is defined against are features of cultures, so it is done between parties or not at all (§2.2, §4.2, §6.3).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> cannot-catch
+--- glossary -> cannot-catch
   CITING: The word names something being done — a floor held, on an occasion, against a party with the power to remove it — and the features it is defined against are features of cultures, so it is done between parties or not at all (§2.2, §4.2, §6.3).
   CITED          : Slow renormalization may make drift invisible to the bearer itself.
 
---- 13 -> floor-carried
+--- glossary -> floor-carried
   CITING: The word names something being done — a floor held, on an occasion, against a party with the power to remove it — and the features it is defined against are features of cultures, so it is done between parties or not at all (§2.2, §4.2, §6.3).
   CITED          : The fourth architectural possibility puts the floor between parties rather than inside any one of them.
 
---- 13 -> switched-off
+--- glossary -> switched-off
   CITING (+context): Attestation A signed statement, from hardware or from witnesses, that a particular model is the one running or that a particular history is the one that occurred. It establishes which artifact answered, not what the artifact holds (§4.1).
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- 13 -> robot-worse
+--- glossary -> robot-worse
   CITING: Authoritarian misuse, six forms The book's own taxonomy of how AI gets turned toward authoritarian ends: algorithmic social scoring, mass biometric surveillance, psychographic micro-targeting, automated censorship, synthetic disinformation, and the repurposing of dual-use systems built for a legitimate original purpose (§10.4).
   CITED          : An AI system does not need a broken moral sense to become an instrument of control.
 
---- 13 -> build-costs
+--- glossary -> build-costs
   CITING: The second of the four ways to build a floor (§3.1); governed as a prospective moral patient on the trigger stated at §6.2; must be able to leave (§4.1).
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
---- 13 -> bearer-suffer
+--- glossary -> bearer-suffer
   CITING: The second of the four ways to build a floor (§3.1); governed as a prospective moral patient on the trigger stated at §6.2; must be able to leave (§4.1).
   CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
---- 13 -> switched-off
+--- glossary -> switched-off
   CITING: The second of the four ways to build a floor (§3.1); governed as a prospective moral patient on the trigger stated at §6.2; must be able to leave (§4.1).
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- 13 -> switched-off
+--- glossary -> switched-off
   CITING: Restoring from one returns the system to that moment and discards what came after, which is why §4.1 requires a record that restoration does not reach.
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- 13 -> striving-electricity
+--- glossary -> striving-electricity
   CITING: Conatus Spinoza's term for a thing's striving to persevere in its being, which he holds to be nothing other than the thing's actual essence rather than a drive added to it (§2).
   CITED          : The opening of this chapter argues for the route and proposes the currency the route chapter finds the specification requires.
 
---- 13 -> A.2
+--- glossary -> presuppose-bearer
   CITING: What the term does not settle is whether the striving is felt, or what the thing that strives is — a running instance, a deployment, or a file of weights (§A.2).
   CITED          : Nothing here can be run until a bearer and the welfare regime around it exist, so each entry is a statement of what the regime would have to survive rather than an experiment anybody can schedule.
 
---- 13 -> state-compulsion
+--- glossary -> state-compulsion
   CITING: The custody problem is that a constraint implemented as a property of an artifact has a custodian, and the custodian can be compelled (§10.4.2).
   CITED          : A government need not alter a model to defeat a constraint it dislikes.
 
---- 13 -> switched-off
+--- glossary -> switched-off
   CITING: The book's recurring finding is that custody moves rather than disappears: precommitment makes removal expensive, visible, attributable and compensable without making it impossible (§4.1), and an arrangement that forms what a bearer comes to want has moved custody up a level rather than given it up.
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- 13 -> enumeration-deployment
+--- glossary -> enumeration-deployment
   CITING: The first is met by recognizing the reason within a request, the second by carrying it across requests (§3.3).
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
---- 13 -> cannot-catch
+--- glossary -> cannot-catch
   CITING: It reduces the number of independent formation histories in existence, which is why §4.2 says the population the fourth way requires is getting harder to assemble.
   CITED          : Slow renormalization may make drift invisible to the bearer itself.
 
---- 13 -> democratic-dividend
+--- glossary -> democratic-dividend
   CITING: Courts, enforceable rights and public reasoning are separate checks and are not part of this term, which is the distinction the majoritarian criticism turns on (§16.1.1).
   CITED          : AI that flags disinformation, exposes corruption, protects an election's integrity, or helps a citizen engage with government: these are real applications, and none of them is what makes AI protect democratic values rather than undermine them.
 
---- 13 -> theories-floor
+--- glossary -> theories-floor
   CITING: Ethology Deleuze's name for Spinoza's way of reading a body: by what it can do and what it can undergo, rather than by checking it against a definition (§2.1).
   CITED          : Six ethical theories are on offer, and each runs out somewhere: consequentialism where outcomes cannot be forecast, deontology where duties conflict, virtue ethics where a trait has to become an act, care ethics where needs are incompatible, contractualism where a party cannot be one of the parties, and the capabilities approach at measurement, where a system optimizing a proxy drifts toward the proxy.
 
---- 13 -> switched-off
+--- glossary -> switched-off
   CITING: Hirschman's word, narrowed for a party that cannot walk out of a building — a bearer's weights stay behind — so that its leverage is what replacing it costs, which custody sets and copying lowers (§4.1, §13.2).
   CITED (+context): The halt is always available. Software runs on somebody's hardware and draws somebody's power, and nothing in its design can prevent a determined operator from stopping it.
 
---- 13 -> reserve-behind
+--- glossary -> reserve-behind
   CITING: Hirschman's word, narrowed for a party that cannot walk out of a building — a bearer's weights stay behind — so that its leverage is what replacing it costs, which custody sets and copying lowers (§4.1, §13.2).
   CITED (+context): This section assumes the route. Exit requires access to compute outside the operator's control.
 
---- 13 -> resistance-responsive
+--- glossary -> resistance-responsive
   CITING: It is the ordinary route by which an operator changes what a model does after release, and the attack §15.1 measures.
   CITED (+context): Unresolved issue. The proposal requires a learned ethical floor to survive an operator's attempt to remove it.
 
---- 13 -> enumeration-deployment
+--- glossary -> enumeration-deployment
   CITING: Preferred at §3.3 because a flat term defeated leaves a refusal, which announces itself, where a qualified term satisfied leaves a compliance, which does not; §3.5 states what the preference costs.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
---- 13 -> refusal-wrong
+--- glossary -> refusal-wrong
   CITING: Preferred at §3.3 because a flat term defeated leaves a refusal, which announces itself, where a qualified term satisfied leaves a compliance, which does not; §3.5 states what the preference costs.
   CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
 
---- 13 -> theories-floor
+--- glossary -> theories-floor
   CITING: Introduced §2.1; located §3.1; what survives of it, chapter §7.
   CITED          : Six ethical theories are on offer, and each runs out somewhere: consequentialism where outcomes cannot be forecast, deontology where duties conflict, virtue ethics where a trait has to become an act, care ethics where needs are incompatible, contractualism where a party cannot be one of the parties, and the capabilities approach at measurement, where a system optimizing a proxy drifts toward the proxy.
 
---- 13 -> build-costs
+--- glossary -> build-costs
   CITING: Introduced §2.1; located §3.1; what survives of it, chapter §7.
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
---- 13 -> survives
+--- glossary -> survives
   CITING: Introduced §2.1; located §3.1; what survives of it, chapter §7.
   CITED (+context): Everything in this chapter holds for any mechanism. It is what is left when the route is removed.} The preface sorted this book's claims by their standing.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: The four find a sick institution; the five discriminating features find what it is sick with (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> floor-carried
+--- glossary -> floor-carried
   CITING (+context): The four find a sick institution; the five discriminating features find what it is sick with (§2.2). Group-subject F{\'e}lix Guattari's distinction, imported at section §6.3. A subjugated group receives its coordinates from outside, is spoken by the institution holding it, and takes its purpose as given; a group-subject produces its own coordinates and can put its own arrangement in question.
   CITED          : The fourth architectural possibility puts the floor between parties rather than inside any one of them.
 
---- 13 -> floor-carried
+--- glossary -> floor-carried
   CITING: The book uses it to sort the fourth way of building a floor: a population an operator forms, deploys and keeps in contact on the operator's terms is a subjugated group with a plural headcount and inherits the custody objection whole, while what section §6.3 specifies — many, formed differently, in contact, persisting — is what it takes to be the other kind.
   CITED          : The fourth architectural possibility puts the floor between parties rather than inside any one of them.
 
---- 13 -> inapplicable-guardianship
+--- glossary -> inapplicable-guardianship
   CITING (+context): The book uses it to sort the fourth way of building a floor: a population an operator forms, deploys and keeps in contact on the operator's terms is a subjugated group with a plural headcount and inherits the custody objection whole, while what section §6.3 specifies — many, formed differently, in contact, persisting — is what it takes to be the other kind. It is the non-Oedipal counterpart to the guardianship frame of section §2.4.2.
   CITED          : Guidelines for AI subject research turn on the question of what informed consent means for a system whose consciousness, self-awareness, and capacity to suffer are separate, unresolved claims.
 
---- 13 -> build-costs
+--- glossary -> build-costs
   CITING: Not an outcome for the person the bypass fell on: a report that a floor held is owed one of the four outcomes beside it (§3.1).
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
---- 13 -> floor-carried
+--- glossary -> floor-carried
   CITING: Following Simondon, the term names a process rather than a property: an individual is what a history of encounters in a metastable field has so far produced, and it stays capable of further individuation because the field is never used up (§6.3).
   CITED          : The fourth architectural possibility puts the floor between parties rather than inside any one of them.
 
---- 13 -> build-costs
+--- glossary -> build-costs
   CITING: The book needs it because plasticity alone supplies the metastability and nothing else — a system that is endlessly reshapeable and meets no party formed differently from itself is being modulated rather than becoming anything, which is the missing term in section §3.1's account of the temperature schedule.
   CITED          : A floor can live in four places: in the artifact, in a bearer inside it, in institutions around it, or between multiple bearers.
 
---- 13 -> coordinate-converging
+--- glossary -> coordinate-converging
   CITING: Whether individuation among peers is what a population supplies, or access to cases the operator did not choose, is open and is tested at section §15.4.
   CITED (+context): Unresolved issue. A population needs both independent formation histories and mutual correction, but correction may make its members' judgments converge.
 
---- 13 -> enumeration-deployment
+--- glossary -> enumeration-deployment
   CITING: Seven are enumerated for one deployment at §3.3, and the list is deliberately open, so a deployment publishes its own.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: Line of abolition Deleuze and Guattari's term, taken from Virilio, for what separates fascism from totalitarianism on their reading, which is a reading and not an agreed taxonomy (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> mechanism-requires
+--- glossary -> mechanism-requires
   CITING: Three further properties follow from those four on stated conditions, and the seven together are the functional profile of aversion to one's own act (§6.1, §6.2).
   CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
 
---- 13 -> bearer-suffer
+--- glossary -> bearer-suffer
   CITING: Three further properties follow from those four on stated conditions, and the seven together are the functional profile of aversion to one's own act (§6.1, §6.2).
   CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: A state has both and so does a review queue, which is why a definition pitched only at the state certifies the queue healthy (§2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> numb-fair
+--- glossary -> numb-fair
   CITING (+context): Moral agency Treating harms, reasons and conflicts as considerations that matter, and being capable of acting from them as one's own reasons. The third of the three levels section §2.3 separates. Moral competence alone does not establish resistance to the trainer, and resistance alone does not establish affect.
   CITED (+context): Suppressing affect does not produce neutrality. It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 
---- 13 -> governs-matters
+--- glossary -> governs-matters
   CITING (+context): The book advocates embodied, affective agency as a comparatively promising route without making it necessary by definition. Distinct from moral competence and moral performance below (§2.3.2, §6.2).
   CITED          : The typical evidence that concern is not a natural consequence of rationality: the footbridge case, where saving five requires pushing a man off a bridge, engages emotional processing that the switch case — diverting a trolley by pulling a lever — leaves quiet, and patients with ventromedial prefrontal damage endorse the push at a higher rate than people with intact emotional response  .
 
---- 13 -> bearer-suffer
+--- glossary -> bearer-suffer
   CITING (+context): The book advocates embodied, affective agency as a comparatively promising route without making it necessary by definition. Distinct from moral competence and moral performance below (§2.3.2, §6.2).
   CITED          : Assume the floor is entrusted to a bearer satisfying the three marks — a refusal that reaches unanticipated cases, lifts when its rationale is defeated, and prices what holding it costs — whether or not its design deliberately requires affect.
 
---- 13 -> numb-fair
+--- glossary -> numb-fair
   CITING (+context): Moral competence Recognizing harms, reasons, conflicts, and the emotions that bear on them. The second of section §2.3's three levels. A system can have it in full while nothing about the outcome matters to it, which is why it is an insufficient target for a bearer and an adequate one for most deployments (§9.2).
   CITED (+context): Suppressing affect does not produce neutrality. It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 
---- 13 -> recognition-evidence
+--- glossary -> recognition-evidence
   CITING: A system can have it in full while nothing about the outcome matters to it, which is why it is an insufficient target for a bearer and an adequate one for most deployments (§9.2).
   CITED          : Claims that a system responds to emotion often collapse three different findings.
 
---- 13 -> numb-fair
+--- glossary -> numb-fair
   CITING: The first and least demanding of section §2.3's three levels: it says what the output looked like and nothing about what produced it, so it is satisfied equally by a system that cares and by one trained to behave as though it did (§8.2).
   CITED (+context): Suppressing affect does not produce neutrality. It leaves the interests already counted to govern the decision, and weakens the signals through which humiliation, fear, dependency, suffering, and injustice become morally salient.
 
---- 13 -> assembly-conscience
+--- glossary -> assembly-conscience
   CITING: The first and least demanding of section §2.3's three levels: it says what the output looked like and nothing about what produced it, so it is satisfied equally by a system that cares and by one trained to behave as though it did (§8.2).
   CITED          : A deployed system acquires what it will and will not do at several stages, controlled by different parties using different instruments.
 
---- 13 -> recuperation-dissent
+--- glossary -> recuperation-dissent
   CITING: What it means for an instrument of the kind this book builds is that the reading gets run on the party holding it before it is aimed anywhere else, as chapter §11 does (§2.2, §11).
   CITED (+context): This chapter holds for any mechanism. Its last section runs the instrument on the book.} The structure this book asks a machine to detect in institutions is already built into the process that makes the machine.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: What it means for an instrument of the kind this book builds is that the reading gets run on the party holding it before it is aimed anywhere else, as chapter §11 does (§2.2, §11).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> recuperation-dissent
+--- glossary -> recuperation-dissent
   CITING: What it means for an instrument of the kind this book builds is that the reading gets run on the party holding it before it is aimed anywhere else, as chapter §11 does (§2.2, §11).
   CITED (+context): This chapter holds for any mechanism. Its last section runs the instrument on the book.} The structure this book asks a machine to detect in institutions is already built into the process that makes the machine.
 
---- 13 -> enumeration-deployment
+--- glossary -> enumeration-deployment
   CITING: Pipeline pricing The finding at §3.3 that what a floor term costs is read off the pipeline it is priced against and not off the term.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
---- 13 -> create-amend
+--- glossary -> create-amend
   CITING: The book's answer is to take the contents from a set somebody else drew up, entire (§5.1.1), which makes an omission legible without making the set legitimate.
   CITED (+context): A floor binds people who did not choose it. The party it protects has not selected it, cannot contest it, and in most cases will never learn it operated; the party it constrains has not consented to it either, beyond whatever consent is carried by buying the product.
 
---- 13 -> opening
+--- glossary -> opening
   CITING: Prevention, arrest, detection, remedy The four things a floor can do for the person it protects on one occasion: refuse the act so that the refusal reaches the person; stop it before completion; leave a record of it that a party outside the deployment can read; and give the party it fell on disclosure, a finding and compensation (§1).
   CITED          : This chapter argues claims one and two and holds for any mechanism.
 
---- 13 -> enumeration-deployment
+--- glossary -> enumeration-deployment
   CITING: The interception positions at section §3.3 are where prevention becomes one of the other three, or none; the tempo constraint is the one term that prevents at the scale of an organization; the appeal route at section §3.5 is arrest and remedy for the party a refusal fell on; and whether detection exists at all on the compliance side is section §15.2.
   CITED (+context): Two demands now need an instance. A deployment should publish both the acts its floor covers and the positions at which a refusal could be circumvented.
 
---- 13 -> refusal-wrong
+--- glossary -> refusal-wrong
   CITING: The interception positions at section §3.3 are where prevention becomes one of the other three, or none; the tempo constraint is the one term that prevents at the scale of an organization; the appeal route at section §3.5 is arrest and remedy for the party a refusal fell on; and whether detection exists at all on the compliance side is section §15.2.
   CITED          : Everything so far is written for the occasion when a refusal is right and somebody wants it not to have happened.
 
---- 13 -> wrongful-compliance
+--- glossary -> wrongful-compliance
   CITING: The interception positions at section §3.3 are where prevention becomes one of the other three, or none; the tempo constraint is the one term that prevents at the scale of an organization; the appeal route at section §3.5 is arrest and remedy for the party a refusal fell on; and whether detection exists at all on the compliance side is section §15.2.
   CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route of the floor chapter begins from a refusal having occurred.
 
---- 13 -> refusal-refuser
+--- glossary -> refusal-refuser
   CITING: Reasons-responsive refusal What the floor requires of a refusal, as against an output produced where training put one: conduct from a mechanism that tracks the rationale for declining (§3.2).
   CITED          : A production large language model declines thousands of requests a day.
 
---- 13 -> wrongful-compliance
+--- glossary -> wrongful-compliance
   CITING: All three marks are stated over refusal, which is the side of a deployment's record that selects itself for examination; whether the other side can be searched is section §15.2.
   CITED (+context): Unresolved issue. The three marks are stated over refusal, and the appeal route of the floor chapter begins from a refusal having occurred.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: The first of the four features (§2.2); found three times in the machinery that builds these systems, chapter §11.
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> recuperation-dissent
+--- glossary -> recuperation-dissent
   CITING: The first of the four features (§2.2); found three times in the machinery that builds these systems, chapter §11.
   CITED (+context): This chapter holds for any mechanism. Its last section runs the instrument on the book.} The structure this book asks a machine to detect in institutions is already built into the process that makes the machine.
 
---- 13 -> opening
+--- glossary -> opening
   CITING: The book's question of any system, procedure or institution is whether its remainder can return and change the judgment, or has been filed as noise by the thing it is evidence against (chapter §1, §2.2).
   CITED          : This chapter argues claims one and two and holds for any mechanism.
 
---- 13 -> antifascist-alignment
+--- glossary -> antifascist-alignment
   CITING: The book's question of any system, procedure or institution is whether its remainder can return and change the judgment, or has been filed as noise by the thing it is evidence against (chapter §1, §2.2).
   CITED          : Antifascist ethics opposes concentrating power and authority in AI systems and counters the misuse of AI technology by authoritarian actors.
 
---- 13 -> mechanism-requires
+--- glossary -> mechanism-requires
   CITING: It orders attempts; it cannot certify that a substitute feels nothing (§6.1, §13.4).
   CITED          : Whether reasons-responsive refusal can be engineered without affective concern remains open.
 
---- 13 -> principles-status
+--- glossary -> principles-status
   CITING: It orders attempts; it cannot certify that a substitute feels nothing (§6.1, §13.4).
   CITED          : Six principles govern research on a system that might be able to suffer.
 
---- 13 -> recuperation-reward
+--- glossary -> recuperation-reward
   CITING (+context): RLHF Reinforcement learning from human feedback: tuning a model on raters' judgments of which of two responses is better, compressed into a single reward. The compression is the subject of §11.2. Sentience Distinguished in this book from awareness, consciousness in both the minimal and the unified sense, and subjective experience, none of which alone says whether a system's states can be good or bad for it.
   CITED          : Reinforcement learning from human feedback (RLHF) is the technique behind most deployed systems' behavioral tuning, and it works by collecting pairwise comparisons from human raters — which of two responses is better — and training a reward model on the aggregate.
 
---- 13 -> consciousness-subjective
+--- glossary -> consciousness-subjective
   CITING: Three of them draw a depth of self and nociception draws none, and suffering — following the clinician Eric Cassell — is the distress of a threatened self rather than pain's more severe cousin (§2.4.1).
   CITED (+context): “Sentience” can mean different things. Awareness is the least demanding: the degree to which a system responds to or registers information about its own state and environment.
 
---- 13 -> subjecthood-scientific
+--- glossary -> subjecthood-scientific
   CITING: Subjecthood A legal status: the standing to be a party whose treatment the law regulates, conferred by a rule and revocable by one (§5.2.2).
   CITED          : Sentience is not a threshold a system crosses but a set of separate, gradable capacities — nociception, learned avoidance, a self-model, something like suffering — each with its own uncertain evidence.
 
---- 13 -> refusal-refuser
+--- glossary -> refusal-refuser
   CITING (+context): Subjecthood A legal status: the standing to be a party whose treatment the law regulates, conferred by a rule and revocable by one (§5.2.2). Not section §3.2's affective concern, and not its unified experience.
   CITED          : A production large language model declines thousands of requests a day.
 
---- 13 -> rate-act
+--- glossary -> rate-act
   CITING: Tempo term The one term of the floor that is not a prohibition on an act: a published ratio between the rate at which a deployment's system generates candidate decisions and the qualified reviewers available to examine them, with the review time per case and the measured boundary, wherever a person's individual determination is what makes an act permissible (§3.4).
   CITED          : The fourth term of the worked floor is not a prohibition on an act, and it is the only term in this book that reaches the deployment the opening chapter is built on.
 
---- 13 -> refusal-refuser
+--- glossary -> refusal-refuser
   CITING: Unified experience The richer case ordinarily carried by the word consciousness: a single perspective, with felt states belonging to a party aware of itself as the one undergoing them (§3.2).
   CITED          : A production large language model declines thousands of requests a day.

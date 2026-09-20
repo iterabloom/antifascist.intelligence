@@ -1,5 +1,5 @@
 path	num	title	sha256	seq
-manuscript/sections/ch00/00.tex	0	Preface	b10da398aa3a59c4bb93e24fa91172c28914b5e2aea768cc9b7b6c6cae22be7b	1
+manuscript/sections/ch00/00.tex	0	Preface	9c79c337c904f379074597de0495d3c8650231b2d34f9bd218477ccd87d68711	1
 manuscript/sections/ch01/01.tex	1	Twenty Seconds	1a68a2743fb4caf2a6e2251913a59d19712ce3bf76d55073d9da5f15ff0dc5f2	2
 manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	c2f2e680cf5f68f91257190a09a1fab2eb941db68cac6e14a4f8e741992b3b29	3
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9dfb42589e4fc8346bf9a1bbbc9cfe000ad2f55e7cb3f8e69f693e1a127f4d9	4
@@ -79,7 +79,7 @@ manuscript/sections/ch14/14_05.tex	10.4	Who Can Bind the State That Enforces the
 manuscript/sections/ch14/14_06.tex	10.5	Democracy Is Not a Force Field	f7932104d780b80803c257376df16c8e9e431451ed954f13edad4c5a2599064b	78
 manuscript/sections/ch15/15.tex	11	What Would Change the Argument: A Research Agenda	5e9e30d4a0497e14be830d654453b7a0ac96971e2761fc842734786b4087b1b4	79
 manuscript/sections/ch15/15_01.tex	11.1	Tamper-Resistance and Reason-Responsive Refusal	9430b98fc53a0ef5b7f7fd3275c730c5250e13f73c8006b7aea78f29db9aaaf8	80
-manuscript/sections/ch15/15_02.tex	11.2	Can a Wrongful Compliance Be Found in the Record?	48a08fb617452d9ed940c7d7fc2095bd567af8135c7a7cd4cf2350e71953f29b	81
+manuscript/sections/ch15/15_02.tex	11.2	Can a Wrongful Compliance Be Found in the Record?	dbe06f43f41e4746c53c306f7ddac6fe6ef6d20f6a68dc733b6bdab33b0df5f8	81
 manuscript/sections/ch15/15_03.tex	11.3	Does Embodied Self-Regulation Produce Concern for Others?	a6b95e4a8212a89f94d222838420da11e00855a01175be81f5e386f0a5f28dcd	82
 manuscript/sections/ch15/15_04.tex	11.7	Can a Population Coordinate Without Converging?	80861eaa9427ab7a6ee862801831af4fe839c20ae3a3b081d677aede703b1867	83
 manuscript/sections/ch16/16.tex	12	What Can Be Used Now, and What Is a Bill	cd8ddfc2a95009dfd065a8cf8f1fa1e3ebe97e97127a6691b151e7eb1d1060a7	84
@@ -93,6 +93,6 @@ manuscript/sections/ch16/16_02_03.tex	12.2.3	How to Tell Whether a Milestone Has
 manuscript/sections/ch16/16_03.tex	12.3	The One That Gets You Anyway	cc41cd9ac66ff672ef8084f805187cadea3e82b9f0bb27a61b7a3fdfe9d14cb9	92
 manuscript/sections/ch16/16_03z.tex			e0f29371b9ff306acfb22cd9db09ba47432637743953090aa7d0d9f4d261d569	93
 manuscript/sections/ch17/17.tex	A	Further Tests	c7280c1407b2482b2149bb3568a07794a86a5d64be51b1740b82611c5f70bd58	94
-manuscript/sections/ch17/17_01.tex	A.1	Tests That Compare Constructions Available Now	97630b152b60ee99c72f59475560da6405e207a638aac1df1b4fa2bc07f40152	95
-manuscript/sections/ch17/17_02.tex	A.2	Tests That Presuppose a Bearer and a Welfare Regime	aa67364f77cd0776cca9ef78ffe588687de71dbc903a670cb257084b94d21b82	96
-manuscript/sections/ch18/18.tex	13	Glossary	b49f352ad8e6bc67e6eb4fedd5c05f6f3bb38862116291cc29682d5eeb58d0a5	97
+manuscript/sections/ch17/17_01.tex	A.1	Tests That Compare Constructions Available Now	040d5ce7b5819cb53df721ddc9e333cb93c0a1f70e3ba46c51ae18d5cbf06230	95
+manuscript/sections/ch17/17_02.tex	A.2	Tests That Presuppose a Bearer and a Welfare Regime	eb87a91940e5c1c98e71ce6c7c53f26fb2b7bedec2fc1099198b230ce79a4f0d	96
+manuscript/sections/ch18/18.tex	13	Glossary	c19fbeb3a5e2f0e91a7a98cbca6c4aceac1142dac99453dc749c826d06242813	97

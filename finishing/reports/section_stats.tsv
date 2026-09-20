@@ -1,5 +1,5 @@
 num	label	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	this_report	in_this_section	xrefs	vague_xrefs	cites	max_year	dated_names	temporal	epigraphs	boxes	runins
-0	0	Preface	0	0	1464	14	0	0	0	0	0	0	0	0	0	2026	0	0	0	0	0
+0	preface	Preface	0	0	1464	14	0	0	0	0	0	0	0	0	0	2026	0	0	0	0	0
 1	opening	Twenty Seconds	1	1	839	13	0	0	0	0	0	1	1	0	3	2026	0	0	1	1	0
 1.1	refusal	What a Refusal Would Have to Do	2	1	543	8	0	0	0	0	0	0	0	0	1		0	0	0	0	1
 1.2	safe-whom	Safe for Whom	2	1	851	9	0	0	0	1	0	0	0	0	0		0	0	0	0	0
@@ -93,6 +93,6 @@ num	label	title	level	chapter	words	paras	list_items	list_unmarked	closers	we	th
 12.3	anyway	The One That Gets You Anyway	2	16	969	7	0	0	0	0	0	0	2	0	0		0	2	0	0	0
 			0	16	55	1	0	0	0	0	0	0	0	0	0		0	0	0	0	0
 A	appendix	Further Tests	1	A	117	1	0	0	0	0	0	0	1	0	0		0	0	0	0	0
-A.1	A.1	Tests That Compare Constructions Available Now	2	A	2374	38	0	0	0	0	0	0	0	0	11		0	2	0	0	0
-A.2	A.2	Tests That Presuppose a Bearer and a Welfare Regime	2	A	992	13	0	0	0	0	0	0	1	0	1		0	1	0	0	0
-13	13	Glossary	0	18	3636	91	0	0	0	0	0	0	74	0	0		0	0	0	0	45
+A.1	compare-constructions	Tests That Compare Constructions Available Now	2	A	2374	38	0	0	0	0	0	0	0	0	11		0	2	0	0	0
+A.2	presuppose-bearer	Tests That Presuppose a Bearer and a Welfare Regime	2	A	992	13	0	0	0	0	0	0	1	0	1		0	1	0	0	0
+13	glossary	Glossary	0	18	3636	91	0	0	0	0	0	0	74	0	0		0	0	0	0	45

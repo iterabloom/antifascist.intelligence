@@ -1,5 +1,5 @@
 label	title	words	this report	this work/document	we (subject)	our	we propose/recommend/argue	in this section, we	closer: in conclusion	closer: in summary
-0	Preface	1466	0	0	0	0	0	0	0	0
+preface	Preface	1466	0	0	0	0	0	0	0	0
 opening	Twenty Seconds	890	0	0	0	0	0	0	0	0
 refusal	What a Refusal Would Have to Do	544	0	0	0	0	0	0	0	0
 safe-whom	Safe for Whom	852	0	0	1	1	0	0	0	0
@@ -93,6 +93,6 @@ whether-milestone	How to Tell Whether a Milestone Has Been Met	384	0	0	0	0	0	0	0
 anyway	The One That Gets You Anyway	969	0	0	0	0	0	0	0	0
 		41	0	0	0	0	0	0	0	0
 appendix	Further Tests	117	0	0	0	0	0	0	0	0
-A.1	Tests That Compare Constructions Available Now	2458	0	0	0	0	0	0	0	0
-A.2	Tests That Presuppose a Bearer and a Welfare Regime	1027	0	0	0	0	0	0	0	0
-13	Glossary	3620	0	0	0	2	0	0	0	0
+compare-constructions	Tests That Compare Constructions Available Now	2458	0	0	0	0	0	0	0	0
+presuppose-bearer	Tests That Presuppose a Bearer and a Welfare Regime	1027	0	0	0	0	0	0	0	0
+glossary	Glossary	3620	0	0	0	2	0	0	0	0
