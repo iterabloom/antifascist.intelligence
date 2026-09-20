@@ -3,8 +3,8 @@ manuscript/sections/ch00/00.tex	0	Preface	30102365510d15f11cba9252b4284907758105
 manuscript/sections/ch01/01.tex	1	Twenty Seconds	1a68a2743fb4caf2a6e2251913a59d19712ce3bf76d55073d9da5f15ff0dc5f2	2
 manuscript/sections/ch01/01_01.tex	1.1	What a Refusal Would Have to Do	c2f2e680cf5f68f91257190a09a1fab2eb941db68cac6e14a4f8e741992b3b29	3
 manuscript/sections/ch01/01_02.tex	1.2	Safe for Whom	a9dfb42589e4fc8346bf9a1bbbc9cfe000ad2f55e7cb3f8e69f693e1a127f4d9	4
-manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	f98b937a1aba2e046e5baf7cb53d16715f4ab046736584a9eff883651b9f627f	5
-manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	d64ff7106d07ff20e92882b532949dd0279455659bd458b4e311122185871f81	6
+manuscript/sections/ch02/02.tex	2	The Striving and the Electricity Bill	2a0e5cf277e895ae57c1ec8a5b378118a2897cc3594007902d7a4c53f8b31a28	5
+manuscript/sections/ch02/02_01.tex	2.1	Six Theories and the Floor	d7118eef05f65db921aeff0d6c771121a08879844b205f6cc8c03831216c52ce	6
 manuscript/sections/ch02/02_02.tex	2.2	Antifascist Ethics for AI Alignment	299f91c63cadf728f1e9a16359b3897bd82d671cba721da9a379a278f5a3b529	7
 manuscript/sections/ch02/02_03.tex	2.3	Going Numb Won't Make You Fair	a5d7c82c31f1bb693069f8699af085ee399a9cef86d4d6f56001d3da7f72cd12	8
 manuscript/sections/ch02/02_03_01.tex	2.3.1	Self-awareness and Self-regulation in AI Systems	f62acabd9765cd17778ebf75f741bc9e33ea853136325bbbab48e75ce7b18935	9
@@ -32,7 +32,7 @@ manuscript/sections/ch05/05_02_04.tex	9.3.5	How Review Is Captured Without Being
 manuscript/sections/ch06/06.tex	16	What Arrives With the Capability	6e1f8504d870b3c6c4eba05bfdfb2b9bb447aebaffe3e04ba385df110e959878	31
 manuscript/sections/ch06/06_01.tex	3.3	Two Constructions, and What the Mechanism Requires	e2ddc385784d328ea3b521c9c8b102eb14e85659767ddce09a9e6e6e1fffc406	32
 manuscript/sections/ch06/06_02.tex	3.4	Can the Bearer Care Without Being Able to Suffer?	f7e461bad8a1ce57d4c1330a79a2825f41ede616cb9f81b06b1907a57a723cb3	33
-manuscript/sections/ch06/06_03.tex	3.8	A Floor Carried Between Them	93dd196d2a211abab7611170ae8c032155c50c838b57934356d61dc0f7a0f435	34
+manuscript/sections/ch06/06_03.tex	3.8	A Floor Carried Between Them	a069b1ffb454ef9daf30932e7c6e3e83da3cf5cda8d4771d90b5c568de4abc0a	34
 manuscript/sections/ch06/06_03z.tex			206249b2281dcfb67aac4fae1e7680c2383bd932d05fec453b2ad95dc109ab60	35
 manuscript/sections/ch07/07.tex	17	What Survives	3c7a1c3fd4c176514a05a4fa5ac0beb5839e84ab8100cd34781f26f46393dbbf	36
 manuscript/sections/ch08/08.tex	4	Where the Caring Gets Built	2f7c68fe82d4dbb3bc40cdd9e8932c53832254a0a8e80577cf5224c0d3ebf779	37
@@ -95,4 +95,4 @@ manuscript/sections/ch16/16_03z.tex			e0f29371b9ff306acfb22cd9db09ba474326377439
 manuscript/sections/ch17/17.tex	A	Further Tests	c7280c1407b2482b2149bb3568a07794a86a5d64be51b1740b82611c5f70bd58	94
 manuscript/sections/ch17/17_01.tex	A.1	Tests That Compare Constructions Available Now	040d5ce7b5819cb53df721ddc9e333cb93c0a1f70e3ba46c51ae18d5cbf06230	95
 manuscript/sections/ch17/17_02.tex	A.2	Tests That Presuppose a Bearer and a Welfare Regime	eb87a91940e5c1c98e71ce6c7c53f26fb2b7bedec2fc1099198b230ce79a4f0d	96
-manuscript/sections/ch18/18.tex	13	Glossary	c19fbeb3a5e2f0e91a7a98cbca6c4aceac1142dac99453dc749c826d06242813	97
+manuscript/sections/ch18/18.tex	13	Glossary	9f86bc601e514284934dd16af2879a667d787d719b740aa3bd801cbf6c94681f	97
