@@ -34,7 +34,8 @@ threshold from the other direction, at about 120 words. --clusters finds them.
 import argparse, glob, io, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import tex_prose_line
+from common import (tex_prose_line, section_labels, chapter_numbers, numkey,
+                    REPO)
 
 SHAPES = [
     ("rather-than", re.compile(r"\brather than\b", re.I)),
@@ -48,15 +49,25 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
 
 def sections(chapter=None):
+    """Yield (label, path, prose) per file. The locator is the label (D-470).
+
+    It used to be read here with a `sec:` pattern of this file's own, which
+    missed the 18 chapter openers and 2 continuations labelled `ch:` and fell
+    back to a bare filename, so one column held `whether-milestone` and
+    `09.tex` at once. `--chapter` matches the number the book prints, from the
+    path, because a reader names a chapter by its number and cites a section by
+    its label.
+    """
+    labels, chapters = section_labels(), chapter_numbers()
     for f in sorted(glob.glob(os.path.join(ROOT, "manuscript/sections/ch*/*.tex"))):
+        rel = os.path.relpath(os.path.abspath(f), REPO)
         src = io.open(f, encoding="utf-8").read()
-        m = re.search(r"\\label\{sec:([^}]*)\}", src)
-        num = m.group(1) if m else os.path.basename(f)
-        if chapter and num.split(".")[0] != str(chapter):
+        label = labels.get(rel, os.path.basename(f))
+        if chapter and chapters.get(rel) != str(chapter):
             continue
         body = re.sub(r"\s+", " ",
                       "\n".join(tex_prose_line(l) or "" for l in src.split("\n")))
-        yield num, f, body
+        yield label, f, body
 
 
 def constructions(s):
@@ -94,12 +105,12 @@ def main():
     ap.add_argument("--list", metavar="SEC")
     ap.add_argument("--clusters", action="store_true")
     ap.add_argument("--window", type=int, default=60)
-    ap.add_argument("--chapter", type=int)
+    ap.add_argument("--chapter", help="the number the book prints: 1..16, or A")
     a = ap.parse_args()
 
     if a.list:
         for num, _, body in sections():
-            if num != a.list:
+            if num != a.list:   # a label, as the locator column prints it
                 continue
             n = 0
             for found, s in hits(body):
@@ -140,10 +151,13 @@ def main():
         tot_w += w
         if w >= 150:
             rows.append((1000.0 * n / w, n, w, num))
-    rows.sort(reverse=True)
-    print("%-9s %5s %7s %8s" % ("section", "hits", "words", "per1k"))
-    for r, n, w, num in rows:
-        print("%-9s %5d %7d %8.2f" % (num, n, w, r))
+    rows.sort(key=lambda t: (-t[0], t[3]))
+    print("%-26s %5s %7s %8s" % ("section", "hits", "words", "per1k"))
+    for r, n, w, label in rows:
+        print("%-26s %5d %7d %8.2f" % (label, n, w, r))
+    if not tot_w:
+        print("\nNo section matched. --chapter takes the printed number.")
+        return
     print("\n%d instances over %d words = %.2f per 1,000."
           % (tot_n, tot_w, 1000.0 * tot_n / tot_w))
     print("Sections under 150 words are counted in the total and omitted above.")

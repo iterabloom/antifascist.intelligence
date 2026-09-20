@@ -9,10 +9,12 @@ sentences together finds this, and chasing 800-odd pointers through the
 manuscript is why nobody has.
 
 This writes the pairs into one file so the reading is linear instead.  For each
-`\\ref{sec:N}` in the section files it emits the sentence containing the
-reference, then the first prose sentence of section N -- which in this book is
-where a section states its claim, so a mismatch shows up as "the citing sentence
-says the target does X; the target opens by doing Y."
+`\\ref` in the section files it emits the sentence containing the reference,
+then the first prose sentence of the section it points at -- which in this book
+is where a section states its claim, so a mismatch shows up as "the citing
+sentence says the target does X; the target opens by doing Y."  Sections are
+named by their labels and references print as the numbers the book prints
+(D-470).
 
 Padding, per the author's specification (D-111): if either sentence is under 15
 words, the preceding sentence comes with it; if either is under 10, both the
@@ -37,8 +39,25 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common
 
-REF_RE = re.compile(r"\\(?:ref|autoref)\{sec:([0-9.]+)\}")
-TOKEN_RE = re.compile(r"Zx([0-9p]+)xZ")
+# D-463 named the heading labels, so a reference target is no longer a number
+# and `sec:([0-9.]+)` matched four labels in the whole book (D-470). The token
+# that stands in for a reference while the LaTeX is stripped is now an index
+# into TOKENS, which keeps the token alphabet numeric -- a label carries
+# hyphens and dots, and neither survives a round trip through the stripper
+# unambiguously.
+REF_RE = re.compile(r"\\(?:ref|autoref)\{(?:sec|ch):([^}]+)\}")
+TOKEN_RE = re.compile(r"Zx([0-9]+)xZ")
+TOKENS = {}      # label -> index
+BY_INDEX = {}    # index -> label
+
+
+def token_for(label):
+    if label not in TOKENS:
+        TOKENS[label] = len(TOKENS)
+        BY_INDEX[TOKENS[label]] = label
+    return TOKENS[label]
+
+
 # Abbreviations whose period does not end a sentence.  Python's `re` will not
 # take a variable-width lookbehind, so the split is done naively and then undone
 # wherever the piece before the break ends in one of these.
@@ -61,7 +80,7 @@ def prose_of(path):
         if line.lstrip().startswith(("\\chapter", "\\section", "\\subsection",
                                      "\\subsubsection", "\\label", "\\epigraph")):
             continue
-        line = REF_RE.sub(lambda m: " Zx%sxZ " % m.group(1).replace(".", "p"), line)
+        line = REF_RE.sub(lambda m: " Zx%dxZ " % token_for(m.group(1)), line)
         t = common.tex_prose_line(line).strip()
         if t:
             out.append(t)
@@ -88,11 +107,17 @@ def sentences(text):
 
 
 def render(text):
-    """Put the reference tokens back as readable section numbers."""
-    text = re.sub(r"(\u00a7+) ?Zx([0-9p]+)xZ ?",
-                  lambda m: m.group(1) + m.group(2).replace("p", "."), text)
-    return re.sub(r" ?Zx([0-9p]+)xZ ?",
-                  lambda m: "\u00a7" + m.group(2 - 1).replace("p", "."), text)
+    """Put the reference tokens back as the numbers the book prints.
+
+    The label is what the report locates a section by; inside a sentence the
+    reader sees a number, so that is what goes back (D-470).
+    """
+    def num(i):
+        return common.ref_numbers().get(BY_INDEX[int(i)], BY_INDEX[int(i)])
+    text = re.sub(r"(\u00a7+) ?Zx([0-9]+)xZ ?",
+                  lambda m: m.group(1) + num(m.group(2)), text)
+    return re.sub(r" ?Zx([0-9]+)xZ ?",
+                  lambda m: "\u00a7" + num(m.group(1)), text)
 
 
 def context(sents, i):
@@ -112,20 +137,16 @@ def main():
     ap.add_argument("--only", help="restrict to references made from this section")
     args = ap.parse_args()
 
-    files = {}     # section number -> path
+    files = {}     # label -> path
     sources = []   # extra files that cite but cannot be cited
-    for dirpath, _, names in os.walk(common.SECTIONS):
-        for name in sorted(names):
-            if not name.endswith(".tex"):
-                continue
-            path = os.path.join(dirpath, name)
-            with open(path, encoding="utf-8") as fh:
-                head = fh.read(4000)
-            m = re.search(r"\\(?:unnumbered)?label\{sec:([0-9.]+)\}", head)
-            if m:
-                files[m.group(1)] = path
-            else:
-                sources.append(path)
+    labels = common.section_labels()
+    for r in common.order_rows():
+        path = os.path.join(common.REPO, r["path"])
+        lab = labels.get(r["path"])
+        if lab:
+            files[lab] = path
+        else:
+            sources.append(path)
 
     # Cache each section's prose and its opening sentence.
     for path in sources:
@@ -134,19 +155,34 @@ def main():
     sents = {num: sentences(text) for num, text in prose.items()}
 
     pairs, unresolved, empty = [], [], []
-    def order(k):
-        try:
-            return (0,) + tuple(common.numkey(k))
-        except Exception:
-            return (1, k)
+    # Reading order, not alphabetical: `numkey` sorted labels that are numbers
+    # first and the rest by spelling, which is not an order the book has.
+    seq = {p: i for i, p in enumerate(r["path"] for r in common.order_rows())}
+    rel = {lab: seq.get(os.path.relpath(pth, common.REPO), 10 ** 6)
+           for lab, pth in files.items()}
 
-    for num in sorted(files, key=order):
+    def order(k):
+        return (rel.get(k, 10 ** 6), k)
+
+    # A reference can name a label that is not a file's own heading label -- the
+    # appendix's nine test headings are `\\subsection*`, each with a label of its
+    # own inside one file. Those were 12 of the 189 references and all 12 were
+    # reported unresolved; they resolve to the file that holds them (D-470).
+    home = {}
+    for path, targets in common.ref_targets().items():
+        owner_label = labels.get(path)
+        if owner_label:
+            for lab, _n in targets:
+                home[lab] = owner_label
+
+    for num in sorted(files, key=order):   # `num` is a label since D-470
         if args.only and num != args.only:
             continue
         ss = sents[num]
         for i, s in enumerate(ss):
             for target in TOKEN_RE.findall(s):
-                target = target.replace("p", ".")
+                target = BY_INDEX[int(target)]   # the token is an index (D-470)
+                target = home.get(target, target)
                 if target not in files:
                     unresolved.append((num, target, s))
                     continue
@@ -182,7 +218,7 @@ def main():
         if unresolved:
             fh.write("\n\n" + "=" * 78 + "\n== UNRESOLVED (%d)\n" % len(unresolved) + "=" * 78 + "\n")
             for num, target, s in unresolved:
-                fh.write("  %s -> %s :: %s\n" % (num, target, s[:200]))
+                fh.write("  %s -> %s :: %s\n" % (num, target, render(s)[:200]))
         if empty:
             fh.write("\n\n== TARGET HAS NO PROSE (%d)\n" % len(empty))
             for num, target in empty:

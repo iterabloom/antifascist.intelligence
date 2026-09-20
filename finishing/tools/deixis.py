@@ -47,7 +47,7 @@ the author's condition.
 import argparse, glob, io, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import tex_prose_line
+from common import tex_prose_line, section_labels, chapter_numbers, numkey
 
 PRONOUNS = r"(?:This|That|These|Those|It|They)"
 
@@ -71,13 +71,20 @@ LONG = 40
 
 
 def sections(chapter=None):
+    """Yield (path, label, prose). The locator is the label (D-470).
+
+    It was derived from the filename here, which D-464's rename made agree with
+    the printed number for chapters 1 to 16 by accident -- and which called the
+    Preface `1`, colliding with chapter 1, and the appendix `17` where the book
+    prints A. `--chapter` matches the printed number, from the path.
+    """
+    labels, chapters = section_labels(), chapter_numbers()
     for path in sorted(glob.glob("manuscript/sections/ch*/*.tex")):
         src = io.open(path, encoding="utf-8").read()
-        num = os.path.basename(path)[:-4].replace("_", ".").lstrip("0").lstrip(".")
-        num = re.sub(r"\.0", ".", num) or "1"
-        if chapter and num.split(".")[0] != str(chapter):
+        if chapter and chapters.get(path) != str(chapter):
             continue
-        yield path, num, "\n".join(tex_prose_line(l) or "" for l in src.split("\n"))
+        yield (path, labels.get(path, os.path.basename(path)),
+               "\n".join(tex_prose_line(l) or "" for l in src.split("\n")))
 
 
 def paragraphs(body):
@@ -97,7 +104,7 @@ def clause_marks(s):
 
 
 def hits(chapter=None):
-    """Yield (num, tier, sentence, previous_sentence, prev_words, prev_clauses)."""
+    """Yield (label, tier, sentence, previous_sentence, prev_words, prev_clauses)."""
     for path, num, body in sections(chapter):
         for p in paragraphs(body):
             ss = sentences(p)
@@ -119,11 +126,12 @@ TIERS = ("para-initial", "after-long", "after-short")
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--census", action="store_true")
-    ap.add_argument("--list", metavar="SEC")
+    ap.add_argument("--list", metavar="LABEL",
+                    help="a heading label, as the locator column prints it")
     ap.add_argument("--hard", action="store_true")
     ap.add_argument("--tier", choices=TIERS)
     ap.add_argument("--clauses", type=int, default=0)
-    ap.add_argument("--chapter", type=int)
+    ap.add_argument("--chapter", help="the number the book prints: 1..16, or A")
     a = ap.parse_args()
 
     rows = list(hits(a.chapter))
@@ -148,29 +156,33 @@ def main():
             if tier == "after-long" and c < a.clauses:
                 continue
             n += 1
-            print("%-9s %-13s %s" % (num, tier, s[:100]))
+            print("%-26s %-13s %s" % (num, tier, s[:100]))
             if prev:
-                print("%-9s %-13s   <- %dw %dc: %s" % ("", "", w, c, prev[-90:]))
+                print("%-26s %-13s   <- %dw %dc: %s" % ("", "", w, c, prev[-90:]))
         print("\n%d instances" % n)
         return
 
     # census
     tot = {t: 0 for t in TIERS}
     bych = {}
+    # A label carries no chapter, so the rollup takes the chapter from the path.
+    _labels = section_labels()
+    lab2ch = {_labels.get(p, os.path.basename(p)): ch
+              for p, ch in chapter_numbers().items()}
     for num, tier, s, prev, w, c in rows:
         tot[tier] += 1
-        ch = num.split(".")[0]
+        ch = lab2ch.get(num, "?")
         bych.setdefault(ch, {t: 0 for t in TIERS})[tier] += 1
     wordcount = {}
     sentcount = {}
     for path, num, body in sections(a.chapter):
-        ch = num.split(".")[0]
+        ch = lab2ch.get(num, "?")
         wordcount[ch] = wordcount.get(ch, 0) + len(body.split())
         sentcount[ch] = sentcount.get(ch, 0) + sum(len(sentences(p)) for p in paragraphs(body))
 
     print("%-4s %13s %11s %12s %8s %8s %7s" %
           ("ch", "para-initial", "after-long", "after-short", "total", "sents", "pct"))
-    for ch in sorted(bych, key=lambda x: int(x)):
+    for ch in sorted(bych, key=numkey):
         d = bych[ch]
         t = sum(d.values())
         print("%-4s %13d %11d %12d %8d %8d %6.1f%%" %

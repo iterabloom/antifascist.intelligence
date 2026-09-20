@@ -59,7 +59,11 @@ TEMPORAL = re.compile(r"\b(currently|recent(?:ly)?|state-of-the-art|cutting-edge
 XREF_VAGUE = re.compile(r"previous section|subsequent chapters|earlier chapter",
                         re.I)
 
-HEADER = ["num", "title", "level", "chapter", "words", "paras", "list_items",
+# `num` stays: in this table it is the identity other tables join on, which is
+# what ORDER.tsv's num is for. `label` is the locator a reader follows, and
+# `level` and `chapter` are facts about where the file prints, so both are read
+# off the printed numbers rather than off the identity (D-470).
+HEADER = ["num", "label", "title", "level", "chapter", "words", "paras", "list_items",
           "list_unmarked", "closers", "we", "this_report", "in_this_section",
           "xrefs", "vague_xrefs", "cites", "max_year", "dated_names",
           "temporal", "epigraphs", "boxes", "runins"]
@@ -99,17 +103,20 @@ def main():
     # it prints inside, so it is grouped with the file before it rather than
     # dropped -- dropping it would understate the book by the length of the coda.
     order = common.order_rows()
-    carry = ""
-    for r in order:
-        if r["num"]:
-            carry = r["num"].split(".")[0]
-        r["_chapter"] = carry
+    chapters = common.chapter_numbers()
+    labels = common.section_labels()
+    printed = {}
+    for num, _t, path, _l, numbered in common.printed_headings():
+        if numbered:
+            printed.setdefault(path, str(num))
     rows, unknown = [], set()
     for r in order:
         st = stats_for(os.path.join(common.REPO, r["path"]), unknown)
-        st.update({"num": r["num"], "title": r["title"],
-                   "level": common.level(r["num"]) if r["num"] else 0,
-                   "chapter": r["_chapter"]})
+        pn = printed.get(r["path"])
+        st.update({"num": r["num"], "label": labels.get(r["path"], ""),
+                   "title": r["title"],
+                   "level": len(pn.split(".")) if pn else 0,
+                   "chapter": chapters[r["path"]]})
         rows.append(st)
     os.makedirs(common.REPORTS, exist_ok=True)
     common.write_tsv(OUT, HEADER, rows)

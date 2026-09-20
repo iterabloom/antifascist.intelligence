@@ -53,10 +53,16 @@ def percentiles(vals, label):
 
 
 def load_sections():
-    _, order = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
-    order.sort(key=lambda r: common.numkey(r["num"]))
+    """Sections in reading order, each carrying its label and its chapter.
+
+    The locator is the label and the chapter comes from the path (D-470).
+    `num` is kept because the 2.4-by-7.4 grid below selects on it: that grid is
+    a frozen investigation into two sections identified by the numbers they
+    carried when it was run, and `num` is still those identities.
+    """
+    labels, chapters = common.section_labels(), common.chapter_numbers()
     out = []
-    for r in order:
+    for r in common.order_rows():
         with open(os.path.join(common.REPO, r["path"]), encoding="utf-8", newline="") as f:
             lines = f.readlines()
         body, quote = [], 0
@@ -73,7 +79,8 @@ def load_sections():
             body.append(line)
         paras = [re.sub(r"\s+", " ", p).strip() for p in "".join(body).split("\n")]
         paras = [p for p in paras if len(p.split()) >= 25]
-        out.append({"num": r["num"], "title": r["title"],
+        out.append({"num": r["num"], "label": labels.get(r["path"], ""),
+                    "chapter": chapters[r["path"]], "title": r["title"],
                     "text": " ".join(paras), "paras": paras})
     return [s for s in out if s["text"].split()]
 
@@ -164,10 +171,10 @@ def main_pure():
             c = pure_cos(V[i], V[j])
             vals.append(c)
             a, b = secs[i], secs[j]
-            rows.append({"score": "%.3f" % c, "a": a["num"], "a_title": a["title"],
-                         "b": b["num"], "b_title": b["title"],
-                         "same_chapter": "yes" if a["num"].split(".")[0]
-                         == b["num"].split(".")[0] else "no"})
+            rows.append({"score": "%.3f" % c, "a": a["label"], "a_title": a["title"],
+                         "b": b["label"], "b_title": b["title"],
+                         "same_chapter": "yes" if a["chapter"] == b["chapter"]
+                         else "no"})
     pure_percentiles(vals, "section")
     rows.sort(key=lambda r: -float(r["score"]))
     rows = rows[:SEC_TOP]
@@ -183,8 +190,8 @@ def main_pure():
         for bn in [s["num"] for s in secs if s["num"].startswith("7.4")]:
             i, j = idx[an], idx[bn]
             pair.append({"score": "%.3f" % pure_cos(V[i], V[j]),
-                         "a": an, "a_title": secs[i]["title"],
-                         "b": bn, "b_title": secs[j]["title"]})
+                         "a": secs[i]["label"], "a_title": secs[i]["title"],
+                         "b": secs[j]["label"], "b_title": secs[j]["title"]})
     pair.sort(key=lambda r: -float(r["score"]))
     common.write_tsv(os.path.join(common.REPORTS, "redundancy_2.4_vs_7.4.tsv"),
                      ["score", "a", "a_title", "b", "b_title"], pair)
@@ -195,7 +202,7 @@ def main_pure():
     for s in secs:
         for k, p in enumerate(s["paras"]):
             plist.append(p)
-            owner.append((s["num"], k + 1))
+            owner.append((s["label"], k + 1))
     print("%d paragraphs >= 25 words" % len(plist))
     P = pure_vectors(plist)
     prows, pvals = [], []
@@ -234,9 +241,9 @@ def main():
     rows = []
     for i, j in zip(*iu):
         a, b = secs[i], secs[j]
-        same = a["num"].split(".")[0] == b["num"].split(".")[0]
-        rows.append({"score": "%.3f" % S[i, j], "a": a["num"], "a_title": a["title"],
-                     "b": b["num"], "b_title": b["title"],
+        same = a["chapter"] == b["chapter"]
+        rows.append({"score": "%.3f" % S[i, j], "a": a["label"], "a_title": a["title"],
+                     "b": b["label"], "b_title": b["title"],
                      "same_chapter": "yes" if same else "no"})
     rows.sort(key=lambda r: -float(r["score"]))
     rows = rows[:SEC_TOP]
@@ -252,7 +259,7 @@ def main():
     pair = []
     for i in ai:
         for j in bi:
-            pair.append({"score": "%.3f" % S[i, j], "a": secs[i]["num"], "a_title": secs[i]["title"],
+            pair.append({"score": "%.3f" % S[i, j], "a": secs[i]["label"], "a_title": secs[i]["title"],
                          "b": secs[j]["num"], "b_title": secs[j]["title"]})
     pair.sort(key=lambda r: -float(r["score"]))
     common.write_tsv(os.path.join(common.REPORTS, "redundancy_2.4_vs_7.4.tsv"),
@@ -264,7 +271,7 @@ def main():
     for s in secs:
         for k, p in enumerate(s["paras"]):
             plist.append(p)
-            owner.append((s["num"], k + 1))
+            owner.append((s["label"], k + 1))
     print("%d paragraphs >= 25 words" % len(plist))
     P = embed(plist, tfidf)
     PM = P @ P.T

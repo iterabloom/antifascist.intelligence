@@ -66,30 +66,34 @@ def scan(path):
 def main(argv):
     want = set(argv[1:])
     rows = []
-    for num, title, path in common.section_headings():
-        ch = num.split(".")[0]
+    # The locator is the label and the chapter comes from the path (D-470).
+    # `ch` was the label's first dotted part, which stopped being a chapter
+    # number when D-463 named the labels: int('opening').
+    chapters = common.chapter_numbers()
+    for label, title, path in common.section_headings():
+        ch = chapters[path]
         if want and ch not in want:
             continue
         hits, st = scan(path)
-        rows.append((num, title, ch, hits, st))
+        rows.append((label, title, ch, hits, st))
 
     if want:
-        for num, title, ch, hits, st in rows:
+        for label, title, ch, hits, st in rows:
             if not hits and not st["list_items"]:
                 continue
             print("=" * 78)
-            print(f"{num}  {title}   [list items: {st['list_items']}]")
+            print(f"{label}  {title}   [list items: {st['list_items']}]")
             for h in hits:
                 print(f"  -- {h['words']}w, {h['cites']} cite(s)")
                 print(f"     {h['text']}")
         return 0
 
     per_ch = {}
-    for num, title, ch, hits, st in rows:
+    for label, title, ch, hits, st in rows:
         d = per_ch.setdefault(ch, {"secs": 0, "words": 0, "sents": 0,
                                    "inv": 0, "invwords": 0, "uncited": 0,
                                    "items": 0})
-        with open(_path_of(num), encoding="utf-8") as fh:
+        with open(_path_of(label), encoding="utf-8") as fh:
             paras, _ = common.tex_sections_of(fh.readlines())
         d["secs"] += 1
         d["words"] += sum(len(p.split()) for p in paras)
@@ -103,7 +107,7 @@ def main(argv):
           f"{'inv':>5} {'uncited':>8} {'inv w':>7} {'inv%w':>6} "
           f"{'listitems':>10}")
     tot = {}
-    for ch in sorted(per_ch, key=int):
+    for ch in sorted(per_ch, key=common.numkey):
         d = per_ch[ch]
         pct = 100.0 * d["invwords"] / d["words"] if d["words"] else 0.0
         print(f"{ch:>3} {d['secs']:>5} {d['words']:>7} {d['sents']:>6} "
@@ -121,11 +125,11 @@ def main(argv):
 _PATHS = None
 
 
-def _path_of(num):
+def _path_of(label):
     global _PATHS
     if _PATHS is None:
         _PATHS = {n: p for n, _, p in common.section_headings()}
-    return _PATHS[num]
+    return _PATHS[label]
 
 
 if __name__ == "__main__":

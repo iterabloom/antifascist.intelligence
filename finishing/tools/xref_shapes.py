@@ -80,21 +80,38 @@ SENT = re.compile(r'(?<=[.!?])\s+(?=[A-Z“(])')
 
 
 def sections():
-    _, rows = common.read_tsv(os.path.join(common.SECTIONS, 'ORDER.tsv'))
-    rows.sort(key=lambda r: common.numkey(r['num']))
+    """[(label, path, paragraphs)] in reading order. The locator is the label.
+
+    It was ORDER.tsv's `num`, sorted by `numkey`, and both were wrong after
+    D-406 separated identity from position: the report printed 3.3 against the
+    file the book prints 6.1 from, and 3.3 is a real section three chapters
+    back (D-470). Reading order now comes from `order_rows`, which reads `seq`.
+    """
+    labels = common.section_labels()
     out = []
-    for r in rows:
+    for r in common.order_rows():
         path = os.path.join(common.REPO, r['path'])
         with open(path) as fh:
             paras, _ = common.tex_sections_of(fh.readlines())
-        out.append((r['num'], r['path'], paras))
+        out.append((labels.get(r['path'], os.path.basename(r['path'])),
+                    r['path'], paras))
     return out
 
 
-def openers(nums):
-    """A section is an opener if some other section is numbered beneath it."""
-    s = set(nums)
-    return {n for n in s if any(o != n and o.startswith(n + '.') for o in s)}
+def openers():
+    """Labels of the sections some other section is nested beneath.
+
+    Nesting is a fact about the printed numbers, not about the labels, which
+    carry no hierarchy since D-463 named them. Read off `printed_headings`.
+    """
+    labels = common.section_labels()
+    first = {}
+    for num, _t, path, _l, numbered in common.printed_headings():
+        if numbered:
+            first.setdefault(path, num)
+    nums = set(first.values())
+    return {labels.get(p) for p, n in first.items()
+            if any(o != n and o.startswith(n + '.') for o in nums)} - {None}
 
 
 def classify(sent, ref, start, end):
@@ -152,12 +169,16 @@ REMOVABLE = ('signpost', 'restated', 'appended', 'attributive', 'structural',
 def main():
     summary = '--summary' in sys.argv
     secs = sections()
-    op = openers([n for n, _, _ in secs])
+    op = openers()
+    # The glossary is named, not numbered: `num == '11'` was frozen from a
+    # numbering two restructures old and had stopped matching anything (D-470).
+    gloss = {r['path'] for r in common.order_rows() if r['title'] == 'Glossary'}
     rows, counts, words = [], {}, {}
-    for num, path, paras in secs:
+    for label, path, paras in secs:
         # The glossary's references are locators in a reference apparatus, not
         # prose a reader is reading through; counted, reported apart.
-        kind = 'glossary' if num == '11' else ('opener' if num in op else 'leaf')
+        kind = ('glossary' if path in gloss
+                else 'opener' if label in op else 'leaf')
         for para in paras:
             for sent in SENT.split(para):
                 for m in REF.finditer(sent):
@@ -165,7 +186,7 @@ def main():
                     counts[shape] = counts.get(shape, 0) + 1
                     words[shape] = words.get(shape, 0)
                     rows.append({
-                        'num': num, 'kind': kind, 'shape': shape,
+                        'label': label, 'kind': kind, 'shape': shape,
                         'removable': 'y' if shape in REMOVABLE else '',
                         'ref': m.group(0), 'why': why,
                         'sentence': ' '.join(sent.split())[:400],

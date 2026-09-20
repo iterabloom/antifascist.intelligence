@@ -12,7 +12,18 @@ conversion cannot disagree with the checker about what it is converting.
 LaTeX commands are masked to equal-length filler first, so a number inside
 \label{sec:10.3.2} or an \autocite key is invisible while offsets stay true.
 
-Usage: refs_to_latex.py [--dry-run]
+SPENT, AND IT REFUSES TO RUN (D-470). This did its work at D-066 and is kept
+because it records how the conversion was decided. Running it now would damage
+the book: it gates on a number being in ORDER.tsv's `num` column, which has been
+an identity and not a printed number since D-406, and it emits
+`\\ref{sec:<that number>}` -- but D-463 renamed 84 heading labels to names, so
+four numeric labels survive in the whole manuscript. Every reference it wrote
+would be a number the book does not print there, pointing at a label that does
+not exist. The refusal is at the top of main(); a pass that genuinely needs this
+conversion again should write the predicate against `common.section_labels()`
+rather than lift the guard.
+
+Usage: refs_to_latex.py [--dry-run]   (refused; see above)
 """
 import glob
 import os
@@ -76,6 +87,12 @@ def convert_line(line, nums):
 
 
 def main():
+    sys.exit(
+        "refs_to_latex.py is spent and refuses to run (D-470).\n"
+        "  It emits \\ref{sec:<number>} gated on ORDER.tsv's num, and D-463 left\n"
+        "  four numeric labels in the manuscript, so every reference it wrote\n"
+        "  would be dangling. Nothing was read and nothing was written.\n"
+        "  The record of what it did is D-066; see the module docstring.")
     dry = "--dry-run" in sys.argv
     _, rows = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
     nums = {r["num"] for r in rows}

@@ -67,8 +67,11 @@ def sentences(text):
 
 
 def main():
-    _, order = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
-    order.sort(key=lambda r: common.numkey(r["num"]))
+    # Reading order from `seq`, locator from the label (D-470). Both were
+    # ORDER.tsv's `num`, which has been an identity and not a position since
+    # D-406.
+    order = common.order_rows()
+    labels = common.section_labels()
     claims, dated = [], []
     cid = 0
     for r in order:
@@ -88,7 +91,8 @@ def main():
                     end = line.find(".", m.end())
                     snip = line[start:end + 1 if end != -1 else len(line)].strip()
                     cid += 1
-                    row = {"claim_id": "C%04d" % cid, "num": r["num"], "line": ln,
+                    row = {"claim_id": "C%04d" % cid,
+                           "label": labels.get(r["path"], ""), "line": ln,
                            "kind": kind, "match": m.group(0)[:60],
                            "snippet": snip[:220], "status": "unverified", "note": ""}
                     claims.append(row)
@@ -96,9 +100,9 @@ def main():
                         d = dict(row)
                         d["remediation"] = remediation(kind, snip)
                         dated.append(d)
-    common.write_tsv(CLAIMS, ["claim_id", "num", "line", "kind", "match",
+    common.write_tsv(CLAIMS, ["claim_id", "label", "line", "kind", "match",
                               "snippet", "status", "note"], claims)
-    common.write_tsv(DATED, ["claim_id", "num", "line", "kind", "match",
+    common.write_tsv(DATED, ["claim_id", "label", "line", "kind", "match",
                              "snippet", "remediation", "status", "note"], dated)
     print("wrote %s: %d rows" % (CLAIMS, len(claims)))
     by_kind = {}
@@ -106,10 +110,10 @@ def main():
         by_kind[c["kind"]] = by_kind.get(c["kind"], 0) + 1
     for k, v in sorted(by_kind.items(), key=lambda x: -x[1]):
         print("  %-20s %5d" % (k, v))
-    secs = len({c["num"] for c in claims})
+    secs = len({c["label"] for c in claims})
     print("sections with at least one claim: %d of %d" % (secs, len(order)))
     print("wrote %s: %d dated rows across %d sections"
-          % (DATED, len(dated), len({d["num"] for d in dated})))
+          % (DATED, len(dated), len({d["label"] for d in dated})))
 
 
 if __name__ == "__main__":

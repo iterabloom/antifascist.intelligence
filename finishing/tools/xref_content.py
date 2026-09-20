@@ -53,9 +53,20 @@ Chapters' First Second Third Fourth Fifth Sixth Last Next New Old Real
 
 
 def load_order():
-    _, rows = common.read_tsv(os.path.join(common.SECTIONS, 'ORDER.tsv'))
-    rows.sort(key=lambda r: common.numkey(r['num']))
-    return [(r['num'], r['path'], r['title']) for r in rows]
+    """[(key, path, title)] in reading order, keyed by the number the book prints.
+
+    The key has to be what a reference in the rendered prose says, because that
+    is what this tool matches against. It was ORDER.tsv's `num`, an identity
+    since D-406, so every reference resolved against the wrong table -- and once
+    D-463 named the labels and `common.tex_prose_line` began rendering the name,
+    nothing matched at all (D-470). A file that prints no number gets its path
+    as a key, which no reference can spell.
+    """
+    printed = {}
+    for num, _t, path, _l, _nb in common.printed_headings():
+        printed.setdefault(path, str(num))
+    return [(printed.get(r['path'], r['path']), r['path'], r['title'])
+            for r in common.order_rows()]
 
 
 def prose_of(path, unknown=None):
@@ -97,8 +108,10 @@ def salient(sent):
 
 def main():
     order = load_order()
-    num2path = {n: p for n, p, _ in order}
-    num2title = {n: t for n, _, t in order}
+    num2path = {n: p for n, p, _ in order if not n.endswith('.tex')}
+    num2title = {n: t for n, _, t in order if not n.endswith('.tex')}
+    labels = common.section_labels()
+    num2label = {n: labels.get(p, '') for n, p, _ in order}
     unknown = set()
 
     prose = {n: prose_of(p, unknown) for n, p, _ in order}
@@ -109,7 +122,8 @@ def main():
                          if n == num or n.startswith(num + '.'))
 
     w = csv.writer(sys.stdout, delimiter='\t')
-    w.writerow(['src', 'ref', 'target_title', 'missing', 'sentence'])
+    w.writerow(['src', 'ref', 'target_label', 'target_title', 'missing',
+                'sentence'])
     n_refs = n_hits = 0
     for num, path, _ in order:
         for para in prose[num]:
@@ -129,7 +143,8 @@ def main():
                     miss = [m for m in miss if not re.fullmatch(r'\d{1,2}(\.\d{1,2}){0,2}', m)]
                     if miss:
                         n_hits += 1
-                        w.writerow([path, r, num2title.get(r, ''),
+                        w.writerow([path, r, num2label.get(r, ''),
+                                    num2title.get(r, ''),
                                     ' | '.join(miss), sent.strip()[:300]])
     print('# %d reference-instances scanned, %d candidates' % (n_refs, n_hits),
           file=sys.stderr)

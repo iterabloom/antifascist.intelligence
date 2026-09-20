@@ -103,7 +103,9 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import tex_prose_line, REPORTS  # noqa: E402
+import common  # noqa: E402
+from common import (tex_prose_line, REPORTS, section_labels,  # noqa: E402
+                    REPO)
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
@@ -240,12 +242,18 @@ def sentences(para):
 
 
 def load():
+    """[(label, path, paragraphs)]. The locator is the label (D-470).
+
+    The pattern here matched `sec:` only, so the chapter openers -- which D-463
+    labelled `ch:` -- fell through to a bare filename.
+    """
+    labels = section_labels()
     out = []
     for f in sorted(glob.glob(os.path.join(ROOT, "manuscript/sections/ch*/*.tex"))):
+        rel = os.path.relpath(os.path.abspath(f), REPO)
         src = io.open(f, encoding="utf-8").read()
-        m = re.search(r"\\(?:unnumbered)?label\{sec:([^}]*)\}", src)
-        num = m.group(1) if m else os.path.basename(f)
-        out.append((num, f, [sentences(p) for p in paragraphs(src)]))
+        out.append((labels.get(rel, os.path.basename(f)), f,
+                    [sentences(p) for p in paragraphs(src)]))
     return out
 
 
@@ -312,7 +320,7 @@ def scan(secs, only=None):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--only")
+    ap.add_argument("--only", help="a heading label, as the locator column prints it")
     ap.add_argument("--cross", action="store_true",
                     help="also pair a section's assertions against concessions "
                          "in the sections it cross-references, which is the "
@@ -356,9 +364,22 @@ def main():
     # --cross in a section it points at
     refs = {}
     if args.cross:
+        # `sec:([0-9.]+)` matched four labels in the whole book after D-463
+        # named them, so --cross silently contributed nothing and the committed
+        # report fell from 4,163 rows to 932 without the book changing (D-470).
+        # A reference can also name a label inside a file rather than the
+        # file's own, so each target is resolved to the file that holds it.
+        labels = common.section_labels()
+        home = {}
+        for path, targets in common.ref_targets().items():
+            own = labels.get(path)
+            if own:
+                for lab, _n in targets:
+                    home[lab] = own
+        pat = re.compile(r"\\(?:auto)?ref\{(?:sec|ch):([^}]+)\}")
         for num, path, paras in secs:
             src = io.open(path, encoding="utf-8").read()
-            refs[num] = set(re.findall(r"\\(?:auto)?ref\{sec:([0-9.]+)\}", src))
+            refs[num] = {home.get(t, t) for t in pat.findall(src)} - {num}
     pairs = []
     for num, rows in by.items():
         conc = [r for r in rows if r.conc]
@@ -385,7 +406,7 @@ def main():
         out = os.path.join(REPORTS, "hedge_pairs.tsv")
         with io.open(out, "w", encoding="utf-8", newline="") as fh:
             w = csv.writer(fh, delimiter="\t", lineterminator="\n")
-            w.writerow(["score", "overlap", "num", "same_para", "closer",
+            w.writerow(["score", "overlap", "label", "same_para", "closer",
                         "shared", "assertion_class", "assertion",
                         "concession_class", "concession"])
             for score, o, num, a, c, sp in pairs:
@@ -427,7 +448,7 @@ def main():
 
     # default: sections carrying both, ranked by how much material a hand read
     # would have to weigh
-    print("%-7s %5s %5s %6s   %s" %
+    print("%-26s %5s %5s %6s   %s" %
           ("section", "conc", "asrt", "closer", "top pair"))
     rows = []
     for num, srows in by.items():
@@ -442,7 +463,7 @@ def main():
     rows.sort(key=lambda t: (-t[0], -t[1]))
     for _, _, num, nc, na, ncl, best in rows:
         tp = "%.3f %s" % (best[0], best[3].text[:70]) if best else ""
-        print("%-7s %5d %5d %6d   %s" % (num, nc, na, ncl, tp))
+        print("%-26s %5d %5d %6d   %s" % (num, nc, na, ncl, tp))
     print("\n%d sections carry both a concession and an assertion, of %d"
           % (len(rows), len(by)))
 

@@ -57,9 +57,14 @@ VOICE = [
 
 
 def bodies():
-    _, order = common.read_tsv(os.path.join(common.SECTIONS, "ORDER.tsv"))
-    order.sort(key=lambda r: common.numkey(r["num"]))
-    for r in order:
+    """Yield (label, title, prose) in reading order.
+
+    The locator is the label and the order is `seq` (D-470). Both were
+    ORDER.tsv's `num`, which stopped being a position at D-406, so `voice.tsv`
+    was a table in an order the book is not, keyed by numbers it does not print.
+    """
+    labels = common.section_labels()
+    for r in common.order_rows():
         with open(os.path.join(common.REPO, r["path"]), encoding="utf-8", newline="") as f:
             lines = f.readlines()
         keep, quote = [], 0
@@ -77,7 +82,7 @@ def bodies():
             if quote > 0 or s.startswith(("#", "<<", "<</")):
                 continue  # box tags are skipped here but their text is kept
             keep.append(line)
-        yield r["num"], r["title"], "".join(keep)
+        yield labels.get(r["path"], ""), r["title"], "".join(keep)
 
 
 def main():
@@ -95,12 +100,12 @@ def main():
                      ["tic", "count", "sections", "per_10k"], trows)
 
     vrows = []
-    for num, title, text in secs:
-        row = {"num": num, "title": title, "words": len(text.split())}
+    for label, title, text in secs:
+        row = {"label": label, "title": title, "words": len(text.split())}
         for name, pat in VOICE:
             row[name] = len(re.compile(pat, re.I | re.M).findall(text))
         vrows.append(row)
-    cols = ["num", "title", "words"] + [n for n, _ in VOICE]
+    cols = ["label", "title", "words"] + [n for n, _ in VOICE]
     common.write_tsv(os.path.join(common.REPORTS, "voice.tsv"), cols, vrows)
 
     print("%d sections, %d body words" % (len(secs), total_words))

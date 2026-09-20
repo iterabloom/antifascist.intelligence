@@ -168,7 +168,15 @@ def printed_headings():
 
 
 def section_headings():
-    """[(num, title, path)] for every section, in ORDER.tsv order."""
+    """[(label, title, path)] for every section, in ORDER.tsv order.
+
+    The first element is the **label**, and it always was: `tex_heading` reads
+    it off the `\\label` line. It was called `num` here until D-470, which was
+    harmless only while every label was a number. D-463 named them, and the
+    tools that rolled up on `label.split(".")[0]` began raising
+    `int('opening')`. Use `section_labels()` for the locator and
+    `chapter_numbers()` for the rollup.
+    """
     out = []
     for r in order_rows():
         p = os.path.join(REPO, r["path"])
@@ -177,6 +185,119 @@ def section_headings():
         h = tex_heading(head)
         if h:
             out.append((h[0], h[1], r["path"]))
+    return out
+
+
+def section_labels():
+    """path -> the label on the file's heading, `sec:`/`ch:` prefix dropped.
+
+    **What a locator column shows** (D-470, the author's call). A label names a
+    section in a way that survives a restructure. The two alternatives do not:
+    ORDER.tsv's `num` is an identity that stopped being a position at D-406, and
+    the printed number moves whenever a chapter does, which is what put a `3.3`
+    in front of the file that prints 6.1 in five committed reports.
+
+    A continuation file has no heading and no label, and is absent here.
+    """
+    out = {}
+    for r in order_rows():
+        with open(os.path.join(REPO, r["path"]), encoding="utf-8") as f:
+            for _ in range(4):
+                m = TEX_LABEL_RE.match(f.readline().rstrip("\n"))
+                if m:
+                    out[r["path"]] = m.group(1)
+                    break
+    return out
+
+
+def ref_targets():
+    """path -> [(label, printed_number)] for every label in the file, in order.
+
+    Every `\\label` in the manuscript is a reference target, and not all of
+    them sit under a heading LaTeX numbers. The appendix's nine test headings
+    are `\\subsection*`, which increments nothing, so a `\\label` after one
+    takes the number of the section it is inside -- A.1 for all nine. That is
+    LaTeX's rule for `\\@currentlabel`, and it is why this cannot be a
+    positional zip against `printed_headings()`.
+    """
+    nums = {}
+    for num, _t, path, _l, _nb in printed_headings():
+        nums.setdefault(path, []).append(str(num))
+    out = {}
+    for r in order_rows():
+        queue = list(nums.get(r["path"], []))
+        cur, pend_num, pend_star, found = "", False, False, []
+        with open(os.path.join(REPO, r["path"]), encoding="utf-8") as fh:
+            for line in fh:
+                line = line.rstrip("\n")
+                h = HEAD_RE.match(line)
+                if h:
+                    if h.group(2):                 # starred: prints no number
+                        pend_star = True
+                    else:
+                        cur = queue.pop(0) if queue else cur
+                        pend_num = True
+                    continue
+                m = TEX_LABEL_RE.match(line)
+                if not m:
+                    continue
+                if line.startswith("\\unnumberedlabel") and pend_star:
+                    cur = queue.pop(0) if queue else cur
+                found.append((m.group(1), cur))
+                pend_num = pend_star = False
+        if queue:
+            raise AssertionError(
+                "common.ref_targets: %s left %d printed numbers unclaimed (%s). "
+                "A heading shape here is one this walk does not know."
+                % (r["path"], len(queue), ", ".join(queue)))
+        if found:
+            out[r["path"]] = found
+    return out
+
+
+_REF_NUMBERS = None
+
+
+def ref_numbers():
+    """label -> the number a `\\ref` to it prints. Computed once, cached.
+
+    D-463 renamed 84 heading labels from numbers to names, and every tool that
+    reads the rendered prose began showing `\\S build-costs` where the book
+    prints \\S\\,3.4 -- which silently emptied `xref_shapes.py`, whose pattern
+    looks for a number after the sign (D-470). The book has always printed a
+    number here; only the label stopped being one.
+    """
+    global _REF_NUMBERS
+    if _REF_NUMBERS is None:
+        out = {}
+        for _path, pairs in ref_targets().items():
+            out.update(pairs)
+        _REF_NUMBERS = out
+    return _REF_NUMBERS
+
+
+def chapter_numbers():
+    """path -> the number the book prints for the chapter the file sits in.
+
+    What a per-chapter rollup groups on, and what `--chapter` matches: a reader
+    names a chapter by its number and cites a section by its label. Numbered
+    chapters give '1'..'16', the appendix gives letters, and a starred chapter
+    gives the value it pins -- '0' for the Preface, '18' for the glossary, which
+    is what a `\\ref` to either yields rather than anything on the page.
+
+    **Sort these with `numkey`, never `int`.** The rollups split ORDER.tsv's
+    `num` on '.' and called `int()` on the head, which broke on the appendix's
+    letter before the labels were named and on every label after (D-470).
+    """
+    first = {}
+    for num, _title, path, _lineno, _numbered in printed_headings():
+        first.setdefault(path, num)
+    out, cur = {}, ""
+    for r in order_rows():
+        n = first.get(r["path"])
+        if n and "." not in n:
+            cur = n
+        out[r["path"]] = cur
     return out
 
 
@@ -305,7 +426,12 @@ def tex_prose_line(line, unknown=None):
     set, if given) so a macro this function has never been taught shows up as
     a warning instead of silently skewing a count.
     """
-    line = _TEX_REF.sub(lambda m: "\x00" + m.group(1), line)  # a reference is its number
+    # A reference is the number it prints. Since D-463 the label is a name, so
+    # the name is translated here rather than passed through (D-470); a label
+    # the map does not know falls back to itself, which is visible rather than
+    # silent.
+    _refn = ref_numbers()
+    line = _TEX_REF.sub(lambda m: "\x00" + _refn.get(m.group(1), m.group(1)), line)
     out, i = [], 0
     while i < len(line):
         m = _TEX_CMD.match(line, i)

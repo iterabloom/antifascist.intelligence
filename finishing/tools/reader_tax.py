@@ -133,23 +133,28 @@ def sentences(text):
 
 
 def scan():
-    """[(chapter, num, path, class, note, sentence)] over the whole book."""
-    _, rows = common.read_tsv(
-        os.path.join(common.SECTIONS, "ORDER.tsv"))
-    rows.sort(key=lambda r: common.numkey(r["num"]))
+    """[(chapter, label, path, class, note, sentence)] over the whole book.
+
+    Reading order from `seq`, locator from the label, chapter from the path
+    (D-470). All three were ORDER.tsv's `num`, which has been an identity and
+    not a position since D-406 -- and the chapter rollup called `int()` on it,
+    which the appendix's letter broke before the labels were ever named.
+    """
+    labels, chapters = common.section_labels(), common.chapter_numbers()
     hits = []
-    for r in rows:
+    for r in common.order_rows():
         path = os.path.join(common.REPO, r["path"])
         with open(path, encoding="utf-8") as f:
             lines = f.read().split("\n")
         paras, _ = common.tex_sections_of(lines)
-        ch = r["num"].split(".")[0]
+        ch = chapters[r["path"]]
+        label = labels.get(r["path"], "")
         for para in paras:
             for sent in sentences(para):
                 for key, _desc, pats in CLASSES:
                     for pat, note in pats:
                         if re.search(pat, sent, re.I):
-                            hits.append((ch, r["num"], r["path"], key, note, sent))
+                            hits.append((ch, label, r["path"], key, note, sent))
                             break
     return hits
 
@@ -157,8 +162,8 @@ def scan():
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--class", dest="klass")
-    ap.add_argument("--section")
-    ap.add_argument("--chapter")
+    ap.add_argument("--section", help="a heading label, as the locator column prints it")
+    ap.add_argument("--chapter", help="the number the book prints: 1..16, or A")
     ap.add_argument("--tsv", action="store_true")
     args = ap.parse_args()
 
@@ -172,15 +177,15 @@ def main():
 
     if args.tsv:
         out = os.path.join(common.REPORTS, "reader_tax.tsv")
-        common.write_tsv(out, ["chapter", "num", "path", "class", "sentence"],
-                         [{"chapter": h[0], "num": h[1], "path": h[2],
+        common.write_tsv(out, ["chapter", "label", "path", "class", "sentence"],
+                         [{"chapter": h[0], "label": h[1], "path": h[2],
                            "class": h[3], "sentence": h[5]} for h in hits])
         print("wrote %s (%d rows)" % (out, len(hits)))
         return 0
 
     if args.klass or args.section or args.chapter:
-        for ch, num, _p, key, note, sent in hits:
-            print("\n%-10s %-9s %s" % (num, key, sent[:400]))
+        for ch, label, _p, key, note, sent in hits:
+            print("\n%-24s %-9s %s" % (label, key, sent[:400]))
             if note:
                 print("           from: %s" % note[:150])
         print("\n%d hits" % len(hits))
@@ -188,7 +193,7 @@ def main():
 
     by_class = {}
     by_chapter = {}
-    for ch, num, _p, key, _n, _s in hits:
+    for ch, _label, _p, key, _n, _s in hits:
         by_class[key] = by_class.get(key, 0) + 1
         by_chapter.setdefault(ch, {}).setdefault(key, 0)
         by_chapter[ch][key] += 1
@@ -197,7 +202,7 @@ def main():
     for k, desc, _p in CLASSES:
         print("  %-11s %4d   %s" % (k, by_class.get(k, 0), desc))
     print("\n%-4s %s" % ("ch", "  ".join("%-9s" % k for k in keys)))
-    for ch in sorted(by_chapter, key=int):
+    for ch in sorted(by_chapter, key=common.numkey):
         print("%-4s %s" % (ch, "  ".join("%-9d" % by_chapter[ch].get(k, 0)
                                          for k in keys)))
     print("\ntotal %d hits" % len(hits))

@@ -46,7 +46,8 @@ is weaker evidence than one in the middle. --pairs marks which is which.
 import argparse, glob, io, os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from common import tex_prose_line, REPORTS
+from common import (tex_prose_line, REPORTS, section_labels, chapter_numbers,
+                    REPO)
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..")
 
@@ -114,13 +115,21 @@ def paragraphs(src):
 
 
 def sections(chapter=None):
+    """Yield (label, path, paragraphs). The locator is the label (D-470).
+
+    The `sec:` pattern this held missed every `ch:` opener, and the chapter
+    filter compared the label's first dotted part against the argument -- which
+    matched nothing once D-463 named the labels, so `--chapter 4` reported
+    `0 pairs in 0 sections` for a chapter it had not looked at. The filter now
+    matches the number the book prints, taken from the path.
+    """
+    labels, chapters = section_labels(), chapter_numbers()
     for f in sorted(glob.glob(os.path.join(ROOT, "manuscript/sections/ch*/*.tex"))):
+        rel = os.path.relpath(os.path.abspath(f), REPO)
         src = io.open(f, encoding="utf-8").read()
-        m = re.search(r"\\label\{sec:([^}]*)\}", src)
-        num = m.group(1) if m else os.path.basename(f)
-        if chapter and num.split(".")[0] != str(chapter):
+        if chapter and chapters.get(rel) != str(chapter):
             continue
-        yield num, f, paragraphs(src)
+        yield labels.get(rel, os.path.basename(f)), f, paragraphs(src)
 
 
 def words(s):
@@ -206,7 +215,7 @@ def main():
     ap.add_argument("--pairs", action="store_true")
     ap.add_argument("--tier", choices=TIERS)
     ap.add_argument("--maxwords", type=int, default=24)
-    ap.add_argument("--chapter")
+    ap.add_argument("--chapter", help="the number the book prints: 1..16, or A")
     ap.add_argument("--tails", action="store_true")
     ap.add_argument("--report", action="store_true")
     args = ap.parse_args()
@@ -218,8 +227,8 @@ def main():
             per.setdefault(r["num"], []).append(r)
         for num in sorted(per, key=lambda n: -len(per[n])):
             for r in per[num]:
-                print("%-8s %s" % (num, r["head"].strip()))
-                print("%-8s   TAIL: %s" % ("", r["tail"]))
+                print("%-26s %s" % (num, r["head"].strip()))
+                print("%-26s   TAIL: %s" % ("", r["tail"]))
         print("\n%d sentences in %d sections. Candidates for a hand read, not defects."
               % (len(rows), len(per)))
         return
@@ -242,8 +251,8 @@ def main():
             for r in rows:
                 if r["tier"] != t:
                     continue
-                print("%-8s %-9s %s" % (r["num"], t + ("*" if r["final"] else ""), r["a"]))
-                print("%-8s %-9s   -> %s" % ("", "", r["b"][:150]))
+                print("%-26s %-9s %s" % (r["num"], t + ("*" if r["final"] else ""), r["a"]))
+                print("%-26s %-9s   -> %s" % ("", "", r["b"][:150]))
         print("\n%d pairs. * = qualification is the paragraph's last sentence, "
               "which is emphatic rather than discarded." % len(rows))
         print("Candidates for a hand read, not defects.")
@@ -266,9 +275,12 @@ def main():
         per.setdefault(r["num"], []).append(r)
     for num in sorted(per, key=lambda n: -len(per[n])):
         rs = per[num]
-        print("%-8s %2d  %s" % (num, len(rs),
+        print("%-26s %2d  %s" % (num, len(rs),
               " ".join(sorted({r["tier"] + ("*" if r["final"] else "") for r in rs}))))
     mid = sum(1 for r in rows if not r["final"])
+    if not rows and args.chapter:
+        print("No section matched. --chapter takes the printed number.")
+        return
     print("\n%d pairs in %d sections; %d mid-paragraph, %d paragraph-final."
           % (len(rows), len(per), mid, len(rows) - mid))
     print("Candidates for a hand read, not defects.")

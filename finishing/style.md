@@ -452,8 +452,12 @@ Sections 1-9 govern the book, section 10 the prose written about it. This one
 governs one habit inside that prose, and it is the cheapest rule in this file to
 follow: **in `DECISIONS.md`, `STATE.md`, `QUESTIONS.md`, the `pN-scope.md` files
 and commit bodies, name a section by its label or its file, not by the number it
-printed on the day of writing.** Write `sec:3.6`, or `ch03/03_06.tex`, where the
-habit is to write \S\,3.6.
+printed on the day of writing.** Write `sec:build-costs`, or
+`ch03/03_01.tex`, where the habit is to write \S\,3.1. (This example was
+`sec:3.6` and `ch03/03_06.tex` when the section was written, which is the rule
+demonstrating itself: D-463 named the labels and D-464 renamed the files, and
+both halves of the example went stale while the section they illustrate did
+not.)
 
 **A number is only true as of a date.** Twenty-two renumbers stand between the
 earliest entries in this record and the book, and the record already carries
@@ -485,6 +489,18 @@ becomes 6.2 on 2026-09-12 and 6.4 on 2026-09-13 — and chained from the wrong
 date it would return a confident wrong answer rather than an error. It says
 where the chain ends in a cut, where a hop crossed the September 12 rewrite, and
 where it propagated a number from its parent chapter rather than reading a row.
+
+**The tools follow the same rule (D-470).** A report's locator column carries
+the label, not `ORDER.tsv`'s `num` and not the printed number. Eleven tools had
+a locator that was neither: six printed `ORDER.tsv`'s `num`, an identity and not
+a position since D-406 -- one of them put `3.3` against the file the book prints
+6.1 from, where 3.3 is a real section three chapters back -- and five read the
+label through a pattern that missed every `ch:` chapter opener. Where a rollup needs a chapter it takes the printed chapter
+number from the path, and `--chapter` matches that, because a reader names a
+chapter by its number and cites a section by its label. Two things are
+deliberately not labels: `ledger.tsv` and `section_stats.tsv` keep `num` as the
+identity other tables join on, and a sentence quoted from the book shows the
+number the book prints, which `common.ref_numbers()` supplies.
 
 **Nothing about the book's own prose changes.** The manuscript has always used
 `\ref`, which reads the counter; `check_xrefs.py` reports no number left in

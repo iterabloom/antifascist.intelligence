@@ -111,8 +111,16 @@ def sentences_of(path):
 
 
 def hits():
+    """Rows located by label, the identifier that survives a restructure (D-470).
+
+    The column was ORDER.tsv-free already -- it has always held what
+    `section_headings` returns, which is the label -- but the per-chapter rollup
+    split it on '.' and called int() on the head, which was a number only until
+    D-463 named the labels. The chapter now comes from the path.
+    """
     rows = []
-    for num, _title, path in common.section_headings():
+    chapters = common.chapter_numbers()
+    for label, _title, path in common.section_headings():
         sents = sentences_of(os.path.join(common.REPO, path))
         for i, (para, sent, keys) in enumerate(sents):
             found = [name for pat, name in NEGATIONS
@@ -131,19 +139,21 @@ def hits():
                     continue
                 tier = "adjacent"
                 near = ",".join(sorted(set(nb)))
-            rows.append({"num": num, "tier": tier, "classes": " ".join(found),
+            rows.append({"label": label, "chapter": chapters[path],
+                         "tier": tier, "classes": " ".join(found),
                          "source_word": "yes" if src else "no",
                          "cites": near, "sentence": sent})
     return rows
 
 
-HEADER = ["num", "tier", "classes", "source_word", "cites", "sentence"]
+HEADER = ["label", "chapter", "tier", "classes", "source_word", "cites",
+          "sentence"]
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--tier", choices=("cited", "adjacent"))
-    ap.add_argument("--section")
+    ap.add_argument("--section", help="a heading label, as the locator column prints it")
     ap.add_argument("--tsv", action="store_true")
     a = ap.parse_args()
 
@@ -155,22 +165,21 @@ def main():
     if a.tier or a.section:
         sel = [r for r in rows
                if (not a.tier or r["tier"] == a.tier)
-               and (not a.section or r["num"] == a.section)]
+               and (not a.section or r["label"] == a.section)]
         for r in sel:
-            print("%-8s %-8s %-14s %s" % (r["num"], r["tier"], r["classes"],
-                                          r["cites"]))
+            print("%-24s %-8s %-14s %s" % (r["label"], r["tier"], r["classes"],
+                                           r["cites"]))
             print("    %s" % r["sentence"])
         print("\n%d of %d rows" % (len(sel), len(rows)))
         return
 
     by = {}
     for r in rows:
-        by.setdefault((r["tier"], r["num"].split(".")[0]), 0)
-        by[(r["tier"], r["num"].split(".")[0])] += 1
+        by[(r["tier"], r["chapter"])] = by.get((r["tier"], r["chapter"]), 0) + 1
     for tier in ("cited", "adjacent"):
         n = sum(v for (t, _), v in by.items() if t == tier)
         print("%s: %d" % (tier, n))
-        for ch in sorted({c for (t, c) in by if t == tier}, key=int):
+        for ch in sorted({c for (t, c) in by if t == tier}, key=common.numkey):
             print("   ch%-3s %d" % (ch, by[(tier, ch)]))
     print("\n%d rows. Candidates for a hand read, not defects." % len(rows))
 
