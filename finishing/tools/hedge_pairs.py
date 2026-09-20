@@ -379,6 +379,10 @@ def main():
         pat = re.compile(r"\\(?:auto)?ref\{(?:sec|ch):([^}]+)\}")
         for num, path, paras in secs:
             src = io.open(path, encoding="utf-8").read()
+            # Self-exclusion is a guard, not a filter: with in-file labels
+            # resolving to their file, a section that references its own
+            # sub-labels would have its concessions counted twice. On the tree
+            # at D-470 no section did -- 0 of 95 -- so it removes nothing today.
             refs[num] = {home.get(t, t) for t in pat.findall(src)} - {num}
     pairs = []
     for num, rows in by.items():
