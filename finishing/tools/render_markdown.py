@@ -264,6 +264,15 @@ def render(path, nums, root, labels):
         line = lines[i]
         i += 1
 
+        # A whole-line LaTeX comment is not prose and reached the Markdown as
+        # prose: the four lines explaining the \appendix continuation file and
+        # the six explaining the preface's sloppypar. Only a line whose first
+        # non-space character is an unescaped % is dropped; the section files
+        # have no comment that starts mid-line. --tex keeps them, being the
+        # source rather than a rendering of it.
+        if re.match(r"\s*%", line):
+            continue
+
         m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?\{(.*)\}\s*$", line)
         if m:
             kind, title = m.group(1), inline(m.group(2), labels).strip()
