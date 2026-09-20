@@ -344,7 +344,14 @@ def render(path, nums, root, labels):
             else:
                 bullet = "- "
             if term:
-                body = "**" + inline(term, labels).strip().rstrip(":") + ":** " + body
+                # A label that already ends in a sentence mark punctuates
+                # itself. Appending the colon unconditionally set the preface's
+                # chapter map as "**1, Twenty Seconds.:**". The description
+                # labels in the formation chapter end in a colon and are
+                # unaffected.
+                t = inline(term, labels).strip()
+                tail = "" if t.endswith((".", "?", "!")) else ":"
+                body = "**" + t.rstrip(":") + tail + "** " + body
             out.append(bullet + body)
             continue
 
