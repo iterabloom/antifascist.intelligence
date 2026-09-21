@@ -12,12 +12,16 @@ one, both of which were approved and applied.
 in four ways, all four derived rather than asserted (D-457, re-derived at D-460
 and D-466):
 
-| the file says | measured 2026-09-19 |
-|---|---|
-| strips the `note` field, "161 of the 229" | strips `note` **and** `addendum`, 233 of 280 |
-| "670 KB to 608 KB" | 746 KB, read 2026-09-19 (745 KB earlier the same day, when this file was written; see below) |
-| "the same 164 pages" | 186 pages |
-| inlines "the generated `draft-status.tex`" | the whole draft apparatus is stripped |
+| the file says | measured 2026-09-19 | re-measured 2026-09-20 (D-495) |
+|---|---|---|
+| strips the `note` field, "161 of the 229" | strips `note` **and** `addendum`, 233 of 280 | 240 of 287 |
+| "670 KB to 608 KB" | 746 KB, read 2026-09-19 (745 KB earlier the same day, when this file was written; see below) | 731 KB, 748,648 bytes at the tool's own filename |
+| "the same 164 pages" | 186 pages | 181 pages |
+| inlines "the generated `draft-status.tex`" | the whole draft apparatus is stripped | unchanged: 0 `draftmode` tokens in the export |
+
+**Every figure in the middle column went stale in one day**, which is the
+argument of this file happening to this file for the second time. The right-hand
+column will go stale too; it is dated for that reason.
 
 Note the span: D-457 called it `101–105`, but the `draft-status.tex` claim is at
 line 97, so an amendment has to reach back to 96.
@@ -128,3 +132,42 @@ author's to weigh, not the agent's.
 
 Rewriting `finishing/README.md`'s stale figures, which needs no approval and can
 be done in any pass. It is not done yet either.
+
+
+## A second passage, found 2026-09-20 (D-496)
+
+`AGENTS.md:90` is the same defect in the paragraph above the one this file was
+written about. It lists what the Markdown form converts:
+
+> Everything else in the manuscript's macro set — the run-in heads, boxes,
+> epigraphs, **the one table**, the lists — has a conversion.
+
+**The manuscript has four tables**: `ch02/02_03.tex`, `ch11/11_04.tex`,
+`ch06/06_02.tex` (added by D-489) and `ch15/15_04.tex` (added by D-493). It had
+two before this session and the two most recent are the agent's, written from
+the author's own edit lists.
+
+**The conversion is not the problem.** `render_markdown.py` was run on
+2026-09-20 and printed no unconverted-command warning, so all four convert and
+the sentence's claim about capability holds. What is false is the count, and it
+went false because the *book* grew a construct, not because a tool changed —
+which is a third way for a measurement to rot and the one this file had not yet
+named.
+
+### Proposed text for line 90
+
+> Everything else in the manuscript's macro set — the run-in heads, boxes,
+> epigraphs, tables, the lists — has a conversion.
+
+One word. It removes the only figure in the paragraph and says the same thing.
+
+### What this adds to the argument
+
+The rule proposed above — *if running a tool could make the sentence false, it
+does not belong in this file* — would have caught it, but only just: no tool run
+makes "the one table" false. **Writing a section does.** The test is better
+stated as: if anything anyone does in the ordinary course of the work could make
+the sentence false, it is a measurement. The lint proposed above already catches
+this token shape, since "one table" is the "N of the M" form's smaller cousin,
+but an allowlist built around KB/MB/pages/entries would miss a spelled-out
+number against a noun. Worth widening if the check is ever built.
