@@ -273,7 +273,7 @@ def render(path, nums, root, labels):
         if re.match(r"\s*%", line):
             continue
 
-        m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?\{(.*)\}\s*$", line)
+        m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?(?:\[[^\]]*\])?\{(.*)\}\s*$", line)
         if m:
             kind, title = m.group(1), inline(m.group(2), labels).strip()
             prefix = ""

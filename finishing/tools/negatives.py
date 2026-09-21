@@ -91,7 +91,7 @@ def sentences_of(path):
                 envs.pop()
         if any(e in common.TEX_QUOTE_ENVS for e in envs):
             continue                                   # epigraph, not ours
-        if re.match(r"^\\(chapter|section|subsection)\*?\{", line) or \
+        if re.match(r"^\\(chapter|section|subsection)\*?(?:\[[^\]]*\])?\{", line) or \
            re.match(r"^\\(label|unnumberedlabel|addcontentsline)", line):
             continue
         if not line.strip():

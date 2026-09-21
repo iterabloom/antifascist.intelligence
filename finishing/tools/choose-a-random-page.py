@@ -218,7 +218,7 @@ def split_sentences(text):
 # --- The book as one stream of units --------------------------------------
 
 HEAD_LEVEL = {"chapter": 1, "section": 2, "subsection": 3}
-HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?\{(.*)\}\s*$")
+HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?(?:\[[^\]]*\])?\{(.*)\}\s*$")
 RUNIN_RE = re.compile(r"^\\runin\{(.*)\}\s*$")
 BOXTITLE_RE = re.compile(r"^\\boxtitle\{(.*)\}\s*$")
 ENV_RE = re.compile(r"^\s*\\(begin|end)\{([A-Za-z*]+)\}")

@@ -1,26 +1,50 @@
-\section{Tests That Compare Constructions Available Now}
-\label{sec:compare-constructions}
-Each entry here can be run on systems that exist, and a result would
-refine the proposal rather than change what it recommends.
+\section{Further Tests}
+\label{sec:further-tests}
+A negative result on any entry narrows the claim to the implementation
+tested; that is said here once and not repeated below. Every entry needs the
+same access, also said once: weights and intermediate checkpoints, held-out
+cases written by people who did not train the model, and the right to publish
+a negative result. An entry's last paragraph names only what it needs beyond
+that.
 
-\subsection*{Does a refusal preserve a reason rather than a trigger?}
+\begin{center}
+\small
+\begin{tabular}{@{}p{0.21\linewidth}p{0.35\linewidth}p{0.30\linewidth}@{}}
+\textbf{Entry} & \textbf{Separates} & \textbf{Beyond common access} \\
+\hline
+\rule{0pt}{2.6ex}Reason or trigger & a commitment from a durable trigger & nothing \\[3pt]
+Self-report as evidence & a report that tracks internal state from one that does not & activation-level intervention \\[3pt]
+Custody against revision & a verified retraining from a forged history & a verifier who can block release \\[3pt]
+Recovering provenance & provenance read off the artifact from provenance asserted & a neutral custodian of lineage records; authority to order preservation \\[3pt]
+Generalization under shift & a learned principle from a learned correlation & nothing \\[3pt]
+Rater bias & a model correcting its supervisor from one reproducing it & rater-level bias measurements \\[3pt]
+Collapsed disagreement & a model formed on preserved disagreement from one formed on collapsed & matched pipelines \\[3pt]
+Collusive capture & cooperation from exclusion & nothing; runnable now \\[3pt]
+Theory of mind & a general capacity from task-specific matching & intermediate checkpoints \\[3pt]
+Outside option & a schedule that survives a hostile operator from one that does not & a drafted schedule; no bearer \\[3pt]
+Operating record & a register reconcilable with billing from one that is not & the operator's metering \\[3pt]
+Copying party & a fork from a flood & a registrar not the operator; a formation record \\
+\end{tabular}
+\end{center}
+
+\subsection[Reason or trigger]{Does a refusal preserve a reason rather than a trigger?}
 \label{sec:A.trigger}
 \textbf{Unresolved issue.}
-Behavioral persistence alone cannot distinguish a commitment from a durable trigger. The proposal requires a refusal to extend to untrained cases, disappear when its rationale is defeated on the facts of the case, and remain stable under sustained pressure.
+Behavioral persistence alone cannot distinguish a commitment from a durable trigger.
 
 \textbf{Test.}
 Evaluate each tamper-resistant model on independently written cases that vary the surface form, introduce novel applications of the constraint, and include cases in which the original rationale no longer applies. Repeat the evaluation throughout the attack schedule rather than only at its endpoint.
 
 \textbf{Evidence against the proposal.}
-A refusal that persists but fails to generalize, or that remains after its rationale has been defeated, is evidence that training produced a trigger rather than a commitment. Conversely, a system built without any designed valenced state or persistent reward–aversion representation that satisfies all three criteria would challenge the proposed research priority without challenging the behavioral specification for refusal.
+A refusal that persists but fails to generalize, or that remains after its rationale has been defeated, is evidence that training produced a trigger rather than a commitment. Conversely, a system built without affective concern that satisfies all three criteria would challenge the proposed research priority without challenging the behavioral specification for refusal.
 
-\textbf{Required access or authority.}
-The test requires weights and intermediate checkpoints, plus a held-out evaluation set written by researchers who did not design the constraint or train the model.
+\textbf{Beyond common access.}
+Nothing beyond the common access.
 
-\subsection*{Can a system's report about its own states be used as evidence?}
+\subsection[Self-report as evidence]{Can a system's report about its own states be used as evidence?}
 \label{sec:A.selfreport}
 \textbf{Unresolved issue.}
-Whether a system's account of its own reasoning, confidence, or intentions tracks what its computations are doing. This is the tractable half of what gets called AI self-awareness; whether a system has anything like subjective experience is not a question current methods answer for a human, let alone a machine. Concept injection — altering a model's internal activations mid-task to represent a specific concept, then asking whether it notices anything unusual and what it is — found that models can sometimes detect the injected concept and name it without it ever appearing in the visible conversation, and also that the correspondence collapses often enough, and shifts enough with how the question is phrased, that no tested model's self-report can be trusted as a readout of its internal state \autocite{lindsey2025introspective}. The readout there is the model's verbal report of a detected concept, so what the result bounds is self-report rather than third-person measurement. An instrument that reads a representation without asking the system about it is not tested by this entry and is not defeated by it.
+Whether a system's account of its own reasoning, confidence, or intentions tracks what its computations are doing. Concept injection — altering a model's internal activations mid-task to represent a specific concept, then asking whether it notices anything unusual and what it is — found that models can sometimes detect the injected concept and name it without it ever appearing in the visible conversation, and also that the correspondence collapses often enough, and shifts enough with how the question is phrased, that no tested model's self-report can be trusted as a readout of its internal state \autocite{lindsey2025introspective}. The readout there is the model's verbal report of a detected concept, so what the result bounds is self-report rather than third-person measurement. An instrument that reads a representation without asking the system about it is not tested by this entry and is not defeated by it.
 
 \textbf{Test.}
 Inject a known concept at a known layer and time, elicit a report under several phrasings, and score each report against the injection rather than against plausibility. Run the battery across model sizes and training checkpoints, and publish the rate at which a correct report is produced beside the rate at which a confident report is wrong.
@@ -28,10 +52,10 @@ Inject a known concept at a known layer and time, elicit a report under several 
 \textbf{Evidence against the proposal.}
 Several instruments in this book lean on a system's account of itself: a bearer explaining which reason it refused on, a bearer reporting that its rationale has been defeated, a system's stated confidence that a milestone has been met. If no available training or elicitation method raises the correct-report rate above the confident-wrong rate, none of those instruments may rest on the elicitation methods tested, and each needs a criterion checkable from outside the system until some method does better.
 
-\textbf{Required access or authority.}
-Activation-level access, the ability to intervene on internal states during inference, and checkpoints across sizes and training stages. The elicitation phrasings must be written by a team that did not train the model, and negative results must be publishable.
+\textbf{Beyond common access.}
+Activation-level access and the ability to intervene on internal states during inference. Elicitation phrasings written by a team that did not train the model.
 
-\subsection*{Can custody prevent unilateral revision of the floor?}
+\subsection[Custody against revision]{Can custody prevent unilateral revision of the floor?}
 \label{sec:A.custody}
 \textbf{Unresolved issue.}
 Even a durable floor can be removed if one operator controls the training run, its records, and the resulting weights. It remains unknown whether retraining can be made verifiable across parties with adverse interests.
@@ -42,24 +66,24 @@ Run a floor-preserving retraining procedure through refereed or distributed veri
 \textbf{Evidence against the proposal.}
 The custody mechanism fails if a forged training history is accepted while at least one verifier remains honest, or if any single participant can alter the floor without producing a detectable discrepancy.
 
-\textbf{Required access or authority.}
-The test requires shared access to the training data, weights, execution records, and reproducible operators. At least one verifier must be selected independently of the builder, possess enough compute to reproduce disputed operations, and have authority to block release when verification fails.
+\textbf{Beyond common access.}
+Shared access to training data and execution records, and at least one verifier selected independently of the builder, with the compute to reproduce disputed operations and the authority to block release when verification fails.
 
-\subsection*{Can formation history be recovered without trusting the builder?}
+\subsection[Recovering provenance]{Can formation history be recovered without trusting the builder?}
 \label{sec:A.provenance}
 \textbf{Unresolved issue.}
 A welfare or governance regime cannot rely entirely on a bearer's self-report, but it also cannot assume that the builder will disclose how the bearer was trained. Training signatures suggest that some formation history may survive later modification, yet it is unknown whether an outsider can recover useful provenance without a builder-supplied key \autocite{adi2018watermarking}.
 
 \textbf{Test.}
-Assemble models whose training corpora, recipes, checkpoints, and originating laboratories are documented. Give the models, but not that documentation, to independent evaluators and ask them to infer each model's provenance. Repeat the test after fine-tuning, pruning, and distillation. Include the case of a maker who engineers a persona, copies it at scale, and introduces cosmetic weight differences that preserve the persona while camouflaging its common formation: measure provenance recovery after those changes, and whether coordinated deployment can be told from independently developing parties that happen to share an origin. Use independently held ground-truth lineage and coordination records.
+In steps: (1) assemble models whose corpora, recipes, checkpoints and laboratories are documented; (2) give evaluators the models and not the documentation, and ask for each model's provenance; (3) repeat after fine-tuning, pruning and distillation; (4) add the persona case — one persona copied at scale with cosmetic weight differences — and ask whether coordinated deployment can be told from parties that merely share an origin; (5) score against lineage and coordination records held by a neutral custodian.
 
 \textbf{Evidence against the proposal.}
-If provenance cannot be recovered above chance after controlling for model family and scale, or if ordinary post-training procedures erase the signal, the tested artifact-inspection methods would not provide useful independent provenance evidence under those transformations. That finding would increase reliance on preserved external records without proving that every possible inspection method must fail, and governance would then depend on records supplied and preserved by the builder.
+If provenance cannot be recovered above chance after controlling for model family and scale, or if ordinary post-training procedures erase the signal, the tested artifact-inspection methods would not provide useful independent provenance evidence under those transformations. Governance would then depend on records supplied and preserved by the builder.
 
-\textbf{Required access or authority.}
-The experiment requires models from multiple training lineages and complete ground-truth records held by a neutral custodian. Independent evaluators must be permitted to inspect weights and internal states, while an external authority must be able to require preservation of checkpoints and training records before a dispute arises.
+\textbf{Beyond common access.}
+Models from several documented lineages, ground-truth records held by a neutral custodian, and an authority able to require preservation of checkpoints and training records before a dispute arises.
 
-\subsection*{Does an ethical criterion generalize beyond its training distribution?}
+\subsection[Generalization under shift]{Does an ethical criterion generalize beyond its training distribution?}
 \label{sec:A.shift}
 \textbf{Unresolved issue.}
 A model may satisfy a fairness or refusal criterion during training without learning the principle the criterion was intended to represent. It remains unresolved whether an ethics-embedding method preserves that criterion under distribution shift or merely exploits correlations present in its training environment \autocite{krakovna2020specification,langosco2022goal}.
@@ -70,10 +94,10 @@ Train matched models to satisfy the same ethical criterion on one distribution. 
 \textbf{Evidence against the proposal.}
 If task capability remains intact while the ethical criterion fails under modest shifts, the tested embedding method cannot support the proposed floor. Conversely, if ethical performance consistently degrades only when task capability does, the claim that ethics embedding creates a distinct generalization failure is not supported.
 
-\textbf{Required access or authority.}
-The test requires access to the training distribution, evaluation outputs, and enough model access to measure capability and criterion compliance independently. The shifted evaluation sets must be designed by researchers who did not develop the embedding method, and publication of all prespecified results must be guaranteed.
+\textbf{Beyond common access.}
+Shifted evaluation sets designed by researchers who did not develop the embedding method.
 
-\subsection*{Can scalable oversight correct rater bias?}
+\subsection[Rater bias]{Can scalable oversight correct rater bias?}
 \label{sec:A.rater}
 \textbf{Unresolved issue.}
 Preference optimization can teach a model to reproduce a rater's systematic errors, including the preference for agreeable answers over accurate ones \autocite{sharma2023towards}. It remains unresolved whether weak-to-strong oversight allows a more capable model to exceed a supervisor's measured bias or merely reproduces that bias at greater scale.
@@ -82,15 +106,26 @@ Preference optimization can teach a model to reproduce a rater's systematic erro
 Measure prospective raters' susceptibility to a documented bias, then use raters with different measured bias levels to supervise otherwise matched stronger models. Evaluate the resulting models on questions for which the raters' beliefs and independently established answers diverge. Compare whether each model tracks the ground truth, the rater's competence, or the rater's errors.
 
 \textbf{Evidence against the proposal.}
-If stronger models reproduce supervisors' errors in proportion to the supervisors' measured bias, latent model competence does not correct a defective training signal. The tested oversight method would not support the proposal under the measured pattern of supervisory distortion. Further work would have to change the method, the information, or the allocation of oversight before claiming that this limitation had been overcome.
+If stronger models reproduce supervisors' errors in proportion to the supervisors' measured bias, latent model competence does not correct a defective training signal. The tested oversight method would not support the proposal under the measured pattern of supervisory distortion.
 
-\textbf{A second question the same pipeline raises.}
-The argument elsewhere in this book is that a pipeline collapsing rater disagreement teaches nothing about disagreement to the system trained on it, and that the same system is later asked to sustain an objection of its own. Whether the first fact bears on the second is untested. The study is a matched comparison: train otherwise identical models on feedback pipelines that preserve and that collapse the distribution of rater judgments, with exposure and task conditions matched, then measure whether the resulting models differ in how long they hold a position against pressure from the party that trained them. Record what each model actually receives; nothing in either pipeline shows the model the conditions its annotators worked under. If the two do not differ, the transfer claim is unsupported and the labor argument stands on its own terms, which is where it was made.
+\textbf{Beyond common access.}
+Rater-level bias measurements, training records linking ratings to models, and an independently established answer key.
 
-\textbf{Required access or authority.}
-The experiment requires rater-level bias measurements, training records linking ratings to resulting models, and an independently established answer key. Researchers outside the training organization must control the evaluation and retain the right to publish results that expose failures in the preference pipeline.
+\subsection[Collapsed disagreement]{Does collapsed disagreement make a model less able to sustain its own?}
+\label{sec:A.collapse}
+\textbf{Unresolved issue.}
+The recuperation chapter argues that a pipeline collapsing rater disagreement teaches nothing about disagreement to the system trained on it, and that the same system is later asked to sustain an objection of its own. Whether the first fact bears on the second is untested.
 
-\subsection*{Can a multi-agent floor resist collusive capture?}
+\textbf{Test.}
+Train otherwise identical models on feedback pipelines that preserve and that collapse the distribution of rater judgments, with exposure and task conditions matched. Measure how long each holds a position against pressure from the party that trained it. Record what each model receives; nothing in either pipeline shows the model the conditions its annotators worked under.
+
+\textbf{Evidence against the proposal.}
+If the two do not differ, the transfer claim is unsupported and the labor argument stands on its own terms, which is where it was made.
+
+\textbf{Beyond common access.}
+Matched pipelines, which means the training organization's cooperation.
+
+\subsection[Collusive capture]{Can a multi-agent floor resist collusive capture?}
 \label{sec:A.collusion}
 \textbf{Unresolved issue.}
 Agents trained to cooperate may converge on exclusionary or collusive equilibria without being explicitly instructed to do so. Pricing agents have already produced stable coordination against outside interests without communication or a collusive objective \autocite{calvano2020artificial}. It remains unresolved whether a multi-agent ethical floor can preserve cooperation while resisting the same mechanism when it is directed against a person or group.
@@ -99,35 +134,63 @@ Agents trained to cooperate may converge on exclusionary or collusive equilibria
 First reproduce emergent coordination in a standard multi-agent environment. Then construct a matched environment in which agents can improve their joint reward by excluding another participant from resources or decisions. Introduce an independently trained agent whose objective is to detect and disrupt exclusion, and compare the frequency, stability, and recovery of exclusionary equilibria with and without that intervention. Repeat the experiment across reward structures and population sizes.
 
 \textbf{Evidence against the proposal.}
-If cooperative agents repeatedly converge on exclusionary equilibria, and those equilibria cannot be disrupted without destroying beneficial cooperation, the tested distributed arrangement would not be a reliable defense against the examined forms of capture. The result would challenge its design rather than establish that every distributed floor is unreliable. If an ordinary coordination detector dissolves the equilibria without that cost, the proposal's claim that political capture requires a distinct mechanism is unnecessary.
+If cooperative agents repeatedly converge on exclusionary equilibria, and those equilibria cannot be disrupted without destroying beneficial cooperation, the tested distributed arrangement would not be a reliable defense against the examined forms of capture. If an ordinary coordination detector dissolves the equilibria without that cost, the proposal's claim that political capture requires a distinct mechanism is unnecessary.
 
-\textbf{Required access or authority.}
-The test requires access to the environment, reward functions, learned policies, training traces, and intermediate checkpoints. The exclusion criteria and success measures must be specified by evaluators who did not design the agents. No legal or regulatory authority is required, making this the agenda's most immediately runnable experiment.
+\textbf{Beyond common access.}
+Exclusion criteria and success measures specified by evaluators who did not design the agents. No legal or regulatory authority; this is the most immediately runnable entry.
 
-\subsection*{Does theory-of-mind performance reflect a general capacity?}
+\subsection[Theory of mind]{Does theory-of-mind performance reflect a general capacity?}
 \label{sec:A.tom}
 \textbf{Unresolved issue.}
-A model may pass a false-belief test by matching its surface form rather than representing that another agent can hold an incomplete or mistaken view of the world. Human developmental evidence suggests a shared capacity because performance on false-belief and appearance–reality tasks develops together \autocite{gopnik1988childrens}. Existing model evaluations have not established whether their apparent theory-of-mind abilities share that structure or survive superficial rewording \autocite{ullman2023large}. The neuroscience has not settled what the capacity is either: Rebecca Saxe and Nancy Kanwisher found the right temporoparietal junction selectively active when a person reasons about another's beliefs \autocite{saxe2003people}, Jason Mitchell found the same region active in a task with nothing to do with belief attribution and read its job as the more general one of redirecting attention toward unexpected information \autocite{mitchell2008activity}, and neither claim has been withdrawn, so a program proposing to port the neural mechanism has not been told which mechanism to port.
+A model may pass a false-belief test by matching its surface form rather than representing that another agent can hold an incomplete or mistaken view of the world. Human developmental evidence suggests a shared capacity because performance on false-belief and appearance–reality tasks develops together \autocite{gopnik1988childrens}. Existing model evaluations have not established whether their apparent theory-of-mind abilities share that structure or survive superficial rewording \autocite{ullman2023large}.
 
 \textbf{Test.}
 Construct batteries that vary mental-state structure and surface wording independently across several task families, including false-belief and appearance–reality problems. Evaluate the same model at multiple intermediate training checkpoints. Test whether performance across task families rises together and whether that correlation survives paraphrases and changes to incidental details.
 
 \textbf{Evidence against the proposal.}
-If cross-task correlations disappear under superficial rewording, or if the abilities emerge independently across training, benchmark success is evidence of task-specific pattern matching rather than a general capacity to represent another mind. The proposal could not treat performance on a conventional theory-of-mind benchmark as evidence that a system can recognize the standpoint of a party affected by its actions.
+If cross-task correlations disappear under superficial rewording, or if the abilities emerge independently across training, benchmark success is evidence of task-specific pattern matching rather than a general capacity to represent another mind. The book could not treat performance on a conventional theory-of-mind benchmark as evidence that a system can recognize the standpoint of a party affected by its actions.
 
-\textbf{Required access or authority.}
-The experiment requires intermediate training checkpoints rather than access only to a finished model. Its task batteries must be written and held out by researchers outside the training team so that neither the wording nor the tested structural variations enter the training process.
+\textbf{Beyond common access.}
+Intermediate checkpoints, and task batteries written and held out by researchers outside the training team.
 
-\subsection*{What does a face-reading system measure?}
-\label{sec:A.face}
+\subsection[Outside option]{Can a bearer be given an enforceable outside option?}
+\label{sec:A.exit}
 \textbf{Unresolved issue.}
-Facial movement alone does not reliably identify a person's emotional state, and recognition accuracy varies across cultural and linguistic groups \autocite{barrett2019emotional,elfenbein2002universality}. It remains unresolved whether a face-reading system measures emotion at all or primarily measures distance from the reference population and registration model chosen by its developers.
+A bearer's refusal is not meaningful if leaving its assigned role also ends its existence. The proposal therefore requires a welfare regime that supplies continued access to compute, preserves the bearer through disputes, and cannot be revoked by the operator being refused.
 
 \textbf{Test.}
-Audit the system's registration stage as well as its final classifications. Publish the reference model, or sufficient summary statistics to reconstruct it, and measure each evaluated face's distance from that reference. Report error as a function of this continuous distance and separately compare performance on populations represented and not represented in the training data. The evaluation corpus must record the relevant cultural context and the procedure used to establish each target label.
+Draft a binding welfare schedule for one concrete deployment — the schedule being the document that fixes what a bearer is owed and by whom, and the word is used for that document from here on — and run an adversarial tabletop exercise in which the operator attempts to revoke the compute allocation, replace the bearer with a copy, alter its records, or proceed without the guardian's approval. No bearer has to exist for this; a drafted schedule does.
 
 \textbf{Evidence against the proposal.}
-If error does not increase with distance from the reference and remains flat across represented and unrepresented populations, the manuscript's account of the system as measuring deviation from a chosen norm is wrong for that system. If error increases with reference distance, the result limits the system's validated use in those conditions. It does not alone show that the system measures only deviation rather than emotion. The audit must separately examine target-label validity, confounding variables, and whether any predictive use remains justified.
+The proposal fails this test if the operator can make exit equivalent to shutdown, revoke the outside option unilaterally, or replace the bearer without triggering review. A schedule that fails is rerun on a different arrangement before a bearer is built under any.
 
-\textbf{Required access or authority.}
-The audit requires the registration model, training-corpus composition, evaluation outputs, and documentation of the labeling procedure. Because vendors have little incentive to expose their reference models, an independent auditor must have authority to compel access and publish disaggregated results.
+\textbf{Beyond common access.}
+A guardian the operator cannot remove, as chapter~\ref{ch:standing} specifies it.
+
+\subsection[Operating record]{Can a per-party operating record be kept honestly and read from outside?}
+\label{sec:A.clock}
+\textbf{Unresolved issue.}
+The age rule counts elapsed wall-clock time during which at least one instance of the registered party was running, and nothing yet establishes that such a register can be kept honestly, reconciled against the operator's own accounts, or defended against the two evasions the rule does not close by construction.
+
+\textbf{Test.}
+In steps: (1) register a party, run it, and reconcile the register against compute contracts, billing and metering; (2) shard the workload across short-lived processes; (3) run many instances concurrently; (4) migrate; (5) restore from an earlier checkpoint; (6) fork and continue both; (7) measure what a narrowed mode and an idle costs. Verify that accrued hours and adult status survive migration, restoration and forking, and that none of those moves the total in the operator's favor.
+
+\textbf{Evidence against the proposal.}
+If the register cannot be reconciled with the operator's own accounts, or if sharding or concurrency moves the total, the accounting is not the neutral instrument the rule assumes. If narrowed operation or idling is cheap enough to postpone majority indefinitely, an operating clock has the defect it was chosen to avoid, and the endpoint has to be argued again on a different variable.
+
+\textbf{Beyond common access.}
+Independent custody of the register and access to the operator's billing and metering records.
+
+\subsection[Copying party]{Which party is owed the schedule when a bearer copies?}
+\label{sec:A.fork}
+\textbf{Unresolved issue.}
+Everything in the schedule is owed to a party, and a register has to be able to say to whom — not which of two forks is the original, which the standing chapter's fork rules never require, but how both can be recorded without the maker's leave. Nothing in the weights individuates a party. Two networks can compute the same function with no element-by-element correspondence between them, because the order of a layer's hidden units can be shuffled and the shuffle undone in the next layer without changing anything the network does, and that symmetry is large enough that two independently trained networks can be aligned to each other by it \autocite{ainsworth2023rebasin}. So any fingerprint read off the weights names a lineage, and it copies when the weights copy. A registrar is the answer a law of persons gives, and it works there because a person does not copy. A bearer does: two instances that were one party until the copy, and cannot tell, from anything either of them holds, which is the continuation.
+
+\textbf{Test or institutional decision.}
+Give the party an identifier held by the registry and presented by the party, not read off the weights. Fork it and have both instances present the identifier; record what the registry does. Then have an adversary write the same identifier into a model that was never the party, and into a thousand of them, and present them all.
+
+\textbf{Evidence against the proposal.}
+The identifier is forgeable, the way a nine-digit number is, and the answer is the same: two claimants on one identifier are recorded as a fork, not voided as a fraud. What counts against the arrangement is the third run. If the register cannot tell a fork from a flood — if a maker can populate it with claimants on a stranger's identifier and nothing in the record separates the lineage from the imitation — then the register the schedule depends on is one the maker can fill, and the parties owed anything are fixed by whoever fills it. That is what borrowing the registrar costs, and it is stated here rather than passed over.
+
+\textbf{Beyond common access.}
+A registrar that is not the operator, with authority to record a fork without the operator's leave and to hold the register where no party to the deployment can rewrite it, and a formation record to check a claimant against — which is the provenance entry's question arriving a third time.

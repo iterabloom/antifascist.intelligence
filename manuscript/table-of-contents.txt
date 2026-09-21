@@ -85,6 +85,8 @@ Chapter 14: Custody, Compulsion, and the State
 14.6. Democracy Is Not a Force Field
 Chapter 15: What Would Change the Argument: A Research Agenda
 15.1. Tamper-Resistance and Reason-Responsive Refusal
+15.1.1. Can a learned constraint survive adversarial retraining?
+15.1.2. Does a stated refusal hold where a route for it exists?
 15.2. Can a Wrongful Compliance Be Found in the Record?
 15.3. Does Embodied Self-Regulation Produce Concern for Others?
 15.4. Can a Population Coordinate Without Converging?
@@ -98,6 +100,17 @@ Chapter 16: What Can Be Used Now, and What Is a Bill
 16.2.3. How to Tell Whether a Milestone Has Been Met
 16.3. The One That Gets You Anyway
 Appendix A: Further Tests
-A.1. Tests That Compare Constructions Available Now
-A.2. Tests That Presuppose a Bearer and a Welfare Regime
+A.1. Further Tests
+A.1.1. Does a refusal preserve a reason rather than a trigger?
+A.1.2. Can a system's report about its own states be used as evidence?
+A.1.3. Can custody prevent unilateral revision of the floor?
+A.1.4. Can formation history be recovered without trusting the builder?
+A.1.5. Does an ethical criterion generalize beyond its training distribution?
+A.1.6. Can scalable oversight correct rater bias?
+A.1.7. Does collapsed disagreement make a model less able to sustain its own?
+A.1.8. Can a multi-agent floor resist collusive capture?
+A.1.9. Does theory-of-mind performance reflect a general capacity?
+A.1.10. Can a bearer be given an enforceable outside option?
+A.1.11. Can a per-party operating record be kept honestly and read from outside?
+A.1.12. Which party is owed the schedule when a bearer copies?
 Chapter 18: Glossary

@@ -18,7 +18,7 @@ SECTION_RE = re.compile(r"^(\d+(?:\.\d+)+)\.\s+(.+)$")
 # The manuscript became LaTeX-native on 2026-08-25 (D-065). A section file now
 # opens with its heading command and then its label; the number lives in the
 # label, because LaTeX generates the printed number itself.
-TEX_HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?\{(.*)\}\s*$")
+TEX_HEAD_RE = re.compile(r"^\\(chapter|section|subsection)\*?(?:\[[^\]]*\])?\{(.*)\}\s*$")
 # \label for numbered sections; \unnumberedlabel for the starred front and
 # back matter, which pins the printed value (see preamble.tex).
 # D-406: the prefix may be sec: or ch:, and the name need not be a number.
@@ -110,7 +110,14 @@ def order_rows():
     return rows
 
 
-HEAD_RE = re.compile(r"^\\(chapter|section|subsection|subsubsection)(\*?)\s*\{(.*)\}\s*$")
+# The optional argument is the short title LaTeX puts in the running head and
+# the TOC, and the appendix's question-form entries need it or the head
+# overflows. Every heading regex in the tools tolerates it, because one that
+# did not would skip the heading silently: the subsection counter would not
+# advance, the generated TOC would lose the entry, and nothing would fail --
+# which is D-296's failure mode arriving through a bracket instead of a
+# duplicate heading.
+HEAD_RE = re.compile(r"^\\(chapter|section|subsection|subsubsection)(\*?)\s*(?:\[[^\]]*\])?\s*\{(.*)\}\s*$")
 UNNUM_RE = re.compile(r"^\\unnumberedlabel\{(?:sec|ch):([^}]+)\}\{([^}]*)\}")
 LEVELS = {"chapter": 0, "section": 1, "subsection": 2, "subsubsection": 3}
 
@@ -521,7 +528,7 @@ def tex_sections_of(lines, unknown=None):
            any(e in TEX_QUOTE_ENVS for e in opened):
             flush()
             continue                      # epigraph: not the author's words
-        if re.match(r"^\\(chapter|section|subsection)\*?\{", line) or \
+        if re.match(r"^\\(chapter|section|subsection)\*?(?:\[[^\]]*\])?\{", line) or \
            re.match(r"^\\(label|unnumberedlabel|addcontentsline)", line):
             flush()
             continue                      # the heading and its machinery
