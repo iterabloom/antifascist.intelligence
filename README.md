@@ -33,7 +33,7 @@ and the cheaper routes are owed their attempt first.
 
 | Folder | Contents |
 |---|---|
-| `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the book one file per section, in LaTeX; `book.tex` is the master file and `preamble.tex` the typesetting |
+| `manuscript/` | The book text and table of contents; earlier drafts in `previous/`. `sections/` holds the book one file per section, in LaTeX; `book.tex` is the master file and `preamble.tex` the typesetting. `condensed-reworking.txt` is a condensed reworking of the whole book as one flat file, shorter and organized to the book's overall plan |
 | `persona-device-files_2026-09-05.zip` | The persona-device record as one binary archive: the Apr 2023 founding prompt and seed report; the cast of ~100 simulated expert co-authors, their grouping by field and per-section author assignments; the notebooks that generated the text section by section and the full generation transcript; the persona-by-persona feedback and the "editorial triad" restructuring reviews; a Dec 2022 theory-of-mind transcript; and the map from every file's original path to its last-modified timestamp. Kept as an archive so the record stays complete and downloadable while no rendered page carries a real person's name beside generated text |
 | `generation/` | The API smoke test and loose prompt fragments; the generation notebooks and transcript are in the archive |
 | `summaries/` | Per-section summaries and the "triangle of summaries" experiment |
