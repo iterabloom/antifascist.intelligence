@@ -28,6 +28,7 @@ these files are the input, not the verdict.
 | `author-discussion_2026-09-07.txt` | The device a fifth time and much the shortest, at 374 lines: one critical review of the whole book and four author turns against it, from a language model shown the manuscript at its 188-page state, 2026-09-07. Not a review in the numbered series — see below | P121 to P123 — `p121-scope.md`, `p122-scope.md`, `p123-scope.md`, D-221 to D-223 |
 | `author-discussion_2026-09-09.txt` | The device a sixth time, at 600 lines: one review of the whole manuscript and fourteen author turns arguing with it, from a language model shown a pre-P158 manuscript, 2026-09-09. Not a review in the numbered series — see below | P158 — `p158-scope.md`, D-258 |
 | `author-discussion_2026-09-12.md` | The device a seventh time, at 2,140 lines: one review of the whole manuscript and twenty-five author turns that leave it, from a language model shown `07ccef5`, 2026-09-12. Not a review in the numbered series, and mostly not about the book — see below | P192 — `p192-scope.md` |
+| `author-discussion_2026-09-24.txt` | The device an eighth time and the shortest, at 148 lines: four author turns on one section of the condensed reworking (chapter 16, *The machines won't build them for us*) and a language model's answers, 2026-09-24. Not a review — see below | D-533 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own
@@ -70,7 +71,7 @@ and `p9-scope.md` answers "the fourth." No pass is recorded as answering a third
 Whether a third review was folded into P8, or the count simply skipped, is not
 determinable from the record. It is written down here rather than smoothed over.
 
-**Seven files here are not reviews.** `author-discussion_2026-08-28.txt` is a
+**Eight files here are not reviews.** `author-discussion_2026-08-28.txt` is a
 transcript of the author thinking aloud with a language model that had been given
 the finished PDF and nothing else — no `finishing/`, no decision log. The prompts
 are the author's; the completions are the model's. It is kept for the same reason
@@ -179,5 +180,7 @@ section references, to a §6.4, points at no section in this draft or any adjace
 one. Its other factual claims are a model's until a source is opened. The real
 people it names are named as scholars, which is ordinary citation under
 `AGENTS.md`.
+
+`author-discussion_2026-09-24.txt` is the device an eighth time and the shortest: four author prompts and four completions, kept whole and verbatim, blank lines included, about one section of `manuscript/condensed-reworking.txt`. It differs from the seven before it in two ways. **The model was working on the condensed reworking, not reviewing a proof**: it calls the section's opening paragraph *my draft*, and that paragraph had reached the file verbatim in the author's batch applied at D-531, so the file is also evidence of where that batch's text came from. And **the author argues with the draft rather than the book**, proposing a replacement that the model concedes, then pressing it on *can't or won't*, which it also concedes. Its section numbers mix the old and new numbering (it gives §7.2 for what is now §19.2), and its list of where the exit phrasing occurs names five of the eight places. What was taken is in D-533: its three-way split on who can organize, the four conditions restated as what a decent polity gives people, and the consequences for chapter 16, the glossary and the preface. Its factual claims are a model's until a source is opened; the one it makes without a source, that AI agents can already do much of organizing's legwork, was not taken. The one real person it names is named as a theorist the book already cites, which is ordinary citation under `AGENTS.md`.
 
 `revision-plan-for-p20_2026-08-25.md` is a plan distilled from a review and the discussion following it, and it arrived with the author's ruling that it overrides conflicting decisions (D-061). Its section numbers are post-D-043 and need no translation. Three of its items were struck by the author against its own text; `p20-scope.md` records which and why.
