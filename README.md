@@ -1,7 +1,7 @@
 ![book cover](cover_cropped.png)
 
 # Antifascist Intelligence  
-## Building Machines That Can Refuse  
+## Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs  
 
 **Read the book:** [PDF](finishing/reports/whole-book-proof_2026-09-23.pdf) · [HTML](finishing/reports/whole-book-proof_2026-09-23.html) — 202 pages, built 2026-09-23 from the sources in this repository.
 

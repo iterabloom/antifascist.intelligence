@@ -674,7 +674,7 @@ def render_tex(root, rows, stem, drop_notes, provenance):
     master = open(os.path.join(root, "manuscript", "book.tex"),
                   encoding="utf-8").read()
     head = [
-        "%% Antifascist Intelligence: Building Machines That Can Refuse",
+        "%% Antifascist Intelligence: Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs",
         "%% Joshua G. Stern",
         "%%",
         "%%%% THE WHOLE BOOK AS ONE FILE. %s" % provenance,
@@ -786,7 +786,7 @@ def main():
 
         body = squeeze(body)
         front = [
-            "# Antifascist Intelligence: Building Machines That Can Refuse",
+            "# Antifascist Intelligence: Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs",
             "",
             "Joshua G. Stern",
             "",
