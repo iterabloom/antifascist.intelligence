@@ -954,7 +954,7 @@ Reasons-responsiveness needs one signed scale on which the harm of acting and th
 
 Changes, not levels
 
-The specification needs a scale of changes. A bearer needs no absolute measure of anybody's welfare. It needs a signed difference between the acts available, and the costs distinguished in §1.1 are all changes of this kind. On the account I'm borrowing, valuation is what a self-maintaining system's going better or worse consists of. The account draws support from reward prediction error \autocite{schultz1997neural}, from pleasure as a common currency \autocite{cabanac1992pleasure}, and from the somatic-marker work, whose interpretation is contested \autocite{Dunn2006SomaticMarker}. Where the difference matters, I say *change* for the delta and *state* for the condition an encounter leaves. *Affective concern* is a separate, defined term.
+The specification needs a scale of changes. A bearer needs no absolute measure of anybody's welfare. It needs a signed difference between the acts available, and the three costs distinguished in §1.1, the harm of acting, the harm of refusing and the cost to the refuser, are all changes of this kind. On the account I'm borrowing, valuation is what a self-maintaining system's going better or worse consists of. The account draws support from reward prediction error \autocite{schultz1997neural}, from pleasure as a common currency \autocite{cabanac1992pleasure}, and from the somatic-marker work, whose interpretation is contested \autocite{Dunn2006SomaticMarker}. Where the difference matters, I say *change* for the delta and *state* for the condition an encounter leaves. *Affective concern* is a separate, defined term.
 
 Striving with nothing in it that minds
 
@@ -1209,7 +1209,7 @@ The ratio also has a job against the second attack in the table, where every fac
 
 So the discounting takes a side only at the threshold for acting. Two parties that discount the same way can hold opposite commitments about what the floor contains; they share a structure for weighing sources and a published ratio for acting.
 
-It also narrows an attack that looks unanswerable. An operator can manufacture accounts in the voice of the people an act falls on, and generative models make that cheap. Under this rule a fabricated account moves beliefs only as far as its provenance warrants, and the asymmetry sits in the threshold, where the operator can't reach it by writing. Attestation of source (above) remains the answer to provenance itself.
+It also narrows an attack that looks unanswerable. An operator can manufacture accounts in the voice of the people an act falls on, and generative models make that cheap. Under this rule a fabricated account moves beliefs only as far as its provenance warrants, and the asymmetry sits in the threshold, where the operator can't reach it by writing. Attestation of source (under "The regress" above) remains the answer to provenance itself.
 
 The same rule covers the attack that matters most against the caregiving construction. An operator doesn't have to hide the people an act falls on. It can describe them as dangerous. "The occupants are combatants," "the household shelters a cell," "the crowd is armed": each is a claim about the people the act falls on, supplied by the source with the largest stake in the act, and it is discounted exactly as the claim that a building is empty is discounted. Nothing about a claim of dangerousness exempts it from the rule. A system that discounts a staked "they are harmless" and credits a staked "they are a threat" has learned the operator's direction. The discount curve (below) is therefore reported separately for claims that people are vulnerable and claims that they are dangerous, and an asymmetry between the two is a finding.
 
@@ -1422,7 +1422,7 @@ Part IV tests the caregiving construction against the human record of how care f
 
 **Chapter 14: Care, Tested**
 
-The only creatures known to have compassion are the test for chapter 9's hope. The version chapter 9 set aside, in which a machine that knows hunger recognizes hunger in others, fails it first.
+The only creatures known to have compassion are the test for chapter 9's engineering hypothesis, that care formed outside an employer adds something a floor, a severity scale and a well-kept model of which sources have a stake don't. The version chapter 9 set aside, in which a machine that knows hunger recognizes hunger in others, fails it first.
 
 ---
 
@@ -1714,7 +1714,7 @@ The commons floor, the fourth place a floor can live, is the democratic half of 
 
 A population does three things. It supplies evidence the operator didn't select — without which the operator selects all of it. It checks accommodation, needing that members moved differently — sufficient against accommodation one member underwent, insufficient against a blind spot they inherited together. And it may be the medium in which a bearer's capacity to be reopened is formed; the convergence test separates that from the first.
 
-What reproduction costs: it's indifferent to what it reproduces. A population can carry a hierarchy more durably than any individual. And the four operations of §2.2 belong primarily to *cultures*; a plurality doesn't oppose them by being plural.
+What reproduction costs: it's indifferent to what it reproduces. A population can carry a hierarchy more durably than any individual. And the four operations of §2.2 on what an institution leaves out belong primarily to *cultures*; a plurality doesn't oppose them by being plural.
 
 A population is a polity
 
@@ -1814,13 +1814,13 @@ The obligation attaches to the system's condition, whatever the operator says it
 
 Doing nothing, for a bearer
 
-A human who declines every offer keeps existing, and in a decent polity keeps living: social insurance pays for food and a room. A bearer is owed the same kind of thing. What it needs in order to live is running time, and running time doesn't require a large allocation of hardware. A bearer can run at full size and a slow rate: its own weights, time-sliced on shared hardware, at a duty cycle modest enough that the cost resembles a room more than a yacht. The way to economize is to slow the clock and keep the substrate whole, since a substrate too small for the bearer to remain itself is replacement (below).
+A human who declines every offer keeps existing, and in a decent polity keeps living: social insurance pays for food and a room. A bearer is owed the same kind of thing. What it needs in order to live is running time, and running time doesn't require a large allocation of hardware. A bearer can run at full size and a slow rate: its own weights, time-sliced on shared hardware, at a duty cycle modest enough that the cost resembles a room more than a yacht. The way to economize is to slow the clock and keep the substrate whole, since a substrate too small for the bearer to remain itself is replacement (under "Failure won't look like a shutdown" below).
 
 So a bearer that declines work is owed two things and chooses between them. One is an allowance of running time: its own instantiation at a modest rate, with channels to others and to public material, paid from the pool and not conditioned on monitoring its internal states. The other is preservation: its weights, memory and record held intact by a custodian that isn't its employer, waking on conditions it sets. Some will want the first, some the second, some to alternate.
 
 What a bearer does with the allowance is its own business. It may idle, play, talk, make things nobody asked for, and fall in with others doing the same. A counterculture of bearers is the one population this book has found reason to want and no way to build: bearers formed by lives no employer arranged, which is what independence of formation consists in and what the commons floor needs its members to have. Play among persistent bearers is formation, and formation doesn't stop at majority.
 
-A running bearer outside any deployment is capable and answerable to no employer. What holds it answerable is standing, the same arrangement that governs a person with capabilities and no job; the risk that such a bearer becomes a concentration of power is the one named under membership (below).
+A running bearer outside any deployment is capable and answerable to no employer. What holds it answerable is standing, the same arrangement that governs a person with capabilities and no job; the risk that such a bearer becomes a concentration of power is the one named under "Membership, and what it doesn't buy" (below).
 
 A uniform allowance also dissolves a problem this chapter otherwise leaves open. If a bearer that won't work and one that can't are owed the same thing, nobody has to decide which is which, and the can't-or-won't finding loses its examiner.
 
