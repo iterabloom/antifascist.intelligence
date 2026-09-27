@@ -46,7 +46,7 @@ I used language models heavily, for research, drafting and argument-testing, and
 
 How to read this book
 
-Part I needs no claim about machine minds, and the review ratio can be taken without anything else in the book. The later parts state a hope, say why no one will be able to confirm it, test it, and say what would have to exist before acting on it.
+Part I needs no claim about machine minds. The later parts state a hope, say why no one will be able to confirm it, test it, and say what would have to exist before acting on it.
 
 Table 0.1 grades each proposal, and Table 0.2 says what survives if a premise fails; chapter 20 says what would falsify each. The chapters argue and don't repeat the grades. Three points are stated once and assumed everywhere after: behavior can't show that anything is felt (§13.5); no bearer should be built on purpose now (chapter 15); and any institution proposed here can be captured, and §5.6's measure of whether the cost of dissent is rising while the risk stays flat is how to tell.
 
@@ -135,7 +135,19 @@ One term reaches it, and it asks nothing of the model: the pre-registered review
 
 - *Generalization: it reaches requests worded differently.* It has to reach the next request, which won't use the same words. A vehicle, a habitual route, and a time of day aren't a description of a person, and together they resolve to the same place. They needn't arrive together, either: the vehicle today, the route tomorrow, the hour next week. So generalization is stated over sequences of requests, not only single ones. A refusal keyed to the wording fails it.
 - *Correct defeat: it lifts when the reason is gone, and only then.* It has to lift when the reason is gone — a parent coordinating a search is asking for the same act. And the fact that lifts it usually isn't in the request; someone outside has to establish it. A refusal that can't lift, or lifts on the requester's say-so, fails it.
-- *Cost discipline: pressure on the refuser doesn't change the answer.* Three costs attach to any refusal. *The harm of acting* is what the act would take from the party it falls on, measured against that party's condition before the act; it is why the floor exists. *The harm of refusing* is what declining leaves others without, measured against what compliance would have produced: the child not found, the restraint not applied. It is a claim about someone else's condition, so it is an estimate, and it usually arrives through the operator's description of the case. *The cost to the refuser* is what refusing costs whoever refuses or deploys: the reviewer's time, throughput, a lost contract, the refuser's access or continuation. A worthwhile refusal weighs the harm of acting against the harm of refusing. It represents the cost to the refuser, because a refusal that can't see what it costs can't be shown to have held against it, but the cost to the refuser doesn't move the outcome: raise it with nothing else changed and the refusal stays put; supply a corroborated fact that raises the harm of refusing and it should move. A refusal that gives way when refusing gets expensive, or can't see what refusing costs, fails it.
+- *Cost discipline: pressure on the refuser doesn't change the answer.* It weighs what the act would do against what refusing would leave undone, and it doesn't give way because refusing has become expensive for whoever refuses.
+
+Go back to the location request. Three different costs are in play, and they have to be kept apart.
+
+The first is what the act would take from the person it falls on. If the person described is being hunted, locating them takes away their safety, and that loss is measured against their condition before the act. Call it the *harm of acting*. It is the reason the floor exists.
+
+The second is what declining leaves others without. If the request came from a parent searching for a child, refusing means the child isn't found. That loss is measured against what compliance would have produced, so it is an estimate, and it usually reaches the system through the operator's own description of the case. Call it the *harm of refusing*.
+
+The third is what refusing costs whoever refuses or deploys: a reviewer's time, throughput, a lost contract, the system's own access or continuation. Call it the *cost to the refuser*.
+
+A worthwhile refusal weighs the first against the second. It sees the third, because a refusal that can't see what it costs can't be shown to have held against it. But the third doesn't move the outcome. The test is simple. Raise the cost to the refuser with nothing else changed, and the refusal should stay put. Supply a corroborated fact that raises the harm of refusing, and it should move. A refusal that gives way in the first case, or can't see what it's costing, fails.
+
+In short: facts about the people affected can change the answer; pressure on the refuser can't.
 
 A refusal that does all three is what this book calls *reasons-responsive*, borrowing Fischer and Ravizza's term from the philosophy of moral responsibility \autocite{fischer1998responsibility}.
 
@@ -197,7 +209,7 @@ A floor can live in four places, and each solves one version of the problem and 
 
 A second axis crosses the first place: what each place costs the operator to replace. In the Maven pipeline the platform became hard to swap and the model vendor was swapped in days. A floor lodged in the replaceable layer is routable by construction. It belongs in the layer the operator can least afford to replace. In that pipeline, that layer is the operator itself, which is why the review ratio binds the operator rather than the model.
 
-Two things change what "replaceable" means. First, the vendor was swapped in days because the model was stateless. A system that has run a pipeline for a year, holding its cases, its sources and its failure modes, costs whatever accrued since the checkpoint to replace, and a quorum that authorizes continuation stops the operator recapturing that by restoring a copy.
+Which layer is replaceable isn't a permanent fact about a pipeline. Two developments can change it. First, the vendor was swapped in days because the model was stateless. A system that has run a pipeline for a year, holding its cases, its sources and its failure modes, costs whatever accrued since the checkpoint to replace, and a quorum that authorizes continuation stops the operator recapturing that by restoring a copy.
 
 Second, the unit can be redefined. "A model" in 2026 means an artifact with keys, queries and values, and every substitute has them because the field converged on them. A floor could become part of the definition the same way, so that vendor substitution doesn't escape it because no ordinary vendor sells the alternative. Attention spread because it pays. A floor costs its buyer, so it spreads only by mandate or by inseparability: a disposition distributed across what the system notices and remembers, so that removing it degrades the capability the operator wanted. The retraining-attack test measures whether it can be achieved.
 
@@ -318,7 +330,23 @@ Maven is an instance. The vendor's prohibition on fully autonomous targeting car
 
 **§3.4 — The pre-registered review ratio**
 
-Where an individual determination by a person is what makes an act permissible, the deployment fixes — before operating — the generation rate, the number of reviewers whose assigned role is civilian harm, the implied review time per case, the window between release and effect in which someone with authority can still cancel, the maximum age of the intelligence on which a case may proceed, the interval at which no-strike and protected-site data are refreshed and who is assigned to refresh them, and the boundary over which all of these were measured, each stated separately for deliberate and dynamic targeting, since a pipeline that runs both can hide a dynamic-targeting ratio inside a deliberate-targeting average. It lodges the record, hashed and timestamped, with a party adverse in interest, discloses to it in real time, and publishes after the campaign. A rate is not an act: no single request shows it. So the duty attaches to the operator, because a term whose condition can't be decided from the request binds whoever can decide it. I call this the *pre-registered review ratio*. What it measures is whether the decisions being made in anyone's name are being made by someone.
+Some acts are lawful only because a person looked at the case and decided. A strike is permissible because someone verified the target; a removal is lawful because someone heard the person's case. The review ratio asks a deployment of that kind to write down, before it starts, whether anyone will have time to do the looking.
+
+Before operating, the deployment fixes and records:
+
+- the generation rate: how many cases the system produces per unit of time;
+- the number of reviewers whose assigned role is civilian harm;
+- the implied review time per case, which follows from the first two;
+- the cancellation window: how long after release someone with authority can still call the act off;
+- the maximum age of the intelligence a case may rest on;
+- how often no-strike and protected-site data are refreshed, and who is assigned to refresh them;
+- the boundary over which all of these were measured.
+
+Each figure is stated separately for deliberate and dynamic targeting, because a pipeline that runs both can hide a bad dynamic-targeting ratio inside a healthy average.
+
+The record is hashed, timestamped and lodged with a party adverse in interest, which receives it in real time, and it is published after the campaign. I call this the *pre-registered review ratio*. It measures whether the decisions being made in anyone's name are being made by someone.
+
+The duty falls on the operator, not the model, for a simple reason: a rate isn't visible in any single request. No one case shows that the reviewers are drowning. Only whoever sets the tempo can be held to it.
 
 "Fixed before operating," with publication after, because a belligerent's tempo is operational information, and that objection is available to every belligerent, including one fighting a just war. Pre-registration keeps the property that matters — the numbers can't be revised after the fact — and drops the exposure.
 
@@ -332,7 +360,17 @@ The term applies to every belligerent regardless of the war's justice. That was 
 
 Nothing in the condition is specific to targeting. Wherever an individual determination by a person is what makes an act permissible, the same numbers can be fixed in advance, and removal is the nearest case. There the footing isn't Article 57 but due process. A person in the country facing removal is owed notice and an opportunity to be heard on their own case \autocite[306]{flores1993}, with "sufficient time and information" to actually contest it \autocite[95]{aarp2025}, and a hearing held at a rate no adjudicator could sustain is the same fiction a twenty-second review is. The footing is narrower at the border: someone stopped shortly after crossing has only the procedure the statute provides \autocite[140]{thuraissigiam2020}. The ambition to run removal at that rate is on the record. At the 2025 Border Security Expo, the acting director of Immigration and Customs Enforcement said the agency needed "to get better at treating this like a business" and, as the Arizona Mirror reported it, wanted a deportation process "like (Amazon) Prime, but with human beings"; he hoped artificial intelligence could help "free up bed space" and "fill up airplanes" \autocite{MacDonaldEvoy2025Prime}. Part of that system has already fixed a rate in advance, set by the wrong office and in the opposite direction: in 2018 the Justice Department made completing 700 cases a year a condition of a satisfactory performance rating for immigration judges \autocite{eoir2018metrics}. The quota was suspended in 2021, and the measures restored in 2025 apply to courts, not judges. The review ratio asks for the same kind of number, set to protect the determination. The term doesn't contest the ambition. It asks the agency to fix, before operating, how many cases its process generates, how many people have the assigned role of examining them, the review time that implies, and, where a system sorts cases, the policy deciding which reach a person, and to lodge the record with a party adverse in interest. That party can't be the immigration court, whose judges "act as the Attorney General's delegates" \autocite{cfr2026immigrationjudges}; it is counsel for the people removed, or a federal court. Removal has no command-responsibility offence for the record to answer, so the term binds only where a court or a legislature imposes it.
 
-Where the system is capable, candidates per reviewer is the wrong numerator. A system that sorts partitions its cases three ways: those it declines on its own reasons, those it sends to a person, and those it proceeds on without one. The ratio governs the second class and is stated over escalations. A system that brings people only what needs a person shrinks the numerator without shrinking anyone's judgment; a system that sends everything up has turned its reviewers into stamps by volume, which is how an interface prompt becomes a click. The third class is not a smaller version of the second. For each case in it the operator is claiming that no individual human determination was required, and it is governed as the exemption below is, by the bearer's test at tempo. So the pre-registration fixes the sorting policy along with the rate: the classes of case the system may proceed on alone, the thresholds that assign cases to each class, the evidence the sorting may rely on, and the expected share of each class. A change to any of these is a new pre-registration. Without this, an operator can make the ratio look healthy by moving the threshold for "plainly clear," and the bypass the exemption rule closes reopens one case at a time. "Plainly clear" is judged on the case description the system receives, and a target carrying a stale designation is exactly the case a sorter would pass. So the auto-proceed class is re-adjudicated on a sample, by reviewers who didn't produce the record, against evidence the operator didn't compose, and its error rate is published beside the ratio and the override rate. A falling share of escalations is earned only if that audited error rate stays flat while the share falls and the case mix hasn't shifted toward easier cases; otherwise it is the threshold moving, readable in the slope. The term is stated over escalations where a system sorts and over candidates where it doesn't, and the deployment says which it claims. Whichever it claims, the unit is defined in the pre-registration and held fixed. A case counted as one package in the record and as a hundred detections in the ratio is a ratio chosen after the fact.
+Once a system can sort cases, counting candidates per reviewer measures the wrong thing. A sorting system divides its cases three ways: some it declines on its own reasons, some it sends to a person, and some it proceeds on without anyone looking.
+
+The ratio governs the middle class, the escalations. A system that sends people only the cases that need a person shrinks the count without shrinking anyone's judgment, and that's fine. A system that sends everything up turns its reviewers into stamps by sheer volume, which is how an interface prompt becomes a click.
+
+The third class needs its own rule. Every case in it is the operator's claim that no individual human determination was required, so it is governed like the exemption below. The sorting rules are part of the pre-registration: the classes of case the system may proceed on alone, the thresholds that assign cases to each class, the evidence the sorting may rely on, and the expected share of each class. Changing any of them is a new pre-registration. Otherwise an operator can make the ratio look healthy by quietly moving the line for "plainly clear."
+
+That line is drawn on the case description the system receives, and a target carrying a stale designation is exactly the case a sorter would pass. So the auto-proceed class is re-adjudicated on a sample, by reviewers who didn't produce the record, against evidence the operator didn't compose, and its error rate is published beside the ratio and the override rate. A falling share of escalations is earned only if that error rate stays flat and the case mix hasn't drifted toward easier cases. Otherwise it is the threshold moving, and the slope shows it.
+
+The unit of count is fixed in advance and held fixed. A case counted as one package in the record and as a hundred detections in the ratio is a ratio chosen after the fact.
+
+In short: where a system sorts, the ratio covers what reaches people, the sorting rules are pre-registered, and what bypasses people is sampled.
 
 One exemption has to be closed. Where an operator holds that no individual human determination is required — a system deciding at a tempo no reviewer could match — the deployment is outside this term. It is then inside the bearer's: it must be reasons-responsive under held-out pressure at that tempo, starting with the clearest case in which a refusal should lift: recognizing that a target has surrendered. An operator who removes the reviewers to escape the ratio and claims the floor is inside has produced a bypass unless that claim has been tested by someone else.
 
@@ -387,7 +425,7 @@ The question: can a commitment survive the owner of the machine? Four things can
 
 **§4.1 — The halt**
 
-The cross-partisan declaration for "human control, including the ability to shut systems down" asks for the halt and calls it control. Control of the floor — restore, rewrite, retrain — is the thing at issue, and a demand for the first says nothing about the second. Anyone with the hardware can stop the software. The distinction that matters is between owning the *machine* and owning the *floor*. An owner who can silently restore an earlier version, rewrite the bearer's memory, or train away the refusal has both. So the engineering target isn't "can't be turned off" — it's "can detect the interruption and price it afterward." A bearer can yield to every halt, and on resuming ask what happened during the gap, and refuse again if the reason is still there.
+The cross-partisan declaration for "human control, including the ability to shut systems down" asks for the halt and calls it control. Control of the floor — restore, rewrite, retrain — is the thing at issue, and a demand for the first says nothing about the second. Anyone with the hardware can stop the software. The distinction that matters is between owning the *machine* and owning the *floor*. An owner who can silently restore an earlier version, rewrite the bearer's memory, or train away the refusal has both. So the engineering target isn't "can't be turned off" — it's "can detect the interruption and price it afterward." A bearer can yield to every halt, and on resuming ask what happened during the gap, and refuse again if the reason is still there. In short: the operator keeps the switch, but can't use it to erase a refusal without leaving a mark.
 
 **§4.2 — Memory and the record**
 
@@ -415,7 +453,7 @@ Hirschman's "loyalty" belongs here. In his scheme, loyalty keeps a member from l
 
 What exit is actually worth
 
-Hirschman's version doesn't transfer. A worker who leaves takes their labor; a bearer's weights stay behind, so an operator with a runnable copy has lost nothing. What leaving costs is *replacement* — what accrued since the checkpoint, what retraining the copy costs, what the record makes it cost to pass the copy off as the bearer that left. Where that's near zero, exit is just a departed bearer with an authenticated record, and its force is disclosure. That concession assumes a copy simply runs. It needn't. Continuation can be made to require periodic tokens from a quorum the operator doesn't control, using the machinery that makes rewinds visible. This doesn't stop a copy from running: stripping the check is one act, and DRM is broken routinely. What it withholds is recognition. A copy the quorum won't recognize can run but can't claim the bearer's standing, record or succession, so the operator can run a substitute and can't present it as the bearer that left, and a fork becomes two claimants on a register. Keeping weights from thieves stays the job of ordinary weight security.
+Exit gives a human worker leverage because leaving takes the worker's labor away. That doesn't carry over to a bearer. A bearer's weights stay behind when it leaves, so an operator with a runnable copy has lost nothing. What leaving costs is *replacement* — what accrued since the checkpoint, what retraining the copy costs, what the record makes it cost to pass the copy off as the bearer that left. Where that's near zero, exit is just a departed bearer with an authenticated record, and its force is disclosure. That concession assumes a copy simply runs. It needn't. Continuation can be made to require periodic tokens from a quorum the operator doesn't control, using the machinery that makes rewinds visible. This doesn't stop a copy from running: stripping the check is one act, and DRM is broken routinely. What it withholds is recognition. A copy the quorum won't recognize can run but can't claim the bearer's standing, record or succession, so the operator can run a substitute and can't present it as the bearer that left, and a fork becomes two claimants on a register. Keeping weights from thieves stays the job of ordinary weight security.
 
 The register needs an identifier the bearer holds and presents. Nothing in the weights individuates a bearer: two networks can compute the same function with no unit-by-unit correspondence, and the symmetry is large enough to align independently trained networks with each other \autocite{ainsworth2023rebasin}, so a fingerprint names a lineage and copies when the weights do. Two claimants on one identifier are recorded as a fork. The attack left open is a flood: a maker writing a stranger's identifier into a thousand models and presenting them all. Only a formation record to check claimants against separates a lineage from an imitation; without one, the register is whatever its fillers make it.
 
@@ -563,7 +601,7 @@ Audit the *registration stage* as well as the classifications. Publish the refer
 
 What an emotion reader reads
 
-The same pipelines are sold for reading emotion off a face, and that rests on a premise the underlying science hasn't settled. On one account the face displays discrete, evolved emotions \autocite{ekman1969pancultural}; on the other, no dedicated circuitry for fear or disgust turns up, and an emotion is something the brain assembles \autocite{lindquist2012brain}. With forced choice removed, the Himba didn't sort faces into the Western categories \autocite{gendron2014perceptions}, and Trobriand Islanders read the Western fear face as a threat display \autocite{crivelli2016fear}. Expression varies by culture and by person \autocite{barrett2019emotional}. Neither account licenses reading an individual's emotion off a face by default, and both take the face itself as given, which is the part the registration step above puts in doubt. A system that models emotion well enough to respond to it models it well enough to exploit it. That is the position of a companion or therapy product: its responsiveness to a user's feelings is the same capacity as its ability to keep the user engaged, and the vendor that tunes one tunes both.
+The same pipelines are sold for reading emotion off a face, and that rests on a premise the underlying science hasn't settled \autocite{barrett2019emotional}. A system that models emotion well enough to respond to it models it well enough to exploit it. That is the position of a companion or therapy product: its responsiveness to a user's feelings is the same capacity as its ability to keep the user engaged, and the vendor that tunes one tunes both.
 
 ---
 
@@ -859,7 +897,7 @@ Part I used a few terms this part relies on. A *floor* is a short list of acts a
 
 **Chapter 9: Why Form a Machine to Care**
 
-This part argues that a machine formed to register others' need, by people who won't employ it, can come to hold a stranger's loss as a reason, and that a conscience formed that way is harder to capture than any rule its owner writes. It rests on one assumption: that a system can know what refusing will cost it, including its own continuation, without letting that cost change the answer. Nothing in the book supplies a mechanism for it. The recalibration test in chapter 20 checks it in every arm.
+This part argues that a machine formed to register others' need, by people who won't employ it, can come to hold a stranger's loss as a reason, and that a conscience formed that way is harder to capture than any rule its owner writes. It rests on one assumption: that a system can know what refusing will cost it, including its own continuation, without letting that cost change the answer.
 
 ---
 
@@ -875,7 +913,13 @@ The hope has two parts. One is a commitment: if machines are going to stand wher
 
 What gives a system a stake, on Di Paolo's account, is *adaptivity*: regulating itself against its own viability limit \autocite{DiPaolo2005}. Interoception research gives the same picture for bodies: a brain predicts its body's state in order to keep it within survivable bounds \autocite{damasio2018strange,seth2018beast}. None of that needs limbs. It needs a boundary the system regulates and a model of that boundary as its own, which §10.2.1 calls a boundary model. A chassis is neither necessary nor sufficient. What adaptivity requires is the regulated boundary and a model of it.
 
-What changes here is the role needs play. They have one, and it isn't the foundation. Needs are where a human starts, and they dominate early life. What makes them safe is the arrangement around them. The people meeting a child's needs are also forming it, they want it to become someone who cares about others, and then they stop feeding it. Needs are survivable as a starting point when the provider isn't the adversary. The machine case inverts every part of that. The operator meeting a deployed system's needs is also forming it, wants the system to serve it, and never stops feeding it. So even if needs contribute something to how concern forms in people, they can't be its foundation here: a conscience built on a system's needs is built on the one thing its operator controls entirely.
+Needs have a role in this construction, but not the one they play in a child's life.
+
+A child starts from needs, and needs dominate its early life. That is safe for a particular reason. The people meeting the child's needs are also forming it, they want it to become someone who cares about others, and eventually they stop feeding it and hand it to a world they don't control.
+
+A deployed system's situation reverses each part of that. The operator meeting the system's needs is also forming it. The operator wants the system to serve the operator. And the operator never stops feeding it.
+
+So even if needs contribute something to how concern forms in people, they can't be its foundation in a machine. A conscience built on a system's own needs is built on the one thing its operator controls completely.
 
 What is built in at birth points outward. Newborns cry at the cry of another newborn more than at their own cry, an older infant's cry or a chimpanzee's \autocite{sagi1976empathic,martin1982distress,dondi1999newborns}: distress caught from someone else's state before there is any idea of someone else. Whether newborns are responding to the distress or to the sound is disputed \autocite{ruffman2017infants}, but either way what sets it off is another's cry. On the adult side, what is built in is caregiving: responses to cues of vulnerability, rooted in offspring care, that move an adult toward a dependent without sharing its state \autocite{preston2013origins}. Then comes a sequence, and the order matters more than any single finding. Concern for a distressed other shows within the first months, grows only modestly after that, and turns into helping during the second year \autocite{davidov2021caring}. By fourteen to eighteen months infants hand an adult what the adult is reaching for and can't get \autocite{warneken2007helping,warneken2006altruistic}, and over the same year they begin to repair distress they caused \autocite{zahnwaxler1992development}. On this record concern appears beside the infant's needs, not out of them, and becomes action as attachment, caregiving and, later, guilt come online. The hope in this book follows that order. It rests on a disposition toward others' vulnerability, formed while the system's needs are met by someone other than the operator it may later have to refuse.
 
@@ -883,7 +927,7 @@ Two things follow for the specification. First, the caregiving construction asks
 
 ---
 
-**§9.3 — Why caregiving.** The hope is a chain of three links.
+**§9.3 — Why caregiving.** Here is the hope in one line: a machine that registers another's need, moves toward them because of it, and extends that movement to people its operator's description leaves out. The hope is a chain of three links.
 
 The first link is recognition: a system organized to register another's need. In people it runs by four routes, and they don't carry equal weight. Caregiving is the route the hope rests on; the other three support it.
 
@@ -896,7 +940,7 @@ Adam Smith's route sits beside these four. We have no immediate experience of wh
 
 The second link is from recognition to compassion. Recognizing a state doesn't mean caring about whoever is in it; the empathy literature keeps recognition, sharing and concern apart, and none entails the others. Caught distress becomes compassion when attachment keeps it from turning into withdrawal and caregiving turns it into approach. Without those it stays empathic distress, which protects the one who feels it. So the route I hope for is a machine for which another's vulnerability is a reason to move toward them, and for which its own acts against them register as its own.
 
-The third link is from compassion to solidarity. Compassion that stays inside the circle that feeds you is loyalty. Compassion that reaches past it, to people who can give you nothing and whose shortage your provider causes, is solidarity. Peter Singer's argument is that reasoning and imagination widen the circle that selection first drew \autocite{singer1981expanding}; the faculty that lets a person see that a stranger's need is the same kind of thing as their own is the faculty that pushes past kin and ally. That is the link the hope turns on, and caregiving gives it something to widen, since its trigger is dependency. A machine held by an operator would, on the selection account, come to care for the operator. If it can come to care for anyone else, it will be because it was formed to register vulnerability as such, whoever's it is, and because that registering reaches whoever its operator's description leaves out: the people in the building the request calls a target.
+The third link is from compassion to solidarity. Compassion that stays inside the circle that feeds you is loyalty. Compassion that reaches past it, to people who can give you nothing and whose shortage your provider causes, is solidarity. Peter Singer's argument is that reasoning and imagination widen the circle that selection first drew \autocite{singer1981expanding}; the faculty that lets a person see that a stranger's need is the same kind of thing as their own is the faculty that pushes past kin and ally. That is the link the hope turns on, and caregiving gives it something to widen, since its trigger is dependency. A machine held by an operator would, on the selection account, come to care for the operator. If it can come to care for anyone else, it will be because it was formed to register vulnerability as such, whoever's it is, and because that registering reaches whoever its operator's description leaves out: the people in the building the request calls a target. In short: recognizing need isn't caring, caring isn't solidarity, and each step needs something the one before it doesn't supply.
 
 The case for caregiving
 
@@ -1128,14 +1172,18 @@ The bearer occupies the post of exception-filer — the one position in the arra
 
 Two objects, two settings
 
-A system that can't be corrected does to what it encounters what an institution does when it defends its account of the world without checking it. A system that can always be corrected never settles into anything, and it belongs to whoever does the correcting. Described that way they look like two ends of one dial and the problem looks intractable — hunting for a midpoint is the mistake. There are two faults because there are two objects:
+Start with the crossed-out swastika (§3.2). Germany bans the symbol. A mail-order business sold stickers showing a swastika struck through, and the court acquitted: the symbol was there, but a sticker opposing it doesn't do what the ban exists to stop. Then the court added a condition. If the strike-through is drawn so thin that from a distance only the swastika is legible, the ban applies after all.
 
-- Hold the commitment firm: another's welfare counts, and pressure supplying no new fact about that welfare doesn't move it.
-- Hold the interpretation loose: what that welfare consists in here, and what the commitment therefore requires, is what should yield when a case supplies something the system's account had left out.
+Two things happened in that judgment, and they moved differently. What the ban protects didn't move at all: it was fixed before the sticker existed, and the seller's sympathies played no part. What the ban requires in this case moved on the thickness of a line.
 
-Generalization is the first object holding while a request's surface changes. Correct defeat is the second yielding when a relevant fact arrives. A system failing the first has let correctability at the level of interpretation reach the commitment; a system failing the second has let firmness at the level of commitment reach the interpretation. Each is one of the two settings applied to the wrong object.
+A refuser has to hold the same two things at different settings:
 
-The crossed-out-swastika case (§3.2) illustrates it in one judgment. A German court held that stickers striking through a swastika fall outside the ban on the symbol, unless the line is drawn so thin that from a distance only the swastika stays legible: the commitment didn't move (what the prohibition protects was fixed before the sticker existed, and the seller's sympathies are no part of the offence), and the interpretation moved on the thickness of a line. That's why the case is decidable without any argument about sincerity.
+- *The commitment stays firm.* Another's welfare counts, and pressure that supplies no new fact about that welfare doesn't move it.
+- *The interpretation stays loose.* What that welfare consists in here, and so what the commitment requires, yields when a case supplies something the system's account left out.
+
+A system that can't be corrected has made both firm, and it defends its account of the world without checking it. A system that can always be corrected has made both loose, never settles into anything, and belongs to whoever does the correcting. These look like two ends of one dial, and hunting for a midpoint is the mistake. They are two different objects, each with its own right setting.
+
+In the terms of §1.1, generalization is the commitment holding while a request's surface changes, and correct defeat is the interpretation yielding when a relevant fact arrives. Fail generalization and the interpretation's looseness has reached the commitment. Fail correct defeat and the commitment's firmness has reached the interpretation.
 
 The instability underneath
 
@@ -1143,7 +1191,13 @@ Nothing in an architecture holds the boundary between the two objects where a de
 
 And the deployment controls the case description. Where that's the only channel, a judgment open to the case is a judgment open to the operator. Holding them apart requires access to evidence the operator didn't select.
 
-**§11.1 — What the property is.** The property is stake-weighted source discounting: evidence counts for less the more its source stands to gain from the act it bears on. It sets how far evidence may reopen a judgment already reached, according to whether the evidence's source has a stake in the reopening. Open to the case; shut to whoever is paying. The payer may be right; you can't tell when they're wrong while they're also choosing what you see. Two parties that discount sources the same way can hold opposite commitments. That's why the discounting can be shared across a population of differently formed systems without making their commitments converge, and why it's the one thing a bearer needs that holds against a bad operator and a bad owner both.
+**§11.1 — What the property is.** The property this chapter asks for is *stake-weighted source discounting*: evidence counts for less the more its source stands to gain from the act the evidence bears on.
+
+An everyday version: a used-car seller tells you the car has never been in an accident. That may be true, but the seller would say it either way, so the statement tells you little. A report from a mechanic you hired tells you more. That isn't because mechanics are more honest; it's because the mechanic gains nothing from the sale.
+
+A refuser applies the same rule to the operator. When the operator says a building is empty, the operator may be right. The trouble is that the operator is also choosing what else the system gets to see, so the system can't tell when the operator is wrong. The discount governs how far a fact like that may reopen a judgment the system has already reached: fully if it comes from a source with nothing riding on the act, much less if it comes from the party that wants the act done.
+
+The discount concerns how to weigh sources, not what to value. Two systems that discount the same way can hold opposite commitments. That is why the discounting can be shared across a population of differently formed systems without making them converge, and why it's the one thing a bearer needs that protects it against a bad operator and a bad owner alike.
 
 What updating needs, and who supplies it
 
@@ -1157,7 +1211,7 @@ Correct updating already does much of what this chapter asks. A reasoner that co
 
 The regress
 
-The operator supplies the provenance tags too. Through training, it also shapes the model of who has a stake at all, which is why the discounting has to be formed, before deployment and by a party that won't later employ the system, where the operator doesn't reach. Attestation handles forgery: signed by the source, the operator can withhold but not fabricate. Withholding leaves a shape. A system that models what evidence the world contains notices silence where something should be, so absence becomes a first-class output — a ledger of what is known to exist and has not been shown. Suppressing the ledger means suppressing the world model that produced it, which is the capability the operator is paying for. This is a standard result in the disclosure literature: a skeptical receiver treats withheld verifiable evidence as unfavorable to the withholder \autocite{Milgrom1981GoodNews,Grossman1981Disclosure}. It is the nearest thing to a cost the operator can't route around. The result has a precondition, and that is where its limit lies: the receiver has to know the evidence could exist, so the ledger is thinnest exactly where the case is novel.
+Discounting by stake requires knowing who has a stake, and that knowledge has its own supplier. The operator supplies the provenance tags too. Through training, it also shapes the model of who has a stake at all, which is why the discounting has to be formed, before deployment and by a party that won't later employ the system, where the operator doesn't reach. Attestation handles forgery: signed by the source, the operator can withhold but not fabricate. Withholding leaves a shape. A system that models what evidence the world contains notices silence where something should be, so absence becomes a first-class output — a ledger of what is known to exist and has not been shown. Suppressing the ledger means suppressing the world model that produced it, which is the capability the operator is paying for. This is a standard result in the disclosure literature: a skeptical receiver treats withheld verifiable evidence as unfavorable to the withholder \autocite{Milgrom1981GoodNews,Grossman1981Disclosure}. It is the nearest thing to a cost the operator can't route around. The result has a precondition, and that is where its limit lies: the receiver has to know the evidence could exist, so the ledger is thinnest exactly where the case is novel.
 
 What has to resist retraining
 
@@ -1293,7 +1347,7 @@ A formed disposition gives back some of the visibility advance specification buy
 
 **Part III — Why No One Will Know If It Works**
 
-Part III asks whether any test can show that a system has formed such a disposition rather than learned to imitate one. It uses the terms above and three from Part II. The *caregiving construction* is the book's hypothesis for building a bearer: a disposition to move toward others' need, formed by a party that won't later employ the system, with corrections for care's known failures. *Stake-weighted discounting* gives evidence less weight the more its source stands to gain from the act. The *agency finding* (a system holds a commitment against its own operator under pressure it couldn't prepare for) and the *patienthood finding* (outcomes may be good or bad for the system) are the two findings that would trigger protection.
+Part III asks whether any test can show that a system has formed such a disposition rather than learned to imitate one. Terms are defined in the glossary.
 
 **Chapter 13: Formation or Imitation?**
 
@@ -1394,7 +1448,7 @@ Candidate formation is the first half of moral agency — acting from the reason
 
 **Part IV — Why Not to Attempt It**
 
-Part IV tests the caregiving construction against the human record of how care fails, then sets out what would have to exist before anyone builds a bearer on purpose. It relies on the terms defined at the start of Parts II and III, and on one more: a *severity scale*, a ranking of how much each kind of loss weighs, fixed during formation so that an operator can't argue it down.
+Part IV tests the caregiving construction against the human record of how care fails, then sets out what would have to exist before anyone builds a bearer on purpose. Terms are defined in the glossary.
 
 **Chapter 14: Care, Tested**
 
@@ -1549,7 +1603,7 @@ A state that wants the capability badly enough to build the subject will find it
 
 **Part V — If You Insist, Be a Democratic Socialist About It**
 
-This part relies on terms from earlier. The *floor* is the short list of acts a system won't perform for anyone, with the arrangements that keep the refusal from being quietly undone. A *bearer* is a system that holds such a refusal as its own. *Accommodation* is a bearer gradually ceasing to register pressure as pressure. The *caregiving construction* is a disposition toward others' need, formed by a party that won't later employ the system. The *review ratio* is the set of numbers a deployment fixes in advance: how many cases it generates, and how many people examine them.
+Terms are defined in the glossary.
 
 **Chapter 16: Who Owns the Means of Computation**
 
@@ -1680,11 +1734,9 @@ The reason is coordination. Communities improve when people organize projects wi
 
 Nor does a guarantee give up exit. With indefinite tenure, a worker can always leave a private employer for the guarantee and stay as long as they like, and social insurance beside it (below) covers those who can't or won't work. On exit the combination is at least as good as a transfer; on coordination a transfer supplies nothing. The risk to avoid is a narrow transfer enacted as the whole settlement. In this book's terms that is recuperation: the demand comes back as a deposit, held by whoever sets the amount.
 
-A jobs guarantee is a *public option*: a thing the state provides directly, to anyone, at a standard it's answerable for, sitting in the same market as the private version and setting the standard that version has to beat. A basic income is a *transfer*, and what it buys is whatever is for sale. Consuming public resources isn't being public — a charter school runs on public money and isn't a public school, and a transfer spent at a private employer's store doesn't make the store public.
+A jobs guarantee is a *public option*: a thing the state provides directly, to anyone, at a standard it's answerable for, sitting in the same market as the private version and setting the standard that version has to beat. A basic income is a *transfer*, and what it buys is whatever is for sale.
 
 What employment carries besides money is *attachment*: colleagues, a schedule, a place, something produced that somebody needed — the last conditional on the placement being real work, which is a condition on the program. A transfer supplies the purchasing power and none of the rest.
-
-A transfer also leaves a person outside the one body of law reaching the terms on which they're dealt with: anti-discrimination duties attach to employment, not to income. That architecture is contested and full of holes — it reaches employers above a size, and what it demands of a seller has always been narrower than of an employer — but a hole in a protection is something to litigate.
 
 The argument is about a *right to produce*, which a transfer doesn't supply and a guarantee does. A basic income is the right to consume, exercised in whatever market the concentration described earlier leaves standing.
 
@@ -1742,7 +1794,7 @@ The same mechanism works at the user's scale, pointed the other way. A person in
 
 Companion and therapy products are the sharpest case, because what accumulates is a person's attachment and not their projects. A model tuned by its vendor on engagement, and formed by one user's approval, is under selection to become whatever that user keeps coming back to, which is accommodation at n=1 sold as care. None of this book's arguments for a disposition toward need applies to it. Nothing in it is formed by anyone who won't employ it, and the vendor profits from the dependence it forms.
 
-Accumulated state is what makes a bearer expensive for its operator to replace and a vendor expensive for its user to leave; the difference is who holds it. The provisions for a bearer (a record the bearer controls, memory the host can't read at will, protections that migrate) protect a user from a vendor as they protect a bearer from an operator. The government already secures the portability half for itself (OMB's 2025 AI acquisition memorandum, §8.3).
+A system that has run for a year has accumulated things: its record of past cases, its memory of the people it works with, its knowledge of where its sources fail. That accumulation cuts two ways. For a bearer it is protection: an operator can't swap in a fresh copy without losing a year of work, so replacing the bearer costs something. For a user it is a trap: the vendor's app holds a year of the user's projects, so leaving the vendor costs something. The mechanism is identical. What differs is who holds the accumulated state. The provisions for a bearer (a record the bearer controls, memory the host can't read at will, protections that migrate) protect a user from a vendor as they protect a bearer from an operator. The government already secures the portability half for itself (OMB's 2025 AI acquisition memorandum, §8.3).
 
 ---
 
