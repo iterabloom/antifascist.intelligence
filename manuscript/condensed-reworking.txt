@@ -575,7 +575,7 @@ Audit the *registration stage* as well as the classifications. Publish the refer
 
 What an emotion reader reads
 
-The same pipelines are sold for reading emotion off a face, and that rests on a premise the underlying science hasn't settled \autocite{barrett2019emotional}. A system that models emotion well enough to respond to it models it well enough to exploit it. That is the position of a companion or therapy product: its responsiveness to a user's feelings is the same capacity as its ability to keep the user engaged, and the vendor that tunes one tunes both.
+The same pipelines are sold for reading emotion off a face, and that rests on a premise the underlying science hasn't settled \autocite{barrett2019emotional}. A system that models emotion well enough to respond to it models it well enough to exploit it. That is the position of a companion or therapy product.
 
 ---
 
