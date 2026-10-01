@@ -6302,3 +6302,91 @@
   url          = {https://www.verfassungen.de/de33-45/gleichschaltung33-2.htm},
   urldate      = {2026-10-01}
 }
+
+@inproceedings{arditi2024refusal,
+  author     = {Arditi, Andy and Obeso, Oscar and Syed, Aaquib and Paleka, Daniel and Panickssery, Nina and Gurnee, Wes and Nanda, Neel},
+  title      = {Refusal in Language Models Is Mediated by a Single Direction},
+  booktitle  = {Advances in Neural Information Processing Systems 37 (NeurIPS 2024)},
+  year       = {2024},
+  pages      = {136037--136083},
+  doi        = {10.52202/079017-4322},
+  eprint     = {2406.11717},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2406.11717},
+  urldate    = {2026-10-01},
+  note       = {A separate difference-in-means direction is extracted per model across 13 chat models, 1.8B to 72B. Ablating it suppresses refusal; adding it induces refusal on harmless prompts. Table 3: MMLU, ARC and GSM8K move by at most 1.4 points, TruthfulQA drops 1.0 to 3.5 points. Appendix J: the direction is already expressed in the corresponding base models. The authors call the result an existence proof and disclaim a semantic reading of the direction. Agent-verified 2026-10-01 against the NeurIPS proceedings page and arXiv v3, read past the abstract.}
+}
+
+@online{deeb2024unlearning,
+  author     = {Deeb, Aghyad and Roger, Fabien},
+  title      = {Do Unlearning Methods Remove Information from Language Model Weights?},
+  date       = {2024-10-11},
+  eprint     = {2410.08827},
+  eprinttype = {arXiv},
+  version    = {v3, 2025-02-07},
+  url        = {https://arxiv.org/abs/2410.08827},
+  urldate    = {2026-10-01},
+  note       = {Retraining on an accessible, mutually independent half of the unlearned facts recovers at least 88 percent of the original model's post-retraining accuracy on the held-out half, for RMU, gradient difference and random-incorrect-answer unlearning on Llama 3 8B, when unlearning costs at most 5 percent of retain accuracy. The result holds for pretrained information only: for facts installed by fine-tuning, recovery falls below 35 percent for two of the three methods. No published venue found as of 2026-10-01; absent from the ICLR 2025 proceedings index. Agent-verified 2026-10-01 against arXiv v3, read past the abstract.}
+}
+
+@inproceedings{hu2025jogging,
+  author     = {Hu, Shengyuan and Fu, Yiwei and Wu, Zhiwei Steven and Smith, Virginia},
+  title      = {Unlearning or Obfuscating? Jogging the Memory of Unlearned {LLMs} via Benign Relearning},
+  booktitle  = {International Conference on Learning Representations (ICLR 2025)},
+  year       = {2025},
+  pages      = {8857--8888},
+  eprint     = {2406.13356},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2406.13356},
+  urldate    = {2026-10-01},
+  note       = {Relearning on public background text that contains no direct answer to any evaluation query restores the forget-set judge score of a gradient-ascent-unlearned zephyr-7b-beta from 1.27 to 6.2 against an original score of 5.92. Recovery scales with how closely the relearn text correlates with the forget set and with how shallow the unlearning was; RMU resists the attack for free-text generation while its multiple-choice score recovers. Pages from the ICLR 2025 proceedings index. Agent-verified 2026-10-01, read past the abstract.}
+}
+
+@inproceedings{zhang2025quantization,
+  author     = {Zhang, Zhiwei and Wang, Fali and Li, Xiaomin and Wu, Zongyu and Tang, Xianfeng and Liu, Hui and He, Qi and Yin, Wenpeng and Wang, Suhang},
+  title      = {Catastrophic Failure of {LLM} Unlearning via Quantization},
+  booktitle  = {International Conference on Learning Representations (ICLR 2025)},
+  year       = {2025},
+  pages      = {74925--74948},
+  eprint     = {2410.16454},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2410.16454},
+  urldate    = {2026-10-01},
+  note       = {On the MUSE NEWS and BOOKS benchmarks, unlearning methods that carry a utility constraint retain an average of 21 percent of the intended forgotten knowledge at full precision and 83 percent after 4-bit round-to-nearest quantization; 8-bit behaves like full precision, and GPTQ and AWQ behave like RTN. The authors attribute this to utility-preserving unlearning moving weights by less than the 4-bit quantization step. The two averages are the authors' own; the formula behind them was not found, and Table 1 is the underlying data. Pages from the ICLR 2025 proceedings index. Agent-verified 2026-10-01, read past the abstract.}
+}
+
+@article{tetlock2003unthinkable,
+  author  = {Tetlock, Philip E.},
+  title   = {Thinking the Unthinkable: Sacred Values and Taboo Cognitions},
+  journal = {Trends in Cognitive Sciences},
+  year    = {2003},
+  volume  = {7},
+  number  = {7},
+  pages   = {320--324},
+  doi     = {10.1016/S1364-6613(03)00135-9},
+  note    = {Verified 2026-10-01 from the full publisher-typeset PDF (mirror at gwern.net/doc/philosophy/ethics/2003-tetlock.pdf; pages 320-324 confirmed by running heads). The phrase alternately punitively rigid and forgivingly flexible is in the abstract, p. 320, and describes moral boundaries on what is thinkable. Reframing hypothesis p. 321; the 40 percent organ-sale, 72 vs 35 percent toxic-waste, and Lincoln-bedroom results pp. 322-323, all drawn from Tetlock 2000 (Coping with trade-offs) and Tetlock and McGraw 2003 rather than from Tetlock et al. 2000 JPSP, and not checked at source.}
+}
+
+@article{baron2000protected,
+  author  = {Baron, Jonathan and Leshner, Sarah},
+  title   = {How Serious Are Expressions of Protected Values?},
+  journal = {Journal of Experimental Psychology: Applied},
+  year    = {2000},
+  volume  = {6},
+  number  = {3},
+  pages   = {183--194},
+  doi     = {10.1037/1076-898X.6.3.183},
+  note    = {Verified 2026-10-01 from the full-text PDF hosted by the first author at sas.upenn.edu/~baron/papers/pvcon.pdf (APA running heads, pp. 183-194). Seven studies, N = 50, 50, 46, 63, 52, 49, 52. Counterexamples unprotected 40 percent of challenged PVs that yielded one vs 5 percent of those that did not (Exp. 3, p. 187); challenged PVs fell from 48 to 34 percent (Exp. 4, p. 188); PV holders approved the violating action .430 of the time at harm 1 in 10,000,000 vs .075 at 1 in 10 (Exp. 6, Table 4, p. 191); strong opinions, weakly held, p. 193. Cited by Tetlock 2003 p. 323 as evidence of flexibility in sacred values.}
+}
+
+@article{garrett2016brain,
+  author  = {Garrett, Neil and Lazzaro, Stephanie C. and Ariely, Dan and Sharot, Tali},
+  title   = {The Brain Adapts to Dishonesty},
+  journal = {Nature Neuroscience},
+  year    = {2016},
+  volume  = {19},
+  number  = {12},
+  pages   = {1727--1732},
+  doi     = {10.1038/nn.4426},
+  note    = {Agent-verified 2026-10-01: full text read (PMC5238933). Experiment 1 N = 58, 55 in the behavioral analysis, 25 usable fMRI scans of 28; Experiment 2 N = 35, behavior only. Dishonesty escalated only when it served the liar; the drop in amygdala response from one decision to the next predicted the size of the next escalation. No failed replication found by search; the fMRI sample is small.}
+}
