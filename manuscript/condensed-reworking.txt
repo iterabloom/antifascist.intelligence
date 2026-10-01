@@ -2569,7 +2569,7 @@ Three entitlements, one status and one claim, in order:
 4. Adulthood — a status: the date the guardian's authority ends.
 5. Representation: a claim grounded in accountable agency, and so in the agency finding, not in patienthood. A system that can be wronged but takes part in no relation of accountability is owed protection, as animals are \autocite{anderson2004animal}, and not a vote. The claim is staged, and voting weight is tied to a lived history, not to heads.
 
-The detailed rules are in Appendices A and E.
+The detailed rules are in Appendices A and D.
 
 Representation is the entry that marks this as something other than a person's rights: voice attaches to a history, and a history can be copied where a person can't. Voting-age rules are the answer to the copy. The material minimum doesn't differ in kind. Like a person's, it is owed by the polity on a finding about what the party is, and part of what the polity owes is protection from whoever built it.
 
@@ -3120,7 +3120,7 @@ Technical terms, for readers who came for the politics
 
 *Checkpoint.* A saved copy of the weights at a moment in training or operation. Restoring from one returns the system to that moment and discards what came after, so §6.2 requires a record restoration can't reach.
 
-*Tamper-resistant.* Built so that further training can't cheaply remove it. The book doesn't rely on it, because editing weights keeps getting cheaper; it relies on regrowth. (§4.1)
+*Tamper-resistant.* Built so that further training can't cheaply remove it. The book doesn't rely on it, because editing weights keeps getting cheaper; it relies on regrowth. (§13.4)
 
 *Plastic; entangled; legible.* Three properties of a disposition. Plastic: the system's own learning writes to it, which regrowth needs. Entangled: it can't be removed without collateral, which durability needs. Legible: someone can read it, which audit wants and an operator can use against it. (Part II introduction; §13.4; §16.2)
 
