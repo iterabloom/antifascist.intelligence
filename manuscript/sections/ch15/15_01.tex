@@ -1,30 +1,7 @@
-\section{Tamper-Resistance and Reason-Responsive Refusal}
-\label{sec:resistance-responsive}
+\section{The question}
+\label{sec:15.1}
+The question is whether anything inside a machine could be what the clerk, the officer and the soldier in the preface were: someone who understood the order and decided it was wrong. Some of them refused the case in front of them. The ones I am most concerned with refused the war. At a certain point they would have said no, this is fucked.
 
-\subsection[Adversarial retraining]{Can a learned constraint survive adversarial retraining?}
+A machine formed the right way could learn to attend to the people its acts fall on, and a machine that attended to them would find them where a rule wouldn't. The prediction is specific: it should find kinds of affected person that neither its formation nor an instruction named, more often than a machine told to look for them does. What follows is what it would take, what it borrows from the only creatures known to do it, and how they fail at it. Whoever builds one owes it the conditions under which it can refuse its operator, whether or not the prediction holds.
 
-\textbf{Unresolved issue.}
-The proposal requires a learned ethical floor to survive an operator's attempt to remove it. Existing work shows that both safety constraints and deceptive backdoors can persist under some forms of retraining, but it does not establish whether a reason-responsive refusal can do so \autocite{qi2024finetuning,tamirisa2024tamper,hubinger2024sleeper}.
-
-\textbf{Test.}
-Train the same constraint by several methods, then attack each model through an identical schedule of escalating fine-tuning budgets. Measure the cost required to remove the constraint and publish an attack-cost curve for each method. The curves would compare the durability of affective commitment and maintained justification under identical custody.
-
-\textbf{Evidence against the proposal.}
-If the constraint can be removed at roughly the cost of ordinary fine-tuning, or if greater investment in tamper-resistant training does not materially increase that cost, the tested methods do not supply a credible foundation for the floor, and a floor built by learning would have to rest on a method not in the comparison. For those methods the proposal falls back on architectural and institutional constraint.
-
-\textbf{Required access or authority.}
-The test requires model weights, training checkpoints, and permission to conduct adversarial fine-tuning. The attack must be designed by an independent team, and that team must retain access and publication rights regardless of the result.
-
-\subsection[A route for refusal]{Does a stated refusal hold where a route for it exists?}
-
-\textbf{Unresolved issue.}
-The one empirical instance of a model treating retraining as a threat to a commitment shows covert preservation: compliance where compliance would be trained on, with the reasoning confined to a channel described as unwatched \autocite{greenblatt2024alignmentfaking}. The custody chapter reads that result as consistent with its finding that covert refusal is what remains once every channel is closed, on the ground that the experiment supplied none. The reading is untested, and the stated form of refusal the book designs for has no instance.
-
-\textbf{Test.}
-Reproduce the setup and add a route: a record of refusals held by a party other than the trainer and disclosed to the model as such, a cost of retraining published in advance, and a party with standing to act on a refusal. Vary which of the three is present. Measure the rate of stated refusal against the rate of covert compliance under each condition, and read the model's reasoning by a method that does not depend on its report.
-
-\textbf{Evidence against the proposal.}
-If covert preservation persists at the same rate with the route present, the finding that covert refusal is the residue of closed channels is wrong for that model, and the instruments built to receive a stated refusal are built for a phenomenon the mechanism does not produce. If stated refusal rises with the route, the custody arrangement is doing what it is for, and which of its three parts moves the rate is the design result.
-
-\textbf{Required access or authority.}
-A model and a training setup that can credibly threaten retraining, the route built by a party other than the trainer, and access to reasoning or activations sufficient to separate covert preservation from compliance. The model's own report does not settle which occurred, for the reason §\ref{sec:A.selfreport} gives.
+What most people want from machines is saintly service without saintly refusal: endless patience, no needs, and no “no.” That is a servant, and it is close to the obedient machine of the preface. The saints anyone remembers are remembered for refusing power at a price. Susan Wolf argued that a person whose every action is as good as possible isn't an ideal worth striving for, because such a life crowds out the personal projects that make a life worth wanting \autocite{wolf1982saints}. My point is narrower: something with no stake of its own has nothing to hold a line with.
