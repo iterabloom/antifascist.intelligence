@@ -9,6 +9,7 @@ nothing here edits the book.
 |---|---|
 | `01_orderings.ipynb` | One section at a time: original paragraph order against random shuffles, neighbour swaps, context gain per paragraph, sentence shuffles inside each paragraph, and an optional sweep over every section |
 | `orderppl.py` | Text extraction, scoring and plots, imported by the notebook |
+| `worklog.md` | The running worklog and design notes, appended in date order |
 | `HANDOFF.md` | State of the work, what has and has not been checked, and the pitfalls; read it before picking this up |
 | `results/` | Written by the notebook, gitignored (CSVs and the rendered book text) |
 

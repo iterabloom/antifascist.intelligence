@@ -14,8 +14,8 @@ part of the book. **Another session edits the manuscript on `main` from a
 different machine.** Do not touch `manuscript/` or `finishing/` from this
 work, and pull before every push.
 
-The running worklog and design notes are in a separate private repository,
-`iterabloom/antifascist-intelligence-ppl_lab_notebook` (`worklog.md`).
+The running worklog and design notes are in `worklog.md`, next to this file.
+Append to it rather than editing earlier entries.
 
 ## Where things stand
 
