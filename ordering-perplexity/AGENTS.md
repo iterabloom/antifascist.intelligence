@@ -1,7 +1,9 @@
 # AGENTS.md — ordering-perplexity
 
 The repository's root `AGENTS.md` applies here in full: named persons,
-secrets, network, and No Weasel Words. This file adds what is specific to
+secrets, network, and No Weasel Words. A session started in this folder may
+not have it loaded; if it is not in your context, read `../AGENTS.md`
+before doing anything else. This file adds what is specific to
 this folder. Where the two meet, the root file wins.
 
 ## What this folder is

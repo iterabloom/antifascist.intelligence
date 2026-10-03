@@ -100,8 +100,12 @@ Append to it rather than editing earlier entries.
   with no data arriving. Pushing from it works.
 - GitHub access is HTTPS through `gh`, logged in as `jgstern-agent`.
 - Start agent sessions for this work from
-  `~/antifascist.intelligence/ordering-perplexity/`. Both this folder's
-  `AGENTS.md` and the repository's load from there. The session that built this folder ran
+  `~/antifascist.intelligence/ordering-perplexity/`. This folder's
+  `AGENTS.md` loads from there. The root `AGENTS.md` does not: Claude Code
+  holds back a parent `CLAUDE.md`'s import of a file outside the start
+  directory until that import is approved (tested 2026-10-03, Claude Code
+  2.1.288, non-interactive runs). The folder's `AGENTS.md` tells the agent
+  to read it. The session that built this folder ran
   from `~/antifascist-intelligence-ppl/`, a placeholder since retired.
 - **Hugging Face downloads crash on the VM's proxy settings.** `NO_PROXY`
   contains an IPv6 CIDR (`fd00:200::/40`), which `httpx` rejects as a URL
