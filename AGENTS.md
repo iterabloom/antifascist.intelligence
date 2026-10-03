@@ -16,7 +16,7 @@
   it, and no rendered page carries a real person's name beside generated text,
   which is what search engines index. The plain files came out of the tree on
   2026-09-05. Anything of this kind that must not be in the repository at all
-  goes in `~/ethical.superintelligence-private/`, outside it.
+  goes in `~/antifascist.intelligence-private/`, outside it.
 
   **Ordinary scholarly citation is allowed and expected.** Naming the researchers
   who published a finding, quoting a published claim with a citation, and
