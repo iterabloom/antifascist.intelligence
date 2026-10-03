@@ -74,8 +74,9 @@ def _drop_braced_command(text, name):
         i = k
 
 
-# The renderer leaves the second key of a two-key cite with a locator as a
-# braced tail: "[@a, ch. 9]{b}" (seen 2026-10-03, section 10.4).
+# Before fc2f47b (2026-10-03) the renderer left the second key of a two-key
+# cite with a locator as a braced tail, "[@a, ch. 9]{b}"; it now writes
+# "[@a, ch. 9; @b]". The optional tail still strips renders from before then.
 _CITE_RE = re.compile(r"\s*\[[^\[\]]*@[^\[\]]*\](\{[\w:-]+\})?")
 _CMD_ARG_RE = re.compile(r"\\[A-Za-z]+\*?\{([^{}]*)\}")
 _CMD_RE = re.compile(r"\\[A-Za-z]+\*?")

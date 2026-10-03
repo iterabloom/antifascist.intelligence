@@ -62,11 +62,11 @@ Append to it rather than editing earlier entries.
   cell before reading any small Δ.
 - **Compare across tokenizers on `orig_nats_per_char`**, not on total NLL or
   perplexity. Qwen3.5's vocabulary is 248k against Qwen3's 152k.
-- **The book's renderer has a citation bug.** `render_markdown.py` renders a
-  two-key citation with a locator as `[@a, ch. 9]{b}` (section 10.4), leaving
-  a stray `{b}`. `orderppl._CITE_RE` strips it. The fix belongs in
-  `finishing/tools/render_markdown.py`, which the manuscript session owns, so
-  report it rather than editing that file.
+- **The renderer belongs to the manuscript session.** Report a bug in
+  `finishing/tools/render_markdown.py` rather than editing it. One is already
+  fixed: it rendered a two-key citation with a locator as `[@a, ch. 9]{b}`
+  (section 10.4), and since `fc2f47b` (2026-10-03) writes
+  `[@a, ch. 9; @b]`. `orderppl._CITE_RE` strips both forms.
 - **Text extraction drops some blocks.** Epigraphs, lists, the tables and
   standalone bold heads are removed, so section boundaries inside a heading
   span are invisible to the scorer. A paragraph that introduced a list now
@@ -92,7 +92,11 @@ Append to it rather than editing earlier entries.
 
 ## Environment notes (the author's agent VM, `jgstern_agent`)
 
-- A shallow clone (`--depth 1`) of this repository is at `~/ethical.superintelligence`.
+- The repository was renamed on 2026-10-03 from `iterabloom/ethical.superintelligence`
+  to `iterabloom/antifascist.intelligence` (`badcd40`); GitHub redirects the
+  old name. The author's manuscript VM keeps its checkout at
+  `~/antifascist.intelligence`. On the agent VM the checkout is still at
+  `~/ethical.superintelligence`, a shallow clone (`--depth 1`).
   Two full clones stalled with no data arriving. Pushing from it works.
 - GitHub access is HTTPS through `gh`, logged in as `jgstern-agent`.
 - Start agent sessions for this work from `~/ethical.superintelligence`, so

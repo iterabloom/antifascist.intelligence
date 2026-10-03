@@ -27,3 +27,9 @@ At the maintainer's instruction the lab notebook lives in one place only: here, 
 ### 2026-10-03 — everything in one folder
 
 At the maintainer's instruction, everything belonging to this work is in `ordering-perplexity/`. The notebook generator, which had lived in a session scratch directory, is now `build_notebook.py`; rebuilding from it reproduces the committed notebook byte for byte. The Python environment was rebuilt from uv's cache at `ordering-perplexity/.venv`, and the test runs' figures and executed notebook moved into `results/`. Both are gitignored. Outside this folder there remain only the Hugging Face model cache, the retired `~/antifascist-intelligence-ppl/`, the local `~/antifascist-intelligence-ppl_lab_notebook/` copy, and the private repository `iterabloom/antifascist-intelligence-ppl_lab_notebook`; the last three are to be deleted.
+
+### 2026-10-03 — folder-level agent instructions
+
+With the author's approval, `ordering-perplexity/AGENTS.md` and a `CLAUDE.md` that imports it, mirroring the repository root. A session started in this folder loads both the root `AGENTS.md` (through the root `CLAUDE.md`) and this one. It states that the folder is a side project to the book and must not touch the manuscript, that another session pushes to `main`, and the working conventions recorded in `HANDOFF.md`.
+
+The manuscript session renamed the repository to `iterabloom/antifascist.intelligence` the same afternoon (`badcd40`) and carried the rename into this folder's clone URL and messages. Its `fc2f47b` fixed the renderer's two-key citation bug noted in `HANDOFF.md`; the cleanup regex still handles the old form. This VM's checkout stays at `~/ethical.superintelligence` for now, with `origin` pointed at the new name.

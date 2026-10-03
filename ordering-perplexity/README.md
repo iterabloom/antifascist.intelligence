@@ -7,6 +7,7 @@ nothing here edits the book.
 
 | File | What it is |
 |---|---|
+| `AGENTS.md` | Instructions for agent sessions working in this folder (`CLAUDE.md` imports it) |
 | `01_orderings.ipynb` | One section at a time: original paragraph order against random shuffles, neighbour swaps, context gain per paragraph, sentence shuffles inside each paragraph, and an optional sweep over every section |
 | `orderppl.py` | Text extraction, scoring and plots, imported by the notebook |
 | `build_notebook.py` | Generates `01_orderings.ipynb`; edit this rather than the notebook |
