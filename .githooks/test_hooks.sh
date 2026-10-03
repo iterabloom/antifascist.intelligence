@@ -3,7 +3,7 @@
 set -u
 
 # ==============================================================================
-# TEST SUITE FOR ethical.superintelligence commit-msg HOOK
+# TEST SUITE FOR antifascist.intelligence commit-msg HOOK
 # ==============================================================================
 
 # 0. Locate the real hook we're testing
