@@ -37,3 +37,5 @@ The manuscript session renamed the repository to `iterabloom/antifascist.intelli
 The agent VM's checkout moved from `~/ethical.superintelligence` to `~/antifascist.intelligence` to match the repository and the manuscript VM. `ordering-perplexity/.venv` was rebuilt from uv's cache, because a venv's scripts record their absolute path; torch 2.14.1+cu130, transformers 5.18.0, JupyterLab 4.6.4, CUDA visible.
 
 Checked which instruction files load in a session started in this folder (Claude Code 2.1.288, `claude -p` with no tools): this folder's `CLAUDE.md` and `AGENTS.md` and the root `CLAUDE.md` load, the root `AGENTS.md` does not. Started at the repository root, the root `AGENTS.md` loads. Importing it explicitly as `@../AGENTS.md` from this folder's `CLAUDE.md` did not load it either; Claude Code's project config records external includes as not approved. The author accepted this; the folder's `AGENTS.md` now tells the agent to read `../AGENTS.md` when it is not in context.
+
+At the author's instruction the folder's `AGENTS.md` neither says the root file may not be loaded nor tells the agent to read it; that sentence is removed. `HANDOFF.md` keeps the finding.
