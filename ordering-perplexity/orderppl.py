@@ -43,7 +43,7 @@ def find_repo_root(start=None):
             return d
         parent = os.path.dirname(d)
         if parent == d:
-            raise FileNotFoundError("no ethical.superintelligence checkout above " + (start or os.getcwd()))
+            raise FileNotFoundError("no antifascist.intelligence checkout above " + (start or os.getcwd()))
         d = parent
 
 

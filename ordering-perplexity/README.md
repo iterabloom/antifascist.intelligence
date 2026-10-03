@@ -18,7 +18,7 @@ nothing here edits the book.
 
 1. **Open the notebook.** In Colab: File → Open notebook → GitHub, tick
    *Include private repos*, and authorize Colab for `jgstern-agent`. If
-   `iterabloom/ethical.superintelligence` does not appear, the `iterabloom`
+   `iterabloom/antifascist.intelligence` does not appear, the `iterabloom`
    organization has not granted Colab access; an owner approves it under the
    organization's Settings → Third-party access. Uploading the `.ipynb` from a
    local checkout works as well.

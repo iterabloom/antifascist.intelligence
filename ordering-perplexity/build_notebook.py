@@ -29,7 +29,7 @@ An optional sweep at the end runs step 1 over every section.
 
 All numbers are negative log-likelihoods in **nats** under the model. *Δ = shuffled − original*, so a positive Δ means the model prefers the original. Lower perplexity is not better prose. It measures what a language model finds predictable, and an argument that surprises the reader at the right moment will score worse for it. Read the results as a map of where order carries information, not as a ranking.
 
-**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). Add a Colab secret named `GITHUB_TOKEN` (key icon in the left sidebar) holding a GitHub token with read access to `iterabloom/ethical.superintelligence`, and allow this notebook to use it. See `ordering-perplexity/README.md`.
+**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). Add a Colab secret named `GITHUB_TOKEN` (key icon in the left sidebar) holding a GitHub token with read access to `iterabloom/antifascist.intelligence`, and allow this notebook to use it. See `ordering-perplexity/README.md`.
 """)
 
 md("## Setup")
@@ -37,13 +37,13 @@ code(r'''
 import os, sys, subprocess
 
 IN_COLAB = "google.colab" in sys.modules
-REPO_URL = "https://github.com/iterabloom/ethical.superintelligence.git"
+REPO_URL = "https://github.com/iterabloom/antifascist.intelligence.git"
 REPO_REF = "main"          # branch to clone in Colab
 
 if IN_COLAB:
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pysbd", "transformers>=4.57", "accelerate"], check=True)
     from google.colab import userdata
-    REPO = "/content/ethical.superintelligence"
+    REPO = "/content/antifascist.intelligence"
     if not os.path.isdir(REPO):
         token = userdata.get("GITHUB_TOKEN")
         auth_url = REPO_URL.replace("https://", "https://x-access-token:%s@" % token)
@@ -59,7 +59,7 @@ else:
     d = os.path.abspath(os.getcwd())
     while not os.path.isfile(os.path.join(d, "finishing", "tools", "render_markdown.py")):
         if os.path.dirname(d) == d:
-            raise FileNotFoundError("run this notebook from inside an ethical.superintelligence checkout")
+            raise FileNotFoundError("run this notebook from inside an antifascist.intelligence checkout")
         d = os.path.dirname(d)
     REPO = d
 
