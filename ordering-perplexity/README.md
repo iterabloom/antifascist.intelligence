@@ -123,7 +123,7 @@ Longest section: 3.1, about 7,500 words, roughly 10,000 tokens. Scoring
 batches are capped at `max_batch_tokens` (default 16,384), so a section that
 long is scored one ordering at a time.
 
-## Rules from AGENTS.md that apply here
+## Named persons
 
 The named-persons rule covers notebook output. The manuscript cites real
 researchers in the ordinary scholarly way, and that text is what the notebook

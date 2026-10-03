@@ -1,9 +1,5 @@
 # AGENTS.md — ordering-perplexity
 
-The repository's root `AGENTS.md` applies here in full: named persons,
-secrets, network, and No Weasel Words. This file adds what is specific to
-this folder. Where the two meet, the root file wins.
-
 ## What this folder is
 
 A side project to the book, not part of it. Qwen base models score the
@@ -17,9 +13,9 @@ reads this folder.
 
 ## Boundaries
 
-- **Work only inside `ordering-perplexity/`.** Never edit `manuscript/`,
-  `finishing/`, the root `AGENTS.md`, `.githooks/`, or the provenance the
-  root file lists. The book's text reaches this folder only through
+- **Work only inside `ordering-perplexity/`.** Never edit anything outside
+  it: not `manuscript/`, `finishing/`, `.githooks/`, or any file at the
+  repository root. The book's text reaches this folder only through
   `finishing/tools/render_markdown.py`, which is read-only from here. Report
   a renderer bug to the author instead of fixing it.
 - **Another session edits the manuscript on `main` from a different
@@ -32,6 +28,11 @@ reads this folder.
   not scan this folder. Run
   `python3 finishing/tools/names_guard.py --paths ordering-perplexity/*`
   from the repository root before committing.
+- **Secrets.** The repository root's `.env` holds API tokens belonging to
+  other projects. Do not read, log or transmit it.
+- **Reporting.** Say what was checked, what was found, and what was not
+  checked. Do not write "should work", "mostly complete", "generally" or
+  "no known problems".
 
 ## Working conventions
 

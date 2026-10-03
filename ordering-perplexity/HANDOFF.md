@@ -81,7 +81,7 @@ Append to it rather than editing earlier entries.
   machines. The suite and `names_guard.py` do not scan this folder. Before a
   commit, run `python3 finishing/tools/names_guard.py --paths
   ordering-perplexity/*`.
-- **Named persons (AGENTS.md, first section).** The rule covers notebook
+- **Named persons.** The rule covers notebook
   output. The book's own text is fine to print, but commit notebooks with
   outputs cleared, keep `results/` out of git, and never point anything here
   at `persona-device-files_*.zip`.
@@ -100,12 +100,8 @@ Append to it rather than editing earlier entries.
   with no data arriving. Pushing from it works.
 - GitHub access is HTTPS through `gh`, logged in as `jgstern-agent`.
 - Start agent sessions for this work from
-  `~/antifascist.intelligence/ordering-perplexity/`. This folder's
-  `AGENTS.md` loads from there. The root `AGENTS.md` does not: Claude Code
-  holds back a parent `CLAUDE.md`'s import of a file outside the start
-  directory until that import is approved (tested 2026-10-03, Claude Code
-  2.1.288, non-interactive runs). The author is fine with that. The session that built this folder ran
-  from `~/antifascist-intelligence-ppl/`, a placeholder since retired.
+  `~/antifascist.intelligence/ordering-perplexity/`, where this folder's
+  `AGENTS.md` loads.
 - **Hugging Face downloads crash on the VM's proxy settings.** `NO_PROXY`
   contains an IPv6 CIDR (`fd00:200::/40`), which `httpx` rejects as a URL
   port. Override it per command:
