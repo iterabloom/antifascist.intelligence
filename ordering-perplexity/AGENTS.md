@@ -64,6 +64,6 @@ reads this folder.
 - **Hugging Face downloads fail on the VM's `NO_PROXY`**, which contains an
   IPv6 CIDR. Prefix download commands with
   `NO_PROXY=localhost,127.0.0.1,10.200.0.0/16 no_proxy=localhost,127.0.0.1,10.200.0.0/16`.
-- The checkout on this VM is at `~/ethical.superintelligence` (the repository
-  is `iterabloom/antifascist.intelligence` since 2026-10-03) and is shallow. Do not run
-  operations that need full history; fetch with `--depth` as needed.
+- The checkout on this VM is at `~/antifascist.intelligence` and is shallow.
+  Do not run operations that need full history; fetch with `--depth` as
+  needed.

@@ -94,13 +94,14 @@ Append to it rather than editing earlier entries.
 
 - The repository was renamed on 2026-10-03 from `iterabloom/ethical.superintelligence`
   to `iterabloom/antifascist.intelligence` (`badcd40`); GitHub redirects the
-  old name. The author's manuscript VM keeps its checkout at
-  `~/antifascist.intelligence`. On the agent VM the checkout is still at
-  `~/ethical.superintelligence`, a shallow clone (`--depth 1`).
-  Two full clones stalled with no data arriving. Pushing from it works.
+  old name. Both VMs keep their checkout at `~/antifascist.intelligence`.
+  The agent VM's was moved there from `~/ethical.superintelligence` the same
+  day. It is a shallow clone (`--depth 1`), because two full clones stalled
+  with no data arriving. Pushing from it works.
 - GitHub access is HTTPS through `gh`, logged in as `jgstern-agent`.
-- Start agent sessions for this work from `~/ethical.superintelligence`, so
-  the repository's `AGENTS.md` loads. The session that built this folder ran
+- Start agent sessions for this work from
+  `~/antifascist.intelligence/ordering-perplexity/`. Both this folder's
+  `AGENTS.md` and the repository's load from there. The session that built this folder ran
   from `~/antifascist-intelligence-ppl/`, a placeholder since retired.
 - **Hugging Face downloads crash on the VM's proxy settings.** `NO_PROXY`
   contains an IPv6 CIDR (`fd00:200::/40`), which `httpx` rejects as a URL
