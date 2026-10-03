@@ -14,10 +14,7 @@ reads this folder.
 ## Boundaries
 
 - **Work only inside `ordering-perplexity/`.** Never edit anything outside
-  it: not `manuscript/`, `finishing/`, `.githooks/`, or any file at the
-  repository root. The book's text reaches this folder only through
-  `finishing/tools/render_markdown.py`, which is read-only from here. Report
-  a renderer bug to the author instead of fixing it.
+  it.
 - **Another session edits the manuscript on `main` from a different
   machine.** Fetch before you commit and pull before every push. Push to
   `main` only when the author asks.

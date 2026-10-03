@@ -41,3 +41,5 @@ Checked which instruction files load in a session started in this folder (Claude
 At the author's instruction the folder's `AGENTS.md` neither says the root file may not be loaded nor tells the agent to read it; that sentence is removed. `HANDOFF.md` keeps the finding.
 
 At the author's instruction the folder's documents no longer mention the root `AGENTS.md`. Its opening paragraph and its references in `HANDOFF.md` and `README.md` are removed; the two rules it covered that this folder's `AGENTS.md` did not already state, leaving `.env` alone and reporting what was and was not checked, are now written into this folder's `AGENTS.md` directly.
+
+At the author's instruction the first boundary in the folder's `AGENTS.md` is shortened to "Never edit anything outside it." The list of directories it named and the sentence about the renderer are removed; `HANDOFF.md` still says renderer bugs go to the manuscript session.
