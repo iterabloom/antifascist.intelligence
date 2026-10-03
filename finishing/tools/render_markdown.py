@@ -78,10 +78,31 @@ DROP_COMMANDS = [
     r"\\hline",
     r"\\rule\{[^}]*\}\{[^}]*\}",
     r"\\(?:small|itshape|bfseries|noindent|par|medskip|smallskip|centering)\b",
+    # The epigraph page (D-621): a page of its own in the book, nothing here.
+    r"\\clearpage",
+    r"\\thispagestyle\{[^}]*\}",
+    r"\\vspace\*?\{[^}]*\}",
 ]
+
+# Footnotes, numbered through the whole book and set as Pandoc notes. inline()
+# swaps each for its marker and queues its text; render() writes the queue after
+# the file's last line, which Pandoc accepts anywhere in the document (D-623).
+FOOTNOTES = {"n": 0, "pending": []}
+
+# \part numbers, counted in reading order as LaTeX counts them.
+PARTS = {"n": 0}
+ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
 # Escaped characters, restored to themselves.
 UNESCAPE = {r"\$": "$", r"\%": "%", r"\&": "&", r"\#": "#", r"\_": "_"}
+
+
+def book_title(root):
+    """"Title: Subtitle", read from book.tex's two macros. It was a literal here,
+    and kept a subtitle book.tex had dropped (D-623)."""
+    tex = open(os.path.join(root, "manuscript", "book.tex"), encoding="utf-8").read()
+    get = lambda name: re.search(r"\\newcommand\{\\%s\}\{(.*)\}\s*$" % name, tex, re.M).group(1)
+    return "%s: %s" % (get("booktitlemain"), get("booksubtitle"))
 
 
 def repo_root():
@@ -141,17 +162,53 @@ def label_map(root, rows):
     return out
 
 
+CITE_GROUP = re.compile(r"((?:\[[^\]]*\]){0,2})\{([^}]*)\}")
+
+
 def cite(m):
-    """\\autocite[III P2 Schol.]{spinoza1985collected} -> [@spinoza1985collected, III P2 Schol.]"""
-    locator, keys = m.group(1), m.group(2)
-    keys = ", ".join("@" + k.strip() for k in keys.split(","))
-    return "[%s%s]" % (keys, ", " + locator if locator else "")
+    """\\autocite[III P2 Schol.]{spinoza1985collected} -> [@spinoza1985collected, III P2 Schol.]
+
+    The multicite forms (\\autocites and kin) take one optional-argument set
+    and one key group per cited work: \\autocites[ch.~9]{a}{b} is two cites, the
+    locator belonging to the first. Until this read every group, the pattern
+    stopped at the first and left the rest in the prose as `{b}`. Groups are
+    joined with `;`, Pandoc's separator between cites; within a group the keys
+    and locator are joined as they always were. Two brackets are biblatex's
+    [prenote][postnote]; one is the postnote.
+    """
+    parts = []
+    for g in CITE_GROUP.finditer(m.group(1)):
+        notes = re.findall(r"\[([^\]]*)\]", g.group(1))
+        pre, post = notes if len(notes) == 2 else ("", notes[0] if notes else "")
+        keys = ", ".join("@" + k.strip() for k in g.group(2).split(","))
+        parts.append((pre + " " if pre else "") + keys + (", " + post if post else ""))
+    return "[%s]" % "; ".join(parts)
+
+
+def footnotes(text, labels):
+    """\\footnote{...} -> [^n], its text converted and queued. Braces matched,
+    because a note can hold a \\autocite of its own."""
+    out, i = [], 0
+    while True:
+        k = text.find("\\footnote{", i)
+        if k < 0:
+            out.append(text[i:])
+            return "".join(out)
+        end = _matching_brace(text, k)
+        FOOTNOTES["n"] += 1
+        n = FOOTNOTES["n"]
+        body = inline(text[k + len("\\footnote{"):end - 1], labels).strip()
+        FOOTNOTES["pending"].append("[^%d]: %s" % (n, body))
+        out.append(text[i:k] + "[^%d]" % n)
+        i = end
 
 
 def inline(text, labels):
     """Commands that live inside a paragraph."""
+    text = footnotes(text, labels)
     text = re.sub(
-        r"\\(?:auto|paren|text|foot|super)?cite[a-z]*\s*(?:\[([^\]]*)\])?\{([^}]*)\}",
+        r"\\(?:auto|paren|text|foot|super)?cite(?:s(?=\s*[\[{]))?\*?"
+        r"((?:\s*(?:\[[^\]]*\]){0,2}\{[^}]*\})+)",
         cite, text)
     text = re.sub(r"\\ref\{([^}]*)\}",
                   lambda m: labels.get(m.group(1))
@@ -160,6 +217,7 @@ def inline(text, labels):
     text = re.sub(r"\\url\{([^}]*)\}", r"<\1>", text)
     text = re.sub(r"\\(?:emph|textit)\{([^}]*)\}", r"*\1*", text)
     text = re.sub(r"\\textbf\{([^}]*)\}", r"**\1**", text)
+    text = re.sub(r"\\textsuperscript\{([^}]*)\}", r"^\1^", text)
     # \standing{...} is a note under a heading saying which of the foreword's
     # claims the text beneath it rests on. A blockquote, not italics: the book
     # sets it italic, but one of the eight notes contains an \emph and Markdown
@@ -179,11 +237,17 @@ def table(lines, labels):
     """A tabular body -> a Markdown table. Column count comes from row one."""
     rows = []
     for line in lines:
-        line = re.sub(r"\\\\(\[[^\]]*\])?\s*$", "", line.strip())
-        line = inline(line, labels).strip()
+        # longtable's furniture (D-621): a rule after every row, and the
+        # header-repeat marker. Gone before the row break is looked for, which
+        # it would otherwise hide.
+        line = re.sub(r"\\hline|\\endhead|\\endfirsthead", "", line).strip()
+        line = re.sub(r"\\\\(\[[^\]]*\])?\s*$", "", line).strip()
         if not line:
             continue
-        rows.append([c.strip() for c in line.split("&")])
+        # Split on the column separator BEFORE inline() restores an escaped \&
+        # to a bare one, or a cell holding "R\&D" became two cells.
+        cells = re.split(r"(?<!\\)&", line)
+        rows.append([inline(c, labels).strip().replace("|", "\\|") for c in cells])
     if not rows:
         return []
     width = len(rows[0])
@@ -200,7 +264,8 @@ def table(lines, labels):
 # output verbatim: the unconverted-command warning named \emph for two sites a
 # re-wrap had broken (D-422).
 JOIN_ARGS = ("emph", "textit", "textbf", "ref", "autocite", "cite",
-             "standing", "runin", "boxtitle", "url", "text")
+             "standing", "runin", "boxtitle", "url", "text", "footnote",
+             "textsuperscript", "part")
 
 
 def join_split_args(text):
@@ -317,12 +382,26 @@ def render(path, nums, root, labels):
         if line.rstrip() == "\\appendix":
             continue                      # structure only; nothing to render
 
+        # The table wrapper (D-621): font size and row spacing, nothing to render.
+        if line.startswith(("\\begingroup", "\\endgroup")):
+            continue
+
+        m = re.match(r"\\part\{(.*)\}\s*$", line)
+        if m:
+            # Above a chapter's "##", so "#", the depth of the book's title. A
+            # Part is the one division larger than a chapter, and Markdown has
+            # no level between the two.
+            PARTS["n"] += 1
+            out += ["", "# Part %s — %s" % (ROMAN[PARTS["n"] - 1],
+                                           inline(m.group(1), labels).strip()), ""]
+            continue
+
         m = re.match(r"\\begin\{(\w+)\}", line)
         if m:
             env = m.group(1)
-            if env == "tabular":
+            if env in ("tabular", "longtable"):
                 body = []
-                while i < len(lines) and not lines[i].startswith(r"\end{tabular}"):
+                while i < len(lines) and not lines[i].startswith(r"\end{%s}" % env):
                     body.append(lines[i]); i += 1
                 i += 1
                 out += [""] + table(body, labels) + [""]
@@ -347,6 +426,19 @@ def render(path, nums, root, labels):
         m = re.match(r"\s*\\item\s*(?:\[([^\]]*)\])?\s*(.*)$", line)
         if m:
             term, body = m.group(1), inline(m.group(2), labels).strip()
+            # An explicit number on an enumerate item is the item's number
+            # (D-621 writes every one as \item[N.]); printing it as a bold label
+            # after the list's own counter set "1. **1.**" 84 times. A lettered
+            # one, 6a, is no Markdown list number, so it becomes a paragraph
+            # inside the item before it, keeping its label (D-623).
+            if stack and stack[-1][0] == "ol" and term and re.fullmatch(r"\d+[a-z]*\.", term.strip()):
+                t = term.strip()
+                if t[:-1].isdigit():
+                    stack[-1][2] = int(t[:-1])
+                    out.append("%s %s" % (t, body))
+                else:
+                    out += ["", "   **%s** %s" % (t, body)]
+                continue
             if stack and stack[-1][0] == "ol":
                 stack[-1][2] += 1
                 bullet = "%d. " % stack[-1][2]
@@ -375,6 +467,11 @@ def render(path, nums, root, labels):
         else:
             out.append(line)
 
+    if FOOTNOTES["pending"]:
+        for note in FOOTNOTES["pending"]:
+            out += ["", note]
+        out.append("")
+        FOOTNOTES["pending"] = []
     return out
 
 
@@ -786,7 +883,7 @@ def main():
 
         body = squeeze(body)
         front = [
-            "# Antifascist Intelligence: Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs",
+            "# " + book_title(root),
             "",
             "Joshua G. Stern",
             "",
