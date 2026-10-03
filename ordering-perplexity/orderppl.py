@@ -262,8 +262,9 @@ class Scorer:
         self.model_id = model_id
         self.device = device or ("cuda" if torch.cuda.is_available() else "cpu")
         # Precision is a measurement choice, not only a speed one. Chapter 1 scored
-        # alone and in batches of 2 and 4 (Qwen2.5-0.5B, 2026-10-03) spread by
-        # 3.3 nats in bf16, 0.1 in fp16 and 0.000 in fp32.
+        # alone and in batches of 2 and 4 (2026-10-03) spread by 3.3 nats in bf16
+        # and 0.1 in fp16 with Qwen2.5-0.5B, 1.3 in fp16 with Qwen3-1.7B-Base, and
+        # 0.002 or less in fp32 with every model tried.
         self.dtype = getattr(torch, dtype) if isinstance(dtype, str) else dtype
         self.tok = AutoTokenizer.from_pretrained(model_id)
         self.model = AutoModelForCausalLM.from_pretrained(

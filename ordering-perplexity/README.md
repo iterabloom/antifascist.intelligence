@@ -67,9 +67,19 @@ jupyter lab ordering-perplexity/01_orderings.ipynb
 - **Attribution.** Each token's NLL is credited to the unit its first
   character falls in, and a separator to the unit after it. That is what
   context gain uses.
-- **Noise floor.** The same text scored at batch sizes 1, 2, 4 and 8 gives
-  slightly different totals in fp16/bf16. The notebook measures that spread
-  for the chosen section and shades it on every plot.
+- **Noise floor.** The same text scored at batch sizes 1, 2 and 4 does not
+  always give the same total, because the GPU kernels change with the batch
+  shape. Chapter 1 on the RTX 3060, 2026-10-03:
+
+  | model | bf16 | fp16 | fp32 |
+  |---|---|---|---|
+  | Qwen2.5-Coder-0.5B-Instruct | 3.3 | 0.1 | 0.000 |
+  | Qwen3-1.7B-Base | | 1.3 | |
+  | Qwen3.5-0.8B-Base | | | 0.002 |
+
+  (nats; blank = not measured). Sentence shuffles move totals by a few to a
+  few tens of nats, so the notebook defaults to fp32. It measures the spread
+  for the chosen section and model and shades it on every plot.
 
 Perplexity is what a language model finds predictable. It is not a measure of
 whether an argument is well ordered: a paragraph placed to surprise the reader
@@ -85,14 +95,20 @@ running text, which is the quantity being measured.
   32k context, loaded with `AutoModelForCausalLM`. On a T4 the GPU has no
   bf16, so the notebook runs fp16 and raises if any NLL comes back non-finite.
 - **Qwen3.5 base** (`Qwen/Qwen3.5-{0.8B,2B,4B,9B}-Base`): hybrid linear and
-  full attention, published as image-text-to-text models. Checked
-  2026-10-03 with transformers 5.18 from the config alone, without weights:
-  `AutoModelForCausalLM` builds the text-only `Qwen3_5ForCausalLM`, and its
-  decoder and output head are the ones `orderppl.Scorer` uses. **Not yet run
-  on weights.** The linear-attention layers use the `flash-linear-attention`
-  and `causal-conv1d` kernels when installed and a slower PyTorch path when
-  not. Its tokenizer has 248k entries against Qwen3's 152k, so compare
-  across the two families on nats per character.
+  full attention, published as image-text-to-text models. With transformers
+  5.18, `AutoModelForCausalLM` loads the text-only `Qwen3_5ForCausalLM` and
+  the notebook runs it unchanged. Measured 2026-10-03 on the RTX 3060 with
+  `Qwen3.5-0.8B-Base` in fp32: the scorer matches the library's own loss
+  (575.785 nats either way), the noise floor is 0.002 nats, chapter 1 against
+  20 shuffles takes 23.6 s, section 3.1 (9,307 tokens) scores at about 4 s
+  per ordering, and peak memory is 5.2 GB. That is with transformers'
+  reference PyTorch path for the linear-attention layers, which it warns is
+  "much slower" than the `flash-linear-attention` and `causal-conv1d`
+  kernels. Installing those in Colab is untested here; `causal-conv1d`
+  compiles CUDA code on install. The tokenizer has 248k entries against
+  Qwen3's 152k, so compare across the two families on nats per character:
+  chapter 1 scores 0.752 under `Qwen3.5-0.8B-Base` and 0.757 under
+  `Qwen3-0.6B-Base`.
 
 Longest section: 3.1, about 7,500 words, roughly 10,000 tokens. Scoring
 batches are capped at `max_batch_tokens` (default 16,384), so a section that
