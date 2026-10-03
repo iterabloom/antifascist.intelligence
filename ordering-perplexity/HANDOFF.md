@@ -85,25 +85,30 @@ Append to it rather than editing earlier entries.
   output. The book's own text is fine to print, but commit notebooks with
   outputs cleared, keep `results/` out of git, and never point anything here
   at `persona-device-files_*.zip`.
-- **The notebook has no generator in the repository.** It was built by a
-  script that lived in a session scratch directory and is gone. Edit the
-  `.ipynb` directly. Cell ids are fixed (`c00` to `c25`), so diffs show only
-  real changes.
+- **The notebook is generated.** Edit `build_notebook.py` and rerun it, not
+  the `.ipynb`; a hand edit is lost at the next rebuild. Cell ids are fixed
+  (`c00` to `c25`), so diffs show only real changes, and a rebuild of an
+  unchanged script reproduces the committed notebook byte for byte.
 
 ## Environment notes (the author's agent VM, `jgstern_agent`)
 
 - A shallow clone (`--depth 1`) of this repository is at `~/ethical.superintelligence`.
   Two full clones stalled with no data arriving. Pushing from it works.
 - GitHub access is HTTPS through `gh`, logged in as `jgstern-agent`.
+- Start agent sessions for this work from `~/ethical.superintelligence`, so
+  the repository's `AGENTS.md` loads. The session that built this folder ran
+  from `~/antifascist-intelligence-ppl/`, a placeholder since retired.
 - **Hugging Face downloads crash on the VM's proxy settings.** `NO_PROXY`
   contains an IPv6 CIDR (`fd00:200::/40`), which `httpx` rejects as a URL
   port. Override it per command:
   `NO_PROXY=localhost,127.0.0.1,10.200.0.0/16 no_proxy=$NO_PROXY ...`.
   The network was slow (1–14 MB/s) on 2026-10-03.
 - Cached in `~/.cache/huggingface/hub`: `Qwen3-0.6B-Base`, `Qwen3-1.7B-Base`,
-  `Qwen3.5-0.8B-Base`. The test environment (torch 2.14.1+cu130,
-  transformers 5.18.0) was in session scratch and is gone. The README's
-  `pip install` line recreates it.
+  `Qwen3.5-0.8B-Base`. The Python environment is `ordering-perplexity/.venv`
+  (torch 2.14.1+cu130, transformers 5.18.0, JupyterLab), gitignored. The
+  2026-10-03 test runs are in `results/` on that VM: the chapter-1 figures
+  for `Qwen3-0.6B-Base` in `results/figures/`, and the executed sweep
+  notebook for the Qwen2.5 stand-in.
 - **The RTX 3060 (12 GB) is shared.** Another of the author's jobs held a
   CUDA context on it. Check `nvidia-smi` first, and cap your process, for
   example with `torch.cuda.set_per_process_memory_fraction(0.5)`.

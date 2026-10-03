@@ -23,3 +23,7 @@ Pushed to `origin/main` at the maintainer's instruction (`ee935f7..9e80fe8`, a f
 ### 2026-10-03 — the worklog moves into this folder
 
 At the maintainer's instruction the lab notebook lives in one place only: here, as `ordering-perplexity/worklog.md` in the book's repository. Its three commits in the separate repository `iterabloom/antifascist-intelligence-ppl_lab_notebook` (created earlier the same day, private) carried only this file and a README that pointed here; that repository and the local `~/antifascist-intelligence-ppl_lab_notebook/` are superseded. The handoff note is `HANDOFF.md`.
+
+### 2026-10-03 — everything in one folder
+
+At the maintainer's instruction, everything belonging to this work is in `ordering-perplexity/`. The notebook generator, which had lived in a session scratch directory, is now `build_notebook.py`; rebuilding from it reproduces the committed notebook byte for byte. The Python environment was rebuilt from uv's cache at `ordering-perplexity/.venv`, and the test runs' figures and executed notebook moved into `results/`. Both are gitignored. Outside this folder there remain only the Hugging Face model cache, the retired `~/antifascist-intelligence-ppl/`, the local `~/antifascist-intelligence-ppl_lab_notebook/` copy, and the private repository `iterabloom/antifascist-intelligence-ppl_lab_notebook`; the last three are to be deleted.

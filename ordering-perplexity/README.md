@@ -9,9 +9,10 @@ nothing here edits the book.
 |---|---|
 | `01_orderings.ipynb` | One section at a time: original paragraph order against random shuffles, neighbour swaps, context gain per paragraph, sentence shuffles inside each paragraph, and an optional sweep over every section |
 | `orderppl.py` | Text extraction, scoring and plots, imported by the notebook |
+| `build_notebook.py` | Generates `01_orderings.ipynb`; edit this rather than the notebook |
 | `worklog.md` | The running worklog and design notes, appended in date order |
 | `HANDOFF.md` | State of the work, what has and has not been checked, and the pitfalls; read it before picking this up |
-| `results/` | Written by the notebook, gitignored (CSVs and the rendered book text) |
+| `results/` | Written by the notebook, gitignored: CSVs, the rendered book text, and on the agent VM the 2026-10-03 test runs (`figures/`, an executed notebook) |
 
 ## Running in Colab
 
@@ -40,15 +41,20 @@ runtime ends. Set `SAVE_TO_DRIVE = True` to write them to
 
 ## Running locally
 
-From a checkout, with a CUDA GPU:
+From `ordering-perplexity/` in a checkout, with a CUDA GPU:
 
 ```bash
 python3 -m venv .venv && . .venv/bin/activate
-pip install torch "transformers>=4.57" accelerate pysbd pandas matplotlib jupyter
-jupyter lab ordering-perplexity/01_orderings.ipynb
+pip install torch "transformers>=4.57" accelerate pysbd pandas matplotlib nbformat jupyterlab
+jupyter lab 01_orderings.ipynb
 ```
 
-`.venv/` is already gitignored at the repository root.
+`.venv/` is gitignored by the repository's root `.gitignore`. On the
+author's agent VM the environment already exists at
+`ordering-perplexity/.venv` (torch 2.14.1+cu130, transformers 5.18.0).
+
+The notebook is generated. To change it, edit `build_notebook.py` and run
+`.venv/bin/python build_notebook.py`, then commit both files.
 
 ## What is measured
 
