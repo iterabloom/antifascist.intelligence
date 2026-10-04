@@ -1,0 +1,77 @@
+# Chapters 15-29 shifted to 16-30, 2026-10-04 (D-632): a new chapter 15,
+# "What a Refusal Would Have to Do", promoted from the Part IV page.
+# Numbers are those after D-631 (renumber-map_2026-10-04.tsv). Labels,
+# ORDER.tsv nums, outline/ledger nums, file paths and the hand-typed table
+# numbers moved together. Appendices A-F did not move.
+old	new	note
+—	15	new, promoted from manuscript/sections/ch15/00_part_IV.tex
+—	15.1	new, promoted from manuscript/sections/ch15/00_part_IV.tex
+—	15.2	new, promoted from manuscript/sections/ch15/00_part_IV.tex
+15	16	
+15.1	16.1	
+15.2	16.2	
+15.3	16.3	
+15.4	16.4	
+16	17	
+16.1	17.1	
+16.2	17.2	
+16.3	17.3	
+16.4	17.4	
+16.5	17.5	
+17	18	
+17.1	18.1	
+17.2	18.2	
+17.2.1	18.2.1	
+17.2.2	18.2.2	
+17.3	18.3	
+17.4	18.4	
+17.5	18.5	
+18	19	
+18.1	19.1	
+18.2	19.2	
+19	20	
+19.1	20.1	
+19.2	20.2	
+19.3	20.3	
+19.4	20.4	
+20	21	
+20.1	21.1	
+20.2	21.2	
+20.3	21.3	
+20.4	21.4	
+20.5	21.5	
+21	22	
+21.1	22.1	
+21.2	22.2	
+21.3	22.3	
+21.4	22.4	
+21.5	22.5	
+21.6	22.6	
+21.7	22.7	
+21.8	22.8	
+22	23	
+23	24	
+23.1	24.1	
+23.2	24.2	
+24	25	
+25	26	
+25.1	26.1	
+25.2	26.2	
+26	27	
+26.1	27.1	
+26.1.1	27.1.1	
+26.1.2	27.1.2	
+27	28	
+27.1	28.1	
+27.1.1	28.1.1	
+27.1.2	28.1.2	
+27.2	28.2	
+27.3	28.3	
+27.4	28.4	
+28	29	
+29	30	
+29.1	30.1	
+29.2	30.2	
+29.3	30.3	
+29.4	30.4	
+29.5	30.5	

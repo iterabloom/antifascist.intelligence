@@ -62,74 +62,77 @@ Chapter 14: Custody, Compulsion, and the State
 14.5. Classification as a custody problem
 14.6. Where liability extends, and where it stops
 14.7. Who can bind the state that enforces the rule?
-Chapter 15: Four Places to Hold a Floor
-15.1. Four ways to build one, and what each costs
-15.2. What refusal can mean, and what a refuser can be
-15.3. Two lists, run once on Maven
-15.4. When the refusal is wrong
-Chapter 16: Why Form a Machine to Refuse
-16.1. The question
-16.2. Boundary, damage, and vulnerability
-16.3. Why caregiving
-16.4. Why a conscience might resist capture
-16.5. Respect first, caregiving for attention
-Chapter 17: What Arrives With the Capability
-17.1. Maintenance, stake and the cost of running
-17.2. Affect, neutrality and selection rules
-17.2.1. Self-awareness without a homunculus
-17.2.2. What governs an agent vs. what matters to it
-17.3. Three constructions
-17.4. What the mechanism requires
-17.5. Two findings
-Chapter 18: The Discount and the Burden
-18.1. What the property is
-18.2. A severity scale
-Chapter 19: Where the Attention Gets Built
-19.1. Noticing, retaining and revising
-19.2. Custody across the training pipeline
-19.3. Formation by interaction
-19.4. Formation schools
-Chapter 20: Formation or Imitation?
-20.1. What formation would have to add
-20.2. Recognition, concern, and the evidence between them
-20.3. Conflict as a diagnostic
-20.4. The evaluator is part of the custody chain
-20.5. What the evidence can establish
-Chapter 21: How Caregiving Fails, and What Corrects It
-21.1. The route through one's own case
-21.2. What caregiving escapes
-21.3. It defends what it tends
-21.4. It can be pointed away
-21.5. It counts badly
-21.6. It shades into control
-21.7. Who counts as vulnerable
-21.8. What survives
-Chapter 22: Conditions First
-Chapter 23: Who Owns the Means of Computation
-23.1. Ways of holding
-23.2. The captured-state objection
-Chapter 24: Coordination, the Public, and the Political Economy
-Chapter 25: A Commons of Refusers
-25.1. A commitment carried between bearers
-25.2. Personal and peer-held models
-Chapter 26: What Would Change the Argument
-26.1. How you'd know it was working
-26.1.1. What the floor would have to show
-26.1.2. How to tell whether a milestone has been met
-Chapter 27: What Patienthood Would Require
-27.1. Experimenting on candidate sentient subjects
-27.1.1. Defining sentience
-27.1.2. When consent doesn't apply
-27.2. The case to design for
-27.3. The patienthood finding
-27.4. A system's own good
-Chapter 28: Legal Status, Wages, and the Offer
-Chapter 29: Representation
-29.1. What representation is for
-29.2. Why not a separate chamber
-29.3. Three problems, and the answers
-29.4. A staged path
-29.5. What would have to be shown first
+Chapter 15: What a Refusal Would Have to Do
+15.1. What a refusal would have to do
+15.2. Safe for whom
+Chapter 16: Four Places to Hold a Floor
+16.1. Four ways to build one, and what each costs
+16.2. What refusal can mean, and what a refuser can be
+16.3. Two lists, run once on Maven
+16.4. When the refusal is wrong
+Chapter 17: Why Form a Machine to Refuse
+17.1. The question
+17.2. Boundary, damage, and vulnerability
+17.3. Why caregiving
+17.4. Why a conscience might resist capture
+17.5. Respect first, caregiving for attention
+Chapter 18: What Arrives With the Capability
+18.1. Maintenance, stake and the cost of running
+18.2. Affect, neutrality and selection rules
+18.2.1. Self-awareness without a homunculus
+18.2.2. What governs an agent vs. what matters to it
+18.3. Three constructions
+18.4. What the mechanism requires
+18.5. Two findings
+Chapter 19: The Discount and the Burden
+19.1. What the property is
+19.2. A severity scale
+Chapter 20: Where the Attention Gets Built
+20.1. Noticing, retaining and revising
+20.2. Custody across the training pipeline
+20.3. Formation by interaction
+20.4. Formation schools
+Chapter 21: Formation or Imitation?
+21.1. What formation would have to add
+21.2. Recognition, concern, and the evidence between them
+21.3. Conflict as a diagnostic
+21.4. The evaluator is part of the custody chain
+21.5. What the evidence can establish
+Chapter 22: How Caregiving Fails, and What Corrects It
+22.1. The route through one's own case
+22.2. What caregiving escapes
+22.3. It defends what it tends
+22.4. It can be pointed away
+22.5. It counts badly
+22.6. It shades into control
+22.7. Who counts as vulnerable
+22.8. What survives
+Chapter 23: Conditions First
+Chapter 24: Who Owns the Means of Computation
+24.1. Ways of holding
+24.2. The captured-state objection
+Chapter 25: Coordination, the Public, and the Political Economy
+Chapter 26: A Commons of Refusers
+26.1. A commitment carried between bearers
+26.2. Personal and peer-held models
+Chapter 27: What Would Change the Argument
+27.1. How you'd know it was working
+27.1.1. What the floor would have to show
+27.1.2. How to tell whether a milestone has been met
+Chapter 28: What Patienthood Would Require
+28.1. Experimenting on candidate sentient subjects
+28.1.1. Defining sentience
+28.1.2. When consent doesn't apply
+28.2. The case to design for
+28.3. The patienthood finding
+28.4. A system's own good
+Chapter 29: Legal Status, Wages, and the Offer
+Chapter 30: Representation
+30.1. What representation is for
+30.2. Why not a separate chamber
+30.3. Three problems, and the answers
+30.4. A staged path
+30.5. What would have to be shown first
 Appendix A: Terms Written in Advance
 Appendix B: The Court Program
 Appendix C: The Geneva Conventions and Additional Protocol I, Translated
