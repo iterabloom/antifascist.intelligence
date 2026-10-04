@@ -15,7 +15,7 @@
   text in the tree: the record stays complete and anyone can download and read
   it, and no rendered page carries a real person's name beside generated text,
   which is what search engines index. The plain files came out of the tree on
-  2026-09-05. Anything of this kind that must not be in the repository at all
+  2026-09-05, and out of the history on 2026-10-03 (D-628). Anything of this kind that must not be in the repository at all
   goes in `~/antifascist.intelligence-private/`, outside it.
 
   **Ordinary scholarly citation is allowed and expected.** Naming the researchers
