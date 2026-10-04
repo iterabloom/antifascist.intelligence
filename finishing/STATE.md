@@ -1,6 +1,6 @@
 # State of play
 
-Read this first. **Updated 2026-10-04 after the proofs following D-634.** **Proof status, the one live sentence**: `finishing/reports/whole-book-proof_2026-10-04.{pdf,html}`, **313 pages, built from `3ad0b7b`**, footer **0/705**, the README linking both; they carry Part III's restored opener. Any proof-status sentence in the leads below, the D-634 lead's *proofs not remade* included, is superseded by this one. **Open**: what the D-634 lead below leaves open.
+Read this first. **Updated 2026-10-04 after the proofs following D-634.** **Proof status, the one live sentence**: `finishing/reports/whole-book-proof_2026-10-04.{pdf,html}`, **314 pages, built from `3ad0b7b`**, footer **0/705**, the README linking both; they carry Part III's restored opener, which added the page. The proofs commit `28cfc0d` says 313 in its message; the PDF has 314. Any proof-status sentence in the leads below, the D-634 lead's *proofs not remade* included, is superseded by this one. **Open**: what the D-634 lead below leaves open.
 
 **Updated 2026-10-04 after D-634: Part III's opener is restored, in the author's new wording.** The paragraph D-630 found commented out is replaced by the supplied one, which names the Part's five chapters in order. Suite green. **Proofs not remade**: the proof-status sentence in the lead below names a pair built before D-634. **Open**: whether chapter 13 says what a fascist state adds to the four operations, as the new opener says it does; what the D-633 lead below leaves open.
 
