@@ -612,6 +612,17 @@ def cmd_import(args):
         if row is None:
             continue                     # book.tex, preamble.tex, refs.bib
         h = heading_of(text)
+        # A continuation row (empty num: a Part page, the epigraph page) has no
+        # heading or label to keep, and check_structure.py exempts it. Until
+        # this was added, any edit to a Part page stopped the import. What
+        # would still be structural is the file gaining a heading.
+        if not row["num"]:
+            if h is not None:
+                problems.append("%s: a continuation file now opens with a "
+                                "heading. A new section needs rows in "
+                                "ORDER.tsv, outline.tsv and ledger.tsv"
+                                % zip_path_for(repo_rel))
+            continue
         if h is None:
             problems.append("%s: no longer opens with a heading command and a "
                             "\\label{sec:N}; check_structure.py requires both"

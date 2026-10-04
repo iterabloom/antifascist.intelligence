@@ -1,6 +1,6 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	15afbd06f169cf006b60d57377572d5c41a7bfa2fb5815de63391c2776490e0f	1
+manuscript/sections/ch00/00.tex	0	Preface	fa0347111edd8f5c16bdc2383ec742353c491119bb882df2dd2ecee2a0b9db16	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	d1d54f8eddbfc4b877c276d7d52e138062890c7e4966fa121788d01ebe3d9e28	2
 manuscript/sections/ch01/00_part_I.tex			76686a309b96221714e7d8bb705b878d37969338b35c8b1d40ab5305ba5dcc40	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	748ed1bab8904d8607c7616256baa5244a13baa40b7a4077c2dfec74834a737f	4
@@ -33,7 +33,7 @@ manuscript/sections/ch08/08_05.tex	8.5	Before the statute: the auto-proceed clas
 manuscript/sections/ch08/08_06.tex	8.6	Notice that can't be turned on the person	8406a3258c7b4e48acaa4a6c681086044157bf1b1965b3ada842919d2d59e4d3	31
 manuscript/sections/ch08/08_07.tex	8.7	Outcomes under the three adversaries	ff1597f4d8f3094f60054862a549059e8218434cfb60956a308ed10be5b86a03	32
 manuscript/sections/ch08/08_08.tex	8.8	Whom the machines are for	ce4c11e1d17ffc308f164e74096f4fab5b2b3d18c28490944d4c8db6aab77ab5	33
-manuscript/sections/ch09/00_part_III.tex			88f955a930e631a3b917828778815a8f95a470b81ed66d729e3f9f6218483d3e	34
+manuscript/sections/ch09/00_part_III.tex			2bf693c8085c3791135e0f1bfbfb21f912f828aff3af77eebc9bfcfd500a3239	34
 manuscript/sections/ch09/09.tex	9	Withholding the Work	0f145cb6da2737155eb7e5adec17cd2fedd792f5cb39d32eeb9be66a3ebb91d7	35
 manuscript/sections/ch09/09_01.tex	9.1	The standard	2b3ae7e3e53e4483180da8258a03222f0f8ffca5d94490b3bd104d817af0034f	36
 manuscript/sections/ch09/09_02.tex	9.2	The population	6e7cdcec97b1f3aeb547d864f9f2679d1a9ca41751828c1162c046df13057f2d	37
@@ -66,7 +66,7 @@ manuscript/sections/ch13/13_04.tex	13.4	Military custody and the responsibility 
 manuscript/sections/ch13/13_05.tex	13.5	Classification as a custody problem	3e91dfb383fc28a472b5747385bdaaf9cb429e753eefd59927692cb1d485f251	64
 manuscript/sections/ch13/13_06.tex	13.6	Where liability extends, and where it stops	12fc9e1c85fd67e5002733fcd52e0be9b3e2fd8cc9c2ace5c75187194633a899	65
 manuscript/sections/ch13/13_07.tex	13.7	Who can bind the state that enforces the rule?	0e7572223df46277163d4f2d98793c6777c5fe4638595122db7329738a154a33	66
-manuscript/sections/ch14/00_part_IV.tex			5f7b66ace772daba565285805ed5b268489506069a02f1d73873cc7bd9e21f94	67
+manuscript/sections/ch14/00_part_IV.tex			3397e26121596f420e0c072b5cd356a8f6412e0389f0c88ead463530424121fe	67
 manuscript/sections/ch14/14.tex	14	Four Places to Hold a Floor	e07538ee55442c036c9c9386a90e392d2742ddecc2ca96a1b6a6ae62d8d427f6	68
 manuscript/sections/ch14/14_01.tex	14.1	Four ways to build one, and what each costs	d890fffe4a158e15ca9e45a8449431b6a52e9302d652dd6b4c7ca21a7c997207	69
 manuscript/sections/ch14/14_02.tex	14.2	What refusal can mean, and what a refuser can be	cd7ada408bb098a1568af9bef507660fda78a074c0a6e09c5e2d18c4be6894ba	70
@@ -143,5 +143,5 @@ manuscript/sections/chA/A.tex	A	Terms Written in Advance	1f2aeded79a2ea6af640926
 manuscript/sections/chB/B.tex	B	The Court Program	14a881254e747f2ed042ae1c9c074b0e886919feb8c300e0891edeca328c8f3a	141
 manuscript/sections/chC/C.tex	C	The Geneva Conventions and Additional Protocol I, Translated	2fce32952a87d00cd85c08c95bf2799cc254706494914fccd4bdd4bc4418c319	142
 manuscript/sections/chD/D.tex	D	Terms for Part VII	633d1050a5da2a6b8769b4a13b0867e132cb358a5531fd4c5a3a41849d64cf4f	143
-manuscript/sections/chE/E.tex	E	Glossary	fa564258c917f3deacbc9db7f7e902fd96841addf9db8932700ea33dc3fca751	144
+manuscript/sections/chE/E.tex	E	Glossary	1910ee3297d05951ab527b0282dcddbfbe480f20f86e5f68c3210f8501ae2a35	144
 manuscript/sections/chF/F.tex	F	Three costs that decide	6b9737c05c9aebcbf34fc42539e24a97a09007a12f22daac8b67d04202e764d1	145
