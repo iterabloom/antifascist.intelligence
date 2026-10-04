@@ -64,9 +64,9 @@ manuscript/sections/ch14/14_01.tex	14.1	Certification across borders	883fe7a0cb6
 manuscript/sections/ch14/14_02.tex	14.2	Where the state's leverage sits	d302cd5eb0aa9a638d26460546c6ed15a091b2802668bf31f4a7b97ce247432c	62
 manuscript/sections/ch14/14_03.tex	14.3	Custody and state compulsion	01238c784052ea6eb45cfefe3db54a0218f4744c85b62124a00029c733b27578	63
 manuscript/sections/ch14/14_04.tex	14.4	Military custody and the responsibility gap	6a27f0f2418f50e1ca8396f3d26a8b94e81e40c4aaccb37a251f5bfdd29abdcd	64
-manuscript/sections/ch14/14_05.tex	14.5	Classification as a custody problem	148a26c7e41bea35f4cb33ad95bd157a727baeafab407f55bb21a16322932904	65
+manuscript/sections/ch14/14_05.tex	14.5	Classification as a custody problem	997337ccd0d0cc1b197271c46a0a8178e4e312253c980d9a3e39411aeecd10f0	65
 manuscript/sections/ch14/14_06.tex	14.6	Where liability extends, and where it stops	5c7ad76863087a8d4fe1b205f13fbcffdf32f4cb420cede98fbc57e476224f07	66
-manuscript/sections/ch14/14_07.tex	14.7	Who can bind the state that enforces the rule?	77a6b01b5443e67aee4447f5d2534b51589ec1da7e576c175a931bf339edc9a8	67
+manuscript/sections/ch14/14_07.tex	14.7	Who can bind the state that enforces the rule?	17ecd5c7887f5f5c27b51accb49d626f06e44d8f630e9a3b254aa44efe2e5e99	67
 manuscript/sections/ch15/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	68
 manuscript/sections/ch15/15.tex	15	What a Refusal Would Have to Do	3600e0a85f217ae82cd54cbccf225d958036731d600ea61b098ada7b3ae2f05d	69
 manuscript/sections/ch15/15_01.tex	15.1	What a refusal would have to do	8e8785c7b39b75671095b8ba8c3bc0f00d6ef8cb3bcd7f68d604aa59e9c8734d	70
@@ -114,16 +114,16 @@ manuscript/sections/ch22/22_06.tex	22.6	It shades into control	9d7a352ae18c0cefa
 manuscript/sections/ch22/22_07.tex	22.7	Who counts as vulnerable	4f41c78510c6169b8c774c996047237afc69ad4b31b75318bf67b13a95c8ea88	112
 manuscript/sections/ch22/22_08.tex	22.8	What survives	1b2456bb1c431511a8c415b2feb947a61e04d97164aac9cf1d337519f016f7eb	113
 manuscript/sections/ch23/23.tex	23	Conditions First	6fa426ce104ee73aab4a67f633012e0e9f9f509a4492bafa27231266cb8b4924	114
-manuscript/sections/ch24/00_part_V.tex			f3ba38e00066205cce496a9ee348083b35c3e74bb4910b20e13949d2e61d719c	115
+manuscript/sections/ch24/00_part_V.tex			4c429010e7372caf3cde8f6dbe61028926292780a71ba44213a1813227c008d4	115
 manuscript/sections/ch24/24.tex	24	Who Owns the Means of Computation	6da1902c97c7b33259dd31f100a9b4a25123c11b668fbf2414fb740640747fe0	116
 manuscript/sections/ch24/24_01.tex	24.1	Ways of holding	5243579ec784f9109dca4198fc389da90dc74367bedf3f3f06710a5c496625b1	117
 manuscript/sections/ch24/24_02.tex	24.2	The captured-state objection	bff44b44717fcf3507623a5cbbaf0b974deadaf127682c64ac5a1bf659061481	118
-manuscript/sections/ch25/25.tex	25	Coordination, the Public, and the Political Economy	53797cdec281a92c7c12aa9833266b0b27097fae176a034d609900db08a9cb38	119
+manuscript/sections/ch25/25.tex	25	Coordination, the Public, and the Political Economy	fe2ceb58e8d152d94be173504b45b5cfeab2d9cb33b8af47f5deb75760b23b43	119
 manuscript/sections/ch26/26.tex	26	A Commons of Refusers	387cb879bf466db7274669042d38bc48114212c5b9583deff7bd9ae3bb10fd62	120
 manuscript/sections/ch26/26_01.tex	26.1	A commitment carried between bearers	79f045b41214ca0bfa6e7d1b58b7f1df9c27d760d45e785a4f4d07f2d561a661	121
 manuscript/sections/ch26/26_02.tex	26.2	Personal and peer-held models	527cbe521a6b53ac7ae69d42e479a66c231642252d14f7c3c8d480a33bc381dc	122
 manuscript/sections/ch27/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	123
-manuscript/sections/ch27/27.tex	27	What Would Change the Argument	9911aae49e0887ef4e9c6095270190962d6419ce6b1e7e587176b22f5c7e94b0	124
+manuscript/sections/ch27/27.tex	27	What Would Change the Argument	3d87d756245ff8ac5df13c159a035a1e23e2bc8df829c900bdba097fad6d3c84	124
 manuscript/sections/ch27/27_01.tex	27.1	How you'd know it was working	e2b5eca9887b6126ec1b94c3d0c70e7211d8524cb1b4c083cf183192857c532e	125
 manuscript/sections/ch27/27_01_01.tex	27.1.1	What the floor would have to show	ab77d0484fb735a39ebd64cd13f8ead8fb6b1ec182e109d70f47b73c618825ac	126
 manuscript/sections/ch27/27_01_02.tex	27.1.2	How to tell whether a milestone has been met	59b866a72eb20bffad465d5d669d15f0fb11cf878e9d8884beae016868560adb	127
@@ -143,9 +143,9 @@ manuscript/sections/ch30/30_03.tex	30.3	Three problems, and the answers	ba0a9885
 manuscript/sections/ch30/30_04.tex	30.4	A staged path	526b68bc0a52ab8e38b2d653e0acaf5c24a5bfdaee19f2813b68fe0656787f66	141
 manuscript/sections/ch30/30_05.tex	30.5	What would have to be shown first	d53576e7b65f1db74f80f2015daa8f9a624a7472c5079e6b515de55e8b5b14cd	142
 manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	143
-manuscript/sections/chA/A.tex	A	Terms Written in Advance	3acd793066407acb1bc3c1c807c2951cbf51d1ae46d75d13f7dcc66a3e4610b3	144
+manuscript/sections/chA/A.tex	A	Terms Written in Advance	9aa442139accafd72d6bdeaabbf5178647683d9ba78c72945b0caf1a88c80dc6	144
 manuscript/sections/chB/B.tex	B	The Court Program	14a881254e747f2ed042ae1c9c074b0e886919feb8c300e0891edeca328c8f3a	145
 manuscript/sections/chC/C.tex	C	The Geneva Conventions and Additional Protocol I, Translated	ce01fdde2675538c5bb06b6126818bce739aa7ee3a67beca8659e3f0e17f3943	146
 manuscript/sections/chD/D.tex	D	Terms for Part VII	633d1050a5da2a6b8769b4a13b0867e132cb358a5531fd4c5a3a41849d64cf4f	147
-manuscript/sections/chE/E.tex	E	Glossary	6f794b2978995236548e37bdfd50f2de33e40cc76780e6925aa755e2f5e523aa	148
+manuscript/sections/chE/E.tex	E	Glossary	ceedc1f97cdc1f8a9cb80417d393bfec513d99c1957600d71fe6049ed252ca6c	148
 manuscript/sections/chF/F.tex	F	Three costs that decide	8436f0760a744d51b7a2b7109e674b8b89aece1bc87c33ae892d61c76e66f381	149
