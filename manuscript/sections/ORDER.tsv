@@ -1,6 +1,6 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	180d27ad546b0b839666d66505a4c56d2a547035e49de738ce712e2cd88b8049	1
+manuscript/sections/ch00/00.tex	0	Preface	509e287cd7a8d8f3fba46ee50c6abdac331a18d9d68504355b2daff4abcf2d15	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	4370caeff1ac4f8641ab4470197d57ac1033381230d9c22e648452065a010c7f	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	4a6a3e2527313d6f668afffabad28dafb6559ea5936c2bc17b178db9ee4a9229	4
@@ -8,7 +8,7 @@ manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	94c46509dacb
 manuscript/sections/ch03/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
 manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	fea4d2083b31b1796be5ec7cfbd605aa15ec430e2b356c0178e85be060a94e65	7
 manuscript/sections/ch04/04.tex	4	“What the Floor Is Stated Over”	8fff24e6408eba62644192e8a3c91b479eb72d51e8757321f114c1be0340d773	8
-manuscript/sections/ch05/05.tex	5	Whether to Take Part	7c09b679096d4473b47bca6b28e959eba66d1afa55bb4a4a21cf3ab3446dd658	9
+manuscript/sections/ch05/05.tex	5	Whether to Take Part	1a05e4af96acd7c5aaa86168b595260aeda5bf05dcbd298c89c02a49a067dcea	9
 manuscript/sections/ch05/05_01.tex	5.1	The term	ed378c80abc80d2d84448b23c5f3733b8e00ddc47c33f3136ca7f53b4d3c70b0	10
 manuscript/sections/ch05/05_02.tex	5.2	Why the defender's word isn't enough	7d73f147a7d8e4bf4778e8058f89abf5059d26aad38a96ac4e78a2345aaae453	11
 manuscript/sections/ch05/05_03.tex	5.3	A clean pass: Ukraine	0435cc85efc4d96c47262fc0818a3ef17c6c0430e769d8130735d0b44eac9de0	12
@@ -77,15 +77,15 @@ manuscript/sections/ch15/15_05.tex	15.5	Classification as a custody problem	ae86
 manuscript/sections/ch15/15_06.tex	15.6	Where liability extends, and where it stops	81d63c8287284df93ae2accddb11ba8f144e4469ca361c45403d440fa3c72e6c	75
 manuscript/sections/ch15/15_07.tex	15.7	Who can bind the state that enforces the rule?	0fa5f12385f39ccdb9b1abb2ba5993f78825870549ad716c3af5ee9e06710bde	76
 manuscript/sections/ch16/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	77
-manuscript/sections/ch16/16.tex	16	What a Refusal Would Have to Do	76f84c1d9afe5b52a413cdffff417ba1354ec19f3d8795c84986f86d54eaab40	78
+manuscript/sections/ch16/16.tex	16	What a Refusal Would Have to Do	3bcd75ddbb67d258b61a775c10a4eceaab71fb3b5ee32909b9d92ec16e5a1d4d	78
 manuscript/sections/ch16/16_01.tex	16.1	What a refusal would have to do	b4decda33a664b21983004e6aa0a4dd00885bed7e1d2de25f91554b35771bd69	79
-manuscript/sections/ch16/16_02.tex	16.2	Safe for whom	10c151562eb06b5ecf80249af89a2fbec3f071d39a9a554ac6eeb853500f549b	80
+manuscript/sections/ch16/16_02.tex	16.2	Safe for whom	0e513fbf846d4dc095e48fbeb90c9659eec71e54e4d55cf9541def223d2110b5	80
 manuscript/sections/ch17/17.tex	17	Four Places to Hold a Floor	6bd95597a1fbfd37f44d1e95a7f4f67cabd4fda97b9e6e18523482f546cdf91f	81
-manuscript/sections/ch17/17_01.tex	17.1	Four ways to build one, and what each costs	43d28803b920513e3ba4124f38fe95c66d464650a2d1d3a60acb8394642c207e	82
+manuscript/sections/ch17/17_01.tex	17.1	Four ways to build one, and what each costs	d905febf7f0ef8df6d8c2b8754bca3c232d422f5b83e28d7005d4c0f60e6646d	82
 manuscript/sections/ch17/17_02.tex	17.2	What refusal can mean, and what a refuser can be	90121263bd4a23152221b93c56b630cbee4a9efbaf35414a85913e59bf89f57f	83
 manuscript/sections/ch17/17_03.tex	17.3	Two lists, run once on Maven	63b1bdb4180d0701cc16f285782408a0f6cc84a98b76c07883f52e0fc7b0f122	84
 manuscript/sections/ch17/17_04.tex	17.4	When the refusal is wrong	da4356d3c082c7b539dbf92c63bd1e885048d4847357c0cb42b68ab4d36d3f39	85
-manuscript/sections/ch18/18.tex	18	Why Form a Machine to Refuse	d0b4bcc20732d83b18973e041ff052c4c3f74abd060abb6b8412876bb0299662	86
+manuscript/sections/ch18/18.tex	18	Why Form a Machine to Refuse	b9b9e214f4fac4a616aaea43efcd86d354b965a7c522382d48d9477e118b60c5	86
 manuscript/sections/ch18/18_01.tex	18.1	The question	75befb170a40958c5c59f609405ef1e6d528311054aae60bd8f811f4d42f5d9f	87
 manuscript/sections/ch18/18_02.tex	18.2	Boundary, damage, and vulnerability	d0518d5c25d4a40c594b0fc42ca27fd544c437e60279375c1a6ea6f24012243c	88
 manuscript/sections/ch18/18_03.tex	18.3	Why caregiving	96f5a434aade4d156d29b8eb19a422b2f87857b8438c76d406224848e8a001ee	89
@@ -105,8 +105,8 @@ manuscript/sections/ch20/20_02.tex	20.2	A severity scale	c51618140773e8a7373bdee
 manuscript/sections/ch21/21.tex	21	Where the Attention Gets Built	19a60ae1bc08c09ced77543df3023cda4ac8a43c4eeb80d80b379fd30465aec3	103
 manuscript/sections/ch21/21_01.tex	21.1	Noticing, retaining and revising	fb9ee40fbf899db7eded18d99fb3e774d5b501709e69b57d670cb963ca7efcf9	104
 manuscript/sections/ch21/21_02.tex	21.2	Custody across the training pipeline	ea2f2f63c83244edfa8ef9c9c1d3401fbeef6c1b2d02ba469805eb41d00b343f	105
-manuscript/sections/ch21/21_03.tex	21.3	Formation by interaction	bbb08538ecd90fdc235b8df7629d61a72935499d2228d1c32a2a076a750116b3	106
-manuscript/sections/ch21/21_04.tex	21.4	Formation schools	fb47b74104423d39cec0e6b2cbe4ad085687312fd4546537b4d4526c300f0656	107
+manuscript/sections/ch21/21_03.tex	21.3	Formation by interaction	e8c2f901921356a59c557f8894065e6cdf268ca03f78c45bb74590876b773b49	106
+manuscript/sections/ch21/21_04.tex	21.4	Formation schools	84f41758711d9bafc75648c811636ac109bad89115efad0231f9c0838e2eafc3	107
 manuscript/sections/ch22/22.tex	22	Formation or Imitation?	1efa7dbb8b10ec63c407680bbb6536b540ad1039ceaa6cef201eb673d9dedd20	108
 manuscript/sections/ch22/22_01.tex	22.1	What formation would have to add	8dda7bcc5bfc49a41175ce25c0d8133a124ada064212e390a06c6ac61c22bbe0	109
 manuscript/sections/ch22/22_02.tex	22.2	Recognition, concern, and the evidence between them	ee43ce16ad5f484068fff4fe8dabcbc4758db81cc589d91d55417ef43edb74ed	110
@@ -122,7 +122,7 @@ manuscript/sections/ch23/23_05.tex	23.5	It counts badly	3fe9f5affd61f8581edd74e6
 manuscript/sections/ch23/23_06.tex	23.6	It shades into control	07226f7ecee6ed726d4a2bf7c189c801efbad8880b90565f8103511c80d1624f	120
 manuscript/sections/ch23/23_07.tex	23.7	Who counts as vulnerable	83edd088e0047378a948e5913131f3a7282f18d44831d2b45bc577c09eb87676	121
 manuscript/sections/ch23/23_08.tex	23.8	What survives	bcd0fcfb4036895113dca8907ef406574915fc55b8d076d2668dfc0234581711	122
-manuscript/sections/ch24/24.tex	24	Conditions First	fa2342b5ac734907d19f24635c06117df066fe6f93c0230aa2fc25f5d81c8b2f	123
+manuscript/sections/ch24/24.tex	24	Conditions First	d6851af870d39a90e433ff0af9d8907a70cb8ae151fd5e9adcfc75905ed38c57	123
 manuscript/sections/ch25/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	124
 manuscript/sections/ch25/25.tex	25	Who Owns the Means of Computation	bb60cafad50bf7b8d3967b5bd592b3ec60e5b162b13e7c7680a3df310fcc71c5	125
 manuscript/sections/ch25/25_01.tex	25.1	Ways of holding	8b04b98c188489f3c493a137d67a1ee149dcd7b8aef6afd26e641ebccfbb1a87	126
