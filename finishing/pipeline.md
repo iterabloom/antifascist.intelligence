@@ -326,7 +326,7 @@ than chosen here.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, 136 of them. The prose. |
-| `finishing/refs.bib` | 308 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. The 37 nothing cites live in `unused_bibliography.bib` (D-111, five more at D-137 to D-139, one at D-145, two at D-147, two at D-148, two at D-153, and two at D-156). |
+| `finishing/refs.bib` | 553 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. Entries nothing cites live in `unused_bibliography.bib`, 341 of them: started at D-111, with later batches at D-137 to D-156, P187, P205 and D-640 (152 at once, after the move had lapsed for three weeks). An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
