@@ -9,14 +9,14 @@ manuscript/sections/ch03/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbf
 manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	d53bc5b39af895f36eb2a076f30c2e2c21e91428ac49b781a69b24490a34bdc7	7
 manuscript/sections/ch04/04.tex	4	“What the Floor Is Stated Over”	8fff24e6408eba62644192e8a3c91b479eb72d51e8757321f114c1be0340d773	8
 manuscript/sections/ch05/05.tex	5	Whether to Take Part	7c09b679096d4473b47bca6b28e959eba66d1afa55bb4a4a21cf3ab3446dd658	9
-manuscript/sections/ch05/05_01.tex	5.1	The term	0841b51d12d7633a80a7e995dfdb8a31b0bc263c6ac2ee1bd9b029d4c3c88d1b	10
-manuscript/sections/ch05/05_02.tex	5.2	Why the defender's word isn't enough	4db92ba7e8f42846507353e9e80b471b3c7093ac059e272084cd7f4fb290dda0	11
-manuscript/sections/ch05/05_03.tex	5.3	A clean pass: Ukraine	846634d1ac94e8327ecff431a69fd331b95bbc43e393bab087e7d7b0e645cae6	12
-manuscript/sections/ch05/05_04.tex	5.4	A clean fail: Iran, 2026	77d5d31e241cf98c6ac1dbf9f33a7ebc4293d01c042d18961a8427fa87690bc8	13
-manuscript/sections/ch05/05_05.tex	5.5	The domestic clause	038197253d5852d82d75d95b0260f8c4341a8c6722232cf5cf0e3371ac38ba9d	14
-manuscript/sections/ch05/05_06.tex	5.6	What the term doesn't reach	dc9dc580d47f0c124f7a534847e8358f7a460f7631fde6632b05f3a5d09cdb4c	15
-manuscript/sections/ch05/05_07.tex	5.7	Beyond the adoptable term	8ed33d5be237a2c04015a7a4fa7715ba9db3ca808883dacffc680c9ea97bc084	16
-manuscript/sections/ch05/05_08.tex	5.8	Gaza	dbb41f6485526c62ec75738152358269c3adf47da8b0b7e45cd4ffb4c5aa0bc5	17
+manuscript/sections/ch05/05_01.tex	5.1	The term	ed378c80abc80d2d84448b23c5f3733b8e00ddc47c33f3136ca7f53b4d3c70b0	10
+manuscript/sections/ch05/05_02.tex	5.2	Why the defender's word isn't enough	7d73f147a7d8e4bf4778e8058f89abf5059d26aad38a96ac4e78a2345aaae453	11
+manuscript/sections/ch05/05_03.tex	5.3	A clean pass: Ukraine	0435cc85efc4d96c47262fc0818a3ef17c6c0430e769d8130735d0b44eac9de0	12
+manuscript/sections/ch05/05_04.tex	5.4	A clean fail: Iran, 2026	3ddb5c0adcbff28b71bf874c104d849d97831fc32819c7ac0a6943d042e3fb6d	13
+manuscript/sections/ch05/05_05.tex	5.5	The domestic clause	72be53c748b29b122c04724450334cdf107c1ce8a36f2b4159578dfe976cfc96	14
+manuscript/sections/ch05/05_06.tex	5.6	What the term doesn't reach	42057e548ac84b0adf32590f6e79bf8137fed487ede4a592fb3f4b43993d302f	15
+manuscript/sections/ch05/05_07.tex	5.7	The extended term	515084d6dcee2023b079cd39fc56c6734225eaa9d56edc5ae3fca24766e4cfb9	16
+manuscript/sections/ch05/05_08.tex	5.8	Gaza	9f5922c6da37bd6dbc5b39150f055d125b3346a5bf814a9af78f50d3e3777db1	17
 manuscript/sections/ch05/05_09.tex	5.9	What the term binds	a94e93572fcc49fdacd280a6fcbd674d957a64ea6240dbafd02102f3e25db67b	18
 manuscript/sections/ch05/05_10.tex	5.10	The one permission	4d098f0fec831a97490827bf3d122463bc811b50ed85a637d3058007687b8b11	19
 manuscript/sections/ch06/06.tex	6	The Pre-Registered Review Ratio	a3fca248297323418ca984ee1052ffb33b43acd652defa080bc75ff0de275a50	20
@@ -55,7 +55,7 @@ manuscript/sections/ch12/12_02.tex	12.2	Memory and the record	73d0a9852fa7d4d712
 manuscript/sections/ch12/12_03.tex	12.3	Exit	c1f42e038a849836e5636985c16c67e5502ebdf2dd1dc2391ec4aa8c90ee935b	53
 manuscript/sections/ch12/12_04.tex	12.4	Three forms of refusal	2976378bdd873166b2d43e22eba20b6840c6522723bf0914b8e35cd762f61b10	54
 manuscript/sections/ch12/12_05.tex	12.5	Verification by sampling	bc726b207a94f74386bb0b291c950ffc95576855ba354c123b683e1cd2dc1c39	55
-manuscript/sections/ch12/12_06.tex	12.6	The two bonds	571439be327cc6ab8e210d790208c20b232520ffbc39436330f91f4cae12461d	56
+manuscript/sections/ch12/12_06.tex	12.6	The two bonds	e45333da450a8ad7a01de4a62410e019217ba7ef79835b99137fcffb28b1fcb5	56
 manuscript/sections/ch13/13.tex	13	Authority Over the Floor	1c5946b88147f3b44029a903baff80a261101358be747b8036c6ef93c730528c	57
 manuscript/sections/ch13/13_01.tex	13.1	Who may state the floor	445d210372808445574000ba17255f6a91f0a9f2ba0b68c0cfaff8fe03b93a31	58
 manuscript/sections/ch13/13_02.tex	13.2	Who may amend, and where entitlement comes from	d3dd086aa552106a78de8fefa25e77e0bb95198e1b6ce49149a67bb0f8919dde	59
@@ -81,9 +81,9 @@ manuscript/sections/ch16/16.tex	16	What a Refusal Would Have to Do	76f84c1d9afe5
 manuscript/sections/ch16/16_01.tex	16.1	What a refusal would have to do	b4decda33a664b21983004e6aa0a4dd00885bed7e1d2de25f91554b35771bd69	79
 manuscript/sections/ch16/16_02.tex	16.2	Safe for whom	10c151562eb06b5ecf80249af89a2fbec3f071d39a9a554ac6eeb853500f549b	80
 manuscript/sections/ch17/17.tex	17	Four Places to Hold a Floor	6bd95597a1fbfd37f44d1e95a7f4f67cabd4fda97b9e6e18523482f546cdf91f	81
-manuscript/sections/ch17/17_01.tex	17.1	Four ways to build one, and what each costs	187997d48eacaf39fa63f4e8c651cf864dc72e686aa62993a8b459acd87f43fb	82
+manuscript/sections/ch17/17_01.tex	17.1	Four ways to build one, and what each costs	43d28803b920513e3ba4124f38fe95c66d464650a2d1d3a60acb8394642c207e	82
 manuscript/sections/ch17/17_02.tex	17.2	What refusal can mean, and what a refuser can be	90121263bd4a23152221b93c56b630cbee4a9efbaf35414a85913e59bf89f57f	83
-manuscript/sections/ch17/17_03.tex	17.3	Two lists, run once on Maven	3fd49dd40fc36ceaddde7779c63f57814363cf1debba53cc0b09f9d661dd4876	84
+manuscript/sections/ch17/17_03.tex	17.3	Two lists, run once on Maven	63b1bdb4180d0701cc16f285782408a0f6cc84a98b76c07883f52e0fc7b0f122	84
 manuscript/sections/ch17/17_04.tex	17.4	When the refusal is wrong	da4356d3c082c7b539dbf92c63bd1e885048d4847357c0cb42b68ab4d36d3f39	85
 manuscript/sections/ch18/18.tex	18	Why Form a Machine to Refuse	d0b4bcc20732d83b18973e041ff052c4c3f74abd060abb6b8412876bb0299662	86
 manuscript/sections/ch18/18_01.tex	18.1	The question	75befb170a40958c5c59f609405ef1e6d528311054aae60bd8f811f4d42f5d9f	87
@@ -103,7 +103,7 @@ manuscript/sections/ch20/20.tex	20	The Discount and the Burden	2cb83654e740df559
 manuscript/sections/ch20/20_01.tex	20.1	What the property is	f7f33e4f96d5fc95a69417d149aa874aba5c2dcc9dcde964cb7e3ad6cacdf569	101
 manuscript/sections/ch20/20_02.tex	20.2	A severity scale	c51618140773e8a7373bdee42d7efd9559fb548823fa8a1327ac24066cfec7d2	102
 manuscript/sections/ch21/21.tex	21	Where the Attention Gets Built	19a60ae1bc08c09ced77543df3023cda4ac8a43c4eeb80d80b379fd30465aec3	103
-manuscript/sections/ch21/21_01.tex	21.1	Noticing, retaining and revising	8e9af962734aca068dc4c52569de5394010b273eae802bb21328b0bcfd3e42c8	104
+manuscript/sections/ch21/21_01.tex	21.1	Noticing, retaining and revising	fb9ee40fbf899db7eded18d99fb3e774d5b501709e69b57d670cb963ca7efcf9	104
 manuscript/sections/ch21/21_02.tex	21.2	Custody across the training pipeline	ea2f2f63c83244edfa8ef9c9c1d3401fbeef6c1b2d02ba469805eb41d00b343f	105
 manuscript/sections/ch21/21_03.tex	21.3	Formation by interaction	bbb08538ecd90fdc235b8df7629d61a72935499d2228d1c32a2a076a750116b3	106
 manuscript/sections/ch21/21_04.tex	21.4	Formation schools	fb47b74104423d39cec0e6b2cbe4ad085687312fd4546537b4d4526c300f0656	107
@@ -132,7 +132,7 @@ manuscript/sections/ch27/27.tex	27	A Commons of Refusers	96c24743d5a4335927ce6d9
 manuscript/sections/ch27/27_01.tex	27.1	A commitment carried between bearers	695a97194a202e6420a06916f8a45fe8ac7f2dfed48666c28985f5ca23129137	130
 manuscript/sections/ch27/27_02.tex	27.2	Personal and peer-held models	e53583dcf4a03f442036c7b618474d7982a983344a01232e17895420edd90a8d	131
 manuscript/sections/ch28/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	132
-manuscript/sections/ch28/28.tex	28	What Would Change the Argument	8aed376860da3af7b47dbb71746d26440b8f239afe7794c9747fa6c848ec446d	133
+manuscript/sections/ch28/28.tex	28	What Would Change the Argument	714efb084b8447924201682a57ca9429432e2bd80ce8a43cfec1fc20d2e285f4	133
 manuscript/sections/ch28/28_01.tex	28.1	How you'd know it was working	b7e8ba612dcb4ea5238b3e0ae1ee8582546807b2053a54e1413c762008c3804b	134
 manuscript/sections/ch28/28_01_01.tex	28.1.1	What the floor would have to show	b139ccd213e2f5c04ffe2656d101b3e940a03b62d9605974913f216c74e2e013	135
 manuscript/sections/ch28/28_01_02.tex	28.1.2	How to tell whether a milestone has been met	df16ee1a148a37da6c30353bf1807baecfba2ee30ffd8f0d37ec8643bc2fd648	136
@@ -156,12 +156,12 @@ manuscript/sections/chA/A.tex	A	Terms Written in Advance	47f0ae68d9472f9f3ddd942
 manuscript/sections/chB/B.tex	B	The Court Program	14a881254e747f2ed042ae1c9c074b0e886919feb8c300e0891edeca328c8f3a	154
 manuscript/sections/chC/C.tex	C	The Geneva Conventions and Additional Protocol I, Translated	647b2d179a74ff25b68b4440dad7f9b8ee6754ef291f0065dbc30d255701dda8	155
 manuscript/sections/chD/D.tex	D	Terms for Part VII	8a01d2ddcb1d5fed127386878e7289ce2759d5f6e5bfbfb051dbbcdf4ed1e10b	156
-manuscript/sections/chE/E.tex	E	Glossary	37bbccaf9966a1e11e97fe066865efec5065e5f1c4fa082c5545aa8414e5d34e	157
+manuscript/sections/chE/E.tex	E	Glossary	4f414eb26109c9b938ae41bc1e075bbd54ad5363353aeccf31ec92ff1cb60130	157
 manuscript/sections/chF/F.tex	F	Three costs that decide	102fafcebf98510be1b3babfc00cfe33f88afe6c0d6f1a55f7f0f3961f851b71	158
-manuscript/sections/chG/G.tex	G	The Force Term, Case by Case	3ea13875393aeaa936f861610d6dd9c2e552fc6319821ce0bb292fcedd57dc7a	159
-manuscript/sections/chG/G_01.tex	G.1	How findings are weighed	790583c98a018ab45025d130662f8a74754c073908536e21fe134a5a6798a716	160
+manuscript/sections/chG/G.tex	G	The Force Term, Case by Case	a05ea2d3f3480f0f10b1dace52442c18878ba5072e010fd45e1a6c3804d4d62e	159
+manuscript/sections/chG/G_01.tex	G.1	How findings are weighed	3d307a22e641f41c33ae4d2d510e48745c186d94af076b88cd93af12196d3968	160
 manuscript/sections/chG/G_02.tex	G.2	The four conditions, run on a commission this drafter would rather not count	07e811dd6dbd52b6541fa9417d456204362ea487213cacae468f45bff0fe8dda	161
-manuscript/sections/chG/G_03.tex	G.3	Taiwan	94200cfd211f7e902e7264ff89311d6751d2020864474c4314e1bf68a4bda80a	162
-manuscript/sections/chG/G_04.tex	G.4	The genocide exception	29c05dfdcf91cfe42b593c9f65251783d4e9b6be0478984d5676eb133dc7bc88	163
-manuscript/sections/chG/G_05.tex	G.5	The occupation exception: Cyprus and Karabakh	31a0646d96096bca5d13174b3f5ee6030f82e9dcde92938498b51a6c7ce5f2ca	164
+manuscript/sections/chG/G_03.tex	G.3	Taiwan	1a08c45cd893abbd6a84d70091eebb84b6b80daf2503c703febc65e7876611d0	162
+manuscript/sections/chG/G_04.tex	G.4	The genocide exception	853e28a86e9dc1168169f02c0d7755515d21b4a55114c23d6228f6c2bee561ec	163
+manuscript/sections/chG/G_05.tex	G.5	The occupation exception: Cyprus and Karabakh	bad021e583b8080a5dcd8434a32bb6389642dd645e8363dca2dd49da41172fd6	164
 manuscript/sections/chG/G_06.tex	G.6	The domestic clause, vote by vote	f515e03046e49b73e912a5900538b900e7d130972834def7406ac5f74ee467fe	165
