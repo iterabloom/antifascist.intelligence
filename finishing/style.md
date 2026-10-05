@@ -196,6 +196,30 @@ Restating costs four or five words and buys a sentence that can be read once.
 Prose in this book is read by people who put it down between sittings, and a
 back-reference by index is a bill they pay later.
 
+## 3c. Coined terms (D-660)
+
+**Test every coined term with one question: could a smart reader guess what it
+means?** "Review ratio", "own-case rule" and "floor" pass. "Adoptable term" and
+"departed term" failed, and became "the Charter as courts read it" and "the
+extended term"; "first tier" and "second tier" failed, and became "the emergency
+licence" and "the corroborated licence" (D-648). A term that fails is renamed.
+Where no plain name will do, as with "bearer", the term enters with a scene
+that shows it working before it is defined: a system in the Maven pipeline on
+the morning of 28 February declining to rank the school (§18.1, as printed
+2026-10-05).
+
+**Introduce a term where the reader first needs it**, not in a list ahead of
+the argument. The book has no front-matter terms page (D-652); Appendix E, the
+glossary, is at the back for a reader who has put the book down and picked it
+up again. A chapter that introduces more terms than it uses has introduced the
+extra ones too early.
+
+**The count is the warning.** The 2026-10-05 author discussion counted more
+than twenty terms of art before the book's most original arguments, and the
+experience it described was reading a code with a book wrapped around it. Before
+adding a term, ask whether a phrase in ordinary English would carry the
+argument as far.
+
 ## 4a. Run-in heads inside long sections
 
 The three-level cap is about the **reader-facing table of contents**, not about
@@ -230,6 +254,28 @@ argument for.
 
 **A box carrying facts that will date takes the period in its title** — *as
 reported through mid-2026* — so the prose around it does not rot with them. All three boxes in the book do it.
+
+## 4c. Tables in the body (D-660)
+
+**A table stays in the body only if the reader uses it there.** That means one
+of two things: it is a toolkit the following chapters run, or it is the payoff
+of an argument, where the reader sees the result laid out. After D-652 the body
+keeps five: the four outcomes and the nine positions (chapter 4), the Minab
+outcomes table (§18.3), the corrections table (§20.7) and Table 29.1 (all as
+printed 2026-10-05).
+
+**Reference tables go to an appendix, with a sentence or two of prose in the
+body saying what they show.** Schedules, article-by-article translations,
+protocols, dependency tables and lists of offices are consulted, not read, and
+a reader who meets one mid-chapter has to choose between skipping it and losing
+the thread. Appendices A, C and G hold them.
+
+**A table of three or four rows is prose or a list.** Phase 2 of P221 set three
+of these as prose (D-652): what a table of that size organizes, a paragraph
+organizes without asking the reader to change how they read.
+
+Adding a table to the body is a decision for the record, with the reason it
+belongs there and not in an appendix.
 
 ## 6. Citations (D-009)
 
@@ -293,9 +339,15 @@ precedent.
 ## 7. Cross-references
 
 Under D-013 the surviving instance of each repeated argument is the one place it
-is made; every other location that needs it gets a cross-reference instead.
-Target: at least one real cross-reference per section, where honest. Without them
-the same argument can appear nine times without anyone noticing.
+is made, and a later location that needs it says the argument again in a clause
+or points to it. **Point only where the reader must go there** (D-660,
+superseding this section's former target of a cross-reference per section): to
+an appendix or a table, or to a definition the sentence can't restate. Every
+other "(§13.6)" and "Chapter 7's review ratio" is cut or written as prose: "the
+review ratio", "the next chapter", "when the book reaches the removal
+pipeline". A reader told to keep three chapters in mind at once stops trusting
+their own understanding. P221 took the body's references from 155 to 34
+(D-658).
 
 **A cross-reference says where, not what.** The sentence carrying it has to make
 sense to a reader who does not follow it. A reference that supplies the meaning
@@ -446,35 +498,33 @@ what this section is asking for. What it forbids is the *shape* — the withheld
 qualification, the staged correction — not the qualification itself.
 
 
-## 10a. Cite a section by its label, not by its number (D-461)
+## 10a. Cite a section with the date you read it (D-461, amended at D-660)
 
 Sections 1-9 govern the book, section 10 the prose written about it. This one
-governs one habit inside that prose, and it is the cheapest rule in this file to
-follow: **in `DECISIONS.md`, `STATE.md`, `QUESTIONS.md`, the `pN-scope.md` files
-and commit bodies, name a section by its label or its file, not by the number it
-printed on the day of writing.** Write `sec:build-costs`, or
-`ch03/03_01.tex`, where the habit is to write \S\,3.1. (This example was
-`sec:3.6` and `ch03/03_06.tex` when the section was written, which is the rule
-demonstrating itself: D-463 named the labels and D-464 renamed the files, and
-both halves of the example went stale while the section they illustrate did
-not.)
+governs one habit inside that prose: **in `DECISIONS.md`, `STATE.md`,
+`QUESTIONS.md`, the `pN-scope.md` files and commit bodies, a section number is
+true only as of a date, so give the date, decision or commit it was read at,
+and add the heading where it helps** ("§13.6, *The two bonds*, as printed
+2026-10-05").
 
-**A number is only true as of a date.** Twenty-two renumbers stand between the
-earliest entries in this record and the book, and the record already carries
-**7,022 section numbers against 228 labels**. `QUESTIONS.md`'s own header calls
-reading its entries through those maps the largest gap in that file.
+**What this section said before, and why it changed.** From D-461 it told the
+record to cite a section by its label, because D-463 and D-471 had made every
+label a name (`sec:build-costs`) and a named label survived any renumber. That
+stopped being true at the condensed reworking (D-614, 2026-10-01): the book came
+back with numbered labels (`sec:13.6`), and every renumber since D-631 has
+rewritten them so that each label prints its own number. The author kept that
+arrangement at D-652. So a label now moves with its number, and a file path
+moves with its chapter: neither is more stable than the number, and citing one
+in place of the number buys nothing. The date does.
 
-**A label is stable by construction.** D-406 separated a file's identity from
-its position for exactly this reason: a file keeps the label its filename and
-its ledger row know it by while the number it prints moves underneath. Every one
-of the twenty-two renumbers left the labels alone. `check_numbers.py` resolves a
-label to the number the book prints today, so a label costs the reader nothing
-and never needs a map.
+**A number is only true as of a date.** More than twenty renumbers stand
+between the earliest entries in this record and the book, and every number in
+the record has to be read through the maps between.
 
 **The exception is a sentence about what the book prints.** A page proof, a
-printed table of contents, the number a reader sees on the page — there the
-printed number is the fact being reported, and the rule is the ordinary one:
-give it with the date or the commit it was read from.
+printed table of contents, the number a reader sees on the page: there the
+printed number is the fact being reported, with the date or the commit it was
+read from, which is the rule above.
 
 **Reading a number already in the record** is `finishing/tools/trace.py`:
 
@@ -500,9 +550,11 @@ number from the path, and `--chapter` matches that, because a reader names a
 chapter by its number and cites a section by its label. Two things are
 deliberately not labels: `ledger.tsv` and `section_stats.tsv` keep `num` as the
 identity other tables join on, and a sentence quoted from the book shows the
-number the book prints, which `common.ref_numbers()` supplies.
+number the book prints, which `common.ref_numbers()` supplies. Since D-614 a label and the number the book prints coincide, so the locator
+column carries the printed number as of the commit the report was run at, and
+reads like any other number in the record: with its date.
 
-**Nothing about the book's own prose changes.** The manuscript has always used
-`\ref`, which reads the counter; `check_xrefs.py` reports no number left in
-prose, and the last audit of literal chapter numerals found eleven, all
-`chapter~2`, all correct.
+**Nothing about the book's own prose changes.** The manuscript uses `\ref`,
+which reads the counter, and `check_xrefs.py` reports no number left in prose.
+Since D-614 the labels it reads are numbered, so a renumber has to rewrite them
+along with the `\ref`s that point at them, which `trace.py`'s maps record.
