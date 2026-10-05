@@ -1,6 +1,6 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	509e287cd7a8d8f3fba46ee50c6abdac331a18d9d68504355b2daff4abcf2d15	1
+manuscript/sections/ch00/00.tex	0	Preface	eddf467fc3a13140eba1bf0fe167b821e2bf0c53e37f71e5ab7114bdc11d7419	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	4370caeff1ac4f8641ab4470197d57ac1033381230d9c22e648452065a010c7f	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	4a6a3e2527313d6f668afffabad28dafb6559ea5936c2bc17b178db9ee4a9229	4
@@ -77,15 +77,15 @@ manuscript/sections/ch15/15_05.tex	15.5	Classification as a custody problem	ae86
 manuscript/sections/ch15/15_06.tex	15.6	Where liability extends, and where it stops	81d63c8287284df93ae2accddb11ba8f144e4469ca361c45403d440fa3c72e6c	75
 manuscript/sections/ch15/15_07.tex	15.7	Who can bind the state that enforces the rule?	0fa5f12385f39ccdb9b1abb2ba5993f78825870549ad716c3af5ee9e06710bde	76
 manuscript/sections/ch16/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	77
-manuscript/sections/ch16/16.tex	16	What a Refusal Would Have to Do	3bcd75ddbb67d258b61a775c10a4eceaab71fb3b5ee32909b9d92ec16e5a1d4d	78
+manuscript/sections/ch16/16.tex	16	What a Refusal Would Have to Do	3e6f976ed8dc7563a3681e05049ea55f9810977e28f5795006b070bd7373fe68	78
 manuscript/sections/ch16/16_01.tex	16.1	What a refusal would have to do	b4decda33a664b21983004e6aa0a4dd00885bed7e1d2de25f91554b35771bd69	79
-manuscript/sections/ch16/16_02.tex	16.2	Safe for whom	0e513fbf846d4dc095e48fbeb90c9659eec71e54e4d55cf9541def223d2110b5	80
+manuscript/sections/ch16/16_02.tex	16.2	Safe for whom	e2780eace19d6e31afd64b45de6468c034fce5f90533c1161a04114b39a524b5	80
 manuscript/sections/ch17/17.tex	17	Four Places to Hold a Floor	6bd95597a1fbfd37f44d1e95a7f4f67cabd4fda97b9e6e18523482f546cdf91f	81
 manuscript/sections/ch17/17_01.tex	17.1	Four ways to build one, and what each costs	d905febf7f0ef8df6d8c2b8754bca3c232d422f5b83e28d7005d4c0f60e6646d	82
 manuscript/sections/ch17/17_02.tex	17.2	What refusal can mean, and what a refuser can be	90121263bd4a23152221b93c56b630cbee4a9efbaf35414a85913e59bf89f57f	83
 manuscript/sections/ch17/17_03.tex	17.3	Two lists, run once on Maven	63b1bdb4180d0701cc16f285782408a0f6cc84a98b76c07883f52e0fc7b0f122	84
 manuscript/sections/ch17/17_04.tex	17.4	When the refusal is wrong	da4356d3c082c7b539dbf92c63bd1e885048d4847357c0cb42b68ab4d36d3f39	85
-manuscript/sections/ch18/18.tex	18	Why Form a Machine to Refuse	b9b9e214f4fac4a616aaea43efcd86d354b965a7c522382d48d9477e118b60c5	86
+manuscript/sections/ch18/18.tex	18	Why Form a Machine to Refuse	51bafca9f2b797ab902407eefe74d598366d787ddd93731468b28781503c6a88	86
 manuscript/sections/ch18/18_01.tex	18.1	The question	75befb170a40958c5c59f609405ef1e6d528311054aae60bd8f811f4d42f5d9f	87
 manuscript/sections/ch18/18_02.tex	18.2	Boundary, damage, and vulnerability	d0518d5c25d4a40c594b0fc42ca27fd544c437e60279375c1a6ea6f24012243c	88
 manuscript/sections/ch18/18_03.tex	18.3	Why caregiving	96f5a434aade4d156d29b8eb19a422b2f87857b8438c76d406224848e8a001ee	89
@@ -122,7 +122,7 @@ manuscript/sections/ch23/23_05.tex	23.5	It counts badly	3fe9f5affd61f8581edd74e6
 manuscript/sections/ch23/23_06.tex	23.6	It shades into control	07226f7ecee6ed726d4a2bf7c189c801efbad8880b90565f8103511c80d1624f	120
 manuscript/sections/ch23/23_07.tex	23.7	Who counts as vulnerable	83edd088e0047378a948e5913131f3a7282f18d44831d2b45bc577c09eb87676	121
 manuscript/sections/ch23/23_08.tex	23.8	What survives	bcd0fcfb4036895113dca8907ef406574915fc55b8d076d2668dfc0234581711	122
-manuscript/sections/ch24/24.tex	24	Conditions First	d6851af870d39a90e433ff0af9d8907a70cb8ae151fd5e9adcfc75905ed38c57	123
+manuscript/sections/ch24/24.tex	24	Conditions First	503ef8f97dc0c88acb844ba701934b260d3c89eb55fc734e034768d54e6fc4ac	123
 manuscript/sections/ch25/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	124
 manuscript/sections/ch25/25.tex	25	Who Owns the Means of Computation	bb60cafad50bf7b8d3967b5bd592b3ec60e5b162b13e7c7680a3df310fcc71c5	125
 manuscript/sections/ch25/25_01.tex	25.1	Ways of holding	8b04b98c188489f3c493a137d67a1ee149dcd7b8aef6afd26e641ebccfbb1a87	126
