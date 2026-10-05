@@ -74,6 +74,11 @@ def _drop_braced_command(text, name):
         i = k
 
 
+# The renderer writes footnotes as Pandoc does: a "[^3]" marker inline and a
+# "[^3]: text" block after the paragraph. Markers are removed; definition blocks
+# are dropped and counted, like the other non-prose blocks.
+_FOOTNOTE_REF_RE = re.compile(r"\[\^[^\[\]\s]+\](?!:)")
+
 # Before fc2f47b (2026-10-03) the renderer left the second key of a two-key
 # cite with a locator as a braced tail, "[@a, ch. 9]{b}"; it now writes
 # "[@a, ch. 9; @b]". The optional tail still strips renders from before then.
@@ -87,6 +92,7 @@ _EM_RE = re.compile(r"(?<![\w*])\*(?!\s)(.+?)(?<!\s)\*(?![\w*])")
 def clean_inline(text):
     """Plain prose from one rendered Markdown block."""
     t = _drop_braced_command(text, "footnote")
+    t = _FOOTNOTE_REF_RE.sub("", t)
     t = _CITE_RE.sub("", t)
     for _ in range(3):                      # unwrap \cmd{arg}, innermost first
         t = _CMD_ARG_RE.sub(r"\1", t)
@@ -103,6 +109,8 @@ def _block_kind(block):
     first = s.splitlines()[0]
     if s.startswith("#"):
         return "heading"
+    if re.match(r"\[\^[^\[\]\s]+\]:", s):
+        return "footnote"
     if s.startswith(">"):
         return "quote"
     if s.startswith("|") or " & " in first:

@@ -69,8 +69,8 @@ The notebook is generated. To change it, edit `build_notebook.py` and run
 
 - **Text.** `finishing/tools/render_markdown.py` renders the manuscript to
   Markdown and `orderppl.parse_book` cuts it at every heading. Citation keys,
-  footnotes and leftover LaTeX are removed. Epigraphs, lists, tables and
-  standalone bold heads are dropped, and the dropped blocks are counted per
+  footnote markers and leftover LaTeX are removed. Footnote definitions,
+  epigraphs, lists, tables and standalone bold heads are dropped, and the dropped blocks are counted per
   section in the overview table. A paragraph that opens with a bold run-in
   head keeps it as plain text. Paragraphs that introduced a list end in a
   colon with the list gone.
@@ -86,12 +86,13 @@ The notebook is generated. To change it, edit `build_notebook.py` and run
   context gain uses.
 - **Noise floor.** The same text scored at batch sizes 1, 2 and 4 does not
   always give the same total, because the GPU kernels change with the batch
-  shape. Chapter 1 on the RTX 3060, 2026-10-03:
+  shape. Chapter 1 on the RTX 3060, 2026-10-03, and on a Colab A100,
+  2026-10-05 (Qwen3-1.7B-Base in fp32):
 
   | model | bf16 | fp16 | fp32 |
   |---|---|---|---|
   | Qwen2.5-Coder-0.5B-Instruct | 3.3 | 0.1 | 0.000 |
-  | Qwen3-1.7B-Base | | 1.3 | |
+  | Qwen3-1.7B-Base | | 1.3 | 0.000 (A100) |
   | Qwen3.5-0.8B-Base | | | 0.002 |
 
   (nats; blank = not measured). Sentence shuffles move totals by a few to a

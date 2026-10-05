@@ -108,7 +108,7 @@ md(r"""
 | model | float32 | float16 | on a T4 |
 |---|---|---|---|
 | `Qwen/Qwen3-0.6B-Base` | 2.4 GB | 1.2 GB | float32 |
-| `Qwen/Qwen3-1.7B-Base` | 6.9 GB | 3.4 GB | float32 (default) |
+| `Qwen/Qwen3-1.7B-Base` | 6.9 GB | 3.4 GB | ran out of memory in float32 (2026-10-05); float32 ran on an A100 40 GB |
 | `Qwen/Qwen3-4B-Base` | 16 GB | 8 GB | float16 |
 | `Qwen/Qwen3-8B-Base` | 33 GB | 16 GB | no; L4 or A100 runtime in float16 |
 | `Qwen/Qwen3.5-0.8B-Base` | 3.5 GB | 1.7 GB | float32; slower than Qwen3 without the linear-attention kernels (README) |
