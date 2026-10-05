@@ -184,3 +184,10 @@ What this verification does not check: whether the prose reads better. That is t
 - `manuscript/sections/ORDER.tsv`, `finishing/outline.tsv`, `finishing/ledger.tsv`
 - `finishing/DECISIONS.md`, `STATE.md`, `finishing/reviews/README.md`, `finishing/style.md`, `finishing/refs.bib`
 - Tools, all reused and none new: `gen_book.py`, `refresh_order_shas.py`, `headings.py`, `check_all.sh`, `trace.py`, `render_markdown.py`, `build_tex.sh`, `build_proof.sh`, `overleaf.py`
+
+## Amendments
+
+**D-651 (2026-10-05, author's rulings).**
+- **Phase 2, item 7 is struck.** There is no "How this book is built" section. The review asked for the spine in the preface (done at D-649), for each Part to name its question about the room, and for the dependency structure to be gathered once; it did not ask for a separate map, and a table of contents does the navigation. Table 28.1 stays in chapter 28. The Terms page still moves to the back and merges into Appendix E.
+- **Each Part names its question about the room at the beginning of its first chapter**, not on the Part page or in any text before the chapter. The `00_part_*.tex` files stay title-only. This joins Phase 3, item 4. Phase 2, item 5's Thompson opening and recommendation for Part IV likewise go at the beginning of Part IV's first chapter.
+- **Gathering the dependency structure once is deferred.** The restatements at the openings of chapter 16, chapter 18 and Part VII, and Table 28.1, stay as they are: gathering them risks breaking what depends on them and adding throat-clearing.
