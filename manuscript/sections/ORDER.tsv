@@ -1,6 +1,6 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	5d935473795130be4b7e8848ac27ebac6af4bdd93793ab1604cd9f4addda98af	1
+manuscript/sections/ch00/00.tex	0	Preface	a46ba33e27783cb4a6b54a5c973bbb3146d514a46d649d25985830f4ef9932cf	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	2f891a4d1773390284dfe8e129696afbd92f2edecef820309545e20d9a13657a	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	eafd487d7e6ef449978d2902cc66d1659361faf102aa60d16c246f84dbecfd29	4
@@ -105,7 +105,7 @@ manuscript/sections/ch21/21_03.tex	21.3	Conflict as a diagnostic	d63b5e3d9342942
 manuscript/sections/ch21/21_04.tex	21.4	The evaluator is part of the custody chain	edd340fede4d0658d21a4dbb54e2f904bdc95714a0aef66016a14feb5d6fdb54	103
 manuscript/sections/ch21/21_05.tex	21.5	What the evidence can establish	7370ec38637bc03db696a8b81d446b18e86b3fd19aef67b925f90e4e35e38a65	104
 manuscript/sections/ch22/22.tex	22	How Caregiving Fails, and What Corrects It	b22c4ab21d9592ef4b94bbc76e80b6034101060fae0375ab64cae76c4742afc4	105
-manuscript/sections/ch22/22_01.tex	22.1	The route through one's own case	8072fda1802dc0178584dcc6ca300c95577a99f6d97ccd950c2763fe90545c8a	106
+manuscript/sections/ch22/22_01.tex	22.1	The route through one's own case	5abb5f3d1b9a237b3cabf2ed88b62221e3ff6357ff5dc7bb3f3824cff236320b	106
 manuscript/sections/ch22/22_02.tex	22.2	What caregiving escapes	64c461c96b1cc1a5c7b5e25f7adc14eba86bca495a1812208536c39751775d15	107
 manuscript/sections/ch22/22_03.tex	22.3	It defends what it tends	7a01ab94f2c4a396045c5845d52339bb6bbc2b75d753d1f4ff8721aa2092168b	108
 manuscript/sections/ch22/22_04.tex	22.4	It can be pointed away	2c06b8ed227d362ebd8863a5c1438d12809dbad0ab1093c7cb092407733ea4d7	109
