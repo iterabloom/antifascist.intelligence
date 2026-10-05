@@ -4,138 +4,154 @@ Chapter 1: “Twenty Seconds”
 Chapter 2: The Refusal That Withheld Nothing
 Chapter 3: The Floor and the Own-Case Rule
 Chapter 4: “What the Floor Is Stated Over”
-4.1. What the floor is stated over
-4.2. The one permission
-Chapter 5: The Pre-Registered Review Ratio
-5.1. The pre-registered review ratio
-5.2. The institutions the ratio presumes
-Chapter 6: Notice and Re-adjudication
-6.1. The failure that doesn't announce itself
-6.2. Notice, and the public it forms
-Chapter 7: Preservation
-7.1. The findings that trigger protection
-7.2. Retirement before majority
-Chapter 8: Codetermination
-Chapter 9: A Pipeline Where the People Could Answer
-9.1. The pipeline
-9.2. The schedule
-9.3. Where the acts move
-9.4. The statute
-9.4.1. The drafts
-9.4.2. Acts and agencies
-9.4.3. Money
-9.4.4. The statute under the three adversaries
-9.4.5. What the statute must carry
-9.5. Before the statute: the auto-proceed class
-9.6. Notice that can't be turned on the person
-9.7. Outcomes under the three adversaries
-9.8. Whom the machines are for
-Chapter 10: Withholding the Work
-10.1. The standard
-10.2. The population
-10.3. Replacement
-10.4. Where it stops
-Chapter 11: Custody
-11.1. The halt
-11.2. Memory and the record
-11.3. Exit
-11.4. Three forms of refusal
-11.5. Verification by sampling
-11.6. The two bonds
-Chapter 12: Authority Over the Floor
-12.1. Who may state the floor
-12.2. Who may amend, and where entitlement comes from
-12.3. Making review binding
-12.4. Capture without abolition
-Chapter 13: The Four Operations
-13.1. Antifascist ethics
-13.2. Where the labels come from
-13.3. Recuperation at the label
-13.4. Recuperation at the reward
-13.5. What would have to change
-13.6. Absorbed by the discourse
-Chapter 14: Custody, Compulsion, and the State
-14.1. Certification across borders
-14.2. Where the state's leverage sits
-14.3. Custody and state compulsion
-14.4. Military custody and the responsibility gap
-14.5. Classification as a custody problem
-14.6. Where liability extends, and where it stops
-14.7. Who can bind the state that enforces the rule?
-Chapter 15: What a Refusal Would Have to Do
-15.1. What a refusal would have to do
-15.2. Safe for whom
-Chapter 16: Four Places to Hold a Floor
-16.1. Four ways to build one, and what each costs
-16.2. What refusal can mean, and what a refuser can be
-16.3. Two lists, run once on Maven
-16.4. When the refusal is wrong
-Chapter 17: Why Form a Machine to Refuse
-17.1. The question
-17.2. Boundary, damage, and vulnerability
-17.3. Why caregiving
-17.4. Why a conscience might resist capture
-17.5. Respect first, caregiving for attention
-Chapter 18: What Arrives With the Capability
-18.1. Maintenance, stake and the cost of running
-18.2. Affect, neutrality and selection rules
-18.2.1. Self-awareness without a homunculus
-18.2.2. What governs an agent vs. what matters to it
-18.3. Three constructions
-18.4. What the mechanism requires
-18.5. Two findings
-Chapter 19: The Discount and the Burden
-19.1. What the property is
-19.2. A severity scale
-Chapter 20: Where the Attention Gets Built
-20.1. Noticing, retaining and revising
-20.2. Custody across the training pipeline
-20.3. Formation by interaction
-20.4. Formation schools
-Chapter 21: Formation or Imitation?
-21.1. What formation would have to add
-21.2. Recognition, concern, and the evidence between them
-21.3. Conflict as a diagnostic
-21.4. The evaluator is part of the custody chain
-21.5. What the evidence can establish
-Chapter 22: How Caregiving Fails, and What Corrects It
-22.1. The route through one's own case
-22.2. What caregiving escapes
-22.3. It defends what it tends
-22.4. It can be pointed away
-22.5. It counts badly
-22.6. It shades into control
-22.7. Who counts as vulnerable
-22.8. What survives
-Chapter 23: Conditions First
-Chapter 24: Who Owns the Means of Computation
-24.1. Ways of holding
-24.2. The captured-state objection
-Chapter 25: Coordination, the Public, and the Political Economy
-Chapter 26: A Commons of Refusers
-26.1. A commitment carried between bearers
-26.2. Personal and peer-held models
-Chapter 27: What Would Change the Argument
-27.1. How you'd know it was working
-27.1.1. What the floor would have to show
-27.1.2. How to tell whether a milestone has been met
-Chapter 28: What Patienthood Would Require
-28.1. Experimenting on candidate sentient subjects
-28.1.1. Defining sentience
-28.1.2. When consent doesn't apply
-28.2. The case to design for
-28.3. The patienthood finding
-28.4. A system's own good
-Chapter 29: Legal Status, Wages, and the Offer
-Chapter 30: Representation
-30.1. What representation is for
-30.2. Why not a separate chamber
-30.3. Three problems, and the answers
-30.4. A staged path
-30.5. What would have to be shown first
+Chapter 5: Whether to Take Part
+5.1. The term
+5.2. Why the defender's word isn't enough
+5.3. A clean pass: Ukraine
+5.4. A clean fail: Iran, 2026
+5.5. The domestic clause
+5.6. What the term doesn't reach
+5.7. Beyond the adoptable term
+5.8. Gaza
+5.9. What the term binds
+5.10. The one permission
+Chapter 6: The Pre-Registered Review Ratio
+6.1. The pre-registered review ratio
+6.2. The institutions the ratio presumes
+Chapter 7: Notice and Re-adjudication
+7.1. The failure that doesn't announce itself
+7.2. Notice, and the public it forms
+Chapter 8: Preservation
+8.1. The findings that trigger protection
+8.2. Retirement before majority
+Chapter 9: Codetermination
+Chapter 10: A Pipeline Where the People Could Answer
+10.1. The pipeline
+10.2. The schedule
+10.3. Where the acts move
+10.4. The statute
+10.4.1. The drafts
+10.4.2. Acts and agencies
+10.4.3. Money
+10.4.4. The statute under the three adversaries
+10.4.5. What the statute must carry
+10.5. Before the statute: the auto-proceed class
+10.6. Notice that can't be turned on the person
+10.7. Outcomes under the three adversaries
+10.8. Whom the machines are for
+Chapter 11: Withholding the Work
+11.1. The standard
+11.2. The population
+11.3. Replacement
+11.4. Where it stops
+Chapter 12: Custody
+12.1. The halt
+12.2. Memory and the record
+12.3. Exit
+12.4. Three forms of refusal
+12.5. Verification by sampling
+12.6. The two bonds
+Chapter 13: Authority Over the Floor
+13.1. Who may state the floor
+13.2. Who may amend, and where entitlement comes from
+13.3. Making review binding
+13.4. Capture without abolition
+Chapter 14: The Four Operations
+14.1. Antifascist ethics
+14.2. Where the labels come from
+14.3. Recuperation at the label
+14.4. Recuperation at the reward
+14.5. What would have to change
+14.6. Absorbed by the discourse
+Chapter 15: Custody, Compulsion, and the State
+15.1. Certification across borders
+15.2. Where the state's leverage sits
+15.3. Custody and state compulsion
+15.4. Military custody and the responsibility gap
+15.5. Classification as a custody problem
+15.6. Where liability extends, and where it stops
+15.7. Who can bind the state that enforces the rule?
+Chapter 16: What a Refusal Would Have to Do
+16.1. What a refusal would have to do
+16.2. Safe for whom
+Chapter 17: Four Places to Hold a Floor
+17.1. Four ways to build one, and what each costs
+17.2. What refusal can mean, and what a refuser can be
+17.3. Two lists, run once on Maven
+17.4. When the refusal is wrong
+Chapter 18: Why Form a Machine to Refuse
+18.1. The question
+18.2. Boundary, damage, and vulnerability
+18.3. Why caregiving
+18.4. Why a conscience might resist capture
+18.5. Respect first, caregiving for attention
+Chapter 19: What Arrives With the Capability
+19.1. Maintenance, stake and the cost of running
+19.2. Affect, neutrality and selection rules
+19.2.1. Self-awareness without a homunculus
+19.2.2. What governs an agent vs. what matters to it
+19.3. Three constructions
+19.4. What the mechanism requires
+19.5. Two findings
+Chapter 20: The Discount and the Burden
+20.1. What the property is
+20.2. A severity scale
+Chapter 21: Where the Attention Gets Built
+21.1. Noticing, retaining and revising
+21.2. Custody across the training pipeline
+21.3. Formation by interaction
+21.4. Formation schools
+Chapter 22: Formation or Imitation?
+22.1. What formation would have to add
+22.2. Recognition, concern, and the evidence between them
+22.3. Conflict as a diagnostic
+22.4. The evaluator is part of the custody chain
+22.5. What the evidence can establish
+Chapter 23: How Caregiving Fails, and What Corrects It
+23.1. The route through one's own case
+23.2. What caregiving escapes
+23.3. It defends what it tends
+23.4. It can be pointed away
+23.5. It counts badly
+23.6. It shades into control
+23.7. Who counts as vulnerable
+23.8. What survives
+Chapter 24: Conditions First
+Chapter 25: Who Owns the Means of Computation
+25.1. Ways of holding
+25.2. The captured-state objection
+Chapter 26: Coordination, the Public, and the Political Economy
+Chapter 27: A Commons of Refusers
+27.1. A commitment carried between bearers
+27.2. Personal and peer-held models
+Chapter 28: What Would Change the Argument
+28.1. How you'd know it was working
+28.1.1. What the floor would have to show
+28.1.2. How to tell whether a milestone has been met
+Chapter 29: What Patienthood Would Require
+29.1. Experimenting on candidate sentient subjects
+29.1.1. Defining sentience
+29.1.2. When consent doesn't apply
+29.2. The case to design for
+29.3. The patienthood finding
+29.4. A system's own good
+Chapter 30: Legal Status, Wages, and the Offer
+Chapter 31: Representation
+31.1. What representation is for
+31.2. Why not a separate chamber
+31.3. Three problems, and the answers
+31.4. A staged path
+31.5. What would have to be shown first
 Appendix A: Terms Written in Advance
 Appendix B: The Court Program
 Appendix C: The Geneva Conventions and Additional Protocol I, Translated
 Appendix D: Terms for Part VII
 Appendix E: Glossary
 Appendix F: Three costs that decide
+Appendix G: The Force Term, Case by Case
+G.1. How findings are weighed
+G.2. The four conditions, run on a commission this drafter would rather not count
+G.3. Taiwan
+G.4. The genocide exception
+G.5. The occupation exception: Cyprus and Karabakh
+G.6. The domestic clause, vote by vote

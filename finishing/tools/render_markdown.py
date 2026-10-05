@@ -613,13 +613,20 @@ SECTIONS = "@@SECTIONS@@"
 DRAFT_WORDS = re.compile(
     r"draftmode|draftstatus|draftwatermark|SetWatermark|watermark|"
     r"refschecked|refstotal|buildstamp|ds@|draft-status|PREPRINT|"
-    r"WORKING MANUSCRIPT|human-checked|footer", re.IGNORECASE)
+    r"WORKING MANUSCRIPT|human-checked|footer|"
+    r"refcheckedkey|refok@|refunchecked|ref-unchecked|draft:cite", re.IGNORECASE)
 
 
 def _matching_fi(text, i):
-    r"""Index just past the \fi closing the conditional that opens at i."""
+    r"""Index just past the \fi closing the conditional that opens at i.
+
+    A test that takes its branches as braced arguments -- etoolbox's \ifcsdef,
+    biblatex's \iffieldundef -- closes with its last brace and has no \fi, so
+    it is not counted: an \if-name followed by an opening brace is skipped
+    (D-641, when the citation highlight put an \ifcsdef inside \ifdraftmode).
+    """
     depth = 0
-    for m in re.finditer(r"\\(if[a-zA-Z@]*|fi)\b", text[i:]):
+    for m in re.finditer(r"\\(fi)\b|\\(if[a-zA-Z@]*)(?![a-zA-Z@])(?!\s*\{)", text[i:]):
         if m.group(1) == "fi":
             depth -= 1
             if depth == 0:

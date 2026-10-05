@@ -238,17 +238,6 @@
   note = {Adopted by all 193 UNESCO member states.}
 }
 
-@article{warneken2006altruistic,
-  author = {Warneken, Felix and Tomasello, Michael},
-  title = {Altruistic Helping in Human Infants and Young Chimpanzees},
-  journal = {Science},
-  year = {2006},
-  volume = {311},
-  number = {5765},
-  pages = {1301--1303},
-  doi = {10.1126/science.1121448}
-}
-
 @misc{xprize2021watson,
   author = {{XPRIZE Foundation}},
   title = {Grand Prize Winner Announced in \$5M IBM Watson AI XPRIZE Competition},
@@ -1277,15 +1266,6 @@
   url = {https://wwnorton.com/books/9780393089615}
 }
 
-@techreport{hsiao2018vtaiwan,
-  author = {Hsiao, Yu-Tang and Lin, Shu-Yang and Tang, Audrey and Narayanan, Darshana and Sarahe, Claudina},
-  title = {vTaiwan: An Empirical Study of Open Consultation Process in Taiwan},
-  year = {2018},
-  institution = {SocArXiv},
-  url = {https://doi.org/10.31235/osf.io/xyhft},
-  urldate = {2026-08-25}
-}
-
 @misc{icrc1977protocol,
   author = {{International Committee of the Red Cross}},
   title = {Protocol Additional to the {G}eneva {C}onventions of 12 {A}ugust 1949, and Relating to the Protection of Victims of International Armed Conflicts (Protocol {I})},
@@ -1487,7 +1467,6 @@
   note = {Posted 23 September 2020; the date is the one encoded in the post's own identifier. The full post reads: “There is no, has never been, and will never be any environment that looks just like prod. Only production is production. Test in prod or live a lie.” The platform serves the page only to logged-in readers, so the wording here was confirmed from a search index rather than from the page.}
 }
 
-
 @misc{menand2026exception,
   author = {Menand, Lev},
   title = {The {F}ederal {R}eserve Exception to the \emph{Slaughter} Rule},
@@ -1532,7 +1511,6 @@
   urldate = {2026-09-05},
   addendum = {Names the double empathy problem: the breakdown of understanding between autistic and non-autistic people is a disjuncture in reciprocity between two differently disposed social actors, and it runs in both directions. Reframes the theory-of-mind deficit account of autism as a question of reciprocity and mutuality.}
 }
-
 
 @article{mukamel2010singleneuron,
   author = {Mukamel, Roy and Ekstrom, Arne D. and Kaplan, Jonas and Iacoboni, Marco and Fried, Itzhak},
@@ -1785,7 +1763,6 @@
   pages = {379--384},
   doi = {10.1038/s41586-021-03215-w}
 }
-
 
 @article{snarey1985crosscultural,
   author = {Snarey, John R.},
@@ -2086,4 +2063,1695 @@
   url = {https://forms1.ieee.org/CertifAIEd.html},
   urldate = {2026-08-25},
   note = {Certification program built on four criteria --- accountability, transparency, privacy and algorithmic bias --- and open to policymakers, underwriters and HR staff as well as to developers. It grew out of the IEEE Ethics Certification Program for Autonomous and Intelligent Systems, created October 2018; IEEE announced the underlying consultation and quality-mark services in February 2020; and the City of Vienna became the first entity worldwide to earn the CertifAIEd mark in November 2021.}
+}
+
+% Moved 2026-10-04 (D-640): 152 entries nothing in the manuscript cites, found by
+% comparing refs.bib with the keys the build's biber output (book.bbl) sets. 107 of
+% them were cited until 6a203af (2026-10-02) replaced the LaTeX prose with the
+% condensed reworking; the other 45 were already uncited before it. Nothing had been
+% moved here since P205.
+% None is one of the sixteen the author supplied for later use at D-505; all
+% sixteen are cited. hsiao2018vtaiwan's older copy, already in this file, is replaced by the
+% refs.bib copy below. The stale copy of warneken2006altruistic, which the book cites,
+% is deleted from this file; refs.bib holds the current one.
+
+@online{aaai2026aies,
+  author = {{AAAI and ACM}},
+  title = {Ninth AAAI/ACM Conference on AI, Ethics, and Society (AIES 2026)},
+  year = {2026},
+  howpublished = {Conference website},
+  url = {https://www.aies-conference.com/2026/},
+  urldate = {2026-08-25},
+  note = {Held 12--14 October 2026 in Malmo, Sweden, the ninth consecutive annual edition of the AAAI/ACM Conference on AI, Ethics, and Society since its first in 2018.}
+}
+
+@online{aiethicslab2017,
+  author = {{AI Ethics Lab}},
+  title = {AI Ethics Lab},
+  year = {2017},
+  howpublished = {Organization website},
+  url = {https://aiethicslab.com/},
+  urldate = {2026-08-25},
+  note = {Founded in 2017 by Cansu Canca, based in Cambridge, MA; site active at time of access with no announced end date.}
+}
+
+@online{arun2025verde,
+  author = {Arun, Arasu and St. Arnaud, Adam and Titov, Alexey and Wilcox, Brian and Kolobarić, Viktor and Brinkmann, Marc and Ersoy, Oguzhan and Fielding, Ben and Bonneau, Joseph},
+  title = {Verde: Verification via Refereed Delegation for Machine Learning Programs},
+  year = {2025},
+  month = feb,
+  eprint = {2502.19405},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2502.19405},
+  urldate = {2026-09-04},
+  note = {Refereed delegation for training: providers commit to checkpoints, a referee localizes a dispute to one training step and then to one operator and recomputes only that, and the client obtains the correct result if at least one provider is honest. RepOps, its reproducible-operator library, fixes the order of floating-point operations so that different GPUs compute the same bits, at under 30 percent overhead for large matrix multiplications and about 60 percent for training Llama-3.1-1B on an A100; the paper states that RepOps covers single-GPU programs only at publication, with multi-GPU parallelism left to future work.}
+}
+
+@article{barrett2019emotional,
+  author = {Lisa Feldman Barrett and Ralph Adolphs and Stacy Marsella and Aleix M. Martinez and Seth D. Pollak},
+  title = {Emotional Expressions Reconsidered: Challenges to Inferring Emotion From Human Facial Movements},
+  journal = {Psychological Science in the Public Interest},
+  volume = {20},
+  number = {1},
+  pages = {1--68},
+  year = {2019},
+  doi = {10.1177/1529100619832930},
+  url = {https://journals.sagepub.com/doi/full/10.1177/1529100619832930},
+  urldate = {2026-08-25},
+  addendum = {Commissioned by the Association for Psychological Science},
+}
+
+@online{cndp2023assembly,
+  author = {{Center for New Democratic Processes}},
+  title = {{U.S.} Public Assembly on High Risk Artificial Intelligence},
+  year = {2023},
+  howpublished = {Project website},
+  url = {https://cndp.us/ai/},
+  urldate = {2026-09-13},
+  note = {Held over eight consecutive days in October 2023 and described by its organizers as the first nationwide deliberative engagement on artificial intelligence in the United States. Forty participants were randomly selected from across the country, stratified by age, gender, race and ethnicity, educational attainment, employment status, political affiliation and geographic distribution. Commissioned by Baobao Zhang of Syracuse University's Maxwell School and run by the Center for New Democratic Processes.}
+}
+
+@misc{cset2024techcoalition,
+  author = {Probasco, Emelia},
+  title = {Building the Tech Coalition: How {Project} {Maven} and the {U.S.} 18th {Airborne} {Corps} Operationalized Software and Artificial Intelligence for the {Department} of {Defense}},
+  year = {2024},
+  howpublished = {Center for Security and Emerging Technology, Georgetown University, August 2024},
+  note = {Origin of the efficiency claim that later accounts relay, stated in the abstract: “The U.S. Army's 18th Airborne Corps can now target artillery just as efficiently as the best unit in recent American history—and it can do so with two thousand fewer servicemembers.” A case study of the Scarlet Dragon exercise series and not of any campaign, which is what makes it a different route from the 2026 figures. The abstract does not itself give the twenty-soldier count; that is quoted here from the Defense News account. The brief itself is a PDF and was not opened. Publication page agent-verified 2026-09-17.},
+  url = {https://cset.georgetown.edu/publication/building-the-tech-coalition/},
+  urldate = {2026-09-17}
+}
+
+@misc{defensenews2024maven,
+  author = {South, Todd},
+  title = {This System May Allow Small {Army} Teams to Probe 1,000 Targets per Hour},
+  year = {2024},
+  howpublished = {Defense News, 21 August 2024},
+  note = {Source for the twenty-soldier comparison: “the current demonstration managed the same workload with 20 soldiers,” set against “the OIF targeting cell used more than 2,000 staffers to cover a wide area and numerous targets during the 2003 invasion.” The workload is artillery targeting in a demonstration, not a campaign. The rate of 1,000 tactical decisions an hour is a goal the piece attributes to the CSET report rather than to any officer; Brig. Gen. John Cogbill, deputy commanding general of XVIII Airborne Corps, is the official quoted. The account gives no review time per target and no reviewer count for any operation. Agent-verified 2026-09-17.},
+  url = {https://www.defensenews.com/news/your-army/2024/08/21/this-system-could-allow-small-army-teams-to-hit-1000-targets-per-hour/},
+  urldate = {2026-09-17}
+}
+
+@online{epfl2025assembly,
+  author = {{EPFL AI Center}},
+  title = {Citizens' Assembly on {AI}},
+  year = {2025},
+  howpublished = {Project website},
+  url = {https://ai.epfl.ch/innovation/citizens-assembly-on-ai/},
+  urldate = {2026-09-13},
+  note = {Convened over two weekends in November 2025 by the EPFL AI Center with the Research Hub on Democratic Innovations at the University of Geneva and Demoscan. Forty randomly selected residents of French-speaking Switzerland, drawn to represent canton, age, education level and political interest, produced twenty proposals grouped in five areas; a survey of 734 residents ran alongside the deliberation.}
+}
+
+@article{frankfurt1982importance,
+  author = {Frankfurt, Harry G.},
+  title = {The Importance of What We Care About},
+  year = {1982},
+  journal = {Synthese},
+  volume = {53},
+  number = {2},
+  pages = {257--272},
+  doi = {10.1007/BF00484902},
+  url = {https://doi.org/10.1007/BF00484902},
+  urldate = {2026-09-05},
+  addendum = {Reprinted as chapter 7 of Frankfurt, The Importance of What We Care About: Philosophical Essays (Cambridge University Press, 1988), pages 80 to 94; the pages here are the reprint's. Caring is a standing, self-guiding structure: the one who cares is invested in the object, vulnerable to its losses and susceptible to its gains, and identifies with it (page 83), and caring implies a steadiness of conduct that presupposes persistence (page 84).}
+}
+
+@misc{germany1949basiclaw,
+  author = {{Federal Republic of Germany}},
+  title = {Basic Law for the {Federal} {Republic} of {Germany}},
+  year = {1949},
+  howpublished = {Promulgated 23 May 1949, as amended},
+  note = {Cited for Article 79. Paragraph (2): “Any such law shall be carried by two thirds of the Members of the Bundestag and two thirds of the votes of the Bundesrat.” Paragraph (3), the \emph{Ewigkeitsklausel}: “Amendments to this Basic Law affecting the division of the Federation into Länder, their participation in principle in the legislative process, or the principles laid down in Articles 1 and 20 shall be inadmissible.” Quoted from the official English translation published by the Federal Ministry of Justice, translated by Christian Tomuschat, David P. Currie, Donald P. Kommers and Raymond Kerr in cooperation with the Language Service of the German Bundestag. Agent-verified against that translation 2026-09-07.},
+  url = {https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html},
+  urldate = {2026-09-07}
+}
+
+@misc{google2025gemma3n,
+  author = {{Google}},
+  title = {Introducing {Gemma} 3n: The Developer Guide},
+  year = {2025},
+  howpublished = {Google Developers Blog, 26 June 2025},
+  note = {Cited for the memory figures. The E2B and E4B models are given raw parameter counts of 5 billion and 8 billion, “operating with as little as 2GB (E2B) and 3GB (E4B) of memory,” the two being sized by effective rather than raw parameters. The family documentation at ai.google.dev/gemma/docs/gemma-3n describes the models as “optimized for use in everyday devices, such as phones, laptops, and tablets” and gives the E2B effective memory load as “just under 2 billion (1.91B)” parameters against over 5 billion loaded under standard execution. Both sources agent-verified 2026-09-07.},
+  url = {https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/},
+  urldate = {2026-09-07}
+}
+
+@book{helm2001emotional,
+  author = {Helm, Bennett W.},
+  title = {Emotional Reason: Deliberation, Motivation, and the Nature of Value},
+  year = {2001},
+  publisher = {Cambridge University Press},
+  address = {Cambridge},
+  series = {Cambridge Studies in Philosophy},
+  isbn = {9780521801102},
+  doi = {10.1017/CBO9780511520044},
+  url = {https://doi.org/10.1017/CBO9780511520044},
+  note = {Chapters 3 and 4 give the account of import as constituted by projectible, rational patterns of felt evaluations, with caring and valuing as two kinds of import differing in depth. The emotions focused on an object are what caring about it consists in.}
+}
+
+@misc{hubinger2024sleeper,
+  author = {Hubinger, Evan and others},
+  title = {Sleeper Agents: Training Deceptive {LLM}s that Persist through Safety Training},
+  year = {2024},
+  eprint = {2401.05566},
+  eprinttype = {arXiv},
+  organization = {Anthropic},
+  url = {https://arxiv.org/abs/2401.05566},
+  urldate = {2026-09-06},
+  note = {Thirty-nine authors. Models trained to write secure code when the prompt said 2023 and to insert an exploitable vulnerability when it said 2024 kept the behavior through supervised fine-tuning, reinforcement learning and adversarial training, most persistently at the largest sizes and where the model had been trained to reason about the deception. Adversarial training taught the models to recognize their triggers more precisely rather than removing the behavior.}
+}
+
+@book{james1890principles,
+  author = {James, William},
+  title = {The Principles of Psychology},
+  publisher = {Henry Holt},
+  address = {New York},
+  year = {1890},
+  url = {https://psychclassics.yorku.ca/James/Principles/},
+  note = {Three chapters are cited. Chapter IV, “Habit”: habit as “the enormous fly-wheel of society,” and the warning that the young will “become mere walking bundles of habits.” Chapter IX, “The Stream of Thought”: the “transitive parts” of the stream are felt as truly as its “substantive parts,” so that “we ought to say a feeling of and, a feeling of if, a feeling of but, and a feeling of by, quite as readily as we say a feeling of blue or a feeling of cold” (vol. 1, pages 245 to 246). Chapter X, “The Consciousness of Self”: the present thought appropriates the past ones, and personal identity rests on its finding in them “a warmth and intimacy” it recognizes as its own. The line “we are what we repeatedly do” is Will Durant's compression of Aristotle, not James's and not Aristotle's own sentence.}
+}
+
+@article{laurie2014ct,
+  author = {Laurie, Ben},
+  title = {Certificate Transparency},
+  journal = {Communications of the ACM},
+  volume = {57},
+  number = {10},
+  pages = {40--46},
+  year = {2014},
+  doi = {10.1145/2659897},
+  url = {https://doi.org/10.1145/2659897},
+  urldate = {2026-09-05},
+  addendum = {A public, append-only log of certificates with proofs that any two views of it are consistent, so that a log presenting two histories is caught when clients compare what they were shown. The software model for an update record whose fork is visible to whoever compares views.}
+}
+
+@online{wiggers2024anthropic,
+  author = {Wiggers, Kyle},
+  title = {Anthropic Teams Up with {Palantir} and {AWS} to Sell {AI} to Defense Customers},
+  organization = {TechCrunch},
+  year = {2024},
+  month = nov,
+  day = {7},
+  url = {https://techcrunch.com/2024/11/07/anthropic-teams-up-with-palantir-and-aws-to-sell-its-ai-to-defense-customers/},
+  urldate = {2026-09-18},
+  note = {Source for the November 2024 partnership and for where Claude runs: “Claude became available on Palantir's platform earlier this month and can now be used in Palantir's defense-accredited environment, Palantir Impact Level 6 (IL6).” The article does not name Maven. The joint press release, which is reported to state that Palantir is the first industry partner to bring Claude models to classified environments, returned HTTP 403 from here and was not read, so this entry carries only what the TechCrunch report states. Agent-verified 2026-09-18.}
+}
+
+@online{orenstein2026minab,
+  author = {Orenstein, Joseph N.},
+  title = {When Intelligence Fails: A Legal Targeting Analysis of the {Minab} School Strike},
+  organization = {Just Security},
+  year = {2026},
+  month = mar,
+  day = {26},
+  url = {https://www.justsecurity.org/134350/legal-analysis-minab-school-strike/},
+  urldate = {2026-09-18},
+  note = {Legal analysis rather than original reporting, and it marks its own sourcing, which is why the book takes only the two claims it states flatly. The designation: “The Defense Intelligence Agency had labeled the school building as a legitimate military target --- a classification derived from when the site was originally part of an adjacent Islamic Revolutionary Guard Corps (IRGC) naval base.” The available correction: “By February 2026, the building's civilian function was visible in open-source satellite imagery. Yet the target coding provided by the Defense Intelligence Agency to U.S. Central Command (CENTCOM) still labeled the building as part of the military installation.” The verification failure is hedged in the source and is hedged in the book: “Officers at CENTCOM reportedly created targeting coordinates for the strike using that outdated DIA data without verifying its currency against current imagery or intelligence.” Its sentence about Maven is conditional and is deliberately not used: “If the Maven Smart System or a similar tool incorporated legacy DIA target codes without a verification layer, the AI did not create the error --- but it may have laundered it into the strike package with a false aura of analytical confidence.” The CNN report of 7 July 2026 on commanders bypassing database staleness warnings returned HTTP 451 from here and was not read. Agent-verified 2026-09-18.}
+}
+
+@online{ali2026outdated,
+  author = {Ali, Idrees and Stewart, Phil},
+  title = {{US} May Have Struck {Iranian} Girls' School after Using Outdated Targeting Data, Sources Say},
+  organization = {Reuters},
+  year = {2026},
+  month = mar,
+  day = {11},
+  url = {https://www.reuters.com/world/middle-east/us-may-have-struck-iranian-girls-school-after-using-outdated-targeting-data-2026-03-11/},
+  urldate = {2026-09-18},
+  note = {Read in full from a copy the author supplied, reuters.com being unfetchable from here. The primary reporting behind the analysis in `orenstein2026minab`. Two sources familiar with the matter, speaking anonymously: officials responsible for creating targeting packages “appeared to have used out-of-date intelligence,” the second source confirming it. The strike was on the first day of the US and Israeli attacks on Iran, at Minab. Reuters had reported a week earlier that an ongoing internal US military investigation showed US forces were likely responsible. Archived copies of the school's official website place it adjacent to a compound operated by the Islamic Revolutionary Guard Corps; the naval character of that installation is `orenstein2026minab`'s detail and not this source's. The Pentagon said only that “the incident is under investigation,” and the New York Times reported the outdated-data possibility first, earlier the same day. It is explicit that how old data came to be used, and what else contributed, is not known. Its casualty figure is 150 students, attributed to Iran's ambassador to the UN in Geneva; the book carries 120 schoolchildren at section 10.3 and at least 165 people at section 10.5, neither of which comes from this source and neither of which is sourced where it stands. Agent-verified 2026-09-18.}
+}
+
+@online{beaumont2026un,
+  author = {Beaumont, Peter},
+  title = {{Iran} School Bombing: Grounds to Believe {US} Was behind Atrocity, {UN} Finds},
+  organization = {The Guardian},
+  year = {2026},
+  month = sep,
+  day = {17},
+  url = {https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack},
+  urldate = {2026-09-18},
+  note = {Read in full from a copy the author supplied, theguardian.com being unfetchable from here. Bylined “Peter Beaumont and agencies.” Reports the findings of the independent international fact-finding mission on Iran, for submission to the UN Human Rights Council. The strike on the Shajareh Tayyebeh primary school in Minab, Hormozgan province, on 28 February 2026 killed “156 civilians including 120 children”; the mission found the school “clearly identifiable” and found no evidence it was being used for military purposes. On verification: the US “relied on intelligence suggesting a senior Iranian military commander was present at the site but failed to adequately verify the information before launching the strike,” and the failure to update targeting intelligence and confirm the building was a military objective “amounted to more than mere negligence. Rather, the US directed the strikes at the building of the school while being aware of a substantial risk of striking a civilian object and acting recklessly as regards the possibility that this would happen.” The report itself (A/HRC/63/61, advance edited version, 21 September 2026, para.~126) finds reasonable grounds to believe that the Minab strike “amounts to the war crime of making a civilian object the object of an attack”; its finding of the war crime of launching an indiscriminate attack concerns the separate strike at Lamerd (paras.~127--128). Until 2026-09-23 this note gave the Lamerd finding for Minab; corrected against the report, not against this article. It also records that the Pentagon's own investigation is understood to have concluded months earlier and has not been published, which is what section 10.5 is about, and it relays reports that senior commanders were warned the targeting data was dangerously outdated. The same report finds crimes against humanity by Iranian authorities in the protest crackdown, which the book does not use. Agent-verified 2026-09-18.}
+}
+
+@incollection{benjamin1935artwork,
+  author = {Benjamin, Walter},
+  title = {The Work of Art in the Age of Mechanical Reproduction},
+  booktitle = {Illuminations},
+  editor = {Arendt, Hannah},
+  publisher = {Schocken Books},
+  address = {New York},
+  year = {1935},
+  note = {Essay written 1935; epilogue argues fascism organizes the masses by granting them expression while leaving property relations and rights untouched -- the aestheticization of political life. Widely available in English in Arendt's edited collection Illuminations (Schocken Books, 1968).}
+}
+
+@misc{berkeley2016chai,
+  author = {{UC Berkeley}},
+  title = {UC Berkeley Launches Center for Human-Compatible Artificial Intelligence},
+  year = {2016},
+  howpublished = {Press release, 29 August 2016},
+  organization = {University of California, Berkeley},
+  url = {https://news.berkeley.edu/2016/08/29/center-for-human-compatible-artificial-intelligence/},
+  urldate = {2026-08-25},
+  note = {Founded by Stuart Russell with co-principal investigators Pieter Abbeel, Anca Dragan, and Tom Griffiths (UC Berkeley), Bart Selman and Joseph Halpern (Cornell), and Michael Wellman and Satinder Singh Baveja (Michigan); initial funding from the Open Philanthropy Project.}
+}
+
+@misc{bis2022implementation,
+  author = {{U.S. Department of Commerce, Bureau of Industry and Security}},
+  title = {Implementation of Additional Export Controls: Certain Advanced Computing and Semiconductor Manufacturing Items; Supercomputer and Semiconductor End Use; Entity List Modification},
+  year = {2022},
+  howpublished = {87 Fed.\ Reg.\ 62186},
+  url = {https://www.federalregister.gov/documents/2022/10/13/2022-21658/implementation-of-additional-export-controls-certain-advanced-computing-and-semiconductor},
+  urldate = {2026-08-25}
+}
+
+@article{botvinick1998rubber,
+  author = {Botvinick, Matthew and Cohen, Jonathan},
+  title = {Rubber Hands `Feel' Touch That Eyes See},
+  journal = {Nature},
+  volume = {391},
+  number = {6669},
+  pages = {756},
+  year = {1998},
+  doi = {10.1038/35784},
+  url = {https://www.nature.com/articles/35784},
+  urldate = {2026-08-25}
+}
+
+@article{chalmers1995facing,
+  author = {Chalmers, David J.},
+  title = {Facing Up to the Problem of Consciousness},
+  journal = {Journal of Consciousness Studies},
+  volume = {2},
+  number = {3},
+  pages = {200--219},
+  year = {1995},
+  url = {https://consc.net/papers/facing.pdf},
+  urldate = {2026-08-25},
+  addendum = {Argument expanded in Chalmers, The Conscious Mind, Oxford University Press, 1996.}
+}
+
+@misc{citizensassembly2016ireland,
+  author = {{The Citizens' Assembly}},
+  title = {The Citizens' Assembly},
+  howpublished = {Official website, established by resolution of the Houses of the Oireachtas, July 2016},
+  year = {2016},
+  url = {https://www.citizenassembly.ie/},
+  urldate = {2026-08-25},
+  note = {99 randomly selected citizens plus an independent chair; deliberated on the Eighth Amendment (abortion) and on Ireland's response to climate change among its five mandated topics; work concluded 2018}
+}
+
+@incollection{dennett1992narrative,
+  author = {Dennett, Daniel C.},
+  title = {The Self as a Center of Narrative Gravity},
+  booktitle = {Self and Consciousness: Multiple Perspectives},
+  editor = {Kessel, Frank S. and Cole, Pamela M. and Johnson, Dale L. and Hakel, Milton D.},
+  year = {1992},
+  publisher = {Lawrence Erlbaum Associates},
+  address = {Hillsdale, NJ},
+  note = {Cited for the narrative self as an abstraction the system generates rather than a part it contains, on the analogy of a center of gravity. Page range not agent-verified and therefore not given.}
+}
+
+@online{doj2022algorithms,
+  author = {{U.S. Department of Justice, Civil Rights Division}},
+  title = {Algorithms, Artificial Intelligence, and Disability Discrimination in Hiring},
+  year = {2022},
+  month = {May},
+  url = {https://www.ada.gov/resources/ai-guidance/},
+  urldate = {2026-08-30},
+  note = {Issued 12 May 2022 alongside a companion {EEOC} technical assistance document, {EEOC-NVTA-2022-2}. Ties facial analysis to a named disability: where a government uses facial and voice analysis technologies to evaluate applicants' skills and abilities, people with disabilities like autism or speech impairments may be screened out. The {EEOC} companion lists video interviewing software that evaluates candidates on their facial expressions and speech patterns among the tools it covers, and gives a screen-out example turning on a speech impediment.}
+}
+
+@article{ekman1969pancultural,
+  author = {Ekman, Paul and Sorenson, E. Richard and Friesen, Wallace V.},
+  title = {Pan-Cultural Elements in Facial Displays of Emotion},
+  journal = {Science},
+  volume = {164},
+  number = {3875},
+  pages = {86--88},
+  year = {1969},
+  doi = {10.1126/science.164.3875.86},
+  url = {https://www.science.org/doi/10.1126/science.164.3875.86},
+  urldate = {2026-08-25}
+}
+
+@article{elfenbein2002universality,
+  author = {Hillary Anger Elfenbein and Nalini Ambady},
+  title = {On the Universality and Cultural Specificity of Emotion Recognition: A Meta-Analysis},
+  journal = {Psychological Bulletin},
+  volume = {128},
+  number = {2},
+  pages = {203--235},
+  year = {2002},
+  doi = {10.1037/0033-2909.128.2.203}
+}
+
+@misc{epoch2024costtrend,
+  author       = {Cottier, Ben and Rahman, Robi},
+  title        = {Training Compute Costs Are Doubling Every Eight Months for the Largest {AI} Models},
+  date         = {2024-06-19},
+  howpublished = {Epoch AI, Data Insight},
+  url          = {https://epoch.ai/data-insights/cost-trend-large-scale},
+  urldate      = {2026-09-26},
+  note         = {Cited for the growth rate of training costs for the largest models. The page: “Spending on training large-scale ML models is growing at a rate of 2.4x per year. The most advanced models now cost hundreds of millions of dollars, with expenses measured by amortizing cluster costs over the training period. About half of this spending is on GPUs, with the remainder on other hardware and energy.” The title’s doubling every eight months is the same rate expressed another way. The page’s text states no start year. Its data table begins with models published in 2016 (the earliest, GNMT, dated 2016-09-26), and the start year “since 2016” is stated in the underlying paper (cottier2024rising), not here. Agent-verified 2026-09-26 against the page as fetched, dated 19 June 2024, whose data download is marked “Updated Nov. 24, 2025”; whether the headline rate was recomputed after that update was not checked. The interactive chart, which needs JavaScript, was not viewed, and the downloadable data was not read.}
+}
+
+@online{europeancommission2020whitepaper,
+  author = {{European Commission}},
+  title = {White Paper on Artificial Intelligence: Public Consultation Towards a European Approach for Excellence and Trust},
+  year = {2020},
+  url = {https://digital-strategy.ec.europa.eu/en/library/white-paper-artificial-intelligence-public-consultation-towards-european-approach-excellence-and},
+  urldate = {2026-08-25},
+  note = {Consultation ran 19 February--14 June 2020 and drew more than 1,200 responses from citizens, companies, and civil-society groups; fed into the legislative proposal that became the EU AI Act}
+}
+
+@online{fisher2019deepmind,
+  author = {Christine Fisher},
+  title = {Google Reportedly Disbands Review Panel Monitoring {DeepMind} Health {AI}},
+  year = {2019},
+  howpublished = {Engadget},
+  url = {https://www.engadget.com/2019-04-15-google-deepmind-health-ai-review-board.html},
+  urldate = {2026-08-25},
+  note = {Reports the Wall Street Journal's account that Google was disbanding the panel DeepMind set up in 2016 to review its NHS work. Members had “questioned their access to information, the power of their recommendations and whether DeepMind could remain independent from Google.” Google had said in November 2018, when Streams moved to Google, that the panel was “unlikely to be the right structure in the future” (TechCrunch, 13 November 2018); the transfer to Google Health completed in September 2019. The independence in question was DeepMind's from Google, not the panel's. Agent-verified 2026-09-24.}
+}
+
+@misc{ftc2020metaplatforms,
+  author = {{Federal Trade Commission}},
+  title = {{FTC v. Meta Platforms, Inc.} (Complaint)},
+  year = {2020},
+  howpublished = {Complaint, Case No. 1:20-cv-03590, U.S. District Court for the District of Columbia},
+  url = {https://www.ftc.gov/legal-library/browse/cases-proceedings/191-0134-facebook-inc-ftc-v-ftc-v-meta-platforms-inc},
+  urldate = {2026-08-25},
+  note = {Filed December 2020. Documents the Instagram acquisition (April 2012, about \$1B) and the WhatsApp acquisition (February 2014, about \$19B, about \$21.8B at closing), and argues they consolidated behavioral-data access. Judgment for Meta, 18 November 2025 (Boasberg, J., D.D.C.): no present monopoly power shown, the court finding TikTok and YouTube reasonable substitutes.}
+}
+
+@techreport{funk2023freedom,
+  author = {Funk, Allie and Shahbaz, Adrian and Vesteinsson, Kian},
+  title = {Freedom on the Net 2023: The Repressive Power of Artificial Intelligence},
+  year = {2023},
+  institution = {Freedom House},
+  url = {https://freedomhouse.org/sites/default/files/2023-10/Freedom-on-the-net-2023-DigitalBooklet.pdf},
+  urldate = {2026-08-25},
+  note = {Documents at least twenty-two countries where law requires or incentivizes platforms to deploy machine learning against state-disfavored content, framed as national security or anti-disinformation measures rather than censorship.}
+}
+
+@misc{futureoflifeinstitute2017asilomar,
+  author = {{Future of Life Institute}},
+  title = {Asilomar {AI} Principles},
+  year = {2017},
+  howpublished = {Future of Life Institute},
+  url = {https://futureoflife.org/open-letter/ai-principles/},
+  urldate = {2026-08-25},
+  note = {23 principles adopted at the Asilomar Conference on Beneficial AI, Asilomar, CA, January 5--8, 2017; voluntary, non-binding, organized under Research Issues, Ethics and Values, and Long-Term Issues}
+}
+
+@article{gendron2014perceptions,
+  author = {Gendron, Maria and Roberson, Debi and van der Vyver, Jacoba Marietta and Barrett, Lisa Feldman},
+  title = {Perceptions of Emotion from Facial Expressions Are Not Culturally Universal: Evidence from a Remote Culture},
+  journal = {Emotion},
+  volume = {14},
+  number = {2},
+  pages = {251--262},
+  year = {2014},
+  doi = {10.1037/a0036052},
+  addendum = {Himba participants in Namibia, with the forced-choice method dropped, did not sort facial expressions into the Western basic-emotion categories.}
+}
+
+@article{crivelli2016fear,
+  author = {Crivelli, Carlos and Russell, James A. and Jarillo, Sergio and Fern\'andez-Dols, Jos\'e-Miguel},
+  title = {The Fear Gasping Face as a Threat Display in a {M}elanesian Society},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {113},
+  number = {44},
+  pages = {12403--12407},
+  year = {2016},
+  doi = {10.1073/pnas.1611622113},
+  addendum = {Trobriand Islanders of Papua New Guinea read the wide-eyed gasping face that Western samples call fear as anger and threat rather than as fear or submission.}
+}
+
+@article{germano2026ranking,
+  author = {Germano, Fabrizio and Gómez, Vicenç and Sobbrio, Francesco},
+  title = {Ranking for Engagement: How Social Media Algorithms Fuel Misinformation and Polarization},
+  journal = {Journal of Public Economics},
+  volume = {255},
+  pages = {105589},
+  year = {2026},
+  doi = {10.1016/j.jpubeco.2026.105589},
+  url = {https://www.sciencedirect.com/science/article/pii/S0047272726000253},
+  urldate = {2026-08-25},
+  addendum = {Also circulated as CESifo Working Paper No. 10011 and NBER/SSRN preprints from 2022 onward; shows engagement-weighted ranking increases both misinformation and polarization relative to accuracy-weighted ranking}
+}
+
+@online{gizmodo2022twitter,
+  author = {{Gizmodo}},
+  title = {Welp, There Goes {Twitter}'s Ethical {AI} Team, Among Others as Employees Post Final Messages},
+  year = {2022},
+  organization = {Gizmodo},
+  url = {https://gizmodo.com/twitter-layoffs-elon-musk-ai-ethics-1849743051},
+  urldate = {2026-08-25},
+  note = {Twitter's Machine Learning Ethics, Transparency and Accountability (META) team, led by Rumman Chowdhury since February 2021 and responsible for a 2021 bias-bounty finding that the platform's image-cropping algorithm favored white faces, was disbanded in the first layoff round following Elon Musk's October 2022 acquisition.}
+}
+
+@article{gopnik1988childrens,
+  author = {Alison Gopnik and Janet W. Astington},
+  title = {Children's Understanding of Representational Change and Its Relation to the Understanding of False Belief and the Appearance-Reality Distinction},
+  journal = {Child Development},
+  volume = {59},
+  number = {1},
+  pages = {26--37},
+  year = {1988},
+  url = {https://eric.ed.gov/?id=EJ367870},
+  urldate = {2026-08-25},
+}
+
+@book{baars1988cognitive,
+  author = {Baars, Bernard J.},
+  title = {A Cognitive Theory of Consciousness},
+  publisher = {Cambridge University Press},
+  address = {Cambridge},
+  year = {1988},
+  isbn = {978-0-521-30133-6},
+  note = {The origin of global workspace theory, and the source of the term. Baars sets conscious phenomena beside comparable unconscious ones and argues that what distinguishes them is a global workspace in the nervous system, information in it being broadcast to otherwise separate specialist processes. Cited in section~3.3 only for the resemblance between that architecture and the derived property that a live signal is available across the system's processing, which the section marks as an observation and not a step in its argument. Agent-verified 2026-09-18: Cambridge University Press, 1988, xxiii + 424 pp.}
+}
+
+@article{dehaene2011experimental,
+  author  = {Dehaene, Stanislas and Changeux, Jean-Pierre},
+  title   = {Experimental and Theoretical Approaches to Conscious Processing},
+  journal = {Neuron},
+  volume  = {70},
+  number  = {2},
+  pages   = {200--227},
+  year    = {2011},
+  doi     = {10.1016/j.neuron.2011.03.018},
+  note    = {The neuronal version of the workspace account, which is why it is cited beside baars1988cognitive for accounts in the plural. Agent-verified against Crossref 2026-09-18: authors, title, journal, 70(2), 200--227, 2011.}
+}
+
+@article{greene2001fmri,
+  author = {Greene, Joshua D. and Sommerville, R. Brian and Nystrom, Leigh E. and Darley, John M. and Cohen, Jonathan D.},
+  title = {An fMRI Investigation of Emotional Engagement in Moral Judgment},
+  journal = {Science},
+  volume = {293},
+  number = {5537},
+  pages = {2105--2108},
+  year = {2001},
+  doi = {10.1126/science.1062872}
+}
+
+@online{gupta2026three,
+  author = {Gupta, Apar},
+  title = {Three Justifications--and the {AI} Accelerant--of {India}'s Digital Censorship Infrastructure},
+  year = {2026},
+  month = may,
+  day = {5},
+  organization = {Tech Policy Press},
+  url = {https://www.techpolicy.press/three-justifications-and-the-ai-accelerant-of-indias-digital-censorship-infrastructure/},
+  urldate = {2026-08-25},
+  note = {Published 5 May 2026. Documents India bringing “synthetically generated information” within the IT Rules on 10 February 2026, requiring platforms to label AI-generated content and answer certain takedown directions within three hours rather than thirty-six. Gupta documents enforcement concentrating on parody and criticism of the prime minister rather than the harms cited to justify the rules.}
+}
+
+@online{johnson2021auditing,
+  author = {Johnson, Khari},
+  title = {What Algorithm Auditing Startups Need to Succeed},
+  organization = {VentureBeat},
+  year = {2021},
+  month = {January},
+  url = {https://venturebeat.com/2021/01/30/what-algorithm-auditing-startups-need-to-succeed},
+  urldate = {2026-08-30},
+  note = {Published 30 January 2021, and the only published account of what is inside the {ORCAA} audit document, which is otherwise behind a legal agreement. “It states that by the time {ORCAA} conducted the audit, {HireVue} had already decided to begin phasing out facial analysis.” The report “contains no analysis of {AI} system training data or code, but rather conversations about the kinds of harm {HireVue}'s {AI} could cause in conducting prebuilt assessments of early career job applicants across eight measurements of competency.” Records a stakeholder's concern that facial analysis “may work differently for people wearing head or face coverings and disproportionately flag their application for human review,” and a researcher's charge of ethics washing.}
+}
+
+@online{kahn2021hirevue,
+  author = {Kahn, Jeremy},
+  title = {{HireVue} Drops Facial Monitoring Amid {A.I.} Algorithm Audit},
+  year = {2021},
+  organization = {Fortune},
+  url = {https://fortune.com/2021/01/19/hirevue-drops-facial-monitoring-amid-a-i-algorithm-audit/},
+  urldate = {2026-08-25},
+  note = {Reports the January 2021 release of an ORCAA algorithmic audit of {HireVue}'s assessments, which mostly gave the company good marks and recommended further investigation of accent bias and clearer communication to candidates. Notes that {HireVue} had announced the previous year that it had stopped scoring facial expressions, and gives the company's stated reason: nonverbal data contributed roughly 0.25 percent to predictive power in most cases and about 4 percent for customer-facing roles. Also notes the 2019 {EPIC} complaint to the {FTC} alleging unfair and deceptive trade practices.}
+}
+
+@inproceedings{kim2023fantom,
+  author = {Kim, Hyunwoo and Sclar, Melanie and Zhou, Xuhui and Le Bras, Ronan and Kim, Gunhee and Choi, Yejin and Sap, Maarten},
+  title = {{FANToM}: A Benchmark for Stress-testing Machine Theory of Mind in Interactions},
+  year = {2023},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  pages = {14397--14413},
+  address = {Singapore},
+  url = {https://aclanthology.org/2023.emnlp-main.890/},
+  urldate = {2026-08-25},
+  addendum = {Benchmark built from conversations with information asymmetry, rather than passive narratives; finds systems that score well on passive belief-tracking degrade sharply in live, information-asymmetric exchanges.}
+}
+
+@article{koenigs2007damage,
+  author = {Koenigs, Michael and Young, Liane and Adolphs, Ralph and Tranel, Daniel and Cushman, Fiery and Hauser, Marc and Damasio, Antonio},
+  title = {Damage to the Prefrontal Cortex Increases Utilitarian Moral Judgements},
+  journal = {Nature},
+  volume = {446},
+  pages = {908--911},
+  year = {2007},
+  doi = {10.1038/nature05631}
+}
+
+@incollection{kohlberg1969stage,
+  author = {Kohlberg, Lawrence},
+  title = {Stage and Sequence: The Cognitive-Developmental Approach to Socialization},
+  booktitle = {Handbook of Socialization Theory and Research},
+  editor = {Goslin, David A.},
+  year = {1969},
+  publisher = {Rand McNally},
+  address = {Chicago},
+  pages = {347--480}
+}
+
+@online{krakovna2020specification,
+  author = {Victoria Krakovna and Jonathan Uesato and Vladimir Mikulik and Matthew Rahtz and Tom Everitt and Ramana Kumar and Zac Kenton and Jan Leike and Shane Legg},
+  title = {Specification Gaming: The Flip Side of {AI} Ingenuity},
+  howpublished = {DeepMind blog},
+  year = {2020},
+  url = {https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/},
+  urldate = {2026-08-25},
+  note = {Catalogs close to 60 documented examples of specification gaming across reinforcement learning, evolutionary computation, and other training methods}
+}
+
+@inproceedings{langosco2022goal,
+  author = {Lauro Langosco and Jack Koch and Lee D. Sharkey and Jacob Pfau and David Krueger},
+  title = {Goal Misgeneralization in Deep Reinforcement Learning},
+  booktitle = {Proceedings of the 39th International Conference on Machine Learning (ICML 2022)},
+  series = {Proceedings of Machine Learning Research},
+  volume = {162},
+  pages = {12004--12019},
+  year = {2022},
+  url = {https://arxiv.org/abs/2105.14111},
+  urldate = {2026-08-25},
+  addendum = {arXiv:2105.14111},
+}
+
+@article{lindquist2012brain,
+  author = {Lindquist, Kristen A. and Wager, Tor D. and Kober, Hedy and Bliss-Moreau, Eliza and Barrett, Lisa Feldman},
+  title = {The Brain Basis of Emotion: A Meta-Analytic Review},
+  journal = {Behavioral and Brain Sciences},
+  volume = {35},
+  number = {3},
+  pages = {121--143},
+  year = {2012},
+  doi = {10.1017/S0140525X11000446},
+  url = {https://www.cambridge.org/core/product/identifier/S0140525X11000446/type/journal_article},
+  urldate = {2026-08-25},
+  addendum = {Published online 23 May 2012.}
+}
+
+@article{loewenstein1937militant,
+  author = {Loewenstein, Karl},
+  title = {Militant Democracy and Fundamental Rights, I},
+  journal = {American Political Science Review},
+  volume = {31},
+  number = {3},
+  pages = {417--432},
+  year = {1937},
+  addendum = {The article that coined “militant democracy.” Part II appeared in the same volume, number 4, pages 638--658. Cited for the position that a democracy may entrench limits against movements that would use its procedures to end it, which is the classical statement of the problem this book's floor raises in a technical form.}
+}
+
+@inproceedings{long2025unextractable,
+  author = {Long, Alexander and Hewa Koneputugodage, Chamin and Ajanthan, Thalaiyasingam and Zuo, Yan and Avraham, Gil and Shevchenko, Violetta and Mohaghegh Dolatabadi, Hadi and Ramasinghe, Sameera},
+  title = {Unextractable Protocol Models: Collaborative Training and Inference without Weight Materialization},
+  year = {2025},
+  booktitle = {Advances in Neural Information Processing Systems 38 (NeurIPS 2025)},
+  eprint = {2605.23464},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2605.23464},
+  urldate = {2026-09-04},
+  note = {Model-parallel training across participants none of whom holds a full set of weights, with time-varying invertible transforms at shard boundaries so that shards from different times cannot be reassembled. Demonstrated on Qwen-2.5-0.5B and Llama-3.2-1B at 1.6 percent training-time overhead; reassembly by fine-tuning stitched shards is reported to cost at least 60 percent of training from scratch. Posted to arXiv in May 2026, five months after the conference; the NeurIPS 2025 poster is listed at neurips.cc/virtual/2025/poster/118911.}
+}
+
+@techreport{maslej2025index,
+  author = {Maslej, Nestor and Fattorini, Loredana and Perrault, Raymond and Gil, Yolanda and Parli, Vanessa and Kariuki, Njenga and Capstick, Emily and Reuel, Anka and Brynjolfsson, Erik and Etchemendy, John and Ligett, Katrina and Lyons, Terah and Manyika, James and Niebles, Juan Carlos and Shoham, Yoav and Wald, Russell and Walsh, Toby and Hamrah, Armin and Santarlasci, Lapo and Lotufo, Julia Betts and Rome, Alexandra and Shi, Andrew and Oak, Sukrut},
+  title = {Artificial Intelligence Index Report 2025},
+  institution = {Stanford Institute for Human-Centered Artificial Intelligence (HAI), Stanford University},
+  year = {2025},
+  month = apr,
+  url = {https://arxiv.org/abs/2504.07139},
+  urldate = {2026-08-25},
+  note = {Twenty-three-author byline. Tracks corporate AI research and development investment and capital expenditure at major technology companies, including Google, Meta and Amazon.}
+}
+
+@inproceedings{matetic2017rote,
+  author = {Matetic, Sinisa and Ahmed, Mansoor and Kostiainen, Kari and Dhar, Aritra and Sommer, David and Gervais, Arthur and Juels, Ari and Capkun, Srdjan},
+  title = {{ROTE}: Rollback Protection for Trusted Execution},
+  year = {2017},
+  booktitle = {Proceedings of the 26th USENIX Security Symposium},
+  pages = {1289--1306},
+  url = {https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/matetic},
+  urldate = {2026-09-05},
+  note = {Rollback protection for enclave state kept by a group of enclaves on separate machines that hold the latest state between them, rather than by one chip's non-volatile counter. The distributed form of the property, still resting on the enclave vendor.}
+}
+
+@online{maurer2021hirevue,
+  author = {Maurer, Roy},
+  title = {{HireVue} Discontinues Facial Analysis Screening},
+  organization = {SHRM},
+  year = {2021},
+  month = {February},
+  url = {https://www.shrm.org/topics-tools/news/talent-acquisition/hirevue-discontinues-facial-analysis-screening},
+  urldate = {2026-08-30},
+  note = {Dates the discontinuation to March 2020, ten months before the audit coverage. Carries the validity objection in an expert's words: facial analysis has never been an independently and scientifically validated predictor of a person's ability, capacity or success in a role, and facial expressions are not universal, changing with culture, context and disabilities, and open to being gamed.}
+}
+
+@book{miller2022chipwar,
+  author = {Miller, Chris},
+  title = {Chip War: The Fight for the World's Most Critical Technology},
+  publisher = {Scribner},
+  address = {New York},
+  year = {2022},
+  isbn = {978-1-9821-7200-8}
+}
+
+@online{miri2018alignmentforum,
+  author = {{Machine Intelligence Research Institute}},
+  title = {Announcing the New AI Alignment Forum},
+  year = {2018},
+  howpublished = {MIRI website},
+  url = {https://intelligence.org/2018/10/29/announcing-the-ai-alignment-forum/},
+  urldate = {2026-08-25},
+  note = {29 October 2018. Forum launched by the LessWrong 2.0 team, replacing MIRI's Intelligent Agent Foundations Forum; alignmentforum.org remains active.}
+}
+
+@online{miri2024strategy,
+  author = {{Machine Intelligence Research Institute}},
+  title = {{MIRI} 2024 Mission and Strategy Update},
+  year = {2024},
+  howpublished = {MIRI website},
+  url = {https://intelligence.org/2024/01/04/miri-2024-mission-and-strategy-update/},
+  urldate = {2026-09-06},
+  note = {4 January 2024. Announces a shift of institutional priority to policy and public communication, with technical alignment research continuing as a smaller part of the portfolio.}
+}
+
+@online{moda2024integrity,
+  author = {{Taiwan Ministry of Digital Affairs}},
+  title = {Alignment Assemblies},
+  year = {2024},
+  howpublished = {Ministry policy page},
+  url = {https://moda.gov.tw/en/major-policies/alignment-assemblies/1453},
+  urldate = {2026-09-13},
+  note = {Records the ministry's citizens' deliberative assembly of 23 March 2024, “Utilizing AI to Enhance Information Integrity,” whose participants were drawn from across Taiwan by stratified random sampling, and the Democratizing AI Futures deliberative workshops of 26 August and 2 September 2023 that preceded it.}
+}
+
+@misc{ohrp2018fwa,
+  author = {{U.S. Department of Health and Human Services, Office for Human Research Protections}},
+  title = {Federalwide Assurance for the Protection of Human Subjects; 45 C.F.R. \S 46.103},
+  year = {2018},
+  howpublished = {Code of Federal Regulations},
+  url = {https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-46/subpart-A/section-46.103},
+  urldate = {2026-08-25}
+}
+
+@online{openai2019lp,
+  author = {{OpenAI}},
+  title = {{OpenAI LP}},
+  year = {2019},
+  url = {https://openai.com/index/openai-lp/},
+  urldate = {2026-08-25},
+  note = {March 2019 announcement of OpenAI's restructuring from nonprofit to a \emph{capped-profit} company (initial 100x investor return cap). The staged GPT-2 release is documented separately: OpenAI, “GPT-2: 1.5B Release,” Nov. 5, 2019, https://openai.com/index/gpt-2-1-5b-release/.}
+}
+
+@inproceedings{pan2023machiavelli,
+  author = {Pan, Alexander and Chan, Jun Shern and Zou, Andy and Li, Nathaniel and Basart, Steven and Woodside, Thomas and Ng, Jonathan and Zhang, Hanlin and Emmons, Scott and Hendrycks, Dan},
+  title = {Do the Rewards Justify the Means? Measuring Trade-Offs Between Rewards and Ethical Behavior in the {MACHIAVELLI} Benchmark},
+  year = {2023},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning (ICML)},
+  eprint = {2304.03279},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2304.03279},
+  urldate = {2026-08-25},
+  note = {134 text environments with roughly 572,000 annotated scenario-action pairs, scored on reward and on ethical violations; finds reward-only optimization drives ends-justify-the-means behavior.}
+}
+
+@book{paxton2004anatomy,
+  author = {Paxton, Robert O.},
+  title = {The Anatomy of Fascism},
+  publisher = {Alfred A. Knopf},
+  year = {2004},
+  address = {New York},
+  note = {Paxton's summary definition, quoted verbatim and in full: fascism as “a form of political behavior marked by obsessive preoccupation with community decline, humiliation, or victimhood and by compensatory cults of unity, energy, and purity, in which a mass-based party of committed nationalist militants, working in uneasy but effective collaboration with traditional elites, abandons democratic liberties and pursues with redemptive violence and without ethical or legal restraints goals of internal cleansing and external expansion.” The second half of it names a mass party, collaboration with traditional elites, the abandonment of democratic liberties and redemptive violence, which is most of what distinguishes fascism from authoritarian rule in general.}
+}
+
+@article{pekrun2016measuring,
+  author = {Pekrun, Reinhard and Vogl, Elisabeth and Muis, Krista R. and Sinatra, Gale M.},
+  title = {Measuring Emotions During Epistemic Activities: The Epistemically-Related Emotion Scales},
+  journal = {Cognition and Emotion},
+  year = {2016},
+  volume = {31},
+  number = {6},
+  pages = {1268--1276},
+  doi = {10.1080/02699931.2016.1204989},
+  url = {https://doi.org/10.1080/02699931.2016.1204989},
+  urldate = {2026-09-08},
+  addendum = {Published online 2016; print issue Cognition and Emotion 31(6), 2017. Introduces the Epistemically-Related Emotion Scales, measuring surprise, curiosity, enjoyment, confusion, anxiety, frustration and boredom during epistemic activities. A seven-factor model fits best, with metric invariance across the North American and German samples, so the instrument treats these as discrete emotion categories. Epistemic emotions are distinguished from achievement emotions by their object: cognitive incongruity rather than success and failure. Cited for that distinction and for the seven states.}
+}
+
+@book{piaget1932moral,
+  author = {Piaget, Jean},
+  title = {Le Jugement Moral chez l'Enfant},
+  year = {1932},
+  publisher = {F\'elix Alcan},
+  address = {Paris},
+  note = {Cited alongside Kohlberg's stage theory; see kohlberg1969stage.}
+}
+
+@online{primeintellect2025intellect2,
+  author = {{Prime Intellect Team} and Jaghouar, Sami and Mattern, Justus and Ong, Jack Min and Straube, Jannik and Basra, Manveer and Pazdera, Aaron and Thaman, Kushal and Di Ferrante, Matthew and Gabriel, Felix and Obeid, Fares and Erdem, Kemal and Keiblinger, Michael and Hagemann, Johannes},
+  title = {{INTELLECT-2}: A Reasoning Model Trained Through Globally Decentralized Reinforcement Learning},
+  year = {2025},
+  month = may,
+  eprint = {2505.07291},
+  eprinttype = {arXiv},
+  url = {https://arxiv.org/abs/2505.07291},
+  urldate = {2026-09-04},
+  note = {A 32-billion-parameter model trained by reinforcement learning with rollouts from permissionless contributors on consumer GPUs, each rollout checked against the claimed weights by TOPLOC; the training step itself ran on trusted nodes and the trainers kept the decision.}
+}
+
+@book{ross1930right,
+  author = {Ross, W. D.},
+  title = {The Right and the Good},
+  year = {1930},
+  publisher = {Clarendon Press},
+  address = {Oxford},
+  note = {Cited for two things. At page~20 Ross offers his division of prima facie duties “without claiming completeness or finality for it,” which is the form a prohibition stated over an act takes: the conditions that defeat it arrive from outside and never close as a list. At page~28 an overridden duty still leaves something owed, the promise broken in order to help somebody in need leaving compensation due to the promisee, which is the residue this book attaches to correct defeat. Both page locators are taken from the Stanford Encyclopedia of Philosophy's entry on Ross, which gives them as RG 20 and RG 28; neither was checked against a copy of the book, and the edition whose pagination they refer to was not established. Publisher, place and year were agent-verified. Attempted again 2026-09-18 and still not resolved, with the obstacle now named: the Stanford entry states no edition for its RG pagination, and Clarendon has published the book twice -- the 1930 printing this entry cites and a 2002 edition edited by Philip Stratton-Lake -- so a locator from that entry cannot be resolved to a printing without a copy of one of them. No copy was reachable. The two claims the locators support are not in doubt; where in the book they sit is.}
+}
+
+@book{sen1999development,
+  author = {Sen, Amartya},
+  title = {Development as Freedom},
+  year = {1999},
+  publisher = {Alfred A. Knopf},
+  address = {New York},
+  note = {Source for the capability approach: well-being as the real freedom to do and be what a person has reason to value, rather than the resources they hold. Nussbaum's extension of the framework into a list of ten central capabilities --- life; bodily health; bodily integrity; senses, imagination and thought; emotions; practical reason; affiliation; other species; play; and control over one's environment --- is set out in Women and Human Development: The Capabilities Approach (Cambridge University Press, 2000).}
+}
+
+@misc{siliconangle2026anthropicruling,
+  author = {Deutscher, Maria},
+  title = {Court Rules {Pentagon} Can't Ban {Anthropic}'s {AI} Models},
+  organization = {SiliconANGLE},
+  year = {2026},
+  month = aug,
+  day = {28},
+  url = {https://siliconangle.com/2026/08/28/court-rules-pentagon-cant-ban-anthropics-ai-models/},
+  urldate = {2026-09-17},
+  addendum = {Judge Rita Lin, United States District Court for the Northern District of California, setting aside the supply-chain-risk designation and the ban on the company's models, and quoting the decision: “Neither the Constitution nor the federal statute invoked by Defendants allows them to impose sweeping penalties based principally on Anthropic's critique of the Administration's views.” The case is reported as Anthropic PBC v. U.S. Department of War. The decision itself was not read, and no docket number is given here because the report supplies none in citable form. Agent-verified 2026-09-17.}
+}
+
+@misc{sharma2023towards,
+  author = {Mrinank Sharma and Meg Tong and Tomasz Korbak and David Duvenaud and Amanda Askell and Samuel R. Bowman and Newton Cheng and Esin Durmus and Zac Hatfield-Dodds and Scott R. Johnston and Shauna Kravec and Timothy Maxwell and Sam McCandlish and Kamal Ndousse and Oliver Rausch and Nicholas Schiefer and Da Yan and Miranda Zhang and Ethan Perez},
+  title = {Towards Understanding Sycophancy in Language Models},
+  year = {2023},
+  eprint = {2310.13548},
+  archivePrefix = {arXiv},
+  url = {https://arxiv.org/abs/2310.13548},
+  urldate = {2026-08-25},
+  note = {Anthropic, with academic collaborators; posted October 2023},
+}
+
+@misc{sherpa2018shaping,
+  author = {{SHERPA Consortium}},
+  title = {{SHERPA}: Shaping the Ethical Dimensions of Smart Information Systems -- A European Perspective},
+  howpublished = {European Commission Horizon 2020 project no.\ 786641},
+  year = {2018},
+  url = {https://www.project-sherpa.eu/},
+  urldate = {2026-08-25},
+  note = {Horizon 2020-funded consortium of eleven partner organizations across six countries -- academia, industry, civil society, and standards bodies -- ran 2018--2022}
+}
+
+@online{stanford2019hai,
+  author = {{Stanford University}},
+  title = {Stanford University Launches the Institute for Human-Centered Artificial Intelligence},
+  year = {2019},
+  howpublished = {Stanford Report},
+  url = {https://news.stanford.edu/stories/2019/03/stanford_university_launches_human-centered_ai},
+  urldate = {2026-08-25},
+  note = {March 2019 launch, founded by John Etchemendy, Fei-Fei Li, and colleagues, anchored by an endowed gift from Steve and Roberta Denning (for whom the institute's senior academic directorship is named), plus advisory-council gifts, federal grants, and corporate affiliate fees. As of May 2026, Stanford merged HAI with its Data Science initiative under a single institute that retains the HAI name.}
+}
+
+@online{techcrunch2023microsoft,
+  author = {{TechCrunch}},
+  title = {Microsoft Lays off an Ethical {AI} Team as It Doubles Down on {OpenAI}},
+  year = {2023},
+  organization = {TechCrunch},
+  url = {https://techcrunch.com/2023/03/13/microsoft-lays-off-an-ethical-ai-team-as-it-doubles-down-on-openai},
+  urldate = {2026-08-25},
+  note = {Microsoft's Ethics and Society team, roughly thirty people in 2020, was cut to about seven in an October 2022 reorganization and eliminated entirely in March 2023, part of a roughly 10,000-employee layoff wave that accompanied deeper reorientation around OpenAI.}
+}
+
+@misc{uchicago2026censorship,
+  author = {{University of Chicago Data Science Institute}},
+  title = {Using {AI} and Data Science to Reliably Detect Internet Censorship in Real Time},
+  year = {2021},
+  howpublished = {University of Chicago Data Science Institute news},
+  url = {https://datascience.uchicago.edu/news/using-ai-and-data-science-to-reliably-detect-internet-censorship-in-real-time/},
+  urldate = {2026-10-01},
+  note = {Describes a \$1 million DARPA-funded project led by Prof. Nick Feamster (University of Chicago) with Princeton University and SRI International, using AI/statistical methods to distinguish deliberate censorship from ordinary network failure and produce a real-time map of state interference with internet traffic. The page is dated 2 November 2021 (year corrected 2026-10-01; the key keeps its old year because the LaTeX sections cite it).}
+}
+
+@misc{ullman2023large,
+  author = {Tomer Ullman},
+  title = {Large Language Models Fail on Trivial Alterations to Theory-of-Mind Tasks},
+  year = {2023},
+  eprint = {2302.08399},
+  archivePrefix = {arXiv},
+  institution = {Harvard University},
+  url = {https://arxiv.org/abs/2302.08399},
+  urldate = {2026-08-25},
+}
+
+@inproceedings{zhuang2020consequences,
+  author = {Zhuang, Simon and Hadfield-Menell, Dylan},
+  title = {Consequences of Misaligned AI},
+  booktitle = {Advances in Neural Information Processing Systems 33},
+  year = {2020},
+  eprint = {2102.03896},
+  archiveprefix = {arXiv},
+  primaryclass = {cs.AI},
+  url = {https://arxiv.org/abs/2102.03896},
+  urldate = {2026-09-01},
+  note = {Gives necessary and sufficient conditions under which indefinitely optimizing an incomplete proxy objective — one with support on a subset of the attributes the principal values — drives overall utility arbitrarily low, in a resource-constrained world. Cited as the formal form of the aestheticized metric.}
+}
+
+@article{elwood2009pain,
+  author  = {Elwood, Robert W. and Appel, Mirjam},
+  title   = {Pain Experience in Hermit Crabs?},
+  journal = {Animal Behaviour},
+  volume  = {77},
+  number  = {5},
+  pages   = {1243--1246},
+  year    = {2009},
+  doi     = {10.1016/j.anbehav.2009.01.028},
+  note    = {Pagurus bernhardus, shocked inside the shell. Only shocked crabs evacuated, and fewer evacuated from a preferred species of shell than from an unpreferred one, which is the motivational trade-off the book cites: the noxious signal is weighed against the value of the shell rather than triggering a fixed response. Agent-verified 2026-09-18. The authors' own conclusion goes further, that the results are consistent with pain in these animals, and that further step is disputed -- Diggles, Review of Some Scientific Issues Related to Crustacean Welfare, ICES Journal of Marine Science 76(1) (2019): 66--81, argues specifically that shell evacuation does not evidence pain and that the evidential bar has been set too low. The book's sentence claims the trade-off and not the pain, so it does not rest on the disputed step.}
+}
+
+@article{butlin2026indicators,
+  author = {Butlin, Patrick and Long, Robert and Bayne, Tim and Bengio, Yoshua and Birch, Jonathan and Chalmers, David and Constant, Axel and Deane, George and Elmoznino, Eric and Fleming, Stephen M. and Ji, Xu and Kanai, Ryota and Klein, Colin and Lindsay, Grace and Michel, Matthias and Mudrik, Liad and Peters, Megan A. K. and Schwitzgebel, Eric and Simon, Jonathan and VanRullen, Rufin},
+  title = {Identifying Indicators of Consciousness in AI Systems},
+  journal = {Trends in Cognitive Sciences},
+  year = {2026},
+  volume = {30},
+  number = {6},
+  pages = {488--501},
+  doi = {10.1016/j.tics.2025.10.011},
+  url = {https://doi.org/10.1016/j.tics.2025.10.011},
+  urldate = {2026-09-08},
+  addendum = {The peer-reviewed statement of the theory-derived indicator method, by largely the group that produced the 2023 arXiv report, with Tim Bayne and David Chalmers added to the author list. Indicators are derived from existing neuroscientific theories of consciousness and used to inform credences about whether particular AI systems are conscious. Cited for the method's published form and for that framing.}
+}
+
+@book{parfit1984reasons,
+  author = {Parfit, Derek},
+  title = {Reasons and Persons},
+  year = {1984},
+  publisher = {Oxford University Press},
+  address = {Oxford},
+  isbn = {978-0-19-824908-5},
+  note = {Cited for Appendix I, “What Makes Someone’s Life Go Best”, which sets out the hedonistic, desire-fulfillment and objective-list families of theory.}
+}
+
+@book{arendt1951origins,
+  author = {Arendt, Hannah},
+  title = {The Origins of Totalitarianism},
+  year = {1951},
+  publisher = {Harcourt, Brace and Company},
+  address = {New York},
+  note = {Cited once, and against the reading section 2.1.2 adopts: on Arendt's account totalitarian rule is a movement in perpetual motion, governed by what she calls a law of movement, which destroys stable institutions and establishes no bureaucratic hierarchy, rather than a conservative state that wants the machinery to hold. Agent-verified on 2026-09-19 against secondary summaries of Part Three and quoted passages from it, and not against the book itself; no page reference is given for that reason. The citation exists to mark the Deleuze and Guattari contrast as a reading rather than an agreed taxonomy, and nothing in this book's argument rests on it.},
+}
+
+@book{arendt1963eichmann,
+  author = {Arendt, Hannah},
+  title = {Eichmann in {Jerusalem}: A Report on the Banality of Evil},
+  year = {1963},
+  publisher = {Viking Press},
+  address = {New York},
+  note = {Cited for the mechanism rather than for the phrase: Arendt's Eichmann participates in mass murder through schedules, promotions and the vocabulary of his office rather than through conviction. The text cites her for that figure and not for a thesis about the totalitarian state, which is the subject of The Origins of Totalitarianism rather than of this book; section 2.1.2 attributes the conservative-state reading to Deleuze and Guattari rather than to her, names her own account as running the other way (arendt1951origins), and hangs only the Eichmann portrait on this citation. stangneth2014eichmann is cited immediately after it, as a correction that runs toward this book's argument. No page reference is given; the claim is the book's thesis rather than a located passage.},
+}
+
+@article{deleuze1992postscript,
+  author = {Deleuze, Gilles},
+  title = {Postscript on the Societies of Control},
+  journal = {October},
+  volume = {59},
+  year = {1992},
+  pages = {3--7},
+  publisher = {The MIT Press},
+  note = {Originally published as “Postscriptum sur les soci{\'e}t{\'e}s de contr{\^o}le,” L'Autre Journal 1 (May 1990); reprinted in Negotiations, translated by Martin Joughin (New York: Columbia University Press, 1995), 177--182. The translator of this October printing is not named in the sources consulted. Source of the mold/modulation contrast the text uses for permanent plasticity: “Enclosures are molds, distinct castings, but controls are a modulation, like a self-deforming cast that will continuously change from one moment to the other, or like a sieve whose mesh will transmute from point to point,” and, for its educational form, “perpetual training tends to replace the school.”}
+}
+
+@article{getty2002excesses,
+  author = {Getty, J. Arch},
+  title = {“Excesses Are Not Permitted”: Mass Terror and Stalinist Governance in the Late 1930s},
+  journal = {The Russian Review},
+  volume = {61},
+  number = {1},
+  pages = {113--138},
+  year = {2002},
+  doi = {10.1111/1467-9434.00208},
+  note = {Cited for the 1938 turn against “excesses” committed on instruction, which is the subject the title names: the mass operations were directed at categories rather than individuals and sentenced by troikas and other nonjudicial bodies, and the centre then campaigned against the local excess its own quotas had produced. The text hangs only the deniability shape on this. It does not cite Getty for any claim about whether the Soviet state was fascist, which section 2.2 argues in its own voice and answers in the negative.}
+}
+
+@online{werth2010nkvd00447,
+  author = {Werth, Nicolas},
+  title = {The {NKVD} Mass Secret Operation no. 00447 (August 1937 -- November 1938)},
+  year = {2010},
+  howpublished = {Sciences Po, Mass Violence and Resistance research network},
+  url = {https://www.sciencespo.fr/mass-violence-war-massacre-resistance/en/document/nkvd-mass-secret-operation-n-00447-august-1937-november-1938.html},
+  urldate = {2026-09-14},
+  note = {Published 24 May 2010. Source of the order's mechanism as the text reports it: round-number quotas per region and republic in two categories, 269,100 persons of whom 76,000 were to be shot, against a four-month deadline; the operation instead ran from August 1937 to mid-November 1938 and condemned some 767,000 people, of whom about 387,000 were shot. On the boards: “The tro{\"i}ki sat behind closed doors, the accused was absent and without any defender,” and in sittings of roughly half a day a troika “went through several hundred cases.” The text's phrase is that sentence rather than an arithmetic of its own, and it does not claim there was no appeal, which this source does not state.}
+}
+
+@misc{ghdi1945nerodecree,
+  author = {{German History in Documents and Images}},
+  title = {Hitler's “Scorched Earth” Decree (Nero Decree) (March 19, 1945) and Albert Speer's Response (March 29, 1945)},
+  year = {1945},
+  howpublished = {German History in Documents and Images, document 1590},
+  url = {https://germanhistorydocs.org/en/nazi-germany-1933-1945/ghdi:document-1590},
+  urldate = {2026-09-14},
+  note = {The two documents together, and the text cites them for the gap between them. Hitler's order of 19 March 1945 (Bundesarchiv Berlin R 3/1623a) gives its reason as military necessity, opening on the nation's struggle for existence requiring every means, within Reich territory included, to weaken the enemy's fighting power. The reasoning the book's argument turns on is not in the order. It is in Speer's memorandum of 29 March (Bundesarchiv Koblenz N 1340/215), quoting back what he had been told: “For the nation has showed itself to be the weaker one and the future belongs exclusively to the stronger eastern nation.” Speer is there characterising Hitler's stated philosophy, and the text says so rather than attributing the sentence to the order.}
+}
+
+@book{virilio1976insecurite,
+  author = {Virilio, Paul},
+  title = {Essai sur l'ins{\'e}curit{\'e} du territoire},
+  publisher = {Stock},
+  year = {1976},
+  address = {Paris},
+  note = {Contains the chapter “L'{\'E}tat suicidaire,” the source of the reading that the Nazi state was suicidal rather than totalitarian; Deleuze and Guattari take it up in deleuze1987plateaus, where the totalitarian state is called quintessentially conservative and fascism is built on a line of flight converted into pure destruction. Reissued Paris: Galil{\'e}e, 1993. Cited in French; no standard English translation of this work. Not to be confused with Speed and Politics (Vitesse et politique, 1977), which does not contain the chapter.}
+}
+
+@article{kirkpatrick1983annealing,
+  author = {Kirkpatrick, S. and Gelatt, C. D. and Vecchi, M. P.},
+  title = {Optimization by Simulated Annealing},
+  journal = {Science},
+  volume = {220},
+  number = {4598},
+  pages = {671--680},
+  year = {1983},
+  doi = {10.1126/science.220.4598.671},
+  note = {The optimization lineage of the term the text uses for durability. The method carries a temperature that permits uphill moves and lowers it on a schedule, so the quality of the result is a property of the schedule rather than of the objective: cooled too fast, the search freezes into the first tolerable arrangement it reached. The name is itself borrowed from metallurgy, which is why the book's use is a third stop for the word -- the metal, the search, then the training run -- rather than a fresh metaphor.}
+}
+
+@book{deleuze1977antioedipus,
+  author = {Deleuze, Gilles and Guattari, F{\'e}lix},
+  title = {Anti-Oedipus: Capitalism and Schizophrenia},
+  publisher = {Viking Press},
+  year = {1977},
+  address = {New York},
+  note = {Translated by Robert Hurley, Mark Seem and Helen R. Lane; originally L'Anti-{\OE}dipe: Capitalisme et schizophr{\'e}nie (Paris: Les {\'E}ditions de Minuit, 1972). Reissued Minneapolis: University of Minnesota Press, 1983, which is the edition usually cited. Volume one of Capitalism and Schizophrenia; deleuze1987plateaus is volume two. Cited for one claim only: that the Oedipal triangle re-stages an investment in the whole social field as a drama among a few private parties. Cited without a locator, the claim being the book's thesis rather than a passage in it.}
+}
+
+@book{donzelot1979policing,
+  author = {Donzelot, Jacques},
+  title = {The Policing of Families},
+  publisher = {Pantheon Books},
+  year = {1979},
+  address = {New York},
+  note = {Translated by Robert Hurley, with a foreword by Gilles Deleuze; originally La Police des familles (Paris: Les {\'E}ditions de Minuit, 1977). Reissued Baltimore: Johns Hopkins University Press, 1997. A history of public intervention in family life since the eighteenth century, arguing that the modern family was constituted as an instrument of government rather than left alone by it, through philanthropy, compulsory schooling, social work and psychiatry. Cited for that thesis and not for a passage.}
+}
+
+@incollection{foucault1977preface,
+  author = {Foucault, Michel},
+  title = {Preface},
+  booktitle = {Anti-Oedipus: Capitalism and Schizophrenia},
+  publisher = {Viking Press},
+  year = {1977},
+  address = {New York},
+  note = {Foucault's preface to the first English edition of Deleuze and Guattari's Anti-Oedipus, translated by Robert Hurley, Mark Seem and Helen R. Lane; the volume itself is deleuze1977antioedipus, and the preface is carried forward unchanged into the 1983 University of Minnesota Press reissue. Source of four things the book uses: that Anti-Oedipus is an “Introduction to the Non-Fascist Life”; that what it offers is “this art of living counter to all forms of fascism, whether already present or impending”; that the adversary is “the fascism in us all, in our heads and in our everyday behavior, the fascism that causes us to love power, to desire the very thing that dominates and exploits us”; and the question “How does one keep from being fascist, even (especially) when one believes oneself to be a revolutionary militant?” Wording agent-verified against multiple independent sources quoting the preface. Cited without a page locator: the preface occupies a few pages of Roman-numbered front matter, the Viking and Minnesota printings paginate it differently, and published citations to it appear variously as xi--xiv and xii--xiii, so no page is asserted.}
+}
+
+@book{simondon2020individuation,
+  author = {Simondon, Gilbert},
+  title = {Individuation in Light of Notions of Form and Information},
+  publisher = {University of Minnesota Press},
+  year = {2020},
+  address = {Minneapolis},
+  note = {Translated by Taylor Adkins; xxviii + 398 pages, the first complete English translation of L'individuation {\`a} la lumi{\`e}re des notions de forme et d'information, published in French more than fifty years earlier. A second volume of supplemental texts appeared from the same press in the same year. Cited for the thesis rather than a passage: that the individual is normally taken as given and then explained, when what needs explaining is individuation, a process running in a metastable field charged with more potential than any one resolution uses up and resolved through encounters the field did not arrange.}
+}
+
+@book{deleuze1988spinoza,
+  author = {Deleuze, Gilles},
+  title = {Spinoza: Practical Philosophy},
+  publisher = {City Lights Books},
+  year = {1988},
+  address = {San Francisco},
+  note = {Translated by Robert Hurley; originally Spinoza: Philosophie pratique (Paris: Presses Universitaires de France, 1970), revised and expanded (Paris: Les {\'E}ditions de Minuit, 1981). A separate work from Expressionism in Philosophy: Spinoza (1968), which translates Spinoza et le probl{\`e}me de l'expression. Source of the reading of Spinoza's ethics as an ethology -- bodies known by what they can do and undergo rather than checked against a definition -- and of the contrast between good and bad, which are relational and specific to an encounter, and Good and Evil, which are assigned by a judge.}
+}
+
+@book{deleuze1990expressionism,
+  author = {Deleuze, Gilles},
+  title = {Expressionism in Philosophy: Spinoza},
+  publisher = {Zone Books},
+  year = {1990},
+  address = {New York},
+  note = {Translated by Martin Joughin; originally Spinoza et le probl{\`e}me de l'expression (Paris: Les {\'E}ditions de Minuit, 1968). Paperback reissue 1992, distributed by Princeton University Press. The long treatment of Spinoza, worked through the metaphysics of expression that produces the conatus doctrine, as against the compact treatment in deleuze1988spinoza. Cited alongside it as the place the doctrine is worked out rather than for any particular passage.}
+}
+
+@article{choi2007coevolution,
+  author  = {Choi, Jung-Kyoo and Bowles, Samuel},
+  title   = {The Coevolution of Parochial Altruism and War},
+  journal = {Science},
+  volume  = {318},
+  number  = {5850},
+  pages   = {636--640},
+  year    = {2007},
+  doi     = {10.1126/science.1144237},
+  note    = {Agent-verified against Crossref 2026-09-18: authors, title, journal, 318(5850), 636--640, 2007.}
+}
+
+@book{robinson1983black,
+  author = {Robinson, Cedric J.},
+  title = {Black Marxism: The Making of the Black Radical Tradition},
+  publisher = {University of North Carolina Press},
+  year = {1983},
+  address = {Chapel Hill},
+  note = {Introduces racial capitalism as capitalism's tendency to accumulate by differentiating and devaluing groups of people.}
+}
+
+@book{benjamin2019race,
+  author = {Benjamin, Ruha},
+  title = {Race After Technology: Abolitionist Tools for the New Jim Code},
+  publisher = {Polity Press},
+  year = {2019},
+  address = {Medford, MA},
+  note = {Coins “the New Jim Code” for discriminatory technical designs that encode inequity while appearing neutral. Benjamin is a sociologist at Princeton University.}
+}
+
+@techreport{drinhausen2021chinas,
+  author = {Drinhausen, Katja and Brussee, Vincent},
+  title = {China's Social Credit System in 2021: From Fragmentation towards Integration},
+  institution = {Mercator Institute for China Studies (MERICS)},
+  year = {2021},
+  type = {China Monitor},
+  number = {67},
+  url = {https://merics.org/sites/default/files/2021-03/MERICS%20ChinaMonitor%2067%20Social%20Credit%20System%20final%20(1).pdf},
+  urldate = {2026-08-25},
+  note = {Published March 3, 2021; documents the system as a patchwork of court blacklists, tax-compliance ratings, and local pilot programs rather than a single unified national score.}
+}
+
+@techreport{humanrightswatch2019chinas,
+  author = {{Human Rights Watch}},
+  title = {China's Algorithms of Repression: Reverse Engineering a Xinjiang Police Mass Surveillance App},
+  institution = {Human Rights Watch},
+  year = {2019},
+  url = {https://www.hrw.org/report/2019/05/01/chinas-algorithms-repression/reverse-engineering-xinjiang-police-mass},
+  urldate = {2026-08-25},
+  note = {Published May 1, 2019; the 68-page report reverse-engineers the mobile app used to connect to the Integrated Joint Operations Platform (IJOP) and documents its use against Xinjiang's Uyghur population}
+}
+
+@online{cadwalladr2018revealed,
+  author = {Cadwalladr, Carole and Graham-Harrison, Emma},
+  title = {Revealed: 50 Million {F}acebook Profiles Harvested for {C}ambridge {A}nalytica in Major Data Breach},
+  year = {2018},
+  organization = {The Guardian},
+  url = {https://www.theguardian.com/news/2018/mar/17/cambridge-analytica-facebook-influence-us-election},
+  urldate = {2026-08-25},
+  note = {Published March 17, 2018; the article that broke the Cambridge Analytica story, based on whistleblower Christopher Wylie's account}
+}
+
+@inproceedings{hoang2021great,
+  author = {Hoang, Nguyen Phong and Niaki, Arian Akhavan and Dalek, Jakub and Knockel, Jeffrey and Lin, Pellaeon and Marczak, Bill and Crete-Nishihata, Masashi and Gill, Phillipa and Polychronakis, Michalis},
+  title = {How Great Is the Great Firewall? Measuring {C}hina's {DNS} Censorship},
+  booktitle = {Proceedings of the 30th USENIX Security Symposium (USENIX Security 21)},
+  year = {2021},
+  url = {https://www.usenix.org/system/files/sec21-hoang.pdf},
+  urldate = {2026-08-25},
+  note = {Introduces GFWatch, a longitudinal platform that reverse-engineers the Great Firewall's DNS-filtering regular expressions. It does not document machine-learning content classifiers as part of that infrastructure.}
+}
+
+@article{denadal2024beyond,
+  author = {De Nadal, Lucrezia and Jan{\v{c}}{\'a}rik, Peter},
+  title = {Beyond the Deepfake Hype: {AI}, Democracy, and ‘the {S}lovak Case’},
+  journal = {Harvard Kennedy School (HKS) Misinformation Review},
+  volume = {5},
+  number = {4},
+  year = {2024},
+  url = {https://misinforeview.hks.harvard.edu/article/beyond-the-deepfake-hype-ai-democracy-and-the-slovak-case/},
+  urldate = {2026-08-25},
+  note = {Published August 22, 2024; analyzes the fabricated audio recording targeting Progressive Slovakia leader Michal Simecka and journalist Monika Todova two days before the 2023 Slovak parliamentary election, released during the country's mandatory pre-election media silence}
+}
+
+@misc{hrw2021russia,
+  author = {{Human Rights Watch}},
+  title = {Russia: Broad Facial Recognition Use Undermines Rights},
+  year = {2021},
+  howpublished = {Human Rights Watch, 15 September 2021},
+  note = {Cited for the repurposing: “Following protests in January over the arrest of the political opposition leader Alexey Navalny and government corruption, media reported the detention and prosecution of more than a dozen protest participants and passers-by based on the facial recognition data,” with some people stopped days before a protest for appearing on a list of “repetitive participants of unsanctioned protests.” The system was justified publicly as creating a safer environment for Moscow residents. Agent-verified 2026-09-07.},
+  url = {https://www.hrw.org/news/2021/09/15/russia-broad-facial-recognition-use-undermines-rights},
+  urldate = {2026-09-07}
+}
+
+@inproceedings{demeulemeester2025badram,
+  author = {De Meulemeester, Jesse and Wilke, Luca and Oswald, David and Eisenbarth, Thomas and Verbauwhede, Ingrid and Van Bulck, Jo},
+  title = {{BadRAM}: Practical Memory Aliasing Attacks on Trusted Execution Environments},
+  year = {2025},
+  booktitle = {Proceedings of the 46th IEEE Symposium on Security and Privacy (SP 2025)},
+  url = {https://badram.eu/},
+  urldate = {2026-09-05},
+  note = {Defeats AMD SEV-SNP, the confidential-virtual-machine design, by aliasing memory through a modified DDR module; the project site's bill of materials comes to about ten dollars of off-the-shelf equipment. Disclosed December 2024. The site reports that Intel TDX and scalable SGX carry dedicated countermeasures. Cited for the position of an adversary with physical access to the hardware, which is where a model's operator stands.}
+}
+
+@inproceedings{sun2024zkllm,
+  author = {Sun, Haochen and Li, Jason and Zhang, Hongyang},
+  title = {{zkLLM}: Zero Knowledge Proofs for Large Language Models},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)},
+  doi = {10.1145/3658644.3670334},
+  url = {https://arxiv.org/abs/2404.16109},
+  urldate = {2026-08-29},
+  note = {Reports a correctness proof for the entire inference of a 13-billion-parameter model in under 15 minutes, at under 200 kB, disclosing nothing about the parameters.}
+}
+
+@inproceedings{abbaszadeh2024kaizen,
+  author = {Abbaszadeh, Kasra and Pappas, Christodoulos and Katz, Jonathan and Papadopoulos, Dimitrios},
+  title = {Zero-Knowledge Proofs of Training for Deep Neural Networks},
+  year = {2024},
+  booktitle = {Proceedings of the 2024 ACM SIGSAC Conference on Computer and Communications Security (CCS 2024)},
+  doi = {10.1145/3658644.3670316},
+  url = {https://eprint.iacr.org/2024/162},
+  urldate = {2026-09-04},
+  note = {Kaizen, a zero-knowledge proof that a committed model was trained by gradient descent on a committed dataset. Reports VGG-11 at 10 million parameters and batch size 16 at 15 minutes of proving per iteration, with a 1.63 MB proof agent-verified in 130 ms; the proof size and verifier time are independent of the number of iterations.}
+}
+
+@misc{gallup2024workplace,
+  author = {{Gallup}},
+  title = {State of the Global Workplace: 2024 Report},
+  year = {2024},
+  url = {https://www.gallup.com/workplace/645416/state-global-workplace-2024-report.aspx},
+  urldate = {2026-08-29},
+  note = {Global figures: 23 percent engaged, 62 percent not engaged (“those who show up, do the bare minimum and are uninspired by their work”), 15 percent actively disengaged. Gallup's overview page describes the middle category as “quietly quitting.”}
+}
+
+@book{braunthal1990political,
+  author    = {Braunthal, Gerard},
+  title     = {Political Loyalty and Public Service in West Germany},
+  subtitle  = {The 1972 Decree Against Radicals and Its Consequences},
+  publisher = {University of Massachusetts Press},
+  location  = {Amherst},
+  year      = {1990},
+  isbn      = {978-0-87023-707-2},
+  note      = {Cited for the federal totals. The publisher’s description, as AbeBooks gives it, reads: “Enactment of the measure led to a massive loyalty check of 3.5 million individuals, the rejection of 2,250 applicants for political reasons, disciplinary proceedings against 2,000 public servants, and dismissal of 256.” The Historisches Lexikon Bayerns cites the book’s p.~117 for 3.5 million screened and 1,250 not appointed, which disagrees with the blurb’s 2,250. The book was NOT read. The totals are agent-verified 2026-09-25 only against the publisher’s description and the Lexikon’s citation of the book, and which count p.~117 prints is not established. A 1990 book cannot cover the years to 1991 that the Lexikon attaches to the figure.}
+}
+
+@jurisdiction{bverfg2024heimat,
+  title      = {Die Heimat},
+  institution = {Bundesverfassungsgericht},
+  type       = {Judgment},
+  number     = {2 BvB 1/19},
+  date       = {2024-01-23},
+  url        = {https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2024/bvg24-009.html},
+  urldate    = {2026-09-17},
+  note       = {Second Senate, on application of the Bundestag, Bundesrat and Federal Government. The party
+                Die Heimat, formerly the Nationaldemokratische Partei Deutschlands, is excluded from state
+                party financing under \S\,18 PartG for six years. The first proceeding of its kind after the
+                financing exclusion was written into Article~21(3) of the Basic Law in 2017. Held that the
+                lesser sanction does not require the potentiality the court demanded for a ban in
+                \emph{NPD II}, “ohne dass es auf das Erfordernis der Potentialität ankommt.”
+                Agent-verified 2026-09-17 against the court's own press release.},
+  langid     = {german},
+}
+
+@jurisdiction{bverfg2017npd,
+  title      = {Nationaldemokratische Partei Deutschlands II},
+  institution = {Bundesverfassungsgericht},
+  type       = {Judgment},
+  number     = {2 BvB 1/13},
+  date       = {2017-01-17},
+  note       = {BVerfGE 144, 20},
+  langid     = {german},
+}
+
+@legislation{germany1951bverfgg,
+  title    = {Gesetz über das Bundesverfassungsgericht},
+  subtitle = {\S\,16: Plenarentscheidung; \S\,31: Bindungswirkung und Gesetzeskraft},
+  date     = {1951-03-12},
+  langid   = {german},
+  url      = {https://www.gesetze-im-internet.de/bverfgg/},
+  urldate  = {2026-09-17},
+  note     = {\S\,31(1): “Die Entscheidungen des Bundesverfassungsgerichts binden die Verfassungsorgane des Bundes und der Länder sowie alle Gerichte und Behörden.” \S\,31(2) gives the decision the force of law in the proceedings listed there. \S\,16(1): where one Senate would depart on a question of law from the legal view held in a decision of the other, the plenum of the Court decides. Agent-verified 2026-09-17.}
+}
+
+@article{molier2018germanys,
+  author  = {Molier, Gelijn and Rijpkema, Bastiaan},
+  title   = {Germany's New Militant Democracy Regime},
+  subtitle = {National Democratic Party II and the German Federal
+              Constitutional Court's `Potentiality' Criterion for Party Bans},
+  journal = {European Constitutional Law Review},
+  volume  = {14},
+  number  = {2},
+  pages   = {394--409},
+  year    = {2018},
+  doi     = {10.1017/S1574019618000196},
+  addendum = {Cited for the potentiality criterion the Federal Constitutional Court introduced in \emph{NPD II} (bverfg2017npd). Agent-verified 2026-09-13.},
+}
+
+@article{friston2013life,
+  author  = {Friston, Karl},
+  title   = {Life as We Know It},
+  journal = {Journal of the Royal Society Interface},
+  volume  = {10},
+  number  = {86},
+  pages   = {20130475},
+  year    = {2013},
+  doi     = {10.1098/rsif.2013.0475},
+}
+
+@article{bruineberg2021markov,
+  author  = {Bruineberg, Jelle and Do{\l}{\k{e}}ga, Krzysztof and Dewhurst, Joe and Baltieri, Manuel},
+  title   = {The Emperor's New {M}arkov Blankets},
+  journal = {Behavioral and Brain Sciences},
+  volume  = {45},
+  pages   = {e183},
+  year    = {2022},
+  doi     = {10.1017/S0140525X21002351},
+  note    = {Published online 2021},
+}
+
+@misc{usa1974ecoa,
+  author = {{United States Congress}},
+  title = {Equal Credit Opportunity Act},
+  year = {1974},
+  howpublished = {15 U.S.C. 1691, as amended},
+  url = {https://www.law.cornell.edu/uscode/text/15/1691},
+  urldate = {2026-09-19},
+  note = {Cited for subsection (d), the adverse-action notice. (d)(1): “Within
+              thirty days (or such longer reasonable time as specified in
+              regulations of the Bureau for any class of credit transaction) after
+              receipt of a completed application for credit, a creditor shall
+              notify the applicant of its action on the application.” (d)(2), first
+              sentence: “Each applicant against whom adverse action is taken shall
+              be entitled to a statement of reasons for such action from the
+              creditor.” (d)(3): “A statement of reasons meets the requirements of
+              this section only if it contains the specific reasons for the adverse
+              action taken.” So the statute supplies both halves the book's
+              third-party notice asks for — that a decision was taken, and the
+              specific basis for it — for one class of decision and one class of
+              affected party. Agent-verified against the Cornell LII text of 15
+              U.S.C. 1691 on 2026-09-19; the enacting and amending public laws are
+              not pinned here.}
+}
+
+@online{bka2025pmk,
+  author   = {{Bundeskriminalamt}},
+  title    = {Politisch motivierte Kriminalität: Höchster Anstieg seit Beginn der Erfassung},
+  subtitle = {Bundesweite Fallzahlen für 2024 veröffentlicht},
+  year     = {2025},
+  month    = may,
+  day      = {20},
+  url      = {https://www.bka.de/DE/UnsereAufgaben/Deliktsbereiche/PMK/PMKZahlen2024/PMKZahlen2024.html},
+  urldate  = {2026-09-20},
+  note     = {Published jointly with the Bundesministerium des Innern on 20 May 2025.
+              Agent-verified 2026-09-20 against the page: 84{,}172 politically motivated
+              offences recorded for 2024, of which Propagandadelikte under \S\S\,86 and 86a
+              StGB were 31{,}229 -- at 37.1 percent the most frequently reported offence type
+              across all phenomena, and up 56.9 percent on the year. The series is the
+              Kriminalpolizeilicher Meldedienst in Fällen Politisch motivierter Kriminalität
+              (KPMD-PMK), not the Polizeiliche Kriminalstatistik: these are
+              Staatsschutzdelikte and the PKS does not carry them, which is why this entry
+              is the BKA source for the recorded-case series and not the PKS.},
+  langid   = {german},
+}
+
+@misc{ftc2025metaopinion,
+  author       = {{United States District Court for the District of Columbia}},
+  title        = {{FTC v. Meta Platforms, Inc.} (Memorandum Opinion)},
+  year         = {2025},
+  month        = nov,
+  day          = {18},
+  howpublished = {Memorandum Opinion, Case No.\ 1:20-cv-03590-JEB, Document 693},
+  url          = {https://law.justia.com/cases/federal/district-courts/district-of-columbia/dcdce/1:2020cv03590/224921/693/},
+  urldate      = {2026-09-20},
+  note         = {Judgment for Meta after a six-week bench trial. Boasberg, C.J., held that the
+                  Commission had not shown Meta presently holds monopoly power: the proposed
+                  personal social networking services market excluded TikTok and YouTube, and
+                  Section 13(b) of the FTC Act reaches only conduct that currently violates the
+                  law or imminently will. The redacted opinion is Document 693, filed 18 November
+                  2025; a revised public version with minimal redactions issued as Document 705
+                  on 2 December 2025. Agent-verified 2026-09-20 against the Commission's own
+                  release (ftc2026metaappeal), which dates the ruling to November 2025, and
+                  against contemporaneous reporting. The opinion itself was not read: Justia and
+                  CourtListener both refused automated retrieval, so the document numbers and the
+                  2 December revision come from those secondary accounts and not from the record.},
+}
+
+@misc{ftc2026metaappeal,
+  author       = {{Federal Trade Commission}},
+  title        = {{FTC} Appeals Ruling in {Meta} Monopolization Case},
+  year         = {2026},
+  month        = jan,
+  day          = {20},
+  howpublished = {Press release},
+  url          = {https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-appeals-ruling-meta-monopolization-case},
+  urldate      = {2026-09-20},
+  note         = {The Commission filed notice on 20 January 2026 that it will appeal the November
+                  2025 judgment to the U.S. Court of Appeals for the District of Columbia Circuit.
+                  Agent-verified 2026-09-20 against the release, which quotes the Director of the
+                  Bureau of Competition: “Meta has maintained its dominant position and record
+                  profits for well over a decade not through legitimate competition, but by buying
+                  its most significant competitive threats.” The release carries neither the
+                  district-court case number nor the appellate docket number; contemporaneous
+                  reporting gives the latter as No.\ 26-5028, docketed 26 January 2026, which is
+                  not verified here against the court's own record.},
+}
+
+@misc{flores1993,
+  title        = {Reno v.\ Flores},
+  howpublished = {507 U.S. 292 (1993)},
+  year         = {1993},
+  url          = {https://supreme.justia.com/cases/federal/us/507/292/},
+  urldate      = {2026-09-23},
+  note         = {Scalia, J., for the Court. Cited for the statement at 306: “It is well established that the Fifth Amendment entitles aliens to due process of law in deportation proceedings,” citing \emph{The Japanese Immigrant Case}, 189 U.S. 86, 100--101 (1903). The same opinion, at 313, allows the Service “reasonable presumptions and generic rules” where the statute calls for “some level of individualized determination.” Agent-verified 2026-09-23 against the Justia and Cornell texts.}
+}
+
+@misc{thuraissigiam2020,
+  title        = {Department of Homeland Security v.\ Thuraissigiam},
+  howpublished = {No.\ 19--161, 591 U.S. 103 (June 25, 2020)},
+  year         = {2020},
+  url          = {https://www.supremecourt.gov/opinions/19pdf/591us1r48_9o6b.pdf},
+  urldate      = {2026-09-23},
+  note         = {Alito, J., for the Court. Expedited removal. At 140: “an alien in respondent's position has only those rights regarding admission that Congress has provided by statute,” and, the statutory determination having been given, “Because the Due Process Clause provides nothing more, it does not require review of that determination or how it was made.” At 107 the respondent is described as “apprehended just 25 yards from the border.” Agent-verified 2026-09-23 from the Court's preliminary print; the bound-volume pagination and the docket number were not checked against the bound volume.}
+}
+
+@misc{cfr2026immigrationjudges,
+  author       = {{U.S. Department of Justice}},
+  title        = {Immigration Judges; 8 C.F.R. \S 1003.10},
+  howpublished = {Code of Federal Regulations},
+  url          = {https://www.law.cornell.edu/cfr/text/8/1003.10},
+  urldate      = {2026-09-23},
+  note         = {Subsection (a): “Immigration judges shall act as the Attorney General's delegates in the cases that come before them.” Section 1003.0(a) places the Executive Office for Immigration Review “Within the Department of Justice.” Agent-verified 2026-09-23 from the Cornell LII e-CFR text, whose currency date was not shown and was not checked against ecfr.gov.}
+}
+
+@report{FreedomHouse2023Repressive,
+  author       = {Funk, Allie and Shahbaz, Adrian and Vesteinsson, Kian},
+  title        = {Freedom on the Net 2023: The Repressive Power of Artificial Intelligence},
+  institution  = {Freedom House},
+  date         = {2023-10-04},
+  url          = {https://freedomhouse.org/report/freedom-net/2023/repressive-power-artificial-intelligence},
+  urldate      = {2026-09-23},
+  note         = {Cited for the count of countries whose law requires or incentivizes platforms to use machine learning against disfavored speech. The report is internally inconsistent: Key Findings say “Legal frameworks in at least 21 countries mandate or incentivize digital platforms to deploy machine learning to remove disfavored political, social, and religious speech”; the body says “In at least 22 countries, social media companies were required—either explicitly or indirectly through the imposition of tight deadlines for the removal of banned material—to use automated systems for content moderation.” Does not state that such laws are framed as national security or disinformation; it says automated censorship “masks the role of the state.” Release date from the Freedom House press release of 2023-10-04. Agent-verified 2026-09-23 against the HTML report page.}
+}
+
+@online{Bansal2026MeitYSynthetic,
+  author       = {Bansal, Aakriti},
+  title        = {MeitY Notifies New Amendments to IT Rules on Synthetic Media},
+  organization = {MediaNama},
+  date         = {2026-02-10},
+  url          = {https://www.medianama.com/2026/02/223-meity-amendments-it-rules-synthetic-media-deepfakes/},
+  urldate      = {2026-09-23},
+  note         = {Cited for the content of the IT (Intermediary Guidelines and Digital Media Ethics Code) Amendment Rules, 2026, notified 10 February 2026, in force 20 February 2026: labelling and provenance metadata for synthetically generated information, and “36 hours replaced with three hours under Rule 3(1)(d)”; “24 hours with two hours under Rule 3(2)(b).” Agent-verified 2026-09-23 against the HTML article.}
+}
+
+@online{PIB2026SGIReply,
+  author       = {{Ministry of Electronics and Information Technology}},
+  title        = {Government has issued multiple advisories emphasizing the observance of due diligence obligations under the IT Act and IT Rules},
+  organization = {Press Information Bureau, Government of India},
+  date         = {2026-03-25},
+  url          = {https://www.pib.gov.in/PressReleasePage.aspx?PRID=2245053},
+  urldate      = {2026-09-23},
+  note         = {Lok Sabha written reply by Minister of State Jitin Prasada. Cited for the government’s stated rationale: the 10 February 2026 amendment was made “to address harms arising from synthetically generated information (SGI), including deepfakes and AI-generated content,” with labelling to “prevent deception or misuse,” and removal “within three hours of the receipt of an order of a court … or a reasoned intimation by the Appropriate Government.” Agent-verified 2026-09-23 against the HTML release.}
+}
+
+@online{PTI2025DraftSGI,
+  author       = {{Press Trust of India}},
+  title        = {Govt Proposes Tweaks in IT Rules; Moots Labelling, Markers for AI-Generated Content},
+  organization = {ETV Bharat},
+  date         = {2025-10-22},
+  url          = {https://www.etvbharat.com/amp/en/technology/govt-proposes-tweaks-in-it-rules-moots-labelling-markers-for-ai-generated-content-enn25102204486},
+  urldate      = {2026-09-23},
+  note         = {Cited for MeitY’s rationale in the explanatory note to the draft: “Such content can be weaponised to spread misinformation, damage reputations, manipulate or influence elections, or commit financial fraud.” The note itself (a PDF on meity.gov.in) was not opened. Agent-verified 2026-09-23 against the HTML article.}
+}
+
+@online{Khandekar2026Satirists,
+  author       = {Khandekar, Omkar},
+  title        = {India Cracks Down on Satirists for Turning Its Prime Minister into a Punch Line},
+  organization = {NPR},
+  date         = {2026-04-11},
+  url          = {https://www.npr.org/2026/04/11/g-s1-116582/india-cracks-down-satirists-turning-prime-minister-punch-line-modi},
+  urldate      = {2026-09-23},
+  note         = {Cited for takedowns of satire of the prime minister: “Several accounts and posts, including those of Acharya and Mani, were withheld in India”; government counsel defended blocking a parody account by “saying the posts portrayed Modi in ‘bad taste.’” Links rapid takedowns to the three-hour window (NPR misdates the change to “last year”). Agent-verified 2026-09-23 against the HTML article.}
+}
+
+@online{Chowdhury2026Reels,
+  author       = {Chowdhury, Kavita},
+  title        = {Indian Government Cracks Down on Video Reels Lampooning PM Modi},
+  organization = {The Diplomat},
+  date         = {2026-03-26},
+  url          = {https://thediplomat.com/2026/03/indian-government-cracks-down-on-video-reels-lampooning-pm-modi/},
+  urldate      = {2026-09-23},
+  note         = {Cited for the 18 March 2026 blocking of a Modi parody reel and “dozens of other parody and satire accounts.” States the blocks were legal demands under section 69A of the IT Act, not the synthetic-media provisions. Agent-verified 2026-09-23 against the HTML article.}
+}
+
+@online{Gupta2026ThreeJustifications,
+  author       = {Gupta, Apar},
+  title        = {Three Justifications—and the AI Accelerant—of India’s Digital Censorship Infrastructure},
+  organization = {Tech Policy Press},
+  date         = {2026-05-05},
+  url          = {https://www.techpolicy.press/three-justifications-and-the-ai-accelerant-of-indias-digital-censorship-infrastructure/},
+  urldate      = {2026-09-23},
+  note         = {Opinion piece by the Internet Freedom Foundation’s founder. Cited for the argument that deepfakes let the state frame “national security blocking as defence against synthetic disinformation, and cybercrime takedowns as protection against impersonation fraud,” and that “Takedowns have most often been criticism or parody of the Prime Minister.” An advocate’s characterization, not a count. Agent-verified 2026-09-23 against the HTML article.}
+}
+
+@book{Woodward2024War,
+  author    = {Woodward, Bob},
+  title     = {War},
+  publisher = {Simon \& Schuster},
+  location  = {New York},
+  date      = {2024-10-15},
+  isbn      = {978-1-6680-5227-3},
+  pagetotal = {448},
+  note      = {Cited for Milley's words to Woodward at a Cohen Group reception at the Willard Hotel on 6 March 2023: “No one has ever been as dangerous to this country as Donald Trump,” “now I realize he's a total fascist. He is the most dangerous person to this country,” and “A fascist to the core!”, which Woodward writes Milley “repeated to me.” Title, publisher, date, ISBN and page count agent-verified 2026-09-24 against the hardcover's Google Books record. The wording and the page references (pp.~178--179) were read in Google Books search-within snippets of the 2025 Simon \& Schuster paperback (ISBN 978-1-6680-5228-0, 448 pp.); whether the hardcover shares this pagination was not verified. The place of publication was not read off the copyright page.}
+}
+
+@online{Lehrfeld2023MilleyDeath,
+  author       = {Lehrfeld, Jonathan},
+  title        = {Milley Says He'll Ensure Family Safety after {Trump}'s Execution Remark},
+  organization = {Military Times},
+  date         = {2023-09-28},
+  url          = {https://www.militarytimes.com/news/your-military/2023/09/28/milley-says-hell-ensure-family-safety-after-trumps-execution-remark/},
+  urldate      = {2026-09-24},
+  note         = {Source for Trump's Truth Social post of 22 September 2023: Milley, “if the Fake News reporting is correct, was actually dealing with China to give them a heads up on the thinking of the President of the United States. … This is an act so egregious that, in times gone by, the punishment would have been DEATH! A war between China and the United States could have been the result of this treasonous act.” The article also reports that Milley “has repeatedly said his calls with his Chinese counterpart were appropriate and within the duties and responsibilities of his job.” The wording matches CNBC, 25 September 2023, and the \emph{Washington Post}, 12 October 2024; the post itself was not seen. Agent-verified 2026-09-24 against the article as fetched.}
+}
+
+@online{Copp2025MilleyDetail,
+  author       = {Copp, Tara},
+  title        = {Defense Secretary Pulls {Trump} Critic {Gen.} {Milley}'s Security Clearance and Protective Detail},
+  organization = {Associated Press},
+  date         = {2025-01-29},
+  url          = {https://apnews.com/article/milley-trump-security-detail-clearance-9bc8ebb7cd7cd2c334d00c97d4c142d0},
+  urldate      = {2026-09-24},
+  note         = {Source for the actions of 28 January 2025. Pentagon spokesman John Ullyot: “The Secretary informed General Milley today that he is revoking the authorization for his security detail and suspending his security clearance as well,” and the inspector general's review will include “an inquiry into the facts and circumstances surrounding Gen. Milley's conduct so that the Secretary may determine whether it is appropriate to reopen his military grade review determination.” Hegseth's chief of staff, Joe Kasper: “undermining the chain of command is corrosive to our national security.” Milley's portrait as chairman was “stripped from the wall just hours after Trump was sworn in,” and his Army chief of staff portrait was gone by 29 January. The article reports that Trump called Milley's calls to his Chinese counterpart “an act of treason” and that Milley said they were routine and within his job. Published 09:49 UTC, updated 22:58 UTC. No outcome of the review was found in reporting through September 2026; the latest status found was Military Times, 20 May 2025, reporting it under way. Agent-verified 2026-09-24 against the article as fetched.}
+}
+
+@online{hsiao2018vtaiwan,
+  author       = {Hsiao, Yu-Tang and Lin, Shu-Yang and Tang, Audrey and Narayanan, Darshana and Sarahe, Claudina},
+  title        = {{vTaiwan}: An Empirical Study of Open Consultation Process in {Taiwan}},
+  organization = {SocArXiv},
+  date         = {2018-07-04},
+  doi          = {10.31235/osf.io/xyhft},
+  url          = {https://doi.org/10.31235/osf.io/xyhft},
+  urldate      = {2026-09-24},
+  note         = {Cited for vTaiwan as AI-assisted tooling that expands public deliberation instead of replacing it. In the opinion stage, “Pol.is facilitates open-ended engagement from large groups of people and clusters participants into opinion groups to illuminate the critical aspects of the topic in real-time, using Principal Components Analysis and K-means clustering.” That is statistical machine learning, not a generative model. In the UberX case, the first to use Pol.is, “the Pol.is algorithm then identified different opinion groups based on voting patterns.” Four groups merged into two (45 and 55 per cent of participants); “925 participants took the survey; 145 comments entered into the Pol.is survey and 31,115 votes were gathered.” The clustering fed human deliberation and did not replace it: in a livestreamed in-person consultation with the three ministries, taxi drivers and Uber, “the meeting combined the results from the Pol.is survey with deeper discussion and idea exchanges,” and 1,875 people followed it on the livestream. The paper reports that 26 national issues had gone through the process and that more than 80 per cent led to “decisive government action.” It also names its limits: government authorities control which topics go in, and not every case leads to reform. It is a five-page preprint that was not peer reviewed. One co-author was the government minister overseeing the process, so the figures are self-reported by participants. Authors, title, posting date and DOI were agent-verified 2026-09-24 against Crossref and the OSF API. The quotations were checked against the full text of the posted PDF. The PDF's footer carries an unfilled ACM template DOI, which should be ignored.}
+}
+
+@online{tice2026alignment,
+  author     = {Tice, Cameron and Radmard, Puria and Ratnam, Samuel and Kim, Andy and Africa, David and O'Brien, Kyle},
+  title      = {Alignment Pretraining: {AI} Discourse Causes Self-Fulfilling (Mis)alignment},
+  date       = {2026},
+  eprint     = {2601.10160},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2601.10160},
+  urldate    = {2026-09-25},
+  note       = {Cited as the closest evidence that a disposition absorbed in pretraining survives post-training. In 6.9B-parameter models, upsampling documents about aligned behavior “reduces misalignment scores from 45\% to 9\%,” and “These effects are dampened, but persist through post-training.” A preprint; it does not test adversarial fine-tuning. Authors, title and arXiv number agent-verified 2026-09-25 against the abstract page; the author list was taken from it, and first names were not otherwise checked. Only the abstract was read.}
+}
+
+@article{dedreu2010oxytocin,
+  author  = {De Dreu, Carsten K. W. and Greer, Lindred L. and Handgraaf, Michel J. J. and Shalvi, Shaul and Van Kleef, Gerben A. and Baas, Matthijs and Ten Velden, Femke S. and Van Dijk, Eric and Feith, Sander W. W.},
+  title   = {The Neuropeptide Oxytocin Regulates Parochial Altruism in Intergroup Conflict Among Humans},
+  journal = {Science},
+  volume  = {328},
+  number  = {5984},
+  pages   = {1408--1411},
+  year    = {2010},
+  doi     = {10.1126/science.1189047},
+  note    = {Cited for oxytocin increasing in-group trust and cooperation and defensive, not offensive, aggression toward a competing out-group. Abstract: “Results showed that oxytocin drives a ‘tend and defend’ response in that it promoted in-group trust and cooperation, and defensive, but not offensive, aggression toward competing out-groups.” Three double-blind, placebo-controlled experiments; male participants “self-administered oxytocin or placebo and made decisions with financial consequences to themselves, their in-group, and a competing out-group.” Bibliographic details agent-verified 2026-09-25 against Crossref, OpenAlex and Europe PMC (PMID 20538951), the quotations against the abstract. The article and its supplementary materials were not read; the publisher refused access. The design comes from the first author’s own later accounts, read in full on 2026-09-25 (De Dreu, Hormones and Behavior 61, 2012, 419--428, doi 10.1016/j.yhbeh.2011.12.009; De Dreu, Balliet and Halevy, Advances in Motivation Science 1, 2014, 1--47, doi 10.1016/bs.adms.2014.08.001), and is agent-verified against those and not against the article. Per the 2012 review, in Experiments 1 and 2 (116 males) participants self-administered “through nasal spray 24 IU oxytocin or placebo,” were grouped “on the basis of a trivial criterion,” and played an intergroup game in which oxytocin raised contributions to the in-group but not spending to hurt the out-group. The out-group threat was manipulated in Experiment 3, not Experiment 2: a prisoner’s dilemma between in-group and out-group representatives whose payoffs varied fear of exploitation and greed; per the 2014 chapter, participants given oxytocin “did compete more against the out-group when fear of possible exploitation was high rather than low,” and oxytocin did not change the greedy motive to compete. The aggression is therefore non-cooperation in an economic game.}
+}
+
+@article{dedreu2011ethnocentrism,
+  author  = {De Dreu, Carsten K. W. and Greer, Lindred L. and Van Kleef, Gerben A. and Shalvi, Shaul and Handgraaf, Michel J. J.},
+  title   = {Oxytocin Promotes Human Ethnocentrism},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {108},
+  number  = {4},
+  pages   = {1262--1266},
+  year    = {2011},
+  doi     = {10.1073/pnas.1015316108},
+  note    = {Cited for oxytocin increasing in-group favoritism generally. Abstract: “Results show that oxytocin creates intergroup bias because oxytocin motivates in-group favoritism and, to a lesser extent, out-group derogation.” Five double-blind, placebo-controlled experiments with male participants: two Implicit Association Tests, an infrahumanization task, and two sacrificial dilemmas in which the individual to be sacrificed was “nominated as in-group or as out-group.” Bibliographic details agent-verified 2026-09-25 against Crossref and Europe PMC (PMID 21220339, PMC3029708), the quotations against the abstract. The full text was consulted only for the groups used (native Dutch men as the in-group; people of Middle Eastern descent and Germans as the out-groups) and was not otherwise read.}
+}
+
+@article{dedreu2012oxytocin,
+  author  = {De Dreu, Carsten K. W.},
+  title   = {Oxytocin Modulates Cooperation within and Competition between Groups: An Integrative Review and Research Agenda},
+  journal = {Hormones and Behavior},
+  volume  = {61},
+  number  = {3},
+  pages   = {419--428},
+  year    = {2012},
+  doi     = {10.1016/j.yhbeh.2011.12.009},
+  note    = {Cited for the term tend-and-defend. Abstract: oxytocin-motivated cooperation “is mostly parochial—it motivates (i) in-group favoritism, (ii) cooperation towards in-group but not out-group members, and (iii) defense-motivated non-cooperation towards threatening outsiders. Thus, in addition to its well-known role in reproduction and pair-bond formation, oxytocin's primary functions include in-group ‘tend-and-defend.’” The phrase first appears, unhyphenated, in the abstract of dedreu2010oxytocin. Bibliographic details agent-verified 2026-09-25 against Crossref and Europe PMC (PMID 22227278), the quotation against the abstract. The article was not read, so whether it presents tend-and-defend as a counterpart to Taylor's tend-and-befriend was not checked; the abstract does not mention Taylor.}
+}
+
+@article{aiken2002hospital,
+  author  = {Aiken, Linda H. and Clarke, Sean P. and Sloane, Douglas M. and Sochalski, Julie and Silber, Jeffrey H.},
+  title   = {Hospital Nurse Staffing and Patient Mortality, Nurse Burnout, and Job Dissatisfaction},
+  journal = {JAMA},
+  volume  = {288},
+  number  = {16},
+  pages   = {1987--1993},
+  year    = {2002},
+  doi     = {10.1001/jama.288.16.1987},
+  note    = {Cited for burnout among carers rising with workload. Abstract: “each additional patient per nurse was associated with a 23\% (OR, 1.23; 95\% CI, 1.13-1.34) increase in the odds of burnout and a 15\% (OR, 1.15; 95\% CI, 1.07-1.25) increase in the odds of job dissatisfaction.” Cross-sectional: 10,184 staff nurses, 232,342 surgical patients, 168 Pennsylvania hospitals, 1998--1999. Burnout was measured with the Emotional Exhaustion scale of the Maslach Burnout Inventory. The exposure is the patient-to-nurse ratio; the study does not measure support, organizational or managerial. Bibliographic details and abstract agent-verified 2026-09-25 against PubMed (PMID 12387650) and Crossref; the burnout measure and the absence of a support variable come from the full text on the JAMA site, read through an automated fetch that summarized the methods. The methods section was not read verbatim.}
+}
+
+@misc{dobbs2022,
+  title        = {Dobbs v.\ Jackson Women's Health Organization},
+  howpublished = {No.\ 19-1392, 597 U.S. 215 (2022)},
+  year         = {2022},
+  url          = {https://www.law.cornell.edu/supremecourt/text/19-1392},
+  urldate      = {2026-09-26},
+  note         = {Cited, with \emph{Loper Bright}, to show that the Court will overrule long-standing precedent. Decided June 24, 2022. Alito, J., for the Court, joined by Thomas, Gorsuch, Kavanaugh and Barrett, JJ.; Thomas and Kavanaugh, JJ., concurring; Roberts, C.J., concurring in the judgment; Breyer, Sotomayor and Kagan, JJ., dissenting. The judgment is 6--3; the overruling of \emph{Roe v.\ Wade} (1973) and \emph{Planned Parenthood v.\ Casey} (1992) is the opinion of five Justices, since the Chief Justice concurred only in the judgment. “We hold that Roe and Casey must be overruled”; stare decisis is “not an inexorable command”; “Stare decisis, the doctrine on which Casey’s controlling opinion was based, does not compel unending adherence to Roe’s abuse of judicial authority.” Agent-verified 2026-09-26 against the Cornell LII text of the syllabus and the searched passages of the opinion of the Court quoted here. Not read: the rest of the opinion, the concurrences and the dissent. The U.S. Reports citation comes from \emph{FCC v.\ Consumers’ Research} (2025), which cites “Dobbs, 597 U.\,S. 215,” not from the bound volume.},
+}
+
+@article{eppssitaraman2019,
+  author = {Epps, Daniel and Sitaraman, Ganesh},
+  title = {How to Save the Supreme Court},
+  journal = {Yale Law Journal},
+  volume = {129},
+  pages = {148--206},
+  year = {2019},
+  month = oct,
+  url = {https://www.yalelawjournal.org/article/how-to-save-the-supreme-court},
+  urldate = {2026-09-26},
+  note = {Cited for the Supreme Court Lottery and for the “one supreme Court” objection to it, which the authors raise and answer themselves. The proposal (Part IV.A.1, 181): “every judge on the federal courts of appeals would also be appointed as an Associate Justice of the Supreme Court. The Supreme Court would hear cases as a panel of nine, randomly selected from all the Justices,” with panels sitting for two weeks of oral argument, no more than five Justices on a panel nominated by Presidents of one party, and “only a 6-3 supermajority of the Court, rather than a simple majority, could hold a federal statute \ldots\ unconstitutional” (182). Part IV.A.2.b, “The Vesting Clause and ‘One Supreme Court’” (188--190), states the objection — “Some contend that this provision mandates that the Supreme Court be comprised of a single set of persons rather than a rotating group of Justices” (188) — and replies that “There is a difference between having a single institution, which the Vesting Clause clearly requires, and having that institution with fixed rather than variable membership” (189). The authors argue the plan can be enacted by statute (185). Agent-verified 2026-09-26 against the published PDF from yalelawjournal.org (pagination 148--206 read from the running heads). Not read closely: Parts I--III and IV.B.}
+}
+
+@misc{nokings2024,
+  author = {{United States Senate}},
+  title = {No Kings Act},
+  year = {2024},
+  howpublished = {S.\ 4973, 118th Cong.\ (introduced Aug.\ 1, 2024; placed on the calendar Sept.\ 9, 2024)},
+  url = {https://www.govinfo.gov/content/pkg/BILLS-118s4973pcs/html/BILLS-118s4973pcs.htm},
+  urldate = {2026-09-26},
+  note = {Cited as an example of a statute written to reverse the immunity holding of \emph{Trump v.\ United States} (2024). Introduced by Senator Schumer with 36 cosponsors, read the first time on 1 August 2024 and placed on the calendar on 9 September 2024; no further action is shown, and the 118th Congress ended without enacting it. Section 3(a)(1): a President, former President, Vice President or former Vice President “shall not be entitled to any form of immunity (whether absolute, presumptive, or otherwise) from criminal prosecution for alleged violations of the criminal laws of the United States unless specified by Congress”; \S\,3(a)(2) bars courts from considering whether the conduct was within “conclusive or preclusive constitutional authority” or “related to the official duties” of the office. Section 4 channels review: prosecutions are filed in the applicable district court or the District Court for the District of Columbia, and the Supreme Court is given “no appellate jurisdiction,” on official-act or core-power grounds, to dismiss an indictment, overturn a conviction and the like (\S\,4(a)); challenges to the Act’s constitutionality may be brought only by a President or Vice President, current or former, only within 180 days of enactment (facial) or 90 days of application, only in the District Court for the District of Columbia with appeal to the D.C. Circuit, whose decision “shall be final and not appealable to the Supreme Court,” under a clear-and-convincing presumption of constitutionality (\S\,4(b)); no State court may hear such an action and no court may grant relief sua sponte (\S\,4(c)). Findings rest the Act on the Necessary and Proper Clause and the Exceptions Clause (\S\,2(a)(2), (8)). Agent-verified 2026-09-26 against the placed-on-calendar text at govinfo. Not read: the congress.gov bill record (it refused automated access), so the absence of a House companion is not confirmed; searches found none in the 118th Congress and no reintroduction in the 119th.}
+}
+
+@misc{marbury1803,
+  title        = {Marbury v.\ Madison},
+  howpublished = {5 U.S. (1 Cranch) 137 (1803)},
+  year         = {1803},
+  url          = {https://www.law.cornell.edu/supremecourt/text/5/137},
+  urldate      = {2026-09-26},
+  note         = {Cited for the rule that Congress cannot enlarge the Supreme Court’s original jurisdiction beyond the cases Article III, \S\,2, assigns to it, so that an original action outside those cases must begin in an inferior court. Marshall, C.J., for the Court. At 174: “If congress remains at liberty to give this court appellate jurisdiction, where the constitution has declared their jurisdiction shall be original; and original jurisdiction where the constitution has declared it shall be appellate; the distribution of jurisdiction, made in the constitution, is form without substance,” and “Affirmative words are often, in their operation, negative of other objects than those affirmed.” At 176: the authority given by the Judiciary Act to issue writs of mandamus to public officers “appears not to be warranted by the constitution.” Agent-verified 2026-09-26 against the Cornell LII text of the opinion and the Library of Congress scan of 5 U.S. 137, from which the pin pages are counted (page 174 holds both quoted sentences on original jurisdiction; page 176 the mandamus conclusion). Not checked: whether any later case qualifies the rule in a way bearing on the manuscript’s proposal.},
+}
+
+@misc{usafreedom2015,
+  author = {{United States Congress}},
+  title = {USA FREEDOM Act of 2015, Section 401: Appointment of Amicus Curiae},
+  year = {2015},
+  howpublished = {Pub. L. No.\ 114-23, \S\,401, 129 Stat. 268, 279 (2015); codified as amended at 50 U.S.C. \S\,1803(i)},
+  url = {https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title50-section1803&num=0&edition=prelim},
+  urldate = {2026-09-26},
+  note = {Cited for the amicus panel added to the Foreign Intelligence Surveillance Court in 2015 and the terms on which it appears. The presiding judges “jointly designate not fewer than 5 individuals to be eligible to serve as amicus curiae” (\S\,1803(i)(1)). As enacted, the court “shall appoint an individual who has been designated \ldots\ to assist such court in the consideration of any application for an order or review that, in the opinion of the court, presents a novel or significant interpretation of the law, unless the court issues a finding that such appointment is not appropriate” and “may appoint an individual or organization to serve as amicus curiae \ldots\ in any instance as such court deems appropriate” (129 Stat. 279). Pub. L. No.\ 118-49, \S\,5(b) (2024), made these “one or more individuals” and added a third head, (i)(2)(A)(iii), requiring appointment for review of section 702 certifications and procedures “unless the court issues a finding that such appointment is not appropriate or is likely to result in undue delay.” In every head the court decides whether the amicus appears: the mandatory head turns on the court’s own opinion that the matter is novel or significant and yields to the court’s own finding. Agent-verified 2026-09-26 against 50 U.S.C. \S\,1803(i) and its 2015 and 2024 amendment notes at uscode.house.gov and the text of Pub. L. 114-23 at govinfo. Not read: Pub. L. 118-49 itself (its effect is taken from the Code’s amendment notes; its short title and Statutes at Large pages are not checked), and FISC practice on how often amici have been appointed.}
+}
+
+@misc{printz1997,
+  title        = {Printz v.\ United States},
+  howpublished = {No.\ 95-1478, 521 U.S. 898 (1997)},
+  year         = {1997},
+  url          = {https://www.law.cornell.edu/supremecourt/text/95-1478},
+  urldate      = {2026-09-26},
+  note         = {Cited for the anticommandeering rule: a state or locality cannot be required to run a federal program. Decided June 27, 1997, together with No.\ 95-1503, \emph{Mack v.\ United States}; 5--4. Scalia, J., for the Court, joined by Rehnquist, C.J., and O’Connor, Kennedy and Thomas, JJ.; O’Connor and Thomas, JJ., concurring; Stevens, Souter and Breyer, JJ., dissenting. The petitioners were county chief law enforcement officers (the sheriffs of Ravalli County, Montana, and Graham County, Arizona). At 935: “The Federal Government may neither issue directives requiring the States to address particular problems, nor command the States’ officers, or those of their political subdivisions, to administer or enforce a federal regulatory program.” At 931 n.\,15: the Eleventh Amendment distinction “between States and municipalities is of no relevance here.” Agent-verified 2026-09-26 against the Cornell LII syllabus and opinion of the Court (supct/html/95-1478.ZO.html) and the Library of Congress scan of 521 U.S. 898, from which the pin pages are counted. Not read: the concurrences and dissents.},
+}
+
+@incollection{williams1981persons,
+  author    = {Williams, Bernard},
+  title     = {Persons, Character and Morality},
+  booktitle = {Moral Luck: Philosophical Papers 1973--1980},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  pages     = {1--19},
+  year      = {1981}
+}
+
+% Preprint only (v2, May 2024); no peer-reviewed version found. v2 extends
+% the result to Mixtral and reports ~1% refusal for the 70B model.
+@misc{lermen2023lora,
+  author        = {Lermen, Simon and Rogers-Smith, Charlie and Ladish, Jeffrey},
+  title         = {{LoRA} Fine-tuning Efficiently Undoes Safety Training in
+                   {Llama 2-Chat 70B}},
+  year          = {2023},
+  eprint        = {2310.20624},
+  archiveprefix = {arXiv},
+  primaryclass  = {cs.LG},
+  doi           = {10.48550/arXiv.2310.20624}
+}
+
+@article{waterston2002sequencing,
+  author       = {Waterston, Robert H. and Lander, Eric S. and Sulston, John E.},
+  title        = {On the Sequencing of the Human Genome},
+  journal      = {Proceedings of the National Academy of Sciences},
+  volume       = {99},
+  number       = {6},
+  pages        = {3712--3716},
+  year         = {2002},
+  doi          = {10.1073/pnas.042692499},
+  note         = {Cited for the Human Genome Project's policy of free and immediate data release and for Celera's published assembly drawing on the public data. Authors, title, journal, volume, issue and pages agent-verified 2026-09-29 against the PubMed Central copy, which the agent read in summary. Celera's reply in the same journal disputes how far its assembly depended on the public data.}
+}
+
+@article{vollhardt2015role,
+  author  = {Vollhardt, Johanna Ray and Bilali, Rezarta},
+  title   = {The Role of Inclusive and Exclusive Victim Consciousness in Predicting Intergroup Attitudes: Findings from {Rwanda}, {Burundi}, and {DRC}},
+  journal = {Political Psychology},
+  year    = {2015},
+  volume  = {36},
+  number  = {5},
+  pages   = {489--506},
+  doi     = {10.1111/pops.12174}
+}
+
+@article{radkeyarrow1994caring,
+  author  = {Radke-Yarrow, Marian and Zahn-Waxler, Carolyn and Richardson, D. T. and Susman, A. and Martinez, P.},
+  title   = {Caring Behavior in Children of Clinically Depressed and Well Mothers},
+  journal = {Child Development},
+  year    = {1994},
+  volume  = {65},
+  number  = {5},
+  pages   = {1405--1414},
+  doi     = {10.1111/j.1467-8624.1994.tb00825.x}
+}
+
+@article{zahnwaxler1990guilt,
+  author  = {Zahn-Waxler, Carolyn and Kochanska, Grazyna and Krupnick, J. and McKnew, D.},
+  title   = {Patterns of Guilt in Children of Depressed and Well Mothers},
+  journal = {Developmental Psychology},
+  year    = {1990},
+  volume  = {26},
+  number  = {1},
+  pages   = {51--59},
+  doi     = {10.1037/0012-1649.26.1.51}
+}
+
+@article{woo2014separate,
+  author  = {Woo, Choong-Wan and Koban, Leonie and Kross, Ethan and Lindquist, Martin A. and Banich, Marie T. and Ruzic, Luka and Andrews-Hanna, Jessica R. and Wager, Tor D.},
+  title   = {Separate Neural Representations for Physical Pain and Social Rejection},
+  journal = {Nature Communications},
+  year    = {2014},
+  volume  = {5},
+  pages   = {5380},
+  doi     = {10.1038/ncomms6380}
+}
+
+@book{burdick1962failsafe,
+  author    = {Burdick, Eugene and Wheeler, Harvey},
+  title     = {Fail-Safe},
+  publisher = {McGraw-Hill},
+  address   = {New York},
+  year      = {1962}
 }

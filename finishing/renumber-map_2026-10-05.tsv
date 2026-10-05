@@ -1,0 +1,152 @@
+# Chapters 5-30 shifted to 6-31, 2026-10-05 (D-646): the force term becomes chapter 5,
+# "Whether to Take Part", and Appendix G, "The Force Term, Case by Case", is added.
+# Numbers are those after D-632 (renumber-map_2026-10-04b.tsv). Labels, ORDER.tsv nums,
+# outline/ledger nums, file paths and the hand-typed table numbers moved together.
+# Appendices A-F did not move. Paragraph-level moves are listed in DECISIONS.md, D-646.
+old	new	note
+4.1	4	heading removed; the text that stays prints under the chapter heading
+4.2	5.10	moved whole, "What this doesn't do" split between chapter 4 and 5.10
+—	5	new, from paragraphs of the old 4.1 and new text
+—	5.1	new, from paragraphs of the old 4.1 and new text
+—	5.2	new, from paragraphs of the old 4.1 and new text
+—	5.3	new, from paragraphs of the old 4.1 and new text
+—	5.4	new, from paragraphs of the old 4.1 and new text
+—	5.5	new, from paragraphs of the old 4.1 and new text
+—	5.6	new, from paragraphs of the old 4.1 and new text
+—	5.7	new, from paragraphs of the old 4.1 and new text
+—	5.8	new, from paragraphs of the old 4.1 and new text
+—	5.9	new, from paragraphs of the old 4.1 and new text
+—	G	new, from paragraphs of the old 4.1 and Appendix C
+—	G.1	new, from paragraphs of the old 4.1 and Appendix C
+—	G.2	new, from paragraphs of the old 4.1 and Appendix C
+—	G.3	new, from paragraphs of the old 4.1 and Appendix C
+—	G.4	new, from paragraphs of the old 4.1 and Appendix C
+—	G.5	new, from paragraphs of the old 4.1 and Appendix C
+—	G.6	new, from paragraphs of the old 4.1 and Appendix C
+5	6	
+5.1	6.1	
+5.2	6.2	
+6	7	
+6.1	7.1	
+6.2	7.2	
+7	8	
+7.1	8.1	
+7.2	8.2	
+8	9	
+9	10	
+9.1	10.1	
+9.2	10.2	
+9.3	10.3	
+9.4	10.4	
+9.4.1	10.4.1	
+9.4.2	10.4.2	
+9.4.3	10.4.3	
+9.4.4	10.4.4	
+9.4.5	10.4.5	
+9.5	10.5	
+9.6	10.6	
+9.7	10.7	
+9.8	10.8	
+10	11	
+10.1	11.1	
+10.2	11.2	
+10.3	11.3	
+10.4	11.4	
+11	12	
+11.1	12.1	
+11.2	12.2	
+11.3	12.3	
+11.4	12.4	
+11.5	12.5	
+11.6	12.6	
+12	13	
+12.1	13.1	
+12.2	13.2	
+12.3	13.3	
+12.4	13.4	
+13	14	
+13.1	14.1	
+13.2	14.2	
+13.3	14.3	
+13.4	14.4	
+13.5	14.5	
+13.6	14.6	
+14	15	
+14.1	15.1	
+14.2	15.2	
+14.3	15.3	
+14.4	15.4	
+14.5	15.5	
+14.6	15.6	
+14.7	15.7	
+15	16	
+15.1	16.1	
+15.2	16.2	
+16	17	
+16.1	17.1	
+16.2	17.2	
+16.3	17.3	
+16.4	17.4	
+17	18	
+17.1	18.1	
+17.2	18.2	
+17.3	18.3	
+17.4	18.4	
+17.5	18.5	
+18	19	
+18.1	19.1	
+18.2	19.2	
+18.2.1	19.2.1	
+18.2.2	19.2.2	
+18.3	19.3	
+18.4	19.4	
+18.5	19.5	
+19	20	
+19.1	20.1	
+19.2	20.2	
+20	21	
+20.1	21.1	
+20.2	21.2	
+20.3	21.3	
+20.4	21.4	
+21	22	
+21.1	22.1	
+21.2	22.2	
+21.3	22.3	
+21.4	22.4	
+21.5	22.5	
+22	23	
+22.1	23.1	
+22.2	23.2	
+22.3	23.3	
+22.4	23.4	
+22.5	23.5	
+22.6	23.6	
+22.7	23.7	
+22.8	23.8	
+23	24	
+24	25	
+24.1	25.1	
+24.2	25.2	
+25	26	
+26	27	
+26.1	27.1	
+26.2	27.2	
+27	28	
+27.1	28.1	
+27.1.1	28.1.1	
+27.1.2	28.1.2	
+28	29	
+28.1	29.1	
+28.1.1	29.1.1	
+28.1.2	29.1.2	
+28.2	29.2	
+28.3	29.3	
+28.4	29.4	
+29	30	
+30	31	
+30.1	31.1	
+30.2	31.2	
+30.3	31.3	
+30.4	31.4	
+30.5	31.5	

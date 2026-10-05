@@ -40,6 +40,9 @@ body { overflow-wrap: break-word; }
 # against either end of that. The bar takes CanvasText for the same reason.
 DRAFT_CSS = """
 /* html_single_file.py: the draft apparatus. */
+/* Citations of bibliography entries no human has checked yet (D-641): the
+   preamble wraps each in this span, from the ledger, in draft mode only. */
+.ref-unchecked { background-color: rgba(255, 140, 0, 0.35); }
 body { background-image: url("data:image/svg+xml,\
 %3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='300'%20height='200'%3E\
 %3Ctext%20x='150'%20y='115'%20font-family='Georgia,serif'%20font-size='46'\
