@@ -1,6 +1,6 @@
 # Handoff: ordering-perplexity
 
-State as of 2026-10-03, for whoever picks this up next, human or agent. Read
+State as of 2026-10-05, for whoever picks this up next, human or agent. Read
 `README.md` for what the notebook measures and how to run it. This file is
 the state of the work, what has and has not been checked, and what will trip
 you up.
@@ -38,10 +38,18 @@ Append to it rather than editing earlier entries.
 
 ## Not done or not checked
 
-- **Nothing has run in Colab.** That covers the `GITHUB_TOKEN` secret and
-  clone path, opening a private-repo notebook from GitHub, any possible
-  `iterabloom` approval of Colab as a third-party app, Colab's installed
-  transformers version, and the T4.
+- **Nothing has run in Colab.** The repository went public on 2026-10-04
+  (D-629), and on 2026-10-05 the setup cell's token handling was removed: it
+  clones anonymously. Checked from a cloud container without a GPU: the
+  anonymous clone of `main`, the setup cell's clone path under a faked
+  `google.colab` (pip skipped), and rendering and parsing the book from that
+  clone. Not checked: the Colab UI opening the notebook from GitHub, Colab's
+  installed transformers version, model download from Hugging Face (the
+  container's proxy refuses huggingface.co), anything on the T4.
+- **The manuscript has moved since the chapter-1 results.** On 2026-10-05
+  chapter 1 parses to 22 prose paragraphs, not 20, and the longest section
+  is 4.1 (46,817 characters), not 3.1. A new run will not reproduce the
+  2026-10-03 numbers.
 - `Qwen3-1.7B-Base` in **fp32** (the notebook's default model and dtype).
   It needs about 9 GB, more than the 6 GiB cap used locally. On a 15 GB T4 it
   fits by arithmetic, but that hasn't been run.

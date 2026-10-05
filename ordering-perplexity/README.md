@@ -17,24 +17,23 @@ nothing here edits the book.
 
 ## Running in Colab
 
-1. **Open the notebook.** In Colab: File → Open notebook → GitHub, tick
-   *Include private repos*, and authorize Colab for `jgstern-agent`. If
-   `iterabloom/antifascist.intelligence` does not appear, the `iterabloom`
-   organization has not granted Colab access; an owner approves it under the
-   organization's Settings → Third-party access. Uploading the `.ipynb` from a
-   local checkout works as well.
+1. **Open the notebook.** The repository is public (since 2026-10-04), so
+   no GitHub authorization is needed. Open
+   <https://colab.research.google.com/github/iterabloom/antifascist.intelligence/blob/main/ordering-perplexity/01_orderings.ipynb>,
+   or in Colab use File → Open notebook → GitHub and enter
+   `iterabloom/antifascist.intelligence`. Uploading the `.ipynb` from a local
+   checkout works as well.
 2. **Give it a GPU.** Runtime → Change runtime type → T4 (free) or better.
-3. **Give it read access to the repository.** The notebook clones the repo
-   to get the manuscript and `orderppl.py`. Create a fine-grained token on
-   GitHub (Settings → Developer settings → Fine-grained tokens) with resource
-   owner `iterabloom`, only this repository, and *Contents: Read-only*. In
-   Colab, open the key icon in the left sidebar, add a secret named
-   `GITHUB_TOKEN` with the token as its value, and switch on notebook access.
-   The setup cell removes the token from the clone's git config after cloning.
-4. Run all. The default settings score chapter 1 with `Qwen/Qwen3-1.7B-Base`.
+3. Run all. The setup cell clones the repository, without credentials, to
+   get the manuscript and `orderppl.py`. The default settings score chapter 1
+   with `Qwen/Qwen3-1.7B-Base`.
 
-Colab clones the branch named in `REPO_REF` (default `main`), so changes to
-`orderppl.py` reach Colab only once they are pushed.
+Colab clones the repository in `REPO_URL` at the branch in `REPO_REF`
+(default `iterabloom/antifascist.intelligence` at `main`), not the copy the
+notebook was opened from, so changes to `orderppl.py` reach Colab only once
+they are pushed. To run a branch, open the notebook from that branch (replace
+`iterabloom` and `main` in the link above with the branch's repository and
+name) and set `REPO_URL` and `REPO_REF` in the setup cell to match.
 
 Results go to `/content/results/` on the Colab VM, which is lost when the
 runtime ends. Set `SAVE_TO_DRIVE = True` to write them to

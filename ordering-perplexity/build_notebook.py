@@ -29,7 +29,7 @@ An optional sweep at the end runs step 1 over every section.
 
 All numbers are negative log-likelihoods in **nats** under the model. *Δ = shuffled − original*, so a positive Δ means the model prefers the original. Lower perplexity is not better prose. It measures what a language model finds predictable, and an argument that surprises the reader at the right moment will score worse for it. Read the results as a map of where order carries information, not as a ranking.
 
-**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). Add a Colab secret named `GITHUB_TOKEN` (key icon in the left sidebar) holding a GitHub token with read access to `iterabloom/antifascist.intelligence`, and allow this notebook to use it. See `ordering-perplexity/README.md`.
+**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). The repository is public, so the setup cell clones it without credentials. To run a branch other than `main`, set `REPO_URL` and `REPO_REF` in the setup cell to the repository and branch the notebook was opened from. See `ordering-perplexity/README.md`.
 """)
 
 md("## Setup")
@@ -42,18 +42,13 @@ REPO_REF = "main"          # branch to clone in Colab
 
 if IN_COLAB:
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pysbd", "transformers>=4.57", "accelerate"], check=True)
-    from google.colab import userdata
     REPO = "/content/antifascist.intelligence"
     if not os.path.isdir(REPO):
-        token = userdata.get("GITHUB_TOKEN")
-        auth_url = REPO_URL.replace("https://", "https://x-access-token:%s@" % token)
-        p = subprocess.run(["git", "clone", "--quiet", "--depth", "1", "--branch", REPO_REF, auth_url, REPO],
-                           capture_output=True, text=True)
+        # The repository is public (D-629, 2026-10-04): no token
+        p = subprocess.run(["git", "clone", "--quiet", "--depth", "1", "--branch", REPO_REF, REPO_URL, REPO],
+                           capture_output=True, text=True, env={**os.environ, "GIT_TERMINAL_PROMPT": "0"})
         if p.returncode:
-            raise RuntimeError("clone failed: " + p.stderr.replace(token, "***"))
-        # keep the token out of .git/config
-        subprocess.run(["git", "-C", REPO, "remote", "set-url", "origin", REPO_URL], check=True)
-        del token, auth_url
+            raise RuntimeError("clone of %s at %s failed: %s" % (REPO_URL, REPO_REF, p.stderr))
 else:
     # Local Jupyter: the notebook sits inside the checkout.
     d = os.path.abspath(os.getcwd())

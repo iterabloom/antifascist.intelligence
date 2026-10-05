@@ -43,3 +43,11 @@ At the author's instruction the folder's `AGENTS.md` neither says the root file 
 At the author's instruction the folder's documents no longer mention the root `AGENTS.md`. Its opening paragraph and its references in `HANDOFF.md` and `README.md` are removed; the two rules it covered that this folder's `AGENTS.md` did not already state, leaving `.env` alone and reporting what was and was not checked, are now written into this folder's `AGENTS.md` directly.
 
 At the author's instruction the first boundary in the folder's `AGENTS.md` is shortened to "Never edit anything outside it." The list of directories it named and the sentence about the renderer are removed; `HANDOFF.md` still says renderer bugs go to the manuscript session.
+
+### 2026-10-05 — the Colab setup cell clones without a token
+
+The author asked to run the notebook in Colab. Read first from a Claude Code cloud container, which has no GPU and whose proxy refuses huggingface.co, so nothing here was scored.
+
+`finishing/STATE.md` and D-629 record that `iterabloom/antifascist.intelligence` went public on 2026-10-04. The setup cell still read a `GITHUB_TOKEN` Colab secret, and `userdata.get` raises when the secret is absent, so a first run without one would have failed at setup. The token handling is removed from `build_notebook.py`; the cell clones `REPO_URL` at `REPO_REF` anonymously, with `GIT_TERMINAL_PROMPT=0` so a bad URL fails instead of waiting for a password. The notebook was regenerated (before the edit, a rebuild reproduced the committed notebook byte for byte with this container's nbformat). The README's Colab steps drop the private-repo and token steps and say how to run a branch.
+
+Checked: an anonymous `git ls-remote` and shallow clone of `main` (`df2b3ae`); the regenerated setup cell executed with a faked `google.colab` module, pip skipped and the clone redirected from `/content` to a scratch directory, which cloned and imported `orderppl`, and with a nonexistent branch raised the clone error; `render_book` and `parse_book` on that clone: 141 sections, 1,101 prose paragraphs, 101,240 words. Chapter 1 now has 22 paragraphs (20 on 2026-10-03), and the longest section is 4.1 at 46,817 characters. Not checked: anything in Colab itself, the model download, scoring, the T4.
