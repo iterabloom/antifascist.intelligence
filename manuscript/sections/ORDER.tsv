@@ -1,12 +1,12 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	809ee296936461d2a29d910f00444577b82df102fdceee2c3bd60bdc03415c39	1
+manuscript/sections/ch00/00.tex	0	Preface	180d27ad546b0b839666d66505a4c56d2a547035e49de738ce712e2cd88b8049	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	4370caeff1ac4f8641ab4470197d57ac1033381230d9c22e648452065a010c7f	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	4a6a3e2527313d6f668afffabad28dafb6559ea5936c2bc17b178db9ee4a9229	4
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	94c46509dacbc6b9b0924ead8e0100f5c6879d38fdf9e81e946ead1bec89f026	5
 manuscript/sections/ch03/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
-manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	d53bc5b39af895f36eb2a076f30c2e2c21e91428ac49b781a69b24490a34bdc7	7
+manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	fea4d2083b31b1796be5ec7cfbd605aa15ec430e2b356c0178e85be060a94e65	7
 manuscript/sections/ch04/04.tex	4	“What the Floor Is Stated Over”	8fff24e6408eba62644192e8a3c91b479eb72d51e8757321f114c1be0340d773	8
 manuscript/sections/ch05/05.tex	5	Whether to Take Part	7c09b679096d4473b47bca6b28e959eba66d1afa55bb4a4a21cf3ab3446dd658	9
 manuscript/sections/ch05/05_01.tex	5.1	The term	ed378c80abc80d2d84448b23c5f3733b8e00ddc47c33f3136ca7f53b4d3c70b0	10
@@ -132,7 +132,7 @@ manuscript/sections/ch27/27.tex	27	A Commons of Refusers	96c24743d5a4335927ce6d9
 manuscript/sections/ch27/27_01.tex	27.1	A commitment carried between bearers	695a97194a202e6420a06916f8a45fe8ac7f2dfed48666c28985f5ca23129137	130
 manuscript/sections/ch27/27_02.tex	27.2	Personal and peer-held models	e53583dcf4a03f442036c7b618474d7982a983344a01232e17895420edd90a8d	131
 manuscript/sections/ch28/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	132
-manuscript/sections/ch28/28.tex	28	What Would Change the Argument	714efb084b8447924201682a57ca9429432e2bd80ce8a43cfec1fc20d2e285f4	133
+manuscript/sections/ch28/28.tex	28	What Would Change the Argument	79f3dabe31517d47aaaa98ed021f033e7fd2f71adeedab1905eb109ffed755f5	133
 manuscript/sections/ch28/28_01.tex	28.1	How you'd know it was working	b7e8ba612dcb4ea5238b3e0ae1ee8582546807b2053a54e1413c762008c3804b	134
 manuscript/sections/ch28/28_01_01.tex	28.1.1	What the floor would have to show	b139ccd213e2f5c04ffe2656d101b3e940a03b62d9605974913f216c74e2e013	135
 manuscript/sections/ch28/28_01_02.tex	28.1.2	How to tell whether a milestone has been met	df16ee1a148a37da6c30353bf1807baecfba2ee30ffd8f0d37ec8643bc2fd648	136
