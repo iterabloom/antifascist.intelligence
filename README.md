@@ -3,7 +3,7 @@
 # Antifascist Intelligence  
 ## Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs  
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-04.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-04.html) — 314 pages, built 2026-10-04 from the sources in this repository.
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-04.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-04.html) — 310 pages, built 2026-10-04 from the sources in this repository.
 
 Machines are being built that can accomplish almost anything and have no stake in
 whether what they do helps or harms anyone. This book asks what it would take to
