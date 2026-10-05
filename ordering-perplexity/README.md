@@ -17,23 +17,32 @@ nothing here edits the book.
 
 ## Running in Colab
 
-1. **Open the notebook.** The repository is public (since 2026-10-04), so
-   no GitHub authorization is needed. Open
-   <https://colab.research.google.com/github/iterabloom/antifascist.intelligence/blob/main/ordering-perplexity/01_orderings.ipynb>,
-   or in Colab use File → Open notebook → GitHub and enter
-   `iterabloom/antifascist.intelligence`. Uploading the `.ipynb` from a local
-   checkout works as well.
-2. **Give it a GPU.** Runtime → Change runtime type → T4 (free) or better.
-3. Run all. The setup cell clones the repository, without credentials, to
-   get the manuscript and `orderppl.py`. The default settings score chapter 1
-   with `Qwen/Qwen3-1.7B-Base`.
+The experiments and the manuscript live in different repositories. The
+manuscript is edited in `iterabloom/antifascist.intelligence`; this folder's
+work is pushed to `jgstern-agent/antifascist.intelligence`. Both are public,
+so nothing needs a token.
 
-Colab clones the repository in `REPO_URL` at the branch in `REPO_REF`
-(default `iterabloom/antifascist.intelligence` at `main`), not the copy the
-notebook was opened from, so changes to `orderppl.py` reach Colab only once
-they are pushed. To run a branch, open the notebook from that branch (replace
-`iterabloom` and `main` in the link above with the branch's repository and
-name) and set `REPO_URL` and `REPO_REF` in the setup cell to match.
+1. **Open the notebook** from the experiments' repository:
+   <https://colab.research.google.com/github/jgstern-agent/antifascist.intelligence/blob/main/ordering-perplexity/01_orderings.ipynb>,
+   or in Colab use File → Open notebook → GitHub and enter
+   `jgstern-agent/antifascist.intelligence`. Uploading the `.ipynb` from a
+   local checkout works as well.
+2. **Give it a GPU.** Runtime → Change runtime type → T4 (free) or better.
+3. Run all. The default settings score chapter 1 with
+   `Qwen/Qwen3-1.7B-Base`.
+
+The setup cell fetches two shallow checkouts:
+
+| what | from | setting | to |
+|---|---|---|---|
+| the manuscript and its renderer | `iterabloom/antifascist.intelligence`, `main` | `BOOK_URL`, `BOOK_REF` | `/content/antifascist.intelligence` |
+| `orderppl.py` (this folder only) | `jgstern-agent/antifascist.intelligence`, `main` | `CODE_URL`, `CODE_REF` | `/content/ordering-perplexity-code` |
+
+Rerunning the setup cell brings both up to date, so a run reads the
+manuscript as last pushed, and it prints the commit of each. The saved
+summary CSV records both commits. The notebook you opened is not what
+supplies `orderppl.py`: changes to it reach Colab only once they are pushed
+to `CODE_REF`. Run locally, the checkout the notebook sits in supplies both.
 
 Results go to `/content/results/` on the Colab VM, which is lost when the
 runtime ends. Set `SAVE_TO_DRIVE = True` to write them to

@@ -38,14 +38,25 @@ Append to it rather than editing earlier entries.
 
 ## Not done or not checked
 
-- **Nothing has run in Colab.** The repository went public on 2026-10-04
-  (D-629), and on 2026-10-05 the setup cell's token handling was removed: it
-  clones anonymously. Checked from a cloud container without a GPU: the
-  anonymous clone of `main`, the setup cell's clone path under a faked
-  `google.colab` (pip skipped), and rendering and parsing the book from that
-  clone. Not checked: the Colab UI opening the notebook from GitHub, Colab's
-  installed transformers version, model download from Hugging Face (the
-  container's proxy refuses huggingface.co), anything on the T4.
+- **Nothing has run in Colab.** Since 2026-10-05 the setup cell fetches two
+  public repositories without a token: the manuscript from
+  `iterabloom/antifascist.intelligence` (`BOOK_URL`), where the manuscript
+  session pushes, and only `ordering-perplexity/` from
+  `jgstern-agent/antifascist.intelligence` (`CODE_URL`), where this work is
+  pushed. Rerunning the cell brings both up to date. Checked from a cloud
+  container without a GPU, under a faked `google.colab` with pip skipped:
+  first run and rerun of both fetches, the code checkout holding only this
+  folder, `orderppl` imported from it, a rerun picking up a new commit
+  (against a local repository), and the local-checkout path. Not checked:
+  the Colab UI opening the notebook from GitHub, Colab's installed
+  transformers version, model download from Hugging Face (the container's
+  proxy refuses huggingface.co), anything on the T4.
+- **Two repositories.** `iterabloom/antifascist.intelligence` is the
+  manuscript's; its `main` still carries an `ordering-perplexity/` frozen at
+  `df2b3ae`, which nothing reads. This work is pushed to
+  `jgstern-agent/antifascist.intelligence`, whose `main` was at `df2b3ae`
+  too before it. How the two repositories' `main` branches are kept in step,
+  if at all, was not checked.
 - **The manuscript has moved since the chapter-1 results.** On 2026-10-05
   chapter 1 parses to 22 prose paragraphs, not 20, and the longest section
   is 4.1 (46,817 characters), not 3.1. A new run will not reproduce the
