@@ -148,6 +148,14 @@
   links at the new files; commit and push again. **Two commits**, so the work is
   legible in the first diff and the second carries only generated output.
   `finishing/pipeline.md` has the steps in full and the reason for each.
+- **Checking a reference.** Every in-text citation of a bibliography entry no
+  human has checked prints on an orange highlight (D-641). When the author says
+  an entry is checked, or unchecked, record it with
+  `finishing/tools/refs_ledger.py --mark KEY --by INITIALS` (or `--unmark KEY`,
+  or `--toggle KEY --by INITIALS`), then rebuild; the highlight, the footer
+  count and the ledger all follow from that one file. Never mark an entry
+  checked on an agent's own verification: that goes in the entry's note as
+  "agent-verified" (D-385), and the highlight stays.
 
 ## No Weasel Words
 When reporting status or completeness:

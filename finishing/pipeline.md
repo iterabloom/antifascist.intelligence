@@ -143,6 +143,29 @@ generated file that changed on every build would make its own `--check`
 meaningless — and it is plain TeX arithmetic rather than `\directlua` so the
 Overleaf round trip below still compiles on an engine that is not LuaTeX.
 
+**Every citation of an entry no human has checked is highlighted orange**
+(D-641). `draft-status.tex` also lists each checked entry as
+`\refcheckedkey{KEY}`, and the preamble wraps biblatex's per-key `cite` macro so
+that a key not on that list is set on an orange highlight, in the PDF by
+`lua-ul`'s `\highLight` and in the HTML as a `ref-unchecked` span that
+`html_single_file.py` colours. Under an engine other than LuaTeX the text itself
+is set orange. In `\autocites{a}{b}` each key carries its own state, and the
+brackets and locators stay plain. The highlight belongs to the apparatus:
+`\draftmodefalse` removes it, and the `--tex` render strips it. **To clear one,
+a human marks the entry and rebuilds**:
+
+```
+finishing/tools/refs_ledger.py --mark KEY [KEY ...] --by INITIALS
+finishing/tools/refs_ledger.py --unmark KEY [KEY ...]
+finishing/tools/refs_ledger.py --toggle KEY [KEY ...] --by INITIALS
+```
+
+`--toggle` flips each key and prints where it landed. Editing the `checked`
+column of `refs-ledger.tsv` by hand and then running the script with no
+arguments does the same. Under D-385, only a human check is entered there: an
+agent's check is recorded in the entry's note as "agent-verified" and leaves
+the entry highlighted.
+
 **The watermark does not reach the PDF's text layer.** `pdftotext` finds
 PREPRINT on all 153 pages and DRAFT on none, so the word cannot contaminate a
 copy-paste, a `pdftotext` grep, or a word count taken from the PDF.
