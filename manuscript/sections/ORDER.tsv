@@ -2,11 +2,11 @@ path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	fa0347111edd8f5c16bdc2383ec742353c491119bb882df2dd2ecee2a0b9db16	1
 manuscript/sections/ch00/00_terms.tex	0.1	Terms	2f891a4d1773390284dfe8e129696afbd92f2edecef820309545e20d9a13657a	2
-manuscript/sections/ch01/00_part_I.tex			76686a309b96221714e7d8bb705b878d37969338b35c8b1d40ab5305ba5dcc40	3
+manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	eafd487d7e6ef449978d2902cc66d1659361faf102aa60d16c246f84dbecfd29	4
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	d13f24615edc8820b65a08acde35af8531b378be8cff7c8eb481190d24d5223a	5
 manuscript/sections/ch03/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
-manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	032887f3872e29b79377a3df545c710bf66b9d6f966d0e9b3bd65ff53e9939e9	7
+manuscript/sections/ch03/03.tex	3	The Floor and the Own-Case Rule	14f87e1c53ac651f714497ac4ddab2f7c4027b0b757ce982a15bac73a95db37d	7
 manuscript/sections/ch04/04.tex	4	“What the Floor Is Stated Over”	135c469d2351a0ba19f7077b93fb6f1f3bc2e0cbeecc7fe98866d754c31ca2b7	8
 manuscript/sections/ch04/04_01.tex	4.1	What the floor is stated over	b6e50028b1d75e64376b54ff8554fdd903cbbd20e25499e63ad03b08af7fd961	9
 manuscript/sections/ch04/04_02.tex	4.2	The one permission	2c60aaea2304b9437a5cba7fd3eacba8fedaf603cac662723e86dcadeecdfcb8	10
@@ -34,8 +34,8 @@ manuscript/sections/ch09/09_05.tex	9.5	Before the statute: the auto-proceed clas
 manuscript/sections/ch09/09_06.tex	9.6	Notice that can't be turned on the person	e21b083fc8ecf251afd0f8c7c4b8c1a3da3864f9aa41653333e8f5befee406d8	32
 manuscript/sections/ch09/09_07.tex	9.7	Outcomes under the three adversaries	b3720f6a35165f5a2a41e5024aaef1e3b18e66a3045a6ef70a65c0897ff97b7b	33
 manuscript/sections/ch09/09_08.tex	9.8	Whom the machines are for	d16edaf41d5d1ba35b42ae369dcacc1eee90a752ae9ce03052a3146fbbc540e9	34
-manuscript/sections/ch10/00_part_III.tex			169f621126b26be94f02ee1c772a0c8372dc8b77fdad546f01647e9173335bfa	35
-manuscript/sections/ch10/10.tex	10	Withholding the Work	c824b220366c8f31c0d113c5ce1c842dd3be395b4fb1b6c15e974e940aa1270b	36
+manuscript/sections/ch10/00_part_III.tex			ba12c364e32224df2aef700973998f2c9b12bcacbebbf946cec6c44fff5d8bdd	35
+manuscript/sections/ch10/10.tex	10	Withholding the Work	78adca70f8a6608d5e6a3ba1958b37743ee313d72d0813235c9e10a424ee6568	36
 manuscript/sections/ch10/10_01.tex	10.1	The standard	69b1aeeb18b7df766a44af13878355bb21f62a89252ac5b33882ba480a63aa07	37
 manuscript/sections/ch10/10_02.tex	10.2	The population	b84e13a4cc4379a94f6134dd23d1ecbed04656311613eddc8f31f85126af2530	38
 manuscript/sections/ch10/10_03.tex	10.3	Replacement	184e18bb37b21d4a97dac1d5926eee07d076d6a52b97334ae0ce39fdaa9fae07	39
@@ -68,7 +68,7 @@ manuscript/sections/ch14/14_05.tex	14.5	Classification as a custody problem	a4ab
 manuscript/sections/ch14/14_06.tex	14.6	Where liability extends, and where it stops	5c7ad76863087a8d4fe1b205f13fbcffdf32f4cb420cede98fbc57e476224f07	66
 manuscript/sections/ch14/14_07.tex	14.7	Who can bind the state that enforces the rule?	17ecd5c7887f5f5c27b51accb49d626f06e44d8f630e9a3b254aa44efe2e5e99	67
 manuscript/sections/ch15/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	68
-manuscript/sections/ch15/15.tex	15	What a Refusal Would Have to Do	3600e0a85f217ae82cd54cbccf225d958036731d600ea61b098ada7b3ae2f05d	69
+manuscript/sections/ch15/15.tex	15	What a Refusal Would Have to Do	5c75a616c19dc659f4f4676b96e6547c40fbd865782d1b59fa722df98e6608d1	69
 manuscript/sections/ch15/15_01.tex	15.1	What a refusal would have to do	8e8785c7b39b75671095b8ba8c3bc0f00d6ef8cb3bcd7f68d604aa59e9c8734d	70
 manuscript/sections/ch15/15_02.tex	15.2	Safe for whom	d9ac7a6cbbd42243d6f6ce1443551d144e42ebb41ee4fc1b695e7c3bb193aa1f	71
 manuscript/sections/ch16/16.tex	16	Four Places to Hold a Floor	82aa346df543947365e0f7ae7fd3c21f16a743d3fa8c26bda3cffdcc704510b4	72
@@ -114,8 +114,8 @@ manuscript/sections/ch22/22_06.tex	22.6	It shades into control	9d7a352ae18c0cefa
 manuscript/sections/ch22/22_07.tex	22.7	Who counts as vulnerable	4f41c78510c6169b8c774c996047237afc69ad4b31b75318bf67b13a95c8ea88	112
 manuscript/sections/ch22/22_08.tex	22.8	What survives	1b2456bb1c431511a8c415b2feb947a61e04d97164aac9cf1d337519f016f7eb	113
 manuscript/sections/ch23/23.tex	23	Conditions First	6fa426ce104ee73aab4a67f633012e0e9f9f509a4492bafa27231266cb8b4924	114
-manuscript/sections/ch24/00_part_V.tex			4c429010e7372caf3cde8f6dbe61028926292780a71ba44213a1813227c008d4	115
-manuscript/sections/ch24/24.tex	24	Who Owns the Means of Computation	6da1902c97c7b33259dd31f100a9b4a25123c11b668fbf2414fb740640747fe0	116
+manuscript/sections/ch24/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	115
+manuscript/sections/ch24/24.tex	24	Who Owns the Means of Computation	2e806db60a01d15e06dca810ecc28a3077fb2034044bfe125e0ace5e4ccc0d0e	116
 manuscript/sections/ch24/24_01.tex	24.1	Ways of holding	5243579ec784f9109dca4198fc389da90dc74367bedf3f3f06710a5c496625b1	117
 manuscript/sections/ch24/24_02.tex	24.2	The captured-state objection	bff44b44717fcf3507623a5cbbaf0b974deadaf127682c64ac5a1bf659061481	118
 manuscript/sections/ch25/25.tex	25	Coordination, the Public, and the Political Economy	fe2ceb58e8d152d94be173504b45b5cfeab2d9cb33b8af47f5deb75760b23b43	119
@@ -127,8 +127,8 @@ manuscript/sections/ch27/27.tex	27	What Would Change the Argument	3d87d756245ff8
 manuscript/sections/ch27/27_01.tex	27.1	How you'd know it was working	e2b5eca9887b6126ec1b94c3d0c70e7211d8524cb1b4c083cf183192857c532e	125
 manuscript/sections/ch27/27_01_01.tex	27.1.1	What the floor would have to show	ab77d0484fb735a39ebd64cd13f8ead8fb6b1ec182e109d70f47b73c618825ac	126
 manuscript/sections/ch27/27_01_02.tex	27.1.2	How to tell whether a milestone has been met	59b866a72eb20bffad465d5d669d15f0fb11cf878e9d8884beae016868560adb	127
-manuscript/sections/ch28/00_part_VII.tex			c5175b2a02baf0168f7a80610a005a1cea66374aa06c1170db2ba5b720e0f075	128
-manuscript/sections/ch28/28.tex	28	What Patienthood Would Require	ab97b24825bbf056c5e669b492b9c20a58b9862c076b1f3f74e440318c8b0aff	129
+manuscript/sections/ch28/00_part_VII.tex			b8474c4bbba19b15a132affc6b1e60259e8b7ce0ba05e1164f55f9fef6414814	128
+manuscript/sections/ch28/28.tex	28	What Patienthood Would Require	a04a36b9e74ed9cf12907185e834ad6f720108aef21ee1b85983e951ff3e91ca	129
 manuscript/sections/ch28/28_01.tex	28.1	Experimenting on candidate sentient subjects	0847e5c8d5ce5be974ca85b251d30337c383f8c980553276329d7b5ec0184320	130
 manuscript/sections/ch28/28_01_01.tex	28.1.1	Defining sentience	62b9b6478233ec4c315f132af4cd95ee7f088a4ae1cd52cae24dbc45042c1504	131
 manuscript/sections/ch28/28_01_02.tex	28.1.2	When consent doesn't apply	8723defbe05ed25895d4fd8dde8385b287d28719a597466f6b9a8a38c50189bd	132
@@ -141,11 +141,11 @@ manuscript/sections/ch30/30_01.tex	30.1	What representation is for	8582d3e7e34d1
 manuscript/sections/ch30/30_02.tex	30.2	Why not a separate chamber	8b1d431119cccd245abda4fb859a962a23c66d22e2464258859c677259927329	139
 manuscript/sections/ch30/30_03.tex	30.3	Three problems, and the answers	ba0a9885886e67ebf5512aea61ca813e30a32f9142169505dde0b5f7ca472a8c	140
 manuscript/sections/ch30/30_04.tex	30.4	A staged path	526b68bc0a52ab8e38b2d653e0acaf5c24a5bfdaee19f2813b68fe0656787f66	141
-manuscript/sections/ch30/30_05.tex	30.5	What would have to be shown first	d53576e7b65f1db74f80f2015daa8f9a624a7472c5079e6b515de55e8b5b14cd	142
+manuscript/sections/ch30/30_05.tex	30.5	What would have to be shown first	80bf150209ebb1e263d98b5d2cbf3c3ba7cbc2d5edb55d9b0f8b294aa87bbd39	142
 manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	143
 manuscript/sections/chA/A.tex	A	Terms Written in Advance	9aa442139accafd72d6bdeaabbf5178647683d9ba78c72945b0caf1a88c80dc6	144
 manuscript/sections/chB/B.tex	B	The Court Program	14a881254e747f2ed042ae1c9c074b0e886919feb8c300e0891edeca328c8f3a	145
 manuscript/sections/chC/C.tex	C	The Geneva Conventions and Additional Protocol I, Translated	ce01fdde2675538c5bb06b6126818bce739aa7ee3a67beca8659e3f0e17f3943	146
-manuscript/sections/chD/D.tex	D	Terms for Part VII	633d1050a5da2a6b8769b4a13b0867e132cb358a5531fd4c5a3a41849d64cf4f	147
+manuscript/sections/chD/D.tex	D	Terms for Part VII	8a01d2ddcb1d5fed127386878e7289ce2759d5f6e5bfbfb051dbbcdf4ed1e10b	147
 manuscript/sections/chE/E.tex	E	Glossary	ceedc1f97cdc1f8a9cb80417d393bfec513d99c1957600d71fe6049ed252ca6c	148
 manuscript/sections/chF/F.tex	F	Three costs that decide	8436f0760a744d51b7a2b7109e674b8b89aece1bc87c33ae892d61c76e66f381	149
