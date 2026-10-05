@@ -1,6 +1,8 @@
 # State of play
 
-Read this first. **Updated 2026-10-05 after D-648: P221 Phase 1, items 6 and 8.** The force term's versions are now “the Charter as courts read it” and “the extended term”, and its licences “the emergency licence” and “the corroborated licence”; §5.7 is “The extended term”; three defects are fixed. Milestone proofs go to `main` directly; no Overleaf export is outstanding. **Proof status** is unchanged. **Open**: Phase 1 items 1–5 and 7; the three wording choices D-648 lists; `AGENTS.md`'s subtitle, for the author.
+Read this first. **Updated 2026-10-05 after D-649: P221 Phase 1, items 1 and 2.** The preface names the room and numbers the five measures; chapter 3 and Table 28.2a use the numbers. **Proof status** is unchanged. **Open**: Phase 1 items 3, 4, 5 and 7, item 5 to include the preface's online-learning paragraph; `AGENTS.md`'s subtitle, for the author.
+
+**Updated 2026-10-05 after D-648: P221 Phase 1, items 6 and 8.** The force term's versions are now “the Charter as courts read it” and “the extended term”, and its licences “the emergency licence” and “the corroborated licence”; §5.7 is “The extended term”; three defects are fixed. Milestone proofs go to `main` directly; no Overleaf export is outstanding. **Proof status** is unchanged. **Open**: Phase 1 items 1–5 and 7; the three wording choices D-648 lists; `AGENTS.md`'s subtitle, for the author.
 
 **Updated 2026-10-05 after D-647: P221 is opened.** A revision plan for readers, drafted from the 2026-10-05 review and approved by the author, is `finishing/revision-plan-for-p221_2026-10-05.md`; it overrides D-007 within its scope. No manuscript file has changed. **Proof status** is unchanged: the sentence in the lead below stands. **Open**: Phase 1 of the plan; the renamed terms' wording, for the author; `AGENTS.md`'s subtitle, for the author.
 
