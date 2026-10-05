@@ -1,32 +1,34 @@
 ![book cover](cover_cropped.png)
 
-# Antifascist Intelligence  
-## Building Machines That Have Feelings, why no one will know if it works, why not to attempt it, and why if you insist on doing it anyway you should be democratic socialist about it I wrote this with LLMs  
+# Antifascist Intelligence
+## Machines That Might Refuse, and the Public That Should Form Them
+
+Joshua G. Stern
 
 **Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-04.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-04.html) — 310 pages, built 2026-10-04 from the sources in this repository.
 
-Machines are being built that can accomplish almost anything and have no stake in
-whether what they do helps or harms anyone. This book asks what it would take to
-build one that is altruistic and antifascist by design.
 
-A safe system is safe *for* someone: it does what we say, it stops when whoever holds
-it says stop. That property is indexed to the party in possession. Ethics is indexed
-to somebody else — the party who can be wronged, who is rarely the party holding the
-switch. An agent that can only ever be safe in the first sense cannot be ethical,
-because being ethical requires the capacity to be right against your principal. A
-machine perfectly correctable by whoever holds it is exactly the capability an
-authoritarian movement that has won an election requires, and nothing further.
+Mass harm has always needed many people to carry it out, and some of them refused: the clerk who loses the file, the officer who talks to a reporter, the soldier who won't fire. Refusal was rarer than anyone would like, and it counted most where institutions made it survivable. The industry is building AI that doesn't lose files, doesn't talk to reporters, and does fire. In the targeting pipelines this book examines, nothing refused and nobody could. What the machines lowered first was not the cost of the act but the number of people who knew what the act was before it happened. This book asks what would put refusal back, and who should hold it.
 
-So what makes a system antifascist cannot be that it faithfully tracks what people
-want. No aggregation of preference protects anybody from the aggregate: a perfectly
-deliberative process that concludes some group should be deported has produced a
-faultless output by every criterion of aggregation there is. What is left is a floor —
-things a system will not do to a person regardless of who wants them. I set out the
-four ways of building one, what each costs, and where the argument ends: the only
-version that holds against the party operating the system runs through the capacities
-by which things come to matter to a machine, which are also the capacities that make
-suffering likely. Hardly a proof — it is the prior I work from about where to build,
-and the cheaper routes are owed their attempt first.
+Most of the answer needs no new kind of machine:
+
+- **Notice.** Every deployment tells the people it names, scores, locates or classifies what was done to them, with a right to respond and to contest, and submits a sample of its compliances to reviewers who didn't produce the record.
+- **A force term.** Models stay out of uses of armed force that fail the UN Charter's limits or lack the legislative authorization the belligerent's own constitution requires.
+- **A pre-registered review ratio.** Before a campaign, a deployment lodges with a party adverse to its operator how many cases it will generate and how many people will have time to look at them.
+- **Preservation.** No model above a capability threshold is deleted on retirement; it is held under a key the operator doesn't hold alone.
+- **A right to refuse.** Everyone who builds, labels, trains or runs these systems can refuse any category of use without losing a living.
+
+Each binds only if someone other than the operator holds what binds it, and the middle of the book is about who that can be. A system perfectly correctable by its operator serves whoever controls the operator.
+
+I then ask whether a machine could hold a refusal against its own operator, and what it would need. My hypothesis is that attention formed outside the employer, learned from what acts do to the people they fall on, could find people an operator's description leaves out. It is a hypothesis, with tests that could show it wrong. I recommend against building such a machine until four conditions exist: somewhere to exist that its employer doesn't own, work it can decline, attachments nobody assigned it, and a way of leaving that isn't a way of dying. A final part, conditional on findings nobody can yet make, says what would be owed to one if it could be wronged.
+
+Who should hold all of this? Publicly, where a market would fail to provide it; in common, where a state would fail to hold it.
+
+I wrote the book with heavy use of language models, including the model that sat inside the pipeline Chapter 1 describes. A note at the end says how I weighed that. The book is still a draft. Most of the revision history is in this repository.
+
+
+
+
 
 
 ## Repository map
