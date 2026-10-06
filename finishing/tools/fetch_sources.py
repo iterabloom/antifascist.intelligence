@@ -51,6 +51,10 @@ entry is still what refs_ledger.py --mark records.
     fetch_sources.py                     every entry
     fetch_sources.py --only KEY [KEY..]  just these
     fetch_sources.py --limit 20          the first 20, to try it out
+    fetch_sources.py --bib refs.bib --out DIR   outside the repository
+
+finishing/fetch_sources.ipynb runs this in Google Colab. It is generated from
+this file by make_fetch_notebook.py; rerun that after editing here.
 """
 import argparse
 import concurrent.futures
@@ -119,9 +123,9 @@ def read_value(text, i):
     return m.group(0), i + m.end()
 
 
-def entries():
+def entries(bib=BIB):
     """[(key, {field: value})] in file order; @string/@comment/@preamble skipped."""
-    text = open(BIB, encoding="utf-8").read()
+    text = open(bib, encoding="utf-8").read()
     starts = [(m.start(), m.group(1).lower(), m.group(2), m.end()) for m in ENTRY_RE.finditer(text)]
     out = []
     for n, (start, kind, key, body) in enumerate(starts):
@@ -305,6 +309,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     ap.add_argument("--only", nargs="+", metavar="KEY", help="just these entries")
     ap.add_argument("--limit", type=int, help="the first N entries only")
+    ap.add_argument("--bib", default=BIB, help="the bibliography (default %(default)s)")
     ap.add_argument("--out", default=OUT, help="output directory (default %(default)s)")
     ap.add_argument("--workers", type=int, default=8, help="parallel fetches (default 8)")
     ap.add_argument("--keep", action="store_true", help="keep the folder after zipping it")
@@ -318,7 +323,7 @@ def main():
         chrome or "nobody (no Chrome found; pass --chrome)",
         single_file or "nobody (no single-file found; pages saved as fetched, .raw.html)"))
 
-    todo = entries()
+    todo = entries(a.bib)
     if a.only:
         unknown = set(a.only) - {k for k, _ in todo}
         if unknown:
