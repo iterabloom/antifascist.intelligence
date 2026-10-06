@@ -13,3 +13,7 @@ __pycache__/
 .*.sw[a-p]
 *~
 .*.un~
+# fetch_sources.py: other people's copyrighted full texts; this repository is
+# public. The two .txt lists beside them are safe to commit.
+finishing/source-texts/successfully-retrieved/
+finishing/source-texts/*.zip
