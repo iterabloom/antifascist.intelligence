@@ -95,7 +95,11 @@ FETCH_DEADLINE = 120  # seconds a request may take in all
 MAX_BYTES = 150 << 20  # 150 MB per file
 MIN_TEXT = 2000       # visible characters an HTML page needs to count
 HOST_GAP = 2.0        # seconds between requests to the same host
-RENDER_TIMEOUT = 120  # seconds for one Chrome print or SingleFile save
+RENDER_TIMEOUT = 120  # seconds for one Chrome print or SingleFile save, killed after
+PRINT_WAIT = 20       # seconds Chrome waits for a page before printing what it has
+LOAD_WAIT = 30        # seconds SingleFile waits for a page to load
+SINGLEFILE_TIMEOUT = 90  # seconds before SingleFile is killed: its own limits don't
+                         # cover a resource that never answers, which it waits on
 RENDERERS = threading.Semaphore(2)  # browsers at once
 HEARTBEAT = 30        # seconds between progress reports
 
@@ -246,16 +250,23 @@ def visible_text(page):
 
 
 def fetch(key, f):
-    """(ok, url, ext, body, why) for one entry."""
+    """(ok, url, ext, body, why) for one entry.
+
+    A failure with ext "browser" names a url that refused the script or came
+    back nearly empty, for a browser to try (see one() in main).
+    """
     tried = candidates(f)
     if not tried:
         return False, "none", None, None, "no link in refs.bib"
-    why = []
+    why, browser = [], None
     for src, url in tried:
         try:
             final, media, body = get(url, key)
         except (urllib.error.URLError, OSError, ValueError) as e:
-            why.append("%s: %s" % (src, getattr(e, "code", None) or e))
+            code = getattr(e, "code", None)
+            why.append("%s: %s" % (src, code or e))
+            if src == "url" and code in (401, 403, 429) and not browser:
+                browser = url  # refused a script; a browser may be let in
             continue
         if is_pdf(media, body):
             return True, url, ".pdf", body, ""
@@ -278,11 +289,15 @@ def fetch(key, f):
             if n >= MIN_TEXT:
                 return True, url, "web", body, ""
             why.append("%s: page has %d characters of text" % (src, n))
+            if src == "url" and not browser:
+                browser = url  # may be built by JavaScript; a browser would run it
             continue
         ext = mimetypes.guess_extension(media) or ".bin"
         if len(body) > 1000:
             return True, url, ext, body, ""
         why.append("%s: %s, %d bytes" % (src, media or "?", len(body)))
+    if browser:
+        return False, browser, "browser", None, "; ".join(why)
     return False, tried[0][1], None, None, "; ".join(why)
 
 
@@ -314,8 +329,8 @@ def kill_group(pgid):
         pass
 
 
-def run(cmd):
-    """'' if cmd exits 0 within RENDER_TIMEOUT, else why not.
+def run(cmd, limit=None):
+    """'' if cmd exits 0 within limit seconds (RENDER_TIMEOUT), else why not.
 
     Each render runs in its own process group, and a render that overruns is
     killed with the whole group: Chrome's renderer and GPU processes, and the
@@ -329,10 +344,10 @@ def run(cmd):
     with _children_lock:
         _children.add(p.pid)
     try:
-        code = p.wait(timeout=RENDER_TIMEOUT)
+        code = p.wait(timeout=limit or RENDER_TIMEOUT)
         return "" if code == 0 else "exit %d" % code
     except subprocess.TimeoutExpired:
-        return "timed out after %d s" % RENDER_TIMEOUT
+        return "timed out after %d s" % (limit or RENDER_TIMEOUT)
     finally:
         kill_group(p.pid)  # what the render left running, on success too
         p.wait()
@@ -340,43 +355,61 @@ def run(cmd):
             _children.discard(p.pid)
 
 
-def save_web(key, url, raw, stem, chrome, single_file):
-    """Write stem.pdf and stem.html (or stem.raw.html). Returns (names written, notes)."""
+def save_web(key, url, raw, stem, chrome, single_file, need_text=False):
+    """Write stem.html by SingleFile and stem.pdf by Chrome. Returns (names written, notes).
+
+    SingleFile goes first, and the PDF is printed from its snapshot, a local
+    file with its scripts removed, so Chrome has nothing left to wait for.
+    Without a snapshot the live page is printed, and --timeout makes Chrome
+    print what it has after PRINT_WAIT seconds; the --virtual-time-budget it
+    replaces never fired on a page whose requests never finish, and every
+    news site has those. Where there is no snapshot, the page as fetched is
+    kept, stem.raw.html. With need_text (the browser retry) there is nothing
+    fetched to keep: the snapshot must have MIN_TEXT characters or nothing is.
+    """
     wrote, notes = [], []
+    page, pdf = stem + ".html", stem + ".pdf"
     step(key, "waiting for a browser")
     with RENDERERS:
-        if chrome:
-            pdf = stem + ".pdf"
-            step(key, "printing PDF")
-            with tempfile.TemporaryDirectory() as profile:
-                why = run([chrome, "--headless=new", "--disable-gpu", "--disable-dev-shm-usage",
-                           *browser_flags(), "--user-data-dir=" + profile, "--no-pdf-header-footer",
-                           "--run-all-compositor-stages-before-draw", "--virtual-time-budget=15000",
-                           "--print-to-pdf=" + pdf, url])
-                if not why and os.path.exists(pdf) and os.path.getsize(pdf) > 1000:
-                    wrote.append(os.path.basename(pdf))
-                else:
-                    notes.append("pdf: " + (why or "no PDF written"))
-                    if os.path.exists(pdf):
-                        os.remove(pdf)
+        snapshot = False
         if single_file:
-            page = stem + ".html"
             step(key, "SingleFile")
-            cmd = [single_file, url, page]
+            cmd = [single_file, url, page, "--browser-load-max-time=%d" % (LOAD_WAIT * 1000),
+                   "--browser-capture-max-time=%d" % (LOAD_WAIT * 1000)]
             if chrome:
                 cmd += ["--browser-executable-path=" + chrome]
             if browser_flags():
                 cmd += ['--browser-args=["--no-sandbox","--disable-dev-shm-usage"]']
-            why = run(cmd)
+            why = run(cmd, SINGLEFILE_TIMEOUT)
             if not why and os.path.exists(page) and os.path.getsize(page) > 1000:
+                n = len(visible_text(open(page, encoding="utf-8", errors="replace").read()))
+                if need_text and n < MIN_TEXT:
+                    why = "browser page has %d characters of text" % n
+                else:
+                    snapshot = True
+            if snapshot:
                 wrote.append(os.path.basename(page))
-                return wrote, notes
-            notes.append("singlefile: " + (why or "no file written"))
-            if os.path.exists(page):
-                os.remove(page)
-    with open(stem + ".raw.html", "wb") as fh:
-        fh.write(raw)
-    wrote.append(os.path.basename(stem) + ".raw.html")
+            else:
+                notes.append("singlefile: " + (why or "no file written"))
+                if os.path.exists(page):
+                    os.remove(page)
+        if chrome and (snapshot or not need_text):
+            step(key, "printing PDF")
+            target = "file://" + os.path.abspath(page) if snapshot else url
+            with tempfile.TemporaryDirectory() as profile:
+                why = run([chrome, "--headless=new", "--disable-gpu", "--disable-dev-shm-usage",
+                           *browser_flags(), "--user-data-dir=" + profile, "--no-pdf-header-footer",
+                           "--timeout=%d" % (PRINT_WAIT * 1000), "--print-to-pdf=" + pdf, target])
+            if not why and os.path.exists(pdf) and os.path.getsize(pdf) > 1000:
+                wrote.insert(0, os.path.basename(pdf))
+            else:
+                notes.append("pdf: " + (why or "no PDF written"))
+                if os.path.exists(pdf):
+                    os.remove(pdf)
+    if not snapshot and raw is not None:
+        with open(stem + ".raw.html", "wb") as fh:
+            fh.write(raw)
+        wrote.append(os.path.basename(stem) + ".raw.html")
     return wrote, notes
 
 
@@ -401,12 +434,16 @@ def main():
     ap.add_argument("--bib", default=BIB, help="the bibliography (default %(default)s)")
     ap.add_argument("--out", default=OUT, help="output directory (default %(default)s)")
     ap.add_argument("--workers", type=int, default=8, help="parallel fetches (default 8)")
+    ap.add_argument("--renderers", type=int, default=2,
+                    help="browsers at once (default 2; each wants about a CPU)")
     ap.add_argument("--keep", action="store_true", help="keep the folder after zipping it")
     ap.add_argument("--resume", action="store_true",
                     help="keep the folder and both lists, and skip the keys already in either list")
     ap.add_argument("--chrome", help="Chrome or Chromium executable (default: looked for)")
     ap.add_argument("--single-file", help="single-file-cli executable (default: `single-file` on PATH)")
     a = ap.parse_args()
+    global RENDERERS
+    RENDERERS = threading.Semaphore(a.renderers)
 
     chrome = find_chrome(a.chrome)
     single_file = a.single_file or shutil.which("single-file")
@@ -458,6 +495,14 @@ def main():
         try:
             ok, url, ext, body, why = fetch(key, f)
             files, notes = [], []
+            if not ok and ext == "browser" and single_file:
+                files, notes = save_web(key, url, None, os.path.join(folder, key), chrome,
+                                        single_file, need_text=True)
+                if any(n.endswith(".html") for n in files):
+                    return True, url, files, "by browser, after " + why
+                for n in files:
+                    os.remove(os.path.join(folder, n))
+                return False, url, [], why + "; " + "; ".join(notes)
             if ok and ext == "web":
                 files, notes = save_web(key, url, body, os.path.join(folder, key), chrome, single_file)
             elif ok:
