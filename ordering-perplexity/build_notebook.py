@@ -29,7 +29,7 @@ An optional sweep at the end runs step 1 over every section.
 
 All numbers are negative log-likelihoods in **nats** under the model. *Δ = shuffled − original*, so a positive Δ means the model prefers the original. Lower perplexity is not better prose. It measures what a language model finds predictable, and an argument that surprises the reader at the right moment will score worse for it. Read the results as a map of where order carries information, not as a ranking.
 
-**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). Add a Colab secret named `GITHUB_TOKEN` (key icon in the left sidebar) holding a GitHub token with read access to `iterabloom/antifascist.intelligence`, and allow this notebook to use it. See `ordering-perplexity/README.md`.
+**In Colab:** use a GPU runtime (Runtime → Change runtime type → T4 or better). The setup cell fetches two public repositories without credentials: the latest manuscript from `iterabloom/antifascist.intelligence` (`BOOK_URL`, `BOOK_REF`), and this notebook's code, `orderppl.py`, from `jgstern-agent/antifascist.intelligence` (`CODE_URL`, `CODE_REF`). Rerunning it brings both up to date. See `ordering-perplexity/README.md`.
 """)
 
 md("## Setup")
@@ -37,33 +37,55 @@ code(r'''
 import os, sys, subprocess
 
 IN_COLAB = "google.colab" in sys.modules
-REPO_URL = "https://github.com/iterabloom/antifascist.intelligence.git"
-REPO_REF = "main"          # branch to clone in Colab
+# In Colab, two sources. The manuscript and its renderer come from the book's repository, where
+# the manuscript is edited, so every run reads the latest text. This folder's code (orderppl.py)
+# comes from the repository the experiments live in, which carries only ordering-perplexity/
+# here. Both repositories are public: no token.
+BOOK_URL = "https://github.com/iterabloom/antifascist.intelligence.git"
+BOOK_REF = "main"
+CODE_URL = "https://github.com/jgstern-agent/antifascist.intelligence.git"
+CODE_REF = "main"
+
+def git(*args, cwd=None):
+    p = subprocess.run(["git", *args], cwd=cwd, capture_output=True, text=True,
+                       env={**os.environ, "GIT_TERMINAL_PROMPT": "0"})
+    if p.returncode:
+        raise RuntimeError("git %s failed: %s" % (" ".join(args), p.stderr))
+    return p.stdout.strip()
+
+def sync(url, ref, dest, only=None):
+    """Shallow checkout of url at ref in dest, created or brought up to date; `only` limits it to one folder."""
+    if not os.path.isdir(os.path.join(dest, ".git")):
+        git("init", "--quiet", dest)
+        git("remote", "add", "origin", url, cwd=dest)
+        if only:
+            git("sparse-checkout", "set", "--no-cone", "/%s/" % only, cwd=dest)
+    else:
+        git("remote", "set-url", "origin", url, cwd=dest)
+    git("fetch", "--quiet", "--depth", "1", *(["--filter=blob:none"] if only else []), "origin", ref, cwd=dest)
+    git("checkout", "--quiet", "--force", "FETCH_HEAD", cwd=dest)
+    return git("rev-parse", "HEAD", cwd=dest)
 
 if IN_COLAB:
     subprocess.run([sys.executable, "-m", "pip", "install", "-q", "pysbd", "transformers>=4.57", "accelerate"], check=True)
-    from google.colab import userdata
     REPO = "/content/antifascist.intelligence"
-    if not os.path.isdir(REPO):
-        token = userdata.get("GITHUB_TOKEN")
-        auth_url = REPO_URL.replace("https://", "https://x-access-token:%s@" % token)
-        p = subprocess.run(["git", "clone", "--quiet", "--depth", "1", "--branch", REPO_REF, auth_url, REPO],
-                           capture_output=True, text=True)
-        if p.returncode:
-            raise RuntimeError("clone failed: " + p.stderr.replace(token, "***"))
-        # keep the token out of .git/config
-        subprocess.run(["git", "-C", REPO, "remote", "set-url", "origin", REPO_URL], check=True)
-        del token, auth_url
+    BOOK_COMMIT = sync(BOOK_URL, BOOK_REF, REPO)
+    CODE = "/content/ordering-perplexity-code"
+    CODE_COMMIT = sync(CODE_URL, CODE_REF, CODE, only="ordering-perplexity")
+    HERE = os.path.join(CODE, "ordering-perplexity")
 else:
-    # Local Jupyter: the notebook sits inside the checkout.
+    # Local Jupyter: the notebook sits inside a checkout, which supplies both the manuscript and the code.
     d = os.path.abspath(os.getcwd())
     while not os.path.isfile(os.path.join(d, "finishing", "tools", "render_markdown.py")):
         if os.path.dirname(d) == d:
             raise FileNotFoundError("run this notebook from inside an antifascist.intelligence checkout")
         d = os.path.dirname(d)
     REPO = d
+    HERE = os.path.join(REPO, "ordering-perplexity")
+    BOOK_URL = CODE_URL = REPO
+    BOOK_REF = CODE_REF = git("rev-parse", "--abbrev-ref", "HEAD", cwd=REPO)
+    BOOK_COMMIT = CODE_COMMIT = git("rev-parse", "HEAD", cwd=REPO)
 
-HERE = os.path.join(REPO, "ordering-perplexity")
 sys.path.insert(0, HERE)
 import importlib, orderppl as op
 importlib.reload(op)
@@ -71,8 +93,8 @@ importlib.reload(op)
 import numpy as np, pandas as pd, torch
 import matplotlib.pyplot as plt
 pd.set_option("display.max_colwidth", 90)
-print("repo:", REPO, "| commit:", subprocess.run(["git", "-C", REPO, "rev-parse", "--short", "HEAD"],
-      capture_output=True, text=True).stdout.strip())
+print("manuscript:", BOOK_URL, BOOK_REF, BOOK_COMMIT[:7])
+print("code:      ", CODE_URL, CODE_REF, CODE_COMMIT[:7])
 print("torch", torch.__version__, "| cuda:", torch.cuda.get_device_name(0) if torch.cuda.is_available() else "none")
 ''')
 
@@ -86,7 +108,7 @@ md(r"""
 | model | float32 | float16 | on a T4 |
 |---|---|---|---|
 | `Qwen/Qwen3-0.6B-Base` | 2.4 GB | 1.2 GB | float32 |
-| `Qwen/Qwen3-1.7B-Base` | 6.9 GB | 3.4 GB | float32 (default) |
+| `Qwen/Qwen3-1.7B-Base` | 6.9 GB | 3.4 GB | ran out of memory in float32 (2026-10-05); float32 ran on an A100 40 GB |
 | `Qwen/Qwen3-4B-Base` | 16 GB | 8 GB | float16 |
 | `Qwen/Qwen3-8B-Base` | 33 GB | 16 GB | no; L4 or A100 runtime in float16 |
 | `Qwen/Qwen3.5-0.8B-Base` | 3.5 GB | 1.7 GB | float32; slower than Qwen3 without the linear-attention kernels (README) |
@@ -265,7 +287,7 @@ md("## Save")
 code(r'''
 meta = dict(model=MODEL_ID, dtype=DTYPE, section=sec.title, seed=SEED, n_shuffles=N_SHUFFLES, fix_first=FIX_FIRST,
             heading_as_context=HEADING_AS_CONTEXT, noise_floor=NOISE,
-            repo_commit=subprocess.run(["git", "-C", REPO, "rev-parse", "HEAD"], capture_output=True, text=True).stdout.strip())
+            book_url=BOOK_URL, book_commit=BOOK_COMMIT, code_url=CODE_URL, code_commit=CODE_COMMIT)
 pd.Series({**meta, **summary}).to_csv(os.path.join(RESULTS, "summary_%s.csv" % tag), header=False)
 pd.DataFrame({"delta": [s.total_nll - orig.total_nll for s in shuf],
               "order": [" ".join(map(str, s.order)) for s in shuf]}).to_csv(os.path.join(RESULTS, "shuffles_%s.csv" % tag), index=False)

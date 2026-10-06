@@ -1,0 +1,168 @@
+# P221 Phase 2, 2026-10-05 (D-652): one structural batch, one map. A new chapter 3,
+# "What Fascism Needs", shifts chapters 3-17 to 4-18; old 18 and 23 are reordered into
+# 19 and 20 (23.1 becomes 19.3); old 19-22 become 21-24; old 24-31 become 25-32; a new
+# chapter 33, "The Officer, Again", ends the book. The Terms page (0.1), 11.2 and
+# Appendix F are folded in elsewhere; Appendix G becomes F; a new Appendix G, "The Tests
+# in Detail", holds the old chapter 28's protocols; Appendix C gains C.1-C.3.
+# Numbers on the left are those after D-646 (renumber-map_2026-10-05.tsv). Labels,
+# ORDER.tsv nums, outline/ledger nums, file paths and typed table numbers moved together.
+old	new	note
+0.1	—	Terms page removed; its entries merge into the Glossary (E)
+—	3	new: the office-scale definition and the four operations, from the old 14.1
+3	4	
+4	5	
+5	6	
+5.1	6.1	
+5.2	6.2	
+5.3	6.3	
+5.4	6.4	
+5.5	6.5	
+5.6	6.6	
+5.7	6.7	
+5.8	6.8	
+5.9	6.9	
+5.10	6.10	
+6	7	
+6.1	7.1	
+6.2	7.2	
+7	8	
+7.1	8.1	
+7.2	8.2	
+8	9	
+8.1	9.1	
+8.2	9.2	
+9	10	
+10	11	
+10.1	11.1	
+10.2	11.2	
+10.3	11.3	
+10.4	11.4	
+10.4.1	11.4.1	
+10.4.2	11.4.2	
+10.4.3	11.4.3	
+10.4.4	11.4.4	
+10.4.5	11.4.5	
+10.5	11.5	
+10.6	11.6	
+10.7	11.7	
+10.8	11.8	
+11	12	the old 11.2 folds into the chapter opening
+11.1	12.1	
+11.2	—	folded into chapter 12's opening
+11.3	12.2	
+11.4	12.3	
+12	13	
+12.1	13.1	
+12.2	13.2	
+12.3	13.3	
+12.4	13.4	
+12.5	13.5	
+12.6	13.6	
+13	14	
+13.1	14.1	
+13.2	14.2	
+13.3	14.3	
+13.4	14.4	
+14	15	
+14.1	15.1	
+14.2	15.2	
+14.3	15.3	
+14.4	15.4	
+14.5	15.5	
+14.6	15.6	
+15	16	
+15.1	16.1	
+15.2	16.2	
+15.3	16.3	
+15.4	16.4	
+15.5	16.5	
+15.6	16.6	
+15.7	16.7	
+16	17	
+16.1	17.1	
+16.2	17.2	
+17	18	
+17.1	18.1	
+17.2	18.2	
+17.3	18.3	
+17.4	18.4	
+18	19	reordered: the obvious idea, why it fails, caregiving, respect, resistance to capture
+18.1	19.1	
+18.2	19.2	
+23.1	19.3	moved from chapter 23 (now 20)
+18.3	19.4	
+18.5	19.5	
+18.4	19.6	
+23	20	moved forward to follow chapter 19; loses the old 23.1
+23.2	20.1	
+23.3	20.2	
+23.4	20.3	
+23.5	20.4	
+23.6	20.5	
+23.7	20.6	
+23.8	20.7	
+19	21	
+19.1	21.1	
+19.2	21.2	
+19.2.1	21.2.1	
+19.2.2	21.2.2	
+19.3	21.3	
+19.4	21.4	
+19.5	21.5	
+20	22	
+20.1	22.1	
+20.2	22.2	
+21	23	
+21.1	23.1	
+21.2	23.2	
+21.3	23.3	
+21.4	23.4	
+22	24	
+22.1	24.1	
+22.2	24.2	
+22.3	24.3	
+22.4	24.4	
+22.5	24.5	
+24	25	
+25	26	
+25.1	26.1	
+25.2	26.2	
+26	27	
+27	28	
+27.1	28.1	
+27.2	28.2	
+28	29	
+28.1	29.1	
+28.1.1	29.1.1	
+28.1.2	29.1.2	
+29	30	
+29.1	30.1	
+29.1.1	30.1.1	
+29.1.2	30.1.2	
+29.2	30.2	
+29.3	30.3	
+29.4	30.4	
+30	31	
+31	32	
+31.1	32.1	
+31.2	32.2	
+31.3	32.3	
+31.4	32.4	
+31.5	32.5	
+—	33	new ending, in Part VII; folds in the old Appendix F and the method note from the old 31
+A	A	gains the custody table (old 12.6), the two offices (old 6.2) and Table 25.1
+C	C	retitled; gains sections C.1-C.3
+—	C.1	new: Table 17.1 (now Table C.1) moved from the old 17.3
+—	C.2	new heading over the old Appendix C text
+—	C.3	new: Tables 10.1-10.3 moved from the old chapter 10
+D	D	gains dormancy, waking and scale from the old 8.2
+E	E	gains the Terms page
+F	—	folded into chapter 33
+G	F	
+G.1	F.1	
+G.2	F.2	
+G.3	F.3	
+G.4	F.4	
+G.5	F.5	
+G.6	F.6	
+—	G	new: the six test protocols and Tables 28.2a/b from the old chapter 28

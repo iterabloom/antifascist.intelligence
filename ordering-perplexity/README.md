@@ -17,24 +17,32 @@ nothing here edits the book.
 
 ## Running in Colab
 
-1. **Open the notebook.** In Colab: File → Open notebook → GitHub, tick
-   *Include private repos*, and authorize Colab for `jgstern-agent`. If
-   `iterabloom/antifascist.intelligence` does not appear, the `iterabloom`
-   organization has not granted Colab access; an owner approves it under the
-   organization's Settings → Third-party access. Uploading the `.ipynb` from a
+The experiments and the manuscript live in different repositories. The
+manuscript is edited in `iterabloom/antifascist.intelligence`; this folder's
+work is pushed to `jgstern-agent/antifascist.intelligence`. Both are public,
+so nothing needs a token.
+
+1. **Open the notebook** from the experiments' repository:
+   <https://colab.research.google.com/github/jgstern-agent/antifascist.intelligence/blob/main/ordering-perplexity/01_orderings.ipynb>,
+   or in Colab use File → Open notebook → GitHub and enter
+   `jgstern-agent/antifascist.intelligence`. Uploading the `.ipynb` from a
    local checkout works as well.
 2. **Give it a GPU.** Runtime → Change runtime type → T4 (free) or better.
-3. **Give it read access to the repository.** The notebook clones the repo
-   to get the manuscript and `orderppl.py`. Create a fine-grained token on
-   GitHub (Settings → Developer settings → Fine-grained tokens) with resource
-   owner `iterabloom`, only this repository, and *Contents: Read-only*. In
-   Colab, open the key icon in the left sidebar, add a secret named
-   `GITHUB_TOKEN` with the token as its value, and switch on notebook access.
-   The setup cell removes the token from the clone's git config after cloning.
-4. Run all. The default settings score chapter 1 with `Qwen/Qwen3-1.7B-Base`.
+3. Run all. The default settings score chapter 1 with
+   `Qwen/Qwen3-1.7B-Base`.
 
-Colab clones the branch named in `REPO_REF` (default `main`), so changes to
-`orderppl.py` reach Colab only once they are pushed.
+The setup cell fetches two shallow checkouts:
+
+| what | from | setting | to |
+|---|---|---|---|
+| the manuscript and its renderer | `iterabloom/antifascist.intelligence`, `main` | `BOOK_URL`, `BOOK_REF` | `/content/antifascist.intelligence` |
+| `orderppl.py` (this folder only) | `jgstern-agent/antifascist.intelligence`, `main` | `CODE_URL`, `CODE_REF` | `/content/ordering-perplexity-code` |
+
+Rerunning the setup cell brings both up to date, so a run reads the
+manuscript as last pushed, and it prints the commit of each. The saved
+summary CSV records both commits. The notebook you opened is not what
+supplies `orderppl.py`: changes to it reach Colab only once they are pushed
+to `CODE_REF`. Run locally, the checkout the notebook sits in supplies both.
 
 Results go to `/content/results/` on the Colab VM, which is lost when the
 runtime ends. Set `SAVE_TO_DRIVE = True` to write them to
@@ -61,8 +69,8 @@ The notebook is generated. To change it, edit `build_notebook.py` and run
 
 - **Text.** `finishing/tools/render_markdown.py` renders the manuscript to
   Markdown and `orderppl.parse_book` cuts it at every heading. Citation keys,
-  footnotes and leftover LaTeX are removed. Epigraphs, lists, tables and
-  standalone bold heads are dropped, and the dropped blocks are counted per
+  footnote markers and leftover LaTeX are removed. Footnote definitions,
+  epigraphs, lists, tables and standalone bold heads are dropped, and the dropped blocks are counted per
   section in the overview table. A paragraph that opens with a bold run-in
   head keeps it as plain text. Paragraphs that introduced a list end in a
   colon with the list gone.
@@ -78,12 +86,13 @@ The notebook is generated. To change it, edit `build_notebook.py` and run
   context gain uses.
 - **Noise floor.** The same text scored at batch sizes 1, 2 and 4 does not
   always give the same total, because the GPU kernels change with the batch
-  shape. Chapter 1 on the RTX 3060, 2026-10-03:
+  shape. Chapter 1 on the RTX 3060, 2026-10-03, and on a Colab A100,
+  2026-10-05 (Qwen3-1.7B-Base in fp32):
 
   | model | bf16 | fp16 | fp32 |
   |---|---|---|---|
   | Qwen2.5-Coder-0.5B-Instruct | 3.3 | 0.1 | 0.000 |
-  | Qwen3-1.7B-Base | | 1.3 | |
+  | Qwen3-1.7B-Base | | 1.3 | 0.000 (A100) |
   | Qwen3.5-0.8B-Base | | | 0.002 |
 
   (nats; blank = not measured). Sentence shuffles move totals by a few to a

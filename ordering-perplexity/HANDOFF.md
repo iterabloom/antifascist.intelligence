@@ -1,6 +1,6 @@
 # Handoff: ordering-perplexity
 
-State as of 2026-10-03, for whoever picks this up next, human or agent. Read
+State as of 2026-10-05, for whoever picks this up next, human or agent. Read
 `README.md` for what the notebook measures and how to run it. This file is
 the state of the work, what has and has not been checked, and what will trip
 you up.
@@ -35,16 +35,53 @@ Append to it rather than editing earlier entries.
   in fp16 (smallest Δ 70), and all 20 under Qwen3.5-0.8B-Base (smallest Δ 36).
   Swapping paragraphs 3 and 4 costs −0.22 nats under the 0.6B model. That
   joint is where the parser dropped the bold head “The reported system”.
+- **First Colab run, 2026-10-05:** `Qwen3-1.7B-Base` in fp32 on an A100
+  40 GB, chapter 1 with its two footnotes still in (see below), manuscript
+  `df2b3ae`, code `fc2bf71`. Noise floor 0.000 nats (batch sizes 1, 2, 4).
+  All 50 paragraph shuffles scored worse than the original (smallest Δ 67.2,
+  mean 161.2, z 4.66). Swapping 3 and 4 costs −0.23 nats, as under the 0.6B
+  model. The swaps the model prefers most are in the reporting block,
+  paragraphs 5 to 8 (−7.4, −10.1, −17.9). In sentence shuffles, paragraphs
+  19 and 20 are the only ones with negative z (`frac_beat_orig` 0.8 and 0.7,
+  20 shuffles each, no correction across the 15 paragraphs tested). Not
+  rerun since the footnote fix.
 
 ## Not done or not checked
 
-- **Nothing has run in Colab.** That covers the `GITHUB_TOKEN` secret and
-  clone path, opening a private-repo notebook from GitHub, any possible
-  `iterabloom` approval of Colab as a third-party app, Colab's installed
-  transformers version, and the T4.
-- `Qwen3-1.7B-Base` in **fp32** (the notebook's default model and dtype).
-  It needs about 9 GB, more than the 6 GiB cap used locally. On a 15 GB T4 it
-  fits by arithmetic, but that hasn't been run.
+- **Colab has run once, on an A100** (above); not yet on a T4 with a model
+  that fits. Since 2026-10-05 the setup cell fetches two
+  public repositories without a token: the manuscript from
+  `iterabloom/antifascist.intelligence` (`BOOK_URL`), where the manuscript
+  session pushes, and only `ordering-perplexity/` from
+  `jgstern-agent/antifascist.intelligence` (`CODE_URL`), where this work is
+  pushed. Rerunning the cell brings both up to date. Checked from a cloud
+  container without a GPU, under a faked `google.colab` with pip skipped:
+  first run and rerun of both fetches, the code checkout holding only this
+  folder, `orderppl` imported from it, a rerun picking up a new commit
+  (against a local repository), and the local-checkout path. The author's
+  Colab run then confirmed opening from GitHub, both fetches and the model
+  download. Colab's transformers version was not printed.
+- **Two repositories.** `iterabloom/antifascist.intelligence` is the
+  manuscript's; its `main` still carries an `ordering-perplexity/` frozen at
+  `df2b3ae`, which nothing reads. This work is pushed to
+  `jgstern-agent/antifascist.intelligence`, whose `main` was at `df2b3ae`
+  too before it. How the two repositories' `main` branches are kept in step,
+  if at all, was not checked.
+- **Footnotes were scored as paragraphs until 2026-10-05.** The renderer
+  writes Pandoc footnotes (`[^N]` inline, a `[^N]: …` block after the
+  paragraph), which `parse_book` passed through: each definition became a
+  prose paragraph at the end of its section and the markers stayed in the
+  text. Fixed in `orderppl.py` the same day: markers removed, definitions
+  dropped and counted (14 in the book). Every result before the fix,
+  including the 2026-10-05 Colab run, carries them; chapter 1 has two. With
+  them removed, chapter 1 parses to 20 paragraphs, the count of 2026-10-03,
+  so the "22, not 20" this file said earlier that day was the footnotes,
+  not a change in the manuscript. Whether chapter 1's text changed between
+  the two runs was not checked. The longest section is now 4.1 (46,817
+  characters), not 3.1.
+- **Why the T4 ran out of memory** with `Qwen3-1.7B-Base` in fp32 on
+  chapter 1 (2026-10-05): which cell failed and the traceback were not
+  recorded. The run went through on an A100 40 GB.
 - Any model at 4B or above. The `flash-linear-attention` and `causal-conv1d`
   kernels for Qwen3.5, which ran on transformers' reference path.
 - The sweep with a base model. Sentence-level results for any base model,
