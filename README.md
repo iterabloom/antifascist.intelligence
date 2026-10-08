@@ -5,7 +5,7 @@
 
 Joshua G. Stern
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-07.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-07.html) — 320 pages, built 2026-10-07 from the sources in this repository.
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-08.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-08.html) — 321 pages, built 2026-10-08 from the sources in this repository.
 
 
 Mass harm has always needed many people to carry it out, and some of them refused: the clerk who loses the file, the officer who talks to a reporter, the soldier who won't fire. Refusal was rarer than anyone would like, and it counted most where institutions made it survivable. The industry is building AI that doesn't lose files, doesn't talk to reporters, and does fire. In the targeting pipelines this book examines, nothing refused and nobody could. What the machines lowered first was not the cost of the act but the number of people who knew what the act was before it happened. This book asks what would put refusal back, and who should hold it.
