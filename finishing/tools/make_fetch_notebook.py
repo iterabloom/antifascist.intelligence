@@ -26,11 +26,14 @@ For each entry in `refs.bib` this tries the arXiv eprint, the `url`, then the
 - **a PDF**, saved as `KEY.pdf`, following a publisher page's
   `citation_pdf_url` where there is one;
 - **a web page**, from a `url` field and with at least 2,000 characters of
-  text, saved twice: `KEY.pdf`, printed by headless Chromium, and `KEY.html`,
-  one self-contained file made by SingleFile (`single-file-cli`, the
-  command-line build of the Chrome extension).
+  text, saved twice: `KEY.html`, one self-contained file made by SingleFile
+  (`single-file-cli`, the command-line build of the Chrome extension), and
+  `KEY.pdf`, printed by headless Chromium from that file.
 
-A DOI that lands on an abstract page, and an entry with no link, are failures.
+A site that refuses the script (401, 403, 429), or a page that comes back
+nearly empty because JavaScript builds it, gets a second try in the browser,
+and counts if the browser's copy has the 2,000 characters. A DOI that lands on
+an abstract page, and an entry with no link, are failures.
 
 **What you get:** `successfully-retrieved_<date>.zip`, and two lists,
 `successfully-retrieved.txt` and `failed-retrieval.txt`, each `@key` then the
@@ -39,6 +42,13 @@ URL. They download at the end, and can be copied to Google Drive.
 **Run the cells in order.** Setup takes a few minutes; the full run takes
 much longer (two seconds between requests to any one site, and a browser
 render for every web page). Try `LIMIT = 20` first.
+
+**While it runs**, every 30 seconds it prints what is still in progress, at
+which step and for how long. Nothing can run unbounded: a download gives up
+after 120 seconds, SingleFile after 90, a PDF print after 20 or so. **To stop it**, use the cell's
+stop button: the run ends, and the two lists keep every entry that finished.
+**To carry on**, set `RESUME = True` and run the Retrieve cell again; it skips
+every key already in either list.
 
 **Expect more failures than from a home connection.** Many publishers refuse
 requests from cloud addresses like Colab's.
@@ -51,8 +61,10 @@ SETTINGS = """\
 LIMIT = None        # e.g. 20 to try the first 20 entries; None for all
 ONLY = []           # e.g. ["abraham2024lavender"] to fetch just these keys
 WORKERS = 8         # parallel fetches
+RENDERERS = 2       # browsers at once; Colab has 2 CPUs, so more mostly queues
 REFS_BIB_URL = ""   # a raw URL for refs.bib; leave "" to upload the file
-SAVE_TO_DRIVE = False  # also copy the results to My Drive/source-texts/"""
+SAVE_TO_DRIVE = False  # also copy the results to My Drive/source-texts/
+RESUME = False      # True: carry on from a stopped run, skipping keys already done"""
 
 SETUP = """\
 %%bash
@@ -120,16 +132,25 @@ chrome = subprocess.run(
     capture_output=True, text=True, check=True).stdout.strip()
 args = ["--bib", "/content/refs.bib", "--out", "/content/source-texts",
         "--chrome", chrome, "--single-file", "/content/sf/single-file",
-        "--workers", str(WORKERS)]
+        "--workers", str(WORKERS), "--renderers", str(RENDERERS)]
 if LIMIT:
     args += ["--limit", str(LIMIT)]
 if ONLY:
     args += ["--only", *ONLY]
+if RESUME:
+    args += ["--resume"]
 print("python fetch_sources.py", " ".join(shlex.quote(a) for a in args), "\\n")
 p = subprocess.Popen([sys.executable, "-u", "/content/fetch_sources.py", *args],
                      stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
-for line in p.stdout:
-    print(line, end="")
+try:
+    for line in p.stdout:
+        print(line, end="")
+except KeyboardInterrupt:
+    # The stop button interrupts this cell, not the script; pass it on, so the
+    # script kills its browsers and exits, rather than running on unseen.
+    p.terminate()
+    for line in p.stdout:
+        print(line, end="")
 print("exit", p.wait())"""
 
 GET = """\

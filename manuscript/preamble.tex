@@ -27,6 +27,11 @@
 \providecommand{\euro}{\texteuro}
 \usepackage[hidelinks]{hyperref}   % before biblatex, per its own guidance
 \usepackage[backend=biber,style=authoryear,sorting=nyt,maxcitenames=2]{biblatex}
+% Let long URLs in the References break after digits and letters, not only at / and .:
+% the OHCHR docstore links are one unbreakable string and ran off the page.
+\setcounter{biburlnumpenalty}{100}
+\setcounter{biburlucpenalty}{100}
+\setcounter{biburllcpenalty}{100}
 \addbibresource{../finishing/refs.bib}
 
 % ---------------------------------------------------------------------------
