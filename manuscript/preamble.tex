@@ -135,12 +135,15 @@
 % note and not as the first paragraph.
 \newcommand{\standing}[1]{\noindent{\small\itshape #1}\par\medskip}
 
-\newtcolorbox{esbox}{
+% Breakable by default; a box that reads as one document, like the birth
+% record in chapter 31, opens with [unbreakable].
+\newtcolorbox{esbox}[1][]{
   colback=black!3, colframe=black!35, boxrule=0.4pt, arc=1pt,
   left=8pt, right=8pt, top=8pt, bottom=8pt, breakable,
   fontupper=\small,
   before upper={\setlength{\parskip}{0.5\baselineskip}%
                \setlength{\parindent}{0pt}},
+  #1
 }
 \newcommand{\boxtitle}[1]{{\bfseries #1}\par\smallskip}
 

@@ -330,6 +330,13 @@ def render(path, nums, root, labels):
         body = text[text.index("{", start) + 1:end - 1].strip("\n")
         text = (text[:start] + "\\begin{quote}\n" + body + "\n\\end{quote}"
                 + text[end:])
+    # A comment that starts mid-line takes the rest of the line and the
+    # newline after it, and TeX skips the next line's leading spaces, so the
+    # two lines are one. §19.3 carries one, a note that a citation is owed,
+    # and it reached the Markdown as prose. A whole-line comment is left to
+    # the loop below.
+    text = re.sub(r"^(?!\s*%)(.*?)(?<!\\)%[^\n]*\n[ \t]*", r"\1", text,
+                  flags=re.M)
     lines = join_split_args(text).split("\n")
     out, i, stack = [], 0, []
     heads = list(nums)
@@ -341,9 +348,9 @@ def render(path, nums, root, labels):
         # A whole-line LaTeX comment is not prose and reached the Markdown as
         # prose: the four lines explaining the \appendix continuation file and
         # the six explaining the preface's sloppypar. Only a line whose first
-        # non-space character is an unescaped % is dropped; the section files
-        # have no comment that starts mid-line. --tex keeps them, being the
-        # source rather than a rendering of it.
+        # non-space character is an unescaped % is dropped; one that starts
+        # mid-line went above. --tex keeps them, being the source rather than
+        # a rendering of it.
         if re.match(r"\s*%", line):
             continue
 
@@ -465,6 +472,10 @@ def render(path, nums, root, labels):
             out.append(bullet + body)
             continue
 
+        # A \par ending a source line ends the paragraph there. The fields of
+        # the birth record in chapter 31 are written one to a line that way,
+        # and inline() dropping the \par ran all eight into one paragraph.
+        par = bool(re.search(r"\\par\s*$", line))
         line = inline(line, labels)
         line = re.sub(r"\\\\(\[[^\]]*\])?\s*$", "  ", line)  # hard break
         if stack and stack[-1][0] == "quote":
@@ -473,8 +484,12 @@ def render(path, nums, root, labels):
                 out.append("> " + line.strip() + brk)
             else:
                 out.append(">")
+            if par:
+                out.append(">")
         else:
             out.append(line)
+            if par:
+                out.append("")
 
     if FOOTNOTES["pending"]:
         for note in FOOTNOTES["pending"]:
