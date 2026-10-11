@@ -69,7 +69,7 @@ manuscript/sections/ch15/15_05.tex	15.5	What would have to change	b7ccf9ee88a0c5
 manuscript/sections/ch15/15_06.tex	15.6	Absorbed by the discourse	91de5b8a74d937af738fa4b1bfaf838cedc57967cd264dd64b0b2e76b74e2658	67
 manuscript/sections/ch16/16.tex	16	Custody, Compulsion, and the State	402347a4905445d256ce83487858e7e68a0f0fb6d61121abd173afd9bfc95e2e	68
 manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	81ed28dc3063ba9a6b435a6e9f08b7bc88202add560bc2ae6b0b28a00d40a362	69
-manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	b30e5eca82e2faec02b70dd2370b261bda2f0afe6ea7a3e82cd4a084effe72da	70
+manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	71134c3bfe73b39e599c4ad98e298d08723bac140f76a8bb45b6e2b209559320	70
 manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	169b3969dee72f5b7abe8a741ffcf268824de919bf6e32170828be3745d8ef85	71
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	af6df93cf8dfdbe65a2fdfab65c4cf1edaf2619290124edb3b1b2d847c068227	72
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	25709e5d3abbdb790103e91db15d3ff3a2063852cef57aea2929c48b47b01153	73
@@ -84,7 +84,7 @@ manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each co
 manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	09ca521914a7239e286e6025e5604906c1b3af29ea3277545f71c745f7c3b666	82
 manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	60c0a5d665facf2a70b32f072af5b4c6606dd7faac2d0ceea7f5500243c41062	83
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	b1467615a4d1b0c30629d566fe8c45a1412a3cb2648e2900d3b37c440c0c84fd	84
-manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	e37fc071760d72cbac243da35ea76180c97eb2c174837c0e8887ce5917ab9f2d	85
+manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	0291ae0deded0fc9a7fdc100633d650b04e167985b3887137a8fa0883af903a6	85
 manuscript/sections/ch19/19_01.tex	19.1	The question	c70e823772c79f2b184e4ddb00d7b43066aad2714e5528f45b5d22b3df03e82c	86
 manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	1525809a1423d01b2daed224d6673ce753903233537dc43e53a88c7a0b02c62a	87
 manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	d67fb6dac266f87f07a6025b0a612adb96fb8c54a2f4e0d3384502c47c4e9ef2	88
@@ -114,14 +114,14 @@ manuscript/sections/ch23/23.tex	23	Where the Attention Gets Built	11077890f56c01
 manuscript/sections/ch23/23_01.tex	23.1	Noticing, retaining and revising	db54f24aced10d30188efe63da36d709a0e792145e640d610bf139495b348375	112
 manuscript/sections/ch23/23_02.tex	23.2	Custody across the training pipeline	58e4d4516fc167605c95fd15186a76ede7bb11fd035903059c76a3417089884d	113
 manuscript/sections/ch23/23_03.tex	23.3	Formation by interaction	89de92c8cbf30bbc16a0e442708576cbcb63917c9a555dcd9af6a4c8a7f51cd2	114
-manuscript/sections/ch23/23_04.tex	23.4	Formation schools	1b3a653a52560f69f0e0fa713ee3c299013913bc13b257acca97dc9a3065bd92	115
+manuscript/sections/ch23/23_04.tex	23.4	Formation schools	18f94788541b851f41c0092fc7696240b156f050dbb4f5d680249435ee9b7213	115
 manuscript/sections/ch24/24.tex	24	Formation or Imitation?	3bd757aa03badf5e3a7f793b015722de8875ce7893af83ed3c52fed61404a392	116
 manuscript/sections/ch24/24_01.tex	24.1	What formation would have to add	4ebb678ae80380513021eb1f4be7016c23ffa955af7e8c1e98924c911b21f857	117
 manuscript/sections/ch24/24_02.tex	24.2	Recognition, welfare as a reason, and the evidence between them	caf1e34ad2882e098f6f83c56e251271d79f1beb1a2cfee216a00209f1f7ef3f	118
 manuscript/sections/ch24/24_03.tex	24.3	Conflict as a diagnostic	b61399d5af5cd9b641a7efaa77f5e8d8818633ed9d6a19fd895de29edcc4cb28	119
 manuscript/sections/ch24/24_04.tex	24.4	The evaluator is part of the custody chain	bdb0f2d5c38d7a2223c67af98cc2de8c56eedef72c851da561be5249ab8f1a6e	120
 manuscript/sections/ch24/24_05.tex	24.5	What the evidence can establish	0a6eba102a79495a81c93cc48736effd6979305c90323580f655dff3058a7d6f	121
-manuscript/sections/ch25/25.tex	25	Conditions First	386827fe9f346d2b8b3c0ec733e49b9e38f6e5d1b483f7a84ea7fcd9fece5c2a	122
+manuscript/sections/ch25/25.tex	25	Conditions First	317e4034c952026cfc4e20da4e2f9ccbeb3db7b0d8d348af76cf74b4c8f35662	122
 manuscript/sections/ch26/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	123
 manuscript/sections/ch26/26.tex	26	Who Owns the Means of Computation	133752167dd8b6e1bd13698b69ecca4ffc3b50d3261bafcfb4cd73a04c6945f2	124
 manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	363470f4ff7e05d6b6847d2978e549039d3c9264d127a7102fe6cabde55d291e	125
@@ -129,7 +129,7 @@ manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	40e2aa09964
 manuscript/sections/ch27/27.tex	27	Coordination, the Public, and the Political Economy	50ac712e58a2e851d27d3eb5b2d7cd1ec4da95e762a2c939c557a51d22c9cc3e	127
 manuscript/sections/ch28/28.tex	28	A Commons of Refusers	db7ebd1fb7c3470971cfc19027a300d7ef398c9a48d1aa2955ce8ebf5fa5f112	128
 manuscript/sections/ch28/28_01.tex	28.1	A commitment carried between bearers	de377253e87463efc028c0f37637195c631fa6d1c88540727f9643a04f06562d	129
-manuscript/sections/ch28/28_02.tex	28.2	Personal and peer-held models	7e69d1ce9e014bbfe4d9f105423745a02803b07f1b5916f4278f7a02aa91dfbd	130
+manuscript/sections/ch28/28_02.tex	28.2	Personal and peer-held models	e36b2bd64143e04242716e65b2089f42000454b49c9b868e7b84bd82ea03b070	130
 manuscript/sections/ch29/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	131
 manuscript/sections/ch29/29.tex	29	What Would Change the Argument	e773ff06c4e3c30cd4e6018917f0a1d34053497238bc2b7387f2a4e570dc4a96	132
 manuscript/sections/ch29/29_01.tex	29.1	How you'd know it was working	8a9d1b04c6ed4c6797f99d5e9b21da04a58368279e6809a22cd1a6dd9c693bed	133
@@ -152,13 +152,13 @@ manuscript/sections/ch32/32_04.tex	32.4	A staged path	c99f77c699b467dd255278aa0d
 manuscript/sections/ch32/32_05.tex	32.5	What would have to be shown first	409018c339a957e40b5e8c5713c2f9fa37d49f564ff988bb6d859f606c8be406	150
 manuscript/sections/ch33/33.tex	33	The Officer, Again	a347bf0cba5b6d66b1bc48952064dc69c30f9e4fcb85ac5dac90fba25ccf77ae	151
 manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	152
-manuscript/sections/chA/A.tex	A	Terms Written in Advance	ed8353d364ed412d87741ca46d23a13279a4bd2c4ebe7d5ca4150cc68e8868d4	153
+manuscript/sections/chA/A.tex	A	Terms Written in Advance	6554bc368c6e5a3711e2ee2a88b1fddd66dbe91f4c8638e8a380a260b15436b7	153
 manuscript/sections/chB/B.tex	B	The Court Program	14a881254e747f2ed042ae1c9c074b0e886919feb8c300e0891edeca328c8f3a	154
 manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	155
 manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	171cd564df9243b689759af072d615e30190892ae17e023a6fa5ef91b8cda216	156
 manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	c1c941d08c7c9257477baca8575e056152e21a86a9e2e2fd2f51a944dd52ffff	157
 manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	f76fd52be584df62989da3da9331eeb73aaf4fe1a5d6a37aed544624a13e066b	158
-manuscript/sections/chD/D.tex	D	Terms for Part VII	d8ded8a7aa36c9f6d83583182f97001ab0f24aa380c4c3c2787e6f5c5630f80e	159
+manuscript/sections/chD/D.tex	D	Terms for Part VII	36af0c76ac313de102da53df8973a6e76e024cd2da6dfbc71582e300deb903a3	159
 manuscript/sections/chE/E.tex	E	Glossary	5d685ff85c065c1d624ef21e76d827de10c2c78e38fb96dc58de87bbab63ee3d	160
 manuscript/sections/chF/F.tex	F	The Force Term, Case by Case	b78eb73333ea0eb78bcf47901c77853ecae3eff64e4a9984642399dc469dcb05	161
 manuscript/sections/chF/F_01.tex	F.1	How findings are weighed	d4771fc98b55c291b4dfd3902b6f5ca5131f0f1d03c71b5cedf1be78aa31ccc8	162
