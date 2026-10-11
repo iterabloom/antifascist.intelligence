@@ -100,7 +100,7 @@ Chapter 21: What Arrives With the Capability
 21.2.2. What governs an agent vs. what matters to it
 21.3. Three constructions
 21.4. What the mechanism requires
-21.5. Two findings
+21.5. A commitment of its own
 Chapter 22: The Discount and the Burden
 22.1. What the property is
 22.2. A severity scale
