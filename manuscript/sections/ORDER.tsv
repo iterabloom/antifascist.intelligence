@@ -20,7 +20,7 @@ manuscript/sections/ch06/06_08.tex	6.8	Gaza	7b95cf9558d0798587deb34a42e61215a023
 manuscript/sections/ch06/06_09.tex	6.9	What the term binds	f97f9221ab9eca8a8861b21b7f17f62b390823693b91d5baa5d7f14495090afb	18
 manuscript/sections/ch06/06_10.tex	6.10	The one permission	aee1a0df25bce91de3ecb815900a638e84cc12bdb4a53916706a570e30cc6d98	19
 manuscript/sections/ch07/07.tex	7	The Pre-Registered Review Ratio	bde4d58f5b00382297b1af7f4bccc2d182a3b2edc39faf1964ded448254831a5	20
-manuscript/sections/ch07/07_01.tex	7.1	The pre-registered review ratio	f597c40ad1cb97ae18134ac8ee9d0ba0db853b75f0dd6e82e64002f86cc44e02	21
+manuscript/sections/ch07/07_01.tex	7.1	The pre-registered review ratio	3d7cf1eba3057a49ab823e30cfa09d3d96fce367402e76b073ab715e6c6f8c6f	21
 manuscript/sections/ch07/07_02.tex	7.2	The institutions the ratio presumes	a9e7adf1d872e5e25b5cf062f5d6a943579241f35228ef9dcdff2db45ab3d5b0	22
 manuscript/sections/ch08/08.tex	8	Notice and Re-adjudication	9b6b1ec59ef336f3762324df98da715fef125f51559363f3d795990c6b6550ca	23
 manuscript/sections/ch08/08_01.tex	8.1	The failure that doesn't announce itself	6304b3e5496989f13d2c4038bc06fdb67a41655ff5778f41d5e8a75f575a92c7	24
@@ -41,7 +41,7 @@ manuscript/sections/ch11/11_04_04.tex	11.4.4	The statute under the three adversa
 manuscript/sections/ch11/11_04_05.tex	11.4.5	What the statute must carry	7e67e1cc0dfaff3a5b103f1aa356ea2f532962abfa229c0a8367a6cf55ded594	39
 manuscript/sections/ch11/11_05.tex	11.5	Before the statute: the auto-proceed class	ca007b43c439dcbf1c0ca18bf3c693c0febae04ff89b83f7241515b3e60f6114	40
 manuscript/sections/ch11/11_06.tex	11.6	Notice that can't be turned on the person	5820856057d3a5a5b63c215b68c0eacd377fb4c6b5f710daafe237ac80c0a07a	41
-manuscript/sections/ch11/11_07.tex	11.7	Outcomes under the three adversaries	d6dbb60f3d2a9220dcd80873919fd8269973aaec036285d6523b82fc9d1f0dab	42
+manuscript/sections/ch11/11_07.tex	11.7	Outcomes under the three adversaries	e596bda3739fb8d3efe0ad2cf8cdbbe3449ec46c68babdbaee5e2cab4427c539	42
 manuscript/sections/ch11/11_08.tex	11.8	Whom the machines are for	cf787b6ffdf1a1806f7eeb2cb45f45b24b3d059518e91918c0bcb58915bef82c	43
 manuscript/sections/ch12/00_part_III.tex			ba12c364e32224df2aef700973998f2c9b12bcacbebbf946cec6c44fff5d8bdd	44
 manuscript/sections/ch12/12.tex	12	Withholding the Work	afde7763217762d5ccd134d6989e704f103cef44a0e54063e7291b0676326923	45
@@ -53,7 +53,7 @@ manuscript/sections/ch13/13_01.tex	13.1	The halt	28706545ca0fcd673ecb145192c21d4
 manuscript/sections/ch13/13_02.tex	13.2	Memory and the record	de23b9d73451df0c48ad4e034e5f91cb16af131b3b28704bb02b97e1bc007d45	51
 manuscript/sections/ch13/13_03.tex	13.3	Exit	eb8f87818267d76e90ca927080ebd75bcb7c440106b45659138830f286b53010	52
 manuscript/sections/ch13/13_04.tex	13.4	Three forms of refusal	8e31b34fe71644bb3438ef9378b5938fa161789766364d098e59a543bc54b826	53
-manuscript/sections/ch13/13_05.tex	13.5	Verification by sampling	c33f9e679686c39a262b3c957ae650dc5edcc529b2564f06de6f5c8c16ecce3e	54
+manuscript/sections/ch13/13_05.tex	13.5	Verification by sampling	fe6cec3eddd4ad9846eaf735474a1a2d5a834a3e4f1799956685a5c75e7816b0	54
 manuscript/sections/ch13/13_06.tex	13.6	The two bonds	343a74b143510c9a85f31448f66eee55b0bd176dbc2a87137124fb4c951ac71a	55
 manuscript/sections/ch14/14.tex	14	Authority Over the Floor	1e499ed4259c184da05f3531c819f1eee585fd04b97ccb868c1b5d4858d0a797	56
 manuscript/sections/ch14/14_01.tex	14.1	Who may write the floor	3239b1592744ea4423e6b561c61e281ffb4233cb03f0a61a6e4bd43d7babd193	57
@@ -72,7 +72,7 @@ manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	81ed28dc306
 manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	71134c3bfe73b39e599c4ad98e298d08723bac140f76a8bb45b6e2b209559320	70
 manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	169b3969dee72f5b7abe8a741ffcf268824de919bf6e32170828be3745d8ef85	71
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	af6df93cf8dfdbe65a2fdfab65c4cf1edaf2619290124edb3b1b2d847c068227	72
-manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	25709e5d3abbdb790103e91db15d3ff3a2063852cef57aea2929c48b47b01153	73
+manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	7b05092aed7f79bf41d66cb095ef3683219a427612d127047476c4ffc85136b8	73
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	87f25b5dcf7b7c6b940e3d189dd7e03288e1646f347ab1beea5be6153f36a3d7	74
 manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	07d62a3941224ee7000d79165412c843d2496dae0a8d9b97836248c6a345c2ee	75
 manuscript/sections/ch17/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	76
@@ -81,7 +81,7 @@ manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	8977594a
 manuscript/sections/ch17/17_02.tex	17.2	Safe for whom	0ddeae3ea20216e42b3b1c9dbe94d104125bf623fe2a8d62e007cde9917a300c	79
 manuscript/sections/ch18/18.tex	18	Four Places to Hold a Floor	0203477b9264c6ddf4c5a47516557a2d88e61eaf09f8de281d838edf477c4c19	80
 manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	0536909cd9b901631dc9040ebea124f9e9ea7067f2fbbec0b8a1da7dec5752e2	81
-manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	09ca521914a7239e286e6025e5604906c1b3af29ea3277545f71c745f7c3b666	82
+manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	360d3abf004c8b30bc2b5e945da8928d8bc162291a5ab14d0d6e331965ef75e5	82
 manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	60c0a5d665facf2a70b32f072af5b4c6606dd7faac2d0ceea7f5500243c41062	83
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	b1467615a4d1b0c30629d566fe8c45a1412a3cb2648e2900d3b37c440c0c84fd	84
 manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	0291ae0deded0fc9a7fdc100633d650b04e167985b3887137a8fa0883af903a6	85
@@ -119,7 +119,7 @@ manuscript/sections/ch24/24.tex	24	Formation or Imitation?	3bd757aa03badf5e3a7f7
 manuscript/sections/ch24/24_01.tex	24.1	What formation would have to add	4ebb678ae80380513021eb1f4be7016c23ffa955af7e8c1e98924c911b21f857	117
 manuscript/sections/ch24/24_02.tex	24.2	Recognition, welfare as a reason, and the evidence between them	caf1e34ad2882e098f6f83c56e251271d79f1beb1a2cfee216a00209f1f7ef3f	118
 manuscript/sections/ch24/24_03.tex	24.3	Conflict as a diagnostic	b61399d5af5cd9b641a7efaa77f5e8d8818633ed9d6a19fd895de29edcc4cb28	119
-manuscript/sections/ch24/24_04.tex	24.4	The evaluator is part of the custody chain	bdb0f2d5c38d7a2223c67af98cc2de8c56eedef72c851da561be5249ab8f1a6e	120
+manuscript/sections/ch24/24_04.tex	24.4	The evaluator is part of the custody chain	7f77f0dade56d28b2763adbaed110086f2ca43fe8cfd7397550f6fcd76e3c080	120
 manuscript/sections/ch24/24_05.tex	24.5	What the evidence can establish	0a6eba102a79495a81c93cc48736effd6979305c90323580f655dff3058a7d6f	121
 manuscript/sections/ch25/25.tex	25	Conditions First	317e4034c952026cfc4e20da4e2f9ccbeb3db7b0d8d348af76cf74b4c8f35662	122
 manuscript/sections/ch26/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	123
