@@ -84,13 +84,13 @@ manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each co
 manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	a23a42656aecbb236d9b3dc804c9ca2efd5e560b8b290a6d1438908c7c37b0c1	82
 manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	60c0a5d665facf2a70b32f072af5b4c6606dd7faac2d0ceea7f5500243c41062	83
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	b1467615a4d1b0c30629d566fe8c45a1412a3cb2648e2900d3b37c440c0c84fd	84
-manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	0291ae0deded0fc9a7fdc100633d650b04e167985b3887137a8fa0883af903a6	85
+manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	57e35e37259fed58ce57d9ffc55bc5e9587e2e4889b29cb68586472b29f0dfc0	85
 manuscript/sections/ch19/19_01.tex	19.1	The question	c70e823772c79f2b184e4ddb00d7b43066aad2714e5528f45b5d22b3df03e82c	86
 manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	1525809a1423d01b2daed224d6673ce753903233537dc43e53a88c7a0b02c62a	87
 manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	cc21159497ab0a9b7e6e4610fbd1a752896c613ad7586f8dfb6fcb61d0a3a7ec	88
 manuscript/sections/ch19/19_04.tex	19.4	Why caregiving	7fdeaec7e23edc28dbe1d4f552169b88c7eec10c86a25f482cc1c251bb2bf97f	89
 manuscript/sections/ch19/19_05.tex	19.5	Respect first, caregiving for attention	a62b5e0b1d261d54fc864d8376d3d3bdc5fbd3ecba9ce24d7f5f578ed74792b1	90
-manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	c10b06e8b0ef0a6f6da952354479fb9621f45cb7331543dd4915a0a5ebd5cf6a	91
+manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	e0eeb99c72c87fb94b53862f96fe83a55420b9ba02070b1bfb61c317d97cd805	91
 manuscript/sections/ch20/20.tex	20	How Caregiving Fails, and What Corrects It	2b840c709eb3fc046df6fca6fa2d36c9f554517e45234ede017bebf754b73a69	92
 manuscript/sections/ch20/20_01.tex	20.1	What caregiving escapes	47d6e1caf10e4b4999dd59fa3988d45a38c5cc63b38b5c4bb8316b15a6391e37	93
 manuscript/sections/ch20/20_02.tex	20.2	It defends what it tends	71f3818ea4c35fb4428d5b1ad461136e8ff61fa3f55962e416edc83606bd01a4	94
@@ -107,13 +107,13 @@ manuscript/sections/ch21/21_02_02.tex	21.2.2	What governs an agent vs. what matt
 manuscript/sections/ch21/21_03.tex	21.3	Three constructions	721ff9275177bad7d4583078c22a63381d3778da97031d1bf1cced405c643ed9	105
 manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	823e7c6512a48e4d1da4f1bda8ab810751338c3ea3615ab970002c62925f3e4a	106
 manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	2de4c221d1e032342ad75c71b3e5381e2a43b3be278245af7ea138a34bbe43eb	107
-manuscript/sections/ch22/22.tex	22	The Discount and the Burden	a913a6609ad04471dec75d8d0a7c9e3c52ce91a4642d2441eee3c28ce3000afe	108
+manuscript/sections/ch22/22.tex	22	The Discount and the Burden	2f688fd311fdc074262c7001828ba5093dc38385f222972ea12a42bf0ee154ed	108
 manuscript/sections/ch22/22_01.tex	22.1	What the property is	e214022426443502588168678060b2710ba8d3e79e25b8853c92219b51aee9fa	109
 manuscript/sections/ch22/22_02.tex	22.2	A severity scale	6f0f3f7eaa8e9cceac17568e58fd88426c274f67937fb6fb0d9b89eeb1b41fcd	110
 manuscript/sections/ch23/23.tex	23	Where the Attention Gets Built	11077890f56c013a794f4f74daaf2678e08f25f3d49567f41092cf48cbc4dac1	111
 manuscript/sections/ch23/23_01.tex	23.1	Noticing, retaining and revising	02453253558696a754a7843815493ec463b1ac5873df9ad035e4f41db7a2b4a8	112
 manuscript/sections/ch23/23_02.tex	23.2	Custody across the training pipeline	125a4fcf36219e1ba9ff17fc3c1d8f9bb78cf511498af6df150aab56189e9b12	113
-manuscript/sections/ch23/23_03.tex	23.3	Formation by interaction	b631c7f5db0067555637513017d9e529808a7314b343e8de1d6b53ecf2ceddf2	114
+manuscript/sections/ch23/23_03.tex	23.3	Formation by interaction	c8be19d2685b69794aeab10cbc9b2a0c4baa4efea8914d7a2230d43f6245678e	114
 manuscript/sections/ch24/24.tex	24	Formation or Imitation?	3bd757aa03badf5e3a7f793b015722de8875ce7893af83ed3c52fed61404a392	115
 manuscript/sections/ch24/24_01.tex	24.1	What formation would have to add	4ebb678ae80380513021eb1f4be7016c23ffa955af7e8c1e98924c911b21f857	116
 manuscript/sections/ch24/24_02.tex	24.2	Recognition, welfare as a reason, and the evidence between them	cf66bf273dd28b3efa4e430d6b92284daa51505c8ab7fae370dd8e8c2a1e98ea	117
