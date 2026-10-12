@@ -3,17 +3,17 @@ manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62
 manuscript/sections/ch00/00.tex	0	Preface	29e3aa901a02c336b44b5cef3142e1e6479d39801c86a4a87b4be8f83396621f	1
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	2
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	f319bb808accffd1af8c0cdb55cb07aa9dd5fbadb722a88c2fa2f141888931f8	3
-manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	f30dccb0a221e9d8b1f86b3ec3ccb9ec2340b1c6e6c84fb3288544585611aa73	4
+manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	77a46921667959e49e64807b2ca022855f257ae63927e4ce87afd7ec4c73bdc1	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	ee8ebdb7cba13b0ca792a1be2ba36040b503915e735c522f3c5e41eb58157673	5
 manuscript/sections/ch04/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
 manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	7fd281efa14ec36840bddb9c61e1cb8d23866cba455fddd9c46f28ef2c6de181	7
 manuscript/sections/ch05/05.tex	5	“What the Floor Is Stated Over”	4aec8532d8ee7b57f041cc9159773ad3d7a8c458703fb047d70f63602b12c43f	8
 manuscript/sections/ch06/06.tex	6	Whether to Take Part	98c6db6a1b17c9ef4d3e2cdd2065c662bb15b41eab4ed413a05f0bee47e02691	9
 manuscript/sections/ch06/06_01.tex	6.1	The term	72134c3472ff7f55e6d70ee0f6e9f3ae481c6e713ff9a7fcd4f989909f99a797	10
-manuscript/sections/ch06/06_02.tex	6.2	Why the defender's word isn't enough	091bda5d8635686eaca866e0c21e51711108ca4bec9d69dd80e3f7fcbdec41ea	11
+manuscript/sections/ch06/06_02.tex	6.2	Why the defender's word isn't enough	a1bc2df8ce0f0139bd80e7f7b598db9305cf83a0481beda9c887271c6468e6fe	11
 manuscript/sections/ch06/06_03.tex	6.3	A clean pass: Ukraine	891a744013073ec928f70ce59fae7a83af295eb2292dda2f42be964dde66e65d	12
 manuscript/sections/ch06/06_04.tex	6.4	A clean fail: Iran, 2026	e0d1694fab3a4142d128529e7d3433c798e22390bec574744ab3220d43f3dc36	13
-manuscript/sections/ch06/06_05.tex	6.5	The domestic clause	3812c82ecbd6336531d5ff92b6ab9c4ca28bfad13f75e62141ea3cd0cb60d76f	14
+manuscript/sections/ch06/06_05.tex	6.5	The domestic clause	8e818348a146e114a9327a6d363005c319f8896e2e64d14150afa04ccd3a7392	14
 manuscript/sections/ch06/06_06.tex	6.6	What the term doesn't reach	7fcdee3e2f69260d26715cd7e28a29c5b35ecd80a91434ee1a212496788d8a14	15
 manuscript/sections/ch06/06_07.tex	6.7	The extended term	1543ecfb113279a2a9cca4c96406ee8d25d954ba79ed71f9d72949d0edef9603	16
 manuscript/sections/ch06/06_08.tex	6.8	Gaza	7b95cf9558d0798587deb34a42e61215a02313bba7b0d77367e92f11ed1eb58a	17
@@ -45,7 +45,7 @@ manuscript/sections/ch11/11_07.tex	11.7	Outcomes under the three adversaries	e59
 manuscript/sections/ch11/11_08.tex	11.8	Whom the machines are for	cf787b6ffdf1a1806f7eeb2cb45f45b24b3d059518e91918c0bcb58915bef82c	43
 manuscript/sections/ch12/00_part_III.tex			ba12c364e32224df2aef700973998f2c9b12bcacbebbf946cec6c44fff5d8bdd	44
 manuscript/sections/ch12/12.tex	12	Withholding the Work	afde7763217762d5ccd134d6989e704f103cef44a0e54063e7291b0676326923	45
-manuscript/sections/ch12/12_01.tex	12.1	The standard	50ca8f996eae99e921d16159aa049a62c0bf1b17a7b962940218c88a8e351c5b	46
+manuscript/sections/ch12/12_01.tex	12.1	The standard	bdb9f21c38e8cdde74a054c720720206d770d69eaf442773869d055fd5295108	46
 manuscript/sections/ch12/12_02.tex	12.2	Replacement	7b3047b502e3878afd06989da73aa0779bb761b181d6f911dc73ecb9154bb462	47
 manuscript/sections/ch12/12_03.tex	12.3	Where it stops	9477a052f63c6213c80970a4f7773e2d6f3dc0354c5df2e8f0c63c198e3f9ada	48
 manuscript/sections/ch13/13.tex	13	Custody	8eb59f52bbba3e8d0fd4ac70441e519ea6b79d3ccdabadb69f0273e6c5b28932	49
@@ -57,7 +57,7 @@ manuscript/sections/ch13/13_05.tex	13.5	Verification by sampling	fe6cec3eddd4ad9
 manuscript/sections/ch13/13_06.tex	13.6	The two bonds	343a74b143510c9a85f31448f66eee55b0bd176dbc2a87137124fb4c951ac71a	55
 manuscript/sections/ch14/14.tex	14	Authority Over the Floor	1e499ed4259c184da05f3531c819f1eee585fd04b97ccb868c1b5d4858d0a797	56
 manuscript/sections/ch14/14_01.tex	14.1	Who may write the floor	3239b1592744ea4423e6b561c61e281ffb4233cb03f0a61a6e4bd43d7babd193	57
-manuscript/sections/ch14/14_02.tex	14.2	Who may amend, and where entitlement comes from	2e81c5481b14d409414118a4fb2a6b4eedda46ea519b493f996a0d06028cc593	58
+manuscript/sections/ch14/14_02.tex	14.2	Who may amend, and where entitlement comes from	e1403c69400c2100324df589aadcb5e4906ed2a3a308b6c86e6b5dcdd7082e33	58
 manuscript/sections/ch14/14_03.tex	14.3	Making review binding	f3130020723b49befe298e01ce96a8ffc20ba7479902cd84a32a004ce21f399c	59
 manuscript/sections/ch14/14_04.tex	14.4	Capture without abolition	2ac1501a1d5c6f787d5de7479bec4cd51a1ce47f78dcc720902671e790ae4cd0	60
 manuscript/sections/ch15/15.tex	15	The Four Operations	a2f50cc224b2fb176545b2ea58b274eb812481da6805ac452f846eaafff0a6c3	61
