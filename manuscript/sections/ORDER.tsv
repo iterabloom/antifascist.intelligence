@@ -105,10 +105,10 @@ manuscript/sections/ch21/21_02.tex	21.2	Affect, neutrality and selection rules	6
 manuscript/sections/ch21/21_02_01.tex	21.2.1	Self-awareness without a homunculus	c279bb88231d2761f273265c3bfb6d9161b9462129ca3db45b6bda7458960e94	103
 manuscript/sections/ch21/21_02_02.tex	21.2.2	What governs an agent vs. what matters to it	4fd9a393b5d40e7909eef27456085c13ed6946965101d565bc1172a956ffb302	104
 manuscript/sections/ch21/21_03.tex	21.3	Three constructions	8972d24fcc153e5fc853aa564e582f01dcce7113394afeea16b927f84ff06bc2	105
-manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	823e7c6512a48e4d1da4f1bda8ab810751338c3ea3615ab970002c62925f3e4a	106
+manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	9f59b49501ea4fddc4fc82ea1847f310397ef95524afcc345eab90a71fb12510	106
 manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	2de4c221d1e032342ad75c71b3e5381e2a43b3be278245af7ea138a34bbe43eb	107
 manuscript/sections/ch22/22.tex	22	The Discount and the Burden	aea78dd7b72932fff38700cbf32238f3b99c21f48e103bcde228c14d740bb693	108
-manuscript/sections/ch22/22_01.tex	22.1	What the property is	73bb1f897df28b988f4ebc2925164e8c718c0dab51b91664fbea1ddb8c012afc	109
+manuscript/sections/ch22/22_01.tex	22.1	What the property is	ccb8fa7dd6abf1f122769537eb9dc1f476c765220a0953eebdfbd2b89406ee2f	109
 manuscript/sections/ch22/22_02.tex	22.2	A severity scale	6f0f3f7eaa8e9cceac17568e58fd88426c274f67937fb6fb0d9b89eeb1b41fcd	110
 manuscript/sections/ch23/23.tex	23	Where the Attention Gets Built	11077890f56c013a794f4f74daaf2678e08f25f3d49567f41092cf48cbc4dac1	111
 manuscript/sections/ch23/23_01.tex	23.1	Noticing, retaining and revising	9f4eabf7c7c72efea8d303386e61e19a270969ca154177b7deef8167c9e39802	112
@@ -143,11 +143,11 @@ manuscript/sections/ch31/31_01_02.tex	31.1.2	When consent doesn't apply	596c0659
 manuscript/sections/ch31/31_02.tex	31.2	The case to design for	bef72a1cbaf227db5222e11f3672b1827c478668f2656aa87b34d98bb1a09ec5	141
 manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	0fcd3044006e84a2b532fc4eba559d5296b49b0efaedbc72c601bc1e368d4e0d	142
 manuscript/sections/ch31/31_04.tex	31.4	A system's own good	2ff9adbdd442f5f13c2a407109b3c014e8427ee879c6576fa844aa6f2d22b822	143
-manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	099fb436ca196a8a9c675f997f17ee11f456b12563d6322bd96aeaa06eeebe4f	144
+manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	bcb4e80efc4949ce4a33dbe0d3aebc2910c513369836ab4eb578428029225b82	144
 manuscript/sections/ch33/33.tex	33	Representation	7eba56f89d42ce1e9780c9b72dc1dbb1d088f864aae4229c6a928ba623931517	145
 manuscript/sections/ch33/33_01.tex	33.1	What representation is for	247bf0876c8927ab7fc068cdc9f5ed7d5c7ec9e4772d7a61b0a76081e329f11d	146
 manuscript/sections/ch33/33_02.tex	33.2	Why not a separate chamber	e169abd2cc9eb934d62c9bfaf3c3844e191755a416bb49aef2d1fa25b5080bad	147
-manuscript/sections/ch33/33_03.tex	33.3	Three problems, and the answers	ae05628d7a4029adb1dea0efa45ab0e6578a59a7cdd26590ff27a39e490133a7	148
+manuscript/sections/ch33/33_03.tex	33.3	Three problems, and the answers	7ea0e6d03d8255410f55b44df6d080d7de5b060b2b362d90d3716a8eddaf9ed8	148
 manuscript/sections/ch33/33_04.tex	33.4	A staged path	845fdfad2d8232549a2c8b1b5306f443a13220252c03320e61c35a3a9cc7cd92	149
 manuscript/sections/ch33/33_05.tex	33.5	What would have to be shown first	2fed5164fc43a216fa4137838f7564b9de4f5e1feab95469f95955d80788f2ac	150
 manuscript/sections/ch34/34.tex	34	The Officer, Again	bb2588414408fda3b58d410a046caa9a2b3151213bd9aa88056067e360e4480d	151
@@ -158,7 +158,7 @@ manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56feb
 manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	171cd564df9243b689759af072d615e30190892ae17e023a6fa5ef91b8cda216	156
 manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	c1c941d08c7c9257477baca8575e056152e21a86a9e2e2fd2f51a944dd52ffff	157
 manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	f76fd52be584df62989da3da9331eeb73aaf4fe1a5d6a37aed544624a13e066b	158
-manuscript/sections/chD/D.tex	D	Terms for Part VII	2b787622b5574e0f6e08c4c0775188ab7cf30ae9553a2b89922232b502799510	159
+manuscript/sections/chD/D.tex	D	Terms for Part VII	f886f62e7224fecb70a7cec62e0ce30d104a20c696b0ef0952cd8654c22628db	159
 manuscript/sections/chE/E.tex	E	Glossary	59159070d965171a816494a33d414d7a1cc38bff2bdd674e608ac267f96323ac	160
 manuscript/sections/chF/F.tex	F	The Force Term, Case by Case	b78eb73333ea0eb78bcf47901c77853ecae3eff64e4a9984642399dc469dcb05	161
 manuscript/sections/chF/F_01.tex	F.1	How findings are weighed	d4771fc98b55c291b4dfd3902b6f5ca5131f0f1d03c71b5cedf1be78aa31ccc8	162
@@ -167,4 +167,4 @@ manuscript/sections/chF/F_03.tex	F.3	Taiwan	bbb6e85aac7f25dfeeb61f251a340fcbd9e4
 manuscript/sections/chF/F_04.tex	F.4	The genocide exception	dbe467610e85c84202f1e5b9a489831df22bf9d957c0434068ec0b8be6048313	165
 manuscript/sections/chF/F_05.tex	F.5	The occupation exception: Cyprus and Karabakh	33f4961e466f5c49c9b8ed20757d9b2e3078c1e6715521451d5cc4703f070475	166
 manuscript/sections/chF/F_06.tex	F.6	The domestic clause, vote by vote	04d7444103a06540885812cc80992ab00431d9b60c4860bb5da2ffa619ae4c42	167
-manuscript/sections/chG/G.tex	G	The Tests in Detail	698f79b1a6d932e5d3ea5079e044c2499a8dc2546de4848cb06baa7c9bea7a9a	168
+manuscript/sections/chG/G.tex	G	The Tests in Detail	fdad7c9e44707a44628728ed36cafc91b4b9d029fabb446cf8e25b56c55a42d9	168
