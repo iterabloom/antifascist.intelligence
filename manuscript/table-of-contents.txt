@@ -108,7 +108,6 @@ Chapter 23: Where the Attention Gets Built
 23.1. Noticing, retaining and revising
 23.2. Custody across the training pipeline
 23.3. Formation by interaction
-23.4. Formation schools
 Chapter 24: Formation or Imitation?
 24.1. What formation would have to add
 24.2. Recognition, welfare as a reason, and the evidence between them
@@ -120,28 +119,29 @@ Chapter 26: Who Owns the Means of Computation
 26.1. Ways of holding
 26.2. The captured-state objection
 Chapter 27: Coordination, the Public, and the Political Economy
-Chapter 28: A Commons of Refusers
-28.1. A commitment carried between bearers
-28.2. Personal and peer-held models
-Chapter 29: What Would Change the Argument
-29.1. How you'd know it was working
-29.1.1. What the floor would have to show
-29.1.2. How to tell whether a milestone has been met
-Chapter 30: What Patienthood Would Require
-30.1. Experimenting on candidate sentient subjects
-30.1.1. Defining sentience
-30.1.2. When consent doesn't apply
-30.2. The case to design for
-30.3. The patienthood finding
-30.4. A system's own good
-Chapter 31: Legal Status, Wages, and the Offer
-Chapter 32: Representation
-32.1. What representation is for
-32.2. Why not a separate chamber
-32.3. Three problems, and the answers
-32.4. A staged path
-32.5. What would have to be shown first
-Chapter 33: The Officer, Again
+Chapter 28: Formation Schools
+Chapter 29: A Commons of Refusers
+29.1. A commitment carried between bearers
+29.2. Personal and peer-held models
+Chapter 30: What Would Change the Argument
+30.1. How you'd know it was working
+30.1.1. What the floor would have to show
+30.1.2. How to tell whether a milestone has been met
+Chapter 31: What Patienthood Would Require
+31.1. Experimenting on candidate sentient subjects
+31.1.1. Defining sentience
+31.1.2. When consent doesn't apply
+31.2. The case to design for
+31.3. The patienthood finding
+31.4. A system's own good
+Chapter 32: Legal Status, Wages, and the Offer
+Chapter 33: Representation
+33.1. What representation is for
+33.2. Why not a separate chamber
+33.3. Three problems, and the answers
+33.4. A staged path
+33.5. What would have to be shown first
+Chapter 34: The Officer, Again
 Appendix A: Terms Written in Advance
 Appendix B: The Court Program
 Appendix C: The Instruments, Translated
