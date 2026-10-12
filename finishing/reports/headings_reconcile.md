@@ -26,5 +26,5 @@ none
 
 ## Headings with no body text
 
-8, 9, 14, 15, 21, 28
+8, 9, 14, 15, 21, 29
 

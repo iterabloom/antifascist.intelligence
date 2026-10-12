@@ -22,6 +22,7 @@
 \tcbuselibrary{breakable}   % the only library the box style needs
 \usepackage[english]{babel}
 \usepackage{textcomp}
+\usepackage{todonotes}
 % refs.bib uses \euro, which is not a base LaTeX macro. Everything else it
 % uses (\url \S \i \emph \c \v \textsection \L) is standard.
 \providecommand{\euro}{\texteuro}
@@ -134,12 +135,15 @@
 % note and not as the first paragraph.
 \newcommand{\standing}[1]{\noindent{\small\itshape #1}\par\medskip}
 
-\newtcolorbox{esbox}{
+% Breakable by default; a box that reads as one document, like the birth
+% record in chapter 31, opens with [unbreakable].
+\newtcolorbox{esbox}[1][]{
   colback=black!3, colframe=black!35, boxrule=0.4pt, arc=1pt,
   left=8pt, right=8pt, top=8pt, bottom=8pt, breakable,
   fontupper=\small,
   before upper={\setlength{\parskip}{0.5\baselineskip}%
                \setlength{\parindent}{0pt}},
+  #1
 }
 \newcommand{\boxtitle}[1]{{\bfseries #1}\par\smallskip}
 
@@ -149,6 +153,20 @@
 % ordinal of the heading and not a number the page shows.
 \makeatletter
 \newcommand{\unnumberedlabel}[2]{\begingroup\def\@currentlabel{#2}\label{#1}\endgroup}
+\makeatother
+
+% A part epigraph sits on the part's title page, under the title. book.cls
+% ends \part with \newpage, so a quote placed after it lands alone on the next
+% page. When \partepigraph{...} immediately follows \part{...} (no blank line
+% between), \@endpart takes it and sets it before the page break. Used
+% anywhere else, or by an engine that doesn't run \@endpart (tex4ht), it
+% prints as an ordinary quote, so the text is never lost.
+\makeatletter
+\newcommand{\partepigraph}[1]{\begin{quote}#1\end{quote}}
+\let\af@endpart\@endpart
+\long\def\af@partepigraph\partepigraph#1{%
+  \vskip 3em{\normalsize\normalfont\begin{quote}#1\end{quote}}\af@endpart}
+\def\@endpart{\@ifnextchar\partepigraph{\af@partepigraph}{\af@endpart}}
 \makeatother
 
 % \chapter* also sets no running mark, so the head left standing by the last
