@@ -172,15 +172,17 @@ def cite(m):
     and one key group per cited work: \\autocites[ch.~9]{a}{b} is two cites, the
     locator belonging to the first. Until this read every group, the pattern
     stopped at the first and left the rest in the prose as `{b}`. Groups are
-    joined with `;`, Pandoc's separator between cites; within a group the keys
-    and locator are joined as they always were. Two brackets are biblatex's
-    [prenote][postnote]; one is the postnote.
+    joined with `;`, Pandoc's separator between cites. The keys within a group
+    are joined with `;` too: Pandoc reads a comma after a key as the start of a
+    locator, so `[@a, @b]` was one cite of a with "@b" as its locator. A
+    group's postnote follows its last key, where biblatex prints it. Two
+    brackets are biblatex's [prenote][postnote]; one is the postnote.
     """
     parts = []
     for g in CITE_GROUP.finditer(m.group(1)):
         notes = re.findall(r"\[([^\]]*)\]", g.group(1))
         pre, post = notes if len(notes) == 2 else ("", notes[0] if notes else "")
-        keys = ", ".join("@" + k.strip() for k in g.group(2).split(","))
+        keys = "; ".join("@" + k.strip() for k in g.group(2).split(","))
         parts.append((pre + " " if pre else "") + keys + (", " + post if post else ""))
     return "[%s]" % "; ".join(parts)
 
