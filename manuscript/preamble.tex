@@ -15,10 +15,23 @@
 \usepackage{fontspec}
 \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
 \usepackage{microtype}
-\usepackage[a4paper,margin=1in]{geometry}
+% The 2in side margins (D-774) leave a measure of about 4.3in, where justified
+% 11pt text otherwise overruns the margin some 200 times; emergency stretch lets
+% TeX loosen a line instead.
+\setlength{\emergencystretch}{3em}
+\usepackage[a4paper,vmargin=1in,hmargin=2in]{geometry}   % narrow measure, law-review style (D-774)
 \usepackage{fancyhdr}
 \usepackage{tcolorbox}
 \usepackage{longtable,array}   % the condensed text's 18 tables, with long cells (D-621)
+% The tables keep the 6.27in measure they were drawn for and stand an inch into
+% each side margin (D-774): at the 4.3in text measure their narrowest columns
+% fall under an inch and single words overrun them. Every table's column widths
+% are fractions of \linewidth, so widening \linewidth inside the table and
+% pulling it out by \LTleft and \LTright is the whole change.
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{%
+  \setlength{\linewidth}{\dimexpr\textwidth+2in\relax}%
+  \setlength{\LTleft}{-1in}\setlength{\LTright}{-1in}}
 \tcbuselibrary{breakable}   % the only library the box style needs
 \usepackage[english]{babel}
 \usepackage{textcomp}
@@ -27,29 +40,56 @@
 % uses (\url \S \i \emph \c \v \textsection \L) is standard.
 \providecommand{\euro}{\texteuro}
 \usepackage[hidelinks]{hyperref}   % before biblatex, per its own guidance
-\usepackage[backend=biber,style=authoryear,sorting=nyt,maxcitenames=2]{biblatex}
+% Citations are Chicago-style notes (D-774): every \autocite becomes a footnote,
+% the first citation of a source in each chapter in full and later ones short,
+% with no ibid. Chicago's own counts: up to three names in a note, more as the
+% first and et al.; up to ten in the bibliography, more as the first seven and
+% et al. biblatex-chicago is not installed here, so this is biblatex's verbose
+% style with the adjustments below.
+% Under tex4ht (the HTML proof) a short citation's link back to the bibliography
+% breaks the footnote it sits in -- "Missing } inserted" in \@footnotetext -- so
+% the HTML sets citations without links. The PDF keeps them.
+\ifdefined\HCode\PassOptionsToPackage{hyperref=false}{biblatex}\fi
+\usepackage[backend=biber,style=verbose,citereset=chapter,sorting=nyt,
+  maxcitenames=3,mincitenames=1,maxbibnames=10,minbibnames=7]{biblatex}
 % Let long URLs in the References break after digits and letters, not only at / and .:
 % the OHCHR docstore links are one unbreakable string and ran off the page.
 \setcounter{biburlnumpenalty}{100}
 \setcounter{biburlucpenalty}{100}
 \setcounter{biburllcpenalty}{100}
 \addbibresource{../finishing/refs.bib}
-% A note prints at the end of the entry, after the URL and before any addendum,
-% not where the standard drivers put it, between the title and the publisher
-% (D-773). The field is saved and cleared per entry and per citation, so the
-% same placement holds in a full footnote citation under a notes style.
 \makeatletter
+% A note prints in the footnote, at the end of the citation, after the URL and
+% before any addendum, not where the standard drivers put it, between the title
+% and the publisher (D-773). The bibliography carries no notes and no addenda
+% (D-774).
 \newcommand*{\af@savenote}{%
   \undef\af@note
   \iffieldundef{note}{}{\savefield{note}{\af@note}\clearfield{note}}}
-\AtEveryBibitem{\af@savenote}
 \AtEveryCitekey{\af@savenote}
+\AtEveryBibitem{\undef\af@note\clearfield{note}\clearfield{addendum}}
 \renewbibmacro*{addendum+pubstate}{%
   \ifdef\af@note{\printtext{\af@note}\newunit\newblock}{}%
   \printfield{addendum}%
   \newunit\newblock
   \printfield{pubstate}}
 \makeatother
+% Chicago adjustments to the verbose style: a journal article has no "In:" before
+% the journal; no access dates; and in the bibliography the first name of each
+% entry is inverted for alphabetizing, the rest left in natural order.
+\renewbibmacro*{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+\renewbibmacro*{url+urldate}{\usebibmacro{url}}
+% The standard styles have no driver for court cases or statutes and fell back to
+% one that dropped the court and the reporter citation ("Kareem v. Haspel.
+% Judgment. Jan. 15, 2021."). A case prints as a report does -- title, type,
+% number, court, date -- and a statute as a manual does, with its issuing body.
+\DeclareBibliographyAlias{jurisdiction}{report}
+\DeclareBibliographyAlias{legislation}{manual}
+\AtBeginBibliography{%
+  \DeclareNameAlias{author}{family-given/given-family}%
+  \DeclareNameAlias{editor}{family-given/given-family}%
+  \DeclareNameAlias{translator}{family-given/given-family}}
 
 % ---------------------------------------------------------------------------
 % Draft apparatus: the DRAFT watermark and the status footer (D-319).

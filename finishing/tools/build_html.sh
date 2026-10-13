@@ -29,8 +29,11 @@ rm -rf "$build"; mkdir -p "$build"
 export ES_BUILD_DIR="$build"
 
 cd "$repo/manuscript"
+# fn-in keeps footnotes in the page. Without it tex4ht writes each to a file of
+# its own, which html_single_file.py never reads, and every footnote -- since
+# D-774 every citation -- was missing from the HTML proof.
 make4ht -l -a status -B "$build" -e "$repo/finishing/tools/html.mk4" \
-        -f html5 book.tex "" "" "" "-interaction=nonstopmode" > "$build/make4ht.out" 2>&1 || {
+        -f html5 book.tex "fn-in" "" "" "-interaction=nonstopmode" > "$build/make4ht.out" 2>&1 || {
   echo "make4ht failed; last lines of its output:"; tail -20 "$build/make4ht.out"; exit 1; }
 
 # lualatex exits 0 on undefined references, so check the log the way
