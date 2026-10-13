@@ -9,6 +9,7 @@ book's title, so the result can be renamed, moved, or mailed on its own.
 
 Usage: html_single_file.py BUILD_DIR OUT_FILE
 """
+import base64
 import re
 import sys
 from pathlib import Path
@@ -170,10 +171,30 @@ def main() -> int:
     lines = [ln.rstrip() for ln in html.split("\n")]
     html = "\n".join(ln for ln in lines if ln) + "\n"
 
+    # The cover (\bookcover) is the book's one image. tex4ht writes its path as
+    # given to \includegraphics, relative to manuscript/, where make4ht runs;
+    # it is embedded as a data URI so the page stays one file.
+    manuscript = Path(__file__).resolve().parents[2] / "manuscript"
+    n_images = 0
+    def embed(m):
+        nonlocal n_images
+        src = m.group(1)
+        path = (manuscript / src).resolve()
+        mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}.get(path.suffix.lower())
+        if mime is None or not path.is_file():
+            return m.group(0)
+        n_images += 1
+        data = base64.b64encode(path.read_bytes()).decode("ascii")
+        # tex4ht can't read a PNG's size and writes a square 308x308; the
+        # browser is given the image's own proportions at the text's width.
+        return (f"<img alt='Cover art' src='data:{mime};base64,{data}' "
+                f"style='display:block; width:100%; height:auto' />")
+    html = re.sub(r"<img\b[^>]*?\ssrc=['\"]([^'\"]+)['\"][^>]*>", embed, html)
+
     # Say what is wrong rather than write a file that looks finished.
     problems = []
-    if "<img" in html:
-        problems.append("the page references an image; a single file cannot carry one")
+    if re.search(r"<img\b[^>]*?\ssrc=['\"](?!data:)", html):
+        problems.append("the page references an image that could not be embedded")
     if "book.html" in html:
         problems.append("a link to book.html survived the rewrite")
     ids = re.findall(r" id='([^']*)'", html)
@@ -192,6 +213,8 @@ def main() -> int:
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(html, encoding="utf-8")
     note = f"{len(html):,} bytes, {n_links} citation links made relative"
+    if n_images:
+        note += f", {n_images} image embedded"
     if n_empty:
         note += f", {n_empty} empty anchor dropped"
     if dropped:

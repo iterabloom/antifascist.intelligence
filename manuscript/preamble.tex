@@ -296,6 +296,31 @@
   \renewcommand{\headrulewidth}{0pt}%
 }
 
+% The cover. book.tex calls \bookcover first of all, before \frontmatter, so
+% the cover art (cover_cropped.png at the repository root, also the README's
+% image) is the book's first page. In the PDF it is drawn behind an empty page,
+% centred and as large as the page allows, with no footer and no watermark; the
+% page is numbered A so that its PDF label and link target can't collide with
+% the title page's i. In the HTML proof it is an ordinary image, which
+% html_single_file.py embeds in the page.
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\newcommand{\bookcoverfile}{../cover_cropped.png}
+\newcommand{\bookcover}{%
+  \ifdefined\HCode
+    \begin{center}\includegraphics[width=\linewidth]{\bookcoverfile}\end{center}%
+    \clearpage
+  \else
+    \pagenumbering{Alph}%
+    \ifdraftmode\DraftwatermarkOptions{stamp=false}\fi
+    \AddToShipoutPictureBG*{\AtPageCenter{\makebox[0pt]{\raisebox{-0.5\height}{%
+      \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]%
+        {\bookcoverfile}}}}}%
+    \thispagestyle{empty}\null\clearpage
+    \ifdraftmode\DraftwatermarkOptions{stamp=true}\fi
+  \fi
+}
+
 % The title page. book.tex supplies \booktitlemain, \booksubtitle and
 % \bookauthor, and calls \booktitlepage as the first thing after \frontmatter.
 % The book had no title page at all until 2026-08-25 (D-073); it opened on the
