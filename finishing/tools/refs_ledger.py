@@ -2,16 +2,13 @@
 """The human-check tracker for the bibliography, and the draft-status macros.
 
 Every entry in finishing/refs.bib gets one row in finishing/refs-ledger.tsv.
-AGENT CHECKS ARE LABELLED AS SUCH IN THE NOTES (D-385). A note or addendum
-recording work this repository's agents did says "agent-verified" or
-"agent-checked", never a bare "verified". Notes print in the References, and the
-footer on every page prints N/M "bibliographic entries human-checked" from the
-`checked` column below -- so an unlabelled "Verified 2026-09-18" in the back of
-the book read as the check the footer counts, while the footer said 0. 66 of 275
-entries carried that wording. Write the label into any new note; nothing enforces
-it, because a check that read the notes would be guessing at which sense of
-"checked" a sentence meant, and three in the file are about a source or a system
-rather than about us.
+AGENT CHECKS STAY OUT OF THE ENTRY (D-772). A note or addendum prints in the
+References and carries only what a reader needs from the source. What an agent
+checked is reported to the author and recorded in finishing/DECISIONS.md, never
+in the entry, and never in the `checked` column below. (D-385 had agents label
+their checks "agent-verified" in the notes, because an unlabelled "Verified" there
+read as the human check the footer counts; D-772 took the record out of the
+notes altogether.)
 
 The row says whether a human has checked that entry against the source it
 names -- that the work exists, that the author, year and venue are right, and

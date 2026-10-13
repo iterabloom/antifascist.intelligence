@@ -171,8 +171,9 @@ decides tone and editorial judgment in conversation.
   `finishing/tools/refs_ledger.py --mark KEY --by INITIALS` (or `--unmark KEY`,
   or `--toggle KEY --by INITIALS`), then rebuild; the highlight, the footer
   count and the ledger all follow from that one file. Never mark an entry
-  checked on an agent's own verification: that goes in the entry's note as
-  "agent-verified" (D-385), and the highlight stays.
+  checked on an agent's own verification. Report what the agent checked to the
+  author and record it in `DECISIONS.md`; nothing about it goes into the entry,
+  and the highlight stays (D-772, replacing D-385's "agent-verified" note).
 
 ## No Weasel Words
 When reporting status or completeness:

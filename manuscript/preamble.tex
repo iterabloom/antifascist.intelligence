@@ -34,6 +34,22 @@
 \setcounter{biburlucpenalty}{100}
 \setcounter{biburllcpenalty}{100}
 \addbibresource{../finishing/refs.bib}
+% A note prints at the end of the entry, after the URL and before any addendum,
+% not where the standard drivers put it, between the title and the publisher
+% (D-773). The field is saved and cleared per entry and per citation, so the
+% same placement holds in a full footnote citation under a notes style.
+\makeatletter
+\newcommand*{\af@savenote}{%
+  \undef\af@note
+  \iffieldundef{note}{}{\savefield{note}{\af@note}\clearfield{note}}}
+\AtEveryBibitem{\af@savenote}
+\AtEveryCitekey{\af@savenote}
+\renewbibmacro*{addendum+pubstate}{%
+  \ifdef\af@note{\printtext{\af@note}\newunit\newblock}{}%
+  \printfield{addendum}%
+  \newunit\newblock
+  \printfield{pubstate}}
+\makeatother
 
 % ---------------------------------------------------------------------------
 % Draft apparatus: the DRAFT watermark and the status footer (D-319).

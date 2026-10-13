@@ -162,9 +162,9 @@ finishing/tools/refs_ledger.py --toggle KEY [KEY ...] --by INITIALS
 
 `--toggle` flips each key and prints where it landed. Editing the `checked`
 column of `refs-ledger.tsv` by hand and then running the script with no
-arguments does the same. Under D-385, only a human check is entered there: an
-agent's check is recorded in the entry's note as "agent-verified" and leaves
-the entry highlighted.
+arguments does the same. Only a human check is entered there. Under D-772 an
+agent's check is reported to the author and recorded in `DECISIONS.md`, not in
+the entry, and leaves the entry highlighted.
 
 **The watermark does not reach the PDF's text layer.** `pdftotext` finds
 PREPRINT on all 153 pages and DRAFT on none, so the word cannot contaminate a
@@ -349,7 +349,7 @@ than chosen here.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, 136 of them. The prose. |
-| `finishing/refs.bib` | 553 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. Entries nothing cites live in `unused_bibliography.bib`, 341 of them: started at D-111, with later batches at D-137 to D-156, P187, P205 and D-640 (152 at once, after the move had lapsed for three weeks). An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
+| `finishing/refs.bib` | 592 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. Entries nothing cites live in `unused_bibliography.bib`, 347 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks) and D-773. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
