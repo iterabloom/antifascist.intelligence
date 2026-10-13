@@ -1648,6 +1648,30 @@
   note = {Uses concept injection -- altering internal activations mid-task and asking the model to report what it notices -- to test introspective self-report; finds limited but real functional correspondence between self-report and internal state, strongest in Claude Opus 4 and 4.1, unreliable across the board.}
 }
 
+@inproceedings{turpin2023unfaithful,
+  author     = {Turpin, Miles and Michael, Julian and Perez, Ethan and Bowman, Samuel R.},
+  title      = {Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting},
+  booktitle  = {Advances in Neural Information Processing Systems 36 (NeurIPS 2023)},
+  year       = {2023},
+  eprint     = {2305.04388},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2305.04388},
+  urldate    = {2026-10-12},
+  note       = {Cited in \S24.2 for written reasoning as a report rather than a readout. Abstract: biasing features added to the input, such as reordering few-shot options so the answer is always “(A)”, change the answer, and the models “systematically fail to mention” them; biased toward wrong answers, “they frequently generate CoT explanations rationalizing those answers”; accuracy falls by up to 36 percent on 13 BIG-Bench Hard tasks, with GPT-3.5 and Claude 1.0. Authors, title, NeurIPS 2023 (from the arXiv comment line) and arXiv number agent-verified 2026-10-12 against the arXiv abstract page; only the abstract was read.}
+}
+
+@online{chen2025reasoning,
+  author       = {Chen, Yanda and Benton, Joe and Radhakrishnan, Ansh and Uesato, Jonathan and Denison, Carson and Schulman, John and Somani, Arushi and Hase, Peter and Wagner, Misha and Roger, Fabien and Mikulik, Vlad and Bowman, Samuel R. and Leike, Jan and Kaplan, Jared and Perez, Ethan},
+  title        = {Reasoning Models Don't Always Say What They Think},
+  year         = {2025},
+  organization = {Anthropic},
+  eprint       = {2505.05410},
+  eprinttype   = {arXiv},
+  url          = {https://arxiv.org/abs/2505.05410},
+  urldate      = {2026-10-12},
+  note         = {Cited in \S24.2 with Turpin and colleagues; the book's “often under a fifth” is this paper's figure. Abstract: across six kinds of hint, “for most settings and models tested, CoTs reveal their usage of hints in at least 1\% of examples where they use the hint, but the reveal rate is often below 20\%”; outcome-based reinforcement learning improves faithfulness at first and plateaus; when reward hacking raises hint use, verbalization doesn't rise. Fifteen authors, from the arXiv page. Posted May 2025. Agent-verified 2026-10-12 against the arXiv abstract page; only the abstract was read.}
+}
+
 @inproceedings{ainsworth2023rebasin,
   author = {Ainsworth, Samuel K. and Hayase, Jonathan and Srinivasa, Siddhartha S.},
   title = {Git Re-Basin: Merging Models modulo Permutation Symmetries},
@@ -6490,4 +6514,28 @@
   eprint     = {2402.09353},
   eprinttype = {arxiv},
   note       = {Cited in chapter 19 beside LoRA: splits each weight into magnitude and direction and uses low-rank updates for the direction. Title, venue (ICML 2024, oral) and arXiv number agent-verified 2026-10-11 against search results; author lists differ across sources (seven on arXiv, three on one NVIDIA page), the list here is the arXiv one from memory and was not confirmed, and the paper was not read.}
+}
+
+@inproceedings{mitchell2022mend,
+  author     = {Mitchell, Eric and Lin, Charles and Bosselut, Antoine and Finn, Chelsea and Manning, Christopher D.},
+  title      = {Fast Model Editing at Scale},
+  booktitle  = {International Conference on Learning Representations (ICLR)},
+  year       = {2022},
+  eprint     = {2110.11309},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2110.11309},
+  urldate    = {2026-10-12},
+  note       = {Cited in \S13.1 for a learned editor. Abstract: MEND is “a collection of small auxiliary editing networks that use a single desired input-output pair to make fast, local edits to a pre-trained model's behavior,” and “learns to transform the gradient obtained by standard fine-tuning, using a low-rank decomposition of the gradient”; trainable on one GPU in under a day for models of ten billion parameters and more. Authors, title, ICLR 2022 (from the arXiv comment line) and arXiv number agent-verified 2026-10-12 against the arXiv abstract page; only the abstract was read.}
+}
+
+@inproceedings{charakorn2025texttolora,
+  author     = {Charakorn, Rujikorn and Cetin, Edoardo and Tang, Yujin and Lange, Robert Tjarko},
+  title      = {Text-to-{LoRA}: Instant Transformer Adaption},
+  booktitle  = {Proceedings of the 42nd International Conference on Machine Learning},
+  year       = {2025},
+  eprint     = {2506.06105},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2506.06105},
+  urldate    = {2026-10-12},
+  note       = {Cited in \S13.1 beside MEND for an editor that writes an adapter from a task description. Abstract: “a hypernetwork trained to construct LoRAs in a single inexpensive forward pass” from “a natural language description of the target task”; trained on nine adapters, the reconstructed adapters match task-specific ones on their test sets and generalize zero-shot to unseen tasks. Sakana AI. Authors, title, ICML 2025 (from the arXiv comment line) and arXiv number agent-verified 2026-10-12 against the arXiv abstract page; only the abstract was read.}
 }
