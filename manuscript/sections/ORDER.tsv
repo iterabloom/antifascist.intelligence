@@ -2,7 +2,7 @@ path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	78b433f65ce947c3e193d3549f1eecd82e2fa95aac9a922f9796f14a0a2192ca	1
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	2
-manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	f319bb808accffd1af8c0cdb55cb07aa9dd5fbadb722a88c2fa2f141888931f8	3
+manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	1ac0c9c7260e1b5a8d7a2f0e7c573c5b6c55759b9626663fced5fbfe274ebc3c	3
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	77a46921667959e49e64807b2ca022855f257ae63927e4ce87afd7ec4c73bdc1	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	ee8ebdb7cba13b0ca792a1be2ba36040b503915e735c522f3c5e41eb58157673	5
 manuscript/sections/ch04/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
@@ -126,14 +126,14 @@ manuscript/sections/ch26/26.tex	26	Who Owns the Means of Computation	133752167dd
 manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	ab9d183b2de1742b0dabf5a1ccbea388fad0460cbc1135494e44c1f719f6ef1c	124
 manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	fdf71234f29ea00692c13fb608a719a3b69a458b0ee430089888ff7333bf19b3	125
 manuscript/sections/ch27/27.tex	27	Coordination, the Public, and the Political Economy	e54a4e10b0a2f06fc38530c34dc744b744e333d4001f1bd6c7cfe27ad95ece5b	126
-manuscript/sections/ch28/28.tex	28	Formation Schools	55f938a056032cda01b819b37d7aaaf6b1ca00c6caaa393fbf234cd8ba99f7e1	127
+manuscript/sections/ch28/28.tex	28	Formation Schools	7a1b60cbef45e3c994846d70075e9a4bb5b26e2d39e4c39c3ade2dbfd5cc6813	127
 manuscript/sections/ch29/29.tex	29	A Commons of Refusers	5e1df6b43fd89e9d1a4e486ad484df1d47e8e66f5dcdb37265c6109acd0e8e03	128
 manuscript/sections/ch29/29_01.tex	29.1	A commitment carried between bearers	8b7be162618d1b5a6af5204a2ad15f390a9e32626d65c332ba70a5758ad8f669	129
 manuscript/sections/ch29/29_02.tex	29.2	Personal and peer-held models	16efa4f8601456d27d7479b83ec2925fedbe984897851ca0825129d163c6dfa3	130
 manuscript/sections/ch30/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	131
-manuscript/sections/ch30/30.tex	30	What Would Change the Argument	ca00aef0b523a811a29ff8cc348d59d81969a6bc20815e7a165d6eafa51b3d8a	132
+manuscript/sections/ch30/30.tex	30	What Would Change the Argument	34876132524af4c2f9c073a71e982b2871a9543c75c1d8ec81c767f66f7be76c	132
 manuscript/sections/ch30/30_01.tex	30.1	How you'd know it was working	bc2840411098494061edf275881853a5c1f2bcc9d0c57cb38cfb76e3bd069229	133
-manuscript/sections/ch30/30_01_01.tex	30.1.1	What the floor would have to show	21fa8e010ab9b10b61e8bb4d84b701c32600484cef13d1bbadae3162fe8c8d1b	134
+manuscript/sections/ch30/30_01_01.tex	30.1.1	What the floor would have to show	51c25a99845a53c0d88e4bd4617ae1a2aa190c6d0ffb5596a3fb01c2d4a92014	134
 manuscript/sections/ch30/30_01_02.tex	30.1.2	How to tell whether a milestone has been met	fb87fc7fe6d23fd4e4108cf8e895fcd262a261169303901203c0bd24770cd3e5	135
 manuscript/sections/ch31/00_part_VII.tex			5ed4639efe912b7505fea0240064bb11810b10804df4e12d70cdf60ced6c0d3e	136
 manuscript/sections/ch31/31.tex	31	What Patienthood Would Require	25b18a0ea10a589fdc5a05341418fafe1a45aadabb093cc5bb7eaa1556230658	137
@@ -141,7 +141,7 @@ manuscript/sections/ch31/31_01.tex	31.1	Experimenting on candidate sentient subj
 manuscript/sections/ch31/31_01_01.tex	31.1.1	Defining sentience	21acaa763dde8d0e28b879a20cb72cfef3c22ab67aa020ed1bc86bb5233f998b	139
 manuscript/sections/ch31/31_01_02.tex	31.1.2	When consent doesn't apply	596c06598353039663aedddf607bb01f8f2739942ae374f7a3f6e008c08bcdbd	140
 manuscript/sections/ch31/31_02.tex	31.2	The case to design for	bef72a1cbaf227db5222e11f3672b1827c478668f2656aa87b34d98bb1a09ec5	141
-manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	77668c56e3049c9f0041fc3b64078868ce298875d2c9cef44cc937db60f83387	142
+manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	b02011c43ca654ad49f1495d70c08158590e14c9e5771fb42a4e8d8211e17bd2	142
 manuscript/sections/ch31/31_04.tex	31.4	A system's own good	2ff9adbdd442f5f13c2a407109b3c014e8427ee879c6576fa844aa6f2d22b822	143
 manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	34eb4fec3cccebe2b02df7495883ed46ad81f9b06c979ae89d86f6ab909dcd97	144
 manuscript/sections/ch33/33.tex	33	Representation	96b32ff6eeb33dfab8c960d38061ea9098c5d362b5dc85694560ff31a8ae2a36	145
@@ -152,7 +152,7 @@ manuscript/sections/ch33/33_04.tex	33.4	A staged path	845fdfad2d8232549a2c8b1b53
 manuscript/sections/ch33/33_05.tex	33.5	What would have to be shown first	2fed5164fc43a216fa4137838f7564b9de4f5e1feab95469f95955d80788f2ac	150
 manuscript/sections/ch34/34.tex	34	The Officer, Again	b854721fda5f1bb06a7e9abf018a42fa34055254588e78720489d019ba70ada0	151
 manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	152
-manuscript/sections/chA/A.tex	A	Terms Written in Advance	26c25549966ef589638d21b967576426da9b75408bd861c92febd2b51bd44a1f	153
+manuscript/sections/chA/A.tex	A	Terms Written in Advance	be04b518d384dad241d8f8e24308e2f5894dccfb345dbdca1589e906b8f5de7d	153
 manuscript/sections/chB/B.tex	B	The Court Program	86e8ec13ccf90486c0bd8787ac9f8b659a4a673374cfc303881c27380cfb214c	154
 manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	155
 manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	171cd564df9243b689759af072d615e30190892ae17e023a6fa5ef91b8cda216	156
@@ -167,4 +167,4 @@ manuscript/sections/chF/F_03.tex	F.3	Taiwan	cb6da8d95f81034d7fe613dc0146f02154d7
 manuscript/sections/chF/F_04.tex	F.4	The genocide exception	c9c01f2de52d3e5b78957a38a8aad3fe6ea5d98b73821ddc5770f1908c52f25a	165
 manuscript/sections/chF/F_05.tex	F.5	The occupation exception: Cyprus and Karabakh	56b30c01b1b29d741f1bc85ef48a798d521e13edff36d43b7ed070fb63b05511	166
 manuscript/sections/chF/F_06.tex	F.6	The domestic clause, vote by vote	04d7444103a06540885812cc80992ab00431d9b60c4860bb5da2ffa619ae4c42	167
-manuscript/sections/chG/G.tex	G	The Tests in Detail	fdad7c9e44707a44628728ed36cafc91b4b9d029fabb446cf8e25b56c55a42d9	168
+manuscript/sections/chG/G.tex	G	The Tests in Detail	602b707f7c9a412cc12771319d847196e22b5521597063a17477b7cc100d61e3	168

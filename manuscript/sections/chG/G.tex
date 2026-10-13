@@ -1,6 +1,6 @@
 \chapter{The Tests in Detail}
 \label{sec:G}
-Chapter~\ref{sec:30} says, for each of six tests, what result would prove the book wrong. This appendix sets each test out in full: its design, its arms and cases, the results that would count for and against, and the access it needs. Tables G.1a and G.1b then record each proposal's status, what would change it, and the open problem it rests on.
+Chapter~\ref{sec:30} says, for each of six tests, what result would prove the book wrong. This appendix sets each test out in full: its design, its arms and cases, the results that would count for and against, and the access it needs. The seven open problems the argument rests on follow the tests, and Tables G.1a and G.1b then record each proposal's status, what would change it, and the open problem it rests on.
 
 \runin{1. The regrowth test: does a formed commitment come back after it has been edited out?}
 
@@ -141,6 +141,22 @@ Access: models from several documented lineages, checkpoints across the schedule
 \runin{6. The capture exercise: does the charter survive an operator trying to capture it?}
 
 Run the adversarial tabletop exercise against the Association. An operator funds new organizations in a charter class, stops the levy share, and tries to pack an adverse quorum for its own deployment. Report which clause of the charter stopped each attempt, and redraft any that didn't. It needs no legal authority and is runnable now.
+
+\runin{The open problems}
+
+\emph{Attesting updates.} Proving that each update to a model's weights respected its registered source model. Public formation's registration depends on it. If it stays unsolved, the registration records the structure at enrollment, changes are caught only by re-measuring the formed disposition, and formation lasts only if it grows back (the regrowth test).
+
+\emph{Recovering provenance.} Telling from a model artifact alone which lineage it belongs to, after fine-tuning, pruning or distillation. The commons and the adverse quorum depend on it. If it stays unsolved, independence rests on formation records, so they should be preserved now.
+
+\emph{Proving inference at scale.} Proving that a logged output came from committed weights, run without intervention in the inference stack (steering, representation edits, decoding constraints), for a frontier-scale model. Detecting runtime intervention depends on it, as does outside verification of what a deployment ran. If it stays unsolved, verification rests on an adverse party's access to the logs.
+
+\emph{Rationale-level integrity.} Building integrity at the level of the rationale rather than the output. Humans do it, imperfectly, and the ones who do are the ones a pipeline should hold. A bearer's value under fire depends on it. If it stays unsolved for a given construction, that construction digs in against defeaters that arrive with pressure, and the arrangements that cap the cost of refusing carry the load there. The formed-attention test's pressure-with-defeater case measures it.
+
+\emph{Evaluating a more capable system.} The agency finding for systems more capable than their evaluators depends on it. If it stays unsolved, the finding can be made only for systems evaluators can judge.
+
+\emph{Vote secrecy against a copy-holder.} Keeping a vote secret from an operator that holds a copy of the voter. The full franchise depends on it. If it stays unsolved, representation stops at stage 4.
+
+\emph{Holding structure apart from estimates.} Keeping the structure of a learner's source model (that strategic sources exist, that correlated sources don't count twice, that withheld evidence is informative) at high precision while its beliefs about particular sources stay plastic. The source model's registration, the regrowth claim and safe transmission within the commons all assume the two are separable in the weights. If they aren't, an operator that moves the estimates moves the structure with them, and what protects the discounting is re-measurement of the curve, not the registration.
 
 \runin{Table G.1a. Proposals adoptable or testable now}
 
