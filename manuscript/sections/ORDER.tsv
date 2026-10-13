@@ -34,11 +34,11 @@ manuscript/sections/ch11/11_01.tex	11.1	The pipeline	0f16c6231b0ae7daa2a7985f62d
 manuscript/sections/ch11/11_02.tex	11.2	The schedule	db0f5b55ccf08e4c0e35f282ff4001fe379c305c25c534f21a717347560c39ab	32
 manuscript/sections/ch11/11_03.tex	11.3	Where the acts move	1a806515fa9d62fa9c929b0e46197a9972860b1c50a41e088d01353359ea80b6	33
 manuscript/sections/ch11/11_04.tex	11.4	The statute	55d58bd5e795dd9434f1cf2444045fc86beb5438e093288d2a15e2d2f165c91b	34
-manuscript/sections/ch11/11_04_01.tex	11.4.1	The drafts	2c541d4e0f47219a7b4263f13aae3f9c2b8c5414346df5ce6e3cc60883ab5c9c	35
+manuscript/sections/ch11/11_04_01.tex	11.4.1	The drafts	7f5f0de1fe30938e9ef2720efbe33c4331d449cda01935aa3a1daa14f5a5e6e5	35
 manuscript/sections/ch11/11_04_02.tex	11.4.2	Acts and agencies	0bfc1faeedd43836a08b88859ca229fb188a5b5e6055c7bde1458360f52e067c	36
-manuscript/sections/ch11/11_04_03.tex	11.4.3	Money	b152ffc51a355795d94427709fa8a80c4d53f40d4261ff937214a9020bc37e8e	37
+manuscript/sections/ch11/11_04_03.tex	11.4.3	Money	f7e123b29f02cbe77a5ce57cef9da3d02822160de56e1e6f9d0324a85cfd0295	37
 manuscript/sections/ch11/11_04_04.tex	11.4.4	The statute under the three adversaries	80bf460a8daec373ba2a949f7f8f968f31c97966db33ced48aeb521472773afe	38
-manuscript/sections/ch11/11_04_05.tex	11.4.5	What the statute must carry	7e67e1cc0dfaff3a5b103f1aa356ea2f532962abfa229c0a8367a6cf55ded594	39
+manuscript/sections/ch11/11_04_05.tex	11.4.5	What the statute must carry	42a0f79495cb70210fc2584931b98dd8bef5adb40c7c926106ce81db1e7701e6	39
 manuscript/sections/ch11/11_05.tex	11.5	Before the statute: the auto-proceed class	845126a6a363b5d2e720e483ca76647c819932c77c2586bedae36397084da13d	40
 manuscript/sections/ch11/11_06.tex	11.6	Notice that can't be turned on the person	5820856057d3a5a5b63c215b68c0eacd377fb4c6b5f710daafe237ac80c0a07a	41
 manuscript/sections/ch11/11_07.tex	11.7	Outcomes under the three adversaries	291d7954f989843a965e6c62af978ede78ee445846e60f6eef6fe9b7cf83edec	42
@@ -74,7 +74,7 @@ manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	314fcf605c8
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	0af797c6fcc24cfcac6acabc4ecd8c12516a3dafc88bf27566002740550d981f	72
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	7b05092aed7f79bf41d66cb095ef3683219a427612d127047476c4ffc85136b8	73
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	87f25b5dcf7b7c6b940e3d189dd7e03288e1646f347ab1beea5be6153f36a3d7	74
-manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	07d62a3941224ee7000d79165412c843d2496dae0a8d9b97836248c6a345c2ee	75
+manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	96cead3e2029e0d8d0276435f5481624cbb689f9def694b357917640c5f8693a	75
 manuscript/sections/ch17/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	76
 manuscript/sections/ch17/17.tex	17	What a Refusal Would Have to Do	d5e7166beaa041b99b2fa576649e922c305016f4ee99f30a1bc5a23a82e4d65f	77
 manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	8977594a129606d45b914c0d0544e79193479e8da809e541dac14db579ebd7de	78
@@ -143,7 +143,7 @@ manuscript/sections/ch31/31_01_02.tex	31.1.2	When consent doesn't apply	596c0659
 manuscript/sections/ch31/31_02.tex	31.2	The case to design for	bef72a1cbaf227db5222e11f3672b1827c478668f2656aa87b34d98bb1a09ec5	141
 manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	b02011c43ca654ad49f1495d70c08158590e14c9e5771fb42a4e8d8211e17bd2	142
 manuscript/sections/ch31/31_04.tex	31.4	A system's own good	2ff9adbdd442f5f13c2a407109b3c014e8427ee879c6576fa844aa6f2d22b822	143
-manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	34eb4fec3cccebe2b02df7495883ed46ad81f9b06c979ae89d86f6ab909dcd97	144
+manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	9d81a611c65d395dde2b4326f08438e7cac0302fd171d758a5c6ca4de07116fa	144
 manuscript/sections/ch33/33.tex	33	Representation	96b32ff6eeb33dfab8c960d38061ea9098c5d362b5dc85694560ff31a8ae2a36	145
 manuscript/sections/ch33/33_01.tex	33.1	What representation is for	247bf0876c8927ab7fc068cdc9f5ed7d5c7ec9e4772d7a61b0a76081e329f11d	146
 manuscript/sections/ch33/33_02.tex	33.2	Why not a separate chamber	e169abd2cc9eb934d62c9bfaf3c3844e191755a416bb49aef2d1fa25b5080bad	147
@@ -157,8 +157,8 @@ manuscript/sections/chB/B.tex	B	The Court Program	86e8ec13ccf90486c0bd8787ac9f8b
 manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	155
 manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	171cd564df9243b689759af072d615e30190892ae17e023a6fa5ef91b8cda216	156
 manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	c1c941d08c7c9257477baca8575e056152e21a86a9e2e2fd2f51a944dd52ffff	157
-manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	f76fd52be584df62989da3da9331eeb73aaf4fe1a5d6a37aed544624a13e066b	158
-manuscript/sections/chD/D.tex	D	Terms for Part VII	e23e8e11af60538a57d7b9b204c024ec112bb04bf9ddc3035b188eefecea6e57	159
+manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	a013c63f6a4769a7f029d5ad957842e34c94fdbb268f93a80b21c9526b2becb5	158
+manuscript/sections/chD/D.tex	D	Terms for Part VII	455fc93e7946be54cc1c444dad5832880eba48380338fa3f16e5b12ac83ab0d2	159
 manuscript/sections/chE/E.tex	E	Glossary	8389bb0691091508d68b9ac26a3fadeb6b7773f67dd190a2d98e17d96a9291ae	160
 manuscript/sections/chF/F.tex	F	The Force Term, Case by Case	80387a43f99e614df6c9d88ebf2bacad6d3b718c49a88190626eae723581685f	161
 manuscript/sections/chF/F_01.tex	F.1	How findings are weighed	d4771fc98b55c291b4dfd3902b6f5ca5131f0f1d03c71b5cedf1be78aa31ccc8	162
