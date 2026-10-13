@@ -174,6 +174,15 @@
       {\refunchecked{\usebibmacro{draft:cite}}}}
 \fi
 
+% Under tex4ht, each citation leaves its key in an HTML comment, invisible on
+% the page. render_markdown.py reads the footnotes of the HTML build into the
+% Markdown and matches each to the citation in the sources it came from by these
+% keys, so a footnote can't land against the wrong citation (D-776).
+\ifdefined\HCode
+  \letbibmacro{md:cite}{cite}
+  \renewbibmacro*{cite}{\HCode{<!--cite:\thefield{entrykey}-->}\usebibmacro{md:cite}}
+\fi
+
 \setcounter{secnumdepth}{2}             % deepest heading in the book is x.y.z
 % The contents list chapters and sections and stops there. At depth 2 it ran
 % pages 2-5 of a 196-page book, three full pages and an 11-line stub, and the 64

@@ -100,10 +100,14 @@ decides tone and editorial judgment in conversation.
   runs the script. To change the book, change `manuscript/sections/`.
 
   **What the Markdown does not carry:** page breaks, the table of contents, the
-  title page, and the typeset bibliography. Citations survive as Pandoc-style
-  keys (`[@key]`, with any locator following the key) pointing into
-  `finishing/refs.bib`, which is not inlined; `\ref` resolves to the section
-  number; `\S` becomes §. Everything else in the manuscript's macro set —
+  title page, and the typeset bibliography. Citations are the book's footnotes,
+  taken from an HTML build the script runs first (about a minute) and matched
+  to the sources by key (D-776). `--truncate N` cuts each citation's footnote
+  after N words and ends it with an ellipsis; the author's own footnotes stay
+  whole. Use it when he asks for shortened notes, with the number he gives.
+  `--keys` skips the build and leaves citations as Pandoc-style keys (`[@key]`,
+  with any locator following the key) into `finishing/refs.bib`. `\ref`
+  resolves to the section number; `\S` becomes §. Everything else in the manuscript's macro set —
   the run-in heads, boxes, epigraphs, the one table, the lists — has a
   conversion. **The script prints a warning on stderr naming any LaTeX command
   that reached the output unconverted.** That warning means the manuscript has

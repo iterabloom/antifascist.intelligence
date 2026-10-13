@@ -17,8 +17,18 @@ same file gen_book.py builds sections.tex from, so both outputs are in the
 book's order by construction rather than by a second list kept in step by hand.
 
 What Markdown loses, and knowingly: page breaks, the table of contents, the
-title page, the typeset bibliography. Citations survive as Pandoc-style keys
-([@smith2020title]) pointing into finishing/refs.bib, which is not inlined.
+title page, the typeset bibliography. Citations are footnotes, as the book sets
+them (D-774): full at a work's first citation in a chapter, short after, with
+the entry's note after its first full citation. Their text is biblatex's, not
+this script's, taken from an HTML build of the tree as it stands (build_html.sh,
+about a minute), so it cannot disagree with the proof (D-776). Each footnote is
+matched to its citation by the keys the build leaves in it as HTML comments,
+and a build of other sources stops the run. `--notes-from HTML` takes an
+existing build instead; the keys guard the citations, not refs.bib, so an
+entry edited since that build prints as it was. `--truncate N` cuts each
+citation's footnote after N words and ends it with an ellipsis; the author's
+own footnotes stay whole. `--keys` builds nothing and leaves each citation as a
+Pandoc-style key ([@smith2020title]) into finishing/refs.bib.
 
 --tex converts nothing. It is book.tex with every \\input resolved -- the
 preamble, the generated draft-status macros, and every section in ORDER.tsv
@@ -44,6 +54,8 @@ from manuscript/book.tex (finishing/tools/build_tex.sh) and never from here.
 
 Usage:
     finishing/tools/render_markdown.py              # -> /tmp/<slug>_<date>.md
+    finishing/tools/render_markdown.py --truncate 30   # ... notes cut at 30 words
+    finishing/tools/render_markdown.py --keys       # ... citations as [@key]
     finishing/tools/render_markdown.py --tex        # -> /tmp/<slug>_<date>.tex
     finishing/tools/render_markdown.py --tex --no-notes   # ... minus bib notes
     finishing/tools/render_markdown.py --out PATH
@@ -53,10 +65,13 @@ Usage:
 import argparse
 import csv
 import datetime
+import html.parser
 import os
 import re
+import shutil
 import subprocess
 import sys
+import tempfile
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import common  # noqa: E402
@@ -88,6 +103,12 @@ DROP_COMMANDS = [
 # swaps each for its marker and queues its text; render() writes the queue after
 # the file's last line, which Pandoc accepts anywhere in the document (D-623).
 FOOTNOTES = {"n": 0, "pending": []}
+
+# The footnotes of an HTML build, in document order, when the citations are
+# set as the book sets them (D-776): `queue` holds one (keys, segments) pair per
+# footnote, `next` the index of the next one to take, `truncate` the word limit
+# for a citation's footnote, or None. `queue` is None under --keys.
+NOTES = {"queue": None, "next": 0, "truncate": None}
 
 # \part numbers, counted in reading order as LaTeX counts them.
 PARTS = {"n": 0}
@@ -187,31 +208,213 @@ def cite(m):
     return "[%s]" % "; ".join(parts)
 
 
+CITE_CMD = re.compile(
+    r"\\(?:auto|paren|text|foot|super)?cite(?:s(?=\s*[\[{]))?\*?"
+    r"((?:\s*(?:\[[^\]]*\]){0,2}\{[^}]*\})+)")
+
+
+def cite_keys(args):
+    """The keys of one citation command, in order, from its argument groups."""
+    return [k.strip() for g in CITE_GROUP.finditer(args)
+            for k in g.group(2).split(",")]
+
+
+def take_note(keys, what, text):
+    """The next footnote of the HTML build, which must cite `keys`.
+
+    The build and the sources are walked in the same order, and each footnote
+    is checked against the citation it is taken for by the keys the build left
+    in it (the preamble writes them as HTML comments under tex4ht). A build of
+    other sources fails here instead of setting a note against the wrong
+    citation."""
+    q, i = NOTES["queue"], NOTES["next"]
+    if i >= len(q):
+        raise SystemExit("render_markdown.py: the sources have more footnotes "
+                         "than the HTML build's %d; the build is not of these "
+                         "sources. At: %s" % (len(q), text[:120]))
+    got, segs = q[i]
+    if got != keys:
+        raise SystemExit("render_markdown.py: footnote %d is a %s citing %s in "
+                         "the sources and cites %s in the HTML build; the build "
+                         "is not of these sources. At: %s"
+                         % (i + 1, what, keys or "nothing", got or "nothing",
+                            text[:120]))
+    NOTES["next"] += 1
+    return segs
+
+
 def footnotes(text, labels):
     """\\footnote{...} -> [^n], its text converted and queued. Braces matched,
-    because a note can hold a \\autocite of its own."""
-    out, i = [], 0
+    because a note can hold a \\autocite of its own.
+
+    With an HTML build's footnotes loaded (NOTES), a citation outside a
+    footnote is a footnote too, as the book sets it (D-774), and both kinds
+    take their text from the build, in the order they occur. The marker
+    follows the punctuation after the citation and drops the space before it,
+    as biblatex places it. A footnote's own citations are inside the text the
+    build supplies, so they are not taken again."""
+    notes = NOTES["queue"] is not None
+    pat = re.compile(r"\\footnote\{" + ("|" + CITE_CMD.pattern if notes else ""))
+    out, i = "", 0
     while True:
-        k = text.find("\\footnote{", i)
-        if k < 0:
-            out.append(text[i:])
-            return "".join(out)
-        end = _matching_brace(text, k)
+        m = pat.search(text, i)
+        if not m:
+            return out + text[i:]
         FOOTNOTES["n"] += 1
         n = FOOTNOTES["n"]
-        body = inline(text[k + len("\\footnote{"):end - 1], labels).strip()
+        if m.group(0).startswith("\\footnote{"):
+            end = _matching_brace(text, m.start())
+            inner = text[m.end():end - 1]
+            if notes:
+                keys = [k for c in CITE_CMD.finditer(inner)
+                        for k in cite_keys(c.group(1))]
+                segs = take_note(keys, "footnote", inner)
+                body = render_segments(segs, None)
+                # A footnote with no citation is matched by position alone,
+                # so its opening words, up to any citation, are checked too.
+                want = re.sub(r"\W+", "", inline(CITE_CMD.split(inner)[0],
+                                                  labels).lower())[:30]
+                if want not in re.sub(r"\W+", "", body.lower()):
+                    raise SystemExit("render_markdown.py: footnote %d in the "
+                                     "HTML build does not read as the sources' "
+                                     "footnote there: %s" % (NOTES["next"], inner[:120]))
+            else:
+                body = inline(inner, labels).strip()
+            out += text[i:m.start()] + "[^%d]" % n
+            i = end
+        else:
+            segs = take_note(cite_keys(m.group(1)), "citation", m.group(0))
+            body = render_segments(segs, NOTES["truncate"])
+            out = (out + text[i:m.start()]).rstrip()
+            i = m.end()
+            if i < len(text) and text[i] in ".,;:!?":
+                out += text[i]
+                i += 1
+            out += "[^%d]" % n
         FOOTNOTES["pending"].append("[^%d]: %s" % (n, body))
-        out.append(text[i:k] + "[^%d]" % n)
-        i = end
+
+
+class _NoteParser(html.parser.HTMLParser):
+    """One footnote of tex4ht's HTML -> the cited keys and a list of
+    (text, style) segments, style one of "", "i", "b", "sup", "url" (text the
+    address). The footnote's own number is dropped; small capitals (url, doi,
+    isbn) are set as capitals; tex4ht sets a superscript in mathematics (the
+    10^25 of the compute thresholds) in a 6-point font and not in <sup>."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.keys, self.segs, self.stack = [], [], []
+
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        cls = a.get("class") or ""
+        style = ""
+        if "footnote-mark" in cls:
+            style = "skip"
+        elif tag == "a" and "url" in cls.split():
+            style = "url"
+            self.segs.append((a.get("href", ""), "url"))
+        elif tag == "sup" or re.search(r"\bcmr-[5-7]\b", cls):
+            style = "sup"
+        elif re.search(r"lmri|lmsi|-it\b", cls):
+            style = "i"
+        elif "lmbx" in cls:
+            style = "b"
+        elif "small-caps" in cls:
+            style = "caps"
+        self.stack.append((tag, style))
+
+    def handle_startendtag(self, tag, attrs):
+        if tag == "br":
+            self.handle_data(" ")
+
+    def handle_endtag(self, tag):
+        while self.stack:
+            if self.stack.pop()[0] == tag:
+                break
+
+    def handle_comment(self, data):
+        data = data.strip()
+        if data.startswith("cite:"):
+            self.keys.append(data[len("cite:"):].strip())
+
+    def handle_data(self, data):
+        styles = [st for _, st in self.stack if st]
+        if "skip" in styles or "url" in styles:
+            return
+        style = styles[-1] if styles else ""
+        if style == "caps":
+            data, style = data.upper(), ""
+        self.segs.append((re.sub(r"\s+", " ", data), style))
+
+
+def load_notes(path):
+    """Every footnote of an HTML build, in document order, as (keys, segments)."""
+    page = open(path, encoding="utf-8").read()
+    asides = re.findall(r"<aside class='footnotetext'[^>]*>(.*?)</aside>",
+                        page, re.S)
+    if not asides:
+        raise SystemExit("render_markdown.py: no footnotes in %s" % path)
+    if not re.search(r"<!--\s*cite:", page):
+        raise SystemExit("render_markdown.py: %s carries no citation keys; it "
+                         "was built before the preamble wrote them (D-776). "
+                         "Rebuild it, or leave out --notes-from." % path)
+    notes = []
+    for a in asides:
+        p = _NoteParser()
+        p.feed(a)
+        p.close()
+        segs = []
+        for text, style in p.segs:          # adjacent runs of one style merge
+            if segs and segs[-1][1] == style and style != "url":
+                segs[-1] = (segs[-1][0] + text, style)
+            else:
+                segs.append((text, style))
+        if segs:
+            segs[0] = (segs[0][0].lstrip(), segs[0][1])
+        notes.append((p.keys, segs))
+    return notes
+
+
+def render_segments(segs, limit):
+    """Segments -> one line of Markdown. Under `limit`, only the first `limit`
+    words, an address counting as one, and an ellipsis where the cut fell;
+    a note no longer than that is left whole."""
+    words = sum(1 if st == "url" else len(t.split()) for t, st in segs)
+    cut = limit is not None and words > limit
+    out, left = [], limit if cut else None
+    for text, style in segs:
+        if left is not None:
+            if left <= 0:
+                break
+            if style == "url":
+                left -= 1
+            else:
+                toks = re.findall(r"\s*\S+", text)
+                if len(toks) > left:
+                    text = "".join(toks[:left])
+                left -= len(toks)
+        if style == "url":
+            out.append("<%s>" % text)
+            continue
+        core = text.strip()
+        if not core or not style:
+            out.append(text)
+            continue
+        mark = {"i": "*", "b": "**", "sup": "^"}[style]
+        lead = text[:len(text) - len(text.lstrip())]
+        trail = text[len(text.rstrip()):]
+        out.append(lead + mark + core + mark + trail)
+    body = re.sub(r" {2,}", " ", "".join(out)).strip()
+    if cut:
+        body = body.rstrip(",;:").rstrip() + " …"
+    return body
 
 
 def inline(text, labels):
     """Commands that live inside a paragraph."""
     text = footnotes(text, labels)
-    text = re.sub(
-        r"\\(?:auto|paren|text|foot|super)?cite(?:s(?=\s*[\[{]))?\*?"
-        r"((?:\s*(?:\[[^\]]*\]){0,2}\{[^}]*\})+)",
-        cite, text)
+    text = CITE_CMD.sub(cite, text)
     text = re.sub(r"\\ref\{([^}]*)\}",
                   lambda m: labels.get(m.group(1))
                   or re.sub(r"^(?:sec|ch):", "", m.group(1)),
@@ -873,7 +1076,26 @@ def main():
                                   "(default: /tmp/<slug>_<date>.md, or .tex under --tex)")
     ap.add_argument("--check", action="store_true",
                     help="report what would be rendered and write nothing")
+    ap.add_argument("--keys", action="store_true",
+                    help="Markdown only: leave each citation as a Pandoc key "
+                         "into finishing/refs.bib instead of building the HTML "
+                         "for its footnote")
+    ap.add_argument("--notes-from", metavar="HTML",
+                    help="Markdown only: take the footnotes from this HTML "
+                         "build (build_html.sh's book.html, or a proof's) "
+                         "instead of building one")
+    ap.add_argument("--truncate", type=int, metavar="N",
+                    help="Markdown only: cut each citation's footnote after N "
+                         "words and end it with an ellipsis; the author's own "
+                         "footnotes are left whole")
     args = ap.parse_args()
+
+    if args.tex and (args.keys or args.notes_from or args.truncate is not None):
+        ap.error("--keys, --notes-from and --truncate apply to the Markdown, not --tex")
+    if args.keys and (args.notes_from or args.truncate is not None):
+        ap.error("--keys sets no footnotes, so --notes-from and --truncate do nothing with it")
+    if args.truncate is not None and args.truncate < 1:
+        ap.error("--truncate takes a positive number of words")
 
     if args.no_notes and not args.tex:
         # The Markdown carries no bibliography to strip, so the flag would do
@@ -910,9 +1132,45 @@ def main():
     else:
         labels = label_map(root, rows)
         numbers = printed_numbers()
+        if not args.keys:
+            if args.notes_from:
+                NOTES["queue"] = load_notes(args.notes_from)
+            else:
+                # The footnotes are biblatex's, as the HTML proof sets them,
+                # so they come from a build of the tree as it stands (D-776).
+                build = tempfile.mkdtemp(prefix="render-md-")
+                print("building the HTML for the footnotes (about a minute)",
+                      file=sys.stderr)
+                try:
+                    r = subprocess.run(
+                        [os.path.join(root, "finishing", "tools", "build_html.sh"),
+                         build], capture_output=True, text=True, cwd=root)
+                    if r.returncode:
+                        raise SystemExit("render_markdown.py: build_html.sh "
+                                         "failed:\n" + r.stdout + r.stderr)
+                    if "WARNING" in r.stdout:
+                        print(r.stdout.strip(), file=sys.stderr)
+                    NOTES["queue"] = load_notes(os.path.join(build, "book.html"))
+                finally:
+                    shutil.rmtree(build, ignore_errors=True)
+            NOTES["truncate"] = args.truncate
         body = []
         for row in rows:
             body += render(row["path"], numbers.get(row["path"], []), root, labels)
+        if NOTES["queue"] is not None and NOTES["next"] != len(NOTES["queue"]):
+            raise SystemExit("render_markdown.py: the HTML build has %d footnotes "
+                             "and the sources account for %d; the build is not "
+                             "of these sources."
+                             % (len(NOTES["queue"]), NOTES["next"]))
+        if args.keys:
+            cites = ("Citations are keys into finishing/refs.bib; the "
+                     "bibliography, ")
+        else:
+            cites = ("Citations are footnotes, as the book's HTML build sets "
+                     "them%s; the bibliography, "
+                     % ("" if args.truncate is None else
+                        ", each cut after %d words where it ran longer, an "
+                        "ellipsis marking the cut" % args.truncate))
 
         body = squeeze(body)
         front = [
@@ -921,12 +1179,12 @@ def main():
             "Joshua G. Stern",
             "",
         ] + [
-            "Rendered %s from %s%s, %d sections. Citations are keys into "
-            "finishing/refs.bib; the bibliography, table of contents and page "
-            "breaks are not reproduced. This file is disposable output, not a "
-            "source: the manuscript is the LaTeX under manuscript/sections/."
-            % (stamp, head or "an unknown commit",
-               " with uncommitted changes in the tree" if dirty else "", len(rows)),
+            ("Rendered %s from %s%s, %d sections. "
+             % (stamp, head or "an unknown commit",
+                " with uncommitted changes in the tree" if dirty else "", len(rows)))
+            + cites + "table of contents and page breaks are not reproduced. "
+            "This file is disposable output, not a source: the manuscript is "
+            "the LaTeX under manuscript/sections/.",
             "",
             "---",
             "",
@@ -934,7 +1192,10 @@ def main():
         text = "\n".join(front + body) + "\n"
 
         leftover = sorted(set(re.findall(r"\\[a-zA-Z]+", text)))
-        words = len(re.findall(r"\S+", "\n".join(body)))
+        # The text's words, not its notes', so the count stays comparable
+        # with and without the footnotes.
+        words = len(re.findall(r"\S+", "\n".join(
+            l for l in body if not re.match(r"\[\^\d+\]:", l))))
         print("%d sections, %d words" % (len(rows), words), file=sys.stderr)
         if leftover:
             print("WARNING: unconverted LaTeX commands: " + " ".join(leftover),
