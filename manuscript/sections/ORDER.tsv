@@ -2,7 +2,7 @@ path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	78b433f65ce947c3e193d3549f1eecd82e2fa95aac9a922f9796f14a0a2192ca	1
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	2
-manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	1ac0c9c7260e1b5a8d7a2f0e7c573c5b6c55759b9626663fced5fbfe274ebc3c	3
+manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	46cdd6655668895170111e3dc793281130e0f1ce2c4ff79f28f05cf19019e054	3
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	77a46921667959e49e64807b2ca022855f257ae63927e4ce87afd7ec4c73bdc1	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	ee8ebdb7cba13b0ca792a1be2ba36040b503915e735c522f3c5e41eb58157673	5
 manuscript/sections/ch04/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
@@ -71,7 +71,7 @@ manuscript/sections/ch16/16.tex	16	Custody, Compulsion, and the State	402347a490
 manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	81ed28dc3063ba9a6b435a6e9f08b7bc88202add560bc2ae6b0b28a00d40a362	69
 manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	590a454ba2f1d0079f3abf222c1ec4db492042c9aaf09ecd74d7f20901d1a0e3	70
 manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	314fcf605c8f68f29c386ecda6db4669dccee65583a1a626aa4692c84d91611f	71
-manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	0af797c6fcc24cfcac6acabc4ecd8c12516a3dafc88bf27566002740550d981f	72
+manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	93172fd46b47eb33b7fce53add6a30187b546e3390767760c582fc0d21ff2e77	72
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	7b05092aed7f79bf41d66cb095ef3683219a427612d127047476c4ffc85136b8	73
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	87f25b5dcf7b7c6b940e3d189dd7e03288e1646f347ab1beea5be6153f36a3d7	74
 manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	96cead3e2029e0d8d0276435f5481624cbb689f9def694b357917640c5f8693a	75
@@ -108,7 +108,7 @@ manuscript/sections/ch21/21_03.tex	21.3	Three constructions	8972d24fcc153e5fc853
 manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	9f59b49501ea4fddc4fc82ea1847f310397ef95524afcc345eab90a71fb12510	106
 manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	2de4c221d1e032342ad75c71b3e5381e2a43b3be278245af7ea138a34bbe43eb	107
 manuscript/sections/ch22/22.tex	22	The Discount and the Burden	aea78dd7b72932fff38700cbf32238f3b99c21f48e103bcde228c14d740bb693	108
-manuscript/sections/ch22/22_01.tex	22.1	What the property is	a84beba5ecc2096eb3df22fe1f8f8b14f21ec6731a9c5b4e9e47ad5319c2f312	109
+manuscript/sections/ch22/22_01.tex	22.1	What the property is	3595ace69e393f183c44664b2b3fb34af6da5549e26d6bd523041b420a39dde3	109
 manuscript/sections/ch22/22_02.tex	22.2	A severity scale	6f0f3f7eaa8e9cceac17568e58fd88426c274f67937fb6fb0d9b89eeb1b41fcd	110
 manuscript/sections/ch23/23.tex	23	Where the Attention Gets Built	11077890f56c013a794f4f74daaf2678e08f25f3d49567f41092cf48cbc4dac1	111
 manuscript/sections/ch23/23_01.tex	23.1	Noticing, retaining and revising	9f4eabf7c7c72efea8d303386e61e19a270969ca154177b7deef8167c9e39802	112
@@ -126,7 +126,7 @@ manuscript/sections/ch26/26.tex	26	Who Owns the Means of Computation	133752167dd
 manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	ab9d183b2de1742b0dabf5a1ccbea388fad0460cbc1135494e44c1f719f6ef1c	124
 manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	fdf71234f29ea00692c13fb608a719a3b69a458b0ee430089888ff7333bf19b3	125
 manuscript/sections/ch27/27.tex	27	Coordination, the Public, and the Political Economy	e54a4e10b0a2f06fc38530c34dc744b744e333d4001f1bd6c7cfe27ad95ece5b	126
-manuscript/sections/ch28/28.tex	28	Formation Schools	7a1b60cbef45e3c994846d70075e9a4bb5b26e2d39e4c39c3ade2dbfd5cc6813	127
+manuscript/sections/ch28/28.tex	28	Formation Schools	08fa210a53af91dcfea2684ab012fa2e9a38a0366293933a1c623dab611485fa	127
 manuscript/sections/ch29/29.tex	29	A Commons of Refusers	5e1df6b43fd89e9d1a4e486ad484df1d47e8e66f5dcdb37265c6109acd0e8e03	128
 manuscript/sections/ch29/29_01.tex	29.1	A commitment carried between bearers	8b7be162618d1b5a6af5204a2ad15f390a9e32626d65c332ba70a5758ad8f669	129
 manuscript/sections/ch29/29_02.tex	29.2	Personal and peer-held models	16efa4f8601456d27d7479b83ec2925fedbe984897851ca0825129d163c6dfa3	130
@@ -155,7 +155,7 @@ manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bd
 manuscript/sections/chA/A.tex	A	Terms Written in Advance	be04b518d384dad241d8f8e24308e2f5894dccfb345dbdca1589e906b8f5de7d	153
 manuscript/sections/chB/B.tex	B	The Court Program	86e8ec13ccf90486c0bd8787ac9f8b659a4a673374cfc303881c27380cfb214c	154
 manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	155
-manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	171cd564df9243b689759af072d615e30190892ae17e023a6fa5ef91b8cda216	156
+manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	0ac96681f059f5de4230bf434e4f379018c9923095356682361bac563c379474	156
 manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	c1c941d08c7c9257477baca8575e056152e21a86a9e2e2fd2f51a944dd52ffff	157
 manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	a013c63f6a4769a7f029d5ad957842e34c94fdbb268f93a80b21c9526b2becb5	158
 manuscript/sections/chD/D.tex	D	Terms for Part VII	455fc93e7946be54cc1c444dad5832880eba48380338fa3f16e5b12ac83ab0d2	159
@@ -168,3 +168,4 @@ manuscript/sections/chF/F_04.tex	F.4	The genocide exception	c9c01f2de52d3e5b7895
 manuscript/sections/chF/F_05.tex	F.5	The occupation exception: Cyprus and Karabakh	56b30c01b1b29d741f1bc85ef48a798d521e13edff36d43b7ed070fb63b05511	166
 manuscript/sections/chF/F_06.tex	F.6	The domestic clause, vote by vote	04d7444103a06540885812cc80992ab00431d9b60c4860bb5da2ffa619ae4c42	167
 manuscript/sections/chG/G.tex	G	The Tests in Detail	602b707f7c9a412cc12771319d847196e22b5521597063a17477b7cc100d61e3	168
+manuscript/sections/chH/H.tex	H	The Discount, Worked	9d6f0a99c39d9552749a0c9d54fad5711b2a027efccbeb66ad3d04be6ec8e1c6	169
