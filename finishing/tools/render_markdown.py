@@ -397,6 +397,9 @@ def render_segments(segs, limit):
         if style == "url":
             out.append("<%s>" % text)
             continue
+        # A literal asterisk (the "FAT* 2018" of a proceedings title) would
+        # open or close emphasis; escaped, it prints as itself.
+        text = text.replace("*", "\\*")
         core = text.strip()
         if not core or not style:
             out.append(text)

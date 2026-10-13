@@ -86,6 +86,21 @@
 % number, court, date -- and a statute as a manual does, with its issuing body.
 \DeclareBibliographyAlias{jurisdiction}{report}
 \DeclareBibliographyAlias{legislation}{manual}
+% A case or rule cited in reporter form carries its year in that citation --
+% "323 U.S. 214 (1944)", "90 Fed. Reg. 8139 (Jan. 24, 2025)" -- and the date
+% printed after it said the year twice (D-778). Where howpublished holds a
+% parenthetical ending in a year, the date is not printed; it stays in the data
+% for sorting. "(as amended through 2018)" is a revision, not the date, and is
+% left alone.
+\DeclareSourcemap{\maps[datatype=bibtex]{\map{
+  \step[fieldsource=howpublished,
+        match=\regexp{\s\((?![^()]*amended)[^()]*\d{4}\)}, final]
+  \step[fieldset=keywords, fieldvalue={af:yearincitation}]}}}
+\newcommand*{\afdropdate}{%
+  \ifkeyword{af:yearincitation}
+    {\clearfield{year}\clearfield{month}\clearfield{day}}{}}
+\AtEveryCitekey{\afdropdate}
+\AtEveryBibitem{\afdropdate}
 \AtBeginBibliography{%
   \DeclareNameAlias{author}{family-given/given-family}%
   \DeclareNameAlias{editor}{family-given/given-family}%
@@ -172,6 +187,20 @@
     \ifcsdef{refok@\thefield{entrykey}}
       {\usebibmacro{draft:cite}}
       {\refunchecked{\usebibmacro{draft:cite}}}}
+\fi
+
+% Under tex4ht, \appendix redefines \@chapter so that an appendix chapter no
+% longer sets \@currentlabel, and a \label after it takes the number of the last
+% section before it: the HTML proof printed Appendix A as "34", D as "C.3" and G
+% as "F.6", with links to those sections. Setting the label after each appendix
+% chapter restores the letter and the link (D-777). The PDF is unaffected.
+\ifdefined\HCode
+  \makeatletter
+  \AddToHook{cmd/appendix/after}{%
+    \let\af@appchapter\@chapter
+    \def\@chapter[#1]#2{%
+      \af@appchapter[#1]{#2}\protected@edef\@currentlabel{\thechapter}}}
+  \makeatother
 \fi
 
 % Under tex4ht, each citation leaves its key in an HTML comment, invisible on
