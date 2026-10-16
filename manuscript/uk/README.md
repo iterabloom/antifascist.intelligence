@@ -41,7 +41,8 @@ Conventions:
 
 Gaps, as of 2026-10-16:
 
-- No section is translated. Every glossary term is `proposed`. No native
+- Chapter 1 is translated, as a draft by a language model; the title page says
+  so, and says no native speaker has checked it. Otherwise no section is translated. Every glossary term is `proposed`. No native
   reader has reviewed anything, and a reviewer has not been found.
 - The edition's face is P052, a system font (urw-base35), not part of TeX Live.
   It has no small caps, so the running heads print upright. Overleaf has not

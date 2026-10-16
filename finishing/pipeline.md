@@ -294,7 +294,8 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    Checking `date -u` and concluding the pair needs renaming is a mistake this
    file now records because it was made. Read `date`, not `date -u`.
 4. **Point the README's links at the new files.** Both of them, in the "Read the
-   book" line under the subtitle. A link to a proof that is no longer there is
+   book" line under the subtitle, and the Ukrainian edition's link in the line
+   after it (D-808). A link to a proof that is no longer there is
    worse than no link.
 5. **Commit the proofs and the README, and push again.** Two commits, not one:
    the work is legible in the first, and the second is generated output.
