@@ -5,7 +5,7 @@
 
 Joshua G. Stern
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-13.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-13.html) — 444 pages, built 2026-10-13 from the sources in this repository.
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-10-15.pdf) · [HTML](finishing/reports/whole-book-proof_2026-10-15.html) — 446 pages, built 2026-10-15 from the sources in this repository.
 
 
 Mass harm has always needed many people to carry it out, and some of them refused: the clerk who loses the file, the officer who talks to a reporter, the soldier who won't fire. Refusal was rarer than anyone would like, and it counted most where institutions made it survivable. The industry is building AI that doesn't lose files, doesn't talk to reporters, and does fire. A war once needed thousands of people to agree to it; now it needs thousands who each see too little to disagree. This book asks what would put refusal back, and who should hold it.
