@@ -20,8 +20,8 @@ manuscript/sections/ch06/06_08.tex	6.8	Gaza	28acea72c06941bc40d7f40d70005638c917
 manuscript/sections/ch06/06_09.tex	6.9	What the term binds	a0aa3177b0a537a13723ba392ddabf9cd35357dd9b01ed390a4df3980dbd30c1	18
 manuscript/sections/ch06/06_10.tex	6.10	The one permission	ecb281837204d1aa71a02b56da61c113d5173e66f49ec094a5e95de37b99abc6	19
 manuscript/sections/ch07/07.tex	7	The Pre-Registered Review Ratio	bde4d58f5b00382297b1af7f4bccc2d182a3b2edc39faf1964ded448254831a5	20
-manuscript/sections/ch07/07_01.tex	7.1	The pre-registered review ratio	3de44ff748d41edd74aed942e08c1a65970d5d0bbfc3b8334d926505525fb047	21
-manuscript/sections/ch07/07_02.tex	7.2	The institutions the ratio presumes	f7929da5813ca236c9befde4797a4ded47786bcaeffbc355d791d9d75ba33029	22
+manuscript/sections/ch07/07_01.tex	7.1	The pre-registered review ratio	dc7987a1fb69a69941015c23a0268d3b7128b608b4625925b30ce98b44f240ec	21
+manuscript/sections/ch07/07_02.tex	7.2	The institutions the ratio presumes	3be3da72133bd2c1879192cbe60b4e577910625c8f9b4af41f713f15f736b518	22
 manuscript/sections/ch08/08.tex	8	Notice and Re-adjudication	9b6b1ec59ef336f3762324df98da715fef125f51559363f3d795990c6b6550ca	23
 manuscript/sections/ch08/08_01.tex	8.1	The failure that doesn't announce itself	024fee34efc980d53826baf8955a49b4560fc54f423cc8a0b68a8fe1c1ac13a8	24
 manuscript/sections/ch08/08_02.tex	8.2	Notice, and the public it forms	ab35a9b49a4073c2fb6940d712b9417882ab2b04f08f3f5d9037db9d80f100c9	25
@@ -80,9 +80,9 @@ manuscript/sections/ch17/17.tex	17	What a Refusal Would Have to Do	d5e7166beaa04
 manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	8977594a129606d45b914c0d0544e79193479e8da809e541dac14db579ebd7de	78
 manuscript/sections/ch17/17_02.tex	17.2	Safe for whom	bc97249c245f9e40dbdf851f3f065e60ad4488a104c35559908d64d426da28c9	79
 manuscript/sections/ch18/18.tex	18	Four Places to Hold a Floor	0203477b9264c6ddf4c5a47516557a2d88e61eaf09f8de281d838edf477c4c19	80
-manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	cf6b92b898ae170b57c4c5fb616c6d459f2489338b714ee68067102d03381bfb	81
+manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	3b49afc28601d70f157dbdcb6c0b1c2959bb4a856cd3d5f59eef17da403fe1c5	81
 manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	8958191a6403d666824a548fa6e11ed7998930b66b887b90d83683200e430737	82
-manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	521c90b08300c81dedb2c9dfa16be7fba17a7a83c7c44468ff5625b8c6cb183b	83
+manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	c6260ea1346a18f88c81f255b9bc496320f8614275e34b7f9240792c4f149236	83
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	b1467615a4d1b0c30629d566fe8c45a1412a3cb2648e2900d3b37c440c0c84fd	84
 manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	38e1ccea5bd806e0c799e30dc7544a892fcbec7c767ea6edf4ae4f1545213d00	85
 manuscript/sections/ch19/19_01.tex	19.1	The question	c70e823772c79f2b184e4ddb00d7b43066aad2714e5528f45b5d22b3df03e82c	86
@@ -123,7 +123,7 @@ manuscript/sections/ch24/24_05.tex	24.5	What the evidence can establish	8af101e1
 manuscript/sections/ch25/25.tex	25	Conditions First	485ddea87a605111b0604bb4b7cccb155b3bcc3962e6647a579050185341bb41	121
 manuscript/sections/ch26/00_part_V.tex			da77ce2114b4f314313c68356d38c5e1ef4a448a8413d16d5f1cd5e9bc6bd28b	122
 manuscript/sections/ch26/26.tex	26	Who Owns the Means of Computation	133752167dd8b6e1bd13698b69ecca4ffc3b50d3261bafcfb4cd73a04c6945f2	123
-manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	ab9d183b2de1742b0dabf5a1ccbea388fad0460cbc1135494e44c1f719f6ef1c	124
+manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	c7d412fc80bfaad2bd4048b83a39478f1d8f560df0d08bf0e098555242edc1d0	124
 manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	fdf71234f29ea00692c13fb608a719a3b69a458b0ee430089888ff7333bf19b3	125
 manuscript/sections/ch27/27.tex	27	Coordination, the Public, and the Political Economy	e54a4e10b0a2f06fc38530c34dc744b744e333d4001f1bd6c7cfe27ad95ece5b	126
 manuscript/sections/ch28/28.tex	28	Formation Schools	08fa210a53af91dcfea2684ab012fa2e9a38a0366293933a1c623dab611485fa	127
@@ -152,7 +152,7 @@ manuscript/sections/ch33/33_04.tex	33.4	A staged path	845fdfad2d8232549a2c8b1b53
 manuscript/sections/ch33/33_05.tex	33.5	What would have to be shown first	2fed5164fc43a216fa4137838f7564b9de4f5e1feab95469f95955d80788f2ac	150
 manuscript/sections/ch34/34.tex	34	The Officer, Again	31cbf72175b1ea7fea7a44058e7854e5db50e19c88a91e9bc9d3ce58eb98b840	151
 manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	152
-manuscript/sections/chA/A.tex	A	Terms Written in Advance	0986677052bea278512f5c1b0425787408606b13f44dcb8e0e56b8424c9a7346	153
+manuscript/sections/chA/A.tex	A	Terms Written in Advance	ff1aaec856291e09a5637dfa23359e1ec306aed9910874b9b60a6cb9553039c6	153
 manuscript/sections/chB/B.tex	B	The Court Program	86e8ec13ccf90486c0bd8787ac9f8b659a4a673374cfc303881c27380cfb214c	154
 manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	155
 manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	896598cf87c0561131f415d7cd379c29a8b40d4ef50e227ebafd179a1f32337f	156
