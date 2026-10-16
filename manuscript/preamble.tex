@@ -13,7 +13,15 @@
 % case that search does not skip comments -- which is not checkable from here.
 
 \usepackage{fontspec}
-\setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
+% The Ukrainian edition (manuscript/uk/book.tex defines \bookukrainian before it
+% inputs this file) needs Cyrillic, which Pagella lacks. P052 is URW's Palladio,
+% the face Pagella was made from, in the version that carries Cyrillic; it is a
+% system font here (urw-base35), not part of TeX Live.
+\ifdefined\bookukrainian
+  \setmainfont{P052}
+\else
+  \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
+\fi
 \usepackage{microtype}
 % The 2in side margins (D-774) leave a measure of about 4.3in, where justified
 % 11pt text otherwise overruns the margin some 200 times; emergency stretch lets
@@ -34,6 +42,8 @@
   \setlength{\LTleft}{-1in}\setlength{\LTright}{-1in}}
 \tcbuselibrary{breakable}   % the only library the box style needs
 \usepackage[english]{babel}
+% TeX Live carries Ukrainian for babel as a locale (.ini), not an option.
+\ifdefined\bookukrainian\babelprovide[import,main]{ukrainian}\fi
 \usepackage{textcomp}
 \usepackage{todonotes}
 % refs.bib uses \euro, which is not a base LaTeX macro. Everything else it
@@ -232,9 +242,16 @@
 
 % Breakable by default; a box that reads as one document, like the birth
 % record in chapter 31, opens with [unbreakable].
+% In the Ukrainian edition the boxes don't break across pages. Under LuaTeX a
+% hyperlink that falls on a breakable box's page break stops the build
+% ("'endlink' ended up in different nesting level than 'startlink'"); the new
+% face moved a citation in the box in 6.5 onto the break. The English book has
+% the same exposure, but no link falls on a break there now.
+\tcbset{esbreak/.style={breakable}}
+\ifdefined\bookukrainian\tcbset{esbreak/.style={}}\fi
 \newtcolorbox{esbox}[1][]{
   colback=black!3, colframe=black!35, boxrule=0.4pt, arc=1pt,
-  left=8pt, right=8pt, top=8pt, bottom=8pt, breakable,
+  left=8pt, right=8pt, top=8pt, bottom=8pt, esbreak,
   fontupper=\small,
   before upper={\setlength{\parskip}{0.5\baselineskip}%
                \setlength{\parindent}{0pt}},
@@ -325,6 +342,14 @@
 % \bookauthor, and calls \booktitlepage as the first thing after \frontmatter.
 % The book had no title page at all until 2026-08-25 (D-073); it opened on the
 % table of contents, so its own title appeared nowhere in the PDF.
+% The notice under the title. The Ukrainian edition supplies its own before it
+% inputs this file.
+\providecommand{\booklegal}{%
+     Copyright \textcopyright{} 2026 \bookauthor.\\
+     Licensed under CC BY-NC-ND 4.0.\\[0.4\baselineskip]
+     Third-party material quoted in this work, including the epigraphs,\\
+     remains the property of its rights holders and is reproduced under\\
+     fair use. The license above does not extend to it.}
 \newcommand{\booktitlepage}{%
   \begin{titlepage}
     \centering
@@ -335,12 +360,7 @@
     \vspace{3\baselineskip}
     {\large \bookauthor\par}
     \vfill
-    {\footnotesize
-     Copyright \textcopyright{} 2026 \bookauthor.\\
-     Licensed under CC BY-NC-ND 4.0.\\[0.4\baselineskip]
-     Third-party material quoted in this work, including the epigraphs,\\
-     remains the property of its rights holders and is reproduced under\\
-     fair use. The license above does not extend to it.\par}
+    {\footnotesize\booklegal\par}
     \ifdraftmode
       \vspace{1.2\baselineskip}
       {\footnotesize\color{black!55}\draftstatusline\par}
