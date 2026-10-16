@@ -28,7 +28,10 @@ pages=$(pdfinfo "$out/book.pdf" 2>/dev/null | awk '/^Pages:/{print $2}' || true)
 echo "built $out/book.pdf (${pages:-?} pages)"
 python3 "$repo/finishing/tools/uk_edition.py" --stale
 
-if grep -q "undefined" "$out/book.log"; then
+# Not a bare "undefined": P052 has no small caps, and the font warning that
+# says so would set this off on every build.
+pat="Reference .* undefined|Citation .* undefined|There were undefined"
+if grep -Eq "$pat" "$out/book.log"; then
   echo "WARNING: undefined references or citations:"
-  grep -n "undefined" "$out/book.log" | head -20
+  grep -En "$pat" "$out/book.log" | head -20
 fi
