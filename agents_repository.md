@@ -169,6 +169,14 @@ decides tone and editorial judgment in conversation.
   links at the new files; commit and push again. **Two commits**, so the work is
   legible in the first diff and the second carries only generated output.
   `finishing/pipeline.md` has the steps in full and the reason for each.
+  Translated editions (`manuscript/<code>/`) are not part of the plain phrase.
+  "Proofs please plus Ukrainian, French" adds the named editions; "proofs
+  please all languages" adds every one. For each, the agent first brings the
+  edition's stale translations up to date as drafts; a section it can't prints
+  in English, and the edition's title page names it. **"Settle chapter N"**,
+  for one edition or all, means translate that chapter as a draft and record
+  it; **"approve the glossary"**, whole or by term, sets those terms approved.
+  `finishing/pipeline.md` has the steps.
 - **Checking a reference.** Every in-text citation of a bibliography entry no
   human has checked prints on an orange highlight (D-641). When the author says
   an entry is checked, or unchecked, record it with

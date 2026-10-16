@@ -13,12 +13,13 @@
 % case that search does not skip comments -- which is not checkable from here.
 
 \usepackage{fontspec}
-% The Ukrainian edition (manuscript/uk/book.tex defines \bookukrainian before it
-% inputs this file) needs Cyrillic, which Pagella lacks. P052 is URW's Palladio,
-% the face Pagella was made from, in the version that carries Cyrillic; it is a
-% system font here (urw-base35), not part of TeX Live.
-\ifdefined\bookukrainian
-  \setmainfont{P052}
+% A translated edition (manuscript/<code>/book.tex, D-808) defines, before it
+% inputs this file, \booklanguage (the language its translated sections are
+% set under), and as its script needs them \booklocale (a babel locale to
+% load as the main language) and \bookmainfont (a face that covers the
+% script). The English book defines none of them.
+\ifdefined\bookmainfont
+  \setmainfont{\bookmainfont}
 \else
   \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
 \fi
@@ -42,8 +43,13 @@
   \setlength{\LTleft}{-1in}\setlength{\LTright}{-1in}}
 \tcbuselibrary{breakable}   % the only library the box style needs
 \usepackage[english]{babel}
-% TeX Live carries Ukrainian for babel as a locale (.ini), not an option.
-\ifdefined\bookukrainian\babelprovide[import,main]{ukrainian}\fi
+% An edition's language is loaded as a babel locale (.ini): TeX Live has no
+% babel option for Ukrainian. An edition whose script another package sets
+% (Chinese, by luatexja) loads no locale and sets its own captions; babel's
+% Chinese locale squeezes luatexja's full-width punctuation (D-810).
+\ifdefined\booklocale
+  \edef\afprovidelanguage{\noexpand\babelprovide[import,main]{\booklocale}}\afprovidelanguage
+\fi
 \usepackage{textcomp}
 \usepackage{todonotes}
 % refs.bib uses \euro, which is not a base LaTeX macro. Everything else it
@@ -242,13 +248,13 @@
 
 % Breakable by default; a box that reads as one document, like the birth
 % record in chapter 31, opens with [unbreakable].
-% In the Ukrainian edition the boxes don't break across pages. Under LuaTeX a
+% In a translated edition the boxes don't break across pages. Under LuaTeX a
 % hyperlink that falls on a breakable box's page break stops the build
 % ("'endlink' ended up in different nesting level than 'startlink'"); the new
 % face moved a citation in the box in 6.5 onto the break. The English book has
 % the same exposure, but no link falls on a break there now.
 \tcbset{esbreak/.style={breakable}}
-\ifdefined\bookukrainian\tcbset{esbreak/.style={}}\fi
+\ifdefined\booklanguage\tcbset{esbreak/.style={}}\fi
 \newtcolorbox{esbox}[1][]{
   colback=black!3, colframe=black!35, boxrule=0.4pt, arc=1pt,
   left=8pt, right=8pt, top=8pt, bottom=8pt, esbreak,

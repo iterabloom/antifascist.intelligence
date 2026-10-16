@@ -276,6 +276,33 @@ repository's own copy has one.
 
 ## "Make the proofs"
 
+**Translated editions** (D-808, D-810). Plain "proofs please" is the English
+alone. The author names editions to include them: "proofs please plus
+Ukrainian, Farsi, French" is `build_proof.sh --langs uk,fa,fr`, and "proofs
+please all languages" is `--all-languages`. For each named edition, before the
+first commit:
+
+- `finishing/tools/editions.py --lang CODE --stale` lists the sections whose
+  English has changed since they were translated; `--diff PATH` shows each
+  change word by word.
+- Bring each stale translation up to date: change the sentences the English
+  changed, nothing else, using the edition's glossary. Then
+  `editions.py --lang CODE --record PATH --status draft --by agent`. A section
+  a reviewer had passed goes back to `draft`, because the changed sentences are
+  unreviewed.
+- The DECISIONS row says which sections of which edition changed.
+- A section that can't be brought up to date in the run (a rewrite too large,
+  a term not yet settled) is left stale and reported. The edition prints it in
+  English, and its title page names it, so no edition prints a translation of
+  English that no longer exists.
+
+An English-only run touches no edition, and each edition's proof keeps its own
+date until a run names it. Two related phrases: **"settle chapter N"** (in an
+edition, or in all of them) means translate that chapter as a draft, add the
+terms it needs to the glossary as `proposed`, and record it; the next run that
+names the edition publishes it. **"Approve the glossary"** (all of it, or named
+terms) sets those terms to `approved`.
+
 An author's phrase — "make the proofs," "do the proofs," or any near variant —
 that names a fixed sequence, not just a build. It means all of this, in order:
 
@@ -284,7 +311,8 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    committing it if it is more than the work just discussed — "everything" is
    the instruction, and a surprise in the diff is the author's to catch, not
    mine to swallow.
-2. **Run `finishing/tools/build_proof.sh`.** Both formats, one date.
+2. **Run `finishing/tools/build_proof.sh`.** Both formats, one date. The
+   English alone, unless the author names editions (below).
 3. **Remove the previous dated pair** if the date has rolled over. The script
    prints the `git rm` lines; the proof is one pair replaced, not a series.
    **Rolled over in local time**, which is what `build_proof.sh` names files by
@@ -294,8 +322,8 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    Checking `date -u` and concluding the pair needs renaming is a mistake this
    file now records because it was made. Read `date`, not `date -u`.
 4. **Point the README's links at the new files.** Both of them, in the "Read the
-   book" line under the subtitle, and the Ukrainian edition's link in the line
-   after it (D-808). A link to a proof that is no longer there is
+   book" line under the subtitle, and, for each edition built this run, its line
+   after that, with its date. A link to a proof that is no longer there is
    worse than no link.
 5. **Commit the proofs and the README, and push again.** Two commits, not one:
    the work is legible in the first, and the second is generated output.

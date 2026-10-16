@@ -13,16 +13,19 @@ once the author calls its English settled.
   date against), its status (`draft` or `reviewed`), who did it, and when.
 - `glossary.tsv`: the book's terms of art and the Ukrainian chosen for each,
   `proposed` until the author approves it. Draft against approved terms only.
-- `book.tex`: the edition's master. `sections.tex` is generated; don't edit it.
+- `book.tex`: the edition's master. `sections.tex` and `status.tex` are
+  generated; don't edit them. A stale translation prints in English, and
+  `status.tex` names it on the title page.
 
 Commands:
 
-- `finishing/tools/uk_edition.py --record PATH --status draft --by WHO`, after
+- `finishing/tools/editions.py --lang uk --record PATH --status draft --by WHO`, after
   writing or updating the translation of English section `PATH`.
-- `finishing/tools/uk_edition.py --stale` lists translations whose English has
-  changed since they were made. `check_all.sh` runs `--check`, which lists the
-  stale ones too but does not fail on them.
-- `finishing/tools/build_tex_uk.sh` builds `/tmp/es-build-uk/book.pdf`. Any
+- `finishing/tools/editions.py --lang uk --stale` lists translations whose
+  English has changed since they were made, and `--diff PATH` shows what
+  changed. `check_all.sh` runs `editions.py --check`, which lists the stale ones
+  too but does not fail on them.
+- `finishing/tools/build_edition.sh uk` builds `/tmp/es-build-uk/book.pdf`. Any
   section not yet translated is set in English in its place.
 
 Conventions:

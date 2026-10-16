@@ -13,7 +13,7 @@ run "labels are unique, and no pinned number collides" python3 finishing/tools/c
 run "typography: quotes and dashes are the characters" python3 finishing/tools/check_typography.py
 run "named-persons guard" python3 finishing/tools/names_guard.py
 run "bibliography ledger, and the draft-status macros it generates" python3 finishing/tools/refs_ledger.py --check
-run "Ukrainian edition: record, labels, glossary, section list (stale listed)" python3 finishing/tools/uk_edition.py --check
+run "translated editions: record, labels, glossary, generated files (stale listed)" python3 finishing/tools/editions.py --check
 echo
 [ "$fail" = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit "$fail"
