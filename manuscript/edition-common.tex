@@ -1,0 +1,41 @@
+% edition-common.tex -- shared by every translated edition
+% (manuscript/<code>/book.tex, D-808, D-811), input after the preamble and the
+% edition's own script setup. Hand-edited.
+%
+% Untranslated and stale sections are set under \selectlanguage{english}.
+% Where the edition loads a babel locale, the English captions are pointed at
+% the locale's, so those sections' chapter heads, the contents and the
+% bibliography still take the edition's language.
+\ifdefined\booklocale
+  \AtBeginDocument{\expandafter\let\expandafter\captionsenglish
+    \csname captions\booklocale\endcsname}
+\fi
+% The draft-status footer is English; in an edition with a babel locale it is
+% set as English, or a right-to-left locale sets it right to left and the
+% Arabic-script ones lose its hyphens to an empty glyph.
+\ifdefined\booklocale
+  \let\afedstatusline\draftstatusline
+  \renewcommand{\draftstatusline}{\foreignlanguage{english}{\afedstatusline}}
+\fi
+% The bibliography's note fields are English prose, some of it a paragraph
+% long, and the preamble prints them at the end of every full citation (it
+% saves each into \af@note, D-773). Until they are translated an edition drops
+% the saved note, so its footnotes carry the citation alone.
+\makeatletter\AtEveryCitekey{\undef\af@note}\makeatother
+% An edition that loads no babel locale (Chinese, Japanese, Korean; babel's
+% locales there fight the CJK typesetting) sets its own heads: \edchapnum,
+% \edappnum and \edpartnum, defined in its book.tex, replace the class's
+% "Chapter 1", "Appendix A" and "Part I".
+\ifdefined\edchapnum
+  \makeatletter
+  % After \appendix the class sets \@chapapp to expand to \appendixname.
+  \def\af@edappapp{\appendixname}
+  \patchcmd{\@makechapterhead}{\@chapapp\space \thechapter}%
+    {\ifx\@chapapp\af@edappapp\edappnum\else\edchapnum\fi}{}%
+    {\PackageError{edition}{chapter head not patched}{}}
+  % hyperref wraps \@part as \H@old@part and nameref wraps that in turn,
+  % keeping the class's own as \NR@part.
+  \patchcmd{\NR@part}{\partname\nobreakspace\thepart}{\edpartnum}{}%
+    {\PackageError{edition}{part head not patched}{}}
+  \makeatother
+\fi

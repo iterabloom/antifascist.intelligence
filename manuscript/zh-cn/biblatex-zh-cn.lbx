@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-zh-cn.lbx}[2026/10/16 Simplified Chinese (mainland) strings for Antifascist Intelligence]
+% biblatex ships no Simplified Chinese (mainland) strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 2025年5月8日.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}年}%
+    \iffieldundef{#2}{}{\stripzeros{\thefield{#2}}月}%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}日}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}年}%
+    \iffieldundef{#2}{}{\stripzeros{\thefield{#2}}月}%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}日}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{与}{与}},
+  andothers        = {{等}{等}},
+  andmore          = {{等}{等}},
+  editor           = {{编者}{编}},
+  editors          = {{编者}{编}},
+  translator       = {{译者}{译}},
+  translators      = {{译者}{译}},
+  byeditor         = {{编者}{编}},
+  bytranslator     = {{译者}{译}},
+  in               = {{收录于}{收录于}},
+  volume           = {{卷}{卷}},
+  volumes          = {{卷}{卷}},
+  number           = {{期}{期}},
+  edition          = {{版}{版}},
+  chapter          = {{章}{章}},
+  page             = {{页}{页}},
+  pages            = {{页}{页}},
+  nodate           = {{无日期}{无日期}},
+  url              = {{网址}{网址}},
+  urlseen          = {{浏览于}{浏览于}},
+  phdthesis        = {{博士论文}{博士论文}},
+  mathesis         = {{硕士论文}{硕士论文}},
+  techreport       = {{技术报告}{技术报告}},
+  january          = {{1月}{1月}},
+  february         = {{2月}{2月}},
+  march            = {{3月}{3月}},
+  april            = {{4月}{4月}},
+  may              = {{5月}{5月}},
+  june             = {{6月}{6月}},
+  july             = {{7月}{7月}},
+  august           = {{8月}{8月}},
+  september        = {{9月}{9月}},
+  october          = {{10月}{10月}},
+  november         = {{11月}{11月}},
+  december         = {{12月}{12月}},
+}
+\endinput

@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-hi.lbx}[2026/10/16 Hindi strings for Antifascist Intelligence]
+% biblatex ships no Hindi strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 26 September 2026, in the language's month names.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{और}{और}},
+  andothers        = {{एवं अन्य}{आदि}},
+  andmore          = {{एवं अन्य}{आदि}},
+  editor           = {{संपादक}{सं.}},
+  editors          = {{संपादक}{सं.}},
+  translator       = {{अनुवादक}{अनु.}},
+  translators      = {{अनुवादक}{अनु.}},
+  byeditor         = {{संपादन}{सं.}},
+  bytranslator     = {{अनुवाद}{अनु.}},
+  in               = {{संकलन}{संकलन}},
+  volume           = {{खंड}{खं.}},
+  volumes          = {{खंड}{खं.}},
+  number           = {{अंक}{अं.}},
+  edition          = {{संस्करण}{सं.}},
+  chapter          = {{अध्याय}{अ.}},
+  page             = {{पृष्ठ}{पृ.}},
+  pages            = {{पृष्ठ}{पृ.}},
+  nodate           = {{तिथि अज्ञात}{ति. अ.}},
+  url              = {{यूआरएल}{यूआरएल}},
+  urlseen          = {{देखा गया}{देखा गया}},
+  phdthesis        = {{पीएच.डी. शोध-प्रबंध}{पीएच.डी. शोध-प्रबंध}},
+  mathesis         = {{एम.ए. शोध-प्रबंध}{एम.ए. शोध-प्रबंध}},
+  techreport       = {{तकनीकी रिपोर्ट}{तकनीकी रिपोर्ट}},
+  january          = {{जनवरी}{जनवरी}},
+  february         = {{फ़रवरी}{फ़रवरी}},
+  march            = {{मार्च}{मार्च}},
+  april            = {{अप्रैल}{अप्रैल}},
+  may              = {{मई}{मई}},
+  june             = {{जून}{जून}},
+  july             = {{जुलाई}{जुलाई}},
+  august           = {{अगस्त}{अगस्त}},
+  september        = {{सितंबर}{सितंबर}},
+  october          = {{अक्टूबर}{अक्टूबर}},
+  november         = {{नवंबर}{नवंबर}},
+  december         = {{दिसंबर}{दिसंबर}},
+}
+\endinput

@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-he.lbx}[2026/10/16 Hebrew strings for Antifascist Intelligence]
+% biblatex ships no Hebrew strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 26 בספטמבר 2026.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space ב}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space ב}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{ו}{ו}},
+  andothers        = {{ואחרים}{ואח׳}},
+  andmore          = {{ואחרים}{ואח׳}},
+  editor           = {{עורך}{עורך}},
+  editors          = {{עורכים}{עורכים}},
+  translator       = {{מתרגם}{מתרגם}},
+  translators      = {{מתרגמים}{מתרגמים}},
+  byeditor         = {{בעריכת}{בעריכת}},
+  bytranslator     = {{בתרגום}{בתרגום}},
+  in               = {{בתוך}{בתוך}},
+  volume           = {{כרך}{כרך}},
+  volumes          = {{כרכים}{כרכים}},
+  number           = {{גיליון}{גיל׳}},
+  edition          = {{מהדורה}{מהד׳}},
+  chapter          = {{פרק}{פרק}},
+  page             = {{עמוד}{עמ׳}},
+  pages            = {{עמודים}{עמ׳}},
+  nodate           = {{ללא תאריך}{ללא תאריך}},
+  url              = {{כתובת}{כתובת}},
+  urlseen          = {{נצפה}{נצפה}},
+  phdthesis        = {{עבודת דוקטורט}{עבודת דוקטורט}},
+  mathesis         = {{עבודת מוסמך}{עבודת מוסמך}},
+  techreport       = {{דוח טכני}{דוח טכני}},
+  january          = {{ינואר}{ינואר}},
+  february         = {{פברואר}{פברואר}},
+  march            = {{מרץ}{מרץ}},
+  april            = {{אפריל}{אפריל}},
+  may              = {{מאי}{מאי}},
+  june             = {{יוני}{יוני}},
+  july             = {{יולי}{יולי}},
+  august           = {{אוגוסט}{אוגוסט}},
+  september        = {{ספטמבר}{ספטמבר}},
+  october          = {{אוקטובר}{אוקטובר}},
+  november         = {{נובמבר}{נובמבר}},
+  december         = {{דצמבר}{דצמבר}},
+}
+\endinput

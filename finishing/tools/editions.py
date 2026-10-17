@@ -178,8 +178,10 @@ def check(code, order, record):
         else:
             seen = set()
             for g in rows:
-                if g["status"] not in ("proposed", "approved"):
+                if g["status"] not in ("open", "proposed", "approved"):
                     errors.append("glossary.tsv: %r has status %r" % (g["en"], g["status"]))
+                if g["status"] != "open" and not g[code]:
+                    errors.append("glossary.tsv: %r is %s with no translation" % (g["en"], g["status"]))
                 if g["en"] in seen:
                     errors.append("glossary.tsv: %r listed twice" % g["en"])
                 seen.add(g["en"])

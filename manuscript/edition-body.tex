@@ -1,0 +1,15 @@
+% edition-body.tex -- the document of every translated edition, input last by
+% manuscript/<code>/book.tex, which defines \bookcode and \bookreferences.
+% Hand-edited. The English book's own document is in book.tex.
+\begin{document}
+\bookcover
+\frontmatter
+\booktitlepage
+\tableofcontents
+
+\mainmatter
+\input{\bookcode/sections}
+
+\backmatter
+\printbibliography[heading=bibintoc,title={\bookreferences}]
+\end{document}

@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-sw.lbx}[2026/10/16 Swahili strings for Antifascist Intelligence]
+% biblatex ships no Swahili strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 26 September 2026, in the language's month names.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{na}{na}},
+  andothers        = {{na wengine}{na wengine}},
+  andmore          = {{na wengine}{na wengine}},
+  editor           = {{mhariri}{mhar.}},
+  editors          = {{wahariri}{wahar.}},
+  translator       = {{mfasiri}{mfas.}},
+  translators      = {{wafasiri}{wafas.}},
+  byeditor         = {{imehaririwa na}{imehar. na}},
+  bytranslator     = {{imetafsiriwa na}{imetafs. na}},
+  in               = {{katika}{katika}},
+  volume           = {{juzuu}{juz.}},
+  volumes          = {{juzuu}{juz.}},
+  number           = {{namba}{Na.}},
+  edition          = {{toleo}{tol.}},
+  chapter          = {{sura}{sura}},
+  page             = {{ukurasa}{uk.}},
+  pages            = {{kurasa}{uk.}},
+  nodate           = {{bila tarehe}{b.t.}},
+  url              = {{anwani}{anwani}},
+  urlseen          = {{ilitazamwa}{ilitazamwa}},
+  phdthesis        = {{tasnifu ya uzamivu}{tasnifu ya uzamivu}},
+  mathesis         = {{tasnifu ya uzamili}{tasnifu ya uzamili}},
+  techreport       = {{ripoti ya kiufundi}{ripoti ya kiufundi}},
+  january          = {{Januari}{Januari}},
+  february         = {{Februari}{Februari}},
+  march            = {{Machi}{Machi}},
+  april            = {{Aprili}{Aprili}},
+  may              = {{Mei}{Mei}},
+  june             = {{Juni}{Juni}},
+  july             = {{Julai}{Julai}},
+  august           = {{Agosti}{Agosti}},
+  september        = {{Septemba}{Septemba}},
+  october          = {{Oktoba}{Oktoba}},
+  november         = {{Novemba}{Novemba}},
+  december         = {{Desemba}{Desemba}},
+}
+\endinput

@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-ko.lbx}[2026/10/16 Korean strings for Antifascist Intelligence]
+% biblatex ships no Korean strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 2025년 5월 8일.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}년}%
+    \iffieldundef{#2}{}{\space\stripzeros{\thefield{#2}}월}%
+    \iffieldundef{#3}{}{\space\stripzeros{\thefield{#3}}일}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}년}%
+    \iffieldundef{#2}{}{\space\stripzeros{\thefield{#2}}월}%
+    \iffieldundef{#3}{}{\space\stripzeros{\thefield{#3}}일}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{및}{및}},
+  andothers        = {{외}{외}},
+  andmore          = {{외}{외}},
+  editor           = {{편집자}{편}},
+  editors          = {{편집자}{편}},
+  translator       = {{역자}{역}},
+  translators      = {{역자}{역}},
+  byeditor         = {{편집}{편}},
+  bytranslator     = {{번역}{역}},
+  in               = {{수록}{수록}},
+  volume           = {{권}{권}},
+  volumes          = {{권}{권}},
+  number           = {{호}{호}},
+  edition          = {{판}{판}},
+  chapter          = {{장}{장}},
+  page             = {{쪽}{쪽}},
+  pages            = {{쪽}{쪽}},
+  nodate           = {{날짜 없음}{날짜 없음}},
+  url              = {{URL}{URL}},
+  urlseen          = {{접속}{접속}},
+  phdthesis        = {{박사학위논문}{박사학위논문}},
+  mathesis         = {{석사학위논문}{석사학위논문}},
+  techreport       = {{기술 보고서}{기술 보고서}},
+  january          = {{1월}{1월}},
+  february         = {{2월}{2월}},
+  march            = {{3월}{3월}},
+  april            = {{4월}{4월}},
+  may              = {{5월}{5월}},
+  june             = {{6월}{6월}},
+  july             = {{7월}{7월}},
+  august           = {{8월}{8월}},
+  september        = {{9월}{9월}},
+  october          = {{10월}{10월}},
+  november         = {{11월}{11월}},
+  december         = {{12월}{12월}},
+}
+\endinput

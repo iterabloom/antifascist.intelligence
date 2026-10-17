@@ -1,0 +1,57 @@
+\ProvidesFile{biblatex-ar.lbx}[2026/10/16 Arabic strings for Antifascist Intelligence]
+% biblatex ships no Arabic strings. These cover what the book's verbose style
+% prints (D-811); every other string falls back to English. Drafts by a
+% language model, not yet reviewed by a native reader. Dates print as
+% 26 September 2026, in the language's month names.
+\InheritBibliographyExtras{english}
+\DeclareBibliographyExtras{%
+  \def\finalandcomma{}%
+  \def\finalandsemicolon{}%
+  \protected\def\mkbibdatelong#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+  \protected\def\mkbibdateshort#1#2#3{%
+    \iffieldundef{#3}{}{\stripzeros{\thefield{#3}}\space}%
+    \iffieldundef{#2}{}{\mkbibmonth{\thefield{#2}}\iffieldundef{#1}{}{\space}}%
+    \iffieldundef{#1}{}{\stripzeros{\thefield{#1}}}}%
+}
+\DeclareBibliographyStrings{%
+  inherit          = {english},
+  and              = {{و}{و}},
+  andothers        = {{وآخرون}{وآخرون}},
+  andmore          = {{وآخرون}{وآخرون}},
+  editor           = {{محرر}{محرر}},
+  editors          = {{محررون}{محررون}},
+  translator       = {{مترجم}{مترجم}},
+  translators      = {{مترجمون}{مترجمون}},
+  byeditor         = {{تحرير}{تحرير}},
+  bytranslator     = {{ترجمة}{ترجمة}},
+  in               = {{في}{في}},
+  volume           = {{المجلد}{مج.}},
+  volumes          = {{المجلدات}{مج.}},
+  number           = {{العدد}{ع.}},
+  edition          = {{الطبعة}{ط.}},
+  chapter          = {{الفصل}{ف.}},
+  page             = {{صفحة}{ص.}},
+  pages            = {{صفحات}{ص.}},
+  nodate           = {{بدون تاريخ}{د.ت.}},
+  url              = {{الرابط}{الرابط}},
+  urlseen          = {{تاريخ الاطلاع}{تاريخ الاطلاع}},
+  phdthesis        = {{أطروحة دكتوراه}{أطروحة دكتوراه}},
+  mathesis         = {{رسالة ماجستير}{رسالة ماجستير}},
+  techreport       = {{تقرير تقني}{تقرير تقني}},
+  january          = {{يناير}{يناير}},
+  february         = {{فبراير}{فبراير}},
+  march            = {{مارس}{مارس}},
+  april            = {{أبريل}{أبريل}},
+  may              = {{مايو}{مايو}},
+  june             = {{يونيو}{يونيو}},
+  july             = {{يوليو}{يوليو}},
+  august           = {{أغسطس}{أغسطس}},
+  september        = {{سبتمبر}{سبتمبر}},
+  october          = {{أكتوبر}{أكتوبر}},
+  november         = {{نوفمبر}{نوفمبر}},
+  december         = {{ديسمبر}{ديسمبر}},
+}
+\endinput
