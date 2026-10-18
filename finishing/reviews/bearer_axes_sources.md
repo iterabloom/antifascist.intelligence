@@ -37,7 +37,7 @@ author's two additions, §9.1 and chapters 1 and 5, are at the end.
 - **Boundary model**: §19.2, §21.1 (the rock and the living thing; adaptivity), §21.2.1 (where the system ends), §31.3.
 - **Attention schema**: §21.2.1 (self-awareness without a homunculus), §31.3, glossary.
 
-The one cross-axis line, authorship to attention schema, is §21.2.1: the schema depicts attention as what decides and acts, which is part of what makes an act the system's own, so a bearer can't do without it.
+The one cross-axis line ran from authorship to the attention schema in the figure's first version (D-894), on §21.2.1's claim as it then stood: the schema depicts attention as what decides and acts, which is part of what makes an act the system's own, so a bearer can't do without it. Since D-898 it runs from authorship to the boundary model. §21.2.1 now locates an act's being the system's own in the boundary model (its channels for acting) together with authorship, and gives the attention schema to formed attention as what directs its looking, on Graziano's own account of what the schema is for: without one, attention still lands on an item, and directing it elsewhere mostly fails (Graziano 2022, the evidence section). The boundary model box reads "makes damage and acts its own" and the attention schema box "directs formed attention"; figure 30.1's right column follows, with the schema marked "not every bearer's". The sentence tying the act's ownership to the schema was the author's inference, not Graziano's, whose theory disclaims decision and action; the step was checked against Graziano 2022 and Wilterson and Graziano 2021 on 2026-10-18.
 
 ### The author's additions
 
