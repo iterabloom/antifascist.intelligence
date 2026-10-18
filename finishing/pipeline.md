@@ -419,8 +419,8 @@ fallback. Everything else it uses (`\url \S \i \emph \c \v \textsection \L`) is
 standard.
 
 **tex4ht turns anything it cannot set as text into an image.** The book has
-two such things on purpose: figures 17.1 and 24.1, at the ends of §17.1 and
-§24.5, are TikZ (D-895, D-894). tex4ht writes each to an SVG through dvisvgm,
+three such things on purpose: figures 17.1, 24.1 and 30.1, at the ends of
+§17.1 and §24.5 and beside Table 30.1, are TikZ (D-895, D-894, D-896). tex4ht writes each to an SVG through dvisvgm,
 and `html_single_file.py` embeds the SVG as a data URI, with the figure's
 caption as its alt text. `build_html.sh`
 counts the image requests (`--- needs ---` in `book.lg`) and fails unless they
