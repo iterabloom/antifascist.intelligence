@@ -171,20 +171,39 @@ def main() -> int:
     lines = [ln.rstrip() for ln in html.split("\n")]
     html = "\n".join(ln for ln in lines if ln) + "\n"
 
-    # The cover (\bookcover) is the book's one image. tex4ht writes its path as
-    # given to \includegraphics, relative to manuscript/, where make4ht runs;
-    # it is embedded as a data URI so the page stays one file.
+    # A figure's picture gets its caption as alt text; tex4ht writes
+    # '[Picture]', which says nothing to a reader who can't see it. The SVG
+    # sets its words as outlines, so the caption is also the only part of a
+    # figure that ctrl-F finds.
+    def figure_alt(m):
+        caption = re.sub(r"<[^>]+>", "", m.group(3)).strip()
+        caption = caption.replace("'", "&#39;")
+        return m.group(1) + f"alt='{caption}'" + m.group(2) + m.group(3)
+    html = re.sub(r"(<figure\b.*?<img\b[^>]*?)alt='\[Picture\]'(.*?<figcaption[^>]*>)(.*?)(?=</figcaption>)",
+                  figure_alt, html, flags=re.S)
+
+    # Images are embedded as data URIs so the page stays one file. The cover
+    # (\bookcover) is a PNG whose path tex4ht writes as given to
+    # \includegraphics, relative to manuscript/, where make4ht runs. A figure
+    # is TikZ, which tex4ht writes to an SVG in the build directory (D-894).
     manuscript = Path(__file__).resolve().parents[2] / "manuscript"
     n_images = 0
     def embed(m):
         nonlocal n_images
-        src = m.group(1)
-        path = (manuscript / src).resolve()
-        mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg"}.get(path.suffix.lower())
+        tag, src = m.group(0), m.group(1)
+        path = (build / src) if (build / src).is_file() else (manuscript / src).resolve()
+        mime = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg",
+                ".svg": "image/svg+xml"}.get(path.suffix.lower())
         if mime is None or not path.is_file():
-            return m.group(0)
+            return tag
         n_images += 1
         data = base64.b64encode(path.read_bytes()).decode("ascii")
+        if mime == "image/svg+xml":
+            # Drawn wider than the measure, into the PDF's margins; in a
+            # browser it is scaled down to the text's width when it must be.
+            alt = re.search(r"alt='([^']*)'", tag)
+            return (f"<img alt='{alt.group(1) if alt else ''}' src='data:{mime};base64,{data}' "
+                    f"style='display:block; max-width:100%; height:auto; margin:0 auto' />")
         # tex4ht can't read a PNG's size and writes a square 308x308; the
         # browser is given the image's own proportions at the text's width.
         return (f"<img alt='Cover art' src='data:{mime};base64,{data}' "
@@ -214,7 +233,7 @@ def main() -> int:
     out.write_text(html, encoding="utf-8")
     note = f"{len(html):,} bytes, {n_links} citation links made relative"
     if n_images:
-        note += f", {n_images} image embedded"
+        note += f", {n_images} image{'s' if n_images != 1 else ''} embedded"
     if n_empty:
         note += f", {n_empty} empty anchor dropped"
     if dropped:

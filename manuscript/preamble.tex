@@ -328,6 +328,10 @@
 % html_single_file.py embeds in the page.
 \usepackage{graphicx}
 \usepackage{eso-pic}
+% The one figure, at the end of the evidence chapter (D-894), is TikZ, which
+% todonotes already loads: the PDF sets it in the book's own type, and tex4ht
+% writes it to SVG through dvisvgm for html_single_file.py to embed.
+\usetikzlibrary{arrows.meta,fit}
 \newcommand{\bookcoverfile}{../cover_cropped.png}
 \newcommand{\bookcover}{%
   \ifdefined\HCode

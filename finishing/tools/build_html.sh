@@ -45,11 +45,16 @@ if grep -q "undefined" "$build/book.log"; then
   echo "WARNING: undefined references or citations:"
   grep -n "undefined" "$build/book.log" | head -20
 fi
-# tex4ht rasterizes anything it cannot set as text, which a single file cannot
-# carry. Nothing in this book needs it, so a request here means something new
-# was written that tex4ht does not understand -- see pipeline.md.
-if grep -q -- "--- needs ---" "$build/book.lg"; then
-  echo "tex4ht wants to make an image, which the single-file page cannot hold:"
+# tex4ht turns anything it cannot set as text into an image. The book's
+# figures are TikZ, which it writes to SVG through dvisvgm, and
+# html_single_file.py embeds those (D-894). Any other request means something
+# new was written that tex4ht does not understand -- see pipeline.md -- so the
+# requests have to number exactly the tikzpictures in the manuscript, and every
+# one has to be an SVG.
+needs=$(grep -c -- "--- needs ---" "$build/book.lg" || true)
+pictures=$(cat "$repo"/manuscript/sections/*/*.tex | grep -c '\\begin{tikzpicture}' || true)
+if [ "$needs" != "$pictures" ] || grep -- "--- needs ---" "$build/book.lg" | grep -qv '\.svg ---$'; then
+  echo "tex4ht asked for $needs image(s); the manuscript has $pictures tikzpicture(s):"
   grep -- "--- needs ---" "$build/book.lg"; exit 1
 fi
 

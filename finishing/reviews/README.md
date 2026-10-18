@@ -30,6 +30,9 @@ these files are the input, not the verdict.
 | `author-discussion_2026-09-12.md` | The device a seventh time, at 2,140 lines: one review of the whole manuscript and twenty-five author turns that leave it, from a language model shown `07ccef5`, 2026-09-12. Not a review in the numbered series, and mostly not about the book — see below | P192 — `p192-scope.md` |
 | `author-discussion_2026-09-24.txt` | The device an eighth time and the shortest, at 148 lines: four author turns on one section of the condensed reworking (chapter 16, *The machines won't build them for us*) and a language model's answers, 2026-09-24. Not a review — see below | D-533 |
 | `author-discussion_2026-10-05.txt` | The device a ninth time, at 374 lines: one review of the whole manuscript for reader-friendliness and six author turns after it, from a language model shown the manuscript at `b158c12`, the first state after the chapter 4 split, 2026-10-05. Not a review in the numbered series — see below | Not yet answered |
+| `bearer_agency_affect_axes_revised.svg` | A diagram of a bearer's agency and affect axes, supplied by the author 2026-10-18. Not a review: the source drawing for figure 24.1, which redraws it in TikZ with labels corrected to the text | D-894; `bearer_axes_sources.md` |
+| `bearer_axes_skeptic_cuts.svg` | The same diagram with a skeptic's proposed cuts marked, supplied by the author 2026-10-18. A review record; not in the book | Not yet answered |
+| `bearer_axes_sources.md` | The author's map of where each box of figure 24.1 is argued, 2026-10-18, with what was checked against the text and how the figure departs from the drawing. Written here, not received | D-894 |
 
 Files are named for the pass that answered them, not by review number, because
 the numbering has a gap (below). Date suffixes are the source files' own

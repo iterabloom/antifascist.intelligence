@@ -112,6 +112,7 @@ NOTES = {"queue": None, "next": 0, "truncate": None}
 
 # \part numbers, counted in reading order as LaTeX counts them.
 PARTS = {"n": 0}
+FIGURES = {}  # chapter number -> figures so far, for "Figure 24.1"
 ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
 # Escaped characters, restored to themselves.
@@ -618,6 +619,25 @@ def render(path, nums, root, labels):
             PARTS["n"] += 1
             out += ["", "# Part %s — %s" % (ROMAN[PARTS["n"] - 1],
                                            inline(m.group(1), labels).strip()), ""]
+            continue
+
+        # A figure (D-894) is TikZ, which Markdown can't draw. Its picture is
+        # skipped, with the scaffolding around it, and its caption is printed
+        # with the figure's number, as the book prints it: the chapter's
+        # number and the figure's place in the chapter.
+        # The \def and \makebox before it end in %, so the comment handling
+        # above has already joined them to the \begin line.
+        if "\\begin{tikzpicture}" in line:
+            while i < len(lines) and not lines[i].startswith("\\end{tikzpicture}"):
+                i += 1
+            i += 1
+            continue
+        if line.startswith("\\caption{"):
+            body = line[len("\\caption{"):_matching_brace(line, 0) - 1]
+            chap = (list(nums) or ["?"])[0].split(".")[0]
+            FIGURES[chap] = FIGURES.get(chap, 0) + 1
+            out += ["", "**Figure %s.%d.** %s *(A diagram, drawn in the PDF and the HTML.)*"
+                    % (chap, FIGURES[chap], inline(body, labels).strip()), ""]
             continue
 
         m = re.match(r"\\begin\{(\w+)\}", line)

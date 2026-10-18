@@ -418,13 +418,31 @@ Seven titles carried one of these; all seven now read correctly in both builds.
 fallback. Everything else it uses (`\url \S \i \emph \c \v \textsection \L`) is
 standard.
 
-**tex4ht rasterizes anything it cannot set as text**, and the single-file page
-cannot carry an image, so `build_html.sh` fails on any such request rather than
-writing a page with a hole in it. There are none in the book as it stands: no
-mathematics, no diagrams, and the box, verse, and list environments all convert
-to markup. A request appearing here means something new was written that tex4ht
-does not understand — read the `--- needs ---` line it prints, which names the
-page of the intermediate `.idv` file, not the page of the book.
+**tex4ht turns anything it cannot set as text into an image.** The book has
+one such thing on purpose: figure 24.1, at the end of §24.5, is TikZ (D-894).
+tex4ht writes it to an SVG through dvisvgm, and `html_single_file.py` embeds the
+SVG as a data URI, with the figure's caption as its alt text. `build_html.sh`
+counts the image requests (`--- needs ---` in `book.lg`) and fails unless they
+equal the `tikzpicture`s in the manuscript and every one is an SVG. A request
+beyond that count means something new was written that tex4ht does not
+understand. Read the `--- needs ---` line it prints, which names the page of the
+intermediate `.idv` file, not the page of the book.
+
+Four things about a figure that a green build doesn't show:
+
+- **Words in the SVG are outlines.** The words of the picture don't respond to
+  ctrl-F in the HTML, and only the caption does.
+- **Characters the HTML build's fonts lack print as "x".** That covers `·`, `†`
+  and `–` set inside the picture. Write `\textperiodcentered`, `\dag` and
+  `\textendash` there.
+- **No `\textsuperscript` inside a node.** Once the book has used it (§13.5
+  does), a later one inside a `tikzpicture` stops TikZ's path parser with
+  "Giving up on this path".
+- **Don't write `--` inside a path.** The typography check reads it as an ASCII
+  en dash. Write `to`, which draws the same segment.
+
+The Markdown export prints the caption with the figure's number and skips the
+picture.
 
 **Look at the proof.** The build succeeding says nothing about whether the page
 is right. Two defects in the first successful build were visible only in a
