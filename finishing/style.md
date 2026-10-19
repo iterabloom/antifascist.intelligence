@@ -323,7 +323,10 @@ and the rest is support.
 note words per chapter, headings, note markers and citation keys left out. The
 baseline before the move, from `ad9effa1`, is 103,320 main-text words before
 the appendices (D-906). Where a chapter's opening, rules and scene alone exceed
-a fifth, the chapter keeps them and the record says so.
+a fifth, the chapter keeps them and the record says so. Pass 223 (D-916) moves
+the argument-bearing notes back into the body, only those the author's
+distillation names, with `promote.py`, which restores a note as the text stood
+before the pass merged; `p223-scope.md` carries the count after each round.
 
 ## 6. Citations (D-009)
 

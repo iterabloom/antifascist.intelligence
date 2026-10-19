@@ -465,7 +465,11 @@ of that page over to the next, so a nested note can follow its mark by a page.
 `\autocites` is not used inside a note; write `\autocite`. tex4ht has not been
 taught the nesting: the HTML proof may set those notes wrongly or fail, and
 that stands until someone needs the HTML; the Markdown is read with `--keys`.
-`render_markdown.py --check --keys --chapters` is the spine's measure.
+`render_markdown.py --check --keys --chapters` is the spine's measure. A note
+comes back into the body with `finishing/tools/promote.py N`, named by the
+number the default render gives it, as the text stood before the pass merged
+(D-916); `--map` lists the numbers and checks them against a render's notes
+file first.
 
 **Look at the proof.** The build succeeding says nothing about whether the page
 is right. Two defects in the first successful build were visible only in a

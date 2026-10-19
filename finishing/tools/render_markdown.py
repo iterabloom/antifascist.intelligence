@@ -255,6 +255,26 @@ def take_note(keys, what, text):
     return segs
 
 
+def take_own_note(inner):
+    """Under an HTML build, a note's own footnote, which comes before the
+    footnotes of its citations (D-906).
+
+    The preamble sets a citation or a footnote inside a note as the next
+    footnote in the series, so the build's footnote for the note cites
+    nothing, and what it holds comes after it, in the order the sources hold
+    it. The note's text is rendered from the sources, as in --keys, and its
+    citations take the build's footnotes that follow. A note is matched by
+    position, so its opening words, up to the first command, are checked
+    against the build's."""
+    segs = take_note([], "note", inner)
+    want = re.sub(r"\W+", "", re.split(r"\\", inner)[0].lower())[:30]
+    got = re.sub(r"\W+", "", render_segments(segs, None).lower())
+    if len(want) >= 8 and want not in got:
+        raise SystemExit("render_markdown.py: footnote %d in the HTML build "
+                         "does not read as the sources' note there: %s"
+                         % (NOTES["next"], inner[:120]))
+
+
 def footnotes(text, labels):
     """\\footnote{...} -> [^n], its text converted and queued. Braces matched,
     because a note can hold a \\autocite of its own.
@@ -263,8 +283,9 @@ def footnotes(text, labels):
     footnote is a footnote too, as the book sets it (D-774), and both kinds
     take their text from the build, in the order they occur. The marker
     follows the punctuation after the citation and drops the space before it,
-    as biblatex places it. A footnote's own citations are inside the text the
-    build supplies, so they are not taken again."""
+    as biblatex places it. A note's own citations are footnotes of their own
+    in the build, after the note's (D-906); take_own_note() takes the note's,
+    its text is rendered from the sources, and its citations take theirs."""
     notes = NOTES["queue"] is not None
     pat = re.compile(NOTE_OPEN.pattern + ("|" + CITE_CMD.pattern if notes else ""))
     out, i = "", 0
@@ -281,20 +302,8 @@ def footnotes(text, labels):
             # converted; the carrier goes in ahead of it (D-906).
             slot = len(FOOTNOTES["pending"])
             if notes:
-                keys = [k for c in CITE_CMD.finditer(inner)
-                        for k in cite_keys(c.group(1))]
-                segs = take_note(keys, "footnote", inner)
-                body = render_segments(segs, None)
-                # A footnote with no citation is matched by position alone,
-                # so its opening words, up to any citation, are checked too.
-                want = re.sub(r"\W+", "", inline(CITE_CMD.split(inner)[0],
-                                                  labels).lower())[:30]
-                if want not in re.sub(r"\W+", "", body.lower()):
-                    raise SystemExit("render_markdown.py: footnote %d in the "
-                                     "HTML build does not read as the sources' "
-                                     "footnote there: %s" % (NOTES["next"], inner[:120]))
-            else:
-                body = inline(inner, labels).strip()
+                take_own_note(inner)
+            body = inline(inner, labels).strip()
             out += text[i:m.start()] + "[^%d]" % n
             i = end
             FOOTNOTES["pending"].insert(slot, "[^%d]: %s" % (n, body))
@@ -638,6 +647,8 @@ def render_lines(lines, heads, labels, path, nums):
             FOOTNOTES["n"] += 1
             n = FOOTNOTES["n"]
             slot = len(FOOTNOTES["pending"])
+            if NOTES["queue"] is not None:
+                take_own_note(inner.strip())
             body = render_lines(inner.strip("\n").split("\n"), [], labels,
                                 path, nums)
             FOOTNOTES["pending"].insert(slot, note_def(n, body))
