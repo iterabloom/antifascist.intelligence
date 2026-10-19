@@ -79,13 +79,27 @@ hanging rule, the repairs allowed and the form in the source.
 | II | 4–11 | 22,859 | 9,874 | 2026-10-18 | D-908 |
 | III | 12–16 | 18,414 | 7,911 | applied 2026-10-18, reading pending | D-909 |
 | IV | 17–25 | 33,937 | 17,080 | applied 2026-10-19, reading pending | D-910 |
-| V | 26–29 | 10,014 | | | |
-| VI | 30 | 1,814 | | | |
-| VII | 31–34 | 11,525 | | | |
+| V | 26–29 | 10,014 | 5,947 | applied 2026-10-19, reading pending | D-911 |
+| VI | 30 | 1,814 | 1,580 | applied 2026-10-19, reading pending | D-912 |
+| VII | 31–34 | 11,525 | 7,418 | applied 2026-10-19, reading pending | D-913 |
+| preface | | 1,431 | 1,431 | untouched by ruling | |
+| whole | | 103,320 | 52,768 | | |
+
+The whole-book line is the render's "main text before appendices" at the
+branch's `6e3a5a99`: 51 percent of the baseline, against the 20 percent
+asked. The rulings set the floor: the preface and chapter 34 whole (2,222
+words), every chapter's opening paragraph, every rule and definition as the
+book states it, the five scenes, the fifteen tables, the three figures and
+the two boxed records. The Parts that are mostly rules (V, VI, VII) sit
+near three fifths; the Parts that are mostly argument and evidence (I to
+IV) sit near half, held there by the openings and the rules.
 
 ## What this pass has not done
 
-At D-906 no chapter has moved. The trial on chapter 8, run on main to prove
-the chain (the tool, the suite, the render, the count, the coverage check and
-a whole-book build), was reverted before the commit; chapter 8 moves with
-Part II on the branch.
+As of D-913 every Part is applied on the branch and Parts I and II are
+closed on the author's reading. Not done: the author's reading of Parts III
+to VII, with whatever comes back up; the merge to main and the proofs;
+the HTML build under nested notes (not tried); and a reading of the notes
+as prose on the page, beyond the coverage diff and the spine reads. The
+trial on chapter 8 at D-906 was reverted before the commit; chapter 8
+moved with Part II.
