@@ -253,11 +253,10 @@
 % later-short rule per chapter, the note field after the citation (D-773) and
 % the highlight on an unchecked reference (D-641) run as in any footnote. The
 % \footnote and \cite in force at \begin{document} are the ones used, captured
-% there, after hyperref and biblatex have had their say. \autocites is refused
-% inside a note; write \autocite.
+% there, after hyperref and biblatex have had their say.
 \makeatletter
 \newtoks\af@deferred
-\AtBeginDocument{\let\af@outerfootnote\footnote \let\af@origcite\cite}
+\AtBeginDocument{\let\af@outerfootnote\footnote \let\af@origcite\cite \let\af@origcites\cites}
 \newcommand{\af@defer}[1]{\global\af@deferred\expandafter{\the\af@deferred #1}}
 \newcommand{\af@noteredefs}{%
   \let\autocite\af@notecite \let\cite\af@notecite
@@ -309,7 +308,27 @@
   \footnotemark
   \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\unexpanded{#1}}}%
   \expandafter\af@defer\expandafter{\af@item}}
-\newcommand{\af@notecites}{\PackageError{note}{\string\autocites\space inside a \string\note}{Write it as \string\autocite.}}
+% \autocites inside a note: its argument groups, (multiprenote)(multipostnote)
+% then [pre][post]{keys} any number of times, are gathered as written and
+% held back as one \footnotetext holding the verbose style's \cites, so the
+% note gets one mark and the citations print as a list, as biblatex sets them.
+\newcommand{\af@notecites}{\unskip\def\af@cs@args{}\af@cs@multi}
+\def\af@cs@multi{\@ifnextchar(\af@cs@paren{\af@cs@loop}}
+\def\af@cs@paren(#1){\af@cs@append{(#1)}\af@cs@multi}
+\def\af@cs@loop{\futurelet\@let@token\af@cs@loop@i}% \futurelet, not \@ifnextchar: a space after the last key is kept
+\def\af@cs@loop@i{%
+  \let\af@next\af@cs@done
+  \ifx\@let@token[\let\af@next\af@cs@opt\fi
+  \ifx\@let@token\bgroup\let\af@next\af@cs@key\fi
+  \af@next}
+\def\af@cs@opt[#1]{\af@cs@append{[#1]}\af@cs@loop}
+\def\af@cs@key#1{\af@cs@append{{#1}}\af@cs@loop}
+\def\af@cs@append#1{\expandafter\def\expandafter\af@cs@args\expandafter{\af@cs@args #1}}
+\def\af@cs@done{\let\af@pending\af@pendingcites\af@markafterpunct}
+\def\af@pendingcites{%
+  \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\noexpand\af@origcites
+    \unexpanded\expandafter{\af@cs@args}}}%
+  \expandafter\af@defer\expandafter{\af@item}}
 \makeatother
 
 % A one-line standing note under a heading, saying which of the preface's
