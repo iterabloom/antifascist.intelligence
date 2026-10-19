@@ -124,8 +124,10 @@ def main():
     # against all.
     index = collections.defaultdict(set)
     new_list = [s for s, _ in new]
+    def long_words(s):      # bare words, so "head." and "head" meet
+        return set(w for w in re.findall(r"[\w']+", s) if len(w) >= 5)
     for k, s in enumerate(new_list):
-        for w in set(w for w in s.split() if len(w) >= 5):
+        for w in long_words(s):
             index[w].add(k)
 
     exact = near = 0
@@ -138,15 +140,20 @@ def main():
         if s in new_set:
             exact += 1
             continue
-        words = [w for w in set(s.split()) if len(w) >= 5]
         score = collections.Counter()
-        for w in words:
+        for w in long_words(s):
             for k in index.get(w, ()):
                 score[k] += 1
         best, best_r = None, 0.0
-        for k, _ in score.most_common(8):
+        # The eight best candidates by shared words, the nearer in length
+        # first among equals: a four-word head shares its one long word with
+        # every sentence that mentions the subject.
+        ranked = sorted(score.items(), key=lambda kv: (-kv[1], abs(len(new_list[kv[0]]) - len(s))))
+        for k, _ in ranked[:8]:
             cand = new_list[k]
-            r = difflib.SequenceMatcher(None, s, cand).ratio()
+            # autojunk=False: with it, difflib treats the space as junk in a
+            # sentence over 200 characters and rates a one-word change at 0.5.
+            r = difflib.SequenceMatcher(None, s, cand, autojunk=False).ratio()
             # A repair that inserts a clause (an antecedent restored) keeps
             # every old word in order; that counts as near whatever the
             # ratio says about the lengths.
