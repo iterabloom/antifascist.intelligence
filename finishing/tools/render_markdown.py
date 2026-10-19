@@ -616,21 +616,32 @@ def render_lines(lines, heads, labels, path, nums):
         # Pandoc note, numbered before anything nested in it. The host line
         # keeps the marker and whatever follows the closing brace, and goes
         # on through the rules below.
-        m = NOTE_OPEN.search(line)
-        if m:
-            rest = "\n".join(lines[i - 1:])
-            end = _matching_brace(rest, m.start())
-            if end > len(line):
-                inner = rest[m.end():end - 1]
-                tail = rest[end:].split("\n", 1)[0]
-                i += rest[:end].count("\n")
-                FOOTNOTES["n"] += 1
-                n = FOOTNOTES["n"]
-                slot = len(FOOTNOTES["pending"])
-                body = render_lines(inner.strip("\n").split("\n"), [], labels,
-                                    path, nums)
-                FOOTNOTES["pending"].insert(slot, note_def(n, body))
-                line = line[:m.start()] + "[^%d]" % n + tail
+        while True:
+            hit = None
+            for m in NOTE_OPEN.finditer(line):
+                rest = line + "\n" + "\n".join(lines[i:])
+                end = _matching_brace(rest, m.start())
+                if end > len(line):
+                    hit = (m, rest, end)
+                    break
+            if not hit:
+                break
+            m, rest, end = hit
+            inner = rest[m.end():end - 1]
+            tail = rest[end:].split("\n", 1)[0]
+            i += rest[:end].count("\n")
+            # A note or citation earlier on the line is numbered first, as the
+            # page numbers them; a single-line note after the closing brace
+            # is left to inline(), and a second block note there comes round
+            # again.
+            prefix = footnotes(line[:m.start()], labels)
+            FOOTNOTES["n"] += 1
+            n = FOOTNOTES["n"]
+            slot = len(FOOTNOTES["pending"])
+            body = render_lines(inner.strip("\n").split("\n"), [], labels,
+                                path, nums)
+            FOOTNOTES["pending"].insert(slot, note_def(n, body))
+            line = prefix + "[^%d]" % n + tail
 
         m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?(?:\[[^\]]*\])?\{(.*)\}\s*$", line)
         if m:
@@ -1001,7 +1012,9 @@ def _matching_brace(text, i):
             if depth == 0:
                 return i + 1
         i += 1
-    raise SystemExit("render_markdown.py: unclosed group in the preamble")
+    raise SystemExit("render_markdown.py: unclosed brace group at: %s"
+                     % text[text.index("{", i) - 60 if text.index("{", i) > 60 else 0:
+                            text.index("{", i) + 80].replace("\n", " "))
 
 
 def strip_draft(text):

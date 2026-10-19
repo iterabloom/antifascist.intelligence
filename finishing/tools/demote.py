@@ -242,10 +242,11 @@ def demote(blocks, keep):
         if i in hosts:
             j = host_index(lines)
             notes = []
-            for run, _opens in hosts[i]:
-                notes += ["\\note{"] + note_lines(run) + ["}"]
-            # The first \note{ joins the host line; a second note on the same
-            # host follows the first's closing brace.
+            for k, (run, _opens) in enumerate(hosts[i]):
+                # The first \note{ joins the host line; a second note on the
+                # same host opens on the line that closes the first.
+                notes += ["\\note{" if k == 0 else "}\\note{"] + note_lines(run)
+            notes.append("}")
             lines[j] = lines[j].rstrip() + notes[0]
             lines[j + 1:j + 1] = notes[1:]
         # Blocks are set apart by a blank line, except the first paragraph
