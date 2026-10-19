@@ -83,9 +83,11 @@ So, for any passage of exposition, finish this sentence:
 > The argument I am making would be harder to understand or believe without this,
 > because …
 
-A passage that cannot finish it is cut. Not compressed, not moved to a footnote --
-cut, because a definition serving no claim is a definition the book does not need
-at any length.
+A passage that cannot finish it is cut, not compressed, because a definition
+serving no claim is a definition the book does not need at any length. Until
+D-906 this rule also said *not moved to a footnote*; since D-906 the notes carry
+most of the book (§4d), and the rule decides only what the book does not need
+at all.
 
 Three shapes the rule condemns:
 
@@ -241,6 +243,8 @@ a fourth level to hold them.
 
 Rule of thumb: a section over about 1,500 words wants run-in heads. Below that,
 paragraphs are enough. This is the escape valve inside D-010's three-level cap.
+Inside a note (§4d) a run-in head is an italic lead-in, `\emph{Head.}`, at the
+start of the paragraph it headed.
 
 ## 4b. Boxes
 
@@ -277,9 +281,55 @@ organizes without asking the reader to change how they read.
 Adding a table to the body is a decision for the record, with the reason it
 belongs there and not in an appendix.
 
+## 4d. Page-bottom notes (D-906)
+
+The main text is a spine of about a fifth of the book's words; the rest is set
+as page-bottom notes under `\note{…}`, the manuscript's footnote macro for
+prose. Nothing is deleted in the move, and the only edits are the repairs a move
+requires: an antecedent restored at the head of a note, a run-in head turned
+into a lead-in, a kept sentence that pointed at a moved paragraph re-anchored.
+`finishing/tools/sentence_coverage.py` checks that every sentence of the book
+before the move stands in the book after it.
+
+**What stays in the main text.** Each section's claim, usually its first
+paragraph or sentence; each rule, proposal and definition as the book first
+states it; the chapter openings and the sentences that hand the reader on; the
+named scenes, one paragraph each; tables, figures and boxed records, which a
+note can't hold; the preface and chapter 34 whole. The spine must read on its
+own: a kept sentence never depends on a note for its antecedent, and never
+points at one with "above" or "that paragraph".
+
+**What moves.** Evidence, cases and the historical runs; objections and
+replies, and what was considered and rejected; worked examples and
+illustrative numbers; the literature positioning, whole, with its citations;
+qualifications, after the sentence they qualify.
+
+**Form.** The unit is the paragraph. A run of moved paragraphs is one note,
+hung after the punctuation of the kept sentence it supports, outside any
+`\emph`; that is normally the sentence before the run, and a run that opens a
+section hangs from the first kept sentence after it. In the source the host
+line ends `…sentence.\note{`, the note's paragraphs follow one per line with
+their blank lines, and the closing brace stands alone on the next line;
+`finishing/tools/demote.py` writes this form. A note never hangs from a box, a
+table cell, a caption, a heading or a run-in head, and every section keeps at
+least one sentence after its heading to carry its notes. A citation or a
+`\footnote` inside a note is the next footnote in the chapter's series, not a
+parenthesis: the preamble's macro sets the mark where the command stands and
+the text as soon as the enclosing note ends. `\autocites` is not used inside a
+note. A paragraph is split, by hand, only where its first sentence is the claim
+and the rest is support.
+
+**Measure.** `render_markdown.py --check --keys --chapters` reports body and
+note words per chapter, headings, note markers and citation keys left out. The
+baseline before the move, from `ad9effa1`, is 103,320 main-text words before
+the appendices (D-906). Where a chapter's opening, rules and scene alone exceed
+a fifth, the chapter keeps them and the record says so.
+
 ## 6. Citations (D-009)
 
-Endnotes for named studies, statutes, systems, and quotations. Nothing else.
+Citations are footnotes (D-774), for named studies, statutes, systems and
+quotations. Since D-906 the page's notes also carry the four fifths of the text
+that is not the spine (§4d); this section is about citations.
 
 While revising, a factual assertion gets `[[cite:CNNNN]]` keyed to
 `reports/claims.tsv` (268 items in 91 sections at the start of the pass).

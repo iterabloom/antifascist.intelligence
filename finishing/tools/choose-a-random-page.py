@@ -111,6 +111,10 @@ MD_DROP_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
 MD_EMPH = {"emph": "*", "textit": "*", "textbf": "**"}
 MD_VERBATIM = ("autocite", "cite")       # apparatus: printed as written, not counted
 MD_ARG_ONLY = ("runin", "boxtitle", "text")
+# A page-bottom note (D-906) reads inline here, in square brackets, so the
+# page still carries it. This reader works a line at a time; a note that runs
+# over lines shows its first line bracketed and the rest as they stand.
+MD_NOTE = ("note", "footnote")
 
 
 def md_inline(latex, unknown=None):
@@ -150,6 +154,10 @@ def md_inline(latex, unknown=None):
             while i < len(s) and s[i] == "{":
                 arg, i = common._take_arg(s, i)
                 out.append(md_inline(arg, unknown))
+        elif name in MD_NOTE:
+            arg, i = common._take_arg(s, i)
+            inner = md_inline(arg, unknown).strip()
+            out.append(" [%s]" % inner if inner else "")
         elif name in MD_DROP_BARE:
             pass
         else:

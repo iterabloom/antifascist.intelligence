@@ -30,6 +30,17 @@ citation's footnote after N words and ends it with an ellipsis; the author's
 own footnotes stay whole. `--keys` builds nothing and leaves each citation as a
 Pandoc-style key ([@smith2020title]) into finishing/refs.bib.
 
+Page-bottom notes (D-906): `\\note{...}` is the manuscript's footnote macro for
+the prose that is not the spine. A note may hold paragraphs, lists and quotes,
+and a citation or a \\footnote inside it is the next footnote in the chapter's
+series. Here a note is a Pandoc note, its later paragraphs indented four
+spaces, and a footnote inside it is a note of its own, numbered after it;
+under --keys a citation inside it stays a key. The HTML-based footnotes assume
+the build's notes come in the sources' order, which the nesting may not give;
+when they disagree the run stops and names --keys. `--chapters` prints one
+line per chapter of body words and note words, headings left out, and the
+totals before and after the appendices: the spine's measure, in the tree.
+
 --tex converts nothing. It is book.tex with every \\input resolved -- the
 preamble, the generated draft-status macros, and every section in ORDER.tsv
 order -- and finishing/refs.bib inside a filecontents block, with every file
@@ -255,7 +266,7 @@ def footnotes(text, labels):
     as biblatex places it. A footnote's own citations are inside the text the
     build supplies, so they are not taken again."""
     notes = NOTES["queue"] is not None
-    pat = re.compile(r"\\footnote\{" + ("|" + CITE_CMD.pattern if notes else ""))
+    pat = re.compile(NOTE_OPEN.pattern + ("|" + CITE_CMD.pattern if notes else ""))
     out, i = "", 0
     while True:
         m = pat.search(text, i)
@@ -263,9 +274,12 @@ def footnotes(text, labels):
             return out + text[i:]
         FOOTNOTES["n"] += 1
         n = FOOTNOTES["n"]
-        if m.group(0).startswith("\\footnote{"):
+        if m.group(0).endswith("note{"):
             end = _matching_brace(text, m.start())
             inner = text[m.end():end - 1]
+            # A footnote inside this note is queued while the body is
+            # converted; the carrier goes in ahead of it (D-906).
+            slot = len(FOOTNOTES["pending"])
             if notes:
                 keys = [k for c in CITE_CMD.finditer(inner)
                         for k in cite_keys(c.group(1))]
@@ -283,6 +297,7 @@ def footnotes(text, labels):
                 body = inline(inner, labels).strip()
             out += text[i:m.start()] + "[^%d]" % n
             i = end
+            FOOTNOTES["pending"].insert(slot, "[^%d]: %s" % (n, body))
         else:
             segs = take_note(cite_keys(m.group(1)), "citation", m.group(0))
             body = render_segments(segs, NOTES["truncate"])
@@ -292,7 +307,7 @@ def footnotes(text, labels):
                 out += text[i]
                 i += 1
             out += "[^%d]" % n
-        FOOTNOTES["pending"].append("[^%d]: %s" % (n, body))
+            FOOTNOTES["pending"].append("[^%d]: %s" % (n, body))
 
 
 class _NoteParser(html.parser.HTMLParser):
@@ -471,9 +486,10 @@ def table(lines, labels):
 # Macros whose argument inline() converts, and which a hard wrap may have split
 # across two lines. inline() runs per line, so a split argument reached the
 # output verbatim: the unconverted-command warning named \emph for two sites a
-# re-wrap had broken (D-422).
+# re-wrap had broken (D-422). A note's argument is not joined: its lines are
+# paragraphs, and render_lines() reads it as a block (D-906).
 JOIN_ARGS = ("emph", "textit", "textbf", "ref", "autocite", "cite",
-             "standing", "runin", "boxtitle", "url", "text", "footnote",
+             "standing", "runin", "boxtitle", "url", "text",
              "textsuperscript", "part")
 
 
@@ -547,8 +563,38 @@ def render(path, nums, root, labels):
     text = re.sub(r"^(?!\s*%)(.*?)(?<!\\)%[^\n]*\n[ \t]*", r"\1", text,
                   flags=re.M)
     lines = join_split_args(text).split("\n")
+    out = render_lines(lines, list(nums), labels, path, nums)
+    if FOOTNOTES["pending"]:
+        for note in FOOTNOTES["pending"]:
+            out += ["", note]
+        out.append("")
+        FOOTNOTES["pending"] = []
+    return out
+
+
+NOTE_OPEN = re.compile(r"\\(?:foot)?note\{")
+
+
+def note_def(n, md_lines):
+    """A Pandoc note from rendered lines: the first on the marker's line, the
+    rest indented four spaces, blank lines kept, so the note holds its
+    paragraphs, lists and quotes (D-906)."""
+    md_lines = squeeze(md_lines)
+    if not md_lines:
+        return "[^%d]:" % n
+    out = ["[^%d]: %s" % (n, md_lines[0])]
+    out += [("    " + l) if l.strip() else "" for l in md_lines[1:]]
+    return "\n".join(out)
+
+
+def render_lines(lines, heads, labels, path, nums):
+    """Lines of a section file, or of a note inside one, to Markdown lines.
+
+    `heads` is the printed number of each numbered heading still to come, in
+    order; a note's lines carry none. The queue of notes is flushed by
+    render(), once per file, so a note rendered here keeps its place.
+    """
     out, i, stack = [], 0, []
-    heads = list(nums)
 
     while i < len(lines):
         line = lines[i]
@@ -562,6 +608,29 @@ def render(path, nums, root, labels):
         # a rendering of it.
         if re.match(r"\s*%", line):
             continue
+
+        # A note whose argument runs past its line (D-906): \note{ or
+        # \footnote{ opened here and closed on a later line. Its lines are
+        # rendered by this same loop, so a list, a quote or a lead-in inside
+        # it comes out as it does in the body, and the result is queued as a
+        # Pandoc note, numbered before anything nested in it. The host line
+        # keeps the marker and whatever follows the closing brace, and goes
+        # on through the rules below.
+        m = NOTE_OPEN.search(line)
+        if m:
+            rest = "\n".join(lines[i - 1:])
+            end = _matching_brace(rest, m.start())
+            if end > len(line):
+                inner = rest[m.end():end - 1]
+                tail = rest[end:].split("\n", 1)[0]
+                i += rest[:end].count("\n")
+                FOOTNOTES["n"] += 1
+                n = FOOTNOTES["n"]
+                slot = len(FOOTNOTES["pending"])
+                body = render_lines(inner.strip("\n").split("\n"), [], labels,
+                                    path, nums)
+                FOOTNOTES["pending"].insert(slot, note_def(n, body))
+                line = line[:m.start()] + "[^%d]" % n + tail
 
         m = re.match(r"\\(chapter|section|subsection|subsubsection)\*?(?:\[[^\]]*\])?\{(.*)\}\s*$", line)
         if m:
@@ -719,11 +788,43 @@ def render(path, nums, root, labels):
             if par:
                 out.append("")
 
-    if FOOTNOTES["pending"]:
-        for note in FOOTNOTES["pending"]:
-            out += ["", note]
-        out.append("")
-        FOOTNOTES["pending"] = []
+    return out
+
+
+def is_note_line(line):
+    """A Pandoc note's lines: the marker line, and the continuation lines
+    indented four spaces under it (D-906). Nothing else this script writes
+    starts with four spaces."""
+    return bool(re.match(r"\[\^\d+\]:", line)) or line.startswith("    ")
+
+
+def chapter_table(flat):
+    """One TSV line per chapter, body words and note words with the headings
+    left out, then the totals before and after the appendices: the measure
+    of the spine (D-906). `flat` is the rendered body, one string per line."""
+    counts, order, cur = {}, [], None
+    for line in flat:
+        m = re.match(r"## (Preface|\d+|[A-H])\b", line)
+        if m:
+            cur = m.group(1)
+            if cur not in counts:
+                counts[cur] = [0, 0]
+                order.append(cur)
+            continue
+        if line.startswith("#") or cur is None:
+            continue
+        # Words a reader reads: a note's marker and a citation's key under
+        # --keys are apparatus, not words, and are left out here.
+        prose = re.sub(r"\[\^\d+\]|\[@[^\]]*\]", "", line)
+        prose = re.sub(r"\s+([.,;:!?)])", r"\1", prose)   # "court ." after a key
+        counts[cur][1 if is_note_line(line) else 0] += len(prose.split())
+    out = ["chapter\tbody\tnotes"]
+    out += ["%s\t%d\t%d" % (c, counts[c][0], counts[c][1]) for c in order]
+    for name, pick in (("main text before appendices", lambda c: not re.fullmatch(r"[A-H]", c)),
+                       ("appendices", lambda c: re.fullmatch(r"[A-H]", c))):
+        out.append("%s\t%d\t%d" % (name,
+                                   sum(counts[c][0] for c in order if pick(c)),
+                                   sum(counts[c][1] for c in order if pick(c))))
     return out
 
 
@@ -1111,10 +1212,15 @@ def main():
                     help="Markdown only: cut each citation's footnote after N "
                          "words and end it with an ellipsis; the author's own "
                          "footnotes are left whole")
+    ap.add_argument("--chapters", action="store_true",
+                    help="Markdown only: print, on stdout, one line per chapter "
+                         "of body words and note words, headings left out, and "
+                         "the totals before and after the appendices")
     args = ap.parse_args()
 
-    if args.tex and (args.keys or args.notes_from or args.truncate is not None):
-        ap.error("--keys, --notes-from and --truncate apply to the Markdown, not --tex")
+    if args.tex and (args.keys or args.notes_from or args.truncate is not None
+                     or args.chapters):
+        ap.error("--keys, --notes-from, --truncate and --chapters apply to the Markdown, not --tex")
     if args.keys and (args.notes_from or args.truncate is not None):
         ap.error("--keys sets no footnotes, so --notes-from and --truncate do nothing with it")
     if args.truncate is not None and args.truncate < 1:
@@ -1183,7 +1289,9 @@ def main():
         if NOTES["queue"] is not None and NOTES["next"] != len(NOTES["queue"]):
             raise SystemExit("render_markdown.py: the HTML build has %d footnotes "
                              "and the sources account for %d; the build is not "
-                             "of these sources."
+                             "of these sources, or its notes are not in the "
+                             "sources' order (a footnote inside a note). "
+                             "--keys renders from the sources alone."
                              % (len(NOTES["queue"]), NOTES["next"]))
         if args.keys:
             cites = ("Citations are keys into finishing/refs.bib; the "
@@ -1216,10 +1324,15 @@ def main():
 
         leftover = sorted(set(re.findall(r"\\[a-zA-Z]+", text)))
         # The text's words, not its notes', so the count stays comparable
-        # with and without the footnotes.
+        # with and without the footnotes. A queued note is one string, with
+        # its later paragraphs on lines of its own, so the body is split to
+        # lines first.
+        flat = "\n".join(body).split("\n")
         words = len(re.findall(r"\S+", "\n".join(
-            l for l in body if not re.match(r"\[\^\d+\]:", l))))
+            l for l in flat if not is_note_line(l))))
         print("%d sections, %d words" % (len(rows), words), file=sys.stderr)
+        if args.chapters:
+            print("\n".join(chapter_table(flat)))
         if leftover:
             print("WARNING: unconverted LaTeX commands: " + " ".join(leftover),
                   file=sys.stderr)

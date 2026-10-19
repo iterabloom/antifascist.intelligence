@@ -335,6 +335,13 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    proof status at D-399 — so it is a step and not a reminder. The page count,
    the word count and the commit the pair was built from all live in that lead.
 
+**While the notes pass is open (D-906), "proofs please" means main.** The pass
+runs on the branch `p222-notes`, in the worktree `~/antifascist.intelligence-p222`,
+and `build_proof.sh` run there would overwrite the dated pair main's README
+points at. A proof of the branch is built into scratch with the underlying
+script, `finishing/tools/build_tex.sh ~/book-scratch/p222/proof-partN/pdf`,
+sent with `~/upload-tool/upload.sh` on the author's ask, and never committed.
+
    **And check for a sentence that was already false before the build**, which
    this step as first written does not reach. At D-404 the live lead carried
    *two* proof-status sentences four apart: D-402's correct one, and D-393's
@@ -444,6 +451,20 @@ Four things about a figure that a green build doesn't show:
 
 The Markdown export prints the caption with the figure's number and skips the
 picture.
+
+**Page-bottom notes (D-906).** `\note{…}` is `\footnote` with a name, for the
+four fifths of the main text that is not the spine (`style.md` §4d). It may
+hold paragraphs, lists and quotes. A citation or a `\footnote` inside it is the
+next footnote in the chapter's series: the macro in `preamble.tex` sets a
+`\footnotemark` where the command stands, holds the text back, and sets it as
+`\footnotetext[n]` the moment the enclosing footnote ends, with the anchor that
+hyperref's optional-argument form does not set, so the marks link. A long note
+splits across pages by design, and once one splits TeX holds every later note
+of that page over to the next, so a nested note can follow its mark by a page.
+`\autocites` is not used inside a note; write `\autocite`. tex4ht has not been
+taught the nesting: the HTML proof may set those notes wrongly or fail, and
+that stands until someone needs the HTML; the Markdown is read with `--keys`.
+`render_markdown.py --check --keys --chapters` is the spine's measure.
 
 **Look at the proof.** The build succeeding says nothing about whether the page
 is right. Two defects in the first successful build were visible only in a

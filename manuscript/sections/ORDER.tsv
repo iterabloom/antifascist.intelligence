@@ -2,16 +2,16 @@ path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	04e0d92dcba7e0573286daea65272f1e239a7dee8e064f8892042c2c60cbec2c	1
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	2
-manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	be868f71847d15b407258b7c5a89c981f59260169c3b275c12d330b2ceb1c086	3
-manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	d8409b609ff9d7aca05aadfd8dfcdfd351d5af8b5e4b72559dfb6023b7ecb162	4
-manuscript/sections/ch03/03.tex	3	What Fascism Needs	4a1bf90b18025270f02f5809ed1682ca60c1573adc65fed35729e1185dda19a3	5
+manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	24719d4b160095c5e9c51204233a1e2c80ea035f06d7af303dbc257b442b1082	3
+manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	1e05dd194a7f50d465a495c5cb80693d62e5257314bab6240557d3dd5074eabd	4
+manuscript/sections/ch03/03.tex	3	What Fascism Needs	34495794c4b04ad9f6a3c81b6f2898f17f415730f83612857230e9f0b1ba2917	5
 manuscript/sections/ch04/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
 manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	625c18efaff0e91b5ca3ce46e5dd5d67c5141866cfa004f3bd43a977b9f7e3c0	7
-manuscript/sections/ch05/05.tex	5	“What the Floor Is Stated Over”	14670e0ec2b0150a1f3ff5c37422c81f8015e882255424a2f593be7e709eaf22	8
+manuscript/sections/ch05/05.tex	5	“What the Floor Is Stated Over”	e0f95b614405c17c1dcf9729f0f0dcc90590de287e4b0de4b0549783151818ae	8
 manuscript/sections/ch06/06.tex	6	Whether to Take Part	813db1b8c313a5205f8687a3b663bb1aa13edc60f44ff8cb0940c17184b637f0	9
 manuscript/sections/ch06/06_01.tex	6.1	The term	3cfce010d67fda45ae13d8c8464b76b33a641972f125cbf3fefb896f2ac8de9b	10
 manuscript/sections/ch06/06_02.tex	6.2	Why the defender's word isn't enough	de532c4afaac498844ce5c9548c6e7c1d9fa811bf584c972b379fa331403fc49	11
-manuscript/sections/ch06/06_03.tex	6.3	A clean pass: Ukraine	aaa85c5322f49314d944928614299bc108076b28c2d29525fda76350ca6325be	12
+manuscript/sections/ch06/06_03.tex	6.3	A clean pass: Ukraine	f06f40dbc40a43455b7c1b760de44eb551b5b404bad1225095394dd587b34fb1	12
 manuscript/sections/ch06/06_04.tex	6.4	A clean fail: Iran, 2026	aae719151abe49efb69418463e2e88a77ce9878f24347a8815f7f7249f734cc8	13
 manuscript/sections/ch06/06_05.tex	6.5	The domestic clause	3ee2e4684ed84a74326d72187048226024cf798e54ade73e91b141fc8b265fce	14
 manuscript/sections/ch06/06_06.tex	6.6	What the term doesn't reach	ea4117be744eee19a065cbad5433de1a85314381341f8275e671b1494dc497e5	15
@@ -61,7 +61,7 @@ manuscript/sections/ch14/14_02.tex	14.2	Who may amend, and where entitlement com
 manuscript/sections/ch14/14_03.tex	14.3	Making review binding	e303e58de1a0251400a8929ac0ba4879ec9850a0bffea0b26563506e1c5eea45	59
 manuscript/sections/ch14/14_04.tex	14.4	Capture without abolition	2ac1501a1d5c6f787d5de7479bec4cd51a1ce47f78dcc720902671e790ae4cd0	60
 manuscript/sections/ch15/15.tex	15	The Four Operations	a2f50cc224b2fb176545b2ea58b274eb812481da6805ac452f846eaafff0a6c3	61
-manuscript/sections/ch15/15_01.tex	15.1	Antifascist ethics	a52c07b5f8b3dceec2ae48e55cdc546dd02672b57b81397f1d53084214bdb93d	62
+manuscript/sections/ch15/15_01.tex	15.1	Antifascist ethics	04b985ddeabdfb6d39c92d61c92595bd3e51c0fa2078b590430c19aa54b5662c	62
 manuscript/sections/ch15/15_02.tex	15.2	Where the labels come from	6e249aae265fbeff81228f9af0ea5cce15312f916aa0a90e852f1e6f2ab053e3	63
 manuscript/sections/ch15/15_03.tex	15.3	Recuperation at the label	1bcda632cc93b5d3ed541ad7b2bcd8195f844fba3793a3caf67c104b29e2e32f	64
 manuscript/sections/ch15/15_04.tex	15.4	Recuperation at the reward	ff1aa369b55775168669a14599b48e7b274c79eb1396e4b6e5843757d7e0dcc5	65
@@ -69,10 +69,10 @@ manuscript/sections/ch15/15_05.tex	15.5	What would have to change	d6a08538557c68
 manuscript/sections/ch15/15_06.tex	15.6	Absorbed by the discourse	52e7846f7799a5a9966b45577b8eb54d62e6eedc37b46ed946de4eda4ee7aab5	67
 manuscript/sections/ch16/16.tex	16	Custody, Compulsion, and the State	402347a4905445d256ce83487858e7e68a0f0fb6d61121abd173afd9bfc95e2e	68
 manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	fd1922b90e2d94d5c758677ab63714067b1b59934774b4e175bb3e7ec237300b	69
-manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	4bb628ebedb4c61e97c9b00183683adc7314d4fc154e8c84f240352d0c5a3f41	70
+manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	b13ccaaca9d863e42bb5b6f52d16f7d541068f6da98ceea0860cc4d4351167b9	70
 manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	b18f525e0e64c600718f8ef619ed47feb55b17d1cf7fd0395e4fa8374282f258	71
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	e1367cdae9f1f647300f21c19883e443feaf1a3bca6e50cc4a39e7e91b672f3f	72
-manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	0550c9171e605adc977e7c3152440fdcb5334662f2609d12098d64e26d9a8ef3	73
+manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	4cc02ae9a5bbc77c36881fba4224014a3fc1bba6b3bf5ae7d7949fa0e9072caf	73
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	b0bbcb8e2524fe92d96dd24591309df36a253ea3916e55f746a83675bc3cbd15	74
 manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	9d5f57f2daa3b979f780aa818da9fa5e541a69e85d0a06a82fb27d1234f357cc	75
 manuscript/sections/ch17/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	76
@@ -81,10 +81,10 @@ manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	ee882ccb
 manuscript/sections/ch17/17_02.tex	17.2	Safe for whom	4a176e164a07b31af0a21b77bf399c2c7534b28653a1d79a739294866c6f7bac	79
 manuscript/sections/ch18/18.tex	18	Four Places to Hold a Floor	0203477b9264c6ddf4c5a47516557a2d88e61eaf09f8de281d838edf477c4c19	80
 manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	cea1b3da24442b3c109f6a806cda7f7d01b64c782a03a618d0be556523c91cdc	81
-manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	8958191a6403d666824a548fa6e11ed7998930b66b887b90d83683200e430737	82
+manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	3a512499a3b87a0251046f0889fdf67d4bee18de5dad19f52bd06cb1261174c9	82
 manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	cca90cfc5c1c7a51d984992af2608bcab1908a909c0b366b108e29b33c3258b6	83
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	b1467615a4d1b0c30629d566fe8c45a1412a3cb2648e2900d3b37c440c0c84fd	84
-manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	0afb75d4adabefa31e9a7a8b2e27182305042d687e5de391da55630281620f2a	85
+manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	2b90801721e18a87dc5a10609990760249389818e50c5b6e70b51061bcf61f36	85
 manuscript/sections/ch19/19_01.tex	19.1	The question	c70e823772c79f2b184e4ddb00d7b43066aad2714e5528f45b5d22b3df03e82c	86
 manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	1525809a1423d01b2daed224d6673ce753903233537dc43e53a88c7a0b02c62a	87
 manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	5a1facbe3b47bc68f25f4c83e2746677fea75d5671f8f33c4b229d3ea852ce35	88
@@ -98,14 +98,14 @@ manuscript/sections/ch20/20_03.tex	20.3	It can be pointed away	543f088bec94af082
 manuscript/sections/ch20/20_04.tex	20.4	It counts badly	b86f6fa67e15d064c042b53a1497866f8b528be061b3a9845af8ef68dbda52f6	96
 manuscript/sections/ch20/20_05.tex	20.5	It shades into control	1e59ae45c588ebbe2a3cf099c51cf0e093e428b841f02a6a39c015520ff8a954	97
 manuscript/sections/ch20/20_06.tex	20.6	Who counts as vulnerable	73c637e43171d6bf125a4dd603cbe7196b851eee3af0f2a4d9a27bdbf0ba6d2b	98
-manuscript/sections/ch20/20_07.tex	20.7	What survives	43cc4f7434d8ace5ee85374f0bc4ca6f1bd5b9cdc64d073aac782e7d77def663	99
+manuscript/sections/ch20/20_07.tex	20.7	What survives	f294a57ba678831ff9ecd7524bf82449bd079d87ea5a050744268fed7809efd0	99
 manuscript/sections/ch21/21.tex	21	What Arrives With the Capability	95bc4726bbf5846862797f5792618f156c9d2508886e451362e422fadb574e39	100
-manuscript/sections/ch21/21_01.tex	21.1	Maintenance, stake and the cost of running	a326e418046635c46b542e34671917aa2472437b7d3539b033ab183410f49861	101
+manuscript/sections/ch21/21_01.tex	21.1	Maintenance, stake and the cost of running	e108a0bd4b06890029f065724bec81e5db48eb387d2dadd161873bc079ee5ea9	101
 manuscript/sections/ch21/21_02.tex	21.2	Affect, neutrality and selection rules	e5b04033488a6cd11d5bb81ab533f73b8c35f4d824ab1fac5a9edc06d3043ad4	102
 manuscript/sections/ch21/21_02_01.tex	21.2.1	Self-awareness without a homunculus	32ea76f27aa99c34ecd345ff99643f770353700498a22351d4a8c05635ec7f93	103
-manuscript/sections/ch21/21_02_02.tex	21.2.2	What governs an agent vs. what matters to it	28863c6771971d52ef37a6e9e5c4927dc8f570795742baf80ab42b441971790e	104
+manuscript/sections/ch21/21_02_02.tex	21.2.2	What governs an agent vs. what matters to it	578d0f9092a1339b3adb2ecbb7865869f455cc6b9c82ae33f70bc6b40e40026a	104
 manuscript/sections/ch21/21_03.tex	21.3	Three constructions	f4d3dc1139f0fba856dd7ae6230ca042464990251617bffa479b8c313ef7638e	105
-manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	d85b52532d16db8f993f405f86704dc879458b8d5a206f2e3c919a148772aa78	106
+manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	e95c896e7c47f48ad998570a366dce899b9cafffa5a57d9d0c27b618a8a45265	106
 manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	b1124f9891bd7a1f4eba7a3c77b45a0aac08d79c9e217ad88f590c0f4537c187	107
 manuscript/sections/ch22/22.tex	22	The Discount and the Burden	aea78dd7b72932fff38700cbf32238f3b99c21f48e103bcde228c14d740bb693	108
 manuscript/sections/ch22/22_01.tex	22.1	What the property is	0869e670790dbbd6442e15da89afa579f5435746addf7793cec4c477501bb046	109
@@ -161,11 +161,11 @@ manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipelin
 manuscript/sections/chD/D.tex	D	Terms for Part VII	f8a7ddd9cc6b775f01eb53f8c5df90dbfc1234aceb2456b991b71dec617726bf	159
 manuscript/sections/chE/E.tex	E	Glossary	d71f5446a6261cfa74c48ef3373338915aad87e2d5e8a951ecbe657fb29375e6	160
 manuscript/sections/chF/F.tex	F	The Force Term, Case by Case	80387a43f99e614df6c9d88ebf2bacad6d3b718c49a88190626eae723581685f	161
-manuscript/sections/chF/F_01.tex	F.1	How findings are weighed	a007c9cf0cb2e45bc58eb7a14afed671c6b55b1ed10decdd3b60a539e3f85cba	162
+manuscript/sections/chF/F_01.tex	F.1	How findings are weighed	08ec0f3d4c8cfe1b64fcec85c79bc059ce088f20ced9adae0c37c6a71681f738	162
 manuscript/sections/chF/F_02.tex	F.2	The four conditions, run on the OPCW's attribution team	b233cc2054cbcf3b2edb627df87cba9cad69b75856506384bc927142089cd0a5	163
 manuscript/sections/chF/F_03.tex	F.3	Taiwan	5978daceccb0065871519e8fa25853e6220a6868e3ab5994e09ca3baf66ee707	164
 manuscript/sections/chF/F_04.tex	F.4	The genocide exception	379d7f4b299ec58c12737beb9c95e1116c1649fcd85e4b948a7125d78bf9c6c1	165
 manuscript/sections/chF/F_05.tex	F.5	The occupation exception: Cyprus and Karabakh	55f5f82b5a49e9095e891274623f29e764b2ad57876c2116014d0d6c9b4b7bd9	166
 manuscript/sections/chF/F_06.tex	F.6	The domestic clause, vote by vote	04d7444103a06540885812cc80992ab00431d9b60c4860bb5da2ffa619ae4c42	167
 manuscript/sections/chG/G.tex	G	The Tests in Detail	0e1102a651d2e712d6bbfb4982f01f3d16b55fb2fcf8dbb5a6f0e57edbf9e969	168
-manuscript/sections/chH/H.tex	H	The Discount, Worked	1c1266d1cfb874fa0f8bb6151359f8720ebcaeabe34abf9b14e04a4a199d9e7e	169
+manuscript/sections/chH/H.tex	H	The Discount, Worked	f26243b78e18c5b02f236f0bce933ee8ed46c942565c5d647e978d94119a0f07	169

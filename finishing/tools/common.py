@@ -384,8 +384,12 @@ def write_tsv(path, header, rows):
 #     author's word count, same as the dialect's <<quote>> was.
 #   * A box is the author's own prose and counts, same as <<box>> did.
 
+# A note's words are not the body's words (D-776): \note and \footnote are
+# dropped with their argument. A note may span lines, so tex_sections_of()
+# removes them before it reads line by line (D-906).
 TEX_DROP_WHOLE = ("label", "unnumberedlabel", "addcontentsline", "input",
-                  "autocite", "cite", "nocite", "backmattermark", "rule")
+                  "autocite", "cite", "nocite", "backmattermark", "rule",
+                  "note", "footnote")
 TEX_DROP_HEADING = ("chapter", "section", "subsection", "subsubsection")
 # \url keeps its argument: the address is text on the page, and it counts
 # as the one token it prints, the same convention \ref gets above.
@@ -473,6 +477,24 @@ def tex_prose_line(line, unknown=None):
     return "".join(out).replace("~", " ").replace("\x00", "")
 
 
+_TEX_NOTE = re.compile(r"\\(?:foot)?note\{")
+
+
+def strip_tex_notes(text):
+    r"""The text with every \note{...} and \footnote{...} removed, command and
+    argument, at any brace depth and across lines (D-906). A line-wise reader
+    would otherwise take a note's later paragraphs for the body's."""
+    out, i = [], 0
+    while True:
+        m = _TEX_NOTE.search(text, i)
+        if not m:
+            out.append(text[i:])
+            return "".join(out)
+        _, end = _take_arg(text, m.end() - 1)
+        out.append(text[i:m.start()])
+        i = end
+
+
 def tex_sections_of(lines, unknown=None):
     r"""Walk a .tex section file once; return (prose_paragraphs, structure).
 
@@ -499,6 +521,9 @@ def tex_sections_of(lines, unknown=None):
           "refs": 0, "cites": 0}
     paras, envs = [], []
     buf = []
+    # Notes out first, whole, so a note's paragraphs are not the body's and a
+    # note that runs over lines does not split the paragraph it hangs from.
+    lines = strip_tex_notes("\n".join(l.rstrip("\n") for l in lines)).split("\n")
 
     def flush():
         if buf:

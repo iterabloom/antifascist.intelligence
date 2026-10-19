@@ -241,6 +241,76 @@
 % Run-in head: a bold lead-in line above a paragraph, used 169 times.
 \newcommand{\runin}[1]{\par\medskip\noindent\textbf{#1}\par\nopagebreak\smallskip}
 
+% Page-bottom notes (D-906). \note{...} is \footnote with a name: it carries
+% the four fifths of the main text that is not the spine, and it may hold
+% paragraphs, lists and quotes. Inside it a citation, or a \footnote, becomes
+% the next footnote in the chapter's series, not a parenthesis: the command
+% sets a \footnotemark where it stands and holds its text back, and the held
+% texts are set as \footnotetext[n]{...}, in order, the moment the enclosing
+% footnote ends. A held text may hold a citation of its own; the queue is
+% flushed until it is empty, each pass under the same redefinitions. A held
+% citation prints through the verbose style's plain \cite, so the first-full,
+% later-short rule per chapter, the note field after the citation (D-773) and
+% the highlight on an unchecked reference (D-641) run as in any footnote. The
+% \footnote and \cite in force at \begin{document} are the ones used, captured
+% there, after hyperref and biblatex have had their say. \autocites is refused
+% inside a note; write \autocite.
+\makeatletter
+\newtoks\af@deferred
+\AtBeginDocument{\let\af@outerfootnote\footnote \let\af@origcite\cite}
+\newcommand{\af@defer}[1]{\global\af@deferred\expandafter{\the\af@deferred #1}}
+\newcommand{\af@noteredefs}{%
+  \let\autocite\af@notecite \let\cite\af@notecite
+  \let\footnote\af@notefootnote \let\autocites\af@notecites}
+\newcommand{\note}[1]{%
+  \begingroup\af@noteredefs\af@outerfootnote{#1}\endgroup
+  \af@flush}
+\newcommand{\af@flush}{%
+  \edef\af@test{\detokenize\expandafter{\the\af@deferred}}%
+  \ifx\af@test\@empty\else
+    \toks@\expandafter{\the\af@deferred}\global\af@deferred{}%
+    \begingroup\af@noteredefs\the\toks@\endgroup
+    \expandafter\af@flush\fi}
+% A citation inside a note: the space before it is dropped and the mark set
+% after a following . , ; : ! ? -- what biblatex's [f] autocite flag does.
+\newcommand{\af@notecite}{\unskip\@ifnextchar[\af@notecite@i{\af@notecite@i[]}}
+\def\af@notecite@i[#1]{\@ifnextchar[{\af@notecite@ii[#1]}{\af@notecite@ii[][#1]}}
+\def\af@notecite@ii[#1][#2]#3{%
+  \def\af@c@pre{#1}\def\af@c@post{#2}\def\af@c@keys{#3}%
+  \let\af@pending\af@pendingcite\af@markafterpunct}
+% hyperref's \footnotetext[n] sets no anchor (its \@xfootnotenext calls the
+% kernel's routine), so a held text would be the target of a link to a name
+% nothing defines. The name the mark was given is taken at the mark and the
+% anchor set at the head of the held text, as hyperref sets it for an
+% ordinary footnote.
+\def\af@noteanchor#1{\ifdefined\hyper@@anchor\Hy@raisedlink{\hyper@@anchor{#1}{\relax}}\fi}
+\def\af@anchorhead{\ifdefined\Hy@footnote@currentHref
+  \noexpand\af@noteanchor{\unexpanded\expandafter{\Hy@footnote@currentHref}}\fi}
+\def\af@pendingcite{%
+  \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\noexpand\af@origcite
+    [\unexpanded\expandafter{\af@c@pre}][\unexpanded\expandafter{\af@c@post}]%
+    {\unexpanded\expandafter{\af@c@keys}}}}%
+  \expandafter\af@defer\expandafter{\af@item}}
+\def\af@markafterpunct{\futurelet\@let@token\af@markafterpunct@i}
+\def\af@markafterpunct@i{%
+  \let\af@next\af@mark@now
+  \ifx\@let@token.\let\af@next\af@mark@after\fi
+  \ifx\@let@token,\let\af@next\af@mark@after\fi
+  \ifx\@let@token;\let\af@next\af@mark@after\fi
+  \ifx\@let@token:\let\af@next\af@mark@after\fi
+  \ifx\@let@token!\let\af@next\af@mark@after\fi
+  \ifx\@let@token?\let\af@next\af@mark@after\fi
+  \af@next}
+\def\af@mark@after#1{#1\af@mark@now}
+\def\af@mark@now{\footnotemark\af@pending}
+% A \footnote inside a note: the mark where it stands, the text held back.
+\newcommand{\af@notefootnote}[1]{%
+  \footnotemark
+  \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\unexpanded{#1}}}%
+  \expandafter\af@defer\expandafter{\af@item}}
+\newcommand{\af@notecites}{\PackageError{note}{\string\autocites\space inside a \string\note}{Write it as \string\autocite.}}
+\makeatother
+
 % A one-line standing note under a heading, saying which of the preface's
 % five claims the text beneath it rests on. Small italic, so it reads as a
 % note and not as the first paragraph.
