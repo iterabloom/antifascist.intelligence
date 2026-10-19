@@ -261,7 +261,8 @@
 \newcommand{\af@defer}[1]{\global\af@deferred\expandafter{\the\af@deferred #1}}
 \newcommand{\af@noteredefs}{%
   \let\autocite\af@notecite \let\cite\af@notecite
-  \let\footnote\af@notefootnote \let\autocites\af@notecites}
+  \let\footnote\af@notefootnote \let\note\af@notefootnote
+  \let\autocites\af@notecites}
 \newcommand{\note}[1]{%
   \begingroup\af@noteredefs\af@outerfootnote{#1}\endgroup
   \af@flush}
