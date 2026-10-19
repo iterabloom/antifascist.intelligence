@@ -102,6 +102,6 @@ were closed on his reading. A reversal from here is a note moved back into
 the body on main, with the coverage check run again. Not done: the author's
 reading of Parts III to VII, with whatever comes back up; a reading of the
 notes as prose on the page, beyond the coverage diff and the spine reads.
-The HTML build under nested notes was tried at the close; D-914 says what
-it did. The trial on chapter 8 at D-906 was reverted before the commit;
+The HTML build under nested notes was tried at the close and built without
+error (D-914); nobody has read it as a page. The trial on chapter 8 at D-906 was reverted before the commit;
 chapter 8 moved with Part II.
