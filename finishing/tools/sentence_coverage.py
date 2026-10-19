@@ -59,6 +59,12 @@ def sentences(line):
     return [p.strip() for p in parts if len(p.split()) >= 4]
 
 
+def subsequence(small, big):
+    """True when every item of `small` occurs in `big`, in order."""
+    it = iter(big)
+    return all(any(w == x for x in it) for w in small)
+
+
 def chapter_of(line, cur):
     m = HEADING.match(line)
     if m:
@@ -72,8 +78,8 @@ def load(path, chapters=None, drop_defs=False):
     lo, hi = chapters if chapters else (None, None)
     for raw in open(path, encoding="utf-8").read().split("\n"):
         cur = chapter_of(raw, cur)
-        if raw.startswith("#"):
-            continue
+        if raw.startswith("#") or cur is None:
+            continue              # headings, and the front matter before the preface
         if drop_defs and DEF.match(raw):
             continue
         if chapters:
@@ -139,9 +145,15 @@ def main():
                 score[k] += 1
         best, best_r = None, 0.0
         for k, _ in score.most_common(8):
-            r = difflib.SequenceMatcher(None, s, new_list[k]).ratio()
+            cand = new_list[k]
+            r = difflib.SequenceMatcher(None, s, cand).ratio()
+            # A repair that inserts a clause (an antecedent restored) keeps
+            # every old word in order; that counts as near whatever the
+            # ratio says about the lengths.
+            if subsequence(re.findall(r"[\w']+", s), re.findall(r"[\w']+", cand)):
+                r = max(r, args.ratio)
             if r > best_r:
-                best, best_r = new_list[k], r
+                best, best_r = cand, r
         if best is not None and best_r >= args.ratio:
             near += 1
             nears.append((ch, best_r, s, best))
