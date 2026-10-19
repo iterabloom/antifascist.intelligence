@@ -75,7 +75,7 @@ hanging rule, the repairs allowed and the form in the source.
 
 | Part | chapters | before | after | round closed | row |
 |---|---|---|---|---|---|
-| I | 1–3 | 2,966 | | | |
+| I | 1–3 | 2,966 | 1,527 | 2026-10-18 | D-907 |
 | II | 4–11 | 22,859 | | | |
 | III | 12–16 | 18,414 | | | |
 | IV | 17–25 | 33,937 | | | |
