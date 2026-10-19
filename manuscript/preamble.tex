@@ -126,8 +126,9 @@
 % Draft apparatus: the DRAFT watermark and the status footer (D-319).
 %
 % One switch governs all of it. Set \draftmodefalse to ship a clean book;
-% nothing else in this file has to change, and the two generated counts below
-% go unread rather than stale.
+% nothing else in this file has to change. The two generated counts below are
+% still read then, by the title page's verification sentence (D-922), which is
+% the book's and not the apparatus's.
 \newif\ifdraftmode \draftmodetrue
 
 % The two numbers the footer prints, and the list of entries a human has checked
@@ -158,9 +159,11 @@
 % The separator is a middot rather than the hyphen the line was sketched with:
 % the book's own dashes are all spaced em dashes and a run of those in a
 % four-part footer reads as heavily as the prose it sits under.
-\newcommand{\draftstatusline}{%
+\newcommand{\draftstampline}{%
   PREPRINT \textperiodcentered\ WORKING MANUSCRIPT \textperiodcentered\
-  Rendered \buildstamp\ \textperiodcentered\
+  Rendered \buildstamp}
+\newcommand{\draftstatusline}{%
+  \draftstampline\ \textperiodcentered\
   \refschecked/\refstotal\ bibliographic entries human-checked}
 
 \ifdraftmode
@@ -369,12 +372,21 @@
 % between), \@endpart takes it and sets it before the page break. Used
 % anywhere else, or by an engine that doesn't run \@endpart (tex4ht), it
 % prints as an ordinary quote, so the text is never lost.
+%
+% A part intro (\partintro{...}, D-921) is the same device for a paragraph in
+% the book's own voice: Part IV's page carries the turn from Part III's last
+% section. Set in the text measure, upright, under the title; the plain
+% definition is the paragraph itself.
 \makeatletter
 \newcommand{\partepigraph}[1]{\begin{quote}#1\end{quote}}
+\newcommand{\partintro}[1]{\par\noindent #1\par}
 \let\af@endpart\@endpart
 \long\def\af@partepigraph\partepigraph#1{%
   \vskip 3em{\normalsize\normalfont\begin{quote}#1\end{quote}}\af@endpart}
-\def\@endpart{\@ifnextchar\partepigraph{\af@partepigraph}{\af@endpart}}
+\long\def\af@partintro\partintro#1{%
+  \vskip 3em{\normalsize\normalfont\noindent #1\par}\af@endpart}
+\def\@endpart{\@ifnextchar\partepigraph{\af@partepigraph}%
+  {\@ifnextchar\partintro{\af@partintro}{\af@endpart}}}
 \makeatother
 
 % \chapter* also sets no running mark, so the head left standing by the last
@@ -450,6 +462,17 @@
      Third-party material quoted in this work, including the epigraphs,\\
      remains the property of its rights holders and is reproduced under\\
      fair use. The license above does not extend to it.}
+% The verification sentence (D-922). The title page says, in every build and
+% not only under the switch above, how many of the bibliography's entries a
+% human has checked against the source each names, from the same two
+% generated counts the status line on every page prints, and where the ledger
+% is. An edition may define its own before it inputs this file.
+\providecommand{\bookverification}{%
+  Of the \refstotal\ entries in the bibliography, \refschecked\ have been
+  checked by a human against the source each names; the ledger that records
+  which, when and by whom is in the book's repository,
+  \url{https://github.com/iterabloom/antifascist.intelligence}, at
+  \texttt{finishing/refs-ledger.tsv}.}
 \newcommand{\booktitlepage}{%
   \begin{titlepage}
     \centering
@@ -461,9 +484,11 @@
     {\large \bookauthor\par}
     \vfill
     {\footnotesize\booklegal\par}
+    \vspace{1.2\baselineskip}
+    {\footnotesize\bookverification\par}
     \ifdraftmode
-      \vspace{1.2\baselineskip}
-      {\footnotesize\color{black!55}\draftstatusline\par}
+      \vspace{0.6\baselineskip}
+      {\footnotesize\color{black!55}\draftstampline\par}
     \fi
     \vspace{0.06\textheight}
   \end{titlepage}%

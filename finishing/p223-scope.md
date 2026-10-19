@@ -135,11 +135,47 @@ Chapter 1 exceeds its baseline because three of the notes its list names
   is undecided; the stage dates in chapter 28 are put to him with the
   sentence in hand. Still on his ask: cluster 6's front-matter line and the
   located-passage pass.
+- **Commit and proofs (D-920):** rounds 1 to 3 committed as `7f70db4f` and
+  in the proofs of 2026-10-19 (460 pages).
+- **Round 4 (D-921), applied 2026-10-19, on the author's word ("please
+  tackle cluster 2"):** cluster 2's remaining items. The door into Part IV:
+  the last three sentences of §16.7's residual-risk paragraph moved to Part
+  IV's title page as a `\partintro` (new macro, the device of Part VII's
+  epigraph), with a hinge restating the limit and the position no person
+  can fill in time; §16.7 now ends at "under total capture no instrument
+  is." The evidence paragraph in chapter 4, after the prevent / arrest /
+  detect / remedy table: which rows the measures keep with no refuser in the
+  room. The guarantee's dependence in chapter 10, after the annotators'
+  paragraph: the right as remedy, the guarantee as exit, the fifth measure
+  as two things. §31.4: the happy slave's objection named in three
+  sentences, the smallest form of the distillation's optional expansion.
+  Cluster 2's two open items are settled by the preface the author rolled
+  in at D-918: measure five keeps both the right and the guarantee, and the
+  preface says property while the body's conditional stands unchanged.
+  After it: chapter 4 1,461 to 1,625 words, chapter 10 410 to 601, chapter
+  16 2,808 to 2,881 (the part page's 118 words counted with it, less the 45
+  moved out), chapter 31 2,382 to 2,445, the whole 63,347 to 63,838.
+  Coverage against round 3: 6,036 of 6,037 exact, 1 missing, the reworded
+  "Every instrument in this book ends at this limit"; against the merge
+  6,000 exact, 3 near, 1 missing, the same sentence.
+- **Round 4b (D-922), applied 2026-10-19, on the author's word ("please
+  do"):** cluster 6's front-matter verification line. The title page says,
+  in every build and not only in draft mode, how many of the bibliography's
+  entries a human has checked against the source each names and where the
+  ledger is, from the two counts `refs_ledger.py` generates; the grey draft
+  stamp on the title page loses its count, so the number is there once.
+  Uncommitted, with round 4.
 - **Close:** the author's reading; the commit; the tag; the proofs.
 
 ## What this pass has not done
 
-As of D-920: the author's reading of the restored book; the two deferred
-items, the glossary to the front and the stage dates, which stay as they
-are until he decides. The court program stays on his ruling (D-920). The lyrics license is not the
-agent's to obtain. Nothing is committed.
+As of D-922: rounds 1 to 3 are committed (`7f70db4f`) and in the proofs;
+rounds 4 and 4b are in the tree, uncommitted. Not done: the author's reading of the
+restored book; the two deferred items, the glossary to the front and the
+stage dates, which stay as they are until he decides; the compression of
+[666]–[672], restored whole; the register ruling and the leitmotifs. The
+court program stays on his ruling (D-920). The lyrics license is not the
+agent's to obtain, and the dialogue quotations are unchecked against the
+broadcast (D-680). Cluster 6's tag, located-passage pass and
+reference-checking ask wait on his word; its front-matter line is done
+(D-922).

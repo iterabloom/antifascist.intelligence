@@ -115,6 +115,14 @@ footer and watermark and the HTML's bar and tiled background together. **Built
 both ways the book is 153 pages**, so the apparatus costs no pagination and page
 counts stay comparable across it; re-measured at D-335, both ways, it is 164.
 
+**The title page's verification sentence is not part of the apparatus** (D-922).
+In every build, under the legal notice, it says how many of the bibliography's
+entries a human has checked against the source each names, from the same two
+generated counts, and where the ledger is. The switch leaves it standing; in
+draft mode the grey stamp under it carries only the PREPRINT words and the
+timestamp, so the count is on the title page once. `--tex` keeps the sentence
+with the numbers written in.
+
 **The two rendered single files carry no trace of it, and the switch is not how**
 (D-335). `render_markdown.py` dropped the status line from the Markdown, and its
 `--tex` form removes the apparatus from the preamble it inlines — the
@@ -470,6 +478,16 @@ comes back into the body with `finishing/tools/promote.py N`, named by the
 number the default render gives it, as the text stood before the pass merged
 (D-916); `--map` lists the numbers and checks them against a render's notes
 file first.
+
+**Text on a part's title page (D-688, D-921).** `\partepigraph{…}` and
+`\partintro{…}`, each written immediately after `\part{…}` with no blank line
+between, are set on the part page under the title: the first as a quote (Part
+VII's), the second as a paragraph of the book's own prose (Part IV's, the turn
+from §16.7). Anywhere else, or under tex4ht, each is its plain definition, a
+quote or a paragraph, so the text is never lost. The Markdown render sets them
+the same way under the part heading. `--check --keys --chapters` keys its
+table by chapter heading, so a part intro's words are counted with the chapter
+before it.
 
 **Look at the proof.** The build succeeding says nothing about whether the page
 is right. Two defects in the first successful build were visible only in a

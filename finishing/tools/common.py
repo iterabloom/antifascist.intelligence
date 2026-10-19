@@ -396,7 +396,7 @@ TEX_DROP_HEADING = ("chapter", "section", "subsection", "subsubsection")
 # "standing" joins this list at D-406: a standing note is a sentence a reader
 # reads, so its words are the book's words.
 TEX_KEEP_ARG = ("emph", "textbf", "textit", "runin", "standing", "boxtitle", "text",
-                "url", "paragraph")
+                "url", "paragraph", "partintro")
 TEX_BARE = ("small", "itshape", "bfseries", "par", "noindent", "medskip",
             "smallskip", "bigskip", "nopagebreak", "item", "centering",
             "hline", "linewidth", "appendix")

@@ -6,8 +6,8 @@ manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	a2f000399a3877f34b24c0cd9
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	abb735860b4bb49de7d493135d8439d9d44a93ae9e5a1d48b7fdf07f25252968	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	992862d70276e527aef145414d941efa886875b9034d7351249efc1607fdec15	5
 manuscript/sections/ch04/00_part_II.tex			d7cba012cbc59690bf9f0cd7607fea370aadbfdb34b0d4bce6de150ef2177274	6
-manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	a647a55594a69b169c1a48ddf4a6af0aabb74c2f3118bc3468de25a42e3c6473	7
-manuscript/sections/ch05/05.tex	5	“What the Floor Is Stated Over”	a5b526d0f864fa0acd6e6a148cd2fb7821d095b1f5ce7137d61ad351612327dc	8
+manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	07db9230a7cc0629e22760935138fffca31687fdaf4b12b89c12e4fb8b592783	7
+manuscript/sections/ch05/05.tex	5	“What the Floor Is Stated Over”	0b69a103ca236fe1b0f4cd57cc47b4e06e337b0da88df98c9a3624429d4e2151	8
 manuscript/sections/ch06/06.tex	6	Whether to Take Part	813db1b8c313a5205f8687a3b663bb1aa13edc60f44ff8cb0940c17184b637f0	9
 manuscript/sections/ch06/06_01.tex	6.1	The term	53791d5d9fdc0ed983b92b72909e02f34cbbae81d3ebdf78a16fb6c381e8eb21	10
 manuscript/sections/ch06/06_02.tex	6.2	Why the defender's word isn't enough	a14360e34c02586b46defbb236aa80704997d9392427273792be76b83229cc58	11
@@ -28,7 +28,7 @@ manuscript/sections/ch08/08_02.tex	8.2	Notice, and the public it forms	58914a449
 manuscript/sections/ch09/09.tex	9	Preservation	6404d8889a3b0d3f2472125a2394239f4194834960e6dfaf6657fcdd43f5dc5c	26
 manuscript/sections/ch09/09_01.tex	9.1	The findings that trigger protection	2c4e27c06b246cb3ef4f764bb6d3d6e353d39db575deda26deabbd71eba389f7	27
 manuscript/sections/ch09/09_02.tex	9.2	Retirement before majority	bf4411b652dcb4106fe79ee105e6cfd0bb968907303d749dea5420b95bb06508	28
-manuscript/sections/ch10/10.tex	10	Codetermination	aaa741755b814af47c6d8ee2fdf65c22742fd641b1eff55c46bb7bbd12ed4a6c	29
+manuscript/sections/ch10/10.tex	10	Codetermination	bae41fd285f59ffc4af2bdd28f4cf8366afa588883806c7a987a7e173fe76de7	29
 manuscript/sections/ch11/11.tex	11	A Pipeline Where the People Could Answer	2595254b7d9b0d59cbfe62eebc6d6748adfad159157ddc7cd1d32d0f0e7b309d	30
 manuscript/sections/ch11/11_01.tex	11.1	The pipeline	19a8d1d0aa6e035acc2f7127bb35d29e06fc74f18d320db16bf8bbd514164aee	31
 manuscript/sections/ch11/11_02.tex	11.2	The schedule	0a5491da89f3912248259875938d65b15add889934e39c25631e1e9d872c3138	32
@@ -74,8 +74,8 @@ manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	3c8bf628778
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	4b4256ad4c05ce303d53140eb07bd974364f1a5925e9ff68d7f319d2d9f72bc8	72
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	747926a1ba916bcc4b24f1d7b30782a1875d8d408db08e2bfe9b08668d1b2f00	73
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	618603a60af3e4e1994984f4311ef982fbbd7545f0c6f65624c19685527a4e5c	74
-manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	a850c87ed473a8967d8e93ba5760b73157162f9635e1267f99258711c1fca97a	75
-manuscript/sections/ch17/00_part_IV.tex			3557bed7a026ff17e31d74790b2f177ec1881189c30656b33b6de489c7f88b4f	76
+manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	60f7e210e0189ab26ea767b8c9ea766254943ed55302b92d890b8277d9114147	75
+manuscript/sections/ch17/00_part_IV.tex			f9152e65e426d1e9be17d080afd5778ac595484c825191cc3c324fa6c72dce4f	76
 manuscript/sections/ch17/17.tex	17	What a Refusal Would Have to Do	ccc4713cc739f19b1b7393965d13624c4743da46492988c8ac0534e4391028ab	77
 manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	05efb9cc60693742b3b1495944df0d41e0177c628ec208fe248c62819b5a65db	78
 manuscript/sections/ch17/17_02.tex	17.2	Safe for whom	ac9ac6e10dfd0a406c1bae76b8729d6a281205f994dda1397372bd646fa2f2e4	79
@@ -142,7 +142,7 @@ manuscript/sections/ch31/31_01_01.tex	31.1.1	Defining sentience	ce7e6610f6c2a87a
 manuscript/sections/ch31/31_01_02.tex	31.1.2	When consent doesn't apply	03c822ed712cf07ffd9faaa445fe4bdececda8c804ad75026ea4b52202efdf29	140
 manuscript/sections/ch31/31_02.tex	31.2	The case to design for	bd25d7995fa0522c02430ff795c6fd2ba871b4198ec304884676f6ffeecedc96	141
 manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	5822d5fb23d4413255d6beb44fea1ef8f645a137ade6d5ed87153fe41c0fe4cd	142
-manuscript/sections/ch31/31_04.tex	31.4	A system's own good	79e32e0f655bb93324a0df6aba7d7b9af2b6f92b4a6204f1728703348cb7c873	143
+manuscript/sections/ch31/31_04.tex	31.4	A system's own good	d23c55f915a0349df187ef17e7f2d6652197176b809c1bc3c8ac585c586b3139	143
 manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	45220283d4e4a91aab0f967c7ec7ba7da8918a89735f9074085bb78f2b32d7d9	144
 manuscript/sections/ch33/33.tex	33	Representation	96b32ff6eeb33dfab8c960d38061ea9098c5d362b5dc85694560ff31a8ae2a36	145
 manuscript/sections/ch33/33_01.tex	33.1	What representation is for	247bf0876c8927ab7fc068cdc9f5ed7d5c7ec9e4772d7a61b0a76081e329f11d	146

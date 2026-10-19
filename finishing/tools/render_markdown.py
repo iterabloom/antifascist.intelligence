@@ -564,6 +564,13 @@ def render(path, nums, root, labels):
         body = text[text.index("{", start) + 1:end - 1].strip("\n")
         text = (text[:start] + "\\begin{quote}\n" + body + "\n\\end{quote}"
                 + text[end:])
+    # A part intro (\partintro{...}, D-921) is a paragraph of the book's own
+    # prose on the same page, so it renders as one, after the part heading.
+    while "\\partintro{" in text:
+        start = text.index("\\partintro{")
+        end = _matching_brace(text, start)
+        body = text[text.index("{", start) + 1:end - 1].strip("\n")
+        text = text[:start] + "\n" + body + "\n" + text[end:]
     # A comment that starts mid-line takes the rest of the line and the
     # newline after it, and TeX skips the next line's leading spaces, so the
     # two lines are one. §19.3 carries one, a note that a citation is owed,
@@ -1041,13 +1048,27 @@ def strip_draft(text):
     paragraphs and taking the sentences that name it out of one leaves prose
     about nothing.
     """
+    # The title page's verification sentence (D-922) is the book's and not the
+    # apparatus's: it stays, with the two generated counts it prints written
+    # in as the numbers they were at this render, so the gate below has no
+    # word of the vocabulary to find in it.
+    counts = dict(re.findall(r"\\newcommand\{\\(refschecked|refstotal)\}\{(\d+)\}", text))
+    m = re.search(r"\\providecommand\{\\bookverification\}", text)
+    if m and counts:
+        end = _matching_brace(text, m.end())
+        body = re.sub(r"\\(refschecked|refstotal)(\\ |\{\}|(?=[^a-zA-Z]))",
+                      lambda mm: counts[mm.group(1)] + (" " if mm.group(2) == "\\ " else ""),
+                      text[m.start():end])
+        text = text[:m.start()] + body + text[end:]
+
     while True:
         m = re.search(r"(?<!\\newif)\\ifdraftmode", text)
         if not m:
             break
         text = text[:m.start()] + text[_matching_fi(text, m.start()):]
 
-    for opener in (r"\\newcommand\{\\draftstatusline\}", r"\\AtBeginDocument"):
+    for opener in (r"\\newcommand\{\\draftstatusline\}", r"\\newcommand\{\\draftstampline\}",
+                   r"\\AtBeginDocument"):
         while True:
             m = re.search(opener, text)
             if not m:
