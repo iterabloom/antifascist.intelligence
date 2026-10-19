@@ -335,12 +335,13 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    proof status at D-399 — so it is a step and not a reminder. The page count,
    the word count and the commit the pair was built from all live in that lead.
 
-**While the notes pass is open (D-906), "proofs please" means main.** The pass
-runs on the branch `p222-notes`, in the worktree `~/antifascist.intelligence-p222`,
-and `build_proof.sh` run there would overwrite the dated pair main's README
-points at. A proof of the branch is built into scratch with the underlying
-script, `finishing/tools/build_tex.sh ~/book-scratch/p222/proof-partN/pdf`,
-sent with `~/upload-tool/upload.sh` on the author's ask, and never committed.
+**A pass that runs on a branch leaves "proofs please" meaning main.** The notes
+pass (D-906 to D-914) ran on `p222-notes` in a second worktree, merged to main
+at D-914 and removed; while it was open, a proof of the branch was built into
+scratch with the underlying script, `finishing/tools/build_tex.sh <scratch
+dir>`, sent with `~/upload-tool/upload.sh` on the author's ask, and never
+committed. The reason stands for the next branch: `build_proof.sh` run in a
+worktree would overwrite the dated pair main's README points at.
 
    **And check for a sentence that was already false before the build**, which
    this step as first written does not reach. At D-404 the live lead carried

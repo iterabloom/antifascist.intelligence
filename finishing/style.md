@@ -283,9 +283,9 @@ belongs there and not in an appendix.
 
 ## 4d. Page-bottom notes (D-906)
 
-The main text is a spine of about a fifth of the book's words; the rest is set
-as page-bottom notes under `\note{…}`, the manuscript's footnote macro for
-prose. Nothing is deleted in the move, and the only edits are the repairs a move
+The main text is a spine; the rest is set as page-bottom notes under
+`\note{…}`, the manuscript's footnote macro for prose. The target was a fifth
+of the book's words; what the rulings below leave is about half (D-914). Nothing is deleted in the move, and the only edits are the repairs a move
 requires: an antecedent restored at the head of a note, a run-in head turned
 into a lead-in, a kept sentence that pointed at a moved paragraph re-anchored.
 `finishing/tools/sentence_coverage.py` checks that every sentence of the book
@@ -315,8 +315,8 @@ table cell, a caption, a heading or a run-in head, and every section keeps at
 least one sentence after its heading to carry its notes. A citation or a
 `\footnote` inside a note is the next footnote in the chapter's series, not a
 parenthesis: the preamble's macro sets the mark where the command stands and
-the text as soon as the enclosing note ends. `\autocites` is not used inside a
-note. A paragraph is split, by hand, only where its first sentence is the claim
+the text as soon as the enclosing note ends; a multicite (`\autocites`) inside
+a note is held back the same way, as one citation footnote. A paragraph is split, by hand, only where its first sentence is the claim
 and the rest is support.
 
 **Measure.** `render_markdown.py --check --keys --chapters` reports body and
