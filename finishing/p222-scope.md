@@ -78,7 +78,7 @@ hanging rule, the repairs allowed and the form in the source.
 | I | 1–3 | 2,966 | 1,527 | 2026-10-18 | D-907 |
 | II | 4–11 | 22,859 | 9,874 | 2026-10-18 | D-908 |
 | III | 12–16 | 18,414 | 7,911 | applied 2026-10-18, reading pending | D-909 |
-| IV | 17–25 | 33,937 | | | |
+| IV | 17–25 | 33,937 | 17,080 | applied 2026-10-19, reading pending | D-910 |
 | V | 26–29 | 10,014 | | | |
 | VI | 30 | 1,814 | | | |
 | VII | 31–34 | 11,525 | | | |
