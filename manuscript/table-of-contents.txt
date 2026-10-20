@@ -131,7 +131,6 @@ Chapter 25: Conditions First
 25.3. The rule doesn't know who is asking
 25.4. Building one to create demand
 25.5. The machines won't build them for us
-25.6. The limiting case: the exception, and where it leads
 Chapter 26: Who Owns the Means of Computation
 26.1. Ways of holding
 26.2. The captured-state objection
