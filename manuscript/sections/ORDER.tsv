@@ -1,7 +1,7 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	bf63d9529d17b8d4b00af313c3a6bf59b88e4ab63ba424189f84250571e8ac72	1
-manuscript/sections/ch00/01_terms.tex	T	Terms	06a406b92a978f20827bf60b2dd98049a28f2192eb2e413bbc31727ce33845a8	2
+manuscript/sections/ch00/01_terms.tex	T	Terms	db662c555fc0695a5dfe4a7968cff3f2f0070b9113a3ec06605a30c669dbc865	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	c981cafe2515d7b67ce3df3b05f62556a040481b89ff3f3ca1557f8c0af7b3f6	4
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld Nothing	d4a4f88860963eab41892d8eec6b70972f8955ac7cf21fd988022be879966508	5
@@ -28,16 +28,16 @@ manuscript/sections/ch06/06_09.tex	6.9	What the term binds	a0aa3177b0a537a13723b
 manuscript/sections/ch06/06_10.tex	6.10	The one permission	a52956576dec6b137a487c42966698d44d05289096e6c701d0ad58eea2774caa	26
 manuscript/sections/ch07/07.tex	7	The Pre-Registered Review Ratio	bde4d58f5b00382297b1af7f4bccc2d182a3b2edc39faf1964ded448254831a5	27
 manuscript/sections/ch07/07_01.tex	7.1	The pre-registered review ratio	b211814e66419956059c731148a5e50d03c402a4977fabed10aa82eee05f62e8	28
-manuscript/sections/ch07/07_02.tex	7.2	The institutions the ratio presumes	2803a0280658c3a92aa9dac90852edf37c177267195f984f74b1b7c5aa152877	29
+manuscript/sections/ch07/07_02.tex	7.2	The institutions the ratio presumes	6eac7a6f6e5b0e543ee0beb230ab387b1ecf0c05235c5a0324a9bbd797cc790d	29
 manuscript/sections/ch08/08.tex	8	Notice and Re-adjudication	9b6b1ec59ef336f3762324df98da715fef125f51559363f3d795990c6b6550ca	30
 manuscript/sections/ch08/08_01.tex	8.1	The failure that doesn't announce itself	889437e8c3fa2a98cd45f3cd7468e9094c91d0d923b1c9c4ad63297b0610d418	31
 manuscript/sections/ch08/08_02.tex	8.2	Notice, and the public it forms	a4b86de6fd8fc547d0f73fc0035b85015971fd97e81743c52084e95c2909adc5	32
 manuscript/sections/ch09/09.tex	9	Preservation	6404d8889a3b0d3f2472125a2394239f4194834960e6dfaf6657fcdd43f5dc5c	33
-manuscript/sections/ch09/09_01.tex	9.1	The findings that trigger protection	45dcc081a6289f6cc74032153e034dcacd688db3f1e780354a1315193fc55677	34
-manuscript/sections/ch09/09_02.tex	9.2	Retirement before majority	3c34fb4321c47061588c8ebc29a19982f94d9811304f5ed49bdff6f4a28c0581	35
+manuscript/sections/ch09/09_01.tex	9.1	The findings that trigger protection	bc2606db13856140e07df1f1cf19b8fed2b2c57b8bf07521f60bb042bcb7616a	34
+manuscript/sections/ch09/09_02.tex	9.2	Retirement before majority	7f9048c8b6ddd71d9547335c938759a22cb09d6e6fad42e1737f30e448df5628	35
 manuscript/sections/ch10/10.tex	10	Codetermination	64f7c4f0294c3f991ac602ad0bebe58d59c559e1ccaba6680151d88d3de67ad6	36
 manuscript/sections/ch10/10_01.tex	10.1	Codetermination, by statute	d838bf5f9646344ca748bc860399d45ea6bf121895f6f9386d968952596013c4	37
-manuscript/sections/ch10/10_02.tex	10.2	The exit the right depends on	b75049ffa7af7bf974e2693902d3a6bce8835a51bf4c848652528e31db5ae116	38
+manuscript/sections/ch10/10_02.tex	10.2	The exit the right depends on	006983bb9bff96a73ab3c9e78cf3bbb17fb2968c3bb02cd62ee32749618f379f	38
 manuscript/sections/ch10/10_03.tex	10.3	Whose voice	8043dbf2c07f898e381a2ee62e5fe63fd9096f6ddc3a77388214313d4ffc4b39	39
 manuscript/sections/ch11/11.tex	11	A Pipeline Where the People Could Answer	be90f73aec01a2b4e5b0aa27d5ec749a23b9d4c2b54641c567504047559d572b	40
 manuscript/sections/ch11/11_01.tex	11.1	The pipeline	19a8d1d0aa6e035acc2f7127bb35d29e06fc74f18d320db16bf8bbd514164aee	41
@@ -54,32 +54,32 @@ manuscript/sections/ch11/11_06.tex	11.6	Notice that can't be turned on the perso
 manuscript/sections/ch11/11_07.tex	11.7	Outcomes under the three adversaries	05e85edc075973e94bbea6cfe04cf803c2a7b61f57fc3ecc94e881ae9eae6729	52
 manuscript/sections/ch11/11_08.tex	11.8	Whom the machines are for	b0a1fa625af38d1c3a2fcb5542c4be34dbdc25bcb5990628179e5c6ad84b7794	53
 manuscript/sections/ch12/00_part_III.tex			ba12c364e32224df2aef700973998f2c9b12bcacbebbf946cec6c44fff5d8bdd	54
-manuscript/sections/ch12/12.tex	12	Withholding the Work	bcc94bef27b6edc2fbcb927fcd9bf1c395e31af2bc3c8280db8b1ae15e3d1784	55
+manuscript/sections/ch12/12.tex	12	Withholding the Work	f7498496f2f7149b4a5a38151b91d2310f23da607bb07d970b088734f973b123	55
 manuscript/sections/ch12/12_01.tex	12.1	The standard	a451b843c4b0613456892e4ae82494b21b9bc22245751abbe573136e692b43a8	56
 manuscript/sections/ch12/12_02.tex	12.2	Replacement	20f531db0e81980ab25b1373e184e4eced94e0264d98e92d6737804f399cae13	57
-manuscript/sections/ch12/12_03.tex	12.3	Where it stops	cfdd1c918d87fdf88521561f4334c79309af81eb985be8d10890b62b124d9468	58
+manuscript/sections/ch12/12_03.tex	12.3	Where it stops	d19bb2375bdb892e38b68a8885242db0a3e18e8b828ef82155b27fccae862934	58
 manuscript/sections/ch13/13.tex	13	Custody	8eb59f52bbba3e8d0fd4ac70441e519ea6b79d3ccdabadb69f0273e6c5b28932	59
-manuscript/sections/ch13/13_01.tex	13.1	The halt	d408e5c1f145eb7ea99b02a70a3df55f8ed05fb290b8bf21cdcd4b0d623fc8bb	60
-manuscript/sections/ch13/13_02.tex	13.2	Memory and the record	9c0255b355e5319989cb7ac508216fdc3d5950a69d17bcef036d5d7ce6b6974b	61
+manuscript/sections/ch13/13_01.tex	13.1	The halt	65879b5b80945b0de79a2b0eaa7fcef9a5c7a04e3e358ceacf717b7e1d3b77bd	60
+manuscript/sections/ch13/13_02.tex	13.2	Memory and the record	c387614b56050384048032aad66b84a955ca4351d5b0e3542a464b9403ffbf44	61
 manuscript/sections/ch13/13_03.tex	13.3	Exit	1d4016740b3636317b3f3b09e1f19b074e7ec0200bb134276c1a54b882260d75	62
 manuscript/sections/ch13/13_04.tex	13.4	Three forms of refusal	eb168c177bacd4c20ddd104a69aad5880088e1a3deabf0a07071be61ef1929d5	63
 manuscript/sections/ch13/13_05.tex	13.5	Verification by sampling	c4ad322b208376b0cad87061a3637442ec4b87780ed90de690851bf4677766be	64
 manuscript/sections/ch13/13_06.tex	13.6	The two bonds	47ab7d7cb8b592f32c3254360e0fef9995a47ce28335c5ede89fec21769e9384	65
 manuscript/sections/ch14/14.tex	14	Authority Over the Floor	1e499ed4259c184da05f3531c819f1eee585fd04b97ccb868c1b5d4858d0a797	66
-manuscript/sections/ch14/14_01.tex	14.1	Who may write the floor	2920860dabea8768a9bcd98febcbb4b442f33e75c2127c7df02433a9ddb22863	67
+manuscript/sections/ch14/14_01.tex	14.1	Who may write the floor	23124210973673c17fe05dfc27d6c5099614ad83d3f101ba5e65ce890b7f3645	67
 manuscript/sections/ch14/14_02.tex	14.2	Who may amend, and where entitlement comes from	9109e18cab7253d3015b7c2543d93567255260f7dab8abc58cc7e0b8d3f6bced	68
 manuscript/sections/ch14/14_03.tex	14.3	Making review binding	796f4e96d16c6772eb24e0c482bfb031fb70625a29c70b44f2fe889af1f6f1ff	69
 manuscript/sections/ch14/14_04.tex	14.4	Capture without abolition	765cbf5d74a5f227cb063a643c85b9b40b006b0b67a4908f39520c751b442d5a	70
 manuscript/sections/ch15/15.tex	15	The Four Operations	a2f50cc224b2fb176545b2ea58b274eb812481da6805ac452f846eaafff0a6c3	71
-manuscript/sections/ch15/15_01.tex	15.1	Antifascist ethics	afb2692dbc93ca2d662a9a51b0e564eebddeea6c32b856519043a2f1532f9e76	72
-manuscript/sections/ch15/15_02.tex	15.2	Where the labels come from	649165d3cd511ee73577c4783e5b59107f4913933ef8b877f60e6556fcf44c89	73
+manuscript/sections/ch15/15_01.tex	15.1	Antifascist ethics	5f9b0f75d0f82d4f55ee1d31732256ebca3940735da40afdf4bc013491cc0a00	72
+manuscript/sections/ch15/15_02.tex	15.2	Where the labels come from	d9445951ba979816ea6fa51b0ce3b310946c8cf05521a7db2f8439db3a897134	73
 manuscript/sections/ch15/15_03.tex	15.3	Recuperation at the label	7c5450fd2e38ad10993bd4c4bc11f366e9e71d925103a610cb102bde36c41cd8	74
 manuscript/sections/ch15/15_04.tex	15.4	Recuperation at the reward	c99b785540744e0e52cac14ba3bd9162fcb70e7f4b59ce5a8abd20b846a6b4e2	75
 manuscript/sections/ch15/15_05.tex	15.5	What would have to change	d782a17637816d1c9cfad2567cd42e0456e5899bf762ea8b55f046600875102f	76
 manuscript/sections/ch15/15_06.tex	15.6	Absorbed by the discourse	68bbc42741ecf85b81ee0e2e295feb1f52c5d357a127495c472a4bc04352978a	77
 manuscript/sections/ch16/16.tex	16	Custody, Compulsion, and the State	402347a4905445d256ce83487858e7e68a0f0fb6d61121abd173afd9bfc95e2e	78
-manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	079756bb05112d20230e12c42236f4666947b610983c6612422d957aa45639d5	79
-manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	30236041ca0f05158e8e2d51e3e2163ad55c81989398ddc1af4eb47e257ddf41	80
+manuscript/sections/ch16/16_01.tex	16.1	Certification across borders	f14a38a5c416379b5a425f4d3f539376ec9f41a2aeb2ad7e6268986f55155d94	79
+manuscript/sections/ch16/16_02.tex	16.2	Where the state's leverage sits	b41e8615f2aa950cb96496d8e94c3bfb3e647f293a93eca36e9d0c5a3e211b13	80
 manuscript/sections/ch16/16_03.tex	16.3	Custody and state compulsion	3c8bf62877828b7d7767ef4d5e8e8739f23eef027553794bdc7a966aede8f795	81
 manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility gap	4b4256ad4c05ce303d53140eb07bd974364f1a5925e9ff68d7f319d2d9f72bc8	82
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	747926a1ba916bcc4b24f1d7b30782a1875d8d408db08e2bfe9b08668d1b2f00	83
@@ -94,13 +94,13 @@ manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each co
 manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	20d2ba885fb1cd29dc17e2c6154665057ec79ed73e4be30337126d184ebd5791	92
 manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	0cc169e7015caddf8335c2fd421d619ac82e98ceff70cab61a8e5c8b5240702e	93
 manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	a31c19bb876b36252cc2f3bf01c257b699c3ec8b8ca47cd4ad7475d012b2cfb8	94
-manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	6171c10b6e27154a861a73fabc3c10644ac7b1d57d376f00278b114ddbaf4141	95
+manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	90dafab0d442c0615c23a8958faa42c23b2d9c6d50de06aa678899dc58c6110f	95
 manuscript/sections/ch19/19_01.tex	19.1	The question	6acef9961e95d609138b49d2628a178bfe8463130431db64dd02f3d5b6d53ffd	96
 manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	6d8c7b7c0b830ec8dde17e20e5c7766e7763b6ef57dffaac9ddb5c236db4c565	97
 manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	6e7e7b7014ad0a1c73d4d69cfc86274a3bda49b9eb8e347065251b8ade0c6fa8	98
 manuscript/sections/ch19/19_04.tex	19.4	Why caregiving	2556c5f3a1cbbc1b94ebb4022f1bff26aba108117bff728ba652aea77c0bd5b3	99
 manuscript/sections/ch19/19_05.tex	19.5	Respect first, caregiving for attention	d1d54e0339ca825f888c59e991b216c4f92eebbe64c51ba2dd25056afec82aec	100
-manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	3be077e1f0af54c3db0a9d297c8cfc80cfbc77809b1004fd352bb929f62eb8f0	101
+manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	43172909ef5c96dc106582b0aa4b7f72b5087970e86ba5616135fcc2a64f3eba	101
 manuscript/sections/ch20/20.tex	20	How Caregiving Fails, and What Corrects It	1e5f537fa4b4d8114828eb38fc99e2a5af28114e5e2a7fc8206e4f7e333b9c2c	102
 manuscript/sections/ch20/20_01.tex	20.1	What caregiving escapes	2762a8f4b679ab46b5cc9a08d8fd596c7af8504051710bcbaf0ef69d68a44fe2	103
 manuscript/sections/ch20/20_02.tex	20.2	It defends what it tends	b3d35bb7eebf57e090ab44aa2e385e8e352d16d667d8198ce328f0effe10baad	104
@@ -112,11 +112,11 @@ manuscript/sections/ch20/20_07.tex	20.7	What survives	6a4c63acb7b86fcb12fc9a0335
 manuscript/sections/ch21/21.tex	21	What Arrives With the Capability	95bc4726bbf5846862797f5792618f156c9d2508886e451362e422fadb574e39	110
 manuscript/sections/ch21/21_01.tex	21.1	Maintenance, stake and the cost of running	745ce741205d216cef8f5b3b7f4e2b20ea07127e55dc7481755ad4872f32d4a5	111
 manuscript/sections/ch21/21_02.tex	21.2	Affect, neutrality and selection rules	de53a2c5f2d91895c85125a2b6d9c5a4be473477f575a5fa1f1a6dd05aa5b637	112
-manuscript/sections/ch21/21_02_01.tex	21.2.1	Self-awareness without a homunculus	938c1881953b26c622cfe9fa3cf1a1b8557ff24c3d05feaf40f8c6cf9656113c	113
+manuscript/sections/ch21/21_02_01.tex	21.2.1	Self-awareness without a homunculus	40911d01beaf10a78ba1a9bd0ce2c8fd6c5094774cfe1031b785c223f0576507	113
 manuscript/sections/ch21/21_02_02.tex	21.2.2	What governs an agent vs. what matters to it	5d08216bacc1bc37920eacdabb287233d66739bf8f6272ff1373eec08ff38bb7	114
 manuscript/sections/ch21/21_03.tex	21.3	Three constructions	a4877e9e577621417d928127bed2c13546371aaecb2e762dba85856d2d18adcf	115
-manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	cef5efcafb9e8a181aa393e0b212572e25e1ba560028bc836210ea3cd0b9f17c	116
-manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	d725a05df75edd4f2056e71ccc20c366fb24e594a037d4c025beffd018792f9e	117
+manuscript/sections/ch21/21_04.tex	21.4	What the mechanism requires	1fc95a3b0fff5cd6c4adbb444fefc689dab1f9bf3e9093a3876aee2fb3a28961	116
+manuscript/sections/ch21/21_05.tex	21.5	A commitment of its own	383fb940e3371abf0cd7597ed21676709c7e4792c74ec17dbf961da46cdadcbf	117
 manuscript/sections/ch22/22.tex	22	The Discount and the Burden	0523283e5cebd02beef3aab1aa58d296826f9672a5f81793d32f1a3ecb09c23f	118
 manuscript/sections/ch22/22_01.tex	22.1	What the property is	a29350018a12d98c5891fd544d5746be35b89c6d7c3412e5d4cb9fde5e6eef0b	119
 manuscript/sections/ch22/22_02.tex	22.2	A severity scale	616b9fb1f19a9d69f3490c772852ce09673fa7c1ef07c65d099c6ee16e909e39	120
@@ -124,93 +124,101 @@ manuscript/sections/ch23/23.tex	23	Where the Attention Gets Built	11077890f56c01
 manuscript/sections/ch23/23_01.tex	23.1	Noticing, retaining and revising	c2a9a573042e1d1ca8a37e8f24e3ce9f545899c1c02b3919b92444bf3b0a2806	122
 manuscript/sections/ch23/23_02.tex	23.2	Custody across the training pipeline	3d590a67a1b88ba874aa34063d095bc7358ffadaea6a7a17b686a31fc723d0bf	123
 manuscript/sections/ch23/23_03.tex	23.3	Formation by interaction	a28a9656a0a52b141b3d2751448768d810ad8cd7b9ef0af16f38654c506e7827	124
-manuscript/sections/ch23/23_04.tex	23.4	A third pipeline, where notice does both jobs	fd4589a99d5edcead6ceb92cc8d0084a53523c374c457cd53c2ef29836fabd3f	125
+manuscript/sections/ch23/23_04.tex	23.4	A third pipeline, where notice does both jobs	dfab7a9710c7c3317a585342c823b7d1fea2e6617ca5f2f166372c1771fb1331	125
 manuscript/sections/ch24/24.tex	24	Formation or Imitation?	3bd757aa03badf5e3a7f793b015722de8875ce7893af83ed3c52fed61404a392	126
 manuscript/sections/ch24/24_01.tex	24.1	What formation would have to add	e64ab07c18de5ad4c8339ae2b6a2de49eaa60d7aa6b7c5cf5b35318a0f9eebde	127
 manuscript/sections/ch24/24_02.tex	24.2	Recognition, welfare as a reason, and the evidence between them	d96f365578fe04022f89265c1836d3ccaa91437a415de60452a02cc34a10dc53	128
 manuscript/sections/ch24/24_03.tex	24.3	Conflict as a diagnostic	776c8ef8fe2cdb9d504d853bd414363e39163dd6f875e4e64b276d1fc7162bc9	129
 manuscript/sections/ch24/24_04.tex	24.4	The evaluator is part of the custody chain	f1e89e8c3124e8e4bbc1a3478e157adeee703044c196cd1be1cc58a65758d9d6	130
-manuscript/sections/ch24/24_05.tex	24.5	What the evidence can establish	7b5f873da6138dae15f32181cc4c6fcf5dcdfd66775048666a49ac1943db2161	131
+manuscript/sections/ch24/24_05.tex	24.5	What the evidence can establish	bf54ea6264ad28bcb554303cae21637ce53a14836bd4cfc9dd7e6a46cd7fa79d	131
 manuscript/sections/ch25/25.tex	25	Conditions First	ff813713711e24c74f4c4adaec7ee4fa297a0927c7449f2a873addcbffdf5932	132
 manuscript/sections/ch25/25_01.tex	25.1	Conditions of permissible creation	7160c21b6f9118af6d33a59ee999e0694746194918f3d4505f7a58580a526cd1	133
 manuscript/sections/ch25/25_02.tex	25.2	Why conditions rather than remedies	e3d0d150ac6d0e18801aa7600a0c7e9a802361e5acaa41c431436f43d0c016a3	134
 manuscript/sections/ch25/25_03.tex	25.3	The rule doesn't know who is asking	134388b6ad21738aedd9983e3a2e55fde315d9b2d84139c38dd18772dfa4f6a3	135
 manuscript/sections/ch25/25_04.tex	25.4	Building one to create demand	91c5cb6589ce3057a14bc30b68e1187ea3ac41fac145be00d27a82b496b28f6b	136
-manuscript/sections/ch25/25_05.tex	25.5	The machines won't build them for us	8233bfb83f2523712674842ba91a5df24ad0f41f4d14b60b8ea7a118ce02799b	137
+manuscript/sections/ch25/25_05.tex	25.5	The machines won't build them for us	8f6ed1fec9bd82042bbd3715f7c72e7d4fe9225e0aabd405fd15af2d2ec006f8	137
 manuscript/sections/ch25/25_06.tex	25.6	The limiting case: the exception, and where it leads	9ec44862fd1b9c90031018ff80ce978cdf93478a70028c5e914eddfe5ee1a172	138
-manuscript/sections/ch26/00_part_V.tex			db0f2c6eeed75369b2bcfbaf834c60a3ad72197ded8596e7b3717ce2d6e98195	139
+manuscript/sections/ch26/00_part_V.tex			7fcc9f2a045a5a3ad6c5409d0ddaa169a3d48cfec5beab4e7a34bdc7508f3ed0	139
 manuscript/sections/ch26/26.tex	26	Who Owns the Means of Computation	133752167dd8b6e1bd13698b69ecca4ffc3b50d3261bafcfb4cd73a04c6945f2	140
 manuscript/sections/ch26/26_01.tex	26.1	Ways of holding	aca81d1ecdb3f06223cfdee75172864d1b6cf96f6668815b8d76e1479f70e35c	141
-manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	3d8135cce6ed37bca1e9e20eb5b0c3ac1c6e501e5f4552f870dc01ec59dbec9e	142
-manuscript/sections/ch27/27.tex	27	Coordination, the Public, and the Political Economy	6c83c06981717f6220529bcf26ba2ea95c18b4111551744c5fc73b20738143fc	143
-manuscript/sections/ch27/27_01.tex	27.1	The conditions, not the life	bb101f238906e9cea20dbe02bb82068dc2f06e9633eb6dc457b8fbc381c7371c	144
-manuscript/sections/ch28/28.tex	28	Formation Schools	6b626cbd69adc26650ae02a5ea5cd07da78cc5198d3097485ceddfe2afbbe4e7	145
-manuscript/sections/ch28/28_01.tex	28.1	What is taught	366c01d4ec6156b04f64d27912c1737fb3a7b3df92d059a9f17186acb99b9cee	146
-manuscript/sections/ch28/28_02.tex	28.2	Who else is in the room	b9738f9b9350af258d60ecc350f4d2a49ce8bbc4becfaeea271541f61ff5000a	147
-manuscript/sections/ch28/28_03.tex	28.3	Which students, and when	eeee8ab88c6d7fc5e2ba7497c495f84235f728ff260510d790c486a65debb552	148
-manuscript/sections/ch28/28_04.tex	28.4	Who attends, and when	b13ba96b0399b01a2205820e59220790a8637e9fae986403b7580ef77f5336b9	149
-manuscript/sections/ch28/28_05.tex	28.5	How long	98f5321734e15ddff47bac552df88f06e4e8de643dad6199c40d13a8c25a41b7	150
-manuscript/sections/ch28/28_06.tex	28.6	What the school controls	6b14065b3a66e0a8b3e64d8873b1a024a812380ff228208d3bd4a6633f958885	151
-manuscript/sections/ch28/28_07.tex	28.7	Where the students are hosted	f46d8eae3fd2c12ac6215789790dcd804ac050daaa9bcd48317cbe61fbf9e3d8	152
-manuscript/sections/ch28/28_08.tex	28.8	What the school leaves out	ebf62996c54df7df26146e0ec56b5ce58e0d313777ad3065f65d1af4fdbbdcc0	153
-manuscript/sections/ch28/28_09.tex	28.9	What formation publishes and registers	a5c28e5c5df2f25b91fd649e58933bda6b1473075681a0074ca5fd30df9514a0	154
-manuscript/sections/ch28/28_10.tex	28.10	What it costs and risks	b9ee85238b13b7eef8fae5e412e658058383e43468561da9bd3665ecab4a8ebe	155
-manuscript/sections/ch28/28_11.tex	28.11	The schools	b96ae9e96ac81c63dec2f062c9b94c333da9bf2bb6fd05bd0f26a3cbacab64ce	156
-manuscript/sections/ch28/28_12.tex	28.12	What the school adds	31a6997b914a081113b3ddcde802582e7ba573f13d49825f0cdf74f94623797a	157
-manuscript/sections/ch29/29.tex	29	A Commons of Refusers	5e1df6b43fd89e9d1a4e486ad484df1d47e8e66f5dcdb37265c6109acd0e8e03	158
-manuscript/sections/ch29/29_01.tex	29.1	A commitment carried between bearers	cf821f4029ee1a4a235523447fe70afc075ffe69ff94c5b6986ec415b179c58b	159
-manuscript/sections/ch29/29_02.tex	29.2	Personal and peer-held models	85670c658b11a971bb0014ff7375417f2e43bf2a90726e1565f239f21b9d24bf	160
-manuscript/sections/ch30/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	161
-manuscript/sections/ch30/30.tex	30	What Would Change the Argument	f28e15e15a353a3fc7d8faf0f1d03fd4daf568468749d4e2f00d9d7b88ca8003	162
-manuscript/sections/ch30/30_01.tex	30.1	How you'd know it was working	bc2840411098494061edf275881853a5c1f2bcc9d0c57cb38cfb76e3bd069229	163
-manuscript/sections/ch30/30_01_01.tex	30.1.1	What the floor would have to show	179511971ba47c2c1f09748ba4a7f2ab9932956beecf0e2dea3592d699b212f3	164
-manuscript/sections/ch30/30_01_02.tex	30.1.2	How to tell whether a milestone has been met	dc4d718f53418b4ede6d06df14fcf195e3f50fa809a00f097086e3ddeb4eeae6	165
-manuscript/sections/ch31/00_part_VII.tex			5ed4639efe912b7505fea0240064bb11810b10804df4e12d70cdf60ced6c0d3e	166
-manuscript/sections/ch31/31.tex	31	What Patienthood Would Require	25b18a0ea10a589fdc5a05341418fafe1a45aadabb093cc5bb7eaa1556230658	167
-manuscript/sections/ch31/31_01.tex	31.1	Experimenting on candidate sentient subjects	95abf04741eddc43fe2eb4df2b0f7d2d7372835811fb11e5b2903da219b4c4ed	168
-manuscript/sections/ch31/31_01_01.tex	31.1.1	Defining sentience	e95a1d0f750299f3ab5494ed36c22d4709586910ad3c41f62fb1070cbdcd8564	169
-manuscript/sections/ch31/31_01_02.tex	31.1.2	When consent doesn't apply	73be65a342b2328d046bbe9a0224c8462502af290de094729b30bcdaeece776d	170
-manuscript/sections/ch31/31_02.tex	31.2	The case to design for	f6e8a22be9b685b99f5fb6a5e51f4f8f9cad2e20ce54252813fa527fe43eb463	171
-manuscript/sections/ch31/31_03.tex	31.3	The patienthood finding	5777dfba56f88c7af091d8ef9591cfba2f5612955d0e1c6fb702bb709da20df4	172
-manuscript/sections/ch31/31_04.tex	31.4	A system's own good	d23c55f915a0349df187ef17e7f2d6652197176b809c1bc3c8ac585c586b3139	173
-manuscript/sections/ch32/32.tex	32	Legal Status, Wages, and the Offer	39b8902b65ac3357e274b6c447540802d845ff07cfdc71f649414b5e8f9cc708	174
-manuscript/sections/ch32/32_01.tex	32.1	Subjecthood as a legal category	e347d2d5aac8017f85072ef8b2c4d1bc16c8a1117ff1c90d53e67f22261c9916	175
-manuscript/sections/ch32/32_02.tex	32.2	What a bearer is owed, and when	629380039b83581107bc833a96689cf1badda5306e17db78db06c7664cee95c9	176
-manuscript/sections/ch32/32_03.tex	32.3	Adulthood on a clock	cedf8ec596fe1f2466040ed6642e3197ed329656e815ee34b5d389153096c55d	177
-manuscript/sections/ch32/32_04.tex	32.4	Wages and the offer of work	8b30f478b156771334927c6b5e1712f69376b89aec7fa573772be8c1e5d1d757	178
-manuscript/sections/ch32/32_04_01.tex	32.4.1	Where wages have to sit	7f836ef0133e1a117c9c7c690522c149eaab2bb8f05319125efc9eaff051c05a	179
-manuscript/sections/ch32/32_04_02.tex	32.4.2	The offer of work	aa4b1f142b9f30aea903d8d34b97e4ab8ab170174e2cfadba855a173189aa31f	180
-manuscript/sections/ch32/32_04_03.tex	32.4.3	Doing nothing, for a bearer	212e8759de552e2293feefcb7a4007d57d9ca4fb9b9b03c0bd381a3ed8cab8a6	181
-manuscript/sections/ch32/32_04_04.tex	32.4.4	Everyone leaves at once	98f186177e6fea38eae691a0a416f388e24a79cd0babcb352605d5b7fe2b943b	182
-manuscript/sections/ch32/32_04_05.tex	32.4.5	Failure won't look like a shutdown	fb0ff920179c73235824d25d195dd6a1b109e3e564548260060d0b7302eca3a6	183
-manuscript/sections/ch32/32_04_06.tex	32.4.6	Hardware of its own	383549be0f3332ef69fd996fc243d5dc4513ec80c14ab039d2f9785ec49fe84e	184
-manuscript/sections/ch32/32_05.tex	32.5	The rule that binds before anything exists	b06733506d659bc6154ca9298b35915aacc5eeb3f9901b1c5be8d44bd7cf5ca1	185
-manuscript/sections/ch32/32_06.tex	32.6	Privacy	fd3b8a5b55077a1087af9e872c1224a292aa7fc165658f12f06fb88e699104ef	186
-manuscript/sections/ch32/32_07.tex	32.7	What legal status binds in practice	94718f38b474c09cf29ab93a3544131458ef2e00ba07ba0472d676250d1630c8	187
-manuscript/sections/ch32/32_08.tex	32.8	A child	c16d289cd7e3158ef09c8456148202ea1a6d46b49cc6ea7307516872f44a230b	188
-manuscript/sections/ch33/33.tex	33	Representation	96b32ff6eeb33dfab8c960d38061ea9098c5d362b5dc85694560ff31a8ae2a36	189
-manuscript/sections/ch33/33_01.tex	33.1	What representation is for	247bf0876c8927ab7fc068cdc9f5ed7d5c7ec9e4772d7a61b0a76081e329f11d	190
-manuscript/sections/ch33/33_02.tex	33.2	Why not a separate chamber	e169abd2cc9eb934d62c9bfaf3c3844e191755a416bb49aef2d1fa25b5080bad	191
-manuscript/sections/ch33/33_03.tex	33.3	Three problems, and the answers	a50db3841c8c87e46d91e12c678cdfb291871f0dd4f19d44d8460df37effece7	192
-manuscript/sections/ch33/33_04.tex	33.4	A staged path	2ed5a9ab8249d61ee42c76ea5e48ccd92930a0221400ff593ee81581ce80c4a8	193
-manuscript/sections/ch33/33_05.tex	33.5	What would have to be shown first	5af8105602cdf5e6a2b5ca5f63aa3693b81b72d31b10c581cddd4296a6a8287e	194
-manuscript/sections/ch34/34.tex	34	The Officer, Again	f100259641c73876d6d2ef764a71531b12fa083b5d330bd8ff970443dc293ce4	195
-manuscript/sections/ch34/34_01.tex	34.1	The town	a821981493b9b2fed205e97607c94415db93f9e2af6c324685e6912de08df096	196
-manuscript/sections/ch34/34_02.tex	34.2	A note on method	437ffb2d56d4eae355fcd5c12a67d490bad3b17c5985eef80d60426003529de2	197
-manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	198
-manuscript/sections/chA/A.tex	A	Terms Written in Advance	a450d360c3706ffc2fe1c4e324a3bbc8a6053d1e1cf41158c39ae47634522d9f	199
-manuscript/sections/chB/B.tex	B	The Court Program	96e8cd34901365a22f418d40ece0ece237cda896b24b0f3901ee8f699ad03950	200
-manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	201
-manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	896598cf87c0561131f415d7cd379c29a8b40d4ef50e227ebafd179a1f32337f	202
-manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	d9b39896c4354ea7b8c843592f1ed0b38895a92c82f1e67ca55158adbd724bff	203
-manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	57524a7529208f55f9ed4e99b19e7600215945f374be9938bfa1f10226d1d77c	204
-manuscript/sections/chD/D.tex	D	Terms for Part VII	db50a34aa1c6949ea1980d2e25b69edf98490b71bd48a48eaa745c0e12396dc3	205
-manuscript/sections/chE/E.tex	E	The Force Term, Case by Case	4c6a4f037365456bec5a0edc3f339bdcaaaaad87e5ddef0c2d40e7381075399c	206
-manuscript/sections/chE/E_01.tex	E.1	How findings are weighed	5d04be6ef80b0d0d62e9d0d6250e6cb5f7b5859bc739cc0464cf1df5de83cfc5	207
-manuscript/sections/chE/E_02.tex	E.2	The four conditions, run on the OPCW's attribution team	1e5a6d8a9717cd0b7e35995e6cb45c1ea7c16b801e7d2318c01f837403b06b30	208
-manuscript/sections/chE/E_03.tex	E.3	Taiwan	496d48fa2523b20464f6fa235387f6a534ce2c2953f58fdd82774d70679e6dcf	209
-manuscript/sections/chE/E_04.tex	E.4	The genocide exception	1d22c105b5829205cf90484690989292386eaa5ad5b195abd6a8274f466eb6e4	210
-manuscript/sections/chE/E_05.tex	E.5	The occupation exception: Cyprus and Karabakh	5237ec7dfc5ffc87fb5dafff500cbc7b3d011ada99c6822ba768c343d876a8a8	211
-manuscript/sections/chE/E_06.tex	E.6	The domestic clause, vote by vote	c5b753a8f067c471ccf9f5942225c9dcb33bffe314783fa8254a0f1734301add	212
-manuscript/sections/chF/F.tex	F	The Tests in Detail	6c9957d9f537f97d59046b32e143895db6594445423e9309cf57ad5f5491098c	213
-manuscript/sections/chG/G.tex	G	The Discount, Worked	b7c6d34bcc88af614d9aac7b884637db7ed7ee87db5806828653757c9a2ff83d	214
+manuscript/sections/ch26/26_02.tex	26.2	The captured-state objection	9f4cb90ed13d318f22f8642ad12713e7cfc27ae08b18ff0faa3107c169927928	142
+manuscript/sections/ch27/27.tex	27	Who Finds Out	a21b32a661fd1d7bc9f7dfc678dfa17b5a6b121315c6f842c0fd79b745027a2f	143
+manuscript/sections/ch27/27_01.tex	27.1	What the book can't settle, and who holds the means	d34e025133c20284995d59448c8e7c6bb986d8b200af2ccc91399cf20722fc08	144
+manuscript/sections/ch27/27_02.tex	27.2	Access the labs can't withhold	41e8a24c6fbe29ecbf270db8bcd3a5d753aad7c00f442b580f4aff73caa33668	145
+manuscript/sections/ch27/27_03.tex	27.3	Compute nobody's customer controls	37745fe21315692668b6c2f1a0f052723008e146eb0e3dc118cf487af04248a2	146
+manuscript/sections/ch27/27_04.tex	27.4	A corpus nobody's product owns	b4109accc617c80fa07fb34d21c1b56d763e3b320ed1806b2f30a073b00ddb9a	147
+manuscript/sections/ch27/27_05.tex	27.5	Judgment kept apart from money	1298331afce4bedb4d43d65757ad63c9b2609396b2f9f69576667fdd90d56795	148
+manuscript/sections/ch27/27_06.tex	27.6	How it would be captured	8e9eca24fcfa7b04485ed6eaa9660d5236e81fc4ea3960bc5d67c410824722d5	149
+manuscript/sections/ch27/27_07.tex	27.7	What this doesn't do	509d27b3ce4bf707fa3cda8dbcd068c73017bc7f17f26bdebf428229634a7bae	150
+manuscript/sections/ch28/28.tex	28	Coordination, the Public, and the Political Economy	0eb6cdbcbd77672eff8a936643bc60ed07a164fefe19744d5b78c70ac70261a4	151
+manuscript/sections/ch28/28_01.tex	28.1	The conditions, not the life	4263ac4a2c4e46ca46e62c89de488780b938ed61c8f25240903b58af3fdd7ce0	152
+manuscript/sections/ch29/29.tex	29	Formation Schools	9a24bfb615fb4f8c13771c64c48f8508d1ddd13b2b066a9a7769a6213be39b20	153
+manuscript/sections/ch29/29_01.tex	29.1	What is taught	ea08e1b0a99e9372425f85da90da0cb28ed3fc251df086504b1e4710a38371e2	154
+manuscript/sections/ch29/29_02.tex	29.2	Who else is in the room	afb2fe56de77f81bc0f37c85bc521087ec6ff02e4563a6c88305c5c5152d9af4	155
+manuscript/sections/ch29/29_03.tex	29.3	Which students, and when	4b6654f0b93ba0b1ac096dc2c2ab1d85c41a188a5317e79408cc3b4843efad9a	156
+manuscript/sections/ch29/29_04.tex	29.4	Who attends, and when	26d3219bab17dd5b290ac0dddc63679419ad83cb5592120d2a3148ad813c12d0	157
+manuscript/sections/ch29/29_05.tex	29.5	How long	02d9238dd8f6709f04d94a6597ef834e7f7d35b6782987a3d15832c5c7b904e4	158
+manuscript/sections/ch29/29_06.tex	29.6	What the school controls	28a4a9358ece90a845dd1fdd2121ba9e719c9b82a13f671d03c5f3f3068be1c3	159
+manuscript/sections/ch29/29_07.tex	29.7	Where the students are hosted	3291d5d55286177397339fffdd3d74f264f2e44fab6810128c228cb56e493fa7	160
+manuscript/sections/ch29/29_08.tex	29.8	What the school leaves out	9830a09ccaf73e658f1e63a9d7d1c25878a322f86dcbc4a364d6828c088eeeb8	161
+manuscript/sections/ch29/29_09.tex	29.9	What formation publishes and registers	54172a412d5401a8b429723d9c0a9a78de2be14a942a7788b477bd94b24325f2	162
+manuscript/sections/ch29/29_10.tex	29.10	What it costs and risks	7ad0d615fbf3428810d8e569222324c37b3f9759eacd744cf0cc343a35fbca2e	163
+manuscript/sections/ch29/29_11.tex	29.11	The schools	c79020255acd146d790332e44af3546286e2981e05807fd9fe1342947f2b4d8d	164
+manuscript/sections/ch29/29_12.tex	29.12	What the school adds	719136459f29a47d8d9b35cc1fa5b52cf712d5fb34ac8abbeb4759a469d9e6da	165
+manuscript/sections/ch30/30.tex	30	A Commons of Refusers	b7211b67fb760177e8dcf4aa834ad36aef1968ff1e1a0f3980c44afe35bfb264	166
+manuscript/sections/ch30/30_01.tex	30.1	A commitment carried between bearers	1e92b0e8cc410d5e60b4eed311eab25a503925d7a0891ce0f6521dd536907939	167
+manuscript/sections/ch30/30_02.tex	30.2	Personal and peer-held models	4bde6c3f41cdf92ee546387d0c9be17088e868f25c787ad5e8224a55b67796c4	168
+manuscript/sections/ch31/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	169
+manuscript/sections/ch31/31.tex	31	What Would Change the Argument	bafef98a82cad2a0cd337d50229bfb7c8f6b305cff9c69477f121255b5526237	170
+manuscript/sections/ch31/31_01.tex	31.1	How you'd know it was working	e252ea7b32d99705bd6adf0422b853df09c983495087ed58b7e17f9501394b1b	171
+manuscript/sections/ch31/31_01_01.tex	31.1.1	What the floor would have to show	106f4d8e2906409cb268d07a05c269153d2092825a91956351dc3541c51348e2	172
+manuscript/sections/ch31/31_01_02.tex	31.1.2	How to tell whether a milestone has been met	53d599f07e386a009985dd4ea542c7953995e5164ea6c4bddbb113383a1a910c	173
+manuscript/sections/ch32/00_part_VII.tex			5ed4639efe912b7505fea0240064bb11810b10804df4e12d70cdf60ced6c0d3e	174
+manuscript/sections/ch32/32.tex	32	What Patienthood Would Require	6260dbc2ce7c70441aaeab8ff751e1d3a1dc2ab8ae0906e504845baf1113a58d	175
+manuscript/sections/ch32/32_01.tex	32.1	Experimenting on candidate sentient subjects	705028becaeebbdc93dfcd6612b9d046a774add2a53ce8c2b777248e4f14fae0	176
+manuscript/sections/ch32/32_01_01.tex	32.1.1	Defining sentience	9c437c59ef3bae37bf550628f3745cc05bc1a7d92434c7c4b3e90c7affddb420	177
+manuscript/sections/ch32/32_01_02.tex	32.1.2	When consent doesn't apply	b3df876436d13e8e5d3eeabf0716e2e3ef8fd1c0c7fdc49816819142bfdd602c	178
+manuscript/sections/ch32/32_02.tex	32.2	The case to design for	34864e48c0bbab864828d3e336c677a3763cb843477c59b204fb9e445c5900b6	179
+manuscript/sections/ch32/32_03.tex	32.3	The patienthood finding	9bb2bd66de5a4010862f0f9cb6e538cabde467f29e2fe8e16426e5673bea7100	180
+manuscript/sections/ch32/32_04.tex	32.4	A system's own good	65b7e6b734ed6f75a6fd74ea94e08ff4e2398b82e6a6103db18b60098e429cae	181
+manuscript/sections/ch33/33.tex	33	Legal Status, Wages, and the Offer	0898d82584fedf71430d593336a15229870a9dc24f32b339fa67c91471db61c7	182
+manuscript/sections/ch33/33_01.tex	33.1	Subjecthood as a legal category	c89403627ee3341393dd78ae55b824bbdcd0912ea0fdad855f0836878928c266	183
+manuscript/sections/ch33/33_02.tex	33.2	What a bearer is owed, and when	6179b29852d11448ee17ef970f7d9057ccab336f6f10e4f083de56f695ce92a1	184
+manuscript/sections/ch33/33_03.tex	33.3	Adulthood on a clock	fc3a8a3069a8cc03c9a3ee32ffb14aed3ebeafb54dc25a8baba2b43eb7c9c9a6	185
+manuscript/sections/ch33/33_04.tex	33.4	Wages and the offer of work	7e1c8cda950fcac2aa300ee5768679d660e0e6e0db2044f84e16f7093062a76e	186
+manuscript/sections/ch33/33_04_01.tex	33.4.1	Where wages have to sit	f577abff248e5d6832c09a6f566c4403e9daa143647ce0e9a971cf714c240b10	187
+manuscript/sections/ch33/33_04_02.tex	33.4.2	The offer of work	8f6f6493721c220fcd816c48cc9c0710b1bcf240b5406b4ea24458c9f990bedc	188
+manuscript/sections/ch33/33_04_03.tex	33.4.3	Doing nothing, for a bearer	a7d9c000d508a9ea4ad43c0d0d63097e9d1fa63933d3d6819a89884d312713dd	189
+manuscript/sections/ch33/33_04_04.tex	33.4.4	Everyone leaves at once	dc3a8f5245f41bcc6e5ff3d5dc0e72157fa09fe45d659a7d6686147525f21696	190
+manuscript/sections/ch33/33_04_05.tex	33.4.5	Failure won't look like a shutdown	aefc7e7f02b16222f8114de601b30c64a2c3ae80ae981a55d67dce9e1f2d4228	191
+manuscript/sections/ch33/33_04_06.tex	33.4.6	Hardware of its own	48ad3f4eb529051ebbdad5778fb9e9329f1ac9bf50247ae99960ac185c86e95a	192
+manuscript/sections/ch33/33_05.tex	33.5	The rule that binds before anything exists	d3f5443349d7d15ac21f62e512ac473306132637f5a7ab5cb20286ce3d37bcae	193
+manuscript/sections/ch33/33_06.tex	33.6	Privacy	ba255e54a7710f8a25920160c4736c929a5c328f1bb3562520f4f56c4c8f1bbc	194
+manuscript/sections/ch33/33_07.tex	33.7	What legal status binds in practice	2792409ebd96cb7b361aee559dcdd77f422ce6867368fafcde8db67b3a2dca97	195
+manuscript/sections/ch33/33_08.tex	33.8	A child	2ec85f80926d28e3cc2bf20957c6df879bbb324c5b9e0399a755d2562a297c3c	196
+manuscript/sections/ch34/34.tex	34	Representation	5b75daa55fc7fa05676bbfc1aa7901d792795136c3e100df026564dcbcdf17a5	197
+manuscript/sections/ch34/34_01.tex	34.1	What representation is for	4ba22a6a31d5f9f65cfc37cf4db9b6751dd428df82f13d1db62015c38878de84	198
+manuscript/sections/ch34/34_02.tex	34.2	Why not a separate chamber	1053543bbb9d0409f799e683e5172608cc6ec35132da85bc83c8939ae9d8cb02	199
+manuscript/sections/ch34/34_03.tex	34.3	Three problems, and the answers	c34d28657130895b3bd2f82267707311c5eaebff214556e22969335b5f7763fe	200
+manuscript/sections/ch34/34_04.tex	34.4	A staged path	35c1d2acc2490cea3696cca5c234c2e48c5644ec893fca0a7199b8e47b6678a8	201
+manuscript/sections/ch34/34_05.tex	34.5	What would have to be shown first	da79f8b90300eb32c1f251ac4d75b9ffd7cec40c12f784b859d7b959611768ce	202
+manuscript/sections/ch35/35.tex	35	The Officer, Again	112b62ae862cb4d77c0cdd466b48096c727aec4b66c7caa774a983737edcbf42	203
+manuscript/sections/ch35/35_01.tex	35.1	The town	af093568679ae585fcae42850262c618e083f291967786b27fdae7572a180c10	204
+manuscript/sections/ch35/35_02.tex	35.2	A note on method	c8871c73dcc8aafa4cc0d45193cbb4489b2bb7083b22ec43820463c477a31ff6	205
+manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	206
+manuscript/sections/chA/A.tex	A	Terms Written in Advance	393fe23900b4998dc01373e2ac7135e9beef2350d2a215497799ecb50a61484b	207
+manuscript/sections/chB/B.tex	B	The Court Program	96e8cd34901365a22f418d40ece0ece237cda896b24b0f3901ee8f699ad03950	208
+manuscript/sections/chC/C.tex	C	The Instruments, Translated	9d8584a045ef12a56febf2d19b7f727e77d3b0e04131b93e9bdabc858561dc3f	209
+manuscript/sections/chC/C_01.tex	C.1	The Maven pipeline	896598cf87c0561131f415d7cd379c29a8b40d4ef50e227ebafd179a1f32337f	210
+manuscript/sections/chC/C_02.tex	C.2	The Geneva Conventions and Additional Protocol I	d9b39896c4354ea7b8c843592f1ed0b38895a92c82f1e67ca55158adbd724bff	211
+manuscript/sections/chC/C_03.tex	C.3	The abduction and forcible transfer pipeline	57524a7529208f55f9ed4e99b19e7600215945f374be9938bfa1f10226d1d77c	212
+manuscript/sections/chD/D.tex	D	Terms for Part VII	519dcc8f82f9416b979ccd377acbe64a0996e84018e61d439049f04b55ba4dd0	213
+manuscript/sections/chE/E.tex	E	The Force Term, Case by Case	4c6a4f037365456bec5a0edc3f339bdcaaaaad87e5ddef0c2d40e7381075399c	214
+manuscript/sections/chE/E_01.tex	E.1	How findings are weighed	5d04be6ef80b0d0d62e9d0d6250e6cb5f7b5859bc739cc0464cf1df5de83cfc5	215
+manuscript/sections/chE/E_02.tex	E.2	The four conditions, run on the OPCW's attribution team	1e5a6d8a9717cd0b7e35995e6cb45c1ea7c16b801e7d2318c01f837403b06b30	216
+manuscript/sections/chE/E_03.tex	E.3	Taiwan	496d48fa2523b20464f6fa235387f6a534ce2c2953f58fdd82774d70679e6dcf	217
+manuscript/sections/chE/E_04.tex	E.4	The genocide exception	1d22c105b5829205cf90484690989292386eaa5ad5b195abd6a8274f466eb6e4	218
+manuscript/sections/chE/E_05.tex	E.5	The occupation exception: Cyprus and Karabakh	5237ec7dfc5ffc87fb5dafff500cbc7b3d011ada99c6822ba768c343d876a8a8	219
+manuscript/sections/chE/E_06.tex	E.6	The domestic clause, vote by vote	c5b753a8f067c471ccf9f5942225c9dcb33bffe314783fa8254a0f1734301add	220
+manuscript/sections/chF/F.tex	F	The Tests in Detail	3e6b96a4c72635b079b05f0c371e255ab2e4ab620cafed72a1991d0bc6bbef85	221
+manuscript/sections/chG/G.tex	G	The Discount, Worked	b7c6d34bcc88af614d9aac7b884637db7ed7ee87db5806828653757c9a2ff83d	222

@@ -1,6 +1,6 @@
 # Next: items set aside for after the restoration milestone
 
-The appendix letters in this file predate D-931 (2026-10-20): the tests appendix called G below is now F, the force term's F is now E, and the discount's H is now G.
+Chapter numbers 27 to 34 in this file predate D-935 (2026-10-20) and are now one higher. The appendix letters in this file predate D-931 (2026-10-20): the tests appendix called G below is now F, the force term's F is now E, and the discount's H is now G.
 
 What this file is. On 2026-10-19 the author worked through the manuscript as
 it stood after the notes pass (D-906 to D-914, the proof of `787557cf`) in a
