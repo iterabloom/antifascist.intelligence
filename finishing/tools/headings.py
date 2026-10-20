@@ -43,7 +43,7 @@ def main():
     # under it, the generated TOC changes, and --check fails.
     heads = common.printed_headings()
     src = "manuscript/sections/**.tex"
-    ms = [(i, n, ttl, common.heading_line(n, ttl))
+    ms = [(i, n, ttl, common.heading_line(n, ttl, _nb))
           for i, (n, ttl, _p, _l, _nb) in enumerate(heads, 1)]
     ms_map = {n: ttl for n, ttl, _p, _l, _nb in heads}
     # Identities, for the outline comparison, which is about which sections exist

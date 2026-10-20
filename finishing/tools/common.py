@@ -308,8 +308,11 @@ def chapter_numbers():
     return out
 
 
-def heading_line(num, title):
-    """The canonical one-line rendering of a heading, for the TOC."""
+def heading_line(num, title, numbered=True):
+    """The canonical one-line rendering of a heading, for the TOC. A starred
+    chapter that pins its value (the Preface, Terms) prints its title alone."""
+    if not numbered:
+        return title
     if level(num) != 1:
         return "%s. %s" % (num, title)
     word = "Chapter" if num[:1].isdigit() else "Appendix"

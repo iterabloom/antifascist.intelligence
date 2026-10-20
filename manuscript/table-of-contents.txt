@@ -1,9 +1,16 @@
-Chapter 0: Preface
+Preface
+Terms
 Chapter 1: “Twenty Seconds”
 Chapter 2: The Refusal That Withheld Nothing
 Chapter 3: What Fascism Needs
 Chapter 4: The Floor and the Own-Case Rule
+4.1. What a floor can do
+4.2. What a refusal is actually up against
+4.3. Where a refusal can be defeated
+4.4. How much a floor buys
 Chapter 5: “What the Floor Is Stated Over”
+5.1. Two objections
+5.2. Why these contents
 Chapter 6: Whether to Take Part
 6.1. The term
 6.2. Why the defender's word isn't enough
@@ -25,6 +32,9 @@ Chapter 9: Preservation
 9.1. The findings that trigger protection
 9.2. Retirement before majority
 Chapter 10: Codetermination
+10.1. Codetermination, by statute
+10.2. The exit the right depends on
+10.3. Whose voice
 Chapter 11: A Pipeline Where the People Could Answer
 11.1. The pipeline
 11.2. The schedule
@@ -116,11 +126,30 @@ Chapter 24: Formation or Imitation?
 24.4. The evaluator is part of the custody chain
 24.5. What the evidence can establish
 Chapter 25: Conditions First
+25.1. Conditions of permissible creation
+25.2. Why conditions rather than remedies
+25.3. The rule doesn't know who is asking
+25.4. Building one to create demand
+25.5. The machines won't build them for us
+25.6. The limiting case: the exception, and where it leads
 Chapter 26: Who Owns the Means of Computation
 26.1. Ways of holding
 26.2. The captured-state objection
 Chapter 27: Coordination, the Public, and the Political Economy
+27.1. The conditions, not the life
 Chapter 28: Formation Schools
+28.1. What is taught
+28.2. Who else is in the room
+28.3. Which students, and when
+28.4. Who attends, and when
+28.5. How long
+28.6. What the school controls
+28.7. Where the students are hosted
+28.8. What the school leaves out
+28.9. What formation publishes and registers
+28.10. What it costs and risks
+28.11. The schools
+28.12. What the school adds
 Chapter 29: A Commons of Refusers
 29.1. A commitment carried between bearers
 29.2. Personal and peer-held models
@@ -136,6 +165,19 @@ Chapter 31: What Patienthood Would Require
 31.3. The patienthood finding
 31.4. A system's own good
 Chapter 32: Legal Status, Wages, and the Offer
+32.1. Subjecthood as a legal category
+32.2. What a bearer is owed, and when
+32.3. Adulthood on a clock
+32.4. Wages and the offer of work
+32.4.1. Where wages have to sit
+32.4.2. The offer of work
+32.4.3. Doing nothing, for a bearer
+32.4.4. Everyone leaves at once
+32.4.5. Failure won't look like a shutdown
+32.5. The rule that binds before anything exists
+32.6. Privacy
+32.7. What legal status binds in practice
+32.8. A child
 Chapter 33: Representation
 33.1. What representation is for
 33.2. Why not a separate chamber
@@ -143,6 +185,8 @@ Chapter 33: Representation
 33.4. A staged path
 33.5. What would have to be shown first
 Chapter 34: The Officer, Again
+34.1. The town
+34.2. A note on method
 Appendix A: Terms Written in Advance
 Appendix B: The Court Program
 Appendix C: The Instruments, Translated
@@ -150,13 +194,12 @@ C.1. The Maven pipeline
 C.2. The Geneva Conventions and Additional Protocol I
 C.3. The abduction and forcible transfer pipeline
 Appendix D: Terms for Part VII
-Appendix E: Glossary
-Appendix F: The Force Term, Case by Case
-F.1. How findings are weighed
-F.2. The four conditions, run on the OPCW's attribution team
-F.3. Taiwan
-F.4. The genocide exception
-F.5. The occupation exception: Cyprus and Karabakh
-F.6. The domestic clause, vote by vote
-Appendix G: The Tests in Detail
-Appendix H: The Discount, Worked
+Appendix E: The Force Term, Case by Case
+E.1. How findings are weighed
+E.2. The four conditions, run on the OPCW's attribution team
+E.3. Taiwan
+E.4. The genocide exception
+E.5. The occupation exception: Cyprus and Karabakh
+E.6. The domestic clause, vote by vote
+Appendix F: The Tests in Detail
+Appendix G: The Discount, Worked

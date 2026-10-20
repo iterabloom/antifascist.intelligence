@@ -833,7 +833,7 @@ def chapter_table(flat):
     of the spine (D-906). `flat` is the rendered body, one string per line."""
     counts, order, cur = {}, [], None
     for line in flat:
-        m = re.match(r"## (Preface|\d+|[A-H])\b", line)
+        m = re.match(r"## (Preface|Terms|\d+|[A-H])\b", line)
         if m:
             cur = m.group(1)
             if cur not in counts:

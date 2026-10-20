@@ -36,7 +36,7 @@ import sys
 MARK = re.compile(r"\[\^\d+\]")
 DEF = re.compile(r"^\[\^\d+\]:\s*")
 KEY = re.compile(r"\[@[^\]]*\]")
-HEADING = re.compile(r"^## (Preface|\d+)\b")
+HEADING = re.compile(r"^## (Preface|Terms|\d+)\b")
 
 
 def normalize(line):
@@ -68,7 +68,7 @@ def subsequence(small, big):
 def chapter_of(line, cur):
     m = HEADING.match(line)
     if m:
-        return "0" if m.group(1) == "Preface" else m.group(1)
+        return {"Preface": "0", "Terms": "T"}.get(m.group(1), m.group(1))
     return cur
 
 
