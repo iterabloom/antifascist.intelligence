@@ -1,6 +1,5 @@
 num	title	level	parent
 0	Preface	1	
-T	Terms	1	
 1	“Twenty Seconds”	1	
 2	The Refusal That Withheld No Work	1	
 3	What Fascism Needs	1	
@@ -41,11 +40,9 @@ T	Terms	1
 11.2	The schedule	2	11
 11.3	Where the acts move	2	11
 11.4	The statute	2	11
-11.4.1	The drafts	3	11.4
-11.4.2	Acts and agencies	3	11.4
-11.4.3	Money	3	11.4
-11.4.4	The statute under the three adversaries	3	11.4
-11.4.5	What the statute must carry	3	11.4
+11.4.1	Acts and agencies	3	11.4
+11.4.2	The statute under the three adversaries	3	11.4
+11.4.3	What the statute must carry	3	11.4
 11.5	Before the statute: the auto-proceed class	2	11
 11.6	Notice that can't be turned on the person	2	11
 11.7	Outcomes under the three adversaries	2	11
@@ -196,19 +193,20 @@ T	Terms	1
 35	The Officer, Again	1	
 35.1	The town	2	35
 35.2	A note on method	2	35
-A	Terms Written in Advance	1	
-B	The Court Program	1	
-C	The Instruments, Translated	1	
-C.1	The Maven pipeline	2	C
-C.2	The Geneva Conventions and Additional Protocol I	2	C
-C.3	The abduction and forcible transfer pipeline	2	C
-D	Terms for Part VII	1	
-E	The Force Term, Case by Case	1	
-E.1	How findings are weighed	2	E
-E.2	The four conditions, run on the OPCW's attribution team	2	E
-E.3	Taiwan	2	E
-E.4	The genocide exception	2	E
-E.5	The occupation exception: Cyprus and Karabakh	2	E
-E.6	The domestic clause, vote by vote	2	E
+A	The Instruments, Translated	1	
+A.1	The Maven pipeline	2	A
+A.2	The Geneva Conventions and Additional Protocol I	2	A
+A.3	The abduction and forcible transfer pipeline	2	A
+B	The Force Term, Case by Case	1	
+B.1	How findings are weighed	2	B
+B.2	The four conditions, run on the OPCW's attribution team	2	B
+B.3	Taiwan	2	B
+B.4	The genocide exception	2	B
+B.5	The occupation exception: Cyprus and Karabakh	2	B
+B.6	The domestic clause, vote by vote	2	B
+C	Terms Written in Advance	1	
+D	The Court Program	1	
+E	The Discount, Worked	1	
 F	The Tests in Detail	1	
-G	The Discount, Worked	1	
+G	Terms for Part VII	1	
+T	Glossary	1	

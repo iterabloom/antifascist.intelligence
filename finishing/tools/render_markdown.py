@@ -719,6 +719,15 @@ def render_lines(lines, heads, labels, path, nums):
                                            inline(m.group(1), labels).strip()), ""]
             continue
 
+        # An unnumbered Part (D-984): the closing heading over the last
+        # chapter, set at the same depth as a Part, with no numeral.
+        m = re.match(r"(?:\\cleardoublepage\\phantomsection\\addcontentsline\{toc\}\{part\}\{.*\})?\\part\*\{(.*)\}\s*$", line)
+        if m:
+            out += ["", "# %s" % inline(m.group(1), labels).strip(), ""]
+            continue
+        if re.match(r"\\cleardoublepage\\phantomsection\\addcontentsline\{toc\}\{part\}\{.*\}\s*$", line):
+            continue
+
         # A figure (D-894) is TikZ, which Markdown can't draw. Its picture is
         # skipped, with the scaffolding around it, and its caption is printed
         # with the figure's number, as the book prints it: the chapter's
@@ -833,7 +842,7 @@ def chapter_table(flat):
     of the spine (D-906). `flat` is the rendered body, one string per line."""
     counts, order, cur = {}, [], None
     for line in flat:
-        m = re.match(r"## (Preface|Terms|\d+|[A-H])\b", line)
+        m = re.match(r"## (Preface|Glossary|\d+|[A-H])\b", line)
         if m:
             cur = m.group(1)
             if cur not in counts:
@@ -849,7 +858,7 @@ def chapter_table(flat):
         counts[cur][1 if is_note_line(line) else 0] += len(prose.split())
     out = ["chapter\tbody\tnotes"]
     out += ["%s\t%d\t%d" % (c, counts[c][0], counts[c][1]) for c in order]
-    for name, pick in (("main text before appendices", lambda c: not re.fullmatch(r"[A-H]", c)),
+    for name, pick in (("main text before appendices", lambda c: not re.fullmatch(r"[A-H]|Glossary", c)),
                        ("appendices", lambda c: re.fullmatch(r"[A-H]", c))):
         out.append("%s\t%d\t%d" % (name,
                                    sum(counts[c][0] for c in order if pick(c)),
