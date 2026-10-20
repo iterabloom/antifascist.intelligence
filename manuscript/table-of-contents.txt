@@ -108,6 +108,7 @@ Chapter 23: Where the Attention Gets Built
 23.1. Noticing, retaining and revising
 23.2. Custody across the training pipeline
 23.3. Formation by interaction
+23.4. A third pipeline, where notice does both jobs
 Chapter 24: Formation or Imitation?
 24.1. What formation would have to add
 24.2. Recognition, welfare as a reason, and the evidence between them
