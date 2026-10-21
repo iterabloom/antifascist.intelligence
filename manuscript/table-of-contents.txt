@@ -190,8 +190,7 @@ Chapter 34: Representation
 34.4. A staged path
 34.5. What would have to be shown first
 Chapter 35: The Officer, Again
-35.1. The town
-35.2. A note on method
+35.1. A note on method
 Appendix A: The Instruments, Translated
 A.1. The Maven pipeline
 A.2. The Geneva Conventions and Additional Protocol I
