@@ -1,0 +1,66 @@
+#!/usr/bin/env bash
+# SPDX-License-Identifier: AGPL-3.0-or-later
+#
+# Copy this repository's agent session transcripts to the private folder
+# after every commit (D-995).
+#
+# Claude Code keeps each session's transcript under
+# ~/.claude/projects/<slug>/, where the slug is the working directory with
+# every character outside [A-Za-z0-9] turned into "-", and deletes transcripts
+# older than its cleanupPeriodDays setting (30 days by default) when it
+# starts. This hook copies that folder, for the main tree and every linked
+# worktree, to ~/antifascist.intelligence-private/session-transcripts/<slug>/.
+# Nothing is deleted from the copy, so a transcript that ~/.claude prunes
+# survives there. A changed transcript replaces its copy, except that a copy
+# whose source has shrunk is first kept as <name>.before-<time>.
+#
+# The transcripts hold whatever a session read or printed. They stay outside
+# the repository, and the copy is private to the user (mode 700).
+#
+# A post-commit hook can't refuse a commit. A failed copy prints a warning,
+# and the commit stands. git runs this hook on `git commit`, including
+# --amend and the commit that concludes a conflicted merge. A merge that
+# commits by itself runs post-merge instead, and a rebase runs post-rewrite,
+# so neither triggers a copy. Every run copies the whole folder, though, so
+# the next ordinary commit catches up.
+set -uo pipefail
+
+src_root="${CLAUDE_CONFIG_DIR:-$HOME/.claude}/projects"
+dest_root="$HOME/antifascist.intelligence-private/session-transcripts"
+
+[[ -d "$src_root" ]] || exit 0
+
+copied=0
+stamp="$(date +%Y%m%dT%H%M%S)"
+while IFS= read -r line; do
+  [[ "$line" == worktree\ * ]] || continue
+  tree="${line#worktree }"
+  slug="$(printf '%s' "$tree" | sed 's/[^A-Za-z0-9]/-/g')"
+  src="$src_root/$slug"
+  [[ -d "$src" ]] || continue
+  (umask 077 && mkdir -p "$dest_root/$slug") || {
+    echo "post-commit: could not create $dest_root/$slug; transcripts not copied" >&2
+    continue
+  }
+  # A copy is replaced when its source changes. A transcript normally only
+  # grows, so the new version holds the old one; where the source is now
+  # smaller, keep the old copy beside it as <name>.before-<time>.
+  while IFS=' ' read -r size rel; do
+    [[ -f "$src/$rel" ]] || continue
+    if (( $(stat -c %s "$src/$rel") < size )); then
+      mv "$dest_root/$slug/$rel" "$dest_root/$slug/$rel.before-$stamp"
+      echo "post-commit: $rel is smaller than its copy; the old copy kept as $rel.before-$stamp" >&2
+    fi
+  done < <(find "$dest_root/$slug" -type f ! -name '*.before-*' -printf '%s %P\n')
+  if rsync -a "$src/" "$dest_root/$slug/"; then
+    copied=$((copied + 1))
+  else
+    echo "post-commit: copying $src failed; the commit stands" >&2
+  fi
+done < <(git worktree list --porcelain)
+
+chmod 700 "$dest_root" 2>/dev/null
+if (( copied > 0 )); then
+  echo "post-commit: session transcripts copied to $dest_root"
+fi
+exit 0
