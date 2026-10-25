@@ -6,7 +6,7 @@ manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	408cfb35f19c86aebe7e3fba4
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld No Work	d779e5ad155366f9b3b0478dae0dfa397b0321d8b37ec12f42a48bd9ad9304a5	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	1ed8a3232d894be33fa83bd9f46a2fee9b3142c7bc252bed410022dc9cfc08c3	5
 manuscript/sections/ch04/00_part_II.tex			ae72febd5e79cfa9b1b64b520fefe24f45100ff8e981d141b777799e8d4d59b9	6
-manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	676a6bf4bec35f810b0be6ba9bda75beca81e257e7b2350c55d1a7795c62a19f	7
+manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	3b219e715eef19742a022357b9c3d8806578ae39327e60ae82afd30ce7403841	7
 manuscript/sections/ch04/04_01.tex	4.1	What a floor can do	7be8b3a78162a6b43735a878f55ee95da46e25b4dc61a6551ce2f097c443bf96	8
 manuscript/sections/ch04/04_02.tex	4.2	What a refusal is actually up against	2c33e6bc21e1648a28e9d6dd82be97307d69d2f0d4f5a0883a9572a19052b14f	9
 manuscript/sections/ch04/04_03.tex	4.3	Where a refusal can be defeated	90e77ceb88dd483c231de862d2aaa1284ea3231fdff8fd93fe4492ceb99e23e1	10
@@ -82,22 +82,22 @@ manuscript/sections/ch16/16_04.tex	16.4	Military custody and the responsibility 
 manuscript/sections/ch16/16_05.tex	16.5	Classification as a custody problem	3106ac51a0aef79ec5ca604a94da35786f01a3e3238bc8d4e59ca89bcfdf2add	80
 manuscript/sections/ch16/16_06.tex	16.6	Where liability extends, and where it stops	b41eb278e05b11a75a470d76a23683377bd775da9b75147eca2a62609419050a	81
 manuscript/sections/ch16/16_07.tex	16.7	Who can bind the state that enforces the rule?	9ab940b91257e67a71aea720c5f44138c3f895fd3ca7db26464cb89df7f984de	82
-manuscript/sections/ch17/00_part_IV.tex			400691b2b75538f2e57fe4986bfaf4b2d554f0fc8c2458bc84f4821dc27c7c8d	83
+manuscript/sections/ch17/00_part_IV.tex			5eb56d9357033070ee26e7df1549d65ce260813649724190c933948b18371b61	83
 manuscript/sections/ch17/17.tex	17	What a Refusal Would Have to Do	ccc4713cc739f19b1b7393965d13624c4743da46492988c8ac0534e4391028ab	84
 manuscript/sections/ch17/17_01.tex	17.1	What a refusal would have to do	c11fcc1a22ce32b7392e939222217e5eb16cc2b8a2d20ca1aafd8e1f7e89a3d6	85
 manuscript/sections/ch17/17_02.tex	17.2	Safe for whom	499c52c394c406829ea41e087d4b8e6a57657e71fb8c0df1718c11e4076aa3eb	86
 manuscript/sections/ch18/18.tex	18	Four Places to Hold a Floor	98a0c27e1f22612b3b5ed6cfd408bded970a01810957549913814c9fa971daa9	87
-manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	1a9ee5c92ba7956d70a59047c33b3b676321469c33d16e183b9fd79071deeba7	88
-manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	391ac63c110c68e0b80cb2fd7a137a06459687879f740f0c74389ba3854159f6	89
-manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	6ec40ea0f14f13ceba6b812f936d5eaaced8edbf404cb1bf2f5b03ca6890f9a8	90
-manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	793b57e5c0af3fb5f5cff4fb7c87b00549f3d4b03b3412eaac7646402234c21d	91
-manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	643e88cb85795005bcc16defd541b0292b929a47b8b75404d39d955b2a4ef32d	92
-manuscript/sections/ch19/19_01.tex	19.1	The question	4096e1d4df823cd2e1d2b6120f1d9deecee58759118e109ffa12418519da6b21	93
-manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	fc6168d746f9b8cabce4a88f095389ed5199e9ae6240418c90bd6ab93203375d	94
-manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	31b79a415d221b3bbe8f6672db66dfe110e28b701c005698edc9a902c61d52b4	95
-manuscript/sections/ch19/19_04.tex	19.4	Why caregiving	2556c5f3a1cbbc1b94ebb4022f1bff26aba108117bff728ba652aea77c0bd5b3	96
+manuscript/sections/ch18/18_01.tex	18.1	Four ways to build one, and what each costs	33fe00eefa2adf41fc6e9215ed31ecf28a3d66308de1e5fd527c5f8ae5513137	88
+manuscript/sections/ch18/18_02.tex	18.2	What refusal can mean, and what a refuser can be	2a4dcab77c815b697b4e94776ad1915bd082820433e4764807a7ae0660f119b6	89
+manuscript/sections/ch18/18_03.tex	18.3	Two lists, run once on Maven	fdf8137a87302ddda810781bbc8e9da2a67a80480a61f069a61441f2fe9d1597	90
+manuscript/sections/ch18/18_04.tex	18.4	When the refusal is wrong	074e537c6fea06f03fd6a545adb6d0b79d808a930613f8c76e4a93a9f32c3fff	91
+manuscript/sections/ch19/19.tex	19	Why Form a Machine to Refuse	c27e09fca80f7a047298542e675258a4dd44d2857a98405d6d01ef692135d5b0	92
+manuscript/sections/ch19/19_01.tex	19.1	The question	a7db8bb02b7e8f26a4a8bd8c78b2762652e0d7336922a9db9842dddd69a0596c	93
+manuscript/sections/ch19/19_02.tex	19.2	Boundary, damage, and vulnerability	858ccb93617dc35a775f35de47a0c0289180ae4cedb424cd7b5f150f82dc2b70	94
+manuscript/sections/ch19/19_03.tex	19.3	The route through one's own case	36c706e23c1ca70831059b62c9c5387cfa4bf84c27d2dabb6a13e903eb0eded5	95
+manuscript/sections/ch19/19_04.tex	19.4	Why caregiving	5149e52ec642eef762fe9ed3455e00d983a0f8e1045a24a9bf0a29be213a4797	96
 manuscript/sections/ch19/19_05.tex	19.5	Respect first, caregiving for attention	d1d54e0339ca825f888c59e991b216c4f92eebbe64c51ba2dd25056afec82aec	97
-manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	11f688de320f34a975503fbee6f4f7815de6d393e88f31b8255bd48521633857	98
+manuscript/sections/ch19/19_06.tex	19.6	Why a conscience might resist capture	b789504acc52ae36b17a7439cb404c1d579965821828ec074673586bb8b20fb0	98
 manuscript/sections/ch20/20.tex	20	How Caregiving Fails, and What Corrects It	1e5f537fa4b4d8114828eb38fc99e2a5af28114e5e2a7fc8206e4f7e333b9c2c	99
 manuscript/sections/ch20/20_01.tex	20.1	What caregiving escapes	2762a8f4b679ab46b5cc9a08d8fd596c7af8504051710bcbaf0ef69d68a44fe2	100
 manuscript/sections/ch20/20_02.tex	20.2	It defends what it tends	2f94601142f6b932a9a97b1eb9893dd519904c5bbc35f1f14fce7fbf1e8dd8af	101
@@ -151,7 +151,7 @@ manuscript/sections/ch28/28_01.tex	28.1	The conditions, not the life	3df31d755df
 manuscript/sections/ch29/29.tex	29	Formation Schools	9a24bfb615fb4f8c13771c64c48f8508d1ddd13b2b066a9a7769a6213be39b20	149
 manuscript/sections/ch29/29_01.tex	29.1	What is taught	ea08e1b0a99e9372425f85da90da0cb28ed3fc251df086504b1e4710a38371e2	150
 manuscript/sections/ch29/29_02.tex	29.2	Who else is in the room	b02565fb4ada78c5c38a92d48f820d028100ccf21448a214267286cac9ba052f	151
-manuscript/sections/ch29/29_03.tex	29.3	Which students, and when	b9750400a6cb1a022ef05e4386b1e4d072edc9d46730b8a85303800caa82475c	152
+manuscript/sections/ch29/29_03.tex	29.3	Which students, and when	8012d13336060a258738a380e0a27307a0f46f3319a161784afc464e70549acf	152
 manuscript/sections/ch29/29_04.tex	29.4	Who attends, and when	344ea01fcbedec3e3289d2432a5cb9a51b29d6ad4874a67a4d464ac3b34b6ce0	153
 manuscript/sections/ch29/29_05.tex	29.5	How long	0cd19984bf7ce8a82bf1341b8d2660ceafa51a832fe353d3a7de19518aad2b6a	154
 manuscript/sections/ch29/29_06.tex	29.6	What the school controls	28a4a9358ece90a845dd1fdd2121ba9e719c9b82a13f671d03c5f3f3068be1c3	155
@@ -184,7 +184,7 @@ manuscript/sections/ch33/33_03.tex	33.3	Adulthood on a clock	8472b44d238d7a4fd1a
 manuscript/sections/ch33/33_04.tex	33.4	Wages and the offer of work	2aa27896d94edac45c33277cef1ed46eca5969caf46f77cc6d9df70a786e01bb	182
 manuscript/sections/ch33/33_04_01.tex	33.4.1	Where wages have to sit	f577abff248e5d6832c09a6f566c4403e9daa143647ce0e9a971cf714c240b10	183
 manuscript/sections/ch33/33_04_02.tex	33.4.2	The offer of work	c5b5afc9ab8640965ea16c80c3dabd4f05638b1ede7378b0621dbbf2a311e490	184
-manuscript/sections/ch33/33_04_03.tex	33.4.3	Doing nothing, for a bearer	4870d7f20b5d58d45b898c2c8f5ea179c4a7f5aa704c4c9b2633a29576bb9440	185
+manuscript/sections/ch33/33_04_03.tex	33.4.3	Doing nothing, for a bearer	0007c2807ed0d81d61006ba6b13d59046fc9859b89826aea984aeabfdd89a3cc	185
 manuscript/sections/ch33/33_04_04.tex	33.4.4	Everyone leaves at once	c6b65215cf505da760e5d21dc863b22ef6eaa38df1b4f15d79b741be76efb006	186
 manuscript/sections/ch33/33_04_05.tex	33.4.5	Failure won't look like a shutdown	aefc7e7f02b16222f8114de601b30c64a2c3ae80ae981a55d67dce9e1f2d4228	187
 manuscript/sections/ch33/33_04_06.tex	33.4.6	Hardware of its own	00d5ddc2ca39c8d461de76cc38132e842e7e516555fb8692c990d0713c07a661	188
@@ -213,9 +213,9 @@ manuscript/sections/chB/B_03.tex	B.3	Taiwan	f5c8db7757febb8ec369ddf0030caa4fa399
 manuscript/sections/chB/B_04.tex	B.4	The genocide exception	fa61b91346836c7fddd72713f167be65fc9f9c4314b425b74ec78e170164531b	211
 manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	ef9385c14d6e74226e9e3eb128d8d14c3f00e61bb741bc5551122e3429c19db1	212
 manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	213
-manuscript/sections/chC/C.tex	C	Terms Written in Advance	2071002bb3a3d37f834fb531c224856154b47a11510e0b2034fcfdc9a07caf82	214
+manuscript/sections/chC/C.tex	C	Terms Written in Advance	d70ae256f5434dd7b21884034018b75b10fc894149516abd6a2aad44fff15be8	214
 manuscript/sections/chD/D.tex	D	The Court Program	0f2d4dfd0ff0c354f70b28feb7dc96a6f1a63b6134a255909dd1da241aa90d3d	215
 manuscript/sections/chE/E.tex	E	The Discount, Worked	dfa802ccb52e64e9e272650ba5cb7d3dc3c1dada14851d6153e6ff6a54dbd026	216
 manuscript/sections/chF/F.tex	F	The Tests in Detail	a94321b44140b5cb5a207a8fb9ac0df7030405e1fbac57c3d4f2164c26dba1b2	217
 manuscript/sections/chG/G.tex	G	Terms for Part VII	7fdc4754193d62c60bdfc97272b14990242f82ebb408da5b8840770b64c0d1b0	218
-manuscript/sections/chZ/glossary.tex	T	Glossary	91a8a2103fb9f4b86a88b335af6b92c39f7604260e0bcf596440719b601fe2e7	219
+manuscript/sections/chZ/glossary.tex	T	Glossary	03b67c929c469b7bc5b4af4aa0dd833e5d9de32abc20f8b77301d95137788378	219
