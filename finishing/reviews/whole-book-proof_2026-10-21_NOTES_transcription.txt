@@ -502,6 +502,10 @@ not the author's statement.
     of "learning in operation" and "learns in operation" (chapter 19,
     §19.6, §29.3, Appendix C) are now "in-flight learning" and "learns in
     flight". None remain.
+    Corrected 2026-10-25 (D-1002): two remained, both at the start of a
+    sentence ("Learning in operation ...", in §19.6 and chapter 22), which
+    the case-sensitive check behind D-999 missed; both are now "In-flight
+    learning". None remain, checked without regard to case.
 
 
 === 185 [PDF 193] ===   (source: ch19/19.tex and ch19/19_02.tex)
