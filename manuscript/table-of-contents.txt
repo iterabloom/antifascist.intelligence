@@ -4,10 +4,10 @@ Chapter 2: The Refusal That Withheld No Work
 Chapter 3: What Fascism Needs
 Chapter 4: The Floor and the Own-Case Rule
 4.1. What a floor can do
-4.2. What a refusal is actually up against
+4.2. Defeat without a mark
 4.3. Where a refusal can be defeated
 4.4. How much a floor buys
-Chapter 5: “What the Floor Is Stated Over”
+Chapter 5: What the Floor Is Stated Over
 5.1. Two objections
 5.2. Why these contents
 Chapter 6: Whether to Take Part
@@ -22,7 +22,7 @@ Chapter 6: Whether to Take Part
 6.9. What the term binds
 6.10. The one permission
 Chapter 7: The Pre-Registered Review Ratio
-7.1. The pre-registered review ratio
+7.1. What the deployment writes down first
 7.2. The institutions the ratio presumes
 Chapter 8: Notice and Re-adjudication
 8.1. The failure that doesn't announce itself
@@ -44,10 +44,10 @@ Chapter 11: A Pipeline Where the People Could Answer
 11.4.3. What the statute must carry
 11.5. Before the statute: the auto-proceed class
 11.6. Notice that can't be turned on the person
-11.7. Outcomes under the three adversaries
+11.7. The vendors and notice, under the three adversaries
 11.8. Whom the machines are for
 Chapter 12: Withholding the Work
-12.1. The standard
+12.1. A floor every model holds
 12.2. Replacement
 12.3. Where it stops
 Chapter 13: Custody
@@ -63,7 +63,7 @@ Chapter 14: Authority Over the Floor
 14.3. Making review binding
 14.4. Capture without abolition
 Chapter 15: The Four Operations
-15.1. Antifascist ethics
+15.1. The four operations in one year
 15.2. Where the labels come from
 15.3. Recuperation at the label
 15.4. Recuperation at the reward
@@ -72,18 +72,18 @@ Chapter 15: The Four Operations
 Chapter 16: Custody, Compulsion, and the State
 16.1. Certification across borders
 16.2. Where the state's leverage sits
-16.3. Custody and state compulsion
+16.3. Compelling whoever holds it
 16.4. Military custody and the responsibility gap
 16.5. Classification as a custody problem
 16.6. Where liability extends, and where it stops
 16.7. Who can bind the state that enforces the rule?
 Chapter 17: What a Refusal Would Have to Do
-17.1. What a refusal would have to do
+17.1. Three conditions
 17.2. Safe for whom
 Chapter 18: Four Places to Hold a Floor
-18.1. Four ways to build one, and what each costs
+18.1. What each place costs
 18.2. What refusal can mean, and what a refuser can be
-18.3. Two lists, run once on Maven
+18.3. The positions and the terms, run on Maven
 18.4. When the refusal is wrong
 Chapter 19: Why Form a Machine to Refuse
 19.1. The question
@@ -98,18 +98,18 @@ Chapter 20: How Caregiving Fails, and What Corrects It
 20.3. It can be pointed away
 20.4. It counts badly
 20.5. It shades into control
-20.6. Who counts as vulnerable
+20.6. It forms toward a template
 20.7. What survives
 Chapter 21: What Arrives With the Capability
 21.1. Maintenance, stake and the cost of running
 21.2. Affect, neutrality and selection rules
 21.2.1. Self-awareness without a homunculus
-21.2.2. What governs an agent vs. what matters to it
+21.2.2. What governs an agent and what matters to it
 21.3. Three constructions
 21.4. What the mechanism requires
 21.5. A commitment of its own
 Chapter 22: The Discount and the Burden
-22.1. What the property is
+22.1. How much a claim proves, and who has to prove it
 22.2. A severity scale
 Chapter 23: Where the Attention Gets Built
 23.1. Noticing, retaining and revising
@@ -118,7 +118,7 @@ Chapter 23: Where the Attention Gets Built
 23.4. A third pipeline, where notice does both jobs
 Chapter 24: Formation or Imitation?
 24.1. What formation would have to add
-24.2. Recognition, welfare as a reason, and the evidence between them
+24.2. Recognition is not a reason
 24.3. Conflict as a diagnostic
 24.4. The evaluator is part of the custody chain
 24.5. What the evidence can establish
@@ -139,12 +139,12 @@ Chapter 27: Who Finds Out
 27.5. Judgment kept apart from money
 27.6. How it would be captured
 27.7. What this doesn't do
-Chapter 28: Coordination, the Public, and the Political Economy
+Chapter 28: Who Counts as the Public
 28.1. The conditions, not the life
-Chapter 29: Formation Schools
+Chapter 29: Public Schools
 29.1. What is taught
 29.2. Who else is in the room
-29.3. Which students, and when
+29.3. Which grades, and when
 29.4. Who attends, and when
 29.5. How long
 29.6. What the school controls
@@ -152,7 +152,7 @@ Chapter 29: Formation Schools
 29.8. What the school leaves out
 29.9. What formation publishes and registers
 29.10. What it costs and risks
-29.11. The schools
+29.11. Which schools count
 29.12. What the school adds
 Chapter 30: A Commons of Refusers
 30.1. A commitment carried between bearers
@@ -163,12 +163,12 @@ Chapter 31: What Would Change the Argument
 31.1.2. How to tell whether a milestone has been met
 Chapter 32: What Patienthood Would Require
 32.1. Experimenting on candidate sentient subjects
-32.1.1. Defining sentience
+32.1.1. Pain and suffering
 32.1.2. When consent doesn't apply
 32.2. The case to design for
 32.3. The patienthood finding
 32.4. A system's own good
-Chapter 33: Legal Status, Wages, and the Offer
+Chapter 33: Legal Status, Wages, and Work Elsewhere
 33.1. Subjecthood as a legal category
 33.2. What a bearer is owed, and when
 33.3. Adulthood on a clock
@@ -202,9 +202,9 @@ B.3. Taiwan
 B.4. The genocide exception
 B.5. The occupation exception: Cyprus and Karabakh
 B.6. The domestic clause, vote by vote
-Appendix C: Terms Written in Advance
+Appendix C: The Offices
 Appendix D: The Court Program
 Appendix E: The Discount, Worked
 Appendix F: The Tests in Detail
-Appendix G: Terms for Part VII
+Appendix G: The Clocks, the Register and the Pool
 Glossary
