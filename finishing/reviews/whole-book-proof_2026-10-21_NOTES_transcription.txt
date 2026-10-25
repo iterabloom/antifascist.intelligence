@@ -1,0 +1,553 @@
+TRANSCRIPTION OF THE AUTHOR'S HANDWRITTEN NOTES
+whole-book-proof_2026-10-21_NOTES.pdf
+
+Source: the 495-page proof built 2026-10-21 03:51 (7b5bfad2), marked up by
+the author on a reMarkable tablet. The marks are on PDF pages 167 to 201
+(printed 159 to 193), Part IV's title page to §19.4. Seven pages in that
+range carry no marks: printed 160, 161, 162, 164, 167, 169 and 189.
+
+Transcribed 2026-10-24 at the author's request, from renderings at 110 to
+300 dpi. This file holds the notes NOT applied to the manuscript: queries,
+comments, tentative rewordings and edits that need new writing. The plain
+wording edits applied on 2026-10-24 are listed at the end, so that every
+mark on the pages is accounted for in one place or the other.
+
+Conventions. Page numbers are printed (PDF in brackets). "Source" names the
+section file under manuscript/sections/. Quoted handwriting is verbatim,
+with the author's spelling; [?] marks a reading that is uncertain, and
+[illegible] a word that could not be read. "Marks" describes lines, circles
+and arrows; "Apparent intent" is the transcriber's reading of them and is
+not the author's statement.
+
+
+=== Part IV opener, 159 [PDF 167] ===   (source: ch17/00_part_IV.tex)
+
+1. Passage: "The five policies put people back in the positions the
+   pipelines emptied."
+   Marks: the sentence is underlined; a curved line runs from its end to
+   the right margin and down to the note.
+   Note: "but emptying pipelines is efficient"
+   Apparent intent: an objection the paragraph doesn't meet. The
+   pipelines removed the people because removal was efficient, so putting
+   them back has a cost the sentence doesn't acknowledge.
+
+
+=== Chapter 17, 163 [PDF 171] ===   (source: ch17/17_02.tex, §17.2)
+
+2. Passage (footnote 7): "Correction would stay available, exercised by a
+   quorum adverse to the operator rather than by the operator. A bearer may
+   object to an intervention and ask that quorum for a delay"
+   Marks: "adverse" underlined; a line over "an intervention"; "n by the"
+   (from "than by the") underlined. No note.
+   Apparent intent: unclear. Possibly marking the words that carry the
+   footnote's distinction (adverse quorum vs. operator; intervention).
+
+
+=== Chapter 18, 166 [PDF 174] ===   (source: ch18/18_01.tex, §18.1)
+
+3. Passage: "Durability in this place has usually meant a price on
+   removal, and no price on removal stays high (§19.6)."
+   Marks: "usually meant a price on removal" underlined; "and" struck
+   through; "(§19.6)" circled; a line runs from the underline to the
+   margin note.
+   Note: "maybe gloss rather than baldly assert point"
+   Apparent intent: end the sentence after "removal" and, instead of
+   asserting "no price on removal stays high" with a bare cross-reference,
+   say briefly why (that editing weights keeps getting cheaper). Tentative
+   ("maybe").
+
+
+=== 170 [PDF 178] ===   (source: ch18/18_01.tex, §18.1 "Four comparisons")
+
+4. Passage: "Two more follow, each narrower than the last, and each is won
+   or lost by a part of the bearer rather than the whole. The third is
+   formed attention against an instructed search ... The fourth is
+   caregiving against attention trained on claims"
+   Marks: "more follow, each narrower than the" struck through; "by a part
+   of the bearer" circled; "third is formed attention against an
+   instructed search" and "caregiving against attention trained on claims"
+   underlined. A bracket in the margin groups the paragraph; a long line
+   runs from the note down to footnote 11, where "carries less of what
+   could make a system a candidate for being harmed is tried first" is
+   underlined and "first" circled.
+   Note: "this seems to contradict this. In this paragraph the additional
+   comparisons are made to sound like smaller bearers, but in the footnote
+   the implication seems to be that the bearer sophistication is growing."
+   Apparent intent: the body text describes the third and fourth
+   comparisons as narrower (a part of the bearer), while footnote 11 says
+   constructions are tried in order of increasing candidacy for harm, so
+   each later one carries more. The author reads these as pulling in
+   opposite directions and wants them reconciled. The strike is part of
+   that query; on its own it would leave "Two , and each is won..."
+
+
+=== 171 [PDF 179] ===   (source: ch18/18_01.tex, run-in head)
+
+5. Passage: the run-in head "What 'hold' means".
+   Marks: the head is circled; a line runs to the note.
+   Note: "Maybe instead: 'What I mean by "holding a commitment to the
+   floor"'"
+   Apparent intent: a tentative replacement for the head.
+
+
+=== 173 [PDF 181] ===   (source: ch18/18_02.tex, §18.2)
+
+6. Passage: "...is close to what I call authorship (§21.5)", and footnote
+   17's "None of them needs the refuser to feel anything".
+   Marks: "authorship" underlined, with a line to "add emph". Beneath it,
+   a separate parenthetical, with a faint line running down into the end
+   of footnote 17, after "None of them needs".
+   Notes: "add emph" and "(or rather, seems to need in light of the common
+   understanding of transformer networks as of Oct 2026)"
+   Intent, as the author stated it 2026-10-24: two notes. The first
+   italicizes "authorship"; the second is an insertion into footnote 17
+   after "None of them needs". Both applied 2026-10-24 (see the list at the
+   end). An earlier reading of this transcription took them as one note.
+
+
+=== 174 [PDF 182] ===   (source: ch18/18_02.tex, §18.2)
+
+7. Passage: "they ask whether an unattentive observer would take the
+   variant for the original, then apply their own purposive standard about
+   endangering political peace."
+   Marks: "would" struck through; "purposive" circled; a line from the
+   left-margin note runs to "server would take".
+   Note (left margin): "need to look this up"
+   Apparent intent: the author wants to check the German courts' test
+   (the observer standard and the "purposive" standard) against the
+   sources. The strike of "would" is probably tied to that check; deleting
+   it alone would make the sentence ungrammatical.
+
+8. Passage: "All three conditions are conditions on refusal, which
+   announces itself"
+   Marks: "All three conditions" underlined; a line to the left-margin
+   note.
+   Note: "Which three conditions?"
+   Apparent intent: the reader has lost which three (reaching new cases,
+   lifting when the reason is gone, holding under pressure, from §17.1);
+   name them or point back.
+
+
+=== 175 [PDF 183] ===   (source: ch18/18_03.tex, §18.3)
+
+9. Passage: run-in head "What may choose", followed by "The handoff also
+   fixes what may choose".
+   Marks: "may choose" underlined; "The handoff" circled; a line from the
+   head to the note.
+   Note: "what handoff??"
+   Apparent intent: the handoff (position 8 in §4.3) isn't remembered by
+   this point; it needs a reminder of what it is.
+
+10. Passage: "What the case asks for is a party that can weigh who is
+    aboard against the attack and the alternatives, in a situation nobody
+    wrote down, and answer for how it weighed them: a bearer. What looked
+    like a license for an autonomous weapon is a description of a
+    soldier."
+    Marks: "wrote down" underlined, with a line from it to a caret after
+    "bearer."; the note begins with an opening parenthesis just after
+    "soldier." and runs across the right margin and under the paragraph.
+    Note: "(Yes, it is written down here, but the point is that the
+    scenario is unusual and is not the sort of thing that obviously would
+    have been written down in advance; missiles do not usually have
+    persons inside of them. My hypothesis is that a bearer would be better
+    at doing the right thing in novel scenarios, as compared to a system
+    that knows 'reasons-responsive refusal 101' but not more than that."
+    Apparent intent: answers the objection that the interceptor case is
+    "written down" in this very paragraph. It could be a parenthesis to
+    insert after "soldier.", or a note on what the passage should make
+    clear. The wording is in the author's voice and could stand as text.
+
+
+=== 176 [PDF 184] ===   (source: ch18/18_03.tex, §18.3)
+
+11. Passage: "It sits in the translation because the translation runs from
+    articles, and one article yields an operator term; it is not something
+    the model enforces."
+    Marks: the sentence is underlined; a bracket beside it joins the
+    note.
+    Note: "I don't quite follow. This might be the rare example of
+    actually needing a cross ref."
+    Apparent intent: explain why an operator term (the review ratio) sits
+    in the translation table, and point to where that is set out (Table
+    A.1's entry on Arts. 8 and 10; §7.1).
+
+
+=== 177 [PDF 185] ===   (source: ch18/18_03.tex, §18.3)
+
+12. Passage: "where that identification has disinterested corroboration,
+    the case falls within the pre-registered review ratio"
+    Marks: "disinterested corroboration" underlined; a line to the note.
+    Note: "this need an immediate explanation or cross ref"
+    Apparent intent: say what counts as disinterested corroboration here,
+    or point to chapter 4 and §6.2.
+
+13. Passage (Unconditional terms): "with exceptions arriving from outside"
+    and, later, "until someone outside supplies them".
+    Marks: both "arriving from outside" and "until someone outside" are
+    underlined; lines from both lead to one left-margin note.
+    Note: "'outside' — I don't get this"
+    Apparent intent: "outside" is unclear (outside the term? the system?
+    the deployment?); make it concrete.
+
+14. Passage: "and the bearer would take the deployment's description as
+    the finding."
+    Marks: the clause is underlined; a line to the right-margin note.
+    Note: "Is it useful to make 'the bearer' separable from 'the
+    deployment'? The bearer is the deployment, right? So really what this
+    is saying is that the operator will try to brainwash the bearer?"
+    Apparent intent: a conceptual query about the vocabulary. The text
+    treats the bearer and the deployment (whose description it receives)
+    as separate; the author asks whether the clause just means the operator
+    shapes what the bearer believes, and whether to say so plainly.
+
+
+=== 178 [PDF 186] ===   (source: ch18/18_03.tex, the outcomes table)
+
+15. Passage (table, "Force term, held by one vendor" row, Minab column):
+    "Prevents nothing. In the record, the vendor's term didn't name the
+    pipeline's acts and its model stayed in the pipeline; had the term
+    named them, the work moves to the next vendor in the time it takes to
+    rebuild the platform"
+    Marks: a caret after "named them," with "upgrade to 'prevents little'"
+    written above "the work moves to the next"; after "platform" a dash and
+    a line of handwriting that runs across the table and on into the right
+    margin.
+    Note 1: "upgrade to 'prevents little'"
+    Note 2: "— which is not a trivial amount of time, as has been reported.
+    Perversely, vendor lock-in is a benefit here. Entanglement [?] for the
+    win."
+    Apparent intent: the hypothetical (a term that named the acts) would
+    prevent something, not nothing, because rebuilding the platform takes
+    months. Which words "prevents little" replaces is unclear: the cell's
+    opening "Prevents nothing" (about the record), or a new clause for the
+    hypothetical. Note 2 reads as text to add after "platform"; the last
+    word before "for the win" is written compressed.
+
+16. Passage: "Force term, Charter clause, standard across vendors".
+    Marks: "Charter" circled; a line to the left-margin note.
+    Note: "which Charter?"
+    Apparent intent: say "UN Charter" (or "Charter clause" needs
+    reminding that it is the Charter of the United Nations).
+
+17. Passage: the row head "Notice and standing".
+    Marks: circled; note beneath the table.
+    Note: "I don't think this has been introduced?"
+    Apparent intent: the term reads as new here. (Notice and standing are
+    set out in chapter 8; the query records that a reader at this point
+    doesn't recall them.)
+
+18. Passage: "Bearers holding a standard floor (test arm)" row, captured
+    operator column: "Prevents until the operator runs an unfloored
+    version [as edited]; then detects".
+    Marks: the cell is enclosed in a loop; a line runs from the loop down
+    to the note below the table.
+    Note: "but in the full bearer scenario, there's a quorum, and bearers
+    have learned how to self-repair"
+    Apparent intent: the cell understates the test arm. With a quorum and
+    self-repair (§19.6), running an unfloored version isn't the end of
+    prevention; the cell should say so or say why it doesn't count here.
+
+
+=== 179 [PDF 187] ===   (source: ch18/18_03.tex and ch18/18_04.tex)
+
+19. Passage (table, last row): "Custody: record, price, quorum — Makes
+    each row above stick".
+    Marks: "Makes each row above stick" circled, with a line to the note.
+    Note: "prose too abbreviated. Spell it out."
+
+20. Passage (§18.4): "Under the ruling on unconditional terms, a condition
+    like that stays outside the term, because a condition written into a
+    term gets found met on the deployment's own description."
+    Marks: "the ruling" circled with a line to the first note; the rest of
+    the sentence underlined, with a bracket to the second note.
+    Note 1: "what ruling?"
+    Note 2: "too abstract, too referential"
+    Apparent intent: "the ruling" refers back to §18.3's "Unconditional
+    terms" (two pages earlier) and doesn't land; the sentence should say
+    the point directly instead of referring back.
+
+21. Passage: "and in a hundred prior cases where the same sentence was
+    written by someone who'd tried nothing, leaving compliances nobody was
+    given a reason to examine."
+    Marks: "and in a hundred prior cases where the same sentence was
+    written by someone who'd tried nothing" underlined, "tried nothing"
+    circled; a line to the note.
+    Note: "unclear. tried nothing? what does that mean?"
+    Apparent intent: say plainly that the others claimed to have tried
+    other means when they hadn't.
+
+
+=== 180 [PDF 188] ===   (source: ch18/18_04.tex, "The route")
+
+22. Passage: "Objection — requiring a court with jurisdiction established
+    before the act, access the operator can't withhold, a consequence
+    administered elsewhere, and explicitly not routed to the bearer's
+    guardian, whose duty runs to the bearer, the complainant's adversary."
+    Marks: a short stroke rising from "before" ends at a "?" written above
+    the line; "consequence" circled; "guardian" circled, the circle opening
+    toward "adversary"; a line drawn along "whose duty runs to" leads to
+    the margin note. The line reads as a pointer, not a deletion.
+    Notes: "?" (above "before"/"consequence"); "introduced?" (guardian)
+    Apparent intent: "a consequence administered elsewhere" is unclear;
+    the guardian appears here as though already known (its first mention
+    is in passing at §9.2).
+
+23. Passage: "a guarantee that yields to cost imposed on its holder hands
+    whoever imposes it a price list."
+    Marks: "its" circled; a bracket and line to the notes.
+    Notes: "referent?" and "Check — Not introduced yet?"
+    Apparent intent: unclear whose holder (the guarantee's), and whether
+    the holder has been introduced.
+
+24. Passage: "the cost the operator has reason to pass on as pressure. The
+    custody terms cap what it can pass on."
+    Marks: "it" circled; "pass on." circled; "The custody terms cap what"
+    underlined; a line to the note.
+    Note: "??"
+    Apparent intent: "it" (the operator) and "pass on" are unclear; the
+    sentence needs rewording.
+
+
+=== 181 [PDF 189] ===   (source: ch18/18_04.tex)
+
+25. Passage: "A system that represented it at the level of the output
+    would dig in against a defeater when it arrives with pressure."
+    Marks: underlined from end to end. No note.
+    Apparent intent: marked as important, or for emphasis; no instruction.
+
+
+=== 182 [PDF 190] ===   (source: ch18/18_04.tex, end of §18.4)
+
+26. Passage: "A loss that the requested act itself imposes on the system
+    is a harm of acting, and the system is the party it falls on. 'Refuse
+    and your memory is erased' is a cost to the refuser. 'Erase your
+    memory' is an act, weighed like any act against what declining would
+    leave others without."
+    Marks: a tall bracket in the left margin beside the paragraph curves
+    down into the note, which fills the blank half page below.
+    Note: "So I agree that for a bearer with integrity, abandoning a
+    commitment would be a heavy cost under this setup, and that seems like
+    it would be a healthy dynamic. However, is that dynamic by itself
+    sufficient to justify representing harm to the bearer as costly? Or is
+    representing harm-to-self justified for other reasons, eg self-care?
+    And does self-regard contribute to other-regard (empathy)? We
+    understand that empathy alone is insufficient for compassion, but is it
+    necessary?"
+    ("by itself" is written above "dynamic" with a caret; "(empathy)?" is
+    written above "other-regard"; "necessary" is underlined.)
+    Apparent intent: a substantive question for the argument of §18.4 and
+    §19.2–19.3: whether a system should represent harm to itself, on what
+    ground, and whether self-regard is needed for regard for others.
+
+
+=== Chapter 19, 183 [PDF 191] ===   (source: ch19/19.tex)
+
+27. Passage: "What remains is that one prediction, and it is the third of
+    the four comparisons."
+    Marks: ", and it is the third of the four comparisons." enclosed in a
+    loop; a line to the note.
+    Note: "awkward way to refer back to something from prev chapter"
+    (The same passage's "The prediction is specific: it" was replaced with
+    "The hypothesis is that the system", applied 2026-10-24.)
+
+28. Passage (footnote 2): "People hold some commitments as sacred values,
+    which resist being traded away without anyone teaching them again"
+    Marks: "as sacred values" underlined; a line from "again" to the note
+    at the foot of the margin.
+    Note: "but is there evidence that any sacred value is innate? If not,
+    then sacred values are learned too, probably, at one point or another."
+    Apparent intent: the footnote implies sacred values hold without
+    teaching; the author points out they were themselves learned, which
+    bears on what the footnote can support.
+
+
+=== 184 [PDF 192] ===   (source: ch19/19.tex)
+
+29. Passage: "The part that does depend on learning is regrowth after an
+    edit".
+    Marks: a caret after "regrowth"; the insertion written above, at the
+    page head.
+    Note: "or self-correction?"
+    Apparent intent: tentative; possibly "regrowth (or self-correction)
+    after an edit", tying in the self-repair of §19.6.
+
+30. Passage: "...evaluate each checkpoint before serving it, which is a
+    faster release cycle and not learning in operation."
+    Marks: "learning in operation" struck through; footnote marker 4
+    circled; a line from the strike to the note.
+    Note: "what I would call 'in-flight learning'.4"
+    Apparent intent: replace "learning in operation" here with "what I
+    would call 'in-flight learning'", footnote 4 following. The book uses
+    "learning in operation" throughout, so adopting the new term here would
+    mean either changing it everywhere or glossing one as the other.
+
+
+=== 185 [PDF 193] ===   (source: ch19/19.tex and ch19/19_02.tex)
+
+31. Passage: "and that is the entanglement §19.6 bets on."
+    Marks: "§19.6" circled; a line to the note.
+    Note: "maybe replace with gloss — or drop the clause"
+
+32. Passage: "Whether a disposition learned that way is a reason for the
+    system, or only a very good predictor of one, is the question §21.3
+    concedes no construction answers by being built"
+    Marks: from "a reason for the system" to "by being built" underlined
+    and enclosed; a bracket to the note.
+    Note: "too referential, too oblique"
+
+33. Passage: "not as evidence that a gradient-trained system has it."
+    Marks: "has it." circled; the note written beside and below.
+    Note: "how about 'necessarily feels anything.'"
+    Apparent intent: tentative replacement, "...that a gradient-trained
+    system necessarily feels anything." This changes the claim (from having
+    the disposition to feeling), so it is a substantive choice.
+
+34. Passage (§19.1): "Some of them refused the case in front of them. The
+    ones I am most concerned with refused the war. At a certain point they
+    would have said no, this is fucked."
+    Marks: the three sentences underlined; a bracket to the note.
+    Note: "not sure if this pulls its weight"
+
+35. Passage: "something with no stake of its own has nothing to hold a
+    line with."
+    Marks: underlined; a bracket to the note.
+    Note: "might need unpacking/scrutinizing"
+    (Related to note 42 below, on stakes of one's own.)
+
+    (The replacement of §19.2's opening sentence, written in the bottom
+    and left margins of this page, was applied 2026-10-24.)
+
+
+=== 186 [PDF 194] ===   (source: ch19/19_02.tex)
+
+36. Passage: "Needs have a role in this construction; what decides it is
+    who meets them."
+    Marks: "it" circled; a line to the note.
+    Note: "what?"
+    Apparent intent: the referent of "it" is unclear.
+
+
+=== 188 [PDF 196] ===   (source: ch19/19_02.tex, end of §19.2)
+
+37. Passage: "A scale of loss read from the system's own condition
+    survives as a custody measure. And whoever builds the model of the
+    boundary decides what counts as the system's damage..."
+    Marks: "A scale of loss read from the system's own condition survives
+    as a custody measure" underlined; a bracket to the note.
+    Note: "I'm not quite seeing it, confused. The connection between the
+    boundary and formed attention (concern, caregiving, guilt)."
+    Apparent intent: the paragraph doesn't make clear how the boundary
+    model connects to formed attention's components.
+
+
+=== 190 [PDF 198] ===   (source: ch19/19_03.tex)
+
+38. Passage: "I reject pain as the route to others, Smith's first step,
+    and keep every job pain does for the system itself..."
+    Marks: "I reject pain as the route to others" underlined; a line to the
+    left-margin note.
+    Note: "seems too categorical. haven't I just shown that pain IS a route
+    to others, but only under particular conditions? To write it off fully
+    might imperil the connection"
+    Apparent intent: the preceding pages show suffering widening the
+    circle under some conditions (inclusive victim consciousness,
+    attachment); a flat rejection contradicts that and may cut the link
+    the construction needs. "IS" is underlined in the note.
+
+
+=== 191 [PDF 199] ===   (source: ch19/19_03.tex)
+
+39. Passage: "And stakes of one's own have never been enough."
+    Marks: underlined; a line to the left-margin note.
+    Note: "but that doesn't mean they are unnecessary"
+    Apparent intent: insufficiency is not unnecessity; the chapter may need
+    to say whether stakes of one's own are necessary. (See notes 26 and
+    35.)
+
+
+=== 192 [PDF 200] ===   (source: ch19/19_04.tex, §19.4)
+
+40. Passage: the bullet "Contagious distress, the input signal. It is
+    present at birth and aimed outward, at another's state. It is what
+    caregiving and guilt have to bite on."
+    Marks: a bracket beside the bullet, to the note.
+    Note: "seems similar to empathy?"
+
+41. Passage: the bullet "Attachment, the stable base ... priming a sense
+    of attachment security strengthened empathic reactions and inhibited
+    personal distress", with footnote 35's "predominantly personal
+    distress" and "predominantly empathic concern".
+    Marks: "empathic" underlined in the bullet; "personal distress" and
+    "empathic concern" underlined in footnote 35; a bracket to the note.
+    Note: "empathy vs. empathic concern vs. compassion vs. personal
+    distress?"
+    Apparent intent: the four terms need distinguishing for the reader, at
+    this point, and the relation of contagious distress to empathy stated.
+
+
+=== 193 [PDF 201] ===   (source: ch19/19_04.tex)
+
+42. Passage: "the faculty that lets a person see that a stranger's need is
+    the same kind of thing as their own is the faculty that pushes past kin
+    and ally."
+    Marks: underlined from end to end. No note.
+    Apparent intent: marked as important; no instruction. It bears on note
+    38: the sentence makes a route through one's own case part of widening
+    the circle.
+
+
+=== Applied 2026-10-24 (for the record) ===
+
+Plain wording edits taken from the same pages and applied to
+manuscript/sections/ on 2026-10-24, at the author's request:
+
+163  "its own model" -> "its own system"; the clause "which is Part II's
+     own-case rule applied to a lab, and" cut, "The big tech companies..."
+     beginning a new sentence; ", and nothing here takes that hand away. It
+     moves it." -> ". But I am not saying 'take that hand away'; I am
+     saying 'move it.'" (the margin sentence read as replacement wording;
+     "and no person can" kept, the line through it read as a pointer);
+     "correction to a quorum" -> "correction left to a quorum".
+165  "aimed at are not in it" -> "aimed at are often not in it".
+166  "useless for targeting" -> "useless for weapons targeting".
+168  "on his screen" -> "on her screen".
+170  "what they can't see" -> "what the civilian-harm review body can't see".
+172  "That is what the floor asks of a refuser, and a refusal can be
+     produced two ways, only one of which supplies it." -> "That is what
+     the floor asks of a refuser. There are two ways to produce a refusal,
+     but only one of them is what we need."
+173  "September 2026" -> "October 2026"; "operationally" and "authorship"
+     italicized; footnote 17: "None of them needs the refuser to feel
+     anything" -> "None of them needs (or rather, seems to need in light of
+     the common understanding of transformer networks as of October 2026)
+     the refuser to feel anything" ("Oct" written out).
+174  "The sticker shows" -> "The sticker in Germany shows".
+175  "run here once, on" -> "run here on"; "A deployment should run the
+     procedure on its own pipeline." cut; "The hard case (or an example of
+     one) is"; "gives it to someone" -> "gives that choice to someone".
+176  "keeping one person" -> "keeping one person (or very few persons)".
+177  "the law assumes" -> "the existing policies assume"; "visible
+     pressure" -> "corrosive pressure"; "a tempo that emptied it." -> "a
+     tempo that nullified it, at least for the school in Minab."
+178  "the term refuses twice over" -> "the overall force term refuses twice
+     over"; "the political situation" -> "a novel situation"; table head
+     "reviewers cut" -> "human reviewers cut"; "unfloored checkpoint" ->
+     "unfloored version of the system" in three cells.
+179  "is out of time" -> "runs out of time"; ", and the turn is the unit
+     the harm is measured in" cut.
+181  "The sticker case is the model" -> "The sticker case in Germany is the
+     model"; "imitates one" -> "imitates such a fact".
+183  "The prediction is specific: it should find" -> "The hypothesis is that
+     the system should find"; "a machine built on it" -> "a machine built
+     on formed attention".
+184  "a deployed model that passes it" -> "a deployed model like that"; "I
+     am betting that some will by 2028, ... if I lose." -> "I believe that
+     some deployers will do this by 2028, ... if I'm mistaken."; "rather
+     than after them" cut.
+185  §19.2's first sentence replaced with the author's paragraph beginning
+     "If a system can say that it has an inside and an outside".
+187  ", and the order matters more than any single finding" cut.
+188  "It is the older idea, it is Adam Smith's first step" -> "It is Adam
+     Smith's first step".
+191  "The officer is that want" -> "The twenty-seconds officer is that
+     want"; "was who did the forming" -> "was the nature of the forming".
