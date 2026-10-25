@@ -50,7 +50,7 @@ manuscript/sections/ch11/11_05.tex	11.5	Before the statute: the auto-proceed cla
 manuscript/sections/ch11/11_06.tex	11.6	Notice that can't be turned on the person	dc94a34cbfb7b7e8e4f58d9cf65bba47785b98071d5efb053ff31a57d00de7ac	48
 manuscript/sections/ch11/11_07.tex	11.7	The vendors and notice, under the three adversaries	461fbd57b7ca23e7d7945bb889ac5629f77e082fdbc1dedfd3b38983822d93cb	49
 manuscript/sections/ch11/11_08.tex	11.8	Whom the machines are for	ab9e13fb2710d5ea15258e2f26c46779b8430ede0ac67d20445feedaca18b520	50
-manuscript/sections/ch12/00_part_III.tex			176d99b979f912ed7a13939343f0ab43e258836315b3b79a1e96c1aa06482684	51
+manuscript/sections/ch12/00_part_III.tex			6f735bf57183b116b8fc77486f6e8b1f86bae8299c8690c91023c7c24e6a1a04	51
 manuscript/sections/ch12/12.tex	12	Withholding the Work	5ad283e3024685bacfcaa52faee70b581f4de68c9595afb85a923baf3b890c6b	52
 manuscript/sections/ch12/12_01.tex	12.1	A floor every model holds	1de3539db0b54b14b97d1037a2b252abb5a38800c540917d956c1c4217ff68f6	53
 manuscript/sections/ch12/12_02.tex	12.2	Replacement	570fb0325a8d324d7ec3df7ec452724934b05bab6135b3daa781e16be839b380	54
@@ -68,7 +68,7 @@ manuscript/sections/ch14/14_02.tex	14.2	Who may amend, and where entitlement com
 manuscript/sections/ch14/14_03.tex	14.3	Making review binding	7c5aa0c9a1f57d9ce89c22258dc3792afeb79abd68114b308a85703789fd6674	66
 manuscript/sections/ch14/14_04.tex	14.4	Capture without abolition	765cbf5d74a5f227cb063a643c85b9b40b006b0b67a4908f39520c751b442d5a	67
 manuscript/sections/ch15/15.tex	15	The Four Operations	a2f50cc224b2fb176545b2ea58b274eb812481da6805ac452f846eaafff0a6c3	68
-manuscript/sections/ch15/15_01.tex	15.1	The four operations in one year	9aaef6ce34901b923202ce840f41e00513200e95bcb5f6f8667a7c092b00dc99	69
+manuscript/sections/ch15/15_01.tex	15.1	Brought into line	8c7f9b0f111443c2760fef90ccc55273d1a0dc8f5c5b627b878f14cd68b1a613	69
 manuscript/sections/ch15/15_02.tex	15.2	Where the labels come from	55925cff6417faf08b2269bda6dec02112df0a946d5a690eb2dea1b14a162d79	70
 manuscript/sections/ch15/15_03.tex	15.3	Recuperation at the label	1cf0b9e74e23c22902073cb409576b44feb675da6300dca2733c11e3c1a2f810	71
 manuscript/sections/ch15/15_04.tex	15.4	Recuperation at the reward	c99b785540744e0e52cac14ba3bd9162fcb70e7f4b59ce5a8abd20b846a6b4e2	72
@@ -163,7 +163,7 @@ manuscript/sections/ch29/29_12.tex	29.12	What the school adds	478203989dc21486c8
 manuscript/sections/ch30/30.tex	30	A Commons of Refusers	b7211b67fb760177e8dcf4aa834ad36aef1968ff1e1a0f3980c44afe35bfb264	161
 manuscript/sections/ch30/30_01.tex	30.1	A commitment carried between bearers	75ff9596782e1d1fe9229a19f5de665c14c7033c912758c334635a3915c93d81	162
 manuscript/sections/ch30/30_02.tex	30.2	Personal and peer-held models	2a33bc7632a1556b8a26eac6ddda2fef161a6a3fbcb7ec395b82ab0334b1a5ec	163
-manuscript/sections/ch31/00_part_VI.tex			6222bf20c3854f019b2a7fd6499bcc1cda533441b4faeedb452e07cd5df8d0f7	164
+manuscript/sections/ch31/00_part_VI.tex			60f8daf5ecf6f21f38acbf47b72690043fa6515531cc5e8cc94629665ca58ab3	164
 manuscript/sections/ch31/31.tex	31	What Would Change the Argument	99fd721890c63f72688d9f63a03d1e3e2bd2f6f966f5b526fbf4a213221e49f5	165
 manuscript/sections/ch31/31_01.tex	31.1	How you'd know it was working	e252ea7b32d99705bd6adf0422b853df09c983495087ed58b7e17f9501394b1b	166
 manuscript/sections/ch31/31_01_01.tex	31.1.1	What the floor would have to show	da1e072efbbe783861c1ff469eb8f371b660d555e21cdaa1abfa2e44a0ba37d9	167
@@ -206,8 +206,8 @@ manuscript/sections/chA/A_01.tex	A.1	The Maven pipeline	34cea94db5adff52265b6cfa
 manuscript/sections/chA/A_02.tex	A.2	The Geneva Conventions and Additional Protocol I	29776d272a8c54f39320ce8e1c2681fc7be922bb366b6219441a4f3df3bbea3e	204
 manuscript/sections/chA/A_03.tex	A.3	The abduction and forcible transfer pipeline	71c3469b3c27af4d657038181f94ad4bdb98552fdb2b9cbdda7c9cee572b822a	205
 manuscript/sections/chB/B.tex	B	The Force Term, Case by Case	cc82d4cdeb28c14e7b8ddecc62f7941aecf33b9325b65882c298d510e0db332e	206
-manuscript/sections/chB/B_01.tex	B.1	How findings are weighed	9e9addedf92af0e3417ce9d60c2d6fcae8810e69ffd60f0b1e4cdf59af1af543	207
-manuscript/sections/chB/B_02.tex	B.2	The four conditions, run on the OPCW's attribution team	71a88089dbe6ab419d6f660590cba7718d387b0723a9a81de37e973890689f64	208
+manuscript/sections/chB/B_01.tex	B.1	How findings are weighed	94b06315650b41adadb7aef3c8f86232fdfa32b7cf4cc1e1436ef6688994400a	207
+manuscript/sections/chB/B_02.tex	B.2	The commission test, run on the OPCW's attribution team	eabc37f1452866e08fafc07fbd501ec404068fda472e24f0e60ce764302d76ac	208
 manuscript/sections/chB/B_03.tex	B.3	Taiwan	f5c8db7757febb8ec369ddf0030caa4fa399fe0b135961476da3cc4758780586	209
 manuscript/sections/chB/B_04.tex	B.4	The genocide exception	bed4302d89a6570e490da95245479995f8e4d1d73a6a77ffae3f6d8193419a24	210
 manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	753f32f83baaba4501a22e70038afff8e751462b5b989e4248a11993df858b51	211
