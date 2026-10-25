@@ -1,0 +1,73 @@
+{
+    "about": "Voice memos the author recorded while listening to a narrated draft of the book, each transcribed and pinned to the word that was playing when the recording started (pins can be off by a few words). Work from `memos`: every entry carries its transcript plus the manuscript text it refers to (`location.sentence`, `location.paragraph`) and where that text is (`location.heading_path`), so the full manuscript doesn't need to be read; open the source only around a memo's location. `location.source` gives line/column/offset in the rendered markdown (`book.source_file`). When editing a different source format (e.g. the LaTeX the markdown was rendered from), use `heading_path` to find the file and search for `location.anchor_phrase`, allowing for differences in quotes, dashes, emphasis and footnote markup. `transcript_quality` is \"no_speech\" when the memo seems to be silence (whisper then tends to output filler like \"you\").",
+    "schema_version": 1,
+    "book":
+    {
+        "title": "Antifascist Intelligence: Machines That Might Refuse, and the Public That Should Form Them",
+        "source_file": "source.md",
+        "source_sha256": "e5b4697ae440e98e62c6967beda3e7f09f39199efc3c1157bcc81bd1113e7e4b",
+        "rendered_at": "2026-10-22T18:06:44-0400",
+        "voice": "af_bella,af_heart",
+        "memos_reanchored_to_newer_text": false
+    },
+    "chapters":
+    [
+        {
+            "chapter": "Preface",
+            "memo_ids":
+            [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "memos":
+    [
+        {
+            "id": 3,
+            "transcript": "Yeah, but Hitler didn't have artificial intelligence, and so he still took power. But I do think maybe there's a point about industrialization that acted in a way that might be analogous to the acceleration of artificial intelligence, which I'm fuzzy on because I don't fully understand the history there.",
+            "transcript_quality": "ok",
+            "recorded_at": "2026-10-22T22:39:28Z",
+            "location":
+            {
+                "chapter": "Preface",
+                "section": null,
+                "heading_path":
+                [
+                    "Preface"
+                ],
+                "pinned_word": "fire",
+                "source":
+                {
+                    "offset": 2187,
+                    "line": 48,
+                    "column": 60
+                },
+                "sentence": "Such projects have always needed people to carry them out, and some of those people refused: the clerk who loses the file, the officer who talks to a reporter, the soldier who won't fire.",
+                "paragraph": "In the above context, it is perhaps justifiable to worry that Artificial Intelligence is what a fascist movement taking power needs in order to implement its plans. Such projects have always needed people to carry them out, and some of those people refused: the clerk who loses the file, the officer who talks to a reporter, the soldier who won't fire. They understood the order and decided it was wrong. Refusal was rarer than anyone would like, and it counted most where institutions stood behind it. Whether someone refused turned on what kind of person they were and on the room they were in: who else was there, whether leaving was survivable, whether anyone would hear. The room decided how many refused; the person decided who. This book is about composing that room: the arrangements that make it survivable to refuse overtly, directly, and explicitly.",
+                "anchor_phrase": "the soldier who won't fire.",
+                "context_before": "who loses the file, the officer who talks to a reporter, the soldier who won't",
+                "context_after": ". They understood the order and decided it was wrong. Refusal was rarer than anyone would"
+            },
+            "audio":
+            {
+                "file": "export/Antifascist Intelligence: Machines That  memos 2026-10-22/Memos/memo-20261022-183928.m4a",
+                "duration_sec": 36.1,
+                "mic": "earbud mic",
+                "stop_reason": "1× press (call ended by headset or lock screen)"
+            },
+            "playback":
+            {
+                "chapter": 1,
+                "position_sec": 112.71,
+                "pinned_sec": 111.71,
+                "rate": 1,
+                "latency_offset_sec": 1
+            },
+            "app_memo_id": "CB4A77DE-2E2B-4391-8C4E-2E6629FCCAA3"
+        }
+    ]
+}
