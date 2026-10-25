@@ -836,17 +836,29 @@ def is_note_line(line):
     return bool(re.match(r"\[\^\d+\]:", line)) or line.startswith("    ")
 
 
+# A section reference prints as "\u00a729.2"; a statute's section prints as
+# "\u00a786a" or "\u00a74", so only the dotted form is counted, and a reference
+# to a whole chapter written as \S\ref{sec:N} would be missed.
+REF_IN_RENDER = re.compile(r"\u00a7\d+\.\d+(?:\.\d+)*|\b[Cc]hapters?\s+\d+|\bAppendix\s+[A-H](?:\.\d+)?\b")
+
+
 def chapter_table(flat):
-    """One TSV line per chapter, body words and note words with the headings
-    left out, then the totals before and after the appendices: the measure
-    of the spine (D-906). `flat` is the rendered body, one string per line."""
+    """One TSV line per chapter: body words and note words with the headings
+    left out, and the cross-references the body carries (D-1018), then the
+    totals before and after the appendices: the measure of the spine (D-906).
+    `flat` is the rendered body, one string per line. A reference is counted
+    as the render prints it, "\u00a729.2", "chapter 29", "Appendix G"; a list
+    such as "chapters 11 and 16" counts once, and references inside notes,
+    tables and figure captions are left out. The count is a report, not a
+    gate: it exists so the body's references can't regrow unnoticed, as they
+    did between D-658 (34) and D-1018 (302)."""
     counts, order, cur = {}, [], None
     for line in flat:
         m = re.match(r"## (Preface|Glossary|\d+|[A-H])\b", line)
         if m:
             cur = m.group(1)
             if cur not in counts:
-                counts[cur] = [0, 0]
+                counts[cur] = [0, 0, 0]
                 order.append(cur)
             continue
         if line.startswith("#") or cur is None:
@@ -855,14 +867,18 @@ def chapter_table(flat):
         # --keys are apparatus, not words, and are left out here.
         prose = re.sub(r"\[\^\d+\]|\[@[^\]]*\]", "", line)
         prose = re.sub(r"\s+([.,;:!?)])", r"\1", prose)   # "court ." after a key
-        counts[cur][1 if is_note_line(line) else 0] += len(prose.split())
-    out = ["chapter\tbody\tnotes"]
-    out += ["%s\t%d\t%d" % (c, counts[c][0], counts[c][1]) for c in order]
+        note = is_note_line(line)
+        counts[cur][1 if note else 0] += len(prose.split())
+        if not note and not line.startswith(("|", "**Figure", "**Table")):
+            counts[cur][2] += len(REF_IN_RENDER.findall(prose))
+    out = ["chapter\tbody\tnotes\trefs"]
+    out += ["%s\t%d\t%d\t%d" % (c, counts[c][0], counts[c][1], counts[c][2]) for c in order]
     for name, pick in (("main text before appendices", lambda c: not re.fullmatch(r"[A-H]|Glossary", c)),
                        ("appendices", lambda c: re.fullmatch(r"[A-H]", c))):
-        out.append("%s\t%d\t%d" % (name,
-                                   sum(counts[c][0] for c in order if pick(c)),
-                                   sum(counts[c][1] for c in order if pick(c))))
+        out.append("%s\t%d\t%d\t%d" % (name,
+                                       sum(counts[c][0] for c in order if pick(c)),
+                                       sum(counts[c][1] for c in order if pick(c)),
+                                       sum(counts[c][2] for c in order if pick(c))))
     return out
 
 

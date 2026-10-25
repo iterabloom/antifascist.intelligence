@@ -444,6 +444,46 @@ reader has to decode rather than read.
   Naming a section's argument is not making it. If the claim matters here, state
   it here in a clause.
 
+## 7a. Where a reference goes when the sentence doesn't need it (D-1018)
+
+Under §7's test, a body reference has one of four fates, decided one
+reference at a time and recorded in the pass's triage file
+(`finishing/xref-fates_<date>.tsv`):
+
+1. **Keep.** The sentence names a place the reader must go to use the book:
+   an appendix's rules, a table, a test in Appendix F, a figure. Once per
+   section, at the first place the reader needs it; a second pointer to the
+   same appendix in the same section is cut. Also kept: a definition the
+   sentence can't restate in a clause, at its first use in a Part; and the
+   maps the book draws on purpose, chapter 4's list of the five policies, the
+   Part openings, the glossary's trailing pointers, the figures and tables
+   that carry section numbers by design.
+2. **Prose.** The reference is a noun phrase whose content is a term ("the
+   crumple zone of chapter 7"). Write the term and drop the number ("the
+   crumple zone"). "The next chapter", "a later chapter", "Part IV" and "the
+   book" are the allowed forms where a direction is still wanted. The glossary
+   is where a reader who has forgotten a term goes (D-652), not a number in
+   the sentence. A sentence that would be a bare assertion without its
+   reference restates the result in a clause.
+3. **Note.** The reference carries a clause worth keeping, or the host
+   paragraph already ends in a note. The clause, or a sentence naming what
+   the target holds, goes to the end of that note. No new note is opened for
+   a bare number.
+4. **Cut.** The sentence already says the thing and the number only locates
+   it: bare parenthetical locators, back-pointers within the same chapter,
+   repeated appendix pointers.
+
+**What this amends.** D-901's form for a `\S\ref` used as a noun, say what it
+is with the number in parentheses. The naming stays; the number goes by fate
+2, 3 or 4. The lost-referent risk D-1000 recorded is answered by the naming,
+so every fate-2 and fate-4 sentence is read in the render as a reader meets
+it, and where the term's name alone won't carry the sentence, the fate is 1.
+
+**The count is a report, not a gate.** `render_markdown.py --check
+--chapters` prints the body references of each chapter beside its word
+counts, so the number can't regrow unnoticed as it did between D-658 (34)
+and D-1018 (302). It is not wired into `check_all.sh`.
+
 ## 8. Mechanics
 
 - **Quotation marks are the characters themselves, `“` and `”`** (D-082, Q-025).
