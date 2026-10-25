@@ -1,0 +1,9 @@
+# D-1024, 2026-10-25: §19.1 "The question" dissolved; its restating first sentence cut and its paragraph on saints moved to open
+# "Boundary, damage, and vulnerability"; §19.2-19.6 become §19.1-19.5. Labels follow the numbers.
+old	new	note
+19.1		cut: first sentence cut, the rest moved to the head of the old 19.2
+19.2	19.1	gains the old 19.1's paragraph on saints
+19.3	19.2	
+19.4	19.3	
+19.5	19.4	
+19.6	19.5	

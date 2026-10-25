@@ -86,12 +86,11 @@ Chapter 18: Four Places to Hold a Floor
 18.3. The positions and the terms, run on Maven
 18.4. When the refusal is wrong
 Chapter 19: Why Form a Machine to Refuse
-19.1. The question
-19.2. Boundary, damage, and vulnerability
-19.3. The route through one's own case
-19.4. Why caregiving
-19.5. Respect first, caregiving for attention
-19.6. Why a conscience might resist capture
+19.1. Boundary, damage, and vulnerability
+19.2. The route through one's own case
+19.3. Why caregiving
+19.4. Respect first, caregiving for attention
+19.5. Why a conscience might resist capture
 Chapter 20: How Caregiving Fails, and What Corrects It
 20.1. What caregiving escapes
 20.2. It defends what it tends
