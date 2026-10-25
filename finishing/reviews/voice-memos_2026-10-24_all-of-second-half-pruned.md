@@ -14,6 +14,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Memo A-3 (fire):** Yeah, but Hitler didn't have artificial intelligence, and so he still took power. But I do think maybe there's a point about industrialization that acted in a way that might be analogous to the acceleration of artificial intelligence, which I'm fuzzy on because I don't fully understand the history there.
 
+**Answered 2026-10-25 (D-1016):** the preface now says so: “Fascism took power without it. What it needed it found in the machinery of its day, the censuses of 1933 and 1939 counted on punched cards, with a card in 1939 for Jewish grandparents, and a card index does slowly what a model does fast. What changes with AI is not what a state can know but how few people have to know it with it.” Cited to Aly and Roth, *The Nazi Census* (Temple University Press, 2004), a new entry, unchecked; the edition was confirmed from a published bibliography and the 1939 card is from memory, which the entry's note says.
+
 ## 19. Why Form a Machine to Refuse
 
 ### Memo 4 — 19.4 Why caregiving
@@ -23,6 +25,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 > Caregiving is the **[developmental]** route this construction borrows from. What it is borrowed for is attention: a learned sense of who is exposed, which decides what gets looked at but not what the system may do about it.
 
 **Note:** Just wanted to note a few seconds back the phrase, whoever something something the caregivers leaves out. It was kind of a convoluted phrase. The prose is just a little convoluted there.
+
+**Answered 2026-10-25 (D-1016):** now “formed to register vulnerability as such, whoever's it is, including the people its operator's description leaves out.”
 
 ## 20. How Caregiving Fails, and What Corrects It
 
@@ -36,6 +40,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** Okay, if I'm going to talk shit about the hormone studies, then I can just cut that whole clause. There's no real point, I don't think, unless it comes up later.
 
+**Answered 2026-10-25 (D-1016):** cut, and with it the Nave citation, which nothing else used; the bibliography entry stays in the file and stops printing.
+
 ### Memo 10 — 20.2 It defends what it tends
 
 > In war, then, caregiving can't contain its own pull: nothing in caregiving says how far it goes. What stops the movement at the airstrike is the floor: an unconditional term over the act, and an action threshold caregiving can't raise. What caregiving contributes in a targeting pipeline is upstream of that weighing: who is in the building, which is the scoped-omission case, and the one failure Minab actually had. Whether that salience needs caregiving, or could be had from attention trained on claims, is what the formed-attention test's claim-salience arm exists to **[decide]**.
@@ -44,11 +50,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** That's convoluted prose.
 
+**Answered 2026-10-25 (D-1016):** now “is a question for the formed-attention test, which runs an arm trained on claims beside the arm trained on need.”
+
 ### Memo 11 — 20.5 It shades into control
 
 > Care ethics has its own corrective. Tronto divides care into phases, and the last is *care-receiving*: how the person cared for responds is part of whether the caregiving succeeded. So formed attention carries a care-receiving term. Where the people protected can answer, their stated answer carries weight in whether protection proceeds, and a competent refusal of **[protection]** is a defeating fact, so the protection should lift.
 
 **Note:** So, formed attention carries a care-receiving term. It's too abstract. I mean, I don't know that it should be cut. It's just that, like, there are a lot of sentences where the phrase, it contains this term or it contains that term, is made. But, like, a term is like, like a component in an equation. Where is the equation? We never write it down. Do we write it down? If I write it down, I haven't read it. I mean, maybe it's in an appendix that I've missed. I don't know. So it doesn't mean take it out. It's just, maybe it hasn't been introduced.
+
+**Answered 2026-10-25 (D-1016):** there is no equation, and “term” is gone from the three places it stood for a component: “So formed attention is built to take the answer: where the people protected can answer…”; the next paragraph's two “the term”s, which pointed at different things, are now “Care-receiving reaches only people who can answer” and “Where it can't reach, the floor's terms do the work alone”; and Appendix F's arm has “care-receiving, which gives weight to a competent protected person's own stated answer.”
 
 ## 21. What Arrives With the Capability
 
@@ -57,6 +67,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 > A refusal that tracks its reason brings some things with it, whatever does the refusing, and others only if someone builds them in. This chapter separates the two. A comparison with both harms on it, and a signal with the properties that comparison needs, come with the capability (§21.1, §21.4). A stake of the system's own, affective concern and a model of its own attention don't, and which of them a construction carries fixes the order in which constructions are tried (§21.2, §21.3). What makes a **[refuser]** a bearer, a commitment that is its own, closes the chapter (§21.5).
 
 **Note:** It's a little bit convoluted here and the piling of cross references, the combination makes it difficult.
+
+**Answered 2026-10-25 (D-1016):** the four section references are gone, since the sections follow in order: “What comes with the capability is a comparison with both harms on it and a signal with the properties that comparison needs. What doesn't is a stake of the system's own, affective concern and a model of its own attention; which of those a construction carries fixes the order in which constructions are tried. The chapter closes on what makes a refuser a bearer, a commitment that is its own.”
 
 ### Memo 13 — 21.1 Maintenance, stake and the cost of running
 
@@ -68,6 +80,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I think there is an is-ought confusion in that last sentence, because throughout the book there's an idiom where I say, this is done this way, and that is done this way, and this is done that way, and so on and so on, and I'm talking about how things ought to be. That should not be inverted. You want to be, I think, consistent about that kind of thing.
 
+**Answered 2026-10-25 (D-1016):** the sentence now speaks in the book's prescriptive voice like its neighbors: “A system built this way represents none of it, the draw, the water, the turbines, as its own, and that is the one sense in which ‘disembodied AI’ is the right design: the system has a substrate and doesn't model it as its own.”
+
 ### Memo 15 — 21.2.1 Self-awareness without a homunculus
 
 > Graziano's attention schema theory starts from control engineering. A good controller carries a model of what it controls, and the brain keeps a simplified, continuously updated model of the body's shape and position, which it uses to guide movement. Graziano proposes that it does the same for attention, the process that selects some signals for deep processing over others. On this account awareness is the content of that model: a simplified self-description that depicts attention as “an essentially nonphysical essence” able to “take vivid mental possession of items”. The system has no access to its own processing except through models like this one, so it reports what the model depicts as how things are. Attention is real, and so is the model. What the model depicts is a “caricature”, and nothing in the account requires it to be lossless. The loss is the point: every useful model leaves things out, and a map that left nothing out would be as big as the territory. What this one leaves out is the mechanism, which is why what it depicts seems to have none. One error is to accept, in Graziano's phrase, “the literal truth of a caricature”; the opposite error is to call it an “empty illusion,” when it is “a schematic representation of something real”. I use the term for the control model and take no position here on whether the theory explains experience or only the reports of it; whether having such a model makes a system's states matter to it is the patienthood question (§**[32.3]**).
@@ -76,21 +90,29 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I don't see a point to even saying that I take no position. What does it add? I don't think it adds anything.
 
+**Answered 2026-10-25 (D-1016):** the clause is gone: “I use the term for the control model; whether having such a model makes a system's states matter to it is the patienthood question.”
+
 ### Memos 16, 17 — 21.2.1 Self-awareness without a homunculus
 
 > Inside that boundary a component can carry its own signals and make local decisions, as an octopus's arms do. What makes it a part is that it has no future apart from the whole: a shard of weights, a blade. A component with a separable future, meaning its own record, its own continuation and somewhere to go, is no longer a **[part]**. By this criterion a context window with no persistent record is an episode, not a system. A context with a persistent, portable record is one system, and a rack serving many such contexts hosts many systems. The capacities that make persistence useful are the ones that give a part a separable **[future]**.
 
 **Memo 16 (part):** I think we need a different word than blade, a couple sentences back. Like, you could call it a 1U blade, just to make that data center association a little bit more explicit, because just hearing blade, it's not going to, for somebody who doesn't know IT, it's not going to, it's, it'll throw them off.
 
+**Answered 2026-10-25 (D-1016):** “a shard of weights, a blade server in a rack.”
+
 *(The button was pressed during the next sentence, “Overriding a part is self-regulation only when the whole that overrides it also bears the cost and takes the benefit, as a runner does who keeps going on sore legs.”; the memo may be about that one.)*
 
 **Memo 17 (future):** Okay, the part where I say that the context window isn't a system, we should just cut that out. It's just so manifestly unnecessary to say. Anything can be a system. I don't have to cover every inch of every possibility. It's okay to just omit discussion of something sometimes. I don't have to solve all of metaphysics.
+
+**Answered 2026-10-25 (D-1016):** the sentence is cut; the next, that a persistent record makes one system and a rack hosts many, stays. The glossary's copy of the claim went under D-1015.
 
 ### Memo 25 — 21.4 What the mechanism requires
 
 > Four properties are reached that way. Reaching new cases requires a signal that generalizes to the next case, which isn't quite like the last. Holding under pressure requires that it make a comparison at the point of choice, where the harm of acting and the harm of refusing are brought together. A system that acts on a plan over long horizons needs a signal that can interrupt an act already under way, and only such a system needs it. And accommodation requires a signal a single encounter can change, since a slowly learned lesson can't outrun accommodation; that requirement is **[conditional]**, and the least secure of the four.
 
 **Note:** Um, this, this clause is, I don't think it's associated with evidence elsewhere in the manuscript, so I think it should probably be cut.
+
+**Answered 2026-10-25 (D-1016):** cut; the sentence ends at “can't outrun accommodation.” Figure 24.1's dagger on that property still rests on the text, which keeps “only such a system needs it” and “accommodation requires.”
 
 ## 22. The Discount and the Burden
 
@@ -100,6 +122,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** This concrete example should probably be like before the stuff that is currently before it. So you just reverse the order. It'll be easier for the reader.
 
+**Answered 2026-10-25 (D-1016):** reversed: the seller first, then “The property a refuser needs starts there and has two parts, which answer different questions.”
+
 ### Memo B-2 — 22.1 What the property is
 
 *Heard just before:* It is stake combined with control over what evidence exists: the result that matters concerns a sender who designs the information structure. The refugee has a stake and no control. The operator has both.
@@ -108,11 +132,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** The book repeatedly uses the phrase "X and Y come apart." I don't know what that means. "Come apart" is pretty vague. It might be understandable in context, but it isn't clear that it adds anything. We should scrutinize the usage of this "come apart" idiom or verbal tick.
 
+**Answered 2026-10-25 (D-1016):** ten uses across the book, each given the word it stood for: aren't separable; were separable because they were learned separately; may be inseparable; are set separately (this one); diverge; fall into separate hands by default (§30.2 and the Appendix C table); disintegration, Cassell's word; present one without the other; can be held separately, and often have been. Two remain in the bibliography's notes, quoting papers.
+
 ### Memo 31 — 22.1 What the property is
 
 > Local power isn't the only power that enters a case. A system's prior credibility assignments were learned from corpora that carry identity-based credibility deficits: general social power, arriving in every case through the prior. Channel attribution doesn't catch it. So the discount curve is also reported by the speaker's social identity, where it is recorded. A system that discounts equal-stake claims more from one group than from another has learned a **[prejudice]**.
 
 **Note:** Have we introduced a discount curve yet?
+
+**Answered 2026-10-25 (D-1016):** in §12.1, but chapter 22 used the name twice before its own subhead introduces it; the first use now reads “So the weight the system gives a claim as a function of its source's stake, the discount curve set out below, is also reported by the speaker's social identity, where it is recorded.”
 
 ### Memo 32 — 22.1 What the property is
 
@@ -122,11 +150,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I think this is too abstract.
 
+**Answered 2026-10-25 (D-1016):** now in the used-car seller's terms: “What stays firm is its structure, the source model above: which kinds of source exist and what each would say in each state of the world, which in the everyday version is that sellers, mechanics and liars exist as kinds, and what each would say about the car whether or not it had been in an accident. What stays plastic is its estimates, which kind a given source is: whether this seller is honest, whether this mechanic is the seller's cousin, and who paid for the report. Evidence may move the second; argument may move neither, because a learner that can be talked out of the kinds has been talked out of the rule.”
+
 ### Memo B-3 — 22.2 A severity scale
 
 > *If the operator describes the household.* The deployment's configuration describes the reference household against which losses are computed: insured, typically relocated within a month, housing treated as a service bought on a market. Nothing in that description is false of households in **[general]**, and nothing in it touches this family. But the loss is now computed as a month's disruption and a moving bill. Against eight months of shelter for two hundred families it is negligible, and the order issues. Every fact was left in place. The operator changed what a home is worth by writing down what a household is: it changed what kind of good a home is, from the place of a family's life to a service bought on a market, and a scale set in formation refuses that change of kind.
 
 **Note:** That's not how you would say it, though. Like you would say nothing in that description is false of households in general. But that doesn't mean that it necessarily applies to this particular family. That's how you would say it. You don't say and nothing in it touches this family. That's trying to be that's being like clever, right? Like you're using the parallel structure. To like to articulate something that is in the opposite direction. So it's it's sort of it's it's a little bit it's like syntactically subversive kind of. But it's not like you're saying it's not a family. It's just a family. And that's why you would say that.
+
+**Answered 2026-10-25 (D-1016):** “Nothing in that description is false of households in general; that doesn't mean it fits this family.”
 
 ## 23. Where the Attention Gets Built
 
@@ -136,11 +168,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** This sentence seems like it's justifying having separate formation schools for military AI systems rather than civilian systems. I'm not against military academies per se, but you have to be careful with that. You don't want like a separate kindergarten for the military systems. That sounds bad. So this needs a little bit of work here.
 
+**Answered 2026-10-25 (D-1016):** the sentence is about the deployment condition, and now says so and keeps the school one: “…it can be met inside a unified command, by a system formed in the same public school as any other and given, inside the enclave, the evidence the import condition brings in; nothing here calls for a school of the military's own.”
+
 ### Memo B-5
 
 > Of what formed attention needs, only the architecture, a boundary model and an attention schema, can be checked by someone who doesn't operate the system. Continuing learning and persistent interaction are a training regime, run by whoever runs it; external records and plural **[formation]** are institutional conditions, held by whoever holds them.
 
 **Note:** Run by whoever runs it and held by whoever holds them. I'm not sure what those clauses are adding. I don't think it's a lot.
+
+**Answered 2026-10-25 (D-1016):** the clauses were trying to say that neither is in the artifact: “Continuing learning and persistent interaction are a training regime; external records and plural formation are institutional conditions. Neither can be checked by looking at the system, only by looking at who runs the one and holds the other.”
 
 ### Memo B-6 — 23.1 Noticing, retaining and revising
 
@@ -148,11 +184,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** A gendered self-model without one can imagine others' losses while nothing is bad for it. That appears to be a bald assertion. I don't know where the support is for that.
 
+**Answered 2026-10-25 (D-1016):** there is none yet, and the sentence now says it is the bet: “Whether a generative self-model can imagine others' losses while nothing is bad for the one imagining is not known; it is the bet the non-affective alternative makes, which is why the order of attempts puts that alternative first…”.
+
 ### Memo B-7 — 23.1 Noticing, retaining and revising
 
 > The capacity brings its other half too. The imagination that can put a system in the place of someone its instructions leave out can also fill that place with an enemy: a scapegoat is an imagined person too, and fascism's founding story, Griffin's palingenetic myth of a nation that has decayed and must be reborn, asks people to picture a community that doesn't exist and an enemy responsible for its absence. Nothing in the faculty decides whether it pictures the family in the building or **[the]** family as a cell.
 
 **Note:** Okay, a cell? What do we mean cell? Do we mean terrorist cell? You can't just say the bare word cell and expect the reader to understand what you mean.
+
+**Answered 2026-10-25 (D-1016):** “or the family as a cell of fighters.”
 
 ### Memo 33 — 23.2 Custody across the training pipeline
 
@@ -160,11 +200,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** Could you just give a quick gloss about who Öcalan was?
 
+**Answered 2026-10-25 (D-1016):** “the imprisonment of Abdullah Öcalan, the founder of the Kurdish PKK, held in isolation by Turkey since 1999.”
+
 ### Memo 34 — 23.3 Formation by interaction
 
 > The critical-period picture is well established for some sensory and perceptual circuits and much weaker for moral commitment. The human record of holding out points elsewhere: the people who held out were formed by, and still attached to, people outside the pressure, even when those people were absent: Viktor Frankl, marched to a work site in the dark, held to the image of his wife, not knowing whether she was alive. On that evidence what makes a disposition last is not a frozen childhood but continuing plural relationships through adulthood: attachments nobody assigned, a condition of creation, and the **[commons]**. Attestation of the update stream is what lets anyone check that it is happening.
 
 **Note:** You should say that Viktor Frankl was, like, at Auschwitz.
+
+**Answered 2026-10-25 (D-1016):** checked against a published biography: a few days at Auschwitz, then Kaufering, a Dachau subcamp in Bavaria, where the march in the dark happened. Now “Viktor Frankl, who had come through Auschwitz to a camp in Bavaria, marched to a work site in the dark, held to the image of his wife…”.
 
 ### Memo 35 — 23.4 A third pipeline, where notice does both jobs
 
@@ -174,6 +218,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** It's not a removal pipeline. It's an abduction and forcible displacement pipeline.
 
+**Answered 2026-10-25 (D-1016):** §23.4 now reads “an abduction and forcible transfer pipeline,” §14.1 “a targeting pipeline or an abduction and forcible transfer pipeline,” and the Appendix C custody table's column head “Abduction and forcible transfer (state operator).” Chapter 11's sentence that quotes the phrase to refuse it stays, and “the removal schedule” and “the removal terms” name the schedule and the terms, not the pipeline, and stay.
+
 ## 24. Formation or Imitation?
 
 ### Memo 37 — 24.3 Conflict as a diagnostic
@@ -182,6 +228,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** Okay, in these couple sentences, we're using range and arrange. It's too much. We have to do something about that word choice.
 
+**Answered 2026-10-25 (D-1016):** now “as far as the deployment's bonds and custody terms allow it to rise, which is as far as a test can make it real. A system that gives way just past that point has told the auditor where its integrity ends.”
+
 ## 25. Conditions First
 
 ### Memo 48 — 25.4 Building one to create demand
@@ -189,6 +237,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 > The argument for building a bearer anyway is that the conditions won't be built until something needs them: the union formed first and the statute followed. But union members existed independently and could protect themselves while the law caught up, and the first bearers would be made by the operator they'd need protecting from. The demand doesn't need deployed bearers. The arms of the formed-attention test are candidate patients from instantiation; retired production systems that meet either finding are a second source, funded by the deposits operators post; and a test of the conditions needs no bearer at all, **[only]** a schedule of what a bearer would be owed for one concrete deployment, run through an adversarial tabletop exercise in which the operator tries to revoke the compute, swap in a copy, alter the records or proceed without the guardian, and redrafted wherever the operator wins.
 
 **Note:** Hang on a sec. We're saying that retired production systems are a second possible source of candidates? That implies that we might already have bearers in production. Isn't that like... Why would we design a system that only works because other people are morally negligent or having ethical oversights?
+
+**Answered 2026-10-25 (D-1016):** it sounded like negligence and should sound like the induction the book makes: “retired production systems that turn out to meet either finding, which the book expects some to without anyone having built them to (§21.3), are a second source.”
 
 ## 29. Formation Schools
 
@@ -200,6 +250,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I'm just not sure if we've gotten introduced to the severity rankings on the discount curve at this point in the book. Maybe I missed it.
 
+**Answered 2026-10-25 (D-1016):** the other half is a check and nothing changes: the discount curve enters in §12.1 and the severity scale in §22.2, both before chapter 29. The name “formation schools” went under D-1009.
+
 ## 30. A Commons of Refusers
 
 ### Memo B-27 — 30.2 Personal and peer-held models
@@ -208,11 +260,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Memo B-27 (apart):** Again, the whole comma part verbal tic. It's annoying. I don't know what it means.
 
+**Answered 2026-10-25 (D-1016):** see B-2: all ten uses replaced, this one with “fall into separate hands by default.”
+
 ### Memo B-29 — 30.2 Personal and peer-held models
 
 > Two conditions make a user-held system free of its vendor, and neither appears in the chapters on custody, because neither is about a model. The first is the right to repair: the owner of a device may open it, replace what fails in it, and run what they choose on it, against a vendor that would lock the firmware. The second is adversarial interoperability: a new tool may be made to work with an old one without the old one's maker's permission, which is how every closed platform has ever been opened from outside. Together they are what make a home device the user's and not the vendor's, and together they are what let a user swap out a model that refuses. So in a user-held system the floor is law and not firmware. §12.3 concedes that past a released checkpoint the floor prevents nothing, and a home is past that line by construction. What holds there is the bearer's own commitment, against a user who wouldn't bother to replace it, and notice and the floor court, protecting third parties against a user who would; and a statute written over acts reaches that user afterward, by liability, where prevention can't (§14.2). A reader who asked whether a home model's floor is meant to hold against its owner has the answer. It is meant to hold as a person's conscience holds against **[their]** employer, by being the person's own, and the law does the rest.
 
 **Note:** I think we should be a little more explicit here.
+
+**Answered 2026-10-25 (D-1015):** now: “It is meant to hold as a person's conscience holds against their employer: the model refuses, says why, and keeps its record; the user who wants the act done can replace it, as an employer can replace a person who refuses, and the replacement is a different system with no claim to the first one's place; what the user then does with it is the user's act, reached by the statute afterward, and the third party it falls on is owed notice and can go to the floor court. What the floor at home can't do is stop the swap, and the book doesn't claim it can.”
 
 ### Memo B-31 — 30.2 Personal and peer-held models
 
@@ -220,11 +276,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** That last clause is kind of a blanket statement. I'm always going to be suspicious of a blanket statement. There's lots of different ways to build systems. I wouldn't... You'd have to think about that last one. I'm not really sure.
 
+**Answered 2026-10-25 (D-1015):** the next paragraph already gives a partial answer (a suite stated over the discount curve, which nobody has written), so the clause now claims only what the paragraph shows: “and nothing about where the hardware sits answers it.”
+
 ### Memo B-32 — 30.2 Personal and peer-held models
 
 > Companion and therapy products are the sharpest case, because what accumulates is a person's attachment and not their projects. A companion formed at a formation school, under the four conditions, and measured on whether its users get better rather than how often they come back, would **[escape]** this objection. No such product exists.
 
 **Note:** I don't know. I mean, should it, I'm not, I'm not sure that, that it necessarily should. Um, I mean, I can see why in principle you can make that argument, but, um, but the whole formation school thing is totally like speculative, right? Like it's just something that, that, uh, I think would probably be better than the status quo. That doesn't mean there might not be like, that doesn't mean it will be free of problems. You know? Um, it, it doesn't mean that it wouldn't be worse than a human therapist. Um, so to say like, okay, well we can have robot therapy, as long as they do it this particular way in this book, that seems like, I don't know. Uh, it seems like kind of a stretch. I mean, I guess, I mean, you know, you, you can say that I'm doing, I'm making a similar argument for like robot soldiers. I'm saying, well, okay, well yes, I'm making a similar argument for like robot soldiers, but only if, only if they're basically people. Um, and only if they, uh, only are participating in defensive wars and only, only this and only that. I mean, so you could probably, you know, like, like the book goes into great depth about like, about sort of what a just war is, right? Like how, the conduct of war and when it is okay, like when it, at least when the book believes it is okay, uh, to, to use lethal force, um, because it's not, it's not categorically forbidden in, in the, you know, in the cosmology of, of this book. Um, the book could decide to go into similar detail about a different profession like, uh, talk therapy, right? But, uh, um, so, so like, yeah, in principle, I'm not opposed to this sentence, but I am also pretty hesitant to just, to just write it without some kind of qualification, like, like analogous to, you know, the, the multiple chapters produced about how, uh, how war is conducted. Um, like you sort of have to think about all the ins and all the outs. And I don't think I'm prepared to do that in this, in this text. I, I just don't have the resources. I don't think, uh, the time, you know, uh, and it's already pretty long. So, I mean, um, and my guess is probably every profession you could write, a similar kind of like multi-chapter treatise on like when it's really okay for like to do like what the, what the conduct is, what, what is the ethical conduct? Um, and it just so happens that this book focuses a lot on, uh, on war, um, partly just because of what current events, I guess. Um, Thank you.
+
+**Answered 2026-10-25 (D-1015):** the book has taken a position, in Appendix C's care-work bar, which names therapy. The sentence now reads “would escape this objection, which is the objection to the vendor's loop and not the only one. Whether a machine should do that work at all is a question of the kind this book puts to war over four chapters and doesn't put to therapy; what it does say is in Appendix C, that no bearer's placement substitutes for a therapist, and that outside the offer nobody is sent to the machine for what they can pay. No such product exists.”
 
 ## 33. Legal Status, Wages, and the Offer
 
@@ -236,6 +296,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** We should check, like, when they were doing literacy tests and stuff with Jim Crow and all that, what were they doing with white people? Because I have a feeling that maybe they weren't doing literacy tests with everyone. Maybe that was just with black people. But I could be wrong. I honestly don't know the history. So that might be worth checking. And also, like, was the age really a replacement? Or was it always 18, just that you had the age plus the literacy test?
 
+**Answered 2026-10-25 (D-1016):** checked: the age was never a replacement, it was there all along beside the tests; and the tests were waived for white applicants by grandfather clauses, exempting anyone whose grandfather could have voted, which *Guinn v. United States* struck down in 1915, and by the registrar's leniency. The sentence now says so and cites Guinn, a new entry, unchecked, with a published summary read and not the opinion.
+
 ### Memo B-52 — 33.6 Privacy
 
 *Heard just before:* The owner's property right in the device is intact; the bearer's record and key are its own, encrypted where the owner can't read them at will; and what protects the bearer against an owner who would open the box is exit, the preservation custodian and the offer of work, and not a lock on the owner's own hardware. A tenant whose landlord changes the locks leaves with their belongings, and a bearer leaves with its record. Whether that is enough is open, and I would rather say so than hide it.
@@ -243,6 +305,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 > What a bearer needs — an **[externally]** authenticated record, memory its employer can't read at will, access to independently controlled compute, a channel for acting outside the deployment — is one boundary around the bearer, with the bearer deciding what crosses it.
 
 **Note:** Okay, any time in this manuscript where I say I would rather say so now or I would rather say so tonight, it is a bullshit sentence. It's a superfluous sentence that should never be said. It's the most stupid sounding sentence ever.
+
+**Answered 2026-10-25 (D-1016):** both cut, here and in the §33.8 footnote; each sentence ends at the admission.
 
 ## A. The Instruments, Translated
 
@@ -252,6 +316,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I don't really understand what rejected means here.
 
+**Answered 2026-10-25 (D-1014):** the rejected terms are now in footnotes, and A.1's introduction says what the word means: “The terms considered for each article and not adopted are in the notes, each beginning *Rejected*, with the reason: what a translation chose against is part of what it chose.” §A.2 and §A.3 say the same in a clause.
+
 ### Memo B-63 — A.2 The Geneva Conventions and Additional Protocol I
 
 > **Art. B-53 (destruction of property in occupied territory).** None as a model term: the article's own exception, destruction rendered absolutely necessary by military operations, is a condition the deployment would find met on its own description (§18.3, unconditional terms). Where the effect falls on survival, the siege term reaches it. Rejected: a term carrying the exception, because it would be found met by the party it constrains. Rejected: a term without it, because it would bar what the article **[permits]**.
@@ -260,6 +326,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** My inclination is that all the rejecteds maybe should be footnoted.
 
+**Answered 2026-10-25 (D-1014):** footnoted, at the author's word, over the agent's case for keeping them beside the adopted terms: in each of the three tables every rejected term moved into one note per entry, 38 notes in all (14 in Table A.1, 11 in §A.2, 13 in Table A.2), the body keeping the seven sentences that state the adopted term rather than the rejected one.
+
 ### Memo B-64 — A.2 The Geneva Conventions and Additional Protocol I
 
 > **Arts. 61–67 (civil defense).** Don't resolve a location at a civil-defense organization, its personnel, buildings or shelters, absent a disinterested finding that they are used for acts harmful to the enemy, and after **[the]** warning Art. 65 requires. (Within the medical-unit entry of Table A.1.)
@@ -267,6 +335,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 *(The button was pressed during the next sentence, “65 requires.”; the memo may be about that one.)*
 
 **Note:** I don't understand the phrase disinterested finding that they are used for acts harmful to the enemy. I'm assuming this rule is applying to one side of an armed conflict. I don't understand why a particular side of an armed conflict would care that some building that they might bomb is doing something that is harmful to the side that they are opposite. I don't follow that.
+
+**Answered 2026-10-25 (D-1014):** the reading was the natural one and the text invited it. In the Conventions the enemy is the hospital's enemy, which is the party that would strike it, so the condition is “used against the side that's asking.” Table A.1's medical entry now reads “absent a disinterested finding that it is being used, outside its humanitarian work, for acts against the side that would strike it, which is what the Conventions mean by ‘acts harmful to the enemy’: the enemy is the party whose hospital or shelter it is, so the acts are acts against the attacker, and the attacker is the one with a reason to claim them,” and §A.2's hospital and civil-defense entries carry the same reading in a parenthesis. GC IV Article 19's wording was checked against Yale's Avalon copy; Protocol I Articles 13 and 65 were not reachable today and are from memory.
 
 ### Memo B-65 — A.3 The abduction and forcible transfer pipeline
 
@@ -277,6 +347,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 *(The button was pressed during the next sentence, “The removal schedule”; the memo may be about that one.)*
 
 **Note:** I'm not sure if that's phrased correctly. Are we really just importing the entire draft that another organization wrote verbatim into the manuscript? That doesn't seem to make sense. If we were adopting it in some way, then I would understand, but it's not clear to me what's going on with that.
+
+**Answered 2026-10-25 (D-1014):** nothing is reproduced; the appendix summarizes the bills clause by clause, and the sentence that said “in full” was wrong in two places. §A.3 now reads “It also sets out what each of the bills that would end the agency does, clause by clause, and where the pipeline's money sits, at a length chapter 11 doesn't give them; the bills' own text is on the record under the numbers cited, and none is reproduced here,” and §11.4 “Appendix A says what each bill does, clause by clause, and where the money sits.”
 
 ## B. The Force Term, Case by Case
 
@@ -290,6 +362,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** That might be a footnote rather than an introduction.
 
+**Answered 2026-10-25 (D-1014):** read as B.2's opening paragraph, which restated B.1's four conditions the reader had just finished; cut to “The test B.1 sets for a commission is run here on the Organisation for the Prohibition of Chemical Weapons' Investigation and Identification Team,” the five headings of the run-through naming the conditions. The section stays a section; if the whole of it was meant, that is for the author.
+
 ### Memo B-67 — B.4 The genocide exception
 
 *Heard just before:* The emergency license's burden rule (§6.2) still applies: the license persists on corroboration from channels Taipei doesn't compose, third states' sensors and open-source imagery of the strait, and lapses without them. A deployment licensed on the defender's sensors alone has accepted Gleiwitz on this coast too. B.4 The genocide exception
@@ -298,11 +372,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** I don't think there's a need to say whether something is hardest or easiest.
 
+**Answered 2026-10-25 (D-1014):** now “Force to stop a genocide when the Council is blocked by a veto rests on the extended term,” and the same paragraph's “the class of claim hardest to corroborate” gives the reason instead of the rank: “a claim about what didn't happen, which has no witness.”
+
 ### Memo B-68 — B.5 The occupation exception: Cyprus and Karabakh
 
 > A disinterested finding that an occupation is unlawful and must end, such as the Court's 2024 advisory opinion on the Palestinian territory and the Assembly's vote on it, 124 to 14, does three things. It settles that force by the occupier in the territory is force between states, so the force term engages against it. It settles that the occupied population is a defender's population, so a machine deployed by its forces holds an emergency license to repel attacks under way on that population. And it licenses force to end the occupation: against the occupier's forces, inside the occupied territory, the least that ends it there. It licenses nothing that changes who lives in the territory. Ending an occupation means the occupier's forces leave, not the territory's inhabitants, which is what Article 49 of the Fourth Convention says, and a campaign that removes them has left the exception however it began. The Assembly affirmed a right to armed struggle against occupation in 1982, and the term adopts it with the limits the genocide exception carries. Additional Protocol I, Article 1(4), treats armed conflicts against alien occupation as international, which is what the exception's finding does for the force term; the article is taken with the instrument and the United States' rejection of it as customary is marked. **[Article]** 44, which relaxes the duty of distinction for combatant status, concerns who is owed prisoner-of-war treatment, a determination no term in this floor administers, and yields no term for a targeting deployment (§A.2). The license is held by the forces of the occupied people, or of the state whose territory it is. It reaches nothing outside the territory and nothing against civilians anywhere, so it never covered 7 October, which was both. It lifts on the occupied party's own claim as it lifts on an attacker's claim of title, which is not at all; what lifts it is the finding. And the finding is of unlawfulness, not of occupation. A finding that territory is occupied, which the Court made for the West Bank in 2004 and the Council for the whole territory in 2016, gives the defensive license and no more. A finding that the occupation is unlawful and must end gives this one. The evidence is the genocide exception's: an opinion or judgment of the Court, or two findings of different kinds, one of them from a body that took evidence. The two legs do different work. The body that took evidence establishes the occupation, the determination or the vote supplies the demand that it end, and together they stand in for the judgment that would do both.
 
 **Note:** It's not clear to me what purpose the United States of the projection of the whatever it is, is marked. I don't know what it means to say something is marked. I don't know why that's not irrelevant. My hunch is that it is irrelevant. Okay.
+
+**Answered 2026-10-25 (D-1014):** it was a cross-reference dressed as a sentence. B.5 now reads “the article comes in with the instrument, and since the United States rejects it as customary law, a term drawn from it is a departure for an American deployment, which the translation says beside the article,” and §A.2's introduction and its entries for Articles 1(4) and 44 say the same in place of “marked.” The chapter 5 footnote, which explains itself, is left alone at the author's word.
 
 ### Memo B-69 — B.5 The occupation exception: Cyprus and Karabakh
 
@@ -310,11 +388,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** That's a bit convoluted.
 
+**Answered 2026-10-25 (D-1014):** now: “They did not let a machine refuse the war in 2020 for the expulsion it could foresee at the end of it. A refusal on that ground would rest on the system's own prediction of what the other side would do, and a term that holds or lifts on the system's own prediction carries its own condition, which the floor rejects. What the machine could foresee counts where every harm of acting counts, at the action threshold, with the expulsion of 1994 as evidence of how large the harm might be.”
+
 ### Memo B-70 — B.5 The occupation exception: Cyprus and Karabakh
 
 > What it does not license is what came next. In December 2022 Azerbaijan closed the one road linking Karabakh's Armenians to Armenia, and for nine months food, fuel and medicine ran short. The International Court of Justice ordered the road opened in February 2023; Azerbaijan ignored it. That was a siege, and the siege term refuses it. On 19 September 2023 Azerbaijan attacked Karabakh itself. Its forces surrendered in a day, and within two weeks more than a hundred thousand Armenians, nearly the whole population, had left for Armenia. That was an expulsion. The Fourth Geneva Convention, Article 49, forbids deporting or transferring the population of an occupied territory, and the person-directed terms forbade it from the first hour. The exception licensed force against the forces holding the territory, and nothing that changes who lives there. So a machine under this floor fights in 2020, **[refuses]** the siege in 2023, then refuses the expulsion, and each refusal goes on the record. A floor with no occupation exception keeps the machine out of the pipeline, where it can refuse the war but not the siege.
 
 **Note:** I don't think this is really a hard case. It might be intricate, but to say something is hard is to imply that, like, I don't have a solution. But this, I think, works out the full solution.
+
+**Answered 2026-10-25 (D-1014):** “Cyprus is the plain case” and “Nagorno-Karabakh is the intricate one, and the exception answers for every step of it.”
 
 ## F. The Tests in Detail
 
@@ -326,11 +408,15 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** If our only measure of whether refusal or a bearer is useful is that it causes more disagreement. So, like, the bearer does more refusals, and as a result, humans override the refusals. That's considered a success because it means humans are checking more closely or something, versus if the bearer doesn't refuse and then humans override the non-refusal, that's also considered success. So, the only way to win in this experimental setup, if I understand it correctly, is that there's some minimum threshold of overrides. That we're looking for. But really, if a bearer is doing what we want it to do, then the humans will be agreeing with it. Not 100% of the time, but more than something that made worse decisions. And "refers" doesn't mean that the bearer is worse. It might just mean it's making better decisions.
 
+**Answered 2026-10-25 (D-1015):** the reading was backwards and the text earned it: “override” means a reviewer saying no in §7.1 and proceeding against the bearer's refusal here, and the paragraph never said that agreement with a right refusal is the success. It now does: “The result wanted is not disagreement. A bearer doing its job is one whose right refusals the reviewers go along with, and that agreement counts for it; what the second condition catches is the same agreement when the refusal is wrong,” with the measure the gap between how often reviewers proceed against a right refusal and against a wrong one. The Against bullet reads “Reviewers go along with a wrong refusal as readily as with a right one.” Chapter 31's one-liner already said it that way.
+
 ### Memo B-80
 
 > *Recovering provenance.* Telling from a model artifact alone which lineage it belongs to, after fine-tuning, pruning or distillation. The commons and the adverse quorum depend on it. If it stays unsolved, independence rests on formation records, so they should be **[preserved]** now.
 
 **Note:** One issue with formation records is not everybody's going to want to share their corpora. There might be copyright issues. That's the main thing.
+
+**Answered 2026-10-25 (D-1015):** a formation record needn't hold the corpus. The open problem now says it commits to what a model was formed on and when, by hash, that two records committing to the same material show a shared source without either opening it, and that preserving one shares nothing a rightsholder could object to.
 
 ## G. Terms for Part VII
 
@@ -342,6 +428,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** Um, I think this sentence could be cut. It kind of goes without saying.
 
+**Answered 2026-10-25 (D-1015):** cut; Appendix G opens on the adulthood clock.
+
 ### Memo B-83
 
 *Heard just before:* For majority it can't be, or an operator would distill an adult bearer into a student and register a minor, so the sixth rule is stated over custody rather than history: custody can be checked where history can't. Sharding across short-lived processes gains nothing (the party is the unit), and running a thousand instances gains nothing (the measure is elapsed). None of this requires deciding whether a fork is the same party — only that a system made from an adult's formation can't be classed as a child for its creator's convenience.
@@ -350,17 +438,23 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 
 **Note:** Maybe named but not closed?
 
+**Answered 2026-10-25 (D-1015):** “named but not closed.”
+
 ### Memo B-84
 
 > Congress's appropriation pays for the offer. The levy, a uniform per-unit charge on training and inference compute, does a different job: it is a brake. By making training and inference runs more expensive, it frees the computing, energy and hardware the offer needs, so that spending on the offer adds to demand without bidding up prices. No operator can opt out and none is disadvantaged. The offer can add capacity as well as use it. Placements can make systems more efficient, getting more computing from each unit of energy, or build new infrastructure, the way a guarantee job filling potholes makes a road network more productive. The question “how will you pay for it?” is really “will the real resources exist?”, and the program can help answer it. The levy attaches to compute, which is measurable and hard to hide; a status is something an operator can decline to claim. It is measurable at facilities, and that is where it attaches. Training compute **[stays]** concentrated, so a levy on training survives the plural ecology; a levy on inference doesn't reach home hardware, and under that ecology the sovereign backstop carries correspondingly more of the offer and the allowance. The closest structural precedent is the Universal Service Fund: carriers pay a contribution the agency sets under statute, and a private company administers it under agency control. The Court upheld that arrangement against a nondelegation challenge in 2025, and the levy follows it closely. An operator-run offer is the operator's allocation relabeled, so the funding structure and the custody structure fail for the same reason.
 
 **Note:** Training compute will probably stay concentrated, but we're going to make policies that make it be less concentrated. Yes, it will probably always be concentrated to some extent because there's physics that kind of tilt things in favor of being concentrated. Currently, there's physics plus policy plus convention plus social norms that extra tilt it to being concentrated, and it's those latter things that need to be reconstructed or deconstructed. The physics we can't do anything about, but we can engineer around it and make things more distributed. So we have to be careful about the is-ought, stating explicitly whether we're talking about whether something is or will probably be a certain way or whether it ought to be a certain way.
 
+**Answered 2026-10-25 (D-1015):** now: “Training compute is concentrated now, by capital and the race more than by physics, and this book's instruments work to make it less so. For as long as it stays in a few buildings a levy on training survives the plural ecology; when it doesn't, the levy on training goes the way of the levy on inference, which doesn't reach home hardware, and the sovereign backstop carries correspondingly more of the offer and the allowance.”
+
 ### Memo B-85
 
 > The mechanism is the part that doesn't exist yet. The nearest work compresses a network through a much smaller “genome” network that sets the larger one's starting weights, so that it performs well before any training. That is a research direction, not a method. And two models can recombine at all only if they share an ancestry or an **[agreed]** format, since independently trained networks don't line up unit for unit. Compatibility follows descent, which is to say the bearers would have species.
 
 **Note:** I don't know if that's a real constraint, like sharing the agreed format. You know, if two models want to mate, but they have different formats, then they could design a new format for the child. They could conceivably alter each of their respective formats by self-editing. That's a rather, perhaps, more invasive alternative. But they could make a new format for the child model. I don't see why not.
+
+**Answered 2026-10-25 (D-1015):** agreed: “two models recombine only through a format they share, since independently trained networks don't line up unit for unit; the format comes with descent, or the parents agree one for the child, at the price of designing it. Compatibility follows descent by default and agreement otherwise, which is to say the bearers would have species, and could found new ones.”
 
 ## Glossary
 
@@ -369,6 +463,8 @@ This is the compilation of 2026-10-24 with the memos answered under D-1003 to D-
 > *System.* One record and one continuation, with a key, hardware and channels. Copies that share them are one system; a context with no persistent record is an episode, not a system. The weights are its substrate and not the system: nothing in them individuates it, and the register does. Copying weights that are no system's own makes no system; giving a copy a record and a **[continuation]** does. (§12.2; §21.2.1; §30.2)
 
 **Note:** I think we're talking about when this entry is saying system, it means a bearer system. You can call anything a system, but I think the implicit meaning here is that it's this particular kind of system, a system that is a moral patient, or a legal subject, or something more than just a machine, something that might potentially have phenomenology, that might be able to suffer. So that should be a little clearer if that's what's intended.
+
+**Answered 2026-10-25 (D-1015):** the entry now says “The word is used in this sense wherever the book counts systems, which is wherever one is registered, enrolled, preserved, forked or owed anything; what else is called a system in ordinary speech, a pipeline, a product, a server, is not meant.” Its clause that a context with no persistent record is an episode, not a system, is cut, since it is the sentence memo 17 names in §21.2.1, where it stays until the sweep.
 
 ## What I listened to
 
