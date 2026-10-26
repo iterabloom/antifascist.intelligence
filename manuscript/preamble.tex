@@ -24,17 +24,18 @@
   \setmainfont{TeX Gyre Pagella}          % a Palatino, matching the HTML path
 \fi
 \usepackage{microtype}
-% The 2in side margins (D-774) leave a measure of about 4.3in, where justified
-% 11pt text otherwise overruns the margin some 200 times; emergency stretch lets
-% TeX loosen a line instead.
+% The side margins (D-774, widened by D-1048 from 2in to 1.785in) leave a
+% measure of about 4.7in, some 66 to 74 characters of body text, where justified
+% 11pt text otherwise overruns the margin; emergency stretch lets TeX loosen a
+% line instead.
 \setlength{\emergencystretch}{3em}
-\usepackage[a4paper,vmargin=1in,hmargin=2in]{geometry}   % narrow measure, law-review style (D-774)
+\usepackage[a4paper,vmargin=1in,hmargin=1.785in]{geometry}   % narrow measure, law-review style (D-774, D-1048)
 \usepackage{fancyhdr}
 \usepackage{tcolorbox}
 \usepackage{longtable,array}   % the condensed text's 18 tables, with long cells (D-621)
-% The tables keep the 6.27in measure they were drawn for and stand an inch into
-% each side margin (D-774): at the 4.3in text measure their narrowest columns
-% fall under an inch and single words overrun them. Every table's column widths
+% The tables stand an inch into each side margin (D-774), 6.7in since D-1048
+% against the 6.27in they were drawn for: at the text measure their narrowest
+% columns fall under an inch and single words overrun them. Every table's column widths
 % are fractions of \linewidth, so widening \linewidth inside the table and
 % pulling it out by \LTleft and \LTright is the whole change.
 \usepackage{etoolbox}
@@ -62,13 +63,14 @@
 % first and et al.; up to ten in the bibliography, more as the first seven and
 % et al. biblatex-chicago is not installed here, so this is biblatex's verbose
 % style with the adjustments below.
-% Under tex4ht (the HTML proof) a short citation's link back to the bibliography
-% breaks the footnote it sits in -- "Missing } inserted" in \@footnotetext -- so
-% the HTML sets citations without links. The PDF keeps them.
-\ifdefined\HCode\PassOptionsToPackage{hyperref=false}{biblatex}\fi
+% Citations are set without links to the bibliography. The PDF prints none
+% (D-1048), so a link would have nowhere to go; and under tex4ht (the HTML
+% proof) a short citation's link back to the bibliography breaks the footnote it
+% sits in -- "Missing } inserted" in \@footnotetext.
+\PassOptionsToPackage{hyperref=false}{biblatex}
 \usepackage[backend=biber,style=verbose,citereset=chapter,sorting=nyt,
   maxcitenames=3,mincitenames=1,maxbibnames=10,minbibnames=7]{biblatex}
-% Let long URLs in the References break after digits and letters, not only at / and .:
+% Let long URLs in the notes and the HTML's References break after digits and letters, not only at / and .:
 % the OHCHR docstore links are one unbreakable string and ran off the page.
 \setcounter{biburlnumpenalty}{100}
 \setcounter{biburlucpenalty}{100}

@@ -11,5 +11,6 @@
 \input{\bookcode/sections}
 
 \backmatter
-\printbibliography[heading=bibintoc,title={\bookreferences}]
+% No reference list in print, as in the English book (D-1048).
+\ifdefined\HCode\printbibliography[heading=bibintoc,title={\bookreferences}]\fi
 \end{document}

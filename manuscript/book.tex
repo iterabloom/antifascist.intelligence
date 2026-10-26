@@ -35,5 +35,8 @@
 \input{sections}
 
 \backmatter
-\printbibliography[heading=bibintoc,title={References}]
+% The full notes make a reference list redundant, so the PDF prints none
+% (D-1048). The HTML proof keeps it: it costs no pages there, and
+% html_single_file.py checks for it as the sign that biber ran.
+\ifdefined\HCode\printbibliography[heading=bibintoc,title={References}]\fi
 \end{document}
