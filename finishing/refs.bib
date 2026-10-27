@@ -6852,3 +6852,25 @@
   urldate = {2026-10-26},
   note = {A working hypothesis, with Curt Tigges on the language-model experiments and Tarun Gogineni editing; a technical companion paper is promised. Argues that the canonical evidence for superposition was misread (the cat-and-car neuron is a V-shape detector; the car-into-dogs circuit was shared pose plus reward-hacked feature visualization; InceptionV1's last layer was an architecture failure that residual connections and LayerNorm fix), that what remains of polysemanticity is “recursive generalization”, a unit with one main job sprouting related offshoots, and that abstractions consolidate so that other computations can build on them. Cited for the reuse account of abstraction (section 19.5); for the late “say or just think” gate and the ablations that remove a withholding while leaving what the model knows (eight Santa negative-pole neurons, 6\%, against twenty labeled neurons, 76\%, in the text; twenty-five “say not” neurons releasing a held-back name, in the page's figure text); and for the claim that mechanism-level reading reaches models up to frontier size. A plain-text version is at \url{https://already-clean.goodfire.com/essay.md}; the interactive figures carry numbers the plain text describes only in brackets. Added 2026-10-26 for sections 12.3, 13.5, 19.5, 33.6 and Appendix F.}
 }
+
+@misc{cloud2024gradient,
+  author     = {Cloud, Alex and Goldman-Wetzler, Jacob and Wybitul, Ev{\v{z}}en and Miller, Joseph and Turner, Alexander Matt},
+  title      = {Gradient Routing: Masking Gradients to Localize Computation in Neural Networks},
+  year       = {2024},
+  eprint     = {2410.04332},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2410.04332},
+  urldate    = {2026-10-27},
+  note       = {Submitted 6 October 2024, revised 29 November 2024. Data-dependent masks applied to gradients during backpropagation control which parameters each training example updates, so that a capability is learned in a chosen subregion of the network; ablating the subregion then removes it, which the authors report as robust unlearning, and the localization holds when the masks cover only a small, ad hoc subset of the data. Cited for the claim that whether a disposition can be cut out alone can be chosen in training (section 20.5), and named in Appendix F's regrowth test as the method aimed at a disposition that comes out alone. Added 2026-10-27.}
+}
+
+@misc{gao2025sparse,
+  author     = {Gao, Leo and Rajaram, Achyuta and Coxon, Jacob and Govande, Soham V. and Baker, Bowen and Mossing, Dan},
+  title      = {Weight-Sparse Transformers Have Interpretable Circuits},
+  year       = {2025},
+  eprint     = {2511.13653},
+  eprinttype = {arXiv},
+  url        = {https://arxiv.org/abs/2511.13653},
+  urldate    = {2026-10-27},
+  note       = {Submitted 17 November 2025; a version is listed in Proceedings of Machine Learning Research 306 (ICML 2026). Transformers trained with most weights held at zero are pruned to the subnetwork behind each task, and the circuits recovered are small enough to read; the abstract states that sparser weights trade capability for interpretability, that larger models improve the trade-off, and that scaling past tens of millions of nonzero parameters while keeping interpretability remains difficult. Cited for legible circuits produced by training, with that limit (section 20.5). The paper says nothing about removability of a trained behavior. Added 2026-10-27.}
+}
