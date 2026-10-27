@@ -191,7 +191,7 @@ Chapter 35: Representation
 35.5. What would have to be shown first
 Chapter 36: A Child
 Chapter 37: The Officer, Again
-37.1. A note on method
+A Note on Method
 Appendix A: The Instruments, Translated
 A.1. The Maven pipeline
 A.2. The Geneva Conventions and Additional Protocol I

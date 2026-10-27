@@ -192,7 +192,7 @@ num	title	level	parent
 35.5	What would have to be shown first	2	35
 36	A Child	1	
 37	The Officer, Again	1	
-37.1	A note on method	2	37
+M	A Note on Method	1	
 A	The Instruments, Translated	1	
 A.1	The Maven pipeline	2	A
 A.2	The Geneva Conventions and Additional Protocol I	2	A

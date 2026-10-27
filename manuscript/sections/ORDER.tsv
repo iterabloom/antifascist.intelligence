@@ -201,8 +201,8 @@ manuscript/sections/ch35/35_05.tex	35.5	What would have to be shown first	1e6fb5
 manuscript/sections/ch36/36.tex	36	A Child	b760ae855989d4e4c0f16d6d498902a1c6586863deed4ad974e1c51ee7de79f8	199
 manuscript/sections/ch37/00_part_coda.tex			005e7e2bbceb9af4a2b261389890535d43c8ed7604d548ff115332482f80039a	200
 manuscript/sections/ch37/37.tex	37	The Officer, Again	a3dca1c9056b6c79fc56ecd513f20801d82d8b90de4d60a8c4bf43ac4a9f76a5	201
-manuscript/sections/ch37/37_01.tex	37.1	A note on method	d425412c0b7ac1e099bb09e887e2a953f7ec49013d5f3680e25c7fc7f9edf005	202
-manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	203
+manuscript/sections/chA/0_appendix.tex			cd4128afa16797693804616f5512a5b480c88bdf6052ba8554461ce27d459de0	202
+manuscript/sections/chA/0_method.tex	M	A Note on Method	f91ee8e5bbb1154245019d062c4174d63646aef5eddecbe26ea8f9589e1f3a8a	203
 manuscript/sections/chA/A.tex	A	The Instruments, Translated	e9880ef602c62b68a8ab2c6656f636b253c87a2d54599c9c02a5a83677c04c3a	204
 manuscript/sections/chA/A_01.tex	A.1	The Maven pipeline	34cea94db5adff52265b6cfaa66d8b6d788de7f13470901cc118b0eb2b2674b5	205
 manuscript/sections/chA/A_02.tex	A.2	The Geneva Conventions and Additional Protocol I	29776d272a8c54f39320ce8e1c2681fc7be922bb366b6219441a4f3df3bbea3e	206
