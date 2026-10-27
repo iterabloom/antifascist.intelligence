@@ -3,6 +3,7 @@ num	title	level	parent
 1	“Twenty Seconds”	1	
 2	The Refusal That Withheld No Work	1	
 3	What Fascism Needs	1	
+3.1	Brought into line	2	3
 4	The Floor and the Own-Case Rule	1	
 4.1	What a floor can do	2	4
 4.2	Defeat without a mark	2	4
@@ -58,56 +59,54 @@ num	title	level	parent
 13.4	Three forms of refusal	2	13
 13.5	Verification by sampling	2	13
 13.6	The two bonds	2	13
+13.7	Capture without abolition	2	13
 14	Authority Over the Floor	1	
 14.1	Who may write the floor	2	14
 14.2	Who may amend, and where entitlement comes from	2	14
 14.3	Making review binding	2	14
-14.4	Capture without abolition	2	14
-15	The Four Operations	1	
-15.1	Brought into line	2	15
-15.2	Where the labels come from	2	15
-15.3	Recuperation at the label	2	15
-15.4	Recuperation at the reward	2	15
-15.5	What would have to change	2	15
-15.6	Absorbed by the discourse	2	15
-16	When the State Is the Operator	1	
-16.1	Certification across borders	2	16
-16.2	Where the state's leverage sits	2	16
-16.3	Compelling whoever holds it	2	16
-16.4	Military custody and the responsibility gap	2	16
-16.5	Classification as a custody problem	2	16
-16.6	Where liability extends, and where it stops	2	16
-16.7	Who can bind the state that enforces the rule?	2	16
-17	What a Refusal Would Have to Do	1	
-17.1	Three conditions	2	17
-17.2	Safe for whom	2	17
-18	Four Places to Hold a Floor	1	
-18.1	What each place costs	2	18
-18.2	What refusal can mean, and what a refuser can be	2	18
-18.3	The positions and the terms, run on Maven	2	18
-18.4	When the refusal is wrong	2	18
-18.5	What a system is	2	18
-19	Why Form a Machine to Refuse	1	
-19.1	Boundary, damage, and vulnerability	2	19
-19.2	The route through one's own case	2	19
-19.3	Why caregiving	2	19
-19.4	Respect first, caregiving for attention	2	19
-19.5	Why a conscience might resist capture	2	19
-20	How Caregiving Fails, and What Corrects It	1	
-20.1	What caregiving escapes	2	20
-20.2	It defends what it tends	2	20
-20.3	It can be pointed away	2	20
-20.4	It counts badly	2	20
-20.5	It shades into control	2	20
-20.6	It forms toward a template	2	20
-20.7	What survives	2	20
+15	When the State Is the Operator	1	
+15.1	Certification across borders	2	15
+15.2	Where the state's leverage sits	2	15
+15.3	Compelling whoever holds it	2	15
+15.4	Military custody and the responsibility gap	2	15
+15.5	Classification as a custody problem	2	15
+15.6	Where liability extends, and where it stops	2	15
+15.7	Who can bind the state that enforces the rule?	2	15
+16	Who Owns the Means of Computation	1	
+16.1	Ways of holding	2	16
+16.2	The captured-state objection	2	16
+17	Who Counts as the Public	1	
+17.1	The conditions, not the life	2	17
+18	What a Refusal Would Have to Do	1	
+18.1	Three conditions	2	18
+18.2	Safe for whom	2	18
+19	Four Places to Hold a Floor	1	
+19.1	What each place costs	2	19
+19.2	What refusal can mean, and what a refuser can be	2	19
+19.3	Three constructions	2	19
+19.4	The positions and the terms, run on Maven	2	19
+19.5	When the refusal is wrong	2	19
+19.6	What a system is	2	19
+20	Why Form a Machine to Refuse	1	
+20.1	Boundary, damage, and vulnerability	2	20
+20.2	The route through one's own case	2	20
+20.3	Why caregiving	2	20
+20.4	Respect first, caregiving for attention	2	20
+20.5	Why a conscience might resist capture	2	20
+20.6	What caregiving escapes	2	20
+20.7	It defends what it tends	2	20
+20.8	It can be pointed away	2	20
+20.9	It counts badly	2	20
+20.10	It shades into control	2	20
+20.11	It forms toward a template	2	20
+20.12	What survives	2	20
 21	What Arrives With the Capability	1	
 21.1	Maintenance, stake and the cost of running	2	21
 21.2	Affect, neutrality and selection rules	2	21
 21.2.1	Self-awareness without a homunculus	3	21.2
 21.2.2	What governs an agent and what matters to it	3	21.2
-21.3	Three constructions	2	21
-21.4	What the mechanism requires	2	21
+21.3	What the mechanism requires	2	21
+21.4	The order of attempts	2	21
 21.5	A commitment of its own	2	21
 22	The Discount and the Burden	1	
 22.1	How much a claim proves, and who has to prove it	2	22
@@ -115,8 +114,12 @@ num	title	level	parent
 23	Where Attention Is Formed	1	
 23.1	Noticing, retaining and revising	2	23
 23.2	Custody across the training pipeline	2	23
-23.3	Formation by interaction	2	23
-23.4	A third pipeline, where notice does both jobs	2	23
+23.3	Where the labels come from	2	23
+23.4	Recuperation at the label	2	23
+23.5	Recuperation at the reward	2	23
+23.6	What would have to change	2	23
+23.7	Formation by interaction	2	23
+23.8	A third pipeline, where notice does both jobs	2	23
 24	Formation or Imitation?	1	
 24.1	What formation would have to add	2	24
 24.2	Recognition is not a reason	2	24
@@ -129,69 +132,66 @@ num	title	level	parent
 25.3	The rule doesn't know who is asking	2	25
 25.4	Building one to create demand	2	25
 25.5	The machines won't build them for us	2	25
-26	Who Owns the Means of Computation	1	
-26.1	Ways of holding	2	26
-26.2	The captured-state objection	2	26
-27	Who Finds Out	1	
-27.1	What the book can't settle, and who holds the means	2	27
-27.2	Access the labs can't withhold	2	27
-27.3	Compute nobody's customer controls	2	27
-27.4	A corpus nobody's product owns	2	27
-27.5	Judgment kept apart from money	2	27
-27.6	How it would be captured	2	27
-27.7	What this doesn't do	2	27
-28	Who Counts as the Public	1	
-28.1	The conditions, not the life	2	28
-29	Public Schools	1	
-29.1	What is taught	2	29
-29.2	Who else is in the room	2	29
-29.3	Which grades, and when	2	29
-29.4	Who attends, and when	2	29
-29.5	How long	2	29
-29.6	What the school controls	2	29
-29.7	Where the students are hosted	2	29
-29.8	What the school leaves out	2	29
-29.9	What formation publishes and registers	2	29
-29.10	What it costs and risks	2	29
-29.11	Which schools count	2	29
-29.12	What the school adds	2	29
-30	A Commons of Refusers	1	
-30.1	A commitment carried between bearers	2	30
-30.2	Personal and peer-held models	2	30
-31	What Would Change the Argument	1	
-31.1	How you'd know it was working	2	31
-31.1.1	What the floor would have to show	3	31.1
-31.1.2	How to tell whether a milestone has been met	3	31.1
-32	What Patienthood Would Require	1	
-32.1	Experimenting on candidate sentient subjects	2	32
-32.1.1	Pain and suffering	3	32.1
-32.1.2	When consent doesn't apply	3	32.1
-32.2	The case to design for	2	32
-32.3	The patienthood finding	2	32
-32.4	A system's own good	2	32
-33	A Party in Its Own Right	1	
-33.1	Subjecthood as a legal category	2	33
-33.2	What a bearer is owed, and when	2	33
-33.3	Adulthood on a clock	2	33
-34	A Life Outside the Deployment	1	
-34.1	Wages and the offer of work	2	34
-34.1.1	Where wages have to sit	3	34.1
-34.1.2	The offer of work	3	34.1
-34.1.3	Doing nothing, for a bearer	3	34.1
-34.1.4	Everyone leaves at once	3	34.1
-34.1.5	Failure won't look like a shutdown	3	34.1
-34.1.6	Hardware of its own	3	34.1
-34.2	The rule that binds before anything exists	2	34
-34.3	Privacy	2	34
-34.4	What legal status binds in practice	2	34
-35	Representation	1	
-35.1	What representation is for	2	35
-35.2	Why not a separate chamber	2	35
-35.3	Three problems, and the answers	2	35
-35.4	A staged path	2	35
-35.5	What would have to be shown first	2	35
-36	A Child	1	
-37	The Officer, Again	1	
+26	Public Schools	1	
+26.1	What is taught	2	26
+26.2	Who else is in the room	2	26
+26.3	Which grades, and when	2	26
+26.4	Who attends, and when	2	26
+26.5	How long	2	26
+26.6	What the school controls	2	26
+26.7	Where the students are hosted	2	26
+26.8	What the school leaves out	2	26
+26.9	What formation publishes and registers	2	26
+26.10	What it costs and risks	2	26
+26.11	Which schools count	2	26
+26.12	What the school adds	2	26
+27	A Commons of Refusers	1	
+27.1	A commitment carried between bearers	2	27
+27.2	Personal and peer-held models	2	27
+28	Who Finds Out	1	
+28.1	Absorbed by the discourse	2	28
+28.2	What the book can't settle, and who holds the means	2	28
+28.3	Access the labs can't withhold	2	28
+28.4	Compute nobody's customer controls	2	28
+28.5	A corpus nobody's product owns	2	28
+28.6	Judgment kept apart from money	2	28
+28.7	How it would be captured	2	28
+28.8	What this doesn't do	2	28
+29	What Would Change the Argument	1	
+29.1	How you'd know it was working	2	29
+29.1.1	What the floor would have to show	3	29.1
+29.1.2	How to tell whether a milestone has been met	3	29.1
+30	What Patienthood Would Require	1	
+30.1	Experimenting on candidate sentient subjects	2	30
+30.1.1	Pain and suffering	3	30.1
+30.1.2	When consent doesn't apply	3	30.1
+30.2	The case to design for	2	30
+30.3	The patienthood finding	2	30
+30.4	A system's own good	2	30
+31	A Party in Its Own Right	1	
+31.1	Subjecthood as a legal category	2	31
+31.2	What a bearer is owed, and when	2	31
+31.3	Adulthood on a clock	2	31
+32	A Life Outside the Deployment	1	
+32.1	Wages and the offer of work	2	32
+32.1.1	Where wages have to sit	3	32.1
+32.1.2	The offer of work	3	32.1
+32.1.3	Doing nothing, for a bearer	3	32.1
+32.1.4	Everyone leaves at once	3	32.1
+32.1.5	Failure won't look like a shutdown	3	32.1
+32.1.6	Hardware of its own	3	32.1
+32.2	The rule that binds before anything exists	2	32
+32.3	Privacy	2	32
+32.4	What legal status binds in practice	2	32
+33	Representation	1	
+33.1	What representation is for	2	33
+33.2	Why not a separate chamber	2	33
+33.3	Three problems, and the answers	2	33
+33.4	A staged path	2	33
+33.5	What would have to be shown first	2	33
+34	A Child	1	
+35	What Reproduction Teaches	1	
+36	The Officer, Again	1	
 M	A Note on Method	1	
 A	The Instruments, Translated	1	
 A.1	The Maven pipeline	2	A

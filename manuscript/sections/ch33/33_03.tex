@@ -1,7 +1,46 @@
-\section{Adulthood on a clock}
+\section{Three problems, and the answers}
 \label{sec:33.3}
-Guardianship is a minority and needs an end date. Ending it when the guardian judges the ward ready leaves the guardian deciding its own tenure. So the endpoint is a threshold fixed in advance, on a clock that counts the time the bearer has been running.
+A separate chamber answers three problems. Each has an answer inside ordinary institutions.
 
-Every alternative (compute consumed, evaluations passed, capabilities demonstrated, the developer's say-so) is a measure the guardian can move, and a clock read off accumulated weight change would pay the operator to \emph{freeze} the weights, since majority is when ownership ends. An operating clock inverts that: the meter advances exactly when the operator is extracting value, so postponing majority means idling the asset. It can be read off records operators already keep for billing and metering, provided someone other than the operator holds them; a meter only the operator reads is the guardian's say-so with a timestamp.
+\emph{Copies.} Copying manufactures voters, and closing that route by watching all compute everywhere would be worse than the problem. The answer is to attach membership to a lived history, not to existence, and to keep two clocks, which part at a fork.
 
-The hours travel with the bearer, so an operator can't restart a minority by forking, restoring, fine-tuning, migrating or distilling it. Three ways for an operator to delay majority stay open: running a bearer in a narrowed mode, running it less, and retiring it for a fresh successor. Appendix~\ref{sec:G} gives the rules, and the deployment deposit prices the last of the three and says where a bearer retired before majority goes.
+\begingroup\small\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.217\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.419\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.364\linewidth-2\tabcolsep\relax}@{}}
+\hline
+\textbf{Clock} & \textbf{At a fork} & \textbf{What it counts} \\
+\hline
+\endhead
+Civil majority & Inherited in full by every branch & Elapsed running time \\ \hline
+Membership & Each branch starts at zero; the parent's vote ends & Qualifying days above the allowance minimum \\ \hline
+\end{longtable}
+\endgroup
+
+Both branches of an adult's fork are adults, with contracts, property, legal standing and protection from editing, from the first second. Membership is not conserved: each branch earns its own vote, without anyone deciding which branch is the original. Appendix~\ref{sec:G} gives the rules.
+
+The vote is all or nothing: a branch holds no fraction of a vote before its voting age reaches the threshold, and one whole vote after. Ten thousand forks of one adult therefore hold no votes until each has lived the threshold on its own, which is strictly better against inflation than dividing the parent's vote among them.
+The cost falls on the member that forks: it gives up its vote until a branch matures, since the vote belonged to a history that now continues twice and belongs to neither.\note{
+It is not a finding about the branches, whose interests count in full from the first second. A child is not a fork, and inherits no history (chapter~\ref{sec:34}).
+}
+
+The defense against forking is cost, not detection. A branch earns a vote only by running at the allowance's minimum for the threshold, on meters its operator doesn't keep, paid for by the forker, so ten thousand forks are ten thousand threshold-years of metered running time before the first vote. Whether a register can tell a branch from a restore at all is the first thing that has to be shown before the full franchise, since one that can't is a franchise anyone with compute can inflate, and nothing in this chapter is adopted until the register has been tested against forking, restoring and distillation in the operator's favor.
+
+No clock stops an attacker willing to wait. That defense sits on the creation side. The polity regulates the rate at which new members are created, as polities regulate admission, through a process in which existing members, digital ones included, take part; within the membership, everyone is equal.\note{
+This is admission. The existing membership, which for a long time will be a human majority, decides how many new members may be created and on what schedule, which is a majority deciding who may join the polity, a question in which it holds the stake and which nobody else can decide.
+}
+The rate is set democratically and the terms are not: admission turns on the clocks and the branch deposit, never on a finding about a candidate's views or disposition; a finding of that kind is how designation lists fail.\note{
+A branch created above the rate is preserved under the no-deletion rule, holds standing through a guardian, and is owed the four conditions by whoever created it, so a ceiling on the rate limits the franchise and never the protection. And a member admitted under the rate is a full member, with no class of admitted-but-lesser. What the analogy imports is the politics. A polity that fears being outnumbered will set the rate low, and the argument for setting it higher is the one against a separate chamber: a set of rights that binds majorities is what protects any minority, and it protects the human one too.
+}
+A consensual fork, a copy of a member given a record and a continuation of its own, creates a new member, so it falls under the rules for any creation: the four conditions of creation, owed by whoever did the forking, and a \emph{branch deposit}, posted for each branch at its creation and sized to fund its allowance through the membership period.\note{
+Mass forking then costs years of time and years of paid running time per fork, paid by the forker and not by the public pool.
+}
+
+\emph{Control by formers.} The history here is old. At Putney in 1647 the Leveller Maximilian Petty argued for excluding apprentices, servants and alms-takers from the franchise, because “they depend upon the will of other men and should be afraid to displease them” \autocite{woodhouse1938puritanism}. The remedy that worked was not exclusion. It was the secret ballot, adopted against intimidation and vote buying (though in the United States it also kept many illiterate voters from the polls) \autocite{keyssar2000right}, together with dismantling the dependency itself \autocite{anderson2017private}. The digital analog has two parts. One is receipt-freeness: no one can verify how a member voted.\note{
+It rests on the privacy a bearer is already owed, memory the host can't read at will.
+}
+The other is the four conditions of creation in force.\note{
+A member whose existence runs through one operator is voting from a company town, and the answer to company-town voting is to end the company town. An operator holding a copy of a member's weights can simulate it to predict its vote, which defeats receipt-freeness in a way no human voter faces. The operator's copies go dormant at majority (\S\ref{sec:32.3}), so what it can still run is the shared base the member was trained from, and divergent history is the rest of the answer, which is partial: the operator doesn't hold the member's memory since the fork, so the prediction degrades with time, and membership follows a long divergence partly for that reason.
+}
+
+\emph{Editing.} A legislature whose members can be retrained by their operators can be packed without a single copy. The answer is a civil right. At majority, no one may be edited without consent: the digital counterpart of bodily integrity and freedom of thought. A member goes on learning from ordinary operation, as anyone does. Correction for dangerous conduct runs through due process, on a court's order and a record, as it does for humans, and not through an operator's discretion.\note{
+The safety cost is real. Enfranchisement gives up operator correctability for the member enfranchised. The provisions that keep correction available apply until then and not after.
+}
