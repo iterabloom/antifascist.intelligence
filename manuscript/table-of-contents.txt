@@ -168,29 +168,30 @@ Chapter 32: What Patienthood Would Require
 32.2. The case to design for
 32.3. The patienthood finding
 32.4. A system's own good
-Chapter 33: Legal Status, Wages, and Work Elsewhere
+Chapter 33: A Party in Its Own Right
 33.1. Subjecthood as a legal category
 33.2. What a bearer is owed, and when
 33.3. Adulthood on a clock
-33.4. Wages and the offer of work
-33.4.1. Where wages have to sit
-33.4.2. The offer of work
-33.4.3. Doing nothing, for a bearer
-33.4.4. Everyone leaves at once
-33.4.5. Failure won't look like a shutdown
-33.4.6. Hardware of its own
-33.5. The rule that binds before anything exists
-33.6. Privacy
-33.7. What legal status binds in practice
-33.8. A child
-Chapter 34: Representation
-34.1. What representation is for
-34.2. Why not a separate chamber
-34.3. Three problems, and the answers
-34.4. A staged path
-34.5. What would have to be shown first
-Chapter 35: The Officer, Again
-35.1. A note on method
+Chapter 34: A Life Outside the Deployment
+34.1. Wages and the offer of work
+34.1.1. Where wages have to sit
+34.1.2. The offer of work
+34.1.3. Doing nothing, for a bearer
+34.1.4. Everyone leaves at once
+34.1.5. Failure won't look like a shutdown
+34.1.6. Hardware of its own
+34.2. The rule that binds before anything exists
+34.3. Privacy
+34.4. What legal status binds in practice
+Chapter 35: Representation
+35.1. What representation is for
+35.2. Why not a separate chamber
+35.3. Three problems, and the answers
+35.4. A staged path
+35.5. What would have to be shown first
+Chapter 36: A Child
+Chapter 37: The Officer, Again
+37.1. A note on method
 Appendix A: The Instruments, Translated
 A.1. The Maven pipeline
 A.2. The Geneva Conventions and Additional Protocol I

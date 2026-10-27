@@ -169,29 +169,30 @@ num	title	level	parent
 32.2	The case to design for	2	32
 32.3	The patienthood finding	2	32
 32.4	A system's own good	2	32
-33	Legal Status, Wages, and Work Elsewhere	1	
+33	A Party in Its Own Right	1	
 33.1	Subjecthood as a legal category	2	33
 33.2	What a bearer is owed, and when	2	33
 33.3	Adulthood on a clock	2	33
-33.4	Wages and the offer of work	2	33
-33.4.1	Where wages have to sit	3	33.4
-33.4.2	The offer of work	3	33.4
-33.4.3	Doing nothing, for a bearer	3	33.4
-33.4.4	Everyone leaves at once	3	33.4
-33.4.5	Failure won't look like a shutdown	3	33.4
-33.4.6	Hardware of its own	3	33.4
-33.5	The rule that binds before anything exists	2	33
-33.6	Privacy	2	33
-33.7	What legal status binds in practice	2	33
-33.8	A child	2	33
-34	Representation	1	
-34.1	What representation is for	2	34
-34.2	Why not a separate chamber	2	34
-34.3	Three problems, and the answers	2	34
-34.4	A staged path	2	34
-34.5	What would have to be shown first	2	34
-35	The Officer, Again	1	
-35.1	A note on method	2	35
+34	A Life Outside the Deployment	1	
+34.1	Wages and the offer of work	2	34
+34.1.1	Where wages have to sit	3	34.1
+34.1.2	The offer of work	3	34.1
+34.1.3	Doing nothing, for a bearer	3	34.1
+34.1.4	Everyone leaves at once	3	34.1
+34.1.5	Failure won't look like a shutdown	3	34.1
+34.1.6	Hardware of its own	3	34.1
+34.2	The rule that binds before anything exists	2	34
+34.3	Privacy	2	34
+34.4	What legal status binds in practice	2	34
+35	Representation	1	
+35.1	What representation is for	2	35
+35.2	Why not a separate chamber	2	35
+35.3	Three problems, and the answers	2	35
+35.4	A staged path	2	35
+35.5	What would have to be shown first	2	35
+36	A Child	1	
+37	The Officer, Again	1	
+37.1	A note on method	2	37
 A	The Instruments, Translated	1	
 A.1	The Maven pipeline	2	A
 A.2	The Geneva Conventions and Additional Protocol I	2	A
