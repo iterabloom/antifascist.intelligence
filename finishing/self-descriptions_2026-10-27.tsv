@@ -2,7 +2,7 @@ id	section	file:line	quote (search string)	verdict	weight	found by	finding	note
 S001	0	manuscript/sections/ch00/00.tex:5	This book is a fancy way of saying that	borne out	low	grep		
 S002	0	manuscript/sections/ch00/00.tex:9	This book is about composing that room	narrower	low	grep		Names the job of Parts II and III; the same preface (line 31) says the book goes on to who forms refusers and what they are owed.
 S003	0	manuscript/sections/ch00/00.tex:15	I advocate, firstly, a short written list of acts no model performs	borne out	low	reading	F1	Matches the force term of ch. 6, exceptions and domestic clause; note it states policy 1 as something models do.
-S004	0	manuscript/sections/ch00/00.tex:15	Second, every use of force a licensed system supports pre-registers	narrower	medium	reading	F1	§7.1 puts a deployment that claims no human determination outside the ratio (07_01.tex:49).
+S004	0	manuscript/sections/ch00/00.tex:15	Second, every use of force a licensed system supports pre-registers	qualified elsewhere	medium	reading	F1	§7.1 puts a deployment that claims no human determination outside the ratio (07_01.tex:49).
 S005	0	manuscript/sections/ch00/00.tex:15	Third, every deployment tells the identifiable people it acts on	qualified elsewhere	medium	reading	F21	§8.2: in a classified targeting pipeline individual notice cannot bind during operations; §11.6: in removal it goes through counsel.
 S006	0	manuscript/sections/ch00/00.tex:15	including the systems themselves, may refuse any category of use	qualified elsewhere	medium	reading	F3	Ch. 10 covers workers only. The systems' version is §34.1.2's offer of work, owed only on a finding (Table 31.1, last row).
 S007	0	manuscript/sections/ch00/00.tex:19	Each of the above five policies should take effect through a condition someone other than the operator sets	borne out	low	reading		
@@ -27,7 +27,7 @@ S025	4	manuscript/sections/ch04/04.tex:3	Two ideas run under all five answers	bo
 S026	4	manuscript/sections/ch04/04.tex:3	Ian Fishback had the commitment and went looking for the rule	borne out	low	reading		
 S027	4.1	manuscript/sections/ch04/04_01.tex:18	The first two rows need a refuser	narrower	medium	reading	F1	Takes the refuser to be a person; the force term puts refusals in models (§18.3, 18_03.tex:57).
 S028	4.1	manuscript/sections/ch04/04_01.tex:18	That much the policies do without a refuser	borne out	low	grep	F1	As a conditional on nobody, model or person, refusing.
-S029	4.4	manuscript/sections/ch04/04_04.tex:11	It doesn't touch	qualified elsewhere	medium	grep	F21	Ch. 22 (22.tex:36) detects accommodation by re-measurement against registration; App. C disclosure 5; test 3's third arm. A reader meets these eighteen chapters later.
+S029	4.4	manuscript/sections/ch04/04_04.tex:11	It doesn't touch	qualified elsewhere	medium	grep	F21	Ch. 22 (22.tex:37) detects accommodation by re-measurement against registration; App. C disclosure 5; test 3's third arm. A reader meets these eighteen chapters later.
 S030	4.4	manuscript/sections/ch04/04_04.tex:15	One rule runs through every policy	borne out	low	reading		
 S031	4.4	manuscript/sections/ch04/04_04.tex:17	The five policies ask nothing of the model	narrower	high	grep	F1	The brief's starting case, redone in the report.
 S032	5	manuscript/sections/ch05/05.tex:25	The floor is not neutral among moral theories	borne out	low	grep		

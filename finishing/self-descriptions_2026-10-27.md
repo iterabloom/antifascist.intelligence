@@ -35,9 +35,9 @@ A further 104 rows came this way, including every row of the three status tables
 | Verdict | Count |
 |---|---|
 | Borne out | 180 |
-| True in a narrower sense than it reads | 58 |
+| True in a narrower sense than it reads | 57 |
 | Not borne out | 18 |
-| Qualified elsewhere | 15 |
+| Qualified elsewhere | 16 |
 | Unverifiable from the text | 5 |
 
 Of the 96 that are not plainly borne out, 23 carry the weight "high" in the TSV: they sit at a Part boundary, a chapter's end, in the preface or in a status table, and close an objection off.
@@ -418,7 +418,7 @@ These are lower in consequence. The TSV has each with its line.
 | Sentence | Where | Verdict | What the text does | Proposed |
 |---|---|---|---|---|
 | "Third, every deployment tells the identifiable people it acts on what was done to them" | Preface, `ch00/00.tex:15` | Qualified elsewhere | §8.2: in a classified targeting pipeline individual notice can't bind during operations; §11.6: in removal it goes through counsel | "…tells the identifiable people it acts on what was done to them, through counsel where telling them would expose them, and in a classified war by class and count afterward" |
-| "Second, every use of force a licensed system supports pre-registers" | Preface, `ch00/00.tex:15` | Narrower | §7.1's exemption | "…every use of force a licensed system supports, where a person is said to decide, pre-registers…" |
+| "Second, every use of force a licensed system supports pre-registers" | Preface, `ch00/00.tex:15` | Qualified elsewhere | §7.1's exemption | "…every use of force a licensed system supports, where a person is said to decide, pre-registers…" |
 | "Some of what such a conscience does needs nothing new" | Preface, `ch00/00.tex:31`; ch. 19, `ch19/19.tex:7` ("a model formed before deployment and frozen there can do both") | Narrower | Neither function needs in-flight learning; whether any model notices omitted people better than one told to look is test 4, untested (Table F.1a) | "Some of what such a conscience does needs no learning after release" |
 | "a note at the end says what I think that entanglement did to the argument" | Preface, `ch00/00.tex:37` | Narrower | A Note on Method says how model agreement was weighed and that one term came from a model; it says nothing about the model that sat in the Maven pipeline | "a note before the appendices says how I weighed what the models said" |
 | "It doesn't touch accommodation" | §4.4, `ch04/04_04.tex:11` | Qualified elsewhere | Chapter 22 detects accommodation by re-measurement against registration (`ch22/22.tex:37`); Appendix C disclosure 5; test 3's third arm. The reader meets these eighteen chapters later | "None of its four outcomes reaches accommodation; re-measurement against a registered disposition does (chapter 22)" |
