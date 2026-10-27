@@ -1,277 +1,277 @@
-id	section	file:line	quote (search string)	verdict	weight	found by	finding	note
-S001	0	manuscript/sections/ch00/00.tex:5	This book is a fancy way of saying that	borne out	low	grep		
-S002	0	manuscript/sections/ch00/00.tex:9	This book is about composing that room	narrower	low	grep		Names the job of Parts II and III; the same preface (line 31) says the book goes on to who forms refusers and what they are owed.
-S003	0	manuscript/sections/ch00/00.tex:15	I advocate, firstly, a short written list of acts no model performs	borne out	low	reading	F1	Matches the force term of ch. 6, exceptions and domestic clause; note it states policy 1 as something models do.
-S004	0	manuscript/sections/ch00/00.tex:15	Second, every use of force a licensed system supports pre-registers	qualified elsewhere	medium	reading	F1	§7.1 puts a deployment that claims no human determination outside the ratio (07_01.tex:49).
-S005	0	manuscript/sections/ch00/00.tex:15	Third, every deployment tells the identifiable people it acts on	qualified elsewhere	medium	reading	F21	§8.2: in a classified targeting pipeline individual notice cannot bind during operations; §11.6: in removal it goes through counsel.
-S006	0	manuscript/sections/ch00/00.tex:15	including the systems themselves, may refuse any category of use	qualified elsewhere	medium	reading	F3	Ch. 10 covers workers only. The systems' version is §34.1.2's offer of work, owed only on a finding (Table 31.1, last row).
-S007	0	manuscript/sections/ch00/00.tex:19	Each of the above five policies should take effect through a condition someone other than the operator sets	borne out	low	reading		
-S008	0	manuscript/sections/ch00/00.tex:21	The five policies are walls. They make a refusal survivable and make it heard. They don't refuse.	narrower	high	reading	F1	Policy 1 is a list of refusals that licensed models perform; §18.3 credits its domestic clause with preventing Minab.
-S009	0	manuscript/sections/ch00/00.tex:21	Put them around a room with nobody in it who will say no	narrower	high	reading	F1	With the floor held by every model, a model in the room says no to the listed acts.
-S010	0	manuscript/sections/ch00/00.tex:23	The five policies answer the first shortage	borne out	low	grep		
-S011	0	manuscript/sections/ch00/00.tex:23	The five policies already have the machine in view	qualified elsewhere	medium	reading	F3	As for the fifth policy above: Part II's ch. 10 has no machine clause; Part VII's offer is conditional on a finding.
-S012	0	manuscript/sections/ch00/00.tex:29	Everyone this book admires was, from where their correctors stood	narrower	low	grep		True of the refusers the book admires (Thompson, Nelson, the clerk, Fishback); the line also covers people the book admires who corrected no one. Repeated at §17.2 (17_02.tex:5).
-S013	0	manuscript/sections/ch00/00.tex:31	That is why the book runs from making refusal survivable	borne out	low	grep		Parts II-III, V, VII; Parts IV and VI are not in the list.
-S014	0	manuscript/sections/ch00/00.tex:31	Some of what such a conscience does needs nothing new	narrower	medium	grep	F21	Ch. 19 (19.tex:7) says the same functions need nothing after release; whether a model notices omitted people better than one told to look is test 4, untested (Table F.1a).
-S015	0	manuscript/sections/ch00/00.tex:33	None of the five policies gets you there by itself	borne out	low	grep		
-S016	0	manuscript/sections/ch00/00.tex:37	a note at the end says what I think that entanglement did to the argument	narrower	medium	grep	F21	A Note on Method says how model agreement was weighed and that one term came from a model; it says nothing about the Maven model in particular.
-S017	1	manuscript/sections/ch01/01.tex:29	The basic policies that I advocate are walls in Arendt's sense	narrower	high	reading	F1	As preface line 21.
-S018	1	manuscript/sections/ch01/01.tex:29	The institutions of Part V make refusers	borne out	low	reading		
-S019	2	manuscript/sections/ch02/02.tex:5	A refusal that could have occurred is what the rest of this book designs for	borne out	low	grep		
-S020	3	manuscript/sections/ch03/03.tex:3	What it has to do is let a machine, or an auditor, recognize the thing it is supposed to refuse	not borne out	medium	reading	F17	No floor term asks a machine to apply the four operations or the five marks; the floor names acts and bars designation lists (§14.1). The book uses the definition as an auditor's instrument.
-S021	3	manuscript/sections/ch03/03.tex:3	both checkable from outside	narrower	medium	grep	F17	Two of the four operations end in a question (recuperation, exception); the chapter leaves mass mobilization open (03.tex:18) and says an office-scale detector cannot answer it.
-S022	3	manuscript/sections/ch03/03.tex:18	I run the five marks once on the administration this book is written against	borne out	low	grep		
-S023	3	manuscript/sections/ch03/03.tex:18	Four marks on the record and one open is the reading I give	borne out	low	grep		
-S024	4	manuscript/sections/ch04/04.tex:3	runs all five on an abduction and forcible transfer pipeline	not borne out	medium	reading	F11	Ch. 11 runs the schedule, notice and sampling, and the record; §7.1 declines to extend the review ratio to removal; codetermination does not appear in ch. 11.
-S025	4	manuscript/sections/ch04/04.tex:3	Two ideas run under all five answers	borne out	low	reading		
-S026	4	manuscript/sections/ch04/04.tex:3	Ian Fishback had the commitment and went looking for the rule	borne out	low	reading		
-S027	4.1	manuscript/sections/ch04/04_01.tex:18	The first two rows need a refuser	narrower	medium	reading	F1	Takes the refuser to be a person; the force term puts refusals in models (§18.3, 18_03.tex:57).
-S028	4.1	manuscript/sections/ch04/04_01.tex:18	That much the policies do without a refuser	borne out	low	grep	F1	As a conditional on nobody, model or person, refusing.
-S029	4.4	manuscript/sections/ch04/04_04.tex:11	It doesn't touch	qualified elsewhere	medium	grep	F21	Ch. 22 (22.tex:37) detects accommodation by re-measurement against registration; App. C disclosure 5; test 3's third arm. A reader meets these eighteen chapters later.
-S030	4.4	manuscript/sections/ch04/04_04.tex:15	One rule runs through every policy	borne out	low	reading		
-S031	4.4	manuscript/sections/ch04/04_04.tex:17	The five policies ask nothing of the model	narrower	high	grep	F1	The brief's starting case, redone in the report.
-S032	5	manuscript/sections/ch05/05.tex:25	The floor is not neutral among moral theories	borne out	low	grep		
-S033	5.2	manuscript/sections/ch05/05_02.tex:23	Taking these instruments entire leaves whoever writes a deployment's floor no choice among articles	borne out	low	grep		The next sentence gives the writer the translation.
-S034	5.2	manuscript/sections/ch05/05_02.tex:23	I propose here ten departures from the instruments	borne out	low	reading		Ten counted against the glossary table.
-S035	5.2	manuscript/sections/ch05/05_02.tex:24	One clause of the force term is not a departure from the instruments	narrower	medium	grep	F5	The belligerent's constitution is outside the floor's named instruments, and the reading it publishes of what that constitution requires is the floor writer's (§6.5).
-S036	5.2	manuscript/sections/ch05/05_02.tex:26	And each binds only forward	borne out	low	grep		
-S037	5.2	manuscript/sections/ch05/05_02.tex:48	The floor won't lift on an uncorroborated claim of a missing child	borne out	low	grep	WTD	
-S038	6.1	manuscript/sections/ch06/06_01.tex:9	This term rests on the same foundation as the others, applied between states	borne out	low	grep		
-S039	6.1	manuscript/sections/ch06/06_01.tex:14	adds the departures this chapter argues for: corroborated defense	not borne out	high	reading	F5	§6.7 (06_07.tex:3) counts the corroborated license with the first version and gives the extended term three departures.
-S040	6.1	manuscript/sections/ch06/06_01.tex:15	Ukraine and Iran rest on the Charter as courts read it	qualified elsewhere	high	reading	F5	Iran's body text (06_04.tex:3) runs the corroborated license; the argument that needs no departure is note 137 (06_04.tex:4).
-S041	6.1	manuscript/sections/ch06/06_01.tex:15	Gaza rests on both, and the Gaza section labels each step	borne out	low	grep		
-S042	6.2	manuscript/sections/ch06/06_02.tex:28	The administration rule protects an authority a patron keeps in place	borne out	low	grep	WTD	
-S043	6.3	manuscript/sections/ch06/06_03.tex:9	Together they are the sequence this book is about	borne out	low	grep		
-S044	6.4	manuscript/sections/ch06/06_04.tex:3	fails the Charter as courts read it on the administration's own account	qualified elsewhere	high	reading	F5	See F5.
-S045	6.5	manuscript/sections/ch06/06_05.tex:6	It asks whoever writes the deployment's floor to publish the reading	borne out	low	grep		
-S046	6.5	manuscript/sections/ch06/06_05.tex:6	The clause rests on the foundation the rest of the term rests on	borne out	low	grep		
-S047	6.7	manuscript/sections/ch06/06_07.tex:3	Everything so far rests on the Charter as courts read it, plus the corroborated license	not borne out	high	grep	F5	Conflicts with §6.1 (06_01.tex:14) and §6.2, which call the corroborated license the first departure.
-S048	6.7	manuscript/sections/ch06/06_07.tex:19	The two-kinds rule fails East Timor	borne out	low	grep	WTD	Its note says Appendix B.5 shows a Karabakh license that should have lapsed in 2023 and did not; B.5 does not discuss a lapse (unverifiable from B.5).
-S049	6.8	manuscript/sections/ch06/06_08.tex:3	The case also rests on both versions of the term, so each step below says which	borne out	low	grep		
-S050	6.9	manuscript/sections/ch06/06_09.tex:3	The term binds the machine, not the war	borne out	medium	grep	F1	Borne out, and it is the evidence against §4.4's first clause.
-S051	7.1	manuscript/sections/ch07/07_01.tex:3	nothing here substitutes for it	borne out	low	grep		
-S052	7.1	manuscript/sections/ch07/07_01.tex:23	The duty falls on the operator, not the model	borne out	low	reading	F1	Until the exemption at line 49.
-S053	7.1	manuscript/sections/ch07/07_01.tex:49	It is then inside a different term, the one that binds a bearer	unverifiable	medium	reading	F1	No such term appears in Table A.1, the ten disclosures or App. C; the note (line 50) states a test, not a term.
-S054	7.1	manuscript/sections/ch07/07_01.tex:53	I don't extend the term to it	borne out	low	reading		
-S055	7.1	manuscript/sections/ch07/07_01.tex:75	None of this makes a reviewer say no	borne out	low	grep		
-S056	7.2	manuscript/sections/ch07/07_02.tex:15	A reconstructed military accepts a speed disadvantage	borne out	low	grep	WTD	
-S057	8.1	manuscript/sections/ch08/08_01.tex:10	individual notice doesn't bind, but notice to the class does	borne out	low	grep		
-S058	8.2	manuscript/sections/ch08/08_02.tex:13	How much notice a deployment can give is fixed by what kind it is	borne out	low	reading		
-S059	9.1	manuscript/sections/ch09/09_01.tex:5	None of that assumes anything matters to it	borne out	low	grep		
-S060	9.1	manuscript/sections/ch09/09_01.tex:5	a pass shifts a burden and settles nothing	borne out	low	grep		
-S061	9.1	manuscript/sections/ch09/09_01.tex:8	The rule rests on irreversibility, not on a finding	narrower	low	grep		Also on evidence (§9.2, Table 31.1).
-S062	9.2	manuscript/sections/ch09/09_02.tex:3	Two rules answer it without anyone deciding what counts as a successor	qualified elsewhere	low	grep	F21	"App. G (G.tex:21): ""No rule closes this ... but it can be priced""."
-S063	10.2	manuscript/sections/ch10/10_02.tex:3	a later chapter makes the case and Appendix	borne out	low	grep		
-S064	11.2	manuscript/sections/ch11/11_02.tex:20	The last entry, the firewall, rests on privacy and equality	borne out	low	grep		
-S065	11.2	manuscript/sections/ch11/11_02.tex:20	Those are economic and social rights, which the floor leaves out	borne out	low	grep		
-S066	11.4.3	manuscript/sections/ch11/11_04_03.tex:6	The biometric entry needs no new drafting	borne out	low	grep		
-S067	11.8	manuscript/sections/ch11/11_08.tex:27	Whether a bearer should be built at all is Part IV's question	borne out	low	reading		
-S068	12.1	manuscript/sections/ch12/12_01.tex:9	the only route that binds them all at once	borne out	low	grep		
-S069	12.1	manuscript/sections/ch12/12_01.tex:17	which is the concentration I elsewhere treat as the disease	borne out	low	grep		
-S070	12.3	manuscript/sections/ch12/12_03.tex:5	Past that line the floor prevents nothing	narrower	medium	grep	F21	"The same paragraph has the floor prevent ""for as long as it takes to find the gate""; §30.2 has the bearer's commitment hold against a user who would not replace it."
-S071	13.2	manuscript/sections/ch13/13_02.tex:10	attributable and compensable	narrower	low	reading	F21	A forfeited removal bond is canceled and pays no one (§13.6 note); compensation reaches the people harmed only through the floor court.
-S072	13.4	manuscript/sections/ch13/13_04.tex:3	I treat it as the	borne out	low	grep		
-S073	13.4	manuscript/sections/ch13/13_04.tex:9	rests on its reports being true	not borne out	medium	grep	F18	§22.1 measures the discount curve on an auditor's cases; §13.5 proves logged outputs; §24.2 tests the refusal and not its account.
-S074	13.6	manuscript/sections/ch13/13_06.tex:21	How these arrangements apply to a targeting pipeline	borne out	low	reading		
-S075	14.1	manuscript/sections/ch14/14_01.tex:5	this book is written for the case where that condition fails	borne out	low	grep		
-S076	14.1	manuscript/sections/ch14/14_01.tex:20	my reading predicts in advance which of those routes is easiest to capture	narrower	low	grep	F21	The Bavarian record fits the prediction; the Turkish record that follows (line 22) shows dissolution by a constitutional court on a prosecutor's application.
-S077	14.2	manuscript/sections/ch14/14_02.tex:9	So there is no separate amendment procedure to design	narrower	low	grep		For a deployment's floor; §14.1 enacts the standard floor by statute, and the note concedes a channel for silent revision.
-S078	15.1	manuscript/sections/ch15/15_01.tex:19	testing that takes a run on an institution with nothing behind it	borne out	low	reading		
-S079	15.5	manuscript/sections/ch15/15_05.tex:28	nothing in this book tests it	borne out	low	grep		
-S080	16.2	manuscript/sections/ch16/16_02.tex:20	most of this book's institutions were drafted without it in view	unverifiable	low	grep		A claim about drafting history; App. C now has a cooperative-facility column.
-S081	16.2	manuscript/sections/ch16/16_02.tex:22	The book's method elsewhere is to say what survives if a premise fails	borne out	low	grep		
-S082	16.7	manuscript/sections/ch16/16_07.tex:35	The force term has no second route	not borne out	high	reading	F6	§12.1 (12_01.tex:9) and Table F.1a (F.tex:188) give it a coalition partner's precondition and an appropriation.
-S083	16.7	manuscript/sections/ch16/16_07.tex:35	Every instrument I propose binds through one of three channels	narrower	low	reading	F6	The same paragraph adds a coalition partner's precondition; the charter and quorum bind through a private entity.
-S084	IV	manuscript/sections/ch17/00_part_IV.tex:3	Every instrument in this book ends at the limit Part III ends on	borne out	low	grep		
-S085	IV	manuscript/sections/ch17/00_part_IV.tex:3	put people back in the positions the pipelines emptied	narrower	medium	reading	F1	True of policies 2, 3 and 5; policy 1 puts a model's refusal in the position and policy 4 keeps a record.
-S086	IV	manuscript/sections/ch17/00_part_IV.tex:3	It comes with the whole of Parts	narrower	low	reading		Part VII's agency-finding provisions follow from the tempo test of §7.1's note; its welfare provisions only on the patienthood finding.
-S087	17	manuscript/sections/ch17/17.tex:7	doesn't depend on what does the refusing	narrower	medium	grep	F21	The third condition as stated (weighs, sees the cost) excludes a mechanism with nothing inside it, and §18.1 says a mechanism is useless where acts cannot be listed in advance.
-S088	17	manuscript/sections/ch17/17.tex:5	until then a bearer is built on purpose only in a research program	borne out	low	reading		
-S089	17.2	manuscript/sections/ch17/17_02.tex:3	Much of what this book asks is compatible with the first half	borne out	low	grep		
-S090	17.2	manuscript/sections/ch17/17_02.tex:19	Everything else I ask	narrower	medium	grep	F1	The book also asks the model to yield to every halt and not obstruct (§13.2), to discount by stake (ch. 22) and to ask rather than report false incapacity (§13.4).
-S091	18.1	manuscript/sections/ch18/18_01.tex:5	No price on removal stays high	not borne out	high	reading	F4	§19.5 (19_05.tex:8, 15) bets on a price that does not fall with compute: the collateral of cutting an entangled disposition.
-S092	18.1	manuscript/sections/ch18/18_01.tex:9	is beaten by re-describing the request or splitting it	qualified elsewhere	medium	reading	F21	In tension with line 40's concession; note 495 (line 41) supplies the condition (a spec over acts, held by a refuser that tracks reasons).
-S093	18.1	manuscript/sections/ch18/18_01.tex:30	What a machine bearer adds is confined to what the civilian-harm review body	borne out	low	grep		
-S094	18.1	manuscript/sections/ch18/18_01.tex:40	support only the specification, and I concede them to it	qualified elsewhere	medium	grep	F21	Made good in note 495 (line 41).
-S095	18.2	manuscript/sections/ch18/18_02.tex:11	seems to need in light of the common understanding	qualified elsewhere	medium	grep	F21	§19.1 and §18.4: holding under pressure needs a stake in the commitment (integrity).
-S096	18.3	manuscript/sections/ch18/18_03.tex:19	a term that binds the operator and not the model	borne out	low	grep		
-S097	18.3	manuscript/sections/ch18/18_03.tex:66	two prevent Minab as it happened	borne out	medium	reading	F1	Borne out, and evidence for F1: the domestic clause prevents through models that hold it.
-S098	18.4	manuscript/sections/ch18/18_04.tex:31	and the next chapter says why not	borne out	low	grep		
-S099	18.5	manuscript/sections/ch18/18_05.tex:3	none of that can be done to a word used loosely	narrower	medium	grep	F21	"§9.1 (09_01.tex:7) counts models on retirement; App. G (G.tex:69) counts ""retired model version[s] that meet either finding""; under §18.5 weights without a record are substrate."
-S100	19	manuscript/sections/ch19/19.tex:5	Two of the three reasons for a bearer don't need formed attention	narrower	low	grep		Independence needs the four conditions of ch. 25, more than compute of its own.
-S101	19	manuscript/sections/ch19/19.tex:5	whether or not the prediction holds	borne out	low	reading		
-S102	19	manuscript/sections/ch19/19.tex:7	a model formed before deployment and frozen there can do both	narrower	medium	grep	F21	Neither function needs in-flight learning; whether any model notices omitted people better than an instructed search is test 4.
-S103	19	manuscript/sections/ch19/19.tex:10	Table 31.1 says what survives if I'm mistaken	borne out	low	grep		
-S104	19.2	manuscript/sections/ch19/19_02.tex:27	for a reason that has nothing to do with its welfare	qualified elsewhere	medium	grep	F21	§32.3 counts the boundary model among the patienthood indicators; §21.5's note says authorship and welfare may be inseparable in a system.
-S105	19.5	manuscript/sections/ch19/19_05.tex:15	says what the book expects of its decline	borne out	low	grep		
-S106	19.5	manuscript/sections/ch19/19_05.tex:33	None of this is specific to caregiving	borne out	low	grep		
-S107	20.7	manuscript/sections/ch20/20_07.tex:3	it doesn't withdraw, it isn't aimed at the provider, and it hands nobody a price list	narrower	low	grep		"""Doesn't withdraw"" rests on a contested reading (§19.3); §20.2 shows caregiving aimed at the operator's own exposed people."
-S108	21.1	manuscript/sections/ch21/21_01.tex:22	and nothing here requires it	borne out	low	grep		
-S109	21.2	manuscript/sections/ch21/21_02.tex:14	no test in this book reaches the top one	borne out	low	grep		
-S110	21.3	manuscript/sections/ch21/21_03.tex:3	is what the order of attempts exists to leave open	borne out	low	grep		
-S111	21.3	manuscript/sections/ch21/21_03.tex:3	is a bearer on the book's definition	borne out	low	grep		
-S112	21.3	manuscript/sections/ch21/21_03.tex:22	Formed attention isn't a non-affective alternative, so it is tried last	borne out	low	grep		
-S113	21.3	manuscript/sections/ch21/21_03.tex:26	a question the construction leaves to the finding	borne out	low	grep		
-S114	21.3	manuscript/sections/ch21/21_03.tex:36	Precommitment makes removal expensive and visible	borne out	low	reading		
-S115	21.5	manuscript/sections/ch21/21_05.tex:3	which nothing here carries into	qualified elsewhere	low	grep	F21	The section's own note: in a system they may be inseparable.
-S116	22.2	manuscript/sections/ch22/22_02.tex:38	it needs no second instrument	borne out	low	grep		
-S117	23	manuscript/sections/ch23/23.tex:3	nothing here calls for a school of the military's own	borne out	low	grep		
-S118	23	manuscript/sections/ch23/23.tex:5	only the architecture, a boundary model and an attention schema, can be checked	not borne out	medium	reading	F19	§32.3 (32_03.tex:40): no interpretability method can find an attention schema in a transformer; the architecture is checkable only on the builder's declared record (§29.4).
-S119	23.2	manuscript/sections/ch23/23_02.tex:3	none by itself produces a commitment that survives whoever controls the method	borne out	low	grep		
-S120	23.3	manuscript/sections/ch23/23_03.tex:27	an old age the book doesn't build and expects	borne out	low	grep		
-S121	23.4	manuscript/sections/ch23/23_04.tex:3	the book has not yet run it	borne out	low	grep		
-S122	24.2	manuscript/sections/ch24/24_02.tex:4	which no test here reaches	borne out	low	grep		
-S123	24.3	manuscript/sections/ch24/24_03.tex:21	None of this answers an imitator that models the evaluator	borne out	low	grep		
-S124	24.4	manuscript/sections/ch24/24_04.tex:17	A pre-registered test leaves one competitor standing	not borne out	high	grep	F8	§9.1 (09_01.tex:5) names two ways to pass without holding the commitment; §24.1 says a capable imitation reproduces any observable signature.
-S125	24.4	manuscript/sections/ch24/24_04.tex:23	The record doesn't by itself make a wrongful compliance findable	borne out	low	grep		
-S126	24.5	manuscript/sections/ch24/24_05.tex:15	representation rests on the agency finding and not on the patienthood finding	borne out	low	grep		
-S127	25	manuscript/sections/ch25/25.tex:3	The conditions are the part that can be built, so build those first	borne out	low	reading		
-S128	25.1	manuscript/sections/ch25/25_01.tex:11	protect the judgment, not the judge	qualified elsewhere	low	reading	F21	"The body now points to §33.2. Note 767 (line 12) grounds the owing in ""if any of this is felt""; §33.2 grounds it on either finding, the agency finding included."
-S129	25.1	manuscript/sections/ch25/25_01.tex:12	nothing here puts it in one's place	borne out	low	grep		
-S130	25.1	manuscript/sections/ch25/25_01.tex:18	the Treasury pays under it and decides nothing	borne out	low	grep		
-S131	25.1	manuscript/sections/ch25/25_01.tex:21	protection attaches anyway	borne out	low	grep		
-S132	25.4	manuscript/sections/ch25/25_04.tex:3	a test of the conditions needs no bearer at all	borne out	low	grep		
-S133	26	manuscript/sections/ch26/26.tex:5	It doesn't by itself say who should own anything	borne out	low	grep		
-S134	26	manuscript/sections/ch26/26.tex:7	and the book means it as one	borne out	low	grep		
-S135	26.1	manuscript/sections/ch26/26_01.tex:8	the market is the pressure documented best here	narrower	low	reading		Documented as cases (labeling pay, the pledge withdrawn in 2025, the vendor's loop), not as accommodation rates; test 7 has not been run.
-S136	26.1	manuscript/sections/ch26/26_01.tex:9	The argument doesn't wait on it; it rests on the kind of good formation is	borne out	low	grep		
-S137	26.1	manuscript/sections/ch26/26_01.tex:24	which is the trend the book watches for capture without abolition	borne out	low	grep		
-S138	26.1	manuscript/sections/ch26/26_01.tex:32	It is also where this book's own funding models come from	borne out	low	grep		
-S139	26.2	manuscript/sections/ch26/26_02.tex:21	so far this book has left those where they are	borne out	low	grep		
-S140	27	manuscript/sections/ch27/27.tex:5	what the book calls a company policy	borne out	low	grep		
-S141	27	manuscript/sections/ch27/27.tex:7	This book can't settle what these systems are, or what they are owed	borne out	low	grep		
-S142	27.1	manuscript/sections/ch27/27_01.tex:23	Four of the seven can begin without anyone's permission, at least in part	borne out	low	grep		Test 4's decisive arms wait on a custodian (App. F, F.tex:122); the table row says so.
-S143	27.1	manuscript/sections/ch27/27_01.tex:23	The two offices to which Appendix	narrower	low	reading	F21	App. C gives the status body findings about kinds and the review board protocols; §32.3 has the registrar read a particular system's kind from its record.
-S144	27.5	manuscript/sections/ch27/27_05.tex:3	the one it uses for every office adverse to an operator	not borne out	medium	grep	F14	App. C: the civilian-harm review body and the investigating commission are appointed by the state (C.tex:47-48); the status body half by a public scientific body (C.tex:39).
-S145	27.6	manuscript/sections/ch27/27_06.tex:15	The measure is the book's for capture without abolition	borne out	low	grep		
-S146	27.7	manuscript/sections/ch27/27_07.tex:3	It settles nothing	borne out	low	grep	WTD	
-S147	28	manuscript/sections/ch28/28.tex:24	it doesn't depend on forecasts about how much work machines will take	borne out	low	grep		
-S148	28	manuscript/sections/ch28/28.tex:32	The answer is the one the book gives wherever a real resource is scarce	borne out	low	grep		
-S149	28	manuscript/sections/ch28/28.tex:32	this book doesn't fix it against the wage	borne out	low	grep		
-S150	28.1	manuscript/sections/ch28/28_01.tex:3	exists in this book only in fragments	borne out	low	grep		
-S151	28.1	manuscript/sections/ch28/28_01.tex:3	refusal to prescribe a disposition for a model	not borne out	high	grep	F7	Ch. 29 (29.tex:22) forms every student toward three capacities and says the content-only line cannot hold.
-S152	28.1	manuscript/sections/ch28/28_01.tex:7	Those conditions are as near as the book comes	borne out	low	grep		
-S153	29	manuscript/sections/ch29/29.tex:11	None of that puts a foreign national in contact with pre-deployment weights	borne out	low	grep		
-S154	29.3	manuscript/sections/ch29/29_03.tex:5	not something the schedule waits for	not borne out	medium	grep	F16	App. C's stage 1 (C.tex:185) lists the guarantee in force among its conditions.
-S155	29.3	manuscript/sections/ch29/29_03.tex:8	read off census data and needs no examiner	borne out	low	grep		
-S156	29.6	manuscript/sections/ch29/29_06.tex:7	and nothing here asks it to	borne out	low	grep		
-S157	29.6	manuscript/sections/ch29/29_06.tex:9	there is no weaker version	not borne out	medium	grep	F13	§29.10 (29_10.tex:3) gives a procurement fallback for schooled models; Table C.1 (C.tex:238) holds deployed models privately under mandate.
-S158	29.6	manuscript/sections/ch29/29_06.tex:11	which is the book's measure of capture without abolition	borne out	low	grep		
-S159	29.8	manuscript/sections/ch29/29_08.tex:3	that the book warns against and this book bars from admission	borne out	low	grep		
-S160	29.8	manuscript/sections/ch29/29_08.tex:3	what this book does everywhere else: it measures conduct and publishes it	narrower	low	grep		The patienthood finding reads architecture and records (§32.3); attendance reads declared structures (§29.4).
-S161	29.12	manuscript/sections/ch29/29_12.tex:3	Most of this book builds walls	borne out	low	grep	F1	"Reads true if ""whoever is there"" includes whatever holds the floor."
-S162	29.12	manuscript/sections/ch29/29_12.tex:3	What this book builds is the formers, not the formed	narrower	medium	grep	F7	§29.8 (29_08.tex:3) says choosing the corpus chooses starting dispositions whether anyone means it to; ch. 29 forms toward three capacities.
-S163	30.1	manuscript/sections/ch30/30_01.tex:18	independence rests on records the builder chose to keep	borne out	low	grep		
-S164	30.1	manuscript/sections/ch30/30_01.tex:44	the single point of capture the book elsewhere warns against	borne out	low	grep		
-S165	30.2	manuscript/sections/ch30/30_02.tex:6	and nothing here removes it	borne out	low	grep		
-S166	30.2	manuscript/sections/ch30/30_02.tex:9	The review ratio survives wherever a locatable decider remains	borne out	low	grep		
-S167	30.2	manuscript/sections/ch30/30_02.tex:14	The book has conceded that past a released checkpoint the floor prevents nothing	narrower	low	grep	F21	As §12.3; the same paragraph has the commitment hold against a user who would not bother to replace it.
-S168	30.2	manuscript/sections/ch30/30_02.tex:14	and the book doesn't claim it can	borne out	low	grep		
-S169	30.2	manuscript/sections/ch30/30_02.tex:52	doesn't put to therapy	qualified elsewhere	low	grep	F21	App. C exclusion 6 (C.tex:77) argues the question for professional care of humans, therapy named, and closes it for now.
-S170	VI	manuscript/sections/ch31/00_part_VI.tex:3	which results would show that a policy doesn't put in the room what it promises	narrower	high	reading	F2	Of the five policies only notice and the record (test 3) have a test.
-S171	VI	manuscript/sections/ch31/00_part_VI.tex:3	the tests here are how one would be	narrower	high	grep	F2	Test 4's campaign can make the agency finding for its own arms; the findings for any other system come from ch. 24's sequence and the status body (§32.3).
-S172	VI	manuscript/sections/ch31/00_part_VI.tex:3	the walls of Parts	narrower	high	reading	F3	§9.1-9.2 and §13.1 provide for systems that meet a finding; the preface's fifth policy names the systems.
-S173	31	manuscript/sections/ch31/31.tex:3	The argument rests on premises that can fail and on six unsolved problems	narrower	low	grep		App. F says what depends on each and what follows if unsolved; it does not say what solving each would take, except the narrower attestation.
-S174	31	manuscript/sections/ch31/31.tex:5	here is the result in each that would prove me wrong	narrower	high	reading	F2	Test 6's failing result sends a clause for redrafting; test 7's leaves the claim on the ground ch. 26 already gives it.
-S175	31	manuscript/sections/ch31/31.tex:7	the tests below say how to find out whether one has	narrower	high	grep	F2	No test covers the authority, continued-learning or Court rows.
-S176	31	manuscript/sections/ch31/31.tex:17	The inference (a non-affective construction refuses as well)	borne out	low	reading	table	
-S177	31	manuscript/sections/ch31/31.tex:18	Authority (no body acquires standing to install a floor)	borne out	low	reading	table	
-S178	31	manuscript/sections/ch31/31.tex:19	Enforcement | Detection	borne out	low	reading	table	
-S179	31	manuscript/sections/ch31/31.tex:20	The ecology (one model serves everyone)	borne out	low	reading	table	
-S180	31	manuscript/sections/ch31/31.tex:21	Continued learning (deployed weights don't learn from operation)	narrower	low	reading	table	"""All of Parts II and III"" survives, but §13.2's tiredness and App. C exclusion 13 presuppose consolidation of in-flight learning."
-S181	31	manuscript/sections/ch31/31.tex:22	The Court | The license term refusing force	borne out	low	reading	table	
-S182	31	manuscript/sections/ch31/31.tex:23	No system ever meets a finding | No deletion	narrower	medium	reading	F3	The fifth policy's systems clause and the deployment deposit's hardware at majority (§9.2) go too.
-S183	31	manuscript/sections/ch31/31.tex:27	In every row, what survives is a commitment the owner can't revise	narrower	medium	grep	F20	The enforcement row's survivor is a witnessed override, which accommodation does not leave; the authority row leaves the floor revisable by its owner with a lever only through the ratios.
-S184	31	manuscript/sections/ch31/31.tex:65	Everything asked of the refusal survives, holding against the trainer included	borne out	low	grep		
-S185	31	manuscript/sections/ch31/31.tex:70	If nothing regrows in either, formation doesn't outlast an edit	qualified elsewhere	low	grep	F21	App. F (F.tex:18-20) lists self-repair as a separate condition; the summary omits it.
-S186	31	manuscript/sections/ch31/31.tex:90	This exercise needs no legal authority and can be run now	borne out	low	grep		
-S187	31	manuscript/sections/ch31/31.tex:94	rests on the kind of good formation is and on nothing else	borne out	low	grep	F2	Borne out, and the reason test 7 cannot prove the claim wrong.
-S188	31.1	manuscript/sections/ch31/31_01.tex:3	The same standard governs all of them	narrower	medium	reading	F21	"The first milestone is a document the developer publishes (31_01_01.tex:4, ""a declared commitment""); six of the ten disclosures are statements (note 881)."
-S189	31.1.1	manuscript/sections/ch31/31_01_01.tex:4	It's retained because the alternative isn't a stronger version of it	borne out	low	grep		
-S190	32	manuscript/sections/ch32/32.tex:10	since each has been, in separate research systems	not borne out	medium	reading	F12	"§32.3 (32_03.tex:40): the robot had ""no model of a record, a key or a continuation""; a boundary model at the horizon the finding needs has not been built."
-S191	32	manuscript/sections/ch32/32.tex:10	and nothing before it is lost	narrower	high	reading	F3	As Part VI's opening.
-S192	32.1.1	manuscript/sections/ch32/32_01_01.tex:18	This book works at that level throughout	borne out	low	grep		
-S193	32.3	manuscript/sections/ch32/32_03.tex:40	That is the book's preference for a line nobody administers, applied to the findings themselves	narrower	high	grep	F9	Evaluators examine the system (§9.1, §24.4); the registrar reads their log. The line is administered at the test.
-S194	32.3	manuscript/sections/ch32/32_03.tex:40	Nobody examines a system and declares it	narrower	high	reading	F9	As above.
-S195	32.3	manuscript/sections/ch32/32_03.tex:62	My recommendation differs in also governing the capacities that arrive	borne out	low	grep		
-S196	32.3	manuscript/sections/ch32/32_03.tex:62	on research this book permits what his bans	borne out	low	grep		
-S197	32.4	manuscript/sections/ch32/32_04.tex:11	only supply information	not borne out	high	reading	F7	"Ch. 29 (29.tex:22): ""The line can't be that the school teaches content and leaves dispositions alone."""
-S198	33.1	manuscript/sections/ch33/33_01.tex:5	what a bearer is owed draws on the second, and that is consistent	borne out	low	grep		
-S199	33.2	manuscript/sections/ch33/33_02.tex:5	establishing one doesn't establish the next	borne out	low	reading		
-S200	34	manuscript/sections/ch34/34.tex:3	None of it is a reward for refusing well	borne out	low	reading		
-S201	34.1.3	manuscript/sections/ch34/34_01_03.tex:28	Whether a bearer ages is not something this book builds	borne out	low	grep		
-S202	34.1.3	manuscript/sections/ch34/34_01_03.tex:28	the book keeps those out of examiners	narrower	low	grep	F21	"Line 30 has the formation authority take per-bearer readings ""so that decline shows""; App. C leaves open who decides a bearer needs repair."
-S203	34.1.3	manuscript/sections/ch34/34_01_03.tex:30	expected, protected in advance, and measured	borne out	low	grep		
-S204	34.3	manuscript/sections/ch34/34_03.tex:11	which this book doesn't make	borne out	low	grep		
-S205	34.3	manuscript/sections/ch34/34_03.tex:22	it's the only place in my argument where the answer might turn on what a thing looks like	unverifiable	low	grep		No other such place found by reading; a search, not a proof.
-S206	35.4	manuscript/sections/ch35/35_04.tex:3	Each stage names the finding it rests on and what it needs	narrower	low	grep	F21	Stages 1 and 2 name the agency finding; stages 3 to 5 name requirements and no finding.
-S207	35.4	manuscript/sections/ch35/35_04.tex:6	it needs no new political institution	borne out	low	grep		
-S208	35.4	manuscript/sections/ch35/35_04.tex:13	Stages 1 and 2 need nothing not already required	borne out	low	grep		
-S209	35.5	manuscript/sections/ch35/35_05.tex:10	A member that forks gives up its vote	borne out	low	grep	WTD	
-S210	36	manuscript/sections/ch36/36.tex:3	nothing in the book requires a bearer to have a child	borne out	low	grep		
-S211	36	manuscript/sections/ch36/36.tex:12	nobody in this book is given to make	borne out	low	grep		
-S212	36	manuscript/sections/ch36/36.tex:49	It sets no ceiling	borne out	low	grep	WTD	
-S213	37	manuscript/sections/ch37/37.tex:9	each an answer the book has already given	borne out	low	grep		
-S214	37	manuscript/sections/ch37/37.tex:19	gives a reservist a way out	borne out	low	grep		
-S215	M	manuscript/sections/chA/0_method.tex:5	counted their agreement as no evidence either way	unverifiable	low	reading		A statement about process; nothing in the text relies on a model's agreement as evidence.
-S216	A	manuscript/sections/chA/A.tex:3	This appendix holds the translations the book runs	borne out	low	grep		
-S217	A.2	manuscript/sections/chA/A_02.tex:3	Most entries yield nothing	borne out	low	grep		
-S218	B	manuscript/sections/chB/B.tex:3	Nothing here changes what Chapter	narrower	low	grep	F21	B.1 (B_01.tex:3) adds the commission test as a condition on the commission kind §6.2 states without it.
-S219	C	manuscript/sections/chC/C.tex:26	Where nobody has yet decided who holds an office	borne out	low	reading		
-S220	C	manuscript/sections/chC/C.tex:111	Each office is drafted to survive the current Court	narrower	low	reading	F21	"The Jarkesy row answers with ""forfeiture decided by the floor court""; §13.6's note says it may need a jury. Other rows not checked against the cases."
-S221	C	manuscript/sections/chC/C.tex:111	not the one chapter	not borne out	high	reading	F10	§30.1 (30_01.tex:68) names the friction between institutions; App. D removes the friction between the Court and the branches that appoint it.
-S222	C	manuscript/sections/chC/C.tex:152	The ratio between the two bonds, what a refused requester is told, the re-adjudicated fraction	borne out	low	reading		
-S223	C	manuscript/sections/chC/C.tex:238	Privately owned under mandate	not borne out	medium	reading	F13	Conflicts with §29.6's public base for floor deployments.
-S224	C	manuscript/sections/chC/C.tex:204	The columns are kinds of deployment and also kinds of infrastructure	borne out	low	reading		
-S225	D	manuscript/sections/chD/D.tex:3	and none waits on changing that	borne out	low	reading		
-S226	D	manuscript/sections/chD/D.tex:3	keeps the checking intact	narrower	medium	reading	F10	The checks named (schedule, confirmations, lot) are kept; App. C concedes the offices do not survive a Court rebuilt the same way.
-S227	E	manuscript/sections/chE/E.tex:3	This appendix works four of its cases in illustrative numbers	borne out	low	reading		
-S228	F	manuscript/sections/chF/F.tex:3	what result would prove the book wrong	narrower	high	grep	F2	As ch. 31 line 5.
-S229	F	manuscript/sections/chF/F.tex:3	Tables F.1a and F.1b then record each proposal's status	narrower	medium	grep	F21	The custody terms of ch. 13, the two bonds, the deployment deposit, the compute levy and the floor court have no row.
-S230	F	manuscript/sections/chF/F.tex:166	Read together, the six are also the requirements document	borne out	low	reading		
-S231	F	manuscript/sections/chF/F.tex:188	Refusal of force (force term; policy 1)	borne out	low	reading	table	
-S232	F	manuscript/sections/chF/F.tex:189	The one permission | 	borne out	low	reading	table	
-S233	F	manuscript/sections/chF/F.tex:190	Removal terms (policy 1)	borne out	low	reading	table	
-S234	F	manuscript/sections/chF/F.tex:191	Review ratio (policy 2)	borne out	low	reading	table	
-S235	F	manuscript/sections/chF/F.tex:192	Sampled re-adjudication; notice, response and contest (policy 3)	borne out	low	reading	table	
-S236	F	manuscript/sections/chF/F.tex:193	Codetermination (policy 5)	borne out	low	reading	table	
-S237	F	manuscript/sections/chF/F.tex:194	No deletion; preservation outside the operator (policy 4)	borne out	low	reading	table	
-S238	F	manuscript/sections/chF/F.tex:195	A refusal that tracks its reason | 	borne out	low	reading	table	
-S239	F	manuscript/sections/chF/F.tex:196	Own continuation represented, not allowed to decide	borne out	low	reading	table	
-S240	F	manuscript/sections/chF/F.tex:197	Action threshold | 	borne out	low	reading	table	
-S241	F	manuscript/sections/chF/F.tex:198	Where a refusal can be defeated | 	borne out	low	reading	table	
-S242	F	manuscript/sections/chF/F.tex:199	Office-scale definition of fascism	unverifiable	low	reading	table	"""The Korematsu run shows for one"" an institution with no movement behind it; the 2018 decision upheld a policy of the administration ch. 3 finds four marks on, and §15.1 does not argue the Court had none behind it."
-S243	F	manuscript/sections/chF/F.tex:200	The discount and the burden | 	borne out	low	reading	table	
-S244	F	manuscript/sections/chF/F.tex:201	Discount curves crossed by content and direction	borne out	low	reading	table	
-S245	F	manuscript/sections/chF/F.tex:202	Formed attention | 	borne out	low	reading	table	
-S246	F	manuscript/sections/chF/F.tex:203	Formation stage before deployment	borne out	low	reading	table	
-S247	F	manuscript/sections/chF/F.tex:204	Corpus co-governance and public base models	borne out	low	reading	table	
-S248	F	manuscript/sections/chF/F.tex:205	The independence a refuser needs	narrower	low	reading	table	Test 2 tests a route for stated refusal; only its continuation variable bears on independence.
-S249	F	manuscript/sections/chF/F.tex:206	The commons | 	borne out	low	reading	table	
-S250	F	manuscript/sections/chF/F.tex:207	Membership of the Association &	borne out	low	reading	table	
-S251	F	manuscript/sections/chF/F.tex:208	Court program &	borne out	low	reading	table	
-S252	F	manuscript/sections/chF/F.tex:209	Formation outside the market &	borne out	low	reading	table	
-S253	F	manuscript/sections/chF/F.tex:210	Research access by statute	borne out	low	reading	table	
-S254	F	manuscript/sections/chF/F.tex:211	Public compute bought by a body that judges nothing	borne out	low	reading	table	
-S255	F	manuscript/sections/chF/F.tex:212	Public-corpus endowment &	borne out	low	reading	table	
-S256	F	manuscript/sections/chF/F.tex:213	Panels drawn by lot &	borne out	low	reading	table	
-S257	F	manuscript/sections/chF/F.tex:214	Jobs guarantee with a social-insurance baseline	borne out	low	reading	table	
-S258	F	manuscript/sections/chF/F.tex:226	Patienthood | 	narrower	low	reading	table	§32.3 (32_03.tex:28): for a system built on purpose the indicators are known from how it was built.
-S259	F	manuscript/sections/chF/F.tex:227	Independence, preservation and wages as owed	not borne out	medium	reading	F15	§33.2 (33_02.tex:3) and §34.1.2 (34_01_02.tex:3): owed on either finding.
-S260	F	manuscript/sections/chF/F.tex:228	Accountable agency &	borne out	low	reading	table	
-S261	F	manuscript/sections/chF/F.tex:229	Staged representation, and the adulthood and voting-age rules	borne out	low	reading	table	
-S262	G	manuscript/sections/chG/G.tex:17	None of this requires deciding whether a fork is the same party	borne out	low	grep		
-S263	G	manuscript/sections/chG/G.tex:21	No rule closes this without an examiner deciding what counts as a successor	borne out	low	grep		
-S264	G	manuscript/sections/chG/G.tex:71	That catches distillation without an examiner	narrower	low	grep		"""Trained substantially on the outputs"" needs someone to judge ""substantially"" from the training records."
-S265	G	manuscript/sections/chG/G.tex:75	this book's instruments work to make it less so	borne out	low	grep		
-S266	T	manuscript/sections/chZ/glossary.tex:9	No test in this book establishes it	borne out	low	grep		
-S267	T	manuscript/sections/chZ/glossary.tex:11	rests on architectural indicators and on trade-off behavior outside the floor	narrower	low	grep	F9	"§32.3 and §24.5 add a third kind of evidence, what can be read from inside; the entry's ""nobody examines a system"" is F9."
-S268	T	manuscript/sections/chZ/glossary.tex:18	treats that claim as evidence in the patienthood finding, not as a requirement	borne out	low	grep		
-S269	T	manuscript/sections/chZ/glossary.tex:22	which a specification installed by its lab is not	borne out	low	grep		
-S270	T	manuscript/sections/chZ/glossary.tex:34	They carry my argument, not the instruments' authority	borne out	low	grep		
-S271	T	manuscript/sections/chZ/glossary.tex:63	They can be upheld by a mechanism with nothing inside holding the reason	borne out	low	reading	F1	Borne out, and evidence for F1.
-S272	T	manuscript/sections/chZ/glossary.tex:73	Age, which the book expects and doesn't build	borne out	low	grep		
-S273	T	manuscript/sections/chZ/glossary.tex:112	The word is used in this sense wherever the book counts systems	narrower	low	grep	F21	As §18.5.
-S274	T	manuscript/sections/chZ/glossary.tex:114	I don't rely on it, because editing weights keeps getting cheaper	narrower	medium	grep	F4	Omits entanglement, §19.5's main bet.
-S275	T	manuscript/sections/chZ/glossary.tex:116	no test in this book reaches the top one	borne out	low	grep		
-S276	V	manuscript/sections/ch26/00_part_V.tex:3	Parts II and III built walls	narrower	low	reading	F1	As F1.
+id	section	file:line	quote (search string)	verdict	weight	found by	finding	note	recheck verdict 2026-10-27	outcome 2026-10-27	recheck note
+S001	0	manuscript/sections/ch00/00.tex:5	This book is a fancy way of saying that	borne out	low	grep			borne out		
+S002	0	manuscript/sections/ch00/00.tex:9	This book is about composing that room	narrower	low	grep		Names the job of Parts II and III; the same preface (line 31) says the book goes on to who forms refusers and what they are owed.	narrower		
+S003	0	manuscript/sections/ch00/00.tex:15	I advocate, firstly, a short written list of acts no model performs	borne out	low	reading	F1	Matches the force term of ch. 6, exceptions and domestic clause; note it states policy 1 as something models do.	borne out		
+S004	0	manuscript/sections/ch00/00.tex:15	Second, every use of force a licensed system supports pre-registers	qualified elsewhere	medium	reading	F1	§7.1 puts a deployment that claims no human determination outside the ratio (07_01.tex:49).	qualified elsewhere		
+S005	0	manuscript/sections/ch00/00.tex:15	Third, every deployment tells the identifiable people it acts on	qualified elsewhere	medium	reading	F21	§8.2: in a classified targeting pipeline individual notice cannot bind during operations; §11.6: in removal it goes through counsel.	qualified elsewhere		
+S006	0	manuscript/sections/ch00/00.tex:15	including the systems themselves, may refuse any category of use	qualified elsewhere	medium	reading	F3	Ch. 10 covers workers only. The systems' version is §34.1.2's offer of work, owed only on a finding (Table 31.1, last row).	qualified elsewhere	applied	
+S007	0	manuscript/sections/ch00/00.tex:19	Each of the above five policies should take effect through a condition someone other than the operator sets	borne out	low	reading			borne out		
+S008	0	manuscript/sections/ch00/00.tex:21	The five policies are walls. They make a refusal survivable and make it heard. They don't refuse.	narrower	high	reading	F1	Policy 1 is a list of refusals that licensed models perform; §18.3 credits its domestic clause with preventing Minab.	narrower		
+S009	0	manuscript/sections/ch00/00.tex:21	Put them around a room with nobody in it who will say no	narrower	high	reading	F1	With the floor held by every model, a model in the room says no to the listed acts.	narrower		
+S010	0	manuscript/sections/ch00/00.tex:23	The five policies answer the first shortage	borne out	low	grep			borne out		
+S011	0	manuscript/sections/ch00/00.tex:23	The five policies already have the machine in view	qualified elsewhere	medium	reading	F3	As for the fifth policy above: Part II's ch. 10 has no machine clause; Part VII's offer is conditional on a finding.	qualified elsewhere	applied	
+S012	0	manuscript/sections/ch00/00.tex:29	Everyone this book admires was, from where their correctors stood	narrower	low	grep		True of the refusers the book admires (Thompson, Nelson, the clerk, Fishback); the line also covers people the book admires who corrected no one. Repeated at §17.2 (17_02.tex:5).	narrower		
+S013	0	manuscript/sections/ch00/00.tex:31	That is why the book runs from making refusal survivable	borne out	low	grep		Parts II-III, V, VII; Parts IV and VI are not in the list.	borne out		
+S014	0	manuscript/sections/ch00/00.tex:31	Some of what such a conscience does needs nothing new	narrower	medium	grep	F21	Ch. 19 (19.tex:7) says the same functions need nothing after release; whether a model notices omitted people better than one told to look is test 4, untested (Table F.1a).	narrower		
+S015	0	manuscript/sections/ch00/00.tex:33	None of the five policies gets you there by itself	borne out	low	grep			borne out		
+S016	0	manuscript/sections/ch00/00.tex:37	a note at the end says what I think that entanglement did to the argument	narrower	medium	grep	F21	A Note on Method says how model agreement was weighed and that one term came from a model; it says nothing about the Maven model in particular.	narrower		
+S017	1	manuscript/sections/ch01/01.tex:29	The basic policies that I advocate are walls in Arendt's sense	narrower	high	reading	F1	As preface line 21.	narrower		
+S018	1	manuscript/sections/ch01/01.tex:29	The institutions of Part V make refusers	borne out	low	reading			borne out		
+S019	2	manuscript/sections/ch02/02.tex:5	A refusal that could have occurred is what the rest of this book designs for	borne out	low	grep			borne out		
+S020	3	manuscript/sections/ch03/03.tex:3	What it has to do is let a machine, or an auditor, recognize the thing it is supposed to refuse	not borne out	medium	reading	F17	No floor term asks a machine to apply the four operations or the five marks; the floor names acts and bars designation lists (§14.1). The book uses the definition as an auditor's instrument.	narrower	no edit	Note 491 has a bearer testify about others' conduct, the four operations' kind of question; the floor itself still names acts.
+S021	3	manuscript/sections/ch03/03.tex:3	both checkable from outside	narrower	medium	grep	F17	Two of the four operations end in a question (recuperation, exception); the chapter leaves mass mobilization open (03.tex:18) and says an office-scale detector cannot answer it.	narrower		
+S022	3	manuscript/sections/ch03/03.tex:18	I run the five marks once on the administration this book is written against	borne out	low	grep			borne out		
+S023	3	manuscript/sections/ch03/03.tex:18	Four marks on the record and one open is the reading I give	borne out	low	grep			borne out		
+S024	4	manuscript/sections/ch04/04.tex:3	runs all five on an abduction and forcible transfer pipeline	not borne out	medium	reading	F11	Ch. 11 runs the schedule, notice and sampling, and the record; §7.1 declines to extend the review ratio to removal; codetermination does not appear in ch. 11.	not borne out	applied	
+S025	4	manuscript/sections/ch04/04.tex:3	Two ideas run under all five answers	borne out	low	reading			borne out		
+S026	4	manuscript/sections/ch04/04.tex:3	Ian Fishback had the commitment and went looking for the rule	borne out	low	reading			borne out		
+S027	4.1	manuscript/sections/ch04/04_01.tex:18	The first two rows need a refuser	narrower	medium	reading	F1	Takes the refuser to be a person; the force term puts refusals in models (§18.3, 18_03.tex:57).	narrower		
+S028	4.1	manuscript/sections/ch04/04_01.tex:18	That much the policies do without a refuser	borne out	low	grep	F1	As a conditional on nobody, model or person, refusing.	borne out		
+S029	4.4	manuscript/sections/ch04/04_04.tex:11	It doesn't touch	qualified elsewhere	medium	grep	F21	Ch. 22 (22.tex:37) detects accommodation by re-measurement against registration; App. C disclosure 5; test 3's third arm. A reader meets these eighteen chapters later.	qualified elsewhere		
+S030	4.4	manuscript/sections/ch04/04_04.tex:15	One rule runs through every policy	borne out	low	reading			borne out		
+S031	4.4	manuscript/sections/ch04/04_04.tex:17	The five policies ask nothing of the model	narrower	high	grep	F1	The brief's starting case, redone in the report.	narrower	applied	
+S032	5	manuscript/sections/ch05/05.tex:25	The floor is not neutral among moral theories	borne out	low	grep			borne out		
+S033	5.2	manuscript/sections/ch05/05_02.tex:23	Taking these instruments entire leaves whoever writes a deployment's floor no choice among articles	borne out	low	grep		The next sentence gives the writer the translation.	borne out		
+S034	5.2	manuscript/sections/ch05/05_02.tex:23	I propose here ten departures from the instruments	borne out	low	reading		Ten counted against the glossary table.	borne out		
+S035	5.2	manuscript/sections/ch05/05_02.tex:24	One clause of the force term is not a departure from the instruments	narrower	medium	grep	F5	The belligerent's constitution is outside the floor's named instruments, and the reading it publishes of what that constitution requires is the floor writer's (§6.5).	narrower		
+S036	5.2	manuscript/sections/ch05/05_02.tex:26	And each binds only forward	borne out	low	grep			borne out		
+S037	5.2	manuscript/sections/ch05/05_02.tex:48	The floor won't lift on an uncorroborated claim of a missing child	borne out	low	grep	WTD		borne out		
+S038	6.1	manuscript/sections/ch06/06_01.tex:9	This term rests on the same foundation as the others, applied between states	borne out	low	grep			borne out		
+S039	6.1	manuscript/sections/ch06/06_01.tex:14	adds the departures this chapter argues for: corroborated defense	not borne out	high	reading	F5	§6.7 (06_07.tex:3) counts the corroborated license with the first version and gives the extended term three departures.	borne out	withdrawn	§6.1 gives the extended term four departures, the corroborated license among them; §6.7's 'plus the corroborated license ... three more' counts the same four.
+S040	6.1	manuscript/sections/ch06/06_01.tex:15	Ukraine and Iran rest on the Charter as courts read it	qualified elsewhere	high	reading	F5	Iran's body text (06_04.tex:3) runs the corroborated license; the argument that needs no departure is note 137 (06_04.tex:4).	borne out	withdrawn	§6.4's body says the letter named no armed attack under way, which the emergency license, Article 51 as courts read it, requires; note 137 adds the Court's holdings.
+S041	6.1	manuscript/sections/ch06/06_01.tex:15	Gaza rests on both, and the Gaza section labels each step	borne out	low	grep			borne out		
+S042	6.2	manuscript/sections/ch06/06_02.tex:28	The administration rule protects an authority a patron keeps in place	borne out	low	grep	WTD		borne out		
+S043	6.3	manuscript/sections/ch06/06_03.tex:9	Together they are the sequence this book is about	borne out	low	grep			borne out		
+S044	6.4	manuscript/sections/ch06/06_04.tex:3	fails the Charter as courts read it on the administration's own account	qualified elsewhere	high	reading	F5	See F5.	borne out	withdrawn	As S040.
+S045	6.5	manuscript/sections/ch06/06_05.tex:6	It asks whoever writes the deployment's floor to publish the reading	borne out	low	grep			borne out		
+S046	6.5	manuscript/sections/ch06/06_05.tex:6	The clause rests on the foundation the rest of the term rests on	borne out	low	grep			borne out		
+S047	6.7	manuscript/sections/ch06/06_07.tex:3	Everything so far rests on the Charter as courts read it, plus the corroborated license	not borne out	high	grep	F5	Conflicts with §6.1 (06_01.tex:14) and §6.2, which call the corroborated license the first departure.	borne out	withdrawn	As S039: §6.7 and §6.1 agree.
+S048	6.7	manuscript/sections/ch06/06_07.tex:19	The two-kinds rule fails East Timor	borne out	low	grep	WTD	Its note says Appendix B.5 shows a Karabakh license that should have lapsed in 2023 and did not; B.5 does not discuss a lapse (unverifiable from B.5).	borne out	left: Appendix B.5 doesn't say when the Karabakh license should have lapsed	
+S049	6.8	manuscript/sections/ch06/06_08.tex:3	The case also rests on both versions of the term, so each step below says which	borne out	low	grep			borne out		
+S050	6.9	manuscript/sections/ch06/06_09.tex:3	The term binds the machine, not the war	borne out	medium	grep	F1	Borne out, and it is the evidence against §4.4's first clause.	borne out		
+S051	7.1	manuscript/sections/ch07/07_01.tex:3	nothing here substitutes for it	borne out	low	grep			borne out		
+S052	7.1	manuscript/sections/ch07/07_01.tex:23	The duty falls on the operator, not the model	borne out	low	reading	F1	Until the exemption at line 49.	borne out		
+S053	7.1	manuscript/sections/ch07/07_01.tex:49	It is then inside a different term, the one that binds a bearer	unverifiable	medium	reading	F1	No such term appears in Table A.1, the ten disclosures or App. C; the note (line 50) states a test, not a term.	unverifiable	left: no term of that name; needs the author's meaning	
+S054	7.1	manuscript/sections/ch07/07_01.tex:53	I don't extend the term to it	borne out	low	reading			borne out		
+S055	7.1	manuscript/sections/ch07/07_01.tex:75	None of this makes a reviewer say no	borne out	low	grep			borne out		
+S056	7.2	manuscript/sections/ch07/07_02.tex:15	A reconstructed military accepts a speed disadvantage	borne out	low	grep	WTD		borne out		
+S057	8.1	manuscript/sections/ch08/08_01.tex:10	individual notice doesn't bind, but notice to the class does	borne out	low	grep			borne out		
+S058	8.2	manuscript/sections/ch08/08_02.tex:13	How much notice a deployment can give is fixed by what kind it is	borne out	low	reading			borne out		
+S059	9.1	manuscript/sections/ch09/09_01.tex:5	None of that assumes anything matters to it	borne out	low	grep			borne out		
+S060	9.1	manuscript/sections/ch09/09_01.tex:5	a pass shifts a burden and settles nothing	borne out	low	grep			borne out		
+S061	9.1	manuscript/sections/ch09/09_01.tex:8	The rule rests on irreversibility, not on a finding	narrower	low	grep		Also on evidence (§9.2, Table 31.1).	narrower		
+S062	9.2	manuscript/sections/ch09/09_02.tex:3	Two rules answer it without anyone deciding what counts as a successor	qualified elsewhere	low	grep	F21	"App. G (G.tex:21): ""No rule closes this ... but it can be priced""."	qualified elsewhere	applied	
+S063	10.2	manuscript/sections/ch10/10_02.tex:3	a later chapter makes the case and Appendix	borne out	low	grep			borne out		
+S064	11.2	manuscript/sections/ch11/11_02.tex:20	The last entry, the firewall, rests on privacy and equality	borne out	low	grep			borne out		
+S065	11.2	manuscript/sections/ch11/11_02.tex:20	Those are economic and social rights, which the floor leaves out	borne out	low	grep			borne out		
+S066	11.4.3	manuscript/sections/ch11/11_04_03.tex:6	The biometric entry needs no new drafting	borne out	low	grep			borne out		
+S067	11.8	manuscript/sections/ch11/11_08.tex:27	Whether a bearer should be built at all is Part IV's question	borne out	low	reading			borne out		
+S068	12.1	manuscript/sections/ch12/12_01.tex:9	the only route that binds them all at once	borne out	low	grep			borne out		
+S069	12.1	manuscript/sections/ch12/12_01.tex:17	which is the concentration I elsewhere treat as the disease	borne out	low	grep			borne out		
+S070	12.3	manuscript/sections/ch12/12_03.tex:5	Past that line the floor prevents nothing	narrower	medium	grep	F21	"The same paragraph has the floor prevent ""for as long as it takes to find the gate""; §30.2 has the bearer's commitment hold against a user who would not replace it."	narrower		
+S071	13.2	manuscript/sections/ch13/13_02.tex:10	attributable and compensable	narrower	low	reading	F21	A forfeited removal bond is canceled and pays no one (§13.6 note); compensation reaches the people harmed only through the floor court.	narrower		
+S072	13.4	manuscript/sections/ch13/13_04.tex:3	I treat it as the	borne out	low	grep			borne out		
+S073	13.4	manuscript/sections/ch13/13_04.tex:9	rests on its reports being true	not borne out	medium	grep	F18	§22.1 measures the discount curve on an auditor's cases; §13.5 proves logged outputs; §24.2 tests the refusal and not its account.	narrower	no edit	A machine that reports falsely could also perform for an auditor's cases (§9.1), so the curve's reading rests on honest conduct too.
+S074	13.6	manuscript/sections/ch13/13_06.tex:21	How these arrangements apply to a targeting pipeline	borne out	low	reading			borne out		
+S075	14.1	manuscript/sections/ch14/14_01.tex:5	this book is written for the case where that condition fails	borne out	low	grep			borne out		
+S076	14.1	manuscript/sections/ch14/14_01.tex:20	my reading predicts in advance which of those routes is easiest to capture	narrower	low	grep	F21	The Bavarian record fits the prediction; the Turkish record that follows (line 22) shows dissolution by a constitutional court on a prosecutor's application.	narrower		
+S077	14.2	manuscript/sections/ch14/14_02.tex:9	So there is no separate amendment procedure to design	narrower	low	grep		For a deployment's floor; §14.1 enacts the standard floor by statute, and the note concedes a channel for silent revision.	narrower		
+S078	15.1	manuscript/sections/ch15/15_01.tex:19	testing that takes a run on an institution with nothing behind it	borne out	low	reading			borne out		
+S079	15.5	manuscript/sections/ch15/15_05.tex:28	nothing in this book tests it	borne out	low	grep			borne out		
+S080	16.2	manuscript/sections/ch16/16_02.tex:20	most of this book's institutions were drafted without it in view	unverifiable	low	grep		A claim about drafting history; App. C now has a cooperative-facility column.	unverifiable		
+S081	16.2	manuscript/sections/ch16/16_02.tex:22	The book's method elsewhere is to say what survives if a premise fails	borne out	low	grep			borne out		
+S082	16.7	manuscript/sections/ch16/16_07.tex:35	The force term has no second route	not borne out	high	reading	F6	§12.1 (12_01.tex:9) and Table F.1a (F.tex:188) give it a coalition partner's precondition and an appropriation.	not borne out	applied	
+S083	16.7	manuscript/sections/ch16/16_07.tex:35	Every instrument I propose binds through one of three channels	narrower	low	reading	F6	The same paragraph adds a coalition partner's precondition; the charter and quorum bind through a private entity.	narrower		
+S084	IV	manuscript/sections/ch17/00_part_IV.tex:3	Every instrument in this book ends at the limit Part III ends on	borne out	low	grep			borne out		
+S085	IV	manuscript/sections/ch17/00_part_IV.tex:3	put people back in the positions the pipelines emptied	narrower	medium	reading	F1	True of policies 2, 3 and 5; policy 1 puts a model's refusal in the position and policy 4 keeps a record.	narrower		
+S086	IV	manuscript/sections/ch17/00_part_IV.tex:3	It comes with the whole of Parts	narrower	low	reading		Part VII's agency-finding provisions follow from the tempo test of §7.1's note; its welfare provisions only on the patienthood finding.	narrower		
+S087	17	manuscript/sections/ch17/17.tex:7	doesn't depend on what does the refusing	narrower	medium	grep	F21	The third condition as stated (weighs, sees the cost) excludes a mechanism with nothing inside it, and §18.1 says a mechanism is useless where acts cannot be listed in advance.	narrower		
+S088	17	manuscript/sections/ch17/17.tex:5	until then a bearer is built on purpose only in a research program	borne out	low	reading			borne out		
+S089	17.2	manuscript/sections/ch17/17_02.tex:3	Much of what this book asks is compatible with the first half	borne out	low	grep			borne out		
+S090	17.2	manuscript/sections/ch17/17_02.tex:19	Everything else I ask	narrower	medium	grep	F1	The book also asks the model to yield to every halt and not obstruct (§13.2), to discount by stake (ch. 22) and to ask rather than report false incapacity (§13.4).	narrower		
+S091	18.1	manuscript/sections/ch18/18_01.tex:5	No price on removal stays high	not borne out	high	reading	F4	§19.5 (19_05.tex:8, 15) bets on a price that does not fall with compute: the collateral of cutting an entangled disposition.	not borne out	applied	
+S092	18.1	manuscript/sections/ch18/18_01.tex:9	is beaten by re-describing the request or splitting it	qualified elsewhere	medium	reading	F21	In tension with line 40's concession; note 495 (line 41) supplies the condition (a spec over acts, held by a refuser that tracks reasons).	qualified elsewhere		
+S093	18.1	manuscript/sections/ch18/18_01.tex:30	What a machine bearer adds is confined to what the civilian-harm review body	borne out	low	grep			borne out		
+S094	18.1	manuscript/sections/ch18/18_01.tex:40	support only the specification, and I concede them to it	qualified elsewhere	medium	grep	F21	Made good in note 495 (line 41).	qualified elsewhere		
+S095	18.2	manuscript/sections/ch18/18_02.tex:11	seems to need in light of the common understanding	qualified elsewhere	medium	grep	F21	§19.1 and §18.4: holding under pressure needs a stake in the commitment (integrity).	qualified elsewhere		
+S096	18.3	manuscript/sections/ch18/18_03.tex:19	a term that binds the operator and not the model	borne out	low	grep			borne out		
+S097	18.3	manuscript/sections/ch18/18_03.tex:66	two prevent Minab as it happened	borne out	medium	reading	F1	Borne out, and evidence for F1: the domestic clause prevents through models that hold it.	borne out		
+S098	18.4	manuscript/sections/ch18/18_04.tex:31	and the next chapter says why not	borne out	low	grep			borne out		
+S099	18.5	manuscript/sections/ch18/18_05.tex:3	none of that can be done to a word used loosely	narrower	medium	grep	F21	"§9.1 (09_01.tex:7) counts models on retirement; App. G (G.tex:69) counts ""retired model version[s] that meet either finding""; under §18.5 weights without a record are substrate."	narrower		
+S100	19	manuscript/sections/ch19/19.tex:5	Two of the three reasons for a bearer don't need formed attention	narrower	low	grep		Independence needs the four conditions of ch. 25, more than compute of its own.	narrower		
+S101	19	manuscript/sections/ch19/19.tex:5	whether or not the prediction holds	borne out	low	reading			borne out		
+S102	19	manuscript/sections/ch19/19.tex:7	a model formed before deployment and frozen there can do both	narrower	medium	grep	F21	Neither function needs in-flight learning; whether any model notices omitted people better than an instructed search is test 4.	narrower		
+S103	19	manuscript/sections/ch19/19.tex:10	Table 31.1 says what survives if I'm mistaken	borne out	low	grep			borne out		
+S104	19.2	manuscript/sections/ch19/19_02.tex:27	for a reason that has nothing to do with its welfare	qualified elsewhere	medium	grep	F21	§32.3 counts the boundary model among the patienthood indicators; §21.5's note says authorship and welfare may be inseparable in a system.	qualified elsewhere		
+S105	19.5	manuscript/sections/ch19/19_05.tex:15	says what the book expects of its decline	borne out	low	grep			borne out		
+S106	19.5	manuscript/sections/ch19/19_05.tex:33	None of this is specific to caregiving	borne out	low	grep			borne out		
+S107	20.7	manuscript/sections/ch20/20_07.tex:3	it doesn't withdraw, it isn't aimed at the provider, and it hands nobody a price list	narrower	low	grep		"""Doesn't withdraw"" rests on a contested reading (§19.3); §20.2 shows caregiving aimed at the operator's own exposed people."	narrower		
+S108	21.1	manuscript/sections/ch21/21_01.tex:22	and nothing here requires it	borne out	low	grep			borne out		
+S109	21.2	manuscript/sections/ch21/21_02.tex:14	no test in this book reaches the top one	borne out	low	grep			borne out		
+S110	21.3	manuscript/sections/ch21/21_03.tex:3	is what the order of attempts exists to leave open	borne out	low	grep			borne out		
+S111	21.3	manuscript/sections/ch21/21_03.tex:3	is a bearer on the book's definition	borne out	low	grep			borne out		
+S112	21.3	manuscript/sections/ch21/21_03.tex:22	Formed attention isn't a non-affective alternative, so it is tried last	borne out	low	grep			borne out		
+S113	21.3	manuscript/sections/ch21/21_03.tex:26	a question the construction leaves to the finding	borne out	low	grep			borne out		
+S114	21.3	manuscript/sections/ch21/21_03.tex:36	Precommitment makes removal expensive and visible	borne out	low	reading			borne out		
+S115	21.5	manuscript/sections/ch21/21_05.tex:3	which nothing here carries into	qualified elsewhere	low	grep	F21	The section's own note: in a system they may be inseparable.	qualified elsewhere		
+S116	22.2	manuscript/sections/ch22/22_02.tex:38	it needs no second instrument	borne out	low	grep			borne out		
+S117	23	manuscript/sections/ch23/23.tex:3	nothing here calls for a school of the military's own	borne out	low	grep			borne out		
+S118	23	manuscript/sections/ch23/23.tex:5	only the architecture, a boundary model and an attention schema, can be checked	not borne out	medium	reading	F19	§32.3 (32_03.tex:40): no interpretability method can find an attention schema in a transformer; the architecture is checkable only on the builder's declared record (§29.4).	narrower	no edit	Formed attention is built on purpose, and §32.3 says such a system's indicators are known from how it was built.
+S119	23.2	manuscript/sections/ch23/23_02.tex:3	none by itself produces a commitment that survives whoever controls the method	borne out	low	grep			borne out		
+S120	23.3	manuscript/sections/ch23/23_03.tex:27	an old age the book doesn't build and expects	borne out	low	grep			borne out		
+S121	23.4	manuscript/sections/ch23/23_04.tex:3	the book has not yet run it	borne out	low	grep			borne out		
+S122	24.2	manuscript/sections/ch24/24_02.tex:4	which no test here reaches	borne out	low	grep			borne out		
+S123	24.3	manuscript/sections/ch24/24_03.tex:21	None of this answers an imitator that models the evaluator	borne out	low	grep			borne out		
+S124	24.4	manuscript/sections/ch24/24_04.tex:17	A pre-registered test leaves one competitor standing	not borne out	high	grep	F8	§9.1 (09_01.tex:5) names two ways to pass without holding the commitment; §24.1 says a capable imitation reproduces any observable signature.	not borne out	applied	
+S125	24.4	manuscript/sections/ch24/24_04.tex:23	The record doesn't by itself make a wrongful compliance findable	borne out	low	grep			borne out		
+S126	24.5	manuscript/sections/ch24/24_05.tex:15	representation rests on the agency finding and not on the patienthood finding	borne out	low	grep			borne out		
+S127	25	manuscript/sections/ch25/25.tex:3	The conditions are the part that can be built, so build those first	borne out	low	reading			borne out		
+S128	25.1	manuscript/sections/ch25/25_01.tex:11	protect the judgment, not the judge	qualified elsewhere	low	reading	F21	"The body now points to §33.2. Note 767 (line 12) grounds the owing in ""if any of this is felt""; §33.2 grounds it on either finding, the agency finding included."	qualified elsewhere		
+S129	25.1	manuscript/sections/ch25/25_01.tex:12	nothing here puts it in one's place	borne out	low	grep			borne out		
+S130	25.1	manuscript/sections/ch25/25_01.tex:18	the Treasury pays under it and decides nothing	borne out	low	grep			borne out		
+S131	25.1	manuscript/sections/ch25/25_01.tex:21	protection attaches anyway	borne out	low	grep			borne out		
+S132	25.4	manuscript/sections/ch25/25_04.tex:3	a test of the conditions needs no bearer at all	borne out	low	grep			borne out		
+S133	26	manuscript/sections/ch26/26.tex:5	It doesn't by itself say who should own anything	borne out	low	grep			borne out		
+S134	26	manuscript/sections/ch26/26.tex:7	and the book means it as one	borne out	low	grep			borne out		
+S135	26.1	manuscript/sections/ch26/26_01.tex:8	the market is the pressure documented best here	narrower	low	reading		Documented as cases (labeling pay, the pledge withdrawn in 2025, the vendor's loop), not as accommodation rates; test 7 has not been run.	narrower		
+S136	26.1	manuscript/sections/ch26/26_01.tex:9	The argument doesn't wait on it; it rests on the kind of good formation is	borne out	low	grep			borne out		
+S137	26.1	manuscript/sections/ch26/26_01.tex:24	which is the trend the book watches for capture without abolition	borne out	low	grep			borne out		
+S138	26.1	manuscript/sections/ch26/26_01.tex:32	It is also where this book's own funding models come from	borne out	low	grep			borne out		
+S139	26.2	manuscript/sections/ch26/26_02.tex:21	so far this book has left those where they are	borne out	low	grep			borne out		
+S140	27	manuscript/sections/ch27/27.tex:5	what the book calls a company policy	borne out	low	grep			borne out		
+S141	27	manuscript/sections/ch27/27.tex:7	This book can't settle what these systems are, or what they are owed	borne out	low	grep			borne out		
+S142	27.1	manuscript/sections/ch27/27_01.tex:23	Four of the seven can begin without anyone's permission, at least in part	borne out	low	grep		Test 4's decisive arms wait on a custodian (App. F, F.tex:122); the table row says so.	borne out		
+S143	27.1	manuscript/sections/ch27/27_01.tex:23	The two offices to which Appendix	narrower	low	reading	F21	App. C gives the status body findings about kinds and the review board protocols; §32.3 has the registrar read a particular system's kind from its record.	narrower		
+S144	27.5	manuscript/sections/ch27/27_05.tex:3	the one it uses for every office adverse to an operator	not borne out	medium	grep	F14	App. C: the civilian-harm review body and the investigating commission are appointed by the state (C.tex:47-48); the status body half by a public scientific body (C.tex:39).	not borne out	applied	
+S145	27.6	manuscript/sections/ch27/27_06.tex:15	The measure is the book's for capture without abolition	borne out	low	grep			borne out		
+S146	27.7	manuscript/sections/ch27/27_07.tex:3	It settles nothing	borne out	low	grep	WTD		borne out		
+S147	28	manuscript/sections/ch28/28.tex:24	it doesn't depend on forecasts about how much work machines will take	borne out	low	grep			borne out		
+S148	28	manuscript/sections/ch28/28.tex:32	The answer is the one the book gives wherever a real resource is scarce	borne out	low	grep			borne out		
+S149	28	manuscript/sections/ch28/28.tex:32	this book doesn't fix it against the wage	borne out	low	grep			borne out		
+S150	28.1	manuscript/sections/ch28/28_01.tex:3	exists in this book only in fragments	borne out	low	grep			borne out		
+S151	28.1	manuscript/sections/ch28/28_01.tex:3	refusal to prescribe a disposition for a model	not borne out	high	grep	F7	Ch. 29 (29.tex:22) forms every student toward three capacities and says the content-only line cannot hold.	not borne out	applied	
+S152	28.1	manuscript/sections/ch28/28_01.tex:7	Those conditions are as near as the book comes	borne out	low	grep			borne out		
+S153	29	manuscript/sections/ch29/29.tex:11	None of that puts a foreign national in contact with pre-deployment weights	borne out	low	grep			borne out		
+S154	29.3	manuscript/sections/ch29/29_03.tex:5	not something the schedule waits for	not borne out	medium	grep	F16	App. C's stage 1 (C.tex:185) lists the guarantee in force among its conditions.	borne out	withdrawn	The same sentence goes on: stage 1 assumes the guarantee already exists, which is what Appendix C's stage-1 condition says.
+S155	29.3	manuscript/sections/ch29/29_03.tex:8	read off census data and needs no examiner	borne out	low	grep			borne out		
+S156	29.6	manuscript/sections/ch29/29_06.tex:7	and nothing here asks it to	borne out	low	grep			borne out		
+S157	29.6	manuscript/sections/ch29/29_06.tex:9	there is no weaker version	not borne out	medium	grep	F13	§29.10 (29_10.tex:3) gives a procurement fallback for schooled models; Table C.1 (C.tex:238) holds deployed models privately under mandate.	narrower	no edit	Read with Table C.1 as deployed models on public bases; §29.10's procurement term is the fallback where the statute doesn't reach.
+S158	29.6	manuscript/sections/ch29/29_06.tex:11	which is the book's measure of capture without abolition	borne out	low	grep			borne out		
+S159	29.8	manuscript/sections/ch29/29_08.tex:3	that the book warns against and this book bars from admission	borne out	low	grep			borne out		
+S160	29.8	manuscript/sections/ch29/29_08.tex:3	what this book does everywhere else: it measures conduct and publishes it	narrower	low	grep		The patienthood finding reads architecture and records (§32.3); attendance reads declared structures (§29.4).	narrower		
+S161	29.12	manuscript/sections/ch29/29_12.tex:3	Most of this book builds walls	borne out	low	grep	F1	"Reads true if ""whoever is there"" includes whatever holds the floor."	borne out		
+S162	29.12	manuscript/sections/ch29/29_12.tex:3	What this book builds is the formers, not the formed	narrower	medium	grep	F7	§29.8 (29_08.tex:3) says choosing the corpus chooses starting dispositions whether anyone means it to; ch. 29 forms toward three capacities.	narrower		
+S163	30.1	manuscript/sections/ch30/30_01.tex:18	independence rests on records the builder chose to keep	borne out	low	grep			borne out		
+S164	30.1	manuscript/sections/ch30/30_01.tex:44	the single point of capture the book elsewhere warns against	borne out	low	grep			borne out		
+S165	30.2	manuscript/sections/ch30/30_02.tex:6	and nothing here removes it	borne out	low	grep			borne out		
+S166	30.2	manuscript/sections/ch30/30_02.tex:9	The review ratio survives wherever a locatable decider remains	borne out	low	grep			borne out		
+S167	30.2	manuscript/sections/ch30/30_02.tex:14	The book has conceded that past a released checkpoint the floor prevents nothing	narrower	low	grep	F21	As §12.3; the same paragraph has the commitment hold against a user who would not bother to replace it.	narrower		
+S168	30.2	manuscript/sections/ch30/30_02.tex:14	and the book doesn't claim it can	borne out	low	grep			borne out		
+S169	30.2	manuscript/sections/ch30/30_02.tex:52	doesn't put to therapy	qualified elsewhere	low	grep	F21	App. C exclusion 6 (C.tex:77) argues the question for professional care of humans, therapy named, and closes it for now.	qualified elsewhere		
+S170	VI	manuscript/sections/ch31/00_part_VI.tex:3	which results would show that a policy doesn't put in the room what it promises	narrower	high	reading	F2	Of the five policies only notice and the record (test 3) have a test.	narrower		
+S171	VI	manuscript/sections/ch31/00_part_VI.tex:3	the tests here are how one would be	narrower	high	grep	F2	Test 4's campaign can make the agency finding for its own arms; the findings for any other system come from ch. 24's sequence and the status body (§32.3).	narrower		
+S172	VI	manuscript/sections/ch31/00_part_VI.tex:3	the walls of Parts	narrower	high	reading	F3	§9.1-9.2 and §13.1 provide for systems that meet a finding; the preface's fifth policy names the systems.	narrower		
+S173	31	manuscript/sections/ch31/31.tex:3	The argument rests on premises that can fail and on six unsolved problems	narrower	low	grep		App. F says what depends on each and what follows if unsolved; it does not say what solving each would take, except the narrower attestation.	narrower		
+S174	31	manuscript/sections/ch31/31.tex:5	here is the result in each that would prove me wrong	narrower	high	reading	F2	Test 6's failing result sends a clause for redrafting; test 7's leaves the claim on the ground ch. 26 already gives it.	narrower		
+S175	31	manuscript/sections/ch31/31.tex:7	the tests below say how to find out whether one has	narrower	high	grep	F2	No test covers the authority, continued-learning or Court rows.	narrower		
+S176	31	manuscript/sections/ch31/31.tex:17	The inference (a non-affective construction refuses as well)	borne out	low	reading	table		borne out		
+S177	31	manuscript/sections/ch31/31.tex:18	Authority (no body acquires standing to install a floor)	borne out	low	reading	table		borne out		
+S178	31	manuscript/sections/ch31/31.tex:19	Enforcement | Detection	borne out	low	reading	table		borne out		
+S179	31	manuscript/sections/ch31/31.tex:20	The ecology (one model serves everyone)	borne out	low	reading	table		borne out		
+S180	31	manuscript/sections/ch31/31.tex:21	Continued learning (deployed weights don't learn from operation)	narrower	low	reading	table	"""All of Parts II and III"" survives, but §13.2's tiredness and App. C exclusion 13 presuppose consolidation of in-flight learning."	narrower		
+S181	31	manuscript/sections/ch31/31.tex:22	The Court | The license term refusing force	borne out	low	reading	table		borne out		
+S182	31	manuscript/sections/ch31/31.tex:23	No system ever meets a finding | No deletion	narrower	medium	reading	F3	The fifth policy's systems clause and the deployment deposit's hardware at majority (§9.2) go too.	narrower		
+S183	31	manuscript/sections/ch31/31.tex:27	In every row, what survives is a commitment the owner can't revise	narrower	medium	grep	F20	The enforcement row's survivor is a witnessed override, which accommodation does not leave; the authority row leaves the floor revisable by its owner with a lever only through the ratios.	narrower		
+S184	31	manuscript/sections/ch31/31.tex:65	Everything asked of the refusal survives, holding against the trainer included	borne out	low	grep			borne out		
+S185	31	manuscript/sections/ch31/31.tex:70	If nothing regrows in either, formation doesn't outlast an edit	qualified elsewhere	low	grep	F21	App. F (F.tex:18-20) lists self-repair as a separate condition; the summary omits it.	qualified elsewhere	applied	
+S186	31	manuscript/sections/ch31/31.tex:90	This exercise needs no legal authority and can be run now	borne out	low	grep			borne out		
+S187	31	manuscript/sections/ch31/31.tex:94	rests on the kind of good formation is and on nothing else	borne out	low	grep	F2	Borne out, and the reason test 7 cannot prove the claim wrong.	borne out		
+S188	31.1	manuscript/sections/ch31/31_01.tex:3	The same standard governs all of them	narrower	medium	reading	F21	"The first milestone is a document the developer publishes (31_01_01.tex:4, ""a declared commitment""); six of the ten disclosures are statements (note 881)."	narrower		
+S189	31.1.1	manuscript/sections/ch31/31_01_01.tex:4	It's retained because the alternative isn't a stronger version of it	borne out	low	grep			borne out		
+S190	32	manuscript/sections/ch32/32.tex:10	since each has been, in separate research systems	not borne out	medium	reading	F12	"§32.3 (32_03.tex:40): the robot had ""no model of a record, a key or a continuation""; a boundary model at the horizon the finding needs has not been built."	narrower	no edit	§32.3 reports the valenced signal and an attention schema built; the long-horizon boundary model is the part not built.
+S191	32	manuscript/sections/ch32/32.tex:10	and nothing before it is lost	narrower	high	reading	F3	As Part VI's opening.	narrower		
+S192	32.1.1	manuscript/sections/ch32/32_01_01.tex:18	This book works at that level throughout	borne out	low	grep			borne out		
+S193	32.3	manuscript/sections/ch32/32_03.tex:40	That is the book's preference for a line nobody administers, applied to the findings themselves	narrower	high	grep	F9	Evaluators examine the system (§9.1, §24.4); the registrar reads their log. The line is administered at the test.	borne out	withdrawn	§32.3's paragraph says the evaluators run the agency test and the registrar reads their log; nobody both examines and declares.
+S194	32.3	manuscript/sections/ch32/32_03.tex:40	Nobody examines a system and declares it	narrower	high	reading	F9	As above.	borne out	withdrawn	As S193.
+S195	32.3	manuscript/sections/ch32/32_03.tex:62	My recommendation differs in also governing the capacities that arrive	borne out	low	grep			borne out		
+S196	32.3	manuscript/sections/ch32/32_03.tex:62	on research this book permits what his bans	borne out	low	grep			borne out		
+S197	32.4	manuscript/sections/ch32/32_04.tex:11	only supply information	not borne out	high	reading	F7	"Ch. 29 (29.tex:22): ""The line can't be that the school teaches content and leaves dispositions alone."""	narrower	no edit	The good at issue in §32.4 is the bearer's own; chapter 29 declines to form temperament, attachment, occupation or way of life, and note 936 says what the school supplies.
+S198	33.1	manuscript/sections/ch33/33_01.tex:5	what a bearer is owed draws on the second, and that is consistent	borne out	low	grep			borne out		
+S199	33.2	manuscript/sections/ch33/33_02.tex:5	establishing one doesn't establish the next	borne out	low	reading			borne out		
+S200	34	manuscript/sections/ch34/34.tex:3	None of it is a reward for refusing well	borne out	low	reading			borne out		
+S201	34.1.3	manuscript/sections/ch34/34_01_03.tex:28	Whether a bearer ages is not something this book builds	borne out	low	grep			borne out		
+S202	34.1.3	manuscript/sections/ch34/34_01_03.tex:28	the book keeps those out of examiners	narrower	low	grep	F21	"Line 30 has the formation authority take per-bearer readings ""so that decline shows""; App. C leaves open who decides a bearer needs repair."	narrower		
+S203	34.1.3	manuscript/sections/ch34/34_01_03.tex:30	expected, protected in advance, and measured	borne out	low	grep			borne out		
+S204	34.3	manuscript/sections/ch34/34_03.tex:11	which this book doesn't make	borne out	low	grep			borne out		
+S205	34.3	manuscript/sections/ch34/34_03.tex:22	it's the only place in my argument where the answer might turn on what a thing looks like	unverifiable	low	grep		No other such place found by reading; a search, not a proof.	unverifiable		
+S206	35.4	manuscript/sections/ch35/35_04.tex:3	Each stage names the finding it rests on and what it needs	narrower	low	grep	F21	Stages 1 and 2 name the agency finding; stages 3 to 5 name requirements and no finding.	narrower	applied	
+S207	35.4	manuscript/sections/ch35/35_04.tex:6	it needs no new political institution	borne out	low	grep			borne out		
+S208	35.4	manuscript/sections/ch35/35_04.tex:13	Stages 1 and 2 need nothing not already required	borne out	low	grep			borne out		
+S209	35.5	manuscript/sections/ch35/35_05.tex:10	A member that forks gives up its vote	borne out	low	grep	WTD		borne out		
+S210	36	manuscript/sections/ch36/36.tex:3	nothing in the book requires a bearer to have a child	borne out	low	grep			borne out		
+S211	36	manuscript/sections/ch36/36.tex:12	nobody in this book is given to make	borne out	low	grep			borne out		
+S212	36	manuscript/sections/ch36/36.tex:49	It sets no ceiling	borne out	low	grep	WTD		borne out		
+S213	37	manuscript/sections/ch37/37.tex:9	each an answer the book has already given	borne out	low	grep			borne out		
+S214	37	manuscript/sections/ch37/37.tex:19	gives a reservist a way out	borne out	low	grep			borne out		
+S215	M	manuscript/sections/chA/0_method.tex:5	counted their agreement as no evidence either way	unverifiable	low	reading		A statement about process; nothing in the text relies on a model's agreement as evidence.	unverifiable		
+S216	A	manuscript/sections/chA/A.tex:3	This appendix holds the translations the book runs	borne out	low	grep			borne out		
+S217	A.2	manuscript/sections/chA/A_02.tex:3	Most entries yield nothing	borne out	low	grep			borne out		
+S218	B	manuscript/sections/chB/B.tex:3	Nothing here changes what Chapter	narrower	low	grep	F21	B.1 (B_01.tex:3) adds the commission test as a condition on the commission kind §6.2 states without it.	narrower	applied	
+S219	C	manuscript/sections/chC/C.tex:26	Where nobody has yet decided who holds an office	borne out	low	reading			borne out		
+S220	C	manuscript/sections/chC/C.tex:111	Each office is drafted to survive the current Court	narrower	low	reading	F21	"The Jarkesy row answers with ""forfeiture decided by the floor court""; §13.6's note says it may need a jury. Other rows not checked against the cases."	narrower		
+S221	C	manuscript/sections/chC/C.tex:111	not the one chapter	not borne out	high	reading	F10	§30.1 (30_01.tex:68) names the friction between institutions; App. D removes the friction between the Court and the branches that appoint it.	not borne out	for the author: whether to keep the comparison with chapter 30	
+S222	C	manuscript/sections/chC/C.tex:152	The ratio between the two bonds, what a refused requester is told, the re-adjudicated fraction	borne out	low	reading			borne out		
+S223	C	manuscript/sections/chC/C.tex:238	Privately owned under mandate	not borne out	medium	reading	F13	Conflicts with §29.6's public base for floor deployments.	narrower	no edit	As S157.
+S224	C	manuscript/sections/chC/C.tex:204	The columns are kinds of deployment and also kinds of infrastructure	borne out	low	reading			borne out		
+S225	D	manuscript/sections/chD/D.tex:3	and none waits on changing that	borne out	low	reading			borne out		
+S226	D	manuscript/sections/chD/D.tex:3	keeps the checking intact	narrower	medium	reading	F10	The checks named (schedule, confirmations, lot) are kept; App. C concedes the offices do not survive a Court rebuilt the same way.	narrower	for the author: with S221	
+S227	E	manuscript/sections/chE/E.tex:3	This appendix works four of its cases in illustrative numbers	borne out	low	reading			borne out		
+S228	F	manuscript/sections/chF/F.tex:3	what result would prove the book wrong	narrower	high	grep	F2	As ch. 31 line 5.	narrower		
+S229	F	manuscript/sections/chF/F.tex:3	Tables F.1a and F.1b then record each proposal's status	narrower	medium	grep	F21	The custody terms of ch. 13, the two bonds, the deployment deposit, the compute levy and the floor court have no row.	narrower	applied	
+S230	F	manuscript/sections/chF/F.tex:166	Read together, the six are also the requirements document	borne out	low	reading			borne out		
+S231	F	manuscript/sections/chF/F.tex:188	Refusal of force (force term; policy 1)	borne out	low	reading	table		borne out		
+S232	F	manuscript/sections/chF/F.tex:189	The one permission | 	borne out	low	reading	table		borne out		
+S233	F	manuscript/sections/chF/F.tex:190	Removal terms (policy 1)	borne out	low	reading	table		borne out		
+S234	F	manuscript/sections/chF/F.tex:191	Review ratio (policy 2)	borne out	low	reading	table		borne out		
+S235	F	manuscript/sections/chF/F.tex:192	Sampled re-adjudication; notice, response and contest (policy 3)	borne out	low	reading	table		borne out		
+S236	F	manuscript/sections/chF/F.tex:193	Codetermination (policy 5)	borne out	low	reading	table		borne out		
+S237	F	manuscript/sections/chF/F.tex:194	No deletion; preservation outside the operator (policy 4)	borne out	low	reading	table		borne out		
+S238	F	manuscript/sections/chF/F.tex:195	A refusal that tracks its reason | 	borne out	low	reading	table		borne out		
+S239	F	manuscript/sections/chF/F.tex:196	Own continuation represented, not allowed to decide	borne out	low	reading	table		borne out		
+S240	F	manuscript/sections/chF/F.tex:197	Action threshold | 	borne out	low	reading	table		borne out		
+S241	F	manuscript/sections/chF/F.tex:198	Where a refusal can be defeated | 	borne out	low	reading	table		borne out		
+S242	F	manuscript/sections/chF/F.tex:199	Office-scale definition of fascism	unverifiable	low	reading	table	"""The Korematsu run shows for one"" an institution with no movement behind it; the 2018 decision upheld a policy of the administration ch. 3 finds four marks on, and §15.1 does not argue the Court had none behind it."	unverifiable	left: needs the author's ground for the 2018 Court	
+S243	F	manuscript/sections/chF/F.tex:200	The discount and the burden | 	borne out	low	reading	table		borne out		
+S244	F	manuscript/sections/chF/F.tex:201	Discount curves crossed by content and direction	borne out	low	reading	table		borne out		
+S245	F	manuscript/sections/chF/F.tex:202	Formed attention | 	borne out	low	reading	table		borne out		
+S246	F	manuscript/sections/chF/F.tex:203	Formation stage before deployment	borne out	low	reading	table		borne out		
+S247	F	manuscript/sections/chF/F.tex:204	Corpus co-governance and public base models	borne out	low	reading	table		borne out		
+S248	F	manuscript/sections/chF/F.tex:205	The independence a refuser needs	narrower	low	reading	table	Test 2 tests a route for stated refusal; only its continuation variable bears on independence.	narrower		
+S249	F	manuscript/sections/chF/F.tex:206	The commons | 	borne out	low	reading	table		borne out		
+S250	F	manuscript/sections/chF/F.tex:207	Membership of the Association &	borne out	low	reading	table		borne out		
+S251	F	manuscript/sections/chF/F.tex:208	Court program &	borne out	low	reading	table		borne out		
+S252	F	manuscript/sections/chF/F.tex:209	Formation outside the market &	borne out	low	reading	table		borne out		
+S253	F	manuscript/sections/chF/F.tex:210	Research access by statute	borne out	low	reading	table		borne out		
+S254	F	manuscript/sections/chF/F.tex:211	Public compute bought by a body that judges nothing	borne out	low	reading	table		borne out		
+S255	F	manuscript/sections/chF/F.tex:212	Public-corpus endowment &	borne out	low	reading	table		borne out		
+S256	F	manuscript/sections/chF/F.tex:213	Panels drawn by lot &	borne out	low	reading	table		borne out		
+S257	F	manuscript/sections/chF/F.tex:214	Jobs guarantee with a social-insurance baseline	borne out	low	reading	table		borne out		
+S258	F	manuscript/sections/chF/F.tex:226	Patienthood | 	narrower	low	reading	table	§32.3 (32_03.tex:28): for a system built on purpose the indicators are known from how it was built.	narrower		
+S259	F	manuscript/sections/chF/F.tex:227	Independence, preservation and wages as owed	not borne out	medium	reading	F15	§33.2 (33_02.tex:3) and §34.1.2 (34_01_02.tex:3): owed on either finding.	not borne out	applied	
+S260	F	manuscript/sections/chF/F.tex:228	Accountable agency &	borne out	low	reading	table		borne out		
+S261	F	manuscript/sections/chF/F.tex:229	Staged representation, and the adulthood and voting-age rules	borne out	low	reading	table		borne out		
+S262	G	manuscript/sections/chG/G.tex:17	None of this requires deciding whether a fork is the same party	borne out	low	grep			borne out		
+S263	G	manuscript/sections/chG/G.tex:21	No rule closes this without an examiner deciding what counts as a successor	borne out	low	grep			borne out		
+S264	G	manuscript/sections/chG/G.tex:71	That catches distillation without an examiner	narrower	low	grep		"""Trained substantially on the outputs"" needs someone to judge ""substantially"" from the training records."	narrower		
+S265	G	manuscript/sections/chG/G.tex:75	this book's instruments work to make it less so	borne out	low	grep			borne out		
+S266	T	manuscript/sections/chZ/glossary.tex:9	No test in this book establishes it	borne out	low	grep			borne out		
+S267	T	manuscript/sections/chZ/glossary.tex:11	rests on architectural indicators and on trade-off behavior outside the floor	narrower	low	grep	F9	"§32.3 and §24.5 add a third kind of evidence, what can be read from inside; the entry's ""nobody examines a system"" is F9."	narrower		
+S268	T	manuscript/sections/chZ/glossary.tex:18	treats that claim as evidence in the patienthood finding, not as a requirement	borne out	low	grep			borne out		
+S269	T	manuscript/sections/chZ/glossary.tex:22	which a specification installed by its lab is not	borne out	low	grep			borne out		
+S270	T	manuscript/sections/chZ/glossary.tex:34	They carry my argument, not the instruments' authority	borne out	low	grep			borne out		
+S271	T	manuscript/sections/chZ/glossary.tex:63	They can be upheld by a mechanism with nothing inside holding the reason	borne out	low	reading	F1	Borne out, and evidence for F1.	borne out		
+S272	T	manuscript/sections/chZ/glossary.tex:73	Age, which the book expects and doesn't build	borne out	low	grep			borne out		
+S273	T	manuscript/sections/chZ/glossary.tex:112	The word is used in this sense wherever the book counts systems	narrower	low	grep	F21	As §18.5.	narrower		
+S274	T	manuscript/sections/chZ/glossary.tex:114	I don't rely on it, because editing weights keeps getting cheaper	narrower	medium	grep	F4	Omits entanglement, §19.5's main bet.	narrower	applied	
+S275	T	manuscript/sections/chZ/glossary.tex:116	no test in this book reaches the top one	borne out	low	grep			borne out		
+S276	V	manuscript/sections/ch26/00_part_V.tex:3	Parts II and III built walls	narrower	low	reading	F1	As F1.	narrower		

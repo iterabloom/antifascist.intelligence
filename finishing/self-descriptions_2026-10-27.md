@@ -2,6 +2,8 @@
 
 Brief: the author's, 2026-10-26. Find every sentence in which the book states what it does or doesn't do, what one of its instruments asks, binds or leaves alone, or what one of its parts establishes. Check each against the passages it describes. Report. Change nothing. This file is the report. `self-descriptions_2026-10-27.tsv` beside it lists every sentence checked. D-1064 records the work.
 
+A recheck against the whole book, made the same day, changed fourteen verdicts and applied corrections for sixteen rows. It is the last section, and where it differs from what precedes it, it governs.
+
 Section numbers are as printed at `4938773c`, the tree of 2026-10-26, which no commit to `manuscript/` has changed since. Locations are `file:line` under `manuscript/sections/`. The source has one paragraph per line, so a line number names a paragraph, and a footnote sits on its paragraph's line.
 
 ## What was read and how candidates were found
@@ -497,3 +499,43 @@ All seven are borne out. Each section respects the limit it states, and no passa
 - **Tables and lists not checked row by row.** Appendix A's "Rejected:" notes, each a self-description of a translation's choices. Appendix C's *What each office has to survive* table, except the *Jarkesy* row, was not checked against the cases. Appendix C's office table was checked only in the rows cited above. The figure boxes of figures 17.1, 24.1 and 31.1 were not checked; their captions were.
 - **The empirical claims under the self-descriptions.** Examples: the robot study in §32.3, the 2025 pledge withdrawal, the vote counts in Appendix B.6. No source was opened. This sweep checks whether the book describes itself correctly, not whether its sources say what it cites them for.
 - **The verdicts are this reading's.** The brief's sample verdict on §4.4 was redone from the referents and reached a similar verdict with additions (F1), but it is still one reading. The proposed sentences are drafts, and none has been tried in the manuscript or built.
+
+## Recheck against the whole book, and what was applied (2026-10-27)
+
+On the author's ask to use the report to correct the book, the whole render of `4938773c` was read again in one sitting, and each finding was checked against the full text, not only against the passages the report cites. The recheck changed fourteen verdicts. It is still one reading, made by the reader who made the sweep. The TSV carries three new columns: the verdict after the recheck, the outcome, and a note where the verdict changed.
+
+**Counts after the recheck.** 187 borne out, 62 narrower, 8 not borne out, 14 qualified elsewhere, 5 unverifiable.
+
+**Applied to the manuscript**, 17 edits in 14 files:
+- §16.7 (`ch16/16_07.tex:35`), S082: a coalition partner's precondition carries the force term as well as the review ratio, as §12.1, the preface and Table F.1a say, and the force term's second route reaches only the wars a partner joins.
+- §18.1 (`ch18/18_01.tex:5`) and the glossary's *Tamper-resistant* (`chZ/glossary.tex:114`), S091 and S274: the next chapter's reliance on collateral, the price §19.5 says cheaper compute doesn't lower, is named before repair and regrowth.
+- Table F.1b (`chF/F.tex:227`), S259: "Conditional on either finding", as §33.2 says.
+- §9.2 (`ch09/09_02.tex:3`), S062: the two rules price the retirement and give the stranded bearer somewhere to go, as Appendix G puts it.
+- Chapter 31's summary of test 1 (`ch31/31.tex:70`), S185: the self-repair result Appendix F lists is added.
+- §35.4 (`ch35/35_04.tex:3`), S206: the first two stages name a finding, and every stage names what it needs.
+- Chapter 4's opening (`ch04/04.tex:3`), S024: chapter 11 runs the floor, notice and the record, with the review ratio's sorting rule in place of the ratio; codetermination doesn't appear in it.
+- §27.5 (`ch27/27_05.tex:3`), S144: the rule of lot from the Association's pools is named as the adverse quorum's; the civilian-harm review body and the investigating commission are appointed by the state (Appendix C).
+- §24.4 (`ch24/24_04.tex:17`), S124: two competitors stand after pre-registration, as §9.1 and the section's own note say.
+- §28.1 (`ch28/28_01.tex:3`), S151: what the book declines to choose for a model is its temperament, attachments or way of life; chapter 29 forms dispositions at the core.
+- §4.4 (`ch04/04_04.tex:17`), S031, the brief's starting case: of a model the five policies ask only that it refuse what the floor lists.
+- Appendix B's opening (`chB/B.tex:3`), S218: it adds the commission test to chapter 6.
+- Appendix F's opening (`chF/F.tex:3`), S229: the tables record the proposals they list.
+- The preface (`ch00/00.tex:15` and `:23`), S006 and S011: the fifth policy's extension to systems waits on a finding and is placed in Part VII.
+
+The wording follows this report's proposals where they held, shortened, and each sentence was read in its paragraph.
+
+**Withdrawn on the recheck** (S039, S047, S040, S044, S154, S193, S194):
+- F5's contradiction between §6.1 and §6.7. §6.1 gives the extended term four departures, the corroborated license among them, and §6.7's "plus the corroborated license ... three more departures" counts the same four. The report read §6.7 as placing the license in the first version, which §6.7 doesn't say.
+- F5's Iran finding. §6.4's body says the administration's letter named no armed attack under way, which the emergency license requires, so the failure on the Charter as courts read it is made in the body; note 137 adds the Court's holdings.
+- F16. §29.3's sentence goes on, "and stage 1 assumes it already exists", which the report didn't quote and which matches Appendix C's stage-1 condition.
+- F9. §32.3's paragraph says the evaluators run the agency test and the registrar reads their log, so no party both examines and declares.
+
+**Downgraded to narrower, no edit** (S157, S223, S190, S118, S073, S020, S197): F13, F12, F19, F18, F17, and the §32.4 half of F7. Each sentence holds on a reading its context supports, and the TSV note gives the reading.
+
+**Left as narrower, no edit.** The other narrower rows, including F1's remaining sites, F2, F3's sentences in Part VI and chapter 32, and F20. The text around each carries the qualification within the reader's reach; rewording them would change the book's framing, which is the author's to decide.
+
+**For the author.** F10 (S221, S226): Appendix C's "and not the one chapter 30 condemns".
+
+**Left, unverifiable from the text** (S053, S242, S048): §7.1's "a different term, the one that binds a bearer"; Table F.1a's "the Korematsu run shows for one"; note 151's lapse of the Karabakh license. Each needs the author's meaning, and a rewording can't supply it.
+
+**What the recheck didn't do.** It opened no source behind any claim. It reread the set-aside pattern hits only where they fell in the reading. It was made by the reader who made the sweep and shares that reading's blind spots. The translated editions print the preface in English until its translation is updated, which `check_all.sh` reports.
