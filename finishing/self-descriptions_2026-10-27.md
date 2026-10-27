@@ -536,6 +536,8 @@ The wording follows this report's proposals where they held, shortened, and each
 
 **For the author, then decided.** F10 (S221, S226): Appendix C's "and not the one chapter 30 condemns". The author chose to cut the comparison and keep the defense (D-1066).
 
+**Applied later, on the author's word.** F2's Part VI sentence (S171), "the tests here are how one would be": of the seven tests only the formed-attention test can make a finding, and only for its own arms. Part VI's opening now names the two findings and says what each rests on, chapter 24's test and the record of how a system was built (D-1067).
+
 **Left, unverifiable from the text** (S053, S242, S048): §7.1's "a different term, the one that binds a bearer"; Table F.1a's "the Korematsu run shows for one"; note 151's lapse of the Karabakh license. Each needs the author's meaning, and a rewording can't supply it.
 
 **What the recheck didn't do.** It opened no source behind any claim. It reread the set-aside pattern hits only where they fell in the reading. It was made by the reader who made the sweep and shares that reading's blind spots. The translated editions print the preface in English until its translation is updated, which `check_all.sh` reports.
