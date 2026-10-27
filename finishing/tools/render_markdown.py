@@ -128,6 +128,11 @@ ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
 
 # Escaped characters, restored to themselves.
 UNESCAPE = {r"\$": "$", r"\%": "%", r"\&": "&", r"\#": "#", r"\_": "_"}
+# Text-mode symbol commands, as Unicode. \textendash first reached the output
+# in Appendix F's table, the "chs. 33–34" D-1062 wrote; an optional {} after
+# the command is its terminator and goes with it.
+TEXT_SYMBOLS = {"textendash": "–", "textemdash": "—",
+                "textperiodcentered": "·"}
 
 
 def book_title(root):
@@ -460,6 +465,8 @@ def inline(text, labels):
     text = re.sub(r"\\standing\{(.*)\}", r"> \1", text)
     for pattern in DROP_COMMANDS:
         text = re.sub(pattern, "", text)
+    text = re.sub(r"\\(%s)(?![A-Za-z])(?:\{\})?" % "|".join(TEXT_SYMBOLS),
+                  lambda m: TEXT_SYMBOLS[m.group(1)], text)
     text = text.replace(r"\S", "§").replace("~", " ")
     for old, new in UNESCAPE.items():
         text = text.replace(old, new)
