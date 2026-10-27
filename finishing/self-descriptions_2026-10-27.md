@@ -534,7 +534,7 @@ The wording follows this report's proposals where they held, shortened, and each
 
 **Left as narrower, no edit.** The other narrower rows, including F1's remaining sites, F2, F3's sentences in Part VI and chapter 32, and F20. The text around each carries the qualification within the reader's reach; rewording them would change the book's framing, which is the author's to decide.
 
-**For the author.** F10 (S221, S226): Appendix C's "and not the one chapter 30 condemns".
+**For the author, then decided.** F10 (S221, S226): Appendix C's "and not the one chapter 30 condemns". The author chose to cut the comparison and keep the defense (D-1066).
 
 **Left, unverifiable from the text** (S053, S242, S048): §7.1's "a different term, the one that binds a bearer"; Table F.1a's "the Korematsu run shows for one"; note 151's lapse of the Karabakh license. Each needs the author's meaning, and a rewording can't supply it.
 
