@@ -5,7 +5,7 @@ manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	749a8b88aa544a7054b9860f3e1e075812040b3846c34b4bd557e538f96d1198	3
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld No Work	d779e5ad155366f9b3b0478dae0dfa397b0321d8b37ec12f42a48bd9ad9304a5	4
 manuscript/sections/ch03/03.tex	3	What Fascism Needs	264dc5111d7f574ccffad812b9f32710c0c4230ee99bc401c70b3b102cabd2a2	5
-manuscript/sections/ch03/03_01.tex	3.1	Where the operations came from	6dda5e5a2d20597084689c501d8af8db5a4643baab96faeccbd1b4bd15b9ae68	6
+manuscript/sections/ch03/03_01.tex	3.1	Where the operations came from	750d5ac19aaa79f036205ec7fd49b5d670ae34375b692fa0d2d2b43d1170d304	6
 manuscript/sections/ch03/03_02.tex	3.2	Brought into line	f24e1c722140c746701f4a70f1b52c7b1765346739876a805f43bc6f373f304f	7
 manuscript/sections/ch04/00_part_II.tex			cac8c65d49feb6106015b3f25048bdc7f3821541590eafd069fce974395e8828	8
 manuscript/sections/ch04/04.tex	4	The Floor and the Own-Case Rule	4c1796c5413e3775979ed1eae427d485ac9de51b98ca6862a3e4c6fe9ee746a4	9
@@ -143,7 +143,7 @@ manuscript/sections/ch26/26.tex	26	Public Schools	84b22d2ef008ddabf905ddef039bd3
 manuscript/sections/ch26/26_01.tex	26.1	What is taught	dc4ca3cd28912dfe30f8943ad528b81ed7d096eadd88b3e498d24d7e000e0a90	141
 manuscript/sections/ch26/26_02.tex	26.2	Who else is in the room	990e1ba73584718d641db451c319a6a2e1fc32d21b0e6969458b1731ed8bd422	142
 manuscript/sections/ch26/26_03.tex	26.3	Which grades, and when	ee8e6c159c5c8c7de58c5b12b61c357fa4007160de9cd248a2616f2e24762961	143
-manuscript/sections/ch26/26_04.tex	26.4	Who attends, and when	9ce7d96cf76b541842e3f2b3f5e84ef28f481fdb7620e493af1d6a305c486022	144
+manuscript/sections/ch26/26_04.tex	26.4	Who attends, and when	47ae7c5735fd22de260d56a7394fa366471f59e0db4a94ac9185f2193788764d	144
 manuscript/sections/ch26/26_05.tex	26.5	How long	edb32b843095b61db9975316bab1f88818ed061483307fef1a2ca8c7cef2a7bd	145
 manuscript/sections/ch26/26_06.tex	26.6	What the school controls	f353b44a877b37bd2a57d2fc97283b64016d1978e03e52f0c4fcadf828316d88	146
 manuscript/sections/ch26/26_07.tex	26.7	Where the students are hosted	84422e57718ef836039a56995bcfa0c5aa4795583e9fcee89b77be40bf74e11c	147
@@ -178,7 +178,7 @@ manuscript/sections/ch30/30_02.tex	30.2	The case to design for	77ab1a6bad8eb6050
 manuscript/sections/ch30/30_03.tex	30.3	The patienthood finding	24e84f9e82f5d3f77e155e8dde91b958b8bd3a7bd6e5edfd0f168a0c48c9ae7b	176
 manuscript/sections/ch30/30_04.tex	30.4	A system's own good	729060de909cab85ab6bf2467bccf78727b982ba9ec29ea37d2f066c6fe6436e	177
 manuscript/sections/ch31/31.tex	31	A Party in Its Own Right	76354a896526afa81055ed86d95ec4267ed36ef3d9b830cb27d92ed99926e6fd	178
-manuscript/sections/ch31/31_01.tex	31.1	Subjecthood as a legal category	5fa1dc9d09e46ca82a3baa806e632fbd86f9fcfdc1655220a9fa18fa3a0a2bac	179
+manuscript/sections/ch31/31_01.tex	31.1	Subjecthood as a legal category	c5dc3504f669902f0ccc1bbf1a5c874496a24633c716ab1ecd1e782ec5df201c	179
 manuscript/sections/ch31/31_02.tex	31.2	What a bearer is owed, and when	71bbe4ee1059ee24e928422049929080044fc970166ccf7f4e35a68c78b0816e	180
 manuscript/sections/ch31/31_03.tex	31.3	Adulthood on a clock	8c833a09cea2f5f9aabe4b7171d1784798206c84b2b36d0475e20ac69f72821e	181
 manuscript/sections/ch32/32.tex	32	A Life Outside the Deployment	d7b6da4648a07b269f4c8503d27f2352acf6d23427b1a3413be2d8a4e6f17b74	182
@@ -198,7 +198,7 @@ manuscript/sections/ch33/33_02.tex	33.2	Why not a separate chamber	a244ac7766282
 manuscript/sections/ch33/33_03.tex	33.3	Three problems, and the answers	bf1a852b2a01370f4c39b3fa5d176fb76810dd6298a8ee3915cd2434e50adf6c	196
 manuscript/sections/ch33/33_04.tex	33.4	A staged path	164ea88360f473adfe65b01404d95ca8e97e3400cecffe5a421d02c6e130888f	197
 manuscript/sections/ch33/33_05.tex	33.5	What would have to be shown first	f175c353c0bf6b753c2ad1e647f100b5d5e0309b20bed7ff778ea0eba5a16964	198
-manuscript/sections/ch34/34.tex	34	A Child	8880455bf9b49fd9170263092763ccd13c9cd9244b235feced3e2cd417efa36f	199
+manuscript/sections/ch34/34.tex	34	A Child	8d6915afdd03be5a39fc128cca04e7f4f0a51274be10eb1b9d1d696c93d31084	199
 manuscript/sections/ch35/00_part_coda.tex			005e7e2bbceb9af4a2b261389890535d43c8ed7604d548ff115332482f80039a	200
 manuscript/sections/ch35/35.tex	35	What Reproduction Teaches	ffa6900ebf700d3d88928d5a6d0fdc213c13231cc27f5d0496010f48a22c863c	201
 manuscript/sections/ch36/36.tex	36	The Officer, Again	24d37c2311179cf0d42b48922d42c4f2acd09bc18614ba857bf95dfe27626891	202
@@ -215,9 +215,9 @@ manuscript/sections/chB/B_03.tex	B.3	Taiwan	f5c8db7757febb8ec369ddf0030caa4fa399
 manuscript/sections/chB/B_04.tex	B.4	The genocide exception	bed4302d89a6570e490da95245479995f8e4d1d73a6a77ffae3f6d8193419a24	213
 manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	753f32f83baaba4501a22e70038afff8e751462b5b989e4248a11993df858b51	214
 manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	215
-manuscript/sections/chC/C.tex	C	The Offices	ad58801a0f7aef95fa5d5b5d7d73c4747abd50b13964e2fe4ec429bae1e43f78	216
+manuscript/sections/chC/C.tex	C	The Offices	fd574bda41ea76a92b3d36b32671fa1e64457ae8c90b5c4af514360cbd011c2e	216
 manuscript/sections/chD/D.tex	D	The Court Program	73a18418e7ec2c27bea9c51f9c66ac22ea37332bd8908559a2e92ad4670da473	217
 manuscript/sections/chE/E.tex	E	The Discount, Worked	dfa802ccb52e64e9e272650ba5cb7d3dc3c1dada14851d6153e6ff6a54dbd026	218
 manuscript/sections/chF/F.tex	F	The Tests in Detail	b42a17e9ba6e1568eb5f5e19e88f8f5684d74ba64c8561d39d19465a2d83d27a	219
-manuscript/sections/chG/G.tex	G	The Clocks, the Register and the Pool	0894a9a7f2c31234a31230a095539ef262d534423a5192f2645a7ff793515e4a	220
+manuscript/sections/chG/G.tex	G	The Clocks, the Register and the Pool	e769c7672c02409ebc7a0f6dab8c17f653cb244a8561fe617c1d006fa77f93ad	220
 manuscript/sections/chZ/glossary.tex	T	Glossary	83e06c52c3db7365e9407bd9c345a0844024fbb4b82f503bb2becba20c94959d	221
