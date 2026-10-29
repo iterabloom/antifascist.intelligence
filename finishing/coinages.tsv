@@ -15,7 +15,7 @@ Plastic			multi			plain sense
 Hunger			multi			plain sense
 Tiredness			multi			plain sense
 wall			check			the Preface's coinage (“walls.”)
-Register			check		(?<=[Tt]he )registers?(?![\w-])	noun only: drops 'to register' and 'in one register'
+Register			check		(?<=[Tt]he )registers?(?![\w-])(?! of (?:Copyrights|a birth))	noun only: drops 'to register', 'in one register', the Register of Copyrights and a birth's register
 reasons-responsive	reasons-responsiveness		check			
 emergency license	emergency licenses		check			
 corroborated license			check			
@@ -42,3 +42,7 @@ selection rule			check
 content clause			check			
 lex		exact	check			
 nomos		exact	check			
+Jury			check		(?<![\w-])(?<!grand )jur(?:y|ies)(?![\w-])	the primitive; a grand jury is the ordinary institution
+legible			multi			every use before Part V is the plain sense, readable
+Pool			multi			three pools: the bearers' mutual (glossary), the formation pool (§9.2), the cleared reviewer pool (§7.1); plain match can't tell them apart
+formation pool			check			the public fund of §9.2, not the glossary's pool

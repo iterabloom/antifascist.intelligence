@@ -17,7 +17,9 @@ knows common abbreviations (v., e.g., U.S., ch.) and is still approximate.
 MATCHING. Case is ignored unless the term says otherwise; a hyphen in a term
 matches a hyphen or a space; plurals are automatic (-s, -es, -y to -ies). A
 match inside a longer term's match belongs to the longer term: "floor" in
-"floor court" is an occurrence of the floor court only.
+"floor court" is an occurrence of the floor court only. A match capitalized in
+mid-sentence, on a term that ignores case, is a name and not an occurrence:
+the Maven Smart System, the Register of Copyrights.
 
 An occurrence of a term is DEFINING when it is
 
@@ -29,7 +31,13 @@ An occurrence of a term is DEFINING when it is
   framed   in a defining frame: "which I call X", "what this book calls X",
            "call it X", "known as X", "by X I mean", "X means", "X here means";
   glossed  followed straight by its gloss: "a commons: a population of
-           bearers that...", "the floor court, the court whose...";
+           bearers...", "the floor court, the court whose..." (not where the
+           comma closes an opening phrase: "Under the captured operator,
+           the rows that..."); after a colon
+           or dash only an "a/an" phrase counts, and not a list of them; or
+           a phrase of two or more words introduced by "a/an" with a
+           relative clause, at its first occurrence only: "an emergency
+           license that acts at once";
   pinned   the first occurrence in the section coinages.tsv names in
            `defined_at`, which wins over all of the above.
 
@@ -49,7 +57,9 @@ THE REPORTS
   (default)     counts, and the terms in each report below
   --early       uses before the definition, by term, each with its distance
                 in sections. A use whose sentence points at the definition's
-                chapter or section (§6.2, chapter 6) is tagged `pointer`.
+                chapter or section (§6.2, chapter 6, Chapters 5 and 6) or says
+                the definition is coming ("the next chapter", "a later
+                chapter", "defined below") is tagged `pointer`.
   --multi       terms marked as defined in more than one place, every site in
                 book order, so a better definition that arrives late shows
                 beside the first. Sites within one sentence of each other
@@ -136,7 +146,10 @@ run can't say is what a change made worse, so:
                 ("+uncommitted" if the manuscript had changes not yet
                 committed). Default finishing/reports/coinages_snapshot.tsv.
                 Take it just before the change, so the comparison shows
-                what the change did and not prose edited in between.
+                what the change did and not prose edited in between, and
+                again after any change to this script, coinages.tsv or the
+                exceptions, which a comparison would otherwise blame on the
+                structure.
   --compare [PATH]   after the change, worst first:
                 NEWLY EARLY, a use that was fine and now precedes its
                   definition, tagged `moved` when its words are unchanged
@@ -427,9 +440,28 @@ FRAME_AFTER = re.compile(
     r"(?:means|denotes|refers to|is defined as|,?\s*by which I mean)\b", re.I)
 # The term followed straight by its gloss: "a commons: a population of bearers
 # that...", "the floor court, the court whose jurisdiction is fixed...".
+#
+# After a colon or dash only an indefinite noun phrase counts, and not a list
+# of them: "a commons: a population of bearers" glosses the term, while "the
+# scarce thing was the wall: the clerk, the officer and the soldier..." and "a
+# halt, a restore or a retraining" go on with the sentence.
 GLOSS_AFTER = re.compile(
-    r"^(?:s|es)?[”’]?(?:\s+of\s+[\w-]+)?(?::|\s+—)\s+(?:a|an|the)\s"
-    r"|^(?:s|es)?[”’]?,\s+(?:a|an|the)\s+(?:[\w-]+\s+){0,2}?(?:that|which|whose|who|where)\b")
+    r"^(?:s|es)?[”’]?(?:\s+of\s+[\w-]+)?(?::|\s+—)\s+(?:a|an)\s+(?![\w-]+(?:\s+[\w-]+)?,\s+(?:a|an)\s)")
+# The appositive: "the floor court, the court whose jurisdiction...". Not
+# when the comma closes an opening phrase the term ends: "Under the captured
+# operator, the rows that prevent..." and "In a user-held system, the
+# freedoms that..." go on with the sentence.
+APPOS_AFTER = re.compile(
+    r"^(?:s|es)?[”’]?,\s+(?:a|an|the)\s+(?:[\w-]+\s+){0,2}?(?:that|which|whose|who|where)\b")
+OPENING_PHRASE = re.compile(
+    r"^(?:In|Under|For|On|At|With|Without|By|From|Against|Within|Across|After|Before|"
+    r"Between|Among|Inside|Outside|Over|Through|Beside|Behind|Beyond)\b[^,;:]*$")
+# A phrase introduced with an indefinite article and a relative clause that
+# says what it is: "an emergency license that acts at once". Phrases only: "a
+# system that" and "an operator that" are ordinary relative clauses, and
+# counting them put System's defining sites at 79.
+INTRO_BEFORE = re.compile(r"(?:^|\W)(?:a|an)\s+$", re.I)
+INTRO_AFTER = re.compile(r"^(?:s|es)?\s+(?:that|which|whose|where)\s")
 SUBJECT = re.compile(r"(?:^|[.:;]\s)\s*(?:[“‘]?(?:The|A|An|the|a|an)\s+)?[“‘]?$")
 BY_I_MEAN = (re.compile(r"\bby\s+(?:the\s+|a\s+|an\s+)?[“‘]?$", re.I),
              re.compile(r"^[”’]?\s+(?:I|we)\s+mean\b"))
@@ -467,7 +499,22 @@ def classify(u, m):
         return "framed"
     if GLOSS_AFTER.match(after):
         return "glossed"
+    if APPOS_AFTER.match(after) and not OPENING_PHRASE.match(u.text[:a]):
+        return "glossed"
+    if len(m.group(0).split()) > 1 and INTRO_BEFORE.search(before) and INTRO_AFTER.match(after):
+        return "introduced"                 # analyse() keeps it only at a first meeting
     return "use"
+
+
+def proper_noun(term, u, m):
+    """A capital in mid-sentence on a term that doesn't ask for one is a name
+    the term happens to be part of: the Maven Smart System, the Register of
+    Copyrights. A capital after an opening quote, a bracket, a list marker
+    ("[1.] Standing") or a colon is not."""
+    if not (term.rx.flags & re.I) or not m.group(0)[:1].isupper():
+        return False
+    before = u.text[:m.start()].rstrip("  ")
+    return bool(before) and not before.endswith(("“", "‘", "(", "[", "]", ":", "—", "|", "."))
 
 
 def occurrences(units, term, longer=()):
@@ -482,6 +529,8 @@ def occurrences(units, term, longer=()):
         for m in ms:
             a, b = m.span()
             if any(s <= a and b <= e and (e - s) > (b - a) for s, e in cover):
+                continue
+            if proper_noun(term, u, m):
                 continue
             out.append((u, m, classify(u, m)))
     return out
@@ -528,6 +577,12 @@ def analyse(units, terms):
                 if kind != "use" and EXC[i]["kind"] == "not-definition":
                     kind = "use"
             occ.append((u, m, kind))
+        # "a corroborated license that can't arrive" introduces nothing to a
+        # reader who has met the phrase: an introduction defines only the
+        # first time the term occurs.
+        occ = [(u, m, ("glossed" if k == "introduced" and n == 0 else
+                       "use" if k == "introduced" else k))
+               for n, (u, m, k) in enumerate(occ)]
         if not occ:
             res.append(dict(term=t, occ=[], defs=[], definition=None, early=[], accepted=[]))
             continue
@@ -591,9 +646,15 @@ def pointer(text, dnum, dchap):
     for n in re.findall(r"§\s*([0-9A-Z]+(?:\.\d+)*)", text):
         if n == dnum or dnum.startswith(n + ".") or n.startswith(dnum + "."):
             return True
-    for n in re.findall(r"\b(?:[Cc]hapters?|Ch\.|Appendix)\s+([0-9A-Z]+)\b", text):
-        if n == dchap:
+    for lst in re.findall(r"\b(?:[Cc]hapters?|Ch\.|Appendix|Appendices)\s+"
+                          r"([0-9A-Z]+(?:(?:,\s*|,?\s+and\s+|\s+to\s+|–)[0-9A-Z]+)*)\b", text):
+        if dchap in re.split(r",\s*|,?\s+and\s+|\s+to\s+|–", lst):
             return True
+    # A pointer without a number still tells the reader the definition is coming.
+    if re.search(r"\b(?:the next|a later|the following|a coming|the last) "
+                 r"(?:chapter|section|part)\b|\bdefined (?:below|later|in the next)\b",
+                 text, re.I):
+        return True
     return False
 
 
