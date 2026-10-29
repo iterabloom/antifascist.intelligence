@@ -16,8 +16,13 @@ Reading order and section numbers come from manuscript/sections/ORDER.tsv, the
 same file gen_book.py builds sections.tex from, so both outputs are in the
 book's order by construction rather than by a second list kept in step by hand.
 
-What Markdown loses, and knowingly: page breaks, the table of contents, the
-title page, the typeset bibliography. Citations are footnotes, as the book sets
+What Markdown loses, and knowingly: page breaks, page numbers, the title page,
+the typeset bibliography. It carries a table of contents (D-1098): the
+rendered headings, part to subsection, as a list after the front matter.
+`--upthru N` renders the book only through chapter N -- the preface, the
+introduction, the parts and chapters 1 to N -- for a reader that can't take the whole of it at
+once, and `--upthru C` through an appendix, everything before it included; the contents still lists the whole book, with a line marking where the
+text stops, so the reader knows what the rest covers. Citations are footnotes, as the book sets
 them (D-774): full at a work's first citation in a chapter, short after, with
 the entry's note after its first full citation. Their text is biblatex's, not
 this script's, taken from an HTML build of the tree as it stands (build_html.sh,
@@ -67,6 +72,8 @@ Usage:
     finishing/tools/render_markdown.py              # -> /tmp/<slug>_<date>.md
     finishing/tools/render_markdown.py --truncate 30   # ... notes cut at 30 words
     finishing/tools/render_markdown.py --keys       # ... citations as [@key]
+    finishing/tools/render_markdown.py --upthru 3   # ... preface to chapter 3
+    finishing/tools/render_markdown.py --upthru C   # ... preface to Appendix C
     finishing/tools/render_markdown.py --tex        # -> /tmp/<slug>_<date>.tex
     finishing/tools/render_markdown.py --tex --no-notes   # ... minus bib notes
     finishing/tools/render_markdown.py --out PATH
@@ -889,6 +896,52 @@ def chapter_table(flat):
     return out
 
 
+def unit_of(nums):
+    """The chapter or appendix a file belongs to, from the printed numbers of
+    its numbered headings: "3" for "3" or "3.1", "A" for "A" or "A.1", None
+    for a part, the preface, the introduction, the note on method or the glossary, whose
+    headings print no number."""
+    m = re.match(r"(\d+|[A-Z])(?:\.|$)", nums[0]) if nums else None
+    return m.group(1) if m else None
+
+
+def unit_name(unit):
+    """"chapter 3", "Appendix C"."""
+    return ("chapter " if unit.isdigit() else "Appendix ") + unit
+
+
+def contents(flat, upthru, cut):
+    """The table of contents, from the rendered headings (D-1098).
+
+    `flat` is the whole rendered body, one string per line; `cut` is how many
+    of its lines the file carries, and under --upthru the entries after that
+    point follow a line saying their text isn't here. A part is a bold line
+    between the lists; a chapter is an item, its sections and subsections
+    items under it, all at two spaces, since a line starting with four is a
+    note's continuation (is_note_line) and split_notes.py reads it as one.
+    The numbers already show the depth. A chapter's "3." is escaped, or the
+    item would open an ordered list."""
+    out, stopped = ["## Contents", ""], False
+    for i, line in enumerate(flat):
+        m = re.match(r"(#{1,4}) (.*)", line)
+        if not m:
+            continue
+        if upthru is not None and i >= cut and not stopped:
+            stopped = True
+            out += ["", "*The text of this file ends after %s. The "
+                    "entries below are the rest of the book, listed so its "
+                    "plan is visible; their text is not included.*"
+                    % unit_name(upthru), ""]
+        depth, title = len(m.group(1)), m.group(2).strip()
+        if depth == 1:
+            out += ["", "**%s**" % title, ""]
+        elif depth == 2:
+            out.append("- " + re.sub(r"^(\d+)\.", r"\1\\.", title))
+        else:
+            out.append("  - " + title)
+    return squeeze(out)
+
+
 def squeeze(lines):
     """No more than one blank line in a row; no leading or trailing blanks."""
     out = []
@@ -1289,6 +1342,13 @@ def main():
                     help="Markdown only: cut each citation's footnote after N "
                          "words and end it with an ellipsis; the author's own "
                          "footnotes are left whole")
+    ap.add_argument("--upthru", type=str.upper, metavar="N",
+                    help="Markdown only: render the book through chapter N "
+                         "(the preface, the introduction, the parts and "
+                         "chapters 1 to N), or "
+                         "through an appendix given by its letter (everything "
+                         "before it included); the table of contents still "
+                         "lists the whole book")
     ap.add_argument("--chapters", action="store_true",
                     help="Markdown only: print, on stdout, one line per chapter "
                          "of body words and note words, headings left out, and "
@@ -1296,8 +1356,8 @@ def main():
     args = ap.parse_args()
 
     if args.tex and (args.keys or args.notes_from or args.truncate is not None
-                     or args.chapters):
-        ap.error("--keys, --notes-from, --truncate and --chapters apply to the Markdown, not --tex")
+                     or args.chapters or args.upthru is not None):
+        ap.error("--keys, --notes-from, --truncate, --chapters and --upthru apply to the Markdown, not --tex")
     if args.keys and (args.notes_from or args.truncate is not None):
         ap.error("--keys sets no footnotes, so --notes-from and --truncate do nothing with it")
     if args.truncate is not None and args.truncate < 1:
@@ -1320,8 +1380,12 @@ def main():
                   % (stamp, head or "an unknown commit",
                      " with uncommitted changes in the tree" if dirty else ""))
 
+    # A partial render is named for where it stops, so it doesn't overwrite
+    # the whole book's file of the same day.
     out = args.out or os.path.join(
-        "/tmp", "%s_%s.%s" % (SLUG, stamp, "tex" if args.tex else "md"))
+        "/tmp", "%s_%s%s.%s" % (SLUG, stamp,
+                               "" if args.upthru is None else "_upthru-%s" % args.upthru,
+                               "tex" if args.tex else "md"))
 
     if args.tex:
         stem = os.path.splitext(os.path.basename(out))[0]
@@ -1338,6 +1402,24 @@ def main():
     else:
         labels = label_map(root, rows)
         numbers = printed_numbers()
+        # Every row is rendered either way, so the footnote check below still
+        # sees the whole build's notes; --upthru keeps the rows through the
+        # last file of chapter N, which leaves out the next part's heading.
+        keep = len(rows)
+        if args.upthru is not None:
+            units = [unit_of(numbers.get(r["path"], [])) for r in rows]
+            chapters = [u for u in units if u and u.isdigit()]
+            letters = [u for u in units if u and not u.isdigit()]
+            if args.upthru.isdigit():
+                args.upthru = str(int(args.upthru))   # "03" is chapter 3
+            if args.upthru not in units:
+                ap.error("--upthru takes a chapter number from %s to %s or an "
+                         "appendix letter from %s to %s"
+                         % (chapters[0], chapters[-1], letters[0], letters[-1]))
+            # Through the last file of that chapter or appendix, in reading
+            # order: an appendix keeps every chapter, the note on method and
+            # the appendices before it.
+            keep = 1 + max(i for i, u in enumerate(units) if u == args.upthru)
         if not args.keys:
             if args.notes_from:
                 NOTES["queue"] = load_notes(args.notes_from)
@@ -1360,9 +1442,11 @@ def main():
                 finally:
                     shutil.rmtree(build, ignore_errors=True)
             NOTES["truncate"] = args.truncate
-        body = []
-        for row in rows:
+        body, kept = [], 0
+        for i, row in enumerate(rows):
             body += render(row["path"], numbers.get(row["path"], []), root, labels)
+            if i + 1 == keep:
+                kept = len(body)
         if NOTES["queue"] is not None and NOTES["next"] != len(NOTES["queue"]):
             raise SystemExit("render_markdown.py: the HTML build has %d footnotes "
                              "and the sources account for %d; the build is not "
@@ -1380,7 +1464,26 @@ def main():
                         ", each cut after %d words where it ran longer, an "
                         "ellipsis marking the cut" % args.truncate))
 
-        body = squeeze(body)
+        toc = contents("\n".join(body).split("\n"), args.upthru,
+                       len("\n".join(body[:kept]).split("\n")))
+        body = squeeze(body[:kept])
+        if args.upthru is None:
+            scope = ""
+        else:
+            scope = ("This file holds the book through chapter %s of %s: the "
+                     "preface, the introduction, the parts and the "
+                     "chapters up to it; "
+                     % (args.upthru, chapters[-1]) if args.upthru.isdigit() else
+                     "This file holds the book through Appendix %s: the "
+                     "preface, the introduction, all %s chapters, the "
+                     "note on method and %s; "
+                     % (args.upthru, chapters[-1],
+                        "Appendix A" if args.upthru == letters[0] else
+                        "Appendices %s %s %s" % (
+                            letters[0],
+                            "and" if ord(args.upthru) - ord(letters[0]) == 1 else "to",
+                            args.upthru)))
+            scope += "the rest is listed in the contents and not included. "
         front = [
             "# " + book_title(root),
             "",
@@ -1389,10 +1492,15 @@ def main():
         ] + [
             ("Rendered %s from %s%s, %d sections. "
              % (stamp, head or "an unknown commit",
-                " with uncommitted changes in the tree" if dirty else "", len(rows)))
-            + cites + "table of contents and page breaks are not reproduced. "
+                " with uncommitted changes in the tree" if dirty else "", keep))
+            + scope + cites + "page breaks and page numbers are not "
+            "reproduced. "
             "This file is disposable output, not a source: the manuscript is "
             "the LaTeX under manuscript/sections/.",
+            "",
+            "---",
+            "",
+        ] + toc + [
             "",
             "---",
             "",
@@ -1407,7 +1515,7 @@ def main():
         flat = "\n".join(body).split("\n")
         words = len(re.findall(r"\S+", "\n".join(
             l for l in flat if not is_note_line(l))))
-        print("%d sections, %d words" % (len(rows), words), file=sys.stderr)
+        print("%d sections, %d words" % (keep, words), file=sys.stderr)
         if args.chapters:
             print("\n".join(chapter_table(flat)))
         if leftover:
