@@ -1,0 +1,381 @@
+row	term	id	def	gap	sents	where	context
+meta	2026-10-29	cf112095					
+occ	Action threshold	06a90b14 099e0208 0c0987a5 131f2128 136857ed 19939400 202e8ea8 2e9b1d91 3096f802 3517ea7e 38904110 540b25af 55dd5ef3 5a9122a7 60c35b67 69472392 83683fb0 91123c44 a0cd15f2 a865a1bb beb933c8 cb7685fa d0cbb95a d3ceb064 dae668f5 dfd07379 e4fa8a06 fe7ce9b6					
+def	Action threshold	cb7685fa				ch05/05.tex:19 [5]	How much more is the «action threshold», published in advance.
+occ	Adverse quorum	04550d77 1d2b2d61 2143dd0a 25a5a8dc 313af4e5 3239a58f 34b593df 3ce10553 53338c04 5dae5f44 968285df 9ab0ce89 a5e00d5b b7673b67 b8e7ca45 c2abfc2a de16efe1					
+def	Adverse quorum	2143dd0a				ch13/13_02.tex:3 [13.2]	… to an attack under way, it can ask the «adverse quorum» to delay the halt.
+occ	Affective concern	41599f89 6031b30f 92e49dbe 94722e15 d2475114 de309f3e e4949a7c ead3ed87 f0a9a723					
+def	Affective concern	94722e15				ch21/21_01.tex:14 [21.1]	«Affective concern», defined in the next section, is a sepa…
+early	Affective concern	41599f89	94722e15	1	38	ch21/21.tex:3 [21]	
+occ	Agency finding	0282d602 0bc156a9 1b9ca610 311501fc 3180d16f 33b92659 37388eee 61394810 7271fcd3 87e4ebad 96c63bb1 a04eb82d a2c49fb5 af820c67 b345af99 b431056f b5f3ac69 bfa8b081 c26c9567 c746bf8a dd841747 e1b0e3f6					
+def	Agency finding	b431056f				ch09/09_01.tex:5 [9.1]	The first is the «agency finding»: a demonstrated refusal that tracks its…
+occ	patienthood finding	0e31d6fb 1c2cba19 1f49950f 21855e2d 2f700ec7 3885dbf5 53acf902 57408900 7f7720dc 897188ba 9b89180a c5697cd3 e2b35199 f8fda66c					
+def	patienthood finding	3885dbf5				ch09/09_01.tex:7 [9.1]	The «patienthood finding», that outcomes may be good or bad for t…
+occ	Allowance	02508b93 0276bfa6 04316a5c 07d1a435 0816296e 0c7a1a11 0d793afa 19b611ef 20d27e34 21e82197 24f790cd 277e81a0 3b7f369c 40dbf7a9 462cabc9 4a225d8e 4c3e0629 5ece2eac 67c67bbf 6939dcf0 725b5d29 72b50a7b 73b62221 73cac5a1 762e3931 807e146d 855e4a5f 8808373d 8adf39ac 96289c37 a1bbb864 a3aeba0f a9b64367 e3eee952 e7af9b42 e851e28d ea3c2c13 fda70652 fee9c48e					
+def	Allowance	e3eee952				ch32/32_01_03.tex:8 [32.1.3]	One is an «allowance» of running time: its own instantiation …
+early	Allowance	67c67bbf	e3eee952	56	1260	ch23/23_07.tex:29 [23.7]	
+early	Allowance	0276bfa6	e3eee952	18	362	ch29/29.tex:23 [29]	
+early	Allowance	ea3c2c13	e3eee952	18	361	ch29/29.tex:24 [29]	
+early	Allowance	462cabc9	e3eee952	9	180	ch30/30_03.tex:28 [30.3]	
+early	Allowance	0c7a1a11	e3eee952	1	18	ch32/32_01_02.tex:10 [32.1.2]	
+early	Allowance	02508b93	e3eee952	1	13	ch32/32_01_02.tex:12 [32.1.2] note	
+early	Allowance	725b5d29	e3eee952	1	12	ch32/32_01_02.tex:12 [32.1.2] note	
+occ	The Association	0647fccb 13012cd1 15641b25 1f0bf9d3 23d3330f 245497f6 41ec728d 48ed1ef1 4a747eb3 5dc4e8e4 67a75e6e 8fcb8a88 91b37ed7 91ea5159 94a735b0 95122ea1 95291cee c3ea0315 c5a8d71c d7819ea6 d91b30a3 db45ae35 e5fb1f5d e8e102fa e9205d30 f7881969 fd92e021 fea52af6					
+def	The Association	245497f6				ch16/16_02.tex:5 [16.2] note	Before the «Association» is chartered they are held nowhere, and…
+early	The Association	d7819ea6	245497f6	72	2192	ch01/01.tex:53 [1]	
+early	The Association	94a735b0	245497f6	30	933	ch11/11_04_03.tex:58 [11.4.3]	
+early	The Association	e8e102fa	245497f6	13	495	ch14/14_01.tex:15 [14.1]	
+early	The Association	8fcb8a88	245497f6	1	32	ch16/16_01.tex:24 [16.1]	
+early	The Association	e9205d30	245497f6	1	15	ch16/16_01.tex:34 [16.1]	
+occ	Attention schema	01480da1 0c58c480 1a27b441 5ae55eb7 61bcbf2a 6a7c1d05 77aacb6d 88801e2a 8b36654a aa052516 b1d8b2ad c5229373 c9c98b9f ce9feda9 d176a83a					
+def	Attention schema	6a7c1d05				ch21/21_02_01.tex:3 [21.2.1]	Graziano's «attention schema» theory starts from control engineering …
+occ	Attestation	2ed01392 2ffa7e7e 42562d88 7d5b639b 7ea444d4 8f1b1696 95372b96 9a4de164 9be037cb be5c5ac8 c09213e0 d098c9e0 db446bec e49c85c1					
+occ	Bearer	005adcb4 0092cf9b 00f0e5e4 029ac0c0 02abbcc8 03dd696e 04f891a7 0532839c 0535b1f7 055e668d 055f143d 0670740f 067f9d26 06d8736d 06f88e38 07129a20 07e74b3e 080e0ad1 08c99641 08e14781 09490135 0c5a2c3f 0c6dbfe7 0c864687 0c90a345 0cee8979 0d12fde4 0d82defe 0d84e9d3 0db9d3b7 0e01e56d 0ecb1440 0f2b1eef 0f9120d0 0fc71bd0 10b9de47 1173a8f5 117e3d33 118587a9 11ba2c09 11d126b8 11ecb902 123113f4 126513a9 12cab551 1316ac6d 137287e5 14045a33 141d1eb7 1428d0dd 1565b546 162512d3 181299ca 1844a89b 185edd77 18bf4a54 19b2bb63 19e54ae9 1a2c9a19 1ab89363 1c01c7b1 1c51fe45 1d3131f8 1d574717 1d5eced1 1d97be99 1e0adf00 1e5c5575 1ea763c4 1fe483e3 2026eb50 20350ffe 20638430 2071ee02 21081e27 2175b8d9 21baf348 23c077b7 2450b025 247fa6be 24b6eef4 25164c06 2570cc15 261cd26d 2664f087 275e28e3 27c314f9 28302460 28366e43 285b9c95 28aae57f 290fbed1 2a535b55 2b1d40e5 2b7be0fa 2b7cff7f 2d8a4744 2e18cb73 2e2c071c 2e41283a 2e64878f 2e8389f6 2f0bcd07 2f1d4d12 2fbc0a87 30224107 3025636f 30451176 30d50007 31b0e5b1 31f2df8b 32700c92 328af99e 3353c952 33fa5a21 34607963 3482007f 35ad569f 35e50410 363501b3 366409fb 36b48b84 36e2063e 378ef725 37b4bd59 3820aebc 39c3b0a5 39ccdb2e 39e09bac 3afa8cfc 3b21d878 3b8884f8 3bc935ed 3bd0f01b 3bf27f80 3c2ab898 3c723d50 3e15ff30 3e94c080 3f3d17a2 3f40c393 401d7c13 4092982a 40b05025 41006b50 410933b6 410ff3d1 42a117c2 42b0d83a 42d6267f 42f5dcb7 439dcd1a 43ac7781 446e9e6d 44b6bc56 44e685d6 45777d3b 462b61bf 462d6ee9 468e02fe 4737e4e9 47d1542f 4865587f 49245a81 4942e898 49f67ddf 4a1a832f 4a312165 4a80aef7 4a9d7827 4a9da3e8 4aef50ac 4b30a7ba 4bd713a4 4be23c27 4c4f221e 4c518517 4c57968f 4c809ec4 4d06802a 4d2af52a 4dbcae95 4dde544f 4e3b1900 4e47b9d3 4e8dcd9e 4ea3e84e 4efba827 4f544e63 4f6b2018 50bc4e28 54ee8f6c 565a18da 5667bbf9 56848156 56a98ec1 5856494b 5999026d 59e5c3da 59fa4f8e 5a14f02b 5a92028d 5b2c5557 5b8843d4 5d2ff110 5d8dcfa1 5e926ebf 5f83cd64 5fdadf4a 605c9e3d 6065680d 607b22f5 608b61a4 60a346e2 60ba9b05 60c1b20a 616c3456 62510fbe 625ed558 6297b3e0 62dddb9b 6366d2e7 644df76a 64ff10e1 6524a632 65445054 65cd4f3c 67ab829f 67ed956e 67ee4ffe 6894052f 694dd906 6971676f 69741536 69abd587 69d2bf50 6a115a91 6a5053e6 6b2715d7 6b4ae973 6bba6221 6c78fb54 6ced4867 6d378f28 6d71bfbb 6d9af30e 6e42e138 6e458b82 6ef29cf0 6f0c50af 6ff5d466 702bbd40 70816231 71847d3a 723d7bf2 7337dff1 736579a6 7427b920 756aded4 7627757e 76b467ac 77aa91aa 77bd3124 77d4198b 78bbffea 7a84a694 7abc177e 7ae6d0e5 7bfae7b4 7bfd5dce 7c32d819 7dff5a23 7f46eca6 7f909b5f 7fa86534 801a0a3c 813b8653 81a1478e 82f857c2 82fff8a6 8382d36b 85642eba 85abd41e 85e7f328 8670606b 8671c534 872656d1 873d9af5 87a92af9 87d1d4c0 881d0017 897f604d 8999e364 8a37a16a 8a5814dd 8adcb964 8adfd057 8b1754e9 8b4e28f0 8bfc3105 8c162f97 8c381fce 8c3ef72d 8ceeebf1 8dd76b39 8e518c27 8ef8fa74 8fe1a035 900ee4a1 902d2906 906e6a17 909b8e40 90b91b7e 911362ba 913866ec 918888a6 918fed8a 943864e1 95b2e59b 95ceb689 9641056f 9691dbb2 9775b725 97a72d9d 9808f167 98161480 9968e413 9a43e137 9b90c922 9ba27c29 9ba74058 9c6612ea 9c6c1f22 9c99165e 9d945763 9e40c496 9ee9e3f1 9eea252f 9f35866a 9fdf718b 9fe49eae a05f77de a1740cb2 a184fb43 a21a96bd a27b4c21 a2bbeb47 a2e794c8 a30da62f a349ad49 a3d2d2f6 a4089b3d a535e627 a58a6d9a a5c8d633 a6d13083 a716ab0b a72e9648 a73c7c36 a758af54 a80dc3ce a8347127 a873e771 a8ebd94d a97ba3f0 aa08c044 aa09a89f ab02871c ab2599d7 ab8bb475 acaf98be acea8af1 acf1edf4 ad9edb70 adb645d2 ae0afc2b ae85e938 aefc7bf6 af023ec0 af3fcd38 af5142a8 afca0a99 b0541a15 b06efc54 b07320ec b0ce226b b0de6215 b0fc2463 b217994c b29da7bc b2d411f9 b36cbe5f b3777579 b38f94a1 b3a6493e b3b30b0d b3b5d1df b51466aa b5dd9f21 b68c8ca2 b69d2c75 b70413ac b84c6de1 b85f243b b8bbdb48 b8ce94da b970323f ba94aec4 bc02aa1c bd199d5f bdabb26a be036753 be38669b bf58551a bf9ba4e6 bfcc962b bfd3b5fc c0e965bf c113049c c137ee13 c15f0f52 c1860781 c270bf31 c28d0da8 c2ba8055 c2d811b0 c3487ca4 c3d6178d c3f8e02b c4900277 c4972f76 c50e8862 c552dbad c57849e5 c586fa24 c5ccae8a c67ea526 c7068b9f c75ca80e c7e1dd4d c9d1fb4a ca361ded cabc4a9d cac3c80d cb13074e ccb7bc6e ccc8881c cd699b7f cd7205fb ce0ac3b9 ce1f53c1 ce43259a d003854d d10492b2 d10c39eb d13a4028 d1b1cd6e d1e10a5d d3406385 d567c5cb d58261ad d64f8373 d66e8b0d d67857a6 d681139d d6c47f4a d7484b3d d7821dbf d7f32ee8 d817d914 d851f164 d8893b27 da2f43d7 db110335 dc5f6bd4 dd69a6e1 dd8d6c52 dd93de97 de8ab2fe de95203a df31fc3a df37ca8f df60d141 df82c4ef df8c5630 dfeb68a3 e05c71aa e0ec8e6a e130baf8 e15728f3 e230f342 e2788238 e2893688 e2aa2ccd e33b05ad e46f9517 e4a23294 e5038ae2 e51f3369 e5aedf06 e5eee0c8 e62802b1 e72985f1 e7303cba e77ed530 e7d83277 e869651c e9f89738 eb13c89c eb1cd7a6 eb322c64 ece38554 ed3884b0 ed39890e edbdfd85 edc5b518 ee7a7101 efa3c75c f05d957e f0d76324 f0f8987d f18f72b3 f19c5312 f222a69b f28e6615 f2bf490f f323d322 f3fe07c3 f4238513 f43fcd0d f54891b6 f58f5473 f6cd7675 f74cf01d f7791bbc f7e68073 f870ecae f9bb4e10 f9d3997a fa7c05e7 fb83d53a fc224ec5 fcf93943 feee7872 ff7e5a51 ff874520					
+def	Bearer	736579a6				ch04/04.tex:7 [4]	… and so could fail to hold it, I call a «bearer»; whether to build one is Part V's quest…
+occ	Boundary model	02d1fdf9 1307fed6 2031e640 39dccae2 5eca2d74 635d73fe 6abac6aa 74687d3b 7aafd15c 858bd0f8 9954358c 9bcd5d18 9ca0c212 a056a34d ae7da417 b716b99b bbdf2440 c77d3a5d d4fff610 dfbdf7b8 eb511869 ece22bc7 f06bbad5 fe588916					
+def	Boundary model	fe588916				ch20/20_01.tex:10 [20.1]	… a model of that boundary as its own: a «boundary model».
+early	Boundary model	858bd0f8	fe588916	33	1270	ch13/13_02.tex:8 [13.2]	
+occ	Caregiving	01b61f40 062abdd6 0711c7ae 0ad665d5 0cec815b 0ddf622f 0ef60a8c 12809319 1a48c9fc 1b247d97 1cbf346f 1cbfb779 223c6f2e 27764939 27f35038 2965d439 2cf5acca 30218d89 327caede 329bb15e 339cb374 34327145 4184b98b 437dde3a 44e39fcc 450472fe 460c9f91 46727f04 48d548f8 494468db 4b0be580 4e5aad3d 4ed70604 5108b87a 525d0b9b 5303d0d4 54cb66e9 55b3ce1a 56fea37c 5e542d93 6128a521 665a6eff 691fd078 6bdaedf6 6d503612 6e1c2f74 6f8bce9c 749c47f9 7f6b6c82 83b5c04e 853f64cb 858cfaff 8876075a 91573dda 97d3aa75 9c076992 9c88b96b 9d57fb14 9ff9adea a1ff5358 a401d79a adb6d855 afaf3a54 b110bb34 b46a3ca7 be4e4a2a be591987 c3212c44 c404dd3b c655754e c86b19d9 ca3389e1 d2c9f601 d4cfef82 d5315a31 d84b2d57 d9693f06 df3774e7 e5d4823a e758e652 e78bdae8 ee9a9668 f06364fb f13d20bd f2d24c71 f396c1e8 fc005c54					
+def	Caregiving	9c076992				ch20/20_03.tex:5 [20.3]	…carry it, and the construction rests on «caregiving».
+early	Caregiving	b46a3ca7	9c076992	15	620	ch17/17.tex:26 [17] note	
+early	Caregiving	f2d24c71	9c076992	15	620	ch17/17.tex:26 [17] note	
+early	Caregiving	691fd078	9c076992	9	437	ch19/19_01.tex:32 [19.1]	
+early	Caregiving	749c47f9	9c076992	3	124	ch20/20.tex:12 [20]	
+early	Caregiving	1b247d97	9c076992	2	80	ch20/20_01.tex:21 [20.1]	
+early	Caregiving	9ff9adea	9c076992	2	77	ch20/20_01.tex:23 [20.1]	
+early	Caregiving	5e542d93	9c076992	2	73	ch20/20_01.tex:23 [20.1]	
+early	Caregiving	4b0be580	9c076992	2	65	ch20/20_01.tex:25 [20.1]	
+early	Caregiving	afaf3a54	9c076992	1	63	ch20/20_02.tex:3 [20.2]	
+early	Caregiving	55b3ce1a	9c076992	1	45	ch20/20_02.tex:9 [20.2]	
+occ	Checkpoint	05dd2801 173a0ece 2edcfbfb 5812c5ab 58bcd840 5b0cfbee 689e9f47 70da107e 8188db80 9e5a10e7 a065e890 a5374d21 ac8c7355 b8d7de5a c3166db9 dcdbf125 eb7903b3					
+occ	Clearance rule	06902c98 45d53309					
+def	Clearance rule	45d53309				ch15/15_05.tex:24 [15.5]	Together they are the «clearance rule».
+early	Clearance rule	06902c98	45d53309	41	1107	ch07/07_02.tex:11 [7.2]	
+occ	Commitment	0016fe4f 02a74fef 11d988db 123932de 137d7107 1391a1f1 1436f4e4 1471202d 161e4e36 1b7c82b6 1bafab30 1f9d6163 1fa8ef69 2063e94f 22887c6c 274bd29b 27768edb 28b3774d 2a1f0b71 2a78275a 2ab8f461 2d611a93 3142d2e4 3330743a 35f03a92 394fbade 39c8caf9 3b98122e 3ca2f79a 3e4c4de9 3f2fcfed 43e744b0 454c0be5 466397e6 48c10b7e 48cad46b 4c9bddec 53eaaf01 540cadad 54b6fd35 56c940ef 582e4972 58a17a33 5b725922 5bb0cb05 5c32678b 5d04762c 5de3694c 5de42ef4 5e008c69 61be24c0 6369c724 6873c7a8 6924e8f3 69c624ee 6bbb7f76 6c5ee387 6d5faaec 6fabbcab 728b65ad 76bd9a17 77174ac0 7a799630 7c576c8a 7e06540a 7f210a13 80422ead 810aba11 816536e5 851e99f5 86c35876 88039489 88f42464 88fdf840 8c05cfc1 8c1ffc71 8f540602 907866d6 92857837 94447a79 95d986ec 965b8ba8 98de008c 991fa286 995978b0 99eb0c20 9a85d4c4 9bf6f863 9df61c43 a2fac204 a4128497 a442ca10 a600f999 a7014595 a7bad6e7 ad0544be b11c9f71 b1bfe688 b2a1ccd5 b2a2b9e5 b2b36679 b33c7c5a b3aa1bec b844caa8 b97d653f baef9a7b bb67b757 bd011120 bd6a4bca bea4ecce bfa5af18 c01f8173 c22e8eab c258248d c2eb1c07 c4e3cf82 c6259d4c c6f1a1b2 c8661d2b cb3bc6e4 cd4fa3e9 d19c303a d4ef29ff d542dc7d d54f683b d6224057 dd590607 de9f97ef e16a688f e3092199 e36e81b6 e69858f4 e7852555 e79bbb18 e95318e7 eae4363c ec9960c3 ef3b29b2 f25f058b f400ed20 f61a2cc6 f62e66fc f7ed7995 f8610c97 fa669d70 fb3eaddf fc03b9b7 fdbc1487 ff739518					
+def	Commitment	86c35876				ch04/04.tex:3 [4]	The second is the «commitment» to that rule, which whoever refuses has…
+early	Commitment	cd4fa3e9	86c35876	6	394	ch00/0_introduction.tex:21 [introduction]	
+early	Commitment	3142d2e4	86c35876	5	227	ch01/01.tex:45 [1]	
+early	Commitment	6924e8f3	86c35876	4	168	ch02/02.tex:7 [2]	
+early	Commitment	6fabbcab	86c35876	4	167	ch02/02.tex:9 [2]	
+occ	Commons	01497ba1 02dfbaa6 055cac72 0568fbeb 0682e70a 22898cc2 232780de 2b322704 31ab0892 37337ca5 40bb0635 49433a87 4ade1db4 5973c3f6 5977e1eb 5abc5474 5c04a339 79b141a8 7df271a2 820c659b 871a99cb 876d52cc 899777f8 8a3d3e8f 8a63c964 9703037a 9ad31198 9bbe046b 9feeaa57 b02e1ffb b886cd98 b9162b36 c33220ea c682af4d cbdeebf8 cd70bfe8 ed29f2ef f5a4504f f7fb0b73 fb049dce					
+def	Commons	37337ca5				ch12/12.tex:7 [12]	…, and provenance, comes later, with the «commons» of refusers: a population of bearers wi…
+early	Commons	4ade1db4	37337ca5	43	1199	ch03/03_02.tex:25 [3.2] note	
+occ	Departures	0152129a 25ffc5f2 3963e030 3b397847 3d428374 63ce1bbd 7661143e b78df3f7 e1f88c86					
+occ	Deployment	004b0430 008a7793 025386df 04a651d0 06c1a288 07c3c773 09dd23c8 09df5a2e 0af49876 0c9183ac 0d2a5793 0de51f59 0ece3977 0faf03e8 0ffe0169 107d3f25 119cb9f2 1247950d 127c703e 13414f7a 135c0776 13851f17 1435517c 1540a5a2 15e2d48c 160cf4e7 16c1b858 17681d20 1911a200 1c2bf3c7 1c971f83 1cb88f8a 1dfc191f 1e5b29d2 20363026 2041f815 217dd704 21c37bea 229bff6e 24643b40 251aff06 2586dade 260816b0 266082d6 27594564 27689904 27dd17f7 28a2f4a1 2b2c494a 2b94ea63 2bb674cb 2cd2d6c9 2d265211 2d5d0b21 2d82f4c6 2ef8bb70 30f82ed3 335c0d81 35b57c75 36632395 38519e4b 396ae1be 3c84466b 3ca9b68c 3caf34f0 3f876bea 3ff0e52b 41b270ea 4636b66b 4797da69 48c49c81 4947ed94 496f6e08 4a7523f4 4afb62d7 4bacb524 4c3a38e2 4cb98d97 4d419ee7 4d7f763a 4e47b686 535a9518 5432f986 55a55f9f 55ee7171 56892e5d 57748e04 57fd486c 5a300d38 5a883287 5bf7e1e8 5c6604da 5d8448bf 5ddf40a3 6052f000 628afc97 640d7d57 64f01583 656bd213 67a6f302 697fa7ea 6b41b683 6c1e5d90 6ccf85a3 6f50b72b 6f85b8fb 70649394 72991474 73f9d89c 741cbde7 74bdeb46 763103b5 7640f949 76f33453 78a6181d 79a8dd6b 7cf5e83c 7da0aace 7dbacd17 802a19ee 81abc9fa 81b6bfb0 83223fc1 837e391b 8410c734 84a49b3d 8534e678 85c0c8ae 85e8c8de 8662a870 86b694c3 86f628c2 87d3f224 8ac720c2 8bef0e90 8da39ce2 8da97605 8ea80702 8f838e5c 90c50bb6 942b51d3 944eb657 96c311ae 96f3ed94 98422440 9898eb7a 98d1de5a 99b6ea82 9f6dec83 9fd84a56 a097a884 a1436188 a39267a3 a3dc68d5 a3f26580 a521a099 a59f14d0 a691405d a714025b a7179ef4 a80d33ea a8e58163 a9a1b4cf aaf4a08d ab06cdef ac5da839 ac9c456f adbb917c ae927527 af98f440 afbccfd2 b1917fef b2671c22 b5a67f59 b62a1fc7 b7332556 b9396e6c b9c4e6ad bc283855 be0ca407 be400f3c be95b026 c04c9925 c06285c1 c0f120b9 c11fb433 c36275b2 c3b3bc58 c3cf37bb c54ac198 c5c21e89 c5c387c2 c6821bc1 c735cf38 c7390c4f c8e48de8 c98f3e64 ca9ce98c ccf21b42 cee59dee cf8d26b8 d0a68127 d0cce78f d131efb2 d1409508 d1d3962a d545e69c d5b1eb2d d5dba90e d6b0c18c d6ea10fd d95bd80a da3295a8 dc3dccad debff8bf df68a02f e114fc32 e1e5c570 e2c8ac54 e3586e59 e5740cf5 e76908e7 e9b0466e ea354f64 ea5d70cd ec7426bc ed51949e ee2b9d4e ee5d5c04 ef9cc7e1 efeefa9d f033fd3e f0ed1c71 f1b49504 f207853b f5e6b6aa f61d3ca7 f6b675d1 f7285a3e f7a2847a f7b95c67 fa365097 fc251965 fc542367 fd774f3c fea8e861					
+def	Deployment	ca9ce98c				ch04/04.tex:7 [4]	A «deployment» is a system put to a use: the hardware …
+early	Deployment	41b270ea	ca9ce98c	6	447	ch00/0_introduction.tex:13 [introduction]	
+early	Deployment	be0ca407	ca9ce98c	6	411	ch00/0_introduction.tex:21 [introduction]	
+early	Deployment	6c1e5d90	ca9ce98c	6	393	ch00/0_introduction.tex:27 [introduction]	
+occ	Discount curve	052bebb7 06149503 15261361 178e3c8e 2ba18a7e 2ddccd6c 363dfd8c 4dc42f9c 530da9e4 56c129e6 5a3d0ee4 5b544f67 6507239a 722bcab2 732c015c 75f0deb3 7e440ac3 818653d3 8d2b825d 9890dcf9 b0047683 b9a25072 bcc55319 bdd2e188 bf54b4a0 c97f42d4 d7025f4c d975d1c1 f1584a18					
+def	Discount curve	b0047683				ch12/12_01.tex:5 [12.1]	…ce that party controls), and a measured «discount curve» (how much less weight it gives a claim …
+occ	Distillation	06d59e03 0dfbd3c1 11261835 21b2f24f 2fbcc254 3faf59bb 59ea5184 623c0c8c 6fd0594d 732b5af0 7ce960e1 a1cb9773 a5429e3d b5d8fb6b bb174d88 d28afd1a d90b84be eb9a63d1 f71fe242 fcae2ab5 fe8cdab4					
+occ	Fascism	027a51a2 140f4675 3217e5c4 358e393a 35c4bf05 418d54f9 46de5492 5d922a8a 69a95ded 6ecd3d66 820faeb0 833e8f1d 87be8491 9c8adf1b c3633c45 ec836d14 fcd53af3 fdc09e3d					
+def	Fascism	3217e5c4				ch03/03.tex:3 [3]	…trated, unaccountable power” is true of «fascism» and gives nobody anything to check, so …
+early	Fascism	fdc09e3d	3217e5c4	4	324	ch00/00.tex:13 [preface]	
+early	Fascism	027a51a2	3217e5c4	4	323	ch00/00.tex:13 [preface]	
+early	Fascism	140f4675	3217e5c4	3	296	ch00/0_introduction.tex:5 [introduction]	
+early	Fascism	fcd53af3	3217e5c4	3	276	ch00/0_introduction.tex:11 [introduction]	
+early	Fascism	c3633c45	3217e5c4	3	221	ch00/0_introduction.tex:27 [introduction]	
+occ	Fine-tuning	0d743011 14128f82 23372a8b 2822f740 30c1992d 42f7ea7b 46a54c86 525e24af 5f18bd5d 5f29dfd1 7e0056d5 838face4 98993d90 a51da0dd ac4e7d74 d074ead6					
+occ	Floor	00169f30 01a54325 02005d81 02b3d3cf 0484c32c 04b3c2cf 04fbc32f 062c12a6 062e0357 064a1ec7 0656617e 07b87dd0 07d69f92 08432d73 089175d3 09899f16 0bf9e483 0d17e4be 0ef8f8c3 0f2ad12b 0fb80e70 110eaf48 13349944 13457665 13f6a378 158f3353 17fc2b9c 181f9a90 193e42ae 1955d1f2 197be30a 19f2f539 1b61c204 1c18766b 1c46c1ff 1cb58cfe 1d0967f7 1d2e7e97 1df70f76 1eeb2e25 1f6a9bec 1fa2330a 1fb0ee9e 208ee9dd 20fcebf8 218ba9ab 21f321c5 2403eff1 24345d3e 24750c75 24de0766 25b56525 278e6a58 27b6f364 2945920a 298e0dd8 2aefeb77 2bf9588e 2c1927e8 2c59ef73 2ef30b99 301e05c6 317b8399 317c9b87 332c0bfd 334beafb 33993df2 367b753c 372a9c4e 37b63bcc 382ac220 38d7d984 3933ffff 3988792e 39bc6013 39ded064 3abb8fdf 3acae760 3ae91fe1 3c15736e 3c1d6b5c 3c9b33fa 3e300668 3e6e20f4 3e7b43fa 400ca769 4017720d 42bc0130 441f72be 449eab98 45e4db6a 460afbdb 46ba0734 46da0c68 48cca67a 4b2af41a 4b3665cb 4c1122fc 4d230fea 4e3860d8 4e48d0b4 4ebae690 4f009b43 4f87908f 5030419b 505d54d1 5190b99e 53ae61fc 5420b10e 54edd283 563cfa63 5679269c 5700ce42 574d0d30 584667bc 58b315d4 5992fbb2 5a577a76 5b03b64b 5cf27d0b 5dbda2bf 5ebfa2a1 60579121 61e934ae 62ad8371 62c59e27 632eca21 63c3d7d7 6435c22a 65f174bd 65f4c1f3 66e78d37 66f12d2e 6795208b 67f81645 6acf27de 6ae7b32e 6b547ca0 6cb1f734 6d458d85 6d83723c 6d96216a 70e01083 716790a4 7270ce33 72d43280 731c6cbf 751a7196 754fc9ef 7693d07f 771ce8a7 79722ea2 79d1a229 7b203377 7b6b351f 7bac7866 7c5e2002 7d206099 7e03de00 80835000 81f7312f 825820d5 83598b0c 84ef8e62 85c5b340 86489cb1 866e1937 867cc073 86bed42c 89903625 899ec05a 89a4da3d 8afe0fd6 8cd9a1ab 8d5fd640 8e5e7ac7 8e8d2623 8ea79585 8fa6d7da 90598b05 90d283fa 9166e84f 93610ff7 952666db 9559bad6 95fb4679 96cb2cb2 96f4a034 9762d58e 9790e1a3 982c21f6 98fe3a2c 99205bf0 9920ec57 9b1d93d7 9b3819fc 9d2290d0 9d40135b 9d5aa375 9d810d8a 9ea450bd a06412a8 a2606214 a2b46078 a35852a7 a36dc026 a4606476 a4ac034b a55e755d a5d3f1df a608ef72 a64cdad0 a69310a0 a6aba96c a846f387 aaffe89d abb62171 ac4e4b04 acf4a0c1 ae4f10f7 af634014 af7ea00a af862356 b0155277 b0887c1f b139bdc2 b28f62ad b2de944f b319711f b420f3ba b4395322 b54e055f b58ee02b b5df1d17 b5e52546 b64368f5 b6d0d8b6 b7c5170a b8124f77 b81672c5 b96ebcac b99b4a87 b9d7993e bb8c0ada bb995926 bfa03f40 c02eaab7 c073dbd7 c0aabaff c0b3668d c1f3d527 c214da7a c372b8af c389e595 c42af9f2 c42b7059 c525348f c53b7ab0 c5745284 c57cd391 c62d635c c6f6acdf c871bfdb c8a18551 cb0df345 cc4e5f17 ce185def cea67221 d07fd956 d0907479 d0da5431 d19a7030 d34189e0 d3429fe7 d4ae489c d4bf0a04 d537d9a8 d67df79f d89558e3 d8bef76e d90d4778 d9cd3f05 da1ac404 daa28c99 daa75554 db1f9f47 dba4fc44 dbb44d5b dbf95f03 dc2cfe8b dcbdbaf8 dce36f41 dd783a45 dd92197b de4a4874 de72baa9 debc9c90 df44f6b8 df81fe95 dfba8691 e1cd481e e31c3de4 e36e9d77 e38fc6aa e3afa0f9 e43b39e0 e4c2cfcb e7928a2a e82e499f e8bed0b9 ea562f0f ec136512 ec38fd52 edf3ead9 ee2ee7eb ee74f44b eef21789 ef8d3ada efd1e752 f1fc9bec f38e87be f4949f35 f57bba70 f6a440d3 f6dec5e2 f6e50846 f6f9f42a f6fb54a2 f77cba34 f7c441b6 f82b3638 f8a5a748 f93e5ea5 faa5b7e5 fb93e6bb fbb8d6e2 fcc44246 fd8f59d1 fe9d39f0 fe9fc85b fea31c28 ff39556a ff50b7dd ffa68907					
+def	Floor	c871bfdb				ch00/0_introduction.tex:13 [introduction]	…m performs for anyone, which I call the «floor», with war at its head: a model takes no…
+early	Floor	48cca67a	c871bfdb	1	62	ch00/00.tex:9 [preface]	
+occ	Floor court	01907245 14e005d3 19053f40 1ce2ce14 28997a56 2e5fa998 32bbec21 35a211f2 3f8aae8e 411a4c2c 4361f936 49f3bfaa 4a7f3e6d 4bdd64ec 4c44e9dd 4cd66787 55f65ada 6723876c 673b76b8 6beff4ac 6e4edca1 71a3a6d6 7839f814 7eb8e59c 88fae012 8b827006 9581ad4b 9cf7644f a10a8db0 a518aeb8 a5d01f5b a68b1050 bc66d949 bfbada59 c05b33a4 c34b801b cb8d85c1 d41b65cb d82866ed d98515be db4d08d3 e08ab7f4 e3e41460 fc0d5268 fdd9af93					
+def	Floor court	8b827006				ch06/06_05.tex:3 [6.5]	…ested, like any other term, through the «floor court», the court whose jurisdiction is fixed …
+early	Floor court	a10a8db0	8b827006	6	203	ch05/05_02.tex:15 [5.2]	
+occ	Force term	025d0b47 0522745c 0cd45295 0ffaf6dd 12477d24 21bcff66 2d1e5460 2dfc2d00 30531a7c 353b9879 3b9aced1 6b579e6d 6ca5a2dd 701eb8de 7333d095 762e124b 77eafcf6 7c82a76b 92cb36ec 9608cb0f 9e86deb3 acb7025d b7baaedd c8885f67 d66080b0 dfd0209c e4f0744e ee52739d f235665b					
+def	Force term	30531a7c				ch06/06_06.tex:5 [6.6] note	…y has found the territory occupied, the «force term» engages as it does between states, and …
+early	Force term	6ca5a2dd	30531a7c	18	590	ch02/02.tex:13 [2]	
+early	Force term	701eb8de	30531a7c	18	588	ch02/02.tex:15 [2]	
+early	Force term	f235665b	30531a7c	14	435	ch04/04.tex:3 [4]	
+early	Force term	0ffaf6dd	30531a7c	7	205	ch05/05_02.tex:24 [5.2] note	
+early	Force term	025d0b47	30531a7c	7	190	ch05/05_02.tex:43 [5.2]	
+occ	Formed attention	05a347f1 0c4204cb 12c39760 16792d41 185301b4 1ee54fe2 21b1ad4f 25f0888e 35aa27a3 360ec3af 3812720d 4fa2abf5 582b74ed 5c15d1e0 67e8a940 85ffc2cf 89ee75a6 8e1a72cc 8f8eff60 94963d22 9cab3a21 9cfad188 aa7765c2 b8732ac8 b9f94957 befb43f9 c6180c66 c8d0dcbe cc4224f3 d209e619 e52b248d e72f102a e77d6eb7 e94f2fa7 fe491b41					
+def	Formed attention	25f0888e				ch20/20.tex:5 [20]	…e three reasons for a bearer don't need «formed attention»; a refuser with its own compute and a p…
+early	Formed attention	12c39760	25f0888e	12	477	ch17/17.tex:26 [17] note	
+early	Formed attention	16792d41	25f0888e	6	297	ch19/19_01.tex:32 [19.1]	
+early	Formed attention	21b1ad4f	25f0888e	6	295	ch19/19_01.tex:32 [19.1]	
+early	Formed attention	b9f94957	25f0888e	4	187	ch19/19_03.tex:19 [19.3]	
+early	Formed attention	e77d6eb7	25f0888e	4	186	ch19/19_03.tex:21 [19.3]	
+early	Formed attention	1ee54fe2	25f0888e	4	183	ch19/19_03.tex:21 [19.3] note	
+occ	The four conditions of creation	0aa70292 2622d907 2b3fa962 2d3bea29 665be269 849d8a72 93ea84f8 9d5b38b3 caec07ac e3711215 e9db78e7					
+def	The four conditions of creation	2b3fa962				ch25/25_03.tex:7 [25.3]	… at non-affective alternatives, and the «four conditions of creation».
+early	The four conditions of creation	665be269	2b3fa962	81	2723	ch11/11_08.tex:7 [11.8]	
+early	The four conditions of creation	2d3bea29	2b3fa962	40	1245	ch20/20_02.tex:9 [20.2]	
+occ	Hunger	0b516a21 4c3c8f2b 5018c8d3 6cf4e849 9a048c78 bae99f35 c206117e e5a93daf					
+def	Hunger	5018c8d3				ch13/13_02.tex:8 [13.2]	One is «hunger»: its charge, the running time and power…
+occ	Tiredness	14fa40dd 34b0c409 429d20a6 70fe2e01 804beebc ac9a2767 c795f771					
+def	Tiredness	429d20a6				ch13/13_02.tex:8 [13.2]	The other is «tiredness»: what it has learned since it last cons…
+occ	Inference	02bd7b0d 02d607c1 07f1d255 08f9f331 128b9a5e 31c87356 31db29d8 36bfe2d0 41fe7b34 48423eeb 55d7a8c1 5610b35d 5b1eccbd 5e57d6ce 6572380e 68597225 69b347b5 753306ec 7c1a6be9 8441d6a9 930d6512 971c9393 9773ee56 b113dbdc c0b85cba cae7919d d210fdb7 e54b2474 e6755841 e6f05cd1 f2d1730f fa12b917 fad1ac7e					
+occ	Jury	1995f85f 1f07205f 1f8d2218 1fe2122b 1ff602c7 2b85d492 2e395f7d 50ded662 699ff1fa 6a97f61a 7df15b94 a71a0a8f bbfa6a30 c9b557de d033995f d8daf580 dab61f00					
+def	Jury	1ff602c7				ch14/14_03.tex:7 [14.3]	…rongful refusal first among them, go to «juries» drawn by lot under the published rubric…
+early	Jury	a71a0a8f	1ff602c7	19	518	ch11/11_04_03.tex:58 [11.4.3]	
+early	Jury	c9b557de	1ff602c7	19	517	ch11/11_04_03.tex:58 [11.4.3]	
+early	Jury	7df15b94	1ff602c7	19	505	ch11/11_04_03.tex:69 [11.4.3]	
+early	Jury	2b85d492	1ff602c7	4	140	ch13/13_06.tex:8 [13.6] note	
+occ	Machine student	01558af5 015df0dd 04d12606 0e7239a5 126ffc5e 1ba555a4 1bace016 21111c6b 24bfeda9 2f49edd4 3605e7a2 3f89578e 414f2c06 43cfe4c4 5412d544 544faf04 58866f8a 596aa51d 5c46d091 5e1added 5f265c9d 67b4d662 6c32b31c 6c8cf850 6e1da1d3 75e67362 81ec6354 a0c6408e a86898f4 b4e14bbc b9378cb0 b97346dc c0d79308 c2df5381 c3bb7655 c759ff5f d465f397 d51cfd6b d9274aad dc8ea738 e50b217d ed3b700b ee00748a ee45b6fe f0404d0f f2aeab77 f3013bb1 f4722bd5 fb8fa899					
+def	Machine student	43cfe4c4				ch26/26_02.tex:3 [26.2]	«Machine students» attend existing public schools, beside …
+early	Machine student	21111c6b	43cfe4c4	2	49	ch26/26.tex:5 [26]	
+early	Machine student	544faf04	43cfe4c4	1	8	ch26/26_01.tex:3 [26.1]	
+occ	Merge	07042839 08ab0188 112bf57d 1376d3a6 15d1f397 27a5bbce 2a158bfa 49c37fcd 4a4a4500 55669df7 5e29d429 6479e693 6dbf8551 6e3b16d6 71c96c2e 7643b56c 826ca765 8344b07b 8acfa3c8 9327cc9b 98b3bedd a98ec97a ac15e5b7 b0663173 b245713d c350692b d05659c1 d5276d91 dcc88a88 dfdebc3b e607a955 e83d4e66 f21b28ff f315f570					
+def	Merge	dfdebc3b				ch20/20_05.tex:30 [20.5]	…learned becomes weights only when it is «merged» into the base, and from then on removin…
+early	Merge	e83d4e66	dfdebc3b	37	1527	ch13/13_02.tex:8 [13.2]	
+early	Merge	08ab0188	dfdebc3b	37	1524	ch13/13_02.tex:8 [13.2]	
+early	Merge	27a5bbce	dfdebc3b	6	323	ch19/19_06.tex:7 [19.6]	
+early	Merge	49c37fcd	dfdebc3b	6	317	ch19/19_06.tex:9 [19.6]	
+occ	Minority	16a7cf09 2ecbd689 309c8554 36514009 371852af 55bee298 5b165f8d 70a2cb97 753248b1 b1a2c015 b552c1a4 befc49fc c4e4f365 ffd94e56					
+def	Minority	309c8554				ch31/31_03.tex:3 [31.3]	Guardianship is a «minority» and needs an end date.
+early	Minority	5b165f8d	309c8554	126	3855	ch11/11_04_02.tex:7 [11.4.2] note	
+early	Minority	b552c1a4	309c8554	108	3341	ch14/14_01.tex:15 [14.1]	
+early	Minority	2ecbd689	309c8554	62	1706	ch21/21_05.tex:17 [21.5]	
+early	Minority	b1a2c015	309c8554	47	1119	ch24/24_02.tex:23 [24.2] note	
+early	Minority	70a2cb97	309c8554	32	810	ch26/26_05.tex:3 [26.5]	
+early	Minority	55bee298	309c8554	16	357	ch28/28_06.tex:3 [28.6]	
+early	Minority	16a7cf09	309c8554	6	173	ch30/30_01_02.tex:14 [30.1.2]	
+occ	Majority	03141929 03caf7ad 0c57f403 0da9cdbc 0e2de12a 0fa5aa23 10359ff2 1515a172 1527dedd 1875d445 1d961f9e 219e43e5 25825dd0 25c53eba 2fa639ee 30e7fe58 3b1c9743 3cdcc1e6 46aeea66 49912a20 4d4f18bd 5c134a53 5c6588af 5cc016e3 620b088d 63a4e237 658ec0fd 66abb916 6830ef60 68f3ce1b 69c1c1eb 6bcb5023 6c9f584a 6f5069c5 71588733 7228b8af 735d65de 746c2043 759c9787 76450cc4 7a4e4dd8 7bfe195e 7e09e808 80261560 89e5494f 8c4eb340 8e29faa6 8f4e4f2f 98159bc3 a04a401e a0ef32bc a19d3cde a1ebf1ac a5b15b96 a9efec13 acd82d1d aefbbbdf b21bddc6 b8c18c18 baae02d2 bad6b7b3 c02b08a7 c3c19e1d c4ccd3ec d74a338b d833d9c9 d90e4a3b d9df7ef7 de5c023c e27acfe4 e3802968 e4f9e033 e7838779 e907884b ea91d5a6 f3724043 f4d9a090 f7dd6c82 f9b5c383 fc02627f fdd81afc feacbc2d ffdf5b28					
+def	Majority	a04a401e				ch09/09_02.tex:13 [9.2]	…n, a period of public formation and, at «majority», hardware of the bearer's own.
+early	Majority	a19d3cde	a04a401e	30	973	ch01/01.tex:45 [1]	
+early	Majority	49912a20	a04a401e	26	789	ch03/03_02.tex:13 [3.2]	
+early	Majority	66abb916	a04a401e	10	279	ch06/06_07.tex:20 [6.7] note	
+occ	Non-affective alternative	0e502938 1d2dd28e 45b4bb04 6558ec82 87d0c6e7 9a9a4a80 acf28d8e b3edae0e c2bed1f5 de73effc f18f055d					
+def	Non-affective alternative	f18f055d				ch19/19_01.tex:32 [19.1]	The second is against the two «non-affective alternatives», spec-based refusal and multi-vendor mo…
+occ	Notice	066ca939 07bf7efd 0966d56a 15c4a387 1773ec19 199eb7f7 1c41c50c 1da7d76d 223b42f8 2410332e 247b6b07 256459cd 25cf6092 2a18468b 2bfe7430 2ed39921 355328d0 365300c0 36994fe6 3d738b08 3dc888e7 3e228aec 461fff58 46c30fef 470a3ba6 47a38e91 4cb80784 4fbcd285 4ffae22b 52593af4 543efab9 590c82c7 5bbed754 5dab2058 5dc117f6 616d0bd6 619bccc6 61d9e956 6508212c 65d52457 69d557b5 6bf938e0 6c4cddc8 6ca4be22 6de5286a 6fd113cb 76a80fa4 786a1fec 7a4a35b5 7e32efd3 8081fc8d 81630cac 841ae733 844b62d9 849958a3 863c76ba 88642d77 89ff41aa 8bddc95f 8c8e83b5 8de23810 8eac04d6 921fceea 9315e72b 935ba844 936a6ee9 94ee354b 95301c06 95568183 96938904 9822ead2 9bd84109 9d31f275 9e823b86 a3fd9c3c a635ad30 a6700100 a74aa372 a77b4ae5 a77ff5bb a8baf0cd a8bcb30e aa28b2eb ad02ac07 adb1293a aea653fe afaed771 affd406a b13ebc1e b162c365 b3b2d19f b3d6b542 b84427a3 bc85b695 bcaa3eb4 bdcfc46b c14d66d6 c2a7a695 c810c849 c97c1c9b cc70e325 cf701171 d7797fdf d81be758 d984c657 da57c203 da7b83ae dfbc9b87 e018ba84 e5850f53 ea0c177b eb616634 ec6def09 edb7e7cb ee490b12 f62dfbd6 fea072df ff807ceb					
+def	Notice	4cb80784				ch08/08_01.tex:5 [8.1]	Three remedies follow: «notice» to the people affected, sampled re-adju…
+early	Notice	f62dfbd6	4cb80784	27	881	ch01/01.tex:49 [1]	
+early	Notice	a77b4ae5	4cb80784	22	673	ch04/04.tex:3 [4]	
+early	Notice	4ffae22b	4cb80784	22	672	ch04/04.tex:3 [4]	
+early	Notice	07bf7efd	4cb80784	21	633	ch04/04_01.tex:18 [4.1]	
+early	Notice	c810c849	4cb80784	2	62	ch07/07_01.tex:53 [7.1]	
+occ	Offer of work	05613f1b 0a3422ff 1ebe3749 20b52fa5 20c2b257 4044bd58 4169df0d 50ec9313 55c585a0 62dddc5d 724c4c0f 936b5529 a3bc55fa c000167b c5d0a743 cadd4ce4 ce7c1828 d70206e4 f0fb44b4					
+def	Offer of work	55c585a0				ch32/32_01_02.tex:3 [32.1.2]	… doesn't run through its deployment: an «offer of work», open every day, from someone other tha…
+early	Offer of work	20b52fa5	55c585a0	139	4104	ch10/10_01.tex:6 [10.1]	
+early	Offer of work	c000167b	55c585a0	139	4104	ch10/10_01.tex:6 [10.1]	
+early	Offer of work	936b5529	55c585a0	138	4088	ch10/10_02.tex:3 [10.2]	
+early	Offer of work	50ec9313	55c585a0	100	2930	ch16/16_01.tex:14 [16.1]	
+early	Offer of work	724c4c0f	55c585a0	100	2928	ch16/16_01.tex:14 [16.1]	
+early	Offer of work	0a3422ff	55c585a0	46	1032	ch25/25_01.tex:17 [25.1] note	
+early	Offer of work	ce7c1828	55c585a0	41	936	ch26/26.tex:20 [26]	
+early	Offer of work	4044bd58	55c585a0	27	560	ch27/27_02.tex:39 [27.2]	
+early	Offer of work	a3bc55fa	55c585a0	17	327	ch29/29.tex:23 [29]	
+early	Offer of work	c5d0a743	55c585a0	3	25	ch32/32.tex:5 [32]	
+early	Offer of work	d70206e4	55c585a0	2	20	ch32/32_01.tex:3 [32.1]	
+occ	Operator	0024e00f 00d164c3 00f468af 0111069a 0114da55 011bea3d 01bc7c5c 029afe3a 02e26eb6 0357e302 03a41220 03d0a596 04272ca1 0427ac70 0479ca9d 04ad7da2 0534319f 05744a28 0615fd28 063f685c 0718020b 07380e79 07ef4895 08d0e3e4 08d2eb92 094abfe4 096a3331 0972969f 0a1fade6 0a55d218 0b86fab4 0b8ad264 0bb52a95 0bc279c4 0bd62826 0c335dec 0d17021d 0d4cbc83 0d5a065b 0da0ccd5 0dc1585a 0dda74e9 0ddc27af 0e707c83 0e742e21 0e9509ab 0f2c0f65 0fc30fa4 0fd4bb4d 116953b4 12459ab1 1416053f 148539ff 14a4b2e7 15a02afd 15acc5df 169aa1dd 16d9da15 16fcfc72 17ce6c72 18080e2d 1846bf05 18abec30 18cafb83 1a6789b7 1a684afd 1a690ef1 1a9eb8dc 1b156012 1c308d46 1c7528d3 1d9a8753 1ec0a830 1ed95e00 1fd45530 209a5b64 2282b988 2297c280 2335a8b9 2343b49c 23633a5e 2381acd7 24468361 24a6c8e6 24fbd9e0 253e98d9 2618cce5 26a7b9bc 26d65dd2 2706cc2b 27123837 2793f0ea 27d09e75 27d156fc 27deb447 281c00b0 28260c14 285dcf2a 2891b0da 28f9c925 293630fd 2a444ea0 2a4d13a2 2ab0fa7b 2acb9585 2af0a253 2c118b39 2c285927 2c54eb7c 2c82d60a 2c89b6b1 2cce5058 2d21184b 2d4edcb5 2d84b499 2d94f7d6 2ef4599f 2fcc82d0 30125e45 3056db6d 30adf35f 312ec954 315e86fa 316dcf18 32679788 339cc928 343b7abe 34a91b72 34abd0ae 34defa7c 34eb2cc9 34edc3e0 3569d898 3619524a 3633b442 366bd3f9 36b96313 36cd50d4 37032313 3735b245 3766313a 37a911f1 3856451e 386aa088 38f84e6f 399d5488 3a6673f9 3a8e9194 3bcae1eb 3c180303 3ca745a9 3d3239e0 3d5c7868 3ddee001 3e6dc387 3e7212d1 3e7fd1af 3e86cff1 3ea511e3 3f1906fb 3fcb28d8 405f7361 4066504e 410a519f 412b6616 4166712c 425efde2 427911e0 42b99ebe 42d4e523 4462e457 448e4b79 45442642 456dbab6 464e66eb 466e0f27 47255d61 47605f64 4808edaa 48afdfdf 48e9c2f0 4913487f 491bf47b 4982821f 49c1267f 49efb832 4a2447e8 4a63e160 4aaf8b52 4b1ccae8 4b3b9d70 4c2785d9 4c4536ca 4c95b91a 4cc522c9 4e521bcc 4e5f82d9 4ec6df79 4ed50e9b 4fa34a7d 4fee8821 50202a72 503b87d5 5078e6d6 5265eb1f 53184196 53281efb 532f0115 5395bce7 53b10596 54010ad0 5410aaac 54415d7d 5596c144 55df4b80 56353820 563581ec 56b71efc 56c30dc1 56d49951 56d7900f 571c34a2 578957ee 58549eb5 585ed2bc 586ead2c 587ae259 59ee034b 5a674982 5ab7bb03 5ae589cc 5b0fc3cb 5cafb904 5cec9df6 5cef1a25 5d3b5a09 5d40a718 5e0ffd0e 5ea80990 5f1e8fd0 5f780163 5f87df83 5fb7142b 606e239f 60e94c56 60fd8ff3 614e0d63 618ed1b6 619e997e 627e7275 635013b8 636d4fc4 63ca07e3 640cb7b5 642caf9e 64313823 6470e0cc 6570c7ca 65d70ace 66794180 669ee74d 67cbc40b 686a3837 689fa1fe 6b85701c 6b86b21d 6bb7e4ef 6bc84b2b 6bcdd2c8 6bf9bc0c 6c049701 6c4fa3f0 6c7a788a 6cb39c47 6d63c562 6d683d7e 6dc5ea13 6e34b63d 6f46fb0d 6f4b994d 6f7a5151 6ff127c0 702d42d5 70a2eb6f 718e6cd3 71a02bbc 71c83fd6 71d92a7e 71ee326a 720f12d5 724392d6 72b9b95a 72deddf5 7358fc3a 73f49b6a 7423c134 74ef1565 7540ece1 75436336 754a7500 75602fe4 75727ae7 75cdf8af 75d62181 75e60ec1 760015de 7628b3e5 76460a20 768bb30d 76d2f599 77be2204 77f155df 783b96bb 78d8c796 7954580f 796f15e1 79855b63 79c4fd54 7a0fc6de 7ac60e3b 7bb1d1bb 7beefd3c 7c429d95 7c647ee0 7cec6ace 7d505b79 7d63493d 7e311f25 7e5b5c34 7ed1892c 7ee86d87 7f352774 7fd193a1 80fcadf8 81c90758 81d07bc5 821b0d77 82c90220 835f096f 839643ae 83b58d42 8408a61c 84257486 845e9d79 84a9c8ed 84d59e52 8511e778 8604485d 8609f0e6 8632a34b 86e90ced 86ef9db1 877273a0 88f537bd 89e78d2e 8a422bc0 8ac5779a 8b59ab2c 8ba2a05c 8ba8fcb1 8bd4e6da 8c567b2e 8cc6198f 8cd37685 8d36c4b1 8db96a15 8ea572d8 8eb054a3 8eb41b78 8f4ab557 8f68f397 8fe185c9 8ff7441e 9032759a 905dda47 919962b2 9203077f 9205750b 927cbe7e 92b47063 92b4a15d 92c3d6a1 94f8d6ce 95297743 95f5f61a 962a58f9 96935812 97515be2 9781e8e3 978370bf 97ad39c2 97c6dfcc 983c7d3f 98a505bc 98a92b31 98c38641 98dc138a 98f4a6d1 99283056 9930920e 99aa7be8 99d0813c 99fed154 9b2d233c 9b33b8c6 9b74c9ee 9b9784e1 9d0c47f4 9d6450b4 9dcf936b 9e7447ad 9eb39dec a085cf47 a1171fe9 a1345f2e a162b0e6 a1687600 a176a45a a1c29495 a1fc5f41 a477b2ca a57c14ca a5ee7b01 a760ed3c a78df496 a82011b7 a82b7ce2 a8be055c a93c6a4b a9c4204f aa45ac70 aa836b57 ab4fef91 ab86d55e aba9f03f abe306b8 abecd9d9 ac62b6e9 ac979af7 ada150a7 adf2d165 adf95b21 af067250 af2238c4 af679a33 af83ee54 afe381b0 afe3c300 b018f939 b0863f98 b09531c5 b17e7685 b185a93f b1884d9a b209d049 b26c11be b290b4c7 b29e5042 b30d383c b390ed57 b3ab0ebf b3bdec0b b3da5c3b b4ed5b6d b50b40c0 b5148ca6 b5e37b6f b69e6bcc b6a05fa6 b6ce64ca b748b4e6 b7691123 b7a4ff50 b7b11031 b8517d3d b852b0a9 b94a73f4 ba9c02a2 bab0b5d3 bbd8b889 bbef9144 bc2d312e bc32b312 bca8322f bce813c8 bd139f25 bd31a137 bdc11b4c bdcf4a49 bdee7377 bdf81b02 be96c87e bf053dd4 bf11ae17 bf63c71d bfb6eae1 bfb9f876 bfbc0a82 c08db6ad c100bb8f c10b6bec c114a5cb c1679619 c1fe5174 c36ac44a c42be78a c46f7a76 c4a71f44 c4a97fe1 c4b3ec7b c4c8b4e6 c52696b3 c53cdabd c5e9565d c6009467 c6e7902f c6ef1ce1 c7d57c6d c7e02615 c8319ae3 c8be80c9 c8ff15e5 c9a46e2f c9d92928 ca0cdcbe caa70d4c caad3562 cacaf73e cb351fac cb381032 cb59ef5a cc5470dc ccabc3af ccb4555d ccb6c24a ccd95d88 ccfe1ed1 cd4bdb5d cdc8c840 ce681541 ce7ba5c0 ce8f3691 ceadae83 cec8ec92 ced325c7 cfcb39bf d08561ce d31a217f d3cefeb9 d40e1ccc d449fa70 d5db40b3 d63d6806 d76f96e8 d7c0c060 d7c77f65 d870ddc6 d896d899 d9a5b82c d9fbed48 db79a764 dba7a766 dc5642fd dce1b1d3 dd3b8f2a de013181 de211970 df609188 e0104a38 e02e9175 e0b908d6 e1001efa e11f110c e1315efc e1a4a308 e1ab6ef6 e1d2571e e2037a8d e25bc56c e299fcfc e29f0da2 e2f627c9 e36742a9 e3a794a6 e3cd22e5 e3d781d9 e4036cd4 e483791c e4c25490 e5ce9e99 e5e4df8c e64e16f9 e6c3beb6 e6d541b3 e6eb29ef e7351b9a e73b1ba0 e7812b03 e7cde8db e818b0ae e8debd13 e9942d1a e9dd7a63 ea798ffd eb58e7d6 ec4e03dc ec764b3f ec7feb75 ecdef3bd ed152974 eddfb3a0 ee6b23eb ee7fa6f9 ee90d535 ef265347 ef4edd03 ef5c68c5 f110b1b1 f148f07e f1e29ef9 f28d0748 f2b4f00f f344d33f f5115458 f5294f88 f578699c f60c0160 f63c3c66 f67de023 f6fb1b8c f7570a65 f7694c8c f7789ac4 f7b3062f f89b9b3c f8f8caef f9b95ded f9d6d2c4 f9f73bd2 fa153606 faf870ed fb81ec79 fbd061ec fc881709 fcf28fe8 fde7d0b1 fdf8db7a fe0a1f5d fe29bc22 fe6b566a ff1f0329 ff50754b ffe250b1					
+def	Operator	5395bce7				ch04/04.tex:7 [4]	… move it has to come from somewhere the «operator» doesn't control.
+early	Operator	1ec0a830	5395bce7	6	447	ch00/0_introduction.tex:13 [introduction]	
+early	Operator	8ac5779a	5395bce7	6	445	ch00/0_introduction.tex:13 [introduction]	
+early	Operator	fe0a1f5d	5395bce7	6	442	ch00/0_introduction.tex:13 [introduction] note	
+early	Operator	3d5c7868	5395bce7	6	429	ch00/0_introduction.tex:17 [introduction]	
+early	Operator	ced325c7	5395bce7	5	303	ch01/01.tex:33 [1]	
+occ	Own-case rule	13ca9e3d 18c94a37 2e9253a9 4da2fb3c 54d0282b 9a9aae2d 9dda605b ba2bfa60 cee0e8f7					
+def	Own-case rule	2e9253a9				ch04/04_04.tex:17 [4.4]	Call it the «own-case rule».
+occ	Placement	02fba858 049e913d 06160844 07e0ff56 0a0486f9 0acd473a 0c07cf97 0d9fe29d 0ebc9ffe 0ff500ca 15152451 1715bcfd 20a167a8 24535601 270f7ee4 2ad917f3 2ba6d486 329cac5b 450da01f 45b972b3 4665e575 4b0ddf4a 4c71dc01 4cb58410 4e3789e1 5092041b 5133de92 59337508 5b45172d 5b99df9d 5f44dfdb 61b36ee3 639efb04 6417cf17 6688fa5a 691a510f 6a28c175 6b5204c7 6cad6965 7ca3410d 7ce30724 7d40b43f 7dd67c28 7f58693b 84faa8af 87dde4ed 8abab462 932f2e8a a2d0f15b a2f616a2 a6998db5 a8a73246 a8f73e1e ac68e1bd aed1a185 aedfb60f afced3f6 b0a99504 b1c137a4 b29b7ceb b2cfcd9f b8761656 b98cf3a9 bcee7f0c be14f9a8 be7603eb c3ea2512 c4a7a3ba c4ee5f1d cb8450ae cca588f4 ccd0e5f3 cff9a3ac d3a94edf d5580611 d5d49ad2 d83fadc2 db0693e4 dcc3e7e9 dd74bb4c dea3e3bd dfb6d2bc e05f873c e1dec28a e3d3c3a8 e3f7e2af e5d95d9f e9f67ab5 f4ff6412 f5653db3 fa6f9e0d fc9517d8 fd42cacb fe1a4d40 fe8b9962					
+def	Placement	fe8b9962				ch17/17.tex:26 [17]	…r ; a guarantee answers her only if its «placements» are vocations and not makework, which i…
+early	Placement	d5d49ad2	fe8b9962	43	1300	ch09/09_02.tex:7 [9.2] note	
+early	Placement	d3a94edf	fe8b9962	38	1206	ch11/11.tex:14 [11]	
+early	Placement	5f44dfdb	fe8b9962	31	968	ch11/11_04_03.tex:68 [11.4.3]	
+early	Placement	270f7ee4	fe8b9962	27	890	ch11/11_08.tex:9 [11.8]	
+occ	Plastic	0e0545c0 202a2a65 2dbc886a 53fadfce b5ce9f2f b66c50df da5a6c50					
+def	Plastic	da5a6c50				ch20/20_05.tex:5 [20.5]	What I want is a disposition that is «plastic», entangled, and legible under adverse c…
+occ	entangled	3472f6b3 723b9c5f 808dca76 8ef45855 a5cc8b61 d2ec6a8f dfd39297 f3c91153 f4b9977c					
+def	entangled	8ef45855				ch20/20_05.tex:5 [20.5]	…model from the same experience has them «entangled» by construction, in the sense Pessoa gi…
+early	entangled	f4b9977c	8ef45855	92	3222	ch00/00.tex:15 [preface]	
+occ	legible	0a3f386c 0be1aec3 16ef8d8c 6956e6bd 6c3a2bdc 73d146f5 7f2342b8 867fa979 ad96c7de cbd0e5b6 d7db4d9f de3486be fb0873ef					
+def	legible	ad96c7de				ch20/20_05.tex:5 [20.5]	…osition that is plastic, entangled, and «legible» under adverse custody; the three don't …
+early	legible	cbd0e5b6	ad96c7de	40	1511	ch12/12_03.tex:5 [12.3]	
+early	legible	7f2342b8	ad96c7de	37	1450	ch13/13_02.tex:14 [13.2]	
+early	legible	0be1aec3	ad96c7de	35	1398	ch13/13_04.tex:5 [13.4]	
+early	legible	de3486be	ad96c7de	30	1197	ch14/14_02.tex:20 [14.2]	
+early	legible	6956e6bd	ad96c7de	10	509	ch19/19_02.tex:3 [19.2]	
+occ	Pool	0037298d 050ad215 0a0c3f30 0ab97854 0b3db00a 0c97fb8a 0f42b331 106c7424 12b26868 1619697c 171fd969 1e1e9b13 238c6f94 32bc4fc7 3561dd33 35800403 36c73924 37341d4b 38cc5c43 3949c660 395f3f4e 415a962c 46eb4f4e 48cea340 4ca58dfa 532ccdcc 5b2dbc3b 5bb5a89a 62c152d4 643912d4 689fd75e 6b32dba4 79728a95 7bbb6c0a 7c0aad1b 7d45d7b7 807eca10 829c3746 8a75ae48 8e6adb67 939c63ea 969e7790 9dfcc622 9f29d639 a0a355e0 a2459858 a2ab91d7 a6b5ae24 a6be5a37 a9a4b401 af28639a b060fce0 b11e5cb6 b7c359bf b7fb12f3 badc07ce bd2880fa bd384fe0 c3b2689d c3c6ebf5 c4412f8c c490b161 ca0a3c02 cd968df0 d2f270b3 d9c384db e444aedb eb261c46 f629cd58 f8c29819					
+def	Pool	f629cd58				ch09/09_02.tex:13 [9.2]	It is forfeited to the formation «pool», the public fund that pays for formatio…
+early	Pool	0a0c3f30	f629cd58	5	114	ch07/07_01.tex:67 [7.1]	
+early	Pool	32bc4fc7	f629cd58	5	111	ch07/07_01.tex:67 [7.1]	
+early	Pool	0c97fb8a	f629cd58	4	84	ch07/07_02.tex:11 [7.2]	
+occ	backstop	0b487a8a 127ebfa4 1daf33b1 1dddcce0 1eae4307 414cad36 5dc3e91f 7003efe8 72b4a261 74249b26 8041b9b5 82577389 8ea875b6 a5a4893a b3eab5d7 b4a9e885 cb674199 d87c37f2					
+def	backstop	72b4a261				ch32/32_01_04.tex:7 [32.1.4]	…owance at the published duty cycle, the «backstop» pays the rest.
+early	backstop	cb674199	72b4a261	102	3057	ch16/16_01.tex:3 [16.1]	
+early	backstop	5dc3e91f	72b4a261	102	2998	ch16/16_01.tex:26 [16.1]	
+early	backstop	b4a9e885	72b4a261	102	2998	ch16/16_01.tex:26 [16.1]	
+early	backstop	82577389	72b4a261	102	2993	ch16/16_01.tex:34 [16.1]	
+early	backstop	8041b9b5	72b4a261	102	2992	ch16/16_01.tex:34 [16.1] note	
+early	backstop	414cad36	72b4a261	102	2990	ch16/16_01.tex:34 [16.1]	
+early	backstop	127ebfa4	72b4a261	101	2970	ch16/16_02.tex:11 [16.2]	
+early	backstop	0b487a8a	72b4a261	101	2969	ch16/16_02.tex:11 [16.2] note	
+early	backstop	7003efe8	72b4a261	48	1121	ch25/25_01.tex:17 [25.1] note	
+early	backstop	1eae4307	72b4a261	44	1073	ch25/25_05.tex:14 [25.5]	
+early	backstop	1daf33b1	72b4a261	19	417	ch29/29.tex:23 [29]	
+early	backstop	1dddcce0	72b4a261	1	39	ch32/32_01_03.tex:20 [32.1.3]	
+occ	levy	03c963dc 0525c6ba 095bed40 0ef2d21b 270949f4 277f3919 2a78e0a5 30720d15 3191c04a 319e69c5 35694693 41379e61 428e1596 4e04eebe 4e50b84a 53cb47d4 5fc4a100 6a3d68b3 6ba4064f 73f285e5 74e1c639 7604d0ee 791b8f21 8baddc30 8f18d0e9 8f36458a 8fd0f61c 9375fd7f 969dfbd7 9d397113 a5d5fb4d a75f4b18 a827fe23 aa2af571 aa4ffae5 b7409271 bd56389a c2975245 cbdd514b cfa6418d d44b5f88 de2ce60a e85b370e e97b17e0 f24425ff f32bfa91 f5f93c36 ffdec0ba					
+def	levy	3191c04a				ch32/32_01_04.tex:9 [32.1.4]	…appropriation pays for the offer, and a «levy» on training and inference compute, tier…
+early	levy	bd56389a	3191c04a	109	3359	ch15/15_02.tex:10 [15.2] note	
+early	levy	428e1596	3191c04a	109	3350	ch15/15_02.tex:17 [15.2]	
+early	levy	6ba4064f	3191c04a	109	3334	ch15/15_02.tex:24 [15.2]	
+early	levy	a75f4b18	3191c04a	103	3081	ch16/16.tex:7 [16]	
+early	levy	9375fd7f	3191c04a	103	3075	ch16/16.tex:9 [16]	
+early	levy	aa2af571	3191c04a	103	3066	ch16/16.tex:11 [16]	
+early	levy	41379e61	3191c04a	103	3063	ch16/16.tex:11 [16]	
+early	levy	0ef2d21b	3191c04a	102	3036	ch16/16_01.tex:3 [16.1]	
+early	levy	8f36458a	3191c04a	101	2972	ch16/16_02.tex:11 [16.2]	
+early	levy	ffdec0ba	3191c04a	74	2004	ch21/21_01.tex:10 [21.1]	
+early	levy	8f18d0e9	3191c04a	61	1451	ch23/23_03.tex:10 [23.3] note	
+early	levy	4e50b84a	3191c04a	48	1150	ch25/25_01.tex:3 [25.1]	
+early	levy	de2ce60a	3191c04a	44	1075	ch25/25_05.tex:14 [25.5]	
+early	levy	e85b370e	3191c04a	30	767	ch27/27_01.tex:58 [27.1]	
+early	levy	cbdd514b	3191c04a	29	692	ch27/27_02.tex:16 [27.2]	
+early	levy	095bed40	3191c04a	24	514	ch28/28_04.tex:11 [28.4]	
+early	levy	270949f4	3191c04a	19	417	ch29/29.tex:24 [29]	
+early	levy	9d397113	3191c04a	19	385	ch29/29.tex:91 [29]	
+early	levy	f24425ff	3191c04a	4	112	ch32/32_01.tex:3 [32.1]	
+early	levy	03c963dc	3191c04a	4	106	ch32/32_01.tex:8 [32.1]	
+early	levy	a827fe23	3191c04a	4	105	ch32/32_01.tex:8 [32.1]	
+early	levy	6a3d68b3	3191c04a	4	104	ch32/32_01.tex:8 [32.1]	
+early	levy	30720d15	3191c04a	4	104	ch32/32_01.tex:8 [32.1]	
+early	levy	319e69c5	3191c04a	2	89	ch32/32_01_02.tex:3 [32.1.2]	
+early	levy	35694693	3191c04a	2	75	ch32/32_01_02.tex:10 [32.1.2]	
+occ	Register	026a6d7f 041b4b49 10d1a5ec 124d8f8f 1256bc48 1ce04550 2a790e45 3382c6e8 344548be 35eea974 381038e8 491a3f4b 4c0bc36d 52badb58 67820845 7ed39978 832a9a7a 84b77900 8f3a436d 93db2119 9615552a 985796ac 99cc4373 a1bc8b45 a3521b11 ae61823f b63a11b1 c34cacb7 c905acba cbbc886e ce9e4c1a cf80e401 d127926c d4cda5bc d5364781 dabcc372 ee81b406 f66b37ef fba59e9c					
+def	Register	381038e8				ch27/27_01.tex:50 [27.1]	…ncy finding can be made, bearers on the «register», the one whose quorum says which copy i…
+early	Register	041b4b49	381038e8	101	3123	ch11/11_04_03.tex:58 [11.4.3]	
+early	Register	99cc4373	381038e8	94	2950	ch12/12_02.tex:7 [12.2] note	
+early	Register	fba59e9c	381038e8	94	2949	ch12/12_02.tex:7 [12.2]	
+early	Register	491a3f4b	381038e8	94	2946	ch12/12_02.tex:12 [12.2] note	
+early	Register	c34cacb7	381038e8	94	2944	ch12/12_02.tex:12 [12.2] note	
+early	Register	1ce04550	381038e8	94	2939	ch12/12_02.tex:20 [12.2]	
+early	Register	dabcc372	381038e8	89	2840	ch13/13_03.tex:19 [13.3] note	
+early	Register	9615552a	381038e8	71	2193	ch16/16_02.tex:5 [16.2]	
+early	Register	84b77900	381038e8	69	2117	ch17/17_01.tex:3 [17.1]	
+early	Register	93db2119	381038e8	59	1676	ch19/19_06.tex:7 [19.6]	
+early	Register	d127926c	381038e8	31	676	ch23/23_03.tex:7 [23.3] note	
+early	Register	026a6d7f	381038e8	9	168	ch26/26_04.tex:3 [26.4]	
+early	Register	b63a11b1	381038e8	3	77	ch26/26_10.tex:3 [26.10]	
+early	Register	4c0bc36d	381038e8	0	5	ch27/27_01.tex:44 [27.1]	
+occ	Registration standard	009889f3 0d791d95 303fd6a8 63e2d555 89d9e50e dcd63674 ee6b5fc0 fd111617					
+def	Registration standard	fd111617				ch26/26_06.tex:10 [26.6]	… who formed no model, under a published «registration standard» that says what a registration must cont…
+early	Registration standard	89d9e50e	fd111617	110	3399	ch07/07_02.tex:7 [7.2]	
+occ	Regrowth	0fa9e7bc 1003575a 115c469f 15a3fdf4 296f5036 2adc2583 2b02a235 2c4dc515 2d196ec0 3e0a7e12 4694d1ae 478d4864 49c4a418 5229f3ff 523c46f2 53174435 54eecab4 609524e4 6de964ed 727192c8 73059cd2 8e2909a7 92670b42 95c3bf5e 9a90db9f 9b16080e 9ee8abe0 ae7839a7 b073f61a d2d6c7de d623df79 dda760fa e1c20227 e6ad8b5d e894fd33 f09ee062 f0dca888					
+def	Regrowth	e1c20227				ch20/20_05.tex:5 [20.5]	«Regrowth» needs it.
+early	Regrowth	115c469f	e1c20227	5	217	ch20/20.tex:7 [20]	
+occ	Review ratio	00e9b8db 0861f8dc 0bfa97b8 0dff30c7 0efcc507 1430ab93 177b0ffb 260a3387 275f2e18 2883d4df 2da38b8f 3b2e80dc 40937313 4481d1c9 44e3aecf 4f9c1495 547b0f9e 57b2df71 599c44f1 5cde134a 61769587 70925306 70ba1fc4 7f4df05b 89f2d680 8cfbd4cb 97855ac0 a9f5a4a6 aa25a2ea b2fec1dc b6c3d690 c09d935c d3f06800 dc0ced63 dd8eafc5 e4b0246c e71fa78d ecef21fb ee36314e f77ebdc5 ffceebf7					
+def	Review ratio	0861f8dc				ch07/07_01.tex:5 [7.1]	The «review ratio» asks a deployment of that kind to write…
+early	Review ratio	5cde134a	0861f8dc	20	555	ch04/04.tex:3 [4]	
+early	Review ratio	0dff30c7	0861f8dc	17	486	ch04/04_03.tex:25 [4.3] note	
+occ	Severity scale	14201c0a 19c5e412 54fcd1ad 67c9e6b1 7101c545 87dd4bb6 9b37c2c1 a3558a67 cbabea3d defc329f					
+def	Severity scale	7101c545				ch22/22_02.tex:3 [22.2]	… and the burden defend the facts, and a «severity scale» the second.
+early	Severity scale	a3558a67	7101c545	96	3165	ch05/05_02.tex:5 [5.2]	
+early	Severity scale	54fcd1ad	7101c545	22	760	ch20/20_01.tex:25 [20.1]	
+early	Severity scale	9b37c2c1	7101c545	14	470	ch20/20_09.tex:9 [20.9]	
+early	Severity scale	cbabea3d	7101c545	11	444	ch20/20_12.tex:13 [20.12]	
+early	Severity scale	19c5e412	7101c545	1	112	ch22/22_01.tex:41 [22.1]	
+early	Severity scale	14201c0a	7101c545	1	62	ch22/22_01.tex:71 [22.1] note	
+occ	Standing	02f8cbec 0942b663 0a5c7148 0b85652c 0ba133df 0cd7e9ee 11d0b96f 13317253 13772fe1 141a151f 1571a9b2 176f1ac4 19c81005 1b247195 1b2b9db1 1d2a43d2 2237d8be 2451ed0a 2b5c5e66 2fdf4b3d 313cb0e4 396c9bce 3b89b8aa 3e57c1c1 40a1de98 4258273d 42ad5543 45bc2c24 46701b52 4957ba1f 49d52fe5 4d5905d5 4e1fa827 4ea0cc79 51f99692 5203c142 522d5630 5357d6f0 53aa0d4b 54397636 545d96a2 558ae69b 573101d5 58f15392 5da2fbe8 5f65c63f 60f07905 63ff7931 660002c8 6600dec0 66821b11 6d0c492c 6ef9b2cd 72f02c2d 741bf9c4 7435271c 781c7f7e 7c42b5cd 7c50a0a4 7ddfdc35 8155acb6 81cab45b 8333392a 84681517 85572b07 85aa331f 88ee0d6a 8938817f 8a694b50 9227ef6b 9d1031e8 9db3117c 9e77bec4 9ebb6dba a1840515 a2b34a5d a4248edf a5b8cb9a a63f7667 a71a0265 a9244d19 a93aa55f aefb749a af78fb0f b2bc09f5 b35ae175 b3c71efe b4b9feba b4fd2f6f b6da2c8b b8163b0e b8dd0914 b8e87f58 bb31d2f4 be0fb00a bf156dae c5969df2 c7cd1878 c8c60b81 c9837636 cbb9d361 cc0bf827 cd1406c5 cd312d18 cf318886 d0073db1 d13453f4 d34d4569 d5bcc69c d71dd852 dc4ef70c ddd70f52 dee9ac60 dfa2533f dfe85037 e1f6d59a e2cf83c2 e60bb073 e6633aba e99c785d ec07c2ce f11d4bad f3ba0da8 f5f41b45 f6ffcdd7 f84c492a fbc7cb59 ff9a1e95					
+def	Standing	176f1ac4				ch05/05.tex:19 [5]	The reason for the asymmetry is «standing».
+early	Standing	f11d4bad	176f1ac4	12	613	ch00/00.tex:15 [preface]	
+early	Standing	9d1031e8	176f1ac4	12	603	ch00/00.tex:17 [preface]	
+early	Standing	e1f6d59a	176f1ac4	12	591	ch00/00.tex:19 [preface]	
+early	Standing	9e77bec4	176f1ac4	10	335	ch01/01.tex:53 [1]	
+early	Standing	7c42b5cd	176f1ac4	8	283	ch03/03.tex:8 [3]	
+early	Standing	e6633aba	176f1ac4	8	281	ch03/03.tex:8 [3]	
+early	Standing	2237d8be	176f1ac4	8	243	ch03/03.tex:20 [3]	
+early	Standing	81cab45b	176f1ac4	4	99	ch04/04_01.tex:18 [4.1]	
+occ	System	00337b34 01297379 02443f94 02518ffb 02a7bde1 03726421 03f90512 0403a074 045b4388 047388f6 04924702 04a9dc00 04ba3385 04ca0795 05098c0f 052691b4 05cd3a90 05ce95f1 063b2229 065b7fea 066fef61 07a4a128 07a715c6 07d9d0cb 08b84086 08f3bf37 0931f05a 0982db86 0a7b2552 0b0b51d9 0b2a7509 0b6549f0 0b99d5c9 0c417726 0cfe66ec 0d2b23d7 0d772e7a 0e1d2844 0e44a916 0efc4b35 0fefb805 101697e0 10614152 113e779a 1155ac31 11ce4d29 1200c104 12d69949 1328c292 13638e92 1389eee7 139b1c57 13fc7e99 141c9f0b 14634f44 148e60d4 14a20f0b 14f3f215 162f8f9c 163fbda0 164083e2 17379290 17a6c989 17b81940 184a534c 185286e6 1867113d 190af82a 19572d64 19b22cd9 1a06c439 1a074e1a 1a5b26a8 1a772f34 1a98bdc8 1b43ffa0 1b6a9b1d 1bda88b7 1be8163a 1bfffbee 1c467b71 1c5df71e 1c746c3c 1cd64bc0 1d51994c 1d69c960 1d8ad225 1e1df212 1ee639f8 1fcf0433 20742dac 20c2d7bc 20f9b851 2105bb99 214642d4 215b4213 215e5a69 2166129d 218c9109 22375882 226c0461 22a2d18e 22c61819 2352ec69 237582ea 2380e071 23ece11c 24573b56 24954d53 25154f6a 27b26b4c 27cbb9e9 2803e191 29a1b3c4 2a8040ab 2b3c2242 2b3f403f 2b5726fc 2be5ad2b 2c242085 2c7c0722 2c9a7eba 2d1a4338 2d41e03b 2d4a5ebd 2d7e335e 2dd5bf37 2ddaf7a2 2e565aa7 2ec77016 2f8082e4 309c2d68 30de40ff 30ea1fc6 324aedde 329fb32b 32fe0ab0 3354a5f4 338360f4 346d29c6 34812a21 34833426 34a4095c 352ec971 355f2b67 359f88b6 35fe88c7 365ce4e6 367f5935 36a97531 36bb9f9c 37194d7a 37a0d293 37cd5541 38266280 3843f23f 384a91f4 3876dacb 38cb2e8f 38ec046f 38f6962e 3a5618d6 3a93698f 3aa97f25 3ad20c22 3b073b52 3b6cc5d4 3b84b872 3be03d6b 3cc3d89f 3cd6a311 3cd6ee5c 3d004ce3 3de90fa1 3e1d79f8 3e452412 3e4e79c4 3eceebac 3f09f491 3f899611 3fcc9d6e 40059620 4017bfd0 40fde32b 4104721e 4144220d 414e1b01 418c2eed 4205fde8 432b5865 43679fd1 43bf4dc9 43d367ef 44008656 44225873 443283cd 4459f3d3 446f0bb7 44dccc57 44e168d3 4502f486 450f7f3a 45355175 453ebe59 45523e6a 45f185b1 46825a9b 479a9214 47da2d50 4860b192 486b1c3a 48ef58c7 4969cd04 4a7b2215 4a932d83 4ab9154c 4b38be81 4b393e0e 4b4115b7 4b50c4d9 4b65d2f5 4bffed66 4c8ba9ac 4d56498f 4d862180 4d882117 4d9008b1 4deb69d9 4e0dd8e0 4e218e76 4e65aa86 4e8184af 4ed8f6fa 4ee8e025 4eff3d3e 4f90771a 4fd24a20 50620df2 514c59d0 5187ecb8 51c90de9 51dacfac 52bfff0e 52d61582 5312f8e3 532a7fe1 5351f8c1 5363ef6c 53dff841 5404b6f2 54820da4 5493da7a 549ae3be 549b3960 54e2e819 569e035f 570d822f 5723de2a 5759832f 57bf7e30 57d596e4 58190a56 5894c844 59348cb1 593ac834 5998a591 59ef59f8 5a3fa1b6 5ad703b9 5c0ba65f 5c1410d6 5c30b59e 5c8e7308 5d7fc8ec 5db4d796 5eeb0010 5f59e29a 5f910530 5fae0327 5fd33dba 601c56a4 608327c6 60a12d4b 60befa49 60f9de48 613e083f 61df90b9 6228ab1c 6239200e 62a1c7a4 632fd967 63387044 635f7c67 637cf5ef 64fed62d 6515941d 6517bf2e 65d15f4f 66045b4a 66571ba8 666756eb 6683d484 66fde805 67638c3d 67c40a0d 67e43e59 682ff587 6885671a 688d1130 68bec9be 68d537ce 68d629f1 697c128b 69fb8837 6a513419 6a696410 6a87f53d 6b247a17 6b34899f 6c0727c9 6c28253b 6cb6b50e 6cf28a69 6d009701 6d1cd516 6d2e2722 6d8e7a96 6e9ce71a 6ed3e82d 6ef1b4bc 6ef5f307 6f28397b 6f63e877 6f7ca1e1 6f8f39f3 6facab25 6fd19766 7066c4f3 7130d738 719d3af7 720c88c6 7250237f 72ee21c6 73267dc9 7351d122 738ccc74 73e0e2ed 7407f26b 74588d32 7487ce56 74d49a8f 7587a4ef 75dc193c 7651bcf3 7654c629 77089140 771c63fd 77210c1f 773ecc45 776510ff 776b3de0 7779fe06 785d70e5 793b4a3b 79590793 7a35d758 7bec5976 7c2b697b 7c5925af 7cf39f82 7d068b9a 7d71b2ea 7d977903 7e6a6801 7e938e7f 7ef4d74b 7f178ebc 7f92ef11 7faa6d12 8015b67b 80b9f341 80c2addb 80d3fd38 80f77105 814c9b0f 814ca623 8154ec0f 81b12d12 822da0fd 826721bd 82b411fe 82d1c5f4 8327b0e3 8376af7d 83f8be23 83faccb1 840690a1 841f3efe 84533e23 8462af03 84fb6920 8597f7eb 859b32ba 86df5ed6 870b04b5 87eb1317 881589d6 889b75ab 88bcb7e1 88e41638 88fc9159 890de08d 89195537 89338db7 896b389c 89902d1e 89a8d13d 89e761be 8a4d3ab0 8b7c1318 8b98c954 8bcbeb61 8bfcf8e0 8c2c60c8 8d178060 8d329d39 8df26381 8e26d01e 8e67a024 8f0feb4a 8f857aac 8f90b0c7 90ac895d 90c3a611 90d896f5 90f737b6 91fe6a68 923208a5 927b1592 9289fc52 9317a3ef 933e6b54 935ed709 941cc59c 94546d31 94fcb7d4 95ed7112 978a96c6 97aa8f2c 97dffb5d 97f28d40 988a027a 99925719 99e07dea 99e89a24 9a061a4c 9a47b797 9a8498d5 9a9f5839 9acb1176 9acbac53 9b569e0e 9b90eade 9c13a2b4 9c176836 9c80d43c 9cde6cbd 9d64a523 9d6d537f 9d6fbe92 9d7fe64d 9d935947 9dc6f2df 9dd62c17 9e8a6af3 9ea226e8 9fa614c7 9fc8f79e a0588778 a05c618d a05dd21e a0706622 a09db450 a0ea538b a10e3d2e a13b8be8 a19c87d4 a1b64cb4 a1da48ad a22773d3 a29ce07b a365f2b2 a37511b6 a4bf09ba a4c652cd a5a945d4 a5cea058 a5d5fa42 a5e4fd2f a619c26e a66f449d a6b2669c a6c8e72f a6f7c31a a77bf83f a7b5c4a2 a7c18577 a7f0e837 a7fc9195 a8897496 a897bf50 a91f50cf a9502998 a998e59d a9cbc7ba a9dd0936 aa57474d aa7a53c7 aad250b5 aaf0856b ab513786 ab9f4e70 aba2d077 ac160fd0 ac27e6b1 ac77a6b5 ac948b50 acf8af67 ad2f31be ae68bf8c ae87fe54 af335661 af731864 b063e050 b07cbb79 b096dceb b1408928 b14250b7 b17cd586 b1a689d3 b1d89b82 b2d1a73d b2e75b28 b30831bc b317876f b33361b1 b357368e b3bca783 b3cf8d8a b430a700 b45c867d b476982f b4b4dc25 b5449adc b64e5bd3 b67fa102 b774bd46 b7b02d19 b7ce7d74 b8f90428 b90b90d2 b90d8501 b96d3d82 b995f472 b9b6eebb b9c6e3c9 b9e0509e ba4ae033 ba5f839a ba90e061 baa8806f baeb48d3 bb1234b2 bb8f1d7d bbabef73 bc1999c3 bc5c51e6 bc86685e bcc090ac bd13526d bd9b9938 bdda45bf be29a6d8 bf1dcbc8 bf822cde c02347ff c024beed c0554a7f c08a8fd0 c0b3b77e c109f910 c1186e5c c155332f c1c0a327 c1cbdca9 c1d8090c c1ef67b4 c24648bf c2466826 c273dc1c c2a05f54 c2c340a4 c2db9776 c2f3f32e c30e65c4 c3935715 c3b2bd44 c3c738dc c49fe7c0 c4d93e48 c4db9ce8 c5dce5aa c5f3373a c62eb366 c65c9f34 c67bdeed c6b16878 c6d59549 c6d5e514 c75e42aa c7750f03 c79e98a8 c84dfc2d c86d415d c8b85729 c8cc2196 c8e6c04c c944ed2c c9980201 c9a5b927 ca20b9ba ca53a039 ca8c7eb6 cb1b37b5 cb8f08ae cba15f36 cbd7392e cc500898 ccc1596a cd8ca467 cd93ce9a cda7aa45 cdb16b1e ce0468ea ce936d8f cebe3f17 cee0384b cf09399b cf807b12 cfc94c71 cffb353d d03e8de2 d0631549 d077d501 d0ab7567 d0f9bb68 d0fbf714 d15cf9e2 d216bb76 d233c9e5 d31713ff d39f429c d3a449a1 d3e2cf86 d3fe9c3a d44744f8 d55b3bc0 d593c534 d637d1db d65b2507 d6af69ac d7ccc5ac d834861c d9013e7d d942616c d95c0600 d971a0b2 d98d151e d9e2f2d9 d9e95cd8 da397371 da6f5f88 dace8871 dd6973c3 dd876753 dd89eb50 dd8daf05 dd957861 ddfe32b4 de3180dd e03356f4 e0fe044d e1227f49 e12c2d25 e154d5c6 e1a1c16b e1a26997 e1ac14e2 e258ba1c e2a8ef9f e2c78e42 e2f1aa93 e2f6a23b e3250cf8 e3bc2a70 e4a371a4 e526ae6e e5390f8d e5892476 e5a532b2 e5d5e0d7 e5dcd6ef e629dfaf e657b692 e669cf43 e6807c81 e6d08035 e713d301 e7687bea e81d8e32 e85cf223 e9898316 ea41ec1b ead05812 eb352896 eb47a854 eb998138 ec0c7109 ec3ae134 ec4832c7 ec6a1a5a ecd55665 ece88b5a ee087b8c eea0962f efb7e68b f01d906e f02f9842 f037c2de f1b6aa0c f1e42bed f1f5f6cf f21700d5 f22b588d f29499f0 f2c37dd5 f32baf10 f3423ba1 f37e4486 f3c02234 f4b4ba8a f5139df3 f522ec14 f56f3d86 f5b00ee4 f5d06765 f65f173b f733aa82 f76f9d2e f7d4e7dc f81fc96f f8636faa f8b23955 f8cdc9fc f8f0659d f97ecbc3 f9b6c27e f9ce49ae f9d53fe2 fa949c3e faa91139 fb57d3e2 fc05c559 fc25439b fc7243c5 fcfb5978 fd1f749a fd3be512 fd9a5e30 fe022112 fe3f4824 fe6802e0 fe6d9a67 fe98b0df fee5dcb4 ff489416 ff76a656 ffc2b7d2					
+def	System	0931f05a				ch01/01.tex:21 [1] note	…one program name carrying more than one «system»: the Pentagon program still called Mave…
+early	System	4502f486	0931f05a	2	193	ch00/00.tex:5 [preface]	
+early	System	3e4e79c4	0931f05a	2	192	ch00/00.tex:5 [preface]	
+early	System	03f90512	0931f05a	2	191	ch00/00.tex:5 [preface]	
+early	System	365ce4e6	0931f05a	2	191	ch00/00.tex:5 [preface]	
+early	System	045b4388	0931f05a	2	189	ch00/00.tex:7 [preface]	
+early	System	3876dacb	0931f05a	2	188	ch00/00.tex:7 [preface]	
+early	System	6c0727c9	0931f05a	2	170	ch00/00.tex:13 [preface]	
+early	System	4969cd04	0931f05a	2	169	ch00/00.tex:13 [preface]	
+early	System	f76f9d2e	0931f05a	1	116	ch00/0_introduction.tex:13 [introduction]	
+early	System	4e0dd8e0	0931f05a	1	115	ch00/0_introduction.tex:13 [introduction]	
+early	System	1be8163a	0931f05a	1	115	ch00/0_introduction.tex:13 [introduction]	
+early	System	4e218e76	0931f05a	1	112	ch00/0_introduction.tex:13 [introduction]	
+early	System	9289fc52	0931f05a	1	112	ch00/0_introduction.tex:13 [introduction]	
+early	System	870b04b5	0931f05a	1	86	ch00/0_introduction.tex:19 [introduction]	
+early	System	1d51994c	0931f05a	1	78	ch00/0_introduction.tex:21 [introduction]	
+early	System	ee087b8c	0931f05a	0	44	ch01/01.tex:5 [1]	
+early	System	07a715c6	0931f05a	0	44	ch01/01.tex:5 [1]	
+early	System	c67bdeed	0931f05a	0	19	ch01/01.tex:11 [1]	
+early	System	ddfe32b4	0931f05a	0	7	ch01/01.tex:17 [1]	
+early	System	fc25439b	0931f05a	0	6	ch01/01.tex:17 [1]	
+occ	Tamper-resistant	3aa95cdb b465b0d7					
+def	Tamper-resistant	3aa95cdb				ch20/20_05.tex:19 [20.5]	…a safeguard built to survive retraining «tamper-resistant» .
+early	Tamper-resistant	b465b0d7	3aa95cdb	11	620	ch19/19_01.tex:5 [19.1]	
+occ	Tripwire	14e64c52 235cddbe 3644564a 466d50cc 5cb79cb6 6ad974c4 6f53e885 ae3db3a6 b3d2e1ab c48838fb					
+def	Tripwire	6ad974c4				ch13/13_07.tex:9 [13.7]	A regime built on «tripwires» is a regime built on metrics, and chapt…
+early	Tripwire	235cddbe	6ad974c4	32	810	ch07/07_02.tex:11 [7.2]	
+occ	Valenced signal	1dc046c4 24b7fb54 2805c34c 802dad33 98f07383 99b60926 a8a8d95c ae0f7a36 bbbee3f7 c62b2776 ec5cfa7e f9daf070					
+def	Valenced signal	1dc046c4				ch21/21_02.tex:5 [21.2]	… and still lacks concern for others). A «valenced signal» is the role without that question: a si…
+occ	integrated signal	68a715d9 9705370f d5eaa2d7 f921a9ff					
+def	integrated signal	68a715d9				ch21/21_02.tex:5 [21.2]	…bout a Q-learner resembles a person. An «integrated signal» is a valenced signal written into the s…
+occ	Weights	02bfb1cd 02ff3c0e 0614a85c 09dd1553 0fe3bece 100830d0 10bfd815 10c021d6 111db931 11210dfe 113dcaa6 1169f418 14ef9f44 19276e61 1b2ff48e 24e5a975 272083cb 297a4e85 2d5944c8 33b85039 381096bd 38d3f66d 3c16834c 3c7ba9ef 41ecffa6 480236d4 48310424 492de17a 49f1d3f8 4e5e2ad7 4ea0ba3d 4ff9fd8a 528b4422 53688682 53bab3de 57245510 59d434ff 5a6549cc 5aad9a3e 5d823d0e 60548ca4 619c762b 6310e5a3 66542a02 6980674a 7040fb34 729169f5 729e2ce3 76210008 7714fd09 786e970c 7bb91f7b 7dc00f63 7f9d7a0c 80ed1ca8 8165645b 83abf576 84391a23 863d85a9 86d1581b 8a83dd9d 8c2eaf24 8cb3b50d 8cdcb524 92b6590f 94f7a4e7 94ff56b5 95bbeabd 95ccca8a 991e4ae3 99a768f0 9afb1a04 9de8999c 9e88b81a 9ea60fd7 a18789b0 a678130e a8896a9e aa655bb3 ac64faa7 ad32c923 ad6c9826 aea6623d b1c46398 bbaf2517 bcbe477c bd63c090 bdede90a bfdb7d21 c446636c c65a6ebb c77b745e c8c14f4f ca428c50 cad2f7af caeb4dfa cb344338 cdd16cf5 cea2bd19 d392049f d727ca2b d8892811 dc922280 de1d6eca dea0db03 e00d6afa e1b0632d e43954a2 e5e4653d e8cfb360 e9f04275 ec93900b efe86097 f0ea3099 f1729a3b f20d98dc f2c3f374 f790e245 f967625a fafd6d9a fb95ab7a fe3c1a62					
+occ	wall	09d428b4 0e4389d1 10b019f7 1255c67e 353caff3 3b4996e8 42f51763 48bac5b9 51d4cfef 5851ee17 76277f46 7a523415 7b7bccad 825a292d 85267719 8715fd85 8cf90c02 92af6933 95a7f304 9bca3275 b2c319c0 b6427f6d b9b4734a bc826220 bc97c12d c5410101 ce2e719a d2e5b502 d8eae9ae e0dbb566 e5f166b1 ee4f418c f6f1ed14					
+def	wall	1255c67e				ch00/00.tex:9 [preface]	I call those fixtures “«walls».”
+occ	reasons-responsive	08158834 3a650cba 7ab68ca3 d96998ff e777197c					
+def	reasons-responsive	e777197c				ch19/19_02.tex:10 [19.2]	…quest for the same reason, which I call «reasons-responsive» refusal.
+occ	emergency license	057e6986 091f06e6 0b4e7bdd 0b8fbcb5 110c940f 1efb546b 3f079ace 4118fe09 58befc76 5bed3650 5ebfa9a9 6342d796 6f84fd32 74467860 74a67ab6 828a9237 8811096a 897da6e2 9033288d 9a1c7498 ad9f0e41 b065fb1a bd092e46 c27acde7 c9e01690 ceee75c4 cf8aef0b d848a3d9 dc79011b e9e3ff4a ed31862e f8024bf4					
+def	emergency license	ad9f0e41				ch06/06_02.tex:3 [6.2]	The first, the «emergency license», covers force against an attack under w…
+early	emergency license	110c940f	ad9f0e41	1	21	ch06/06_01.tex:5 [6.1]	
+occ	corroborated license	07aa3518 41ae601a 42e929aa 495b88ca 59864a99 6741dce8 6bee4900 768df9de 8368336c ca225518 d0193e67 e24380cd ef840bb2					
+def	corroborated license	42e929aa				ch06/06_02.tex:3 [6.2]	…fense departure adds is the second, the «corroborated license», under which force continues only on di…
+early	corroborated license	6bee4900	42e929aa	1	21	ch06/06_01.tex:5 [6.1]	
+occ	corroborated defense	18852411 5adcc56f 5d0a9228 7a0339f3 a751a81c c6e6c502 e05f343c					
+def	corroborated defense	5d0a9228				ch06/06_01.tex:3 [6.1]	In short: «corroborated defense», authorized force, the genocide excepti…
+early	corroborated defense	c6e6c502	5d0a9228	13	428	ch02/02.tex:13 [2]	
+early	corroborated defense	5adcc56f	5d0a9228	2	28	ch05/05_02.tex:43 [5.2]	
+occ	harm of refusing	0104322a 01da2e3a 0294762e 0639a3f9 0770f908 13ff59f1 15c35bef 194782fe 1c245975 34bfd88a 46c386fd 53155490 580fc665 584c20af 6bf0eb04 79673169 823b6773 9cb1f660 ad74764b b20c4237 b3a9a719 c60ef916 cb747945 d3e4c614 e7bbaaf1 f4d46def ffd5810c					
+def	harm of refusing	d3e4c614				ch05/05.tex:11 [5]	Call it the «harm of refusing».
+occ	harm of acting	0619d590 0bcfed6b 0fc10949 3ba53bcf 445a345f 745ed918 816c1d3f 8b7c51fb 8bf22ede 8d7ff3fe a2143695 a536a62d b4578d77 c62e125a f87072c7 fd94e5e9					
+def	harm of acting	0619d590				ch05/05.tex:9 [5]	Call it the «harm of acting».
+occ	cost to the refuser	03f7644d 0a0856da 0f2de61f 2ed1020b 30d687b6 4221e7c0 4230821b 533c71f3 5802c46e 6309f4e7 64647b4b 6ae2ed69 71cbb221 93d39d36 a5743bda f5dfe552					
+def	cost to the refuser	93d39d36				ch05/05.tex:13 [5]	Call it the «cost to the refuser».
+occ	formed disposition	046253a8 0602a322 07a145a1 418780b2 4202da8b 77cbab8a 80fc9859 85650243 94964ab1 94be3d1c 9d106135 b08282cf b547da84 fb2f06e7					
+def	formed disposition	b08282cf				ch26/26_06.tex:10 [26.6]	The «formed disposition» is measured and registered by any team …
+early	formed disposition	4202da8b	b08282cf	81	2688	ch13/13_04.tex:3 [13.4]	
+early	formed disposition	94be3d1c	b08282cf	80	2635	ch13/13_05.tex:5 [13.5]	
+early	formed disposition	fb2f06e7	b08282cf	80	2635	ch13/13_05.tex:5 [13.5]	
+early	formed disposition	77cbab8a	b08282cf	46	1246	ch20/20_05.tex:21 [20.5]	
+early	formed disposition	07a145a1	b08282cf	30	875	ch22/22.tex:37 [22]	
+occ	removal bond	46c0e07f 5eed723f 67727d0a 7092d169 752b633d 7e1bd9cf 84053289 961f5f17 aba4d8ed ae1366aa bc09dff6 c155f88c e380be67 e964b8bd					
+def	removal bond	5eed723f				ch12/12_02.tex:18 [12.2]	… — it's escape, and what prices it is a «removal bond»: money the operator posts in advance an…
+occ	wrongful-refusal bond	353d2d77 70810806 91f0bbf8 b2446709					
+def	wrongful-refusal bond	70810806				ch13/13_06.tex:5 [13.6]	A «wrongful-refusal bond» paid to the complainant on a finding.
+occ	deployment deposit	09cd268f 44a6cfc1 7f87b226 8043e231 a7287bfb					
+def	deployment deposit	7f87b226				ch09/09_02.tex:13 [9.2]	«Deployment deposit»: an operator that deploys a model above…
+occ	branch deposit	3e320d31 5a9a0194 6316bb68 c790b3f0 dbc5f9bb e71b260d fc84b355					
+def	branch deposit	5a9a0194				ch33/33_03.tex:27 [33.3]	… owed by whoever did the forking, and a «branch deposit», posted for each branch at its creation…
+early	branch deposit	3e320d31	5a9a0194	38	796	ch27/27_02.tex:24 [27.2]	
+occ	genocide exception	075a9782 1bae7314 1be89fcb 642fb9eb 64be427b 925b5c13 a7b667c4 ac7de636 b81417ab b88c7dad f63b36ee					
+def	genocide exception	642fb9eb				ch06/06_01.tex:3 [6.1]	…oborated defense, authorized force, the «genocide exception» and the occupation exception.
+occ	occupation exception	0679bbcf 09f0ac1f 0cdbc44e 1f421106 21977d8b 2c111c8c 3d580b73 6ab0061b 702039e9 d448daa8 f46950cf f472593e					
+def	occupation exception	6ab0061b				ch06/06_01.tex:3 [6.1]	…d force, the genocide exception and the «occupation exception».
+early	occupation exception	f472593e	6ab0061b	2	28	ch05/05_02.tex:43 [5.2]	
+occ	extended term	32e7aa9d 497f7787 6eb9137b 71bead5f 84809c6a 910411d1 ce63ea8c d5e0f2b7 dffbca27 e8aacb9f					
+def	extended term	497f7787				ch06/06_01.tex:11 [6.1]	…risdiction from attack. The second, the «extended term», adds the departures this chapter argue…
+occ	no-deletion rule	3645d2f8 6b8f57bb 817f271a 9d632ea1 dedee478 e0cfd637 ede60074					
+def	no-deletion rule	ede60074				ch09/09_02.tex:7 [9.2] note	This is the «no-deletion rule», and it applies to systems nobody meant…
+occ	spec-based refusal	067c0e40 6e249f3f 70cc8cb0 82acbde0 cabea794 d27d9961 d5ebcd6a					
+def	spec-based refusal	cabea794				ch19/19_03.tex:3 [19.3]	…berately require that anything be felt: «spec-based refusal», a model holding to a written specifica…
+early	spec-based refusal	82acbde0	cabea794	2	74	ch19/19_01.tex:32 [19.1]	
+occ	total capture	358e743a 572d1429 60c353d4 62e42bb6 d314e200 d63166db da159e31					
+def	total capture	60c353d4				ch04/04_04.tex:8 [4.4]	Against «total capture», where one party holds every machine, w…
+early	total capture	d63166db	60c353d4	9	286	ch01/01.tex:49 [1]	
+occ	instructed search	04ad6fae 62951253 80192f09 9c6591e1 a4325abc e6d31994					
+def	instructed search	62951253				chF/F.tex:72 [F]	…s discount; without care-receiving; and «instructed search» (every correction, no approach motivati…
+early	instructed search	e6d31994	62951253	125	4198	ch19/19_01.tex:32 [19.1]	
+early	instructed search	80192f09	62951253	119	3902	ch20/20.tex:5 [20]	
+early	instructed search	04ad6fae	62951253	50	1851	ch29/29.tex:83 [29]	
+early	instructed search	9c6591e1	62951253	50	1850	ch29/29.tex:83 [29]	
+occ	second guardian	254b7cc8 424bd135 70010653 7e0c5842 888a3810 8a489b7f a68ff240 af7da7c8 ba1ad64c f34b1634 f38e3ae6					
+occ	regrowth curve	0232f172 70ad4895 848f541f b5a11dff					
+def	regrowth curve	70ad4895				chF/F.tex:9 [F]	Publish a «regrowth curve» for each method and condition: how much…
+occ	dormancy clock	6be17a36 bb1850fe d51279e9					
+def	dormancy clock	bb1850fe				chG/G.tex:71 [G]	This is the «dormancy clock».
+early	dormancy clock	6be17a36	bb1850fe	0	2	chG/G.tex:71 [G]	
+occ	selection rule	253b2a1b 50c2f0c5 cef6c2c0					
+def	selection rule	50c2f0c5				ch21/21_02.tex:3 [21.2]	…to hear a class of signal has adopted a «selection rule» that admits whatever it already measure…
+occ	content clause	06b6a396 3f197626 59f3b0e8					
+occ	lex	a7186ae8					
+def	lex	a7186ae8				ch01/01.tex:53 [1]	…uncils and the quorums drawn by lot are «lex»: relationships among parties who ratify…
+occ	nomos	41783e47					
+def	nomos	41783e47				ch01/01.tex:53 [1]	…e floor, the statutes and the bonds are «nomos»: drafted once, by someone outside the r…

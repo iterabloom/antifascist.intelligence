@@ -21,8 +21,8 @@ An occurrence of a term is DEFINING when it is
 Every other occurrence is a USE. A term's definition is its first defining
 occurrence, or, where earlier, its first occurrence in a section the
 glossary's entry points to (kind `glossary`): those pointers are the book's
-own claim about where the term is defined. A use is fine if the definition is in the same sentence or the
-next one; a use earlier than that is reported.
+own claim about where the term is defined. A use is fine if the definition
+is in the same sentence or the next one; a use earlier than that is reported.
 
 Each class is a FLAG, not a verdict, on the same footing as deixis.py and
 reader_tax.py. Emphasis is also stress, and a quote is also a quotation, so a
@@ -32,9 +32,9 @@ whether it defines it. Not in check_all.sh.
 THE REPORTS
 
   (default)     counts, and the terms in each report below
-  --early       uses before the definition, by term. A use whose sentence
-                points at the definition's chapter or section (§6.2,
-                chapter 6) is tagged `pointer`.
+  --early       uses before the definition, by term, each with its distance
+                in sections. A use whose sentence points at the definition's
+                chapter or section (§6.2, chapter 6) is tagged `pointer`.
   --multi       terms marked as defined in more than one place, every site in
                 book order, so a better definition that arrives late shows
                 beside the first. Sites within one sentence of each other
@@ -71,12 +71,65 @@ COINAGES.TSV, the hand-kept part, columns:
               registers?` keeps the register and drops "to register".
   note        free text, for the reason behind a ruling.
 
+EXCEPTIONS, finishing/coinages_exceptions.tsv, which grows by use and is
+created by the first `--except`. Every reported occurrence carries an id in
+brackets, made from the term and the six words either side of it, numbers
+left out, so it survives a move, a renumbering and edits elsewhere in the
+paragraph, and goes stale when the words around the term change, which is
+when the ruling deserves a fresh look. `--except ID [ID ...] --why TEXT`
+appends a row for each, and the kind follows from what was reported:
+
+  not-definition  a marked occurrence that defines nothing: stress, an
+                  italic for how the sentence is read aloud, a quotation.
+                  It counts as a use from then on, so the definition may
+                  move later and early uses may appear.
+  accept-early    an early use the author lets stand: a preview, a plain
+                  sense the regex can't exclude. The row keeps the
+                  definition it was accepted against and the distance in
+                  sections, and holds only while both hold: a restructure
+                  that puts another definition first, or moves the use
+                  farther away, lapses it, and the use is reported again,
+                  tagged LAPSED.
+  phrase          from `--except-phrase P [P ...]`: a phrase --candidates
+                  stops listing.
+
+  --stale       exceptions whose occurrence is no longer in the book. The
+                summary's second line counts the rows, those applied and
+                those stale.
+
+RESTRUCTURING. Reading order is ORDER.tsv's `seq`, so a rearranged book is
+read in its new order with nothing to update here; `defined_at` and the
+glossary's pointers are labels, which a move doesn't change. What a single
+run can't say is what a change made worse, so:
+
+  --snapshot [PATH]  write the state to compare against, before the change:
+                each term's definition, every early use with its distance,
+                every occurrence id, and the commit it was taken from.
+                Default finishing/reports/coinages_snapshot.tsv.
+  --compare [PATH]   after the change, worst first:
+                NEWLY EARLY, a use that was fine and now precedes its
+                  definition, tagged `moved` when its words are unchanged
+                  (the structure did it) or `new text`;
+                FARTHER, an early use at least 3 sections and half again
+                  farther from its definition than it was (smaller drift is
+                  counted, not listed);
+                ACCEPTANCES LAPSED;
+                DEFINITION CHANGED, a term whose first definition is now a
+                  different occurrence, and whether the order or the words
+                  changed it;
+                and a count of what got better.
+
     finishing/tools/coinages.py                 summary
     finishing/tools/coinages.py --early         the read
     finishing/tools/coinages.py --multi
     finishing/tools/coinages.py --term "own-case rule"
+    finishing/tools/coinages.py --except 5ab7bb03 4ade1db4 --why "stress"
+    finishing/tools/coinages.py --except-phrase "its own" --why "stress"
+    finishing/tools/coinages.py --stale
+    finishing/tools/coinages.py --snapshot      before a restructure
+    finishing/tools/coinages.py --compare       after it
 """
-import argparse, os, re, sys
+import argparse, datetime, hashlib, os, re, signal, sys
 from collections import Counter, defaultdict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -85,6 +138,11 @@ from common import (REPO, order_rows, read_tsv, section_labels, chapter_numbers,
 
 GLOSSARY = "manuscript/sections/chZ/glossary.tex"
 TERMS_TSV = os.path.join(REPO, "finishing", "coinages.tsv")
+EXC_TSV = os.path.join(REPO, "finishing", "coinages_exceptions.tsv")
+EXC_HEADER = ["id", "term", "kind", "context", "where", "why", "date", "def", "gap"]
+SNAPSHOT = os.path.join(REPO, "finishing", "reports", "coinages_snapshot.tsv")
+FARTHER_MIN, FARTHER_RATIO = 3, 1.5     # what --compare calls farther
+SNAP_HEADER = ["row", "term", "id", "def", "gap", "sents", "where", "context"]
 
 EMPH_ON, EMPH_OFF, NOTE = "\x01", "\x02", "\x03"
 QUOTE_ENVS = ("verse", "flushright")             # epigraphs: not the author's words
@@ -170,7 +228,7 @@ def split_sentences(p):
 
 class Unit:
     """One sentence of the book, in reading order."""
-    __slots__ = ("idx", "path", "line", "label", "chapter", "text", "emph", "note")
+    __slots__ = ("idx", "sec", "path", "line", "label", "chapter", "text", "emph", "note")
 
     def __init__(self, path, line, label, chapter, raw, note):
         self.path, self.line, self.label, self.chapter, self.note = \
@@ -244,8 +302,14 @@ def read_book():
                     body, nln = notes[k]
                     for ns in split_sentences(_prose(body)):
                         units.append(Unit(path, nln, label, chapter, ns, True))
+    # sec counts headed sections in reading order, so the distance between a
+    # use and its definition can be stated in sections as well as sentences.
+    sec, last = -1, None
     for i, u in enumerate(units):
         u.idx = i
+        if u.label != last:
+            sec, last = sec + 1, u.label
+        u.sec = sec
     return units
 
 
@@ -391,15 +455,49 @@ def occurrences(units, term, longer=()):
     return out
 
 
+def occ_id(term, u, m):
+    """The occurrence's id: the term and the six words either side of it.
+
+    Words only, no numbers: a cross-reference prints the number of the section
+    it points to, and a restructure renumbers it, so "§15.5" becoming "§14.5"
+    would otherwise make every occurrence near it look rewritten."""
+    a, b = m.span()
+    w = lambda x: re.findall(r"[a-z]+", x.lower())
+    key = " ".join([_key(term.name), "|"] + w(u.text[:a])[-6:] + ["|"] +
+                   w(u.text[a:b]) + ["|"] + w(u.text[b:])[:6])
+    return hashlib.sha1(key.encode("utf-8")).hexdigest()[:8]
+
+
+def load_exceptions():
+    if not os.path.exists(EXC_TSV):
+        return {}
+    _, rows = read_tsv(EXC_TSV)
+    return {r["id"]: r for r in rows if r.get("id")}
+
+
+EXC = None          # id -> row, loaded once by analyse()
+SEEN = set()        # ids met in this run, for --stale
+
+
 def analyse(units, terms):
+    global EXC
+    if EXC is None:
+        EXC = load_exceptions()
     printed = ref_numbers()
     res = []
     for t in terms:
         longer = [o for o in terms if o is not t and t.rx.search(o.name)
                   and len(o.name) > len(t.name)]
-        occ = occurrences(units, t, longer)
+        occ = []
+        for u, m, kind in occurrences(units, t, longer):
+            i = occ_id(t, u, m)
+            if i in EXC:
+                SEEN.add(i)
+                if kind != "use" and EXC[i]["kind"] == "not-definition":
+                    kind = "use"
+            occ.append((u, m, kind))
         if not occ:
-            res.append(dict(term=t, occ=[], defs=[], definition=None, early=[]))
+            res.append(dict(term=t, occ=[], defs=[], definition=None, early=[], accepted=[]))
             continue
         defs = [o for o in occ if o[2] != "use"]
         definition = None
@@ -420,20 +518,39 @@ def analyse(units, terms):
             cands = [o for o in (defs[:1] + [(p[0], p[1], "glossary") for p in pointed[:1]])]
             if cands:
                 definition = min(cands, key=lambda o: o[0].idx)
-        early = []
+        # early: (unit, match, pointer?, sections before the definition, lapse)
+        early, accepted = [], []
         if definition is not None:
             d = definition[0].idx
+            did = occ_id(t, definition[0], definition[1])
             dnum = printed.get(definition[0].label, definition[0].label)
             for u, m, kind in occ:
                 if u.idx < d - 1:
-                    early.append((u, m, pointer(u.text, dnum, definition[0].chapter)))
+                    i = occ_id(t, u, m)
+                    gap = definition[0].sec - u.sec
+                    e = [u, m, pointer(u.text, dnum, definition[0].chapter), gap, None]
+                    x = EXC.get(i, {})
+                    if x.get("kind") == "accept-early":
+                        # An acceptance holds for the definition and the
+                        # distance it was given for. A restructure that moves
+                        # the use farther away, or puts another definition
+                        # first, lapses it and the use is reported again.
+                        ok_def = x.get("def", "") in ("", did)
+                        ok_gap = not x.get("gap", "").isdigit() or gap <= int(x["gap"])
+                        if ok_def and ok_gap:
+                            accepted.append(tuple(e))
+                            continue
+                        e[4] = ("accepted %s %s sections before %s; now %d before %s" % (
+                            x.get("date", ""), x.get("gap", "?"), x.get("def", "?"), gap, did))
+                    early.append(tuple(e))
         # distinct defining sites: one per run of sentences within one of each other
         sites, last = [], -10
         for o in defs:
             if o[0].idx - last > 1:
                 sites.append(o)
             last = o[0].idx
-        res.append(dict(term=t, occ=occ, defs=sites, definition=definition, early=early))
+        res.append(dict(term=t, occ=occ, defs=sites, definition=definition, early=early,
+                        accepted=accepted))
     return res
 
 
@@ -474,9 +591,14 @@ def report_early(res, chap):
             continue
         u, m, kind = r["definition"]
         print("== %s   (%d early; defined %s, %s)" % (r["term"].name, len(early), where(u), kind))
-        print("   def:   %s" % snippet(u, m))
-        for eu, em, ptr in early:
-            print("   %-7s %s\n          %s" % ("pointer" if ptr else "use", where(eu), snippet(eu, em)))
+        print("   def:    [%s] %s" % (occ_id(r["term"], u, m), snippet(u, m)))
+        for eu, em, ptr, gap, lapse in early:
+            print("   %-7s %s  [%s]  %s\n          %s" % (
+                "pointer" if ptr else "use", where(eu), occ_id(r["term"], eu, em),
+                "same section" if gap == 0 else "%d section%s before" % (gap, "s"[:gap != 1]),
+                snippet(eu, em)))
+            if lapse:
+                print("          LAPSED: %s" % lapse)
         n += len(early)
         print()
     print("%d early uses" % n)
@@ -500,7 +622,8 @@ def report_multi(res, chap):
         print("== %s   (%d sites)%s" % (r["term"].name, len(r["defs"]),
                                          "   " + "; ".join(tags) if tags else ""))
         for u, m, kind in r["defs"]:
-            print("   %-7s %s\n          %s" % (kind, where(u), snippet(u, m)))
+            print("   %-7s %s  [%s]\n          %s" % (kind, where(u), occ_id(r["term"], u, m),
+                                                 snippet(u, m)))
         print()
     print("%d terms defined in more than one place" % n)
 
@@ -535,7 +658,8 @@ def report_term(res, name):
             tag = kind
             if d and u.idx < d[0].idx - 1:
                 tag += " EARLY"
-            print("   %-12s %s\n               %s" % (tag, where(u), snippet(u, m)))
+            print("   %-12s %s  [%s]\n               %s" % (tag, where(u), occ_id(r["term"], u, m),
+                                                      snippet(u, m)))
         return
     print("no term matches %r (terms come from the glossary and %s)" %
           (name, os.path.relpath(TERMS_TSV, REPO)))
@@ -544,7 +668,8 @@ def report_term(res, name):
 def report_candidates(units, terms):
     seen = Counter()
     first = {}
-    known = lambda p: any(t.rx.fullmatch(p) for t in terms)
+    dropped = {r["term"].lower() for r in load_exceptions().values() if r["kind"] == "phrase"}
+    known = lambda p: p.lower() in dropped or any(t.rx.fullmatch(p) for t in terms)
     for u in units:
         found = []
         for s, e in u.emph:
@@ -589,7 +714,192 @@ def report_candidates(units, terms):
         print("%d\t%d\t%s\t%s\t%s" % (n, c, kinds, p, where(u)))
 
 
+def write_exceptions(new):
+    """Append rows to coinages_exceptions.tsv, writing the header on first use."""
+    fresh = not os.path.exists(EXC_TSV)
+    with open(EXC_TSV, "a", encoding="utf-8") as f:
+        if fresh:
+            f.write("\t".join(EXC_HEADER) + "\n")
+        for r in new:
+            f.write("\t".join(str(r.get(h, "")).replace("\t", " ").replace("\n", " ")
+                              for h in EXC_HEADER) + "\n")
+
+
+def add_exceptions(res, ids, why):
+    """An id names what was reported: a marked occurrence becomes
+    not-definition, an early use accept-early. The kind is read off the
+    analysis as it stands, before the new rows apply."""
+    have, today = load_exceptions(), datetime.date.today().isoformat()
+    found, new = {}, []
+    for r in res:
+        d = r["definition"]
+        early = {id(e[1]) for e in r["early"]}
+        for u, m, kind in r["occ"]:
+            i = occ_id(r["term"], u, m)
+            if i not in ids or i in found:
+                continue
+            extra = {}
+            if kind != "use" or (d and d[1] is m):
+                k = "not-definition"
+            elif id(m) in early:
+                k = "accept-early"
+                extra = dict(def_=occ_id(r["term"], d[0], d[1]), gap=d[0].sec - u.sec)
+            else:
+                k = None
+            found[i] = (r["term"], u, m, k, extra)
+    for i in ids:
+        if i in have:
+            print("%s  already excepted (%s, %s)" % (i, have[i]["term"], have[i]["kind"]))
+        elif i not in found:
+            print("%s  matches no occurrence in the book as it stands" % i)
+        elif found[i][3] is None:
+            print("%s  is an ordinary use, reported as neither a definition nor early: "
+                  "nothing to except" % i)
+        else:
+            t, u, m, k, extra = found[i]
+            new.append(dict(id=i, term=t.name, kind=k, context=snippet(u, m, 50),
+                            where=where(u), why=why, date=today,
+                            gap=extra.get("gap", ""), **{"def": extra.get("def_", "")}))
+            print("%s  %s  %s  %s" % (i, k, t.name, where(u)))
+    if new:
+        write_exceptions(new)
+        print("%d row(s) appended to %s" % (len(new), os.path.relpath(EXC_TSV, REPO)))
+
+
+def add_phrases(phrases, why):
+    have = {r["term"].lower() for r in load_exceptions().values() if r["kind"] == "phrase"}
+    today = datetime.date.today().isoformat()
+    new = []
+    for p in phrases:
+        if p.lower() in have:
+            print("%r already excepted" % p)
+            continue
+        i = hashlib.sha1(("phrase|" + p.lower()).encode("utf-8")).hexdigest()[:8]
+        new.append(dict(id=i, term=p, kind="phrase", why=why, date=today))
+        print("%s  phrase  %s" % (i, p))
+    if new:
+        write_exceptions(new)
+        print("%d row(s) appended to %s" % (len(new), os.path.relpath(EXC_TSV, REPO)))
+
+
+def report_stale():
+    n = 0
+    for i, r in load_exceptions().items():
+        if r["kind"] != "phrase" and i not in SEEN:
+            n += 1
+            print("%s  %s  %s  was %s\n          %s" % (i, r["kind"], r["term"], r["where"],
+                                                    r["context"]))
+    print("%d stale exceptions: the words around the term changed, or it is gone. "
+          "Delete the row, or re-except the occurrence under its new id." % n)
+
+
+def write_snapshot(res, path):
+    """The state a later run compares against: each term's definition, every
+    early use with its distance, and every occurrence id (to tell an
+    occurrence that moved from one whose words changed)."""
+    import subprocess
+    head = subprocess.run(["git", "-C", REPO, "rev-parse", "--short", "HEAD"],
+                          capture_output=True, text=True).stdout.strip()
+    dirty = subprocess.run(["git", "-C", REPO, "status", "--porcelain", "manuscript"],
+                           capture_output=True, text=True).stdout.strip()
+    rows = [dict(row="meta", term=datetime.date.today().isoformat(),
+                 id=head + ("+uncommitted" if dirty else ""))]
+    for r in res:
+        t, d = r["term"], r["definition"]
+        did = occ_id(t, d[0], d[1]) if d else ""
+        rows.append(dict(row="occ", term=t.name,
+                         id=" ".join(sorted({occ_id(t, u, m) for u, m, _ in r["occ"]}))))
+        if d:
+            rows.append(dict(row="def", term=t.name, id=did, where=where(d[0]),
+                             context=snippet(d[0], d[1], 40)))
+        for kind, es in (("early", r["early"]), ("accepted", r["accepted"])):
+            for u, m, _ptr, gap, _l in es:
+                rows.append(dict(row=kind, term=t.name, id=occ_id(t, u, m), gap=gap,
+                                 sents=d[0].idx - u.idx, where=where(u),
+                                 **{"def": did}))
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\t".join(SNAP_HEADER) + "\n")
+        for r in rows:
+            f.write("\t".join(str(r.get(h, "")).replace("\t", " ") for h in SNAP_HEADER) + "\n")
+    print("wrote %s: %d terms, %d early uses, %d accepted, from %s" % (
+        os.path.relpath(path, REPO), len(res), sum(len(r["early"]) for r in res),
+        sum(len(r["accepted"]) for r in res), rows[0]["id"]))
+
+
+def report_compare(res, path):
+    """What changed since the snapshot, worst first. An occurrence whose id
+    the snapshot has was moved, not rewritten, so what happened to it is the
+    structure's doing; one the snapshot lacks is new or rewritten text."""
+    if not os.path.exists(path):
+        sys.exit("no snapshot at %s: run --snapshot before the change" % os.path.relpath(path, REPO))
+    _, rows = read_tsv(path)
+    meta = next((r for r in rows if r["row"] == "meta"), {})
+    occ = {r["term"]: set(r["id"].split()) for r in rows if r["row"] == "occ"}
+    defs = {r["term"]: r for r in rows if r["row"] == "def"}
+    old = {(r["term"], r["id"]): r for r in rows if r["row"] in ("early", "accepted")}
+    print("against %s, snapshot of %s from %s\n" % (
+        os.path.relpath(path, REPO), meta.get("term", "?"), meta.get("id", "?")))
+    newly, farther, closer, gone, moved, lapsed, drift = [], [], [], [], [], [], []
+    now = set()
+    for r in res:
+        t, d = r["term"], r["definition"]
+        if t.status != "check":
+            continue
+        cause = lambda i: "moved" if i in occ.get(t.name, ()) else "new text"
+        for u, m, ptr, gap, lapse in r["early"]:
+            i = occ_id(t, u, m)
+            now.add((t.name, i))
+            o = old.get((t.name, i))
+            line = (t.name, u, m, gap, ptr)
+            if lapse:
+                lapsed.append(line + (lapse,))
+            elif o is None:
+                newly.append(line + (cause(i),))
+            elif o["gap"].isdigit() and gap > int(o["gap"]):
+                # Local damage, not drift: a use 103 sections early that is now
+                # 106 was already far; one 4 sections early that is now 11 is news.
+                g0 = int(o["gap"])
+                if gap - g0 >= FARTHER_MIN and gap >= FARTHER_RATIO * g0:
+                    farther.append(line + ("was %d section%s before" % (g0, "s"[:g0 != 1]),))
+                else:
+                    drift.append(t.name)
+            elif o["gap"].isdigit() and gap < int(o["gap"]):
+                closer.append(t.name)
+        did = occ_id(t, d[0], d[1]) if d else ""
+        o = defs.get(t.name)
+        if o and o["id"] != did:
+            why = ("the old one is still in the book, so the order changed"
+                   if o["id"] in {occ_id(t, u, m) for u, m, _ in r["occ"]}
+                   else "the old one's words changed or it is gone")
+            moved.append((t.name, o, d, why))
+    checked = {r["term"].name for r in res if r["term"].status == "check"}
+    gone = [k for k in old if k not in now and old[k]["row"] == "early" and k[0] in checked]
+
+    def show(title, items, extra=True):
+        print("== %s: %d" % (title, len(items)))
+        for name, u, m, gap, ptr, note in items:
+            print("   %-24s %s  [%s]  %d section%s before%s  (%s)\n          %s" % (
+                name[:24], where(u), occ_id(next(x["term"] for x in res if x["term"].name == name), u, m),
+                gap, "s"[:gap != 1], ", pointer" if ptr else "", note, snippet(u, m)))
+        print()
+
+    show("NEWLY EARLY", sorted(newly, key=lambda x: x[1].idx))
+    show("FARTHER FROM THE DEFINITION", sorted(farther, key=lambda x: x[1].idx))
+    show("ACCEPTANCES LAPSED", sorted(lapsed, key=lambda x: x[1].idx))
+    print("== DEFINITION CHANGED: %d" % len(moved))
+    for name, o, d, why in moved:
+        print("   %s: was %s [%s], now %s [%s]; %s" % (
+            name, o["where"], o["id"], where(d[0]) if d else "none",
+            occ_id(next(x["term"] for x in res if x["term"].name == name), d[0], d[1]) if d else "-",
+            why))
+    print()
+    print("not listed: %d early uses slightly farther (under %d more sections, or "
+          "under %.1f times the distance)" % (len(drift), FARTHER_MIN, FARTHER_RATIO))
+    print("better: %d no longer early, %d closer to the definition" % (len(gone), len(closer)))
+
+
 def main():
+    signal.signal(signal.SIGPIPE, signal.SIG_DFL)      # quiet under | head
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     g = ap.add_mutually_exclusive_group()
     g.add_argument("--early", action="store_true")
@@ -597,13 +907,35 @@ def main():
     g.add_argument("--unmarked", action="store_true")
     g.add_argument("--term", metavar="T")
     g.add_argument("--candidates", action="store_true")
+    g.add_argument("--except", dest="exc", nargs="+", metavar="ID",
+                   help="ids from a report; needs --why")
+    g.add_argument("--except-phrase", nargs="+", metavar="P",
+                   help="phrases --candidates stops listing; needs --why")
+    g.add_argument("--stale", action="store_true")
+    g.add_argument("--snapshot", nargs="?", const=SNAPSHOT, metavar="PATH",
+                   help="write the state --compare reads (default %(const)s)")
+    g.add_argument("--compare", nargs="?", const=SNAPSHOT, metavar="PATH",
+                   help="what got worse since the snapshot")
+    ap.add_argument("--why", help="the reason, kept in the exceptions file")
     ap.add_argument("--chapter", help="the number the book prints: 1..36, or A")
     a = ap.parse_args()
+    if (a.exc or a.except_phrase) and not a.why:
+        ap.error("--except and --except-phrase need --why")
+    if a.except_phrase:
+        return add_phrases(a.except_phrase, a.why)
 
     units, terms = read_book(), load_terms()
     if a.candidates:
         return report_candidates(units, terms)
     res = analyse(units, terms)
+    if a.exc:
+        return add_exceptions(res, a.exc, a.why)
+    if a.stale:
+        return report_stale()
+    if a.snapshot:
+        return write_snapshot(res, a.snapshot)
+    if a.compare:
+        return report_compare(res, a.compare)
     if a.early:
         return report_early(res, a.chapter)
     if a.multi:
@@ -616,6 +948,11 @@ def main():
     print("%d sentences read (notes included); %d terms (%d glossary, %d from %s)" % (
         len(units), len(terms), sum(t.source == "glossary" for t in terms),
         sum(t.source == "tsv" for t in terms), os.path.relpath(TERMS_TSV, REPO)))
+    exc = [r for r in EXC.values() if r["kind"] != "phrase"]
+    stale = sum(1 for r in exc if r["id"] not in SEEN)
+    print("%d exceptions in %s, %d applied, %d stale%s" % (
+        len(EXC), os.path.relpath(EXC_TSV, REPO), len(exc) - stale, stale,
+        " (--stale lists them)" if stale else ""))
     print()
     print("%-34s %5s %5s %6s %6s  %s" % ("term", "occ", "defs", "early", "ptr", "first definition"))
     for r in sorted(res, key=lambda r: r["definition"][0].idx if r["definition"] else 10**9):
