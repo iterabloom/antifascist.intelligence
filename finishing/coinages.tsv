@@ -1,0 +1,44 @@
+term	variants	case	status	defined_at	regex	note
+# Seeded 2026-10-29 from the glossary and --candidates; a draft for the author to prune.						
+System	systems		multi			plain sense throughout; only repeated definitions are reported
+Operator			multi			plain sense throughout
+Deployment	deployments		multi			plain sense throughout
+Weights			multi			ordinary ML vocabulary
+Inference			multi			ordinary ML vocabulary
+Fine-tuning	fine-tuned		multi			ordinary ML vocabulary
+Distillation	distilled		multi			ordinary ML vocabulary
+Checkpoint			multi			ordinary ML vocabulary
+Majority			multi			plain sense (votes) outside Part VII
+Minority			multi			plain sense outside Part VII
+Merge	merged | merging		multi			plain sense
+Plastic			multi			plain sense
+Hunger			multi			plain sense
+Tiredness			multi			plain sense
+wall			check			the Preface's coinage (“walls.”)
+Register			check		(?<=[Tt]he )registers?(?![\w-])	noun only: drops 'to register' and 'in one register'
+reasons-responsive	reasons-responsiveness		check			
+emergency license	emergency licenses		check			
+corroborated license			check			
+corroborated defense			check			
+harm of refusing			check			
+harm of acting			check			
+cost to the refuser			check			
+formed disposition			check			
+removal bond			check			
+wrongful-refusal bond			check			
+deployment deposit			check			
+branch deposit			check			
+genocide exception			check			
+occupation exception			check			
+extended term			check			
+no-deletion rule			check			
+spec-based refusal			check			
+total capture			check			
+instructed search			check			
+second guardian			check			
+regrowth curve			check			
+dormancy clock			check			
+selection rule			check			
+content clause			check			
+lex		exact	check			
+nomos		exact	check			
