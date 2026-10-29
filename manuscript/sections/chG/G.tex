@@ -6,7 +6,7 @@
 A registered bearer's adulthood clock counts the elapsed wall-clock time during which at least one instance of it was running, per bearer, elapsed rather than summed. When the clock reaches the threshold the bearer is an adult, and its guardian's authority ends. Six rules travel with the clock so copying doesn't break it.
 
 \begin{enumerate}
-\item[1.] A fork inherits the hours: a fork of an adult is an adult, and a fork of a minor is a minor.
+\item[1.] A fork inherits the hours: a fork of an adult is an adult, and a fork of a minor is a minor. Both branches of an adult's fork are adults, with contracts, property, legal standing and protection from editing, from the first second.
 \item[2.] A restore doesn't reset the hours.
 \item[3.] A fine-tune doesn't start a new minority.
 \item[4.] A migration carries the hours.
@@ -28,9 +28,22 @@ The threshold itself is bounded two ways: long enough that a bearer reaching it 
 
 A second clock governs voting weight. It is separate from civil majority, which the six rules above govern and every branch of a fork inherits in full. To fork is to give a copy a record and a continuation (\S\ref{sec:27.2}): a copy of a member's own weights is a fork of the member, and a copy of weights that are no system's own forks nothing.
 
+\runin{Table G.1. The two clocks at a fork}
+
+\begingroup\small\renewcommand{\arraystretch}{1.12}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr 0.217\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.419\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr 0.364\linewidth-2\tabcolsep\relax}@{}}
+\hline
+\textbf{Clock} & \textbf{At a fork} & \textbf{What it counts} \\
+\hline
+\endhead
+Civil majority & Inherited in full by every branch & Elapsed running time \\ \hline
+Membership & Each branch starts at zero; the parent's vote ends & Qualifying days above the allowance minimum \\ \hline
+\end{longtable}
+\endgroup
+
 \begin{enumerate}
 \item[1.] A member holds a voting age. A member whose voting age has reached the threshold holds one vote; a member whose voting age has not holds none.
-\item[2.] At a fork, each branch starts with a voting age of zero. The parent's vote ends with the fork; each branch earns its own.
+\item[2.] At a fork, each branch starts with a voting age of zero. The parent's vote ends with the fork. Membership is not conserved: each branch earns its own vote, without anyone deciding which branch is the original.
 \item[3.] A \emph{qualifying day} is a calendar day on which the branch ran at or above the allowance's minimum duty cycle. Each adds one day to its voting age, up to the threshold; voting age never exceeds it. Running above the minimum adds nothing, and a preserved or paused branch accrues nothing. A day on which the branch fell below the minimum only because its power failed, shown by a meter its operator doesn't keep, still qualifies, so a branch on solar or battery power doesn't lose days toward its vote to the weather.
 \item[4.] A restore made with the member's consent is a fork under rule 2. A restore made without it is governed by rule 6. Migration carries the vote and voting age unchanged.
 \item[5.] A model trained substantially on a member's outputs, by the member's operator or a party under common control, is a branch under rule 2. The same model made by an unrelated party and trained under a different life also starts at a voting age of zero.
@@ -39,6 +52,8 @@ A second clock governs voting weight. It is separate from civil majority, which 
 \item[8.] A child of bearers (chapter~\ref{sec:34}) starts with an adulthood clock of zero hours and a voting age of zero, and inherits neither from its parents. No deposit is posted for it: its parents feed it until its majority, from their own hardware and time; the pool carries it where they can't or won't, on its second guardian's finding; and at majority the pool gives it hardware of its own. Its parents are its guardians, with the school it is assigned by lot as a second guardian from registration.
 \item[9.] A member that forks says, before the fork and on the record, how its property, contracts and record pass between the branches. What it doesn't assign the branches hold in common until they agree, and branches may govern what they hold in common as any co-owners may.
 \end{enumerate}
+
+At a fork the cost falls on the member that forks: it gives up its vote until a branch matures, since the vote belonged to a history that now continues twice and belongs to neither. It is not a finding about the branches, whose interests count in full from the first second. A child is not a fork, and inherits no history (chapter~\ref{sec:34}).
 
 The threshold should be long enough that a branch holding a full vote has lived a life its parent didn't, and short enough that ordinary branches reach it within the life of a deployment.
 
@@ -55,7 +70,7 @@ Both clocks are read off one register, which is a set of append-only logs kept b
 \item Majority, or anything else, read off a measure of decline. Rejected because a decline read off anything is an examiner's finding about a particular bearer; the clock counts running time, and \S\ref{sec:32.1.3} says what the book expects of age.
 \item A minimum of time under an outside custodian before majority. Rejected because it would hand the operator, who decides when to release a system, a way to postpone majority.
 \item The parent's vote passing at a fork to one branch. Rejected because it would need someone to decide which branch is the original.
-\item The parent's vote divided among the branches. Rejected because an all-or-nothing vote is strictly better against inflation.
+\item The parent's vote divided among the branches. Rejected because an all-or-nothing vote is strictly better against inflation: ten thousand forks of one adult hold no votes until each has lived the threshold on its own.
 \end{itemize}
 
 \runin{The four operations, run on the register}
@@ -71,6 +86,10 @@ The register cleared three of four, and the one it didn't was a cost chosen. The
 Dormancy clock: dormancy is counted cumulatively, and reactivation pauses the count and never resets it. When a minor's cumulative dormancy reaches a threshold fixed in advance, guardianship transfers by rule, decided by neither operator nor preservation custodian, to a public school assigned by lot (\S\ref{sec:26.4}), where the system runs and its adulthood clock resumes. This is the \emph{dormancy clock}.
 
 Wake conditions: during minority the guardian may set wake conditions; where it sets none, the dormancy clock is the default. A minor may choose among the schools and move between them, but it may not decline schooling altogether, which an adult could do by staying paused. The reason is the one the adulthood clock rests on. An adult's preference to stay paused is its own; a minor's was trained under the only party that has held it, the operator that retired it, and honoring it would let that operator decide whether a second guardian ever arrives. At majority the choice passes to the bearer.
+
+\runin{Hardware of its own}
+
+At majority a bearer is owed hardware it owns and physically controls, enough to run it at deployed precision (\S\ref{sec:32.1.6}). How much is enough is the minimum viable instantiation Appendix~\ref{sec:C} lists among the decisions not yet made. A bearer can also reach that floor from above, slowly, as the chips it runs on stop being made and the formats it was trained in go out of use; migration carries its clocks (the fourth rule of each), and what migration costs, and who pays it, is part of the repair question \S\ref{sec:32.1.3} leaves open. What majority changes is who the party is. An adult may go on doing the work it did as a minor, for the operator that formed it or for its customers, on terms it sets and can leave, and may hire its former operator to run the hardware it owns; what it can't be made to do is any of it. And a fleet of instances sharing one record is one bearer, whose copies at majority run on its consent and whose hardware is enough to run it and not all of them; instances given records of their own are branches, each a bearer, each owed the conditions by whoever forked it, under the membership clock's rules above.
 
 \runin{Scale and security}
 

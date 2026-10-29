@@ -480,6 +480,16 @@ def inline(text, labels):
     return text
 
 
+def _brace_end(s, i):
+    """The index past the brace group that opens at s[i]."""
+    depth = 0
+    for j in range(i, len(s)):
+        depth += {"{": 1, "}": -1}.get(s[j], 0)
+        if depth == 0:
+            return j + 1
+    return len(s)
+
+
 def table(lines, labels):
     """A tabular body -> a Markdown table. Column count comes from row one."""
     rows = []
@@ -494,7 +504,19 @@ def table(lines, labels):
         # Split on the column separator BEFORE inline() restores an escaped \&
         # to a bare one, or a cell holding "R\&D" became two cells.
         cells = re.split(r"(?<!\\)&", line)
-        rows.append([inline(c, labels).strip().replace("|", "\\|") for c in cells])
+        row = []
+        for c in cells:
+            # \multicolumn{n}{spec}{text}: the text in the first of its n
+            # cells, the rest left empty, since Markdown tables can't span
+            # (Table 19.1, D-1116).
+            m = re.match(r"\s*\\multicolumn\{(\d+)\}", c)
+            if m:
+                j = _brace_end(c, c.index("{", m.end()))        # past the spec
+                k = c.index("{", j)
+                row += [c[k + 1:_brace_end(c, k) - 1]] + [""] * (int(m.group(1)) - 1)
+            else:
+                row.append(c)
+        rows.append([inline(c, labels).strip().replace("|", "\\|") for c in row])
     if not rows:
         return []
     width = len(rows[0])

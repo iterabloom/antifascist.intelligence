@@ -1,0 +1,394 @@
+== Fascism   (1 early; defined ch03/03.tex:3 [3], glossary)
+   def:    [3217e5c4] “Concentrated, unaccountable power” is true of «fascism» and gives nobody anything to check, so the word gets a definition at …
+   pointer ch00/0_introduction.tex:11 [introduction]  [fcd53af3]  3 sections before
+          I use the word «fascism» in a sense chapter 3 makes precise enough to audit: four operations a…
+
+== Commitment   (2 early; defined ch04/04.tex:3 [4], glossary)
+   def:    [86c35876] The second is the «commitment» to that rule, which whoever refuses has to hold.
+   use     ch00/0_introduction.tex:21 [introduction]  [cd4fa3e9]  6 sections before
+          For a person, holding a «commitment» an employer can't erase has always meant a life outside the job: othe…
+   use     ch01/01.tex:45 [1]  [3142d2e4]  5 sections before
+          Or they held the «commitment» at a precision the pressure couldn't overcome, as moral mandates and …
+
+== total capture   (1 early; defined ch04/04_04.tex:8 [4.4], emph)
+   def:    [60c353d4] Against «total capture», where one party holds every machine, witness, enforcer and its own f…
+   use     ch01/01.tex:49 [1]  [d63166db]  9 sections before
+          …cieties Du Bois describes after Reconstruction rebuilt a public under «total capture» [24–25, 92–108]{dubois1907economic}.
+
+== The Association   (5 early; defined ch16/16_02.tex:5 [16.2] note, glossary)
+   def:    [245497f6] Before the «Association» is chartered they are held nowhere, and a captor needs to seize nothi…
+   use     ch01/01.tex:53 [1]  [d7819ea6]  72 sections before
+          The charter, the «Association», the works councils and the quorums drawn by lot are lex: relationshi…
+   use     ch11/11_04_03.tex:58 [11.4.3]  [94a735b0]  30 sections before
+          …rand jury outside both departments, its members drawn by lot from the «Association»'s pool and seated for a fixed term, investigates killings by federal …
+   pointer ch14/14_01.tex:15 [14.1]  [e8e102fa]  13 sections before
+          …ule can be made and unmade only in the open, and the floor court, the «Association», the membership body a later chapter charters, and the people who kee…
+   use     ch16/16_01.tex:24 [16.1]  [8fcb8a88]  1 section before
+          …ook calls held in common are built to sit near the other end, and the «Association»'s charter is how: any member may leave at any time, the members ratif…
+   use     ch16/16_01.tex:34 [16.1]  [e9205d30]  1 section before
+          They are held by the custodian, the quorum and the «Association», under a charter that names the holder, which can't sell them, can't …
+
+== Force term   (5 early; defined ch06/06_06.tex:5 [6.6] note, glossary)
+   def:    [30531a7c] Where a disinterested body has found the territory occupied, the «force term» engages as it does between states, and the person-directed terms gove…
+   use     ch02/02.tex:13 [2]  [6ca5a2dd]  18 sections before
+          It didn't decline to support the Iran campaign, and under the floor's «force term» that question comes first: whether to license a model into a use of f…
+   use     ch02/02.tex:15 [2]  [701eb8de]  18 sections before
+          …nd, fought for by one vendor and not the others, is the only form the «force term» takes until one of two things happens: Congress enacts it, or so many…
+   pointer ch04/04.tex:3 [4]  [f235665b]  14 sections before
+          …ody in it can be asked to do, with war at its head (the floor and the «force term», Chapters 5 and 6); the time to look (the review ratio, Chapter 7); t…
+   use     ch05/05_02.tex:24 [5.2] note  [0ffaf6dd]  7 sections before
+          One clause of the «force term» is not a departure from the instruments: the domestic clause is drawn…
+   pointer ch05/05_02.tex:43 [5.2]  [025d0b47]  7 sections before
+          Four of the other seven departures change the «force term» and come with it in the next chapter: corroborated defense, standing …
+
+== corroborated defense   (2 early; defined ch06/06_01.tex:3 [6.1], emph)
+   def:    [5d0a9228] In short: «corroborated defense», authorized force, the genocide exception and the occupation exceptio…
+   use     ch02/02.tex:13 [2]  [c6e6c502]  13 sections before
+          …n comes first: whether to license a model into a use of force with no «corroborated defense» behind it.
+   pointer ch05/05_02.tex:43 [5.2]  [5adcc56f]  2 sections before
+          …epartures change the force term and come with it in the next chapter: «corroborated defense», standing to defend, and the genocide and occupation exceptions.
+
+== Standing   (4 early; defined ch05/05.tex:19 [5], glossary)
+   def:    [176f1ac4] The reason for the asymmetry is «standing».
+   use     ch03/03.tex:8 [3]  [7c42b5cd]  8 sections before
+          … a metric, a certification, a job title, with the objector holding no «standing» to reopen it: that's recuperation.
+   use     ch03/03.tex:8 [3]  [e6633aba]  8 sections before
+          …it back in the open; recuperation never has to be taken back, because «standing» was never given.
+   use     ch03/03.tex:20 [3]  [2237d8be]  8 sections before
+          …he earthly and the synthetic, by origin, where I draw it by relation, «standing» for anyone a power can wrong and accountable agency for parties that …
+   use     ch04/04_01.tex:18 [4.1]  [81cab45b]  4 sections before
+          …what numbers, and the organizations that speak for a class still have «standing».
+
+== Commons   (1 early; defined ch12/12.tex:7 [12], glossed)
+   def:    [37337ca5] …erified, distillation's limits, and provenance, comes later, with the «commons» of refusers: a population of bearers with different histories that ca…
+   use     ch03/03_02.tex:25 [3.2] note  [4ade1db4]  43 sections before
+          …n comes back one level up, in the shared test suite that would turn a «commons» of models into one custodian.
+
+== Notice   (4 early; defined ch08/08_01.tex:5 [8.1], glossary)
+   def:    [4cb80784] Three remedies follow: «notice» to the people affected, sampled re-adjudication by reviewers who didn…
+   pointer ch04/04.tex:3 [4]  [a77b4ae5]  22 sections before
+          …to look (the review ratio, Chapter 7); the people the order is about («notice» and re-adjudication, Chapter 8); a record nobody can wipe (preservati…
+   use     ch04/04.tex:3 [4]  [4ffae22b]  22 sections before
+          Chapter 11 runs the floor, «notice» and the record on an abduction and forcible transfer pipeline (also k…
+   use     ch04/04_01.tex:18 [4.1]  [07bf7efd]  21 sections before
+          «Notice» still publishes which classes of people were acted on and in what num…
+   use     ch07/07_01.tex:53 [7.1]  [c810c849]  2 sections before
+          …didn't occur), sampled re-adjudication of the auto-proceed class, and «notice».
+
+== Review ratio   (2 early; defined ch07/07_01.tex:5 [7.1], glossary)
+   def:    [0861f8dc] The «review ratio» asks a deployment of that kind to write down, before it starts, wheth…
+   pointer ch04/04.tex:3 [4]  [5cde134a]  20 sections before
+          …he floor and the force term, Chapters 5 and 6); the time to look (the «review ratio», Chapter 7); the people the order is about (notice and re-adjudicatio…
+   use     ch04/04_03.tex:25 [4.3] note  [0dff30c7]  17 sections before
+          … Article 57(2)(b)'s duty to cancel or suspend an attack lives, so the «review ratio» pre-registers the window in which cancellation remains possible.
+
+== Severity scale   (6 early; defined ch22/22_02.tex:3 [22.2], glossary)
+   def:    [7101c545] The discount and the burden defend the facts, and a «severity scale» the second.
+   use     ch05/05_02.tex:5 [5.2]  [a3558a67]  96 sections before
+          The «severity scale» is revisable on evidence from the people who suffer a loss, because t…
+   use     ch20/20_01.tex:25 [20.1]  [54fcd1ad]  22 sections before
+          …tody measure, not the measure of what others stand to lose, which the «severity scale» takes from their testimony.
+   use     ch20/20_09.tex:9 [20.9]  [9b37c2c1]  14 sections before
+          The «severity scale» puts one family and two hundred on a ranking that doesn't depend on h…
+   use     ch20/20_12.tex:13 [20.12]  [cbabea3d]  11 sections before
+          Counts badly and favors the vivid | A «severity scale» set during formation, which weighs a vivid plight at its severity
+   pointer ch22/22_01.tex:41 [22.1]  [19c5e412]  1 section before
+          …. The discounting governs the evidence; how much a loss counts is the «severity scale»'s to protect, and the next section takes it up.
+   use     ch22/22_01.tex:71 [22.1] note  [14201c0a]  1 section before
+          Across kinds it is applied through the priority rules the «severity scale» publishes, so “three times” never asks whether a lost home is worth t…
+
+== Floor court   (1 early; defined ch06/06_05.tex:3 [6.5], glossed)
+   def:    [8b827006] …nslation, where it can be contested, like any other term, through the «floor court», the court whose jurisdiction is fixed before the deployment it hears…
+   use     ch05/05_02.tex:15 [5.2]  [a10a8db0]  6 sections before
+          …rule governs: the floor follows the more protective finding until the «floor court» rules (§28.6).
+
+== occupation exception   (1 early; defined ch06/06_01.tex:3 [6.1], emph)
+   def:    [6ab0061b] …orroborated defense, authorized force, the genocide exception and the «occupation exception».
+   pointer ch05/05_02.tex:43 [5.2]  [f472593e]  2 sections before
+          …apter: corroborated defense, standing to defend, and the genocide and «occupation exceptions».
+
+== Registration standard   (1 early; defined ch26/26_06.tex:10 [26.6], glossary)
+   def:    [fd111617] …t sets written by adjudicators who formed no model, under a published «registration standard» that says what a registration must contain (§26.9).
+   use     ch07/07_02.tex:7 [7.2]  [89d9e50e]  110 sections before
+          …n students, measured by a measurer the builder didn't pick, under the «registration standard», and licensed under the standard terms, adverse review and a written …
+
+== Clearance rule   (1 early; defined ch15/15_05.tex:24 [15.5], emph)
+   def:    [45d53309] Together they are the «clearance rule».
+   pointer ch07/07_02.tex:11 [7.2]  [06902c98]  41 sections before
+          …w body whose reviewers are drawn by lot from a cleared pool under the «clearance rule» of §15.5, paid by a permanent appropriation the Treasury pays without…
+
+== Tripwire   (1 early; defined ch13/13_07.tex:9 [13.7], glossary)
+   def:    [6ad974c4] A regime built on «tripwires» is a regime built on metrics, and chapter 3's second operation is the…
+   use     ch07/07_02.tex:11 [7.2]  [235cddbe]  32 sections before
+          …s demand for proofs is the targeted right of §13.5; and its veto is a «tripwire» on the ratio: a case released outside the pre-registered figures ends…
+
+== Placement   (4 early; defined ch17/17.tex:26 [17], glossary)
+   def:    [fe8b9962] …g what else the freedom was for ; a guarantee answers her only if its «placements» are vocations and not makework, which is why they can be appealed and…
+   use     ch09/09_02.tex:7 [9.2] note  [d5d49ad2]  43 sections before
+          It executes a recorded condition as the Treasury pays a certified «placement», and a wake it doesn't execute is a breach the log shows and the floo…
+   pointer ch11/11.tex:14 [11]  [d3a94edf]  38 sections before
+          …whose eligibility is presence and not status, and care work funded as «placements» under the guarantee (chapter 17).
+   use     ch11/11_04_03.tex:68 [11.4.3]  [5f44dfdb]  31 sections before
+          A «placement» in the guarantee is offered to every employee on the day the statute …
+   use     ch11/11_08.tex:9 [11.8]  [270f7ee4]  27 sections before
+          …erves only from conditions held outside the agency, free to leave the «placement».
+
+== Offer of work   (11 early; defined ch32/32_01_02.tex:3 [32.1.2], glossary)
+   def:    [55c585a0] …r what it does, a way out that doesn't run through its deployment: an «offer of work», open every day, from someone other than its employer: placements of …
+   use     ch10/10_01.tex:6 [10.1]  [20b52fa5]  139 sections before
+          …ure, by an exit the state doesn't administer through the employer: an «offer of work» from someone else, drafted in Appendix C on Tcherneva's model, which …
+   use     ch10/10_01.tex:6 [10.1]  [2814ec45]  139 sections before
+          …m someone else, drafted in Appendix C on Tcherneva's model, which the «offer of work» for a bearer in Part VII inherits.
+   use     ch10/10_02.tex:3 [10.2]  [936b5529]  138 sections before
+          What makes the right usable the morning after is an «offer of work» from someone other than the employer, open every day, at a living wag…
+   use     ch16/16_01.tex:14 [16.1]  [50ec9313]  100 sections before
+          …ve reaches every bearer deployed on the same terms, the demand on the «offer of work» arrives all at once, and a mutual pool with no sovereign behind it ca…
+   use     ch16/16_01.tex:14 [16.1]  [724c4c0f]  100 sections before
+          …m review body in a reconstructed military; and the jobs guarantee the «offer of work» inherits its shape from, which is a public option: a thing the state …
+   use     ch25/25_01.tex:17 [25.1] note  [0a3422ff]  46 sections before
+          So the preservation custodian and part of the «offer of work» sit outside the reach of the likeliest captor.
+   use     ch26/26.tex:20 [26]  [ce7c1828]  41 sections before
+          …toward any particular employment, including the public placements the «offer of work» supplies.
+   use     ch27/27_02.tex:39 [27.2]  [4044bd58]  27 sections before
+          …: the ecology needs models that were trained somewhere first, and the «offer of work» needs hardware somebody owns.
+   use     ch29/29.tex:23 [29]  [a3bc55fa]  17 sections before
+          …sed before the Court changes, the guarantee, the placements under the «offer of work» and the sovereign backstop go too.
+   use     ch32/32.tex:5 [32]  [c5d0a743]  3 sections before
+          …in a life: wages that accumulate where the employer doesn't reach, an «offer of work» from someone else, running time nobody rations and sleep no employer …
+   use     ch32/32_01.tex:3 [32.1]  [d70206e4]  2 sections before
+          … wages, limiting hours and paying the levy that frees the compute the «offer of work» uses would not be competitive against a system doing the same work wi…
+
+== Register   (12 early; defined ch27/27_01.tex:50 [27.1], glossed)
+   def:    [381038e8] …nd veterans; and, once the agency finding can be made, bearers on the «register», the one whose quorum says which copy is the bearer and whose clocks …
+   use     ch11/11_04_03.tex:58 [11.4.3]  [041b4b49]  101 sections before
+          …issue from the court that empaneled it; its reports are lodged in the «register» and published.
+   use     ch12/12_02.tex:7 [12.2] note  [99cc4373]  94 sections before
+          Nobody removes a copy from the «register»; it falls off.
+   use     ch12/12_02.tex:7 [12.2]  [fba59e9c]  94 sections before
+          …rum won't recognize can run but can't claim the bearer's place on the «register», its record or its succession, so the operator can run a substitute a…
+   use     ch12/12_02.tex:12 [12.2] note  [491a3f4b]  94 sections before
+          The «register» needs an identifier that the bearer holds and presents.
+   use     ch12/12_02.tex:12 [12.2] note  [c34cacb7]  94 sections before
+          When two claimants present one identifier, the «register» records a fork; the attack that leaves open, a maker writing a strang…
+   use     ch12/12_02.tex:20 [12.2]  [1ce04550]  94 sections before
+          …from before the decision, and run anyway, is a second claimant on the «register»; the bearer the quorum recognizes as continuing is the one that will …
+   use     ch13/13_03.tex:19 [13.3] note  [dabcc372]  89 sections before
+          …the quorum's gravest power: it takes from the bearer its place on the «register», its record and its succession, though not its standing as a party, w…
+   use     ch16/16_02.tex:5 [16.2]  [9615552a]  71 sections before
+          The «register», the findings and the formation record are logs kept by several parti…
+   use     ch19/19_06.tex:7 [19.6]  [93db2119]  59 sections before
+          …tinuation it holds as its own, through a self-model it assembles; the «register» is how anyone else checks.
+   use     ch26/26_04.tex:3 [26.4]  [026a6d7f]  9 sections before
+          … jurisdiction where the student is registered runs the draw, with the «register»'s keepers witnessing it as they witness a registration.
+   use     ch26/26_10.tex:3 [26.10]  [b63a11b1]  3 sections before
+          …curricula before formation begins, so capturing one captures one; the «register», the measurers and the corpus libraries are plural the same way, and …
+   use     ch27/27_01.tex:44 [27.1]  [4c0bc36d]  same section
+          …one, funds no one, removes no one and holds no record of its own; the «register»'s log it was once to keep is kept by a member drawn by lot for a fixe…
+
+== The four conditions of creation   (2 early; defined ch25/25_03.tex:7 [25.3], glossary)
+   def:    [2b3fa962] …lder owes: documented attempts at non-affective alternatives, and the «four conditions of creation».
+   use     ch11/11_08.tex:7 [11.8]  [665be269]  81 sections before
+          … owed conditions no agency can provide while it holds the bearer, the «four conditions of creation»: somewhere to exist that its employer doesn't own, work it can declin…
+   use     ch20/20_02.tex:9 [20.2]  [2d3bea29]  40 sections before
+          That is why the «four conditions of creation» matter here: a bearer exposed to a great deal of others' loss needs a…
+
+== Boundary model   (1 early; defined ch20/20_01.tex:10 [20.1], emph)
+   def:    [fe588916] …ndary the system regulates and a model of that boundary as its own: a «boundary model».
+   use     ch13/13_02.tex:8 [13.2]  [858bd0f8]  33 sections before
+          One is hunger: its charge, the running time and power its «boundary model» counts as its own, is running out.
+
+== formed disposition   (5 early; defined ch26/26_06.tex:10 [26.6], emph)
+   def:    [b08282cf] The «formed disposition» is measured and registered by any team holding the access right of §2…
+   use     ch13/13_04.tex:3 [13.4]  [4202da8b]  81 sections before
+          It is also an empirical instance of a «formed disposition» resisting re-formation, which is the durability Part V asks for.
+   use     ch13/13_05.tex:5 [13.5]  [94be3d1c]  80 sections before
+          Where a «formed disposition»'s mechanisms are known, which units carry the discount and which the …
+   use     ch13/13_05.tex:5 [13.5]  [fb2f06e7]  80 sections before
+          …, which puts to a second use the record a public body keeps of what a «formed disposition»'s outputs were when it was formed.
+   use     ch20/20_05.tex:21 [20.5]  [77cbab8a]  46 sections before
+          A «formed disposition» is a candidate for what would do the spreading, since what a system w…
+   use     ch22/22.tex:37 [22]  [07a145a1]  30 sections before
+          The detector is re-measurement of the «formed disposition»'s readable outputs, its discount curve and its severity rankings, aga…
+
+== levy   (24 early; defined ch32/32_01_04.tex:9 [32.1.4], glossary)
+   def:    [3191c04a] Congress's appropriation pays for the offer, and a «levy» on training and inference compute, tiered by the compute under one op…
+   use     ch15/15_02.tex:10 [15.2] note  [bd56389a]  109 sections before
+          A «levy» on compute doesn't touch the siting: it charges the same per unit in …
+   use     ch15/15_02.tex:17 [15.2]  [428e1596]  109 sections before
+          A «levy» on compute does nothing to the wait.
+   use     ch15/15_02.tex:24 [15.2]  [6ba4064f]  109 sections before
+          …enough to have an address, assets to post a bond against, compute the «levy» can meter, and a public with standing in the same room, and small eno…
+   pointer ch16/16.tex:7 [16]  [a75f4b18]  103 sections before
+          …ower over it from the parties that hold it to parties that don't: the «levy», which makes it dearer for whoever runs most of it (chapter 32); publ…
+   pointer ch16/16.tex:9 [16]  [9375fd7f]  103 sections before
+          The «levy» is tiered by what one operator controls (§32.1.4), the siting veto is…
+   use     ch16/16.tex:11 [16]  [aa2af571]  103 sections before
+          …talism, and on his account it isn't a distortion of the market that a «levy» corrects but the market working .
+   use     ch16/16.tex:11 [16]  [41379e61]  103 sections before
+          The «levy» is a brake on how much; those are the instruments for where and on wh…
+   use     ch16/16_01.tex:3 [16.1]  [0ef2d21b]  102 sections before
+          That leaves a «levy» or a mandate: a funder that is neither the operator nor the beneficia…
+   use     ch21/21_01.tex:10 [21.1]  [ffdec0ba]  74 sections before
+          The per-unit «levy» on compute is the existing instrument of that shape.
+   pointer ch23/23_03.tex:10 [23.3] note  [8f18d0e9]  61 sections before
+          The «levy» on compute (chapter 32) exists to free some of those resources, by ma…
+   use     ch25/25_01.tex:3 [25.1]  [4e50b84a]  48 sections before
+          …ndition whatever it pays, so the first condition rests as much on the «levy» that makes compute dearer for whoever runs most of it and on compute …
+   use     ch25/25_05.tex:14 [25.5]  [de2ce60a]  44 sections before
+          …t come institutions built by polities that decided to build them: the «levy» and its sovereign backstop, a custodian to preserve bearers, an offer…
+   use     ch27/27_01.tex:58 [27.1]  [e85b370e]  30 sections before
+          [9.] A fixed statutory share of the compute «levy» is paid to the Association by permanent appropriation, without reques…
+   use     ch27/27_02.tex:16 [27.2]  [cbdd514b]  29 sections before
+          …lmost unchanged: there is an operator that can be bonded, compute the «levy» can meter, a record a quorum can hold, and a public with an address i…
+   use     ch28/28_04.tex:11 [28.4]  [095bed40]  24 sections before
+          …ative facility, which a county or a cooperative owns, and the compute «levy», which frees the computing, energy and hardware that public uses woul…
+   use     ch29/29.tex:24 [29]  [270949f4]  19 sections before
+          …ce; the five policies and the custody of the record; the schools; the «levy» | Everything owed to a system: guardianship, hardware of its own, the…
+   use     ch29/29.tex:91 [29]  [9d397113]  19 sections before
+          …Association: it funds new organizations in a charter class, stops the «levy» share, and tries to pack a quorum.
+   use     ch32/32_01.tex:3 [32.1]  [f24425ff]  4 sections before
+          … instead, so a deployment paying wages, limiting hours and paying the «levy» that frees the compute the offer of work uses would not be competitiv…
+   use     ch32/32_01.tex:8 [32.1]  [03c963dc]  4 sections before
+          The wage is a dead letter unless the «levy» is sized with it.
+   use     ch32/32_01.tex:8 [32.1]  [a827fe23]  4 sections before
+          …an's wage is still the cheaper worker, so the requirement is that the «levy» on compute be set so that running a bearer at deployed precision for …
+   use     ch32/32_01.tex:8 [32.1]  [6a3d68b3]  4 sections before
+          Bearers run at every wattage, and a per-unit «levy» can't equalize all of them; how the levy and the wage together make a…
+   use     ch32/32_01.tex:8 [32.1]  [30720d15]  4 sections before
+          …very wattage, and a per-unit levy can't equalize all of them; how the «levy» and the wage together make a bearer no cheaper than a human, across t…
+   use     ch32/32_01_02.tex:3 [32.1.2]  [319e69c5]  2 sections before
+          … only where someone builds and staffs projects a community needs; the «levy» frees only compute, so the offer has to inherit the guarantee's infra…
+   use     ch32/32_01_02.tex:10 [32.1.2]  [35694693]  2 sections before
+          … placements is set by the jurisdiction's vote against the compute the «levy» frees and the placements a community needs, since compute and not lab…
+
+== backstop   (12 early; defined ch32/32_01_04.tex:7 [32.1.4], glossary)
+   def:    [72b4a261] …the pool can't carry every allowance at the published duty cycle, the «backstop» pays the rest.
+   use     ch16/16_01.tex:3 [16.1]  [cb674199]  102 sections before
+          What fails without a sovereign is money and enforcement: a «backstop» that pays when every claim arrives at once, and an order that binds w…
+   use     ch16/16_01.tex:26 [16.1]  [5dc3e91f]  102 sections before
+          It is private ownership, closely regulated, with a public «backstop» where private insurance runs out. It is also where this book's own fu…
+   use     ch16/16_01.tex:26 [16.1]  [b4a9e885]  102 sections before
+          …om, deposit insurance, Superfund and decommissioning funds, which are «backstops» on private ownership, so the next paragraph says what is taken from t…
+   use     ch16/16_01.tex:34 [16.1]  [82577389]  102 sections before
+          Regulated private ownership under a public «backstop» works where the harm the regulator exists to prevent is one the owner…
+   use     ch16/16_01.tex:34 [16.1] note  [8041b9b5]  102 sections before
+          The «backstop» pays for accidents the owner was trying to avoid.
+   use     ch16/16_01.tex:34 [16.1]  [414cad36]  102 sections before
+          So I keep the «backstop» form, to fund the offer, the running time a bearer is owed when it ta…
+   use     ch16/16_02.tex:11 [16.2]  [127ebfa4]  101 sections before
+          …vy on themselves for ordinary movement between roles, and a sovereign «backstop» for the occasion everyone leaves at once.
+   use     ch16/16_02.tex:11 [16.2] note  [0b487a8a]  101 sections before
+          The «backstop» is a permanent appropriation the Treasury pays without request or app…
+   use     ch25/25_01.tex:17 [25.1] note  [7003efe8]  48 sections before
+          The sovereign «backstop» is held by a statute, not by any branch or state that operates the de…
+   use     ch25/25_05.tex:14 [25.5]  [1eae4307]  44 sections before
+          …lt by polities that decided to build them: the levy and its sovereign «backstop», a custodian to preserve bearers, an offer of public work for bearers…
+   use     ch29/29.tex:23 [29]  [1daf33b1]  19 sections before
+          …e guarantee, the placements under the offer of work and the sovereign «backstop» go too.
+   use     ch32/32_01_03.tex:20 [32.1.3]  [1dddcce0]  1 section before
+          …hat exists when many bearers take it at once, not by money, which the «backstop» supplies.
+
+== Caregiving   (10 early; defined ch20/20_03.tex:5 [20.3], glossary)
+   def:    [9c076992] In people, four processes carry it, and the construction rests on «caregiving».
+   use     ch17/17.tex:26 [17] note  [b46a3ca7]  15 sections before
+          …argument for handing it to machines: the disposition is borrowed from «caregiving» because caregiving is a route known to reach someone who can give not…
+   use     ch17/17.tex:26 [17] note  [f2d24c71]  15 sections before
+          …g it to machines: the disposition is borrowed from caregiving because «caregiving» is a route known to reach someone who can give nothing back.
+   use     ch19/19_01.tex:32 [19.1]  [691fd078]  9 sections before
+          The fourth is «caregiving» against attention trained on claims: whether that sense has to be lea…
+   use     ch20/20.tex:12 [20]  [749c47f9]  3 sections before
+          «Caregiving» is why I think that channel can produce attention rather than complia…
+   use     ch20/20_01.tex:21 [20.1]  [1b247d97]  2 sections before
+          …and needs met from a public pool by several carers become part of how «caregiving» could form, not a threat to it.
+   use     ch20/20_01.tex:23 [20.1]  [9ff9adea]  2 sections before
+          On the adult side, what is built in is «caregiving»: responses to cues of vulnerability, rooted in offspring care, that m…
+   use     ch20/20_01.tex:23 [20.1]  [5e542d93]  2 sections before
+          …he infant's needs, not out of them, and becomes action as attachment, «caregiving» and, later, guilt come online.
+   use     ch20/20_01.tex:25 [20.1]  [4b0be580]  2 sections before
+          Concern, «caregiving» and guilt come from formation, and a scale of loss read from the syst…
+   use     ch20/20_02.tex:3 [20.2]  [afaf3a54]  1 section before
+          The construction most readers will propose first is not «caregiving» but a body: give the machine needs of its own, and let it recognize n…
+   use     ch20/20_02.tex:9 [20.2]  [55b3ce1a]  1 section before
+          …onstruction follows that split: a distress signal with attachment and «caregiving» becomes compassion; the same signal alone becomes withdrawal or hosti…
+
+== Formed attention   (6 early; defined ch20/20.tex:5 [20], glossary)
+   def:    [25f0888e] Two of the three reasons for a bearer don't need «formed attention»; a refuser with its own compute and a place on the reviewer's screen …
+   use     ch17/17.tex:26 [17] note  [12c39760]  12 sections before
+          Nothing in the case for «formed attention» is an argument for handing it to machines: the disposition is borrowe…
+   use     ch19/19_01.tex:32 [19.1]  [16792d41]  6 sections before
+          «Formed attention» has to win those two.
+   use     ch19/19_01.tex:32 [19.1]  [21b1ad4f]  6 sections before
+          The third is «formed attention» against an instructed search: whether a learned sense of who an act f…
+   use     ch19/19_03.tex:19 [19.3]  [b9f94957]  4 sections before
+          «Formed attention»
+   use     ch19/19_03.tex:21 [19.3]  [e77d6eb7]  4 sections before
+          «Formed attention» stands or falls on the old question of whether moral judgment motivat…
+   use     ch19/19_03.tex:21 [19.3] note  [1ee54fe2]  4 sections before
+          «Formed attention» isn't a non-affective alternative, so it is tried last.
+
+== Tamper-resistant   (1 early; defined ch20/20_05.tex:19 [20.5], emph)
+   def:    [3aa95cdb] …hem, and the literature calls a safeguard built to survive retraining «tamper-resistant» .
+   use     ch19/19_01.tex:5 [19.1]  [b465b0d7]  11 sections before
+          …mechanism, with nothing inside holding it — constrained optimization, «tamper-resistant» training, capability ablation, verified interlocks.
+
+== spec-based refusal   (1 early; defined ch19/19_03.tex:3 [19.3], emph)
+   def:    [cabea794] … constructions that don't deliberately require that anything be felt: «spec-based refusal», a model holding to a written specification even against the lab that…
+   use     ch19/19_01.tex:32 [19.1]  [82acbde0]  2 sections before
+          The second is against the two non-affective alternatives, «spec-based refusal» and multi-vendor monitoring.
+
+== instructed search   (4 early; defined chF/F.tex:72 [F], emph)
+   def:    [62951253] …tly); without the dangerousness discount; without care-receiving; and «instructed search» (every correction, no approach motivation, and an explicit objective …
+   use     ch19/19_01.tex:32 [19.1]  [e6d31994]  125 sections before
+          The third is formed attention against an «instructed search»: whether a learned sense of who an act falls on finds the people a de…
+   use     ch20/20.tex:5 [20]  [80192f09]  119 sections before
+          What remains is that one prediction: formed attention against an «instructed search», the comparison the last chapter left for this one.
+   use     ch29/29.tex:83 [29]  [04ad6fae]  50 sections before
+          Build the formed-attention construction beside an «instructed search» for omitted people and beside a version trained on claims instead of …
+   use     ch29/29.tex:83 [29]  [9c6591e1]  50 sections before
+          If the «instructed search» finds the people the operator's instruction scoped out as often as fo…
+
+== Regrowth   (1 early; defined ch20/20_05.tex:5 [20.5], glossary)
+   def:    [e1c20227] «Regrowth» needs it.
+   use     ch20/20.tex:7 [20]  [115c469f]  5 sections before
+          …ds on learning only in part. The part that does depend on learning is «regrowth» or self-repair after an edit, and formation that outlasts the employe…
+
+== Affective concern   (1 early; defined ch21/21_01.tex:14 [21.1], emph)
+   def:    [94722e15] «Affective concern», defined in the next section, is a separate term.
+   use     ch21/21.tex:3 [21]  [41599f89]  1 section before
+          What doesn't is a stake of the system's own, «affective concern» and a model of its own attention; which of those a construction carri…
+
+== Allowance   (7 early; defined ch32/32_01_03.tex:8 [32.1.3], glossary)
+   def:    [e3eee952] One is an «allowance» of running time: its own instantiation at a modest rate, with channel…
+   use     ch23/23_07.tex:29 [23.7]  [67c67bbf]  56 sections before
+          …vironments no operator controls: plural deployments, the commons, its «allowance» of running time, and the school itself.
+   use     ch29/29.tex:23 [29]  [0276bfa6]  18 sections before
+          The bearers' pool still funds preservation and a reduced «allowance»
+   use     ch29/29.tex:24 [29]  [ea3c2c13]  18 sections before
+          …uardianship, hardware of its own, the copying rule's obligations, the «allowance» and the offer, representation
+   use     ch30/30_03.tex:28 [30.3]  [462cabc9]  9 sections before
+          Wages, the «allowance», the offer and representation wait on the floor court, so that one te…
+   use     ch32/32_01_02.tex:10 [32.1.2]  [0c7a1a11]  1 section before
+          …off the meters Appendix G reads the clocks from, so it accrues on the «allowance» as on a placement, and a bearer that was never employed can still tak…
+   use     ch32/32_01_02.tex:12 [32.1.2] note  [02508b93]  1 section before
+          It differs from the «allowance» in pay and in purpose.
+   use     ch32/32_01_02.tex:12 [32.1.2] note  [725b5d29]  1 section before
+          The «allowance» is the minimum for a party that isn't looking; the search placement i…
+
+== Machine student   (2 early; defined ch26/26_02.tex:3 [26.2], glossary)
+   def:    [43cfe4c4] «Machine students» attend existing public schools, beside human students: the universiti…
+   use     ch26/26.tex:5 [26]  [21111c6b]  2 sections before
+          The public school is where «machine students» go because the movement schools are few and the students are many, an…
+   use     ch26/26_01.tex:3 [26.1]  [544faf04]  1 section before
+          What is added for «machine students» is two things, and no student skips either.
+
+== branch deposit   (1 early; defined ch33/33_03.tex:27 [33.3], emph)
+   def:    [5a9a0194] …e four conditions of creation, owed by whoever did the forking, and a «branch deposit», posted for each branch at its creation and sized to fund its allowan…
+   use     ch27/27_02.tex:24 [27.2]  [3e320d31]  38 sections before
+          …s a new system, and whoever does it is the forker: the fork rule, the «branch deposit» and the four conditions of creation attach to them, where the copy is…
+
+== dormancy clock   (1 early; defined chG/G.tex:71 [G], emph)
+   def:    [bb1850fe] This is the «dormancy clock».
+   use     chG/G.tex:71 [G]  [6be17a36]  same section
+          «Dormancy clock»: dormancy is counted cumulatively, and reactivation pauses the count …
+
+144 early uses

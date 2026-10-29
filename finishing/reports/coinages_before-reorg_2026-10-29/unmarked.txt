@@ -1,0 +1,17 @@
+== Attestation   (14 occurrences, none marked)
+   first   ch04/04_03.tex:19 [4.3]
+          …om; no evidence is curated, so no attack on evidence is recorded; and «attestation» of the weights still passes.
+
+== Departures   (9 occurrences, none marked)
+   first   ch05/05_02.tex:24 [5.2]
+          I propose here ten «departures» from the instruments.
+
+== second guardian   (11 occurrences, none marked)
+   first   ch26/26_04.tex:7 [26.4]
+          …nt, under the only party that has ever held it, and the school is the «second guardian» arriving late.
+
+== content clause   (3 occurrences, none marked)
+   first   ch28/28_07.tex:7 [28.7]
+          A «content clause».
+
+4 terms with no marked definition

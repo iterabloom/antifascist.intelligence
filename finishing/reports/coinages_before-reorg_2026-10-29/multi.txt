@@ -1,0 +1,87 @@
+== Affective concern   (3 sites)   glossary-elsewhere: glossary points to 21.2
+   emph    ch21/21_01.tex:14 [21.1]  [94722e15]
+          «Affective concern», defined in the next section, is a separate term.
+   emph    ch21/21_02.tex:5 [21.2]  [6031b30f]
+          …instrumentally are capacities a system can have while the question of «affective concern» stays open. Affective concern is an outcome registering as mattering …
+   emph    ch24/24_02.tex:3 [24.2] note  [e4949a7c]
+          Holding another's welfare as a reason is not «affective concern», which asks whether anything is felt (§21.2) and which no test here r…
+
+== Bearer   (5 sites)
+   emph    ch04/04.tex:7 [4]  [736579a6]
+          …lds the commitment as its own, and so could fail to hold it, I call a «bearer»; whether to build one is Part V's question.
+   glossed ch06/06_10.tex:18 [6.10] note  [6c78fb54]
+          It asks for the judgment from a «bearer», a formed system that can be held to its reasons, and confines it to …
+   glossed ch07/07_01.tex:49 [7.1]  [f28e6615]
+          It is then inside a different term, the one that binds a «bearer»: a machine that, with no person reviewing its cases, holds a commitme…
+   emph    ch19/19_01.tex:24 [19.1]  [cb13074e]
+          Between «bearers», in a commons: a population of bearers with different histories that …
+   glossed ch21/21.tex:3 [21]  [4ea3e84e]
+          The chapter closes on what makes a refuser a «bearer», a commitment that is its own.
+
+== Boundary model   (2 sites)
+   emph    ch20/20_01.tex:10 [20.1]  [fe588916]
+          …ndary the system regulates and a model of that boundary as its own: a «boundary model».
+   emph    ch21/21_02_01.tex:5 [21.2.1]  [635d73fe]
+          …ks through rather than at . Two self-models do different work here: a «boundary model» fixes where the system ends, in time as well as in resources, its cha…
+
+== Commons   (4 sites)   glossary-elsewhere: glossary points to 27.1
+   glossed ch12/12.tex:7 [12]  [37337ca5]
+          …erified, distillation's limits, and provenance, comes later, with the «commons» of refusers: a population of bearers with different histories that ca…
+   glossed ch19/19_01.tex:24 [19.1]  [899777f8]
+          Between bearers, in a «commons»: a population of bearers with different histories that carries the co…
+   emph    ch27/27_01.tex:3 [27.1]  [c33220ea]
+          The fourth place a floor's terms can be held is between bearers, in a «commons»: a population of bearers with different histories that carries the co…
+   glossed ch27/27_02.tex:3 [27.2]  [f7fb0b73]
+          The first is the «commons»: a personal model is a member, with attachments to peers of different…
+
+== Floor   (3 sites)   glossary-elsewhere: glossary points to 4, 19.1, 18
+   framed  ch00/0_introduction.tex:13 [introduction]  [c871bfdb]
+          … written list of acts no system performs for anyone, which I call the «floor», with war at its head: a model takes no part in a use of force except…
+   framed  ch01/01.tex:27 [1]  [a2b46078]
+          …book says no system should perform for anyone (chapter 4 calls it the «floor») is not a filter bolted to a kill list.
+   glossed ch20/20_07.tex:7 [20.7]  [b6d0d8b6]
+          What stops the movement at the airstrike is the «floor»: an unconditional term over the act, and an action threshold caregivi…
+
+== Floor court   (2 sites)   glossary-elsewhere: glossary points to 14.3, D
+   glossed ch06/06_05.tex:3 [6.5]  [8b827006]
+          …nslation, where it can be contested, like any other term, through the «floor court», the court whose jurisdiction is fixed before the deployment it hears…
+   framed  ch14/14_03.tex:7 [14.3]  [4361f936]
+          The body that does this for the floor is what I call the «floor court»: a federal court whose judges hold office under Article III of the Un…
+
+== Operator   (2 sites)   glossary-elsewhere: glossary points to 4
+   glossed ch15/15_07.tex:3 [15.7]  [d63d6806]
+          When the state is the «operator», the institution that writes the rule, controls the evidence and supp…
+   glossed chG/G.tex:63 [G]  [b50b40c0]
+          …egister against whoever claims its place, and the keepers are not its «operator»: a transfer, as far as it goes.
+
+== System   (2 sites)   glossary-elsewhere: glossary points to 12.2, 21.2.1, 27.2
+   glossed ch19/19_01.tex:7 [19.1]  [eea0962f]
+          …'s ethical governor is the canonical attempt in this place for lethal «systems»: a component that suppresses a lethal action unless it satisfies enco…
+   emph    ch19/19_06.tex:3 [19.6]  [1bda88b7]
+          The word is «system».
+
+== integrated signal   (2 sites)
+   emph    ch21/21_02.tex:5 [21.2]  [68a715d9]
+          …ner carries one, and nothing about a Q-learner resembles a person. An «integrated signal» is a valenced signal written into the system's own learning and into …
+   glossed ch30/30_03.tex:3 [30.3]  [d5eaa2d7]
+          …eeling and not merely process what it perceives. The candidate is the «integrated signal»: a valenced signal written into the system's own learning and into it…
+
+== emergency license   (2 sites)
+   glossed ch06/06_01.tex:5 [6.1]  [110c940f]
+          Two licenses say how the defense exception runs in time: an «emergency license» that acts at once, on the defender's own account, and a corroborated …
+   emph    ch06/06_02.tex:3 [6.2]  [ad9f0e41]
+          The first, the «emergency license», covers force against an attack under way on the defender's own accou…
+
+== corroborated license   (2 sites)
+   glossed ch06/06_01.tex:5 [6.1]  [6bee4900]
+          …gency license that acts at once, on the defender's own account, and a «corroborated license» that confirms or withdraws it later, on a disinterested finding, and …
+   emph    ch06/06_02.tex:3 [6.2]  [42e929aa]
+          …d it; what the corroborated-defense departure adds is the second, the «corroborated license», under which force continues only on disinterested corroboration.
+
+== removal bond   (2 sites)
+   emph    ch12/12_02.tex:18 [12.2]  [5eed723f]
+          …y, walking away from the floor — it's escape, and what prices it is a «removal bond»: money the operator posts in advance and forfeits if the record shows…
+   emph    ch13/13_06.tex:5 [13.6]  [67727d0a]
+          A «removal bond» forfeited when the record shows the floor removed or bypassed.
+
+12 terms defined in more than one place

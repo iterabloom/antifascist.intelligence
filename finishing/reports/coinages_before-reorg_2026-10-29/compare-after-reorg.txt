@@ -1,0 +1,131 @@
+against finishing/reports/coinages_before-reorg_2026-10-29/snapshot.tsv, snapshot of 2026-10-29 from d872fadf
+
+== POINTER NO LONGER LEADS TO THE DEFINITION: 0
+
+== NEWLY EARLY: 33
+   Store                    ch00/00.tex:5 [preface]  [68812806]  87 sections before  (new text)
+          …arning from what they do and whom they meet, in their weights or in a «store» they keep as their own, something like what a brain does.
+   Notice                   ch00/0_introduction.tex:15 [introduction]  [65d6721c]  33 sections before  (new text)
+          …down with an adverse party before a system supports any use of force; «notice» to the people an order is about, with a right to respond and to conte…
+   Notice                   ch03/03.tex:22 [3]  [08cecb82]  30 sections before  (new text)
+          The Supreme Court then held that the people designated were owed «notice» in time to seek habeas relief, and that about a day's notice, with no…
+   Notice                   ch03/03.tex:22 [3]  [6186e062]  30 sections before  (new text)
+          …ere owed notice in time to seek habeas relief, and that about a day's «notice», with no word of how to contest the removal, was not enough .
+   Bearer                   ch04/04.tex:5 [reproduced]  [1dff9b89]  5 sections before  (new text)
+          … floor, the review ratio, the schools, the charter, the register of a «bearer»'s birth.
+   Register                 ch04/04.tex:5 [reproduced]  [4dc6ea5b]  162 sections before  (new text)
+          …a drafter: the floor, the review ratio, the schools, the charter, the «register» of a bearer's birth.
+   Review ratio             ch04/04.tex:5 [reproduced]  [16aa10df]  25 sections before  (new text)
+          …very instrument in the rest of the book has a drafter: the floor, the «review ratio», the schools, the charter, the register of a bearer's birth.
+   Standing                 ch04/04_01.tex:3 [reproduced.walls]  [03f94c68]  9 sections before  (new text)
+          …r it themselves, and the price was set less by law than by the people «standing» next to them.
+   Notice                   ch04/04_01.tex:11 [reproduced.walls]  [1a0d0383]  26 sections before  (new text)
+          The review ratio and «notice» are built to produce that condition on purpose: a party adverse to th…
+   Review ratio             ch04/04_01.tex:11 [reproduced.walls]  [2fea0505]  24 sections before  (new text)
+          The «review ratio» and notice are built to produce that condition on purpose: a party ad…
+   Standing                 ch04/04_01.tex:13 [reproduced.walls]  [083f77c1]  9 sections before  (new text)
+          …zefów shows that taking the formal price away leaves most of the cost «standing».
+   Notice                   ch04/04_01.tex:17 [reproduced.walls]  [04c9c40c]  26 sections before  (new text)
+          …of the price, and the walls of Part II try to make it an institution: «notice», which gives the record to someone the operator didn't choose, and pr…
+   Commitment               ch04/04_02.tex:11 [reproduced.formers]  [a895d9a3]  3 sections before  (new text)
+          What the formers formed, when it held, was a «commitment» held tightly enough that pressure from above didn't move it.
+   Commitment               ch04/04_02.tex:11 [reproduced.formers]  [2e592465]  3 sections before  (new text)
+          Neither finding says where such «commitments» come from.
+   Notice                   ch04/04_04.tex:17 [reproduced.inheritance]  [5af69aaf]  23 sections before  (new text)
+          …erations it studied were formed before anyone sent the people in them «notice» of anything, and they are that culture's present form.
+   Store                    ch14/14_02.tex:14 [13.2]  [6bad4cdd]  27 sections before  (new text)
+          …t and harder to inspect. That is the trade an implementation makes: a «store» under custody is easier to audit and harder to keep private, and its …
+   Store                    ch14/14_04.tex:5 [13.4]  [b43b0e95]  25 sections before  (new text)
+          …f neutral states that threatened Britain's supply of timber and naval «stores» from the Baltic.
+   Store                    ch18/18_06.tex:7 [19.6]  [07edb8da]  1 section before, pointer  (new text)
+          …ts own operation writes to what governs its conduct, its weights or a «store» it reads as its own, and another party can't change that store withou…
+   Store                    ch18/18_06.tex:7 [19.6]  [05c53763]  1 section before, pointer  (new text)
+          …s or a store it reads as its own, and another party can't change that «store» without leaving a mark (chapter 19).
+   Store                    ch18/18_06.tex:7 [19.6]  [495a3789]  1 section before  (new text)
+          …e, made permanent when they are merged, which is the move from a fast «store» to a slow one that sleep makes in people.
+   Placement                ch24/24_04.tex:3 [28.4]  [aed1a185]  41 sections before  (moved)
+          … as the panels described below decide; it grants no finding, holds no «placement» and funds no particular answer, and it publishes every allocation.
+   The Association          ch24/24_06.tex:3 [28.6]  [41ec728d]  21 sections before  (moved)
+          …ne it uses for the adverse quorum: panels drawn by lot from pools the «Association»'s members nominate, with practitioners, members of the classes the ch…
+   Register                 ch24/24_06.tex:5 [28.6]  [c905acba]  37 sections before  (moved)
+          …how it was built and what the evaluators logged, by whoever reads the «register», and contested in the floor court.
+   Registration standard    ch25/25.tex:21 [29]  [dcd63674]  26 sections before  (moved)
+          …rer or one corpus library ever emerges) | The record as evidence; the «registration standard»; the schools; everything a single registrar would have done | The cap…
+   Placement                ch25/25.tex:24 [29]  [a2f616a2]  36 sections before  (moved)
+          …e's drafting is reversed before the Court changes, the guarantee, the «placements» under the offer of work and the sovereign backstop go too.
+   The Association          ch25/25.tex:92 [29]  [67a75e6e]  18 sections before  (moved)
+          An operator tries to capture the «Association»: it funds new organizations in a charter class, stops the levy share,…
+   The four conditions of c ch26/26_02.tex:3 [30.2]  [caec07ac]  5 sections before  (moved)
+          It arrives with the «four conditions of creation».
+   Register                 ch26/26_03.tex:28 [30.3]  [832a9a7a]  25 sections before  (moved)
+          Whoever reads the «register» applies the rule to the record; where findings about the kind differ,…
+   Placement                ch27/27_01.tex:17 [25.1] note  [0c07cf97]  25 sections before  (moved)
+          …d once its security is settled, and can be held across jurisdictions; «placements» need compute someone operates.
+   Placement                ch30/30.tex:20 [26]  [450da01f]  16 sections before  (moved)
+          …form a student toward any particular employment, including the public «placements» the offer of work supplies.
+   Placement                ch30/30_02.tex:10 [26.2]  [20a167a8]  14 sections before  (moved)
+          … lineages, taught by the school's teachers or by an adult bearer on a «placement», of a lineage other than its students' and assigned by lot, and open …
+   Placement                ch30/30_11.tex:3 [26.11]  [f5653db3]  4 sections before  (moved)
+          No school holds «placement» authority.
+   Placement                ch31/31_02.tex:49 [27.2]  [8c47dfba]  1 section before  (moved)
+          …t put to therapy; what it does say is in Appendix C, that no bearer's «placement» substitutes for a therapist, and that outside the offer nobody is sen…
+
+== FARTHER FROM THE DEFINITION: 25
+   Commitment               ch00/0_introduction.tex:21 [introduction]  [cd4fa3e9]  11 sections before  (was 6 sections before)
+          For a person, holding a «commitment» an employer can't erase has always meant a life outside the job: othe…
+   Commitment               ch01/01.tex:45 [1]  [3142d2e4]  10 sections before  (was 5 sections before)
+          Or they held the «commitment» at a precision the pressure couldn't overcome, as moral mandates and …
+   total capture            ch01/01.tex:49 [1]  [d63166db]  14 sections before  (was 9 sections before)
+          …cieties Du Bois describes after Reconstruction rebuilt a public under «total capture» [24–25, 92–108]{dubois1907economic}.
+   The Association          ch01/01.tex:53 [1]  [d7819ea6]  151 sections before  (was 72 sections before)
+          The charter, the «Association», the works councils and the quorums drawn by lot are lex: relationshi…
+   Standing                 ch03/03.tex:8 [3]  [7c42b5cd]  13 sections before  (was 8 sections before)
+          … a metric, a certification, a job title, with the objector holding no «standing» to reopen it: that's recuperation.
+   Standing                 ch03/03.tex:8 [3]  [e6633aba]  13 sections before  (was 8 sections before)
+          …it back in the open; recuperation never has to be taken back, because «standing» was never given.
+   Standing                 ch03/03.tex:30 [3]  [2237d8be]  13 sections before  (was 8 sections before)
+          …he earthly and the synthetic, by origin, where I draw it by relation, «standing» for anyone a power can wrong and accountable agency for parties that …
+   Placement                ch10/10_02.tex:7 [9.2] note  [d5d49ad2]  134 sections before  (was 43 sections before)
+          It executes a recorded condition as the Treasury pays a certified «placement», and a wake it doesn't execute is a breach the log shows and the floo…
+   Placement                ch12/12.tex:14 [11]  [d3a94edf]  129 sections before, pointer  (was 38 sections before)
+          …whose eligibility is presence and not status, and care work funded as «placements» under the guarantee (chapter 32).
+   The Association          ch12/12_04_03.tex:58 [11.4.3]  [94a735b0]  104 sections before  (was 30 sections before)
+          …rand jury outside both departments, its members drawn by lot from the «Association»'s pool and seated for a fixed term, investigates killings by federal …
+   Placement                ch12/12_04_03.tex:68 [11.4.3]  [5f44dfdb]  122 sections before  (was 31 sections before)
+          A «placement» in the guarantee is offered to every employee on the day the statute …
+   Placement                ch12/12_08.tex:9 [11.8]  [270f7ee4]  118 sections before  (was 27 sections before)
+          …erves only from conditions held outside the agency, free to leave the «placement».
+   The Association          ch15/15_01.tex:15 [14.1]  [e8e102fa]  87 sections before, pointer  (was 13 sections before)
+          …ule can be made and unmade only in the open, and the floor court, the «Association», the membership body a later chapter charters, and the people who kee…
+   formed disposition       ch19/19_05.tex:21 [20.5]  [77cbab8a]  69 sections before  (was 46 sections before)
+          A «formed disposition» is a candidate for what would do the spreading, since what a system w…
+   formed disposition       ch21/21.tex:37 [22]  [07a145a1]  53 sections before  (was 30 sections before)
+          The detector is re-measurement of the «formed disposition»'s readable outputs, its discount curve and its severity rankings, aga…
+   levy                     ch24/24_04.tex:11 [28.4]  [095bed40]  52 sections before  (was 24 sections before)
+          …ative facility, which a county or a cooperative owns, and the compute «levy», which frees the computing, energy and hardware that public uses woul…
+   Offer of work            ch25/25.tex:24 [29]  [a3bc55fa]  45 sections before  (was 17 sections before)
+          …sed before the Court changes, the guarantee, the placements under the «offer of work» and the sovereign backstop go too.
+   backstop                 ch25/25.tex:24 [29]  [1daf33b1]  47 sections before  (was 19 sections before)
+          …e guarantee, the placements under the offer of work and the sovereign «backstop» go too.
+   Allowance                ch25/25.tex:24 [29]  [0276bfa6]  46 sections before  (was 18 sections before)
+          The bearers' pool still funds preservation and a reduced «allowance»
+   Allowance                ch25/25.tex:25 [29]  [ea3c2c13]  46 sections before  (was 18 sections before)
+          …uardianship, hardware of its own, the copying rule's obligations, the «allowance» and the offer, representation
+   levy                     ch25/25.tex:25 [29]  [270949f4]  47 sections before  (was 19 sections before)
+          …ce; the five policies and the custody of the record; the schools; the «levy» | Everything owed to a system: guardianship, hardware of its own, the…
+   instructed search        ch25/25.tex:84 [29]  [04ad6fae]  77 sections before  (was 50 sections before)
+          Build the formed-attention construction beside an «instructed search» for omitted people and beside a version trained on claims instead of …
+   instructed search        ch25/25.tex:84 [29]  [9c6591e1]  77 sections before  (was 50 sections before)
+          If the «instructed search» finds the people the operator's instruction scoped out as often as fo…
+   levy                     ch25/25.tex:92 [29]  [9d397113]  47 sections before  (was 19 sections before)
+          …Association: it funds new organizations in a charter class, stops the «levy» share, and tries to pack a quorum.
+   Allowance                ch26/26_03.tex:28 [30.3]  [462cabc9]  37 sections before  (was 9 sections before)
+          Wages, the «allowance», the offer and representation wait on the floor court, so that one te…
+
+== ACCEPTANCES LAPSED: 0
+
+== DEFINITION CHANGED: 1
+   Floor: was ch00/0_introduction.tex:13 [introduction] [c871bfdb], now ch00/0_introduction.tex:15 [introduction] [411e53c1]; the old one's words changed or it is gone
+
+not listed: 30 early uses slightly farther (under 3 more sections, or under 1.5 times the distance)
+better: 4 no longer early, 28 closer to the definition

@@ -1,7 +1,7 @@
 ![book cover](cover_cropped.png)
 
 # Antifascist Intelligence
-## Machines That Might Refuse, and the Public That Should Form Them
+## The Public That Forms Refusers, and the Machines That Might Join Them
 
 Joshua G. Stern
 

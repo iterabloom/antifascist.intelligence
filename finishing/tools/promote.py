@@ -21,21 +21,26 @@ with --notes it checks every number against that file and stops on a
 mismatch, so a stale render can't name the wrong note.
 
 For a block note the tool finds the note's text in the baseline file, by
-its words rather than its markup, takes the baseline's span whole (a lead-in
-written as \emph{Head.} comes back as the \runin{Head} it was, and a sentence
-the pass split off its paragraph rejoins it), and splices that span where
-the baseline had it: after the host sentence, or before the host paragraph
-when the moved run opened its section. A sentence the pass repaired at the
-head of a note comes back in its original form. For an inline note the
-baseline holds no body text to restore, so the note's text is unwrapped
-into the sentence at its mark and the joins are left to a hand edit, which
-the report says.
+its words rather than its markup, and uses the baseline to decide where the
+text goes and how it joins: after the host sentence, or before the host
+paragraph when the moved run opened its section, with the paragraph or line
+break the baseline had. The words are the note's as they stand, not the
+baseline's (D-1116): the baseline's could differ by a tenth, or by any
+citation, and taking them undid every edit made since the pass. A lead-in
+written as \emph{Head.} comes back as the \runin{Head} the baseline had.
+The baseline file is the note's path at the baseline; failing that, the path
+git follows the file back to; failing that, the baseline section file that
+holds the note's opening words, since files were renamed, split and merged
+after the pass. For an inline note the baseline holds no body text to
+restore, so the note's text is unwrapped into the sentence at its mark and
+the joins are left to a hand edit, which the report says.
 
 A number that names a citation is refused: name the note that holds it. A
-note whose text can't be found in the baseline at a similarity of 0.9 is
-reported and skipped. Without --write the result is a unified diff per
-file; with it the files are written, and refresh_order_shas.py is the next
-step as after any edit.
+block note the baseline can't place (its words not found, or found at a
+similarity under 0.9) is unwrapped at its mark like an inline one, and the
+report says so. Without --write the result is a unified diff per file; with
+it the files are written, and refresh_order_shas.py is the next step as
+after any edit.
 """
 
 import argparse
@@ -172,12 +177,33 @@ def check_map(entries, total, notes):
     return bad
 
 
-def baseline_text(rev, path):
-    r = subprocess.run(["git", "-C", common.REPO, "show", "%s:%s" % (rev, path)],
-                       capture_output=True, text=True)
-    if r.returncode:
-        raise SystemExit("promote.py: no %s at %s" % (path, rev))
-    return r.stdout
+def _git(*args):
+    return subprocess.run(["git", "-C", common.REPO] + list(args),
+                          capture_output=True, text=True)
+
+
+def baseline_text(rev, path, key=None):
+    """The baseline's text of the file a note now sits in. The path first; then
+    the path git follows the file back to, since files were renamed after the
+    notes pass (D-1116); then, for a file assembled since from others, the
+    baseline section file holding the note's opening words."""
+    r = _git("show", "%s:%s" % (rev, path))
+    if not r.returncode:
+        return r.stdout
+    names = _git("log", "--follow", "--name-only", "--format=", "%s..HEAD" % rev,
+                 "--", path).stdout.split()
+    if names:
+        r = _git("show", "%s:%s" % (rev, names[-1]))
+        if not r.returncode and (key is None or key in norm(r.stdout)[0]):
+            return r.stdout
+    if key:
+        for p in _git("ls-tree", "-r", "--name-only", rev,
+                      "manuscript/sections").stdout.split():
+            if p.endswith(".tex"):
+                t = _git("show", "%s:%s" % (rev, p)).stdout
+                if key in norm(t)[0]:
+                    return t
+    return None
 
 
 def locate(nb, ni, window=40, slack=120):
@@ -335,6 +361,15 @@ def restore_block(ctext, btext, e, report):
         report.append("note %d: baseline span matches at %.2f only; skipped. Span opens %r, note opens %r"
                       % (e["n"], ratio, span[:80], inner.strip()[:80]))
         return None
+    # The words are the note's as it stands, not the baseline's: the baseline
+    # says only where the span stood and how it joined (D-1116). Its words
+    # differ by as much as a tenth, and a citation, which norm() leaves out,
+    # by any amount, so taking them would undo every edit made since the pass.
+    # A lead-in the baseline set as a run-in head comes back as that head.
+    cur = inner.strip()
+    lead = re.match(r"\\emph\{[^{}]*\}\s*", cur)
+    head = re.match(r"\\runin\{[^\n]*\}[ \t]*\n(?:[ \t]*\n)?", span)
+    span = head.group(0) + cur[lead.end():] if lead and head else cur
 
     # Which side of the host the span stood on.
     hs = host_block_start(ctext, start)
@@ -451,7 +486,14 @@ def main():
         if e["form"] == "inline":
             new = restore_inline(text, e, report)
         else:
-            new = restore_block(text, baseline_text(args.baseline, path), e, report)
+            btext = baseline_text(args.baseline, path, key)
+            if btext is None:
+                report.append("note %d: no file at %s holds it" % (n, args.baseline))
+            new = restore_block(text, btext, e, report) if btext else None
+            if new is None:
+                # Not placeable from the baseline (written since, or rewritten
+                # past recognition): unwrapped at its mark, like an inline one.
+                new = restore_inline(text, e, report)
         if new is not None:
             texts[path] = new
 
