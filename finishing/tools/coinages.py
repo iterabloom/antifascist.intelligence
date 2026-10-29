@@ -1,15 +1,30 @@
 """Find the book's coined terms used before they are defined, and defined twice.
 
 A term is the glossary's headwords plus the rows of finishing/coinages.tsv,
-which also overrides how a glossary term is matched. The book is read in
-ORDER.tsv order, sentence by sentence, with each \\note's sentences placed
-right after the sentence that carries its marker. The glossary itself is not
-read: it defines everything, at the end.
+which also overrides how a glossary term is matched. A glossary entry with
+several headwords ("Pool; backstop; levy.") gives one term each. A headword
+that is "The" and a capitalized word (The Association) matches
+case-sensitively without being told to.
+
+WHAT IS READ. The book in ORDER.tsv order, sentence by sentence, with each
+\\note's sentences placed right after the sentence that carries its marker.
+Not read: the glossary, which defines everything at the end; epigraphs
+(verse, flushright), which are not the author's words; figures and tikz. Read:
+quote environments, boxes, list items and run-in heads, each item and head a
+block of its own, and table rows, one sentence per row. The sentence splitter
+knows common abbreviations (v., e.g., U.S., ch.) and is still approximate.
+
+MATCHING. Case is ignored unless the term says otherwise; a hyphen in a term
+matches a hyphen or a space; plurals are automatic (-s, -es, -y to -ies). A
+match inside a longer term's match belongs to the longer term: "floor" in
+"floor court" is an occurrence of the floor court only.
 
 An occurrence of a term is DEFINING when it is
 
   emph     inside an \\emph{} or \\textit{} that holds little else: the term,
-           an article, at most two more words;
+           an article, at most two more words. An italic that is an inline
+           label (capitalized, ending in a period or colon: "In a bearer.")
+           or a title (every word capitalized: End Times Fascism) is not;
   quoted   in curly quotes: “the floor”, “walls.”;
   framed   in a defining frame: "which I call X", "what this book calls X",
            "call it X", "known as X", "by X I mean", "X means", "X here means";
@@ -48,12 +63,15 @@ THE REPORTS
   --candidates  emphasized, quoted and framed phrases that are not terms yet
                 and occur at least twice, phrases of two or more words first,
                 by how often the book uses them: the raw material for
-                coinages.tsv.
+                coinages.tsv. Left out: phrases over four words, phrases
+                of function words only (its, about, but), case names and
+                titles, inline labels, and `phrase` exceptions.
 
   --chapter N   restrict --early, --multi and --unmarked to definitions or
                 uses in one chapter (the number the book prints).
 
-COINAGES.TSV, the hand-kept part, columns:
+COINAGES.TSV, the hand-kept part, a row per term (a row whose term starts
+with # is a comment), columns:
 
   term        the term as the reports print it. A glossary headword written
               the same way (case aside, leading "The" aside) is overridden.
@@ -82,7 +100,11 @@ appends a row for each, and the kind follows from what was reported:
   not-definition  a marked occurrence that defines nothing: stress, an
                   italic for how the sentence is read aloud, a quotation.
                   It counts as a use from then on, so the definition may
-                  move later and early uses may appear.
+                  move later and early uses may appear. It is a fact about
+                  the sentence, so no restructure lapses it. A definition
+                  that is not marked, one the glossary's pointers or
+                  `defined_at` supply, can't be excepted: `--except` says
+                  so, and moving it is a `defined_at` in coinages.tsv.
   accept-early    an early use the author lets stand: a preview, a plain
                   sense the regex can't exclude. The row keeps the
                   definition it was accepted against and the distance in
@@ -97,6 +119,12 @@ appends a row for each, and the kind follows from what was reported:
                 summary's second line counts the rows, those applied and
                 those stale.
 
+The file's columns: id, term, kind, context and where (as reported when the
+row was added, for a reader; nothing matches on them), why, date, and for
+accept-early, def (the definition's id) and gap (sections). Two occurrences
+of a term with the same six words either side share an id, and one ruling
+covers both.
+
 RESTRUCTURING. Reading order is ORDER.tsv's `seq`, so a rearranged book is
 read in its new order with nothing to update here; `defined_at` and the
 glossary's pointers are labels, which a move doesn't change. What a single
@@ -104,8 +132,11 @@ run can't say is what a change made worse, so:
 
   --snapshot [PATH]  write the state to compare against, before the change:
                 each term's definition, every early use with its distance,
-                every occurrence id, and the commit it was taken from.
-                Default finishing/reports/coinages_snapshot.tsv.
+                every occurrence id, and the commit it was taken from
+                ("+uncommitted" if the manuscript had changes not yet
+                committed). Default finishing/reports/coinages_snapshot.tsv.
+                Take it just before the change, so the comparison shows
+                what the change did and not prose edited in between.
   --compare [PATH]   after the change, worst first:
                 NEWLY EARLY, a use that was fine and now precedes its
                   definition, tagged `moved` when its words are unchanged
@@ -117,7 +148,8 @@ run can't say is what a change made worse, so:
                 DEFINITION CHANGED, a term whose first definition is now a
                   different occurrence, and whether the order or the words
                   changed it;
-                and a count of what got better.
+                and a count of what got better. Terms with status
+                `multi` or `ignore` are left out, as in --early.
 
     finishing/tools/coinages.py                 summary
     finishing/tools/coinages.py --early         the read
@@ -739,7 +771,9 @@ def add_exceptions(res, ids, why):
             if i not in ids or i in found:
                 continue
             extra = {}
-            if kind != "use" or (d and d[1] is m):
+            if d and d[1] is m and kind == "use":
+                k = "unmarked-definition:" + d[2]
+            elif kind != "use":
                 k = "not-definition"
             elif id(m) in early:
                 k = "accept-early"
@@ -752,6 +786,12 @@ def add_exceptions(res, ids, why):
             print("%s  already excepted (%s, %s)" % (i, have[i]["term"], have[i]["kind"]))
         elif i not in found:
             print("%s  matches no occurrence in the book as it stands" % i)
+        elif found[i][3] and found[i][3].startswith("unmarked-definition:"):
+            print("%s  is %s's definition because %s, not because the prose marks it; "
+                  "an exception can't move it: set defined_at in %s" % (
+                      i, found[i][0].name,
+                      "the glossary points to its section" if found[i][3].endswith("glossary")
+                      else "defined_at pins it", os.path.relpath(TERMS_TSV, REPO)))
         elif found[i][3] is None:
             print("%s  is an ordinary use, reported as neither a definition nor early: "
                   "nothing to except" % i)
