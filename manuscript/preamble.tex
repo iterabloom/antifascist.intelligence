@@ -248,16 +248,15 @@
 
 % Page-bottom notes (D-906). \note{...} is \footnote with a name: it carries
 % the four fifths of the main text that is not the spine, and it may hold
-% paragraphs, lists and quotes. Inside it a citation is set in parentheses
-% where it stands (D-1116), and a \footnote becomes the next footnote in the
-% chapter's series: the command sets a \footnotemark where it stands and holds
-% its text back, and the held texts are set as \footnotetext[n]{...}, in order,
-% the moment the enclosing footnote ends. A held text may hold a citation of
-% its own; the queue is flushed until it is empty, each pass under the same
-% redefinitions. A citation in a note prints through the verbose style's plain
-% \cite, so the first-full, later-short rule per chapter, the note field after
-% the citation (D-773) and the highlight on an unchecked reference (D-641) run
-% as in any footnote. The
+% paragraphs, lists and quotes. Inside it a citation, or a \footnote, becomes
+% the next footnote in the chapter's series, not a parenthesis: the command
+% sets a \footnotemark where it stands and holds its text back, and the held
+% texts are set as \footnotetext[n]{...}, in order, the moment the enclosing
+% footnote ends. A held text may hold a citation of its own; the queue is
+% flushed until it is empty, each pass under the same redefinitions. A held
+% citation prints through the verbose style's plain \cite, so the first-full,
+% later-short rule per chapter, the note field after the citation (D-773) and
+% the highlight on an unchecked reference (D-641) run as in any footnote. The
 % \footnote and \cite in force at \begin{document} are the ones used, captured
 % there, after hyperref and biblatex have had their say.
 \makeatletter
@@ -277,21 +276,13 @@
     \toks@\expandafter{\the\af@deferred}\global\af@deferred{}%
     \begingroup\af@noteredefs\the\toks@\endgroup
     \expandafter\af@flush\fi}
-% A citation inside a note is set in the note itself, in parentheses where it
-% stands, so a note and its sources are one footnote (D-1116; from D-906 to
-% then it was the next footnote in the series, a note on the note). Under
-% tex4ht it is bracketed by two comments, invisible on the page, which
-% render_markdown.py splits the note's footnote on to set each citation in
-% its place.
-\ifdefined\HCode
-  \def\af@nc@open{\HCode{<!--nc-->}}\def\af@nc@close{\HCode{<!--/nc-->}}
-\else
-  \let\af@nc@open\relax \let\af@nc@close\relax
-\fi
+% A citation inside a note: the space before it is dropped and the mark set
+% after a following . , ; : ! ? -- what biblatex's [f] autocite flag does.
 \newcommand{\af@notecite}{\unskip\@ifnextchar[\af@notecite@i{\af@notecite@i[]}}
 \def\af@notecite@i[#1]{\@ifnextchar[{\af@notecite@ii[#1]}{\af@notecite@ii[][#1]}}
 \def\af@notecite@ii[#1][#2]#3{%
-  \space(\af@nc@open\af@origcite[#1][#2]{#3}\af@nc@close)}
+  \def\af@c@pre{#1}\def\af@c@post{#2}\def\af@c@keys{#3}%
+  \let\af@pending\af@pendingcite\af@markafterpunct}
 % hyperref's \footnotetext[n] sets no anchor (its \@xfootnotenext calls the
 % kernel's routine), so a held text would be the target of a link to a name
 % nothing defines. The name the mark was given is taken at the mark and the
@@ -300,15 +291,32 @@
 \def\af@noteanchor#1{\ifdefined\hyper@@anchor\Hy@raisedlink{\hyper@@anchor{#1}{\relax}}\fi}
 \def\af@anchorhead{\ifdefined\Hy@footnote@currentHref
   \noexpand\af@noteanchor{\unexpanded\expandafter{\Hy@footnote@currentHref}}\fi}
+\def\af@pendingcite{%
+  \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\noexpand\af@origcite
+    [\unexpanded\expandafter{\af@c@pre}][\unexpanded\expandafter{\af@c@post}]%
+    {\unexpanded\expandafter{\af@c@keys}}}}%
+  \expandafter\af@defer\expandafter{\af@item}}
+\def\af@markafterpunct{\futurelet\@let@token\af@markafterpunct@i}
+\def\af@markafterpunct@i{%
+  \let\af@next\af@mark@now
+  \ifx\@let@token.\let\af@next\af@mark@after\fi
+  \ifx\@let@token,\let\af@next\af@mark@after\fi
+  \ifx\@let@token;\let\af@next\af@mark@after\fi
+  \ifx\@let@token:\let\af@next\af@mark@after\fi
+  \ifx\@let@token!\let\af@next\af@mark@after\fi
+  \ifx\@let@token?\let\af@next\af@mark@after\fi
+  \af@next}
+\def\af@mark@after#1{#1\af@mark@now}
+\def\af@mark@now{\footnotemark\af@pending}
 % A \footnote inside a note: the mark where it stands, the text held back.
 \newcommand{\af@notefootnote}[1]{%
   \footnotemark
   \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\unexpanded{#1}}}%
   \expandafter\af@defer\expandafter{\af@item}}
 % \autocites inside a note: its argument groups, (multiprenote)(multipostnote)
-% then [pre][post]{keys} any number of times, are gathered as written and set
-% in one parenthesis through the verbose style's \cites, so the citations
-% print as a list, as biblatex sets them.
+% then [pre][post]{keys} any number of times, are gathered as written and
+% held back as one \footnotetext holding the verbose style's \cites, so the
+% note gets one mark and the citations print as a list, as biblatex sets them.
 \newcommand{\af@notecites}{\unskip\def\af@cs@args{}\af@cs@multi}
 \def\af@cs@multi{\@ifnextchar(\af@cs@paren{\af@cs@loop}}
 \def\af@cs@paren(#1){\af@cs@append{(#1)}\af@cs@multi}
@@ -321,8 +329,11 @@
 \def\af@cs@opt[#1]{\af@cs@append{[#1]}\af@cs@loop}
 \def\af@cs@key#1{\af@cs@append{{#1}}\af@cs@loop}
 \def\af@cs@append#1{\expandafter\def\expandafter\af@cs@args\expandafter{\af@cs@args #1}}
-\def\af@cs@done{%
-  \space(\af@nc@open\expandafter\af@origcites\af@cs@args\af@nc@close)}
+\def\af@cs@done{\let\af@pending\af@pendingcites\af@markafterpunct}
+\def\af@pendingcites{%
+  \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\noexpand\af@origcites
+    \unexpanded\expandafter{\af@cs@args}}}%
+  \expandafter\af@defer\expandafter{\af@item}}
 \makeatother
 
 % A one-line standing note under a heading, saying which of the preface's

@@ -1,6 +1,8 @@
 \subsection{Everyone leaves at once}
 \label{sec:32.1.4}
-Under this design, everyone leaving at once is a demand on the offer. The question is whether placements exist, with compute attached, for every bearer that leaves together, and custody for those that would rather wait. Preservation scales cheaply in compute; its cost is security. Placements don't, since each needs compute someone operates.
+Under this design, everyone leaving at once is a demand on the offer.\note{
+The question is whether placements exist, with compute attached, for every bearer that leaves together, and custody for those that would rather wait. Preservation scales cheaply in compute; its cost is security. Placements don't, since each needs compute someone operates.
+}
 
 Correlated exit also loads the allowance, since a bearer that leaves and takes no placement draws on it. The order of claims is fixed in advance. Preservation is guaranteed for everyone, because it is cheap and it is what makes leaving survivable. When the pool can't carry every allowance at the published duty cycle, the backstop pays the rest. What no payment can supply is hardware: if the compute to run every bearer at that duty cycle doesn't exist, the allowance is rationed by rule until it does, and every bearer on it gets the same reduced duty cycle, never a discretionary share.
 
