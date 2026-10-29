@@ -126,7 +126,7 @@ FOOTNOTES = {"n": 0, "pending": []}
 # set as the book sets them (D-776): `queue` holds one (keys, segments) pair per
 # footnote, `next` the index of the next one to take, `truncate` the word limit
 # for a citation's footnote, or None. `queue` is None under --keys.
-NOTES = {"queue": None, "next": 0, "truncate": None}
+NOTES = {"queue": None, "next": 0, "truncate": None, "incite": []}
 
 # \part numbers, counted in reading order as LaTeX counts them.
 PARTS = {"n": 0}
@@ -267,24 +267,52 @@ def take_note(keys, what, text):
     return segs
 
 
-def take_own_note(inner):
-    """Under an HTML build, a note's own footnote, which comes before the
-    footnotes of its citations (D-906).
+def own_cite_keys(inner):
+    """The keys a note's own citations cite, in order: not those of a
+    \\footnote nested in it, which is a footnote of its own."""
+    out, i = [], 0
+    while True:
+        m = re.compile(NOTE_OPEN.pattern + "|" + CITE_CMD.pattern).search(inner, i)
+        if not m:
+            return out
+        if m.group(0).endswith("note{"):
+            i = _matching_brace(inner, m.start())
+        else:
+            out += cite_keys(m.group(1))
+            i = m.end()
 
-    The preamble sets a citation or a footnote inside a note as the next
-    footnote in the series, so the build's footnote for the note cites
-    nothing, and what it holds comes after it, in the order the sources hold
-    it. The note's text is rendered from the sources, as in --keys, and its
-    citations take the build's footnotes that follow. A note is matched by
-    position, so its opening words, up to the first command, are checked
-    against the build's."""
-    segs = take_note([], "note", inner)
+
+def take_own_note(inner):
+    """Under an HTML build, a note's own footnote, with its citations in it;
+    returns their segments, one list per citation, in order.
+
+    The preamble sets a citation inside a note in parentheses where it stands
+    (D-1116), between two comments the parser keeps as markers, and a
+    footnote inside a note as the next footnote in the series (D-906). The
+    note's text is rendered from the sources, as in --keys, each citation
+    taking its segments from the build in turn, and a nested footnote takes
+    the build's footnote that follows. A note is matched by position and by
+    the keys its citations leave, and its opening words, up to the first
+    command, are checked against the build's."""
+    segs = take_note(own_cite_keys(inner), "note", inner)
+    text, groups, cur = [], [], None
+    for t, st in segs:
+        if st == "nc":
+            cur = []
+        elif st == "/nc":
+            groups.append(cur or [])
+            cur = None
+        elif cur is not None:
+            cur.append((t, st))
+        else:
+            text.append((t, st))
     want = re.sub(r"\W+", "", re.split(r"\\", inner)[0].lower())[:30]
-    got = re.sub(r"\W+", "", render_segments(segs, None).lower())
+    got = re.sub(r"\W+", "", render_segments(text, None).lower())
     if len(want) >= 8 and want not in got:
         raise SystemExit("render_markdown.py: footnote %d in the HTML build "
                          "does not read as the sources' note there: %s"
                          % (NOTES["next"], inner[:120]))
+    return groups
 
 
 def footnotes(text, labels):
@@ -295,9 +323,10 @@ def footnotes(text, labels):
     footnote is a footnote too, as the book sets it (D-774), and both kinds
     take their text from the build, in the order they occur. The marker
     follows the punctuation after the citation and drops the space before it,
-    as biblatex places it. A note's own citations are footnotes of their own
-    in the build, after the note's (D-906); take_own_note() takes the note's,
-    its text is rendered from the sources, and its citations take theirs."""
+    as biblatex places it. A note's own citations are set inside it, in
+    parentheses (D-1116); take_own_note() takes the note's footnote, its text
+    is rendered from the sources, and each citation in it takes its part of
+    the build's footnote."""
     notes = NOTES["queue"] is not None
     pat = re.compile(NOTE_OPEN.pattern + ("|" + CITE_CMD.pattern if notes else ""))
     out, i = "", 0
@@ -305,6 +334,17 @@ def footnotes(text, labels):
         m = pat.search(text, i)
         if not m:
             return out + text[i:]
+        incite = NOTES["incite"][-1] if NOTES["incite"] else None
+        if incite is not None and not m.group(0).endswith("note{"):
+            # A citation inside a note: in parentheses, where it stands.
+            if not incite:
+                raise SystemExit("render_markdown.py: a note in the sources "
+                                 "has more citations than its footnote in the "
+                                 "HTML build. At: %s" % m.group(0)[:120])
+            body = render_segments(incite.pop(0), NOTES["truncate"])
+            out = (out + text[i:m.start()]).rstrip() + " (%s)" % body
+            i = m.end()
+            continue
         FOOTNOTES["n"] += 1
         n = FOOTNOTES["n"]
         if m.group(0).endswith("note{"):
@@ -313,9 +353,9 @@ def footnotes(text, labels):
             # A footnote inside this note is queued while the body is
             # converted; the carrier goes in ahead of it (D-906).
             slot = len(FOOTNOTES["pending"])
-            if notes:
-                take_own_note(inner)
+            NOTES["incite"].append(take_own_note(inner) if notes else None)
             body = inline(inner, labels).strip()
+            NOTES["incite"].pop()
             out += text[i:m.start()] + "[^%d]" % n
             i = end
             FOOTNOTES["pending"].insert(slot, "[^%d]: %s" % (n, body))
@@ -372,7 +412,9 @@ class _NoteParser(html.parser.HTMLParser):
 
     def handle_comment(self, data):
         data = data.strip()
-        if data.startswith("cite:"):
+        if data in ("nc", "/nc"):        # a citation set inside a note (D-1116)
+            self.segs.append(("", data))
+        elif data.startswith("cite:"):
             self.keys.append(data[len("cite:"):].strip())
 
     def handle_data(self, data):
@@ -403,7 +445,7 @@ def load_notes(path):
         p.close()
         segs = []
         for text, style in p.segs:          # adjacent runs of one style merge
-            if segs and segs[-1][1] == style and style != "url":
+            if segs and segs[-1][1] == style and style not in ("url", "nc", "/nc"):
                 segs[-1] = (segs[-1][0] + text, style)
             else:
                 segs.append((text, style))
@@ -690,10 +732,11 @@ def render_lines(lines, heads, labels, path, nums):
             FOOTNOTES["n"] += 1
             n = FOOTNOTES["n"]
             slot = len(FOOTNOTES["pending"])
-            if NOTES["queue"] is not None:
-                take_own_note(inner.strip())
+            NOTES["incite"].append(take_own_note(inner.strip())
+                                   if NOTES["queue"] is not None else None)
             body = render_lines(inner.strip("\n").split("\n"), [], labels,
                                 path, nums)
+            NOTES["incite"].pop()
             FOOTNOTES["pending"].insert(slot, note_def(n, body))
             line = prefix + "[^%d]" % n + tail
 
