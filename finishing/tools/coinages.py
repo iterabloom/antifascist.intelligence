@@ -57,9 +57,12 @@ THE REPORTS
   (default)     counts, and the terms in each report below
   --early       uses before the definition, by term, each with its distance
                 in sections. A use whose sentence points at the definition's
-                chapter or section (§6.2, chapter 6, Chapters 5 and 6) or says
-                the definition is coming ("the next chapter", "a later
-                chapter", "defined below") is tagged `pointer`.
+                chapter or section is tagged `pointer`: by number (§6.2,
+                chapter 6, Chapters 5 and 6), by a worded pointer checked
+                against where it now leads ("the next chapter" only if the
+                definition is in the chapter that now follows, "the next
+                section" likewise), or by one that only says the
+                definition is coming ("a later chapter", "defined below").
   --multi       terms marked as defined in more than one place, every site in
                 book order, so a better definition that arrives late shows
                 beside the first. Sites within one sentence of each other
@@ -105,7 +108,15 @@ brackets, made from the term and the six words either side of it, numbers
 left out, so it survives a move, a renumbering and edits elsewhere in the
 paragraph, and goes stale when the words around the term change, which is
 when the ruling deserves a fresh look. `--except ID [ID ...] --why TEXT`
-appends a row for each, and the kind follows from what was reported:
+appends a row for each, and the kind follows from what was reported, or
+from `--as KIND`:
+
+  not-term        the word is not the coined term here: a plain sense, a
+                  verb, another institution with the same name ("bolt to
+                  the floor", "standing on one foot"). Any occurrence can
+                  take it, only with --as. It is left out of every report
+                  as if the word weren't there, and like not-definition it
+                  is a fact about the sentence, so no restructure lapses it.
 
   not-definition  a marked occurrence that defines nothing: stress, an
                   italic for how the sentence is read aloud, a quotation.
@@ -115,8 +126,8 @@ appends a row for each, and the kind follows from what was reported:
                   that is not marked, one the glossary's pointers or
                   `defined_at` supply, can't be excepted: `--except` says
                   so, and moving it is a `defined_at` in coinages.tsv.
-  accept-early    an early use the author lets stand: a preview, a plain
-                  sense the regex can't exclude. The row keeps the
+  accept-early    an early use of the term the author lets stand, a
+                  preview, where it sits now. The row keeps the
                   definition it was accepted against and the distance in
                   sections, and holds only while both hold: a restructure
                   that puts another definition first, or moves the use
@@ -151,6 +162,9 @@ run can't say is what a change made worse, so:
                 exceptions, which a comparison would otherwise blame on the
                 structure.
   --compare [PATH]   after the change, worst first:
+                POINTER NO LONGER LEADS TO THE DEFINITION, an early use
+                  whose worded pointer ("the next chapter") was right and
+                  now isn't: the sentence needs rewording;
                 NEWLY EARLY, a use that was fine and now precedes its
                   definition, tagged `moved` when its words are unchanged
                   (the structure did it) or `new text`;
@@ -169,6 +183,7 @@ run can't say is what a change made worse, so:
     finishing/tools/coinages.py --multi
     finishing/tools/coinages.py --term "own-case rule"
     finishing/tools/coinages.py --except 5ab7bb03 4ade1db4 --why "stress"
+    finishing/tools/coinages.py --except 48cca67a --as not-term --why "literal"
     finishing/tools/coinages.py --except-phrase "its own" --why "stress"
     finishing/tools/coinages.py --stale
     finishing/tools/coinages.py --snapshot      before a restructure
@@ -187,7 +202,7 @@ EXC_TSV = os.path.join(REPO, "finishing", "coinages_exceptions.tsv")
 EXC_HEADER = ["id", "term", "kind", "context", "where", "why", "date", "def", "gap"]
 SNAPSHOT = os.path.join(REPO, "finishing", "reports", "coinages_snapshot.tsv")
 FARTHER_MIN, FARTHER_RATIO = 3, 1.5     # what --compare calls farther
-SNAP_HEADER = ["row", "term", "id", "def", "gap", "sents", "where", "context"]
+SNAP_HEADER = ["row", "term", "id", "def", "gap", "sents", "where", "context", "ptr"]
 
 EMPH_ON, EMPH_OFF, NOTE = "\x01", "\x02", "\x03"
 QUOTE_ENVS = ("verse", "flushright")             # epigraphs: not the author's words
@@ -350,12 +365,20 @@ def read_book():
     # sec counts headed sections in reading order, so the distance between a
     # use and its definition can be stated in sections as well as sentences.
     sec, last = -1, None
+    del SEC_LABELS[:], CHAPTERS[:]
     for i, u in enumerate(units):
         u.idx = i
         if u.label != last:
             sec, last = sec + 1, u.label
+            SEC_LABELS.append(u.label)
         u.sec = sec
+        if u.chapter and (not CHAPTERS or CHAPTERS[-1] != u.chapter):
+            CHAPTERS.append(u.chapter)
     return units
+
+
+SEC_LABELS = []     # section ordinal -> label, in reading order
+CHAPTERS = []       # chapter numbers in reading order, for "the next chapter"
 
 
 # --- the terms -------------------------------------------------------------
@@ -536,14 +559,21 @@ def occurrences(units, term, longer=()):
     return out
 
 
+REF_NAME = re.compile(r"\b(Appendix|Appendices|Parts?|[Cc]hapters?|[Cc]hs?\.)\s+[A-Z]+"
+                      r"(?:(?:,\s*|,?\s+and\s+|\s+to\s+|–)[A-Z]+)*\b|(§)\s*[A-Z]+\b")
+
+
 def occ_id(term, u, m):
     """The occurrence's id: the term and the six words either side of it.
 
     Words only, no numbers: a cross-reference prints the number of the section
     it points to, and a restructure renumbers it, so "§15.5" becoming "§14.5"
-    would otherwise make every occurrence near it look rewritten."""
+    would otherwise make every occurrence near it look rewritten. Letters and
+    numerals after Appendix, Part, chapter and § are left out for the same
+    reason: "Appendix C" and "§C.2" are \refs, re-lettering the appendices
+    changes them, and a chapter moved among them prints as "chapter H"."""
     a, b = m.span()
-    w = lambda x: re.findall(r"[a-z]+", x.lower())
+    w = lambda x: re.findall(r"[a-z]+", REF_NAME.sub(lambda r: r.group(1) or r.group(2), x).lower())
     key = " ".join([_key(term.name), "|"] + w(u.text[:a])[-6:] + ["|"] +
                    w(u.text[a:b]) + ["|"] + w(u.text[b:])[:6])
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:8]
@@ -574,6 +604,8 @@ def analyse(units, terms):
             i = occ_id(t, u, m)
             if i in EXC:
                 SEEN.add(i)
+                if EXC[i]["kind"] == "not-term":
+                    continue                    # not this term at all, anywhere
                 if kind != "use" and EXC[i]["kind"] == "not-definition":
                     kind = "use"
             occ.append((u, m, kind))
@@ -615,7 +647,7 @@ def analyse(units, terms):
                 if u.idx < d - 1:
                     i = occ_id(t, u, m)
                     gap = definition[0].sec - u.sec
-                    e = [u, m, pointer(u.text, dnum, definition[0].chapter), gap, None]
+                    e = [u, m, pointer(u, definition[0], dnum), gap, None]
                     x = EXC.get(i, {})
                     if x.get("kind") == "accept-early":
                         # An acceptance holds for the definition and the
@@ -641,8 +673,14 @@ def analyse(units, terms):
     return res
 
 
-def pointer(text, dnum, dchap):
-    """True if the sentence points at the definition's chapter or section."""
+def pointer(u, d, dnum):
+    """True if use u's sentence points at definition d's chapter or section.
+
+    A numbered pointer is a \ref and renumbers itself when the book moves. A
+    worded one doesn't, so it is checked against where it now leads: "the
+    next chapter" points at the definition only while the definition is in
+    the chapter that follows, which a rearrangement can quietly undo."""
+    text, dchap = u.text, d.chapter
     for n in re.findall(r"§\s*([0-9A-Z]+(?:\.\d+)*)", text):
         if n == dnum or dnum.startswith(n + ".") or n.startswith(dnum + "."):
             return True
@@ -650,10 +688,19 @@ def pointer(text, dnum, dchap):
                           r"([0-9A-Z]+(?:(?:,\s*|,?\s+and\s+|\s+to\s+|–)[0-9A-Z]+)*)\b", text):
         if dchap in re.split(r",\s*|,?\s+and\s+|\s+to\s+|–", lst):
             return True
-    # A pointer without a number still tells the reader the definition is coming.
-    if re.search(r"\b(?:the next|a later|the following|a coming|the last) "
-                 r"(?:chapter|section|part)\b|\bdefined (?:below|later|in the next)\b",
-                 text, re.I):
+    t = text.lower()
+    if re.search(r"\b(?:the next|the following) chapter\b", t):
+        if u.chapter in CHAPTERS and CHAPTERS.index(u.chapter) + 1 < len(CHAPTERS) \
+           and CHAPTERS[CHAPTERS.index(u.chapter) + 1] == dchap:
+            return True
+    if re.search(r"\b(?:the next|the following) section\b|\bdefined in the next\b", t):
+        nxt = SEC_LABELS[u.sec + 1] if u.sec + 1 < len(SEC_LABELS) else None
+        if nxt and (d.label == nxt or d.label.startswith(nxt + ".")):
+            return True
+    # Pointers that only say the definition is coming: every early use's
+    # definition is later, so these hold wherever the chapters go.
+    if re.search(r"\b(?:a later|a coming|a following) (?:chapter|section|part)\b|"
+                 r"\bdefined (?:below|later)\b|\bthe next part\b", t):
         return True
     return False
 
@@ -818,10 +865,11 @@ def write_exceptions(new):
                               for h in EXC_HEADER) + "\n")
 
 
-def add_exceptions(res, ids, why):
+def add_exceptions(res, ids, why, kind_as=None):
     """An id names what was reported: a marked occurrence becomes
     not-definition, an early use accept-early. The kind is read off the
-    analysis as it stands, before the new rows apply."""
+    analysis as it stands, before the new rows apply. `kind_as` overrides it:
+    not-term for any occurrence; the other two only where they apply."""
     have, today = load_exceptions(), datetime.date.today().isoformat()
     found, new = {}, []
     for r in res:
@@ -853,9 +901,17 @@ def add_exceptions(res, ids, why):
                       i, found[i][0].name,
                       "the glossary points to its section" if found[i][3].endswith("glossary")
                       else "defined_at pins it", os.path.relpath(TERMS_TSV, REPO)))
+        elif kind_as == "not-term":
+            t, u, m, _k, _extra = found[i]
+            new.append(dict(id=i, term=t.name, kind="not-term", context=snippet(u, m, 50),
+                            where=where(u), why=why, date=today))
+            print("%s  not-term  %s  %s" % (i, t.name, where(u)))
+        elif kind_as and kind_as != found[i][3]:
+            print("%s  is reported as %s, so it can't be excepted as %s" % (
+                i, found[i][3] or "an ordinary use", kind_as))
         elif found[i][3] is None:
             print("%s  is an ordinary use, reported as neither a definition nor early: "
-                  "nothing to except" % i)
+                  "nothing to except (unless it isn't the term at all: --as not-term)" % i)
         else:
             t, u, m, k, extra = found[i]
             new.append(dict(id=i, term=t.name, kind=k, context=snippet(u, m, 50),
@@ -914,10 +970,10 @@ def write_snapshot(res, path):
             rows.append(dict(row="def", term=t.name, id=did, where=where(d[0]),
                              context=snippet(d[0], d[1], 40)))
         for kind, es in (("early", r["early"]), ("accepted", r["accepted"])):
-            for u, m, _ptr, gap, _l in es:
+            for u, m, ptr, gap, _l in es:
                 rows.append(dict(row=kind, term=t.name, id=occ_id(t, u, m), gap=gap,
                                  sents=d[0].idx - u.idx, where=where(u),
-                                 **{"def": did}))
+                                 ptr="1" if ptr else "", **{"def": did}))
     with open(path, "w", encoding="utf-8") as f:
         f.write("\t".join(SNAP_HEADER) + "\n")
         for r in rows:
@@ -940,7 +996,7 @@ def report_compare(res, path):
     old = {(r["term"], r["id"]): r for r in rows if r["row"] in ("early", "accepted")}
     print("against %s, snapshot of %s from %s\n" % (
         os.path.relpath(path, REPO), meta.get("term", "?"), meta.get("id", "?")))
-    newly, farther, closer, gone, moved, lapsed, drift = [], [], [], [], [], [], []
+    newly, farther, closer, gone, moved, lapsed, drift, broken = [], [], [], [], [], [], [], []
     now = set()
     for r in res:
         t, d = r["term"], r["definition"]
@@ -952,6 +1008,8 @@ def report_compare(res, path):
             now.add((t.name, i))
             o = old.get((t.name, i))
             line = (t.name, u, m, gap, ptr)
+            if o is not None and o.get("ptr") == "1" and not ptr:
+                broken.append(line + ("pointed at the definition before",))
             if lapse:
                 lapsed.append(line + (lapse,))
             elif o is None:
@@ -984,6 +1042,7 @@ def report_compare(res, path):
                 gap, "s"[:gap != 1], ", pointer" if ptr else "", note, snippet(u, m)))
         print()
 
+    show("POINTER NO LONGER LEADS TO THE DEFINITION", sorted(broken, key=lambda x: x[1].idx))
     show("NEWLY EARLY", sorted(newly, key=lambda x: x[1].idx))
     show("FARTHER FROM THE DEFINITION", sorted(farther, key=lambda x: x[1].idx))
     show("ACCEPTANCES LAPSED", sorted(lapsed, key=lambda x: x[1].idx))
@@ -1018,6 +1077,9 @@ def main():
     g.add_argument("--compare", nargs="?", const=SNAPSHOT, metavar="PATH",
                    help="what got worse since the snapshot")
     ap.add_argument("--why", help="the reason, kept in the exceptions file")
+    ap.add_argument("--as", dest="kind_as",
+                    choices=("not-term", "not-definition", "accept-early"),
+                    help="with --except: the kind, instead of the one the report implies")
     ap.add_argument("--chapter", help="the number the book prints: 1..36, or A")
     a = ap.parse_args()
     if (a.exc or a.except_phrase) and not a.why:
@@ -1030,7 +1092,7 @@ def main():
         return report_candidates(units, terms)
     res = analyse(units, terms)
     if a.exc:
-        return add_exceptions(res, a.exc, a.why)
+        return add_exceptions(res, a.exc, a.why, a.kind_as)
     if a.stale:
         return report_stale()
     if a.snapshot:
