@@ -56,8 +56,8 @@ decides tone and editorial judgment in conversation.
   runs on the author's ask.
 
 ## Architecture & Context
-- **What this is.** A book, *Antifascist Intelligence: Machines That Might
-  Refuse, and the Public That Should Form Them*, together with the complete record of how it was made. It is not
+- **What this is.** A book, *Antifascist Intelligence: The Public That Forms
+  Refusers, and the Machines That Might Join Them*, together with the complete record of how it was made. It is not
   a software project: there is no test suite and no CI. There is a build — the
   book is LaTeX — but it produces a PDF to read, not software to ship.
 - **Authoritative text.** The book is LaTeX (D-065). `manuscript/sections/`
