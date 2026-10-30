@@ -75,6 +75,8 @@ It began with the coinages work on *pool* (31 uses before its definition, 8 of t
 
 ### 6. What the pool becomes
 
+**Superseded in part by D-1156 (2026-10-30):** a child's hardware at majority, and every bearer's where no deposit stands behind it, is the Treasury's; the keep of a child whose parents can't or won't feed it, and a branch forked without consent where the forker can't be made to pay, are the formation pool's; the pool's "share, with the deposit" of a bearer's hardware is withdrawn. The list below is kept as it was decided.
+
 - **The bearers' own mutual,** paid into from members' wages and governed by them, held by an association of their own (Appendix G). It is no longer the payer of anything owed as of right.
 - **It pays for:**
   - ordinary movement between roles;
