@@ -47,3 +47,5 @@ legible			multi			every use before Part V is the plain sense, readable
 Pool			multi			the pools lots are drawn from: the cleared reviewer pool (§7.1) and the pools the Association's members nominate; plain sense; the bearers' mutual was renamed out of it (D-1159), and the formation pool is its own row
 formation pool			check			the public fund of §9.2, not the glossary's pool
 U-bond		exact	check			capital U is part of the term, not a proper noun (D-1153)
+Clearance rule			check	15.5		defined in 16.5; the glossary also points to 11.1, which applies the rule to delegates
+Notice			check		(?<![\w-])(?<!to )(?<!n't )(?<!bearer )notice(?![\w-])	the instrument of 9.1 only: drops the verb ('to notice', 'doesn't notice', 'a bearer notice', every 'notices')
