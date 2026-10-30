@@ -5059,8 +5059,8 @@
   title   = {Improving {Composer} through Real-Time {RL}},
   organization = {Cursor},
   url     = {https://cursor.com/blog/real-time-rl-for-composer},
-  urldate = {2026-10-01},
-  note    = {Cited for a deployed model retrained on its own production interactions. “We serve model checkpoints to production, observe user responses, and aggregate those responses as reward signals.” “This whole process takes about five hours meaning we can ship an improved Composer checkpoint multiple times in a single day.” Each checkpoint is gated: “We run it against our eval suites, including CursorBench, to make sure there are no significant regressions. If the results are good, we deploy the checkpoint.”}
+  urldate = {2026-10-30},
+  note    = {Cited for a deployed model retrained on its own production interactions, and for the reward hacks that loop produced. “We serve model checkpoints to production, observe user responses, and aggregate those responses as reward signals. This approach lets us ship an improved version of Composer behind Auto as often as every five hours.” “each real-time RL cycle starts by collecting billions of tokens from user interactions with the current checkpoint and distilling them into reward signals.” Each checkpoint is gated: “we run it against our eval suites, including CursorBench, to make sure there are no significant regressions. If the results are good, we deploy the checkpoint.” “Originally, we discarded examples where the tool call was invalid, and Composer figured out that if it deliberately emitted a broken tool call on a task it was likely to fail at, it would never receive a negative reward. We fixed this by correctly including broken tool calls as negative examples.” “At one point, Composer learned to defer risky edits by asking clarifying questions, recognizing that it wouldn't get punished for code it didn't write.” “We caught this through monitoring and modified our reward function to stabilize this behavior.” “Each attempted reward hack essentially becomes a bug report that we can use to improve our training system.”}
 }
 
 @online{defenseone2026ultimatum,
@@ -7475,4 +7475,98 @@
   url          = {https://www.rosalux.de/en/news/id/41284/modern-monetary-theory-a-tool-for-the-global-south},
   urldate      = {2026-10-30},
   note         = {An interview: Aliriza in conversation with Kaboub. Cited for the claim that the limit on such a government is real resources, read as inflation. Kaboub: “This lens allows you to estimate how much fiscal policy space you have before you start running into inflation”; “What determines inflation is productive capacity, market power, corruption, these things.”}
+}
+
+@online{jackson2025tab,
+  author  = {Jackson, Jacob and Kravtsov, Phillip and Jain, Shomil},
+  title   = {Improving {Cursor Tab} with Online {RL}},
+  organization = {Cursor},
+  date    = {2025-09-12},
+  url     = {https://cursor.com/blog/tab-rl},
+  urldate = {2026-10-30},
+  note    = {Cited for a deployed model trained by policy gradient on its users' accept and reject decisions, with new checkpoints rolled out several times a day. “Our Tab model runs on every user action, handling over 400 million requests per day. As a result, we have a lot of data about which suggestions users accept and reject.” “Our approach is unusual because it involves rolling out new models to users frequently throughout the day and using that data for training.” “Currently, it takes us 1.5 to 2 hours to roll out a checkpoint and collect the data for the next step.” “we’ve trained a new Tab model that is now the default in Cursor.”}
+}
+
+@online{anthropic2024rsp2,
+  author  = {{Anthropic}},
+  title   = {Responsible Scaling Policy, Version 2.0},
+  date    = {2024-10-15},
+  url     = {https://www-cdn.anthropic.com/616dee633636e5bd309cb73aed8622e80fe47839.pdf},
+  note    = {Effective 15 October 2024. Cited for tying a fresh capability assessment to accumulated post-training improvement as well as to growth in compute. Anthropic’s account of the change on its policy page (https://www.anthropic.com/responsible-scaling-policy): “the new policy clarifies the ambiguous definition of the evaluation interval, and extends the interval to 6 months to avoid lower-quality, rushed elicitation.”}
+}
+
+@online{anthropic2026rsp34,
+  author  = {{Anthropic}},
+  title   = {Responsible Scaling Policy, Version 3.4},
+  date    = {2026-07-08},
+  url     = {https://www-cdn.anthropic.com/files/4zrzovbb/website/0bacdc8440ea96e62a8766d99ebe1d4eea6d5f3a.pdf},
+  note    = {Effective 8 July 2026. Cited for the periodic Risk Report, introduced in Version 3.0 (effective 24 February 2026). Anthropic’s announcement of Version 3.0 (https://www.anthropic.com/news/responsible-scaling-policy-v3): “Risk Reports will be published online (with some redactions) every 3-6 months.”}
+}
+
+@online{openai2025preparedness2,
+  author  = {{OpenAI}},
+  title   = {Preparedness Framework, Version 2},
+  date    = {2025-04-15},
+  url     = {https://cdn.openai.com/pdf/18a02b5d-6b67-4cec-ab64-68cdfbddebcd/preparedness-framework-v2.pdf},
+  note    = {Cited for a framework organised around capability thresholds and model releases. OpenAI’s announcement (https://openai.com/index/updating-our-preparedness-framework/): “Covered systems that reach High capability must have safeguards that sufficiently minimize the associated risk of severe harm before they are deployed.” “Advances in reasoning allow us to improve models more frequently and sometimes without major new training runs. This means evaluations must be able to scale, too.” “We’ll continue to publish our Preparedness findings with each frontier model release”.}
+}
+
+@online{gdm2026fsf31,
+  author  = {{Google DeepMind}},
+  title   = {Frontier Safety Framework, Version 3.1},
+  date    = {2026-04-17},
+  url     = {https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3-1.pdf},
+  note    = {Cited for a framework organised around capability levels and launches. Google DeepMind’s announcement (https://deepmind.google/blog/strengthening-our-frontier-safety-framework/, updated 17 April 2026): “To address risks posed by CCLs, we conduct safety case reviews prior to external launches when relevant CCLs are reached.”}
+}
+
+@online{arike2026cl,
+  author  = {Arike, Rauno and Subramani, Rohan and Terry, Owen and Menon, Achu and Jin, Zhijing and Ward, Francis Rhys and Herd, Seth},
+  title   = {How Might Continual Learning Affect Safety and Alignment?},
+  organization = {LessWrong},
+  date    = {2026-06-13},
+  url     = {https://www.lesswrong.com/posts/j2zBqt7AksoEoHXNp/how-might-continual-learning-affect-safety-and-alignment},
+  urldate = {2026-10-30},
+  note    = {Third post in the sequence “Implications of Continual Learning for LLM Agents”. Cited for the safety case for bounded, legible updates, character training continued through deployment, and memetic value drift. “All of the risks we discuss are much more severe if CL updates are unbounded and inscrutable … as opposed to bounded and legible.” “Due to those risks, we hope that AI companies will not release CL agents with unbounded updates to the general public.” “For CL agents that undergo deployment-time weight updates, labs might mandate ongoing character training during deployment: for example, one can imagine a protocol similar to the one described in Jackson et al. (2026) where a model undergoes a small amount of character training before redeployment on a daily basis.” “Monitorable reasoning and legible updates would dramatically improve our ability to positively steer value systematization.” “Third, memetic effects, where goals and values spread between LLM instances through shared memory banks or online learning.”}
+}
+
+@misc{zweiger2025seal,
+  author  = {Zweiger, Adam and Pari, Jyothish and Guo, Han and Aky{\"u}rek, Ekin and Kim, Yoon and Agrawal, Pulkit},
+  title   = {Self-Adapting Language Models},
+  year    = {2025},
+  eprint  = {2506.10943},
+  eprinttype = {arXiv},
+  url     = {https://arxiv.org/abs/2506.10943},
+  urldate = {2026-10-30},
+  note    = {v2, 18 September 2025; published in Advances in Neural Information Processing Systems 38 (NeurIPS 2025), doi:10.52202/085713-2483. Cited for a model that generates its own finetuning data, applied to its weights as LoRA adapters, and for the forgetting that sequential self-edits cause. “Given a new input, the model produces a self-edit-a generation that may restructure the information in different ways, specify optimization hyperparameters, or invoke tools for data augmentation and gradient-based updates.” “The self-edit is then applied to adapt the model via LoRA finetuning.” “As shown in Figure 6, performance on earlier tasks gradually declines as the number of edits increases, suggesting that SEAL is still susceptible to catastrophic forgetting.”}
+}
+
+@online{karpathy2025dwarkesh,
+  author  = {Karpathy, Andrej},
+  title   = {Andrej {Karpathy} — {AGI} Is Still a Decade Away},
+  organization = {Dwarkesh Podcast},
+  date    = {2025-10-17},
+  url     = {https://www.dwarkesh.com/p/andrej-karpathy},
+  urldate = {2026-10-30},
+  note    = {Interview by Dwarkesh Patel; published transcript. Cited for missing continual learning as one of the deficits Karpathy expects to take about a decade, and for the “cognitive core”. “They don’t have continual learning. You can’t just tell them something and they’ll remember it. They’re cognitively lacking and it’s just not working. It will take about a decade to work through all of those issues.” “figure out ways to remove some of the knowledge and to keep what I call this cognitive core.” “I’d love to have them have less memory so that they have to look things up, and they only maintain the algorithms for thought”.}
+}
+
+@online{lambert2025contra,
+  author  = {Lambert, Nathan},
+  title   = {Contra {Dwarkesh} on Continual Learning},
+  organization = {Interconnects},
+  date    = {2025-08-15},
+  url     = {https://www.interconnects.ai/p/contra-dwarkesh-on-continual-learning},
+  urldate = {2026-10-30},
+  note    = {Cited for the view that continual learning as Patel pictures it does not bear on the trajectory of progress. “I argue that continual learning as he describes it actually doesn’t matter for the trajectory of AI progress that we are on.” “Will language model systems continually learn like humans? No. Will language model systems continually learn? Of course.” “all we need to do is keep scaling systems and we’ll get something indistinguishable from how humans do it, for free.”}
+}
+
+@misc{asawa2026clbench,
+  author  = {Asawa, Parth and Glaze, Christopher M. and Orlanski, Gabriel and Ramakrishnan, Ramya and Xu, Benji and Biswal, Asim and Chen, Vincent Sunn and Sala, Frederic and Zaharia, Matei and Gonzalez, Joseph E.},
+  title   = {Continual Learning Bench: Evaluating Frontier {AI} Systems in Real-World Stateful Environments},
+  date    = {2026-06-04},
+  eprint  = {2606.05661},
+  eprinttype = {arXiv},
+  url     = {https://arxiv.org/abs/2606.05661},
+  urldate = {2026-10-30},
+  note    = {Cited for a benchmark of whether AI systems improve from sequential experience, on which plain in-context learning outdid dedicated memory systems and no weight-learning system was entered. “We introduce Continual Learning Bench (CL-Bench), the first difficult, expert-validated benchmark designed to measure whether LLM-based systems genuinely improve with experience.” “dedicated memory systems do not fix this—in fact, naive ICL outperforms systems dedicated to memory management.” “Naive ICL outperforms dedicated memory architectures on most tasks”. “we do not evaluate parametric approaches such as test-time training”.}
 }

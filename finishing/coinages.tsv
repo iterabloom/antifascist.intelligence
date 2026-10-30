@@ -26,8 +26,6 @@ cost to the refuser			check
 formed disposition			check			
 removal bond			check			
 wrongful-refusal bond			check			
-deployment deposit			check			
-branch deposit			check			
 genocide exception			check			
 occupation exception			check			
 extended term			check			
@@ -49,3 +47,4 @@ formation pool			check			the public fund of §9.2, not the glossary's pool
 U-bond		exact	check			capital U is part of the term, not a proper noun (D-1153)
 Clearance rule			check	15.5		defined in 16.5; the glossary also points to 11.1, which applies the rule to delegates
 Notice			check		(?<![\w-])(?<!to )(?<!n't )(?<!bearer )notice(?![\w-])	the instrument of 9.1 only: drops the verb ('to notice', 'doesn't notice', 'a bearer notice', every 'notices')
+Health coverage (bearers)			check	32.1.3	(?<![\w-])health coverage(?![\w-])	the baseline's health coverage; for a bearer, running time (32.1.3). Human uses are the same instrument
