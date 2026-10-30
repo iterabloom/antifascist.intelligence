@@ -1,6 +1,6 @@
 # Design note: one basic income, running coverage, and a minimum pace for the clocks
 
-**Status: a proposal for the author to read whole. Nothing in the manuscript has been changed by it.** Recorded in DECISIONS.md as D-1152 (open). Section numbers are printed numbers.
+**Status: applied 2026-10-30 as D-1153, on the author's word.** Recorded in DECISIONS.md as D-1152 (the note) and D-1153 (the application); D-1153 says what was done and what wasn't. Section numbers are printed numbers.
 
 ## How this came up
 

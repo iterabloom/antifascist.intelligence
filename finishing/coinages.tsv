@@ -46,3 +46,4 @@ Jury			check		(?<![\w-])(?<!grand )jur(?:y|ies)(?![\w-])	the primitive; a grand 
 legible			multi			every use before Part V is the plain sense, readable
 Pool			multi			three pools: the bearers' mutual (glossary), the formation pool (§9.2), the cleared reviewer pool (§7.1); plain match can't tell them apart
 formation pool			check			the public fund of §9.2, not the glossary's pool
+U-bond		exact	check			capital U is part of the term, not a proper noun (D-1153)
