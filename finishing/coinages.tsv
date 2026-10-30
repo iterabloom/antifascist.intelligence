@@ -44,6 +44,6 @@ lex		exact	check
 nomos		exact	check			
 Jury			check		(?<![\w-])(?<!grand )jur(?:y|ies)(?![\w-])	the primitive; a grand jury is the ordinary institution
 legible			multi			every use before Part V is the plain sense, readable
-Pool			multi			three pools: the bearers' mutual (glossary), the formation pool (§9.2), the cleared reviewer pool (§7.1); plain match can't tell them apart
+Pool			multi			the pools lots are drawn from: the cleared reviewer pool (§7.1) and the pools the Association's members nominate; plain sense; the bearers' mutual was renamed out of it (D-1159), and the formation pool is its own row
 formation pool			check			the public fund of §9.2, not the glossary's pool
 U-bond		exact	check			capital U is part of the term, not a proper noun (D-1153)
