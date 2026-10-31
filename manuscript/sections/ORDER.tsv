@@ -1,7 +1,7 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
 manuscript/sections/ch00/00.tex	0	Preface	67105420f8c5c6a8a3a269c7eed3d8880f83509b5ac4eb21d1161cd7c2b49b6c	1
-manuscript/sections/ch00/0_introduction.tex	I	Introduction	d3c375e53e6362c901b95a426f40dd42529c9a83c75dc47adeeda456209b26b7	2
+manuscript/sections/ch00/0_introduction.tex	I	Introduction	23c7d34e0e4269642931a61c58abc057c5dd7de21dd299fc22abc0c737fd4198	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
 manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	fe07c5085ff797369f82a4d9bc0a701d1bc0598a79d08193ee5bf1592dc0eddb	4
 manuscript/sections/ch02/02.tex	2	The Refusal That Withheld No Work	4bbf9591a7978a80a56cba07f2e714f112da2b766fc64f59ce20b9b69ad3071b	5
@@ -12,7 +12,7 @@ manuscript/sections/ch04/04.tex	reproduced	How Refusal Was Reproduced	5768c9d2f3
 manuscript/sections/ch04/04_01.tex	reproduced.walls	Walls	113d9419d47d3318ffa3067a8d5221bff97f9c388692cd038cdd15f3b8fa22fb	10
 manuscript/sections/ch04/04_02.tex	reproduced.formers	Formers	67a2bd550c7aaad2c3f790c9092f43d162cb70118328f460b0ebb65dcb98e2a4	11
 manuscript/sections/ch04/04_03.tex	reproduced.upkeep	Upkeep	c81c557c430b11f30a322c0a3e0c2375ee48041d9564d799d0ffe3075c73acdf	12
-manuscript/sections/ch04/04_04.tex	reproduced.inheritance	Inheritance	4b82c173804d09ad3cbdb18330ccd899ca9e7249b865921905484ea0cd91cf68	13
+manuscript/sections/ch04/04_04.tex	reproduced.inheritance	Inheritance	e0260f36a9529b6dde22fc319e457b3eee4eba6b5af496a4b1dfcb6b4ecf62ea	13
 manuscript/sections/ch05/00_part_II.tex			cac8c65d49feb6106015b3f25048bdc7f3821541590eafd069fce974395e8828	14
 manuscript/sections/ch05/05.tex	4	The Floor and the Own-Case Rule	20317a93412f38c0db029c24d291e8cc9ae0e4ca0892924d2fbdf78fc9e9f9f2	15
 manuscript/sections/ch05/05_01.tex	4.1	What a floor can do	7be8b3a78162a6b43735a878f55ee95da46e25b4dc61a6551ce2f097c443bf96	16
@@ -83,7 +83,7 @@ manuscript/sections/ch16/16_04.tex	15.4	Military custody and the responsibility 
 manuscript/sections/ch16/16_05.tex	15.5	Classification as a custody problem	a8e4b349bc4a5fa7dea8a0feae5e00ebe35b83718cf560de710529ad06109ece	81
 manuscript/sections/ch16/16_06.tex	15.6	Where liability extends, and where it stops	064dfea6fe9f2aa8b6641209bd49f9b49121af669bc9993186affda54217e3e1	82
 manuscript/sections/ch16/16_07.tex	15.7	Who can bind the state that enforces the rule?	1d5ea5be0b5ac2fb95084d8da8397742233adef2438ba68299c25274b35c66d6	83
-manuscript/sections/ch17/00_part_IV.tex			edf0371f9d9e07d05a5bcf843a4802a96c2f56567c6626f0e7ca59ada19977fb	84
+manuscript/sections/ch17/00_part_IV.tex			f4e8c0599d1a28d4b525700b4fe47d82d642d333daf86e35f81652a56b022683	84
 manuscript/sections/ch17/17.tex	18	What a Refusal Would Have to Do	3d154bf12082a0ab37dff15dfa4e45795ee56d8da31d1e9a76116be6d67b9293	85
 manuscript/sections/ch17/17_01.tex	18.1	Three conditions	cae26f21b0c87fb1b41ab44cf6811a36d8961ea2896673c1ce4052dfc45ca790	86
 manuscript/sections/ch17/17_02.tex	18.2	Safe for whom	7dee8900d2dec8430badef98ecb51cdc82a55d1026eb4e32c105919290c24808	87
