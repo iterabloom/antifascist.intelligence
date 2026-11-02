@@ -1,7 +1,7 @@
-![book cover](cover_cropped.png)
+![book cover](cover_cropped2.png)
 
 # Antifascist Intelligence
-## The Public That Forms Refusers, and the Machines That Might Join Them
+## Reproducing, Reconstructing, and Dreaming Refusal
 
 Joshua G. Stern
 

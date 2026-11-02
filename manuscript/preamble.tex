@@ -424,7 +424,7 @@
 }
 
 % The cover. book.tex calls \bookcover first of all, before \frontmatter, so
-% the cover art (cover_cropped.png at the repository root, also the README's
+% the cover art (cover_cropped2.png at the repository root, also the README's
 % image) is the book's first page. In the PDF it is drawn behind an empty page,
 % centred and as large as the page allows, with no footer and no watermark; the
 % page is numbered A so that its PDF label and link target can't collide with
@@ -436,7 +436,7 @@
 % Table 30.1 (D-895, D-894, D-896), are TikZ, which todonotes already loads: the PDF sets it in the book's own type, and tex4ht
 % writes it to SVG through dvisvgm for html_single_file.py to embed.
 \usetikzlibrary{arrows.meta,fit}
-\newcommand{\bookcoverfile}{../cover_cropped.png}
+\newcommand{\bookcoverfile}{../cover_cropped2.png}
 \newcommand{\bookcover}{%
   \ifdefined\HCode
     \begin{center}\includegraphics[width=\linewidth]{\bookcoverfile}\end{center}%
