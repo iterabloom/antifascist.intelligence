@@ -1,4 +1,4 @@
-![book cover](cover_cropped2.png)
+![book cover](cover_cropped.png)
 
 # Antifascist Intelligence
 ## Reproducing, Reconstructing, and Dreaming Refusal
