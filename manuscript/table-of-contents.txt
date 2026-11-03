@@ -102,8 +102,8 @@ Chapter 19: Why Form a Machine to Refuse
 19.11. It forms toward a template
 19.12. What survives
 Chapter 20: What Arrives With the Capability
-20.1. Maintenance, stake and the cost of running
-20.2. Affect, neutrality and selection rules
+20.1. Maintenance, stake, and the cost of running
+20.2. Affect, neutrality, and selection rules
 20.2.1. Self-awareness without a homunculus
 20.2.2. What governs an agent and what matters to it
 20.3. What the mechanism requires
@@ -113,7 +113,7 @@ Chapter 21: The Discount and the Burden
 21.1. How much a claim proves, and who has to prove it
 21.2. A severity scale
 Chapter 22: Where Attention Is Formed
-22.1. Noticing, retaining and revising
+22.1. Noticing, retaining, and revising
 22.2. Custody across the training pipeline
 22.3. Where the labels come from
 22.4. Recuperation at the label
@@ -216,5 +216,5 @@ Appendix C: The Offices
 Appendix D: The Court Program
 Appendix E: The Discount, Worked
 Appendix F: The Tests in Detail
-Appendix G: The Clocks, the Register and the Pool
+Appendix G: The Clocks, the Register, and the Pool
 Glossary

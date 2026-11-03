@@ -501,7 +501,18 @@ and D-1018 (302). It is not wired into `check_all.sh`.
   runs in `check_all.sh`. Neither is catchable any other way: both notations
   compile without a warning and produce a page that is merely wrong.
 - "AI" as a mass noun ("an AI system", not "an AI") except where the book means an individual system, which it sometimes does deliberately — that distinction is load-bearing in chapters 2 and 7 and should be made consistently.
-- Spelling: US.
+- **Spelling: US** (D-1197, reaffirming the rule above). Quotations, titles of
+  works and proper names keep their own spelling: “Blood and Honour” at §18.2 is
+  a name.
+- **The serial comma is used** (D-1197). A list of three or more takes a comma
+  before the final *and*, *or* or *nor*: *the reward, the comparisons, and the
+  constitution*. An *and* that joins a pair inside a list is not the list's
+  final conjunction, and a comma that ends a subordinate clause or an appositive
+  is not a list comma; read the sentence before adding one. Quotations keep
+  their own punctuation.
+- **Commas and periods go inside a closing quotation mark** (D-1199), the
+  American rule: “removal pipeline,” not “removal pipeline”,. A question or
+  exclamation mark that ends the quotation stands alone, with no comma after it.
 - Section titles: sentence-shaped, under about ten words. The current set includes titles of 20+ words.
 - **A title may be a question, and may address the reader as *you*** (D-198,
   Q-079): §3.5, *If You Can Be Switched Off, Can You Hold the Line?* Part of the
