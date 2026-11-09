@@ -107,7 +107,7 @@ Chapter 20: What Arrives With the Capability
 20.2.1. Self-awareness without a homunculus
 20.2.2. What governs an agent and what matters to it
 20.3. What the mechanism requires
-20.4. The order of attempts
+20.4. The sequence of attempts
 20.5. A commitment of its own
 Chapter 21: The Discount and the Burden
 21.1. How much a claim proves, and who has to prove it
