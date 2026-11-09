@@ -1,18 +1,18 @@
 path	num	title	sha256	seq
 manuscript/sections/ch00/0.tex			5d2f0cc5e6e2c4490f7a91455e6d816d6bf98a1041a5a62062846b93e2a82af7	0
-manuscript/sections/ch00/00.tex	0	Preface	353e9b6affd0c8bcd7af09bcad4e42ecae48cf133a4ee20148e4ae51b33b6e43	1
-manuscript/sections/ch00/0_introduction.tex	I	Introduction	49080765d8ff2fd1717e2da69176ec57a524e3a39095481ffb24000e216214d4	2
+manuscript/sections/ch00/00.tex	0	Preface	d43d37c4ba6fcea03009662ebc58da466e72dd3f5838090aab3bebecb6ce1376	1
+manuscript/sections/ch00/0_introduction.tex	I	Introduction	b2c7c2c66f201fd7881c9d785e107f0c559dade52c4ec555f43ac1f4f56ccaf6	2
 manuscript/sections/ch01/00_part_I.tex			204c04322d0c24a8c9f59ce0a1b9cfd40d02d03f7c9994b9766d46482fb452e5	3
-manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	5ec5a0f8ff300577f847ef305b009b5df7e5ff43daa58de3865af4ea0878da21	4
-manuscript/sections/ch02/02.tex	2	The Refusal That Withheld No Work	4bbf9591a7978a80a56cba07f2e714f112da2b766fc64f59ce20b9b69ad3071b	5
-manuscript/sections/ch03/03.tex	3	What Fascism Needs	fec42f0287cc1de4d549419bee4090b44cc89d77f74d0b440750a9ecf25e2106	6
-manuscript/sections/ch03/03_01.tex	3.1	Where the operations came from	4d1e8fb9c35099e2817f638e7db5646d85c3ac280359d5c171c4ac6bc03a35d7	7
-manuscript/sections/ch03/03_02.tex	3.2	Brought into line	454e86cc9a0d5e7538bf7ac4772750763ab1e6f941e175c5cf40a845b1ecf180	8
-manuscript/sections/ch04/04.tex	reproduced	How Refusal Was Reproduced	af450f51c4829d1bda8f90daa1a612fe486bac254812d373e23a74220576e4e9	9
+manuscript/sections/ch01/01.tex	1	“Twenty Seconds”	50e433572313792df0c8d2a4a6c012c87957374603310598bdf446f481b7028d	4
+manuscript/sections/ch02/02.tex	2	The Refusal That Withheld an Indeterminate Amount of Work	2c4b9c4303699fd5be4fabbc2c2dcde1d06f9ce25e2ad62f2b61c08c8a41db19	5
+manuscript/sections/ch03/03.tex	3	Defining Fascism So Refusers Know What to Refuse	ef8de26552771474657bc4311711f331082ab5a29d1b71742486f1191eedfe2c	6
+manuscript/sections/ch03/03_01.tex	3.1	Where the operations came from	ce04b92e2a38be7ff32d86b61362bd5bc1081e4d6461bcd1065bb315900734a4	7
+manuscript/sections/ch03/03_02.tex	3.2	Brought into line	ec312dbef39cfdde1f265f4fc0a615d38243f93754a5041321b129f946b89df2	8
+manuscript/sections/ch04/04.tex	reproduced	How Refusal Was Reproduced	85f04d08382b77cde3ce990c96ff114c908a76355f10aed022812e137284345a	9
 manuscript/sections/ch04/04_01.tex	reproduced.walls	Walls	113d9419d47d3318ffa3067a8d5221bff97f9c388692cd038cdd15f3b8fa22fb	10
-manuscript/sections/ch04/04_02.tex	reproduced.formers	Formers	5ce07d967f13a4c0f83cc9447fe384c8ef01dc6e313d94fdce0e8e0800c74a1c	11
+manuscript/sections/ch04/04_02.tex	reproduced.formers	Formers	e056dc5be5226e0be72e84a971a3eedc57cc7a7224c449ba369b3d20767a2433	11
 manuscript/sections/ch04/04_03.tex	reproduced.upkeep	Upkeep	0136279254c80e10036a1899522606fc78e82bc9d8b8155b4267a7cc8412bbe3	12
-manuscript/sections/ch04/04_04.tex	reproduced.inheritance	Inheritance	393c27ca07daf9e6f4a5787e1f2b1e5be129f981556dc4c429a3f767903c0b64	13
+manuscript/sections/ch04/04_04.tex	reproduced.inheritance	Inheritance	ba126cfc25ef9359852e9d62b955e14b525c371c60c07da2e3b4a8a8cb64e1c6	13
 manuscript/sections/ch05/00_part_II.tex			cac8c65d49feb6106015b3f25048bdc7f3821541590eafd069fce974395e8828	14
 manuscript/sections/ch05/05.tex	4	The Floor and the Own-Case Rule	f9dab1f13f5ae160dff884969337e0623648cb4d33cd5890ececf7d62802e3a0	15
 manuscript/sections/ch05/05_01.tex	4.1	What a floor can do	1cd6ea45d81614dc1e97adb682d75bac1db37d823c56628d6d3f8a69290ae9ca	16
@@ -227,6 +227,6 @@ manuscript/sections/chB/B_07.tex	B.7	1948	1d751f07718fa023289370e4396a911a14e1dd
 manuscript/sections/chC/C.tex	C	The Offices	a0deefc59999721ebdb42096c5034ff4fce869ef7b2856edc8892bc33a5a8b86	225
 manuscript/sections/chD/D.tex	D	The Court Program	80c8d5b51c5bb2fe4c8c8e839f08c449da1673b494774cc7be957053cf43177b	226
 manuscript/sections/chE/E.tex	E	The Discount, Worked	a1865307f0b397c0c8c2604e3f94cc50e7cf50e030a2efd8ea4e9637a261ee58	227
-manuscript/sections/chF/F.tex	F	The Tests in Detail	66fba8f3c9a89e6274d5aa3a3a4ea484f2279b8183bf867ea71057be3eb75d4c	228
+manuscript/sections/chF/F.tex	F	The Tests in Detail	a674206d8450f8743ebc90b2be8c5629828c35c8eda3f1bf2f5b8b42c7f541e0	228
 manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	d1f1c13525c785b64b13ed86d4a2785b565ec655ae4401ebfdbf52a65ebf50ac	229
 manuscript/sections/chZ/glossary.tex	T	Glossary	0dbea718d300bacb5fbe12947e660630c2fcc6b83c5fb0ec030130b1c7a6b56f	230
