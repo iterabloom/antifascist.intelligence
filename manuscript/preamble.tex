@@ -233,6 +233,39 @@
   \renewbibmacro*{cite}{\HCode{<!--cite:\thefield{entrykey}-->}\usebibmacro{md:cite}}
 \fi
 
+% Under tex4ht with fn-in, every footnote in the book is held in one box,
+% \fn:box, and set after the References as one <div class="footnotes">. At
+% about 32,768pt of depth TeX's dimensions overflow and the last pass never
+% ends: the book crossed that line with the batch of 2026-11-08, at 31,551pt
+% before it (D-1210). Each chapter therefore hands the box on to a numbered
+% store, and at the end the stores are set in order, with what remains of the
+% box, inside the one div where tex4ht would have set the box alone. The page
+% that comes out is the same; only the boxes it passes through are smaller. The
+% PDF is unaffected.
+\ifdefined\HCode
+  \makeatletter
+  \newcount\af@fnstores
+  \def\af@fnstash{%
+    \ifvoid\csname fn:box\endcsname\else
+      \global\advance\af@fnstores\@ne
+      \expandafter\newbox\csname af@fnstore\the\af@fnstores\endcsname
+      \global\setbox\csname af@fnstore\the\af@fnstores\endcsname
+        =\box\csname fn:box\endcsname
+    \fi}
+  \def\af@fnset#1{\ifnum#1>\af@fnstores\else
+    \box\csname af@fnstore\number#1\endcsname
+    \expandafter\af@fnset\expandafter{\number\numexpr#1+1\relax}\fi}
+  \AddToHook{cmd/chapter/before}{\af@fnstash}
+  \AddToHook{enddocument}{%
+    \ifnum\af@fnstores>\z@
+      \par\ifvmode\IgnorePar\fi\EndP
+      \HCode{<div class="footnotes">}\af@fnset{1}%
+      \ifvoid\csname fn:box\endcsname\else\box\csname fn:box\endcsname\fi
+      \HCode{</div>}\IgnorePar\EndP
+    \fi}
+  \makeatother
+\fi
+
 \setcounter{secnumdepth}{2}             % deepest heading in the book is x.y.z
 % The contents list chapters and sections and stops there. At depth 2 it ran
 % pages 2-5 of a 196-page book, three full pages and an 11-line stub, and the 64
