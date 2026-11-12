@@ -1528,6 +1528,9 @@ def main():
             "",
         ]
         text = "\n".join(front + body) + "\n"
+        # Adjacent markers render as run-together superscripts, so notes 6
+        # and 7 read as note 67. Separate them with a comma.
+        text = re.sub(r"(\[\^\d+\])(?=\[\^\d+\])", r"\1,", text)
 
         leftover = sorted(set(re.findall(r"\\[a-zA-Z]+", text)))
         # The text's words, not its notes', so the count stays comparable
