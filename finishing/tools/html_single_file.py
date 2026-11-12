@@ -118,6 +118,15 @@ def main() -> int:
     # so it goes.
     html, n_empty = re.subn(r"<a href='book\.html' id='X0-'>\s*</a>", "", html)
 
+    # Two footnote marks side by side are separated by a superscript comma, so
+    # notes 6 and 7 do not read as note 67 (D-1232). The PDF sets the comma in
+    # the preamble; tex4ht does not run that code, so it is set here. Between
+    # the two marks tex4ht leaves only empty anchors and whitespace.
+    html, n_fnsep = re.subn(
+        r"(<span class='footnote-mark'>(?:(?!</span>).)*</span>)"
+        r"((?:\s|<a id='[^']*'></a>)*)(?=<span class='footnote-mark'>)",
+        r"\1<sup class='textsuperscript'>,</sup>\2", html, flags=re.S)
+
     # A DOI containing an underscore is set as a dot-above accent in the link
     # text -- 10.1007/978-3-662-47854-7_14 prints as ...-7˙14 -- while the
     # href beside it keeps the underscore and works. The PDF sets the same entry
@@ -236,6 +245,8 @@ def main() -> int:
         note += f", {n_images} image{'s' if n_images != 1 else ''} embedded"
     if n_empty:
         note += f", {n_empty} empty anchor dropped"
+    if n_fnsep:
+        note += f", {n_fnsep} comma{'s' if n_fnsep != 1 else ''} set between adjacent footnote marks"
     if dropped:
         note += f", duplicate ids dropped: {', '.join(sorted(set(dropped)))}"
     if doi_fixed:

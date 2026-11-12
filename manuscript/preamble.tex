@@ -367,6 +367,36 @@
   \edef\af@item{\noexpand\footnotetext[\the\c@footnote]{\af@anchorhead\noexpand\af@origcites
     \unexpanded\expandafter{\af@cs@args}}}%
   \expandafter\af@defer\expandafter{\af@item}}
+
+% Two footnote marks side by side are separated by a superscript comma, so
+% notes 6 and 7 do not read as note 67 (D-1232). Each mark is followed by a
+% kern of 1sp, which is invisible. Before a mark is set, the list being built
+% is read back from its end, past the nodes a footnote leaves behind it and
+% that print nothing (its text's insert, hyperref's link whatsits, marks,
+% penalties); if what is found there is that kern, the comma is set first. The
+% space factor the first mark left (a sentence's, after a full stop) is kept
+% across the comma. Patched at the end of \begin{document}, after hyperref
+% has redefined \@footnotemark. LuaLaTeX only: under tex4ht the patch is not
+% made.
+\def\AFfootnotesep{\edef\af@sf{\the\spacefactor}\@textsuperscript{\normalfont,}\spacefactor\af@sf\relax}
+\ifdefined\HCode\else\ifdefined\directlua
+\directlua{
+  function af_fnsep()
+    local skip = {[node.id("ins")]=true, [node.id("whatsit")]=true,
+                  [node.id("mark")]=true, [node.id("penalty")]=true}
+    local n = tex.nest[tex.nest.ptr].tail
+    while n and skip[n.id] do n = n.prev end
+    if n and n.id == node.id("kern") and n.kern == 1 then
+      tex.sprint("\string\\AFfootnotesep")
+    end
+  end}
+\AddToHook{begindocument/end}{%
+  \let\af@origfnmark\@footnotemark
+  \def\@footnotemark{%
+    \ifhmode\directlua{af_fnsep()}\fi
+    \af@origfnmark
+    \ifhmode\kern1sp\relax\fi}}
+\fi\fi
 \makeatother
 
 % A one-line standing note under a heading, saying which of the preface's
