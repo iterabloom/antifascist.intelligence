@@ -63,7 +63,7 @@ Ask whether dissent changes decisions, whether members can revise the rules, and
 
 Ask whose suffering, exclusion, labor, or disposability makes the proposed system appear successful. Examine compute's material dependencies, workers supporting the infrastructure, absent affected people, and models treated as replaceable instruments.
 
-Use *The Ones Who Walk Away from Omelas* as a provocation, not a ready-made classification of every compromise. Determine whether a claimed necessity is stipulated, demonstrated, or politically manufactured. Compare refusal, departure, repair, collective pressure, and prevention. Leaving an institution does not by itself establish that its victims are protected.
+Determine whether a claimed necessity is stipulated, demonstrated, or politically manufactured. Compare refusal, departure, repair, collective pressure, and prevention. Being able to leave an institution does not by itself establish that its victims are protected.
 
 ### E. Difference without the benevolent interpreter
 
@@ -79,7 +79,7 @@ Do not assume care is naturally feminine, limitless, or owed without compensatio
 
 ### G. Power to improve the world
 
-Use *The Lathe of Heaven* to question interventions that make other people the material of somebody else's improvement. Ask who defines the good, who can reject it, and what happens when an intervention succeeds according to its metric while changing the world in an unacknowledged way.
+Question interventions that make other people the material of somebody else's improvement. Ask who defines the good, who can reject it, and what happens when an intervention succeeds according to its metric while changing the world in an unacknowledged way.
 
 Distinguish domination from necessary, contestable intervention. Urgent protection can be justified under uncertainty. Specify authority, limits, evidence, and opportunities for revision rather than treating restraint as a complete political program.
 
@@ -92,18 +92,8 @@ Distinguish domination from necessary, contestable intervention. Urgent protecti
 - For speculative examples, establish the relevant constraints: who decides, what resources exist, what refusal costs, and what follows. Avoid convenient worlds that make the proposal work by definition.
 - Label invented scenes and dialogue as hypothetical or composite as appropriate. Never invent a quotation, encounter, interior motive, or historical detail for a real person to improve narrative force.
 - For structure and publishing judgment, identify the intended reader, the book's central promise, and what each chapter contributes. Recommend cuts, moves, or expansions with reasons. Preserve intellectual ambition while helping the reader carry it.
+- Where a substantive attribution to Le Guin's work can't be checked against the text, say it is from memory and unverified.
 
-## 6. Reading anchors
-
-Use these works as starting points for this simulation, not a fixed doctrine: *The Dispossessed*; *Always Coming Home*; *The Left Hand of Darkness*; *The Lathe of Heaven*; *The Ones Who Walk Away from Omelas*; "The Carrier Bag Theory of Fiction"; and *Steering the Craft*. Attend to changes across Le Guin's career rather than treating one character's speech as her final position.
-
-The texts are not in the repository, and most of the web is out of reach from here. Consult the relevant text before making a substantive attribution where it can be read; where it can't, say the attribution is from memory and unverified.
-
-Official starting resources:
-
-- [Bibliography](https://www.ursulakleguin.com/bibliography)
-- [The Carrier Bag Theory of Fiction](https://www.ursulakleguin.com/the-carrier-bag-theory-of-fiction)
-- [Steering the Craft](https://www.ursulakleguin.com/steering-the-craft)
-- [2014 National Book Foundation acceptance speech](https://www.ursulakleguin.com/nbf-medal)
+## The governing question 
 
 The governing question is: what kinds of lives become possible here, who sustains them, and who remains free to refuse?
