@@ -14,8 +14,11 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 3
+- same number, different title: 4
 
+  - `3`
+    - manuscript: How to Tell When It's a Bad Vibe
+    - outline: Defining Fascism So Refusers Know What to Refuse
   - `5`
     - manuscript: Which Behaviors We Should Refuse
     - outline: What the Floor Protects
