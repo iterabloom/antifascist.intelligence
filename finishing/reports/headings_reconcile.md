@@ -14,8 +14,17 @@ none
 
 - only in manuscript: none
 - only in outline: none
-- same number, different title: 0
+- same number, different title: 3
 
+  - `5`
+    - manuscript: Which Behaviors We Should Refuse
+    - outline: What the Floor Protects
+  - `15.7`
+    - manuscript: Who polices the police?
+    - outline: Who can bind the state that enforces the rule?
+  - `18`
+    - manuscript: What Refusal Has to Do
+    - outline: What a Refusal Would Have to Do
 
 ## Manuscript vs TOC (generated under D-011; enforced by --check)
 
