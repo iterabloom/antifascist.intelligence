@@ -84,7 +84,7 @@ Chapter 17: What Refusal Has to Do
 Chapter 18: Four Places to Hold a Floor
 18.1. What each place costs
 18.2. What refusal can mean, and what a refuser can be
-18.3. Three constructions
+18.3. Two constructions
 18.4. The positions and the terms, run on Maven
 18.5. When the refusal is wrong
 18.6. What a system is
