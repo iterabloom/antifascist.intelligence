@@ -127,6 +127,20 @@ decides tone and editorial judgment in conversation.
   contributes at each file boundary. **Page-proof the book from
   `finishing/tools/build_tex.sh`, never from this file.**
 
+- **The chapter distillation.** `finishing/distillation.md` summarizes the
+  manuscript, one entry for each chapter and appendix, and is kept in step with
+  it (D-1250). `finishing/tools/distillation.py --check` lists the entries whose
+  chapter has changed since they were last checked; `finishing/pipeline.md`,
+  "The distillation", has the rules for an entry and the steps. Bringing it up
+  to date is part of "make the proofs". **Agents write it and agents check it,
+  and both are Opus subagents, whatever model the session runs on**: a writer
+  that changes an entry only where the chapter's change made it wrong or
+  incomplete, then a second, fresh agent that reads the whole chapter against
+  each changed entry. The session runs the tool and records the result; it does
+  not write or check an entry itself. The file is not the author's text and
+  says so at its head. The named-persons rule applies to it in full: an entry
+  credits a person only with what the chapter itself attributes to them.
+
 - **Sending a file to the author.** `~/upload-tool/upload.sh`, outside the
   repository, zips what you name, encrypts it under a random passphrase, uploads
   the ciphertext to a third-party host (litterbox, 72 hours) and verifies the
@@ -164,7 +178,8 @@ decides tone and editorial judgment in conversation.
 ## Author's Shorthand
 - **"Make the proofs."** This phrase — or "do the proofs," or a near variant —
   names a fixed sequence and not just a build. In order: commit whatever is in
-  the tree, to `main`, and push; run `finishing/tools/build_proof.sh`; remove
+  the tree, to `main`, and push; bring the chapter distillation up to date for
+  the chapters that changed (below); run `finishing/tools/build_proof.sh`; remove
   the previous dated pair if the date has rolled over; point the README's two
   links at the new files; commit and push again. **Two commits**, so the work is
   legible in the first diff and the second carries only generated output.

@@ -319,6 +319,12 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    committing it if it is more than the work just discussed — "everything" is
    the instruction, and a surprise in the diff is the author's to catch, not
    mine to swallow.
+   **Then bring the distillation up to date** (D-1250), before the build:
+   `finishing/tools/distillation.py --stale` lists the chapters whose text has
+   changed since their entry in `finishing/distillation.md` was last checked,
+   and "The distillation" below says what is done for each. It comes after the
+   first commit because an entry is recorded against the commit that holds the
+   text it was checked against. Its changes go into the second commit.
 2. **Run `finishing/tools/build_proof.sh`.** Both formats, one date. The
    English alone, unless the author names editions (below).
 3. **Remove the previous dated pair** if the date has rolled over. The script
@@ -333,8 +339,9 @@ that names a fixed sequence, not just a build. It means all of this, in order:
    book" line under the subtitle, and, in the "Translated editions" line after
    it, the link and date of each edition built this run (D-811). A link to a proof that is no longer there is
    worse than no link.
-5. **Commit the proofs and the README, and push again.** Two commits, not one:
-   the work is legible in the first, and the second is generated output.
+5. **Commit the proofs, the README and the distillation, and push again.** Two
+   commits, not one: the work is legible in the first, and the second is
+   generated output.
 6. **Re-read the top of `STATE.md` for what the build just falsified.** A lead
    written before the proofs says the proofs are behind, and how many pages the
    old ones had. Both are false the moment step 2 finishes, and nothing in the
@@ -385,6 +392,109 @@ download, not a page. The PDF link renders in GitHub's own viewer and works.
 Serving the HTML as a page needs a decision the repository has not taken —
 GitHub Pages, or a third-party renderer — and it is recorded in D-083 rather
 than chosen here.
+
+## The distillation
+
+`finishing/distillation.md` summarizes the manuscript, one entry for each
+chapter and appendix: the Preface, the Introduction, every chapter, the
+Epilogue, the Note on Method and every appendix, fifty units on 2026-11-23
+(D-1250). The glossary has no entry. Agents write it and agents check it. It is
+not the author's text, the file says so at its head, and where it and the book
+differ the book is right. The README links to it for readers, and a session
+that needs the book's argument in one read can start there.
+
+**The bookkeeping is `finishing/tools/distillation.py`.** A unit is a
+chapter-level heading and the section files under it in `ORDER.tsv`. Each entry
+opens with an HTML comment, `<!-- unit: KEY -->`, where the key is the `num`
+`ORDER.tsv` gives the chapter file: the file's identity, so it survives a
+renumbering, and a comment, so a rendered page does not show it.
+`finishing/distillation.tsv` records for each unit a fingerprint of its files
+(a sha256 over each file's path and sha256), the commit that state is in, the
+date, and who brought the entry up to date. A fingerprint that no longer
+matches is the whole staleness test, as it is for a translated edition.
+`--check` runs in `check_all.sh`. It fails only on a malformed file or record.
+A stale, missing or orphaned entry is listed and does not fail, because a
+chapter changes first and its entry follows.
+
+**The fingerprint says a file changed. It does not say the entry is wrong, and
+a match does not say the entry is right.** Deciding the first is the writer's
+job below; nothing but a reader decides the second.
+
+### What an entry is
+
+1. One paragraph for a unit, two for the longest; between about 120 and 300
+   words. The longest chapters may run to about 370, because cutting a right
+   sentence to meet a count is the worse error. A chapter that is a
+   placeholder gets a sentence saying so.
+2. It says what the chapter claims, what it proposes, and what it leaves open,
+   in the book's own terms (floor, own-case rule, bearer, candidate, and so
+   on). **The chapter's central proposal is named in plain words.** The test
+   case is chapter 12: an outside reader's summary of the proof of 2026-11-22
+   called its proposal "statutory limits", and the chapter says "I propose a
+   statute that ends ICE."
+3. Neutral third person, present tense, with "Stern" as the subject where one
+   is needed. No praise, no evaluation, no inference the chapter does not
+   draw. A qualification the chapter leans on is kept: "lodged with an adverse
+   party" is not "an independent party".
+4. **A named real person is credited only with what the chapter itself
+   attributes to that person**, on the chapter's citation. This is the
+   repository's named-persons rule applied to a summary, where a compressed
+   sentence can hand a scholar a claim that is the book's.
+5. Quoted words are exact and in typographic quotation marks.
+6. No chapter or section numbers in an entry's text. A renumbering changes
+   them and changes no fingerprint. Another chapter is named by its title or
+   its subject. The `### ` heading does carry the printed number; the tool
+   owns it, and `--fix-headings` rewrites it after a renumbering.
+7. A count the entry states ("seven tests", "five marks") is recounted against
+   the text every time the entry is touched.
+
+### Bringing it up to date
+
+Run as part of "make the proofs", after the first commit, and whenever the
+author asks.
+
+1. `distillation.py --stale` lists the units that need work: `stale`,
+   `missing` (a new chapter), `unrecorded`, and any `orphan` entry whose
+   chapter is gone. Render the manuscript once for the agents to read:
+   `render_markdown.py --keys --out <scratch>/book.md`.
+2. **A writer** takes each unit, or a group of them. It reads the whole chapter
+   in the render, the entry as it stands, and `distillation.py --diff KEY`,
+   which shows what changed in the unit's files since the entry was recorded.
+   It changes the entry only where a statement in it is now wrong or
+   unsupported, or where the chapter's central proposal or a new section's
+   point is missing. A typo fix or a moved sentence changes nothing in the
+   entry. It writes its entries, in the file's own format, to a parts file
+   outside the repository, and says for each unit what it changed and why, or
+   that it changed nothing.
+3. **A checker** takes every entry the writer changed or added. It is a fresh
+   agent, given the entry and the chapter and not the writer's account of
+   them. It reads the whole chapter and tests each statement in the entry
+   against it: names, counts, who does what, what is proposed, what is left
+   open, and each attribution to a named person. It corrects what fails in a
+   parts file of its own and reports each correction with the manuscript's
+   words. An entry the checker rewrote in substance goes to another checker.
+4. `distillation.py --apply PARTSFILE` splices the entries in, by key. **No
+   agent edits `distillation.md` directly**: several work at once, and the
+   splice is what keeps one from overwriting another. `--fix-headings` brings
+   a heading into line after a retitle or a renumbering. An orphan entry is
+   deleted by hand, with its record row.
+5. Run `names_guard.py`, then `distillation.py --record KEY... --by opus`. The
+   tool refuses while a unit's files have uncommitted changes, so that the
+   commit it records is one that holds the text the entry was checked against.
+6. The DECISIONS row says which entries changed, which were recorded unchanged,
+   and which are left stale and why. A unit that cannot be done in the run is
+   left stale; `--check` goes on listing it.
+
+**The writer and the checker are Opus subagents, and only Opus** (the author's
+instruction, 2026-11-23, D-1250): the Agent tool's `model: "opus"`, whatever
+model the session itself runs on. The session runs the tool, splices and
+records; it does not write or check an entry itself.
+
+**What the check is worth.** It is one agent reading a chapter against a
+paragraph another agent wrote. It is not a human check and nothing in the
+record should say it is. The first run, on 2026-11-23, is the calibration: the
+same kind of check, run on an outside reader's fifty-paragraph summary of the
+proof of 2026-11-22, found at least one misstatement in twenty-five of them.
 
 ## The source layout
 

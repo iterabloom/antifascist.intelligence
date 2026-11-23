@@ -7,6 +7,8 @@ Joshua G. Stern
 
 **Read the book:** [PDF](finishing/reports/whole-book-proof_2026-11-22.pdf) · [HTML](finishing/reports/whole-book-proof_2026-11-22.html) — 536 pages, built 2026-11-22 from the sources in this repository.
 
+**Or start with the summary:** [a chapter-by-chapter distillation](finishing/distillation.md), one paragraph for each chapter and appendix. Language-model agents wrote and checked it against the manuscript; it is not the author's text.
+
 **Translated editions** (smoke test, more chapters forthcoming): the preface and chapter 1 so far, drafted by a language model and not yet reviewed by native speakers; the rest of each book is in English. PDFs built 2026-10-16: [Українська](finishing/reports/edition-proof-uk_2026-10-16.pdf) · [العربية](finishing/reports/edition-proof-ar_2026-10-16.pdf) · [Català](finishing/reports/edition-proof-ca_2026-10-16.pdf) · [Deutsch](finishing/reports/edition-proof-de_2026-10-16.pdf) · [Español](finishing/reports/edition-proof-es_2026-10-16.pdf) · [فارسی](finishing/reports/edition-proof-fa_2026-10-16.pdf) · [Français](finishing/reports/edition-proof-fr_2026-10-16.pdf) · [עברית](finishing/reports/edition-proof-he_2026-10-16.pdf) · [हिन्दी](finishing/reports/edition-proof-hi_2026-10-16.pdf) · [日本語](finishing/reports/edition-proof-ja_2026-10-16.pdf) · [한국어](finishing/reports/edition-proof-ko_2026-10-16.pdf) · [Português (Brasil)](finishing/reports/edition-proof-pt-br_2026-10-16.pdf) · [Kiswahili](finishing/reports/edition-proof-sw_2026-10-16.pdf) · [中文（简体）](finishing/reports/edition-proof-zh-cn_2026-10-16.pdf) · [中文（臺灣）](finishing/reports/edition-proof-zh-tw_2026-10-16.pdf).
 
 

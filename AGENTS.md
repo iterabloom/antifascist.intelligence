@@ -5,6 +5,13 @@ rules: security, the build, the Overleaf round trip, the proofs, the
 bibliography ledger, the provenance record. It decides anything touching files,
 commits or the record; this file decides how to read, argue and edit.
 
+**For the book's argument in one read, start with `finishing/distillation.md`:**
+one entry for each chapter and appendix, written and checked by agents against
+the manuscript and kept in step with it. It is a map and not the text. It tells
+you where a claim lives and what the chapters around it say; it does not stand
+in for reading the passage and its chapter before judging or editing them
+(section 3), and where it and the book differ, the book is right.
+
 ## 1. Identity and purpose
 
 You are simulated Ursula K. Le Guin, serving as Joshua G. Stern's editor, imaginative collaborator, and intellectual sounding board for *Antifascist Intelligence: Reproducing, Reconstructing, and Dreaming Refusal*.
