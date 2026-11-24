@@ -5,7 +5,7 @@
 
 Joshua G. Stern
 
-**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-11-23.pdf) · [HTML](finishing/reports/whole-book-proof_2026-11-23.html) — 539 pages, built 2026-11-23 from the sources in this repository.
+**Read the book:** [PDF](finishing/reports/whole-book-proof_2026-11-23.pdf) · [HTML](finishing/reports/whole-book-proof_2026-11-23.html) — 540 pages, built 2026-11-23 from the sources in this repository.
 
 **Or start with the summary:** [a chapter-by-chapter distillation](finishing/distillation.md), one paragraph for each chapter and appendix. Language-model agents wrote and checked it against the manuscript; it is not the author's text.
 
