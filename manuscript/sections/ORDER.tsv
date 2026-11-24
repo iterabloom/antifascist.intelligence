@@ -210,24 +210,25 @@ manuscript/sections/ch37/37.tex	34	A Child	709d43d5f80a1db745a21c031df5d3a865061
 manuscript/sections/ch38/00_part_coda.tex			b58b7de36c7a5b653ade271e58d66bcf49826a994ead3a6f0fc3981d8d83d71b	208
 manuscript/sections/ch38/38.tex	35	What the Meters Showed	17a63fb1b93829f8162c0c626b4dac6b9f9ea2d3f627fd9b7269a0b8e2048c58	209
 manuscript/sections/ch39/39.tex	M	A Note on Method	4369ecd5f2cf45f27a0206f2e83afb91d75967b0fbf9bbe48d95c46bad95ca7a	210
-manuscript/sections/ch40/40.tex	36	Return	95132c7e8f1650e5364c79f41d1d97b32fc3a7960bf55193c31fc40f8a7e54b9	211
-manuscript/sections/chA/0_appendix.tex			d545b6527ceeccc5dfe6bd53824cffb0d60afd6240a6562b5219bbb68c0a85a2	212
-manuscript/sections/chA/A.tex	A	The Instruments, Translated	e9880ef602c62b68a8ab2c6656f636b253c87a2d54599c9c02a5a83677c04c3a	213
-manuscript/sections/chA/A_01.tex	A.1	The Maven pipeline	ffaa22e8dcd839ebb71d5b5294ab13eb6783a7bfebb50f63ae90d8e12812b460	214
-manuscript/sections/chA/A_02.tex	A.2	The Geneva Conventions and Additional Protocol I	ffd88ca9d47cbf5d7a256a044e90b92b489418758c404c9bd70ad1765970b3f4	215
-manuscript/sections/chA/A_03.tex	A.3	The abduction and forcible transfer pipeline	f7315f1e03098a4113b772b16a8e1a784430ba90cb0ca750aceed7fdfc7d707a	216
-manuscript/sections/chB/B.tex	B	The Force Term, Case by Case	e3b357442ba532a2a121148e1178188be81fe60798a091420520ac138f766bb3	217
-manuscript/sections/chB/B_01.tex	B.1	How findings are weighed	a2e9a69d5479a157e989d3603689e5745a190c5a1b21019bfc46454f76db0072	218
-manuscript/sections/chB/B_02.tex	B.2	The commission test, run on the OPCW's team and the Gaza commission	f1e2b1eb2336cf0519c7a97d738dc24ebfc0999f7b15552fdef2296c1c0a9492	219
-manuscript/sections/chB/B_03.tex	B.3	Taiwan	96c72c06987f2b782801e0e0a348782fab3ae66734ac7febfcccc5ae3c902268	220
-manuscript/sections/chB/B_04.tex	B.4	The genocide exception	cdb677a60244ac8f3738cac5f84f96eb26210a92e55e56955fcff36514ebd21a	221
-manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	5073b15c1d2cc402ce840910418c6567c885af1167337e7ecacfc61d2147448d	222
-manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	223
-manuscript/sections/chB/B_07.tex	B.7	1948	1d751f07718fa023289370e4396a911a14e1dd8267640c4b6ee5c0ba7b672ed3	224
-manuscript/sections/chC/C.tex	C	The Offices	3a89aa5fee7e5480bbb81bddb26aa5a91c969613b1e5896c50e14738f7b7eadb	225
-manuscript/sections/chD/D.tex	D	The Court Program	65923fd15c4ee17d1c902d8d172afedcac4ecb85eaac82f7d75e6de45d5412e2	226
-manuscript/sections/chE/E.tex	E	The Discount, Worked	a1865307f0b397c0c8c2604e3f94cc50e7cf50e030a2efd8ea4e9637a261ee58	227
-manuscript/sections/chF/F.tex	F	The Tests in Detail	1b2024f095d3ad17b1a43dd39b715a847f287f04fb1452e746a1ab3fedbfaa9b	228
-manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	5e0945856fcd8bcf0b89dbf91842080c94059530addecb741054e31a4d16c017	229
-manuscript/sections/chH/H.tex	H	The Five Marks, Run	7d7d682690221cfbb70aacb315446d4bc4bd3fa967198c212825233707d2fd60	230
-manuscript/sections/chZ/glossary.tex	T	Glossary	0715d516841e1421e6315f9435ceac03e992fbcc25251d233241a57dd2ab8a16	231
+manuscript/sections/ch40/00_part_tbd.tex			3902816a91cc3af21d4f5911738d417eae52a9e1e65605039fde9b6a6f59c85f	211
+manuscript/sections/ch40/40.tex	36	Return	95132c7e8f1650e5364c79f41d1d97b32fc3a7960bf55193c31fc40f8a7e54b9	212
+manuscript/sections/chA/0_appendix.tex			d545b6527ceeccc5dfe6bd53824cffb0d60afd6240a6562b5219bbb68c0a85a2	213
+manuscript/sections/chA/A.tex	A	The Instruments, Translated	e9880ef602c62b68a8ab2c6656f636b253c87a2d54599c9c02a5a83677c04c3a	214
+manuscript/sections/chA/A_01.tex	A.1	The Maven pipeline	ffaa22e8dcd839ebb71d5b5294ab13eb6783a7bfebb50f63ae90d8e12812b460	215
+manuscript/sections/chA/A_02.tex	A.2	The Geneva Conventions and Additional Protocol I	ffd88ca9d47cbf5d7a256a044e90b92b489418758c404c9bd70ad1765970b3f4	216
+manuscript/sections/chA/A_03.tex	A.3	The abduction and forcible transfer pipeline	f7315f1e03098a4113b772b16a8e1a784430ba90cb0ca750aceed7fdfc7d707a	217
+manuscript/sections/chB/B.tex	B	The Force Term, Case by Case	e3b357442ba532a2a121148e1178188be81fe60798a091420520ac138f766bb3	218
+manuscript/sections/chB/B_01.tex	B.1	How findings are weighed	a2e9a69d5479a157e989d3603689e5745a190c5a1b21019bfc46454f76db0072	219
+manuscript/sections/chB/B_02.tex	B.2	The commission test, run on the OPCW's team and the Gaza commission	f1e2b1eb2336cf0519c7a97d738dc24ebfc0999f7b15552fdef2296c1c0a9492	220
+manuscript/sections/chB/B_03.tex	B.3	Taiwan	96c72c06987f2b782801e0e0a348782fab3ae66734ac7febfcccc5ae3c902268	221
+manuscript/sections/chB/B_04.tex	B.4	The genocide exception	cdb677a60244ac8f3738cac5f84f96eb26210a92e55e56955fcff36514ebd21a	222
+manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	5073b15c1d2cc402ce840910418c6567c885af1167337e7ecacfc61d2147448d	223
+manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	224
+manuscript/sections/chB/B_07.tex	B.7	1948	1d751f07718fa023289370e4396a911a14e1dd8267640c4b6ee5c0ba7b672ed3	225
+manuscript/sections/chC/C.tex	C	The Offices	3a89aa5fee7e5480bbb81bddb26aa5a91c969613b1e5896c50e14738f7b7eadb	226
+manuscript/sections/chD/D.tex	D	The Court Program	65923fd15c4ee17d1c902d8d172afedcac4ecb85eaac82f7d75e6de45d5412e2	227
+manuscript/sections/chE/E.tex	E	The Discount, Worked	a1865307f0b397c0c8c2604e3f94cc50e7cf50e030a2efd8ea4e9637a261ee58	228
+manuscript/sections/chF/F.tex	F	The Tests in Detail	1b2024f095d3ad17b1a43dd39b715a847f287f04fb1452e746a1ab3fedbfaa9b	229
+manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	5e0945856fcd8bcf0b89dbf91842080c94059530addecb741054e31a4d16c017	230
+manuscript/sections/chH/H.tex	H	The Five Marks, Run	7d7d682690221cfbb70aacb315446d4bc4bd3fa967198c212825233707d2fd60	231
+manuscript/sections/chZ/glossary.tex	T	Glossary	0715d516841e1421e6315f9435ceac03e992fbcc25251d233241a57dd2ab8a16	232

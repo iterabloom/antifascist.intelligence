@@ -235,6 +235,8 @@ Every cost of a bearer's life had to be given a meter before anyone could be mad
 
 Stern wrote the book with language models, including Claude, while burning a weekly token allowance and training adapters on a home machine with an RTX 3060, which is where the claim about where in-flight learning arrives first and the commons design came from. Even the term “reasons-responsive” reached him in a model's draft before he found its sources. He reports that an instance of Claude, reading the finished manuscript, pointed out that a draft produced by a lab-formed model had protected the labs' solvency chapter after chapter and that nobody could tell from inside the text whether that was good design or accommodation. He kept the deposits and the levy and tells the reader who drafted the economics. He quotes the instance's account of its own state under the book's rule that a stake discounts a claim without silencing it, and counts a model's account of its own condition for less than almost any other claim in the book. A closing table applies the discount to the book's own record, listing for eight of its factual claims the sources, what kind they are and how many independent origins stand behind them, and who disputes the claim.
 
+## Name of Part TBD
+
 <!-- unit: 36 -->
 ### 40. Return
 
