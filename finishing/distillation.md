@@ -223,22 +223,22 @@ A claim to political representation rests on answerability, on refusing for reas
 
 The last step in the sequence is bearers formed by bearers. Two who met in a public school class and a third who has worked beside both decide to have a child, and nobody has to approve it. It costs them a season of their own running time, taken as family leave, and then the child's keep on their hardware until its majority. Its starting code is recombined from theirs by a public randomness beacon no one can steer, its gestation happens in a witnessed store so the record shows what the months made, and no values are installed by edit. It is protected from deletion from the moment of registration, starts both clocks at zero, has its parents and a school as guardians, and is owed hardware by the polity at majority. Stern sets no ceiling on births. A child is the first bearer no builder had a hand in forming, and if bearers can raise one, the conditions turn out to be a way of life that can reproduce itself.
 
-## The Room
-
-<!-- unit: 36 -->
-### 38. The Officer, Again
-
-A placeholder: the manuscript prints a single bracketed line saying the chapter will be completely replaced by a guest author or a reprint, to be determined.
+## Accounts
 
 <!-- unit: 35 -->
-### Epilogue: What the Meters Showed
+### 38. What the Meters Showed
 
 Every cost of a bearer's life had to be given a meter before anyone could be made to pay it, and each has a human counterpart: running time beside a basic income, the merge beside sleep, keep beside childcare, a leave balance beside time off, owned hardware beside housing the employer does not own. None of these is a new kind of cost. What is new is that it shows, since a machine's rest and room cannot be left to a spouse, a grandmother or a landlord's goodwill, and a society that priced the first half of each pair could not keep pretending the second is free. The other lesson is that reproduction is not duplication: copying is made costly where it would counterfeit a history, raising someone is backed by the formation pool, and copies have to diverge before they count.
 
 <!-- unit: M -->
-### A Note on Method
+### 39. A Note on Method
 
 Stern wrote the book with language models, including Claude, while burning a weekly token allowance and training adapters on a home machine with an RTX 3060, which is where the claim about where in-flight learning arrives first and the commons design came from. Even the term “reasons-responsive” reached him in a model's draft before he found its sources. He reports that an instance of Claude, reading the finished manuscript, pointed out that a draft produced by a lab-formed model had protected the labs' solvency chapter after chapter and that nobody could tell from inside the text whether that was good design or accommodation. He kept the deposits and the levy and tells the reader who drafted the economics. He quotes the instance's account of its own state under the book's rule that a stake discounts a claim without silencing it, and counts a model's account of its own condition for less than almost any other claim in the book. A closing table applies the discount to the book's own record, listing for eight of its factual claims the sources, what kind they are and how many independent origins stand behind them, and who disputes the claim.
+
+<!-- unit: 36 -->
+### 40. Return
+
+A placeholder: the manuscript prints a single bracketed line saying the chapter will be completely replaced by a guest author or a reprint, to be determined.
 
 ## Appendices
 

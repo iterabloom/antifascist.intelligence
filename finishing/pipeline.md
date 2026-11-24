@@ -479,9 +479,9 @@ the list.
 ## The distillation
 
 `finishing/distillation.md` summarizes the manuscript, one entry for each
-chapter and appendix: the Preface, the Introduction, every chapter, the
-Epilogue, the Note on Method and every appendix, fifty units on 2026-11-23
-(D-1250). The glossary has no entry. Agents write it and agents check it. It is
+chapter and appendix: the Preface, the Introduction, every chapter and every
+appendix, fifty units on 2026-11-23 (D-1250; the Epilogue and the Note on
+Method, then unnumbered, are chapters 38 and 39 since D-1259). The glossary has no entry. Agents write it and agents check it. It is
 not the author's text, the file says so at its head, and where it and the book
 differ the book is right. The README links to it for readers, and a session
 that needs the book's argument in one read can start there.
@@ -586,7 +586,7 @@ proof of 2026-11-22, found at least one misstatement in twenty-five of them.
 | `manuscript/book.tex` | master. Hand-edited. |
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
-| `manuscript/sections/chNN/*.tex` | one file per section, with the Part title pages, the opening verse page and the `\appendix` switch: 232 files on 2026-11-23, 221 of them numbered sections, in `ch00` to `ch39`, `chA` to `chH` and `chZ`. The prose. |
+| `manuscript/sections/chNN/*.tex` | one file per section, with the Part title pages, the opening verse page and the `\appendix` switch: 232 files on 2026-11-23, 221 of them numbered sections, in `ch00` to `ch40`, `chA` to `chH` and `chZ`. The prose. |
 | `finishing/refs.bib` | 820 entries on 2026-11-23, reached from the manuscript by `\autocite{key}`; 814 are cited, and the six that are not are `unsc2016res2334`, kept when D-1093 stopped citing it, and the five `STATE.md`'s open list names. Entries nothing cites live in `unused_bibliography.bib`, 349 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks), D-773, D-1031 and D-1034. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and

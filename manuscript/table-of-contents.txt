@@ -197,9 +197,9 @@ Chapter 36: Representation
 36.4. A staged path
 36.5. What would have to be shown first
 Chapter 37: A Child
-Chapter 38: The Officer, Again
-Epilogue: What the Meters Showed
-A Note on Method
+Chapter 38: What the Meters Showed
+Chapter 39: A Note on Method
+Chapter 40: Return
 Appendix A: The Instruments, Translated
 A.1. The Maven pipeline
 A.2. The Geneva Conventions and Additional Protocol I

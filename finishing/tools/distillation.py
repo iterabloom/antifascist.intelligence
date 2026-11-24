@@ -8,7 +8,7 @@ distillation", says how), never by this tool. This tool does the bookkeeping:
 
   - A **unit** is one chapter-level heading of the book and the section files
     under it, in ORDER.tsv's reading order: the Preface, the Introduction, each
-    chapter, the Epilogue, the Note on Method, each appendix. The glossary is
+    chapter and each appendix. The glossary is
     not a unit. A file that carries a \part heading, a part's introduction, or
     \appendix belongs to no unit, so a change to a part's introduction makes
     nothing stale.

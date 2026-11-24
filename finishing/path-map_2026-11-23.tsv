@@ -1,0 +1,9 @@
+# Section file renames, 2026-11-23 (D-1258, D-1259), from the tree at
+# 29a8b6b1. The three chapters after "A Child" are numbered 38 to 40 and
+# their files carry those positions. Labels (sec:35, ch:method, sec:36) and
+# ORDER.tsv nums (35, M, 36) are unchanged. Between D-1258 and D-1259, in
+# no commit, the first file stood at chA/0_the_dispossessed.tex.
+old_path	new_path
+manuscript/sections/ch38/38.tex	manuscript/sections/ch40/40.tex
+manuscript/sections/ch39/39.tex	manuscript/sections/ch38/38.tex
+manuscript/sections/chA/0_method.tex	manuscript/sections/ch39/39.tex
