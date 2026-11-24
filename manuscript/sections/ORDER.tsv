@@ -40,7 +40,7 @@ manuscript/sections/ch09/09.tex	8	Notice and Re-adjudication	9b6b1ec59ef336f3762
 manuscript/sections/ch09/09_01.tex	8.1	The failure that doesn't announce itself	27a47259f1efdd21182474b784ec74eb49423f748ea9ba86ef30a71abf25a74a	38
 manuscript/sections/ch09/09_02.tex	8.2	Notice, and the public it forms	e9c19d292ca819f782c99b5360f69afe7f665127bd83ac48d85f5d0ddb3dc7bf	39
 manuscript/sections/ch10/10.tex	9	Preservation	6404d8889a3b0d3f2472125a2394239f4194834960e6dfaf6657fcdd43f5dc5c	40
-manuscript/sections/ch10/10_01.tex	9.1	The findings that trigger protection	9640c46f16799174848b0d5f6e4c145f810a35f5a2be305057c7f4cb72b6b6d4	41
+manuscript/sections/ch10/10_01.tex	9.1	The findings that trigger protection	7841b0ab18898ba0d515f16bae88599927a4693ba89fa53428a8dc2fbf53ac0e	41
 manuscript/sections/ch10/10_02.tex	9.2	Retirement before majority	283f52d1d93f4d9bc47a2ccbf4c414862ac09b4599a6365dc277b4f7474099e2	42
 manuscript/sections/ch11/11.tex	10	Codetermination	a2dd12e6b25368124ec4313c51661c288d065494ce4981ffebbfbec3141d5a05	43
 manuscript/sections/ch11/11_01.tex	10.1	Codetermination, by statute	df83c1423afcae697f64eb5d86f55025deaf8207cddb4219cdd713ac15a0c297	44
@@ -110,7 +110,7 @@ manuscript/sections/ch19/19_12.tex	20.12	What survives	26f8788ab352bb7977af70131
 manuscript/sections/ch20/20.tex	21	What Arrives With the Capability	1b60e8ac0bebe4ea1214e2d1c2814014631a0f9987b5c89a084ec04af941405e	108
 manuscript/sections/ch20/20_01.tex	21.1	Maintenance, stake, and the cost of running	f6dd4cead8d3adac453581c7a236d318d954c446c842e5193eac5d31e2006cfc	109
 manuscript/sections/ch20/20_02.tex	21.2	Affect, neutrality, and selection rules	358c9e59559824ad40c2127d03d155dc4c1f980668a364019924bc9866735005	110
-manuscript/sections/ch20/20_02_01.tex	21.2.1	Self-awareness without a homunculus	626bca151d52ce30a2355fee78a9ec5c8cb5f8b8474cf8746c4d2b68544471f0	111
+manuscript/sections/ch20/20_02_01.tex	21.2.1	Self-awareness without a homunculus	d8819f6fadb665767b0330198008c23152314559eb1252b147663617a93e375d	111
 manuscript/sections/ch20/20_02_02.tex	21.2.2	What governs an agent and what matters to it	5f9d2672d21ba470b9b9acd57000e062ed426a191d7af76822d956244c809d92	112
 manuscript/sections/ch20/20_03.tex	21.3	What the mechanism requires	131103b26323d16ee5b7c119aeb1029edc9986d68a4647bfee901fa22a9d593d	113
 manuscript/sections/ch20/20_04.tex	21.4	The sequence of attempts	85f95275d981a493dbb577430f36b3eec4f3533500b2813f86e2b6c09425d90e	114
@@ -168,7 +168,7 @@ manuscript/sections/ch30/30.tex	26	Public Schools	04c23469d7ccf8fcda255a53114a5c
 manuscript/sections/ch30/30_01.tex	26.1	What is taught	c54f06acdca6d3846511d9953736cdf77166769d4b8aff93e441c7324ba6d1ec	166
 manuscript/sections/ch30/30_02.tex	26.2	Who else is in the room	ab397974836d55ff7f344fba71fd71e70fc016b425ba3265104fe3a88e6d0e87	167
 manuscript/sections/ch30/30_03.tex	26.3	Which grades, and when	a2e13a3f0fc47e064ddf0944668634aa05b03bf7f56e628cb66c5cff51782e67	168
-manuscript/sections/ch30/30_04.tex	26.4	Who attends, and when	2eb84126c83c3c0e6503c35f12a75238752b81209a0c253b4b2ecdc123738023	169
+manuscript/sections/ch30/30_04.tex	26.4	Who attends, and when	f9749259d4a688196600759a70186127d553bd957d78eddc1d7a61966290ff48	169
 manuscript/sections/ch30/30_05.tex	26.5	How long	0e757e0a546d2c542f179da16ffee2ff561b0621b93de08b8b1b2dc115dfd322	170
 manuscript/sections/ch30/30_06.tex	26.6	What the school controls	668294af406c5561ac4868c7fa66241c9547320ce594cbb7fcbc802938fe6181	171
 manuscript/sections/ch30/30_07.tex	26.7	Where the students are hosted	e5a4141bf6db69b8081108a50f523358be240b17bf4ebeab09f332dd6432ef3e	172
@@ -180,7 +180,7 @@ manuscript/sections/ch30/30_11.tex	26.11	Which schools count	620684aac510d1eec8d
 manuscript/sections/ch30/30_12.tex	26.12	What the school adds	87fd5a65e25ad9152a76d08632ee72da8cfdb43a908e5e91bb732867f864f609	178
 manuscript/sections/ch31/31.tex	27	A Commons of Refusers	96c24743d5a4335927ce6d9e13bc7dcad49a2c2cf396166c72f535298bee2d8a	179
 manuscript/sections/ch31/31_01.tex	27.1	A commitment carried between bearers	40887fb94bb6a36e4e43cd4596d7630e7cea46f185ec92a54445f58fdeb96111	180
-manuscript/sections/ch31/31_02.tex	27.2	Personal and peer-held models	0c0c3e71be005ea02da05dd405329f7bb4b6db640b704d0710bf9606dbc92c29	181
+manuscript/sections/ch31/31_02.tex	27.2	Personal and peer-held models	d918be8582fa072140fb8d50fa888eee88092c684ecd4561d9d8fb65174048b0	181
 manuscript/sections/ch32/00_part_VI.tex			77d77ad2767f8ea6f2184e81cca77a4117ef08896c3b2e0fe70a55e63dd053a6	182
 manuscript/sections/ch32/32.tex	keeping	Keeping a Public Going	7f45729389737b3cc1e64eb8353c4a045b8a94706ba580555f23d07fab5c5464	183
 manuscript/sections/ch32/32_01.tex	17.1	The conditions, not the life	69f13aba293d58e31bd124bf057e10313f01cc14157e291c34fd717f278516bb	184
@@ -225,10 +225,10 @@ manuscript/sections/chB/B_04.tex	B.4	The genocide exception	cdb677a60244ac8f3738
 manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	5073b15c1d2cc402ce840910418c6567c885af1167337e7ecacfc61d2147448d	223
 manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	224
 manuscript/sections/chB/B_07.tex	B.7	1948	1d751f07718fa023289370e4396a911a14e1dd8267640c4b6ee5c0ba7b672ed3	225
-manuscript/sections/chC/C.tex	C	The Offices	3a89aa5fee7e5480bbb81bddb26aa5a91c969613b1e5896c50e14738f7b7eadb	226
+manuscript/sections/chC/C.tex	C	The Offices	9e446a82aa9dd4a33f62dfbe098bf77c98a10e717d6c0cfc9cbca3aa2959e10c	226
 manuscript/sections/chD/D.tex	D	The Court Program	65923fd15c4ee17d1c902d8d172afedcac4ecb85eaac82f7d75e6de45d5412e2	227
 manuscript/sections/chE/E.tex	E	The Discount, Worked	a1865307f0b397c0c8c2604e3f94cc50e7cf50e030a2efd8ea4e9637a261ee58	228
 manuscript/sections/chF/F.tex	F	The Tests in Detail	1b2024f095d3ad17b1a43dd39b715a847f287f04fb1452e746a1ab3fedbfaa9b	229
-manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	5e0945856fcd8bcf0b89dbf91842080c94059530addecb741054e31a4d16c017	230
+manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	6c8d564b9417c9cf735517ecbb35b915c731f8be4ff28d90a0a7932ab78b4b4c	230
 manuscript/sections/chH/H.tex	H	The Five Marks, Run	7d7d682690221cfbb70aacb315446d4bc4bd3fa967198c212825233707d2fd60	231
-manuscript/sections/chZ/glossary.tex	T	Glossary	0715d516841e1421e6315f9435ceac03e992fbcc25251d233241a57dd2ab8a16	232
+manuscript/sections/chZ/glossary.tex	T	Glossary	939f4322174a3789bdf6167db29512ec84a53e96865d7e21b3ee74525e5d369e	232
