@@ -13,6 +13,15 @@ renumbering would repoint those citations at the wrong rule.
 `dated_names` count. **Read their columns as noise unless somebody reinstates the
 rule.**
 
+**A rule drawn from the author's hand edits is drawn from what he applied.**
+When a pass generalizes his edits, read the commits that carry them, not the
+pages or drafts he was shown; cite beside each rule the edit it comes from, and
+confirm the rules on a second sample before applying them. P52 (D-117) read
+`331f0a5..fc65cd5` rather than the eight before-and-after pages, because the
+range is what he applied, and every class of its taxonomy cites one of his
+edits. D-772 drew thirteen rules for the bibliography notes from six notes he
+edited and confirmed them on a second sample of eight.
+
 ## 1. Person and stance (D-008)
 
 | Now | Becomes |
@@ -44,6 +53,7 @@ Delete on sight:
 - **Closing summary paragraphs.** 31 sections end with "In conclusion" or "In summary". A section of 400–900 words does not need to summarize itself.
 - **Opening signposts.** "In this section, we will explore…" Start with the content.
 - **The concluding-restatement move** generally: "Ultimately", "In essence" as paragraph openers (7 and 6 respectively).
+- **Editorial archaeology and the named mannerisms** (D-099). What an earlier draft said, what a section used to claim, "this section used to": the repository is the revision record, so state the corrected claim without its history, and where the history carried an argument, restate the argument. D-099 kept the note on method, now `chA/0_method.tex`, as the one place a process statement stays. With it go "the honest X", "it is worth X-ing", "what belongs here", and the announced concession, where the concession stays and the announcement goes. P35 cut fifteen archaeology passages and 57 mannerisms on the author's instruction; D-117 found one more piece of archaeology, "the old list", in the conclusion.
 
 **Cut the sentence that announces what the next sentence will do.**
 
@@ -58,7 +68,7 @@ Delete on sight:
 
 Three corollaries:
 
-- **Prefer the positive construction to "not X. It is Y."** The contrastive frame is announcing in another costume: it spends a clause on the wrong answer.
+- **Prefer the positive construction to "not X. It is Y."** The contrastive frame is announcing in another costume: it spends a clause on the wrong answer. Do not sweep it by its rate per thousand words: a chapter whose content is contrastive scores high because of that content, as P35 found of the two highest-scoring chapters (D-099). What grates is the pile-up, two or more in one sentence (D-099) or two within sixty words (D-159); `antithesis.py --clusters` finds both.
 - **Prefer an active subject to a nominalized one.** "Section 2.3.3 expounds" over "That claim is taken up in the discussion of".
 - **A rhetorical question is permitted** where it replaces a paragraph of throat-clearing. "The implication for machine perception?" does the work of two sentences.
 - **Drop the superlative you cannot defend.** "the most consequential instance" became "illustrate".
@@ -94,6 +104,11 @@ Three shapes the rule condemns:
 - **The catalog.** A numbered run of theories, techniques, or frameworks, one
   paragraph each, with an example and a "challenge" attached. The catalog's real
   claim is almost always one item long.
+  A run of cases each carrying a distinct claim is not a catalog however long
+  it runs (D-101); real ones sit in section openers, closing run-ins and remedy
+  lists, and are found there by position. `inventories.py`'s syntactic score
+  is not evidence (D-111, ruling Q-040): at P37 it missed an inventory spread
+  over consecutive sentences, the shape a reader feels.
 - **The definition with a speculative tail.** "X trains a system on Y. Applied to
   ethics, the same method could …" followed by applications nobody has built.
 - **The capability list.** A bulleted set of things a well-designed system would
@@ -135,6 +150,16 @@ usually a paragraph pretending to follow from the one before it. Cut the word;
 if the paragraph no longer follows, that is the real problem. "However" opening a
 paragraph is the same tic and goes the same way. Inside a paragraph it is an
 ordinary word and this section has nothing to say about it.
+
+**A sweep made to lower a count is checked two ways before it is reported**
+(D-044). Count the replacement constructions against the rest of the book,
+since a rewrite can trade one tic for another; and read every edited sentence
+in its paragraph, since a rewrite can drop or invert the claim. Chapter 5's tic
+pass of 2026-08-24 needed both: its first rewrite traded the contrastive
+negation for ", and not", "and not only" and ", where"; three rewrites damaged
+arguments, one turning a sentence into an endorsement of the design it
+rejected, and a fourth added a false claim. Reading caught all four; no
+measurement did.
 
 ## 3a. The em dash
 

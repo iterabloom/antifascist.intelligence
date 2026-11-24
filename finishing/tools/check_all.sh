@@ -15,6 +15,7 @@ run "named-persons guard" python3 finishing/tools/names_guard.py
 run "bibliography ledger, and the draft-status macros it generates" python3 finishing/tools/refs_ledger.py --check
 run "translated editions: record, labels, glossary, generated files (stale listed)" python3 finishing/tools/editions.py --check
 run "chapter distillation: file and record well formed (stale listed)" python3 finishing/tools/distillation.py --check
+run "STATE.md's lead: one status paragraph, one open list" python3 finishing/tools/state_lead.py --check
 echo
 [ "$fail" = 0 ] && echo "ALL CHECKS PASSED" || echo "SOME CHECKS FAILED"
 exit "$fail"

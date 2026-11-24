@@ -141,6 +141,20 @@ decides tone and editorial judgment in conversation.
   says so at its head. The named-persons rule applies to it in full: an entry
   credits a person only with what the chapter itself attributes to them.
 
+- **The state file's lead.** `finishing/STATE.md` opens with one status
+  paragraph, the only line that begins "Read this first.", and under it one
+  list of open items, each stated in full with the decision or date it comes
+  from (D-1253). **No lead points at another for its open items**, and a new
+  lead is never stacked on the old one: `finishing/tools/state_lead.py --rotate
+  FILE` installs the new status paragraph and moves the old one to
+  `finishing/STATE-superseded-leads.md`, where former leads are kept (D-1254).
+  The open list is edited in place: an item comes out when a decision closes
+  it, and the DECISIONS row says so. `state_lead.py --check` holds the form and
+  runs in `check_all.sh`; `finishing/pipeline.md`, "STATE.md's lead", has the
+  steps, which are part of "make the proofs". When the tool's notice asks for
+  it, or the author does, the whole list is rechecked against the tree by Opus
+  subagents, as the distillation is.
+
 - **Sending a file to the author.** `~/upload-tool/upload.sh`, outside the
   repository, zips what you name, encrypts it under a random passphrase, uploads
   the ciphertext to a third-party host (litterbox, 72 hours) and verifies the
@@ -181,7 +195,8 @@ decides tone and editorial judgment in conversation.
   the tree, to `main`, and push; bring the chapter distillation up to date for
   the chapters that changed (below); run `finishing/tools/build_proof.sh`; remove
   the previous dated pair if the date has rolled over; point the README's two
-  links at the new files; commit and push again. **Two commits**, so the work is
+  links at the new files; rotate `finishing/STATE.md`'s lead and bring its open
+  list up to date; commit and push again. **Two commits**, so the work is
   legible in the first diff and the second carries only generated output.
   `finishing/pipeline.md` has the steps in full and the reason for each.
   Translated editions (`manuscript/<code>/`) are not part of the plain phrase.

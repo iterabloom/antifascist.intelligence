@@ -342,7 +342,16 @@ that names a fixed sequence, not just a build. It means all of this, in order:
 5. **Commit the proofs, the README and the distillation, and push again.** Two
    commits, not one: the work is legible in the first, and the second is
    generated output.
-6. **Re-read the top of `STATE.md` for what the build just falsified.** A lead
+6. **Rotate `STATE.md`'s lead and bring its open list up to date** (D-1253;
+   "STATE.md's lead", below, has the form and the steps). The new status
+   paragraph goes in with `finishing/tools/state_lead.py --rotate FILE`, which
+   retires the old one; the open list under it is edited in place, items this
+   run closed taken out and items it opened put in. `state_lead.py --check`
+   runs in `check_all.sh` and fails on a second live lead, on a lead that
+   points at another lead for its open items, and on a lead grown past its
+   limits, so the second commit can't be made with the lead in the state
+   D-1030 and D-1253 each had to clear.
+   **And re-read the top of `STATE.md` for what the build just falsified.** A lead
    written before the proofs says the proofs are behind, and how many pages the
    old ones had. Both are false the moment step 2 finishes, and nothing in the
    suite checks prose. This happened three times on 2026-09-18 alone — the
@@ -392,6 +401,80 @@ download, not a page. The PDF link renders in GitHub's own viewer and works.
 Serving the HTML as a page needs a decision the repository has not taken —
 GitHub Pages, or a third-party renderer — and it is recorded in D-083 rather
 than chosen here.
+
+## STATE.md's lead
+
+`finishing/STATE.md` opens with what a session reads first. Twice the lead
+stopped being one thing: 145 leads stood live on 2026-10-25 (D-1030) and thirty
+on 2026-11-23 (D-1253), each written on top of the last and ending "the open
+items of the lead below stand". The cause both times was the same. The open
+items lived inside the paragraph that reports a proof build, so every build
+made a new paragraph and every new paragraph had to point at the old one or
+copy its list. The form below separates the two, and a tool holds it.
+
+**The live lead is everything above the first heading of `STATE.md`,** the
+line `# Where the older state went` since D-1255. It has two parts and nothing else. **Former leads are
+not kept in `STATE.md`.** They are in `finishing/STATE-superseded-leads.md`,
+newest first (D-1254), and `--check` fails if one is left in `STATE.md`. The
+passage under step 6 of "Make the proofs" that finds the lead's end by
+`grep -n '^\*\*Superseded lead'` describes the file as it was before that
+move; the heading is the boundary now.
+
+1. **The status paragraph.** Line 1 of the file, one paragraph, beginning
+   `Read this first. **Updated YYYY-MM-DD, after the proofs of D-NNNN.**` It
+   says which commits hold the work, which pair was built and from what, the
+   page count, the footer count, what the logs showed, which pages were looked
+   at, and in a sentence or two apiece what the decisions it carries did. It is
+   the only line in the file that begins "Read this first.", and it is at most
+   700 words: what a decision changed, file by file, is the DECISIONS row's to
+   say and not the lead's.
+2. **The open list.** A line beginning `**Open items.**` that says when the
+   list was last checked against the tree as a whole, and under it one bullet
+   to an item, grouped under italic heads. Each bullet states its item in full,
+   says who it waits on where that isn't plain, and names where it came from: a
+   decision number, or a date. **No item is a pointer to another lead.** "The
+   open items of the lead below stand" is the sentence this form exists to
+   retire, and `--check` fails on it.
+
+**At each proof run** (step 6 of "Make the proofs"):
+
+1. Write the new status paragraph to a file outside the repository and run
+   `finishing/tools/state_lead.py --rotate FILE`. The tool puts it on line 1
+   and moves the old one to the head of `finishing/STATE-superseded-leads.md`,
+   its opening words changed to `**Superseded lead, kept for the record.**`.
+   Nothing else in the old paragraph changes, and nothing in that file is
+   edited afterwards.
+2. Edit the open list in place. **Take out** each item the run's decisions
+   closed, and say in the DECISIONS row which items those were. **Put in** each
+   item the run opened: what the row calls not done, not verified, left, or the
+   author's to rule on. **Reword** an item the run changed. An item the run
+   didn't touch stays as it is, with the decision number or date it already
+   carries.
+3. Run `state_lead.py --check`. It fails on a form error and prints the
+   counts.
+
+**An item leaves the list in one of two ways:** a decision closes it, or a
+check against the tree finds it already closed, and the row that records the
+check names it. Nothing leaves because it is old, and nothing leaves by being
+left out of a rewrite.
+
+**The whole list is rechecked against the tree** when `--check` prints its
+notice, which it does thirty days after the date on the `**Open items.**` line
+or when the list passes 150 items, and whenever the author asks. The recheck
+is the method of D-1253: Opus subagents, as for the distillation. One or more
+take the list in groups and test each item against the manuscript and the
+record, by the phrase it quotes and not by a section number, since the book
+has been renumbered more than once; each item comes back *open* with what
+shows it, *closed* with the file and line or the decision that closed it, or
+*not rechecked* with the reason. A fresh agent checks a sample of the *closed*
+verdicts, since a wrong one drops an item for good. The session splices the
+result in, changes the date on the `**Open items.**` line, and records in
+DECISIONS which items were found closed.
+
+**What the tool does not do.** It checks the lead's form. It can't tell
+whether a status sentence is true or whether an open item is still open; the
+re-read that follows step 6's first paragraph is still an agent's, and so is
+the list.
 
 ## The distillation
 
@@ -503,8 +586,8 @@ proof of 2026-11-22, found at least one misstatement in twenty-five of them.
 | `manuscript/book.tex` | master. Hand-edited. |
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
-| `manuscript/sections/chNN/*.tex` | one file per section, 136 of them. The prose. |
-| `finishing/refs.bib` | 592 entries, every one of them cited, reached from the manuscript by `\autocite{key}`. Entries nothing cites live in `unused_bibliography.bib`, 347 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks) and D-773. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
+| `manuscript/sections/chNN/*.tex` | one file per section, with the Part title pages, the opening verse page and the `\appendix` switch: 232 files on 2026-11-23, 221 of them numbered sections, in `ch00` to `ch39`, `chA` to `chH` and `chZ`. The prose. |
+| `finishing/refs.bib` | 820 entries on 2026-11-23, reached from the manuscript by `\autocite{key}`; 814 are cited, and the six that are not are `unsc2016res2334`, kept when D-1093 stopped citing it, and the five `STATE.md`'s open list names. Entries nothing cites live in `unused_bibliography.bib`, 349 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks), D-773, D-1031 and D-1034. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**
@@ -514,7 +597,29 @@ regenerates every printed number. Write new ones the same way —
 line — and `check_xrefs.py` will tell you if a number gets typed into the prose
 by hand.
 
+**A reference that resolves can still point at the wrong thing.** LaTeX keeps
+the printed number right, and `check_xrefs.py` checks only that a reference
+resolves and that no number is typed by hand; neither knows whether the target
+still says what the citing sentence claims (D-046, D-050). After a section is
+cut, split, merged, moved or renumbered, read every citing sentence into it
+against its target, with `finishing/tools/xref_pairs.py --out <scratch file>`
+printing each beside the target's opening (D-111), and search for worded
+pointers ("a later chapter"). Check too whether a citing sentence used the cut
+text as its source: P14 (D-050) found that a cut made at P11 had left five dated
+claims sourced only by a pointer into prose that no longer held them, and D-052
+found two more pointers the same pass's split had stranded.
+
 ## Things worth knowing
+
+**Agents working at once share one tree, so each writes only what it was
+given.** Shared records (`ledger.tsv`, `DECISIONS.md`, `STATE.md`,
+`distillation.md`, the reports) are written by the session from what the agents
+report back. No agent reverts a change it did not make, and none runs
+`git stash`, `git checkout --` or `git reset` while another is writing. A plain
+run of `claims.py`, `tics.py`, `section_stats.py` or `xref_pairs.py` rewrites a
+committed report in `finishing/reports/`. On 2026-08-23 a P4 agent reverted, as
+a sub-agent's overreach, an edit the session had made at the author's request,
+and a P3.5 agent (D-025) ran `git stash` while three others were mid-write.
 
 **`refs.bib` is compiled, so LaTeX validates it.** The first full build failed
 on four URLs containing bare `%` inside `note` fields — a comment character in
