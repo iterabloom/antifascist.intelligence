@@ -158,8 +158,10 @@ that a key not on that list is set on an orange highlight, in the PDF by
 `lua-ul`'s `\highLight` and in the HTML as a `ref-unchecked` span that
 `html_single_file.py` colours. Under an engine other than LuaTeX the text itself
 is set orange. In `\autocites{a}{b}` each key carries its own state, and the
-brackets and locators stay plain. The highlight belongs to the apparatus:
-`\draftmodefalse` removes it, and the `--tex` render strips it. **To clear one,
+brackets and locators stay plain. The title page says what the orange means,
+in a sentence after the verification sentence with a sample of the mark
+(`\refhighlightnote`, D-1302). The highlight and that sentence belong to the
+apparatus: `\draftmodefalse` removes both, and the `--tex` render strips both. **To clear one,
 a human marks the entry and rebuilds**:
 
 ```

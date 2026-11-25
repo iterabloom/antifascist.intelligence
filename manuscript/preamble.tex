@@ -203,6 +203,24 @@
   \else
     \newcommand{\refunchecked}[1]{\textcolor{orange!80!black}{#1}}
   \fi\fi
+  % The title page says what the orange means (D-1302), after the verification
+  % sentence and with a sample of the mark itself, so the reader meets the key
+  % before the first marked citation. The verb follows the rendering: orange
+  % text under an engine without lua-ul is not a highlight. An edition may
+  % define its own before it inputs this file.
+  \ifdefined\HCode
+    \providecommand{\refhighlightnote}{In this draft, a citation of an entry
+      no human has yet checked is highlighted in orange,
+      \refunchecked{like this}.}
+  \else\ifdefined\directlua
+    \providecommand{\refhighlightnote}{In this draft, a citation of an entry
+      no human has yet checked is highlighted in orange,
+      \refunchecked{like this}.}
+  \else
+    \providecommand{\refhighlightnote}{In this draft, a citation of an entry
+      no human has yet checked is printed in orange,
+      \refunchecked{like this}.}
+  \fi\fi
   \letbibmacro{draft:cite}{cite}
   \renewbibmacro*{cite}{%
     \ifcsdef{refok@\thefield{entrykey}}
@@ -550,7 +568,7 @@
     \vfill
     {\footnotesize\booklegal\par}
     \vspace{1.2\baselineskip}
-    {\footnotesize\bookverification\par}
+    {\footnotesize\bookverification\ifdraftmode\ \refhighlightnote\fi\par}
     \ifdraftmode
       \vspace{0.6\baselineskip}
       {\footnotesize\color{black!55}\draftstampline\par}
