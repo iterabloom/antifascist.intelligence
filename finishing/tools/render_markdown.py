@@ -21,7 +21,7 @@ the typeset bibliography. It carries a table of contents (D-1098): the
 rendered headings, part to subsection, as a list after the front matter.
 `--upthru N` renders the book only through chapter N -- the preface, the
 introduction, the parts and chapters 1 to N -- for a reader that can't take the whole of it at
-once, and `--upthru C` through an appendix, everything before it included; the contents still lists the whole book, with a line marking where the
+once, `--upthru 0` the preface alone, and `--upthru C` through an appendix, everything before it included; the contents still lists the whole book, with a line marking where the
 text stops, so the reader knows what the rest covers. Citations are footnotes, as the book sets
 them (D-774): full at a work's first citation in a chapter, short after, with
 the entry's note after its first full citation. Their text is biblatex's, not
@@ -72,6 +72,7 @@ Usage:
     finishing/tools/render_markdown.py              # -> /tmp/<slug>_<date>.md
     finishing/tools/render_markdown.py --truncate 30   # ... notes cut at 30 words
     finishing/tools/render_markdown.py --keys       # ... citations as [@key]
+    finishing/tools/render_markdown.py --upthru 0   # ... the preface alone
     finishing/tools/render_markdown.py --upthru 3   # ... preface to chapter 3
     finishing/tools/render_markdown.py --upthru C   # ... preface to Appendix C
     finishing/tools/render_markdown.py --tex        # -> /tmp/<slug>_<date>.tex
@@ -928,7 +929,9 @@ def unit_of(nums):
 
 
 def unit_name(unit):
-    """"chapter 3", "Appendix C"."""
+    """"chapter 3", "Appendix C", or "the preface" for --upthru 0."""
+    if unit == "0":
+        return "the preface"
     return ("chapter " if unit.isdigit() else "Appendix ") + unit
 
 
@@ -1367,7 +1370,7 @@ def main():
     ap.add_argument("--upthru", type=str.upper, metavar="N",
                     help="Markdown only: render the book through chapter N "
                          "(the preface, the introduction, the parts and "
-                         "chapters 1 to N), or "
+                         "chapters 1 to N), 0 for the preface alone, or "
                          "through an appendix given by its letter (everything "
                          "before it included); the table of contents still "
                          "lists the whole book")
@@ -1434,9 +1437,13 @@ def main():
             letters = [u for u in units if u and not u.isdigit()]
             if args.upthru.isdigit():
                 args.upthru = str(int(args.upthru))   # "03" is chapter 3
+            # 0 is the preface, the one unit before chapter 1 that a reader
+            # asks for alone; ORDER.tsv numbers it 0 (D-1306).
+            if args.upthru == "0":
+                units = ["0" if r["num"] == "0" else u for r, u in zip(rows, units)]
             if args.upthru not in units:
-                ap.error("--upthru takes a chapter number from %s to %s or an "
-                         "appendix letter from %s to %s"
+                ap.error("--upthru takes 0 for the preface, a chapter number "
+                         "from %s to %s or an appendix letter from %s to %s"
                          % (chapters[0], chapters[-1], letters[0], letters[-1]))
             # Through the last file of that chapter or appendix, in reading
             # order: an appendix keeps every chapter, the note on method and
@@ -1491,6 +1498,9 @@ def main():
         body = squeeze(body[:kept])
         if args.upthru is None:
             scope = ""
+        elif args.upthru == "0":
+            scope = ("This file holds the preface; the rest is listed in the "
+                     "contents and not included. ")
         else:
             scope = ("This file holds the book through chapter %s of %s: the "
                      "preface, the introduction, the parts and the "
