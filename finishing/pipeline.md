@@ -495,9 +495,10 @@ renumbering, and a comment, so a rendered page does not show it.
 (a sha256 over each file's path and sha256), the commit that state is in, the
 date, and who brought the entry up to date. A fingerprint that no longer
 matches is the whole staleness test, as it is for a translated edition.
-`--check` runs in `check_all.sh`. It fails only on a malformed file or record.
-A stale, missing or orphaned entry is listed and does not fail, because a
-chapter changes first and its entry follows.
+`--check` runs in `check_all.sh`. It fails on a malformed file or record, and
+on entries over their target once every unit is up to date ("What an entry
+is", rule 8). A stale, missing or orphaned entry is listed and does not fail,
+because a chapter changes first and its entry follows.
 
 **The fingerprint says a file changed. It does not say the entry is wrong, and
 a match does not say the entry is right.** Deciding the first is the writer's
@@ -530,6 +531,24 @@ job below; nothing but a reader decides the second.
    owns it, and `--fix-headings` rewrites it after a renumbering.
 7. A count the entry states ("seven tests", "five marks") is recounted against
    the text every time the entry is touched.
+8. **The entries together have a target: 7.4 percent of the manuscript's
+   word count** (the author's instruction, 2026-11-24, D-1295). The total is
+   what matters, and no entry has a quota of its own: a change in one chapter
+   may call for more words in its entry and fewer in another's. The
+   manuscript's count is the one `render_markdown.py --keys --check` prints;
+   the distillation's is the words of the entries' paragraphs, not their
+   marker lines, their headings, or the file's opening. On 2026-11-24 that
+   is 7.4 percent of 184,586, or 13,659 words. The figure is the share the
+   first run had on 2026-11-23, 13,028 words against 177,100. Rule 1's
+   "cutting a right sentence to meet a count is the worse error" gives way
+   to this target: in the two days after the first run the entries grew by
+   11 percent while the book grew by 4, because each proof run added
+   sentences and none took any out. `distillation.py --check` prints both
+   counts and fails when the entries are over the target and every unit is
+   up to date (D-1296); while a unit is stale the excess is reported and
+   not failed, because the chapter changes first. When a run ends over the
+   target, a writer shortens entries, wherever in the file the words are
+   least needed, and a fresh checker reads what was shortened.
 
 ### Bringing it up to date
 
@@ -587,7 +606,7 @@ proof of 2026-11-22, found at least one misstatement in twenty-five of them.
 | `manuscript/preamble.tex` | all typesetting. Hand-edited; this is the design surface. |
 | `manuscript/sections.tex` | the `\input` list. **Generated** by `finishing/tools/gen_book.py` from `sections/ORDER.tsv`. |
 | `manuscript/sections/chNN/*.tex` | one file per section, with the Part title pages, the opening verse page and the `\appendix` switch: 233 files on 2026-11-24, 221 of them numbered sections, in `ch00` to `ch40`, `chA` to `chH` and `chZ`. The prose. |
-| `finishing/refs.bib` | 820 entries on 2026-11-23, reached from the manuscript by `\autocite{key}`; 814 are cited, and the six that are not are `unsc2016res2334`, kept when D-1093 stopped citing it, and the five `STATE.md`'s open list names. Entries nothing cites live in `unused_bibliography.bib`, 349 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks), D-773, D-1031 and D-1034. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. |
+| `finishing/refs.bib` | 816 entries on 2026-11-24, reached from the manuscript by `\autocite{key}`; 815 are cited, and the one that is not is `unsc2016res2334`, kept when D-1093 stopped citing it. Entries nothing cites live in `unused_bibliography.bib`, 354 of them: started at D-111, with later batches at D-137 to D-156, P187, P205, D-640 (152 at once, after the move had lapsed for three weeks), D-773, D-1031, D-1034 and D-1298. An entry goes there when a pass cuts the last sentence citing it; to restore one, move its block back and cite it. Since D-1297 `refs_ledger.py --check`, which runs in `check_all.sh`, lists every entry the manuscript does not cite, reporting and not failing; an entry kept uncited on purpose has a row in `finishing/refs-kept-uncited.tsv` and is counted and not listed. |
 
 Add, remove, or renumber a section and you must re-run `gen_book.py` and
 `refresh_order_shas.py`; `check_all.sh` fails if either is stale. You do **not**

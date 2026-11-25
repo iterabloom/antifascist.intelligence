@@ -30,7 +30,17 @@ distillation", says how), never by this tool. This tool does the bookkeeping:
 
 Stale, missing and orphaned entries are reported, not failed: a chapter changes
 first and its entry follows, at the next "make the proofs". What fails --check
-is a file or record that is malformed.
+is a file or record that is malformed, or entries that are over their target.
+
+  - **The target** (D-1295, D-1296): the entries together are held to
+    TARGET_SHARE of the manuscript's word count, 7.4 percent. The manuscript is
+    counted as render_markdown.py counts it (`--keys --check`, the text's
+    words without its notes); the entries are counted as the words of their
+    paragraphs, without marker lines, headings, or the file's opening. --check
+    prints both counts every time. Entries over the target fail --check once
+    every unit is up to date; while a unit is stale, missing or unrecorded the
+    excess is reported and not failed, for the same reason a stale entry is
+    not: the chapter changes first.
 
   distillation.py --check             validate; list stale, missing, orphaned
   distillation.py --stale             the keys that need work, one per line
@@ -63,6 +73,22 @@ RECORD = os.path.join(REPO, "finishing", "distillation.tsv")
 RECORD_COLS = ["key", "heading", "source_sha256", "commit", "date", "by"]
 MARK_RE = re.compile(r"^<!-- unit: (\S+) -->\s*$")
 SKIP_TITLES = {"Glossary"}
+TARGET_SHARE = 0.074
+
+
+def manuscript_words():
+    """The manuscript's word count as render_markdown.py prints it, or None
+    with the reason if the render could not be run or read."""
+    tool = os.path.join(os.path.dirname(os.path.abspath(__file__)), "render_markdown.py")
+    try:
+        r = subprocess.run([sys.executable, tool, "--keys", "--check"],
+                           capture_output=True, text=True, cwd=REPO, timeout=120)
+    except (OSError, subprocess.SubprocessError) as exc:
+        return None, str(exc)
+    m = re.search(r"(\d+) sections, (\d+) words", r.stderr + r.stdout)
+    if not m:
+        return None, "render_markdown.py --keys --check printed no word count"
+    return int(m.group(2)), ""
 
 
 def _divider(path):
@@ -404,7 +430,24 @@ def main():
     counts = {s: sum(1 for v in st.values() if v == s) for s in ("ok", "stale", "missing", "unrecorded")}
     print("distillation: %d units, %d up to date, %d stale, %d missing, %d unrecorded, %d orphaned"
           % (len(us), counts["ok"], counts["stale"], counts["missing"], counts["unrecorded"], len(orphans)))
-    sys.exit(1 if errors else 0)
+    over = False
+    entry_words = sum(len(e["body"].split()) for e in entries if e["key"] in by_key)
+    book_words, why = manuscript_words()
+    if book_words is None:
+        print("TARGET: the manuscript could not be counted (%s); entries %d words, not tested" % (why, entry_words))
+    else:
+        target = int(round(TARGET_SHARE * book_words))
+        print("distillation: entries %d words, %.2f percent of the manuscript's %d; target %.1f percent, %d words"
+              % (entry_words, 100.0 * entry_words / book_words, book_words, 100 * TARGET_SHARE, target))
+        if entry_words > target:
+            behind = counts["stale"] + counts["missing"] + counts["unrecorded"]
+            if behind:
+                print("OVER TARGET by %d words: not failed while %d unit(s) are behind" % (entry_words - target, behind))
+            else:
+                over = True
+                print("ERROR: the entries are %d words over the target; shorten them (finishing/pipeline.md, "
+                      "\"What an entry is\", rule 8)" % (entry_words - target))
+    sys.exit(1 if errors or over else 0)
 
 
 if __name__ == "__main__":

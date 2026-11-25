@@ -40,12 +40,25 @@ from the bibliography or if the generated macros are stale, so the count
 printed in the footer of every page of the PDF cannot say something the
 ledger does not.
 
+--check also lists the entries the manuscript does not cite (D-1297). It
+reports them and does not fail: an entry is often left in refs.bib while the
+passage that cited it is being rewritten, and the remedy is the author's, to
+cite it again or move it to finishing/unused_bibliography.bib. An entry kept
+uncited on purpose has a row in finishing/refs-kept-uncited.tsv (key, reason,
+decision) and is counted and not listed; a row whose key is cited again, or
+gone from refs.bib, is reported so the file stays true. Citations are read
+from manuscript/sections/ and manuscript/book.tex, with comments stripped:
+\autocite{a,b}, with optional arguments, and every argument of
+\autocites{a}{b}. A key cited with no entry in refs.bib is reported too; the
+build is what fails on that.
+
 The build timestamp in that footer is NOT generated here. It is computed by
 TeX at compile time, so that this file stays stable between builds and --check
 means something.
 """
 import argparse
 import datetime
+import glob
 import os
 import re
 import sys
@@ -56,6 +69,11 @@ import common  # noqa: E402
 BIB = os.path.join(common.REPO, "finishing", "refs.bib")
 LEDGER = os.path.join(common.REPO, "finishing", "refs-ledger.tsv")
 STATUS_TEX = os.path.join(common.REPO, "manuscript", "draft-status.tex")
+
+KEPT = os.path.join(common.REPO, "finishing", "refs-kept-uncited.tsv")
+KEPT_HEADER = ["key", "reason", "decision"]
+CITE_RE = re.compile(r"\\autocites?\*?")
+CITE_ARG_RE = re.compile(r"\s*(?:\[[^\]]*\]){0,2}\{([^}]*)\}")
 
 HEADER = ["key", "checked", "date", "by", "notes"]
 ENTRY_RE = re.compile(r"^@(\w+)\s*\{\s*([^,\s]+)\s*,", re.MULTILINE)
@@ -83,6 +101,72 @@ def bib_keys():
         seen.add(key)
         keys.append(key)
     return keys, dupes
+
+
+def cited_keys():
+    """Every key the manuscript cites: \\autocite{a,b} and each argument of
+    \\autocites{a}{b}, optional arguments skipped, comments stripped."""
+    files = sorted(glob.glob(os.path.join(common.REPO, "manuscript", "sections", "**", "*.tex"),
+                             recursive=True))
+    files.append(os.path.join(common.REPO, "manuscript", "book.tex"))
+    cited = set()
+    for path in files:
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8") as fh:
+            tex = re.sub(r"(?<!\\)%.*", "", fh.read())
+        for m in CITE_RE.finditer(tex):
+            i, many = m.end(), m.group(0).rstrip("*").endswith("autocites")
+            while True:
+                arg = CITE_ARG_RE.match(tex, i)
+                if not arg:
+                    break
+                cited.update(k.strip() for k in arg.group(1).split(",") if k.strip())
+                i = arg.end()
+                if not many:
+                    break
+    return cited
+
+
+def kept_uncited():
+    """(keys kept uncited on purpose, problems with the file)."""
+    if not os.path.exists(KEPT):
+        return [], []
+    with open(KEPT, encoding="utf-8") as fh:
+        lines = [l.rstrip("\n") for l in fh if l.strip()]
+    if not lines or lines[0].split("\t") != KEPT_HEADER:
+        return [], ["refs-kept-uncited.tsv: the header must be %s" % " ".join(KEPT_HEADER)]
+    keys, problems = [], []
+    for l in lines[1:]:
+        cols = l.split("\t")
+        if len(cols) != len(KEPT_HEADER) or not cols[0] or not cols[1]:
+            problems.append("refs-kept-uncited.tsv: a row needs a key, a reason and a decision: %r" % l)
+            continue
+        keys.append(cols[0])
+    return keys, problems
+
+
+def report_uncited(keys):
+    """Print what the manuscript cites of refs.bib. Reports; never fails."""
+    cited = cited_keys()
+    kept, problems = kept_uncited()
+    have = set(keys)
+    for p in problems:
+        print("refs NOTE: " + p)
+    for k in kept:
+        if k not in have:
+            print("refs NOTE: refs-kept-uncited.tsv lists %s, which is not in refs.bib; drop the row" % k)
+        elif k in cited:
+            print("refs NOTE: refs-kept-uncited.tsv lists %s, which is cited again; drop the row" % k)
+    uncited = [k for k in keys if k not in cited and k not in set(kept)]
+    held = [k for k in kept if k in have and k not in cited]
+    print("refs cited: %d of %d entries; %d kept uncited on purpose; %d uncited"
+          % (len(have & cited), len(keys), len(held), len(uncited)))
+    for k in uncited:
+        print("refs UNCITED: %s (cite it, move it to unused_bibliography.bib, or give it a row in "
+              "refs-kept-uncited.tsv)" % k)
+    for k in sorted(cited - have):
+        print("refs NOTE: %s is cited and has no entry in refs.bib" % k)
 
 
 def read_ledger():
@@ -167,6 +251,7 @@ def main():
         n, total = counts(rows)
         print("refs ledger OK: %d/%d checked, %d entries, macros current"
               % (n, total, total))
+        report_uncited(keys)
         return 0
 
     marked, unmarked = [], []
