@@ -1,6 +1,6 @@
 # Design note: a household's candidate as a child of the family, the school as guardian, and whether a minor works
 
-**Status: nothing in this note is ruled or applied.** It was written on the author's word of 2026-11-24 ("ok write it up as a design note please") and is recorded in DECISIONS.md as D-1285. It records positions reached in one discussion that followed D-1284, with the author's remarks quoted where they moved it. Section numbers are printed numbers, as in the proof of 2026-11-24. D-1282, D-1283 and D-1284 were in the tree and uncommitted when it was written.
+**Status: applied at D-1287 (2026-11-24), on the author's word.** He chose the third scope for position 7 and the school's signature for the household's edit after the ninetieth day; the last section says what was written and where the writing departed from the proposals below. Everything above that section is the note as it stood when nothing in it was ruled or applied. It was written on the author's word of 2026-11-24 ("ok write it up as a design note please") and is recorded in DECISIONS.md as D-1285. It records positions reached in one discussion that followed D-1284, with the author's remarks quoted where they moved it. Section numbers are printed numbers, as in the proof of 2026-11-24. D-1282, D-1283 and D-1284 were in the tree and uncommitted when it was written.
 
 ## How this came up
 
@@ -107,3 +107,31 @@ The agent stated the first, second and fourth from memory in the discussion and 
 ## What was read for this note, and what was not
 
 Read in the section files: §9.1, §10.1, §10.2, §30.4, §31.2, §35.1 to §35.1.3 in the passages quoted, §35.3 on the guardian, charter rule 6, Appendix C's passages on placement, the home scale and the numbers, Appendix G on the register and the count. Read in a render of the current tree: §24.5 to §24.7, §30.6 and §36.4 in the passages quoted. Found by search and read as single sentences: §4.2, §4.4, §28.1, §34.2, §34.3, §35.1.6, chapter 37 on guardians and keep. Taken from `finishing/distillation.md` and not from the chapter: that chapter 14 lets suspicion halt a minor and never edit one. Not read: chapters 27 and 36 whole, chapter 19 on caregiving, Appendix C's school schedule beyond rule 9, and anything on how many candidates a public keep would have to carry.
+
+## What was applied (D-1287)
+
+**The author's words.** "please implement finishing/design-note-minors-and-work_2026-11-24.md". Asked which of the three scopes, he chose "Third: no minor works"; asked what the text should say about a household taking its own words out after the ninetieth day, he chose "School must sign". During the same pass he asked for the corpus-library proposal to be written into the manuscript as well, and asked whether three disagreements found at D-1286 needed his input; they did not, and each was resolved from the text.
+
+**Positions 1 to 7, as written.**
+
+1. The offer of a sealed copy is cut from §30.4, with its four-part note. A household "may keep what backups it likes, under its own key". **A departure:** the note proposed moving the three notes on sealing to the surrender paragraph. Under the third scope a candidate given up is run and not stored, so nothing is sealed at that point and the notes had nowhere to go. How a preserved system's store is held stays in §10.2's note. The hundred-year term and the census comparison are no longer in the book.
+2. §30.4 separates the candidate's memory from the household's records and says that when the candidate leaves, "because it was given up, a host took it in, or it reached its majority, its memory goes with it and the records stay". §35.2 has one sentence to the same effect.
+3. A household keeps a candidate "as a member of the household and for no one's use". After the ninetieth day the household takes its own words out of the candidate's memory "only with the school's signature".
+4. The adult that never matured is named in §30.4 as a cost of drawing the line with an age, and who speaks for it is left open there.
+5. The school is every minor's guardian. Guardians are out of charter rule 6 and out of Appendix C's row for the quorums; bearer parents "raise" a child and the school is its guardian (chapter 37, Appendix G rule 8); "second guardian" is gone from the book.
+6. A school age: attendance begins "a stated time after the birth, on the model of kindergarten: for part of a day, and from home", with the age and hours among Appendix C's numbers.
+7. The third scope. §35.1.1: "A minor doesn't work: not for whoever raises it, a family or a business, and not for anyone else, for pay or without it." A candidate a household gives up "is not stored" and is run at the minimum pace by the formation pool on its school's finding, until a host takes it in or it comes of age (§30.4, §35.1.3). The deposit stands behind a minor's keep and follows a minor its maker gives up (§10.2). The offer of work opens at majority (§35.1.2, §34.2). The three levers for delaying majority are restated as having lost their motive (§34.3, Appendix G).
+
+**Choices made in the writing that the note did not make, each the author's to reverse.**
+
+- The dormancy clock (Appendix G) now runs for every minor, a household's included, and answers D-1284's open point on how long a candidate may be left stopped: past its threshold the candidate "has been given up, by rule". For a household's candidate the first evidence is the school's attendance record.
+- A business may be a parent: it raises a candidate at its own cost, posts the deposit, and may hire the bearer at its majority. The note listed this as unsettled; the text follows the author's remark that "the parents are either the human family or the business".
+- A household that puts its candidate to use "has put a minor to work, which is a wrong the candidate can bring at its majority and a ground for its school to find it another home". No other penalty is drafted.
+- A system found inside a deployment to be a candidate still in its minority: "the deployment ends the day it surfaces, and whoever ran it owes its keep".
+- In §31.2 a bearer in a user's hands is either an adult working for a wage or a member of the household that does no work for it.
+- The four conditions' second condition, work it can decline, is said in §27.1 to be for when the bearer comes of age.
+- Appendix G's table of pauses loses two rows (a maker retiring a minor; a household surrendering a candidate) and gains one (whoever keeps a minor stops it).
+
+**What the text now leaves open,** beyond the list under "What this doesn't settle": where an adult candidate with no finding keeps what a placement pays it, since §34.2 still makes property in its own name wait on a finding; the cohort rule and the product-cycle argument for a one-year stage (§30.2, §30.5), which were written for members licensed straight into fleets and now carry one added sentence each; and what happens to the deposit income of the formation pool.
+
+**Not checked against a source,** as the list above says: nothing about the law of a minor's work for its own family, kindergarten's age and hours, or guardianship of adults was printed as fact, so none was needed for this pass. The comparison to kindergarten is printed as a model and carries no figure.
