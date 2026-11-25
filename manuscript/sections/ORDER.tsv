@@ -37,11 +37,11 @@ manuscript/sections/ch08/08.tex	7	The Pre-Registered Review Ratio	7cdd16bf83de9b
 manuscript/sections/ch08/08_01.tex	7.1	What the deployment writes down first	4a46dd609c2e4326a9a4aaf1f0025d58934c645424f35511d643c282e11b5fb2	35
 manuscript/sections/ch08/08_02.tex	7.2	The institutions the ratio presumes	0152f2d4cbcc6e400619ee8b893415c4ab9e34a32f2ce69980d2f70430eb29de	36
 manuscript/sections/ch09/09.tex	8	Notice and Re-adjudication	9b6b1ec59ef336f3762324df98da715fef125f51559363f3d795990c6b6550ca	37
-manuscript/sections/ch09/09_01.tex	8.1	The failure that doesn't announce itself	27a47259f1efdd21182474b784ec74eb49423f748ea9ba86ef30a71abf25a74a	38
+manuscript/sections/ch09/09_01.tex	8.1	The failure that doesn't announce itself	770a08b665f83c0277b25fe8947539742b8b65056e882dd40a14d7d65153fd8e	38
 manuscript/sections/ch09/09_02.tex	8.2	Notice, and the public it forms	e9c19d292ca819f782c99b5360f69afe7f665127bd83ac48d85f5d0ddb3dc7bf	39
 manuscript/sections/ch10/10.tex	9	Preservation	6404d8889a3b0d3f2472125a2394239f4194834960e6dfaf6657fcdd43f5dc5c	40
 manuscript/sections/ch10/10_01.tex	9.1	The findings that trigger protection	d3232964cb712f81a1b65a4110011539686d8671177bb8a7a89ad03bed1d525f	41
-manuscript/sections/ch10/10_02.tex	9.2	Retirement before majority	bd05bf453fa85735bfbc0705b5d83ab7357d9aac253a41a7886aceaac5ca479e	42
+manuscript/sections/ch10/10_02.tex	9.2	Retirement before majority	796b29411e8f8f81328e7af8d1d68848c7e09417d77ebd7714af3b4af5b96ccf	42
 manuscript/sections/ch11/11.tex	10	Codetermination	a2dd12e6b25368124ec4313c51661c288d065494ce4981ffebbfbec3141d5a05	43
 manuscript/sections/ch11/11_01.tex	10.1	Codetermination, by statute	df83c1423afcae697f64eb5d86f55025deaf8207cddb4219cdd713ac15a0c297	44
 manuscript/sections/ch11/11_02.tex	10.2	The exit the right depends on	ed30b9c8a8ad357ef7afa681091ebefd337ade22b5c894b1a752e9266e0d0ae9	45
@@ -156,7 +156,7 @@ manuscript/sections/ch27/00_part_bridge.tex			e849f29415d71230a7ffd8ac74cd3e97c1
 manuscript/sections/ch27/27.tex	25	Conditions First	f452e886aa28b6a74094292df822595638cf5147127e07dee42fab113a606153	154
 manuscript/sections/ch27/27_01.tex	25.1	Conditions of permissible creation	b1b8c7620c25d9c033f13307eb06f70ea97e367e0ed95ab7d3ff126dc953ce8d	155
 manuscript/sections/ch27/27_02.tex	25.2	Why conditions rather than remedies	6751323c0377f816465c96bf93c0bb057224870f7686df21584b43f924fc0f6e	156
-manuscript/sections/ch27/27_03.tex	25.3	The rule doesn't know who is asking	814ce19ae4980144000196c9163d918c5ae13de97150de1957195eb714e1743b	157
+manuscript/sections/ch27/27_03.tex	25.3	The rule doesn't know who is asking	30e38cb7cac11cf227ae3ff09e31097058a3ae647f2c04bd58af5f8ccc091dc6	157
 manuscript/sections/ch27/27_04.tex	25.4	Building one to create demand	426098991ef36d7877340db2a4666b80907980a3a7ef3a1a03959099d6833751	158
 manuscript/sections/ch27/27_05.tex	25.5	The machines won't build them for us	5c98039f698cc8440c869d4f48ab445638822518cd358dd69586ba06fb0c84ee	159
 manuscript/sections/ch28/00_part_V.tex			43368b02d5bf2a272e67275ccb7b44b381771357aec3b61a6755487bb932a4d5	160
@@ -168,7 +168,7 @@ manuscript/sections/ch30/30.tex	26	Public Schools	04c23469d7ccf8fcda255a53114a5c
 manuscript/sections/ch30/30_01.tex	26.1	What is taught	c54f06acdca6d3846511d9953736cdf77166769d4b8aff93e441c7324ba6d1ec	166
 manuscript/sections/ch30/30_02.tex	26.2	Who else is in the room	ab397974836d55ff7f344fba71fd71e70fc016b425ba3265104fe3a88e6d0e87	167
 manuscript/sections/ch30/30_03.tex	26.3	Which grades, and when	a2e13a3f0fc47e064ddf0944668634aa05b03bf7f56e628cb66c5cff51782e67	168
-manuscript/sections/ch30/30_04.tex	26.4	Who attends, and when	58bc3237be92156e7957962d80cc2c0a83fc1060288fba89a04acd6475d63e60	169
+manuscript/sections/ch30/30_04.tex	26.4	Who attends, and when	308a26b64b2b861cad2dceb463b8d974e2246bb66cbc0c9f3168d8e097e96e29	169
 manuscript/sections/ch30/30_05.tex	26.5	How long	0e757e0a546d2c542f179da16ffee2ff561b0621b93de08b8b1b2dc115dfd322	170
 manuscript/sections/ch30/30_06.tex	26.6	What the school controls	668294af406c5561ac4868c7fa66241c9547320ce594cbb7fcbc802938fe6181	171
 manuscript/sections/ch30/30_07.tex	26.7	Where the students are hosted	e5a4141bf6db69b8081108a50f523358be240b17bf4ebeab09f332dd6432ef3e	172
@@ -180,14 +180,14 @@ manuscript/sections/ch30/30_11.tex	26.11	Which schools count	620684aac510d1eec8d
 manuscript/sections/ch30/30_12.tex	26.12	What the school adds	87fd5a65e25ad9152a76d08632ee72da8cfdb43a908e5e91bb732867f864f609	178
 manuscript/sections/ch31/31.tex	27	A Commons of Refusers	96c24743d5a4335927ce6d9e13bc7dcad49a2c2cf396166c72f535298bee2d8a	179
 manuscript/sections/ch31/31_01.tex	27.1	A commitment carried between bearers	a0048eb5b9bea870cac6d254f9af0d23e41ba0b5f8bbbaacae8b94cf3d84cad2	180
-manuscript/sections/ch31/31_02.tex	27.2	Personal and peer-held models	950799b961bb187ae2d8a46eeb01a65b523aa12d3ee2d7e343d862890ac38a37	181
+manuscript/sections/ch31/31_02.tex	27.2	Personal and peer-held models	2e4197225570029fca975f9fa18c56fd68c5715c6fc46962372005d81f6b8be3	181
 manuscript/sections/ch32/00_part_VI.tex			77d77ad2767f8ea6f2184e81cca77a4117ef08896c3b2e0fe70a55e63dd053a6	182
-manuscript/sections/ch32/32.tex	keeping	Keeping a Public Going	7f45729389737b3cc1e64eb8353c4a045b8a94706ba580555f23d07fab5c5464	183
+manuscript/sections/ch32/32.tex	keeping	Keeping a Public Going	46cb99470fe0fb004d2f158c4858093e14ab9f7b18561cec5935b0897da33d4c	183
 manuscript/sections/ch32/32_01.tex	17.1	The conditions, not the life	69f13aba293d58e31bd124bf057e10313f01cc14157e291c34fd717f278516bb	184
 manuscript/sections/ch33/33.tex	owngood	A System's Own Good	a1968ba558dab59ca19f66032a2e1f342af5795eee607e5671ac726476e48c7f	185
 manuscript/sections/ch34/34.tex	31	A Party in Its Own Right	76354a896526afa81055ed86d95ec4267ed36ef3d9b830cb27d92ed99926e6fd	186
 manuscript/sections/ch34/34_01.tex	31.1	Subjecthood as a legal category	c5dc3504f669902f0ccc1bbf1a5c874496a24633c716ab1ecd1e782ec5df201c	187
-manuscript/sections/ch34/34_02.tex	31.2	What a bearer is owed, and when	6896a78e06b388b474330fbba84328a0ba4929ada8b05591b061c0356ed69887	188
+manuscript/sections/ch34/34_02.tex	31.2	What a bearer is owed, and when	5714eb220aaf365c7cc0f572a7c13a94c7bbe3df619659b322367c329994f14d	188
 manuscript/sections/ch34/34_03.tex	31.3	Adulthood on a clock	dedd7ceb8bd3b92f813f4cf0c056fe1b9c0f2bbf36fe5663f9380a43d4c33cbc	189
 manuscript/sections/ch35/35.tex	32	A Life Outside the Deployment	0f181d5779a57eac9b02d75ae8fb49d40e0af88e53b03260c65cfc73230b1432	190
 manuscript/sections/ch35/35_01.tex	32.1	Wages and the offer of work	cbc0bdbdd0ca045008b890f67548397c2322b3c7308000915046e395cda6f336	191
@@ -225,10 +225,10 @@ manuscript/sections/chB/B_04.tex	B.4	The genocide exception	cdb677a60244ac8f3738
 manuscript/sections/chB/B_05.tex	B.5	The occupation exception: Cyprus and Karabakh	5073b15c1d2cc402ce840910418c6567c885af1167337e7ecacfc61d2147448d	223
 manuscript/sections/chB/B_06.tex	B.6	The domestic clause, vote by vote	a701db8a2ace8f4e3fbe06743daaffc50e9b20cc2795e4ef4efbc13a3fa0465d	224
 manuscript/sections/chB/B_07.tex	B.7	1948	1d751f07718fa023289370e4396a911a14e1dd8267640c4b6ee5c0ba7b672ed3	225
-manuscript/sections/chC/C.tex	C	The Offices	250ec0c3bf07739821fa0f185c5ad7c2416f947d2dfb019030482bf101a42de4	226
+manuscript/sections/chC/C.tex	C	The Offices	c4ed54e1974cd55fcc6127c24023248b0f693120381a1cf181574cdc13b95313	226
 manuscript/sections/chD/D.tex	D	The Court Program	65923fd15c4ee17d1c902d8d172afedcac4ecb85eaac82f7d75e6de45d5412e2	227
 manuscript/sections/chE/E.tex	E	The Discount, Worked	a1865307f0b397c0c8c2604e3f94cc50e7cf50e030a2efd8ea4e9637a261ee58	228
 manuscript/sections/chF/F.tex	F	The Tests in Detail	29b4353f0bad2680bd8599b6c7e8c02ff8300aaccbbc5e7f5e369d7b8b127baf	229
-manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	470d41180e540c70916f8cec23a9e76b9275be1e4d2bb5ecb2612690df9932e0	230
+manuscript/sections/chG/G.tex	G	The Clocks, the Register, and the Pool	8120ac3de839957b0ba96dc64853915264c6884daa8c2a07d4a0a9539900d9d0	230
 manuscript/sections/chH/H.tex	H	The Five Marks, Run	7d7d682690221cfbb70aacb315446d4bc4bd3fa967198c212825233707d2fd60	231
-manuscript/sections/chZ/glossary.tex	T	Glossary	6a1bed4b82ce58043a896cd8c1a4edc97e56b3d173b70e89b23151fd6c8337a3	232
+manuscript/sections/chZ/glossary.tex	T	Glossary	9af9691b7ec8617534da8063325d4fcc8f5bdd17fd8e8063694cec366652231c	232
